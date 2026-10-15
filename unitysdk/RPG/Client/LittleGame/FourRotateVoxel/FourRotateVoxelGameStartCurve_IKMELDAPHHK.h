@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::LittleGame::FourRotateVoxel
 {
+	inline static constexpr unsigned int FourRotateVoxelGameStartCurve_IKMELDAPHHK_TypeDefinitionIndex = 76842;
+
 	class FourRotateVoxelGameStartCurve_IKMELDAPHHK : public ::System::Object
 	{
 	public:

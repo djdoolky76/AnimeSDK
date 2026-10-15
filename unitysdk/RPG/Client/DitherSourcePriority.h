@@ -3,6 +3,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int DitherSourcePriority_TypeDefinitionIndex = 68852;
+
 	enum class DitherSourcePriority : ::System::Int32
 	{
 		Default = 0,

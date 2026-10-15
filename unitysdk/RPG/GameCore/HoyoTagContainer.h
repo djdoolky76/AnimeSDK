@@ -41,6 +41,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int HoyoTagContainer_TypeDefinitionIndex = 18319;
+
 	class HoyoTagContainer : public ::RPG::GameCore::JsonConfig
 	{
 	public:

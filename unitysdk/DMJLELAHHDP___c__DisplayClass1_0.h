@@ -6,6 +6,8 @@ namespace RPG::Client::PetMarble { class PetMarblePVEMatchContext; }
 #define DMJLELAHHDP___C__DISPLAYCLASS1_0_CTOR_OFFSET UNITYSDK_OFFSET(0xFEC3830)
 #define DMJLELAHHDP___C__DISPLAYCLASS1_0__ONTASKBEGIN_B__0_OFFSET UNITYSDK_OFFSET(0xFEC38B0)
 
+inline static constexpr unsigned int DMJLELAHHDP___c__DisplayClass1_0_TypeDefinitionIndex = 52303;
+
 	class DMJLELAHHDP___c__DisplayClass1_0 : public ::System::Object
 	{
 	public:

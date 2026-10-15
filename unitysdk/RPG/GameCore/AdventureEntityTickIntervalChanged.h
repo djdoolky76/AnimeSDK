@@ -17,6 +17,8 @@ namespace RPG::GameCore { class AdventureEntityTickIntervalChanged; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdventureEntityTickIntervalChanged_TypeDefinitionIndex = 56614;
+
 	class AdventureEntityTickIntervalChanged : public ::CMPGEAFHHDC
 	{
 	public:

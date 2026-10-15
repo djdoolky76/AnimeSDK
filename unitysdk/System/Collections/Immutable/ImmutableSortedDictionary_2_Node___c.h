@@ -7,6 +7,8 @@ namespace System::Collections::Generic { class KeyValuePair; }
 
 namespace System::Collections::Immutable
 {
+	inline static constexpr unsigned int ImmutableSortedDictionary_2_Node___c_TypeDefinitionIndex = 6651;
+
 	template <typename T1, typename T2>
 	class ImmutableSortedDictionary_2_Node___c : public ::System::Object
 	{

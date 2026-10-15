@@ -8,6 +8,8 @@ namespace System { class Action; }
 
 namespace RPG::Client::FateRin::CaseBoard
 {
+	inline static constexpr unsigned int CaseBoardSimpleTalkParams_TypeDefinitionIndex = 80810;
+
 	class CaseBoardSimpleTalkParams : public ::System::Object
 	{
 	public:

@@ -7,6 +7,8 @@
 
 namespace System::Runtime::CompilerServices
 {
+	inline static constexpr unsigned int DefaultDependencyAttribute_TypeDefinitionIndex = 1378;
+
 	class DefaultDependencyAttribute : public ::System::Attribute
 	{
 	public:

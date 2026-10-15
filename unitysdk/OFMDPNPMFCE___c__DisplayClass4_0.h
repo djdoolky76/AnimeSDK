@@ -7,6 +7,8 @@ namespace System { class Action; }
 #define OFMDPNPMFCE___C__DISPLAYCLASS4_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1C57A9B0)
 #define OFMDPNPMFCE___C__DISPLAYCLASS4_0___SUBSCRIBE_B__0_OFFSET UNITYSDK_OFFSET(0x1C57AB70)
 
+inline static constexpr unsigned int OFMDPNPMFCE___c__DisplayClass4_0_TypeDefinitionIndex = 41858;
+
 	class OFMDPNPMFCE___c__DisplayClass4_0 : public ::System::Object
 	{
 	public:

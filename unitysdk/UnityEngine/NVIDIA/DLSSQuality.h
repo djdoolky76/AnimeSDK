@@ -3,6 +3,8 @@
 
 namespace UnityEngine::NVIDIA
 {
+	inline static constexpr unsigned int DLSSQuality_TypeDefinitionIndex = 5022;
+
 	enum class DLSSQuality : ::System::Int32
 	{
 		MaximumQuality = 2,

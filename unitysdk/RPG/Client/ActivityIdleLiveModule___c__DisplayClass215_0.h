@@ -9,6 +9,8 @@ class KJMHIDMOBMB;
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ActivityIdleLiveModule___c__DisplayClass215_0_TypeDefinitionIndex = 61540;
+
 	class ActivityIdleLiveModule___c__DisplayClass215_0 : public ::System::Object
 	{
 	public:

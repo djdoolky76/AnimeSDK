@@ -7,6 +7,8 @@ namespace System { class Object; }
 
 namespace UnityEngine::Formats::Alembic::Sdk
 {
+	inline static constexpr unsigned int PinnedListImpl_ListData_TypeDefinitionIndex = 45845;
+
 	class PinnedListImpl_ListData : public ::System::Object
 	{
 	public:

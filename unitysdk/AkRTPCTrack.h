@@ -11,6 +11,8 @@ namespace UnityEngine { class GameObject; }
 #define AKRTPCTRACK_ONVALIDATE_OFFSET UNITYSDK_OFFSET(0x1F5B4920)
 #define AKRTPCTRACK_SETPLAYABLEPROPERTIES_OFFSET UNITYSDK_OFFSET(0x1F5B4380)
 
+inline static constexpr unsigned int AkRTPCTrack_TypeDefinitionIndex = 44942;
+
 	class AkRTPCTrack : public ::UnityEngine::Timeline::TrackAsset
 	{
 	public:

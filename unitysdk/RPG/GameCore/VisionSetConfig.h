@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int VisionSetConfig_TypeDefinitionIndex = 17428;
+
 	class VisionSetConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

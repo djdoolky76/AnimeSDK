@@ -18,6 +18,8 @@ namespace RPG::Client { class ChimeraDuelGameSessionCurrentRound; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ChimeraDuelGameSessionCurrentRound_TypeDefinitionIndex = 63318;
+
 	class ChimeraDuelGameSessionCurrentRound : public ::System::Object
 	{
 	public:

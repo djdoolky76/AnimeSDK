@@ -12,6 +12,8 @@ namespace Mono::Math { class BigInteger; }
 
 namespace Mono::Math
 {
+	inline static constexpr unsigned int BigInteger_ModulusRing_TypeDefinitionIndex = 83;
+
 	class BigInteger_ModulusRing : public ::System::Object
 	{
 	public:

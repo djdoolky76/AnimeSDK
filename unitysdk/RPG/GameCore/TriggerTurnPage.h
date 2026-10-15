@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TriggerTurnPage; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TriggerTurnPage_TypeDefinitionIndex = 22694;
+
 	class TriggerTurnPage : public ::RPG::GameCore::TaskConfig
 	{
 	public:

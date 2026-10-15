@@ -83,6 +83,8 @@ namespace System { class Object; }
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
+	inline static constexpr unsigned int B2Joints_TypeDefinitionIndex = 36703;
+
 	class B2Joints : public ::System::Object
 	{
 	public:

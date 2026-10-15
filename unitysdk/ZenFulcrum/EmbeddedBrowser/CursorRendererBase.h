@@ -10,6 +10,8 @@ namespace ZenFulcrum::EmbeddedBrowser { class BrowserCursor; }
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
+	inline static constexpr unsigned int CursorRendererBase_TypeDefinitionIndex = 39467;
+
 	class CursorRendererBase : public ::UnityEngine::MonoBehaviour
 	{
 	public:

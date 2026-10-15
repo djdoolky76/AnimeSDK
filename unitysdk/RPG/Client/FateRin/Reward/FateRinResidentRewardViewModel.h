@@ -29,6 +29,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::FateRin::Reward
 {
+	inline static constexpr unsigned int FateRinResidentRewardViewModel_TypeDefinitionIndex = 80732;
+
 	class FateRinResidentRewardViewModel : public ::RPG::Client::FateRin::BaseViewModel
 	{
 	public:

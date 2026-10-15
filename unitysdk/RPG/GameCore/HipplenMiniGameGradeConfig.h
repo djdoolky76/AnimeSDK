@@ -10,6 +10,8 @@ namespace RPG::GameCore { class HipplenMiniGameGradeConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int HipplenMiniGameGradeConfig_TypeDefinitionIndex = 16786;
+
 	class HipplenMiniGameGradeConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

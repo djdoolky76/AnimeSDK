@@ -30,6 +30,8 @@ namespace System { class String; }
 #define FMHFNGKMLEH_PGOMIHLBENA_OFFSET UNITYSDK_OFFSET(0x15858440)
 #define FMHFNGKMLEH_PNKAKPCMGEB_OFFSET UNITYSDK_OFFSET(0x15858A20)
 
+inline static constexpr unsigned int FMHFNGKMLEH_TypeDefinitionIndex = 60294;
+
 	class FMHFNGKMLEH : public ::FIMDJOBJCNE
 	{
 	public:

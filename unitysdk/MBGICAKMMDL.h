@@ -11,6 +11,8 @@ namespace RPG::Client::NavMap { class ITrackPointInfo; }
 #define MBGICAKMMDL_OPGJPKNJNHO_OFFSET UNITYSDK_OFFSET(0xB85A9F0)
 #define MBGICAKMMDL_PINOHKICPPA_OFFSET UNITYSDK_OFFSET(0xB85ACD0)
 
+inline static constexpr unsigned int MBGICAKMMDL_TypeDefinitionIndex = 74575;
+
 	class MBGICAKMMDL : public ::System::Object
 	{
 	public:

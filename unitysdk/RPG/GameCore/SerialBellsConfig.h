@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SerialBellsConfig_TypeDefinitionIndex = 16381;
+
 	class SerialBellsConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

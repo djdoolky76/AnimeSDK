@@ -11,6 +11,8 @@ namespace RPG::GameCore { class ItemConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int EquipmentPromotionRow_TypeDefinitionIndex = 13238;
+
 	class EquipmentPromotionRow : public ::System::Object
 	{
 	public:

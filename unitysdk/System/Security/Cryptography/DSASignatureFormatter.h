@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace System::Security::Cryptography
 {
+	inline static constexpr unsigned int DSASignatureFormatter_TypeDefinitionIndex = 1022;
+
 	class DSASignatureFormatter : public ::System::Security::Cryptography::AsymmetricSignatureFormatter
 	{
 	public:

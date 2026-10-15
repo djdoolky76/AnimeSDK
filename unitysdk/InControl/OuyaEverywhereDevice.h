@@ -11,6 +11,8 @@
 
 namespace InControl
 {
+	inline static constexpr unsigned int OuyaEverywhereDevice_TypeDefinitionIndex = 40873;
+
 	class OuyaEverywhereDevice : public ::InControl::InputDevice
 	{
 	public:

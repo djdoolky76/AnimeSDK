@@ -6,6 +6,8 @@
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
+	inline static constexpr unsigned int B2PrismaticJoint_TypeDefinitionIndex = 36728;
+
 	struct alignas(4) B2PrismaticJoint
 	{
 		::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Vec2 impulse; // 0x10

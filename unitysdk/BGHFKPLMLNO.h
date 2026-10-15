@@ -4,6 +4,8 @@
 
 #define BGHFKPLMLNO_CTOR_OFFSET UNITYSDK_OFFSET(0xB188C70)
 
+inline static constexpr unsigned int BGHFKPLMLNO_TypeDefinitionIndex = 47436;
+
 	class BGHFKPLMLNO : public ::UnityEngine::PropertyAttribute
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FateActReplaceMasterAffixByRarityConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FateActReplaceMasterAffixByRarityConfig_TypeDefinitionIndex = 19236;
+
 	class FateActReplaceMasterAffixByRarityConfig : public ::RPG::GameCore::FateActionConfigBase
 	{
 	public:

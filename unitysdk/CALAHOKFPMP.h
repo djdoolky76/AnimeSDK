@@ -16,6 +16,8 @@ namespace UnityEngine::UI { class Text; }
 #define CALAHOKFPMP_PDHNKIPOCKB_OFFSET UNITYSDK_OFFSET(0xC488220)
 #define CALAHOKFPMP__ONBIND_OFFSET UNITYSDK_OFFSET(0xC487BF0)
 
+inline static constexpr unsigned int CALAHOKFPMP_TypeDefinitionIndex = 72341;
+
 	class CALAHOKFPMP : public ::FMPCODLIOLG
 	{
 	public:

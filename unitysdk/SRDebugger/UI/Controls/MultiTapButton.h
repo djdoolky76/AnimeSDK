@@ -8,6 +8,8 @@ namespace UnityEngine::EventSystems { class PointerEventData; }
 
 namespace SRDebugger::UI::Controls
 {
+	inline static constexpr unsigned int MultiTapButton_TypeDefinitionIndex = 38026;
+
 	class MultiTapButton : public ::UnityEngine::UI::Button
 	{
 	public:

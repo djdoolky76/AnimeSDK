@@ -11,6 +11,8 @@ namespace System { template <typename T> class Func_1; }
 #define NPJIHLMFFGG_DOONENTER_OFFSET UNITYSDK_OFFSET(0xBCFEB50)
 #define NPJIHLMFFGG_DOONEXIT_OFFSET UNITYSDK_OFFSET(0xBCFEBD0)
 
+inline static constexpr unsigned int NPJIHLMFFGG_TypeDefinitionIndex = 78813;
+
 	class NPJIHLMFFGG : public ::FKHGEDHCPHJ
 	{
 	public:

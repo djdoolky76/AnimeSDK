@@ -7,6 +7,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define HHLGEGKCIOH_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15CD16B0)
 #define HHLGEGKCIOH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15CD1810)
 
+inline static constexpr unsigned int HHLGEGKCIOH_TypeDefinitionIndex = 56377;
+
 	class HHLGEGKCIOH
 	{
 	public:

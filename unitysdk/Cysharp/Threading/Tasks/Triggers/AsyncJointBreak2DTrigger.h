@@ -14,6 +14,8 @@ namespace UnityEngine { class Joint2D; }
 
 namespace Cysharp::Threading::Tasks::Triggers
 {
+	inline static constexpr unsigned int AsyncJointBreak2DTrigger_TypeDefinitionIndex = 38555;
+
 	class AsyncJointBreak2DTrigger
 	{
 	public:

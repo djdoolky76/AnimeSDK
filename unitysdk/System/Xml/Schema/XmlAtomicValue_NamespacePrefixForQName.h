@@ -9,6 +9,8 @@ namespace System { class String; }
 
 namespace System::Xml::Schema
 {
+	inline static constexpr unsigned int XmlAtomicValue_NamespacePrefixForQName_TypeDefinitionIndex = 2182;
+
 	class XmlAtomicValue_NamespacePrefixForQName : public ::System::Object
 	{
 	public:

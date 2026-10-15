@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 #define CJMKENDJALE_DFACNDFPDHK_OFFSET UNITYSDK_OFFSET(0xD4D25C0)
 #define CJMKENDJALE_EFKEHEAMAKI_OFFSET UNITYSDK_OFFSET(0xD4D26C0)
 
+inline static constexpr unsigned int CJMKENDJALE_TypeDefinitionIndex = 62651;
+
 	class CJMKENDJALE : public ::System::Object
 	{
 	public:

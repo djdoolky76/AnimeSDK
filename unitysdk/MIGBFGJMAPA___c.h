@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define MIGBFGJMAPA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA3B730)
 #define MIGBFGJMAPA___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1EA3B740)
 
+inline static constexpr unsigned int MIGBFGJMAPA___c_TypeDefinitionIndex = 28222;
+
 	class MIGBFGJMAPA___c : public ::System::Object
 	{
 	public:

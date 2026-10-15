@@ -16,6 +16,8 @@ namespace System { class String; }
 #define APIHGEGGOEL_OOFPLDBPIGD_OFFSET UNITYSDK_OFFSET(0x1EBEC910)
 #define APIHGEGGOEL_SET_HASVALUE_OFFSET UNITYSDK_OFFSET(0x1EBEC900)
 
+inline static constexpr unsigned int APIHGEGGOEL_TypeDefinitionIndex = 35211;
+
 	class APIHGEGGOEL : public ::System::Object
 	{
 	public:

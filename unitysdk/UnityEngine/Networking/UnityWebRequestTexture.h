@@ -9,6 +9,8 @@ namespace UnityEngine::Networking { class UnityWebRequest; }
 
 namespace UnityEngine::Networking
 {
+	inline static constexpr unsigned int UnityWebRequestTexture_TypeDefinitionIndex = 6031;
+
 	class UnityWebRequestTexture : public ::System::Object
 	{
 	public:

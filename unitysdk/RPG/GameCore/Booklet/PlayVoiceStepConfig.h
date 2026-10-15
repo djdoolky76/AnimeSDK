@@ -10,6 +10,8 @@ namespace RPG::GameCore::Booklet { class PlayVoiceStepConfig; }
 
 namespace RPG::GameCore::Booklet
 {
+	inline static constexpr unsigned int PlayVoiceStepConfig_TypeDefinitionIndex = 24984;
+
 	class PlayVoiceStepConfig : public ::RPG::GameCore::Booklet::StepConfig
 	{
 	public:

@@ -14,6 +14,8 @@ namespace System::Collections::Generic { class KeyValuePair; }
 
 namespace Codable
 {
+	inline static constexpr unsigned int JSONNode_Enumerator_TypeDefinitionIndex = 46068;
+
 	struct alignas(8) JSONNode_Enumerator
 	{
 		::Codable::JSONNode_Enumerator_Type type; // 0x10

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class AdvGameplayTrackNpcReset; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdvGameplayTrackNpcReset_TypeDefinitionIndex = 22185;
+
 	class AdvGameplayTrackNpcReset : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -3,6 +3,8 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class NotifyHandler; }
 
+inline static constexpr unsigned int GHGCKEMFMDM___O_TypeDefinitionIndex = 52364;
+
 	class GHGCKEMFMDM___O : public ::System::Object
 	{
 	public:

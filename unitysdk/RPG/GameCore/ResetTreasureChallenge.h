@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ResetTreasureChallenge; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ResetTreasureChallenge_TypeDefinitionIndex = 20472;
+
 	class ResetTreasureChallenge : public ::RPG::GameCore::TaskConfig
 	{
 	public:

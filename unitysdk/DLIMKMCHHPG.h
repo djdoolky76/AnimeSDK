@@ -8,6 +8,8 @@ namespace RPG::GameCore { class ChimeraShowJumpText; }
 #define DLIMKMCHHPG_KMFNKDMEJBC_OFFSET UNITYSDK_OFFSET(0xF8A0A10)
 #define DLIMKMCHHPG_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0xF8A0A50)
 
+inline static constexpr unsigned int DLIMKMCHHPG_TypeDefinitionIndex = 78418;
+
 	class DLIMKMCHHPG : public ::System::Object
 	{
 	public:

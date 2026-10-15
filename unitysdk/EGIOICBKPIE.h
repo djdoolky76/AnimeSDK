@@ -8,6 +8,8 @@ class FCOEMCEDLNL;
 #define EGIOICBKPIE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CD7C820)
 #define EGIOICBKPIE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CD7C750)
 
+inline static constexpr unsigned int EGIOICBKPIE_TypeDefinitionIndex = 19943;
+
 	class EGIOICBKPIE : public ::RPG::GameCore::TaskConfig
 	{
 	public:

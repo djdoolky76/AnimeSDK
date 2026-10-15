@@ -11,6 +11,8 @@ namespace System { class String; }
 #define EHHDMKMGNPH_CLEAR_OFFSET UNITYSDK_OFFSET(0x1CA50520)
 #define EHHDMKMGNPH_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA50690)
 
+inline static constexpr unsigned int EHHDMKMGNPH_TypeDefinitionIndex = 42019;
+
 	class EHHDMKMGNPH : public ::System::Object
 	{
 	public:

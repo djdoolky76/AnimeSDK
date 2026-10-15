@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define IPAONACBAID_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1CF2B5B0)
 #define IPAONACBAID_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1CF2AED0)
 
+inline static constexpr unsigned int IPAONACBAID_TypeDefinitionIndex = 13845;
+
 	class IPAONACBAID : public ::System::Object
 	{
 	public:

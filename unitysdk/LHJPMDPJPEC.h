@@ -9,6 +9,8 @@ namespace RPG::GameCore { class MarblePredicateConfig; }
 #define LHJPMDPJPEC_KDNAAOHECPD_OFFSET UNITYSDK_OFFSET(0x1C90ECC0)
 #define LHJPMDPJPEC_KFGJEKJHIMB_OFFSET UNITYSDK_OFFSET(0x1C90EC00)
 
+inline static constexpr unsigned int LHJPMDPJPEC_TypeDefinitionIndex = 43163;
+
 	class LHJPMDPJPEC : public ::BKABEBEPPJK
 	{
 	public:

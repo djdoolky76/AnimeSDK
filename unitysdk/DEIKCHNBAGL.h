@@ -27,6 +27,8 @@ namespace System { class String; }
 #define DEIKCHNBAGL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E195030)
 #define DEIKCHNBAGL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E195090)
 
+inline static constexpr unsigned int DEIKCHNBAGL_TypeDefinitionIndex = 26330;
+
 	class DEIKCHNBAGL : public ::System::Object
 	{
 	public:

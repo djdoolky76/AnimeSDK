@@ -5,6 +5,8 @@
 #define BGMAKCLLBFF_EXECUTE_OFFSET UNITYSDK_OFFSET(0x10170)
 #define BGMAKCLLBFF_HFPJMFFFAFH_OFFSET UNITYSDK_OFFSET(0x10150)
 
+inline static constexpr unsigned int BGMAKCLLBFF_TypeDefinitionIndex = 71083;
+
 	struct alignas(4) BGMAKCLLBFF
 	{
 		::System::UInt32 GMDBHJKEAEI; // 0x10

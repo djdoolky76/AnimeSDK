@@ -22,6 +22,8 @@ namespace System::Security::Cryptography { class RSA; }
 
 namespace Mono::Security::Cryptography
 {
+	inline static constexpr unsigned int PKCS8_378BF51D75BB8F46_PrivateKeyInfo_TypeDefinitionIndex = 2308;
+
 	class PKCS8_378BF51D75BB8F46_PrivateKeyInfo : public ::System::Object
 	{
 	public:

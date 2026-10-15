@@ -30,6 +30,8 @@ namespace System { class String; }
 #define IKMOCJBMGOJ_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E6A5640)
 #define IKMOCJBMGOJ_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E6A56A0)
 
+inline static constexpr unsigned int IKMOCJBMGOJ_TypeDefinitionIndex = 29436;
+
 	class IKMOCJBMGOJ : public ::System::Object
 	{
 	public:

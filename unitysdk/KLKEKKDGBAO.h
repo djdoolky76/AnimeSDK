@@ -20,6 +20,8 @@ namespace UnityEngine { class Transform; }
 #define KLKEKKDGBAO_PFNHAMFJBFJ_OFFSET UNITYSDK_OFFSET(0xB52BBC0)
 #define KLKEKKDGBAO_TICK_OFFSET UNITYSDK_OFFSET(0xB52C020)
 
+inline static constexpr unsigned int KLKEKKDGBAO_TypeDefinitionIndex = 56962;
+
 	class KLKEKKDGBAO : public ::RPG::GameCore::GameComponentBase
 	{
 	public:

@@ -20,6 +20,8 @@ namespace System { class Object; }
 #define BKOJBPIIMDF_PDDHJJBHHHK_OFFSET UNITYSDK_OFFSET(0xBA63840)
 #define BKOJBPIIMDF_TICK_OFFSET UNITYSDK_OFFSET(0xBA634C0)
 
+inline static constexpr unsigned int BKOJBPIIMDF_TypeDefinitionIndex = 53412;
+
 	class BKOJBPIIMDF : public ::GELIALJDFBL
 	{
 	public:

@@ -31,6 +31,8 @@ namespace System { class String; }
 #define LMKECAPDMAC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E9A8690)
 #define LMKECAPDMAC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E9A86F0)
 
+inline static constexpr unsigned int LMKECAPDMAC_TypeDefinitionIndex = 34716;
+
 	class LMKECAPDMAC : public ::System::Object
 	{
 	public:

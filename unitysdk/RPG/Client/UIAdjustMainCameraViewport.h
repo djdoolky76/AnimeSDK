@@ -13,6 +13,8 @@ namespace System { class Object; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int UIAdjustMainCameraViewport_TypeDefinitionIndex = 73020;
+
 	class UIAdjustMainCameraViewport : public ::UnityEngine::MonoBehaviour
 	{
 	public:

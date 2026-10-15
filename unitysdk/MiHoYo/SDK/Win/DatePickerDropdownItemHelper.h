@@ -8,6 +8,8 @@
 
 namespace MiHoYo::SDK::Win
 {
+	inline static constexpr unsigned int DatePickerDropdownItemHelper_TypeDefinitionIndex = 9291;
+
 	class DatePickerDropdownItemHelper : public ::UnityEngine::MonoBehaviour
 	{
 	public:

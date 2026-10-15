@@ -6,6 +6,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define HKEJIALCLDK_CTOR_OFFSET UNITYSDK_OFFSET(0x1CAECBB0)
 
+inline static constexpr unsigned int HKEJIALCLDK_TypeDefinitionIndex = 42847;
+
 	class HKEJIALCLDK : public ::System::Object
 	{
 	public:

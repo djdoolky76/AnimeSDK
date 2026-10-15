@@ -42,6 +42,8 @@ namespace System { class String; }
 #define HKOEAOPNEAC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E5B8320)
 #define HKOEAOPNEAC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E5B8380)
 
+inline static constexpr unsigned int HKOEAOPNEAC_TypeDefinitionIndex = 33445;
+
 	class HKOEAOPNEAC : public ::System::Object
 	{
 	public:

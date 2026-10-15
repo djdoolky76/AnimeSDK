@@ -8,6 +8,8 @@ class GGJFAFONDHN;
 
 namespace EnviromentSystemV2Space
 {
+	inline static constexpr unsigned int LayoutVector4CurvePropertyData_TypeDefinitionIndex = 49377;
+
 	class LayoutVector4CurvePropertyData
 	{
 	public:

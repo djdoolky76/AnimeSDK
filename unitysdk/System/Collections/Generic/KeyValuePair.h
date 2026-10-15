@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace System::Collections::Generic
 {
+	inline static constexpr unsigned int KeyValuePair_TypeDefinitionIndex = 1529;
+
 	class KeyValuePair : public ::System::Object
 	{
 	public:

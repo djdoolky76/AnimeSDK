@@ -15,6 +15,8 @@ namespace System { class String; }
 
 namespace Cysharp::Threading::Tasks::Internal
 {
+	inline static constexpr unsigned int Error_TypeDefinitionIndex = 38659;
+
 	class Error : public ::System::Object
 	{
 	public:

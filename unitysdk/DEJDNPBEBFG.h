@@ -7,6 +7,8 @@ class FCOEMCEDLNL;
 #define DEJDNPBEBFG_CTOR_OFFSET UNITYSDK_OFFSET(0x1CD12B70)
 #define DEJDNPBEBFG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CD12A80)
 
+inline static constexpr unsigned int DEJDNPBEBFG_TypeDefinitionIndex = 11711;
+
 	class DEJDNPBEBFG : public ::System::Object
 	{
 	public:

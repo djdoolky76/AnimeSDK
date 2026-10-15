@@ -8,6 +8,8 @@ namespace RPG::Client::Billboard { class BillboardIdentifier; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int BillboardWayPointMutexConfig_TypeDefinitionIndex = 60498;
+
 	class BillboardWayPointMutexConfig : public ::System::Object
 	{
 	public:

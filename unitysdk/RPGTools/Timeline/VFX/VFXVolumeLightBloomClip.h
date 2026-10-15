@@ -14,6 +14,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPGTools::Timeline::VFX
 {
+	inline static constexpr unsigned int VFXVolumeLightBloomClip_TypeDefinitionIndex = 48693;
+
 	class VFXVolumeLightBloomClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:

@@ -22,6 +22,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client::ActivityMarble
 {
+	inline static constexpr unsigned int MarbleSealPoolProxy_TypeDefinitionIndex = 75974;
+
 	class MarbleSealPoolProxy : public ::System::Object
 	{
 	public:

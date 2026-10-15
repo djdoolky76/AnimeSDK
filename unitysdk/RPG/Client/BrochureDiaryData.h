@@ -50,6 +50,8 @@ namespace UnityEngine { class RectTransform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int BrochureDiaryData_TypeDefinitionIndex = 68179;
+
 	class BrochureDiaryData : public ::System::Object
 	{
 	public:

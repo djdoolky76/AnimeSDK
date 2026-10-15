@@ -11,6 +11,8 @@ namespace MiHoYo::SDK::PluginUI { class HoYoSDKCommonToast; }
 
 namespace MiHoYo::SDK::PluginUI
 {
+	inline static constexpr unsigned int HoYoSDKCommonToast_TypeDefinitionIndex = 46749;
+
 	class HoYoSDKCommonToast : public ::MiHoYo::SDK::PluginUI::MiHoYoSDKUIContainer
 	{
 	public:

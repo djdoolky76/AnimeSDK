@@ -27,6 +27,8 @@ namespace System { class String; }
 #define GMABBKEMPNP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E4C8870)
 #define GMABBKEMPNP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E4C88D0)
 
+inline static constexpr unsigned int GMABBKEMPNP_TypeDefinitionIndex = 34096;
+
 	class GMABBKEMPNP : public ::System::Object
 	{
 	public:

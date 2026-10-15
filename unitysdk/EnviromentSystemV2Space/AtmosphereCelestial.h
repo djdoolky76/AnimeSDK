@@ -26,6 +26,8 @@ namespace UnityEngine::Rendering { class CommandBuffer; }
 
 namespace EnviromentSystemV2Space
 {
+	inline static constexpr unsigned int AtmosphereCelestial_TypeDefinitionIndex = 49359;
+
 	class AtmosphereCelestial : public ::RPG::Client::CelestialRenderer
 	{
 	public:

@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int WeaponTypeEnum_TypeDefinitionIndex = 16498;
+
 	enum class WeaponTypeEnum : ::System::Int32
 	{
 		WP_Punch = 0,

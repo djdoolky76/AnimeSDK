@@ -6,6 +6,8 @@
 
 namespace RPGTools::Timeline::Audio
 {
+	inline static constexpr unsigned int WwiseMuteStagePropInfo_TypeDefinitionIndex = 48854;
+
 	class WwiseMuteStagePropInfo : public ::System::Object
 	{
 	public:

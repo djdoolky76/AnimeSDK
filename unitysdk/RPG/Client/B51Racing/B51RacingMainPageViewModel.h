@@ -9,6 +9,8 @@ namespace RPG::Client::B51Racing { class B51RacingMainPageEntranceViewModel; }
 
 namespace RPG::Client::B51Racing
 {
+	inline static constexpr unsigned int B51RacingMainPageViewModel_TypeDefinitionIndex = 82035;
+
 	class B51RacingMainPageViewModel : public ::System::Object
 	{
 	public:

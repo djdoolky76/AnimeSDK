@@ -63,6 +63,8 @@ namespace System::Collections::ObjectModel { template <typename T> class ReadOnl
 
 namespace InControl
 {
+	inline static constexpr unsigned int PlayerActionSet_TypeDefinitionIndex = 40807;
+
 	class PlayerActionSet : public ::System::Object
 	{
 	public:

@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int HOMOHEJBLNN_TypeDefinitionIndex = 29734;
+
 	enum class HOMOHEJBLNN : ::System::Int32
 	{
 		GDKGAGKKAJP = 0,

@@ -17,6 +17,8 @@ namespace UnityEngine { class ScriptableObject; }
 #define FIOGJHNIDCI_KAIIMFPAFPL_1_OFFSET UNITYSDK_OFFSET(0x157B0EA0)
 #define FIOGJHNIDCI_LOPDPKNMMHN_1_OFFSET UNITYSDK_OFFSET(0x157B1010)
 
+inline static constexpr unsigned int FIOGJHNIDCI_TypeDefinitionIndex = 49526;
+
 	class FIOGJHNIDCI : public ::System::Object
 	{
 	public:

@@ -9,6 +9,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int NetworkManager___c__DisplayClass59_0_TypeDefinitionIndex = 69376;
+
 	class NetworkManager___c__DisplayClass59_0 : public ::System::Object
 	{
 	public:

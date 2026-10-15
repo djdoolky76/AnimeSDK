@@ -30,6 +30,8 @@ namespace System { class String; }
 #define PLCBONEAMNL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DF9E2D0)
 #define PLCBONEAMNL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DF9E330)
 
+inline static constexpr unsigned int PLCBONEAMNL_TypeDefinitionIndex = 30184;
+
 	class PLCBONEAMNL : public ::System::Object
 	{
 	public:

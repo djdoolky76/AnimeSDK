@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FateParamFateBuffLevelSumConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FateParamFateBuffLevelSumConfig_TypeDefinitionIndex = 16642;
+
 	class FateParamFateBuffLevelSumConfig : public ::RPG::GameCore::FateParameterConfigBase
 	{
 	public:

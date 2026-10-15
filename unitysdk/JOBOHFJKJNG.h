@@ -5,6 +5,8 @@ class PNIFMEAJAEB;
 
 #define JOBOHFJKJNG_CTOR_OFFSET UNITYSDK_OFFSET(0xB29EEF0)
 
+inline static constexpr unsigned int JOBOHFJKJNG_TypeDefinitionIndex = 80599;
+
 	class JOBOHFJKJNG : public ::System::Object
 	{
 	public:

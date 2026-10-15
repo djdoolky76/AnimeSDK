@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define JNABEFHEFAM_HOIEGOENFHG_OFFSET UNITYSDK_OFFSET(0xB274670)
 #define JNABEFHEFAM_MNAKIEOGPDK_OFFSET UNITYSDK_OFFSET(0xB274740)
 
+inline static constexpr unsigned int JNABEFHEFAM_TypeDefinitionIndex = 54390;
+
 	class JNABEFHEFAM : public ::JPEPPDMLPLG
 	{
 	public:

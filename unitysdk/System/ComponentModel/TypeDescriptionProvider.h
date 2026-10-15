@@ -19,6 +19,8 @@ namespace System::ComponentModel { class TypeDescriptionProvider_EmptyCustomType
 
 namespace System::ComponentModel
 {
+	inline static constexpr unsigned int TypeDescriptionProvider_TypeDefinitionIndex = 2634;
+
 	class TypeDescriptionProvider : public ::System::Object
 	{
 	public:

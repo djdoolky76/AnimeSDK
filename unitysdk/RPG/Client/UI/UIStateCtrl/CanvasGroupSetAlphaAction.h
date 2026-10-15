@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::UI::UIStateCtrl
 {
+	inline static constexpr unsigned int CanvasGroupSetAlphaAction_TypeDefinitionIndex = 74045;
+
 	class CanvasGroupSetAlphaAction : public ::RPG::Client::UI::UIStateCtrl::InstantAction
 	{
 	public:

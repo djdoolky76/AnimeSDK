@@ -7,6 +7,8 @@ class ELKFMEKPEMA;
 
 #define EGGAPOKBOPE_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA50340)
 
+inline static constexpr unsigned int EGGAPOKBOPE_TypeDefinitionIndex = 42450;
+
 	class EGGAPOKBOPE : public ::System::Object
 	{
 	public:

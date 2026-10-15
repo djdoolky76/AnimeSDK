@@ -28,6 +28,8 @@ namespace System { class Object; }
 #define GIIJJNFNDPP_OOIPEGGCBGO_OFFSET UNITYSDK_OFFSET(0x15A3B590)
 #define GIIJJNFNDPP_TEARDOWN_OFFSET UNITYSDK_OFFSET(0x15A3A920)
 
+inline static constexpr unsigned int GIIJJNFNDPP_TypeDefinitionIndex = 76600;
+
 	class GIIJJNFNDPP : public ::System::Object
 	{
 	public:

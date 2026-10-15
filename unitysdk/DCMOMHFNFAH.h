@@ -32,6 +32,8 @@ namespace System { class String; }
 #define DCMOMHFNFAH_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E176060)
 #define DCMOMHFNFAH_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E1760C0)
 
+inline static constexpr unsigned int DCMOMHFNFAH_TypeDefinitionIndex = 34617;
+
 	class DCMOMHFNFAH : public ::System::Object
 	{
 	public:

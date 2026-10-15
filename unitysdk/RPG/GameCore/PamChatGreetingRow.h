@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PamChatGreetingRow_TypeDefinitionIndex = 14315;
+
 	class PamChatGreetingRow : public ::System::Object
 	{
 	public:

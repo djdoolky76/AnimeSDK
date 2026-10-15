@@ -4,6 +4,8 @@
 class ODGPPIHLOFF;
 namespace System { class Exception; }
 
+inline static constexpr unsigned int MDOCPCEPNBC_TypeDefinitionIndex = 49239;
+
 	class MDOCPCEPNBC : public ::System::Object
 	{
 	public:

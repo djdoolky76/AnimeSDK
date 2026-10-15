@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace System::Xml
 {
+	inline static constexpr unsigned int XmlComplianceUtil_TypeDefinitionIndex = 1940;
+
 	class XmlComplianceUtil : public ::System::Object
 	{
 	public:

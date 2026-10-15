@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace System::Xml::Schema
 {
+	inline static constexpr unsigned int XmlSchemaFacet_TypeDefinitionIndex = 2198;
+
 	class XmlSchemaFacet : public ::System::Xml::Schema::XmlSchemaAnnotated
 	{
 	public:

@@ -18,6 +18,8 @@ class AkObstructionOcclusionValues;
 #define AKOBSTRUCTIONOCCLUSIONVALUES_SET_OBSTRUCTION_OFFSET UNITYSDK_OFFSET(0x1F5AB230)
 #define AKOBSTRUCTIONOCCLUSIONVALUES_SET_OCCLUSION_OFFSET UNITYSDK_OFFSET(0x1F5AB0C0)
 
+inline static constexpr unsigned int AkObstructionOcclusionValues_TypeDefinitionIndex = 44771;
+
 	class AkObstructionOcclusionValues : public ::System::Object
 	{
 	public:

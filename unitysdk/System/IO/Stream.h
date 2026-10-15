@@ -48,6 +48,8 @@ namespace System::Threading::Tasks { class Task; }
 
 namespace System::IO
 {
+	inline static constexpr unsigned int Stream_TypeDefinitionIndex = 684;
+
 	class Stream : public ::System::MarshalByRefObject
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueNousSurfaceTagRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueNousSurfaceTagRow_TypeDefinitionIndex = 14909;
+
 	class RogueNousSurfaceTagRow : public ::System::Object
 	{
 	public:

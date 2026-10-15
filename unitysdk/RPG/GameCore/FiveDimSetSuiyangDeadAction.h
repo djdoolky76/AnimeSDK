@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FiveDimSetSuiyangDeadAction; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimSetSuiyangDeadAction_TypeDefinitionIndex = 18709;
+
 	class FiveDimSetSuiyangDeadAction : public ::RPG::GameCore::FiveDimBaseEventAction
 	{
 	public:

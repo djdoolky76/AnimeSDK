@@ -28,6 +28,8 @@ namespace System { class String; }
 #define AAGLNICHNPI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DDBAA20)
 #define AAGLNICHNPI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DDBAA80)
 
+inline static constexpr unsigned int AAGLNICHNPI_TypeDefinitionIndex = 27383;
+
 	class AAGLNICHNPI : public ::System::Object
 	{
 	public:

@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int AkActionOnEventType_TypeDefinitionIndex = 44713;
+
 	enum class AkActionOnEventType : ::System::Int32
 	{
 		AkActionOnEventType_Stop = 0,

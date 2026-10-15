@@ -20,6 +20,8 @@ namespace RPG::GameCore { class LevelCurveInstance; }
 #define NMBDDDBDGED_MMCKDFFNDDG_OFFSET UNITYSDK_OFFSET(0xBC7D300)
 #define NMBDDDBDGED_MMDICFCCAGK_OFFSET UNITYSDK_OFFSET(0xBC7C240)
 
+inline static constexpr unsigned int NMBDDDBDGED_TypeDefinitionIndex = 69655;
+
 	class NMBDDDBDGED : public ::System::Object
 	{
 	public:

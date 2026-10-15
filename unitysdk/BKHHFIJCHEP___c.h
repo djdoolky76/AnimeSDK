@@ -10,6 +10,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 #define BKHHFIJCHEP___C_CTOR_OFFSET UNITYSDK_OFFSET(0xB7C8050)
 #define BKHHFIJCHEP___C__ONUSETACTICSCARDPERFORMANCE_B__34_0_OFFSET UNITYSDK_OFFSET(0xB7C8060)
 
+inline static constexpr unsigned int BKHHFIJCHEP___c_TypeDefinitionIndex = 60380;
+
 	class BKHHFIJCHEP___c : public ::System::Object
 	{
 	public:

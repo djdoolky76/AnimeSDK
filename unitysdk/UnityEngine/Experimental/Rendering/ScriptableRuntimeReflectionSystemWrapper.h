@@ -10,6 +10,8 @@ namespace UnityEngine::Experimental::Rendering { class IScriptableRuntimeReflect
 
 namespace UnityEngine::Experimental::Rendering
 {
+	inline static constexpr unsigned int ScriptableRuntimeReflectionSystemWrapper_TypeDefinitionIndex = 4940;
+
 	class ScriptableRuntimeReflectionSystemWrapper : public ::System::Object
 	{
 	public:

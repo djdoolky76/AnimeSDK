@@ -34,6 +34,8 @@ namespace System::Threading { class SynchronizationContext; }
 
 namespace Cysharp::Threading::Tasks
 {
+	inline static constexpr unsigned int PlayerLoopHelper_TypeDefinitionIndex = 38207;
+
 	class PlayerLoopHelper : public ::System::Object
 	{
 	public:

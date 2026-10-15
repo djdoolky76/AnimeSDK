@@ -15,6 +15,8 @@ namespace System::Reflection { class PropertyInfo; }
 
 namespace System::Linq::Expressions::Interpreter
 {
+	inline static constexpr unsigned int PropertyByRefUpdater_TypeDefinitionIndex = 3492;
+
 	class PropertyByRefUpdater : public ::System::Linq::Expressions::Interpreter::ByRefUpdater
 	{
 	public:

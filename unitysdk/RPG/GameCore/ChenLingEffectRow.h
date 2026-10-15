@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ChenLingEffectRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChenLingEffectRow_TypeDefinitionIndex = 11035;
+
 	class ChenLingEffectRow : public ::System::Object
 	{
 	public:

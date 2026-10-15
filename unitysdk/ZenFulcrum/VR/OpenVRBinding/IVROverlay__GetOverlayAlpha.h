@@ -13,6 +13,8 @@ namespace System { class Object; }
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
+	inline static constexpr unsigned int IVROverlay__GetOverlayAlpha_TypeDefinitionIndex = 39076;
+
 	class IVROverlay__GetOverlayAlpha : public ::System::MulticastDelegate
 	{
 	public:

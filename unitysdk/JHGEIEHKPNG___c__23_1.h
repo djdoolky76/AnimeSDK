@@ -5,6 +5,8 @@ namespace RPG::Client { class AnimatorButton; }
 namespace System { class Action; }
 namespace System { class Object; }
 
+inline static constexpr unsigned int JHGEIEHKPNG___c__23_1_TypeDefinitionIndex = 49894;
+
 	template <typename T>
 	class JHGEIEHKPNG___c__23_1 : public ::System::Object
 	{

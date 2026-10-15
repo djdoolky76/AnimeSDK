@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define ENGNAOICHPE_GGBLHEHJBDO_OFFSET UNITYSDK_OFFSET(0x155ACFB0)
 #define ENGNAOICHPE_GNECBOAAIFJ_OFFSET UNITYSDK_OFFSET(0x155AD120)
 
+inline static constexpr unsigned int ENGNAOICHPE_TypeDefinitionIndex = 65433;
+
 	class ENGNAOICHPE : public ::System::Object
 	{
 	public:

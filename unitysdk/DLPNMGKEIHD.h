@@ -29,6 +29,8 @@ namespace RPG::GameCore { class MiniGameFlappyBirdConfig; }
 #define DLPNMGKEIHD_OIHADJDBPMH_OFFSET UNITYSDK_OFFSET(0xFEB5AB0)
 #define DLPNMGKEIHD_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0xFEB5CD0)
 
+inline static constexpr unsigned int DLPNMGKEIHD_TypeDefinitionIndex = 47131;
+
 	class DLPNMGKEIHD : public ::BEIEKELFLHF
 	{
 	public:

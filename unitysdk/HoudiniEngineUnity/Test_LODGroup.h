@@ -10,6 +10,8 @@ namespace UnityEngine { class LODGroup; }
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int Test_LODGroup_TypeDefinitionIndex = 40710;
+
 	class Test_LODGroup : public ::System::Object
 	{
 	public:

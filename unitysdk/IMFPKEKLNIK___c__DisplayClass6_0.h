@@ -7,6 +7,8 @@ namespace RPG::Client { class MapEntityDef; }
 #define IMFPKEKLNIK___C__DISPLAYCLASS6_0_CTOR_OFFSET UNITYSDK_OFFSET(0x164D42F0)
 #define IMFPKEKLNIK___C__DISPLAYCLASS6_0__TESTRECYCLE_B__0_OFFSET UNITYSDK_OFFSET(0x164D4390)
 
+inline static constexpr unsigned int IMFPKEKLNIK___c__DisplayClass6_0_TypeDefinitionIndex = 60891;
+
 	class IMFPKEKLNIK___c__DisplayClass6_0 : public ::System::Object
 	{
 	public:

@@ -5,6 +5,8 @@
 #define LDOGGNLKJOP_GET_VALUE_OFFSET UNITYSDK_OFFSET(0xB6449F0)
 #define LDOGGNLKJOP_SET_VALUE_OFFSET UNITYSDK_OFFSET(0xB644A00)
 
+inline static constexpr unsigned int LDOGGNLKJOP_TypeDefinitionIndex = 74009;
+
 	class LDOGGNLKJOP
 	{
 	public:

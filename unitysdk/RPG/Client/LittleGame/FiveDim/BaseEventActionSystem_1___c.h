@@ -8,6 +8,8 @@ namespace System { class Object; }
 
 namespace RPG::Client::LittleGame::FiveDim
 {
+	inline static constexpr unsigned int BaseEventActionSystem_1___c_TypeDefinitionIndex = 77089;
+
 	template <typename T>
 	class BaseEventActionSystem_1___c : public ::System::Object
 	{

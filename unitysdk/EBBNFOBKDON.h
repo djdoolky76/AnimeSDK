@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define EBBNFOBKDON_ONSKIP_OFFSET UNITYSDK_OFFSET(0x12CE90E0)
 #define EBBNFOBKDON_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x12CE8A40)
 
+inline static constexpr unsigned int EBBNFOBKDON_TypeDefinitionIndex = 58285;
+
 	class EBBNFOBKDON
 	{
 	public:

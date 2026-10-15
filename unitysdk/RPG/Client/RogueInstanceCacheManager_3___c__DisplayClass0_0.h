@@ -5,6 +5,8 @@ namespace System { template <typename T1, typename T2, typename T3> class Func_3
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueInstanceCacheManager_3___c__DisplayClass0_0_TypeDefinitionIndex = 67382;
+
 	template <typename T1, typename T2, typename T3>
 	class RogueInstanceCacheManager_3___c__DisplayClass0_0 : public ::System::Object
 	{

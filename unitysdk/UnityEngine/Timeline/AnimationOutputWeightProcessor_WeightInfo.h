@@ -4,6 +4,8 @@
 
 namespace UnityEngine::Timeline
 {
+	inline static constexpr unsigned int AnimationOutputWeightProcessor_WeightInfo_TypeDefinitionIndex = 38769;
+
 	struct alignas(4) AnimationOutputWeightProcessor_WeightInfo
 	{
 		::UnityEngine::Playables::Playable mixer; // 0x10

@@ -8,6 +8,8 @@ namespace System { class String; }
 #define OKOHGMMFPLF_NKCAGIAPJGE_CTOR_OFFSET UNITYSDK_OFFSET(0xBEF9F80)
 #define OKOHGMMFPLF_NKCAGIAPJGE_JDLENDNKCED_OFFSET UNITYSDK_OFFSET(0xBEF9E90)
 
+inline static constexpr unsigned int OKOHGMMFPLF_NKCAGIAPJGE_TypeDefinitionIndex = 71027;
+
 	class OKOHGMMFPLF_NKCAGIAPJGE : public ::System::Object
 	{
 	public:

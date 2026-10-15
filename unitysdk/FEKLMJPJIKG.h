@@ -8,6 +8,8 @@ class OKELLDKLMGF;
 #define FEKLMJPJIKG_CTOR_OFFSET UNITYSDK_OFFSET(0x1CDE23D0)
 #define FEKLMJPJIKG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CDE22E0)
 
+inline static constexpr unsigned int FEKLMJPJIKG_TypeDefinitionIndex = 15146;
+
 	class FEKLMJPJIKG : public ::System::Object
 	{
 	public:

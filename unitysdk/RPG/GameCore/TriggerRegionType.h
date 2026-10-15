@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TriggerRegionType_TypeDefinitionIndex = 10514;
+
 	enum class TriggerRegionType : ::System::Int32
 	{
 		ColliderRegion = 1,

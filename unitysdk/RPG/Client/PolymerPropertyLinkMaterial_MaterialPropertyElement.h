@@ -9,6 +9,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PolymerPropertyLinkMaterial_MaterialPropertyElement_TypeDefinitionIndex = 70304;
+
 	class PolymerPropertyLinkMaterial_MaterialPropertyElement : public ::System::Object
 	{
 	public:

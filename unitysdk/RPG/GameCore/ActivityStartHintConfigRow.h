@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ActivityStartHintConfigRow_TypeDefinitionIndex = 11209;
+
 	class ActivityStartHintConfigRow : public ::System::Object
 	{
 	public:

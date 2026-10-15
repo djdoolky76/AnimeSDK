@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int EAdventureNavigationRootMotionHandlerState_TypeDefinitionIndex = 57125;
+
 	enum class EAdventureNavigationRootMotionHandlerState : ::System::Int32
 	{
 		None = 0,

@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SwitchUIMenuBGM_TypeDefinitionIndex = 21899;
+
 	class SwitchUIMenuBGM : public ::RPG::GameCore::TaskConfig
 	{
 	public:

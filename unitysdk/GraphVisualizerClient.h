@@ -14,6 +14,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define GRAPHVISUALIZERCLIENT_HIDE_OFFSET UNITYSDK_OFFSET(0x1F186910)
 #define GRAPHVISUALIZERCLIENT_SHOW_OFFSET UNITYSDK_OFFSET(0x1F186830)
 
+inline static constexpr unsigned int GraphVisualizerClient_TypeDefinitionIndex = 45897;
+
 	class GraphVisualizerClient : public ::System::Object
 	{
 	public:

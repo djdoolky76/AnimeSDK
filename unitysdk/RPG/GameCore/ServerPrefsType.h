@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ServerPrefsType_TypeDefinitionIndex = 24835;
+
 	enum class ServerPrefsType : ::System::Int32
 	{
 		Unknown = 0,

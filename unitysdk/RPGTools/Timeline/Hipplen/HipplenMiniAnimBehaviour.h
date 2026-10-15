@@ -14,6 +14,8 @@ namespace UnityEngine { class Animator; }
 
 namespace RPGTools::Timeline::Hipplen
 {
+	inline static constexpr unsigned int HipplenMiniAnimBehaviour_TypeDefinitionIndex = 48651;
+
 	class HipplenMiniAnimBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

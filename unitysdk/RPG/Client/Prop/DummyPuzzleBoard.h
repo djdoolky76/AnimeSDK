@@ -9,6 +9,8 @@ class ENLNFBCDEIO;
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int DummyPuzzleBoard_TypeDefinitionIndex = 78575;
+
 	class DummyPuzzleBoard : public ::RPG::Client::Prop::PuzzleBoardBase
 	{
 	public:

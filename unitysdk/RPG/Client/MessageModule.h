@@ -108,6 +108,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MessageModule_TypeDefinitionIndex = 66074;
+
 	class MessageModule : public ::RPG::Client::BaseModule
 	{
 	public:

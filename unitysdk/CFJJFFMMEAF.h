@@ -3,6 +3,8 @@
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 #include "unitysdk/RPG/GameCore/StringHash.h"
 
+inline static constexpr unsigned int CFJJFFMMEAF_TypeDefinitionIndex = 54434;
+
 	struct alignas(4) CFJJFFMMEAF
 	{
 		::RPG::GameCore::StringHash MJMEEOIEMMM; // 0x10

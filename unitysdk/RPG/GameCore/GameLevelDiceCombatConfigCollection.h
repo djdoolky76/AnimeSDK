@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GameLevelDiceCombatNPCConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GameLevelDiceCombatConfigCollection_TypeDefinitionIndex = 17394;
+
 	class GameLevelDiceCombatConfigCollection : public ::RPG::GameCore::JsonConfig
 	{
 	public:

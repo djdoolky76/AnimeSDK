@@ -7,6 +7,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MusicRhythmInputResultInfo_TypeDefinitionIndex = 60168;
+
 	class MusicRhythmInputResultInfo : public ::System::Object
 	{
 	public:

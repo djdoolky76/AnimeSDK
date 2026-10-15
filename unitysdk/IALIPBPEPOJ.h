@@ -55,6 +55,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define IALIPBPEPOJ_SET_OWNERWORLD_OFFSET UNITYSDK_OFFSET(0x1C68ACB0)
 #define IALIPBPEPOJ_SET_USERDATA_OFFSET UNITYSDK_OFFSET(0x1C68B5E0)
 
+inline static constexpr unsigned int IALIPBPEPOJ_TypeDefinitionIndex = 36549;
+
 	class IALIPBPEPOJ : public ::System::Object
 	{
 	public:

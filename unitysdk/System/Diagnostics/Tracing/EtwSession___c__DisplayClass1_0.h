@@ -9,6 +9,8 @@ namespace System::Diagnostics::Tracing { class EtwSession; }
 
 namespace System::Diagnostics::Tracing
 {
+	inline static constexpr unsigned int EtwSession___c__DisplayClass1_0_TypeDefinitionIndex = 1701;
+
 	class EtwSession___c__DisplayClass1_0 : public ::System::Object
 	{
 	public:

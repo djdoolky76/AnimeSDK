@@ -13,6 +13,8 @@ namespace System { class Object; }
 
 namespace MiHoYo::SDK::Console::OS
 {
+	inline static constexpr unsigned int PayManagerCX___c_TypeDefinitionIndex = 9101;
+
 	class PayManagerCX___c : public ::System::Object
 	{
 	public:

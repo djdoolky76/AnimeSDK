@@ -6,6 +6,8 @@
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int StoryEffectTrack_TypeDefinitionIndex = 48332;
+
 	class StoryEffectTrack : public ::UnityEngine::Timeline::TrackAsset
 	{
 	public:

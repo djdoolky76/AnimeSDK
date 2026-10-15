@@ -61,6 +61,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define KOIACJAJFEC_SET_ONUNSELECT_OFFSET UNITYSDK_OFFSET(0xB5984E0)
 #define KOIACJAJFEC_SET_ROW_OFFSET UNITYSDK_OFFSET(0xB598310)
 
+inline static constexpr unsigned int KOIACJAJFEC_TypeDefinitionIndex = 55965;
+
 	class KOIACJAJFEC : public ::System::Object
 	{
 	public:

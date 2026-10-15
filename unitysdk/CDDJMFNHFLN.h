@@ -27,6 +27,8 @@ namespace System { class String; }
 #define CDDJMFNHFLN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E0829B0)
 #define CDDJMFNHFLN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E082A10)
 
+inline static constexpr unsigned int CDDJMFNHFLN_TypeDefinitionIndex = 25213;
+
 	class CDDJMFNHFLN : public ::System::Object
 	{
 	public:

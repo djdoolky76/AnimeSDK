@@ -33,6 +33,8 @@ namespace System { class String; }
 #define LMKAAFKLMDG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E9A7C60)
 #define LMKAAFKLMDG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E9A7CC0)
 
+inline static constexpr unsigned int LMKAAFKLMDG_TypeDefinitionIndex = 30515;
+
 	class LMKAAFKLMDG : public ::System::Object
 	{
 	public:

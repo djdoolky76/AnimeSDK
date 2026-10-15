@@ -11,6 +11,8 @@ namespace UnityEngine::Playables { class PlayableDirector; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int BindingData_TypeDefinitionIndex = 48510;
+
 	class BindingData : public ::UnityEngine::ScriptableObject
 	{
 	public:

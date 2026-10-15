@@ -10,6 +10,8 @@ namespace System { class Object; }
 #define MNHIJBBMFBE_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xBA09030)
 #define MNHIJBBMFBE_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0xBA09190)
 
+inline static constexpr unsigned int MNHIJBBMFBE_TypeDefinitionIndex = 47910;
+
 	class MNHIJBBMFBE : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

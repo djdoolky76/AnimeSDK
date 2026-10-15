@@ -12,6 +12,8 @@ namespace UnityEngine { class AsyncOperation; }
 
 namespace UnityEngine::SceneManagement
 {
+	inline static constexpr unsigned int SceneManagerAPIInternal_TypeDefinitionIndex = 4509;
+
 	class SceneManagerAPIInternal : public ::System::Object
 	{
 	public:

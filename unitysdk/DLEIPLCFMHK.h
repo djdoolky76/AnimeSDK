@@ -50,6 +50,8 @@ namespace System { class String; }
 #define DLEIPLCFMHK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E1E5030)
 #define DLEIPLCFMHK_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E1E5090)
 
+inline static constexpr unsigned int DLEIPLCFMHK_TypeDefinitionIndex = 25122;
+
 	class DLEIPLCFMHK : public ::System::Object
 	{
 	public:

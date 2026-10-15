@@ -11,6 +11,8 @@ namespace RPG::GameCore { class LittleGameLevelVariableLevelEntityRef; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LittleGameLevelVariableLevelEntityRef_TypeDefinitionIndex = 18901;
+
 	class LittleGameLevelVariableLevelEntityRef : public ::RPG::GameCore::LittleGameLevelVariable
 	{
 	public:

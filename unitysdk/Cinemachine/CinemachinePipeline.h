@@ -6,6 +6,8 @@
 
 namespace Cinemachine
 {
+	inline static constexpr unsigned int CinemachinePipeline_TypeDefinitionIndex = 39746;
+
 	class CinemachinePipeline : public ::UnityEngine::MonoBehaviour
 	{
 	public:

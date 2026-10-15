@@ -10,6 +10,8 @@ namespace System { class String; }
 #define MGKFMJHAMLE_IGLKCNNAAFB_OFFSET UNITYSDK_OFFSET(0xB925C50)
 #define MGKFMJHAMLE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB925BE0)
 
+inline static constexpr unsigned int MGKFMJHAMLE_TypeDefinitionIndex = 53836;
+
 	class MGKFMJHAMLE
 	{
 	public:

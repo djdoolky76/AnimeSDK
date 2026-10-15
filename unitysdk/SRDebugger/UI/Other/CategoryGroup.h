@@ -15,6 +15,8 @@ namespace UnityEngine::UI { class Toggle; }
 
 namespace SRDebugger::UI::Other
 {
+	inline static constexpr unsigned int CategoryGroup_TypeDefinitionIndex = 37999;
+
 	class CategoryGroup : public ::SRF::SRMonoBehaviourEx
 	{
 	public:

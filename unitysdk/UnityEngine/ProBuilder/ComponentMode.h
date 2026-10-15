@@ -3,6 +3,8 @@
 
 namespace UnityEngine::ProBuilder
 {
+	inline static constexpr unsigned int ComponentMode_TypeDefinitionIndex = 44388;
+
 	enum class ComponentMode : ::System::Int32
 	{
 		Vertex = 0,

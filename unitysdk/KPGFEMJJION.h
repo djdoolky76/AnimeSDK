@@ -7,6 +7,8 @@ class EJLMLFDJLLH;
 #define KPGFEMJJION_BOLKPFPIFCM_OFFSET UNITYSDK_OFFSET(0xB5B75F0)
 #define KPGFEMJJION_GMFPDEOAJHH_OFFSET UNITYSDK_OFFSET(0xB5B7560)
 
+inline static constexpr unsigned int KPGFEMJJION_TypeDefinitionIndex = 74538;
+
 	class KPGFEMJJION : public ::System::Object
 	{
 	public:

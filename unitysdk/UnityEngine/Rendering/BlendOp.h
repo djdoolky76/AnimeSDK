@@ -3,6 +3,8 @@
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int BlendOp_TypeDefinitionIndex = 4696;
+
 	enum class BlendOp : ::System::Int32
 	{
 		Add = 0,

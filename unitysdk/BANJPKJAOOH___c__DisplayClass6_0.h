@@ -7,6 +7,8 @@ class KAKADGHNMFK;
 #define BANJPKJAOOH___C__DISPLAYCLASS6_0_CTOR_OFFSET UNITYSDK_OFFSET(0x15E771C0)
 #define BANJPKJAOOH___C__DISPLAYCLASS6_0___TRYCASTABILITY_B__0_OFFSET UNITYSDK_OFFSET(0x15E7AD80)
 
+inline static constexpr unsigned int BANJPKJAOOH___c__DisplayClass6_0_TypeDefinitionIndex = 77598;
+
 	class BANJPKJAOOH___c__DisplayClass6_0 : public ::System::Object
 	{
 	public:

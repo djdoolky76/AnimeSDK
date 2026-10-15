@@ -40,6 +40,8 @@ namespace UnityEngine::Playables { class PlayableDirector; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int ChimeraArrangementStateController_TypeDefinitionIndex = 78490;
+
 	class ChimeraArrangementStateController : public ::RPG::Client::Prop::ChimeraPreparationStateControllerBase
 	{
 	public:

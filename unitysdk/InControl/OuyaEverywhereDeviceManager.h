@@ -8,6 +8,8 @@
 
 namespace InControl
 {
+	inline static constexpr unsigned int OuyaEverywhereDeviceManager_TypeDefinitionIndex = 40874;
+
 	class OuyaEverywhereDeviceManager : public ::InControl::InputDeviceManager
 	{
 	public:

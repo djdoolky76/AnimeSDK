@@ -30,6 +30,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RollShopData_TypeDefinitionIndex = 67889;
+
 	class RollShopData : public ::System::Object
 	{
 	public:

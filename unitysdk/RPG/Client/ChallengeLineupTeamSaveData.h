@@ -21,6 +21,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ChallengeLineupTeamSaveData_TypeDefinitionIndex = 63093;
+
 	class ChallengeLineupTeamSaveData : public ::System::Object
 	{
 	public:

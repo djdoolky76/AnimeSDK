@@ -31,6 +31,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::FateRin
 {
+	inline static constexpr unsigned int FateRinSupportModule_TypeDefinitionIndex = 80632;
+
 	class FateRinSupportModule : public ::RPG::Client::BaseModule
 	{
 	public:

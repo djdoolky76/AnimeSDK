@@ -13,6 +13,8 @@ namespace RPG::GameCore { class BaseModifierInstance; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AbilityPreAddModifier_TypeDefinitionIndex = 56589;
+
 	class AbilityPreAddModifier : public ::CMPGEAFHHDC
 	{
 	public:

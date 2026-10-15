@@ -28,6 +28,8 @@ namespace UnityEngine { class Animator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CharacterAnimZone_TypeDefinitionIndex = 57175;
+
 	class CharacterAnimZone : public ::RPG::GameCore::GameComponentBase
 	{
 	public:

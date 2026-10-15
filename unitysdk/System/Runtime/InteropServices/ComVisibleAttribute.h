@@ -6,6 +6,8 @@
 
 namespace System::Runtime::InteropServices
 {
+	inline static constexpr unsigned int ComVisibleAttribute_TypeDefinitionIndex = 1410;
+
 	class ComVisibleAttribute : public ::System::Attribute
 	{
 	public:

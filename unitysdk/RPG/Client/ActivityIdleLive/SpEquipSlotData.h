@@ -33,6 +33,8 @@ namespace System { class String; }
 
 namespace RPG::Client::ActivityIdleLive
 {
+	inline static constexpr unsigned int SpEquipSlotData_TypeDefinitionIndex = 75236;
+
 	class SpEquipSlotData : public ::System::Object
 	{
 	public:

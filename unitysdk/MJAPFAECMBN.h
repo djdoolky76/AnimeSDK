@@ -9,6 +9,8 @@ namespace Cinemachine { class CinemachineVirtualCamera; }
 #define MJAPFAECMBN_KGNOLLBFAAH_OFFSET UNITYSDK_OFFSET(0xB962790)
 #define MJAPFAECMBN_LGJGKIBHGAN_OFFSET UNITYSDK_OFFSET(0xB962C30)
 
+inline static constexpr unsigned int MJAPFAECMBN_TypeDefinitionIndex = 78475;
+
 	class MJAPFAECMBN : public ::System::Object
 	{
 	public:

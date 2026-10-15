@@ -5,6 +5,8 @@ class GELIALJDFBL;
 
 #define BACCOPOCMPC_CHJINNFGIGK_CTOR_OFFSET UNITYSDK_OFFSET(0x15BD6590)
 
+inline static constexpr unsigned int BACCOPOCMPC_CHJINNFGIGK_TypeDefinitionIndex = 56858;
+
 	class BACCOPOCMPC_CHJINNFGIGK : public ::System::Object
 	{
 	public:

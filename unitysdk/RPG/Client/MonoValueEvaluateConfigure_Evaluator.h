@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoValueEvaluateConfigure_Evaluator_TypeDefinitionIndex = 68628;
+
 	class MonoValueEvaluateConfigure_Evaluator : public ::System::Object
 	{
 	public:

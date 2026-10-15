@@ -14,6 +14,8 @@ namespace UnityEngine::ProBuilder::Poly2Tri { class DTSweepConstraint; }
 
 namespace UnityEngine::ProBuilder::Poly2Tri
 {
+	inline static constexpr unsigned int TriangulationPoint_TypeDefinitionIndex = 38755;
+
 	class TriangulationPoint : public ::System::Object
 	{
 	public:

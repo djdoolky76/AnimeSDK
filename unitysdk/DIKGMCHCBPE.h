@@ -20,6 +20,8 @@ namespace RPG::GameCore { class GameEntity; }
 #define DIKGMCHCBPE_NNIPLABFNNM_OFFSET UNITYSDK_OFFSET(0xF2108F0)
 #define DIKGMCHCBPE_ODBMAOOOGHP_OFFSET UNITYSDK_OFFSET(0xF210950)
 
+inline static constexpr unsigned int DIKGMCHCBPE_TypeDefinitionIndex = 57025;
+
 	class DIKGMCHCBPE : public ::BDENDNDOFLF
 	{
 	public:

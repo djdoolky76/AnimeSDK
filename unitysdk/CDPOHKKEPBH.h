@@ -9,6 +9,8 @@ class AstraFX_DemoComponent;
 #define CDPOHKKEPBH_CTOR_OFFSET UNITYSDK_OFFSET(0xC7794E0)
 #define CDPOHKKEPBH_RESETSIMULATIONSTATE_OFFSET UNITYSDK_OFFSET(0xC779280)
 
+inline static constexpr unsigned int CDPOHKKEPBH_TypeDefinitionIndex = 47594;
+
 	class CDPOHKKEPBH : public ::UnityEngine::AstraFXRendererDelegate
 	{
 	public:

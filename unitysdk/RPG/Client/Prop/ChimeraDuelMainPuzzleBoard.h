@@ -29,6 +29,8 @@ namespace RPG::GameCore { class TaskContext; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int ChimeraDuelMainPuzzleBoard_TypeDefinitionIndex = 78301;
+
 	class ChimeraDuelMainPuzzleBoard : public ::RPG::Client::Prop::PuzzleBoardBase
 	{
 	public:

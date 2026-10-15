@@ -10,6 +10,8 @@ namespace RPG::GameCore { class PhotoGraphFindNpcConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PhotoGraphFindNpcConfig_TypeDefinitionIndex = 21625;
+
 	class PhotoGraphFindNpcConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

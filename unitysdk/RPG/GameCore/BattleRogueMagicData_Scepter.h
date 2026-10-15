@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int BattleRogueMagicData_Scepter_TypeDefinitionIndex = 56316;
+
 	class BattleRogueMagicData_Scepter : public ::System::Object
 	{
 	public:

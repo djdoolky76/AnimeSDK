@@ -13,6 +13,8 @@ namespace System::ComponentModel { class ListChangedEventArgs; }
 
 namespace System::ComponentModel
 {
+	inline static constexpr unsigned int ListChangedEventHandler_TypeDefinitionIndex = 2611;
+
 	class ListChangedEventHandler : public ::System::MulticastDelegate
 	{
 	public:

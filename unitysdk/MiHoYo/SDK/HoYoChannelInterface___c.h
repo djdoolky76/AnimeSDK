@@ -12,6 +12,8 @@ namespace UnityEngine { class Application_LogCallback; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int HoYoChannelInterface___c_TypeDefinitionIndex = 46525;
+
 	class HoYoChannelInterface___c : public ::System::Object
 	{
 	public:

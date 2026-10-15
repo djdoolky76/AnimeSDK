@@ -14,6 +14,8 @@ namespace System::Security::Cryptography { class KeySizes; }
 
 namespace System::Security::Cryptography
 {
+	inline static constexpr unsigned int RC2CryptoServiceProvider_TypeDefinitionIndex = 1040;
+
 	class RC2CryptoServiceProvider : public ::System::Security::Cryptography::RC2
 	{
 	public:

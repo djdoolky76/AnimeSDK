@@ -20,6 +20,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define AEHGMMGLPAB_OOALPFGKHDP_1_OFFSET UNITYSDK_OFFSET(0xB151AA0)
 #define AEHGMMGLPAB_OOALPFGKHDP_OFFSET UNITYSDK_OFFSET(0xB151690)
 
+inline static constexpr unsigned int AEHGMMGLPAB_TypeDefinitionIndex = 78882;
+
 	class AEHGMMGLPAB : public ::System::Object
 	{
 	public:

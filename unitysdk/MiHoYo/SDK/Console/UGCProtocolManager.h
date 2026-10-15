@@ -28,6 +28,8 @@ namespace System::Diagnostics { class Stopwatch; }
 
 namespace MiHoYo::SDK::Console
 {
+	inline static constexpr unsigned int UGCProtocolManager_TypeDefinitionIndex = 8957;
+
 	class UGCProtocolManager : public ::System::Object
 	{
 	public:

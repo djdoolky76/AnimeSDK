@@ -9,6 +9,8 @@ namespace System { class String; }
 
 namespace RPG::Client::ActivityIdleLive
 {
+	inline static constexpr unsigned int ShowLiveRoomIconEditService___c__DisplayClass1_0_TypeDefinitionIndex = 75368;
+
 	class ShowLiveRoomIconEditService___c__DisplayClass1_0 : public ::System::Object
 	{
 	public:

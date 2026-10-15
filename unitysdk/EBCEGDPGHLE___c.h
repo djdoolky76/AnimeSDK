@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define EBCEGDPGHLE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E233510)
 #define EBCEGDPGHLE___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1E233520)
 
+inline static constexpr unsigned int EBCEGDPGHLE___c_TypeDefinitionIndex = 32236;
+
 	class EBCEGDPGHLE___c : public ::System::Object
 	{
 	public:

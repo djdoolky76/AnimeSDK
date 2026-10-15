@@ -3,6 +3,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoExUICamera_E_ExUIZoomRange_TypeDefinitionIndex = 72981;
+
 	enum class MonoExUICamera_E_ExUIZoomRange : ::System::Int32
 	{
 		None = 0,

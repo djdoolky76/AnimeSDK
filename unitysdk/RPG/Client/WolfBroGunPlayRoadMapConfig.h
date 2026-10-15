@@ -7,6 +7,8 @@ namespace System { class Object; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int WolfBroGunPlayRoadMapConfig_TypeDefinitionIndex = 68754;
+
 	class WolfBroGunPlayRoadMapConfig : public ::UnityEngine::ScriptableObject
 	{
 	public:

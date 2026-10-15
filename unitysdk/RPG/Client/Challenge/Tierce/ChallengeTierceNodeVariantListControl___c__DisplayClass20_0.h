@@ -7,6 +7,8 @@ namespace RPG::Client::Challenge::Tierce { class ChallengeTierceNodeVariantListC
 
 namespace RPG::Client::Challenge::Tierce
 {
+	inline static constexpr unsigned int ChallengeTierceNodeVariantListControl___c__DisplayClass20_0_TypeDefinitionIndex = 81531;
+
 	class ChallengeTierceNodeVariantListControl___c__DisplayClass20_0 : public ::System::Object
 	{
 	public:

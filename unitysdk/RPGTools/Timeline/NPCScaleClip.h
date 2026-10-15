@@ -14,6 +14,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int NPCScaleClip_TypeDefinitionIndex = 48207;
+
 	class NPCScaleClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:

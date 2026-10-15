@@ -7,6 +7,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define PIPOIMODPLD_CTOR_OFFSET UNITYSDK_OFFSET(0xC277080)
 #define PIPOIMODPLD_EVALUATE_OFFSET UNITYSDK_OFFSET(0xC277140)
 
+inline static constexpr unsigned int PIPOIMODPLD_TypeDefinitionIndex = 52179;
+
 	class PIPOIMODPLD
 	{
 	public:

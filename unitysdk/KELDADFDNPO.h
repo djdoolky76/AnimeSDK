@@ -19,6 +19,8 @@ namespace System { class Action; }
 #define KELDADFDNPO_REMOVE_HANDLEEXIT_OFFSET UNITYSDK_OFFSET(0xB37C530)
 #define KELDADFDNPO__GET_EXITCOMMAND_B__13_0_OFFSET UNITYSDK_OFFSET(0xB37C5A0)
 
+inline static constexpr unsigned int KELDADFDNPO_TypeDefinitionIndex = 81563;
+
 	class KELDADFDNPO : public ::System::Object
 	{
 	public:

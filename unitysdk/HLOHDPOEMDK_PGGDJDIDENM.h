@@ -21,6 +21,8 @@ namespace System::Text { class StringBuilder; }
 #define HLOHDPOEMDK_PGGDJDIDENM_SET_KEY_OFFSET UNITYSDK_OFFSET(0x94C0)
 #define HLOHDPOEMDK_PGGDJDIDENM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x2E7EED0)
 
+inline static constexpr unsigned int HLOHDPOEMDK_PGGDJDIDENM_TypeDefinitionIndex = 81101;
+
 	struct alignas(8) HLOHDPOEMDK_PGGDJDIDENM
 	{
 		::System::Collections::Generic::List_1<::COOONBGCCCM*>* _Cards_k__BackingField; // 0x10

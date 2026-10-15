@@ -8,6 +8,8 @@ class JKFEOBFNKIM;
 #define JKFEOBFNKIM_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D03F8A0)
 #define JKFEOBFNKIM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D03F860)
 
+inline static constexpr unsigned int JKFEOBFNKIM_TypeDefinitionIndex = 19948;
+
 	class JKFEOBFNKIM : public ::RPG::GameCore::TaskConfig
 	{
 	public:

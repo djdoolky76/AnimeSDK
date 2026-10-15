@@ -11,6 +11,8 @@ namespace System { class Action; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TeamManager___c__DisplayClass21_0_TypeDefinitionIndex = 60785;
+
 	class TeamManager___c__DisplayClass21_0 : public ::System::Object
 	{
 	public:

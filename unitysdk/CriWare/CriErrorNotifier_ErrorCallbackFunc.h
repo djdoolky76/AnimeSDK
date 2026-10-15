@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace CriWare
 {
+	inline static constexpr unsigned int CriErrorNotifier_ErrorCallbackFunc_TypeDefinitionIndex = 40148;
+
 	class CriErrorNotifier_ErrorCallbackFunc : public ::System::MulticastDelegate
 	{
 	public:

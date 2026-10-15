@@ -10,6 +10,8 @@ namespace RPG::GameCore { class AdvNpcSearchProp; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdvNpcSearchProp_TypeDefinitionIndex = 19996;
+
 	class AdvNpcSearchProp : public ::RPG::GameCore::TaskConfig
 	{
 	public:

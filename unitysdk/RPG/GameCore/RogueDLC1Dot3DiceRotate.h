@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueDLC1Dot3DiceRotate; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueDLC1Dot3DiceRotate_TypeDefinitionIndex = 22273;
+
 	class RogueDLC1Dot3DiceRotate : public ::RPG::GameCore::TaskConfig
 	{
 	public:

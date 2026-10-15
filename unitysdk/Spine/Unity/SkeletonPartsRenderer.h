@@ -28,6 +28,8 @@ namespace UnityEngine { class Transform; }
 
 namespace Spine::Unity
 {
+	inline static constexpr unsigned int SkeletonPartsRenderer_TypeDefinitionIndex = 45042;
+
 	class SkeletonPartsRenderer : public ::UnityEngine::MonoBehaviour
 	{
 	public:

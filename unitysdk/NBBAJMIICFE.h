@@ -4,6 +4,8 @@
 
 #define NBBAJMIICFE_CTOR_OFFSET UNITYSDK_OFFSET(0x1C934D90)
 
+inline static constexpr unsigned int NBBAJMIICFE_TypeDefinitionIndex = 43272;
+
 	class NBBAJMIICFE : public ::System::Object
 	{
 	public:

@@ -4,6 +4,8 @@
 
 #define PLKNKKKIKKO_CTOR_OFFSET UNITYSDK_OFFSET(0x1C7F4E30)
 
+inline static constexpr unsigned int PLKNKKKIKKO_TypeDefinitionIndex = 36456;
+
 	class PLKNKKKIKKO : public ::System::Object
 	{
 	public:

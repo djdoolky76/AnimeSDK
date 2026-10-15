@@ -30,6 +30,8 @@ namespace System { class String; }
 #define KMCLDIDKHBA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E894B90)
 #define KMCLDIDKHBA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E894BF0)
 
+inline static constexpr unsigned int KMCLDIDKHBA_TypeDefinitionIndex = 25994;
+
 	class KMCLDIDKHBA : public ::System::Object
 	{
 	public:

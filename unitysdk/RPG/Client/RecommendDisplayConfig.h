@@ -15,6 +15,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RecommendDisplayConfig_TypeDefinitionIndex = 66803;
+
 	class RecommendDisplayConfig : public ::System::Object
 	{
 	public:

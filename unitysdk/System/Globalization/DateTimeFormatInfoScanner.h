@@ -27,6 +27,8 @@ namespace System::Globalization { class DateTimeFormatInfo; }
 
 namespace System::Globalization
 {
+	inline static constexpr unsigned int DateTimeFormatInfoScanner_TypeDefinitionIndex = 746;
+
 	class DateTimeFormatInfoScanner : public ::System::Object
 	{
 	public:

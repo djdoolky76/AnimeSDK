@@ -31,6 +31,8 @@ namespace System { class String; }
 #define AFOIFBMKMEJ_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E11B820)
 #define AFOIFBMKMEJ_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E11B880)
 
+inline static constexpr unsigned int AFOIFBMKMEJ_TypeDefinitionIndex = 30370;
+
 	class AFOIFBMKMEJ : public ::System::Object
 	{
 	public:

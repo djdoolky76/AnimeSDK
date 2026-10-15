@@ -11,6 +11,8 @@ namespace RPG::GameCore { class FiveDimScrollAgentConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimScrollAgentConfig_TypeDefinitionIndex = 18541;
+
 	class FiveDimScrollAgentConfig : public ::RPG::GameCore::LittleGameComponentConfig
 	{
 	public:

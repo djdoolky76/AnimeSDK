@@ -68,6 +68,8 @@ namespace System { class String; }
 #define OJCBOMCCPDB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DE7C2B0)
 #define OJCBOMCCPDB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DE7C310)
 
+inline static constexpr unsigned int OJCBOMCCPDB_TypeDefinitionIndex = 25543;
+
 	class OJCBOMCCPDB : public ::System::Object
 	{
 	public:

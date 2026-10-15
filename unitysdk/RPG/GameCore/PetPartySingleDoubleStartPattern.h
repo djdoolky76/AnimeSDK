@@ -10,6 +10,8 @@ namespace RPG::GameCore { class PetPartySingleDoubleStartPattern; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PetPartySingleDoubleStartPattern_TypeDefinitionIndex = 17550;
+
 	class PetPartySingleDoubleStartPattern : public ::RPG::GameCore::JsonConfig
 	{
 	public:

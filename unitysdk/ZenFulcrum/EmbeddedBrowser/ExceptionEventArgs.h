@@ -9,6 +9,8 @@ namespace System { class Exception; }
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
+	inline static constexpr unsigned int ExceptionEventArgs_TypeDefinitionIndex = 39543;
+
 	class ExceptionEventArgs : public ::System::EventArgs
 	{
 	public:

@@ -9,6 +9,8 @@ namespace RPG::GameCore { class StageInvasionMaterialWhiteRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int StageInvasionMaterialWhiteRow_TypeDefinitionIndex = 15159;
+
 	class StageInvasionMaterialWhiteRow : public ::System::Object
 	{
 	public:

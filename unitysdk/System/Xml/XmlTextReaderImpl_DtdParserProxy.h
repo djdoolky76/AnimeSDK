@@ -46,6 +46,8 @@ namespace System::Xml { class XmlTextReaderImpl; }
 
 namespace System::Xml
 {
+	inline static constexpr unsigned int XmlTextReaderImpl_DtdParserProxy_TypeDefinitionIndex = 1857;
+
 	class XmlTextReaderImpl_DtdParserProxy : public ::System::Object
 	{
 	public:

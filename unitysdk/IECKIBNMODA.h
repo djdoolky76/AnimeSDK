@@ -13,6 +13,8 @@ namespace RPG::Client::LittleGame { class MovieGameLevelConfig; }
 #define IECKIBNMODA_NAKLJNNBJCF_OFFSET UNITYSDK_OFFSET(0x1CB07730)
 #define IECKIBNMODA_NDAJLMGINBJ_OFFSET UNITYSDK_OFFSET(0x1CB075F0)
 
+inline static constexpr unsigned int IECKIBNMODA_TypeDefinitionIndex = 42601;
+
 	class IECKIBNMODA
 	{
 	public:

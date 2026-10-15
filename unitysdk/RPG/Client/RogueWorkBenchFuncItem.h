@@ -20,6 +20,8 @@ namespace RPG::GameCore { class RogueTournWorkbenchFuncRow; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueWorkBenchFuncItem_TypeDefinitionIndex = 67342;
+
 	class RogueWorkBenchFuncItem : public ::System::Object
 	{
 	public:

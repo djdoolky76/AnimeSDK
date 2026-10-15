@@ -13,6 +13,8 @@ namespace RPG::Client { class CakeRaceSendChatEventData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int CakeRaceSendChatEventData_TypeDefinitionIndex = 63035;
+
 	class CakeRaceSendChatEventData : public ::System::Object
 	{
 	public:

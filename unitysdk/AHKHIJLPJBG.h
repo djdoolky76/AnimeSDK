@@ -29,6 +29,8 @@ namespace System { class Object; }
 #define AHKHIJLPJBG_LCJIGPCDPDG_OFFSET UNITYSDK_OFFSET(0x1CCC5F60)
 #define AHKHIJLPJBG_NHCFLDCDLCP_OFFSET UNITYSDK_OFFSET(0x1CCC5830)
 
+inline static constexpr unsigned int AHKHIJLPJBG_TypeDefinitionIndex = 10698;
+
 	class AHKHIJLPJBG : public ::System::Object
 	{
 	public:

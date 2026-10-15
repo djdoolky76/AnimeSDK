@@ -34,6 +34,8 @@ namespace System { class String; }
 #define ECCKHOLLPPC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E24C6C0)
 #define ECCKHOLLPPC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E24C720)
 
+inline static constexpr unsigned int ECCKHOLLPPC_TypeDefinitionIndex = 25199;
+
 	class ECCKHOLLPPC : public ::System::Object
 	{
 	public:

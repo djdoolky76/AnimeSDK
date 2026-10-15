@@ -30,6 +30,8 @@ namespace System { class String; }
 #define MCIOMLIEACB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E9F8480)
 #define MCIOMLIEACB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E9F84E0)
 
+inline static constexpr unsigned int MCIOMLIEACB_TypeDefinitionIndex = 31972;
+
 	class MCIOMLIEACB : public ::System::Object
 	{
 	public:

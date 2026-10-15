@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPGTools::Timeline::VFX
 {
+	inline static constexpr unsigned int VFXOverlayDissolveConfig_TypeDefinitionIndex = 48669;
+
 	class VFXOverlayDissolveConfig : public ::System::Object
 	{
 	public:

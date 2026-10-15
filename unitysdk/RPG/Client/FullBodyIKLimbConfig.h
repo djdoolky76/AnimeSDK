@@ -7,6 +7,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int FullBodyIKLimbConfig_TypeDefinitionIndex = 68603;
+
 	class FullBodyIKLimbConfig : public ::System::Object
 	{
 	public:

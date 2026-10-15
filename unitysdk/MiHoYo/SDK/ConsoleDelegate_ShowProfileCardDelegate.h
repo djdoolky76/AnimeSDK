@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int ConsoleDelegate_ShowProfileCardDelegate_TypeDefinitionIndex = 7679;
+
 	class ConsoleDelegate_ShowProfileCardDelegate : public ::System::MulticastDelegate
 	{
 	public:

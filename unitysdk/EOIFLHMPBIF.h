@@ -30,6 +30,8 @@ namespace System { class String; }
 #define EOIFLHMPBIF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E2FC210)
 #define EOIFLHMPBIF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E2FC270)
 
+inline static constexpr unsigned int EOIFLHMPBIF_TypeDefinitionIndex = 33409;
+
 	class EOIFLHMPBIF : public ::System::Object
 	{
 	public:

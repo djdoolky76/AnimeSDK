@@ -15,6 +15,8 @@ namespace RPG::GameCore { class VCameraFreelook3rdConfig; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int CameraFreelook3rdConfigData_TypeDefinitionIndex = 69569;
+
 	class CameraFreelook3rdConfigData : public ::System::Object
 	{
 	public:

@@ -3,6 +3,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AlleyPackStatistics_TypeDefinitionIndex = 62264;
+
 	struct alignas(4) AlleyPackStatistics
 	{
 		::System::UInt32 AutoPlaceCount; // 0x10

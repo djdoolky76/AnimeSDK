@@ -30,6 +30,8 @@ namespace System { class String; }
 #define JLHJICBCHMO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E7797B0)
 #define JLHJICBCHMO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E779810)
 
+inline static constexpr unsigned int JLHJICBCHMO_TypeDefinitionIndex = 32868;
+
 	class JLHJICBCHMO : public ::System::Object
 	{
 	public:

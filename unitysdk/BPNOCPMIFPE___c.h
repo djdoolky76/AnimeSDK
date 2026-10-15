@@ -9,6 +9,8 @@ namespace System { class Object; }
 #define BPNOCPMIFPE___C_CTOR_OFFSET UNITYSDK_OFFSET(0xC1ACF40)
 #define BPNOCPMIFPE___C__SWITCHENHANCED_B__14_0_OFFSET UNITYSDK_OFFSET(0xC1ACF50)
 
+inline static constexpr unsigned int BPNOCPMIFPE___c_TypeDefinitionIndex = 62757;
+
 	class BPNOCPMIFPE___c : public ::System::Object
 	{
 	public:

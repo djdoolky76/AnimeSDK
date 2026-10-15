@@ -7,6 +7,8 @@ namespace RPG::GameCore { class GameWorld; }
 #define JLDNJKKGJKA_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB23CC10)
 #define JLDNJKKGJKA_TICK_OFFSET UNITYSDK_OFFSET(0xB23CC80)
 
+inline static constexpr unsigned int JLDNJKKGJKA_TypeDefinitionIndex = 59298;
+
 	class JLDNJKKGJKA : public ::RPG::Client::LevelDirector
 	{
 	public:

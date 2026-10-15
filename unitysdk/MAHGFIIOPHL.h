@@ -41,6 +41,8 @@ namespace System { class String; }
 #define MAHGFIIOPHL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E9D9E80)
 #define MAHGFIIOPHL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E9D9EE0)
 
+inline static constexpr unsigned int MAHGFIIOPHL_TypeDefinitionIndex = 33515;
+
 	class MAHGFIIOPHL : public ::System::Object
 	{
 	public:

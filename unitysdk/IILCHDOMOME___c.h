@@ -9,6 +9,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 #define IILCHDOMOME___C_CTOR_OFFSET UNITYSDK_OFFSET(0x16449630)
 #define IILCHDOMOME___C___BEGINJOINLOBBY_B__7_0_OFFSET UNITYSDK_OFFSET(0x16449640)
 
+inline static constexpr unsigned int IILCHDOMOME___c_TypeDefinitionIndex = 66043;
+
 	class IILCHDOMOME___c : public ::System::Object
 	{
 	public:

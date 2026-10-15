@@ -13,6 +13,8 @@ namespace System::IO { class BinaryWriter; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int DebugStringMsg_TypeDefinitionIndex = 37741;
+
 	class DebugStringMsg : public ::System::Object
 	{
 	public:

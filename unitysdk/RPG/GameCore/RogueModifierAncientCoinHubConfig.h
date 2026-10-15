@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueModifierAncientCoinHubConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueModifierAncientCoinHubConfig_TypeDefinitionIndex = 17807;
+
 	class RogueModifierAncientCoinHubConfig : public ::RPG::GameCore::RogueModifierConfig
 	{
 	public:

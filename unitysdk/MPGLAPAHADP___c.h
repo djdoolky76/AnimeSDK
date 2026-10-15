@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define MPGLAPAHADP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EAB7E30)
 #define MPGLAPAHADP___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1EAB7E40)
 
+inline static constexpr unsigned int MPGLAPAHADP___c_TypeDefinitionIndex = 27675;
+
 	class MPGLAPAHADP___c : public ::System::Object
 	{
 	public:

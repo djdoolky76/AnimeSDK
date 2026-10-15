@@ -13,6 +13,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::ParkourGame
 {
+	inline static constexpr unsigned int MonoParkourFullScreenBuff_TypeDefinitionIndex = 74139;
+
 	class MonoParkourFullScreenBuff : public ::UnityEngine::MonoBehaviour
 	{
 	public:

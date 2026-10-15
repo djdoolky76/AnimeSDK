@@ -7,6 +7,8 @@ namespace RPG::GameCore { class BattleInstance; }
 
 #define OPCJCLBGKOK_DJBFKOBKHJN_CTOR_OFFSET UNITYSDK_OFFSET(0xBFA5650)
 
+inline static constexpr unsigned int OPCJCLBGKOK_DJBFKOBKHJN_TypeDefinitionIndex = 71912;
+
 	class OPCJCLBGKOK_DJBFKOBKHJN : public ::System::Object
 	{
 	public:

@@ -37,6 +37,8 @@ namespace System::IO { class Stream; }
 
 namespace Spine
 {
+	inline static constexpr unsigned int SkeletonBinary_TypeDefinitionIndex = 39686;
+
 	class SkeletonBinary : public ::Spine::SkeletonLoader
 	{
 	public:

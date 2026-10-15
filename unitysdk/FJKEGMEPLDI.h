@@ -29,6 +29,8 @@ namespace System { class String; }
 #define FJKEGMEPLDI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E3A5720)
 #define FJKEGMEPLDI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E3A5780)
 
+inline static constexpr unsigned int FJKEGMEPLDI_TypeDefinitionIndex = 28237;
+
 	class FJKEGMEPLDI : public ::System::Object
 	{
 	public:

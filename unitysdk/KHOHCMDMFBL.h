@@ -52,6 +52,8 @@ namespace UnityEngine { class Collider; }
 #define KHOHCMDMFBL_POOLDMKLJLJ_OFFSET UNITYSDK_OFFSET(0xB411280)
 #define KHOHCMDMFBL_TEARDOWN_OFFSET UNITYSDK_OFFSET(0xB410CA0)
 
+inline static constexpr unsigned int KHOHCMDMFBL_TypeDefinitionIndex = 77115;
+
 	class KHOHCMDMFBL : public ::System::Object
 	{
 	public:

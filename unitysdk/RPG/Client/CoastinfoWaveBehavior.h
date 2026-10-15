@@ -57,6 +57,8 @@ namespace UnityEngine { class Object; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int CoastinfoWaveBehavior_TypeDefinitionIndex = 70926;
+
 	class CoastinfoWaveBehavior : public ::RPG::Client::TABehaviorBase
 	{
 	public:

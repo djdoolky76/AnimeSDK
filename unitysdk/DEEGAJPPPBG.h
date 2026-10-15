@@ -30,6 +30,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define DEEGAJPPPBG_PKNAKPALBEK_1_OFFSET UNITYSDK_OFFSET(0xE5054C0)
 #define DEEGAJPPPBG_PKNAKPALBEK_OFFSET UNITYSDK_OFFSET(0xE5051B0)
 
+inline static constexpr unsigned int DEEGAJPPPBG_TypeDefinitionIndex = 56978;
+
 	class DEEGAJPPPBG : public ::RPG::GameCore::GameComponentBase
 	{
 	public:

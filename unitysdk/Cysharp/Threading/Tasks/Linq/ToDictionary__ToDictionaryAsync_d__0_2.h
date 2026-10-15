@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T> class IEqualityCo
 
 namespace Cysharp::Threading::Tasks::Linq
 {
+	inline static constexpr unsigned int ToDictionary__ToDictionaryAsync_d__0_2_TypeDefinitionIndex = 45676;
+
 	template <typename T1, typename T2>
 	struct alignas(8) ToDictionary__ToDictionaryAsync_d__0_2
 	{

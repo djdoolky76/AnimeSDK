@@ -26,6 +26,8 @@ namespace ZLinq { class ValueEnumerable; }
 #define FFBALLHFPOC_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1CDE3EE0)
 #define FFBALLHFPOC_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1CDE3820)
 
+inline static constexpr unsigned int FFBALLHFPOC_TypeDefinitionIndex = 15034;
+
 	class FFBALLHFPOC : public ::System::Object
 	{
 	public:

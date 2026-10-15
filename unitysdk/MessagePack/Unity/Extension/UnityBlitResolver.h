@@ -8,6 +8,8 @@ namespace MessagePack::Unity::Extension { class UnityBlitResolver; }
 
 namespace MessagePack::Unity::Extension
 {
+	inline static constexpr unsigned int UnityBlitResolver_TypeDefinitionIndex = 10147;
+
 	class UnityBlitResolver : public ::System::Object
 	{
 	public:

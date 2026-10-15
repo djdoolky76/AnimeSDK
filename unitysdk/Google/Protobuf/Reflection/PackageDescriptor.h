@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace Google::Protobuf::Reflection
 {
+	inline static constexpr unsigned int PackageDescriptor_TypeDefinitionIndex = 5558;
+
 	class PackageDescriptor : public ::System::Object
 	{
 	public:

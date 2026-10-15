@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace System::Linq::Expressions::Interpreter
 {
+	inline static constexpr unsigned int Instruction_TypeDefinitionIndex = 3434;
+
 	class Instruction : public ::System::Object
 	{
 	public:

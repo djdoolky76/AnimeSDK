@@ -8,6 +8,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int BattleScoringChangeParams_TypeDefinitionIndex = 58524;
+
 	class BattleScoringChangeParams : public ::System::Object
 	{
 	public:

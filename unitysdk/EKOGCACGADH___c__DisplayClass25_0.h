@@ -7,6 +7,8 @@ namespace System { class Action; }
 #define EKOGCACGADH___C__DISPLAYCLASS25_0_CTOR_OFFSET UNITYSDK_OFFSET(0x15515D40)
 #define EKOGCACGADH___C__DISPLAYCLASS25_0___ASYNCLOADPARALLEL_B__0_OFFSET UNITYSDK_OFFSET(0x15516C00)
 
+inline static constexpr unsigned int EKOGCACGADH___c__DisplayClass25_0_TypeDefinitionIndex = 71352;
+
 	class EKOGCACGADH___c__DisplayClass25_0 : public ::System::Object
 	{
 	public:

@@ -22,6 +22,8 @@
 
 namespace System::Security::Cryptography
 {
+	inline static constexpr unsigned int SHA384Managed_TypeDefinitionIndex = 1060;
+
 	class SHA384Managed : public ::System::Security::Cryptography::SHA384
 	{
 	public:

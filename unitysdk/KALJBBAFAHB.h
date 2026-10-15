@@ -4,6 +4,8 @@
 
 #define KALJBBAFAHB_CTOR_OFFSET UNITYSDK_OFFSET(0xB2DE850)
 
+inline static constexpr unsigned int KALJBBAFAHB_TypeDefinitionIndex = 69638;
+
 	class KALJBBAFAHB : public ::System::Object
 	{
 	public:

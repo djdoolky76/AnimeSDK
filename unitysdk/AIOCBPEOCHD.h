@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define AIOCBPEOCHD_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1CCCAF90)
 #define AIOCBPEOCHD_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1CCCA8B0)
 
+inline static constexpr unsigned int AIOCBPEOCHD_TypeDefinitionIndex = 12154;
+
 	class AIOCBPEOCHD : public ::System::Object
 	{
 	public:

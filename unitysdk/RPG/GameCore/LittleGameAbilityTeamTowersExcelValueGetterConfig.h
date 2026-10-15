@@ -10,6 +10,8 @@ namespace RPG::GameCore { class LittleGameAbilityTeamTowersExcelValueGetterConfi
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LittleGameAbilityTeamTowersExcelValueGetterConfig_TypeDefinitionIndex = 21420;
+
 	class LittleGameAbilityTeamTowersExcelValueGetterConfig : public ::RPG::GameCore::BaseLittleGameAbilityValueGetterConfig
 	{
 	public:

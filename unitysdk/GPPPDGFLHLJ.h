@@ -12,6 +12,8 @@ namespace UnityEngine { class Transform; }
 #define GPPPDGFLHLJ_KEPMOCBBOKP_OFFSET UNITYSDK_OFFSET(0x15B69DB0)
 #define GPPPDGFLHLJ_KGHBLDBMMAD_OFFSET UNITYSDK_OFFSET(0x15B692A0)
 
+inline static constexpr unsigned int GPPPDGFLHLJ_TypeDefinitionIndex = 60054;
+
 	class GPPPDGFLHLJ : public ::System::Object
 	{
 	public:

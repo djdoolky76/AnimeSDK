@@ -7,6 +7,8 @@ namespace UnityEngine { class Light; }
 #define BMFJEMFMLGC_PGAFKENCKDK_BMEJBIMKILN_1_OFFSET UNITYSDK_OFFSET(0x23B10)
 #define BMFJEMFMLGC_PGAFKENCKDK_BMEJBIMKILN_OFFSET UNITYSDK_OFFSET(0x23B00)
 
+inline static constexpr unsigned int BMFJEMFMLGC_PGAFKENCKDK_TypeDefinitionIndex = 69779;
+
 	struct alignas(4) BMFJEMFMLGC_PGAFKENCKDK
 	{
 		::UnityEngine::Vector3 NPHAFNPMMDF; // 0x10

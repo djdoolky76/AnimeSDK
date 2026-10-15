@@ -56,6 +56,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define CKCJOCJGHKC_SET_ISPASSED_OFFSET UNITYSDK_OFFSET(0xD754D10)
 #define CKCJOCJGHKC__STARTNEWENGAGEMENTFROMSTAGE_B__50_0_OFFSET UNITYSDK_OFFSET(0xD756560)
 
+inline static constexpr unsigned int CKCJOCJGHKC_TypeDefinitionIndex = 81440;
+
 	class CKCJOCJGHKC : public ::System::Object
 	{
 	public:

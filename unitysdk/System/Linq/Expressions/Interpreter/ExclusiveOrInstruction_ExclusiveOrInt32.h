@@ -8,6 +8,8 @@ namespace System::Linq::Expressions::Interpreter { class InterpretedFrame; }
 
 namespace System::Linq::Expressions::Interpreter
 {
+	inline static constexpr unsigned int ExclusiveOrInstruction_ExclusiveOrInt32_TypeDefinitionIndex = 3389;
+
 	class ExclusiveOrInstruction_ExclusiveOrInt32 : public ::System::Linq::Expressions::Interpreter::ExclusiveOrInstruction
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System { class Uri; }
 
 namespace System::Net::Http::Headers
 {
+	inline static constexpr unsigned int Parser_Uri_TypeDefinitionIndex = 3819;
+
 	class Parser_Uri : public ::System::Object
 	{
 	public:

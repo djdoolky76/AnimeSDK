@@ -7,6 +7,8 @@ namespace System { class String; }
 #define AKUTILITIES_FIXSLASHES_1_OFFSET UNITYSDK_OFFSET(0x1F619FC0)
 #define AKUTILITIES_FIXSLASHES_OFFSET UNITYSDK_OFFSET(0x1F619C00)
 
+inline static constexpr unsigned int AkUtilities_TypeDefinitionIndex = 44852;
+
 	class AkUtilities : public ::System::Object
 	{
 	public:

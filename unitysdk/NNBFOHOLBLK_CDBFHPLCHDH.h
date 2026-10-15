@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define NNBFOHOLBLK_CDBFHPLCHDH_GET_LOADEDCOLLIDERITEMSTR_OFFSET UNITYSDK_OFFSET(0xBC9D700)
 #define NNBFOHOLBLK_CDBFHPLCHDH_GET_LOADEDCOLLIDERITEM_OFFSET UNITYSDK_OFFSET(0xBC9D380)
 
+inline static constexpr unsigned int NNBFOHOLBLK_CDBFHPLCHDH_TypeDefinitionIndex = 73869;
+
 	class NNBFOHOLBLK_CDBFHPLCHDH : public ::UnityEngine::MonoBehaviour
 	{
 	public:

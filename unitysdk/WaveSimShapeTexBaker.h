@@ -13,6 +13,8 @@ namespace UnityEngine { class Transform; }
 #define WAVESIMSHAPETEXBAKER_NEKGALPLEOH_OFFSET UNITYSDK_OFFSET(0xE9F7FF0)
 #define WAVESIMSHAPETEXBAKER_SETCOLLECTDEBUG_OFFSET UNITYSDK_OFFSET(0xE9F8050)
 
+inline static constexpr unsigned int WaveSimShapeTexBaker_TypeDefinitionIndex = 47502;
+
 	class WaveSimShapeTexBaker : public ::RPG::Client::TAMonoBase
 	{
 	public:

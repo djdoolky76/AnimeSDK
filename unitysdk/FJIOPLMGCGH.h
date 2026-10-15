@@ -15,6 +15,8 @@ namespace UnityEngine { class RectTransform; }
 #define FJIOPLMGCGH_ONRETURN_OFFSET UNITYSDK_OFFSET(0x157D15C0)
 #define FJIOPLMGCGH__ONDISPOSE_OFFSET UNITYSDK_OFFSET(0x157D16C0)
 
+inline static constexpr unsigned int FJIOPLMGCGH_TypeDefinitionIndex = 72026;
+
 	class FJIOPLMGCGH : public ::FMPCODLIOLG
 	{
 	public:

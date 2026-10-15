@@ -21,6 +21,8 @@ namespace RPG::Client::NavMap { class IMapDataSource; }
 #define IMJAFIDKDKK_POLCNFCECHB_OFFSET UNITYSDK_OFFSET(0x164DB6F0)
 #define IMJAFIDKDKK_SET_ORIGINMATRIX_OFFSET UNITYSDK_OFFSET(0x2E82980)
 
+inline static constexpr unsigned int IMJAFIDKDKK_TypeDefinitionIndex = 60591;
+
 	struct alignas(4) IMJAFIDKDKK
 	{
 		::UnityEngine::Matrix4x4 _OriginMatrix_k__BackingField; // 0x10

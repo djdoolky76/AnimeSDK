@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ClockParkStoryConfig_TypeDefinitionIndex = 16031;
+
 	class ClockParkStoryConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

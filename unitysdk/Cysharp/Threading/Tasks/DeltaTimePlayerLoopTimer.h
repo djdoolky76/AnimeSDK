@@ -14,6 +14,8 @@ namespace System { class Object; }
 
 namespace Cysharp::Threading::Tasks
 {
+	inline static constexpr unsigned int DeltaTimePlayerLoopTimer_TypeDefinitionIndex = 38212;
+
 	class DeltaTimePlayerLoopTimer : public ::Cysharp::Threading::Tasks::PlayerLoopTimer
 	{
 	public:

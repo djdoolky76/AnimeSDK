@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RtBattleCameraMode_TypeDefinitionIndex = 24803;
+
 	enum class RtBattleCameraMode : ::System::Int32
 	{
 		FixedFocus = 0,

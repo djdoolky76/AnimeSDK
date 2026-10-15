@@ -7,6 +7,8 @@ namespace System::Security::Util { class TokenizerShortBlock; }
 
 namespace System::Security::Util
 {
+	inline static constexpr unsigned int TokenizerShortBlock_TypeDefinitionIndex = 980;
+
 	class TokenizerShortBlock : public ::System::Object
 	{
 	public:

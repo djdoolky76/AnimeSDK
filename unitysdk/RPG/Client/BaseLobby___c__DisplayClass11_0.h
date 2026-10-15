@@ -9,6 +9,8 @@ namespace RPG::Client::Promises { class IPromise; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int BaseLobby___c__DisplayClass11_0_TypeDefinitionIndex = 65769;
+
 	class BaseLobby___c__DisplayClass11_0 : public ::System::Object
 	{
 	public:

@@ -4,6 +4,8 @@
 
 #define MFPIHMCMONL_HJHDKBBDNBH_CTOR_OFFSET UNITYSDK_OFFSET(0xB912490)
 
+inline static constexpr unsigned int MFPIHMCMONL_HJHDKBBDNBH_TypeDefinitionIndex = 71422;
+
 	class MFPIHMCMONL_HJHDKBBDNBH : public ::System::Object
 	{
 	public:

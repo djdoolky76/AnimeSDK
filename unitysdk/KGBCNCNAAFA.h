@@ -32,6 +32,8 @@ namespace System { class String; }
 #define KGBCNCNAAFA_PGIBPCGLJMG_OFFSET UNITYSDK_OFFSET(0x1DD6AFE0)
 #define KGBCNCNAAFA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x3C4C070)
 
+inline static constexpr unsigned int KGBCNCNAAFA_TypeDefinitionIndex = 6283;
+
 	struct alignas(4) KGBCNCNAAFA
 	{
 		::RPG::MVector2 BHCMCMADHBF; // 0x10

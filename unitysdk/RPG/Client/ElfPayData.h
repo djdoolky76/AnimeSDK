@@ -7,6 +7,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ElfPayData_TypeDefinitionIndex = 63749;
+
 	class ElfPayData : public ::System::Object
 	{
 	public:

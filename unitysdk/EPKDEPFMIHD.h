@@ -27,6 +27,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define EPKDEPFMIHD_NFOLJPPLKDH_OFFSET UNITYSDK_OFFSET(0x155D6F80)
 #define EPKDEPFMIHD_NLBNJGKAMII_OFFSET UNITYSDK_OFFSET(0x155D6140)
 
+inline static constexpr unsigned int EPKDEPFMIHD_TypeDefinitionIndex = 53753;
+
 	class EPKDEPFMIHD : public ::GJPFGOGOLBI
 	{
 	public:

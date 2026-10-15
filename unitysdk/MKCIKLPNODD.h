@@ -28,6 +28,8 @@ namespace System { class String; }
 #define MKCIKLPNODD_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EA537B0)
 #define MKCIKLPNODD_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EA53810)
 
+inline static constexpr unsigned int MKCIKLPNODD_TypeDefinitionIndex = 34688;
+
 	class MKCIKLPNODD : public ::System::Object
 	{
 	public:

@@ -6,6 +6,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int WolfBroGunPlayRogueRoadMapConfig_TypeDefinitionIndex = 68761;
+
 	class WolfBroGunPlayRogueRoadMapConfig : public ::RPG::Client::WolfBroGunPlayRoadMapConfig
 	{
 	public:

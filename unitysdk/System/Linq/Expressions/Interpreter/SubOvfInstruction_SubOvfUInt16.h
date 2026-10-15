@@ -8,6 +8,8 @@ namespace System::Linq::Expressions::Interpreter { class InterpretedFrame; }
 
 namespace System::Linq::Expressions::Interpreter
 {
+	inline static constexpr unsigned int SubOvfInstruction_SubOvfUInt16_TypeDefinitionIndex = 3637;
+
 	class SubOvfInstruction_SubOvfUInt16 : public ::System::Linq::Expressions::Interpreter::SubOvfInstruction
 	{
 	public:

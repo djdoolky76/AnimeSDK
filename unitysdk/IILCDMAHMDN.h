@@ -36,6 +36,8 @@ namespace System { class String; }
 #define IILCDMAHMDN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E68AA30)
 #define IILCDMAHMDN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E68AA90)
 
+inline static constexpr unsigned int IILCDMAHMDN_TypeDefinitionIndex = 29039;
+
 	class IILCDMAHMDN : public ::System::Object
 	{
 	public:

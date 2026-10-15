@@ -9,6 +9,8 @@ namespace UnityEngine::UI { class Text; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AnimStateDebugItem_TypeDefinitionIndex = 72732;
+
 	class AnimStateDebugItem : public ::UnityEngine::MonoBehaviour
 	{
 	public:

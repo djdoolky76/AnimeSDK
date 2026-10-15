@@ -10,6 +10,8 @@ namespace RPG::GameCore { class OpenHipplenGrowthPage; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int OpenHipplenGrowthPage_TypeDefinitionIndex = 21313;
+
 	class OpenHipplenGrowthPage : public ::RPG::GameCore::TaskConfig
 	{
 	public:

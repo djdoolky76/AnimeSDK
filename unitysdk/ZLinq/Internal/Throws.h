@@ -10,6 +10,8 @@ namespace System { class Type; }
 
 namespace ZLinq::Internal
 {
+	inline static constexpr unsigned int Throws_TypeDefinitionIndex = 6157;
+
 	class Throws : public ::System::Object
 	{
 	public:

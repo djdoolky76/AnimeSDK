@@ -18,6 +18,8 @@
 
 namespace UnityEngine::Animations
 {
+	inline static constexpr unsigned int AnimationMotionXToDeltaPlayable_TypeDefinitionIndex = 5751;
+
 	struct alignas(4) AnimationMotionXToDeltaPlayable
 	{
 		::UnityEngine::Playables::PlayableHandle m_Handle; // 0x10

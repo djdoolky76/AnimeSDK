@@ -16,6 +16,8 @@ namespace UnityEngine { class Transform; }
 #define SEALPOOLTRIGGERCRASH_GHIFMGPKFPF_OFFSET UNITYSDK_OFFSET(0xE966F10)
 #define SEALPOOLTRIGGERCRASH_ONCOLLISIONENTER_OFFSET UNITYSDK_OFFSET(0xE966980)
 
+inline static constexpr unsigned int SealPoolTriggerCrash_TypeDefinitionIndex = 47143;
+
 	class SealPoolTriggerCrash : public ::UnityEngine::MonoBehaviour
 	{
 	public:

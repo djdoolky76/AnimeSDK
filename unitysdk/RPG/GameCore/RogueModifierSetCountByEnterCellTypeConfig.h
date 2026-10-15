@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueModifierSetCountByEnterCellTypeConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueModifierSetCountByEnterCellTypeConfig_TypeDefinitionIndex = 17718;
+
 	class RogueModifierSetCountByEnterCellTypeConfig : public ::RPG::GameCore::RogueModifierConfig
 	{
 	public:

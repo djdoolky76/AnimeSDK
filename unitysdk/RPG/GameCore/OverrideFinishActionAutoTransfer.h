@@ -11,6 +11,8 @@ namespace RPG::GameCore { class OverrideFinishActionAutoTransfer; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int OverrideFinishActionAutoTransfer_TypeDefinitionIndex = 20357;
+
 	class OverrideFinishActionAutoTransfer : public ::RPG::GameCore::TaskConfig
 	{
 	public:

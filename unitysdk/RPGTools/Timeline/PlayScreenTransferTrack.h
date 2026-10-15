@@ -15,6 +15,8 @@ namespace UnityEngine::Timeline { class TimelineClip; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int PlayScreenTransferTrack_TypeDefinitionIndex = 48217;
+
 	class PlayScreenTransferTrack : public ::UnityEngine::Timeline::TrackAsset
 	{
 	public:

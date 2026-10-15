@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueDLC1Dot3AdventureRoomPrepare; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueDLC1Dot3AdventureRoomPrepare_TypeDefinitionIndex = 22276;
+
 	class RogueDLC1Dot3AdventureRoomPrepare : public ::RPG::GameCore::TaskConfig
 	{
 	public:

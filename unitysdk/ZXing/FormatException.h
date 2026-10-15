@@ -6,6 +6,8 @@
 
 namespace ZXing
 {
+	inline static constexpr unsigned int FormatException_TypeDefinitionIndex = 6998;
+
 	class FormatException : public ::ZXing::ReaderException
 	{
 	public:

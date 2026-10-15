@@ -13,6 +13,8 @@ namespace System { class Object; }
 #define LAFJEKPBCLE__GETENUMERATORBYAVATARID_D__17_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x1D0D3000)
 #define LAFJEKPBCLE__GETENUMERATORBYAVATARID_D__17_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1D0D2EB0)
 
+inline static constexpr unsigned int LAFJEKPBCLE__GetEnumeratorByAvatarID_d__17_TypeDefinitionIndex = 12682;
+
 	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename T8, typename T9, typename T10, typename T11, typename T12, typename T13, typename T14, typename T15, typename T16, typename T17>
 	class LAFJEKPBCLE__GetEnumeratorByAvatarID_d__17 : public ::System::Object
 	{

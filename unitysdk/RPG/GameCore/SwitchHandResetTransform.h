@@ -12,6 +12,8 @@ namespace RPG::GameCore { class SwitchHandResetTransform; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SwitchHandResetTransform_TypeDefinitionIndex = 20958;
+
 	class SwitchHandResetTransform : public ::RPG::GameCore::TaskConfig
 	{
 	public:

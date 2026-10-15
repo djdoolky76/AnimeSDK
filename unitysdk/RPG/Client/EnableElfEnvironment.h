@@ -10,6 +10,8 @@ namespace RPG::Client { class EnableElfEnvironment; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int EnableElfEnvironment_TypeDefinitionIndex = 10214;
+
 	class EnableElfEnvironment : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -6,6 +6,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ElfCookFoodResult_TypeDefinitionIndex = 63751;
+
 	class ElfCookFoodResult : public ::System::Object
 	{
 	public:

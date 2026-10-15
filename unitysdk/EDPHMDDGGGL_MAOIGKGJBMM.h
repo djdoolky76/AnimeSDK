@@ -7,6 +7,8 @@ namespace RPG::GameCore { class PerformanceCaptureNPC; }
 
 #define EDPHMDDGGGL_MAOIGKGJBMM_CTOR_OFFSET UNITYSDK_OFFSET(0x13333150)
 
+inline static constexpr unsigned int EDPHMDDGGGL_MAOIGKGJBMM_TypeDefinitionIndex = 60718;
+
 	class EDPHMDDGGGL_MAOIGKGJBMM : public ::System::Object
 	{
 	public:

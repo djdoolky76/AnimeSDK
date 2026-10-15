@@ -9,6 +9,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelTurnAvatarChangeFinish_TypeDefinitionIndex = 56718;
+
 	class LevelTurnAvatarChangeFinish : public ::System::Object
 	{
 	public:

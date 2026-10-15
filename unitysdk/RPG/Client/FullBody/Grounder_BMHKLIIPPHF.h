@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace RPG::Client::FullBody
 {
+	inline static constexpr unsigned int Grounder_BMHKLIIPPHF_TypeDefinitionIndex = 74231;
+
 	class Grounder_BMHKLIIPPHF : public ::System::MulticastDelegate
 	{
 	public:

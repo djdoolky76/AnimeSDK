@@ -6,6 +6,8 @@
 #define DAFINEMBGOK_LOKOABBPHMP_OFFSET UNITYSDK_OFFSET(0xF1580)
 #define DAFINEMBGOK_OGHIELPGHBC_OFFSET UNITYSDK_OFFSET(0xF1590)
 
+inline static constexpr unsigned int DAFINEMBGOK_TypeDefinitionIndex = 78514;
+
 	struct alignas(4) DAFINEMBGOK
 	{
 		::RPG::Client::Prop::CommandRobotPuzzleBlockType CFGEJHAOKED; // 0x10

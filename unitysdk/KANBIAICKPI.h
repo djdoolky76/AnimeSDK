@@ -7,6 +7,8 @@ namespace RPG::GameCore { class GameEntity; }
 #define KANBIAICKPI_CTOR_OFFSET UNITYSDK_OFFSET(0xB2CACF0)
 #define KANBIAICKPI_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xB2DEC90)
 
+inline static constexpr unsigned int KANBIAICKPI_TypeDefinitionIndex = 56638;
+
 	class KANBIAICKPI : public ::HMFOPIJNNDI
 	{
 	public:

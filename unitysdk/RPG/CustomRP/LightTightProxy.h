@@ -6,6 +6,8 @@
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int LightTightProxy_TypeDefinitionIndex = 51840;
+
 	class LightTightProxy : public ::UnityEngine::MonoBehaviour
 	{
 	public:

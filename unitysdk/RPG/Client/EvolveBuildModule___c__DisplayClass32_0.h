@@ -9,6 +9,8 @@ namespace RPG::Client { class BattleGamePhase; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int EvolveBuildModule___c__DisplayClass32_0_TypeDefinitionIndex = 63802;
+
 	class EvolveBuildModule___c__DisplayClass32_0 : public ::System::Object
 	{
 	public:

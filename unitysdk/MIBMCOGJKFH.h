@@ -8,6 +8,8 @@ namespace RPG::Client { class ActivityElationAvatarData; }
 #define MIBMCOGJKFH_JAMENDLLLID_OFFSET UNITYSDK_OFFSET(0xB94FBA0)
 #define MIBMCOGJKFH_JJABJNHLLKN_OFFSET UNITYSDK_OFFSET(0xB94FE00)
 
+inline static constexpr unsigned int MIBMCOGJKFH_TypeDefinitionIndex = 61513;
+
 	class MIBMCOGJKFH : public ::System::Object
 	{
 	public:

@@ -5,6 +5,8 @@
 
 namespace RootMotion::FinalIK
 {
+	inline static constexpr unsigned int Grounding_GroundingLegLockTransform_TypeDefinitionIndex = 46006;
+
 	struct alignas(4) Grounding_GroundingLegLockTransform
 	{
 		::UnityEngine::Vector3 Position; // 0x10

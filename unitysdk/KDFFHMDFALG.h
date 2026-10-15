@@ -176,6 +176,8 @@ namespace UnityEngine { class GameObject; }
 #define KDFFHMDFALG_SET_VOLUMEPLUGIN_OFFSET UNITYSDK_OFFSET(0xB35C010)
 #define KDFFHMDFALG_SET_WILLBEDISPOSE_OFFSET UNITYSDK_OFFSET(0xB35C2E0)
 
+inline static constexpr unsigned int KDFFHMDFALG_TypeDefinitionIndex = 60581;
+
 	class KDFFHMDFALG : public ::System::Object
 	{
 	public:

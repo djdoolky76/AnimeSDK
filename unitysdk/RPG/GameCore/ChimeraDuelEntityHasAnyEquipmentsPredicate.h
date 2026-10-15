@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ChimeraDuelEntityHasAnyEquipmentsPredicate; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChimeraDuelEntityHasAnyEquipmentsPredicate_TypeDefinitionIndex = 15920;
+
 	class ChimeraDuelEntityHasAnyEquipmentsPredicate : public ::RPG::GameCore::ChimeraDuelEntityPredicateBase
 	{
 	public:

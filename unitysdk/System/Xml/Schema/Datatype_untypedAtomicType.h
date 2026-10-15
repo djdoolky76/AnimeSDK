@@ -13,6 +13,8 @@ namespace System::Xml::Schema { class XmlValueConverter; }
 
 namespace System::Xml::Schema
 {
+	inline static constexpr unsigned int Datatype_untypedAtomicType_TypeDefinitionIndex = 2095;
+
 	class Datatype_untypedAtomicType : public ::System::Xml::Schema::Datatype_anyAtomicType
 	{
 	public:

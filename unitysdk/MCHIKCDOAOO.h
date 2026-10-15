@@ -11,6 +11,8 @@ namespace RPG::GameCore { class LevelNPCInfoOverride; }
 #define MCHIKCDOAOO_JFIEPNEJBEO_OFFSET UNITYSDK_OFFSET(0xB87F400)
 #define MCHIKCDOAOO_KDPEDNKCMEB_OFFSET UNITYSDK_OFFSET(0xB87EB70)
 
+inline static constexpr unsigned int MCHIKCDOAOO_TypeDefinitionIndex = 56495;
+
 	class MCHIKCDOAOO : public ::System::Object
 	{
 	public:

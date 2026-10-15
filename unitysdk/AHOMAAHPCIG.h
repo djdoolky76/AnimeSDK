@@ -29,6 +29,8 @@ namespace System { class String; }
 #define AHOMAAHPCIG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E2774D0)
 #define AHOMAAHPCIG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E277530)
 
+inline static constexpr unsigned int AHOMAAHPCIG_TypeDefinitionIndex = 28325;
+
 	class AHOMAAHPCIG : public ::System::Object
 	{
 	public:

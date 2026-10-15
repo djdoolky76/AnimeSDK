@@ -13,6 +13,8 @@ namespace UnityEngine { class Texture; }
 
 namespace UnityEngine::UI
 {
+	inline static constexpr unsigned int RuntimeAtlasManager_PackedAtlas_TypeDefinitionIndex = 6823;
+
 	class RuntimeAtlasManager_PackedAtlas : public ::System::Object
 	{
 	public:

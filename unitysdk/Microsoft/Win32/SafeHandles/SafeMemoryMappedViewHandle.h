@@ -8,6 +8,8 @@
 
 namespace Microsoft::Win32::SafeHandles
 {
+	inline static constexpr unsigned int SafeMemoryMappedViewHandle_TypeDefinitionIndex = 3096;
+
 	class SafeMemoryMappedViewHandle : public ::System::Runtime::InteropServices::SafeBuffer
 	{
 	public:

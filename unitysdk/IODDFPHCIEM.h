@@ -32,6 +32,8 @@ namespace System { class Object; }
 #define IODDFPHCIEM_PBBEPOODCFN_OFFSET UNITYSDK_OFFSET(0x164FEB40)
 #define IODDFPHCIEM__ONBIND_OFFSET UNITYSDK_OFFSET(0x164FE650)
 
+inline static constexpr unsigned int IODDFPHCIEM_TypeDefinitionIndex = 72017;
+
 	class IODDFPHCIEM : public ::FMPCODLIOLG
 	{
 	public:

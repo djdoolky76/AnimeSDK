@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define PCPJIEBCNBI_CLEAR_OFFSET UNITYSDK_OFFSET(0xC00B3F0)
 #define PCPJIEBCNBI_CTOR_OFFSET UNITYSDK_OFFSET(0xC00B440)
 
+inline static constexpr unsigned int PCPJIEBCNBI_TypeDefinitionIndex = 56057;
+
 	class PCPJIEBCNBI : public ::System::Object
 	{
 	public:

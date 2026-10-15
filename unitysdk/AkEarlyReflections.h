@@ -7,6 +7,8 @@ namespace AK::Wwise { class AuxBus; }
 #define AKEARLYREFLECTIONS_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1F58EC40)
 #define AKEARLYREFLECTIONS_SETEARLYREFLECTIONSVOLUME_OFFSET UNITYSDK_OFFSET(0x1F58ED10)
 
+inline static constexpr unsigned int AkEarlyReflections_TypeDefinitionIndex = 44915;
+
 	class AkEarlyReflections : public ::UnityEngine::MonoBehaviour
 	{
 	public:

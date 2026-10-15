@@ -25,6 +25,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define APFKPHPNCEC_SET_SOURCEENTITYTYPE_OFFSET UNITYSDK_OFFSET(0x15BA8FA0)
 #define APFKPHPNCEC_TICK_OFFSET UNITYSDK_OFFSET(0x15BA8B60)
 
+inline static constexpr unsigned int APFKPHPNCEC_TypeDefinitionIndex = 56967;
+
 	class APFKPHPNCEC : public ::RPG::GameCore::GameComponentBase
 	{
 	public:

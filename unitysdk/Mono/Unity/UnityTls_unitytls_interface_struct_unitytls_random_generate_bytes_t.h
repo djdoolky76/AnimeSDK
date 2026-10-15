@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace Mono::Unity
 {
+	inline static constexpr unsigned int UnityTls_unitytls_interface_struct_unitytls_random_generate_bytes_t_TypeDefinitionIndex = 2400;
+
 	class UnityTls_unitytls_interface_struct_unitytls_random_generate_bytes_t : public ::System::MulticastDelegate
 	{
 	public:

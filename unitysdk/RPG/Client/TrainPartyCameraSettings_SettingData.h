@@ -4,6 +4,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TrainPartyCameraSettings_SettingData_TypeDefinitionIndex = 60246;
+
 	struct alignas(4) TrainPartyCameraSettings_SettingData
 	{
 		::UnityEngine::Vector3 offset; // 0x10

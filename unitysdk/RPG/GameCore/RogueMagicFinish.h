@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueMagicFinish; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueMagicFinish_TypeDefinitionIndex = 22123;
+
 	class RogueMagicFinish : public ::RPG::GameCore::TaskConfig
 	{
 	public:

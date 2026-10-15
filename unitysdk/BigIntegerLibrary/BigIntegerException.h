@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace BigIntegerLibrary
 {
+	inline static constexpr unsigned int BigIntegerException_TypeDefinitionIndex = 7033;
+
 	class BigIntegerException : public ::System::Exception
 	{
 	public:

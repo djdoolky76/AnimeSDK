@@ -12,6 +12,8 @@ class IJLIGGBIDBA;
 #define PMGIMPDMIKC_CTOR_OFFSET UNITYSDK_OFFSET(0x1C9F6BD0)
 #define PMGIMPDMIKC_MNDENOAHKAP_OFFSET UNITYSDK_OFFSET(0x1C9F6BC0)
 
+inline static constexpr unsigned int PMGIMPDMIKC_TypeDefinitionIndex = 43686;
+
 	class PMGIMPDMIKC : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define LPALDMPADBF_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB815F20)
 #define LPALDMPADBF_TICK_OFFSET UNITYSDK_OFFSET(0xB815F70)
 
+inline static constexpr unsigned int LPALDMPADBF_TypeDefinitionIndex = 53097;
+
 	class LPALDMPADBF : public ::GELIALJDFBL
 	{
 	public:

@@ -17,6 +17,8 @@ namespace System::Runtime::Remoting::Messaging { class IMethodCallMessage; }
 
 namespace System::Runtime::Remoting::Messaging
 {
+	inline static constexpr unsigned int CADMethodCallMessage_TypeDefinitionIndex = 1303;
+
 	class CADMethodCallMessage : public ::System::Runtime::Remoting::Messaging::CADMessageBase
 	{
 	public:

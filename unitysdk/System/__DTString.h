@@ -35,6 +35,8 @@ namespace System::Globalization { class DateTimeFormatInfo; }
 
 namespace System
 {
+	inline static constexpr unsigned int __DTString_TypeDefinitionIndex = 257;
+
 	struct alignas(8) __DTString
 	{
 		::System::String* Value; // 0x10

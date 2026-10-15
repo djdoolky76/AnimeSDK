@@ -9,6 +9,8 @@ namespace HedgehogTeam::EasyTouch { class EasyTouchTrigger_EasyTouchReceiver; }
 
 namespace HedgehogTeam::EasyTouch
 {
+	inline static constexpr unsigned int EasyTouchTrigger___c__DisplayClass51_0_TypeDefinitionIndex = 40248;
+
 	class EasyTouchTrigger___c__DisplayClass51_0 : public ::System::Object
 	{
 	public:

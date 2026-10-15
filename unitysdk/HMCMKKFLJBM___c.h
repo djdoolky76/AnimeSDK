@@ -11,6 +11,8 @@ namespace System { class Object; }
 #define HMCMKKFLJBM___C___CCTOR_B__23_1_OFFSET UNITYSDK_OFFSET(0x1E5CC280)
 #define HMCMKKFLJBM___C___CCTOR_B__23_2_OFFSET UNITYSDK_OFFSET(0x1E5CC290)
 
+inline static constexpr unsigned int HMCMKKFLJBM___c_TypeDefinitionIndex = 26401;
+
 	class HMCMKKFLJBM___c : public ::System::Object
 	{
 	public:

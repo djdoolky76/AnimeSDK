@@ -7,6 +7,8 @@ class CCNCJLPFPBE;
 #define CCNCJLPFPBE_CTOR_OFFSET UNITYSDK_OFFSET(0x1C8DD480)
 #define CCNCJLPFPBE_PPEGOIODAKI_OFFSET UNITYSDK_OFFSET(0x1C8DD3A0)
 
+inline static constexpr unsigned int CCNCJLPFPBE_TypeDefinitionIndex = 42030;
+
 	class CCNCJLPFPBE : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FinishActionConfigRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FinishActionConfigRow_TypeDefinitionIndex = 14168;
+
 	class FinishActionConfigRow : public ::System::Object
 	{
 	public:

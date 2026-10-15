@@ -3,6 +3,8 @@
 
 namespace RPG::Client::ActivityAlley
 {
+	inline static constexpr unsigned int AlleyPackDragStateEnum_TypeDefinitionIndex = 74086;
+
 	enum class AlleyPackDragStateEnum : ::System::Int32
 	{
 		Idle = 0,

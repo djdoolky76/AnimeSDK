@@ -19,6 +19,8 @@ namespace System::Globalization { class NumberFormatInfo; }
 
 namespace System::ComponentModel
 {
+	inline static constexpr unsigned int DecimalConverter_TypeDefinitionIndex = 2576;
+
 	class DecimalConverter : public ::System::ComponentModel::BaseNumberConverter
 	{
 	public:

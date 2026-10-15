@@ -9,6 +9,8 @@ namespace RPG::GameCore { class FateRinCaseBoardBaseTeamInfo; }
 #define PCCJNGOCLKD_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xBFFE060)
 #define PCCJNGOCLKD_CTOR_OFFSET UNITYSDK_OFFSET(0xBFFDFB0)
 
+inline static constexpr unsigned int PCCJNGOCLKD_TypeDefinitionIndex = 80817;
+
 	class PCCJNGOCLKD : public ::System::Object
 	{
 	public:

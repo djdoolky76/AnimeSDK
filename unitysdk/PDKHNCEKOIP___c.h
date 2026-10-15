@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define PDKHNCEKOIP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DF11A30)
 #define PDKHNCEKOIP___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1DF11A40)
 
+inline static constexpr unsigned int PDKHNCEKOIP___c_TypeDefinitionIndex = 30989;
+
 	class PDKHNCEKOIP___c : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define DBPOONDIGBB_CONVERT_OFFSET UNITYSDK_OFFSET(0x1CC8F4D0)
 #define DBPOONDIGBB_CTOR_OFFSET UNITYSDK_OFFSET(0x1CC8F5E0)
 
+inline static constexpr unsigned int DBPOONDIGBB_TypeDefinitionIndex = 43901;
+
 	class DBPOONDIGBB : public ::System::Object
 	{
 	public:

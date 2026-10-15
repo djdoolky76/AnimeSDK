@@ -37,6 +37,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define PIHMIDGCDGM__ONBIND_OFFSET UNITYSDK_OFFSET(0xC262060)
 #define PIHMIDGCDGM__ONDISPOSE_OFFSET UNITYSDK_OFFSET(0xC262450)
 
+inline static constexpr unsigned int PIHMIDGCDGM_TypeDefinitionIndex = 71946;
+
 	class PIHMIDGCDGM : public ::FMPCODLIOLG
 	{
 	public:

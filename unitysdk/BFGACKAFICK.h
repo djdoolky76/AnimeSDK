@@ -29,6 +29,8 @@ namespace System { class String; }
 #define BFGACKAFICK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EA6C540)
 #define BFGACKAFICK_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EA6C5A0)
 
+inline static constexpr unsigned int BFGACKAFICK_TypeDefinitionIndex = 33988;
+
 	class BFGACKAFICK : public ::System::Object
 	{
 	public:

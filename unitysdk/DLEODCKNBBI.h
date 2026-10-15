@@ -23,6 +23,8 @@ namespace System { class Nullable; }
 #define DLEODCKNBBI_SET_ISFINISH_OFFSET UNITYSDK_OFFSET(0xF89BB30)
 #define DLEODCKNBBI_SET_ISRECOVERYING_OFFSET UNITYSDK_OFFSET(0xF89BB10)
 
+inline static constexpr unsigned int DLEODCKNBBI_TypeDefinitionIndex = 69538;
+
 	class DLEODCKNBBI : public ::System::Object
 	{
 	public:

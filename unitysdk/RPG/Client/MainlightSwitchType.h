@@ -3,6 +3,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MainlightSwitchType_TypeDefinitionIndex = 69780;
+
 	enum class MainlightSwitchType : ::System::Int32
 	{
 		TaskSyncMainLightAndCamera = 0,

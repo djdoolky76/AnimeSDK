@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define LECIGPPCMAB___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E9252B0)
 #define LECIGPPCMAB___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E9252C0)
 
+inline static constexpr unsigned int LECIGPPCMAB___c_TypeDefinitionIndex = 32987;
+
 	class LECIGPPCMAB___c : public ::System::Object
 	{
 	public:

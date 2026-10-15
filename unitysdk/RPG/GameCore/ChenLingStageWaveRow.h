@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ChenLingStageWaveRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChenLingStageWaveRow_TypeDefinitionIndex = 11080;
+
 	class ChenLingStageWaveRow : public ::System::Object
 	{
 	public:

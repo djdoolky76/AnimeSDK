@@ -8,6 +8,8 @@
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int DebugUpdater_TypeDefinitionIndex = 35551;
+
 	class DebugUpdater : public ::UnityEngine::MonoBehaviour
 	{
 	public:

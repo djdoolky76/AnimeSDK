@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define OEMFJPEALMD_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xBE33220)
 #define OEMFJPEALMD_TICK_OFFSET UNITYSDK_OFFSET(0xBE333B0)
 
+inline static constexpr unsigned int OEMFJPEALMD_TypeDefinitionIndex = 52245;
+
 	class OEMFJPEALMD
 	{
 	public:

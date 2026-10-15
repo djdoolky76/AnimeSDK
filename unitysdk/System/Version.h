@@ -38,6 +38,8 @@ namespace System::Text { class StringBuilder; }
 
 namespace System
 {
+	inline static constexpr unsigned int Version_TypeDefinitionIndex = 364;
+
 	class Version : public ::System::Object
 	{
 	public:

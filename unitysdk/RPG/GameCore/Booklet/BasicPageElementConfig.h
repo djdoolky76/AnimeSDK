@@ -11,6 +11,8 @@ namespace RPG::GameCore::Booklet { class ElementConfig; }
 
 namespace RPG::GameCore::Booklet
 {
+	inline static constexpr unsigned int BasicPageElementConfig_TypeDefinitionIndex = 24966;
+
 	class BasicPageElementConfig : public ::RPG::GameCore::Booklet::FadeInElementConfig
 	{
 	public:

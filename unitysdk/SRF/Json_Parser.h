@@ -26,6 +26,8 @@ namespace System::IO { class StringReader; }
 
 namespace SRF
 {
+	inline static constexpr unsigned int Json_Parser_TypeDefinitionIndex = 35356;
+
 	class Json_Parser : public ::System::Object
 	{
 	public:

@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TransitEnvProfile; }
 #define BAHCPACOGOI_PLNCKLJOJME_OFFSET UNITYSDK_OFFSET(0x15BE2540)
 #define BAHCPACOGOI_TICK_OFFSET UNITYSDK_OFFSET(0x15BE24E0)
 
+inline static constexpr unsigned int BAHCPACOGOI_TypeDefinitionIndex = 58767;
+
 	class BAHCPACOGOI : public ::GELIALJDFBL
 	{
 	public:

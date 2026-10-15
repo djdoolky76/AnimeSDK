@@ -24,6 +24,8 @@ namespace System::Collections::Generic { template <typename T> class IEqualityCo
 
 namespace Cysharp::Threading::Tasks::Internal
 {
+	inline static constexpr unsigned int UnityEqualityComparer_TypeDefinitionIndex = 38674;
+
 	class UnityEqualityComparer : public ::System::Object
 	{
 	public:

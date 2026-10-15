@@ -7,6 +7,8 @@ class FLIACEMKGNG;
 #define FLIACEMKGNG_CTOR_OFFSET UNITYSDK_OFFSET(0x15832280)
 #define FLIACEMKGNG_FFHNOMIDEDE_OFFSET UNITYSDK_OFFSET(0x15832290)
 
+inline static constexpr unsigned int FLIACEMKGNG_TypeDefinitionIndex = 68236;
+
 	class FLIACEMKGNG : public ::System::Object
 	{
 	public:

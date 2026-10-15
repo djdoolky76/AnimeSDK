@@ -4,6 +4,8 @@
 
 #define PPAEPHIFLBF_CTOR_OFFSET UNITYSDK_OFFSET(0xC377470)
 
+inline static constexpr unsigned int PPAEPHIFLBF_TypeDefinitionIndex = 72408;
+
 	class PPAEPHIFLBF : public ::System::Object
 	{
 	public:

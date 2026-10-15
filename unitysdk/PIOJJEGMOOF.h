@@ -28,6 +28,8 @@ namespace System { class String; }
 #define PIOJJEGMOOF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DF72650)
 #define PIOJJEGMOOF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DF726B0)
 
+inline static constexpr unsigned int PIOJJEGMOOF_TypeDefinitionIndex = 29936;
+
 	class PIOJJEGMOOF : public ::System::Object
 	{
 	public:

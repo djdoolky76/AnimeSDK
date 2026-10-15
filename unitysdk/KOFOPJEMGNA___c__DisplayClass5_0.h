@@ -7,6 +7,8 @@ namespace RPG::GameCore { class LevelGraph; }
 #define KOFOPJEMGNA___C__DISPLAYCLASS5_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB595950)
 #define KOFOPJEMGNA___C__DISPLAYCLASS5_0__TRYSTARTOWNINTERACTION_B__0_OFFSET UNITYSDK_OFFSET(0xB596920)
 
+inline static constexpr unsigned int KOFOPJEMGNA___c__DisplayClass5_0_TypeDefinitionIndex = 53542;
+
 	class KOFOPJEMGNA___c__DisplayClass5_0 : public ::System::Object
 	{
 	public:

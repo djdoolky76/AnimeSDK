@@ -29,6 +29,8 @@ namespace UnityEngine::Rendering { class CommandBuffer; }
 
 namespace EnviromentSystem
 {
+	inline static constexpr unsigned int EnviroGradientProperty_TypeDefinitionIndex = 49604;
+
 	class EnviroGradientProperty : public ::EnviromentSystem::EnviroProperty
 	{
 	public:

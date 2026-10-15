@@ -19,6 +19,8 @@ namespace UnityEngine::UI { class Image; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int BookletImageElement_TypeDefinitionIndex = 72390;
+
 	class BookletImageElement
 	{
 	public:

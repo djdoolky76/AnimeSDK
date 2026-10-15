@@ -6,6 +6,8 @@
 
 #define EEPCHBPPNBK_CTOR_OFFSET UNITYSDK_OFFSET(0x13A41A60)
 
+inline static constexpr unsigned int EEPCHBPPNBK_TypeDefinitionIndex = 55693;
+
 	class EEPCHBPPNBK : public ::System::Object
 	{
 	public:

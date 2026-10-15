@@ -25,6 +25,8 @@ namespace System { class String; }
 #define CLOIKIFPAJC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E0FD930)
 #define CLOIKIFPAJC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E0FD990)
 
+inline static constexpr unsigned int CLOIKIFPAJC_TypeDefinitionIndex = 31481;
+
 	class CLOIKIFPAJC : public ::System::Object
 	{
 	public:

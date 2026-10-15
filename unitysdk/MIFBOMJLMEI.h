@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define MIFBOMJLMEI_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1D1B2520)
 #define MIFBOMJLMEI_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1D1B1E80)
 
+inline static constexpr unsigned int MIFBOMJLMEI_TypeDefinitionIndex = 14567;
+
 	class MIFBOMJLMEI : public ::System::Object
 	{
 	public:

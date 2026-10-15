@@ -8,6 +8,8 @@ class DNLGHEHJOCC;
 #define CBCEIDBNIHC_HCFCGNDFDCG_OFFSET UNITYSDK_OFFSET(0xC49F290)
 #define CBCEIDBNIHC_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0xC49F2D0)
 
+inline static constexpr unsigned int CBCEIDBNIHC_TypeDefinitionIndex = 68306;
+
 	class CBCEIDBNIHC : public ::System::Object
 	{
 	public:

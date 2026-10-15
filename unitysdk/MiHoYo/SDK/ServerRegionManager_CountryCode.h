@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int ServerRegionManager_CountryCode_TypeDefinitionIndex = 7966;
+
 	class ServerRegionManager_CountryCode : public ::System::Object
 	{
 	public:

@@ -4,6 +4,8 @@
 
 #define SPINESKELETONFLIPBEHAVIOUR_CTOR_OFFSET UNITYSDK_OFFSET(0x1ECF6A10)
 
+inline static constexpr unsigned int SpineSkeletonFlipBehaviour_TypeDefinitionIndex = 45901;
+
 	class SpineSkeletonFlipBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

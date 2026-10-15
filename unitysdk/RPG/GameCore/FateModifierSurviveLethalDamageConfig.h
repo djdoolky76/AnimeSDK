@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FateModifierSurviveLethalDamageConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FateModifierSurviveLethalDamageConfig_TypeDefinitionIndex = 19278;
+
 	class FateModifierSurviveLethalDamageConfig : public ::RPG::GameCore::FateModifierConfigBase
 	{
 	public:

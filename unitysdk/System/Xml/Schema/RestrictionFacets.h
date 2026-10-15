@@ -8,6 +8,8 @@ namespace System::Collections { class ArrayList; }
 
 namespace System::Xml::Schema
 {
+	inline static constexpr unsigned int RestrictionFacets_TypeDefinitionIndex = 2088;
+
 	class RestrictionFacets : public ::System::Object
 	{
 	public:

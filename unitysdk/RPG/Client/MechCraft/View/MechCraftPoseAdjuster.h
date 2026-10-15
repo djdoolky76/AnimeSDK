@@ -10,6 +10,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftPoseAdjuster_TypeDefinitionIndex = 79972;
+
 	class MechCraftPoseAdjuster : public ::UnityEngine::MonoBehaviour
 	{
 	public:

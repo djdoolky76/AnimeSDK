@@ -15,6 +15,8 @@ namespace RPG::Client::LimaoNews { class LimaoNewsLocationData; }
 
 namespace RPG::Client::LimaoNews
 {
+	inline static constexpr unsigned int LimaoNewsLocationData_TypeDefinitionIndex = 80288;
+
 	class LimaoNewsLocationData : public ::System::Object
 	{
 	public:

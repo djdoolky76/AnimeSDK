@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyLi
 
 namespace RPG::Client::MechCraft::ViewModel
 {
+	inline static constexpr unsigned int MechCraftResidentRewardViewModel_TypeDefinitionIndex = 79687;
+
 	class MechCraftResidentRewardViewModel : public ::System::Object
 	{
 	public:

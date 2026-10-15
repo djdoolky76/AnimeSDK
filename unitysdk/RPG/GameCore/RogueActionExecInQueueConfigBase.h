@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueActionExecInQueueConfigBase; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueActionExecInQueueConfigBase_TypeDefinitionIndex = 19583;
+
 	class RogueActionExecInQueueConfigBase : public ::RPG::GameCore::RogueActionConfigBase
 	{
 	public:

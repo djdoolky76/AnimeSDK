@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int NetworkManager___c__DisplayClass44_0_TypeDefinitionIndex = 8167;
+
 	class NetworkManager___c__DisplayClass44_0 : public ::System::Object
 	{
 	public:

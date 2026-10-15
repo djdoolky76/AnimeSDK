@@ -3,6 +3,8 @@
 
 namespace RPG::Client::BlindBox::Trade
 {
+	inline static constexpr unsigned int BlindBoxTradeOrderRepository_PetTradeAvailabilitySummary_TypeDefinitionIndex = 74871;
+
 	struct alignas(4) BlindBoxTradeOrderRepository_PetTradeAvailabilitySummary
 	{
 		::System::Boolean HasAvailableInstance; // 0x10

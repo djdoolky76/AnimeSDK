@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define EADMLLDCALG_CTOR_OFFSET UNITYSDK_OFFSET(0x126739F0)
 #define EADMLLDCALG_EVALUATE_OFFSET UNITYSDK_OFFSET(0x12673A20)
 
+inline static constexpr unsigned int EADMLLDCALG_TypeDefinitionIndex = 57977;
+
 	class EADMLLDCALG
 	{
 	public:

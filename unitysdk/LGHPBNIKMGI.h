@@ -28,6 +28,8 @@ namespace System { class String; }
 #define LGHPBNIKMGI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E954360)
 #define LGHPBNIKMGI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E9543C0)
 
+inline static constexpr unsigned int LGHPBNIKMGI_TypeDefinitionIndex = 27401;
+
 	class LGHPBNIKMGI : public ::System::Object
 	{
 	public:

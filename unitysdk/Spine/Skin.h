@@ -30,6 +30,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace Spine
 {
+	inline static constexpr unsigned int Skin_TypeDefinitionIndex = 39696;
+
 	class Skin : public ::System::Object
 	{
 	public:

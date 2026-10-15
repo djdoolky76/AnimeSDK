@@ -15,6 +15,8 @@ namespace RPG::GameCore { class LevelEntitySingleBlockChange; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelEntitySingleBlockChange_TypeDefinitionIndex = 56839;
+
 	class LevelEntitySingleBlockChange : public ::CMPGEAFHHDC
 	{
 	public:

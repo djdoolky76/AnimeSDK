@@ -5,6 +5,8 @@ namespace System { class Action; }
 
 namespace RPG
 {
+	inline static constexpr unsigned int LinkableNodeList_1_TypeDefinitionIndex = 6376;
+
 	template <typename T>
 	class LinkableNodeList_1 : public ::System::Object
 	{

@@ -13,6 +13,8 @@ namespace System::Runtime::Serialization { class SerializationInfo; }
 
 namespace System
 {
+	inline static constexpr unsigned int InvalidCastException_TypeDefinitionIndex = 287;
+
 	class InvalidCastException : public ::System::SystemException
 	{
 	public:

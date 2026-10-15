@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define GAOBHBLFPEC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E425F10)
 #define GAOBHBLFPEC___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1E425F20)
 
+inline static constexpr unsigned int GAOBHBLFPEC___c_TypeDefinitionIndex = 32655;
+
 	class GAOBHBLFPEC___c : public ::System::Object
 	{
 	public:

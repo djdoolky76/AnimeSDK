@@ -16,6 +16,8 @@ namespace System { template <typename T> class Func_1; }
 
 namespace Cysharp::Threading::Tasks
 {
+	inline static constexpr unsigned int UniTask_DeferPromise_TypeDefinitionIndex = 38247;
+
 	class UniTask_DeferPromise : public ::System::Object
 	{
 	public:

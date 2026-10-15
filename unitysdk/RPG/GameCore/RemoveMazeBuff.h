@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RemoveMazeBuff_TypeDefinitionIndex = 20420;
+
 	class RemoveMazeBuff : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -11,6 +11,8 @@ namespace RPG::GameCore { class DiceCombatPredicateConfig_IsDefender; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DiceCombatPredicateConfig_IsDefender_TypeDefinitionIndex = 16107;
+
 	class DiceCombatPredicateConfig_IsDefender : public ::RPG::GameCore::DiceCombatPredicateConfig
 	{
 	public:

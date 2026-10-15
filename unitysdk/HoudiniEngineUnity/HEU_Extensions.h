@@ -19,6 +19,8 @@ namespace System { class String; }
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int HEU_Extensions_TypeDefinitionIndex = 40623;
+
 	class HEU_Extensions : public ::System::Object
 	{
 	public:

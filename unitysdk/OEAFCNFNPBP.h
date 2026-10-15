@@ -8,6 +8,8 @@ class OEAFCNFNPBP;
 #define OEAFCNFNPBP_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D25B530)
 #define OEAFCNFNPBP_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D25B460)
 
+inline static constexpr unsigned int OEAFCNFNPBP_TypeDefinitionIndex = 21562;
+
 	class OEAFCNFNPBP : public ::RPG::GameCore::TaskConfig
 	{
 	public:

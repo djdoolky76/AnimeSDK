@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace Coffee::UIParticleInternal
 {
+	inline static constexpr unsigned int FrameCache_TypeDefinitionIndex = 45130;
+
 	class FrameCache : public ::System::Object
 	{
 	public:

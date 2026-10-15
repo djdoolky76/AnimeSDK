@@ -11,6 +11,8 @@ namespace RPG::GameCore { class AdvPlayerCancelRide; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdvPlayerCancelRide_TypeDefinitionIndex = 21033;
+
 	class AdvPlayerCancelRide : public ::RPG::GameCore::TaskConfig
 	{
 	public:

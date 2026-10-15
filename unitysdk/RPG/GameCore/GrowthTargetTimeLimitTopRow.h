@@ -9,6 +9,8 @@ namespace RPG::GameCore { class GrowthTargetTimeLimitTopRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GrowthTargetTimeLimitTopRow_TypeDefinitionIndex = 13369;
+
 	class GrowthTargetTimeLimitTopRow : public ::System::Object
 	{
 	public:

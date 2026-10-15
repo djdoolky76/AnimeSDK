@@ -5,6 +5,8 @@
 
 #define BINEKJFCLMP_CTOR_OFFSET UNITYSDK_OFFSET(0x1A700)
 
+inline static constexpr unsigned int BINEKJFCLMP_TypeDefinitionIndex = 64217;
+
 	struct alignas(4) BINEKJFCLMP
 	{
 		::UnityEngine::Vector3 BBFOLEOPPPL; // 0x10

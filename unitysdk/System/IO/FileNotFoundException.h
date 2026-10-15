@@ -17,6 +17,8 @@ namespace System::Runtime::Serialization { class SerializationInfo; }
 
 namespace System::IO
 {
+	inline static constexpr unsigned int FileNotFoundException_TypeDefinitionIndex = 671;
+
 	class FileNotFoundException : public ::System::IO::IOException
 	{
 	public:

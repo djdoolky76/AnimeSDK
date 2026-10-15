@@ -9,6 +9,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PauseDialogParam_TypeDefinitionIndex = 71648;
+
 	class PauseDialogParam : public ::System::Object
 	{
 	public:

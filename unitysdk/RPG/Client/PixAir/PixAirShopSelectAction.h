@@ -15,6 +15,8 @@ namespace System { class String; }
 
 namespace RPG::Client::PixAir
 {
+	inline static constexpr unsigned int PixAirShopSelectAction_TypeDefinitionIndex = 79296;
+
 	class PixAirShopSelectAction : public ::RPG::Client::PixAir::BasePixAirPendingAction
 	{
 	public:

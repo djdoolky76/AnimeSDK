@@ -11,6 +11,8 @@ namespace ZXing::Aztec::Internal { class Token; }
 
 namespace ZXing::Aztec::Internal
 {
+	inline static constexpr unsigned int Token_TypeDefinitionIndex = 7017;
+
 	class Token : public ::System::Object
 	{
 	public:

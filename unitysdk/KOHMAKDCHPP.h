@@ -9,6 +9,8 @@ class KOHMAKDCHPP;
 #define KOHMAKDCHPP_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xB597120)
 #define KOHMAKDCHPP_CTOR_OFFSET UNITYSDK_OFFSET(0xB597270)
 
+inline static constexpr unsigned int KOHMAKDCHPP_TypeDefinitionIndex = 77998;
+
 	class KOHMAKDCHPP : public ::BLLEONBDOMJ
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class LockPhotoIdentifyHint; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LockPhotoIdentifyHint_TypeDefinitionIndex = 21659;
+
 	class LockPhotoIdentifyHint : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -17,6 +17,8 @@ namespace System::Security { class SecurityElement; }
 
 namespace System::Security
 {
+	inline static constexpr unsigned int SecurityDocument_TypeDefinitionIndex = 941;
+
 	class SecurityDocument : public ::System::Object
 	{
 	public:

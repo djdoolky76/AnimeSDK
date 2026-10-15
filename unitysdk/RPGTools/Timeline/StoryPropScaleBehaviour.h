@@ -12,6 +12,8 @@ namespace RPGTools::Timeline { class StoryPropScaleClip; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int StoryPropScaleBehaviour_TypeDefinitionIndex = 48360;
+
 	class StoryPropScaleBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

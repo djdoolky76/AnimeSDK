@@ -31,6 +31,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelPropInfo_TypeDefinitionIndex = 17261;
+
 	class LevelPropInfo : public ::RPG::GameCore::NamedLevelObjectInfo
 	{
 	public:

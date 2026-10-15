@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define NBEEMCPNDPN_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1D1EE9B0)
 #define NBEEMCPNDPN_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1D1EE2D0)
 
+inline static constexpr unsigned int NBEEMCPNDPN_TypeDefinitionIndex = 11512;
+
 	class NBEEMCPNDPN : public ::System::Object
 	{
 	public:

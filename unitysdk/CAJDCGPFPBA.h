@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 #define CAJDCGPFPBA_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D9FFEA0)
 #define CAJDCGPFPBA_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D9FFE60)
 
+inline static constexpr unsigned int CAJDCGPFPBA_TypeDefinitionIndex = 23752;
+
 	class CAJDCGPFPBA : public ::RPG::GameCore::TaskConfig
 	{
 	public:

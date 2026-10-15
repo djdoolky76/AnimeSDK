@@ -8,6 +8,8 @@ class HNKAHGBAJID;
 #define HNKAHGBAJID_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CECCFF0)
 #define HNKAHGBAJID_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CECCFB0)
 
+inline static constexpr unsigned int HNKAHGBAJID_TypeDefinitionIndex = 21146;
+
 	class HNKAHGBAJID : public ::RPG::GameCore::TaskConfig
 	{
 	public:

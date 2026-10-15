@@ -12,6 +12,8 @@ namespace UnityEngine { class Texture2D; }
 
 namespace RPG::Client::BAT
 {
+	inline static constexpr unsigned int BATPrototype_RendererPackage_TypeDefinitionIndex = 73672;
+
 	class BATPrototype_RendererPackage : public ::System::Object
 	{
 	public:

@@ -15,6 +15,8 @@ namespace UnityEngine { class MaterialPropertyBlock; }
 #define LMGAOOEJHIJ_NABCFOILKJN_KMAAFBPPINO_OFFSET UNITYSDK_OFFSET(0xB77F660)
 #define LMGAOOEJHIJ_NABCFOILKJN_MJEBNLCHNEB_OFFSET UNITYSDK_OFFSET(0xB77F5A0)
 
+inline static constexpr unsigned int LMGAOOEJHIJ_NABCFOILKJN_TypeDefinitionIndex = 70363;
+
 	class LMGAOOEJHIJ_NABCFOILKJN : public ::System::Object
 	{
 	public:

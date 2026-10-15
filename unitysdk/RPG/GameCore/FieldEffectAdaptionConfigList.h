@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FieldEffectAdaptionConfigList; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FieldEffectAdaptionConfigList_TypeDefinitionIndex = 16512;
+
 	class FieldEffectAdaptionConfigList : public ::RPG::GameCore::JsonConfig
 	{
 	public:

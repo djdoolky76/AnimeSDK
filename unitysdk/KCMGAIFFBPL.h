@@ -16,6 +16,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define KCMGAIFFBPL_CTOR_OFFSET UNITYSDK_OFFSET(0xB33DD30)
 #define KCMGAIFFBPL_FKNKMOFOODM_OFFSET UNITYSDK_OFFSET(0xB33DC40)
 
+inline static constexpr unsigned int KCMGAIFFBPL_TypeDefinitionIndex = 57639;
+
 	class KCMGAIFFBPL : public ::System::Object
 	{
 	public:

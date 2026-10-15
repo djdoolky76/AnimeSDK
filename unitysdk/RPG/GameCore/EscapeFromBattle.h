@@ -10,6 +10,8 @@ namespace RPG::GameCore { class EscapeFromBattle; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int EscapeFromBattle_TypeDefinitionIndex = 23141;
+
 	class EscapeFromBattle : public ::RPG::GameCore::TaskConfig
 	{
 	public:

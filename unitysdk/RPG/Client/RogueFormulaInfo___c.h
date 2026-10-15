@@ -22,6 +22,8 @@ namespace System::Collections::Generic { class KeyValuePair; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueFormulaInfo___c_TypeDefinitionIndex = 67217;
+
 	class RogueFormulaInfo___c : public ::System::Object
 	{
 	public:

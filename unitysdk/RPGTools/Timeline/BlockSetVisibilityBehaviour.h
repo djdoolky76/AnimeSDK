@@ -12,6 +12,8 @@ namespace RPGTools::Timeline { class BlockSetVisibilityClip; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int BlockSetVisibilityBehaviour_TypeDefinitionIndex = 47874;
+
 	class BlockSetVisibilityBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

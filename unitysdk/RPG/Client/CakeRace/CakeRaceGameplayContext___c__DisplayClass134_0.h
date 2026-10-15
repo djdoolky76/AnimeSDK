@@ -9,6 +9,8 @@ namespace System { template <typename T> class Predicate_1; }
 
 namespace RPG::Client::CakeRace
 {
+	inline static constexpr unsigned int CakeRaceGameplayContext___c__DisplayClass134_0_TypeDefinitionIndex = 76436;
+
 	class CakeRaceGameplayContext___c__DisplayClass134_0 : public ::System::Object
 	{
 	public:

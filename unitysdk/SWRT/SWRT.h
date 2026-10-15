@@ -9,6 +9,8 @@ class SWRTAsset;
 
 namespace SWRT
 {
+	inline static constexpr unsigned int SWRT_TypeDefinitionIndex = 37511;
+
 	class SWRT : public ::UnityEngine::MonoBehaviour
 	{
 	public:

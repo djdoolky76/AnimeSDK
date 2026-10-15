@@ -9,6 +9,8 @@ namespace RPG::GameCore { class EntityModelAssetInfo; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int EntityModelAssetInfo_TypeDefinitionIndex = 19212;
+
 	class EntityModelAssetInfo : public ::RPG::GameCore::JsonConfig
 	{
 	public:

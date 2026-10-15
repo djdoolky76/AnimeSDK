@@ -8,6 +8,8 @@ class NDMMNBDMCNG;
 #define NDMMNBDMCNG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D1FAE40)
 #define NDMMNBDMCNG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D1FABA0)
 
+inline static constexpr unsigned int NDMMNBDMCNG_TypeDefinitionIndex = 11487;
+
 	class NDMMNBDMCNG : public ::System::Object
 	{
 	public:

@@ -5,6 +5,8 @@ namespace System { class Action; }
 
 namespace Coffee::UIExtensions
 {
+	inline static constexpr unsigned int UIParticleUpdater___O_TypeDefinitionIndex = 45163;
+
 	class UIParticleUpdater___O : public ::System::Object
 	{
 	public:

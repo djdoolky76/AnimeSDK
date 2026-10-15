@@ -47,6 +47,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MusicRhythmPhase_TypeDefinitionIndex = 61822;
+
 	class MusicRhythmPhase : public ::System::Object
 	{
 	public:

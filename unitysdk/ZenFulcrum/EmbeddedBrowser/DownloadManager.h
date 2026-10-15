@@ -26,6 +26,8 @@ namespace ZenFulcrum::EmbeddedBrowser { class JSONNode; }
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
+	inline static constexpr unsigned int DownloadManager_TypeDefinitionIndex = 39497;
+
 	class DownloadManager : public ::UnityEngine::MonoBehaviour
 	{
 	public:

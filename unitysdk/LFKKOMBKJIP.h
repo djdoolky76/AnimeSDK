@@ -29,6 +29,8 @@ namespace System { class String; }
 #define LFKKOMBKJIP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E942740)
 #define LFKKOMBKJIP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E9427A0)
 
+inline static constexpr unsigned int LFKKOMBKJIP_TypeDefinitionIndex = 25317;
+
 	class LFKKOMBKJIP : public ::System::Object
 	{
 	public:

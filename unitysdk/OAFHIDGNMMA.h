@@ -7,6 +7,8 @@ class CBEBICGIOAB;
 #define OAFHIDGNMMA_CTOR_OFFSET UNITYSDK_OFFSET(0xBD1EBD0)
 #define OAFHIDGNMMA_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0xBD1EC20)
 
+inline static constexpr unsigned int OAFHIDGNMMA_TypeDefinitionIndex = 49425;
+
 	class OAFHIDGNMMA
 	{
 	public:

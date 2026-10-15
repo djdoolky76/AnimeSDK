@@ -19,6 +19,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 #define LAELGPHMBOO__SELECTTARGET_D__0_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB5DC430)
 #define LAELGPHMBOO__SELECTTARGET_D__0___M__FINALLY1_OFFSET UNITYSDK_OFFSET(0xB5DC470)
 
+inline static constexpr unsigned int LAELGPHMBOO__SelectTarget_d__0_TypeDefinitionIndex = 77516;
+
 	class LAELGPHMBOO__SelectTarget_d__0 : public ::System::Object
 	{
 	public:

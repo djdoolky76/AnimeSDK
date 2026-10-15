@@ -48,6 +48,8 @@ namespace UnityEngine { class Transform; }
 #define BDMGLFNMFBD_PNFGCJFKJOG_OFFSET UNITYSDK_OFFSET(0x162FFEE0)
 #define BDMGLFNMFBD_SET_CURRENTBOSSHP_OFFSET UNITYSDK_OFFSET(0x16302070)
 
+inline static constexpr unsigned int BDMGLFNMFBD_TypeDefinitionIndex = 79116;
+
 	class BDMGLFNMFBD : public ::MKHNMHOHEAK
 	{
 	public:

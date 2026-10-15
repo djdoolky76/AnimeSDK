@@ -6,6 +6,8 @@
 
 namespace System
 {
+	inline static constexpr unsigned int ThreadStaticAttribute_TypeDefinitionIndex = 337;
+
 	class ThreadStaticAttribute : public ::System::Attribute
 	{
 	public:

@@ -29,6 +29,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace UnityEngine::ProBuilder
 {
+	inline static constexpr unsigned int Edge_TypeDefinitionIndex = 44351;
+
 	struct alignas(4) Edge
 	{
 		::System::Int32 a; // 0x10

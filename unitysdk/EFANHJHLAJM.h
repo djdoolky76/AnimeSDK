@@ -64,6 +64,8 @@ namespace UnityEngine { class RectTransform; }
 #define EFANHJHLAJM_POAJNJEKEGC_OFFSET UNITYSDK_OFFSET(0x13A45140)
 #define EFANHJHLAJM__ONBIND_OFFSET UNITYSDK_OFFSET(0x13A44260)
 
+inline static constexpr unsigned int EFANHJHLAJM_TypeDefinitionIndex = 71424;
+
 	class EFANHJHLAJM : public ::FMPCODLIOLG
 	{
 	public:

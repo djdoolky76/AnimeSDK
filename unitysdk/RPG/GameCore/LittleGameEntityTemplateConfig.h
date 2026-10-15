@@ -9,6 +9,8 @@ namespace RPG::GameCore { class LittleGameEntityTemplateConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LittleGameEntityTemplateConfig_TypeDefinitionIndex = 18920;
+
 	class LittleGameEntityTemplateConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

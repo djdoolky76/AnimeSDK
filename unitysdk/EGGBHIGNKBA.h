@@ -4,6 +4,8 @@
 
 #define EGGBHIGNKBA_CTOR_OFFSET UNITYSDK_OFFSET(0x1C46C670)
 
+inline static constexpr unsigned int EGGBHIGNKBA_TypeDefinitionIndex = 41437;
+
 	class EGGBHIGNKBA : public ::JPALBBKCNHE
 	{
 	public:

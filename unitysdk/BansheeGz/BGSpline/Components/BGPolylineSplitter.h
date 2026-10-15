@@ -19,6 +19,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace BansheeGz::BGSpline::Components
 {
+	inline static constexpr unsigned int BGPolylineSplitter_TypeDefinitionIndex = 36064;
+
 	class BGPolylineSplitter : public ::System::Object
 	{
 	public:

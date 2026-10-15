@@ -123,6 +123,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::OpenWorld
 {
+	inline static constexpr unsigned int OpenWorldHelper_TypeDefinitionIndex = 73874;
+
 	class OpenWorldHelper : public ::System::Object
 	{
 	public:

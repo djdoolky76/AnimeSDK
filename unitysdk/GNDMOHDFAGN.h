@@ -5,6 +5,8 @@
 
 #define GNDMOHDFAGN_CTOR_OFFSET UNITYSDK_OFFSET(0x15AFE9F0)
 
+inline static constexpr unsigned int GNDMOHDFAGN_TypeDefinitionIndex = 49331;
+
 	class GNDMOHDFAGN : public ::System::Attribute
 	{
 	public:

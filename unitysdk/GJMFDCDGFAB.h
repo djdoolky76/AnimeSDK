@@ -5,6 +5,8 @@
 #define GJMFDCDGFAB_CTOR_OFFSET UNITYSDK_OFFSET(0x15A6FC70)
 #define GJMFDCDGFAB_EXECUTE_OFFSET UNITYSDK_OFFSET(0x15A6FBE0)
 
+inline static constexpr unsigned int GJMFDCDGFAB_TypeDefinitionIndex = 70495;
+
 	class GJMFDCDGFAB : public ::System::Object
 	{
 	public:

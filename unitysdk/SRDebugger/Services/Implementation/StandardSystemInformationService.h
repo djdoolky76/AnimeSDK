@@ -18,6 +18,8 @@ namespace System::Collections::Generic { template <typename T> class IList_1; }
 
 namespace SRDebugger::Services::Implementation
 {
+	inline static constexpr unsigned int StandardSystemInformationService_TypeDefinitionIndex = 38089;
+
 	class StandardSystemInformationService : public ::System::Object
 	{
 	public:

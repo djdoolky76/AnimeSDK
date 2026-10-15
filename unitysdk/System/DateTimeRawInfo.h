@@ -8,6 +8,8 @@
 
 namespace System
 {
+	inline static constexpr unsigned int DateTimeRawInfo_TypeDefinitionIndex = 261;
+
 	struct alignas(8) DateTimeRawInfo
 	{
 		::PVOID num; // 0x10

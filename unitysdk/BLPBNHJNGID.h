@@ -17,6 +17,8 @@ namespace System { class String; }
 #define BLPBNHJNGID_SET_BATTLEJSONOVERRIDE_OFFSET UNITYSDK_OFFSET(0xBA83620)
 #define BLPBNHJNGID_SET_RESMAPCONFIGPATH_OFFSET UNITYSDK_OFFSET(0xBA83660)
 
+inline static constexpr unsigned int BLPBNHJNGID_TypeDefinitionIndex = 51958;
+
 	class BLPBNHJNGID : public ::System::Object
 	{
 	public:

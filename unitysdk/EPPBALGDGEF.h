@@ -28,6 +28,8 @@ namespace System { class String; }
 #define EPPBALGDGEF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E3197B0)
 #define EPPBALGDGEF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E319810)
 
+inline static constexpr unsigned int EPPBALGDGEF_TypeDefinitionIndex = 26186;
+
 	class EPPBALGDGEF : public ::System::Object
 	{
 	public:

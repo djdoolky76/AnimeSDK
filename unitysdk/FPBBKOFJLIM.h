@@ -8,6 +8,8 @@
 #define FPBBKOFJLIM_KMJDCAGFIAJ_OFFSET UNITYSDK_OFFSET(0x3C31CA0)
 #define FPBBKOFJLIM_OKGNLJPFCPC_OFFSET UNITYSDK_OFFSET(0x3C31BF0)
 
+inline static constexpr unsigned int FPBBKOFJLIM_TypeDefinitionIndex = 42272;
+
 	struct alignas(4) FPBBKOFJLIM
 	{
 		::RPG::Client::LittleGame::Match3::OpponentRole KLBOCCNGGGF; // 0x10

@@ -49,6 +49,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int FastDeliverPuzzleCameraController_TypeDefinitionIndex = 78585;
+
 	class FastDeliverPuzzleCameraController : public ::UnityEngine::MonoBehaviour
 	{
 	public:

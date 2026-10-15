@@ -41,6 +41,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int HoYoChannelGameplayServices_TypeDefinitionIndex = 46507;
+
 	class HoYoChannelGameplayServices : public ::System::Object
 	{
 	public:

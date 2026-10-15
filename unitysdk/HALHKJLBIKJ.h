@@ -9,6 +9,8 @@ class JBFGHNLMEDI;
 #define HALHKJLBIKJ_DLJCIENEOGJ_OFFSET UNITYSDK_OFFSET(0x15B8FC70)
 #define HALHKJLBIKJ_LHMBJMELCOL_OFFSET UNITYSDK_OFFSET(0x15B8FB80)
 
+inline static constexpr unsigned int HALHKJLBIKJ_TypeDefinitionIndex = 76408;
+
 	class HALHKJLBIKJ : public ::System::Object
 	{
 	public:

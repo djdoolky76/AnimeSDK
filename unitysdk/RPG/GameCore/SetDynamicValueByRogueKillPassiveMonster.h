@@ -10,6 +10,8 @@ namespace RPG::GameCore { class SetDynamicValueByRogueKillPassiveMonster; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetDynamicValueByRogueKillPassiveMonster_TypeDefinitionIndex = 21785;
+
 	class SetDynamicValueByRogueKillPassiveMonster : public ::RPG::GameCore::TaskConfig
 	{
 	public:

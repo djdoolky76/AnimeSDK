@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RetCodeErrorConfigRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RetCodeErrorConfigRow_TypeDefinitionIndex = 14656;
+
 	class RetCodeErrorConfigRow : public ::System::Object
 	{
 	public:

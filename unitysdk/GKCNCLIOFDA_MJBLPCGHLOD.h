@@ -7,6 +7,8 @@ namespace System { class Object; }
 #define GKCNCLIOFDA_MJBLPCGHLOD_GET_MEMBERS_OFFSET UNITYSDK_OFFSET(0x15A91730)
 #define GKCNCLIOFDA_MJBLPCGHLOD_GET_PARTICIPANTS_OFFSET UNITYSDK_OFFSET(0x15A91740)
 
+inline static constexpr unsigned int GKCNCLIOFDA_MJBLPCGHLOD_TypeDefinitionIndex = 53526;
+
 	class GKCNCLIOFDA_MJBLPCGHLOD : public ::System::Object
 	{
 	public:

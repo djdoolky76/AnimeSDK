@@ -7,6 +7,8 @@ namespace System::Text { class StringBuilder; }
 #define FKMGOCGOCPO___C__DISPLAYCLASS6_0_CTOR_OFFSET UNITYSDK_OFFSET(0x15810280)
 #define FKMGOCGOCPO___C__DISPLAYCLASS6_0__BUILDANIMGROUPEVENTTASKISCLIENTONLYERRORLOG_B__0_OFFSET UNITYSDK_OFFSET(0x15810B30)
 
+inline static constexpr unsigned int FKMGOCGOCPO___c__DisplayClass6_0_TypeDefinitionIndex = 55910;
+
 	class FKMGOCGOCPO___c__DisplayClass6_0 : public ::System::Object
 	{
 	public:

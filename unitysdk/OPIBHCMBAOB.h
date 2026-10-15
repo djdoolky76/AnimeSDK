@@ -17,6 +17,8 @@ namespace RPG::Client::LittleGame { class ActionConfig; }
 #define OPIBHCMBAOB_PEIHJAEIGHK_OFFSET UNITYSDK_OFFSET(0x1C9A2F90)
 #define OPIBHCMBAOB_PMDMDMHJMCM_OFFSET UNITYSDK_OFFSET(0x1C9A1970)
 
+inline static constexpr unsigned int OPIBHCMBAOB_TypeDefinitionIndex = 42392;
+
 	class OPIBHCMBAOB : public ::System::Object
 	{
 	public:

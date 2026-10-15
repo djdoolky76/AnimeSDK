@@ -31,6 +31,8 @@ namespace UnityEngine { class RectTransform; }
 #define BJNKANPCBEB_ONRETURN_OFFSET UNITYSDK_OFFSET(0xB7A9540)
 #define BJNKANPCBEB__ONBIND_OFFSET UNITYSDK_OFFSET(0xB7A96F0)
 
+inline static constexpr unsigned int BJNKANPCBEB_TypeDefinitionIndex = 71803;
+
 	class BJNKANPCBEB : public ::FMPCODLIOLG
 	{
 	public:

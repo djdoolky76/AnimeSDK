@@ -11,6 +11,8 @@ namespace RPG::GameCore { class GotoTipsConfigRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GotoTipsConfigRow_TypeDefinitionIndex = 13333;
+
 	class GotoTipsConfigRow : public ::System::Object
 	{
 	public:

@@ -24,6 +24,8 @@ namespace System::Collections { class IEnumerator; }
 
 namespace MiHoYo::SDK::Console::UI::OS
 {
+	inline static constexpr unsigned int ConsoleAgeGateParentalConsentProcessDialog_TypeDefinitionIndex = 9037;
+
 	class ConsoleAgeGateParentalConsentProcessDialog : public ::MiHoYo::SDK::Console::ConsoleDialogBase
 	{
 	public:

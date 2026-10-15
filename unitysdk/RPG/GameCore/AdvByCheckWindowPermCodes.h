@@ -15,6 +15,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdvByCheckWindowPermCodes_TypeDefinitionIndex = 21289;
+
 	class AdvByCheckWindowPermCodes : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

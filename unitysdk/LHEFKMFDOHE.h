@@ -21,6 +21,8 @@ namespace System { class Object; }
 #define LHEFKMFDOHE_LIODCNOMOME_OFFSET UNITYSDK_OFFSET(0xB6AD940)
 #define LHEFKMFDOHE_TICK_OFFSET UNITYSDK_OFFSET(0xB6ABA70)
 
+inline static constexpr unsigned int LHEFKMFDOHE_TypeDefinitionIndex = 61312;
+
 	class LHEFKMFDOHE : public ::System::Object
 	{
 	public:

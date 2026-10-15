@@ -34,6 +34,8 @@ namespace UnityEngine { class RectTransform; }
 #define DCJOOMELMDI_OMJOEIODCNK_OFFSET UNITYSDK_OFFSET(0xE24B1C0)
 #define DCJOOMELMDI_PMFNFPPAGJB_OFFSET UNITYSDK_OFFSET(0xE24A5C0)
 
+inline static constexpr unsigned int DCJOOMELMDI_TypeDefinitionIndex = 69907;
+
 	class DCJOOMELMDI : public ::RPG::Client::BehaviorBase
 	{
 	public:

@@ -25,6 +25,8 @@ namespace UnityEngine { class Texture2D; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int Effect_FlowerSea_TypeDefinitionIndex = 70477;
+
 	class Effect_FlowerSea : public ::UnityEngine::MonoBehaviour
 	{
 	public:

@@ -9,6 +9,8 @@ namespace RPG::GameCore { class TalkVerificationDistanceRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TalkVerificationDistanceRow_TypeDefinitionIndex = 15216;
+
 	class TalkVerificationDistanceRow : public ::System::Object
 	{
 	public:

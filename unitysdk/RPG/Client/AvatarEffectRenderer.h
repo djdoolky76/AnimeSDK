@@ -14,6 +14,8 @@ namespace UnityEngine { class Renderer; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AvatarEffectRenderer_TypeDefinitionIndex = 70245;
+
 	class AvatarEffectRenderer
 	{
 	public:

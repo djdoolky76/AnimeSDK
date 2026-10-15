@@ -25,6 +25,8 @@ namespace RPG::Client::LimaoNews { class LimaoNewsWebsiteViewModelParam; }
 
 namespace RPG::Client::LimaoNews
 {
+	inline static constexpr unsigned int LimaoNewsWebsiteViewModelParam_TypeDefinitionIndex = 80477;
+
 	class LimaoNewsWebsiteViewModelParam : public ::System::Object
 	{
 	public:

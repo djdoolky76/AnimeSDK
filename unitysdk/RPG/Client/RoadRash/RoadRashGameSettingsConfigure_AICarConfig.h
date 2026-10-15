@@ -6,6 +6,8 @@
 
 namespace RPG::Client::RoadRash
 {
+	inline static constexpr unsigned int RoadRashGameSettingsConfigure_AICarConfig_TypeDefinitionIndex = 75901;
+
 	class RoadRashGameSettingsConfigure_AICarConfig : public ::System::Object
 	{
 	public:

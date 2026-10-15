@@ -13,6 +13,8 @@ namespace System { class Object; }
 #define EGPLPBLOECF_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1549D2A0)
 #define EGPLPBLOECF_TICK_OFFSET UNITYSDK_OFFSET(0x1549D2F0)
 
+inline static constexpr unsigned int EGPLPBLOECF_TypeDefinitionIndex = 58918;
+
 	class EGPLPBLOECF : public ::GELIALJDFBL
 	{
 	public:

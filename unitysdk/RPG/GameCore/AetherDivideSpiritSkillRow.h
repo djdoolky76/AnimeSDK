@@ -15,6 +15,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AetherDivideSpiritSkillRow_TypeDefinitionIndex = 10908;
+
 	class AetherDivideSpiritSkillRow : public ::System::Object
 	{
 	public:

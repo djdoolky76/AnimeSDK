@@ -7,6 +7,8 @@ namespace RPG::Client { class ConditionChecker; }
 #define MCCGEALKBBD_CTOR_OFFSET UNITYSDK_OFFSET(0xB874660)
 #define MCCGEALKBBD_LNGKNPJIOML_OFFSET UNITYSDK_OFFSET(0xB874670)
 
+inline static constexpr unsigned int MCCGEALKBBD_TypeDefinitionIndex = 59906;
+
 	class MCCGEALKBBD : public ::System::Object
 	{
 	public:

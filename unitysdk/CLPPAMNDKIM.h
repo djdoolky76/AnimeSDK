@@ -11,6 +11,8 @@ namespace System { class String; }
 #define CLPPAMNDKIM_LACAGFCGGPM_OFFSET UNITYSDK_OFFSET(0xDA23FD0)
 #define CLPPAMNDKIM_MPEJHJFNLGB_OFFSET UNITYSDK_OFFSET(0xDA23EF0)
 
+inline static constexpr unsigned int CLPPAMNDKIM_TypeDefinitionIndex = 47704;
+
 	class CLPPAMNDKIM : public ::System::Object
 	{
 	public:

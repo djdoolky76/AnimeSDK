@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RecoverAllCharactersHP; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RecoverAllCharactersHP_TypeDefinitionIndex = 21706;
+
 	class RecoverAllCharactersHP : public ::RPG::GameCore::TaskConfig
 	{
 	public:

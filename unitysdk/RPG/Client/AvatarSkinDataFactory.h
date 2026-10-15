@@ -15,6 +15,8 @@ namespace RPG::GameCore { class IAvatarCommonRowWrap; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AvatarSkinDataFactory_TypeDefinitionIndex = 62482;
+
 	class AvatarSkinDataFactory : public ::System::Object
 	{
 	public:

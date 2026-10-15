@@ -8,6 +8,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 #define IPKBMMPHPGL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1C563C00)
 #define IPKBMMPHPGL___C___TRYCREATECHIPSPREDICATETRACKER_B__2_0_OFFSET UNITYSDK_OFFSET(0x1C563C10)
 
+inline static constexpr unsigned int IPKBMMPHPGL___c_TypeDefinitionIndex = 41836;
+
 	class IPKBMMPHPGL___c : public ::System::Object
 	{
 	public:

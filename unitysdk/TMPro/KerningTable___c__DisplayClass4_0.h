@@ -8,6 +8,8 @@ namespace TMPro { class KerningPair; }
 
 namespace TMPro
 {
+	inline static constexpr unsigned int KerningTable___c__DisplayClass4_0_TypeDefinitionIndex = 44582;
+
 	class KerningTable___c__DisplayClass4_0 : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System { class String; }
 #define FHNFCAKPADM_CTOR_OFFSET UNITYSDK_OFFSET(0x1CDF14B0)
 #define FHNFCAKPADM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CDF1380)
 
+inline static constexpr unsigned int FHNFCAKPADM_TypeDefinitionIndex = 23207;
+
 	class FHNFCAKPADM : public ::RPG::GameCore::JsonConfig
 	{
 	public:

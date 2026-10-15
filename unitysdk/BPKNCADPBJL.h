@@ -6,6 +6,8 @@
 #define BPKNCADPBJL_KFDKJEKBFEM_OFFSET UNITYSDK_OFFSET(0x1D9FAFE0)
 #define BPKNCADPBJL_LNMKGFCPNIF_OFFSET UNITYSDK_OFFSET(0x1D9FAFF0)
 
+inline static constexpr unsigned int BPKNCADPBJL_TypeDefinitionIndex = 15476;
+
 	class BPKNCADPBJL : public ::System::Object
 	{
 	public:

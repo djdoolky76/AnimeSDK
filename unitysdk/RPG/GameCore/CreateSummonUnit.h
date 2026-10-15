@@ -16,6 +16,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CreateSummonUnit_TypeDefinitionIndex = 20359;
+
 	class CreateSummonUnit : public ::RPG::GameCore::TaskConfig
 	{
 	public:

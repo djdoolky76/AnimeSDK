@@ -9,6 +9,8 @@ namespace System { class Object; }
 #define BLNCCHKANLP__REGISTEREVENTCALLBACK_OFFSET UNITYSDK_OFFSET(0xBA7AD40)
 #define BLNCCHKANLP__UNREGISTEREVENTCALLBACK_OFFSET UNITYSDK_OFFSET(0xBA7AE00)
 
+inline static constexpr unsigned int BLNCCHKANLP_TypeDefinitionIndex = 53482;
+
 	class BLNCCHKANLP
 	{
 	public:

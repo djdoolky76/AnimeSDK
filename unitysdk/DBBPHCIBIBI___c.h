@@ -9,6 +9,8 @@ namespace System { template <typename T> class Predicate_1; }
 #define DBBPHCIBIBI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1C5DB290)
 #define DBBPHCIBIBI___C__UPDATEABILITIES_B__8_0_OFFSET UNITYSDK_OFFSET(0x1C5DB2A0)
 
+inline static constexpr unsigned int DBBPHCIBIBI___c_TypeDefinitionIndex = 37283;
+
 	class DBBPHCIBIBI___c : public ::System::Object
 	{
 	public:

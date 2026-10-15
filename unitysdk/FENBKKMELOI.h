@@ -35,6 +35,8 @@ namespace UnityEngine::UI { class Image; }
 #define FENBKKMELOI__ONBIND_OFFSET UNITYSDK_OFFSET(0x15727030)
 #define FENBKKMELOI__ONTICK_OFFSET UNITYSDK_OFFSET(0x15727CF0)
 
+inline static constexpr unsigned int FENBKKMELOI_TypeDefinitionIndex = 71875;
+
 	class FENBKKMELOI : public ::FMPCODLIOLG
 	{
 	public:

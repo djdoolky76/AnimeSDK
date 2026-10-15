@@ -10,6 +10,8 @@
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int CompositeCollider2D_TypeDefinitionIndex = 5817;
+
 	class CompositeCollider2D : public ::UnityEngine::Collider2D
 	{
 	public:

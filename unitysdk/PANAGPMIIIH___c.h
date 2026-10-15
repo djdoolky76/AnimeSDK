@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define PANAGPMIIIH___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DEF1AB0)
 #define PANAGPMIIIH___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1DEF1AC0)
 
+inline static constexpr unsigned int PANAGPMIIIH___c_TypeDefinitionIndex = 28330;
+
 	class PANAGPMIIIH___c : public ::System::Object
 	{
 	public:

@@ -9,6 +9,8 @@ namespace UnityEngine { class ParticleSystemRenderer; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int UILayerController_LayerInfo_TypeDefinitionIndex = 73072;
+
 	class UILayerController_LayerInfo : public ::System::Object
 	{
 	public:

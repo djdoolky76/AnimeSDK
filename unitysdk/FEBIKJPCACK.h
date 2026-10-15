@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define FEBIKJPCACK_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1CDDFF60)
 #define FEBIKJPCACK_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1CDDF8C0)
 
+inline static constexpr unsigned int FEBIKJPCACK_TypeDefinitionIndex = 12336;
+
 	class FEBIKJPCACK : public ::System::Object
 	{
 	public:

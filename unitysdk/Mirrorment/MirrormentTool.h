@@ -16,6 +16,8 @@ namespace UnityEngine { class Material; }
 
 namespace Mirrorment
 {
+	inline static constexpr unsigned int MirrormentTool_TypeDefinitionIndex = 47766;
+
 	class MirrormentTool : public ::UnityEngine::MonoBehaviour
 	{
 	public:

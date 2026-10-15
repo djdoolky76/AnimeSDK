@@ -20,6 +20,8 @@ namespace UnityEngine { class GameObject; }
 #define MONOPROGRAMMATRIXTRANSFERANIM_PCGUNIT_MEIFDMDGNKE_OFFSET UNITYSDK_OFFSET(0xBA4EC30)
 #define MONOPROGRAMMATRIXTRANSFERANIM_PCGUNIT_NNDEACNLIEG_OFFSET UNITYSDK_OFFSET(0xBA4E810)
 
+inline static constexpr unsigned int MonoProgramMatrixTransferAnim_PCGUnit_TypeDefinitionIndex = 47513;
+
 	class MonoProgramMatrixTransferAnim_PCGUnit : public ::System::Object
 	{
 	public:

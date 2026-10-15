@@ -10,6 +10,8 @@ namespace RPG::GameCore { class DamagePerformFinish; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DamagePerformFinish_TypeDefinitionIndex = 22624;
+
 	class DamagePerformFinish : public ::RPG::GameCore::TaskConfig
 	{
 	public:

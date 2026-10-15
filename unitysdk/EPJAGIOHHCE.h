@@ -12,6 +12,8 @@ class LMJPODEEGKK;
 #define EPJAGIOHHCE_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0x155D57B0)
 #define EPJAGIOHHCE_PKAIBJMBLDL_OFFSET UNITYSDK_OFFSET(0x155D5560)
 
+inline static constexpr unsigned int EPJAGIOHHCE_TypeDefinitionIndex = 77610;
+
 	class EPJAGIOHHCE : public ::System::Object
 	{
 	public:

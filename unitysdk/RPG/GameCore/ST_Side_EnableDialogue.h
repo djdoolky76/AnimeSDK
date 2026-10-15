@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ST_Side_EnableDialogue; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ST_Side_EnableDialogue_TypeDefinitionIndex = 20145;
+
 	class ST_Side_EnableDialogue : public ::RPG::GameCore::STTaskConfig
 	{
 	public:

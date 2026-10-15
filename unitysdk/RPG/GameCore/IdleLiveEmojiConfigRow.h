@@ -10,6 +10,8 @@ namespace RPG::GameCore { class IdleLiveEmojiConfigRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int IdleLiveEmojiConfigRow_TypeDefinitionIndex = 11697;
+
 	class IdleLiveEmojiConfigRow : public ::System::Object
 	{
 	public:

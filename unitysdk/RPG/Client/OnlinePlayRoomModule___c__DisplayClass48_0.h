@@ -10,6 +10,8 @@ namespace System { class Action; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int OnlinePlayRoomModule___c__DisplayClass48_0_TypeDefinitionIndex = 66405;
+
 	class OnlinePlayRoomModule___c__DisplayClass48_0 : public ::System::Object
 	{
 	public:

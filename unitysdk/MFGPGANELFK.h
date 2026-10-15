@@ -10,6 +10,8 @@
 #define MFGPGANELFK_FNILNONEOGJ_OFFSET UNITYSDK_OFFSET(0xB8FA7A0)
 #define MFGPGANELFK_PJIMBHJBADK_OFFSET UNITYSDK_OFFSET(0xB8FA950)
 
+inline static constexpr unsigned int MFGPGANELFK_TypeDefinitionIndex = 54228;
+
 	class MFGPGANELFK : public ::System::Object
 	{
 	public:

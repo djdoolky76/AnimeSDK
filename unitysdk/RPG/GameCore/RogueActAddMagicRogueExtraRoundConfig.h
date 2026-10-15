@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueActAddMagicRogueExtraRoundConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueActAddMagicRogueExtraRoundConfig_TypeDefinitionIndex = 19690;
+
 	class RogueActAddMagicRogueExtraRoundConfig : public ::RPG::GameCore::RogueActionConfigBase
 	{
 	public:

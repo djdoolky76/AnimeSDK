@@ -30,6 +30,8 @@ namespace System { class String; }
 #define MAGMMMINOAJ_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E9D94C0)
 #define MAGMMMINOAJ_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E9D9520)
 
+inline static constexpr unsigned int MAGMMMINOAJ_TypeDefinitionIndex = 30295;
+
 	class MAGMMMINOAJ : public ::System::Object
 	{
 	public:

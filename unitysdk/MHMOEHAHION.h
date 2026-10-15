@@ -32,6 +32,8 @@ namespace System { class String; }
 #define MHMOEHAHION_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EA38030)
 #define MHMOEHAHION_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EA38090)
 
+inline static constexpr unsigned int MHMOEHAHION_TypeDefinitionIndex = 26085;
+
 	class MHMOEHAHION : public ::System::Object
 	{
 	public:

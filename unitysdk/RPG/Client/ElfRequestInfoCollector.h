@@ -26,6 +26,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ElfRequestInfoCollector_TypeDefinitionIndex = 63732;
+
 	class ElfRequestInfoCollector : public ::System::Object
 	{
 	public:

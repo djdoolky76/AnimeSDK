@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int VibrationConfig_TypeDefinitionIndex = 16403;
+
 	class VibrationConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

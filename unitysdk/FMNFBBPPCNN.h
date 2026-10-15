@@ -3,6 +3,8 @@
 #include "unitysdk/MHCOBFJNNJB.h"
 #include "unitysdk/RPG/Client/LittleGame/Match3/Match3PVP1v1GameResult.h"
 
+inline static constexpr unsigned int FMNFBBPPCNN_TypeDefinitionIndex = 42276;
+
 	struct alignas(4) FMNFBBPPCNN
 	{
 		::RPG::Client::LittleGame::Match3::Match3PVP1v1GameResult JCHFCNFHCMM; // 0x10

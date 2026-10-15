@@ -11,6 +11,8 @@ namespace RPG::GameCore { class ChimeraDuelEntitiesIntersectionSelectorConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChimeraDuelEntitiesIntersectionSelectorConfig_TypeDefinitionIndex = 15916;
+
 	class ChimeraDuelEntitiesIntersectionSelectorConfig : public ::RPG::GameCore::BaseChimeraDuelEntitiesSelectorConfig
 	{
 	public:

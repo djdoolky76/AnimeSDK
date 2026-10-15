@@ -24,6 +24,8 @@ namespace UnityEngine { class Animator; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int ChimeraGalleryStateController_TypeDefinitionIndex = 78494;
+
 	class ChimeraGalleryStateController : public ::RPG::Client::Prop::ChimeraPreparationStateControllerBase
 	{
 	public:

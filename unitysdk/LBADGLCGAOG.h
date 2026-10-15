@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int LBADGLCGAOG_TypeDefinitionIndex = 33447;
+
 	enum class LBADGLCGAOG : ::System::Int32
 	{
 		MOLJCEFGPLL = 0,

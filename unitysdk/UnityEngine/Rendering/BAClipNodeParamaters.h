@@ -9,6 +9,8 @@ namespace UnityEngine::Rendering { class BatchAnimationInstance; }
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int BAClipNodeParamaters_TypeDefinitionIndex = 4795;
+
 	struct alignas(4) BAClipNodeParamaters
 	{
 		static ::System::Void SetClip(::UnityEngine::Rendering::BatchAnimationInstance* a1, ::UnityEngine::Rendering::BANodeHash a2, ::System::Int32 a3, ::System::Int32 a4)

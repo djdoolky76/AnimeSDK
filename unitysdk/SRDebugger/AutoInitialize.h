@@ -7,6 +7,8 @@
 
 namespace SRDebugger
 {
+	inline static constexpr unsigned int AutoInitialize_TypeDefinitionIndex = 37948;
+
 	class AutoInitialize : public ::System::Object
 	{
 	public:

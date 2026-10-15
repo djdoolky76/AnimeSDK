@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DebugUIConfig_TypeDefinitionIndex = 16457;
+
 	class DebugUIConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

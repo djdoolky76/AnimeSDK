@@ -56,6 +56,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PlanetFesQuestData_TypeDefinitionIndex = 66626;
+
 	class PlanetFesQuestData : public ::System::Object
 	{
 	public:

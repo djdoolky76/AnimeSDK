@@ -8,6 +8,8 @@ namespace UnityEngine::Rendering { class FloatParameter; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int RPGPolaroid_TypeDefinitionIndex = 37838;
+
 	class RPGPolaroid : public ::RPG::CustomRP::CustomVolumeComponent
 	{
 	public:

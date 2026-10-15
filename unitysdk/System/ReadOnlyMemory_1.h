@@ -4,6 +4,8 @@ namespace System { class Object; }
 
 namespace System
 {
+	inline static constexpr unsigned int ReadOnlyMemory_1_TypeDefinitionIndex = 4975;
+
 	template <typename T>
 	struct alignas(8) ReadOnlyMemory_1
 	{

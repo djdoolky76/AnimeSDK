@@ -24,6 +24,8 @@ namespace UnityEngine { class Texture2D; }
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
+	inline static constexpr unsigned int BrowserCursor_TypeDefinitionIndex = 39366;
+
 	class BrowserCursor : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RaidPerformanceConfigRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RaidPerformanceConfigRow_TypeDefinitionIndex = 14601;
+
 	class RaidPerformanceConfigRow : public ::System::Object
 	{
 	public:

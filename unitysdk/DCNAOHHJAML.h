@@ -7,6 +7,8 @@ class GPLMLPKBGGE;
 #define DCNAOHHJAML_HMPDCLHIPHI_OFFSET UNITYSDK_OFFSET(0xE252350)
 #define DCNAOHHJAML_ICACIAMIIDM_OFFSET UNITYSDK_OFFSET(0xE2522B0)
 
+inline static constexpr unsigned int DCNAOHHJAML_TypeDefinitionIndex = 80223;
+
 	class DCNAOHHJAML : public ::System::Object
 	{
 	public:

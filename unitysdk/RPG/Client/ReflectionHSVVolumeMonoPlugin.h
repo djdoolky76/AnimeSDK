@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ReflectionHSVVolumeMonoPlugin_TypeDefinitionIndex = 70707;
+
 	class ReflectionHSVVolumeMonoPlugin
 	{
 	public:

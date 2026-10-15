@@ -25,6 +25,8 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyLi
 
 namespace RPG::Client::HimekoNovaSpecialSkill
 {
+	inline static constexpr unsigned int HimekoNovaSpecialSkillData_TypeDefinitionIndex = 80483;
+
 	class HimekoNovaSpecialSkillData : public ::System::Object
 	{
 	public:

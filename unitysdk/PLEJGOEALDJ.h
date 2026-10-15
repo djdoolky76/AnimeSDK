@@ -8,6 +8,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define PLEJGOEALDJ_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC2F0730)
 #define PLEJGOEALDJ_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC2F0510)
 
+inline static constexpr unsigned int PLEJGOEALDJ_TypeDefinitionIndex = 55129;
+
 	class PLEJGOEALDJ
 	{
 	public:

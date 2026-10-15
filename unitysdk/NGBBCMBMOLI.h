@@ -35,6 +35,8 @@ namespace System { class String; }
 #define NGBBCMBMOLI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EB0A640)
 #define NGBBCMBMOLI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EB0A6A0)
 
+inline static constexpr unsigned int NGBBCMBMOLI_TypeDefinitionIndex = 25711;
+
 	class NGBBCMBMOLI : public ::System::Object
 	{
 	public:

@@ -16,6 +16,8 @@ namespace UnityEngine { class TextAsset; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int TextAsset_TypeDefinitionIndex = 4350;
+
 	class TextAsset : public ::UnityEngine::Object
 	{
 	public:

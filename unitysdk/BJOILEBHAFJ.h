@@ -7,6 +7,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define BJOILEBHAFJ_GJCFNGNKFMG_OFFSET UNITYSDK_OFFSET(0xB7AA560)
 #define BJOILEBHAFJ_KFCEIGKPKBP_OFFSET UNITYSDK_OFFSET(0xB7AA930)
 
+inline static constexpr unsigned int BJOILEBHAFJ_TypeDefinitionIndex = 59683;
+
 	class BJOILEBHAFJ : public ::System::Object
 	{
 	public:

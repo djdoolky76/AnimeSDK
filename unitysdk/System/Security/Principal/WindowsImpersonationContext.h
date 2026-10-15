@@ -12,6 +12,8 @@
 
 namespace System::Security::Principal
 {
+	inline static constexpr unsigned int WindowsImpersonationContext_TypeDefinitionIndex = 990;
+
 	class WindowsImpersonationContext : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class UINotifyMonopolyEventStart; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int UINotifyMonopolyEventStart_TypeDefinitionIndex = 20927;
+
 	class UINotifyMonopolyEventStart : public ::RPG::GameCore::TaskConfig
 	{
 	public:

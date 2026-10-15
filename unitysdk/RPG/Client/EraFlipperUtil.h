@@ -44,6 +44,8 @@ namespace UnityEngine::AI { class NavMeshSurface; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int EraFlipperUtil_TypeDefinitionIndex = 60514;
+
 	class EraFlipperUtil : public ::System::Object
 	{
 	public:

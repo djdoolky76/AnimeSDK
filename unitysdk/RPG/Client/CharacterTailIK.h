@@ -19,6 +19,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int CharacterTailIK_TypeDefinitionIndex = 68386;
+
 	class CharacterTailIK : public ::UnityEngine::MonoBehaviour
 	{
 	public:

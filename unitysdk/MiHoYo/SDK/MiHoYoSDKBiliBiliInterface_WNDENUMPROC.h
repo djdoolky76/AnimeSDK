@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int MiHoYoSDKBiliBiliInterface_WNDENUMPROC_TypeDefinitionIndex = 46310;
+
 	class MiHoYoSDKBiliBiliInterface_WNDENUMPROC : public ::System::MulticastDelegate
 	{
 	public:

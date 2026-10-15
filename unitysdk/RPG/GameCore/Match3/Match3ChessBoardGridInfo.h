@@ -13,6 +13,8 @@ namespace RPG::GameCore::Match3 { class Match3ChessBoardGridInfo; }
 
 namespace RPG::GameCore::Match3
 {
+	inline static constexpr unsigned int Match3ChessBoardGridInfo_TypeDefinitionIndex = 24924;
+
 	class Match3ChessBoardGridInfo : public ::RPG::GameCore::JsonConfig
 	{
 	public:

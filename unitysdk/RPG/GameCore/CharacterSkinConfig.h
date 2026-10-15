@@ -10,6 +10,8 @@ namespace RPG::GameCore { class CharacterSkinResMapItem; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CharacterSkinConfig_TypeDefinitionIndex = 16541;
+
 	class CharacterSkinConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

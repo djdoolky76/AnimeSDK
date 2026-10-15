@@ -11,6 +11,8 @@ namespace System { class String; }
 #define EPPEFKBPGDC_CTOR_OFFSET UNITYSDK_OFFSET(0x1CDC1C30)
 #define EPPEFKBPGDC_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CDC16C0)
 
+inline static constexpr unsigned int EPPEFKBPGDC_TypeDefinitionIndex = 11527;
+
 	class EPPEFKBPGDC : public ::System::Object
 	{
 	public:

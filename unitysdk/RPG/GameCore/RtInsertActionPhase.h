@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RtInsertActionPhase_TypeDefinitionIndex = 54112;
+
 	enum class RtInsertActionPhase : ::System::Int32
 	{
 		Init = 0,

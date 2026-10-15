@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define JGPMFKDECMN_LNGKNPJIOML_OFFSET UNITYSDK_OFFSET(0xB1A7C20)
 #define JGPMFKDECMN_SET_RETITEMS_OFFSET UNITYSDK_OFFSET(0xB1A7D20)
 
+inline static constexpr unsigned int JGPMFKDECMN_TypeDefinitionIndex = 73851;
+
 	class JGPMFKDECMN : public ::System::Object
 	{
 	public:

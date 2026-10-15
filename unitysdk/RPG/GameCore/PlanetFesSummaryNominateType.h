@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PlanetFesSummaryNominateType_TypeDefinitionIndex = 12277;
+
 	enum class PlanetFesSummaryNominateType : ::System::Int32
 	{
 		None = 0,

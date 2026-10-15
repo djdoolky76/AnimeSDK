@@ -10,6 +10,8 @@ namespace System { class String; }
 #define JBNEGPAEHPC_CTOR_OFFSET UNITYSDK_OFFSET(0x165747D0)
 #define JBNEGPAEHPC_OOPJCBAIKMA_OFFSET UNITYSDK_OFFSET(0x16574AE0)
 
+inline static constexpr unsigned int JBNEGPAEHPC_TypeDefinitionIndex = 80649;
+
 	class JBNEGPAEHPC : public ::System::Object
 	{
 	public:

@@ -12,6 +12,8 @@ namespace RPG::Client { class MonoCurveObjectLogic_Load; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoCurveMovableObjectLogic_TypeDefinitionIndex = 68539;
+
 	class MonoCurveMovableObjectLogic : public ::System::Object
 	{
 	public:

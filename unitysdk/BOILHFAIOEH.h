@@ -20,6 +20,8 @@ namespace System { class Object; }
 #define BOILHFAIOEH_NHCFLDCDLCP_OFFSET UNITYSDK_OFFSET(0x1D9F1D80)
 #define BOILHFAIOEH_POAKKODIHIP_OFFSET UNITYSDK_OFFSET(0x3C402E0)
 
+inline static constexpr unsigned int BOILHFAIOEH_TypeDefinitionIndex = 10657;
+
 	struct alignas(8) BOILHFAIOEH
 	{
 		::LELCKJPOPAO* BEHHICMOFIE; // 0x10

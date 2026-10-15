@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define MANBMLIGMLD___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E9DD0F0)
 #define MANBMLIGMLD___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E9DD100)
 
+inline static constexpr unsigned int MANBMLIGMLD___c_TypeDefinitionIndex = 34969;
+
 	class MANBMLIGMLD___c : public ::System::Object
 	{
 	public:

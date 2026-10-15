@@ -13,6 +13,8 @@ namespace UnityEngine { class MaterialPropertyBlock; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ScalableRenderer_TypeDefinitionIndex = 70308;
+
 	class ScalableRenderer
 	{
 	public:

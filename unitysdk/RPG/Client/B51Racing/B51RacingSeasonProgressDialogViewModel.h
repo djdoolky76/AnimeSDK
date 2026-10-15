@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::B51Racing
 {
+	inline static constexpr unsigned int B51RacingSeasonProgressDialogViewModel_TypeDefinitionIndex = 82054;
+
 	class B51RacingSeasonProgressDialogViewModel : public ::System::Object
 	{
 	public:

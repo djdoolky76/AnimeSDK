@@ -7,6 +7,8 @@
 
 namespace InControl::NativeDeviceProfiles
 {
+	inline static constexpr unsigned int HarmonixGuitarMacNativeProfile_TypeDefinitionIndex = 41121;
+
 	class HarmonixGuitarMacNativeProfile : public ::InControl::NativeDeviceProfiles::Xbox360DriverMacNativeProfile
 	{
 	public:

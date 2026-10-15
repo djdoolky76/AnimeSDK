@@ -21,6 +21,8 @@ namespace System::Threading { class WaitHandle; }
 
 namespace System::IO
 {
+	inline static constexpr unsigned int Stream_SynchronousAsyncResult_TypeDefinitionIndex = 688;
+
 	class Stream_SynchronousAsyncResult : public ::System::Object
 	{
 	public:

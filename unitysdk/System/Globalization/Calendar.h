@@ -25,6 +25,8 @@ namespace System { class Object; }
 
 namespace System::Globalization
 {
+	inline static constexpr unsigned int Calendar_TypeDefinitionIndex = 734;
+
 	class Calendar : public ::System::Object
 	{
 	public:

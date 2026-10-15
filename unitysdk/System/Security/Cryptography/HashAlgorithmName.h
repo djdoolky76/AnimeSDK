@@ -17,6 +17,8 @@ namespace System { class String; }
 
 namespace System::Security::Cryptography
 {
+	inline static constexpr unsigned int HashAlgorithmName_TypeDefinitionIndex = 995;
+
 	struct alignas(8) HashAlgorithmName
 	{
 		::System::String* _name; // 0x10

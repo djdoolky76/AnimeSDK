@@ -9,6 +9,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 #define JMGKOCCHEFG___C_CTOR_OFFSET UNITYSDK_OFFSET(0xB264FC0)
 #define JMGKOCCHEFG___C___CTOR_B__2_0_OFFSET UNITYSDK_OFFSET(0xB264FD0)
 
+inline static constexpr unsigned int JMGKOCCHEFG___c_TypeDefinitionIndex = 63360;
+
 	class JMGKOCCHEFG___c : public ::System::Object
 	{
 	public:

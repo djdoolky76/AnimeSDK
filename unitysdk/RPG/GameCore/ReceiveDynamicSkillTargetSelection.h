@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ReceiveDynamicSkillTargetSelection_TypeDefinitionIndex = 22843;
+
 	class ReceiveDynamicSkillTargetSelection : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -8,6 +8,8 @@
 #define KBFLAFMONCC_EIMOIGKIAGB_1_OFFSET UNITYSDK_OFFSET(0x1C70ABF0)
 #define KBFLAFMONCC_EIMOIGKIAGB_OFFSET UNITYSDK_OFFSET(0x1C70AB50)
 
+inline static constexpr unsigned int KBFLAFMONCC_TypeDefinitionIndex = 36335;
+
 	class KBFLAFMONCC : public ::System::Object
 	{
 	public:

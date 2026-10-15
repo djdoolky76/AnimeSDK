@@ -6,6 +6,8 @@ namespace System { class Object; }
 namespace UnityEngine { class Sprite; }
 namespace UnityEngine::UI { class Image; }
 
+inline static constexpr unsigned int EIPLLLDMANJ___c__0_1_TypeDefinitionIndex = 49923;
+
 	template <typename T>
 	class EIPLLLDMANJ___c__0_1 : public ::System::Object
 	{

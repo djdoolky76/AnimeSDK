@@ -11,6 +11,8 @@ namespace System { class Object; }
 
 namespace RPGTools::Timeline::PostProcessing
 {
+	inline static constexpr unsigned int BlinkSpeedLineTimelineBehaviourMixer_TypeDefinitionIndex = 48538;
+
 	class BlinkSpeedLineTimelineBehaviourMixer
 	{
 	public:

@@ -14,6 +14,8 @@ namespace RPG::GameCore { class TaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SwitchCaseByDynamicValue_TypeDefinitionIndex = 23772;
+
 	class SwitchCaseByDynamicValue : public ::RPG::GameCore::TaskConfig
 	{
 	public:

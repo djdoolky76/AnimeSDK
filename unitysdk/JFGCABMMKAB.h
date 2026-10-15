@@ -35,6 +35,8 @@ namespace System { class String; }
 #define JFGCABMMKAB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E72A730)
 #define JFGCABMMKAB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E72A790)
 
+inline static constexpr unsigned int JFGCABMMKAB_TypeDefinitionIndex = 34267;
+
 	class JFGCABMMKAB : public ::System::Object
 	{
 	public:

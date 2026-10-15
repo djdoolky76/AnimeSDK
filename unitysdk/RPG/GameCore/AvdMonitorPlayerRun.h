@@ -13,6 +13,8 @@ namespace RPG::GameCore { class TaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AvdMonitorPlayerRun_TypeDefinitionIndex = 21030;
+
 	class AvdMonitorPlayerRun : public ::RPG::GameCore::TaskConfig
 	{
 	public:

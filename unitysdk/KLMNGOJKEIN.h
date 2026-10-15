@@ -29,6 +29,8 @@ namespace System { class String; }
 #define KLMNGOJKEIN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E892020)
 #define KLMNGOJKEIN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E892080)
 
+inline static constexpr unsigned int KLMNGOJKEIN_TypeDefinitionIndex = 28291;
+
 	class KLMNGOJKEIN : public ::System::Object
 	{
 	public:

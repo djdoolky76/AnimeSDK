@@ -6,6 +6,8 @@
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int MHYSDKC_TypeDefinitionIndex = 46140;
+
 	class MHYSDKC : public ::System::Object
 	{
 	public:

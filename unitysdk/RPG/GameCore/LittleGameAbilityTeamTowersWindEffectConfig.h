@@ -11,6 +11,8 @@ namespace RPG::GameCore { class LittleGameAbilityTeamTowersWindEffectConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LittleGameAbilityTeamTowersWindEffectConfig_TypeDefinitionIndex = 21413;
+
 	class LittleGameAbilityTeamTowersWindEffectConfig : public ::RPG::GameCore::BaseLittleGameAbilityEffectConfig
 	{
 	public:

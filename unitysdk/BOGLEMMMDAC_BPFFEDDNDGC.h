@@ -7,6 +7,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define BOGLEMMMDAC_BPFFEDDNDGC_CTOR_OFFSET UNITYSDK_OFFSET(0xC191150)
 
+inline static constexpr unsigned int BOGLEMMMDAC_BPFFEDDNDGC_TypeDefinitionIndex = 69889;
+
 	class BOGLEMMMDAC_BPFFEDDNDGC : public ::System::Object
 	{
 	public:

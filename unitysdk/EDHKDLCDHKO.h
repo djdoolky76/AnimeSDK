@@ -8,6 +8,8 @@
 #define EDHKDLCDHKO_FNAJMDCOHGG_OFFSET UNITYSDK_OFFSET(0x1DDA81E0)
 #define EDHKDLCDHKO_JOFJIOODOCG_OFFSET UNITYSDK_OFFSET(0x1DDAA740)
 
+inline static constexpr unsigned int EDHKDLCDHKO_TypeDefinitionIndex = 43937;
+
 	class EDHKDLCDHKO : public ::System::Object
 	{
 	public:

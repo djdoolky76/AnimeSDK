@@ -35,6 +35,8 @@ namespace System { class String; }
 #define CBOLGFEIIOA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E06FA60)
 #define CBOLGFEIIOA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E06FAC0)
 
+inline static constexpr unsigned int CBOLGFEIIOA_TypeDefinitionIndex = 32748;
+
 	class CBOLGFEIIOA : public ::System::Object
 	{
 	public:

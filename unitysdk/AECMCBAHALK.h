@@ -10,6 +10,8 @@ class LDMKDNCFGKL;
 #define AECMCBAHALK_CTOR_OFFSET UNITYSDK_OFFSET(0xB14C470)
 #define AECMCBAHALK_HEPPBBLLBPN_OFFSET UNITYSDK_OFFSET(0xB14C3E0)
 
+inline static constexpr unsigned int AECMCBAHALK_TypeDefinitionIndex = 56299;
+
 	class AECMCBAHALK : public ::System::Object
 	{
 	public:

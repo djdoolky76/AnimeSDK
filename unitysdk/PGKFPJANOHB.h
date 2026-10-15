@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TrainPartyPerformanceCharacterTriggerFreeStyle; 
 #define PGKFPJANOHB_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xC223DA0)
 #define PGKFPJANOHB_TICK_OFFSET UNITYSDK_OFFSET(0xC223DF0)
 
+inline static constexpr unsigned int PGKFPJANOHB_TypeDefinitionIndex = 53427;
+
 	class PGKFPJANOHB : public ::GELIALJDFBL
 	{
 	public:

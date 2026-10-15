@@ -29,6 +29,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ChimeraDuelTools_TypeDefinitionIndex = 63309;
+
 	class ChimeraDuelTools : public ::System::Object
 	{
 	public:

@@ -31,6 +31,8 @@ namespace System { class String; }
 #define PGHBOPEOBHA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DF30600)
 #define PGHBOPEOBHA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DF30660)
 
+inline static constexpr unsigned int PGHBOPEOBHA_TypeDefinitionIndex = 27767;
+
 	class PGHBOPEOBHA : public ::System::Object
 	{
 	public:

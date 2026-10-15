@@ -9,6 +9,8 @@ namespace RPG::Client { class ChatMessageInviteData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MPInviteHelper_TypeDefinitionIndex = 60109;
+
 	class MPInviteHelper : public ::System::Object
 	{
 	public:

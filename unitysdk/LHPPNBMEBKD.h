@@ -25,6 +25,8 @@ namespace System { class String; }
 #define LHPPNBMEBKD_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E969E00)
 #define LHPPNBMEBKD_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E969E60)
 
+inline static constexpr unsigned int LHPPNBMEBKD_TypeDefinitionIndex = 26032;
+
 	class LHPPNBMEBKD : public ::System::Object
 	{
 	public:

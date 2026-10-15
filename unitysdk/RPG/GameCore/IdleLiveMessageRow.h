@@ -9,6 +9,8 @@ namespace RPG::GameCore { class IdleLiveMessageRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int IdleLiveMessageRow_TypeDefinitionIndex = 11788;
+
 	class IdleLiveMessageRow : public ::System::Object
 	{
 	public:

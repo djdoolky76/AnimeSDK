@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define MGHGGLBIBCP_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CC936E0)
 #define MGHGGLBIBCP_LBJEEAEJBCM_1_OFFSET UNITYSDK_OFFSET(0x1CC90640)
 
+inline static constexpr unsigned int MGHGGLBIBCP_TypeDefinitionIndex = 43891;
+
 	class MGHGGLBIBCP : public ::System::Object
 	{
 	public:

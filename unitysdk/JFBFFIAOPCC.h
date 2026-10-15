@@ -29,6 +29,8 @@ namespace System { class String; }
 #define JFBFFIAOPCC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E722EF0)
 #define JFBFFIAOPCC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E722F50)
 
+inline static constexpr unsigned int JFBFFIAOPCC_TypeDefinitionIndex = 26882;
+
 	class JFBFFIAOPCC : public ::System::Object
 	{
 	public:

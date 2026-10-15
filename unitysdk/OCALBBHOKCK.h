@@ -20,6 +20,8 @@ namespace System { class String; }
 #define OCALBBHOKCK_SET_TYPE_OFFSET UNITYSDK_OFFSET(0xBD55480)
 #define OCALBBHOKCK_SET_WORLDLEVEL_OFFSET UNITYSDK_OFFSET(0xBD554A0)
 
+inline static constexpr unsigned int OCALBBHOKCK_TypeDefinitionIndex = 51955;
+
 	class OCALBBHOKCK : public ::System::Object
 	{
 	public:

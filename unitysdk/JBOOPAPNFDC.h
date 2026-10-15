@@ -30,6 +30,8 @@ namespace System { class String; }
 #define JBOOPAPNFDC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E6FD940)
 #define JBOOPAPNFDC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E6FD9A0)
 
+inline static constexpr unsigned int JBOOPAPNFDC_TypeDefinitionIndex = 29454;
+
 	class JBOOPAPNFDC : public ::System::Object
 	{
 	public:

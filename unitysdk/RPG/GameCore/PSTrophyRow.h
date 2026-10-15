@@ -10,6 +10,8 @@ namespace RPG::GameCore { class PSTrophyRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PSTrophyRow_TypeDefinitionIndex = 13085;
+
 	class PSTrophyRow : public ::System::Object
 	{
 	public:

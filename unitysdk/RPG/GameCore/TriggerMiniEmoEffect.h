@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TriggerMiniEmoEffect_TypeDefinitionIndex = 21863;
+
 	class TriggerMiniEmoEffect : public ::RPG::GameCore::TaskConfig
 	{
 	public:

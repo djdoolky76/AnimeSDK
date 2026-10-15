@@ -24,6 +24,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::LittleGame::ChenLing
 {
+	inline static constexpr unsigned int HPChangeData_TypeDefinitionIndex = 77825;
+
 	class HPChangeData : public ::System::Object
 	{
 	public:

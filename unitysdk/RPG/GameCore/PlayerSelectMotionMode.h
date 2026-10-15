@@ -11,6 +11,8 @@ namespace RPG::GameCore { class PlayerSelectMotionMode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PlayerSelectMotionMode_TypeDefinitionIndex = 21171;
+
 	class PlayerSelectMotionMode : public ::RPG::GameCore::TaskConfig
 	{
 	public:

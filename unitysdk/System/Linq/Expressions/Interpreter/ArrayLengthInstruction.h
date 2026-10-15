@@ -14,6 +14,8 @@ namespace System::Linq::Expressions::Interpreter { class InterpretedFrame; }
 
 namespace System::Linq::Expressions::Interpreter
 {
+	inline static constexpr unsigned int ArrayLengthInstruction_TypeDefinitionIndex = 3314;
+
 	class ArrayLengthInstruction : public ::System::Linq::Expressions::Interpreter::Instruction
 	{
 	public:

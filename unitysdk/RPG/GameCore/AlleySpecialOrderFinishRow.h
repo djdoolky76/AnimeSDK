@@ -11,6 +11,8 @@ namespace RPG::GameCore { class AlleySpecialOrderFinishRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AlleySpecialOrderFinishRow_TypeDefinitionIndex = 12626;
+
 	class AlleySpecialOrderFinishRow : public ::System::Object
 	{
 	public:

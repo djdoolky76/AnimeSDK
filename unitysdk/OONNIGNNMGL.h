@@ -30,6 +30,8 @@ namespace System { class String; }
 #define OONNIGNNMGL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DEDAA50)
 #define OONNIGNNMGL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DEDAAB0)
 
+inline static constexpr unsigned int OONNIGNNMGL_TypeDefinitionIndex = 28233;
+
 	class OONNIGNNMGL : public ::System::Object
 	{
 	public:

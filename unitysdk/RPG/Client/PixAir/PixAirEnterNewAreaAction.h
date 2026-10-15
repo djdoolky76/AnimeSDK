@@ -13,6 +13,8 @@ namespace RPG::Client::PixAir { class PixAirGameSession; }
 
 namespace RPG::Client::PixAir
 {
+	inline static constexpr unsigned int PixAirEnterNewAreaAction_TypeDefinitionIndex = 79278;
+
 	class PixAirEnterNewAreaAction : public ::System::Object
 	{
 	public:

@@ -13,6 +13,8 @@ namespace System { template <typename T> class Func_1; }
 #define FPBFICAFCDO___C___CTOR_B__4_0_OFFSET UNITYSDK_OFFSET(0x1C6274C0)
 #define FPBFICAFCDO___C___CTOR_B__4_1_OFFSET UNITYSDK_OFFSET(0x1C6274F0)
 
+inline static constexpr unsigned int FPBFICAFCDO___c_TypeDefinitionIndex = 37037;
+
 	class FPBFICAFCDO___c : public ::System::Object
 	{
 	public:

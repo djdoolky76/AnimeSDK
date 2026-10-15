@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DynamicValueRoundToInt_TypeDefinitionIndex = 22955;
+
 	class DynamicValueRoundToInt : public ::RPG::GameCore::TaskConfig
 	{
 	public:

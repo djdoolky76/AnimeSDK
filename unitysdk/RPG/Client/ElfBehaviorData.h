@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ElfBehaviorData_TypeDefinitionIndex = 63655;
+
 	class ElfBehaviorData : public ::System::Object
 	{
 	public:

@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RtFlagComponent_1_TypeDefinitionIndex = 53993;
+
 	template <typename T>
 	class RtFlagComponent_1 : public ::RPG::GameCore::GameComponentBase
 	{

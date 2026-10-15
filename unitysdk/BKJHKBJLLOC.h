@@ -7,6 +7,8 @@ namespace RPG::Client::LittleGameShare { class ST_Side_CakeRaceSetAnimState; }
 #define BKJHKBJLLOC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1C5BFB70)
 #define BKJHKBJLLOC_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1C5BFC30)
 
+inline static constexpr unsigned int BKJHKBJLLOC_TypeDefinitionIndex = 37000;
+
 	class BKJHKBJLLOC
 	{
 	public:

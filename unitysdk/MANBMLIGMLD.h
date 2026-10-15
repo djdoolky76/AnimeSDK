@@ -27,6 +27,8 @@ namespace System { class String; }
 #define MANBMLIGMLD_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E9DCC70)
 #define MANBMLIGMLD_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E9DCCD0)
 
+inline static constexpr unsigned int MANBMLIGMLD_TypeDefinitionIndex = 34968;
+
 	class MANBMLIGMLD : public ::System::Object
 	{
 	public:

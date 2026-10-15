@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int ConfigManager_PayPlatConfigModel_TypeDefinitionIndex = 8204;
+
 	class ConfigManager_PayPlatConfigModel : public ::System::Object
 	{
 	public:

@@ -40,6 +40,8 @@ namespace System::Security::Principal { class IIdentity; }
 
 namespace System::Security::Claims
 {
+	inline static constexpr unsigned int ClaimsIdentity_TypeDefinitionIndex = 992;
+
 	class ClaimsIdentity : public ::System::Object
 	{
 	public:

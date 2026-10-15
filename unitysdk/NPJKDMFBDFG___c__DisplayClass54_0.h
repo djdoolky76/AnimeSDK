@@ -6,6 +6,8 @@ class ODGPPIHLOFF;
 #define NPJKDMFBDFG___C__DISPLAYCLASS54_0_CTOR_OFFSET UNITYSDK_OFFSET(0xBD06980)
 #define NPJKDMFBDFG___C__DISPLAYCLASS54_0__RESETSTACK_B__0_OFFSET UNITYSDK_OFFSET(0xBD0BD00)
 
+inline static constexpr unsigned int NPJKDMFBDFG___c__DisplayClass54_0_TypeDefinitionIndex = 49433;
+
 	class NPJKDMFBDFG___c__DisplayClass54_0 : public ::System::Object
 	{
 	public:

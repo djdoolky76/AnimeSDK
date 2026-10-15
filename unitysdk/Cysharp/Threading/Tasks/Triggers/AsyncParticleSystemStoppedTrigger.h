@@ -13,6 +13,8 @@ namespace Cysharp::Threading::Tasks::Triggers { class IAsyncOnParticleSystemStop
 
 namespace Cysharp::Threading::Tasks::Triggers
 {
+	inline static constexpr unsigned int AsyncParticleSystemStoppedTrigger_TypeDefinitionIndex = 38573;
+
 	class AsyncParticleSystemStoppedTrigger
 	{
 	public:

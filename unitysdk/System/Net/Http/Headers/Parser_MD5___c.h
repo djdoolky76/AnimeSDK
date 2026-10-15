@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace System::Net::Http::Headers
 {
+	inline static constexpr unsigned int Parser_MD5___c_TypeDefinitionIndex = 3817;
+
 	class Parser_MD5___c : public ::System::Object
 	{
 	public:

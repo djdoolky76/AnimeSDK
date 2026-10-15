@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ResetMissionAudioState; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ResetMissionAudioState_TypeDefinitionIndex = 21684;
+
 	class ResetMissionAudioState : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -25,6 +25,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightArchiveData_TypeDefinitionIndex = 64362;
+
 	class GridFightArchiveData : public ::System::Object
 	{
 	public:

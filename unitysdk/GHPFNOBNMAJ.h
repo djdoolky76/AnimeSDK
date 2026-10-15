@@ -10,6 +10,8 @@ class GHPFNOBNMAJ;
 #define GHPFNOBNMAJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1CE4C370)
 #define GHPFNOBNMAJ_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CE4C130)
 
+inline static constexpr unsigned int GHPFNOBNMAJ_TypeDefinitionIndex = 13067;
+
 	class GHPFNOBNMAJ : public ::System::Object
 	{
 	public:

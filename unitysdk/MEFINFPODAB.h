@@ -25,6 +25,8 @@ namespace UnityEngine { class RectTransform; }
 #define MEFINFPODAB_OFDKPMPKAIA_OFFSET UNITYSDK_OFFSET(0xB8C3720)
 #define MEFINFPODAB_OJPLJKMHFPE_OFFSET UNITYSDK_OFFSET(0xB8C31F0)
 
+inline static constexpr unsigned int MEFINFPODAB_TypeDefinitionIndex = 59849;
+
 	class MEFINFPODAB : public ::System::Object
 	{
 	public:

@@ -9,6 +9,8 @@ namespace RPG::Client { class ItemDisplayData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ChallengePeakSettlement___c__DisplayClass62_0_TypeDefinitionIndex = 63190;
+
 	class ChallengePeakSettlement___c__DisplayClass62_0 : public ::System::Object
 	{
 	public:

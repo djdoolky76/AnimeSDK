@@ -5,6 +5,8 @@ namespace System { class Object; }
 
 namespace TMPro
 {
+	inline static constexpr unsigned int TweenRunner_1__Start_d__2_TypeDefinitionIndex = 44557;
+
 	template <typename T1, typename T2>
 	class TweenRunner_1__Start_d__2 : public ::System::Object
 	{

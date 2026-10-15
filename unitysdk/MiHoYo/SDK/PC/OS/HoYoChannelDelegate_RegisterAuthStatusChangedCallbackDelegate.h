@@ -14,6 +14,8 @@ namespace System { class Object; }
 
 namespace MiHoYo::SDK::PC::OS
 {
+	inline static constexpr unsigned int HoYoChannelDelegate_RegisterAuthStatusChangedCallbackDelegate_TypeDefinitionIndex = 8551;
+
 	class HoYoChannelDelegate_RegisterAuthStatusChangedCallbackDelegate : public ::System::MulticastDelegate
 	{
 	public:

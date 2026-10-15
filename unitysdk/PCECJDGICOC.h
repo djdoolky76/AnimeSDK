@@ -29,6 +29,8 @@ namespace System { class String; }
 #define PCECJDGICOC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DF066F0)
 #define PCECJDGICOC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DF06750)
 
+inline static constexpr unsigned int PCECJDGICOC_TypeDefinitionIndex = 30577;
+
 	class PCECJDGICOC : public ::System::Object
 	{
 	public:

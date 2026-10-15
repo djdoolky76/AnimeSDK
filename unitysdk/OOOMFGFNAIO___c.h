@@ -15,6 +15,8 @@ namespace System { class Object; }
 #define OOOMFGFNAIO___C__INITIALIZE_B__1_3_OFFSET UNITYSDK_OFFSET(0xBF95210)
 #define OOOMFGFNAIO___C__INITIALIZE_B__1_4_OFFSET UNITYSDK_OFFSET(0xBF952C0)
 
+inline static constexpr unsigned int OOOMFGFNAIO___c_TypeDefinitionIndex = 76606;
+
 	class OOOMFGFNAIO___c : public ::System::Object
 	{
 	public:

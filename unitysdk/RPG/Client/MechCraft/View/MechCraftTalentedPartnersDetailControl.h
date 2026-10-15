@@ -20,6 +20,8 @@ namespace RPG::Client::MechCraft::View { class MechCraftTalentedPartnersDetailCo
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftTalentedPartnersDetailControl_TypeDefinitionIndex = 79834;
+
 	class MechCraftTalentedPartnersDetailControl : public ::UnityEngine::MonoBehaviour
 	{
 	public:

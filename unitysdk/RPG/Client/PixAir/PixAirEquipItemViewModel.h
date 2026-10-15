@@ -20,6 +20,8 @@ namespace RPG::Client::PixAir::Legacy { class PixAirEquipDisplayData; }
 
 namespace RPG::Client::PixAir
 {
+	inline static constexpr unsigned int PixAirEquipItemViewModel_TypeDefinitionIndex = 79255;
+
 	class PixAirEquipItemViewModel : public ::Sofa::BaseViewModel
 	{
 	public:

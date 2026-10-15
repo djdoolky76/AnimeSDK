@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DrinkMakerGuestCommentRow_TypeDefinitionIndex = 13195;
+
 	class DrinkMakerGuestCommentRow : public ::System::Object
 	{
 	public:

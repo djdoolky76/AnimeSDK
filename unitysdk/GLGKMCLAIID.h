@@ -15,6 +15,8 @@ namespace System { class Object; }
 #define GLGKMCLAIID_MHFNJCLKNMG_OFFSET UNITYSDK_OFFSET(0x15AB1E80)
 #define GLGKMCLAIID_NKNNIDKJKOJ_OFFSET UNITYSDK_OFFSET(0x15AB2A30)
 
+inline static constexpr unsigned int GLGKMCLAIID_TypeDefinitionIndex = 77732;
+
 	class GLGKMCLAIID : public ::System::Object
 	{
 	public:

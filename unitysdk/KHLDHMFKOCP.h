@@ -254,6 +254,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define KHLDHMFKOCP_SET_TICKCOUNT_OFFSET UNITYSDK_OFFSET(0x1CBDCE50)
 #define KHLDHMFKOCP_SET_WINSCORE_OFFSET UNITYSDK_OFFSET(0x1CBDD140)
 
+inline static constexpr unsigned int KHLDHMFKOCP_TypeDefinitionIndex = 43067;
+
 	class KHLDHMFKOCP : public ::System::Object
 	{
 	public:

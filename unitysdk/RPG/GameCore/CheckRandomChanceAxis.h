@@ -11,6 +11,8 @@ namespace RPG::GameCore { class CheckRandomChanceAxis; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CheckRandomChanceAxis_TypeDefinitionIndex = 15510;
+
 	class CheckRandomChanceAxis : public ::RPG::GameCore::ConsiderationAxisConfig
 	{
 	public:

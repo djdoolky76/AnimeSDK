@@ -7,6 +7,8 @@
 
 namespace Microsoft::Win32::SafeHandles
 {
+	inline static constexpr unsigned int SafeHandleZeroOrMinusOneIsInvalid_TypeDefinitionIndex = 118;
+
 	class SafeHandleZeroOrMinusOneIsInvalid : public ::System::Runtime::InteropServices::SafeHandle
 	{
 	public:

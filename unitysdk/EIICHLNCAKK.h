@@ -35,6 +35,8 @@ namespace System { class String; }
 #define EIICHLNCAKK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E2A96A0)
 #define EIICHLNCAKK_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E2A9700)
 
+inline static constexpr unsigned int EIICHLNCAKK_TypeDefinitionIndex = 25704;
+
 	class EIICHLNCAKK : public ::System::Object
 	{
 	public:

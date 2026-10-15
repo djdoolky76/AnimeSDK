@@ -19,6 +19,8 @@ namespace SuperScrollView { class LoopGridView; }
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftChipMoldFilterControlBinder_TypeDefinitionIndex = 79900;
+
 	class MechCraftChipMoldFilterControlBinder : public ::RPG::Client::MechCraft::View::MechCraftBinderBase
 	{
 	public:

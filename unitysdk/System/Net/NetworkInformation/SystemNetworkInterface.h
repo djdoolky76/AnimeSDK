@@ -9,6 +9,8 @@ namespace System::Net::NetworkInformation { class NetworkInterfaceFactory; }
 
 namespace System::Net::NetworkInformation
 {
+	inline static constexpr unsigned int SystemNetworkInterface_TypeDefinitionIndex = 2953;
+
 	class SystemNetworkInterface : public ::System::Object
 	{
 	public:

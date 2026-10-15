@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace RPG::Client::Dev
 {
+	inline static constexpr unsigned int VirtualServerLauncher_TypeDefinitionIndex = 82122;
+
 	class VirtualServerLauncher : public ::System::Object
 	{
 	public:

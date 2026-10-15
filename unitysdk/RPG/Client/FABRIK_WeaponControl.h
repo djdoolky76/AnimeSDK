@@ -17,6 +17,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int FABRIK_WeaponControl_TypeDefinitionIndex = 68420;
+
 	class FABRIK_WeaponControl : public ::UnityEngine::MonoBehaviour
 	{
 	public:

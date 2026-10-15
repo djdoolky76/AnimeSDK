@@ -9,6 +9,8 @@ namespace System { template <typename T> class Func_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int SkillTreeGrowthGuideItem_TypeDefinitionIndex = 65562;
+
 	class SkillTreeGrowthGuideItem : public ::RPG::Client::BaseGrowthGuideItem
 	{
 	public:

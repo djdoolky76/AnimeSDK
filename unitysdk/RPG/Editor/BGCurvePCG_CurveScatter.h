@@ -20,6 +20,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Editor
 {
+	inline static constexpr unsigned int BGCurvePCG_CurveScatter_TypeDefinitionIndex = 52020;
+
 	class BGCurvePCG_CurveScatter : public ::RPG::Editor::BGCurvePCG_MeshGeneratorBase
 	{
 	public:

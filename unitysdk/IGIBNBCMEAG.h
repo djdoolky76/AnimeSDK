@@ -29,6 +29,8 @@ namespace System { class String; }
 #define IGIBNBCMEAG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E64CF60)
 #define IGIBNBCMEAG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E64CFC0)
 
+inline static constexpr unsigned int IGIBNBCMEAG_TypeDefinitionIndex = 30289;
+
 	class IGIBNBCMEAG : public ::System::Object
 	{
 	public:

@@ -14,6 +14,8 @@ namespace System { class Object; }
 
 namespace Google::Protobuf::Reflection
 {
+	inline static constexpr unsigned int ExtensionAccessor_TypeDefinitionIndex = 5535;
+
 	class ExtensionAccessor : public ::System::Object
 	{
 	public:

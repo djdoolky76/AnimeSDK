@@ -14,6 +14,8 @@ namespace System::Text::RegularExpressions { class Match; }
 
 namespace System::Text::RegularExpressions
 {
+	inline static constexpr unsigned int MatchEvaluator_TypeDefinitionIndex = 2498;
+
 	class MatchEvaluator : public ::System::MulticastDelegate
 	{
 	public:

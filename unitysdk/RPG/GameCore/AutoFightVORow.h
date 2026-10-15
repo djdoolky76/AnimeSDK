@@ -9,6 +9,8 @@ namespace RPG::GameCore { class AutoFightVORow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AutoFightVORow_TypeDefinitionIndex = 10807;
+
 	class AutoFightVORow : public ::System::Object
 	{
 	public:

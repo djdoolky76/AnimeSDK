@@ -36,6 +36,8 @@ namespace System { class String; }
 #define OHICCFONLEC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DE61830)
 #define OHICCFONLEC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DE61890)
 
+inline static constexpr unsigned int OHICCFONLEC_TypeDefinitionIndex = 34242;
+
 	class OHICCFONLEC : public ::System::Object
 	{
 	public:

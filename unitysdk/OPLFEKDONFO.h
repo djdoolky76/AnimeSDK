@@ -8,6 +8,8 @@ class OPLFEKDONFO;
 #define OPLFEKDONFO_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D2BD570)
 #define OPLFEKDONFO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D2BD530)
 
+inline static constexpr unsigned int OPLFEKDONFO_TypeDefinitionIndex = 24315;
+
 	class OPLFEKDONFO : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int OnPreloadOperationDelegate_TypeDefinitionIndex = 59382;
+
 	class OnPreloadOperationDelegate : public ::System::MulticastDelegate
 	{
 	public:

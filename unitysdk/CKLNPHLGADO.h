@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define CKLNPHLGADO_CTOR_OFFSET UNITYSDK_OFFSET(0xD763EE0)
 #define CKLNPHLGADO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xD763F10)
 
+inline static constexpr unsigned int CKLNPHLGADO_TypeDefinitionIndex = 54156;
+
 	class CKLNPHLGADO
 	{
 	public:

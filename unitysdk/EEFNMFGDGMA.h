@@ -6,6 +6,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define EEFNMFGDGMA_CTOR_OFFSET UNITYSDK_OFFSET(0x13A2C710)
 
+inline static constexpr unsigned int EEFNMFGDGMA_TypeDefinitionIndex = 76466;
+
 	class EEFNMFGDGMA : public ::System::Object
 	{
 	public:

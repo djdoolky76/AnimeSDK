@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FourRotateVoxelFireEffectAction; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FourRotateVoxelFireEffectAction_TypeDefinitionIndex = 18793;
+
 	class FourRotateVoxelFireEffectAction : public ::RPG::GameCore::FiveDimFireEffectAction
 	{
 	public:

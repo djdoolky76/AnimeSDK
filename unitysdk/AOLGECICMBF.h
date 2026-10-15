@@ -11,6 +11,8 @@ namespace System { class String; }
 #define AOLGECICMBF_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x158B9000)
 #define AOLGECICMBF_INVOKE_OFFSET UNITYSDK_OFFSET(0x158B8F60)
 
+inline static constexpr unsigned int AOLGECICMBF_TypeDefinitionIndex = 55866;
+
 	class AOLGECICMBF : public ::System::MulticastDelegate
 	{
 	public:

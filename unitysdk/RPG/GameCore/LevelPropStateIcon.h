@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelPropStateIcon_TypeDefinitionIndex = 17235;
+
 	class LevelPropStateIcon : public ::RPG::GameCore::JsonConfig
 	{
 	public:

@@ -7,6 +7,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RtPropertyModifyData_TypeDefinitionIndex = 53732;
+
 	struct alignas(4) RtPropertyModifyData
 	{
 		::RPG::GameCore::RtAbilityProperty PropertyType; // 0x10

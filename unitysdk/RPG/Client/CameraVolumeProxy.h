@@ -17,6 +17,8 @@ namespace UnityEngine::Rendering { class Volume; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int CameraVolumeProxy_TypeDefinitionIndex = 73016;
+
 	class CameraVolumeProxy : public ::UnityEngine::MonoBehaviour
 	{
 	public:

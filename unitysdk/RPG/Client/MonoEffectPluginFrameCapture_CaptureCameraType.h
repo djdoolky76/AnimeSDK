@@ -3,6 +3,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoEffectPluginFrameCapture_CaptureCameraType_TypeDefinitionIndex = 70070;
+
 	enum class MonoEffectPluginFrameCapture_CaptureCameraType : ::System::Int32
 	{
 		MainCamera = 0,

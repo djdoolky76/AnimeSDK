@@ -8,6 +8,8 @@ namespace MiHoYo::SDK { class Protocol; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int Protocol___c__DisplayClass28_0_TypeDefinitionIndex = 8249;
+
 	class Protocol___c__DisplayClass28_0 : public ::System::Object
 	{
 	public:

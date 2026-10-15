@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define KEBEGGLAPLF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E809710)
 #define KEBEGGLAPLF___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E809720)
 
+inline static constexpr unsigned int KEBEGGLAPLF___c_TypeDefinitionIndex = 34536;
+
 	class KEBEGGLAPLF___c : public ::System::Object
 	{
 	public:

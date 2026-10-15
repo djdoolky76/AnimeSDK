@@ -14,6 +14,8 @@ namespace RPG::GameCore { class WaitParallelTimeStamp; }
 #define NNMAMOAGFBN_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xBCCB550)
 #define NNMAMOAGFBN_TICK_OFFSET UNITYSDK_OFFSET(0xBCCB5A0)
 
+inline static constexpr unsigned int NNMAMOAGFBN_TypeDefinitionIndex = 58907;
+
 	class NNMAMOAGFBN : public ::GELIALJDFBL
 	{
 	public:

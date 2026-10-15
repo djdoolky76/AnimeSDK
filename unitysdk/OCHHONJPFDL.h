@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define OCHHONJPFDL_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBD64000)
 #define OCHHONJPFDL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBD64160)
 
+inline static constexpr unsigned int OCHHONJPFDL_TypeDefinitionIndex = 55041;
+
 	class OCHHONJPFDL
 	{
 	public:

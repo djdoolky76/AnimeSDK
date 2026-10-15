@@ -27,6 +27,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define PCBAEKICFEB_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xBFF9CF0)
 #define PCBAEKICFEB_LBMAGONECLE_OFFSET UNITYSDK_OFFSET(0xBFFA0A0)
 
+inline static constexpr unsigned int PCBAEKICFEB_TypeDefinitionIndex = 54110;
+
 	class PCBAEKICFEB : public ::System::Object
 	{
 	public:

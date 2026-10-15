@@ -18,6 +18,8 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 #define KNNMGDNOHAG_JEKPOFFDGEL_OFFSET UNITYSDK_OFFSET(0xB58A0B0)
 #define KNNMGDNOHAG__ADDPACKETHANDLERS_OFFSET UNITYSDK_OFFSET(0xB58A1A0)
 
+inline static constexpr unsigned int KNNMGDNOHAG_TypeDefinitionIndex = 63762;
+
 	class KNNMGDNOHAG : public ::RPG::Client::BaseModule
 	{
 	public:

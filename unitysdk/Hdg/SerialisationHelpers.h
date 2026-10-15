@@ -26,6 +26,8 @@ namespace System::IO { class BinaryWriter; }
 
 namespace Hdg
 {
+	inline static constexpr unsigned int SerialisationHelpers_TypeDefinitionIndex = 46942;
+
 	class SerialisationHelpers : public ::System::Object
 	{
 	public:

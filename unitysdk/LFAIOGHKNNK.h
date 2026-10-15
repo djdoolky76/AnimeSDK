@@ -12,6 +12,8 @@ namespace RPG::Client::Prop { class DuelChimeraProxy; }
 #define LFAIOGHKNNK_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0xB65EE50)
 #define LFAIOGHKNNK_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0xB65EAB0)
 
+inline static constexpr unsigned int LFAIOGHKNNK_TypeDefinitionIndex = 78236;
+
 	class LFAIOGHKNNK : public ::System::Object
 	{
 	public:

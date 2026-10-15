@@ -33,6 +33,8 @@ namespace System { class String; }
 #define GHMOAPECAPB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E48DB00)
 #define GHMOAPECAPB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E48DB60)
 
+inline static constexpr unsigned int GHMOAPECAPB_TypeDefinitionIndex = 31638;
+
 	class GHMOAPECAPB : public ::System::Object
 	{
 	public:

@@ -14,6 +14,8 @@ namespace RPG::GameCore { class MarbleRandomBuffRow; }
 #define OFDLDALIDDN_SET_ISSELECTED_OFFSET UNITYSDK_OFFSET(0x1C98CCD0)
 #define OFDLDALIDDN_SET_TECHID_OFFSET UNITYSDK_OFFSET(0x1C98CCB0)
 
+inline static constexpr unsigned int OFDLDALIDDN_TypeDefinitionIndex = 43167;
+
 	class OFDLDALIDDN : public ::System::Object
 	{
 	public:

@@ -6,6 +6,8 @@ namespace RootMotion::FinalIK { class GroundPhysicsHelper_SphereCastDelegate; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TurnBasedGameMode___O_TypeDefinitionIndex = 53604;
+
 	class TurnBasedGameMode___O : public ::System::Object
 	{
 	public:

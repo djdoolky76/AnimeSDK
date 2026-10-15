@@ -7,6 +7,8 @@ namespace MessagePack { class IFormatterResolver; }
 
 namespace MessagePack::Internal
 {
+	inline static constexpr unsigned int StandardResolverHelper_TypeDefinitionIndex = 7344;
+
 	class StandardResolverHelper : public ::System::Object
 	{
 	public:

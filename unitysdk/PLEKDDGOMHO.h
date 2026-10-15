@@ -6,6 +6,8 @@
 #define PLEKDDGOMHO_CTOR_OFFSET UNITYSDK_OFFSET(0xC2F0890)
 #define PLEKDDGOMHO_GET_DIAPLAYCARTYPE_OFFSET UNITYSDK_OFFSET(0xC2F08A0)
 
+inline static constexpr unsigned int PLEKDDGOMHO_TypeDefinitionIndex = 81700;
+
 	class PLEKDDGOMHO : public ::System::Object
 	{
 	public:

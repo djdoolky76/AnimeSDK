@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CloneWeakness_TypeDefinitionIndex = 23077;
+
 	class CloneWeakness : public ::RPG::GameCore::TaskConfig
 	{
 	public:

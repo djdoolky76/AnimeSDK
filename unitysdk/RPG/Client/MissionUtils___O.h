@@ -6,6 +6,8 @@ namespace System { template <typename T> class Comparison_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MissionUtils___O_TypeDefinitionIndex = 66193;
+
 	class MissionUtils___O : public ::System::Object
 	{
 	public:

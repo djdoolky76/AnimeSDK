@@ -9,6 +9,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ActivityInviteUtils_TypeDefinitionIndex = 61554;
+
 	class ActivityInviteUtils : public ::System::Object
 	{
 	public:

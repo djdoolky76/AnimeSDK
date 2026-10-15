@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int DistanceRange_TypeDefinitionIndex = 4752;
+
 	struct alignas(4) DistanceRange
 	{
 		::System::Single m_LowerBound; // 0x10

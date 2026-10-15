@@ -15,6 +15,8 @@ namespace System { class Object; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int WeGameDelegate_AsyncAcquireSessionTicketDelegate_TypeDefinitionIndex = 7715;
+
 	class WeGameDelegate_AsyncAcquireSessionTicketDelegate : public ::System::MulticastDelegate
 	{
 	public:

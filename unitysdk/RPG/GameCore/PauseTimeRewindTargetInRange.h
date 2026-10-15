@@ -12,6 +12,8 @@ namespace RPG::GameCore { class PauseTimeRewindTargetInRange; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PauseTimeRewindTargetInRange_TypeDefinitionIndex = 20660;
+
 	class PauseTimeRewindTargetInRange : public ::RPG::GameCore::TaskConfig
 	{
 	public:

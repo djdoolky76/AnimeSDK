@@ -19,6 +19,8 @@ namespace System { class Action; }
 #define GFCJBHLLKBO_GAPLDKGHPPP_SET_HASFINISHED_OFFSET UNITYSDK_OFFSET(0x159EA350)
 #define GFCJBHLLKBO_GAPLDKGHPPP_SET_HASSTOPPED_OFFSET UNITYSDK_OFFSET(0x159EA330)
 
+inline static constexpr unsigned int GFCJBHLLKBO_GAPLDKGHPPP_TypeDefinitionIndex = 68065;
+
 	class GFCJBHLLKBO_GAPLDKGHPPP : public ::System::Object
 	{
 	public:

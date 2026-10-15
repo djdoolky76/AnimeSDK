@@ -29,6 +29,8 @@ namespace System { class String; }
 #define PAALDKHKOLE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DEE9B40)
 #define PAALDKHKOLE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DEE9BA0)
 
+inline static constexpr unsigned int PAALDKHKOLE_TypeDefinitionIndex = 25962;
+
 	class PAALDKHKOLE : public ::System::Object
 	{
 	public:

@@ -27,6 +27,8 @@ namespace System { class String; }
 #define DOBHOCKGHBI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E1FD040)
 #define DOBHOCKGHBI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E1FD0A0)
 
+inline static constexpr unsigned int DOBHOCKGHBI_TypeDefinitionIndex = 28347;
+
 	class DOBHOCKGHBI : public ::System::Object
 	{
 	public:

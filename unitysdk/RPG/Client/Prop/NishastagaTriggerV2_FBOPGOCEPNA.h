@@ -6,6 +6,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int NishastagaTriggerV2_FBOPGOCEPNA_TypeDefinitionIndex = 78963;
+
 	struct alignas(8) NishastagaTriggerV2_FBOPGOCEPNA
 	{
 		::RPG::GameCore::PropComponent* AJCAIHAOEIL; // 0x10

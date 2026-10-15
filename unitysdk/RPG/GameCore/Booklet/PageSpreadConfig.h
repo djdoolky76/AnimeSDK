@@ -11,6 +11,8 @@ namespace RPG::GameCore::Booklet { class PageSpreadConfig; }
 
 namespace RPG::GameCore::Booklet
 {
+	inline static constexpr unsigned int PageSpreadConfig_TypeDefinitionIndex = 24964;
+
 	class PageSpreadConfig : public ::RPG::GameCore::Booklet::SpreadConfig
 	{
 	public:

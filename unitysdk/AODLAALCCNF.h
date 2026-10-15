@@ -31,6 +31,8 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyLi
 #define AODLAALCCNF_REMOVE_ONCHANGED_OFFSET UNITYSDK_OFFSET(0x158A7460)
 #define AODLAALCCNF_REMOVE_ONPLANCHANGED_OFFSET UNITYSDK_OFFSET(0x158A7390)
 
+inline static constexpr unsigned int AODLAALCCNF_TypeDefinitionIndex = 81474;
+
 	class AODLAALCCNF : public ::System::Object
 	{
 	public:

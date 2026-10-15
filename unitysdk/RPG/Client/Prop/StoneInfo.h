@@ -6,6 +6,8 @@
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int StoneInfo_TypeDefinitionIndex = 78520;
+
 	class StoneInfo : public ::System::Object
 	{
 	public:

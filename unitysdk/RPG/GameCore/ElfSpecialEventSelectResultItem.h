@@ -11,6 +11,8 @@ namespace RPG::GameCore { class ElfSpecialEventSelectResultItem; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ElfSpecialEventSelectResultItem_TypeDefinitionIndex = 18492;
+
 	class ElfSpecialEventSelectResultItem : public ::RPG::GameCore::JsonConfig
 	{
 	public:

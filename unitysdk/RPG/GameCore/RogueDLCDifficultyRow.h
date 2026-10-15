@@ -9,6 +9,8 @@ namespace RPG::GameCore { class RogueDLCDifficultyRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueDLCDifficultyRow_TypeDefinitionIndex = 14766;
+
 	class RogueDLCDifficultyRow : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace RPG::GameCore { class VCameraConfig; }
 #define CEEKLKEKOPJ_NKKOKCJDEJM_OFFSET UNITYSDK_OFFSET(0xC7824F0)
 #define CEEKLKEKOPJ_OGPCBOFHLPI_OFFSET UNITYSDK_OFFSET(0xC7822E0)
 
+inline static constexpr unsigned int CEEKLKEKOPJ_TypeDefinitionIndex = 52068;
+
 	class CEEKLKEKOPJ : public ::System::Object
 	{
 	public:

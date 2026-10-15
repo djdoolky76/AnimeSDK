@@ -10,6 +10,8 @@ namespace System::Linq::Expressions { class NewExpression; }
 
 namespace System::Linq::Expressions
 {
+	inline static constexpr unsigned int MemberInitExpression_TypeDefinitionIndex = 3247;
+
 	class MemberInitExpression : public ::System::Linq::Expressions::Expression
 	{
 	public:

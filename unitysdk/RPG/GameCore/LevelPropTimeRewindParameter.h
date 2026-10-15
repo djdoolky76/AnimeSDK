@@ -11,6 +11,8 @@ namespace RPG::GameCore { class LevelPropTimeRewindParameter; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelPropTimeRewindParameter_TypeDefinitionIndex = 17254;
+
 	class LevelPropTimeRewindParameter : public ::RPG::GameCore::LevelPropParameter
 	{
 	public:

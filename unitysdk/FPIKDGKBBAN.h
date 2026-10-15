@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define FPIKDGKBBAN_MBEGFDMEMBG_OFFSET UNITYSDK_OFFSET(0x1591A7B0)
 #define FPIKDGKBBAN_OEGANPJGOIG_OFFSET UNITYSDK_OFFSET(0x15919FC0)
 
+inline static constexpr unsigned int FPIKDGKBBAN_TypeDefinitionIndex = 66265;
+
 	class FPIKDGKBBAN : public ::System::Object
 	{
 	public:

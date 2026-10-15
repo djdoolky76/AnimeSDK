@@ -28,6 +28,8 @@ namespace System { class String; }
 #define EPCNFDBKAEE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E3071D0)
 #define EPCNFDBKAEE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E307230)
 
+inline static constexpr unsigned int EPCNFDBKAEE_TypeDefinitionIndex = 25228;
+
 	class EPCNFDBKAEE : public ::System::Object
 	{
 	public:

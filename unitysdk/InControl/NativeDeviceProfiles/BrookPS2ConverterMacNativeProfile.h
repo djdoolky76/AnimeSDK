@@ -7,6 +7,8 @@
 
 namespace InControl::NativeDeviceProfiles
 {
+	inline static constexpr unsigned int BrookPS2ConverterMacNativeProfile_TypeDefinitionIndex = 41112;
+
 	class BrookPS2ConverterMacNativeProfile : public ::InControl::NativeDeviceProfiles::Xbox360DriverMacNativeProfile
 	{
 	public:

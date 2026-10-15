@@ -10,6 +10,8 @@ namespace RPG::GameCore { class MonopolyReportStatsRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MonopolyReportStatsRow_TypeDefinitionIndex = 12075;
+
 	class MonopolyReportStatsRow : public ::System::Object
 	{
 	public:

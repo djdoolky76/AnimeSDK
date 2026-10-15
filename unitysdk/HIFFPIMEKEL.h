@@ -20,6 +20,8 @@ namespace System { class String; }
 #define HIFFPIMEKEL_OOKFNPPHHEK_OFFSET UNITYSDK_OFFSET(0x15CE3A00)
 #define HIFFPIMEKEL_OPCKNBHNBOA_OFFSET UNITYSDK_OFFSET(0x15CE3F20)
 
+inline static constexpr unsigned int HIFFPIMEKEL_TypeDefinitionIndex = 54388;
+
 	class HIFFPIMEKEL : public ::System::Object
 	{
 	public:

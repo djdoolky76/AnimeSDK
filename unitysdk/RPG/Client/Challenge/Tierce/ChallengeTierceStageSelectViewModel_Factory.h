@@ -14,6 +14,8 @@ namespace RPG::Client::Challenge::Tierce { class ChallengeTierceTeamInfoProvider
 
 namespace RPG::Client::Challenge::Tierce
 {
+	inline static constexpr unsigned int ChallengeTierceStageSelectViewModel_Factory_TypeDefinitionIndex = 81624;
+
 	class ChallengeTierceStageSelectViewModel_Factory : public ::System::Object
 	{
 	public:

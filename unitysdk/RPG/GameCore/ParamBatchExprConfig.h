@@ -12,6 +12,8 @@ namespace RPG::GameCore { class ParamBatchExprConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ParamBatchExprConfig_TypeDefinitionIndex = 17084;
+
 	class ParamBatchExprConfig : public ::RPG::GameCore::MiParameterConfigBase
 	{
 	public:

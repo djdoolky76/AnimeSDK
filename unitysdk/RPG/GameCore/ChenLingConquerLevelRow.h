@@ -9,6 +9,8 @@ namespace RPG::GameCore { class ChenLingConquerLevelRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChenLingConquerLevelRow_TypeDefinitionIndex = 11088;
+
 	class ChenLingConquerLevelRow : public ::System::Object
 	{
 	public:

@@ -22,6 +22,8 @@ namespace System { class String; }
 #define KDFOAKHBHEH_PCPCIFMHDKM_OFFSET UNITYSDK_OFFSET(0x3C28940)
 #define KDFOAKHBHEH_PFOAOOKOHME_OFFSET UNITYSDK_OFFSET(0x3C286D0)
 
+inline static constexpr unsigned int KDFOAKHBHEH_TypeDefinitionIndex = 41622;
+
 	struct alignas(8) KDFOAKHBHEH
 	{
 		::System::Boolean PPIGLCIEIIM; // 0x10

@@ -26,6 +26,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int LightControlBehaviour_TypeDefinitionIndex = 48441;
+
 	class LightControlBehaviour : public ::RPGTools::Timeline::RecoverablePlayableBehaviour
 	{
 	public:

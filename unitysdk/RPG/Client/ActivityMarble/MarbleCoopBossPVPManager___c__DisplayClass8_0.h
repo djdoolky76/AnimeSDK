@@ -8,6 +8,8 @@ namespace RPG::Client::ActivityMarble { class MarbleCoopBossPVPManager; }
 
 namespace RPG::Client::ActivityMarble
 {
+	inline static constexpr unsigned int MarbleCoopBossPVPManager___c__DisplayClass8_0_TypeDefinitionIndex = 76000;
+
 	class MarbleCoopBossPVPManager___c__DisplayClass8_0 : public ::System::Object
 	{
 	public:

@@ -18,6 +18,8 @@ namespace System::Linq::Expressions { class ParameterExpression; }
 
 namespace System::Linq::Expressions::Interpreter
 {
+	inline static constexpr unsigned int LightCompiler_QuoteVisitor_TypeDefinitionIndex = 3486;
+
 	class LightCompiler_QuoteVisitor : public ::System::Linq::Expressions::ExpressionVisitor
 	{
 	public:

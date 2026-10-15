@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ST_Main_ElfCustomerWaitEating; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ST_Main_ElfCustomerWaitEating_TypeDefinitionIndex = 21530;
+
 	class ST_Main_ElfCustomerWaitEating : public ::RPG::GameCore::STTaskConfig
 	{
 	public:

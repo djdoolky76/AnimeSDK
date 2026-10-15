@@ -8,6 +8,8 @@
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int GUIClip_ParentClipScope_TypeDefinitionIndex = 5169;
+
 	struct alignas(4) GUIClip_ParentClipScope
 	{
 		::System::Boolean m_Disposed; // 0x10

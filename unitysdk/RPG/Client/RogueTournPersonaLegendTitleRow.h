@@ -16,6 +16,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueTournPersonaLegendTitleRow_TypeDefinitionIndex = 72904;
+
 	class RogueTournPersonaLegendTitleRow : public ::System::Object
 	{
 	public:

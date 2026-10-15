@@ -11,6 +11,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::ChenLingFes
 {
+	inline static constexpr unsigned int ChenLingFesItemPlaceGridControl_TypeDefinitionIndex = 81336;
+
 	class ChenLingFesItemPlaceGridControl : public ::Sofa::BaseSofaControl
 	{
 	public:

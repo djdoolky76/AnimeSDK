@@ -5,6 +5,8 @@ namespace UnityEngine { class GameObject; }
 
 #define IMMNFMOPJOH_JMEOAHJLNNG_OFFSET UNITYSDK_OFFSET(0x164E0EE0)
 
+inline static constexpr unsigned int IMMNFMOPJOH_TypeDefinitionIndex = 69817;
+
 	class IMMNFMOPJOH : public ::System::Object
 	{
 	public:

@@ -14,6 +14,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FeverTimeInfoChangeParam_TypeDefinitionIndex = 56845;
+
 	class FeverTimeInfoChangeParam : public ::CMPGEAFHHDC
 	{
 	public:

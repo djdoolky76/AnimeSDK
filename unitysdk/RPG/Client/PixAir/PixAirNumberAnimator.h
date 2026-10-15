@@ -12,6 +12,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::PixAir
 {
+	inline static constexpr unsigned int PixAirNumberAnimator_TypeDefinitionIndex = 79391;
+
 	class PixAirNumberAnimator : public ::UnityEngine::MonoBehaviour
 	{
 	public:

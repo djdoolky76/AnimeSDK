@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GraphicsSettingRequirements_TypeDefinitionIndex = 18267;
+
 	class GraphicsSettingRequirements : public ::RPG::GameCore::JsonConfig
 	{
 	public:

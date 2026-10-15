@@ -18,6 +18,8 @@ namespace System::Runtime::Serialization::Formatters::Binary { class ParseRecord
 
 namespace System::Runtime::Serialization::Formatters::Binary
 {
+	inline static constexpr unsigned int ObjectProgress_TypeDefinitionIndex = 1164;
+
 	class ObjectProgress : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TriggerBranchByActivitySwordTrainingStoryLine; }
 #define DGNMOLJMCCB_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xE8583F0)
 #define DGNMOLJMCCB_TICK_OFFSET UNITYSDK_OFFSET(0xE858440)
 
+inline static constexpr unsigned int DGNMOLJMCCB_TypeDefinitionIndex = 58772;
+
 	class DGNMOLJMCCB : public ::GELIALJDFBL
 	{
 	public:

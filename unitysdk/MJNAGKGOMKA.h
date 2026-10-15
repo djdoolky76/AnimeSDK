@@ -9,6 +9,8 @@ namespace RPG::GameCore { class LittleGameFireEffectParams; }
 #define MJNAGKGOMKA_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D1B6440)
 #define MJNAGKGOMKA_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D1B6400)
 
+inline static constexpr unsigned int MJNAGKGOMKA_TypeDefinitionIndex = 22383;
+
 	class MJNAGKGOMKA : public ::RPG::GameCore::TaskConfig
 	{
 	public:

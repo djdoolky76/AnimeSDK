@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int TelemetryDelegate_InitDelegate_TypeDefinitionIndex = 7702;
+
 	class TelemetryDelegate_InitDelegate : public ::System::MulticastDelegate
 	{
 	public:

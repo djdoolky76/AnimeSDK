@@ -13,6 +13,8 @@ namespace UnityEngine { class ResourceRequest; }
 
 namespace Cysharp::Threading::Tasks
 {
+	inline static constexpr unsigned int UnityAsyncExtensions_ResourceRequestAwaiter_TypeDefinitionIndex = 38459;
+
 	struct alignas(8) UnityAsyncExtensions_ResourceRequestAwaiter
 	{
 		::UnityEngine::ResourceRequest* asyncOperation; // 0x10

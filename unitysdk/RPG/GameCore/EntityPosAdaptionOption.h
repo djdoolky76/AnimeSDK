@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int EntityPosAdaptionOption_TypeDefinitionIndex = 24498;
+
 	enum class EntityPosAdaptionOption : ::System::UInt32
 	{
 		None = 0,

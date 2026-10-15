@@ -36,6 +36,8 @@ namespace UnityEngine::UI { class Text; }
 
 namespace MiHoYo::SDK::PC::OS::CXHandheld
 {
+	inline static constexpr unsigned int HandheldAgeGateParentalConsentSentDialog_TypeDefinitionIndex = 8797;
+
 	class HandheldAgeGateParentalConsentSentDialog : public ::MiHoYo::SDK::Console::ConsoleDialogBase
 	{
 	public:

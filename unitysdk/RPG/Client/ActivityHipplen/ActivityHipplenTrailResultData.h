@@ -11,6 +11,8 @@ namespace RPG::GameCore { class ActivityHipplenGrowthPhaseRow; }
 
 namespace RPG::Client::ActivityHipplen
 {
+	inline static constexpr unsigned int ActivityHipplenTrailResultData_TypeDefinitionIndex = 75506;
+
 	class ActivityHipplenTrailResultData : public ::System::Object
 	{
 	public:

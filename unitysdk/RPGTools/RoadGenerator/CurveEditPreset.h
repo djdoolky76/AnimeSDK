@@ -7,6 +7,8 @@
 
 namespace RPGTools::RoadGenerator
 {
+	inline static constexpr unsigned int CurveEditPreset_TypeDefinitionIndex = 48863;
+
 	class CurveEditPreset : public ::UnityEngine::MonoBehaviour
 	{
 	public:

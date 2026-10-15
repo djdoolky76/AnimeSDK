@@ -6,6 +6,8 @@ namespace Proto { class MonopolyActionResult; }
 #define FILCOIFIBGE_CTOR_OFFSET UNITYSDK_OFFSET(0x157ACF30)
 #define FILCOIFIBGE_TRIGGER_OFFSET UNITYSDK_OFFSET(0x157ACF40)
 
+inline static constexpr unsigned int FILCOIFIBGE_TypeDefinitionIndex = 66236;
+
 	class FILCOIFIBGE : public ::System::Object
 	{
 	public:

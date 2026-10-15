@@ -7,6 +7,8 @@ namespace RPG::GameCore { class PixAirCastCondition; }
 
 #define GLLIPCNMDBO_CTOR_OFFSET UNITYSDK_OFFSET(0x1CAB1C50)
 
+inline static constexpr unsigned int GLLIPCNMDBO_TypeDefinitionIndex = 43673;
+
 	class GLLIPCNMDBO : public ::System::Object
 	{
 	public:

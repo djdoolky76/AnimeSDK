@@ -14,6 +14,8 @@ namespace UnityEngine { class Renderer; }
 #define AHLEKINJMLB_MFCDKJIHDEH_OFFSET UNITYSDK_OFFSET(0xEB865E0)
 #define AHLEKINJMLB_PCNAKDOLCCD_OFFSET UNITYSDK_OFFSET(0xEB86400)
 
+inline static constexpr unsigned int AHLEKINJMLB_TypeDefinitionIndex = 70695;
+
 	class AHLEKINJMLB : public ::RPG::Client::TABehaviorBase
 	{
 	public:

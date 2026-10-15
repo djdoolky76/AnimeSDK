@@ -6,6 +6,8 @@
 
 namespace System::Net
 {
+	inline static constexpr unsigned int TimerThread_Queue_TypeDefinitionIndex = 2785;
+
 	class TimerThread_Queue : public ::System::Object
 	{
 	public:

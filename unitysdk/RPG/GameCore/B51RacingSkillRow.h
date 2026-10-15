@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int B51RacingSkillRow_TypeDefinitionIndex = 10968;
+
 	class B51RacingSkillRow : public ::System::Object
 	{
 	public:

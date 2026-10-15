@@ -18,6 +18,8 @@ namespace UnityEngine { class MaterialPropertyBlock; }
 #define NABJELBABDI_PCNAKDOLCCD_OFFSET UNITYSDK_OFFSET(0xBA52E70)
 #define NABJELBABDI_PGCOBJCDAEM_OFFSET UNITYSDK_OFFSET(0xBA545B0)
 
+inline static constexpr unsigned int NABJELBABDI_TypeDefinitionIndex = 70589;
+
 	class NABJELBABDI : public ::RPG::Client::TABehaviorBase
 	{
 	public:

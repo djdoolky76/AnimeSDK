@@ -32,6 +32,8 @@ namespace System { class Action; }
 #define PGEKIBLDFJC_OLBCHELOOAI_OFFSET UNITYSDK_OFFSET(0xC21E0A0)
 #define PGEKIBLDFJC_OLCLIBLHFHL_OFFSET UNITYSDK_OFFSET(0xC21EB00)
 
+inline static constexpr unsigned int PGEKIBLDFJC_TypeDefinitionIndex = 79697;
+
 	class PGEKIBLDFJC : public ::System::Object
 	{
 	public:

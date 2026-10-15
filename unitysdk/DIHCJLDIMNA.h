@@ -13,6 +13,8 @@ namespace System { class String; }
 #define DIHCJLDIMNA_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CD267F0)
 #define DIHCJLDIMNA_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CD267B0)
 
+inline static constexpr unsigned int DIHCJLDIMNA_TypeDefinitionIndex = 22783;
+
 	class DIHCJLDIMNA : public ::RPG::GameCore::SetDynamicValueBase
 	{
 	public:

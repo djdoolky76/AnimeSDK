@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
+	inline static constexpr unsigned int BrowserNative_Calltype_zfb_addCLISwitch_TypeDefinitionIndex = 39413;
+
 	class BrowserNative_Calltype_zfb_addCLISwitch : public ::System::MulticastDelegate
 	{
 	public:

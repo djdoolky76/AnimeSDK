@@ -7,6 +7,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define HPLCFJOIDAK_CTOR_OFFSET UNITYSDK_OFFSET(0x15DD14B0)
 #define HPLCFJOIDAK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15DD1590)
 
+inline static constexpr unsigned int HPLCFJOIDAK_TypeDefinitionIndex = 55465;
+
 	class HPLCFJOIDAK
 	{
 	public:

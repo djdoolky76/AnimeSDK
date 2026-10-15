@@ -14,6 +14,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByIsBodyPartOwner_TypeDefinitionIndex = 23314;
+
 	class ByIsBodyPartOwner : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

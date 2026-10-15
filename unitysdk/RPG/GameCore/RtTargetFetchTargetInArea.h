@@ -21,6 +21,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RtTargetFetchTargetInArea_TypeDefinitionIndex = 24240;
+
 	class RtTargetFetchTargetInArea : public ::RPG::GameCore::TargetEvaluator
 	{
 	public:

@@ -13,6 +13,8 @@ namespace UnityEngine { class Transform; }
 #define IGAFCEAKMHC_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0x163F1370)
 #define IGAFCEAKMHC_STARTWITHTARGET_OFFSET UNITYSDK_OFFSET(0x163F12B0)
 
+inline static constexpr unsigned int IGAFCEAKMHC_TypeDefinitionIndex = 73519;
+
 	class IGAFCEAKMHC : public ::MOGBNBGMIHF
 	{
 	public:

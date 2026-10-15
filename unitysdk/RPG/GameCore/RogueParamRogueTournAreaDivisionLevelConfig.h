@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueParamRogueTournAreaDivisionLevelConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueParamRogueTournAreaDivisionLevelConfig_TypeDefinitionIndex = 19845;
+
 	class RogueParamRogueTournAreaDivisionLevelConfig : public ::RPG::GameCore::RogueParameterConfigBase
 	{
 	public:

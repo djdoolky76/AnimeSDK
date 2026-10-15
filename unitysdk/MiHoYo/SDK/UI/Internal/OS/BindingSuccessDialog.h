@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::UI::Internal::OS
 {
+	inline static constexpr unsigned int BindingSuccessDialog_TypeDefinitionIndex = 8421;
+
 	class BindingSuccessDialog : public ::System::Object
 	{
 	public:

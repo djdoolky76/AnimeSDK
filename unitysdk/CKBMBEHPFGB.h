@@ -7,6 +7,8 @@ namespace RPG::GameCore { class DiceCombatPredicateConfig_IsAttacker; }
 #define CKBMBEHPFGB_CTOR_OFFSET UNITYSDK_OFFSET(0x1C5D63A0)
 #define CKBMBEHPFGB_KFGJEKJHIMB_OFFSET UNITYSDK_OFFSET(0x1C5D63C0)
 
+inline static constexpr unsigned int CKBMBEHPFGB_TypeDefinitionIndex = 36348;
+
 	class CKBMBEHPFGB : public ::HHOHBHGLHHF
 	{
 	public:

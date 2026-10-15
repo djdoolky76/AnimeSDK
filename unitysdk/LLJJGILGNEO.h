@@ -42,6 +42,8 @@ namespace System { class String; }
 #define LLJJGILGNEO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E99C080)
 #define LLJJGILGNEO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E99C0E0)
 
+inline static constexpr unsigned int LLJJGILGNEO_TypeDefinitionIndex = 25098;
+
 	class LLJJGILGNEO : public ::System::Object
 	{
 	public:

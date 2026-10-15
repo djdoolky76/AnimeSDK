@@ -10,6 +10,8 @@ namespace RPG::GameCore::Match3 { class SetSuperGemPouchAction; }
 
 namespace RPG::GameCore::Match3
 {
+	inline static constexpr unsigned int SetSuperGemPouchAction_TypeDefinitionIndex = 24921;
+
 	class SetSuperGemPouchAction : public ::RPG::GameCore::Match3::Match3ActionBase
 	{
 	public:

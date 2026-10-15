@@ -29,6 +29,8 @@ namespace System { class String; }
 #define BDLPMPLGLPF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E91AAD0)
 #define BDLPMPLGLPF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E91AB30)
 
+inline static constexpr unsigned int BDLPMPLGLPF_TypeDefinitionIndex = 27637;
+
 	class BDLPMPLGLPF : public ::System::Object
 	{
 	public:

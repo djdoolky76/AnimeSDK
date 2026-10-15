@@ -26,6 +26,8 @@ namespace UnityEngine::Rendering { class IBitArray; }
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int BitArray16_TypeDefinitionIndex = 35590;
+
 	struct alignas(4) BitArray16
 	{
 		::System::UInt16 data; // 0x10

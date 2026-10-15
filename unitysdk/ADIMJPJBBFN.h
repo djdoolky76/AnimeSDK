@@ -34,6 +34,8 @@ namespace UnityEngine::UI { class Text; }
 #define ADIMJPJBBFN_PEGNJCBFPFB_OFFSET UNITYSDK_OFFSET(0xB141760)
 #define ADIMJPJBBFN__ONBIND_OFFSET UNITYSDK_OFFSET(0xB141300)
 
+inline static constexpr unsigned int ADIMJPJBBFN_TypeDefinitionIndex = 72085;
+
 	class ADIMJPJBBFN : public ::CAOEEDDAPIK
 	{
 	public:

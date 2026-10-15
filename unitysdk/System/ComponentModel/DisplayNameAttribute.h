@@ -16,6 +16,8 @@ namespace System::ComponentModel { class DisplayNameAttribute; }
 
 namespace System::ComponentModel
 {
+	inline static constexpr unsigned int DisplayNameAttribute_TypeDefinitionIndex = 2586;
+
 	class DisplayNameAttribute : public ::System::Attribute
 	{
 	public:

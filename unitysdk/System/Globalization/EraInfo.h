@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace System::Globalization
 {
+	inline static constexpr unsigned int EraInfo_TypeDefinitionIndex = 750;
+
 	class EraInfo : public ::System::Object
 	{
 	public:

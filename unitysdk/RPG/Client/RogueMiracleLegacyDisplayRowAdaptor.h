@@ -19,6 +19,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueMiracleLegacyDisplayRowAdaptor_TypeDefinitionIndex = 67286;
+
 	class RogueMiracleLegacyDisplayRowAdaptor : public ::System::Object
 	{
 	public:

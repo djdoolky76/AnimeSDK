@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PlayerRemoteControlOtherEntity_TypeDefinitionIndex = 20518;
+
 	class PlayerRemoteControlOtherEntity : public ::RPG::GameCore::TaskConfig
 	{
 	public:

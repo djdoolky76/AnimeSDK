@@ -10,6 +10,8 @@
 #define JGDJANDMKOB_LCJMKJPECAP_OFFSET UNITYSDK_OFFSET(0x10530)
 #define JGDJANDMKOB_LDAMHBBILAD_OFFSET UNITYSDK_OFFSET(0x104D0)
 
+inline static constexpr unsigned int JGDJANDMKOB_TypeDefinitionIndex = 60649;
+
 	struct alignas(4) JGDJANDMKOB
 	{
 		::UnityEngine::Vector2 EFNAJMADAHM; // 0x10

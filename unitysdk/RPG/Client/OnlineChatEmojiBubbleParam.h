@@ -16,6 +16,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int OnlineChatEmojiBubbleParam_TypeDefinitionIndex = 62946;
+
 	class OnlineChatEmojiBubbleParam : public ::System::Object
 	{
 	public:

@@ -17,6 +17,8 @@ namespace UnityEngine { class MonoBehaviour; }
 #define CIAJLILJIAM_PCJEOMHPCJM_OFFSET UNITYSDK_OFFSET(0xCF650C0)
 #define CIAJLILJIAM_POPNLPIAOCM_OFFSET UNITYSDK_OFFSET(0xCF64800)
 
+inline static constexpr unsigned int CIAJLILJIAM_TypeDefinitionIndex = 69902;
+
 	class CIAJLILJIAM : public ::RPG::Client::BehaviorBase
 	{
 	public:

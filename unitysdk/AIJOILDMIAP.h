@@ -6,6 +6,8 @@ namespace System { class String; }
 
 #define AIJOILDMIAP_ECIAEOJIOKI_OFFSET UNITYSDK_OFFSET(0xEBAECE0)
 
+inline static constexpr unsigned int AIJOILDMIAP_TypeDefinitionIndex = 74608;
+
 	class AIJOILDMIAP : public ::System::Object
 	{
 	public:

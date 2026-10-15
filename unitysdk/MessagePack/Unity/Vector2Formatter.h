@@ -12,6 +12,8 @@ namespace MessagePack { class MessagePackSerializerOptions; }
 
 namespace MessagePack::Unity
 {
+	inline static constexpr unsigned int Vector2Formatter_TypeDefinitionIndex = 10118;
+
 	class Vector2Formatter : public ::System::Object
 	{
 	public:

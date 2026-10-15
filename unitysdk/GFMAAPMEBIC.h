@@ -9,6 +9,8 @@ namespace RPG::GameCore { class BaseLittleGameAbilityValueGetterConfig; }
 #define GFMAAPMEBIC_CTOR_OFFSET UNITYSDK_OFFSET(0x159FCBD0)
 #define GFMAAPMEBIC_GETVALUE_OFFSET UNITYSDK_OFFSET(0x159FC9C0)
 
+inline static constexpr unsigned int GFMAAPMEBIC_TypeDefinitionIndex = 77398;
+
 	class GFMAAPMEBIC : public ::System::Object
 	{
 	public:

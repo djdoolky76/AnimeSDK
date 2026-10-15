@@ -25,6 +25,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int BaseSpineComponentController_TypeDefinitionIndex = 69020;
+
 	class BaseSpineComponentController : public ::UnityEngine::MonoBehaviour
 	{
 	public:

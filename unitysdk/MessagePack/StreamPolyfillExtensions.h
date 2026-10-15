@@ -10,6 +10,8 @@ namespace System::IO { class Stream; }
 
 namespace MessagePack
 {
+	inline static constexpr unsigned int StreamPolyfillExtensions_TypeDefinitionIndex = 7245;
+
 	class StreamPolyfillExtensions : public ::System::Object
 	{
 	public:

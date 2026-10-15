@@ -6,6 +6,8 @@
 
 namespace System::Xml::Linq
 {
+	inline static constexpr unsigned int LineInfoEndElementAnnotation_TypeDefinitionIndex = 3886;
+
 	class LineInfoEndElementAnnotation : public ::System::Xml::Linq::LineInfoAnnotation
 	{
 	public:

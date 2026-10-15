@@ -8,6 +8,8 @@
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int ScalableBufferManager_TypeDefinitionIndex = 4124;
+
 	class ScalableBufferManager : public ::System::Object
 	{
 	public:

@@ -25,6 +25,8 @@ namespace System { class String; }
 #define ELJIHLDPDDF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E2D42C0)
 #define ELJIHLDPDDF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E2D4320)
 
+inline static constexpr unsigned int ELJIHLDPDDF_TypeDefinitionIndex = 33794;
+
 	class ELJIHLDPDDF : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GachaNewsRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GachaNewsRow_TypeDefinitionIndex = 13365;
+
 	class GachaNewsRow : public ::System::Object
 	{
 	public:

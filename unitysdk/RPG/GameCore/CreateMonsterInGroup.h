@@ -10,6 +10,8 @@ namespace RPG::GameCore { class CreateMonsterInGroup; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CreateMonsterInGroup_TypeDefinitionIndex = 20362;
+
 	class CreateMonsterInGroup : public ::RPG::GameCore::TaskConfig
 	{
 	public:

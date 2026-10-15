@@ -65,6 +65,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightStageNode_TypeDefinitionIndex = 65254;
+
 	class GridFightStageNode : public ::System::Object
 	{
 	public:

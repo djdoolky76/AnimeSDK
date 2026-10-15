@@ -6,6 +6,8 @@
 
 namespace UnityEngine::Pooled
 {
+	inline static constexpr unsigned int SpinLockWithNoCriticalRegion_TypeDefinitionIndex = 4535;
+
 	struct alignas(4) SpinLockWithNoCriticalRegion
 	{
 		::System::Int32 _isRunning; // 0x10

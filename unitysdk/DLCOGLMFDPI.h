@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyLi
 #define DLCOGLMFDPI_KMANKMJOBGM_OFFSET UNITYSDK_OFFSET(0xF8975F0)
 #define DLCOGLMFDPI_LFOFJCNJDEF_OFFSET UNITYSDK_OFFSET(0xF897D00)
 
+inline static constexpr unsigned int DLCOGLMFDPI_TypeDefinitionIndex = 63875;
+
 	class DLCOGLMFDPI : public ::System::Object
 	{
 	public:

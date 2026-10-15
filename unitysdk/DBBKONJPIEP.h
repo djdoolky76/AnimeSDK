@@ -5,6 +5,8 @@
 #define DBBKONJPIEP_BKHKBEJCGJK_OFFSET UNITYSDK_OFFSET(0xDFD6B70)
 #define DBBKONJPIEP_CTOR_OFFSET UNITYSDK_OFFSET(0xDFD6BC0)
 
+inline static constexpr unsigned int DBBKONJPIEP_TypeDefinitionIndex = 57118;
+
 	class DBBKONJPIEP : public ::PEDAPLLONJD
 	{
 	public:

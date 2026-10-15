@@ -27,6 +27,8 @@ namespace System { class String; }
 #define KAHAOOJHJPK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E7DE680)
 #define KAHAOOJHJPK_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E7DE6E0)
 
+inline static constexpr unsigned int KAHAOOJHJPK_TypeDefinitionIndex = 29430;
+
 	class KAHAOOJHJPK : public ::System::Object
 	{
 	public:

@@ -5,6 +5,8 @@
 
 namespace UnityEngine::UIElements
 {
+	inline static constexpr unsigned int PointerCaptureOutEvent_TypeDefinitionIndex = 5911;
+
 	class PointerCaptureOutEvent
 	{
 	public:

@@ -12,6 +12,8 @@ namespace System::Collections::Generic { class KeyValuePair; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightEquipCraftMapInfo___c__DisplayClass7_0_TypeDefinitionIndex = 64524;
+
 	class GridFightEquipCraftMapInfo___c__DisplayClass7_0 : public ::System::Object
 	{
 	public:

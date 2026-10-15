@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int BpChangeReason_TypeDefinitionIndex = 56899;
+
 	enum class BpChangeReason : ::System::Int32
 	{
 		Unknown = 0,

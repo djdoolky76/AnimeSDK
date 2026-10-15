@@ -20,6 +20,8 @@ namespace UnityEngine::Playables { class PlayableDirector; }
 
 namespace RPG::Client::ChenLingBattle
 {
+	inline static constexpr unsigned int ChenLingUI3DEntranceView_TypeDefinitionIndex = 76216;
+
 	class ChenLingUI3DEntranceView : public ::UnityEngine::MonoBehaviour
 	{
 	public:

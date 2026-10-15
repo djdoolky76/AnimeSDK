@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RenderTestPageContext_AnimationDropDownItem_TypeDefinitionIndex = 72865;
+
 	class RenderTestPageContext_AnimationDropDownItem : public ::System::Object
 	{
 	public:

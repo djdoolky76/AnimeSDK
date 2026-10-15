@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TrainPartyBuildItemDynamicBindValue_AvatarBasePa
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TrainPartyBuildItemDynamicBindValue_AvatarBasePath_TypeDefinitionIndex = 16269;
+
 	class TrainPartyBuildItemDynamicBindValue_AvatarBasePath : public ::RPG::GameCore::TrainPartyBuildItemDynamicBindValue
 	{
 	public:

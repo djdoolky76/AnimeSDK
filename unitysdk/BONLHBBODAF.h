@@ -15,6 +15,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define BONLHBBODAF_NLBNJGKAMII_OFFSET UNITYSDK_OFFSET(0xC199CB0)
 #define BONLHBBODAF_NMCEFGCGHFG_OFFSET UNITYSDK_OFFSET(0xC199D30)
 
+inline static constexpr unsigned int BONLHBBODAF_TypeDefinitionIndex = 53765;
+
 	class BONLHBBODAF : public ::GJPFGOGOLBI
 	{
 	public:

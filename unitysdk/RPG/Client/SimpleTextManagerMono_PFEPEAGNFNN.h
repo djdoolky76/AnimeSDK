@@ -22,6 +22,8 @@ namespace UnityEngine { class Texture; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int SimpleTextManagerMono_PFEPEAGNFNN_TypeDefinitionIndex = 72648;
+
 	class SimpleTextManagerMono_PFEPEAGNFNN : public ::System::Object
 	{
 	public:

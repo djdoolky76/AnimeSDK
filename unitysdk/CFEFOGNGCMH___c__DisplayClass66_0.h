@@ -9,6 +9,8 @@ namespace System { class Exception; }
 #define CFEFOGNGCMH___C__DISPLAYCLASS66_0_CTOR_OFFSET UNITYSDK_OFFSET(0xCA11360)
 #define CFEFOGNGCMH___C__DISPLAYCLASS66_0___STARTFINISHEDENDMATCHPROMISE_B__1_OFFSET UNITYSDK_OFFSET(0xCA115E0)
 
+inline static constexpr unsigned int CFEFOGNGCMH___c__DisplayClass66_0_TypeDefinitionIndex = 81868;
+
 	class CFEFOGNGCMH___c__DisplayClass66_0 : public ::System::Object
 	{
 	public:

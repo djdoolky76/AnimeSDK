@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define DFDCPCNBPAD___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E19DA70)
 #define DFDCPCNBPAD___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E19DA80)
 
+inline static constexpr unsigned int DFDCPCNBPAD___c_TypeDefinitionIndex = 28440;
+
 	class DFDCPCNBPAD___c : public ::System::Object
 	{
 	public:

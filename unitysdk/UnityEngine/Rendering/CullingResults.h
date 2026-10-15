@@ -8,6 +8,8 @@ namespace System { class Object; }
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int CullingResults_TypeDefinitionIndex = 4749;
+
 	struct alignas(8) CullingResults
 	{
 		::System::IntPtr ptr; // 0x10

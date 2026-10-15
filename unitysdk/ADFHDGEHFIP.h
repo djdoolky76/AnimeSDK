@@ -9,6 +9,8 @@ namespace RPG::GameCore { class TaskConfig; }
 #define ADFHDGEHFIP_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CCACFB0)
 #define ADFHDGEHFIP_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CCACF70)
 
+inline static constexpr unsigned int ADFHDGEHFIP_TypeDefinitionIndex = 10247;
+
 	class ADFHDGEHFIP : public ::RPG::GameCore::TaskConfig
 	{
 	public:

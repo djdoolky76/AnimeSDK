@@ -17,6 +17,8 @@ namespace System { class String; }
 #define GEELJHLDJOE_PFEODCIJKPH_OFFSET UNITYSDK_OFFSET(0x159D0EB0)
 #define GEELJHLDJOE_TICK_OFFSET UNITYSDK_OFFSET(0x159D0DF0)
 
+inline static constexpr unsigned int GEELJHLDJOE_TypeDefinitionIndex = 58274;
+
 	class GEELJHLDJOE : public ::GELIALJDFBL
 	{
 	public:

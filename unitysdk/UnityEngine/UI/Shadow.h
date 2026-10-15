@@ -26,6 +26,8 @@ namespace UnityEngine::UI { class VertexHelper; }
 
 namespace UnityEngine::UI
 {
+	inline static constexpr unsigned int Shadow_TypeDefinitionIndex = 6893;
+
 	class Shadow : public ::UnityEngine::UI::BaseMeshEffect
 	{
 	public:

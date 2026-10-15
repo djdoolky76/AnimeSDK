@@ -6,6 +6,8 @@ namespace Proto { class MonopolyActionResult; }
 #define GFKGBIGOHJO_CTOR_OFFSET UNITYSDK_OFFSET(0x159FB150)
 #define GFKGBIGOHJO_TRIGGER_OFFSET UNITYSDK_OFFSET(0x159FB110)
 
+inline static constexpr unsigned int GFKGBIGOHJO_TypeDefinitionIndex = 66240;
+
 	class GFKGBIGOHJO : public ::System::Object
 	{
 	public:

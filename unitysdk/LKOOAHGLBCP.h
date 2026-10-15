@@ -11,6 +11,8 @@ namespace System { class String; }
 #define LKOOAHGLBCP_HHAGAEJJNID_OFFSET UNITYSDK_OFFSET(0xB75BC20)
 #define LKOOAHGLBCP_JBOLCKNEOPF_OFFSET UNITYSDK_OFFSET(0xB75BCC0)
 
+inline static constexpr unsigned int LKOOAHGLBCP_TypeDefinitionIndex = 69536;
+
 	class LKOOAHGLBCP : public ::System::Object
 	{
 	public:

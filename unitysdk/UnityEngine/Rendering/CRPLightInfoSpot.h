@@ -3,6 +3,8 @@
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int CRPLightInfoSpot_TypeDefinitionIndex = 4878;
+
 	struct alignas(4) CRPLightInfoSpot
 	{
 		::System::Single CookieAtten; // 0x10

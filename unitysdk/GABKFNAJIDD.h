@@ -41,6 +41,8 @@ namespace System { class String; }
 #define GABKFNAJIDD_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E413FC0)
 #define GABKFNAJIDD_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E414020)
 
+inline static constexpr unsigned int GABKFNAJIDD_TypeDefinitionIndex = 30202;
+
 	class GABKFNAJIDD : public ::System::Object
 	{
 	public:

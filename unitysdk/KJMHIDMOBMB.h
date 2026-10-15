@@ -38,6 +38,8 @@ namespace System { class String; }
 #define KJMHIDMOBMB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E86F4C0)
 #define KJMHIDMOBMB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E86F520)
 
+inline static constexpr unsigned int KJMHIDMOBMB_TypeDefinitionIndex = 29910;
+
 	class KJMHIDMOBMB : public ::System::Object
 	{
 	public:

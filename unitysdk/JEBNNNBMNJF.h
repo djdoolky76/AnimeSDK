@@ -7,6 +7,8 @@ class JEBNNNBMNJF;
 #define JEBNNNBMNJF_CTOR_OFFSET UNITYSDK_OFFSET(0x1D01A9A0)
 #define JEBNNNBMNJF_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D01A860)
 
+inline static constexpr unsigned int JEBNNNBMNJF_TypeDefinitionIndex = 15057;
+
 	class JEBNNNBMNJF : public ::System::Object
 	{
 	public:

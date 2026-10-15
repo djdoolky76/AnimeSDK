@@ -10,6 +10,8 @@ namespace UnityEngine { class RectTransform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int UIParticleClippable_TypeDefinitionIndex = 71061;
+
 	class UIParticleClippable
 	{
 	public:

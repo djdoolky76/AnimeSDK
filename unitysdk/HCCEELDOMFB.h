@@ -9,6 +9,8 @@ namespace System::Net { class IPEndPoint; }
 #define HCCEELDOMFB_LJEHAMLEKDI_OFFSET UNITYSDK_OFFSET(0x1DDAC770)
 #define HCCEELDOMFB_NNAHGBKABPO_OFFSET UNITYSDK_OFFSET(0x1DDAD720)
 
+inline static constexpr unsigned int HCCEELDOMFB_TypeDefinitionIndex = 43962;
+
 	class HCCEELDOMFB : public ::System::Object
 	{
 	public:

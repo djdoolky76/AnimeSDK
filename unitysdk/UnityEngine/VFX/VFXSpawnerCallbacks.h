@@ -6,6 +6,8 @@
 
 namespace UnityEngine::VFX
 {
+	inline static constexpr unsigned int VFXSpawnerCallbacks_TypeDefinitionIndex = 6041;
+
 	class VFXSpawnerCallbacks : public ::UnityEngine::ScriptableObject
 	{
 	public:

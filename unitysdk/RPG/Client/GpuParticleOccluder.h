@@ -14,6 +14,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GpuParticleOccluder_TypeDefinitionIndex = 69804;
+
 	class GpuParticleOccluder : public ::UnityEngine::MonoBehaviour
 	{
 	public:

@@ -18,6 +18,8 @@ namespace System::Text { class Encoding; }
 
 namespace System::Text
 {
+	inline static constexpr unsigned int Encoding_EncodingCharBuffer_TypeDefinitionIndex = 492;
+
 	class Encoding_EncodingCharBuffer : public ::System::Object
 	{
 	public:

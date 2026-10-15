@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ST_RtMain_UseSkill_TypeDefinitionIndex = 24078;
+
 	class ST_RtMain_UseSkill : public ::RPG::GameCore::STTaskConfig
 	{
 	public:

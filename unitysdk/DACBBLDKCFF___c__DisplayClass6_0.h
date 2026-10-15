@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyLi
 #define DACBBLDKCFF___C__DISPLAYCLASS6_0__CREATE_B__0_OFFSET UNITYSDK_OFFSET(0xDFBC560)
 #define DACBBLDKCFF___C__DISPLAYCLASS6_0__CREATE_B__1_OFFSET UNITYSDK_OFFSET(0xDFBC590)
 
+inline static constexpr unsigned int DACBBLDKCFF___c__DisplayClass6_0_TypeDefinitionIndex = 79647;
+
 	class DACBBLDKCFF___c__DisplayClass6_0 : public ::System::Object
 	{
 	public:

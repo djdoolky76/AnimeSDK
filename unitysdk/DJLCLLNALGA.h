@@ -5,6 +5,8 @@ class BJIACBNKCCJ;
 
 #define DJLCLLNALGA_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA2ABF0)
 
+inline static constexpr unsigned int DJLCLLNALGA_TypeDefinitionIndex = 42929;
+
 	class DJLCLLNALGA : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int Effect_TransformToMaterialBehavior_TransformPropertyMapping_TypeDefinitionIndex = 70582;
+
 	class Effect_TransformToMaterialBehavior_TransformPropertyMapping : public ::System::Object
 	{
 	public:

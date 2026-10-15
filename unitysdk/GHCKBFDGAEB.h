@@ -10,6 +10,8 @@ namespace RPG::GameCore { class WaitEnterBattleTransitionFinish; }
 #define GHCKBFDGAEB_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x15A15430)
 #define GHCKBFDGAEB_TICK_OFFSET UNITYSDK_OFFSET(0x15A15600)
 
+inline static constexpr unsigned int GHCKBFDGAEB_TypeDefinitionIndex = 55809;
+
 	class GHCKBFDGAEB : public ::GELIALJDFBL
 	{
 	public:

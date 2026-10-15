@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define AKCALLBACKMANAGER_EVENTCALLBACKPACKAGE_CREATE_OFFSET UNITYSDK_OFFSET(0x1F581B90)
 #define AKCALLBACKMANAGER_EVENTCALLBACKPACKAGE_CTOR_OFFSET UNITYSDK_OFFSET(0x1F581CF0)
 
+inline static constexpr unsigned int AkCallbackManager_EventCallbackPackage_TypeDefinitionIndex = 44826;
+
 	class AkCallbackManager_EventCallbackPackage : public ::System::Object
 	{
 	public:

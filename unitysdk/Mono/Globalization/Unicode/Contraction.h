@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace Mono::Globalization::Unicode
 {
+	inline static constexpr unsigned int Contraction_TypeDefinitionIndex = 32;
+
 	class Contraction : public ::System::Object
 	{
 	public:

@@ -39,6 +39,8 @@ namespace System { class String; }
 
 namespace Google::Protobuf::Reflection
 {
+	inline static constexpr unsigned int SourceCodeInfo_Types_Location_TypeDefinitionIndex = 5518;
+
 	class SourceCodeInfo_Types_Location : public ::System::Object
 	{
 	public:

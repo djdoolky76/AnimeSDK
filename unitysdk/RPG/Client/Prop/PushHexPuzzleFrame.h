@@ -11,6 +11,8 @@ namespace UnityEngine { class Material; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int PushHexPuzzleFrame_TypeDefinitionIndex = 78619;
+
 	class PushHexPuzzleFrame : public ::RPG::Client::Prop::HexPuzzleItemBase
 	{
 	public:

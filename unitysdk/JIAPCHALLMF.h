@@ -20,6 +20,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define JIAPCHALLMF_START_OFFSET UNITYSDK_OFFSET(0xB1EBD90)
 #define JIAPCHALLMF_STOP_OFFSET UNITYSDK_OFFSET(0xB1EBDD0)
 
+inline static constexpr unsigned int JIAPCHALLMF_TypeDefinitionIndex = 79221;
+
 	class JIAPCHALLMF : public ::System::Object
 	{
 	public:

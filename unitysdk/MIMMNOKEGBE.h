@@ -13,6 +13,8 @@ class MIMMNOKEGBE;
 #define MIMMNOKEGBE_LHLALAKKKKJ_OFFSET UNITYSDK_OFFSET(0xB95F6E0)
 #define MIMMNOKEGBE_PDAENODHFCM_OFFSET UNITYSDK_OFFSET(0xB95F480)
 
+inline static constexpr unsigned int MIMMNOKEGBE_TypeDefinitionIndex = 61403;
+
 	class MIMMNOKEGBE : public ::System::Object
 	{
 	public:

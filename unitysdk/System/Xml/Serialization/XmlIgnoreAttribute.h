@@ -6,6 +6,8 @@
 
 namespace System::Xml::Serialization
 {
+	inline static constexpr unsigned int XmlIgnoreAttribute_TypeDefinitionIndex = 2010;
+
 	class XmlIgnoreAttribute : public ::System::Attribute
 	{
 	public:

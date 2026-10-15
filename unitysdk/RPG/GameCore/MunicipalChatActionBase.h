@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MunicipalChatActionBase_TypeDefinitionIndex = 16924;
+
 	class MunicipalChatActionBase : public ::RPG::GameCore::JsonConfig
 	{
 	public:

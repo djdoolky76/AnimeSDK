@@ -13,6 +13,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int ConvinceDoubleScreenShakeClip_TypeDefinitionIndex = 48037;
+
 	class ConvinceDoubleScreenShakeClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:

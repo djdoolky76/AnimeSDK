@@ -32,6 +32,8 @@ namespace System { class String; }
 #define IHHJCBBEAGP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E67BC40)
 #define IHHJCBBEAGP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E67BCA0)
 
+inline static constexpr unsigned int IHHJCBBEAGP_TypeDefinitionIndex = 27487;
+
 	class IHHJCBBEAGP : public ::System::Object
 	{
 	public:

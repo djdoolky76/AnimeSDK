@@ -37,6 +37,8 @@ namespace UnityEngine { class Transform; }
 #define BONGEDMOKEL_SET_INDEX_OFFSET UNITYSDK_OFFSET(0xC1979B0)
 #define BONGEDMOKEL__ONBIND_OFFSET UNITYSDK_OFFSET(0xC1974D0)
 
+inline static constexpr unsigned int BONGEDMOKEL_TypeDefinitionIndex = 72205;
+
 	class BONGEDMOKEL : public ::FMPCODLIOLG
 	{
 	public:

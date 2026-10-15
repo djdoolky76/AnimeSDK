@@ -8,6 +8,8 @@ namespace UnityEngine::Experimental::Audio { class AudioSampleProvider_SampleFra
 
 namespace UnityEngine::Experimental::Audio
 {
+	inline static constexpr unsigned int AudioSampleProvider_TypeDefinitionIndex = 5155;
+
 	class AudioSampleProvider : public ::System::Object
 	{
 	public:

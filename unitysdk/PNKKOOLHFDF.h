@@ -82,6 +82,8 @@ namespace UnityEngine { class Transform; }
 #define PNKKOOLHFDF_OMIGBBMKANP_OFFSET UNITYSDK_OFFSET(0xC3457F0)
 #define PNKKOOLHFDF_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0xC343250)
 
+inline static constexpr unsigned int PNKKOOLHFDF_TypeDefinitionIndex = 69624;
+
 	class PNKKOOLHFDF : public ::MDILEMALGNC
 	{
 	public:

@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define DOMMIAJFGGF_IMHBALDLAHP_OFFSET UNITYSDK_OFFSET(0x11FF2120)
 #define DOMMIAJFGGF_KGLOPGFNBMI_OFFSET UNITYSDK_OFFSET(0x11FF2550)
 
+inline static constexpr unsigned int DOMMIAJFGGF_TypeDefinitionIndex = 66466;
+
 	class DOMMIAJFGGF : public ::System::Object
 	{
 	public:

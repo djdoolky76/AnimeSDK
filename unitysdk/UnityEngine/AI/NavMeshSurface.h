@@ -72,6 +72,8 @@ namespace UnityEngine::AI { class NavMeshSurface; }
 
 namespace UnityEngine::AI
 {
+	inline static constexpr unsigned int NavMeshSurface_TypeDefinitionIndex = 41353;
+
 	class NavMeshSurface : public ::UnityEngine::MonoBehaviour
 	{
 	public:

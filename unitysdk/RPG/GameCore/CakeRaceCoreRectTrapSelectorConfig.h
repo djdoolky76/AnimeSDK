@@ -10,6 +10,8 @@ namespace RPG::GameCore { class CakeRaceCoreRectTrapSelectorConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CakeRaceCoreRectTrapSelectorConfig_TypeDefinitionIndex = 18392;
+
 	class CakeRaceCoreRectTrapSelectorConfig : public ::RPG::GameCore::CakeRaceBaseTargetSelectorConfig
 	{
 	public:

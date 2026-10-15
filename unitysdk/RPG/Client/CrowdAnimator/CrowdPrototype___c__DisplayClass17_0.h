@@ -9,6 +9,8 @@ namespace System { class String; }
 
 namespace RPG::Client::CrowdAnimator
 {
+	inline static constexpr unsigned int CrowdPrototype___c__DisplayClass17_0_TypeDefinitionIndex = 73721;
+
 	class CrowdPrototype___c__DisplayClass17_0 : public ::System::Object
 	{
 	public:

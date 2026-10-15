@@ -11,6 +11,8 @@ namespace RPG::GameCore { class MarbleNpcConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MarbleMainsubConfig_TypeDefinitionIndex = 18928;
+
 	class MarbleMainsubConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

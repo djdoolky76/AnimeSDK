@@ -6,6 +6,8 @@
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
+	inline static constexpr unsigned int B2JointEvents_TypeDefinitionIndex = 36697;
+
 	struct alignas(8) B2JointEvents
 	{
 		::Il2CppArray<::RPG::LittleGameShare::HoyoPhysics::Box2D::B2JointEvent>* jointEvents; // 0x10

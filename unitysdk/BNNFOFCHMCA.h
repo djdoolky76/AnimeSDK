@@ -5,6 +5,8 @@ class IIAJFCNCMEB;
 
 #define BNNFOFCHMCA_CTOR_OFFSET UNITYSDK_OFFSET(0xBDE2870)
 
+inline static constexpr unsigned int BNNFOFCHMCA_TypeDefinitionIndex = 80548;
+
 	class BNNFOFCHMCA : public ::System::Object
 	{
 	public:

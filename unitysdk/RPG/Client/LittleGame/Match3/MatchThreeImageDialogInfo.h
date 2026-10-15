@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace RPG::Client::LittleGame::Match3
 {
+	inline static constexpr unsigned int MatchThreeImageDialogInfo_TypeDefinitionIndex = 43015;
+
 	class MatchThreeImageDialogInfo : public ::System::Object
 	{
 	public:

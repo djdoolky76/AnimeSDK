@@ -46,6 +46,8 @@ namespace System { class String; }
 
 namespace Spine
 {
+	inline static constexpr unsigned int RegionAttachment_TypeDefinitionIndex = 39659;
+
 	class RegionAttachment : public ::Spine::Attachment
 	{
 	public:

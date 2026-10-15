@@ -10,6 +10,8 @@ namespace RPG::GameCore { class MunicipalChatActionTalk; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MunicipalChatActionTalk_TypeDefinitionIndex = 16925;
+
 	class MunicipalChatActionTalk : public ::RPG::GameCore::MunicipalChatActionBase
 	{
 	public:

@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define JPKDLLGICEL___C__DISPLAYCLASS1_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB2C5510)
 #define JPKDLLGICEL___C__DISPLAYCLASS1_0__TRIGGEREFFECTS_B__0_OFFSET UNITYSDK_OFFSET(0xB2C58E0)
 
+inline static constexpr unsigned int JPKDLLGICEL___c__DisplayClass1_0_TypeDefinitionIndex = 52470;
+
 	class JPKDLLGICEL___c__DisplayClass1_0 : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@ namespace RPG::Client::ActivityIdleLive { class LiveRoomIconUiData; }
 
 namespace RPG::Client::ActivityIdleLive
 {
+	inline static constexpr unsigned int ShowLiveRoomIconEditService___c__DisplayClass0_0_TypeDefinitionIndex = 75367;
+
 	class ShowLiveRoomIconEditService___c__DisplayClass0_0 : public ::System::Object
 	{
 	public:

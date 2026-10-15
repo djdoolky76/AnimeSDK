@@ -5,6 +5,8 @@
 #define FCLPHDEONPI___C__DISPLAYCLASS5_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1C614790)
 #define FCLPHDEONPI___C__DISPLAYCLASS5_0__ISDICECONTENTODDOREVENSPECIFICNUM_B__0_OFFSET UNITYSDK_OFFSET(0x1C615630)
 
+inline static constexpr unsigned int FCLPHDEONPI___c__DisplayClass5_0_TypeDefinitionIndex = 36286;
+
 	class FCLPHDEONPI___c__DisplayClass5_0 : public ::System::Object
 	{
 	public:

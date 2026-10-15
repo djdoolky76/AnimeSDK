@@ -33,6 +33,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define IMIODDMBPNK_STOP_OFFSET UNITYSDK_OFFSET(0x164DAB50)
 #define IMIODDMBPNK__SETGROWTHTARGET_B__11_0_OFFSET UNITYSDK_OFFSET(0x164DB6E0)
 
+inline static constexpr unsigned int IMIODDMBPNK_TypeDefinitionIndex = 65611;
+
 	class IMIODDMBPNK : public ::BHPMNMMGLHI
 	{
 	public:

@@ -5,6 +5,8 @@ namespace System { class Object; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByCurrentSkillEffect___O_TypeDefinitionIndex = 23020;
+
 	class ByCurrentSkillEffect___O : public ::System::Object
 	{
 	public:

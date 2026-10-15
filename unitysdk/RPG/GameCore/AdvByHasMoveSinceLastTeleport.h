@@ -14,6 +14,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdvByHasMoveSinceLastTeleport_TypeDefinitionIndex = 20591;
+
 	class AdvByHasMoveSinceLastTeleport : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

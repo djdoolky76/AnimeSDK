@@ -6,6 +6,8 @@ namespace RPG::Client { class MiniMapZone; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int UIAdventureMinimap_SectionHandle_TypeDefinitionIndex = 69068;
+
 	struct alignas(8) UIAdventureMinimap_SectionHandle
 	{
 		::RPG::Client::MiniMapZone* Zone; // 0x10

@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelRegionConnectivity_TypeDefinitionIndex = 17378;
+
 	class LevelRegionConnectivity : public ::RPG::GameCore::JsonConfig
 	{
 	public:

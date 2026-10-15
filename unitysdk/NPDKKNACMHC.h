@@ -37,6 +37,8 @@ namespace System { class String; }
 #define NPDKKNACMHC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EB95570)
 #define NPDKKNACMHC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EB955D0)
 
+inline static constexpr unsigned int NPDKKNACMHC_TypeDefinitionIndex = 29738;
+
 	class NPDKKNACMHC : public ::System::Object
 	{
 	public:

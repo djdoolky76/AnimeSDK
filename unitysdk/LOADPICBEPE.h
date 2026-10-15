@@ -64,6 +64,8 @@ namespace UnityEngine { class GameObject; }
 #define LOADPICBEPE_TICK_OFFSET UNITYSDK_OFFSET(0xB7EFC80)
 #define LOADPICBEPE___ONREADY_B__33_0_OFFSET UNITYSDK_OFFSET(0xB7F1CB0)
 
+inline static constexpr unsigned int LOADPICBEPE_TypeDefinitionIndex = 74206;
+
 	class LOADPICBEPE : public ::HBCMHADMLOP
 	{
 	public:

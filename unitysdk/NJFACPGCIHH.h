@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TriggerEffectListForUI; }
 
 #define NJFACPGCIHH_CTOR_OFFSET UNITYSDK_OFFSET(0xBC0D970)
 
+inline static constexpr unsigned int NJFACPGCIHH_TypeDefinitionIndex = 55729;
+
 	class NJFACPGCIHH : public ::BBFMBHHONDO
 	{
 	public:

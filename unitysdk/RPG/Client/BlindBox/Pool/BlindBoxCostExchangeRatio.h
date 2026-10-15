@@ -20,6 +20,8 @@ namespace System::Text { class StringBuilder; }
 
 namespace RPG::Client::BlindBox::Pool
 {
+	inline static constexpr unsigned int BlindBoxCostExchangeRatio_TypeDefinitionIndex = 74942;
+
 	struct alignas(4) BlindBoxCostExchangeRatio
 	{
 		::System::UInt32 _Coin2TicketRatio_k__BackingField; // 0x10

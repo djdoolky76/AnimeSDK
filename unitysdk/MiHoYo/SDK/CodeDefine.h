@@ -6,6 +6,8 @@
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int CodeDefine_TypeDefinitionIndex = 7567;
+
 	class CodeDefine : public ::System::Object
 	{
 	public:

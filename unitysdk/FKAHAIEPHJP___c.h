@@ -10,6 +10,8 @@ namespace System { template <typename T> class Predicate_1; }
 #define FKAHAIEPHJP___C__ADDSEQUENCE_B__1_0_OFFSET UNITYSDK_OFFSET(0x157E3D10)
 #define FKAHAIEPHJP___C__CLEARENDED_B__4_0_OFFSET UNITYSDK_OFFSET(0x157E3D60)
 
+inline static constexpr unsigned int FKAHAIEPHJP___c_TypeDefinitionIndex = 68932;
+
 	class FKAHAIEPHJP___c : public ::System::Object
 	{
 	public:

@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TeamTowersBossSkillGroupType_TypeDefinitionIndex = 12497;
+
 	enum class TeamTowersBossSkillGroupType : ::System::Int32
 	{
 		Invalid = 0,

@@ -13,6 +13,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPGTools::Timeline::Audio
 {
+	inline static constexpr unsigned int WwisePostEventAudioClip_TypeDefinitionIndex = 48859;
+
 	class WwisePostEventAudioClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:

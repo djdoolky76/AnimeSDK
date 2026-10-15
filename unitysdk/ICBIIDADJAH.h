@@ -19,6 +19,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define ICBIIDADJAH_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x15E4A8D0)
 #define ICBIIDADJAH_TICK_OFFSET UNITYSDK_OFFSET(0x15E4A700)
 
+inline static constexpr unsigned int ICBIIDADJAH_TypeDefinitionIndex = 52230;
+
 	class ICBIIDADJAH
 	{
 	public:

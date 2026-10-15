@@ -30,6 +30,8 @@ namespace System { class String; }
 #define GMGABLBKJMC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E4D2310)
 #define GMGABLBKJMC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E4D2370)
 
+inline static constexpr unsigned int GMGABLBKJMC_TypeDefinitionIndex = 28772;
+
 	class GMGABLBKJMC : public ::System::Object
 	{
 	public:

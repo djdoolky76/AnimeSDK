@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace SimpleJSON
 {
+	inline static constexpr unsigned int JSON_TypeDefinitionIndex = 9967;
+
 	class JSON : public ::System::Object
 	{
 	public:

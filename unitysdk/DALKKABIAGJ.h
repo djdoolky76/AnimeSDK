@@ -7,6 +7,8 @@ namespace RPG::GameCore { class MarbleHideAuxiliaryLine; }
 #define DALKKABIAGJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA14080)
 #define DALKKABIAGJ_KDNAAOHECPD_OFFSET UNITYSDK_OFFSET(0x1CA14090)
 
+inline static constexpr unsigned int DALKKABIAGJ_TypeDefinitionIndex = 43123;
+
 	class DALKKABIAGJ : public ::BKABEBEPPJK
 	{
 	public:

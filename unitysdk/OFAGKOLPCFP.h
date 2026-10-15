@@ -7,6 +7,8 @@ class PEDNMPONAAO;
 #define OFAGKOLPCFP_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xBE39F00)
 #define OFAGKOLPCFP_CTOR_OFFSET UNITYSDK_OFFSET(0xBE39FE0)
 
+inline static constexpr unsigned int OFAGKOLPCFP_TypeDefinitionIndex = 62659;
+
 	class OFAGKOLPCFP : public ::System::Object
 	{
 	public:

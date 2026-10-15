@@ -11,6 +11,8 @@ class LFCKLPMBGGI;
 #define BCBCMKOOEJC_MCEMEHPCOLP_OFFSET UNITYSDK_OFFSET(0x1C435C50)
 #define BCBCMKOOEJC_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0x1C435CC0)
 
+inline static constexpr unsigned int BCBCMKOOEJC_TypeDefinitionIndex = 41543;
+
 	class BCBCMKOOEJC : public ::System::Object
 	{
 	public:

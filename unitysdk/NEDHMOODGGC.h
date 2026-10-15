@@ -9,6 +9,8 @@ namespace System { template <typename T> class Func_1; }
 #define NEDHMOODGGC_CTOR_OFFSET UNITYSDK_OFFSET(0xBB58D40)
 #define NEDHMOODGGC_HJMLOLJBBPH_OFFSET UNITYSDK_OFFSET(0xBB58D50)
 
+inline static constexpr unsigned int NEDHMOODGGC_TypeDefinitionIndex = 77699;
+
 	class NEDHMOODGGC : public ::HBLDGJCDJPF
 	{
 	public:

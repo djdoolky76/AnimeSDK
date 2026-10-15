@@ -13,6 +13,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define JMKDDOGFOKG___ONGAMEAREALOADED_B__5_0_OFFSET UNITYSDK_OFFSET(0xB269700)
 #define JMKDDOGFOKG___ONGAMEAREALOADED_B__5_1_OFFSET UNITYSDK_OFFSET(0xB269790)
 
+inline static constexpr unsigned int JMKDDOGFOKG_TypeDefinitionIndex = 52308;
+
 	class JMKDDOGFOKG : public ::GELIALJDFBL
 	{
 	public:

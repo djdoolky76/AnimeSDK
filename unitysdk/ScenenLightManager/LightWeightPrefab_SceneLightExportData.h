@@ -9,6 +9,8 @@ namespace ScenenLightManager { class LightWeightPrefab_ExportData; }
 
 namespace ScenenLightManager
 {
+	inline static constexpr unsigned int LightWeightPrefab_SceneLightExportData_TypeDefinitionIndex = 49062;
+
 	class LightWeightPrefab_SceneLightExportData : public ::ScenenLightManager::BaseSceneLightExportData
 	{
 	public:

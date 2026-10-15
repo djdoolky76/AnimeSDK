@@ -12,6 +12,8 @@ namespace UnityEngine::Rendering::UI { class DebugUIHandlerValue; }
 
 namespace UnityEngine::Rendering::UI
 {
+	inline static constexpr unsigned int DebugUIHandlerPersistentCanvas_TypeDefinitionIndex = 35692;
+
 	class DebugUIHandlerPersistentCanvas : public ::UnityEngine::MonoBehaviour
 	{
 	public:

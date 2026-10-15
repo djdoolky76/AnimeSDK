@@ -4,6 +4,8 @@
 
 #define AOGKKCBGHBO_NJEPGHIGHIE_CCTOR_OFFSET UNITYSDK_OFFSET(0x158AC150)
 
+inline static constexpr unsigned int AOGKKCBGHBO_NJEPGHIGHIE_TypeDefinitionIndex = 73729;
+
 	class AOGKKCBGHBO_NJEPGHIGHIE : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace RPG::Client { class Effect_ElectricChain; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int Effect_ElectricChainBehavior_TypeDefinitionIndex = 70457;
+
 	class Effect_ElectricChainBehavior : public ::RPG::Client::TABehaviorBase
 	{
 	public:

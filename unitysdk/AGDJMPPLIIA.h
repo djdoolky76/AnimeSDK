@@ -7,6 +7,8 @@ namespace RPG::Client::ActivityAlley { class AlleyPackComponent; }
 #define AGDJMPPLIIA_CTOR_OFFSET UNITYSDK_OFFSET(0xCF26800)
 #define AGDJMPPLIIA_PALDJMEGECK_OFFSET UNITYSDK_OFFSET(0xCF26740)
 
+inline static constexpr unsigned int AGDJMPPLIIA_TypeDefinitionIndex = 74119;
+
 	class AGDJMPPLIIA : public ::System::Object
 	{
 	public:

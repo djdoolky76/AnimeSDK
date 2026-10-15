@@ -31,6 +31,8 @@ namespace System { class String; }
 #define KLABGDHBEDN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E8800A0)
 #define KLABGDHBEDN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E880100)
 
+inline static constexpr unsigned int KLABGDHBEDN_TypeDefinitionIndex = 28523;
+
 	class KLABGDHBEDN : public ::System::Object
 	{
 	public:

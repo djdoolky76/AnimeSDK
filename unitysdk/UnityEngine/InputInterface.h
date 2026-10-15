@@ -50,6 +50,8 @@ namespace UnityEngine { class InputInterface; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int InputInterface_TypeDefinitionIndex = 10111;
+
 	class InputInterface : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueCondWithDifficultyCompConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueCondWithDifficultyCompConfig_TypeDefinitionIndex = 19805;
+
 	class RogueCondWithDifficultyCompConfig : public ::RPG::GameCore::RogueConditionConfigBase
 	{
 	public:

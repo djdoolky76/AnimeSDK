@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int SwitchHandMazePuzzleDataManager_TypeDefinitionIndex = 68002;
+
 	class SwitchHandMazePuzzleDataManager : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace ParticleRecorder
 {
+	inline static constexpr unsigned int ParticleSystemItem_TypeDefinitionIndex = 37489;
+
 	class ParticleSystemItem : public ::System::Object
 	{
 	public:

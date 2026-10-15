@@ -18,6 +18,8 @@ namespace RPG::GameCore { class TaskContext; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int SwitchMascotPuzzleBoard_TypeDefinitionIndex = 68802;
+
 	class SwitchMascotPuzzleBoard : public ::RPG::Client::Prop::PuzzleBoardBase
 	{
 	public:

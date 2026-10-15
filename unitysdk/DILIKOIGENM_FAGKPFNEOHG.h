@@ -7,6 +7,8 @@ namespace RPG::Client::MechCraft::ViewModel { class MechCraftCoinViewModel; }
 #define DILIKOIGENM_FAGKPFNEOHG_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xF213A20)
 #define DILIKOIGENM_FAGKPFNEOHG_CTOR_OFFSET UNITYSDK_OFFSET(0xF213A10)
 
+inline static constexpr unsigned int DILIKOIGENM_FAGKPFNEOHG_TypeDefinitionIndex = 79423;
+
 	class DILIKOIGENM_FAGKPFNEOHG : public ::System::Object
 	{
 	public:

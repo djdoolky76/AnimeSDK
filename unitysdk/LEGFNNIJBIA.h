@@ -10,6 +10,8 @@ namespace System { class String; }
 #define LEGFNNIJBIA_HKEPJLDBGIG_OFFSET UNITYSDK_OFFSET(0x1C4AC150)
 #define LEGFNNIJBIA_OHCJOIANPFG_OFFSET UNITYSDK_OFFSET(0x1C4ABE00)
 
+inline static constexpr unsigned int LEGFNNIJBIA_TypeDefinitionIndex = 41510;
+
 	class LEGFNNIJBIA : public ::System::Object
 	{
 	public:

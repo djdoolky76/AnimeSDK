@@ -19,6 +19,8 @@ class OBJANKHLNGO;
 
 namespace RPG::Client::FateRin::Battle
 {
+	inline static constexpr unsigned int FateRinBattleSpeedUpButtonViewModel_TypeDefinitionIndex = 80952;
+
 	class FateRinBattleSpeedUpButtonViewModel : public ::RPG::Client::FateRin::BaseViewModel
 	{
 	public:

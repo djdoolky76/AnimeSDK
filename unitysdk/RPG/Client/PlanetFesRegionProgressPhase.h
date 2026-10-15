@@ -25,6 +25,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PlanetFesRegionProgressPhase_TypeDefinitionIndex = 66629;
+
 	class PlanetFesRegionProgressPhase : public ::System::Object
 	{
 	public:

@@ -9,6 +9,8 @@ namespace UnityEngine::UI { class Image; }
 #define GDGKGOGKPCG_IAMCNOAAALI_OFFSET UNITYSDK_OFFSET(0x1599C270)
 #define GDGKGOGKPCG_JCKGONAAIPB_OFFSET UNITYSDK_OFFSET(0x1599C2C0)
 
+inline static constexpr unsigned int GDGKGOGKPCG_TypeDefinitionIndex = 73106;
+
 	class GDGKGOGKPCG : public ::LBAMBIMMJKB
 	{
 	public:

@@ -6,6 +6,8 @@
 #define FDCDMFMKHLL_NKPPGDENJAE_OFFSET UNITYSDK_OFFSET(0x156D18F0)
 #define FDCDMFMKHLL__ONBIND_OFFSET UNITYSDK_OFFSET(0x156D18A0)
 
+inline static constexpr unsigned int FDCDMFMKHLL_TypeDefinitionIndex = 71934;
+
 	class FDCDMFMKHLL : public ::BEBKIEOBLPK
 	{
 	public:

@@ -12,6 +12,8 @@ namespace RPGTools::Timeline { class LiveStreamSwitchClip; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int LiveStreamSwitchBehaviour_TypeDefinitionIndex = 48182;
+
 	class LiveStreamSwitchBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

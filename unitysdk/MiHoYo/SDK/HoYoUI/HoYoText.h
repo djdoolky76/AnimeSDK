@@ -15,6 +15,8 @@ namespace MiHoYo::SDK::HoYoUI { class HoYoUIMeta; }
 
 namespace MiHoYo::SDK::HoYoUI
 {
+	inline static constexpr unsigned int HoYoText_TypeDefinitionIndex = 46717;
+
 	class HoYoText : public ::UnityEngine::UI::Text
 	{
 	public:

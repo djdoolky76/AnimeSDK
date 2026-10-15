@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PlayCrossHairPreviewFadeIn_TypeDefinitionIndex = 22944;
+
 	class PlayCrossHairPreviewFadeIn : public ::RPG::GameCore::TaskConfig
 	{
 	public:

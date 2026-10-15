@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define CAGELADNAOL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E059D90)
 #define CAGELADNAOL___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1E059DA0)
 
+inline static constexpr unsigned int CAGELADNAOL___c_TypeDefinitionIndex = 32381;
+
 	class CAGELADNAOL___c : public ::System::Object
 	{
 	public:

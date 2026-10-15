@@ -74,6 +74,8 @@ namespace System::Xml::Serialization { class XmlSerializer; }
 
 namespace System::Xml::Serialization
 {
+	inline static constexpr unsigned int XmlSerializationReader_TypeDefinitionIndex = 2027;
+
 	class XmlSerializationReader : public ::System::Xml::Serialization::XmlSerializationGeneratedCode
 	{
 	public:

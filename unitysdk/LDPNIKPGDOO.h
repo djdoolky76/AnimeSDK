@@ -25,6 +25,8 @@ class KFDKOGMNCEL;
 #define LDPNIKPGDOO_SET_STATESTEP_OFFSET UNITYSDK_OFFSET(0xB644E40)
 #define LDPNIKPGDOO_SET_TRACETREESTEP_OFFSET UNITYSDK_OFFSET(0xB644E60)
 
+inline static constexpr unsigned int LDPNIKPGDOO_TypeDefinitionIndex = 62689;
+
 	class LDPNIKPGDOO : public ::System::Object
 	{
 	public:

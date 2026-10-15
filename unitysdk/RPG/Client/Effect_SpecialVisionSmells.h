@@ -18,6 +18,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int Effect_SpecialVisionSmells_TypeDefinitionIndex = 70556;
+
 	class Effect_SpecialVisionSmells : public ::UnityEngine::MonoBehaviour
 	{
 	public:

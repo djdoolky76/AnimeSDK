@@ -3,6 +3,8 @@
 
 namespace HedgehogTeam::EasyTouch
 {
+	inline static constexpr unsigned int EasyTouchTrigger_ETTParameter_TypeDefinitionIndex = 40245;
+
 	enum class EasyTouchTrigger_ETTParameter : ::System::Int32
 	{
 		None = 0,

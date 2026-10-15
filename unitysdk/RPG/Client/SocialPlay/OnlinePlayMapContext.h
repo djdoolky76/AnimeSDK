@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::SocialPlay
 {
+	inline static constexpr unsigned int OnlinePlayMapContext_TypeDefinitionIndex = 74498;
+
 	class OnlinePlayMapContext : public ::System::Object
 	{
 	public:

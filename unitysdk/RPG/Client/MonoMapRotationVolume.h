@@ -8,6 +8,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoMapRotationVolume_TypeDefinitionIndex = 68609;
+
 	class MonoMapRotationVolume : public ::UnityEngine::MonoBehaviour
 	{
 	public:

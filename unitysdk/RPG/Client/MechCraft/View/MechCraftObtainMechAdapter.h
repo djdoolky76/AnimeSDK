@@ -17,6 +17,8 @@ namespace UnityEngine::Playables { class PlayableDirector; }
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftObtainMechAdapter_TypeDefinitionIndex = 79971;
+
 	class MechCraftObtainMechAdapter : public ::UnityEngine::MonoBehaviour
 	{
 	public:

@@ -10,6 +10,8 @@ namespace System { class Object; }
 
 namespace Cysharp::Threading::Tasks::Linq
 {
+	inline static constexpr unsigned int EveryUpdate__EveryUpdate___c_TypeDefinitionIndex = 45714;
+
 	class EveryUpdate__EveryUpdate___c : public ::System::Object
 	{
 	public:

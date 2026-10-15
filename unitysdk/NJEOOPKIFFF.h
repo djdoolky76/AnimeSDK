@@ -4,6 +4,8 @@
 
 #define NJEOOPKIFFF_CTOR_OFFSET UNITYSDK_OFFSET(0x1C96D360)
 
+inline static constexpr unsigned int NJEOOPKIFFF_TypeDefinitionIndex = 43694;
+
 	class NJEOOPKIFFF : public ::System::Object
 	{
 	public:

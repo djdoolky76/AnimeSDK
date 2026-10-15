@@ -15,6 +15,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define CHEKNAEPBJH_OKKEBMDNPAO_OFFSET UNITYSDK_OFFSET(0xCC93250)
 #define CHEKNAEPBJH_SET_ACHIVEDBUFFS_OFFSET UNITYSDK_OFFSET(0xCC93860)
 
+inline static constexpr unsigned int CHEKNAEPBJH_TypeDefinitionIndex = 67193;
+
 	class CHEKNAEPBJH : public ::System::Object
 	{
 	public:

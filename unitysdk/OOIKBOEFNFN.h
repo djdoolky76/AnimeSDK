@@ -8,6 +8,8 @@ namespace System { class String; }
 #define OOIKBOEFNFN_IILBIBBMGEP_OFFSET UNITYSDK_OFFSET(0x1C4CFA20)
 #define OOIKBOEFNFN_MONGBEMJDBO_OFFSET UNITYSDK_OFFSET(0x1C4CC070)
 
+inline static constexpr unsigned int OOIKBOEFNFN_TypeDefinitionIndex = 41428;
+
 	class OOIKBOEFNFN : public ::System::Object
 	{
 	public:

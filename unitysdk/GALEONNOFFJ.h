@@ -30,6 +30,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define GALEONNOFFJ_OJNKMHIMPAJ_OFFSET UNITYSDK_OFFSET(0x15942300)
 #define GALEONNOFFJ_PHFIABDCBAM_OFFSET UNITYSDK_OFFSET(0x15941B00)
 
+inline static constexpr unsigned int GALEONNOFFJ_TypeDefinitionIndex = 77563;
+
 	class GALEONNOFFJ : public ::LEMPCCICHAA
 	{
 	public:

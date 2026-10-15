@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FiveDimEnableSimpleHitBoxAction; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimEnableSimpleHitBoxAction_TypeDefinitionIndex = 18789;
+
 	class FiveDimEnableSimpleHitBoxAction : public ::RPG::GameCore::FiveDimBaseEventAction
 	{
 	public:

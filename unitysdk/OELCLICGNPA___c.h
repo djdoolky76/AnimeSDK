@@ -9,6 +9,8 @@ namespace System { template <typename T> class Func_1; }
 #define OELCLICGNPA___C_CTOR_OFFSET UNITYSDK_OFFSET(0xBE31F70)
 #define OELCLICGNPA___C__CREATEITEM_B__1_0_OFFSET UNITYSDK_OFFSET(0xBE31F80)
 
+inline static constexpr unsigned int OELCLICGNPA___c_TypeDefinitionIndex = 65588;
+
 	class OELCLICGNPA___c : public ::System::Object
 	{
 	public:

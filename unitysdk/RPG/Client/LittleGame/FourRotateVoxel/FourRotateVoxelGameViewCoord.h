@@ -35,6 +35,8 @@ namespace System { class String; }
 
 namespace RPG::Client::LittleGame::FourRotateVoxel
 {
+	inline static constexpr unsigned int FourRotateVoxelGameViewCoord_TypeDefinitionIndex = 43169;
+
 	struct alignas(4) FourRotateVoxelGameViewCoord
 	{
 		::System::Int32 x; // 0x10

@@ -29,6 +29,8 @@ namespace System { class String; }
 #define FNIDNGOGAFF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E3F0920)
 #define FNIDNGOGAFF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E3F0980)
 
+inline static constexpr unsigned int FNIDNGOGAFF_TypeDefinitionIndex = 30277;
+
 	class FNIDNGOGAFF : public ::System::Object
 	{
 	public:

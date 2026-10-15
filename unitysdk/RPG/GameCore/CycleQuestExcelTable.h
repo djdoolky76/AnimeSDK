@@ -28,6 +28,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CycleQuestExcelTable_TypeDefinitionIndex = 14575;
+
 	class CycleQuestExcelTable : public ::System::Object
 	{
 	public:

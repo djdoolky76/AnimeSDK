@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FiveDimSetPlayerSkillMoveAction; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimSetPlayerSkillMoveAction_TypeDefinitionIndex = 18756;
+
 	class FiveDimSetPlayerSkillMoveAction : public ::RPG::GameCore::FiveDimBaseEventAction
 	{
 	public:

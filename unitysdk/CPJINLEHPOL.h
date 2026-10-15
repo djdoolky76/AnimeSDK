@@ -11,6 +11,8 @@ namespace RPG::GameCore { class MunicipalChatActionFreeStyle; }
 #define CPJINLEHPOL_LJOLGCNKIEH_OFFSET UNITYSDK_OFFSET(0xDCD7690)
 #define CPJINLEHPOL_MGFLFCHMGPA_OFFSET UNITYSDK_OFFSET(0xDCD74F0)
 
+inline static constexpr unsigned int CPJINLEHPOL_TypeDefinitionIndex = 69194;
+
 	class CPJINLEHPOL : public ::MAGCBFJCKLE
 	{
 	public:

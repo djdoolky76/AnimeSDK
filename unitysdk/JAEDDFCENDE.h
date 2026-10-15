@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define JAEDDFCENDE_EXECUTE_OFFSET UNITYSDK_OFFSET(0x16541690)
 #define JAEDDFCENDE_KGDLPJGFLFM_OFFSET UNITYSDK_OFFSET(0x16541720)
 
+inline static constexpr unsigned int JAEDDFCENDE_TypeDefinitionIndex = 77951;
+
 	class JAEDDFCENDE : public ::System::Object
 	{
 	public:

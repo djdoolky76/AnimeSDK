@@ -23,6 +23,8 @@ namespace UnityEngine { class Collider; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int MonoPushDownObject_TypeDefinitionIndex = 78686;
+
 	class MonoPushDownObject : public ::UnityEngine::MonoBehaviour
 	{
 	public:

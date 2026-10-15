@@ -5,6 +5,8 @@ class HBAHBGCOOML;
 
 #define KNHHGDEKCBL_CTOR_OFFSET UNITYSDK_OFFSET(0x1C71C080)
 
+inline static constexpr unsigned int KNHHGDEKCBL_TypeDefinitionIndex = 36226;
+
 	class KNHHGDEKCBL : public ::System::Object
 	{
 	public:

@@ -59,6 +59,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define HBFIBDGJLHE_NOIHNPGDCDL_SET_WEIGHT_OFFSET UNITYSDK_OFFSET(0x15C020F0)
 #define HBFIBDGJLHE_NOIHNPGDCDL_SET_WIDTH_OFFSET UNITYSDK_OFFSET(0x15C020D0)
 
+inline static constexpr unsigned int HBFIBDGJLHE_NOIHNPGDCDL_TypeDefinitionIndex = 82180;
+
 	class HBFIBDGJLHE_NOIHNPGDCDL : public ::System::Object
 	{
 	public:

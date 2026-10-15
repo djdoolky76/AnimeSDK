@@ -12,6 +12,8 @@ namespace System { class Random; }
 #define BDNJBECKOIB_HBGCLKCCOOE_OFFSET UNITYSDK_OFFSET(0x163046C0)
 #define BDNJBECKOIB_KFKPGJFAKNJ_OFFSET UNITYSDK_OFFSET(0x16304520)
 
+inline static constexpr unsigned int BDNJBECKOIB_TypeDefinitionIndex = 77817;
+
 	class BDNJBECKOIB : public ::System::Object
 	{
 	public:

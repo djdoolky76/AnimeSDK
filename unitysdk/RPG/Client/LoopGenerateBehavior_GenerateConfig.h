@@ -13,6 +13,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int LoopGenerateBehavior_GenerateConfig_TypeDefinitionIndex = 70905;
+
 	struct alignas(8) LoopGenerateBehavior_GenerateConfig
 	{
 		::RPG::Client::LoopGenerateBehavior_SegmentType SegmentType; // 0x10

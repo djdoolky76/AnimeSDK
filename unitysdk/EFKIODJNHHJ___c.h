@@ -10,6 +10,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 #define EFKIODJNHHJ___C__FILTERMODIFIERTOINFECT_B__3_1_OFFSET UNITYSDK_OFFSET(0x13A56500)
 #define EFKIODJNHHJ___C__FILTERMODIFIERTOINFECT_B__3_2_OFFSET UNITYSDK_OFFSET(0x13A56530)
 
+inline static constexpr unsigned int EFKIODJNHHJ___c_TypeDefinitionIndex = 55109;
+
 	class EFKIODJNHHJ___c : public ::System::Object
 	{
 	public:

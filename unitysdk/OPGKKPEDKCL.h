@@ -39,6 +39,8 @@ namespace System { class String; }
 #define OPGKKPEDKCL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DEE08D0)
 #define OPGKKPEDKCL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DEE0930)
 
+inline static constexpr unsigned int OPGKKPEDKCL_TypeDefinitionIndex = 26566;
+
 	class OPGKKPEDKCL : public ::System::Object
 	{
 	public:

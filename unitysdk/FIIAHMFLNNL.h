@@ -7,6 +7,8 @@
 #define FIIAHMFLNNL_AACLJANIILC_OFFSET UNITYSDK_OFFSET(0x157A94D0)
 #define FIIAHMFLNNL_CTOR_OFFSET UNITYSDK_OFFSET(0x157A9530)
 
+inline static constexpr unsigned int FIIAHMFLNNL_TypeDefinitionIndex = 74760;
+
 	class FIIAHMFLNNL : public ::HKHAKEGOLDK
 	{
 	public:

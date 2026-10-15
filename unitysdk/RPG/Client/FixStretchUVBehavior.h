@@ -18,6 +18,8 @@ namespace UnityEngine { class Renderer; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int FixStretchUVBehavior_TypeDefinitionIndex = 70600;
+
 	class FixStretchUVBehavior : public ::RPG::Client::TABehaviorBase
 	{
 	public:

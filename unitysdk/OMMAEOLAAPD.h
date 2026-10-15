@@ -26,6 +26,8 @@ namespace UnityEngine::UI { class Text; }
 #define OMMAEOLAAPD__ONBIND_OFFSET UNITYSDK_OFFSET(0xBF31430)
 #define OMMAEOLAAPD__ONDISPOSE_OFFSET UNITYSDK_OFFSET(0xBF31A50)
 
+inline static constexpr unsigned int OMMAEOLAAPD_TypeDefinitionIndex = 72141;
+
 	class OMMAEOLAAPD : public ::FMPCODLIOLG
 	{
 	public:

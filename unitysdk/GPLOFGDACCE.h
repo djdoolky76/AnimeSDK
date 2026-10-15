@@ -7,6 +7,8 @@ namespace RPG::GameCore { class ComplexSkillAIFactor; }
 
 #define GPLOFGDACCE_KFGJEKJHIMB_OFFSET UNITYSDK_OFFSET(0x15B604B0)
 
+inline static constexpr unsigned int GPLOFGDACCE_TypeDefinitionIndex = 54346;
+
 	class GPLOFGDACCE : public ::System::Object
 	{
 	public:

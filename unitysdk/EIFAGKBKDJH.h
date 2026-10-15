@@ -10,6 +10,8 @@ class KGNMOPCCKCB;
 #define EIFAGKBKDJH_NJGCFEKMFCM_OFFSET UNITYSDK_OFFSET(0x154C17C0)
 #define EIFAGKBKDJH_OLGJGNONFGL_OFFSET UNITYSDK_OFFSET(0x154C19C0)
 
+inline static constexpr unsigned int EIFAGKBKDJH_TypeDefinitionIndex = 79289;
+
 	class EIFAGKBKDJH : public ::System::Object
 	{
 	public:

@@ -14,6 +14,8 @@ namespace UnityEngine::UI { class Text; }
 
 namespace SRDebugger::UI::Controls::Data
 {
+	inline static constexpr unsigned int ActionControl_TypeDefinitionIndex = 38041;
+
 	class ActionControl : public ::SRDebugger::UI::Controls::OptionsControlBase
 	{
 	public:

@@ -10,6 +10,8 @@ namespace MessagePack::Resolvers { class DynamicObjectResolver; }
 
 namespace MessagePack::Resolvers
 {
+	inline static constexpr unsigned int DynamicObjectResolver_TypeDefinitionIndex = 7258;
+
 	class DynamicObjectResolver : public ::System::Object
 	{
 	public:

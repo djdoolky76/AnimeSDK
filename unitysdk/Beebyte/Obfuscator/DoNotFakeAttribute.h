@@ -6,6 +6,8 @@
 
 namespace Beebyte::Obfuscator
 {
+	inline static constexpr unsigned int DoNotFakeAttribute_TypeDefinitionIndex = 47033;
+
 	class DoNotFakeAttribute : public ::System::Attribute
 	{
 	public:

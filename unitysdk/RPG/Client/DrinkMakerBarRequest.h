@@ -10,6 +10,8 @@ namespace RPG::GameCore { class DrinkMakerRequestRow; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int DrinkMakerBarRequest_TypeDefinitionIndex = 63587;
+
 	class DrinkMakerBarRequest : public ::System::Object
 	{
 	public:

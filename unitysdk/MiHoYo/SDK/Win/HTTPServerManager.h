@@ -13,6 +13,8 @@ namespace MiHoYo::SDK::Win { class MiHoYoSDKHTTPServer; }
 
 namespace MiHoYo::SDK::Win
 {
+	inline static constexpr unsigned int HTTPServerManager_TypeDefinitionIndex = 9435;
+
 	class HTTPServerManager : public ::System::Object
 	{
 	public:

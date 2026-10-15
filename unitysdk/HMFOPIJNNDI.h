@@ -8,6 +8,8 @@ namespace RPG::GameCore { class GameEntity; }
 #define HMFOPIJNNDI_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0x15D7C630)
 #define HMFOPIJNNDI_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0x15D7C5E0)
 
+inline static constexpr unsigned int HMFOPIJNNDI_TypeDefinitionIndex = 56635;
+
 	class HMFOPIJNNDI : public ::System::Object
 	{
 	public:

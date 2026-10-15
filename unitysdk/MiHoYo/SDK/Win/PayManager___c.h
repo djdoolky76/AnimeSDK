@@ -10,6 +10,8 @@ namespace System { class Object; }
 
 namespace MiHoYo::SDK::Win
 {
+	inline static constexpr unsigned int PayManager___c_TypeDefinitionIndex = 9472;
+
 	class PayManager___c : public ::System::Object
 	{
 	public:

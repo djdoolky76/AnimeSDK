@@ -4,6 +4,8 @@
 
 #define LHODFPJIIAB_CTOR_OFFSET UNITYSDK_OFFSET(0x1DD6F0F0)
 
+inline static constexpr unsigned int LHODFPJIIAB_TypeDefinitionIndex = 6311;
+
 	class LHODFPJIIAB : public ::System::Attribute
 	{
 	public:

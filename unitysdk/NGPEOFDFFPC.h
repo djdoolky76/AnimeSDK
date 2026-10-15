@@ -12,6 +12,8 @@ namespace System { class Object; }
 #define NGPEOFDFFPC_KMAKLLEGBHI_OFFSET UNITYSDK_OFFSET(0xBBB30E0)
 #define NGPEOFDFFPC_PEDMCDCDBOK_OFFSET UNITYSDK_OFFSET(0xBBB31C0)
 
+inline static constexpr unsigned int NGPEOFDFFPC_TypeDefinitionIndex = 62575;
+
 	class NGPEOFDFFPC : public ::System::Object
 	{
 	public:

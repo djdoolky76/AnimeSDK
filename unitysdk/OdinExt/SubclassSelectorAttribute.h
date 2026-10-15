@@ -27,6 +27,8 @@ namespace System { class String; }
 
 namespace OdinExt
 {
+	inline static constexpr unsigned int SubclassSelectorAttribute_TypeDefinitionIndex = 45169;
+
 	class SubclassSelectorAttribute : public ::System::Attribute
 	{
 	public:

@@ -16,6 +16,8 @@ namespace UnityEngine { class Collider; }
 #define AKENVIRONMENT_GET_VALUEGUID_OFFSET UNITYSDK_OFFSET(0x1F58F4C0)
 #define AKENVIRONMENT_SET_COLLIDER_OFFSET UNITYSDK_OFFSET(0x1F58F3B0)
 
+inline static constexpr unsigned int AkEnvironment_TypeDefinitionIndex = 44917;
+
 	class AkEnvironment : public ::UnityEngine::MonoBehaviour
 	{
 	public:

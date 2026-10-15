@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RegionEraStateChangeListener_TypeDefinitionIndex = 22346;
+
 	class RegionEraStateChangeListener : public ::RPG::GameCore::TaskConfig
 	{
 	public:

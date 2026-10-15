@@ -7,6 +7,8 @@ namespace RPG::Client { class ScheduleData; }
 #define DNBKKHBNFPE_CTOR_OFFSET UNITYSDK_OFFSET(0x11940840)
 #define DNBKKHBNFPE_EMMPCNEIFGM_OFFSET UNITYSDK_OFFSET(0x119408B0)
 
+inline static constexpr unsigned int DNBKKHBNFPE_TypeDefinitionIndex = 74927;
+
 	class DNBKKHBNFPE : public ::System::Object
 	{
 	public:

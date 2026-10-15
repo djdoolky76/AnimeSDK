@@ -6,6 +6,8 @@ namespace System { class Exception; }
 
 namespace RPG::Client::Promises
 {
+	inline static constexpr unsigned int RejectHandler_TypeDefinitionIndex = 9911;
+
 	struct alignas(8) RejectHandler
 	{
 		::System::Action* callback; // 0x10

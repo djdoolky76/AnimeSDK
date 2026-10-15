@@ -12,6 +12,8 @@ namespace System::Globalization { class CultureInfo; }
 
 namespace System::Text::RegularExpressions
 {
+	inline static constexpr unsigned int RegexBoyerMoore_TypeDefinitionIndex = 2502;
+
 	class RegexBoyerMoore : public ::System::Object
 	{
 	public:

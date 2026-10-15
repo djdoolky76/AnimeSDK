@@ -3,6 +3,8 @@
 #include "unitysdk/System/Object.h"
 namespace System { class Object; }
 
+inline static constexpr unsigned int MDKJNMJFNAD___c__1_1_TypeDefinitionIndex = 44246;
+
 	template <typename T>
 	class MDKJNMJFNAD___c__1_1 : public ::System::Object
 	{

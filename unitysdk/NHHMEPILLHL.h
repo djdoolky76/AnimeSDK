@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int NHHMEPILLHL_TypeDefinitionIndex = 32816;
+
 	enum class NHHMEPILLHL : ::System::Int32
 	{
 		NLCDGIPGFDJ = 0,

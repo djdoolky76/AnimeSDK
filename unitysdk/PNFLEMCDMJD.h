@@ -21,6 +21,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 #define PNFLEMCDMJD_PHOBLLNADAL_OFFSET UNITYSDK_OFFSET(0xC3388B0)
 #define PNFLEMCDMJD___N__0_OFFSET UNITYSDK_OFFSET(0xC338A10)
 
+inline static constexpr unsigned int PNFLEMCDMJD_TypeDefinitionIndex = 59483;
+
 	class PNFLEMCDMJD : public ::DGACHEOMECA
 	{
 	public:

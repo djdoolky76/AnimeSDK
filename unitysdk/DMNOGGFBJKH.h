@@ -4,6 +4,8 @@
 
 #define DMNOGGFBJKH_CTOR_OFFSET UNITYSDK_OFFSET(0xFEC7EF0)
 
+inline static constexpr unsigned int DMNOGGFBJKH_TypeDefinitionIndex = 61271;
+
 	class DMNOGGFBJKH : public ::System::Exception
 	{
 	public:

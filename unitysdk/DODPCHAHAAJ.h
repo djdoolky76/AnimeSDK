@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define DODPCHAHAAJ_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x11FE1370)
 #define DODPCHAHAAJ_TICK_OFFSET UNITYSDK_OFFSET(0x11FE13C0)
 
+inline static constexpr unsigned int DODPCHAHAAJ_TypeDefinitionIndex = 58755;
+
 	class DODPCHAHAAJ : public ::GELIALJDFBL
 	{
 	public:

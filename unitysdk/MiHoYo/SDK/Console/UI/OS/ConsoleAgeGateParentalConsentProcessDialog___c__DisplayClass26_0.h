@@ -9,6 +9,8 @@ namespace MiHoYo::SDK::Console::UI::OS { class ConsoleAgeGateParentalConsentProc
 
 namespace MiHoYo::SDK::Console::UI::OS
 {
+	inline static constexpr unsigned int ConsoleAgeGateParentalConsentProcessDialog___c__DisplayClass26_0_TypeDefinitionIndex = 9038;
+
 	class ConsoleAgeGateParentalConsentProcessDialog___c__DisplayClass26_0 : public ::System::Object
 	{
 	public:

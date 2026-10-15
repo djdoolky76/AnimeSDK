@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int HoYoSDKHttpDnsService_HttpDnsResolveObject_TypeDefinitionIndex = 46097;
+
 	class HoYoSDKHttpDnsService_HttpDnsResolveObject : public ::System::Object
 	{
 	public:

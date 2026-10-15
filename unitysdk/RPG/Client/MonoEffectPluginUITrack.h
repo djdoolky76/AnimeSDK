@@ -17,6 +17,8 @@ namespace UnityEngine { class AnimationCurve; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoEffectPluginUITrack_TypeDefinitionIndex = 70131;
+
 	class MonoEffectPluginUITrack : public ::RPG::Client::MonoEffectPluginBase
 	{
 	public:

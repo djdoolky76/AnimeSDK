@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int Canvas_WillRenderCanvases_TypeDefinitionIndex = 6027;
+
 	class Canvas_WillRenderCanvases : public ::System::MulticastDelegate
 	{
 	public:

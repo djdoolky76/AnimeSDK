@@ -31,6 +31,8 @@ namespace System { class String; }
 #define ELBILFGFDHA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E2C87C0)
 #define ELBILFGFDHA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E2C8820)
 
+inline static constexpr unsigned int ELBILFGFDHA_TypeDefinitionIndex = 34804;
+
 	class ELBILFGFDHA : public ::System::Object
 	{
 	public:

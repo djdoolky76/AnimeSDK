@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueParamRogueAreaDifficultyConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueParamRogueAreaDifficultyConfig_TypeDefinitionIndex = 19844;
+
 	class RogueParamRogueAreaDifficultyConfig : public ::RPG::GameCore::RogueParameterConfigBase
 	{
 	public:

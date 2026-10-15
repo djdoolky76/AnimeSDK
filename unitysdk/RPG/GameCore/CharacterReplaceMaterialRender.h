@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CharacterReplaceMaterialRender_TypeDefinitionIndex = 17439;
+
 	class CharacterReplaceMaterialRender : public ::RPG::GameCore::JsonConfig
 	{
 	public:

@@ -14,6 +14,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int B51RacingPartRow_TypeDefinitionIndex = 10964;
+
 	class B51RacingPartRow : public ::System::Object
 	{
 	public:

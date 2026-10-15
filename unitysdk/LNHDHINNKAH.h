@@ -8,6 +8,8 @@ namespace RPG::GameCore { class ChallengeTargetConfigRow; }
 #define LNHDHINNKAH_FHGCBEFKCMO_OFFSET UNITYSDK_OFFSET(0xB7DEC60)
 #define LNHDHINNKAH_NPEAIDBJFLL_OFFSET UNITYSDK_OFFSET(0xB7DED70)
 
+inline static constexpr unsigned int LNHDHINNKAH_TypeDefinitionIndex = 63108;
+
 	class LNHDHINNKAH : public ::System::Object
 	{
 	public:

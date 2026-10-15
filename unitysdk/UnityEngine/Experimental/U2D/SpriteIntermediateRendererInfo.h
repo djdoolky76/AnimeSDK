@@ -6,6 +6,8 @@
 
 namespace UnityEngine::Experimental::U2D
 {
+	inline static constexpr unsigned int SpriteIntermediateRendererInfo_TypeDefinitionIndex = 4931;
+
 	struct alignas(4) SpriteIntermediateRendererInfo
 	{
 		::System::Int32 SpriteID; // 0x10

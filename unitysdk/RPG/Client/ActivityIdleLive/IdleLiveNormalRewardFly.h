@@ -25,6 +25,8 @@ namespace UnityEngine::UI { class Text; }
 
 namespace RPG::Client::ActivityIdleLive
 {
+	inline static constexpr unsigned int IdleLiveNormalRewardFly_TypeDefinitionIndex = 75187;
+
 	class IdleLiveNormalRewardFly : public ::UnityEngine::MonoBehaviour
 	{
 	public:

@@ -11,6 +11,8 @@ namespace RPG::GameCore { class AbilityBeingLimbo; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AbilityBeingLimbo_TypeDefinitionIndex = 56581;
+
 	class AbilityBeingLimbo : public ::CMPGEAFHHDC
 	{
 	public:

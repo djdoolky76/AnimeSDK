@@ -23,6 +23,8 @@ namespace System { class String; }
 
 namespace RPG
 {
+	inline static constexpr unsigned int ProfileCounter_TypeDefinitionIndex = 35154;
+
 	class ProfileCounter : public ::System::Object
 	{
 	public:

@@ -89,6 +89,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int FiveDimUtils_TypeDefinitionIndex = 60396;
+
 	class FiveDimUtils : public ::System::Object
 	{
 	public:

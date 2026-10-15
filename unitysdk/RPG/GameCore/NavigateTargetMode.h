@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int NavigateTargetMode_TypeDefinitionIndex = 24462;
+
 	enum class NavigateTargetMode : ::System::Int32
 	{
 		NavigateToPosition = 0,

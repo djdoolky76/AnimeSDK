@@ -5,6 +5,8 @@
 #define PREFABCUSTOMSTATECONFIG_GIAGNIKDOEH_CCTOR_OFFSET UNITYSDK_OFFSET(0xC39BF60)
 #define PREFABCUSTOMSTATECONFIG_GIAGNIKDOEH_CTOR_OFFSET UNITYSDK_OFFSET(0xC39BF50)
 
+inline static constexpr unsigned int PrefabCustomStateConfig_GIAGNIKDOEH_TypeDefinitionIndex = 47335;
+
 	class PrefabCustomStateConfig_GIAGNIKDOEH : public ::System::Object
 	{
 	public:

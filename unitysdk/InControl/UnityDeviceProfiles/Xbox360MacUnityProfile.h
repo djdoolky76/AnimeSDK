@@ -7,6 +7,8 @@
 
 namespace InControl::UnityDeviceProfiles
 {
+	inline static constexpr unsigned int Xbox360MacUnityProfile_TypeDefinitionIndex = 41032;
+
 	class Xbox360MacUnityProfile : public ::InControl::InputDeviceProfile
 	{
 	public:

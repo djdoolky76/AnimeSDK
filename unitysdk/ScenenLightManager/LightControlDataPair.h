@@ -7,6 +7,8 @@
 
 namespace ScenenLightManager
 {
+	inline static constexpr unsigned int LightControlDataPair_TypeDefinitionIndex = 49157;
+
 	class LightControlDataPair : public ::System::Object
 	{
 	public:

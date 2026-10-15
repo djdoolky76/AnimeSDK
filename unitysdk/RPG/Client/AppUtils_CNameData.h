@@ -6,6 +6,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AppUtils_CNameData_TypeDefinitionIndex = 59278;
+
 	struct alignas(8) AppUtils_CNameData
 	{
 		::System::String* IP; // 0x10

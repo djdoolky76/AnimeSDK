@@ -26,6 +26,8 @@ namespace System::Xml::Schema { class XmlValueConverter; }
 
 namespace System::Xml::Schema
 {
+	inline static constexpr unsigned int Datatype_anyURI_TypeDefinitionIndex = 2119;
+
 	class Datatype_anyURI : public ::System::Xml::Schema::Datatype_anySimpleType
 	{
 	public:

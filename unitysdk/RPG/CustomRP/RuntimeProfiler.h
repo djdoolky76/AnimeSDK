@@ -36,6 +36,8 @@
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int RuntimeProfiler_TypeDefinitionIndex = 37925;
+
 	class RuntimeProfiler : public ::System::Object
 	{
 	public:

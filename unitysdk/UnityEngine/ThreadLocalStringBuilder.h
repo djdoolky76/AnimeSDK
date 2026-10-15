@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int ThreadLocalStringBuilder_TypeDefinitionIndex = 4355;
+
 	struct alignas(4) ThreadLocalStringBuilder
 	{
 		/*

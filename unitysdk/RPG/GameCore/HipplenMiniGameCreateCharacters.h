@@ -11,6 +11,8 @@ namespace RPG::GameCore { class HipplenMiniGameLoadCharacter; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int HipplenMiniGameCreateCharacters_TypeDefinitionIndex = 21323;
+
 	class HipplenMiniGameCreateCharacters : public ::RPG::GameCore::TaskConfig
 	{
 	public:

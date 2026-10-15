@@ -10,6 +10,8 @@ namespace RPG::Client::Promises { class Promise; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RechargeShopModule___c__DisplayClass34_0_TypeDefinitionIndex = 66799;
+
 	class RechargeShopModule___c__DisplayClass34_0 : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace BansheeGz::BGSpline::Components { class BGCcMath; }
 
 namespace RPGTools::Octree::Generation
 {
+	inline static constexpr unsigned int OctreeManager_AreaData_Curve___c__DisplayClass2_0_TypeDefinitionIndex = 48888;
+
 	class OctreeManager_AreaData_Curve___c__DisplayClass2_0 : public ::System::Object
 	{
 	public:

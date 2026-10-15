@@ -10,6 +10,8 @@ namespace RPG::GameCore { class CakeRaceActionFieldTransportLastCat; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CakeRaceActionFieldTransportLastCat_TypeDefinitionIndex = 18341;
+
 	class CakeRaceActionFieldTransportLastCat : public ::RPG::GameCore::CakeRaceActionBase
 	{
 	public:

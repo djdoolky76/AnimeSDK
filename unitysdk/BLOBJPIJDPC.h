@@ -6,6 +6,8 @@ namespace Entitas { class IEntity; }
 
 #define BLOBJPIJDPC_ECCEMBIIJPF_1_OFFSET UNITYSDK_OFFSET(0x1C5C0420)
 
+inline static constexpr unsigned int BLOBJPIJDPC_TypeDefinitionIndex = 37011;
+
 	class BLOBJPIJDPC : public ::System::Object
 	{
 	public:

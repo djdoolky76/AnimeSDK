@@ -12,6 +12,8 @@ namespace UnityEngine { class ParticleSystem; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int Effect_ParticlePathFlow_TypeDefinitionIndex = 70521;
+
 	class Effect_ParticlePathFlow
 	{
 	public:

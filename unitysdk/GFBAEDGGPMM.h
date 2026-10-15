@@ -10,6 +10,8 @@ namespace RPG::Client::NavMap { class MappingInfoNode; }
 #define GFBAEDGGPMM_SET_MAPPINGINFONODE_OFFSET UNITYSDK_OFFSET(0x159E87A0)
 #define GFBAEDGGPMM_SET_SHORTESTPATH_OFFSET UNITYSDK_OFFSET(0x159E87C0)
 
+inline static constexpr unsigned int GFBAEDGGPMM_TypeDefinitionIndex = 74581;
+
 	class GFBAEDGGPMM : public ::System::Object
 	{
 	public:

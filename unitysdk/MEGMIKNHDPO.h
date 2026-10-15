@@ -27,6 +27,8 @@ namespace System { class String; }
 #define MEGMIKNHDPO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EA0BC40)
 #define MEGMIKNHDPO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EA0BCA0)
 
+inline static constexpr unsigned int MEGMIKNHDPO_TypeDefinitionIndex = 31596;
+
 	class MEGMIKNHDPO : public ::System::Object
 	{
 	public:

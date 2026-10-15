@@ -11,6 +11,8 @@ namespace RPG::GameCore { class PixAirPlanePresetConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PixAirPlanePresetConfig_TypeDefinitionIndex = 16247;
+
 	class PixAirPlanePresetConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

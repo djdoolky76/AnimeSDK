@@ -39,6 +39,8 @@ namespace RPG::GameCore { class FateModifierConfigBase; }
 #define MFHAHLODCPJ_PLMPBNAEIGN_OFFSET UNITYSDK_OFFSET(0x1D158990)
 #define MFHAHLODCPJ_POMEKLECEMK_OFFSET UNITYSDK_OFFSET(0x1D158B50)
 
+inline static constexpr unsigned int MFHAHLODCPJ_TypeDefinitionIndex = 19255;
+
 	class MFHAHLODCPJ : public ::System::Object
 	{
 	public:

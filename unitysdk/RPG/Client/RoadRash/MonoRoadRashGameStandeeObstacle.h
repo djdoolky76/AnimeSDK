@@ -37,6 +37,8 @@ namespace UnityEngine { class Renderer; }
 
 namespace RPG::Client::RoadRash
 {
+	inline static constexpr unsigned int MonoRoadRashGameStandeeObstacle_TypeDefinitionIndex = 75878;
+
 	class MonoRoadRashGameStandeeObstacle : public ::RPG::Client::RoadRash::MonoRoadRashGameRoadObstacle
 	{
 	public:

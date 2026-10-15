@@ -11,6 +11,8 @@ namespace SimpleJSON { class JSONNode; }
 #define GFKIPGPPFOB_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CE3CA10)
 #define GFKIPGPPFOB_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CE3C9D0)
 
+inline static constexpr unsigned int GFKIPGPPFOB_TypeDefinitionIndex = 10210;
+
 	class GFKIPGPPFOB : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

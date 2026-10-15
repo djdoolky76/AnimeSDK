@@ -11,6 +11,8 @@
 
 namespace System::Xml
 {
+	inline static constexpr unsigned int BitStack_TypeDefinitionIndex = 1792;
+
 	class BitStack : public ::System::Object
 	{
 	public:

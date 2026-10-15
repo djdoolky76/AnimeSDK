@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define JGFLBNBDPLI_CTOR_OFFSET UNITYSDK_OFFSET(0xB199780)
 #define JGFLBNBDPLI_TRANSFORM_OFFSET UNITYSDK_OFFSET(0xB1997A0)
 
+inline static constexpr unsigned int JGFLBNBDPLI_TypeDefinitionIndex = 59190;
+
 	class JGFLBNBDPLI
 	{
 	public:

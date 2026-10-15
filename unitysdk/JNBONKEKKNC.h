@@ -10,6 +10,8 @@ namespace System { class String; }
 #define JNBONKEKKNC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB2784D0)
 #define JNBONKEKKNC_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB278AD0)
 
+inline static constexpr unsigned int JNBONKEKKNC_TypeDefinitionIndex = 52244;
+
 	class JNBONKEKKNC
 	{
 	public:

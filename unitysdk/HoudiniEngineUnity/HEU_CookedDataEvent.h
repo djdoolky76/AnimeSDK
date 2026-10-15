@@ -5,6 +5,8 @@
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int HEU_CookedDataEvent_TypeDefinitionIndex = 40362;
+
 	class HEU_CookedDataEvent
 	{
 	public:

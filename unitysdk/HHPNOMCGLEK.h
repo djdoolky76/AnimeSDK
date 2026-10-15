@@ -18,6 +18,8 @@ namespace RPG::GameCore { class ColliderConfig; }
 #define HHPNOMCGLEK_MOOENEIANFA_OFFSET UNITYSDK_OFFSET(0x3C39AB0)
 #define HHPNOMCGLEK_PIKIJBGILDD_OFFSET UNITYSDK_OFFSET(0x3C39A30)
 
+inline static constexpr unsigned int HHPNOMCGLEK_TypeDefinitionIndex = 10729;
+
 	struct alignas(8) HHPNOMCGLEK
 	{
 		::LELCKJPOPAO* BEHHICMOFIE; // 0x10

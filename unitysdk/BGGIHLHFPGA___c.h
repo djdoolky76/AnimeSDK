@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define BGGIHLHFPGA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA789A0)
 #define BGGIHLHFPGA___C___CCTOR_B__56_0_OFFSET UNITYSDK_OFFSET(0x1EA789B0)
 
+inline static constexpr unsigned int BGGIHLHFPGA___c_TypeDefinitionIndex = 32472;
+
 	class BGGIHLHFPGA___c : public ::System::Object
 	{
 	public:

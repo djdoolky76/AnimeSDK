@@ -13,6 +13,8 @@ namespace Spine { template <typename T> class Pool_1; }
 
 namespace Spine
 {
+	inline static constexpr unsigned int Triangulator_TypeDefinitionIndex = 39705;
+
 	class Triangulator : public ::System::Object
 	{
 	public:

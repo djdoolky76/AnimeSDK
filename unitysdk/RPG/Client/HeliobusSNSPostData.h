@@ -54,6 +54,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int HeliobusSNSPostData_TypeDefinitionIndex = 65672;
+
 	class HeliobusSNSPostData : public ::System::Object
 	{
 	public:

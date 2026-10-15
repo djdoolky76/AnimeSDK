@@ -30,6 +30,8 @@ namespace RPG::GameCore { class PixAirEquipRow; }
 
 namespace RPG::Client::PixAir
 {
+	inline static constexpr unsigned int PixAirEquipShopData_TypeDefinitionIndex = 79372;
+
 	class PixAirEquipShopData : public ::System::Object
 	{
 	public:

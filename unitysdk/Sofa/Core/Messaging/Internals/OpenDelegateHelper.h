@@ -7,6 +7,8 @@ namespace System::Reflection { class MethodInfo; }
 
 namespace Sofa::Core::Messaging::Internals
 {
+	inline static constexpr unsigned int OpenDelegateHelper_TypeDefinitionIndex = 44276;
+
 	class OpenDelegateHelper : public ::System::Object
 	{
 	public:

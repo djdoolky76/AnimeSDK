@@ -39,6 +39,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::PixAir
 {
+	inline static constexpr unsigned int PixAirStageInfo_TypeDefinitionIndex = 79376;
+
 	class PixAirStageInfo : public ::System::Object
 	{
 	public:

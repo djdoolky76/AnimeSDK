@@ -13,6 +13,8 @@ namespace System { class Object; }
 
 namespace SRDebugger::UI::Controls
 {
+	inline static constexpr unsigned int ProfilerMemoryBlock__CleanUp_d__8_TypeDefinitionIndex = 38031;
+
 	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename T8>
 	class ProfilerMemoryBlock__CleanUp_d__8 : public ::System::Object
 	{

@@ -25,6 +25,8 @@ namespace System { class String; }
 #define HINGFMLCGKA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E59E4D0)
 #define HINGFMLCGKA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E59E530)
 
+inline static constexpr unsigned int HINGFMLCGKA_TypeDefinitionIndex = 34465;
+
 	class HINGFMLCGKA : public ::System::Object
 	{
 	public:

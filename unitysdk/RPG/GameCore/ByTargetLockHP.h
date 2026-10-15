@@ -16,6 +16,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByTargetLockHP_TypeDefinitionIndex = 23619;
+
 	class ByTargetLockHP : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

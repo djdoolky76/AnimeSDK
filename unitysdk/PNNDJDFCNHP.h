@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyLi
 #define PNNDJDFCNHP_GET_SKINIDS_OFFSET UNITYSDK_OFFSET(0xC34FB40)
 #define PNNDJDFCNHP_OCBLLILHAPG_OFFSET UNITYSDK_OFFSET(0xC34FAE0)
 
+inline static constexpr unsigned int PNNDJDFCNHP_TypeDefinitionIndex = 81209;
+
 	class PNNDJDFCNHP : public ::System::Object
 	{
 	public:

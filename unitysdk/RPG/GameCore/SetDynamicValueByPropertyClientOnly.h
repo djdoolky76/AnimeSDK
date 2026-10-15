@@ -10,6 +10,8 @@ namespace RPG::GameCore { class SetDynamicValueByPropertyClientOnly; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetDynamicValueByPropertyClientOnly_TypeDefinitionIndex = 23578;
+
 	class SetDynamicValueByPropertyClientOnly : public ::RPG::GameCore::SetDynamicValueByProperty
 	{
 	public:

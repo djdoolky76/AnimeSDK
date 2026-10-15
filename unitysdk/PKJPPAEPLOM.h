@@ -9,6 +9,8 @@ class PKJPPAEPLOM;
 #define PKJPPAEPLOM_CTOR_OFFSET UNITYSDK_OFFSET(0x1D2FC6F0)
 #define PKJPPAEPLOM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D2FC3C0)
 
+inline static constexpr unsigned int PKJPPAEPLOM_TypeDefinitionIndex = 11490;
+
 	class PKJPPAEPLOM : public ::System::Object
 	{
 	public:

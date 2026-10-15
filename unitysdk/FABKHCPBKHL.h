@@ -11,6 +11,8 @@ namespace System { class String; }
 #define FABKHCPBKHL_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CDC45B0)
 #define FABKHCPBKHL_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CDC4550)
 
+inline static constexpr unsigned int FABKHCPBKHL_TypeDefinitionIndex = 16871;
+
 	class FABKHCPBKHL : public ::RPG::GameCore::MarbleTaskConfig
 	{
 	public:

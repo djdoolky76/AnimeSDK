@@ -8,6 +8,8 @@
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int CustomEventClip_TypeDefinitionIndex = 48399;
+
 	class CustomEventClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:

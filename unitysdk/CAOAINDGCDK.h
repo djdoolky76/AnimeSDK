@@ -31,6 +31,8 @@ namespace System { class String; }
 #define CAOAINDGCDK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E060350)
 #define CAOAINDGCDK_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E0603B0)
 
+inline static constexpr unsigned int CAOAINDGCDK_TypeDefinitionIndex = 31207;
+
 	class CAOAINDGCDK : public ::System::Object
 	{
 	public:

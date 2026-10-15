@@ -14,6 +14,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define DGMEMEIIMEE_HBAADHBGCNB_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xE854BD0)
 #define DGMEMEIIMEE_HBAADHBGCNB_INVOKE_OFFSET UNITYSDK_OFFSET(0xE854B70)
 
+inline static constexpr unsigned int DGMEMEIIMEE_HBAADHBGCNB_TypeDefinitionIndex = 60114;
+
 	class DGMEMEIIMEE_HBAADHBGCNB : public ::System::MulticastDelegate
 	{
 	public:

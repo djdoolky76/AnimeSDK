@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::LittleGame::PixAir
 {
+	inline static constexpr unsigned int PixAirPlaneStatistics_TypeDefinitionIndex = 43676;
+
 	class PixAirPlaneStatistics : public ::System::Object
 	{
 	public:

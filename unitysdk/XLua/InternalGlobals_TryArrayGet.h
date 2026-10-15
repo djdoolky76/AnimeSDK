@@ -14,6 +14,8 @@ namespace XLua { class ObjectTranslator; }
 
 namespace XLua
 {
+	inline static constexpr unsigned int InternalGlobals_TryArrayGet_TypeDefinitionIndex = 50096;
+
 	class InternalGlobals_TryArrayGet : public ::System::MulticastDelegate
 	{
 	public:

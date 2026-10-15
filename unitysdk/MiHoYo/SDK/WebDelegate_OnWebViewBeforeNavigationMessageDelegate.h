@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int WebDelegate_OnWebViewBeforeNavigationMessageDelegate_TypeDefinitionIndex = 7820;
+
 	class WebDelegate_OnWebViewBeforeNavigationMessageDelegate : public ::System::MulticastDelegate
 	{
 	public:

@@ -4,6 +4,8 @@
 #define HONIFDCKPFM_CTOR_OFFSET UNITYSDK_OFFSET(0x15DBD640)
 #define HONIFDCKPFM_INTERP_OFFSET UNITYSDK_OFFSET(0x15DBD6B0)
 
+inline static constexpr unsigned int HONIFDCKPFM_TypeDefinitionIndex = 74006;
+
 	class HONIFDCKPFM
 	{
 	public:

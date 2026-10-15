@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define IDIGIKOLDEM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E62C9E0)
 #define IDIGIKOLDEM___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E62C9F0)
 
+inline static constexpr unsigned int IDIGIKOLDEM___c_TypeDefinitionIndex = 29751;
+
 	class IDIGIKOLDEM___c : public ::System::Object
 	{
 	public:

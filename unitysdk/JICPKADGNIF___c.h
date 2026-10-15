@@ -12,6 +12,8 @@ namespace System { template <typename T> class Comparison_1; }
 #define JICPKADGNIF___C___SIMULATEONEFRAME_B__16_0_OFFSET UNITYSDK_OFFSET(0x1CB9E7B0)
 #define JICPKADGNIF___C___TESTCIRCLE2RECT_B__18_0_OFFSET UNITYSDK_OFFSET(0x1CB9E7F0)
 
+inline static constexpr unsigned int JICPKADGNIF___c_TypeDefinitionIndex = 43084;
+
 	class JICPKADGNIF___c : public ::System::Object
 	{
 	public:

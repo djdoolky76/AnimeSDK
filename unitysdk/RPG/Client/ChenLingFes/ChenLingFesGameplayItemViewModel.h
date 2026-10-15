@@ -33,6 +33,8 @@ namespace System::ComponentModel { class PropertyChangedEventArgs; }
 
 namespace RPG::Client::ChenLingFes
 {
+	inline static constexpr unsigned int ChenLingFesGameplayItemViewModel_TypeDefinitionIndex = 81378;
+
 	class ChenLingFesGameplayItemViewModel : public ::Sofa::BaseViewModel
 	{
 	public:

@@ -9,6 +9,8 @@ namespace RPG::Client { class NotifyHandler; }
 #define IOCEFINCMMO_FFHNOMIDEDE_OFFSET UNITYSDK_OFFSET(0x164FE120)
 #define IOCEFINCMMO_HOAMFPDLAMG_OFFSET UNITYSDK_OFFSET(0x164FE070)
 
+inline static constexpr unsigned int IOCEFINCMMO_TypeDefinitionIndex = 68239;
+
 	class IOCEFINCMMO : public ::System::Object
 	{
 	public:

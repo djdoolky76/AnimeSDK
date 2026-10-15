@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int UGCInterface___c__DisplayClass15_0_TypeDefinitionIndex = 46438;
+
 	class UGCInterface___c__DisplayClass15_0 : public ::System::Object
 	{
 	public:

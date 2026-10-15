@@ -16,6 +16,8 @@ namespace RPG::Client { class IRogueTournGameScoreSettleResult; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueTournSettleTournExpInfoItem_TypeDefinitionIndex = 67833;
+
 	class RogueTournSettleTournExpInfoItem : public ::System::Object
 	{
 	public:

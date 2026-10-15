@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FateModifierMasterFeixiaoConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FateModifierMasterFeixiaoConfig_TypeDefinitionIndex = 19291;
+
 	class FateModifierMasterFeixiaoConfig : public ::RPG::GameCore::FateModifierConfigBase
 	{
 	public:

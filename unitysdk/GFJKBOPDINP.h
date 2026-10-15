@@ -16,6 +16,8 @@ namespace System { class Action; }
 #define GFJKBOPDINP_NNAGLJCMMGD_OFFSET UNITYSDK_OFFSET(0x159FAC60)
 #define GFJKBOPDINP_NONJDKKDDLE_OFFSET UNITYSDK_OFFSET(0x159FA900)
 
+inline static constexpr unsigned int GFJKBOPDINP_TypeDefinitionIndex = 60468;
+
 	class GFJKBOPDINP : public ::System::Object
 	{
 	public:

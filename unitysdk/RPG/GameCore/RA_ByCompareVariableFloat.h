@@ -15,6 +15,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RA_ByCompareVariableFloat_TypeDefinitionIndex = 20053;
+
 	class RA_ByCompareVariableFloat : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

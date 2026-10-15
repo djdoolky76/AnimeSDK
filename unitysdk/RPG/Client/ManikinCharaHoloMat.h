@@ -17,6 +17,8 @@ namespace UnityEngine { class Texture2D; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ManikinCharaHoloMat_TypeDefinitionIndex = 72809;
+
 	class ManikinCharaHoloMat : public ::UnityEngine::MonoBehaviour
 	{
 	public:

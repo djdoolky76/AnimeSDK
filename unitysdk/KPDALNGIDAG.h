@@ -27,6 +27,8 @@ namespace System { class String; }
 #define KPDALNGIDAG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E8BA250)
 #define KPDALNGIDAG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E8BA2B0)
 
+inline static constexpr unsigned int KPDALNGIDAG_TypeDefinitionIndex = 32888;
+
 	class KPDALNGIDAG : public ::System::Object
 	{
 	public:

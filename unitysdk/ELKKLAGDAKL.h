@@ -11,6 +11,8 @@ namespace UnityEngine { class Animation; }
 #define ELKKLAGDAKL_JHJODHHJLAK_OFFSET UNITYSDK_OFFSET(0x15526660)
 #define ELKKLAGDAKL__ONBIND_OFFSET UNITYSDK_OFFSET(0x15526520)
 
+inline static constexpr unsigned int ELKKLAGDAKL_TypeDefinitionIndex = 71865;
+
 	class ELKKLAGDAKL : public ::EJLNMFOPGOP
 	{
 	public:

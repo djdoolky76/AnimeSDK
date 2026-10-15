@@ -15,6 +15,8 @@ namespace RPG::GameCore { class GameEntity; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelInfiniteWaveProgressChange_TypeDefinitionIndex = 56733;
+
 	class LevelInfiniteWaveProgressChange : public ::CMPGEAFHHDC
 	{
 	public:

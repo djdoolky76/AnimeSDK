@@ -10,6 +10,8 @@ namespace System { class Object; }
 
 namespace R3::Internal
 {
+	inline static constexpr unsigned int Stubs___c_TypeDefinitionIndex = 35976;
+
 	class Stubs___c : public ::System::Object
 	{
 	public:

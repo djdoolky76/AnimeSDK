@@ -7,6 +7,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define AOCBANOMDEG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x158A6640)
 #define AOCBANOMDEG_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x158A66B0)
 
+inline static constexpr unsigned int AOCBANOMDEG_TypeDefinitionIndex = 52123;
+
 	class AOCBANOMDEG
 	{
 	public:

@@ -20,6 +20,8 @@ namespace System::Runtime::Remoting::Messaging { class IMethodReturnMessage; }
 
 namespace System::Runtime::Remoting::Messaging
 {
+	inline static constexpr unsigned int CADMethodReturnMessage_TypeDefinitionIndex = 1304;
+
 	class CADMethodReturnMessage : public ::System::Runtime::Remoting::Messaging::CADMessageBase
 	{
 	public:

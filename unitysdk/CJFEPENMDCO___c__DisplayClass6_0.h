@@ -5,6 +5,8 @@
 #define CJFEPENMDCO___C__DISPLAYCLASS6_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD203910)
 #define CJFEPENMDCO___C__DISPLAYCLASS6_0___ONTRYGETGLOBALDISPATCH_B__0_OFFSET UNITYSDK_OFFSET(0xD203AA0)
 
+inline static constexpr unsigned int CJFEPENMDCO___c__DisplayClass6_0_TypeDefinitionIndex = 61117;
+
 	class CJFEPENMDCO___c__DisplayClass6_0 : public ::System::Object
 	{
 	public:

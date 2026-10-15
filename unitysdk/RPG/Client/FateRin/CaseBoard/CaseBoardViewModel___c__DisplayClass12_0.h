@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace RPG::Client::FateRin::CaseBoard
 {
+	inline static constexpr unsigned int CaseBoardViewModel___c__DisplayClass12_0_TypeDefinitionIndex = 80792;
+
 	class CaseBoardViewModel___c__DisplayClass12_0 : public ::System::Object
 	{
 	public:

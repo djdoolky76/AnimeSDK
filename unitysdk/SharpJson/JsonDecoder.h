@@ -21,6 +21,8 @@ namespace System::Collections::Generic { template <typename T> class IList_1; }
 
 namespace SharpJson
 {
+	inline static constexpr unsigned int JsonDecoder_TypeDefinitionIndex = 39592;
+
 	class JsonDecoder : public ::System::Object
 	{
 	public:

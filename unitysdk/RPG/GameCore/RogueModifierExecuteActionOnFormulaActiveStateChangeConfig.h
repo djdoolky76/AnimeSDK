@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueModifierExecuteActionOnFormulaActiveStateCh
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueModifierExecuteActionOnFormulaActiveStateChangeConfig_TypeDefinitionIndex = 17980;
+
 	class RogueModifierExecuteActionOnFormulaActiveStateChangeConfig : public ::RPG::GameCore::RogueModifierConfig
 	{
 	public:

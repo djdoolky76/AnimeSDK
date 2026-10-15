@@ -7,6 +7,8 @@ class NJDGKKDBAMH;
 #define NJDGKKDBAMH_CTOR_OFFSET UNITYSDK_OFFSET(0x1D2156B0)
 #define NJDGKKDBAMH_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D215590)
 
+inline static constexpr unsigned int NJDGKKDBAMH_TypeDefinitionIndex = 14630;
+
 	class NJDGKKDBAMH : public ::System::Object
 	{
 	public:

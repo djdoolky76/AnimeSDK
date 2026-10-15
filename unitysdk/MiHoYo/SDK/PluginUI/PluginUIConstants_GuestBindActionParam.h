@@ -4,6 +4,8 @@
 
 namespace MiHoYo::SDK::PluginUI
 {
+	inline static constexpr unsigned int PluginUIConstants_GuestBindActionParam_TypeDefinitionIndex = 9206;
+
 	class PluginUIConstants_GuestBindActionParam : public ::System::Object
 	{
 	public:

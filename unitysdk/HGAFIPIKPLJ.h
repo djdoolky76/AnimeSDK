@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define HGAFIPIKPLJ_HADOHLNHHGB_OFFSET UNITYSDK_OFFSET(0x15C8ED50)
 #define HGAFIPIKPLJ_SET_WILLREUSE_OFFSET UNITYSDK_OFFSET(0x15C8ED40)
 
+inline static constexpr unsigned int HGAFIPIKPLJ_TypeDefinitionIndex = 61041;
+
 	class HGAFIPIKPLJ : public ::System::Object
 	{
 	public:

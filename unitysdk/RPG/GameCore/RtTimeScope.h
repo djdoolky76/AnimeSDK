@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RtTimeScope_TypeDefinitionIndex = 17641;
+
 	enum class RtTimeScope : ::System::Int32
 	{
 		Realtime = 0,

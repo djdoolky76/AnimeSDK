@@ -10,6 +10,8 @@ namespace RPG::Client { class WolfBroGunPlayTarget_Group; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int WolfBroGunPlayTarget_FlipScore_TypeDefinitionIndex = 68726;
+
 	class WolfBroGunPlayTarget_FlipScore : public ::RPG::Client::WolfBroGunPlayTarget
 	{
 	public:

@@ -12,6 +12,8 @@ class PJPPGJEDCOG;
 #define FIEEBCKMKDF_GET_IDENTIFIER_OFFSET UNITYSDK_OFFSET(0x1C553390)
 #define FIEEBCKMKDF_GET_REQUIREMENTCONFIG_OFFSET UNITYSDK_OFFSET(0x1C5533B0)
 
+inline static constexpr unsigned int FIEEBCKMKDF_TypeDefinitionIndex = 41860;
+
 	class FIEEBCKMKDF : public ::System::Object
 	{
 	public:

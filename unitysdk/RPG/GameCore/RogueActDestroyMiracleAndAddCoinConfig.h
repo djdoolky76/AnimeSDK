@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueActDestroyMiracleAndAddCoinConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueActDestroyMiracleAndAddCoinConfig_TypeDefinitionIndex = 19702;
+
 	class RogueActDestroyMiracleAndAddCoinConfig : public ::RPG::GameCore::RogueActionConfigBase
 	{
 	public:

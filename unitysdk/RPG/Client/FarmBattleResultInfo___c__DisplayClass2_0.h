@@ -8,6 +8,8 @@ namespace RPG::Client { class MultipleDropUsedData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int FarmBattleResultInfo___c__DisplayClass2_0_TypeDefinitionIndex = 63982;
+
 	class FarmBattleResultInfo___c__DisplayClass2_0 : public ::System::Object
 	{
 	public:

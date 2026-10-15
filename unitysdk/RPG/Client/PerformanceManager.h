@@ -168,6 +168,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PerformanceManager_TypeDefinitionIndex = 60730;
+
 	class PerformanceManager : public ::System::Object
 	{
 	public:

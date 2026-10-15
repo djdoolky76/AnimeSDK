@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int MmtManager_GeetestModel_TypeDefinitionIndex = 8036;
+
 	class MmtManager_GeetestModel : public ::System::Object
 	{
 	public:

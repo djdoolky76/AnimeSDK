@@ -33,6 +33,8 @@ namespace UnityEngine { class Camera; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int CameraManager_TypeDefinitionIndex = 69608;
+
 	class CameraManager : public ::System::Object
 	{
 	public:

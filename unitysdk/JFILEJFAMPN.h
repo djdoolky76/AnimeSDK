@@ -12,6 +12,8 @@ namespace System { class String; }
 #define JFILEJFAMPN_CTOR_OFFSET UNITYSDK_OFFSET(0x1D027330)
 #define JFILEJFAMPN_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D026CA0)
 
+inline static constexpr unsigned int JFILEJFAMPN_TypeDefinitionIndex = 13920;
+
 	class JFILEJFAMPN : public ::System::Object
 	{
 	public:

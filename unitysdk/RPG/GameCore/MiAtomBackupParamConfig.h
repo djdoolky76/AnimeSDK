@@ -9,6 +9,8 @@ namespace RPG::GameCore { class MiAtomBackupParamConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MiAtomBackupParamConfig_TypeDefinitionIndex = 17058;
+
 	class MiAtomBackupParamConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

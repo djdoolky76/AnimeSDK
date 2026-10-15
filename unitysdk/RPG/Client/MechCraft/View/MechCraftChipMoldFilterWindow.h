@@ -12,6 +12,8 @@ namespace RPG::Client::MechCraft::View { class MechCraftChipMoldFilterControl; }
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftChipMoldFilterWindow_TypeDefinitionIndex = 79903;
+
 	class MechCraftChipMoldFilterWindow : public ::Sofa::BaseSofaWindow
 	{
 	public:

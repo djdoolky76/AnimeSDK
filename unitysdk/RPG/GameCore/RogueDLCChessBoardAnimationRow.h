@@ -12,6 +12,8 @@ namespace RPG::GameCore { class RogueDLCChessBoardAnimationRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueDLCChessBoardAnimationRow_TypeDefinitionIndex = 14774;
+
 	class RogueDLCChessBoardAnimationRow : public ::System::Object
 	{
 	public:

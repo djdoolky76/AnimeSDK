@@ -15,6 +15,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetDynamicValueByAttackTargetCount_TypeDefinitionIndex = 23085;
+
 	class SetDynamicValueByAttackTargetCount : public ::RPG::GameCore::SetDynamicValueBase
 	{
 	public:

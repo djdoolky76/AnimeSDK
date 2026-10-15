@@ -41,6 +41,8 @@ namespace System { class String; }
 #define BJLOENPDAHE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DF49410)
 #define BJLOENPDAHE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DF49470)
 
+inline static constexpr unsigned int BJLOENPDAHE_TypeDefinitionIndex = 33942;
+
 	class BJLOENPDAHE : public ::System::Object
 	{
 	public:

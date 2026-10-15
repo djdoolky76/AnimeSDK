@@ -16,6 +16,8 @@ namespace System { class String; }
 #define JOHLECDICBB_PGOEIOCEJIG_OFFSET UNITYSDK_OFFSET(0x3C4AA70)
 #define JOHLECDICBB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x3C4AED0)
 
+inline static constexpr unsigned int JOHLECDICBB_TypeDefinitionIndex = 6299;
+
 	struct alignas(4) JOHLECDICBB
 	{
 		::RPG::MVector3 AKFGOEJBPLD; // 0x10

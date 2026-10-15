@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define IHIFPCCBKOF___C__DISPLAYCLASS26_0_CTOR_OFFSET UNITYSDK_OFFSET(0x16421630)
 #define IHIFPCCBKOF___C__DISPLAYCLASS26_0___PREPAREACTIVEDATALIST_B__0_OFFSET UNITYSDK_OFFSET(0x16421F80)
 
+inline static constexpr unsigned int IHIFPCCBKOF___c__DisplayClass26_0_TypeDefinitionIndex = 72166;
+
 	class IHIFPCCBKOF___c__DisplayClass26_0 : public ::System::Object
 	{
 	public:

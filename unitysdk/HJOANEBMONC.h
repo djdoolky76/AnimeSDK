@@ -7,6 +7,8 @@ namespace RPG::Client { class MapDataKey; }
 #define HJOANEBMONC_FCBFEPHADCF_2_OFFSET UNITYSDK_OFFSET(0x15D33750)
 #define HJOANEBMONC_FCBFEPHADCF_OFFSET UNITYSDK_OFFSET(0x15D336E0)
 
+inline static constexpr unsigned int HJOANEBMONC_TypeDefinitionIndex = 62937;
+
 	class HJOANEBMONC : public ::System::Object
 	{
 	public:

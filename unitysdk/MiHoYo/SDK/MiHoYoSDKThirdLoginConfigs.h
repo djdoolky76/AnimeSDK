@@ -7,6 +7,8 @@ namespace MiHoYo::SDK { class MiHoYoSDKThirdLoginConfig; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int MiHoYoSDKThirdLoginConfigs_TypeDefinitionIndex = 46337;
+
 	class MiHoYoSDKThirdLoginConfigs : public ::System::Object
 	{
 	public:

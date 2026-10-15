@@ -7,6 +7,8 @@ namespace RPG::GameCore { class TaskContext; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int OpenUIPageTaskBase_1_TypeDefinitionIndex = 58244;
+
 	template <typename T>
 	class OpenUIPageTaskBase_1 : public ::GELIALJDFBL
 	{

@@ -12,6 +12,8 @@ namespace System { class String; }
 #define LAJIKDENEOO_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D0D3230)
 #define LAJIKDENEOO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D0D31E0)
 
+inline static constexpr unsigned int LAJIKDENEOO_TypeDefinitionIndex = 22603;
+
 	class LAJIKDENEOO : public ::RPG::GameCore::TaskConfig
 	{
 	public:

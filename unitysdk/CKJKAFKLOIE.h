@@ -10,6 +10,8 @@ namespace RPG::GameCore { class DynamicFloat; }
 #define CKJKAFKLOIE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DC1F020)
 #define CKJKAFKLOIE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC1EFE0)
 
+inline static constexpr unsigned int CKJKAFKLOIE_TypeDefinitionIndex = 24206;
+
 	class CKJKAFKLOIE : public ::RPG::GameCore::TaskConfig
 	{
 	public:

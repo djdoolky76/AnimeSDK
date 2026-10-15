@@ -54,6 +54,8 @@ namespace System { class String; }
 #define PCBNCBNOAAE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DF020C0)
 #define PCBNCBNOAAE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DF02120)
 
+inline static constexpr unsigned int PCBNCBNOAAE_TypeDefinitionIndex = 28556;
+
 	class PCBNCBNOAAE : public ::System::Object
 	{
 	public:

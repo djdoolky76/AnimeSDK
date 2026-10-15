@@ -15,6 +15,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ResidentAetherDivideActivityData_TypeDefinitionIndex = 61756;
+
 	class ResidentAetherDivideActivityData : public ::RPG::Client::ActivityPanelData
 	{
 	public:

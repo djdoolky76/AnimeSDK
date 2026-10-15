@@ -7,6 +7,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define DNLAFJNBLOO_DISPOSE_OFFSET UNITYSDK_OFFSET(0x11FD7300)
 #define DNLAFJNBLOO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x11FD7340)
 
+inline static constexpr unsigned int DNLAFJNBLOO_TypeDefinitionIndex = 55343;
+
 	class DNLAFJNBLOO
 	{
 	public:

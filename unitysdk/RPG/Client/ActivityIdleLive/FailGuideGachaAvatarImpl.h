@@ -11,6 +11,8 @@
 
 namespace RPG::Client::ActivityIdleLive
 {
+	inline static constexpr unsigned int FailGuideGachaAvatarImpl_TypeDefinitionIndex = 75385;
+
 	class FailGuideGachaAvatarImpl : public ::System::Object
 	{
 	public:

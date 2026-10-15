@@ -25,6 +25,8 @@ namespace System { class String; }
 #define GMHGNOPOONF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E4D3970)
 #define GMHGNOPOONF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E4D39D0)
 
+inline static constexpr unsigned int GMHGNOPOONF_TypeDefinitionIndex = 26045;
+
 	class GMHGNOPOONF : public ::System::Object
 	{
 	public:

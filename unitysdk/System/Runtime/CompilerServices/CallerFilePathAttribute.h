@@ -6,6 +6,8 @@
 
 namespace System::Runtime::CompilerServices
 {
+	inline static constexpr unsigned int CallerFilePathAttribute_TypeDefinitionIndex = 1359;
+
 	class CallerFilePathAttribute : public ::System::Attribute
 	{
 	public:

@@ -10,6 +10,8 @@ namespace System { class Object; }
 
 namespace MiHoYo::SDK::Protobuf::Reflection
 {
+	inline static constexpr unsigned int FieldOptions___c_TypeDefinitionIndex = 35794;
+
 	class FieldOptions___c : public ::System::Object
 	{
 	public:

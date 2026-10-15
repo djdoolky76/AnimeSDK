@@ -14,6 +14,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::TeamTowers
 {
+	inline static constexpr unsigned int TeamTowersFriendRankDialogViewModel_TypeDefinitionIndex = 79056;
+
 	class TeamTowersFriendRankDialogViewModel : public ::System::Object
 	{
 	public:

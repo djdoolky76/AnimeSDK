@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ChimeraPeriodRandomTalkData_TypeDefinitionIndex = 63497;
+
 	class ChimeraPeriodRandomTalkData : public ::System::Object
 	{
 	public:

@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::Uploader
 {
+	inline static constexpr unsigned int UploadCallbackAction_TypeDefinitionIndex = 46662;
+
 	class UploadCallbackAction : public ::System::MulticastDelegate
 	{
 	public:

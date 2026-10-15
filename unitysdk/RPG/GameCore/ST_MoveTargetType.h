@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ST_MoveTargetType_TypeDefinitionIndex = 24469;
+
 	enum class ST_MoveTargetType : ::System::Int32
 	{
 		LocalPlayer = 0,

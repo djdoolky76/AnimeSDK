@@ -41,6 +41,8 @@ namespace System { class String; }
 #define NKELBKHIEKB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EB57E40)
 #define NKELBKHIEKB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EB57EA0)
 
+inline static constexpr unsigned int NKELBKHIEKB_TypeDefinitionIndex = 25299;
+
 	class NKELBKHIEKB : public ::System::Object
 	{
 	public:

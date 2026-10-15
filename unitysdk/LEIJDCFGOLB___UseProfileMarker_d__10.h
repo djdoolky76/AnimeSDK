@@ -15,6 +15,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 #define LEIJDCFGOLB___USEPROFILEMARKER_D__10_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x1C4AD1D0)
 #define LEIJDCFGOLB___USEPROFILEMARKER_D__10_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1C4AD130)
 
+inline static constexpr unsigned int LEIJDCFGOLB___UseProfileMarker_d__10_TypeDefinitionIndex = 41596;
+
 	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename T8, typename T9, typename T10>
 	class LEIJDCFGOLB___UseProfileMarker_d__10 : public ::System::Object
 	{

@@ -20,6 +20,8 @@ namespace System { class Action; }
 #define NLOOHFMLFMM_PKNBCMJNHDO_OFFSET UNITYSDK_OFFSET(0xBC77D20)
 #define NLOOHFMLFMM__ONBIND_OFFSET UNITYSDK_OFFSET(0xBC779F0)
 
+inline static constexpr unsigned int NLOOHFMLFMM_TypeDefinitionIndex = 72290;
+
 	class NLOOHFMLFMM : public ::FMPCODLIOLG
 	{
 	public:

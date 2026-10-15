@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ResetMissionWayPoint; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ResetMissionWayPoint_TypeDefinitionIndex = 21686;
+
 	class ResetMissionWayPoint : public ::RPG::GameCore::TaskConfig
 	{
 	public:

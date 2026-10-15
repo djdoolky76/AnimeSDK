@@ -30,6 +30,8 @@ namespace System { class String; }
 #define FJEFBKAKNAH_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E3A0740)
 #define FJEFBKAKNAH_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E3A07A0)
 
+inline static constexpr unsigned int FJEFBKAKNAH_TypeDefinitionIndex = 30932;
+
 	class FJEFBKAKNAH : public ::System::Object
 	{
 	public:

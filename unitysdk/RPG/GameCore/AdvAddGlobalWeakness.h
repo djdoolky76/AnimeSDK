@@ -11,6 +11,8 @@ namespace RPG::GameCore { class AdvAddGlobalWeakness; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdvAddGlobalWeakness_TypeDefinitionIndex = 21810;
+
 	class AdvAddGlobalWeakness : public ::RPG::GameCore::TaskConfig
 	{
 	public:

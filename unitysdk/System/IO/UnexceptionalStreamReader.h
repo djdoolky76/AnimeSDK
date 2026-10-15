@@ -16,6 +16,8 @@ namespace System::Text { class Encoding; }
 
 namespace System::IO
 {
+	inline static constexpr unsigned int UnexceptionalStreamReader_TypeDefinitionIndex = 728;
+
 	class UnexceptionalStreamReader : public ::System::IO::StreamReader
 	{
 	public:

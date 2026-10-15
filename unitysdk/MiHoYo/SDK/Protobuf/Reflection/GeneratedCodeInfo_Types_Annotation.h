@@ -34,6 +34,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::Protobuf::Reflection
 {
+	inline static constexpr unsigned int GeneratedCodeInfo_Types_Annotation_TypeDefinitionIndex = 35817;
+
 	class GeneratedCodeInfo_Types_Annotation : public ::System::Object
 	{
 	public:

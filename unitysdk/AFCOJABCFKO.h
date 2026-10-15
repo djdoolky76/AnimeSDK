@@ -7,6 +7,8 @@ class HFCPGANBGMI;
 #define AFCOJABCFKO_CLEAR_OFFSET UNITYSDK_OFFSET(0x1C879430)
 #define AFCOJABCFKO_CTOR_OFFSET UNITYSDK_OFFSET(0x1C879600)
 
+inline static constexpr unsigned int AFCOJABCFKO_TypeDefinitionIndex = 43444;
+
 	class AFCOJABCFKO : public ::System::Object
 	{
 	public:

@@ -7,6 +7,8 @@
 #define OFGIOMKECBJ_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xBE416B0)
 #define OFGIOMKECBJ_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xBE41660)
 
+inline static constexpr unsigned int OFGIOMKECBJ_TypeDefinitionIndex = 56633;
+
 	class OFGIOMKECBJ : public ::System::Object
 	{
 	public:

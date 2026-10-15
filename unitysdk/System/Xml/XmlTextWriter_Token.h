@@ -3,6 +3,8 @@
 
 namespace System::Xml
 {
+	inline static constexpr unsigned int XmlTextWriter_Token_TypeDefinitionIndex = 1868;
+
 	enum class XmlTextWriter_Token : ::System::Int32
 	{
 		PI = 0,

@@ -12,6 +12,8 @@ namespace UnityEngine { class Transform; }
 #define OJBONJNMGBC_PCDIGONHNHA_OFFSET UNITYSDK_OFFSET(0xBEAB730)
 #define OJBONJNMGBC_PPGHECKLLLN_OFFSET UNITYSDK_OFFSET(0xBEABA30)
 
+inline static constexpr unsigned int OJBONJNMGBC_TypeDefinitionIndex = 70867;
+
 	class OJBONJNMGBC : public ::KKAKDKDKNKM
 	{
 	public:

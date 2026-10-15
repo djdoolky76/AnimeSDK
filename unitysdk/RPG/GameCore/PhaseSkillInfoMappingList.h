@@ -9,6 +9,8 @@ namespace RPG::GameCore { class PhaseSkillInfoMappingList; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PhaseSkillInfoMappingList_TypeDefinitionIndex = 16533;
+
 	class PhaseSkillInfoMappingList : public ::RPG::GameCore::JsonConfig
 	{
 	public:

@@ -7,6 +7,8 @@ namespace UnityEngine { class Gradient; }
 
 namespace EnviromentSystemV2Space
 {
+	inline static constexpr unsigned int GradientKeyFrameConfig_TypeDefinitionIndex = 49481;
+
 	class GradientKeyFrameConfig : public ::System::Object
 	{
 	public:

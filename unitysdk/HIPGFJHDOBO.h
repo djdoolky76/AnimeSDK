@@ -29,6 +29,8 @@ namespace System { class String; }
 #define HIPGFJHDOBO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E5A09C0)
 #define HIPGFJHDOBO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E5A0A20)
 
+inline static constexpr unsigned int HIPGFJHDOBO_TypeDefinitionIndex = 30392;
+
 	class HIPGFJHDOBO : public ::System::Object
 	{
 	public:

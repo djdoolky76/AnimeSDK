@@ -16,6 +16,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ST_ByDistanceToTarget_TypeDefinitionIndex = 20079;
+
 	class ST_ByDistanceToTarget : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

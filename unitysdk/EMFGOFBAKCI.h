@@ -31,6 +31,8 @@ namespace UnityEngine { class Object; }
 #define EMFGOFBAKCI_SET_MINDISTANCE_OFFSET UNITYSDK_OFFSET(0x15534600)
 #define EMFGOFBAKCI_TICK_OFFSET UNITYSDK_OFFSET(0x155330D0)
 
+inline static constexpr unsigned int EMFGOFBAKCI_TypeDefinitionIndex = 60956;
+
 	class EMFGOFBAKCI : public ::System::Object
 	{
 	public:

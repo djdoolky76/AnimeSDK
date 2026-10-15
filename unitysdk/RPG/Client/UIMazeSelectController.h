@@ -12,6 +12,8 @@ namespace UnityEngine::UI { class Image; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int UIMazeSelectController_TypeDefinitionIndex = 69102;
+
 	class UIMazeSelectController : public ::UnityEngine::MonoBehaviour
 	{
 	public:

@@ -33,6 +33,8 @@ namespace System { class String; }
 #define DCAICJKEIPH_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E167580)
 #define DCAICJKEIPH_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E1675E0)
 
+inline static constexpr unsigned int DCAICJKEIPH_TypeDefinitionIndex = 32444;
+
 	class DCAICJKEIPH : public ::System::Object
 	{
 	public:

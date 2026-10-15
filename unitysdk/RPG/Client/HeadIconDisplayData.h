@@ -9,6 +9,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int HeadIconDisplayData_TypeDefinitionIndex = 65648;
+
 	class HeadIconDisplayData : public ::System::Object
 	{
 	public:

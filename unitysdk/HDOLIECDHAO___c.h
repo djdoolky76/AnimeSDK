@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define HDOLIECDHAO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E553AF0)
 #define HDOLIECDHAO___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1E553B00)
 
+inline static constexpr unsigned int HDOLIECDHAO___c_TypeDefinitionIndex = 29281;
+
 	class HDOLIECDHAO___c : public ::System::Object
 	{
 	public:

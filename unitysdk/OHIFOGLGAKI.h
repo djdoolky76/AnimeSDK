@@ -14,6 +14,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define OHIFOGLGAKI_PFFFGEDFLPK_OFFSET UNITYSDK_OFFSET(0xBE6CF00)
 #define OHIFOGLGAKI_PHACOHCMNOA_OFFSET UNITYSDK_OFFSET(0xBE6BDF0)
 
+inline static constexpr unsigned int OHIFOGLGAKI_TypeDefinitionIndex = 70235;
+
 	class OHIFOGLGAKI : public ::System::Object
 	{
 	public:

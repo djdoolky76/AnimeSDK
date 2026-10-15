@@ -25,6 +25,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueScoreRewardExcelTable_TypeDefinitionIndex = 14937;
+
 	class RogueScoreRewardExcelTable : public ::System::Object
 	{
 	public:

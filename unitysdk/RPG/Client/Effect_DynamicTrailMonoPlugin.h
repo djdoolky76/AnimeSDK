@@ -6,6 +6,8 @@ namespace RPG::Client { class DynamicTrailModule; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int Effect_DynamicTrailMonoPlugin_TypeDefinitionIndex = 70447;
+
 	class Effect_DynamicTrailMonoPlugin
 	{
 	public:

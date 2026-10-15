@@ -29,6 +29,8 @@ namespace System { class String; }
 #define GFCOKHFFALL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E462160)
 #define GFCOKHFFALL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E4621C0)
 
+inline static constexpr unsigned int GFCOKHFFALL_TypeDefinitionIndex = 33972;
+
 	class GFCOKHFFALL : public ::System::Object
 	{
 	public:

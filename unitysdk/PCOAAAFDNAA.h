@@ -29,6 +29,8 @@ namespace System { class String; }
 #define PCOAAAFDNAA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DF0ACB0)
 #define PCOAAAFDNAA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DF0AD10)
 
+inline static constexpr unsigned int PCOAAAFDNAA_TypeDefinitionIndex = 26143;
+
 	class PCOAAAFDNAA : public ::System::Object
 	{
 	public:

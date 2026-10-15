@@ -15,6 +15,8 @@ namespace System { class Action; }
 #define LMLFPLOLDIA_SET_NEXT_OFFSET UNITYSDK_OFFSET(0xB7CF920)
 #define LMLFPLOLDIA_SET_PREV_OFFSET UNITYSDK_OFFSET(0xB7CF900)
 
+inline static constexpr unsigned int LMLFPLOLDIA_TypeDefinitionIndex = 54130;
+
 	class LMLFPLOLDIA : public ::System::Object
 	{
 	public:

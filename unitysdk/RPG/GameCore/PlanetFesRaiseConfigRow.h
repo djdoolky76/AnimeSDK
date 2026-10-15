@@ -9,6 +9,8 @@ namespace RPG::GameCore { class PlanetFesRaiseConfigRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PlanetFesRaiseConfigRow_TypeDefinitionIndex = 12246;
+
 	class PlanetFesRaiseConfigRow : public ::System::Object
 	{
 	public:

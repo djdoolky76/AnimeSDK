@@ -12,6 +12,8 @@ namespace SimpleJSON { class JSONNode; }
 #define ACNFHAKPMIK_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CCA6870)
 #define ACNFHAKPMIK_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CCA67A0)
 
+inline static constexpr unsigned int ACNFHAKPMIK_TypeDefinitionIndex = 22893;
+
 	class ACNFHAKPMIK : public ::RPG::GameCore::TriggerEffect
 	{
 	public:

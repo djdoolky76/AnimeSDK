@@ -14,6 +14,8 @@ namespace RPG::UINavigation { class UINavigation; }
 
 namespace RPG::UINavigation
 {
+	inline static constexpr unsigned int UINavigationChildActiveSwitch_TypeDefinitionIndex = 51734;
+
 	class UINavigationChildActiveSwitch : public ::UnityEngine::MonoBehaviour
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueAdventureCaptureMonsterConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueAdventureCaptureMonsterConfig_TypeDefinitionIndex = 17893;
+
 	class RogueAdventureCaptureMonsterConfig : public ::RPG::GameCore::RogueAdventureConfigBase
 	{
 	public:

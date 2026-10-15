@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueNousTalentRow_TypeDefinitionIndex = 14927;
+
 	class RogueNousTalentRow : public ::System::Object
 	{
 	public:

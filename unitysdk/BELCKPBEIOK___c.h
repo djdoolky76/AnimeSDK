@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define BELCKPBEIOK___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA64600)
 #define BELCKPBEIOK___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1EA64610)
 
+inline static constexpr unsigned int BELCKPBEIOK___c_TypeDefinitionIndex = 27145;
+
 	class BELCKPBEIOK___c : public ::System::Object
 	{
 	public:

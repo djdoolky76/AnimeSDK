@@ -13,6 +13,8 @@ namespace UnityEngine::VFX { class VFXSpawnerState; }
 
 namespace UnityEngine::VFX
 {
+	inline static constexpr unsigned int VFXSpawnerState_TypeDefinitionIndex = 6042;
+
 	class VFXSpawnerState : public ::System::Object
 	{
 	public:

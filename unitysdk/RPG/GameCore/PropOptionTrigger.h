@@ -30,6 +30,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PropOptionTrigger_TypeDefinitionIndex = 57526;
+
 	class PropOptionTrigger : public ::EDLDHDMLJDH
 	{
 	public:

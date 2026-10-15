@@ -7,6 +7,8 @@ namespace RPG::Client { class RogueTournRelicCocoonData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueTournRelicCocoonCollection_RogueTournRelicCocoonBattleData_TypeDefinitionIndex = 67766;
+
 	class RogueTournRelicCocoonCollection_RogueTournRelicCocoonBattleData : public ::System::Object
 	{
 	public:

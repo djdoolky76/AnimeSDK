@@ -9,6 +9,8 @@ namespace RPG::GameCore::Match3 { class BirdPieceTypeWeightConfig; }
 
 namespace RPG::GameCore::Match3
 {
+	inline static constexpr unsigned int BirdPieceTypeWeightConfig_TypeDefinitionIndex = 24936;
+
 	class BirdPieceTypeWeightConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

@@ -36,6 +36,8 @@ namespace UnityEngine { class Animator; }
 #define ODJGGABDOGD_PNJKFOILFOB_OFFSET UNITYSDK_OFFSET(0xBD953A0)
 #define ODJGGABDOGD__ONBIND_OFFSET UNITYSDK_OFFSET(0xBD94A60)
 
+inline static constexpr unsigned int ODJGGABDOGD_TypeDefinitionIndex = 71996;
+
 	class ODJGGABDOGD : public ::FMPCODLIOLG
 	{
 	public:

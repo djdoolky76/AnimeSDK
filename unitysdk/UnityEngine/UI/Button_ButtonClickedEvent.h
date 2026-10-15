@@ -6,6 +6,8 @@
 
 namespace UnityEngine::UI
 {
+	inline static constexpr unsigned int Button_ButtonClickedEvent_TypeDefinitionIndex = 6692;
+
 	class Button_ButtonClickedEvent : public ::UnityEngine::Events::UnityEvent
 	{
 	public:

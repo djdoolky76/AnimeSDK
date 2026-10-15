@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define FNKHDPIPCIK_CTOR_OFFSET UNITYSDK_OFFSET(0x15875800)
 #define FNKHDPIPCIK_EVALUATE_OFFSET UNITYSDK_OFFSET(0x15875850)
 
+inline static constexpr unsigned int FNKHDPIPCIK_TypeDefinitionIndex = 59251;
+
 	class FNKHDPIPCIK
 	{
 	public:

@@ -12,6 +12,8 @@
 #define KDHGAGHBHJB_LHJBNOCGOPP_OFFSET UNITYSDK_OFFSET(0xB35DC30)
 #define KDHGAGHBHJB_PDFHFPMNFNA_OFFSET UNITYSDK_OFFSET(0xB35D8C0)
 
+inline static constexpr unsigned int KDHGAGHBHJB_TypeDefinitionIndex = 62189;
+
 	class KDHGAGHBHJB : public ::System::Object
 	{
 	public:

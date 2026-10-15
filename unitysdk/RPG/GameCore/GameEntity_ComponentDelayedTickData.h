@@ -9,6 +9,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GameEntity_ComponentDelayedTickData_TypeDefinitionIndex = 53552;
+
 	class GameEntity_ComponentDelayedTickData : public ::System::Object
 	{
 	public:

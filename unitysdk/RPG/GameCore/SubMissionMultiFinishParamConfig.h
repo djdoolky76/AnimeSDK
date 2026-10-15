@@ -9,6 +9,8 @@ namespace RPG::GameCore { class SubMissionMultiFinishParamConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SubMissionMultiFinishParamConfig_TypeDefinitionIndex = 19019;
+
 	class SubMissionMultiFinishParamConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

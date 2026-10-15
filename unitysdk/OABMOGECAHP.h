@@ -23,6 +23,8 @@ namespace RPG::Client { class UIMeta; }
 #define OABMOGECAHP_NHEDINBLOIH_OFFSET UNITYSDK_OFFSET(0xBD1A3E0)
 #define OABMOGECAHP_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0xBD1A460)
 
+inline static constexpr unsigned int OABMOGECAHP_TypeDefinitionIndex = 69614;
+
 	class OABMOGECAHP : public ::MDILEMALGNC
 	{
 	public:

@@ -12,6 +12,8 @@ namespace RPG::Client { class FateGameData; }
 #define DIKFNDGHLPP_NAKIGFCHAMF_OFFSET UNITYSDK_OFFSET(0xF20FBC0)
 #define DIKFNDGHLPP_PDAENODHFCM_OFFSET UNITYSDK_OFFSET(0xF20F8E0)
 
+inline static constexpr unsigned int DIKFNDGHLPP_TypeDefinitionIndex = 63991;
+
 	class DIKFNDGHLPP : public ::System::Object
 	{
 	public:

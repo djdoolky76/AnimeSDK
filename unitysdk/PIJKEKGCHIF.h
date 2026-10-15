@@ -13,6 +13,8 @@ namespace UnityEngine { class Transform; }
 #define PIJKEKGCHIF_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xC26A310)
 #define PIJKEKGCHIF_TICK_OFFSET UNITYSDK_OFFSET(0xC26A360)
 
+inline static constexpr unsigned int PIJKEKGCHIF_TypeDefinitionIndex = 55661;
+
 	class PIJKEKGCHIF : public ::GELIALJDFBL
 	{
 	public:

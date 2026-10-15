@@ -29,6 +29,8 @@ class AkSegmentInfo;
 #define AKSEGMENTINFO_SET_IPREENTRYDURATION_OFFSET UNITYSDK_OFFSET(0x1F5BFE80)
 #define AKSEGMENTINFO_SET_IREMAININGLOOKAHEADTIME_OFFSET UNITYSDK_OFFSET(0x1F5C02D0)
 
+inline static constexpr unsigned int AkSegmentInfo_TypeDefinitionIndex = 44785;
+
 	class AkSegmentInfo : public ::System::Object
 	{
 	public:

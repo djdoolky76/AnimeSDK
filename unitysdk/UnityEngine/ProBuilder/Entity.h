@@ -10,6 +10,8 @@
 
 namespace UnityEngine::ProBuilder
 {
+	inline static constexpr unsigned int Entity_TypeDefinitionIndex = 44356;
+
 	class Entity : public ::UnityEngine::MonoBehaviour
 	{
 	public:

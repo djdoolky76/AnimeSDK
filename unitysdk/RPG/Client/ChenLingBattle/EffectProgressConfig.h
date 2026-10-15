@@ -12,6 +12,8 @@ namespace RPG::Client::ChenLingBattle { class EffectProgressConfig; }
 
 namespace RPG::Client::ChenLingBattle
 {
+	inline static constexpr unsigned int EffectProgressConfig_TypeDefinitionIndex = 76360;
+
 	class EffectProgressConfig : public ::System::Object
 	{
 	public:

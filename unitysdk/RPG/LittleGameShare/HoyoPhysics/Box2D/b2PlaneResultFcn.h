@@ -14,6 +14,8 @@ namespace System { class Object; }
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
+	inline static constexpr unsigned int b2PlaneResultFcn_TypeDefinitionIndex = 36651;
+
 	class b2PlaneResultFcn : public ::System::MulticastDelegate
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueModifierExecuteActionOnPersonaRoomCardReach
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueModifierExecuteActionOnPersonaRoomCardReachReRollCountConfig_TypeDefinitionIndex = 17861;
+
 	class RogueModifierExecuteActionOnPersonaRoomCardReachReRollCountConfig : public ::RPG::GameCore::RogueModifierConfig
 	{
 	public:

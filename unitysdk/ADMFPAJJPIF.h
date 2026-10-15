@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 #define ADMFPAJJPIF_JOLDDCGIKIL_OFFSET UNITYSDK_OFFSET(0xB146C10)
 #define ADMFPAJJPIF_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0xB146E60)
 
+inline static constexpr unsigned int ADMFPAJJPIF_TypeDefinitionIndex = 73751;
+
 	class ADMFPAJJPIF : public ::System::Object
 	{
 	public:

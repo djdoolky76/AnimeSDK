@@ -13,6 +13,8 @@ namespace System { class String; }
 #define PIEGHFAGMGH_NLBMJMACJLC_OFFSET UNITYSDK_OFFSET(0xC25E290)
 #define PIEGHFAGMGH_PJDMGODCIJK_OFFSET UNITYSDK_OFFSET(0xC25E460)
 
+inline static constexpr unsigned int PIEGHFAGMGH_TypeDefinitionIndex = 73769;
+
 	class PIEGHFAGMGH : public ::System::Object
 	{
 	public:

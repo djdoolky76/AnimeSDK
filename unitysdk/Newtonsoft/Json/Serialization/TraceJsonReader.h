@@ -36,6 +36,8 @@ namespace System::IO { class StringWriter; }
 
 namespace Newtonsoft::Json::Serialization
 {
+	inline static constexpr unsigned int TraceJsonReader_TypeDefinitionIndex = 9694;
+
 	class TraceJsonReader : public ::Newtonsoft::Json::JsonReader
 	{
 	public:

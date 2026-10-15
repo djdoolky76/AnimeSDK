@@ -30,6 +30,8 @@ namespace UnityEngine { class Texture2D; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int CharacterBaseMatCallback_TypeDefinitionIndex = 37884;
+
 	class CharacterBaseMatCallback : public ::System::Object
 	{
 	public:

@@ -7,6 +7,8 @@ class NJKFOJJDGGG;
 #define AGAAGLBPIFA_EKLPOKOGHMC_OFFSET UNITYSDK_OFFSET(0xCF23B70)
 #define AGAAGLBPIFA_NEJDALLPIMG_OFFSET UNITYSDK_OFFSET(0xCF23C10)
 
+inline static constexpr unsigned int AGAAGLBPIFA_TypeDefinitionIndex = 65000;
+
 	class AGAAGLBPIFA : public ::RPG::Client::GridFightGameModifier
 	{
 	public:

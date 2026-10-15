@@ -6,6 +6,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MatchThreeEnergyPerformance_TypeDefinitionIndex = 65932;
+
 	class MatchThreeEnergyPerformance : public ::UnityEngine::MonoBehaviour
 	{
 	public:

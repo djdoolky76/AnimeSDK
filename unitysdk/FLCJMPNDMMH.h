@@ -48,6 +48,8 @@ namespace System { class String; }
 #define FLCJMPNDMMH_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E3B5630)
 #define FLCJMPNDMMH_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E3B5690)
 
+inline static constexpr unsigned int FLCJMPNDMMH_TypeDefinitionIndex = 31800;
+
 	class FLCJMPNDMMH : public ::System::Object
 	{
 	public:

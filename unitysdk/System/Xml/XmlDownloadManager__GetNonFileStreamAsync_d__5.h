@@ -16,6 +16,8 @@ namespace System::Xml { class XmlDownloadManager; }
 
 namespace System::Xml
 {
+	inline static constexpr unsigned int XmlDownloadManager__GetNonFileStreamAsync_d__5_TypeDefinitionIndex = 1946;
+
 	template <typename T1, typename T2, typename T3, typename T4, typename T5>
 	struct alignas(8) XmlDownloadManager__GetNonFileStreamAsync_d__5
 	{

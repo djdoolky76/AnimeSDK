@@ -30,6 +30,8 @@ namespace System { class Object; }
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
+	inline static constexpr unsigned int B2BoardPhases_TypeDefinitionIndex = 36588;
+
 	class B2BoardPhases : public ::System::Object
 	{
 	public:

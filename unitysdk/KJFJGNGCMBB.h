@@ -5,6 +5,8 @@ namespace System { class Exception; }
 
 #define KJFJGNGCMBB_JDAKLMKCKKL_OFFSET UNITYSDK_OFFSET(0xB4490D0)
 
+inline static constexpr unsigned int KJFJGNGCMBB_TypeDefinitionIndex = 61263;
+
 	class KJFJGNGCMBB : public ::System::Object
 	{
 	public:

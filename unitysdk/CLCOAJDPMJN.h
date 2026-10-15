@@ -40,6 +40,8 @@ namespace System { class String; }
 #define CLCOAJDPMJN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E0F4020)
 #define CLCOAJDPMJN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E0F4080)
 
+inline static constexpr unsigned int CLCOAJDPMJN_TypeDefinitionIndex = 34600;
+
 	class CLCOAJDPMJN : public ::System::Object
 	{
 	public:

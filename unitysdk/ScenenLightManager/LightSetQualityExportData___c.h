@@ -16,6 +16,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace ScenenLightManager
 {
+	inline static constexpr unsigned int LightSetQualityExportData___c_TypeDefinitionIndex = 49163;
+
 	class LightSetQualityExportData___c : public ::System::Object
 	{
 	public:

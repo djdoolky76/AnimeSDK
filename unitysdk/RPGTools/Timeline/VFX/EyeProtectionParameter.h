@@ -5,6 +5,8 @@
 
 namespace RPGTools::Timeline::VFX
 {
+	inline static constexpr unsigned int EyeProtectionParameter_TypeDefinitionIndex = 48698;
+
 	struct alignas(4) EyeProtectionParameter
 	{
 		::System::Single EffectParticleTopBrightness; // 0x10

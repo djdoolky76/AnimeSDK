@@ -9,6 +9,8 @@ namespace System { class String; }
 #define IAJLOFLABIB_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CEDABE0)
 #define IAJLOFLABIB_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CEDAB80)
 
+inline static constexpr unsigned int IAJLOFLABIB_TypeDefinitionIndex = 16848;
+
 	class IAJLOFLABIB : public ::RPG::GameCore::MarbleTaskConfig
 	{
 	public:

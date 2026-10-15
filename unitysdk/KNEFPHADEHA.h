@@ -24,6 +24,8 @@ namespace System { class String; }
 #define KNEFPHADEHA_PGOLCLMMANO_OFFSET UNITYSDK_OFFSET(0xB581A50)
 #define KNEFPHADEHA_PLMIIKONDEO_OFFSET UNITYSDK_OFFSET(0xB581BA0)
 
+inline static constexpr unsigned int KNEFPHADEHA_TypeDefinitionIndex = 47377;
+
 	class KNEFPHADEHA : public ::System::Object
 	{
 	public:

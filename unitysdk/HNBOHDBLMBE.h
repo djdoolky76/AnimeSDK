@@ -33,6 +33,8 @@ namespace System { class String; }
 #define HNBOHDBLMBE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E5D9690)
 #define HNBOHDBLMBE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E5D96F0)
 
+inline static constexpr unsigned int HNBOHDBLMBE_TypeDefinitionIndex = 28689;
+
 	class HNBOHDBLMBE : public ::System::Object
 	{
 	public:

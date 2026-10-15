@@ -22,6 +22,8 @@ namespace UnityEngine::UI { class Toggle; }
 
 namespace TMPro
 {
+	inline static constexpr unsigned int TMP_Dropdown_DropdownItem_TypeDefinitionIndex = 44561;
+
 	class TMP_Dropdown_DropdownItem : public ::UnityEngine::MonoBehaviour
 	{
 	public:

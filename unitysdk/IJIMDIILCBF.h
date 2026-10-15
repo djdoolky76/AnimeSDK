@@ -21,6 +21,8 @@ namespace System::Text { class StringBuilder; }
 #define IJIMDIILCBF_SET_PROTOTYPEIDENTIFIER_OFFSET UNITYSDK_OFFSET(0x94B0)
 #define IJIMDIILCBF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x2E81E60)
 
+inline static constexpr unsigned int IJIMDIILCBF_TypeDefinitionIndex = 51975;
+
 	struct alignas(4) IJIMDIILCBF
 	{
 		::APCGKBOPGJL _PrototypeIdentifier_k__BackingField; // 0x10

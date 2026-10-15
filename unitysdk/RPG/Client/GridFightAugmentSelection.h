@@ -20,6 +20,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightAugmentSelection_TypeDefinitionIndex = 64385;
+
 	class GridFightAugmentSelection : public ::RPG::Client::GridFightPendingSelectableBaseAction
 	{
 	public:

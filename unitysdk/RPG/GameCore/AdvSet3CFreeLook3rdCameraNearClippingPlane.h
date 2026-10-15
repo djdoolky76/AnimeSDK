@@ -10,6 +10,8 @@ namespace RPG::GameCore { class AdvSet3CFreeLook3rdCameraNearClippingPlane; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdvSet3CFreeLook3rdCameraNearClippingPlane_TypeDefinitionIndex = 20296;
+
 	class AdvSet3CFreeLook3rdCameraNearClippingPlane : public ::RPG::GameCore::TaskConfig
 	{
 	public:

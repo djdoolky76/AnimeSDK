@@ -7,6 +7,8 @@ namespace RPG::Client { class TalkEmotionData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int CharacterTalkEmotion_TypeDefinitionIndex = 71124;
+
 	class CharacterTalkEmotion : public ::UnityEngine::ScriptableObject
 	{
 	public:

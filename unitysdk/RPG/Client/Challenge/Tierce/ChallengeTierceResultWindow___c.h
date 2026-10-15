@@ -15,6 +15,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace RPG::Client::Challenge::Tierce
 {
+	inline static constexpr unsigned int ChallengeTierceResultWindow___c_TypeDefinitionIndex = 81541;
+
 	class ChallengeTierceResultWindow___c : public ::System::Object
 	{
 	public:

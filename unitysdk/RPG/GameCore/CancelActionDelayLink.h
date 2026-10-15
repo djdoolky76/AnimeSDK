@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CancelActionDelayLink_TypeDefinitionIndex = 23271;
+
 	class CancelActionDelayLink : public ::RPG::GameCore::TaskConfig
 	{
 	public:

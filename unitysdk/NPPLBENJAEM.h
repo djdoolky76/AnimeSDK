@@ -16,6 +16,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define NPPLBENJAEM_IBKMEFCDDHF_OFFSET UNITYSDK_OFFSET(0xBD14360)
 #define NPPLBENJAEM_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xBD142C0)
 
+inline static constexpr unsigned int NPPLBENJAEM_TypeDefinitionIndex = 49323;
+
 	class NPPLBENJAEM : public ::HHJGACLHFDJ
 	{
 	public:

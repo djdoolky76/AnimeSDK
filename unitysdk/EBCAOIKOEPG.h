@@ -16,6 +16,8 @@ class EBCAOIKOEPG;
 #define EBCAOIKOEPG_SET_LASTREVENUE_OFFSET UNITYSDK_OFFSET(0x12CE91B0)
 #define EBCAOIKOEPG_SET_REVENUETARGET_OFFSET UNITYSDK_OFFSET(0x12CE91F0)
 
+inline static constexpr unsigned int EBCAOIKOEPG_TypeDefinitionIndex = 80190;
+
 	class EBCAOIKOEPG : public ::System::Object
 	{
 	public:

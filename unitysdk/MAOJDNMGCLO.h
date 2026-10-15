@@ -5,6 +5,8 @@ class JAACNICGMHN;
 
 #define MAOJDNMGCLO_CTOR_OFFSET UNITYSDK_OFFSET(0xB856B10)
 
+inline static constexpr unsigned int MAOJDNMGCLO_TypeDefinitionIndex = 80554;
+
 	class MAOJDNMGCLO : public ::System::Object
 	{
 	public:

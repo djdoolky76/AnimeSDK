@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int CameraShakeConfig_TypeDefinitionIndex = 47810;
+
 	class CameraShakeConfig : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace UnityEngine { class Renderer; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoEffectDestinationRingControl_TypeDefinitionIndex = 70732;
+
 	class MonoEffectDestinationRingControl : public ::UnityEngine::MonoBehaviour
 	{
 	public:

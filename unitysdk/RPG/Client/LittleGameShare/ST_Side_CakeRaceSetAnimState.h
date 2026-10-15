@@ -11,6 +11,8 @@ namespace RPG::Client::LittleGameShare { class ST_Side_CakeRaceSetAnimState; }
 
 namespace RPG::Client::LittleGameShare
 {
+	inline static constexpr unsigned int ST_Side_CakeRaceSetAnimState_TypeDefinitionIndex = 10335;
+
 	class ST_Side_CakeRaceSetAnimState : public ::RPG::Client::LittleGameShare::LittleGameSTTaskConfig
 	{
 	public:

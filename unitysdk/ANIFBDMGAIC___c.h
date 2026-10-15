@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define ANIFBDMGAIC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E660D60)
 #define ANIFBDMGAIC___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E660D70)
 
+inline static constexpr unsigned int ANIFBDMGAIC___c_TypeDefinitionIndex = 34633;
+
 	class ANIFBDMGAIC___c : public ::System::Object
 	{
 	public:

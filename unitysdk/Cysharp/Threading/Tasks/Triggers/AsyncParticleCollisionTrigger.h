@@ -14,6 +14,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace Cysharp::Threading::Tasks::Triggers
 {
+	inline static constexpr unsigned int AsyncParticleCollisionTrigger_TypeDefinitionIndex = 38571;
+
 	class AsyncParticleCollisionTrigger
 	{
 	public:

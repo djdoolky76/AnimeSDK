@@ -12,6 +12,8 @@ namespace RPG::GameCore { class DynamicString; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdvAttachEntityToPropEX_TypeDefinitionIndex = 21968;
+
 	class AdvAttachEntityToPropEX : public ::RPG::GameCore::TaskConfig
 	{
 	public:

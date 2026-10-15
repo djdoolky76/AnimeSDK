@@ -25,6 +25,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueDLCAreaExcelTable_TypeDefinitionIndex = 14764;
+
 	class RogueDLCAreaExcelTable : public ::System::Object
 	{
 	public:

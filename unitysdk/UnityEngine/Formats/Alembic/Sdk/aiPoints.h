@@ -14,6 +14,8 @@
 
 namespace UnityEngine::Formats::Alembic::Sdk
 {
+	inline static constexpr unsigned int aiPoints_TypeDefinitionIndex = 45831;
+
 	struct alignas(4) aiPoints
 	{
 		::System::IntPtr self; // 0x10

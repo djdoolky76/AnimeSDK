@@ -13,6 +13,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int TeleportGatePuzzleBoard___c__DisplayClass3_0_TypeDefinitionIndex = 78904;
+
 	class TeleportGatePuzzleBoard___c__DisplayClass3_0 : public ::System::Object
 	{
 	public:

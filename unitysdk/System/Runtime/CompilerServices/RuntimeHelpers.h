@@ -20,6 +20,8 @@ namespace System { class Object; }
 
 namespace System::Runtime::CompilerServices
 {
+	inline static constexpr unsigned int RuntimeHelpers_TypeDefinitionIndex = 1401;
+
 	class RuntimeHelpers : public ::System::Object
 	{
 	public:

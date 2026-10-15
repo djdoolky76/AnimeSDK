@@ -8,6 +8,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int FateTimerActivityPanelData_TypeDefinitionIndex = 61624;
+
 	class FateTimerActivityPanelData : public ::RPG::Client::ActivityPanelData
 	{
 	public:

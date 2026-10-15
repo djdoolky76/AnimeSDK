@@ -23,6 +23,8 @@ namespace UnityEngine { class Transform; }
 #define GHDOIPGECOG_MALIBCJKIPH_OFFSET UNITYSDK_OFFSET(0x15A18420)
 #define GHDOIPGECOG_ONKLGMBKEOI_OFFSET UNITYSDK_OFFSET(0x15A18480)
 
+inline static constexpr unsigned int GHDOIPGECOG_TypeDefinitionIndex = 73281;
+
 	class GHDOIPGECOG : public ::System::Object
 	{
 	public:

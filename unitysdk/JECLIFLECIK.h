@@ -20,6 +20,8 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyLi
 #define JECLIFLECIK_GET_REQUIREMENTID_OFFSET UNITYSDK_OFFSET(0x1661DDF0)
 #define JECLIFLECIK_GET_UNLOCKCONDITIONID_OFFSET UNITYSDK_OFFSET(0x1661DDE0)
 
+inline static constexpr unsigned int JECLIFLECIK_TypeDefinitionIndex = 80133;
+
 	class JECLIFLECIK : public ::System::Object
 	{
 	public:

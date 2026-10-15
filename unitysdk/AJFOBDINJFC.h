@@ -11,6 +11,8 @@ namespace RPG::GameCore { class WaitGroupStateChange; }
 #define AJFOBDINJFC__REGISTEREVENTCALLBACK_OFFSET UNITYSDK_OFFSET(0x12CBB5B0)
 #define AJFOBDINJFC__UNREGISTEREVENTCALLBACK_OFFSET UNITYSDK_OFFSET(0x12CBB6F0)
 
+inline static constexpr unsigned int AJFOBDINJFC_TypeDefinitionIndex = 53475;
+
 	class AJFOBDINJFC
 	{
 	public:

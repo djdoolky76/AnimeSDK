@@ -19,6 +19,8 @@ namespace UnityEngine { class MonoBehaviour; }
 #define BOGLEMMMDAC_PCBIGPAGMEK_OFFSET UNITYSDK_OFFSET(0xC1900F0)
 #define BOGLEMMMDAC_POPNLPIAOCM_OFFSET UNITYSDK_OFFSET(0xC190010)
 
+inline static constexpr unsigned int BOGLEMMMDAC_TypeDefinitionIndex = 69887;
+
 	class BOGLEMMMDAC : public ::RPG::Client::BehaviorBase
 	{
 	public:

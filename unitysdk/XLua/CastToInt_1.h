@@ -5,6 +5,8 @@ namespace System { class Object; }
 
 namespace XLua
 {
+	inline static constexpr unsigned int CastToInt_1_TypeDefinitionIndex = 50256;
+
 	template <typename T>
 	class CastToInt_1 : public ::System::Object
 	{

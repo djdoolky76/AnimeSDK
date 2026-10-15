@@ -23,6 +23,8 @@ namespace System { class String; }
 
 namespace Cinemachine
 {
+	inline static constexpr unsigned int AxisState_TypeDefinitionIndex = 39795;
+
 	struct alignas(8) AxisState
 	{
 		::System::Single Value; // 0x10

@@ -14,6 +14,8 @@ namespace UnityEngine::UI { class GridLayoutGroup; }
 #define OLNLJBDLHFO_IOKAOGFPCJD_OFFSET UNITYSDK_OFFSET(0xBF13C60)
 #define OLNLJBDLHFO_OLACLDCGBIF_OFFSET UNITYSDK_OFFSET(0xBF13DC0)
 
+inline static constexpr unsigned int OLNLJBDLHFO_TypeDefinitionIndex = 72663;
+
 	class OLNLJBDLHFO : public ::System::Object
 	{
 	public:

@@ -6,6 +6,8 @@ class KFELGAIGHAP;
 #define OBCBNMHLAJA_CTOR_OFFSET UNITYSDK_OFFSET(0xBD372C0)
 #define OBCBNMHLAJA_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBD37160)
 
+inline static constexpr unsigned int OBCBNMHLAJA_TypeDefinitionIndex = 55906;
+
 	class OBCBNMHLAJA : public ::System::Object
 	{
 	public:

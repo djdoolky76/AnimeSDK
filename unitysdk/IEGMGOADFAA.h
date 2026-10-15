@@ -8,6 +8,8 @@ class IEGMGOADFAA;
 #define IEGMGOADFAA_CTOR_OFFSET UNITYSDK_OFFSET(0x15EF9EE0)
 #define IEGMGOADFAA_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x15EF9E60)
 
+inline static constexpr unsigned int IEGMGOADFAA_TypeDefinitionIndex = 65873;
+
 	class IEGMGOADFAA : public ::MLKDDLHNNHH
 	{
 	public:

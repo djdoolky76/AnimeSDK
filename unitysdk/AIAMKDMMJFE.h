@@ -10,6 +10,8 @@ class LMFOOOLDECA;
 #define AIAMKDMMJFE_FKFDADNHMLJ_OFFSET UNITYSDK_OFFSET(0xEB91B20)
 #define AIAMKDMMJFE_PKADDEPKJFN_OFFSET UNITYSDK_OFFSET(0xEB91610)
 
+inline static constexpr unsigned int AIAMKDMMJFE_TypeDefinitionIndex = 77849;
+
 	class AIAMKDMMJFE : public ::System::Object
 	{
 	public:

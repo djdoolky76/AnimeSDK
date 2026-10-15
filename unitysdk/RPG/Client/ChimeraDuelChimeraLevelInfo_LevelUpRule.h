@@ -17,6 +17,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ChimeraDuelChimeraLevelInfo_LevelUpRule_TypeDefinitionIndex = 63351;
+
 	class ChimeraDuelChimeraLevelInfo_LevelUpRule : public ::System::Object
 	{
 	public:

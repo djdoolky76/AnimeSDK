@@ -3,6 +3,8 @@
 #include "unitysdk/System/Object.h"
 namespace System { class Object; }
 
+inline static constexpr unsigned int CEKOOBJJDMF___O_TypeDefinitionIndex = 10858;
+
 	class CEKOOBJJDMF___O : public ::System::Object
 	{
 	public:

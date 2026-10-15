@@ -12,6 +12,8 @@ namespace System { class String; }
 #define PEMEHFIAHKI_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D2D5E10)
 #define PEMEHFIAHKI_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D2D5DA0)
 
+inline static constexpr unsigned int PEMEHFIAHKI_TypeDefinitionIndex = 23603;
+
 	class PEMEHFIAHKI : public ::RPG::GameCore::TaskConfig
 	{
 	public:

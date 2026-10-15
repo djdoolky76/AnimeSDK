@@ -4,6 +4,8 @@
 
 #define IRI_CURVEWALLCUSTOMDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x16533640)
 
+inline static constexpr unsigned int IRI_CurveWallCustomData_TypeDefinitionIndex = 47168;
+
 	class IRI_CurveWallCustomData : public ::IRI_BaseWallCustomData
 	{
 	public:

@@ -5,6 +5,8 @@ namespace UnityEngine::GCFreeClosure { template <typename T1, typename T2, typen
 
 namespace UnityEngine::GCFreeClosure
 {
+	inline static constexpr unsigned int ActionClosure_2_TypeDefinitionIndex = 4451;
+
 	template <typename T1, typename T2>
 	struct alignas(8) ActionClosure_2
 	{

@@ -11,6 +11,8 @@ namespace System { template <typename T> class Comparison_1; }
 #define DMOJAEDFBID___C___ONBINDHANDLERS_B__45_0_OFFSET UNITYSDK_OFFSET(0xFECD7A0)
 #define DMOJAEDFBID___C___SETUPMODIFIERHINTS_B__62_1_OFFSET UNITYSDK_OFFSET(0xFECD7B0)
 
+inline static constexpr unsigned int DMOJAEDFBID___c_TypeDefinitionIndex = 71317;
+
 	class DMOJAEDFBID___c : public ::System::Object
 	{
 	public:

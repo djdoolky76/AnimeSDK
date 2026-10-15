@@ -14,6 +14,8 @@ namespace System { class AttributeUsageAttribute; }
 
 namespace System
 {
+	inline static constexpr unsigned int AttributeUsageAttribute_TypeDefinitionIndex = 202;
+
 	class AttributeUsageAttribute : public ::System::Attribute
 	{
 	public:

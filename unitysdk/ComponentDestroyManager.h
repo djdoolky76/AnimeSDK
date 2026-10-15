@@ -9,6 +9,8 @@ namespace UnityEngine { class Component; }
 #define COMPONENTDESTROYMANAGER_HGOIEFILIAJ_OFFSET UNITYSDK_OFFSET(0xDFA1490)
 #define COMPONENTDESTROYMANAGER__INIT_OFFSET UNITYSDK_OFFSET(0xDFA17E0)
 
+inline static constexpr unsigned int ComponentDestroyManager_TypeDefinitionIndex = 47241;
+
 	class ComponentDestroyManager : public ::System::Object
 	{
 	public:

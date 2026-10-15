@@ -7,6 +7,8 @@ namespace RPG::GameCore { class GameEntity; }
 
 #define MIELDKPBNMB_CTOR_OFFSET UNITYSDK_OFFSET(0xB952AB0)
 
+inline static constexpr unsigned int MIELDKPBNMB_TypeDefinitionIndex = 54138;
+
 	class MIELDKPBNMB : public ::System::Object
 	{
 	public:

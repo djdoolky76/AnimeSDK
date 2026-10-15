@@ -3,6 +3,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TeleportType_TypeDefinitionIndex = 60587;
+
 	enum class TeleportType : ::System::Int32
 	{
 		BetweenRegionDefaultPose = 0,

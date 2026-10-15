@@ -7,6 +7,8 @@
 
 namespace InControl::UnityDeviceProfiles
 {
+	inline static constexpr unsigned int AirFloWiredPS3WindowsUnityProfile_TypeDefinitionIndex = 41060;
+
 	class AirFloWiredPS3WindowsUnityProfile : public ::InControl::InputDeviceProfile
 	{
 	public:

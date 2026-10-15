@@ -6,6 +6,8 @@
 #define DPFPIALBOJM_CTOR_OFFSET UNITYSDK_OFFSET(0x11FFC6C0)
 #define DPFPIALBOJM_FMFALIEKDGK_OFFSET UNITYSDK_OFFSET(0x11FFC710)
 
+inline static constexpr unsigned int DPFPIALBOJM_TypeDefinitionIndex = 66268;
+
 	class DPFPIALBOJM : public ::System::Object
 	{
 	public:

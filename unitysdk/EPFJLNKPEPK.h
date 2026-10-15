@@ -29,6 +29,8 @@ namespace System { class String; }
 #define EPFJLNKPEPK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E30A230)
 #define EPFJLNKPEPK_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E30A290)
 
+inline static constexpr unsigned int EPFJLNKPEPK_TypeDefinitionIndex = 31507;
+
 	class EPFJLNKPEPK : public ::System::Object
 	{
 	public:

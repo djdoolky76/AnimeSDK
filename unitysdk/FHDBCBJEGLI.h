@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define FHDBCBJEGLI_CTOR_OFFSET UNITYSDK_OFFSET(0x15775AC0)
 #define FHDBCBJEGLI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15775AF0)
 
+inline static constexpr unsigned int FHDBCBJEGLI_TypeDefinitionIndex = 55638;
+
 	class FHDBCBJEGLI
 	{
 	public:

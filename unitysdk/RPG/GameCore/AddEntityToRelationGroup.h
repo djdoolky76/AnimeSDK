@@ -13,6 +13,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AddEntityToRelationGroup_TypeDefinitionIndex = 22828;
+
 	class AddEntityToRelationGroup : public ::RPG::GameCore::TaskConfig
 	{
 	public:

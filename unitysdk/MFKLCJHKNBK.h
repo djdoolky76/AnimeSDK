@@ -8,6 +8,8 @@ namespace Entitas { class IContext; }
 #define MFKLCJHKNBK_CTOR_OFFSET UNITYSDK_OFFSET(0x1C925490)
 #define MFKLCJHKNBK_GET_ALLCONTEXTS_OFFSET UNITYSDK_OFFSET(0x1C9255B0)
 
+inline static constexpr unsigned int MFKLCJHKNBK_TypeDefinitionIndex = 41979;
+
 	class MFKLCJHKNBK : public ::System::Object
 	{
 	public:

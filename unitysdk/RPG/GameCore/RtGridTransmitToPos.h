@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RtGridTransmitToPos_TypeDefinitionIndex = 24116;
+
 	class RtGridTransmitToPos : public ::RPG::GameCore::TaskConfig
 	{
 	public:

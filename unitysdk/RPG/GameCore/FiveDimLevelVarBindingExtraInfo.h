@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FiveDimLevelVarBindingExtraInfo; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimLevelVarBindingExtraInfo_TypeDefinitionIndex = 18514;
+
 	class FiveDimLevelVarBindingExtraInfo : public ::RPG::GameCore::LittleGameLevelVarBindingExtraInfo
 	{
 	public:

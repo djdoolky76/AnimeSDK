@@ -14,6 +14,8 @@ namespace RPG::GameCore { template <typename T> class LockableList_1; }
 #define BDHLCHMLPDL_ONPLUGININIT_OFFSET UNITYSDK_OFFSET(0x162FABD0)
 #define BDHLCHMLPDL_ONPLUGINUNINIT_OFFSET UNITYSDK_OFFSET(0x162FAC20)
 
+inline static constexpr unsigned int BDHLCHMLPDL_TypeDefinitionIndex = 57828;
+
 	class BDHLCHMLPDL : public ::System::Object
 	{
 	public:

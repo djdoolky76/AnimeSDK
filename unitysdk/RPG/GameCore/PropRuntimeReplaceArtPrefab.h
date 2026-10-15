@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PropRuntimeReplaceArtPrefab_TypeDefinitionIndex = 22168;
+
 	class PropRuntimeReplaceArtPrefab : public ::RPG::GameCore::TaskConfig
 	{
 	public:

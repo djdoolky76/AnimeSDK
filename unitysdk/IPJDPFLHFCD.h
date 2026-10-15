@@ -5,6 +5,8 @@
 #define IPJDPFLHFCD_CCTOR_OFFSET UNITYSDK_OFFSET(0x16524100)
 #define IPJDPFLHFCD_CTOR_OFFSET UNITYSDK_OFFSET(0x165240F0)
 
+inline static constexpr unsigned int IPJDPFLHFCD_TypeDefinitionIndex = 70238;
+
 	class IPJDPFLHFCD : public ::System::Attribute
 	{
 	public:

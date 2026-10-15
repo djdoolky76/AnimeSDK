@@ -13,6 +13,8 @@ namespace System { class Type; }
 
 namespace System::Runtime::Remoting
 {
+	inline static constexpr unsigned int WellKnownServiceTypeEntry_TypeDefinitionIndex = 1231;
+
 	class WellKnownServiceTypeEntry : public ::System::Runtime::Remoting::TypeEntry
 	{
 	public:

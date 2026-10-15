@@ -25,6 +25,8 @@ namespace UnityEngine::UI { class Text; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int Confirm_TypeDefinitionIndex = 8233;
+
 	class Confirm : public ::MiHoYo::SDK::UIElement
 	{
 	public:

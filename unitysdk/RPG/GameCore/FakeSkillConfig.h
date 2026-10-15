@@ -9,6 +9,8 @@ namespace RPG::GameCore { class FakeSkillConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FakeSkillConfig_TypeDefinitionIndex = 18191;
+
 	class FakeSkillConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int IdleLiveWorldTagRow_TypeDefinitionIndex = 11774;
+
 	class IdleLiveWorldTagRow : public ::System::Object
 	{
 	public:

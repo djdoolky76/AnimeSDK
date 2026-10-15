@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define GMBMNFLMKPI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E4CAE50)
 #define GMBMNFLMKPI___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E4CAE60)
 
+inline static constexpr unsigned int GMBMNFLMKPI___c_TypeDefinitionIndex = 29132;
+
 	class GMBMNFLMKPI___c : public ::System::Object
 	{
 	public:

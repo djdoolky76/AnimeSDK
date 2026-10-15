@@ -31,6 +31,8 @@ namespace System { class String; }
 #define AECPNKPOOCP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DDE9920)
 #define AECPNKPOOCP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DDE9980)
 
+inline static constexpr unsigned int AECPNKPOOCP_TypeDefinitionIndex = 26056;
+
 	class AECPNKPOOCP : public ::System::Object
 	{
 	public:

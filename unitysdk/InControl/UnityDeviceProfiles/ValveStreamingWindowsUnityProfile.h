@@ -7,6 +7,8 @@
 
 namespace InControl::UnityDeviceProfiles
 {
+	inline static constexpr unsigned int ValveStreamingWindowsUnityProfile_TypeDefinitionIndex = 41097;
+
 	class ValveStreamingWindowsUnityProfile : public ::InControl::InputDeviceProfile
 	{
 	public:

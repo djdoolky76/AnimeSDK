@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace RPG::Client::RelicSmartSuit
 {
+	inline static constexpr unsigned int RelicSmartSuitComparePinOperator___c_TypeDefinitionIndex = 74401;
+
 	class RelicSmartSuitComparePinOperator___c : public ::System::Object
 	{
 	public:

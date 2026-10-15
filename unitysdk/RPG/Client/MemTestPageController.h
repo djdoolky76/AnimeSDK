@@ -60,6 +60,8 @@ namespace UnityEngine::EventSystems { class PointerEventData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MemTestPageController_TypeDefinitionIndex = 72813;
+
 	class MemTestPageController : public ::RPG::Client::UIController
 	{
 	public:

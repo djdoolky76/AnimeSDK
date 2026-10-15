@@ -6,6 +6,8 @@
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int CustomNoticeParam_TypeDefinitionIndex = 7580;
+
 	class CustomNoticeParam : public ::System::Object
 	{
 	public:

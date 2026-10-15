@@ -3,6 +3,8 @@
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int CursorLockMode_TypeDefinitionIndex = 4211;
+
 	enum class CursorLockMode : ::System::Int32
 	{
 		None = 0,

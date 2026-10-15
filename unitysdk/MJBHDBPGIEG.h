@@ -7,6 +7,8 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 #define MJBHDBPGIEG_CTOR_OFFSET UNITYSDK_OFFSET(0xB962FA0)
 #define MJBHDBPGIEG_KKKIONIDKFA_OFFSET UNITYSDK_OFFSET(0xB963100)
 
+inline static constexpr unsigned int MJBHDBPGIEG_TypeDefinitionIndex = 61715;
+
 	class MJBHDBPGIEG : public ::System::Object
 	{
 	public:

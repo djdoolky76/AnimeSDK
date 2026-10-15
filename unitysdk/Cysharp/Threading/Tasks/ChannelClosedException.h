@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace Cysharp::Threading::Tasks
 {
+	inline static constexpr unsigned int ChannelClosedException_TypeDefinitionIndex = 38145;
+
 	class ChannelClosedException : public ::System::InvalidOperationException
 	{
 	public:

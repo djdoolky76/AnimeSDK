@@ -11,6 +11,8 @@ namespace RPG::GameCore { class CakeRaceMessageRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CakeRaceMessageRow_TypeDefinitionIndex = 11003;
+
 	class CakeRaceMessageRow : public ::System::Object
 	{
 	public:

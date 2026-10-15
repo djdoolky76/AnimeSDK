@@ -3,6 +3,8 @@
 
 #define EKGBABPLCIG_CTOR_OFFSET UNITYSDK_OFFSET(0x15505850)
 
+inline static constexpr unsigned int EKGBABPLCIG_TypeDefinitionIndex = 75823;
+
 	class EKGBABPLCIG
 	{
 	public:

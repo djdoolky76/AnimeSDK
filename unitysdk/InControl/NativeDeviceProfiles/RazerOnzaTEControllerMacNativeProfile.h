@@ -7,6 +7,8 @@
 
 namespace InControl::NativeDeviceProfiles
 {
+	inline static constexpr unsigned int RazerOnzaTEControllerMacNativeProfile_TypeDefinitionIndex = 41222;
+
 	class RazerOnzaTEControllerMacNativeProfile : public ::InControl::NativeDeviceProfiles::Xbox360DriverMacNativeProfile
 	{
 	public:

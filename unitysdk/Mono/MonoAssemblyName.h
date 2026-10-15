@@ -4,6 +4,8 @@
 
 namespace Mono
 {
+	inline static constexpr unsigned int MonoAssemblyName_TypeDefinitionIndex = 19;
+
 	struct alignas(4) MonoAssemblyName
 	{
 		::System::IntPtr name; // 0x10

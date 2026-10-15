@@ -7,6 +7,8 @@
 
 namespace RPG::Client::CrowdAnimator
 {
+	inline static constexpr unsigned int CapsuleColliderInfo_TypeDefinitionIndex = 73734;
+
 	class CapsuleColliderInfo : public ::System::Object
 	{
 	public:

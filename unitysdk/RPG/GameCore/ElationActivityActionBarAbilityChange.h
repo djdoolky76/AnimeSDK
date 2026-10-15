@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ElationActivityActionBarAbilityChange; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ElationActivityActionBarAbilityChange_TypeDefinitionIndex = 22830;
+
 	class ElationActivityActionBarAbilityChange : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -12,6 +12,8 @@ namespace RPG::GameCore { class StagePVSData; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int StagePVSData_TypeDefinitionIndex = 19174;
+
 	class StagePVSData : public ::RPG::GameCore::JsonConfig
 	{
 	public:

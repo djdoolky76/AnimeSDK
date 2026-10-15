@@ -15,6 +15,8 @@
 
 namespace EzySlice
 {
+	inline static constexpr unsigned int TextureRegion_TypeDefinitionIndex = 46999;
+
 	struct alignas(4) TextureRegion
 	{
 		::System::Single pos_start_x; // 0x10

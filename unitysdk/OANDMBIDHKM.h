@@ -8,6 +8,8 @@ namespace System { class String; }
 #define OANDMBIDHKM_CTOR_OFFSET UNITYSDK_OFFSET(0xBD2F100)
 #define OANDMBIDHKM_FPKLDCGAJGP_OFFSET UNITYSDK_OFFSET(0xBD2EB60)
 
+inline static constexpr unsigned int OANDMBIDHKM_TypeDefinitionIndex = 79703;
+
 	class OANDMBIDHKM : public ::System::Object
 	{
 	public:

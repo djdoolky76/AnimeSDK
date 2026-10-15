@@ -11,6 +11,8 @@ namespace RPG::GameCore { class FateRinCaseBoardTeamRelationInfo; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FateRinCaseBoardTeamRelationInfo_TypeDefinitionIndex = 16233;
+
 	class FateRinCaseBoardTeamRelationInfo : public ::RPG::GameCore::JsonConfig
 	{
 	public:

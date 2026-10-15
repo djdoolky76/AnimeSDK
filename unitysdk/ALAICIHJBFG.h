@@ -18,6 +18,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define ALAICIHJBFG_NNKLDODLBNP_OFFSET UNITYSDK_OFFSET(0x12CE0810)
 #define ALAICIHJBFG_OMCPGPADEIP_OFFSET UNITYSDK_OFFSET(0x12CE05C0)
 
+inline static constexpr unsigned int ALAICIHJBFG_TypeDefinitionIndex = 75291;
+
 	class ALAICIHJBFG : public ::System::Object
 	{
 	public:

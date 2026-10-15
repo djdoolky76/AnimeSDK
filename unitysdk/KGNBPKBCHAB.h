@@ -25,6 +25,8 @@ namespace System { class String; }
 #define KGNBPKBCHAB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E83AE40)
 #define KGNBPKBCHAB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E83AEA0)
 
+inline static constexpr unsigned int KGNBPKBCHAB_TypeDefinitionIndex = 35065;
+
 	class KGNBPKBCHAB : public ::System::Object
 	{
 	public:

@@ -5,6 +5,8 @@ class EAHCLJPMCIG;
 
 #define IDKMPJCBMFH_CTOR_OFFSET UNITYSDK_OFFSET(0x15ED9890)
 
+inline static constexpr unsigned int IDKMPJCBMFH_TypeDefinitionIndex = 80555;
+
 	class IDKMPJCBMFH : public ::System::Object
 	{
 	public:

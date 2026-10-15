@@ -29,6 +29,8 @@ namespace System { class String; }
 #define JGNNOJEEBLP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E73E330)
 #define JGNNOJEEBLP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E73E390)
 
+inline static constexpr unsigned int JGNNOJEEBLP_TypeDefinitionIndex = 34994;
+
 	class JGNNOJEEBLP : public ::System::Object
 	{
 	public:

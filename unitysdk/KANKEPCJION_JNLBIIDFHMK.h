@@ -8,6 +8,8 @@ namespace RPG::GameCore { class GameEntity; }
 
 #define KANKEPCJION_JNLBIIDFHMK_CTOR_OFFSET UNITYSDK_OFFSET(0xB2E4C10)
 
+inline static constexpr unsigned int KANKEPCJION_JNLBIIDFHMK_TypeDefinitionIndex = 71896;
+
 	class KANKEPCJION_JNLBIIDFHMK : public ::System::Object
 	{
 	public:

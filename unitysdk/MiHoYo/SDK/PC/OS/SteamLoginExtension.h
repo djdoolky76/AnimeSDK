@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::PC::OS
 {
+	inline static constexpr unsigned int SteamLoginExtension_TypeDefinitionIndex = 8702;
+
 	class SteamLoginExtension : public ::System::Object
 	{
 	public:

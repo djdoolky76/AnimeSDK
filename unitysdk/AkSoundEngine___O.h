@@ -3,6 +3,8 @@
 #include "unitysdk/System/Object.h"
 class AkSoundEngine_GameObjectHashFunction;
 
+inline static constexpr unsigned int AkSoundEngine___O_TypeDefinitionIndex = 44804;
+
 	class AkSoundEngine___O : public ::System::Object
 	{
 	public:

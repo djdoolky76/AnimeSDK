@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define IEFFGOMNLNA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E638830)
 #define IEFFGOMNLNA___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E638840)
 
+inline static constexpr unsigned int IEFFGOMNLNA___c_TypeDefinitionIndex = 32787;
+
 	class IEFFGOMNLNA___c : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define KPOBNILOOKO_HDCOEMKCIIF_COMPARETO_OFFSET UNITYSDK_OFFSET(0xB5CFD50)
 #define KPOBNILOOKO_HDCOEMKCIIF_CTOR_OFFSET UNITYSDK_OFFSET(0xB5CFE00)
 
+inline static constexpr unsigned int KPOBNILOOKO_HDCOEMKCIIF_TypeDefinitionIndex = 73339;
+
 	class KPOBNILOOKO_HDCOEMKCIIF : public ::System::Object
 	{
 	public:

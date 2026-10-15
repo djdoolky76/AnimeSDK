@@ -9,6 +9,8 @@ namespace System { class String; }
 
 namespace System::Net
 {
+	inline static constexpr unsigned int HeaderVariantInfo_TypeDefinitionIndex = 2803;
+
 	struct alignas(8) HeaderVariantInfo
 	{
 		::System::String* m_name; // 0x10

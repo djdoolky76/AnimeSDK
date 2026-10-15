@@ -28,6 +28,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 #define KNOOGHJPPBL_PGJGHFNMLNA_OFFSET UNITYSDK_OFFSET(0xB58A610)
 #define KNOOGHJPPBL_PPPFFEDPKKD_OFFSET UNITYSDK_OFFSET(0xB58A8D0)
 
+inline static constexpr unsigned int KNOOGHJPPBL_TypeDefinitionIndex = 62672;
+
 	class KNOOGHJPPBL : public ::System::Object
 	{
 	public:

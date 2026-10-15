@@ -18,6 +18,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client::LittleGame::PixAir
 {
+	inline static constexpr unsigned int PixAirViewUtils_TypeDefinitionIndex = 77294;
+
 	class PixAirViewUtils : public ::System::Object
 	{
 	public:

@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace RPG::Client::LittleGame
 {
+	inline static constexpr unsigned int PlacementConfig_TypeDefinitionIndex = 42314;
+
 	class PlacementConfig : public ::RPG::Client::LittleGame::WeightConfig
 	{
 	public:

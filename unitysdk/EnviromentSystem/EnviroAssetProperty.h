@@ -21,6 +21,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace EnviromentSystem
 {
+	inline static constexpr unsigned int EnviroAssetProperty_TypeDefinitionIndex = 49615;
+
 	class EnviroAssetProperty : public ::EnviromentSystem::EnviroProperty
 	{
 	public:

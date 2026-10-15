@@ -39,6 +39,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoFullBodyIK_TypeDefinitionIndex = 68600;
+
 	class MonoFullBodyIK : public ::UnityEngine::MonoBehaviour
 	{
 	public:

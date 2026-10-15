@@ -10,6 +10,8 @@ namespace System { template <typename T> class Comparison_1; }
 #define IAFKDONMBFH___C__CALCULATESTREAMINGTASK_B__17_0_OFFSET UNITYSDK_OFFSET(0x15E0BB80)
 #define IAFKDONMBFH___C__SOLVECALCULATELODTASK_B__19_0_OFFSET UNITYSDK_OFFSET(0x15E0BBD0)
 
+inline static constexpr unsigned int IAFKDONMBFH___c_TypeDefinitionIndex = 73788;
+
 	class IAFKDONMBFH___c : public ::System::Object
 	{
 	public:

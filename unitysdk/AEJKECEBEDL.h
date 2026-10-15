@@ -22,6 +22,8 @@ namespace System { class Object; }
 #define AEJKECEBEDL_SETNEXTTASK_OFFSET UNITYSDK_OFFSET(0xCEFECF0)
 #define AEJKECEBEDL_TICK_OFFSET UNITYSDK_OFFSET(0xCEFF6B0)
 
+inline static constexpr unsigned int AEJKECEBEDL_TypeDefinitionIndex = 58032;
+
 	class AEJKECEBEDL : public ::GELIALJDFBL
 	{
 	public:

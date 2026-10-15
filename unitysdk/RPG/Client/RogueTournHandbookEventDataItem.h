@@ -19,6 +19,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueTournHandbookEventDataItem_TypeDefinitionIndex = 67663;
+
 	class RogueTournHandbookEventDataItem : public ::System::Object
 	{
 	public:

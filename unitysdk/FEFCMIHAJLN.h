@@ -4,6 +4,8 @@
 class LJJLPCBDFAJ;
 namespace UnityEngine { class GameObject; }
 
+inline static constexpr unsigned int FEFCMIHAJLN_TypeDefinitionIndex = 69917;
+
 	struct alignas(8) FEFCMIHAJLN
 	{
 		::System::Boolean BMMEKMLPJNK; // 0x10

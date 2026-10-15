@@ -34,6 +34,8 @@ namespace System { class String; }
 #define OEEMFNGCOBO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DE29FD0)
 #define OEEMFNGCOBO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DE2A030)
 
+inline static constexpr unsigned int OEEMFNGCOBO_TypeDefinitionIndex = 26223;
+
 	class OEEMFNGCOBO : public ::System::Object
 	{
 	public:

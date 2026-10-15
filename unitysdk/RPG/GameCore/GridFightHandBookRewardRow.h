@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GridFightHandBookRewardRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightHandBookRewardRow_TypeDefinitionIndex = 13575;
+
 	class GridFightHandBookRewardRow : public ::System::Object
 	{
 	public:

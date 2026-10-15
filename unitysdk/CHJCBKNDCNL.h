@@ -17,6 +17,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define CHJCBKNDCNL_ONPLUGININIT_OFFSET UNITYSDK_OFFSET(0xCF53F70)
 #define CHJCBKNDCNL_ONPLUGINUNINIT_OFFSET UNITYSDK_OFFSET(0xCF53FC0)
 
+inline static constexpr unsigned int CHJCBKNDCNL_TypeDefinitionIndex = 54105;
+
 	class CHJCBKNDCNL : public ::System::Object
 	{
 	public:

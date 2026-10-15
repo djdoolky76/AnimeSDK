@@ -5,6 +5,8 @@
 
 #define MIIKADDJLGJ_CTOR_OFFSET UNITYSDK_OFFSET(0xB959FF0)
 
+inline static constexpr unsigned int MIIKADDJLGJ_TypeDefinitionIndex = 57050;
+
 	class MIIKADDJLGJ : public ::System::Object
 	{
 	public:

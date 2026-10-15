@@ -10,6 +10,8 @@ namespace RPG::GameCore { class Anniversary2NDContentConfigRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int Anniversary2NDContentConfigRow_TypeDefinitionIndex = 12659;
+
 	class Anniversary2NDContentConfigRow : public ::System::Object
 	{
 	public:

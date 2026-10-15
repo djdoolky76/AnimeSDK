@@ -36,6 +36,8 @@ namespace System { class String; }
 #define AMEMKFNABGG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E51F7C0)
 #define AMEMKFNABGG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E51F820)
 
+inline static constexpr unsigned int AMEMKFNABGG_TypeDefinitionIndex = 25396;
+
 	class AMEMKFNABGG : public ::System::Object
 	{
 	public:

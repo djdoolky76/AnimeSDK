@@ -10,6 +10,8 @@ namespace System { class Type; }
 #define PMFGGDFFLPE_FNAAJGAHIAI_OFFSET UNITYSDK_OFFSET(0xC31B000)
 #define PMFGGDFFLPE_IHPAKOMCHGP_OFFSET UNITYSDK_OFFSET(0xC31B0A0)
 
+inline static constexpr unsigned int PMFGGDFFLPE_TypeDefinitionIndex = 62603;
+
 	class PMFGGDFFLPE : public ::System::Object
 	{
 	public:

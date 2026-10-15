@@ -6,6 +6,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int BattleSilverWolf999BatteryUIData_TypeDefinitionIndex = 71467;
+
 	class BattleSilverWolf999BatteryUIData : public ::System::Object
 	{
 	public:

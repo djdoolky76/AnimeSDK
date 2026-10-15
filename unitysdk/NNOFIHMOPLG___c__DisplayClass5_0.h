@@ -7,6 +7,8 @@ class NNOFIHMOPLG;
 #define NNOFIHMOPLG___C__DISPLAYCLASS5_0_CTOR_OFFSET UNITYSDK_OFFSET(0xBCD8780)
 #define NNOFIHMOPLG___C__DISPLAYCLASS5_0__SETUPVIEW_B__0_OFFSET UNITYSDK_OFFSET(0xBCDA270)
 
+inline static constexpr unsigned int NNOFIHMOPLG___c__DisplayClass5_0_TypeDefinitionIndex = 71987;
+
 	class NNOFIHMOPLG___c__DisplayClass5_0 : public ::System::Object
 	{
 	public:

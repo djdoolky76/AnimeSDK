@@ -6,6 +6,8 @@ class EBPMACLHLOP;
 #define PMHPPMJAECI_CLEAR_OFFSET UNITYSDK_OFFSET(0x1C9F6BE0)
 #define PMHPPMJAECI_CTOR_OFFSET UNITYSDK_OFFSET(0x1C9F6C40)
 
+inline static constexpr unsigned int PMHPPMJAECI_TypeDefinitionIndex = 43327;
+
 	class PMHPPMJAECI : public ::System::Object
 	{
 	public:

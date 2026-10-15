@@ -11,6 +11,8 @@ namespace System::Collections::Generic { class KeyValuePair; }
 #define ALDMDBEKHPL___C__DETERMINEPRODUCTTRAITS_B__6_1_OFFSET UNITYSDK_OFFSET(0x1C53F260)
 #define ALDMDBEKHPL___C__DETERMINEPRODUCTTRAITS_B__6_2_OFFSET UNITYSDK_OFFSET(0x1C53F270)
 
+inline static constexpr unsigned int ALDMDBEKHPL___c_TypeDefinitionIndex = 41740;
+
 	class ALDMDBEKHPL___c : public ::System::Object
 	{
 	public:

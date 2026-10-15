@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TraceEntityMappingInfo; }
 #define MMNNJGFBPHK_CTOR_OFFSET UNITYSDK_OFFSET(0xB9DE630)
 #define MMNNJGFBPHK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB9DE660)
 
+inline static constexpr unsigned int MMNNJGFBPHK_TypeDefinitionIndex = 53411;
+
 	class MMNNJGFBPHK
 	{
 	public:

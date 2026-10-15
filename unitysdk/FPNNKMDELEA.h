@@ -8,6 +8,8 @@ namespace RPG { template <typename T> class PoolList_1; }
 #define FPNNKMDELEA_CLEAR_OFFSET UNITYSDK_OFFSET(0x1CA73230)
 #define FPNNKMDELEA_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA73370)
 
+inline static constexpr unsigned int FPNNKMDELEA_TypeDefinitionIndex = 43317;
+
 	class FPNNKMDELEA : public ::System::Object
 	{
 	public:

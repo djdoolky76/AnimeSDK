@@ -45,6 +45,8 @@ namespace System::Runtime::Remoting::Messaging { class MCMDictionary; }
 
 namespace System::Runtime::Remoting::Messaging
 {
+	inline static constexpr unsigned int MonoMethodMessage_TypeDefinitionIndex = 1327;
+
 	class MonoMethodMessage : public ::System::Object
 	{
 	public:

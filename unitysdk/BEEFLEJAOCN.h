@@ -51,6 +51,8 @@ namespace System { class String; }
 #define BEEFLEJAOCN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EA5FF90)
 #define BEEFLEJAOCN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EA5FFF0)
 
+inline static constexpr unsigned int BEEFLEJAOCN_TypeDefinitionIndex = 29237;
+
 	class BEEFLEJAOCN : public ::System::Object
 	{
 	public:

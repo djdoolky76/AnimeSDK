@@ -6,6 +6,8 @@
 #define JDIKAFLGEAO_NKPPGDENJAE_OFFSET UNITYSDK_OFFSET(0x165CDA30)
 #define JDIKAFLGEAO__ONBIND_OFFSET UNITYSDK_OFFSET(0x165CD9E0)
 
+inline static constexpr unsigned int JDIKAFLGEAO_TypeDefinitionIndex = 71935;
+
 	class JDIKAFLGEAO : public ::BEBKIEOBLPK
 	{
 	public:

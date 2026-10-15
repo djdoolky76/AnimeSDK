@@ -25,6 +25,8 @@ namespace UnityEngine { class Animator; }
 #define KIBCICJMIAC_MPNJBFIAGHN_OFFSET UNITYSDK_OFFSET(0xB416CC0)
 #define KIBCICJMIAC_PMLFICBIINN_OFFSET UNITYSDK_OFFSET(0xB418020)
 
+inline static constexpr unsigned int KIBCICJMIAC_TypeDefinitionIndex = 55916;
+
 	class KIBCICJMIAC : public ::System::Object
 	{
 	public:

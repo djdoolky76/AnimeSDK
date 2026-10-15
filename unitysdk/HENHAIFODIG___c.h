@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define HENHAIFODIG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E55D7E0)
 #define HENHAIFODIG___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E55D7F0)
 
+inline static constexpr unsigned int HENHAIFODIG___c_TypeDefinitionIndex = 31677;
+
 	class HENHAIFODIG___c : public ::System::Object
 	{
 	public:

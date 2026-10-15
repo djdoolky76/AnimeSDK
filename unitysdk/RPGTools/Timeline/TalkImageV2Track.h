@@ -12,6 +12,8 @@ namespace UnityEngine::Timeline { class TimelineClip; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int TalkImageV2Track_TypeDefinitionIndex = 48396;
+
 	class TalkImageV2Track : public ::UnityEngine::Timeline::TrackAsset
 	{
 	public:

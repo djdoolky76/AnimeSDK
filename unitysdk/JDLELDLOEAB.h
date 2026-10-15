@@ -13,6 +13,8 @@ class JDLELDLOEAB;
 #define JDLELDLOEAB_PABKEMGJJAO_OFFSET UNITYSDK_OFFSET(0x165D5AE0)
 #define JDLELDLOEAB_PKEDBHLJBMJ_OFFSET UNITYSDK_OFFSET(0x165D5990)
 
+inline static constexpr unsigned int JDLELDLOEAB_TypeDefinitionIndex = 49408;
+
 	class JDLELDLOEAB : public ::System::Object
 	{
 	public:

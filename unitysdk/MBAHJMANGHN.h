@@ -33,6 +33,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define MBAHJMANGHN_SET_SOURCE_OFFSET UNITYSDK_OFFSET(0xB858240)
 #define MBAHJMANGHN_SET_TARGET_OFFSET UNITYSDK_OFFSET(0xB858260)
 
+inline static constexpr unsigned int MBAHJMANGHN_TypeDefinitionIndex = 79338;
+
 	class MBAHJMANGHN : public ::System::Object
 	{
 	public:

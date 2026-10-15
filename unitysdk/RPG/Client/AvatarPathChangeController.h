@@ -16,6 +16,8 @@ namespace XLua { class LuaTable; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AvatarPathChangeController_TypeDefinitionIndex = 71338;
+
 	class AvatarPathChangeController : public ::UnityEngine::MonoBehaviour
 	{
 	public:

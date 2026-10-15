@@ -11,6 +11,8 @@ namespace RPG::GameCore { class RogueChestModifierEvent; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueChestModifierEvent_TypeDefinitionIndex = 17910;
+
 	class RogueChestModifierEvent : public ::RPG::GameCore::JsonConfig
 	{
 	public:

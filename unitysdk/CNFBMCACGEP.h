@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define CNFBMCACGEP_LOCK_OFFSET UNITYSDK_OFFSET(0xDA4C1A0)
 #define CNFBMCACGEP_UNLOCK_OFFSET UNITYSDK_OFFSET(0xDA4C430)
 
+inline static constexpr unsigned int CNFBMCACGEP_TypeDefinitionIndex = 74784;
+
 	class CNFBMCACGEP : public ::RPG::Client::GamePlayLockTargetFunc
 	{
 	public:

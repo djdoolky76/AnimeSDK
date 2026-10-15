@@ -15,6 +15,8 @@ namespace RPG::GameCore { class TaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SortTargets_TypeDefinitionIndex = 23139;
+
 	class SortTargets : public ::RPG::GameCore::TaskConfig
 	{
 	public:

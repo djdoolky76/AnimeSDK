@@ -21,6 +21,8 @@ namespace UnityEngine { class Material; }
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int DrawingSettings_TypeDefinitionIndex = 4753;
+
 	struct alignas(4) DrawingSettings
 	{
 		::UnityEngine::Rendering::SortingSettings m_SortingSettings; // 0x10

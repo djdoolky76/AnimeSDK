@@ -11,6 +11,8 @@ namespace RPG::GameCore { class SwitchHandLiftToAnchor; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SwitchHandLiftToAnchor_TypeDefinitionIndex = 20962;
+
 	class SwitchHandLiftToAnchor : public ::RPG::GameCore::TaskConfig
 	{
 	public:

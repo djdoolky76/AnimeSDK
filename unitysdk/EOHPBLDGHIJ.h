@@ -156,6 +156,8 @@ namespace RPG::GameCore { class FiveDimBaseEventAction; }
 #define EOHPBLDGHIJ_PMCGMLLCBLF_OFFSET UNITYSDK_OFFSET(0x1CDB4B50)
 #define EOHPBLDGHIJ_POMEKLECEMK_OFFSET UNITYSDK_OFFSET(0x1CDB4030)
 
+inline static constexpr unsigned int EOHPBLDGHIJ_TypeDefinitionIndex = 19090;
+
 	class EOHPBLDGHIJ : public ::System::Object
 	{
 	public:

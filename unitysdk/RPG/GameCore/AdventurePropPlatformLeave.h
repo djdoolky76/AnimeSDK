@@ -13,6 +13,8 @@ namespace RPG::GameCore { class GameEntity; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdventurePropPlatformLeave_TypeDefinitionIndex = 56649;
+
 	class AdventurePropPlatformLeave : public ::CMPGEAFHHDC
 	{
 	public:

@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TacticsPointConditionType_TypeDefinitionIndex = 11306;
+
 	enum class TacticsPointConditionType : ::System::Int32
 	{
 		TurnStart = 0,

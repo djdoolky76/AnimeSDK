@@ -56,6 +56,8 @@ namespace System { class String; }
 
 namespace CriWare
 {
+	inline static constexpr unsigned int CriAtomExAsr_TypeDefinitionIndex = 40003;
+
 	class CriAtomExAsr : public ::System::Object
 	{
 	public:

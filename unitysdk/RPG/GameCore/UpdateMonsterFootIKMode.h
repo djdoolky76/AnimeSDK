@@ -11,6 +11,8 @@ namespace RPG::GameCore { class UpdateMonsterFootIKMode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int UpdateMonsterFootIKMode_TypeDefinitionIndex = 22420;
+
 	class UpdateMonsterFootIKMode : public ::RPG::GameCore::TaskConfig
 	{
 	public:

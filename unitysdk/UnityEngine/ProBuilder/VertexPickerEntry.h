@@ -5,6 +5,8 @@ namespace UnityEngine::ProBuilder { class ProBuilderMesh; }
 
 namespace UnityEngine::ProBuilder
 {
+	inline static constexpr unsigned int VertexPickerEntry_TypeDefinitionIndex = 44427;
+
 	struct alignas(8) VertexPickerEntry
 	{
 		::UnityEngine::ProBuilder::ProBuilderMesh* mesh; // 0x10

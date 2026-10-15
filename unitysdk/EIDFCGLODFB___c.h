@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define EIDFCGLODFB___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E2A73B0)
 #define EIDFCGLODFB___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1E2A73C0)
 
+inline static constexpr unsigned int EIDFCGLODFB___c_TypeDefinitionIndex = 31019;
+
 	class EIDFCGLODFB___c : public ::System::Object
 	{
 	public:

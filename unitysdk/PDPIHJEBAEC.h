@@ -23,6 +23,8 @@ namespace RPG { template <typename T> class PoolList_1; }
 #define PDPIHJEBAEC_ONALLOC_OFFSET UNITYSDK_OFFSET(0x1C9A5900)
 #define PDPIHJEBAEC_ONRECYCLE_OFFSET UNITYSDK_OFFSET(0x1C9A5990)
 
+inline static constexpr unsigned int PDPIHJEBAEC_TypeDefinitionIndex = 43369;
+
 	class PDPIHJEBAEC : public ::System::Object
 	{
 	public:

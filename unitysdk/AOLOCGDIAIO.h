@@ -28,6 +28,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define AOLOCGDIAIO_KMFJPDBLABA_OFFSET UNITYSDK_OFFSET(0x158C1B70)
 #define AOLOCGDIAIO_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0x158C1680)
 
+inline static constexpr unsigned int AOLOCGDIAIO_TypeDefinitionIndex = 55626;
+
 	class AOLOCGDIAIO : public ::System::Object
 	{
 	public:

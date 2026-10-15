@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::DiceCombat
 {
+	inline static constexpr unsigned int DiceCombatUtil___c__DisplayClass18_0_TypeDefinitionIndex = 76102;
+
 	class DiceCombatUtil___c__DisplayClass18_0 : public ::System::Object
 	{
 	public:

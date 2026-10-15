@@ -12,6 +12,8 @@ namespace System::Runtime::Serialization { class SerializationInfo; }
 #define HCOGGGHILEI_KJLMKPGKGHB_OFFSET UNITYSDK_OFFSET(0x1DD61AE0)
 #define HCOGGGHILEI_MMCMILPKEHO_OFFSET UNITYSDK_OFFSET(0x1DD61A80)
 
+inline static constexpr unsigned int HCOGGGHILEI_TypeDefinitionIndex = 6325;
+
 	class HCOGGGHILEI : public ::System::Object
 	{
 	public:

@@ -13,6 +13,8 @@ namespace UnityEngine { class Camera; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int CaptureBoundary___c__DisplayClass25_0_TypeDefinitionIndex = 37598;
+
 	class CaptureBoundary___c__DisplayClass25_0 : public ::System::Object
 	{
 	public:

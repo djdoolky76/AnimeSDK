@@ -13,6 +13,8 @@ class BOCHJJNGOIH;
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoEffectPluginFollowVisibility_TypeDefinitionIndex = 70068;
+
 	class MonoEffectPluginFollowVisibility : public ::RPG::Client::MonoEffectPluginBase
 	{
 	public:

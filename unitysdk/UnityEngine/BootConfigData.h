@@ -8,6 +8,8 @@ namespace UnityEngine { class BootConfigData; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int BootConfigData_TypeDefinitionIndex = 4036;
+
 	class BootConfigData : public ::System::Object
 	{
 	public:

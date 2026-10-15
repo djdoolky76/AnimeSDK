@@ -6,6 +6,8 @@ namespace System { class String; }
 #define LKHAKHBCHGL_CCTOR_OFFSET UNITYSDK_OFFSET(0xB74A910)
 #define LKHAKHBCHGL_CTOR_OFFSET UNITYSDK_OFFSET(0xB74A900)
 
+inline static constexpr unsigned int LKHAKHBCHGL_TypeDefinitionIndex = 59062;
+
 	class LKHAKHBCHGL : public ::System::Object
 	{
 	public:

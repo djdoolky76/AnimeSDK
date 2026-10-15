@@ -31,6 +31,8 @@ namespace System { class String; }
 
 namespace Proto
 {
+	inline static constexpr unsigned int GachaCeilingAvatar_TypeDefinitionIndex = 29079;
+
 	class GachaCeilingAvatar : public ::System::Object
 	{
 	public:

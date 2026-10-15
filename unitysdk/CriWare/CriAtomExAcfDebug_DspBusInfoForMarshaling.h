@@ -8,6 +8,8 @@
 
 namespace CriWare
 {
+	inline static constexpr unsigned int CriAtomExAcfDebug_DspBusInfoForMarshaling_TypeDefinitionIndex = 40186;
+
 	struct alignas(8) CriAtomExAcfDebug_DspBusInfoForMarshaling
 	{
 		::System::IntPtr namePtr; // 0x10

@@ -15,6 +15,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdvSetupCustomTaskTrigger_TypeDefinitionIndex = 20534;
+
 	class AdvSetupCustomTaskTrigger : public ::RPG::GameCore::TaskConfig
 	{
 	public:

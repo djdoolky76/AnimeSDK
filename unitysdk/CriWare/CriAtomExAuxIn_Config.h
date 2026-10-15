@@ -6,6 +6,8 @@
 
 namespace CriWare
 {
+	inline static constexpr unsigned int CriAtomExAuxIn_Config_TypeDefinitionIndex = 40040;
+
 	struct alignas(4) CriAtomExAuxIn_Config
 	{
 		::System::Int32 maxChannels; // 0x10

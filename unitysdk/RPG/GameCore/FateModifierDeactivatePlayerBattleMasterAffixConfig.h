@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FateModifierDeactivatePlayerBattleMasterAffixCon
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FateModifierDeactivatePlayerBattleMasterAffixConfig_TypeDefinitionIndex = 19269;
+
 	class FateModifierDeactivatePlayerBattleMasterAffixConfig : public ::RPG::GameCore::FateModifierConfigBase
 	{
 	public:

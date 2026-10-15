@@ -48,6 +48,8 @@ namespace UnityEngine::UI { class Toggle; }
 
 namespace MiHoYo::SDK::Win
 {
+	inline static constexpr unsigned int CNPayPlatDialog_TypeDefinitionIndex = 9552;
+
 	class CNPayPlatDialog : public ::MiHoYo::SDK::UIElement
 	{
 	public:

@@ -10,6 +10,8 @@
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int CRPGraphicsSettingsData_DLSSSettings_TypeDefinitionIndex = 37674;
+
 	class CRPGraphicsSettingsData_DLSSSettings : public ::System::Object
 	{
 	public:

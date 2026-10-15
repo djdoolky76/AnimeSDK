@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int SecurityTunnel_OnDisconnectedAction_TypeDefinitionIndex = 46393;
+
 	class SecurityTunnel_OnDisconnectedAction : public ::System::MulticastDelegate
 	{
 	public:

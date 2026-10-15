@@ -10,6 +10,8 @@ namespace RPG::Client { class RogueTournTitanTalentInfo; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueTournArchivedTalentInfo_TypeDefinitionIndex = 67854;
+
 	class RogueTournArchivedTalentInfo : public ::System::Object
 	{
 	public:

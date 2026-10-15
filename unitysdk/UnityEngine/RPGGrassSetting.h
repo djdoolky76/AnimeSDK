@@ -3,6 +3,8 @@
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int RPGGrassSetting_TypeDefinitionIndex = 4286;
+
 	struct alignas(4) RPGGrassSetting
 	{
 		::System::Int32 MaxInstancesPerLeafNode; // 0x10

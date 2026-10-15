@@ -3,6 +3,8 @@
 
 namespace RPG::Client::LittleGame
 {
+	inline static constexpr unsigned int MonopolySwitchState_TypeDefinitionIndex = 42554;
+
 	enum class MonopolySwitchState : ::System::Int32
 	{
 		None = 0,

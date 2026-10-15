@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define MOAGBNEDLHE_CTOR_OFFSET UNITYSDK_OFFSET(0xBA1BCF0)
 #define MOAGBNEDLHE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBA1BD20)
 
+inline static constexpr unsigned int MOAGBNEDLHE_TypeDefinitionIndex = 52906;
+
 	class MOAGBNEDLHE
 	{
 	public:

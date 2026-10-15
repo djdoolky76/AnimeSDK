@@ -28,6 +28,8 @@ namespace System { class String; }
 #define GNPFDBACMIH_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E4E7B30)
 #define GNPFDBACMIH_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E4E7B90)
 
+inline static constexpr unsigned int GNPFDBACMIH_TypeDefinitionIndex = 33549;
+
 	class GNPFDBACMIH : public ::System::Object
 	{
 	public:

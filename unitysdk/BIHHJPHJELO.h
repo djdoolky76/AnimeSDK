@@ -7,6 +7,8 @@ namespace System::IO { class Stream; }
 #define BIHHJPHJELO_HMBFDGFCAFE_OFFSET UNITYSDK_OFFSET(0x1C5BF4A0)
 #define BIHHJPHJELO_JDEMEDDGEPM_OFFSET UNITYSDK_OFFSET(0x1C5BF4E0)
 
+inline static constexpr unsigned int BIHHJPHJELO_TypeDefinitionIndex = 36888;
+
 	class BIHHJPHJELO : public ::System::Object
 	{
 	public:

@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define KJPOADGEGJH_OBLICKHNBAC_OFFSET UNITYSDK_OFFSET(0x1C715590)
 #define KJPOADGEGJH_PNJODACLLPH_OFFSET UNITYSDK_OFFSET(0x1C715530)
 
+inline static constexpr unsigned int KJPOADGEGJH_TypeDefinitionIndex = 37084;
+
 	class KJPOADGEGJH : public ::System::Object
 	{
 	public:

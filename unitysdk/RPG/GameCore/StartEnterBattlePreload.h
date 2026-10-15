@@ -10,6 +10,8 @@ namespace RPG::GameCore { class StartEnterBattlePreload; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int StartEnterBattlePreload_TypeDefinitionIndex = 23325;
+
 	class StartEnterBattlePreload : public ::RPG::GameCore::TaskConfig
 	{
 	public:

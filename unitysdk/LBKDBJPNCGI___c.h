@@ -12,6 +12,8 @@ namespace System { class Object; }
 #define LBKDBJPNCGI___C__HANDLESHOWMAINPAGE_B__5_0_OFFSET UNITYSDK_OFFSET(0xB6063B0)
 #define LBKDBJPNCGI___C__ONPVEPROGRESSPAGEEXIT_B__34_0_OFFSET UNITYSDK_OFFSET(0xB606490)
 
+inline static constexpr unsigned int LBKDBJPNCGI___c_TypeDefinitionIndex = 76110;
+
 	class LBKDBJPNCGI___c : public ::System::Object
 	{
 	public:

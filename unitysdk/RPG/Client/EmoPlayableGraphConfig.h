@@ -8,6 +8,8 @@ namespace UnityEngine { class AvatarMask; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int EmoPlayableGraphConfig_TypeDefinitionIndex = 71129;
+
 	class EmoPlayableGraphConfig : public ::UnityEngine::ScriptableObject
 	{
 	public:

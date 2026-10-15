@@ -11,6 +11,8 @@ namespace RPG::GameCore { class MonsterResistEntry; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MonsterResistEntry_TypeDefinitionIndex = 14173;
+
 	class MonsterResistEntry : public ::System::Object
 	{
 	public:

@@ -32,6 +32,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define KOLAAAHNPGB_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1D0C2F00)
 #define KOLAAAHNPGB_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1D0C3930)
 
+inline static constexpr unsigned int KOLAAAHNPGB_TypeDefinitionIndex = 15122;
+
 	class KOLAAAHNPGB : public ::System::Object
 	{
 	public:

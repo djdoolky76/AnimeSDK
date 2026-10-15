@@ -18,6 +18,8 @@ namespace Spine::Unity { class SkeletonMecanim; }
 
 namespace Spine::Unity
 {
+	inline static constexpr unsigned int SkeletonMecanimRootMotion_TypeDefinitionIndex = 45020;
+
 	class SkeletonMecanimRootMotion : public ::Spine::Unity::SkeletonRootMotionBase
 	{
 	public:

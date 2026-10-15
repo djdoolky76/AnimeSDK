@@ -7,6 +7,8 @@
 #define EPMNMBHHEGL_CTOR_OFFSET UNITYSDK_OFFSET(0x155D8FF0)
 #define EPMNMBHHEGL_GMKENGMMLKP_OFFSET UNITYSDK_OFFSET(0x155D8FE0)
 
+inline static constexpr unsigned int EPMNMBHHEGL_TypeDefinitionIndex = 55392;
+
 	class EPMNMBHHEGL : public ::System::Object
 	{
 	public:

@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FollowState_TypeDefinitionIndex = 52409;
+
 	enum class FollowState : ::System::Int32
 	{
 		Wait = 0,

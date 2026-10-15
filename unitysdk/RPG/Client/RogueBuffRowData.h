@@ -24,6 +24,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueBuffRowData_TypeDefinitionIndex = 67200;
+
 	class RogueBuffRowData : public ::System::Object
 	{
 	public:

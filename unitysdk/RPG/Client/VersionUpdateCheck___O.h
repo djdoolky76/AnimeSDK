@@ -7,6 +7,8 @@ namespace System { template <typename T> class Func_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int VersionUpdateCheck___O_TypeDefinitionIndex = 61258;
+
 	class VersionUpdateCheck___O : public ::System::Object
 	{
 	public:

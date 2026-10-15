@@ -4,6 +4,8 @@
 
 #define MLFHPHBDOEE_CTOR_OFFSET UNITYSDK_OFFSET(0xB9AD780)
 
+inline static constexpr unsigned int MLFHPHBDOEE_TypeDefinitionIndex = 81265;
+
 	class MLFHPHBDOEE : public ::System::Object
 	{
 	public:

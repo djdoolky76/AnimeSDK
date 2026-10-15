@@ -30,6 +30,8 @@ namespace System { class String; }
 #define BPPICAMLGNB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E0523A0)
 #define BPPICAMLGNB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E052400)
 
+inline static constexpr unsigned int BPPICAMLGNB_TypeDefinitionIndex = 35109;
+
 	class BPPICAMLGNB : public ::System::Object
 	{
 	public:

@@ -5,6 +5,8 @@ class CMGMEOACHDC;
 class LCDEEKNHPBG;
 namespace System { class Object; }
 
+inline static constexpr unsigned int KOINLDBGPJB___c__3_1_TypeDefinitionIndex = 79154;
+
 	template <typename T>
 	class KOINLDBGPJB___c__3_1 : public ::System::Object
 	{

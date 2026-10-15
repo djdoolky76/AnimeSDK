@@ -4,6 +4,8 @@
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int HoYoSDKHttpDnsService_HttpDnsEventName_TypeDefinitionIndex = 46103;
+
 	class HoYoSDKHttpDnsService_HttpDnsEventName : public ::System::Object
 	{
 	public:

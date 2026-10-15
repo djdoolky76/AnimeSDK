@@ -28,6 +28,8 @@ namespace System { class String; }
 #define OICAPCABFNK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DE68E80)
 #define OICAPCABFNK_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DE68EE0)
 
+inline static constexpr unsigned int OICAPCABFNK_TypeDefinitionIndex = 28357;
+
 	class OICAPCABFNK : public ::System::Object
 	{
 	public:

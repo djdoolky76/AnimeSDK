@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueActReplaceAllRogueMiracleConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueActReplaceAllRogueMiracleConfig_TypeDefinitionIndex = 19648;
+
 	class RogueActReplaceAllRogueMiracleConfig : public ::RPG::GameCore::RogueActionConfigBase
 	{
 	public:

@@ -20,6 +20,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FormatString_TypeDefinitionIndex = 10864;
+
 	struct alignas(8) FormatString
 	{
 		::System::String* _rawString; // 0x10

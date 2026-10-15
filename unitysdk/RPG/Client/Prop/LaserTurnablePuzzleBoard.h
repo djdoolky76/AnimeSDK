@@ -22,6 +22,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int LaserTurnablePuzzleBoard_TypeDefinitionIndex = 78665;
+
 	class LaserTurnablePuzzleBoard : public ::RPG::Client::Prop::PuzzleBoardBase
 	{
 	public:

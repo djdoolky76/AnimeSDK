@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TimelineType_TypeDefinitionIndex = 24523;
+
 	enum class TimelineType : ::System::Int32
 	{
 		Common = 0,

@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int StartReShaSceneSelection_TypeDefinitionIndex = 22028;
+
 	class StartReShaSceneSelection : public ::RPG::GameCore::TaskConfig
 	{
 	public:

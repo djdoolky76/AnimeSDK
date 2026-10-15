@@ -8,6 +8,8 @@ namespace System { class Object; }
 
 namespace RPG::Client::ChenLingFes
 {
+	inline static constexpr unsigned int ChenLingFesGameplayDeleteControl___c_TypeDefinitionIndex = 81309;
+
 	class ChenLingFesGameplayDeleteControl___c : public ::System::Object
 	{
 	public:

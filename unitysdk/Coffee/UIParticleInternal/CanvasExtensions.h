@@ -15,6 +15,8 @@ namespace UnityEngine { class Canvas; }
 
 namespace Coffee::UIParticleInternal
 {
+	inline static constexpr unsigned int CanvasExtensions_TypeDefinitionIndex = 45121;
+
 	class CanvasExtensions : public ::System::Object
 	{
 	public:

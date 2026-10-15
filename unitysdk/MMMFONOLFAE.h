@@ -19,6 +19,8 @@ namespace UnityEngine { class Transform; }
 #define MMMFONOLFAE_NHONNHCIOOJ_OFFSET UNITYSDK_OFFSET(0xB9D8CE0)
 #define MMMFONOLFAE_OINBDMGFFJL_OFFSET UNITYSDK_OFFSET(0xB9D8D60)
 
+inline static constexpr unsigned int MMMFONOLFAE_TypeDefinitionIndex = 68444;
+
 	class MMMFONOLFAE : public ::System::Object
 	{
 	public:

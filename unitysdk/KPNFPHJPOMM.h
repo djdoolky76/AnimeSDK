@@ -70,6 +70,8 @@ namespace UnityEngine { class GameObject; }
 #define KPNFPHJPOMM_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0xB5CC1D0)
 #define KPNFPHJPOMM_PLLJEDEGIMP_OFFSET UNITYSDK_OFFSET(0xB5CA300)
 
+inline static constexpr unsigned int KPNFPHJPOMM_TypeDefinitionIndex = 49179;
+
 	class KPNFPHJPOMM : public ::System::Object
 	{
 	public:

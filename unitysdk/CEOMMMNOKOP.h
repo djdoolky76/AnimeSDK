@@ -21,6 +21,8 @@ namespace RPG::GameCore { class GameEntity; }
 #define CEOMMMNOKOP_MAPIODKPIOO_OFFSET UNITYSDK_OFFSET(0xC9F6E50)
 #define CEOMMMNOKOP_NLBNJGKAMII_OFFSET UNITYSDK_OFFSET(0xC9F6C80)
 
+inline static constexpr unsigned int CEOMMMNOKOP_TypeDefinitionIndex = 53949;
+
 	class CEOMMMNOKOP : public ::KKEFMOKEJIF
 	{
 	public:

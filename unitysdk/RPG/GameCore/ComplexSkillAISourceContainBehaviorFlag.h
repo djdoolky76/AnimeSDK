@@ -12,6 +12,8 @@ namespace RPG::GameCore { class ComplexSkillAISourceContainBehaviorFlag; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ComplexSkillAISourceContainBehaviorFlag_TypeDefinitionIndex = 15523;
+
 	class ComplexSkillAISourceContainBehaviorFlag : public ::RPG::GameCore::ComplexSkillAISource
 	{
 	public:

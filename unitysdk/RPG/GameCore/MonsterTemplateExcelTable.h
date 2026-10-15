@@ -25,6 +25,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MonsterTemplateExcelTable_TypeDefinitionIndex = 14178;
+
 	class MonsterTemplateExcelTable : public ::System::Object
 	{
 	public:

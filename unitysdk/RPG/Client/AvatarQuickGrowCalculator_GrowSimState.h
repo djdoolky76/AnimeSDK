@@ -5,6 +5,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AvatarQuickGrowCalculator_GrowSimState_TypeDefinitionIndex = 62469;
+
 	struct alignas(4) AvatarQuickGrowCalculator_GrowSimState
 	{
 		::System::UInt32 AvatarLevel; // 0x10

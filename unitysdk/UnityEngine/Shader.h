@@ -91,6 +91,8 @@ namespace UnityEngine { class Texture; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int Shader_TypeDefinitionIndex = 4139;
+
 	class Shader : public ::UnityEngine::Object
 	{
 	public:

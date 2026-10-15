@@ -7,6 +7,8 @@ class DHFLEJMNGDL;
 #define MIBEBGCMPOL_CTOR_OFFSET UNITYSDK_OFFSET(0x1C92AE80)
 #define MIBEBGCMPOL_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0x1C92AE20)
 
+inline static constexpr unsigned int MIBEBGCMPOL_TypeDefinitionIndex = 43041;
+
 	class MIBEBGCMPOL : public ::System::Object
 	{
 	public:

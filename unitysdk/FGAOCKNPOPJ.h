@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define FGAOCKNPOPJ_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1574EF00)
 #define FGAOCKNPOPJ_TICK_OFFSET UNITYSDK_OFFSET(0x1574EF50)
 
+inline static constexpr unsigned int FGAOCKNPOPJ_TypeDefinitionIndex = 58016;
+
 	class FGAOCKNPOPJ : public ::GELIALJDFBL
 	{
 	public:

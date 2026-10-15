@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define EODKLLDFPAP_CTOR_OFFSET UNITYSDK_OFFSET(0x155BC960)
 #define EODKLLDFPAP_TRANSFORM_OFFSET UNITYSDK_OFFSET(0x155BC980)
 
+inline static constexpr unsigned int EODKLLDFPAP_TypeDefinitionIndex = 53805;
+
 	class EODKLLDFPAP
 	{
 	public:

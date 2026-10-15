@@ -9,6 +9,8 @@ namespace RPG::GameCore { class ChronicleLogicConnectionNodeConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChronicleLogicConnectionNodeConfig_TypeDefinitionIndex = 18978;
+
 	class ChronicleLogicConnectionNodeConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

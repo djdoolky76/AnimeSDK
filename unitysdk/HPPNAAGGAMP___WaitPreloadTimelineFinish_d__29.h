@@ -11,6 +11,8 @@ namespace System { class Object; }
 #define HPPNAAGGAMP___WAITPRELOADTIMELINEFINISH_D__29_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x15DE1B10)
 #define HPPNAAGGAMP___WAITPRELOADTIMELINEFINISH_D__29_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15DE1AC0)
 
+inline static constexpr unsigned int HPPNAAGGAMP___WaitPreloadTimelineFinish_d__29_TypeDefinitionIndex = 48491;
+
 	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename T8, typename T9, typename T10, typename T11, typename T12, typename T13, typename T14, typename T15, typename T16, typename T17, typename T18, typename T19, typename T20, typename T21, typename T22, typename T23, typename T24, typename T25, typename T26, typename T27, typename T28, typename T29>
 	class HPPNAAGGAMP___WaitPreloadTimelineFinish_d__29 : public ::System::Object
 	{

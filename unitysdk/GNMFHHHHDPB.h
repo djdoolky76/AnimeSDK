@@ -17,6 +17,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define GNMFHHHHDPB_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0x15B1A270)
 #define GNMFHHHHDPB_PMNAIAIJLGC_OFFSET UNITYSDK_OFFSET(0x15B1A110)
 
+inline static constexpr unsigned int GNMFHHHHDPB_TypeDefinitionIndex = 69632;
+
 	class GNMFHHHHDPB : public ::MDILEMALGNC
 	{
 	public:

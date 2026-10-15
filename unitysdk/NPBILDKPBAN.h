@@ -4,6 +4,8 @@
 
 #define NPBILDKPBAN_CTOR_OFFSET UNITYSDK_OFFSET(0x1C977140)
 
+inline static constexpr unsigned int NPBILDKPBAN_TypeDefinitionIndex = 42220;
+
 	class NPBILDKPBAN : public ::System::Object
 	{
 	public:

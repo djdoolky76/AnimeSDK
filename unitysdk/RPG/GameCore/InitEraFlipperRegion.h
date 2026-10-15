@@ -11,6 +11,8 @@ namespace RPG::GameCore { class InitEraFlipperRegion; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int InitEraFlipperRegion_TypeDefinitionIndex = 22329;
+
 	class InitEraFlipperRegion : public ::RPG::GameCore::TaskConfig
 	{
 	public:

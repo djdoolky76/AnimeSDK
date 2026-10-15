@@ -14,6 +14,8 @@ namespace RPG::GameCore { class TurnBasedModifierInstance; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelEntityMazeSkillEnterBattle_TypeDefinitionIndex = 56761;
+
 	class LevelEntityMazeSkillEnterBattle : public ::CMPGEAFHHDC
 	{
 	public:

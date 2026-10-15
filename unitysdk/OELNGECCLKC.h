@@ -4,6 +4,8 @@
 
 #define OELNGECCLKC_CTOR_OFFSET UNITYSDK_OFFSET(0x1C98C900)
 
+inline static constexpr unsigned int OELNGECCLKC_TypeDefinitionIndex = 43278;
+
 	class OELNGECCLKC : public ::System::Object
 	{
 	public:

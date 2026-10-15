@@ -3,6 +3,8 @@
 
 namespace CriWare::CriMana
 {
+	inline static constexpr unsigned int EventPoint_TypeDefinitionIndex = 40212;
+
 	struct alignas(4) EventPoint
 	{
 		::System::IntPtr cueName; // 0x10

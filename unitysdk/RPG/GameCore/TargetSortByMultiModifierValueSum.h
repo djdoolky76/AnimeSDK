@@ -15,6 +15,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TargetSortByMultiModifierValueSum_TypeDefinitionIndex = 23988;
+
 	class TargetSortByMultiModifierValueSum : public ::RPG::GameCore::TargetSeqOperation
 	{
 	public:

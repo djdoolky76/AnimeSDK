@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int QuestType_TypeDefinitionIndex = 10425;
+
 	enum class QuestType : ::System::Int32
 	{
 		Unknown = 0,

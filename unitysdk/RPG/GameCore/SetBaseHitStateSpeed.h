@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetBaseHitStateSpeed_TypeDefinitionIndex = 22417;
+
 	class SetBaseHitStateSpeed : public ::RPG::GameCore::TaskConfig
 	{
 	public:

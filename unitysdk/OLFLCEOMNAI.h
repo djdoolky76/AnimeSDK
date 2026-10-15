@@ -49,6 +49,8 @@ namespace UnityEngine { class Object; }
 #define OLFLCEOMNAI_PPMOIFEIFMK_OFFSET UNITYSDK_OFFSET(0xBF07410)
 #define OLFLCEOMNAI_SET_INSTANCE_OFFSET UNITYSDK_OFFSET(0xBF03CA0)
 
+inline static constexpr unsigned int OLFLCEOMNAI_TypeDefinitionIndex = 82259;
+
 	class OLFLCEOMNAI : public ::System::Object
 	{
 	public:

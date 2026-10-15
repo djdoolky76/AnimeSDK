@@ -25,6 +25,8 @@ namespace System { class String; }
 #define PNOAIGFGNKE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DFBF310)
 #define PNOAIGFGNKE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DFBF370)
 
+inline static constexpr unsigned int PNOAIGFGNKE_TypeDefinitionIndex = 30281;
+
 	class PNOAIGFGNKE : public ::System::Object
 	{
 	public:

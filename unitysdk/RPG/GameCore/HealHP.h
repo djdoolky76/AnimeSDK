@@ -14,6 +14,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int HealHP_TypeDefinitionIndex = 22627;
+
 	class HealHP : public ::RPG::GameCore::TaskConfig
 	{
 	public:

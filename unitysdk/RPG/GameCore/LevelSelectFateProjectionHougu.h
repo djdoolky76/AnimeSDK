@@ -11,6 +11,8 @@ namespace RPG::GameCore { class LevelSelectFateProjectionHougu; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelSelectFateProjectionHougu_TypeDefinitionIndex = 56821;
+
 	class LevelSelectFateProjectionHougu : public ::CMPGEAFHHDC
 	{
 	public:

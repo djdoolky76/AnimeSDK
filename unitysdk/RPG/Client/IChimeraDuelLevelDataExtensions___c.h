@@ -12,6 +12,8 @@ namespace System { template <typename T> class Predicate_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int IChimeraDuelLevelDataExtensions___c_TypeDefinitionIndex = 63347;
+
 	class IChimeraDuelLevelDataExtensions___c : public ::System::Object
 	{
 	public:

@@ -47,6 +47,8 @@ namespace System { class Action; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int CRPGraphicsSettingsData_TypeDefinitionIndex = 37657;
+
 	class CRPGraphicsSettingsData : public ::UnityEngine::ScriptableObject
 	{
 	public:

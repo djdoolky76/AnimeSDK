@@ -12,6 +12,8 @@ namespace UnityEngine { class GameObject; }
 #define KMBCPKFMDEH_PIHPPBJIJFC_OFFSET UNITYSDK_OFFSET(0xB53BB00)
 #define KMBCPKFMDEH_PINNIHNGDNC_OFFSET UNITYSDK_OFFSET(0xB53BC40)
 
+inline static constexpr unsigned int KMBCPKFMDEH_TypeDefinitionIndex = 78984;
+
 	class KMBCPKFMDEH : public ::System::Object
 	{
 	public:

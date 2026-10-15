@@ -7,6 +7,8 @@
 #define DCJPCOCAAKB_JIKPCACIDGJ_OFFSET UNITYSDK_OFFSET(0xE24C180)
 #define DCJPCOCAAKB_MDKKCOPCBMI_OFFSET UNITYSDK_OFFSET(0xE24C240)
 
+inline static constexpr unsigned int DCJPCOCAAKB_TypeDefinitionIndex = 57558;
+
 	class DCJPCOCAAKB : public ::System::Object
 	{
 	public:

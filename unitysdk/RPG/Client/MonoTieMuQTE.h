@@ -7,6 +7,8 @@ namespace UnityEngine { class AnimationCurve; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoTieMuQTE_TypeDefinitionIndex = 72311;
+
 	class MonoTieMuQTE : public ::UnityEngine::MonoBehaviour
 	{
 	public:

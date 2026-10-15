@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TrainPartyGridSpecialShowRow_TypeDefinitionIndex = 15311;
+
 	class TrainPartyGridSpecialShowRow : public ::System::Object
 	{
 	public:

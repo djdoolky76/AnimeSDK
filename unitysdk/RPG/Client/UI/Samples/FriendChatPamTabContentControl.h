@@ -8,6 +8,8 @@ class INGMBMCLJAO;
 
 namespace RPG::Client::Ui::Samples
 {
+	inline static constexpr unsigned int FriendChatPamTabContentControl_TypeDefinitionIndex = 73453;
+
 	class FriendChatPamTabContentControl
 	{
 	public:

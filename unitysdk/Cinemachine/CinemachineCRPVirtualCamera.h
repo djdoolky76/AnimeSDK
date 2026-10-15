@@ -31,6 +31,8 @@ namespace UnityEngine { class Transform; }
 
 namespace Cinemachine
 {
+	inline static constexpr unsigned int CinemachineCRPVirtualCamera_TypeDefinitionIndex = 49638;
+
 	class CinemachineCRPVirtualCamera : public ::Cinemachine::CinemachineVirtualCameraBase
 	{
 	public:

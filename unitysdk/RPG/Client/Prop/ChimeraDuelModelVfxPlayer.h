@@ -17,6 +17,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int ChimeraDuelModelVfxPlayer_TypeDefinitionIndex = 78334;
+
 	class ChimeraDuelModelVfxPlayer : public ::UnityEngine::MonoBehaviour
 	{
 	public:

@@ -8,6 +8,8 @@ namespace RPG::Client { class CakeCatchFreeAreaPosition; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int CakeCatchArrangeStatus___c__DisplayClass13_0_TypeDefinitionIndex = 62979;
+
 	class CakeCatchArrangeStatus___c__DisplayClass13_0 : public ::System::Object
 	{
 	public:

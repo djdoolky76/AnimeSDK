@@ -29,6 +29,8 @@ namespace System { class String; }
 #define IPFFLNPMCEG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E6DE0D0)
 #define IPFFLNPMCEG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E6DE130)
 
+inline static constexpr unsigned int IPFFLNPMCEG_TypeDefinitionIndex = 29470;
+
 	class IPFFLNPMCEG : public ::System::Object
 	{
 	public:

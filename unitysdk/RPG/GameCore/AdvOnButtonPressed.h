@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdvOnButtonPressed_TypeDefinitionIndex = 20539;
+
 	class AdvOnButtonPressed : public ::RPG::GameCore::TaskConfig
 	{
 	public:

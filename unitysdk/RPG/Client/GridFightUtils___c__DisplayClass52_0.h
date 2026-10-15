@@ -8,6 +8,8 @@ namespace RPG::GameCore { class DynamicValue; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightUtils___c__DisplayClass52_0_TypeDefinitionIndex = 64889;
+
 	class GridFightUtils___c__DisplayClass52_0 : public ::System::Object
 	{
 	public:

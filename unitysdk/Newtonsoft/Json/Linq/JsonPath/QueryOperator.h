@@ -3,6 +3,8 @@
 
 namespace Newtonsoft::Json::Linq::JsonPath
 {
+	inline static constexpr unsigned int QueryOperator_TypeDefinitionIndex = 9805;
+
 	enum class QueryOperator : ::System::Int32
 	{
 		None = 0,

@@ -7,6 +7,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define IKMDCDBLFNB_CTOR_OFFSET UNITYSDK_OFFSET(0x1649A780)
 
+inline static constexpr unsigned int IKMDCDBLFNB_TypeDefinitionIndex = 68459;
+
 	class IKMDCDBLFNB : public ::System::Object
 	{
 	public:

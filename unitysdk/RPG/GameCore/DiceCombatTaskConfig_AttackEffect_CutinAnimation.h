@@ -10,6 +10,8 @@ namespace RPG::GameCore { class DiceCombatTaskConfig_AttackEffect_CutinAnimation
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DiceCombatTaskConfig_AttackEffect_CutinAnimation_TypeDefinitionIndex = 16045;
+
 	class DiceCombatTaskConfig_AttackEffect_CutinAnimation : public ::RPG::GameCore::DiceCombatTaskConfig
 	{
 	public:

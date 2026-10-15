@@ -61,6 +61,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::FullBody
 {
+	inline static constexpr unsigned int IKSolverFullBodyBiped_TypeDefinitionIndex = 74264;
+
 	class IKSolverFullBodyBiped : public ::RPG::Client::FullBody::IKSolverFullBody
 	{
 	public:

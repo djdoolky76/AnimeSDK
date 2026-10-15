@@ -9,6 +9,8 @@ namespace RPG::GameCore { class FormationSlotConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FormationSlotConfig_TypeDefinitionIndex = 15619;
+
 	class FormationSlotConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

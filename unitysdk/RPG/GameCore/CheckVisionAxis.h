@@ -11,6 +11,8 @@ namespace RPG::GameCore { class CheckVisionAxis; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CheckVisionAxis_TypeDefinitionIndex = 15514;
+
 	class CheckVisionAxis : public ::RPG::GameCore::ConsiderationAxisConfig
 	{
 	public:

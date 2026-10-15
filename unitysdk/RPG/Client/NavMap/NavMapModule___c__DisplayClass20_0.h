@@ -14,6 +14,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 
 namespace RPG::Client::NavMap
 {
+	inline static constexpr unsigned int NavMapModule___c__DisplayClass20_0_TypeDefinitionIndex = 74623;
+
 	class NavMapModule___c__DisplayClass20_0 : public ::System::Object
 	{
 	public:

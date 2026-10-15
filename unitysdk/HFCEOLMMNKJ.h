@@ -74,6 +74,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define HFCEOLMMNKJ_POEAOPBNMDD_1_OFFSET UNITYSDK_OFFSET(0x15C6E990)
 #define HFCEOLMMNKJ_POEAOPBNMDD_OFFSET UNITYSDK_OFFSET(0x15C6EAE0)
 
+inline static constexpr unsigned int HFCEOLMMNKJ_TypeDefinitionIndex = 54447;
+
 	class HFCEOLMMNKJ : public ::System::Object
 	{
 	public:

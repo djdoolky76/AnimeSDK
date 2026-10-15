@@ -10,6 +10,8 @@ namespace RPG::Client::ActivityIdleLive { class IdleLiveAvatarSkillConfig; }
 #define GLBKJAEKPMO_MNBBCAMDGDI_OFFSET UNITYSDK_OFFSET(0x15AAA850)
 #define GLBKJAEKPMO_SET_SKILLCONFIG_OFFSET UNITYSDK_OFFSET(0x15AAA8E0)
 
+inline static constexpr unsigned int GLBKJAEKPMO_TypeDefinitionIndex = 75084;
+
 	class GLBKJAEKPMO : public ::System::Object
 	{
 	public:

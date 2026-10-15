@@ -12,6 +12,8 @@ namespace RPGTools::Timeline { class TriggerStoryAdvEffectClip; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int TriggerStoryAdvEffectBehaviour_TypeDefinitionIndex = 48322;
+
 	class TriggerStoryAdvEffectBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

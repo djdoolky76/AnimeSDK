@@ -19,6 +19,8 @@ namespace System { class String; }
 #define ODMOCKCHGED_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xBDF1450)
 #define ODMOCKCHGED_TICK_OFFSET UNITYSDK_OFFSET(0xBDF14A0)
 
+inline static constexpr unsigned int ODMOCKCHGED_TypeDefinitionIndex = 58010;
+
 	class ODMOCKCHGED : public ::GELIALJDFBL
 	{
 	public:

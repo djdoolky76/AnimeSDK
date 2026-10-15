@@ -6,6 +6,8 @@ class KDFFHMDFALG;
 #define OIGDMEDHHBK_CTOR_OFFSET UNITYSDK_OFFSET(0xBE8E7F0)
 #define OIGDMEDHHBK_KEOKEELBKHI_OFFSET UNITYSDK_OFFSET(0xBE8E800)
 
+inline static constexpr unsigned int OIGDMEDHHBK_TypeDefinitionIndex = 60631;
+
 	class OIGDMEDHHBK : public ::System::Object
 	{
 	public:

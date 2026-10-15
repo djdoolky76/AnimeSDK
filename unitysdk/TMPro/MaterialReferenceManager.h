@@ -33,6 +33,8 @@ namespace UnityEngine { class Material; }
 
 namespace TMPro
 {
+	inline static constexpr unsigned int MaterialReferenceManager_TypeDefinitionIndex = 44537;
+
 	class MaterialReferenceManager : public ::System::Object
 	{
 	public:

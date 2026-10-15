@@ -25,6 +25,8 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyLi
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueTournPersonaHexEquipmentSlotPanelInfo_TypeDefinitionIndex = 72888;
+
 	class RogueTournPersonaHexEquipmentSlotPanelInfo : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@ namespace RPG::GameCore { class ChenLingGridOffset; }
 
 namespace RPG::Client::ChenLingBattle
 {
+	inline static constexpr unsigned int HandCard___c__DisplayClass3_0_TypeDefinitionIndex = 76366;
+
 	class HandCard___c__DisplayClass3_0 : public ::System::Object
 	{
 	public:

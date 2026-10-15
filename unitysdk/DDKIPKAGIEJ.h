@@ -46,6 +46,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define DDKIPKAGIEJ_OOGLONHILEK_OFFSET UNITYSDK_OFFSET(0x1CA1E930)
 #define DDKIPKAGIEJ_PHIDANPEMKM_OFFSET UNITYSDK_OFFSET(0x1CA231C0)
 
+inline static constexpr unsigned int DDKIPKAGIEJ_TypeDefinitionIndex = 42191;
+
 	class DDKIPKAGIEJ : public ::HLFHMKMJNPK
 	{
 	public:

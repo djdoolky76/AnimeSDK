@@ -32,6 +32,8 @@ namespace UnityEngine { class Shader; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int CRPRendererData_TypeDefinitionIndex = 37861;
+
 	class CRPRendererData : public ::RPG::CustomRP::CRPRendererDataBase
 	{
 	public:

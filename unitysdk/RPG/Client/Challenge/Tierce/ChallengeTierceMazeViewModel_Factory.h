@@ -11,6 +11,8 @@ namespace RPG::Client::Challenge::Tierce { class ChallengeTierceMazeViewModel; }
 
 namespace RPG::Client::Challenge::Tierce
 {
+	inline static constexpr unsigned int ChallengeTierceMazeViewModel_Factory_TypeDefinitionIndex = 81594;
+
 	class ChallengeTierceMazeViewModel_Factory : public ::System::Object
 	{
 	public:

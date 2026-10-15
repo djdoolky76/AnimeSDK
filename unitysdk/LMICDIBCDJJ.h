@@ -10,6 +10,8 @@ namespace UnityEngine { class Object; }
 #define LMICDIBCDJJ_GPIDPKOBNIJ_OFFSET UNITYSDK_OFFSET(0xB7849B0)
 #define LMICDIBCDJJ_KJMDJMBNCPE_OFFSET UNITYSDK_OFFSET(0xB784A90)
 
+inline static constexpr unsigned int LMICDIBCDJJ_TypeDefinitionIndex = 73713;
+
 	class LMICDIBCDJJ : public ::System::Object
 	{
 	public:

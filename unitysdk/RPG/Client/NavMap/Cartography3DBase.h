@@ -30,6 +30,8 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyLi
 
 namespace RPG::Client::NavMap
 {
+	inline static constexpr unsigned int Cartography3DBase_TypeDefinitionIndex = 74506;
+
 	class Cartography3DBase : public ::RPG::Client::NavMap::CartographyBaseData
 	{
 	public:

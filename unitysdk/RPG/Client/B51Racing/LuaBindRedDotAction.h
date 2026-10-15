@@ -15,6 +15,8 @@ namespace XLua { class LuaTable; }
 
 namespace RPG::Client::B51Racing
 {
+	inline static constexpr unsigned int LuaBindRedDotAction_TypeDefinitionIndex = 81757;
+
 	class LuaBindRedDotAction : public ::System::MulticastDelegate
 	{
 	public:

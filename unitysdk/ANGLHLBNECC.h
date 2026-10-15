@@ -14,6 +14,8 @@ namespace UnityEngine { class Transform; }
 #define ANGLHLBNECC_IILBHCGJCEA_OFFSET UNITYSDK_OFFSET(0x15596A30)
 #define ANGLHLBNECC_UNITYENGINE_EVENTSYSTEMS_IEXECUTEEVENTBLOCKER_ISEVENTBLOCK_OFFSET UNITYSDK_OFFSET(0x15597040)
 
+inline static constexpr unsigned int ANGLHLBNECC_TypeDefinitionIndex = 68228;
+
 	class ANGLHLBNECC : public ::System::Object
 	{
 	public:

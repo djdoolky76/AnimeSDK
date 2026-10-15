@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimGlobalCameraConfig_TypeDefinitionIndex = 16672;
+
 	class FiveDimGlobalCameraConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

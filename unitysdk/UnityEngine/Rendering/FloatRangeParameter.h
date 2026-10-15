@@ -9,6 +9,8 @@
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int FloatRangeParameter_TypeDefinitionIndex = 35641;
+
 	class FloatRangeParameter
 	{
 	public:

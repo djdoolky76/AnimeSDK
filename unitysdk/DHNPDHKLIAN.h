@@ -6,6 +6,8 @@ namespace RPG::GameCore { class CakeRaceRegionCellConfig; }
 
 #define DHNPDHKLIAN_CTOR_OFFSET UNITYSDK_OFFSET(0x1C5F12E0)
 
+inline static constexpr unsigned int DHNPDHKLIAN_TypeDefinitionIndex = 36829;
+
 	class DHNPDHKLIAN : public ::System::Object
 	{
 	public:

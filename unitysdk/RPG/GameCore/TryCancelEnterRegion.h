@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TryCancelEnterRegion; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TryCancelEnterRegion_TypeDefinitionIndex = 20759;
+
 	class TryCancelEnterRegion : public ::RPG::GameCore::TaskConfig
 	{
 	public:

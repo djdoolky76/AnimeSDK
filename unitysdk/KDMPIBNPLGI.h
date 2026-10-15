@@ -21,6 +21,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define KDMPIBNPLGI_OOGCMLCLMJF_OFFSET UNITYSDK_OFFSET(0xB367FF0)
 #define KDMPIBNPLGI_TICK_OFFSET UNITYSDK_OFFSET(0xB3680F0)
 
+inline static constexpr unsigned int KDMPIBNPLGI_TypeDefinitionIndex = 52216;
+
 	class KDMPIBNPLGI
 	{
 	public:

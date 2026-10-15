@@ -4,6 +4,8 @@
 
 namespace System::ComponentModel
 {
+	inline static constexpr unsigned int NullableConverter_TypeDefinitionIndex = 2614;
+
 	class NullableConverter : public ::System::ComponentModel::TypeConverter
 	{
 	public:

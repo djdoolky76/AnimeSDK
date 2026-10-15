@@ -25,6 +25,8 @@ namespace System { class String; }
 #define IONBKDFCGJO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E6DA710)
 #define IONBKDFCGJO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E6DA770)
 
+inline static constexpr unsigned int IONBKDFCGJO_TypeDefinitionIndex = 26763;
+
 	class IONBKDFCGJO : public ::System::Object
 	{
 	public:

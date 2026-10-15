@@ -7,6 +7,8 @@ class HPIFKFGKFLH;
 #define HPIFKFGKFLH_CTOR_OFFSET UNITYSDK_OFFSET(0x15DCE070)
 #define HPIFKFGKFLH_FFHNOMIDEDE_OFFSET UNITYSDK_OFFSET(0x15DCE080)
 
+inline static constexpr unsigned int HPIFKFGKFLH_TypeDefinitionIndex = 68235;
+
 	class HPIFKFGKFLH : public ::System::Object
 	{
 	public:

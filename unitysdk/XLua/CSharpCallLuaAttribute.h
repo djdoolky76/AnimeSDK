@@ -6,6 +6,8 @@
 
 namespace XLua
 {
+	inline static constexpr unsigned int CSharpCallLuaAttribute_TypeDefinitionIndex = 5600;
+
 	class CSharpCallLuaAttribute : public ::System::Attribute
 	{
 	public:

@@ -13,6 +13,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::ResBar
 {
+	inline static constexpr unsigned int TopBarControl_TypeDefinitionIndex = 79144;
+
 	class TopBarControl
 	{
 	public:

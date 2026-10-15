@@ -14,6 +14,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PropStateItem_TypeDefinitionIndex = 21203;
+
 	class PropStateItem : public ::RPG::GameCore::JsonConfig
 	{
 	public:

@@ -16,6 +16,8 @@ namespace System::Collections::Generic { class KeyValuePair; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GachaModule___c_TypeDefinitionIndex = 64304;
+
 	class GachaModule___c : public ::System::Object
 	{
 	public:

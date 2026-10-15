@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyLi
 #define IOJNNBAILBC_NLIMDCDAPPA_OFFSET UNITYSDK_OFFSET(0x165032E0)
 #define IOJNNBAILBC_SET_ATTRIBUTES_OFFSET UNITYSDK_OFFSET(0x165032D0)
 
+inline static constexpr unsigned int IOJNNBAILBC_TypeDefinitionIndex = 79548;
+
 	class IOJNNBAILBC : public ::System::Object
 	{
 	public:

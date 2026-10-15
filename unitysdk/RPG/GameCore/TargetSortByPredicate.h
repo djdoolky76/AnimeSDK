@@ -14,6 +14,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TargetSortByPredicate_TypeDefinitionIndex = 23980;
+
 	class TargetSortByPredicate : public ::RPG::GameCore::TargetSeqOperation
 	{
 	public:

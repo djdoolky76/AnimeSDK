@@ -20,6 +20,8 @@ namespace UnityEngine::Rendering { class DebugUI_EnumField; }
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int CameraSwitcher_TypeDefinitionIndex = 35468;
+
 	class CameraSwitcher : public ::UnityEngine::MonoBehaviour
 	{
 	public:

@@ -12,6 +12,8 @@ namespace System { class String; }
 #define JFMLCBPOHGG_GET_IMAGEPATH_OFFSET UNITYSDK_OFFSET(0x16657550)
 #define JFMLCBPOHGG_GET_LIKECOUNT_OFFSET UNITYSDK_OFFSET(0x16657570)
 
+inline static constexpr unsigned int JFMLCBPOHGG_TypeDefinitionIndex = 80143;
+
 	class JFMLCBPOHGG : public ::System::Object
 	{
 	public:

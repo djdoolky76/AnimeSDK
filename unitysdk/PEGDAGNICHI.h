@@ -12,6 +12,8 @@ namespace RPG::GameCore { class GameEntity; }
 #define PEGDAGNICHI_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xC03CB60)
 #define PEGDAGNICHI_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xC03CA80)
 
+inline static constexpr unsigned int PEGDAGNICHI_TypeDefinitionIndex = 56628;
+
 	class PEGDAGNICHI : public ::CMPGEAFHHDC
 	{
 	public:

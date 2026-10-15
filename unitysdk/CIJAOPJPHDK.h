@@ -9,6 +9,8 @@ namespace RPG::GameCore { class ChenLingFesTargetConfig; }
 #define CIJAOPJPHDK_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DC16150)
 #define CIJAOPJPHDK_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC16110)
 
+inline static constexpr unsigned int CIJAOPJPHDK_TypeDefinitionIndex = 21511;
+
 	class CIJAOPJPHDK : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -15,6 +15,8 @@ namespace UnityEngine { class Transform; }
 #define NAGDMNPAIAM_NJHLEMHBDCH_OFFSET UNITYSDK_OFFSET(0xBA9A270)
 #define NAGDMNPAIAM_OIACHHCPOEN_OFFSET UNITYSDK_OFFSET(0xBA9AE50)
 
+inline static constexpr unsigned int NAGDMNPAIAM_TypeDefinitionIndex = 66469;
+
 	class NAGDMNPAIAM : public ::System::Object
 	{
 	public:

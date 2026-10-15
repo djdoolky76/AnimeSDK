@@ -13,6 +13,8 @@ namespace RPG::GameCore { class WaveMonsterPerform; }
 #define PGHIMPAMPOA_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xC220900)
 #define PGHIMPAMPOA_TICK_OFFSET UNITYSDK_OFFSET(0xC2209B0)
 
+inline static constexpr unsigned int PGHIMPAMPOA_TypeDefinitionIndex = 58949;
+
 	class PGHIMPAMPOA : public ::GELIALJDFBL
 	{
 	public:

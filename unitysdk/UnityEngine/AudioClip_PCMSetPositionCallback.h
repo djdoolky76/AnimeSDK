@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int AudioClip_PCMSetPositionCallback_TypeDefinitionIndex = 5146;
+
 	class AudioClip_PCMSetPositionCallback : public ::System::MulticastDelegate
 	{
 	public:

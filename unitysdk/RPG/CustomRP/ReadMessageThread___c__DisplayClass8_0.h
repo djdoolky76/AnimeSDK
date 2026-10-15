@@ -9,6 +9,8 @@ namespace RPG::CustomRP { class ReadMessageThread; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int ReadMessageThread___c__DisplayClass8_0_TypeDefinitionIndex = 37912;
+
 	class ReadMessageThread___c__DisplayClass8_0 : public ::System::Object
 	{
 	public:

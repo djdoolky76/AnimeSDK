@@ -10,6 +10,8 @@ namespace System { template <typename T1, typename T2, typename T3> class Func_3
 #define NCJELKLNHMF___C__CLEARMESSAGESBEFORE_B__14_0_OFFSET UNITYSDK_OFFSET(0xBB12CF0)
 #define NCJELKLNHMF___C__REMOVEMESSAGE_B__15_0_OFFSET UNITYSDK_OFFSET(0xBB12D00)
 
+inline static constexpr unsigned int NCJELKLNHMF___c_TypeDefinitionIndex = 76489;
+
 	class NCJELKLNHMF___c : public ::System::Object
 	{
 	public:

@@ -9,6 +9,8 @@ class JCMJBMIKIFO;
 #define ANNPPJHLEGH_CTOR_OFFSET UNITYSDK_OFFSET(0x158A0900)
 #define ANNPPJHLEGH_MNEDAKNGGOH_OFFSET UNITYSDK_OFFSET(0x158A0910)
 
+inline static constexpr unsigned int ANNPPJHLEGH_TypeDefinitionIndex = 80094;
+
 	class ANNPPJHLEGH : public ::System::Object
 	{
 	public:

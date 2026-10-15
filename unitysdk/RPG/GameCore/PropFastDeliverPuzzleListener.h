@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PropFastDeliverPuzzleListener_TypeDefinitionIndex = 22148;
+
 	class PropFastDeliverPuzzleListener : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -22,6 +22,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int FindChestData_TypeDefinitionIndex = 64199;
+
 	class FindChestData : public ::System::Object
 	{
 	public:

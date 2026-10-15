@@ -24,6 +24,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define BJJKCMHLACD_PPICFLIBIPB_OFFSET UNITYSDK_OFFSET(0xB7A3B00)
 #define BJJKCMHLACD_TICK_OFFSET UNITYSDK_OFFSET(0xB7A33E0)
 
+inline static constexpr unsigned int BJJKCMHLACD_TypeDefinitionIndex = 52711;
+
 	class BJJKCMHLACD : public ::GELIALJDFBL
 	{
 	public:

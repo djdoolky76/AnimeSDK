@@ -11,6 +11,8 @@ namespace RPG::GameCore { class SetBattleEndReason; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetBattleEndReason_TypeDefinitionIndex = 23307;
+
 	class SetBattleEndReason : public ::RPG::GameCore::TaskConfig
 	{
 	public:

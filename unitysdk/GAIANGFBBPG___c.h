@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define GAIANGFBBPG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E41D260)
 #define GAIANGFBBPG___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E41D270)
 
+inline static constexpr unsigned int GAIANGFBBPG___c_TypeDefinitionIndex = 29995;
+
 	class GAIANGFBBPG___c : public ::System::Object
 	{
 	public:

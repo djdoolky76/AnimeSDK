@@ -10,6 +10,8 @@ namespace UnityEngine { class ParticleSystem; }
 
 namespace RPG::Client::EffectReattachListeners
 {
+	inline static constexpr unsigned int LocalPlayerSpeedLineEffectReattachListener_TypeDefinitionIndex = 73697;
+
 	class LocalPlayerSpeedLineEffectReattachListener : public ::UnityEngine::MonoBehaviour
 	{
 	public:

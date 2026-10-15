@@ -10,6 +10,8 @@ namespace RPG::Client { class MatchThreeBoard; }
 #define ILKIANPPPDO_LGAOOKPFIMF_OFFSET UNITYSDK_OFFSET(0x164C3FD0)
 #define ILKIANPPPDO_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x164C3F10)
 
+inline static constexpr unsigned int ILKIANPPPDO_TypeDefinitionIndex = 65868;
+
 	class ILKIANPPPDO : public ::FNIDIOCNBBI
 	{
 	public:

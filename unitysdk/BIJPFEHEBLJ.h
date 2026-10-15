@@ -27,6 +27,8 @@ namespace System { class String; }
 #define BIJPFEHEBLJ_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DE03700)
 #define BIJPFEHEBLJ_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DE03760)
 
+inline static constexpr unsigned int BIJPFEHEBLJ_TypeDefinitionIndex = 25968;
+
 	class BIJPFEHEBLJ : public ::System::Object
 	{
 	public:

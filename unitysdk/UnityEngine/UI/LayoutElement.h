@@ -39,6 +39,8 @@ namespace UnityEngine::UI { class CaculateNodeData; }
 
 namespace UnityEngine::UI
 {
+	inline static constexpr unsigned int LayoutElement_TypeDefinitionIndex = 6781;
+
 	class LayoutElement : public ::UnityEngine::EventSystems::UIBehaviour
 	{
 	public:

@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPGTools::Timeline::VFX
 {
+	inline static constexpr unsigned int MiniEmotionClip_MiniEmotionOverride_TypeDefinitionIndex = 48659;
+
 	class MiniEmotionClip_MiniEmotionOverride : public ::System::Object
 	{
 	public:

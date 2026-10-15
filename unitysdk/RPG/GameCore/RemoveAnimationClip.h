@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RemoveAnimationClip_TypeDefinitionIndex = 20284;
+
 	class RemoveAnimationClip : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -9,6 +9,8 @@ namespace System { class String; }
 #define OAPILBPJKPE_CONVERT_OFFSET UNITYSDK_OFFSET(0x1CC94180)
 #define OAPILBPJKPE_CTOR_OFFSET UNITYSDK_OFFSET(0x1CC93F10)
 
+inline static constexpr unsigned int OAPILBPJKPE_TypeDefinitionIndex = 43910;
+
 	class OAPILBPJKPE : public ::System::Object
 	{
 	public:

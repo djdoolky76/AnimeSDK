@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoEffectFixedCRPPlugin__CollectAllRefAssetPath_d__8_TypeDefinitionIndex = 70029;
+
 	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename T8>
 	class MonoEffectFixedCRPPlugin__CollectAllRefAssetPath_d__8 : public ::System::Object
 	{

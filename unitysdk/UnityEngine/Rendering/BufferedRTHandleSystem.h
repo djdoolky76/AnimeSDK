@@ -23,6 +23,8 @@ namespace UnityEngine::Rendering { class RTHandleSystem; }
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int BufferedRTHandleSystem_TypeDefinitionIndex = 35578;
+
 	class BufferedRTHandleSystem : public ::System::Object
 	{
 	public:

@@ -9,6 +9,8 @@ namespace RPG::Client::ActivityHipplen { class ActivityHipplenSettleTrialGameSta
 
 namespace RPG::Client::ActivityHipplen
 {
+	inline static constexpr unsigned int ActivityHipplenSettleTrialGameState___c__DisplayClass3_0_TypeDefinitionIndex = 75528;
+
 	class ActivityHipplenSettleTrialGameState___c__DisplayClass3_0 : public ::System::Object
 	{
 	public:

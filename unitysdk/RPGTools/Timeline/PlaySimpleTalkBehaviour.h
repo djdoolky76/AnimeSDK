@@ -20,6 +20,8 @@ namespace UnityEngine::Playables { class PlayableDirector; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int PlaySimpleTalkBehaviour_TypeDefinitionIndex = 48222;
+
 	class PlaySimpleTalkBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

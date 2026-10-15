@@ -16,6 +16,8 @@ namespace System { class String; }
 #define PEFLHOJEIMG_MPHNMOGNEHL_OFFSET UNITYSDK_OFFSET(0xC039BA0)
 #define PEFLHOJEIMG_PPAMJNOKPLO_OFFSET UNITYSDK_OFFSET(0xC039C80)
 
+inline static constexpr unsigned int PEFLHOJEIMG_TypeDefinitionIndex = 73415;
+
 	class PEFLHOJEIMG : public ::KLGICPNPKIC
 	{
 	public:

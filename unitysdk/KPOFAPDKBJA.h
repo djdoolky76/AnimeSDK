@@ -36,6 +36,8 @@ namespace System { class String; }
 #define KPOFAPDKBJA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E8C2430)
 #define KPOFAPDKBJA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E8C2490)
 
+inline static constexpr unsigned int KPOFAPDKBJA_TypeDefinitionIndex = 33107;
+
 	class KPOFAPDKBJA : public ::System::Object
 	{
 	public:

@@ -15,6 +15,8 @@ namespace SuperScrollView { class LoopListView2; }
 
 namespace SuperScrollView
 {
+	inline static constexpr unsigned int LoopListView2Extra_TypeDefinitionIndex = 47669;
+
 	class LoopListView2Extra : public ::UnityEngine::MonoBehaviour
 	{
 	public:

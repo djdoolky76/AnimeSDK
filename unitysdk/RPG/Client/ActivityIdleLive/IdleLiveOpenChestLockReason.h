@@ -3,6 +3,8 @@
 
 namespace RPG::Client::ActivityIdleLive
 {
+	inline static constexpr unsigned int IdleLiveOpenChestLockReason_TypeDefinitionIndex = 75300;
+
 	enum class IdleLiveOpenChestLockReason : ::System::Int32
 	{
 		WaitingRsp = 1,

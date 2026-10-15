@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AvatarCommonRowWrap_TypeDefinitionIndex = 56541;
+
 	class AvatarCommonRowWrap : public ::System::Object
 	{
 	public:

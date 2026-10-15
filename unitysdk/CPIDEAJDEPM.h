@@ -6,6 +6,8 @@
 #define CPIDEAJDEPM_NDFCJNAMFJG_OFFSET UNITYSDK_OFFSET(0x3C453C0)
 #define CPIDEAJDEPM_PEFLJDOKOIL_OFFSET UNITYSDK_OFFSET(0x3C45350)
 
+inline static constexpr unsigned int CPIDEAJDEPM_TypeDefinitionIndex = 6222;
+
 	struct alignas(4) CPIDEAJDEPM
 	{
 		::Dest::Math::IntersectionTypes DLMLMAGCHJK; // 0x10

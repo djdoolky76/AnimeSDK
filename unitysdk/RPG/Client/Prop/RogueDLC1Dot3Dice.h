@@ -21,6 +21,8 @@ namespace UnityEngine { class AnimationCurve; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int RogueDLC1Dot3Dice_TypeDefinitionIndex = 78951;
+
 	class RogueDLC1Dot3Dice : public ::UnityEngine::MonoBehaviour
 	{
 	public:

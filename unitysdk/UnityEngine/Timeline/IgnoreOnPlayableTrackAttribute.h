@@ -6,6 +6,8 @@
 
 namespace UnityEngine::Timeline
 {
+	inline static constexpr unsigned int IgnoreOnPlayableTrackAttribute_TypeDefinitionIndex = 38862;
+
 	class IgnoreOnPlayableTrackAttribute : public ::System::Attribute
 	{
 	public:

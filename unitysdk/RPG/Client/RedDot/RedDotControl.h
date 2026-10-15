@@ -8,6 +8,8 @@ class HIKAAGHELPH;
 
 namespace RPG::Client::RedDot
 {
+	inline static constexpr unsigned int RedDotControl_TypeDefinitionIndex = 79181;
+
 	class RedDotControl
 	{
 	public:

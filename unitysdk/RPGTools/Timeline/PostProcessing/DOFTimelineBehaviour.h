@@ -13,6 +13,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPGTools::Timeline::PostProcessing
 {
+	inline static constexpr unsigned int DOFTimelineBehaviour_TypeDefinitionIndex = 48562;
+
 	class DOFTimelineBehaviour
 	{
 	public:

@@ -49,6 +49,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define KDOJKNPADNC_SET_STREAM_OFFSET UNITYSDK_OFFSET(0xB36BAB0)
 #define KDOJKNPADNC_SET_TELEPORTLOD_OFFSET UNITYSDK_OFFSET(0xB36BB10)
 
+inline static constexpr unsigned int KDOJKNPADNC_TypeDefinitionIndex = 64241;
+
 	class KDOJKNPADNC : public ::System::Object
 	{
 	public:

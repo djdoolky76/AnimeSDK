@@ -5,6 +5,8 @@
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int RTHandleProperties_TypeDefinitionIndex = 35583;
+
 	struct alignas(4) RTHandleProperties
 	{
 		::UnityEngine::Vector2Int previousViewportSize; // 0x10

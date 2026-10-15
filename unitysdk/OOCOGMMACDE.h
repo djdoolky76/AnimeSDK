@@ -10,6 +10,8 @@ class OOCOGMMACDE;
 #define OOCOGMMACDE_CTOR_OFFSET UNITYSDK_OFFSET(0xBF705D0)
 #define OOCOGMMACDE_OKPLPEELPBC_OFFSET UNITYSDK_OFFSET(0xBF705E0)
 
+inline static constexpr unsigned int OOCOGMMACDE_TypeDefinitionIndex = 76417;
+
 	class OOCOGMMACDE : public ::HALHKJLBIKJ
 	{
 	public:

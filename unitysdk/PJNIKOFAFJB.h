@@ -27,6 +27,8 @@ namespace UnityEngine::UI { class Graphic; }
 #define PJNIKOFAFJB_REVERSE_OFFSET UNITYSDK_OFFSET(0xC29DF40)
 #define PJNIKOFAFJB_STARTWITHTARGET_OFFSET UNITYSDK_OFFSET(0xC29DB40)
 
+inline static constexpr unsigned int PJNIKOFAFJB_TypeDefinitionIndex = 73508;
+
 	class PJNIKOFAFJB : public ::MOGBNBGMIHF
 	{
 	public:

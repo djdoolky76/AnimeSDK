@@ -34,6 +34,8 @@ namespace System::Reflection { class PropertyInfo; }
 
 namespace System
 {
+	inline static constexpr unsigned int MonoCustomAttrs_TypeDefinitionIndex = 406;
+
 	class MonoCustomAttrs : public ::System::Object
 	{
 	public:

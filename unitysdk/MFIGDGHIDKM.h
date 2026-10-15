@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define MFIGDGHIDKM_CTOR_OFFSET UNITYSDK_OFFSET(0xB8FF0F0)
 #define MFIGDGHIDKM_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB8FF120)
 
+inline static constexpr unsigned int MFIGDGHIDKM_TypeDefinitionIndex = 54162;
+
 	class MFIGDGHIDKM
 	{
 	public:

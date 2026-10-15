@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LoadCharacterState_TypeDefinitionIndex = 22757;
+
 	class LoadCharacterState : public ::RPG::GameCore::TaskConfig
 	{
 	public:

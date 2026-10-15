@@ -42,6 +42,8 @@ namespace System { class String; }
 #define LDLCMMOPKNG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E8FC5D0)
 #define LDLCMMOPKNG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E8FC630)
 
+inline static constexpr unsigned int LDLCMMOPKNG_TypeDefinitionIndex = 28133;
+
 	class LDLCMMOPKNG : public ::System::Object
 	{
 	public:

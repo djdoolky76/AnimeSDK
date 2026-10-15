@@ -31,6 +31,8 @@ namespace System { class String; }
 
 namespace RPG::Client::ChenLingFes
 {
+	inline static constexpr unsigned int ChenLingFesFeverProgressViewModel_TypeDefinitionIndex = 81372;
+
 	class ChenLingFesFeverProgressViewModel : public ::Sofa::BaseViewModel
 	{
 	public:

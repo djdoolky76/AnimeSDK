@@ -38,6 +38,8 @@ namespace System { class String; }
 #define GCCFIOKEPEG_ODCHIHDGIPJ_OFFSET UNITYSDK_OFFSET(0x15962210)
 #define GCCFIOKEPEG_ODLIGANNMOO_OFFSET UNITYSDK_OFFSET(0x15962AF0)
 
+inline static constexpr unsigned int GCCFIOKEPEG_TypeDefinitionIndex = 76887;
+
 	class GCCFIOKEPEG : public ::System::Object
 	{
 	public:

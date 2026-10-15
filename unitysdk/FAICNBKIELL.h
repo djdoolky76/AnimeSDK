@@ -43,6 +43,8 @@ namespace System { class String; }
 #define FAICNBKIELL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E323000)
 #define FAICNBKIELL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E323060)
 
+inline static constexpr unsigned int FAICNBKIELL_TypeDefinitionIndex = 33686;
+
 	class FAICNBKIELL : public ::System::Object
 	{
 	public:

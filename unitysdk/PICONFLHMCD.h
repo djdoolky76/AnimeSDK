@@ -28,6 +28,8 @@ namespace System { class String; }
 #define PICONFLHMCD_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DF438E0)
 #define PICONFLHMCD_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DF43940)
 
+inline static constexpr unsigned int PICONFLHMCD_TypeDefinitionIndex = 30897;
+
 	class PICONFLHMCD : public ::System::Object
 	{
 	public:

@@ -7,6 +7,8 @@
 #define JGMDBNHGDND_ONNEW_OFFSET UNITYSDK_OFFSET(0x1DDAE6F0)
 #define JGMDBNHGDND_ONRECYCLE_OFFSET UNITYSDK_OFFSET(0x1DDAE660)
 
+inline static constexpr unsigned int JGMDBNHGDND_TypeDefinitionIndex = 43922;
+
 	class JGMDBNHGDND : public ::System::IO::MemoryStream
 	{
 	public:

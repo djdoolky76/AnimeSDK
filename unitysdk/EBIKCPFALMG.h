@@ -10,6 +10,8 @@ namespace System { class String; }
 #define EBIKCPFALMG_DCCACKNOBKM_OFFSET UNITYSDK_OFFSET(0x1CC8F660)
 #define EBIKCPFALMG_FMMGNFDCMCN_OFFSET UNITYSDK_OFFSET(0x1CC8F5F0)
 
+inline static constexpr unsigned int EBIKCPFALMG_TypeDefinitionIndex = 43877;
+
 	class EBIKCPFALMG : public ::System::Object
 	{
 	public:

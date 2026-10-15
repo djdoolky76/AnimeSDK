@@ -3,6 +3,8 @@
 
 namespace HedgehogTeam::EasyTouch
 {
+	inline static constexpr unsigned int QuickTwist_ActionRotationDirection_TypeDefinitionIndex = 40283;
+
 	enum class QuickTwist_ActionRotationDirection : ::System::Int32
 	{
 		All = 0,

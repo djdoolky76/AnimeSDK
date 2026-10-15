@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TriggerCheckpointRecover; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TriggerCheckpointRecover_TypeDefinitionIndex = 20455;
+
 	class TriggerCheckpointRecover : public ::RPG::GameCore::TaskConfig
 	{
 	public:

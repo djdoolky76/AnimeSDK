@@ -33,6 +33,8 @@ namespace System { class String; }
 #define CIDMLLEGNNN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E0CF3C0)
 #define CIDMLLEGNNN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E0CF420)
 
+inline static constexpr unsigned int CIDMLLEGNNN_TypeDefinitionIndex = 26910;
+
 	class CIDMLLEGNNN : public ::System::Object
 	{
 	public:

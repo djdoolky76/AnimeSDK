@@ -52,6 +52,8 @@ namespace Entitas { template <typename T> class IMatcher_1; }
 #define FIPEHHJBIMM_PLPCCINFDGH_OFFSET UNITYSDK_OFFSET(0x1CA6F0D0)
 #define FIPEHHJBIMM_PMCCICAMKGP_OFFSET UNITYSDK_OFFSET(0x1CA6FEB0)
 
+inline static constexpr unsigned int FIPEHHJBIMM_TypeDefinitionIndex = 42615;
+
 	class FIPEHHJBIMM : public ::System::Object
 	{
 	public:

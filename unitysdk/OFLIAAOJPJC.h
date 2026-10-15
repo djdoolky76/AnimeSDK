@@ -11,6 +11,8 @@ namespace System { class String; }
 #define OFLIAAOJPJC_CTOR_OFFSET UNITYSDK_OFFSET(0x1D26A080)
 #define OFLIAAOJPJC_READROW_OFFSET UNITYSDK_OFFSET(0x1D26A130)
 
+inline static constexpr unsigned int OFLIAAOJPJC_TypeDefinitionIndex = 10830;
+
 	class OFLIAAOJPJC
 	{
 	public:

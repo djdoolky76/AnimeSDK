@@ -56,6 +56,8 @@ namespace System::Reflection { class MethodInfo; }
 
 namespace IFix::Core
 {
+	inline static constexpr unsigned int VirtualMachine_TypeDefinitionIndex = 7142;
+
 	class VirtualMachine : public ::System::Object
 	{
 	public:

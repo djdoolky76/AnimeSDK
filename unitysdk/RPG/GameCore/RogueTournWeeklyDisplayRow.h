@@ -11,6 +11,8 @@ namespace RPG::GameCore { class RogueTournWeeklyDisplayRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueTournWeeklyDisplayRow_TypeDefinitionIndex = 14981;
+
 	class RogueTournWeeklyDisplayRow : public ::System::Object
 	{
 	public:

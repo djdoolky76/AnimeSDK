@@ -19,6 +19,8 @@ namespace RPG::GameCore { class DynamicValue; }
 
 namespace RPG::Client::ChenLingGameBoy
 {
+	inline static constexpr unsigned int ChenLingGameBoyChallengeData_TypeDefinitionIndex = 74800;
+
 	class ChenLingGameBoyChallengeData : public ::System::Object
 	{
 	public:

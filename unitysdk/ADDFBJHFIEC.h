@@ -8,6 +8,8 @@
 #define ADDFBJHFIEC_GET_TYPE_OFFSET UNITYSDK_OFFSET(0xB135630)
 #define ADDFBJHFIEC_JAILHGGFLDH_OFFSET UNITYSDK_OFFSET(0xB135640)
 
+inline static constexpr unsigned int ADDFBJHFIEC_TypeDefinitionIndex = 56104;
+
 	class ADDFBJHFIEC : public ::DBGDNLLDPFI
 	{
 	public:

@@ -13,6 +13,8 @@ namespace UnityEngine { class Transform; }
 #define ADJKBCAIPLM_KANMCJHEFJJ_OFFSET UNITYSDK_OFFSET(0xB142830)
 #define ADJKBCAIPLM_NKPPGDENJAE_OFFSET UNITYSDK_OFFSET(0xB1428D0)
 
+inline static constexpr unsigned int ADJKBCAIPLM_TypeDefinitionIndex = 71765;
+
 	class ADJKBCAIPLM : public ::FMPCODLIOLG
 	{
 	public:

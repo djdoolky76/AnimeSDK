@@ -85,6 +85,8 @@ namespace UnityEngine { class Transform; }
 #define CHLIAIJFBJF_PIIEADOJJBO_OFFSET UNITYSDK_OFFSET(0xCF5CAF0)
 #define CHLIAIJFBJF_USELIGHTWEIGHTDEACTIVE_OFFSET UNITYSDK_OFFSET(0xCF5C470)
 
+inline static constexpr unsigned int CHLIAIJFBJF_TypeDefinitionIndex = 73893;
+
 	class CHLIAIJFBJF : public ::HPKACEPPPCA
 	{
 	public:

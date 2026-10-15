@@ -30,6 +30,8 @@ namespace System { class String; }
 #define MFFFEOKDOAE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EA19500)
 #define MFFFEOKDOAE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EA19560)
 
+inline static constexpr unsigned int MFFFEOKDOAE_TypeDefinitionIndex = 27518;
+
 	class MFFFEOKDOAE : public ::System::Object
 	{
 	public:

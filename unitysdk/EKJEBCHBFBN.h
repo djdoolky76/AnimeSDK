@@ -28,6 +28,8 @@ namespace UnityEngine { class Texture; }
 #define EKJEBCHBFBN_PKCKPFHCODN_OFFSET UNITYSDK_OFFSET(0x15507DF0)
 #define EKJEBCHBFBN_PPEGOIODAKI_OFFSET UNITYSDK_OFFSET(0x15508B70)
 
+inline static constexpr unsigned int EKJEBCHBFBN_TypeDefinitionIndex = 49534;
+
 	class EKJEBCHBFBN
 	{
 	public:

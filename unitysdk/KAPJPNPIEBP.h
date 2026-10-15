@@ -8,6 +8,8 @@ namespace System { class String; }
 #define KAPJPNPIEBP_CTOR_OFFSET UNITYSDK_OFFSET(0x1D05F5D0)
 #define KAPJPNPIEBP_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D05F460)
 
+inline static constexpr unsigned int KAPJPNPIEBP_TypeDefinitionIndex = 15312;
+
 	class KAPJPNPIEBP : public ::System::Object
 	{
 	public:

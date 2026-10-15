@@ -13,6 +13,8 @@ namespace UnityEngine::EventSystems { class PointerEventData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoTravelShipJoyStickProvider_TypeDefinitionIndex = 61321;
+
 	class MonoTravelShipJoyStickProvider : public ::RPG::Client::MonoJoyStickProvider
 	{
 	public:

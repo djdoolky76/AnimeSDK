@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define MCHALDKEDMO_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB87CA10)
 #define MCHALDKEDMO_TICK_OFFSET UNITYSDK_OFFSET(0xB87CA60)
 
+inline static constexpr unsigned int MCHALDKEDMO_TypeDefinitionIndex = 54811;
+
 	class MCHALDKEDMO : public ::GELIALJDFBL
 	{
 	public:

@@ -7,6 +7,8 @@
 
 namespace InControl::UnityDeviceProfiles
 {
+	inline static constexpr unsigned int RazerServalForgeTVUnityProfile_TypeDefinitionIndex = 41044;
+
 	class RazerServalForgeTVUnityProfile : public ::InControl::InputDeviceProfile
 	{
 	public:

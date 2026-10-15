@@ -72,6 +72,8 @@ namespace UnityEngine::UI { class Slider; }
 
 namespace RPG::Client::B51Racing
 {
+	inline static constexpr unsigned int B51RacingGameplaySpeedPanelControl_TypeDefinitionIndex = 81898;
+
 	class B51RacingGameplaySpeedPanelControl : public ::Sofa::BaseSofaControl
 	{
 	public:

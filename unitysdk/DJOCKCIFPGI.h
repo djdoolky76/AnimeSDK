@@ -25,6 +25,8 @@ namespace System::Collections::Generic { template <typename T> class IList_1; }
 #define DJOCKCIFPGI_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1CD31C30)
 #define DJOCKCIFPGI_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1CD31330)
 
+inline static constexpr unsigned int DJOCKCIFPGI_TypeDefinitionIndex = 13582;
+
 	class DJOCKCIFPGI : public ::System::Object
 	{
 	public:

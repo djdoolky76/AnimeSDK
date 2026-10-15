@@ -9,6 +9,8 @@ namespace System { class Action; }
 #define MNCOPNHONHO___C__DISPLAYCLASS246_0__CREATEPROPENTITYCOMPONENTCONTEXT_B__0_OFFSET UNITYSDK_OFFSET(0xBA048C0)
 #define MNCOPNHONHO___C__DISPLAYCLASS246_0__CREATEPROPENTITYCOMPONENTCONTEXT_B__1_OFFSET UNITYSDK_OFFSET(0xBA048F0)
 
+inline static constexpr unsigned int MNCOPNHONHO___c__DisplayClass246_0_TypeDefinitionIndex = 76697;
+
 	class MNCOPNHONHO___c__DisplayClass246_0 : public ::System::Object
 	{
 	public:

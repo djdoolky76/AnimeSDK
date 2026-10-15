@@ -11,6 +11,8 @@ namespace RPG::GameCore { class ChimeraBattleTargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChimeraBattleRunOut_TypeDefinitionIndex = 15879;
+
 	class ChimeraBattleRunOut : public ::RPG::GameCore::ChimeraAbilityProgressBase
 	{
 	public:

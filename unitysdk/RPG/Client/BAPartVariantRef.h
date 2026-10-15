@@ -11,6 +11,8 @@ namespace UnityEngine { class Mesh; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int BAPartVariantRef_TypeDefinitionIndex = 69518;
+
 	class BAPartVariantRef : public ::System::Object
 	{
 	public:

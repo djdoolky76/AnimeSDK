@@ -5,6 +5,8 @@
 
 #define GMKHIDJAGKB_CTOR_OFFSET UNITYSDK_OFFSET(0x1CAB1D00)
 
+inline static constexpr unsigned int GMKHIDJAGKB_TypeDefinitionIndex = 42969;
+
 	class GMKHIDJAGKB : public ::System::Object
 	{
 	public:

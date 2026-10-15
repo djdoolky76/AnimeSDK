@@ -7,6 +7,8 @@ namespace RPG::GameCore { class DiceCombatTaskConfig_MarkBossForceChangePhaseFla
 #define HIFBACKJOHL_CTOR_OFFSET UNITYSDK_OFFSET(0x1C667690)
 #define HIFBACKJOHL_MLKLPMJEHPF_OFFSET UNITYSDK_OFFSET(0x1C6676A0)
 
+inline static constexpr unsigned int HIFBACKJOHL_TypeDefinitionIndex = 36331;
+
 	class HIFBACKJOHL : public ::AJBKGPOEBFG
 	{
 	public:

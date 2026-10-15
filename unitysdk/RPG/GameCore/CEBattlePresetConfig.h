@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CEBattlePresetConfig_TypeDefinitionIndex = 18140;
+
 	class CEBattlePresetConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

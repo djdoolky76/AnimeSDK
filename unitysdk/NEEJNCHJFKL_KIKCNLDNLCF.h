@@ -5,6 +5,8 @@
 #define NEEJNCHJFKL_KIKCNLDNLCF_CTOR_OFFSET UNITYSDK_OFFSET(0xBB5C430)
 #define NEEJNCHJFKL_KIKCNLDNLCF_ONGUI_OFFSET UNITYSDK_OFFSET(0xBB5C1E0)
 
+inline static constexpr unsigned int NEEJNCHJFKL_KIKCNLDNLCF_TypeDefinitionIndex = 73793;
+
 	class NEEJNCHJFKL_KIKCNLDNLCF : public ::UnityEngine::MonoBehaviour
 	{
 	public:

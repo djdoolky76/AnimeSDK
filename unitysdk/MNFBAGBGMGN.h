@@ -25,6 +25,8 @@ namespace System { class String; }
 #define MNFBAGBGMGN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EA95170)
 #define MNFBAGBGMGN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EA951D0)
 
+inline static constexpr unsigned int MNFBAGBGMGN_TypeDefinitionIndex = 27709;
+
 	class MNFBAGBGMGN : public ::System::Object
 	{
 	public:

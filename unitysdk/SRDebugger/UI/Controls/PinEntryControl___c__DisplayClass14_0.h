@@ -8,6 +8,8 @@ namespace SRDebugger::UI::Controls { class PinEntryControl; }
 
 namespace SRDebugger::UI::Controls
 {
+	inline static constexpr unsigned int PinEntryControl___c__DisplayClass14_0_TypeDefinitionIndex = 38029;
+
 	class PinEntryControl___c__DisplayClass14_0 : public ::System::Object
 	{
 	public:

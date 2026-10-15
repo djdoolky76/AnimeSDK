@@ -7,6 +7,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int WalkStyleTranInfo_TypeDefinitionIndex = 68850;
+
 	class WalkStyleTranInfo : public ::System::Object
 	{
 	public:

@@ -13,6 +13,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int CharacterSetSkirtIKClip_TypeDefinitionIndex = 47984;
+
 	class CharacterSetSkirtIKClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:

@@ -9,6 +9,8 @@ namespace RPG::GameCore { class DrinkMakerGuestSequenceRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DrinkMakerGuestSequenceRow_TypeDefinitionIndex = 13180;
+
 	class DrinkMakerGuestSequenceRow : public ::System::Object
 	{
 	public:

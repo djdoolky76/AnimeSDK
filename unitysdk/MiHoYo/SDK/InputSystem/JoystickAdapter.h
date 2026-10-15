@@ -15,6 +15,8 @@ namespace MiHoYo::SDK::InputSystem { class JoystickAdapter; }
 
 namespace MiHoYo::SDK::InputSystem
 {
+	inline static constexpr unsigned int JoystickAdapter_TypeDefinitionIndex = 10095;
+
 	class JoystickAdapter : public ::System::Object
 	{
 	public:

@@ -3,6 +3,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PenaconyEndmostChronicleOpenType_TypeDefinitionIndex = 66098;
+
 	enum class PenaconyEndmostChronicleOpenType : ::System::Int32
 	{
 		MissionChronicle = 0,

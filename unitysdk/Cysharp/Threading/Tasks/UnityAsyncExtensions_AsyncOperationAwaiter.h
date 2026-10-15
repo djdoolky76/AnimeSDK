@@ -11,6 +11,8 @@ namespace UnityEngine { class AsyncOperation; }
 
 namespace Cysharp::Threading::Tasks
 {
+	inline static constexpr unsigned int UnityAsyncExtensions_AsyncOperationAwaiter_TypeDefinitionIndex = 38456;
+
 	struct alignas(8) UnityAsyncExtensions_AsyncOperationAwaiter
 	{
 		::UnityEngine::AsyncOperation* asyncOperation; // 0x10

@@ -16,6 +16,8 @@ namespace System::Reflection { class MethodInfo; }
 #define JKCFJDMLGPK_OEFMMGBIFCJ_OFFSET UNITYSDK_OFFSET(0xB212BA0)
 #define JKCFJDMLGPK_OPFINEFCNJC_OFFSET UNITYSDK_OFFSET(0xB213640)
 
+inline static constexpr unsigned int JKCFJDMLGPK_TypeDefinitionIndex = 69399;
+
 	class JKCFJDMLGPK : public ::System::Object
 	{
 	public:

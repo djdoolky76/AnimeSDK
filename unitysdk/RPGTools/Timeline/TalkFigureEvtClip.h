@@ -11,6 +11,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int TalkFigureEvtClip_TypeDefinitionIndex = 48384;
+
 	class TalkFigureEvtClip : public ::RPGTools::Timeline::CustomEventClip
 	{
 	public:

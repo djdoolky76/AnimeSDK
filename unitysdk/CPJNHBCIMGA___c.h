@@ -9,6 +9,8 @@ namespace System { class Object; }
 #define CPJNHBCIMGA___C_CTOR_OFFSET UNITYSDK_OFFSET(0xDCD8370)
 #define CPJNHBCIMGA___C___EXECUTESWITCH_B__10_4_OFFSET UNITYSDK_OFFSET(0xDCD8380)
 
+inline static constexpr unsigned int CPJNHBCIMGA___c_TypeDefinitionIndex = 77726;
+
 	class CPJNHBCIMGA___c : public ::System::Object
 	{
 	public:

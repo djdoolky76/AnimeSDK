@@ -66,6 +66,8 @@ namespace System::Threading { template <typename T> class ThreadLocal_1; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DynamicValue_TypeDefinitionIndex = 10838;
+
 	class DynamicValue : public ::System::Object
 	{
 	public:

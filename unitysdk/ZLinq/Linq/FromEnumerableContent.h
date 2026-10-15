@@ -8,6 +8,8 @@ namespace System { class Object; }
 
 namespace ZLinq::Linq
 {
+	inline static constexpr unsigned int FromEnumerableContent_TypeDefinitionIndex = 6096;
+
 	struct alignas(8) FromEnumerableContent
 	{
 		::System::Object* Source; // 0x10

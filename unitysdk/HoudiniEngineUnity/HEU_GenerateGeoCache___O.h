@@ -5,6 +5,8 @@ namespace System { template <typename T1, typename T2> class Converter_2; }
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int HEU_GenerateGeoCache___O_TypeDefinitionIndex = 40637;
+
 	class HEU_GenerateGeoCache___O : public ::System::Object
 	{
 	public:

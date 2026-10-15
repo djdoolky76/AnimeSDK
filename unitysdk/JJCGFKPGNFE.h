@@ -23,6 +23,8 @@ namespace UnityEngine::Events { class UnityEventBase; }
 #define JJCGFKPGNFE___CTOR_B__0_0_OFFSET UNITYSDK_OFFSET(0x1EC7A280)
 #define JJCGFKPGNFE___CTOR_B__0_1_OFFSET UNITYSDK_OFFSET(0x1EC7A380)
 
+inline static constexpr unsigned int JJCGFKPGNFE_TypeDefinitionIndex = 44075;
+
 	class JJCGFKPGNFE : public ::System::Object
 	{
 	public:

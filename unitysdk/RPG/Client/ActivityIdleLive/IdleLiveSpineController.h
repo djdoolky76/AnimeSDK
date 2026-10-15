@@ -30,6 +30,8 @@ namespace UnityEngine { class RectTransform; }
 
 namespace RPG::Client::ActivityIdleLive
 {
+	inline static constexpr unsigned int IdleLiveSpineController_TypeDefinitionIndex = 75188;
+
 	class IdleLiveSpineController : public ::UnityEngine::MonoBehaviour
 	{
 	public:

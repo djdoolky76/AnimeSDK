@@ -8,6 +8,8 @@
 
 namespace RPG::Client::B51Racing
 {
+	inline static constexpr unsigned int B51RacingCarDevelopResultValueUpToastViewModel_TypeDefinitionIndex = 82016;
+
 	class B51RacingCarDevelopResultValueUpToastViewModel : public ::System::Object
 	{
 	public:

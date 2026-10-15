@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ST_Side_LookAtTarget; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ST_Side_LookAtTarget_TypeDefinitionIndex = 20110;
+
 	class ST_Side_LookAtTarget : public ::RPG::GameCore::STTaskConfig
 	{
 	public:

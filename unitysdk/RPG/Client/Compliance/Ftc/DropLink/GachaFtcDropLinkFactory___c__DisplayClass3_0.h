@@ -9,6 +9,8 @@ namespace System { class String; }
 
 namespace RPG::Client::Compliance::Ftc::DropLink
 {
+	inline static constexpr unsigned int GachaFtcDropLinkFactory___c__DisplayClass3_0_TypeDefinitionIndex = 74825;
+
 	class GachaFtcDropLinkFactory___c__DisplayClass3_0 : public ::System::Object
 	{
 	public:

@@ -17,6 +17,8 @@ namespace Cinemachine { class ISignalSource6D; }
 
 namespace Cinemachine
 {
+	inline static constexpr unsigned int CinemachineImpulseManager_ImpulseEvent_TypeDefinitionIndex = 39874;
+
 	class CinemachineImpulseManager_ImpulseEvent : public ::System::Object
 	{
 	public:

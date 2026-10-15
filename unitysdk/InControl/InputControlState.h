@@ -12,6 +12,8 @@
 
 namespace InControl
 {
+	inline static constexpr unsigned int InputControlState_TypeDefinitionIndex = 40824;
+
 	struct alignas(4) InputControlState
 	{
 		::System::Boolean State; // 0x10

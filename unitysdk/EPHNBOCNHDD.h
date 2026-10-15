@@ -6,6 +6,8 @@ namespace RPG::GameCore { class GameEntity; }
 #define EPHNBOCNHDD_CLEAR_OFFSET UNITYSDK_OFFSET(0x155D4DD0)
 #define EPHNBOCNHDD_CTOR_OFFSET UNITYSDK_OFFSET(0x155D4E20)
 
+inline static constexpr unsigned int EPHNBOCNHDD_TypeDefinitionIndex = 55518;
+
 	class EPHNBOCNHDD : public ::System::Object
 	{
 	public:

@@ -20,6 +20,8 @@ namespace System { class String; }
 
 namespace RPG::Client::DiceCombat
 {
+	inline static constexpr unsigned int DiceCombatV2RobotData_TypeDefinitionIndex = 76158;
+
 	class DiceCombatV2RobotData : public ::System::Object
 	{
 	public:

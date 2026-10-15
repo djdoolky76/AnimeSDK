@@ -19,6 +19,8 @@
 #define DCAMGFEKEBH_PMDJCENNNDM_OFFSET UNITYSDK_OFFSET(0x1C5DCAD0)
 #define DCAMGFEKEBH_SET_WRITTENCOUNT_OFFSET UNITYSDK_OFFSET(0x1C5DCC80)
 
+inline static constexpr unsigned int DCAMGFEKEBH_TypeDefinitionIndex = 36891;
+
 	class DCAMGFEKEBH : public ::System::Object
 	{
 	public:

@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SummonUnitDataRow_TypeDefinitionIndex = 15207;
+
 	class SummonUnitDataRow : public ::System::Object
 	{
 	public:

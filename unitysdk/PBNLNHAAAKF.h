@@ -33,6 +33,8 @@ namespace System { class String; }
 #define PBNLNHAAAKF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DEFB360)
 #define PBNLNHAAAKF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DEFB3C0)
 
+inline static constexpr unsigned int PBNLNHAAAKF_TypeDefinitionIndex = 31183;
+
 	class PBNLNHAAAKF : public ::System::Object
 	{
 	public:

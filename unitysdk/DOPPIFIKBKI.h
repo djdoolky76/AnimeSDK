@@ -39,6 +39,8 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 #define DOPPIFIKBKI_PBHCOGMEFJK_OFFSET UNITYSDK_OFFSET(0x11FF7B90)
 #define DOPPIFIKBKI_PNBCCHFNDAG_OFFSET UNITYSDK_OFFSET(0x11FF7C80)
 
+inline static constexpr unsigned int DOPPIFIKBKI_TypeDefinitionIndex = 60618;
+
 	class DOPPIFIKBKI : public ::NPEBLEKDAGI
 	{
 	public:

@@ -5,6 +5,8 @@
 #define MELMDJDJHPO_CTOR_OFFSET UNITYSDK_OFFSET(0xB8DFFD0)
 #define MELMDJDJHPO_KIGBILLGNOH_OFFSET UNITYSDK_OFFSET(0xB8DFE80)
 
+inline static constexpr unsigned int MELMDJDJHPO_TypeDefinitionIndex = 77110;
+
 	class MELMDJDJHPO : public ::AKGFIFMIGNC
 	{
 	public:

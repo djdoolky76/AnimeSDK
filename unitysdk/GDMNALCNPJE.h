@@ -64,6 +64,8 @@ namespace UnityEngine::Rendering { class BatchAnimationInstance; }
 #define GDMNALCNPJE_POHPNAHLAEC_OFFSET UNITYSDK_OFFSET(0x159A81C0)
 #define GDMNALCNPJE_SET_TIMESCALE_OFFSET UNITYSDK_OFFSET(0x159A83E0)
 
+inline static constexpr unsigned int GDMNALCNPJE_TypeDefinitionIndex = 82212;
+
 	class GDMNALCNPJE : public ::System::Object
 	{
 	public:

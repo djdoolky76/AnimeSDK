@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define KOJLADIPNKE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB59A5E0)
 #define KOJLADIPNKE_PKADDEPKJFN_OFFSET UNITYSDK_OFFSET(0xB59A790)
 
+inline static constexpr unsigned int KOJLADIPNKE_TypeDefinitionIndex = 69278;
+
 	class KOJLADIPNKE : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace System { class Action; }
 #define BNOOADMJELI_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0xBDE55B0)
 #define BNOOADMJELI_SET_ISFINISHED_OFFSET UNITYSDK_OFFSET(0xBDE5C40)
 
+inline static constexpr unsigned int BNOOADMJELI_TypeDefinitionIndex = 78439;
+
 	class BNOOADMJELI : public ::System::Object
 	{
 	public:

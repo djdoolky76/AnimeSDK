@@ -13,6 +13,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RtByIsTriggeredBlockDamage_TypeDefinitionIndex = 24170;
+
 	class RtByIsTriggeredBlockDamage : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

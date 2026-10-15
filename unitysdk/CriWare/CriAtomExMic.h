@@ -76,6 +76,8 @@ namespace System { class Object; }
 
 namespace CriWare
 {
+	inline static constexpr unsigned int CriAtomExMic_TypeDefinitionIndex = 40041;
+
 	class CriAtomExMic : public ::CriWare::CriDisposable
 	{
 	public:

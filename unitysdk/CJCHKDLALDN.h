@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define CJCHKDLALDN_CTOR_3_OFFSET UNITYSDK_OFFSET(0x1C5D57C0)
 #define CJCHKDLALDN_CTOR_OFFSET UNITYSDK_OFFSET(0x1C5D5040)
 
+inline static constexpr unsigned int CJCHKDLALDN_TypeDefinitionIndex = 36280;
+
 	class CJCHKDLALDN : public ::System::Object
 	{
 	public:

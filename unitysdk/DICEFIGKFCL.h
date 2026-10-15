@@ -40,6 +40,8 @@ namespace System { class String; }
 #define DICEFIGKFCL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E1BB280)
 #define DICEFIGKFCL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E1BB2E0)
 
+inline static constexpr unsigned int DICEFIGKFCL_TypeDefinitionIndex = 29914;
+
 	class DICEFIGKFCL : public ::System::Object
 	{
 	public:

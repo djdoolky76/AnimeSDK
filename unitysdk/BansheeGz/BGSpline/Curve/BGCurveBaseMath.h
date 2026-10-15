@@ -78,6 +78,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace BansheeGz::BGSpline::Curve
 {
+	inline static constexpr unsigned int BGCurveBaseMath_TypeDefinitionIndex = 35997;
+
 	class BGCurveBaseMath : public ::System::Object
 	{
 	public:

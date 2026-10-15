@@ -8,6 +8,8 @@ namespace RPG::Client::ParkourGame { class ParkourSkillConfig_Fireworks; }
 #define BKIILDECPFK_JGBFDBBNLAF_OFFSET UNITYSDK_OFFSET(0xBA58960)
 #define BKIILDECPFK_LOOKHHBPEPA_OFFSET UNITYSDK_OFFSET(0xBA58BF0)
 
+inline static constexpr unsigned int BKIILDECPFK_TypeDefinitionIndex = 74183;
+
 	class BKIILDECPFK : public ::DAOENPMCFON
 	{
 	public:

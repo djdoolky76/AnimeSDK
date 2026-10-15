@@ -9,6 +9,8 @@ namespace RPG::GameCore { class GameEntity; }
 #define CNLEPDKOPFJ_CTOR_OFFSET UNITYSDK_OFFSET(0xDA58D60)
 #define CNLEPDKOPFJ_GOHDHIMMDNG_OFFSET UNITYSDK_OFFSET(0xDA58D70)
 
+inline static constexpr unsigned int CNLEPDKOPFJ_TypeDefinitionIndex = 55862;
+
 	class CNLEPDKOPFJ : public ::JGKIPOLPACC
 	{
 	public:

@@ -28,6 +28,8 @@ namespace System { class String; }
 #define ENILOPJOCBN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E2F0B50)
 #define ENILOPJOCBN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E2F0BB0)
 
+inline static constexpr unsigned int ENILOPJOCBN_TypeDefinitionIndex = 30608;
+
 	class ENILOPJOCBN : public ::System::Object
 	{
 	public:

@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace RPGTools
 {
+	inline static constexpr unsigned int StoryDurationTimeConfig_StoryDurationTime_TypeDefinitionIndex = 47782;
+
 	class StoryDurationTimeConfig_StoryDurationTime : public ::System::Object
 	{
 	public:

@@ -7,6 +7,8 @@
 
 namespace InControl::NativeDeviceProfiles
 {
+	inline static constexpr unsigned int HoriFightingStickVXMacNativeProfile_TypeDefinitionIndex = 41134;
+
 	class HoriFightingStickVXMacNativeProfile : public ::InControl::NativeDeviceProfiles::Xbox360DriverMacNativeProfile
 	{
 	public:

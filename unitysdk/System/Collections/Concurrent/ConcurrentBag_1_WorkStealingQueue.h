@@ -5,6 +5,8 @@ namespace System { class Object; }
 
 namespace System::Collections::Concurrent
 {
+	inline static constexpr unsigned int ConcurrentBag_1_WorkStealingQueue_TypeDefinitionIndex = 3057;
+
 	template <typename T>
 	class ConcurrentBag_1_WorkStealingQueue : public ::System::Object
 	{

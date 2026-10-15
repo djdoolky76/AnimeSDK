@@ -39,6 +39,8 @@ namespace System { class String; }
 #define IGMOKOENLDK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E6529F0)
 #define IGMOKOENLDK_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E652A50)
 
+inline static constexpr unsigned int IGMOKOENLDK_TypeDefinitionIndex = 25463;
+
 	class IGMOKOENLDK : public ::System::Object
 	{
 	public:

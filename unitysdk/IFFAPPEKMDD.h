@@ -15,6 +15,8 @@ namespace System { class Object; }
 #define IFFAPPEKMDD_EKGCGIDIFJJ_OFFSET UNITYSDK_OFFSET(0x15F10F00)
 #define IFFAPPEKMDD_GJCEJCMHJBN_OFFSET UNITYSDK_OFFSET(0x15F10F50)
 
+inline static constexpr unsigned int IFFAPPEKMDD_TypeDefinitionIndex = 71455;
+
 	class IFFAPPEKMDD : public ::FMPCODLIOLG
 	{
 	public:

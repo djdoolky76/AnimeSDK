@@ -43,6 +43,8 @@ namespace System { class String; }
 #define OBPJIBCAKEK_PNLBLMMIBEJ_OFFSET UNITYSDK_OFFSET(0x1C4C9E70)
 #define OBPJIBCAKEK_SET_MANIFESTVERSION_OFFSET UNITYSDK_OFFSET(0x1C4C8DC0)
 
+inline static constexpr unsigned int OBPJIBCAKEK_TypeDefinitionIndex = 41422;
+
 	class OBPJIBCAKEK : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace RPG::GameCore { class SetRogueTournFloorType; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetRogueTournFloorType_TypeDefinitionIndex = 23111;
+
 	class SetRogueTournFloorType : public ::RPG::GameCore::TaskConfig
 	{
 	public:

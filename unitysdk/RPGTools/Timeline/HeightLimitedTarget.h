@@ -3,6 +3,8 @@
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int HeightLimitedTarget_TypeDefinitionIndex = 48428;
+
 	enum class HeightLimitedTarget : ::System::Int32
 	{
 		LightTeam = 0,

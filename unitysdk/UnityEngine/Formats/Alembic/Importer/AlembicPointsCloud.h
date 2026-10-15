@@ -23,6 +23,8 @@ namespace UnityEngine::Formats::Alembic::Sdk { template <typename T> class Pinne
 
 namespace UnityEngine::Formats::Alembic::Importer
 {
+	inline static constexpr unsigned int AlembicPointsCloud_TypeDefinitionIndex = 45882;
+
 	class AlembicPointsCloud : public ::UnityEngine::MonoBehaviour
 	{
 	public:

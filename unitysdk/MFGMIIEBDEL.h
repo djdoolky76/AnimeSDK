@@ -25,6 +25,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define MFGMIIEBDEL_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1D157ED0)
 #define MFGMIIEBDEL_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1D1577A0)
 
+inline static constexpr unsigned int MFGMIIEBDEL_TypeDefinitionIndex = 14865;
+
 	class MFGMIIEBDEL : public ::System::Object
 	{
 	public:

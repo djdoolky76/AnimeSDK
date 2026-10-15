@@ -48,6 +48,8 @@ namespace UnityEngine { class Transform; }
 #define GNHOCJLBCEB_BJFFMGPIPJK_OAMMIPDLOFC_OFFSET UNITYSDK_OFFSET(0x15B0FE10)
 #define GNHOCJLBCEB_BJFFMGPIPJK_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0x15B0E9A0)
 
+inline static constexpr unsigned int GNHOCJLBCEB_BJFFMGPIPJK_TypeDefinitionIndex = 57343;
+
 	class GNHOCJLBCEB_BJFFMGPIPJK : public ::System::Object
 	{
 	public:

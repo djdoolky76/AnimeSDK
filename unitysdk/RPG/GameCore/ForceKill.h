@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ForceKill_TypeDefinitionIndex = 22681;
+
 	class ForceKill : public ::RPG::GameCore::TaskConfig
 	{
 	public:

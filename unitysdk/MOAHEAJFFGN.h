@@ -29,6 +29,8 @@ namespace System { class String; }
 #define MOAHEAJFFGN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EAA45A0)
 #define MOAHEAJFFGN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EAA4600)
 
+inline static constexpr unsigned int MOAHEAJFFGN_TypeDefinitionIndex = 31851;
+
 	class MOAHEAJFFGN : public ::System::Object
 	{
 	public:

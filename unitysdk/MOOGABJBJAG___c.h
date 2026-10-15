@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define MOOGABJBJAG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EAB1380)
 #define MOOGABJBJAG___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1EAB1390)
 
+inline static constexpr unsigned int MOOGABJBJAG___c_TypeDefinitionIndex = 28931;
+
 	class MOOGABJBJAG___c : public ::System::Object
 	{
 	public:

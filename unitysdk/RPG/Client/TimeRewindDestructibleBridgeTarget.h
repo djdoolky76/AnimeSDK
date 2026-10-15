@@ -60,6 +60,8 @@ namespace RPG::Client { class EntityTimelineControlNode; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TimeRewindDestructibleBridgeTarget_TypeDefinitionIndex = 60813;
+
 	class TimeRewindDestructibleBridgeTarget : public ::System::Object
 	{
 	public:

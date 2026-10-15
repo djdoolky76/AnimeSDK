@@ -13,6 +13,8 @@ namespace System { class String; }
 #define JDFPIPINHPH_OHLCPDDLHDJ_NPDPDCOEHGL_OFFSET UNITYSDK_OFFSET(0x165C5B70)
 #define JDFPIPINHPH_OHLCPDDLHDJ_PMEOOCCGIFH_OFFSET UNITYSDK_OFFSET(0x165C5B10)
 
+inline static constexpr unsigned int JDFPIPINHPH_OHLCPDDLHDJ_TypeDefinitionIndex = 72798;
+
 	class JDFPIPINHPH_OHLCPDDLHDJ : public ::System::Object
 	{
 	public:

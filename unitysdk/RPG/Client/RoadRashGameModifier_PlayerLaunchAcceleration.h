@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RoadRashGameModifier_PlayerLaunchAcceleration_TypeDefinitionIndex = 10309;
+
 	class RoadRashGameModifier_PlayerLaunchAcceleration : public ::RPG::GameCore::BaseLittleGameAbilityTaskConfig
 	{
 	public:

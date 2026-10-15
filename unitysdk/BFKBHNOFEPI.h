@@ -13,6 +13,8 @@ namespace System { class Object; }
 #define BFKBHNOFEPI_SET_REALID_OFFSET UNITYSDK_OFFSET(0xFE80)
 #define BFKBHNOFEPI_SET_SKINID_OFFSET UNITYSDK_OFFSET(0xAF40)
 
+inline static constexpr unsigned int BFKBHNOFEPI_TypeDefinitionIndex = 62483;
+
 	struct alignas(4) BFKBHNOFEPI
 	{
 		::System::UInt32 _SkinId_k__BackingField; // 0x10

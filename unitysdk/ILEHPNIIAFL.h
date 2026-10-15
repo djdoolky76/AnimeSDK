@@ -7,6 +7,8 @@ namespace RPG::GameCore { class DiceCombatPredicateConfig_DiceAllEven; }
 #define ILEHPNIIAFL_CTOR_OFFSET UNITYSDK_OFFSET(0x1C6E1B70)
 #define ILEHPNIIAFL_KFGJEKJHIMB_OFFSET UNITYSDK_OFFSET(0x1C6E1B90)
 
+inline static constexpr unsigned int ILEHPNIIAFL_TypeDefinitionIndex = 36343;
+
 	class ILEHPNIIAFL : public ::HHOHBHGLHHF
 	{
 	public:

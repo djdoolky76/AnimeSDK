@@ -27,6 +27,8 @@ namespace System { class String; }
 #define DGPHMHCOPPO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E1B19D0)
 #define DGPHMHCOPPO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E1B1A30)
 
+inline static constexpr unsigned int DGPHMHCOPPO_TypeDefinitionIndex = 34039;
+
 	class DGPHMHCOPPO : public ::System::Object
 	{
 	public:

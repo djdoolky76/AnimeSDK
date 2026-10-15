@@ -7,6 +7,8 @@ namespace UnityEngine::Timeline { class TrackAsset; }
 
 namespace RPGTools::Timeline::PostProcessing
 {
+	inline static constexpr unsigned int BasePlayableBehaviour_TypeDefinitionIndex = 48532;
+
 	class BasePlayableBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

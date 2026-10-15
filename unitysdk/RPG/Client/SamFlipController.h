@@ -15,6 +15,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int SamFlipController_TypeDefinitionIndex = 70274;
+
 	class SamFlipController : public ::UnityEngine::MonoBehaviour
 	{
 	public:

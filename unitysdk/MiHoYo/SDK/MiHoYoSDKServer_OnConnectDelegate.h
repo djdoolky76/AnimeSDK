@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int MiHoYoSDKServer_OnConnectDelegate_TypeDefinitionIndex = 46315;
+
 	class MiHoYoSDKServer_OnConnectDelegate : public ::System::MulticastDelegate
 	{
 	public:

@@ -12,6 +12,8 @@ namespace RPGTools::Timeline { class EmoEyeCtrlShakeNoiseData; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int EmoEyeCtrlShakeData_TypeDefinitionIndex = 48106;
+
 	class EmoEyeCtrlShakeData : public ::System::Object
 	{
 	public:

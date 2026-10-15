@@ -6,6 +6,8 @@ namespace Cinemachine { class CinemachineBrain; }
 #define ICNAPAAPBCI___C__DISPLAYCLASS49_0_CTOR_OFFSET UNITYSDK_OFFSET(0x15E5BB20)
 #define ICNAPAAPBCI___C__DISPLAYCLASS49_0___INITBATTLECAMERATARGETGROUP_B__0_OFFSET UNITYSDK_OFFSET(0x15E5BB30)
 
+inline static constexpr unsigned int ICNAPAAPBCI___c__DisplayClass49_0_TypeDefinitionIndex = 77809;
+
 	class ICNAPAAPBCI___c__DisplayClass49_0 : public ::System::Object
 	{
 	public:

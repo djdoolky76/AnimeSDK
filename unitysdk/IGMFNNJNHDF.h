@@ -12,6 +12,8 @@ namespace RPG::GameCore { class MonopolyEventEffectRow; }
 #define IGMFNNJNHDF_JBIOGKPHKKC_OFFSET UNITYSDK_OFFSET(0x164118D0)
 #define IGMFNNJNHDF_SET_ID_OFFSET UNITYSDK_OFFSET(0x16411930)
 
+inline static constexpr unsigned int IGMFNNJNHDF_TypeDefinitionIndex = 66252;
+
 	class IGMFNNJNHDF : public ::System::Object
 	{
 	public:

@@ -40,6 +40,8 @@ namespace System { class Object; }
 #define FHNIMGBMPLN_OJDPDKPFOFD_OFFSET UNITYSDK_OFFSET(0x1CDF1C30)
 #define FHNIMGBMPLN_OPLEDDAODKL_OFFSET UNITYSDK_OFFSET(0x1CDF26C0)
 
+inline static constexpr unsigned int FHNIMGBMPLN_TypeDefinitionIndex = 10712;
+
 	class FHNIMGBMPLN : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class DiceCombatAIEffectEvaluatorConfig_DiceNOfAKindCo
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DiceCombatAIEffectEvaluatorConfig_DiceNOfAKindCount_TypeDefinitionIndex = 16170;
+
 	class DiceCombatAIEffectEvaluatorConfig_DiceNOfAKindCount : public ::RPG::GameCore::DiceCombatAIEffectEvaluatorConfig
 	{
 	public:

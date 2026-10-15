@@ -109,6 +109,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define CFEFOGNGCMH__RETURNAFTERSEASONMATCHFAILED_B__26_0_OFFSET UNITYSDK_OFFSET(0xCA114C0)
 #define CFEFOGNGCMH__SETTLE_B__21_0_OFFSET UNITYSDK_OFFSET(0xCA114B0)
 
+inline static constexpr unsigned int CFEFOGNGCMH_TypeDefinitionIndex = 81865;
+
 	class CFEFOGNGCMH : public ::System::Object
 	{
 	public:

@@ -41,6 +41,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightEquipItemData_TypeDefinitionIndex = 64973;
+
 	class GridFightEquipItemData : public ::Sofa::Core::ObservableObject
 	{
 	public:

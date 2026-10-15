@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define CAFPFNAKODN___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E059360)
 #define CAFPFNAKODN___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1E059370)
 
+inline static constexpr unsigned int CAFPFNAKODN___c_TypeDefinitionIndex = 34079;
+
 	class CAFPFNAKODN___c : public ::System::Object
 	{
 	public:

@@ -9,6 +9,8 @@ namespace RPG::Client::Prop { class RotateSelectParamData; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int RotatePillarPuzzleSwitch___c__DisplayClass1_0_TypeDefinitionIndex = 78816;
+
 	class RotatePillarPuzzleSwitch___c__DisplayClass1_0 : public ::System::Object
 	{
 	public:

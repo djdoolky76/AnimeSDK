@@ -63,6 +63,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int BoxmanPuzzleBoard_TypeDefinitionIndex = 78845;
+
 	class BoxmanPuzzleBoard : public ::RPG::Client::Prop::ScenePuzzleBoardBase
 	{
 	public:

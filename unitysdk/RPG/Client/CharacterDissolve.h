@@ -13,6 +13,8 @@ namespace UnityEngine { class Texture2D; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int CharacterDissolve_TypeDefinitionIndex = 70264;
+
 	class CharacterDissolve
 	{
 	public:

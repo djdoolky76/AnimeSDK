@@ -9,6 +9,8 @@ namespace System { class Object; }
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int LODParameters_TypeDefinitionIndex = 4757;
+
 	struct alignas(4) LODParameters
 	{
 		::System::Int32 m_IsOrthographic; // 0x10

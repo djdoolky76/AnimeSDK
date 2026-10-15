@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RtBattleTriggerCameraAbility_TypeDefinitionIndex = 24095;
+
 	class RtBattleTriggerCameraAbility : public ::RPG::GameCore::TaskConfig
 	{
 	public:

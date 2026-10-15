@@ -15,6 +15,8 @@ namespace RPGTools::Timeline::Story { class BaseStoryMoveRunData; }
 #define CENNJOPMMGO_MNKAPPBEJOK_OFFSET UNITYSDK_OFFSET(0xC9ECD10)
 #define CENNJOPMMGO_PMMJGEDIIJD_OFFSET UNITYSDK_OFFSET(0xC9ECCB0)
 
+inline static constexpr unsigned int CENNJOPMMGO_TypeDefinitionIndex = 53614;
+
 	class CENNJOPMMGO : public ::IECNEMPGKJL
 	{
 	public:

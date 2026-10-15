@@ -18,6 +18,8 @@ namespace System::Threading { class ThreadPoolWorkQueue_QueueSegment; }
 
 namespace System::Threading
 {
+	inline static constexpr unsigned int ThreadPoolWorkQueue_TypeDefinitionIndex = 858;
+
 	class ThreadPoolWorkQueue : public ::System::Object
 	{
 	public:

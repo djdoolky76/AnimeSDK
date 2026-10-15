@@ -12,6 +12,8 @@ namespace Google::Protobuf { class IBytesArrayPool; }
 
 namespace Google::Protobuf
 {
+	inline static constexpr unsigned int ArrayPoolManager_TypeDefinitionIndex = 5395;
+
 	class ArrayPoolManager : public ::System::Object
 	{
 	public:

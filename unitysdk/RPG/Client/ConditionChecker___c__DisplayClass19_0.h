@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ConditionChecker___c__DisplayClass19_0_TypeDefinitionIndex = 59899;
+
 	class ConditionChecker___c__DisplayClass19_0 : public ::System::Object
 	{
 	public:

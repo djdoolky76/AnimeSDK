@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GridFightCoreRoleInfoRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightCoreRoleInfoRow_TypeDefinitionIndex = 13686;
+
 	class GridFightCoreRoleInfoRow : public ::System::Object
 	{
 	public:

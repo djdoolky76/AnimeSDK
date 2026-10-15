@@ -14,6 +14,8 @@ namespace System::Text { class StringBuilder; }
 
 namespace MessagePack::Formatters
 {
+	inline static constexpr unsigned int StringBuilderFormatter_TypeDefinitionIndex = 7493;
+
 	class StringBuilderFormatter : public ::System::Object
 	{
 	public:

@@ -4,6 +4,8 @@ class LELCKJPOPAO;
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ConfigDataPoolListPolymorphic_1_TypeDefinitionIndex = 10796;
+
 	template <typename T>
 	struct alignas(8) ConfigDataPoolListPolymorphic_1
 	{

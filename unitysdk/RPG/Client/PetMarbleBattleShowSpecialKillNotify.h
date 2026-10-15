@@ -8,6 +8,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PetMarbleBattleShowSpecialKillNotify_TypeDefinitionIndex = 65828;
+
 	class PetMarbleBattleShowSpecialKillNotify : public ::System::Object
 	{
 	public:

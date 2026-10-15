@@ -3,6 +3,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AntialiasingMode_TypeDefinitionIndex = 67922;
+
 	enum class AntialiasingMode : ::System::Int32
 	{
 		Off = 0,

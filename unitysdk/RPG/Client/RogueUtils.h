@@ -45,6 +45,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueUtils_TypeDefinitionIndex = 67476;
+
 	class RogueUtils : public ::System::Object
 	{
 	public:

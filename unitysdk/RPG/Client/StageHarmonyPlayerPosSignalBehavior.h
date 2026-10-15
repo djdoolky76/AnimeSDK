@@ -28,6 +28,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int StageHarmonyPlayerPosSignalBehavior_TypeDefinitionIndex = 70967;
+
 	class StageHarmonyPlayerPosSignalBehavior : public ::RPG::Client::TABehaviorBase
 	{
 	public:

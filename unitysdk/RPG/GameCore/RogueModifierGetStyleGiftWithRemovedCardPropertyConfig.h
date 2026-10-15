@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueModifierGetStyleGiftWithRemovedCardProperty
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueModifierGetStyleGiftWithRemovedCardPropertyConfig_TypeDefinitionIndex = 17848;
+
 	class RogueModifierGetStyleGiftWithRemovedCardPropertyConfig : public ::RPG::GameCore::RogueModifierConfig
 	{
 	public:

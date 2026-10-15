@@ -9,6 +9,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define AIIDMNCDJGD_CTOR_OFFSET UNITYSDK_OFFSET(0xEBA6E30)
 #define AIIDMNCDJGD_EVALUATE_OFFSET UNITYSDK_OFFSET(0xEBA6E60)
 
+inline static constexpr unsigned int AIIDMNCDJGD_TypeDefinitionIndex = 52129;
+
 	class AIIDMNCDJGD
 	{
 	public:

@@ -43,6 +43,8 @@ namespace System { class String; }
 
 namespace UnityEngine::GCFreeClosure
 {
+	inline static constexpr unsigned int SValue_TypeDefinitionIndex = 4466;
+
 	struct alignas(8) SValue
 	{
 		::UnityEngine::GCFreeClosure::SValue_InternalValue _val; // 0x10

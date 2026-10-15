@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T> class LinkedList_
 
 namespace TMPro
 {
+	inline static constexpr unsigned int FastAction_2_TypeDefinitionIndex = 44534;
+
 	template <typename T1, typename T2>
 	class FastAction_2 : public ::System::Object
 	{

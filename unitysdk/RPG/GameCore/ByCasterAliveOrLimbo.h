@@ -14,6 +14,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByCasterAliveOrLimbo_TypeDefinitionIndex = 23486;
+
 	class ByCasterAliveOrLimbo : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

@@ -15,6 +15,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ActiveTrackCamera_TypeDefinitionIndex = 20834;
+
 	class ActiveTrackCamera : public ::RPG::GameCore::TaskConfig
 	{
 	public:

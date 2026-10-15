@@ -23,6 +23,8 @@ namespace RPG::GameCore { class ElfWaveCustomerConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ElfRestaurantGameConfig_TypeDefinitionIndex = 18455;
+
 	class ElfRestaurantGameConfig : public ::RPG::GameCore::LittleGameConstConfig
 	{
 	public:

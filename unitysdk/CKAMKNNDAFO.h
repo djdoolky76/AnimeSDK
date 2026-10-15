@@ -26,6 +26,8 @@ namespace System { class Object; }
 #define CKAMKNNDAFO_PILNEEFIHOK_OFFSET UNITYSDK_OFFSET(0xD753A70)
 #define CKAMKNNDAFO_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0xD7531F0)
 
+inline static constexpr unsigned int CKAMKNNDAFO_TypeDefinitionIndex = 69132;
+
 	class CKAMKNNDAFO : public ::System::Object
 	{
 	public:

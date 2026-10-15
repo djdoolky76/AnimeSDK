@@ -11,6 +11,8 @@ namespace RPG::Client { class ITimeRange; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ITimeRangeExtensions_TypeDefinitionIndex = 67894;
+
 	class ITimeRangeExtensions : public ::System::Object
 	{
 	public:

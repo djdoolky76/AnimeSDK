@@ -8,6 +8,8 @@
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int HEU_InputInterfaceMeshSettings_TypeDefinitionIndex = 40644;
+
 	class HEU_InputInterfaceMeshSettings : public ::System::Object
 	{
 	public:

@@ -25,6 +25,8 @@ namespace System { class String; }
 #define MOJCEJIPPGO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EAAD1B0)
 #define MOJCEJIPPGO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EAAD210)
 
+inline static constexpr unsigned int MOJCEJIPPGO_TypeDefinitionIndex = 31684;
+
 	class MOJCEJIPPGO : public ::System::Object
 	{
 	public:

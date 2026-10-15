@@ -2,6 +2,8 @@
 #include "unitysdk/unitysdk.h"
 class EDKIEBFBPFD;
 
+inline static constexpr unsigned int EDKIEBFBPFD_TypeDefinitionIndex = 49247;
+
 	class EDKIEBFBPFD
 	{
 	public:

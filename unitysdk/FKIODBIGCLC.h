@@ -6,6 +6,8 @@ namespace RPG::GameCore { class ChimeraEvaluationCondition; }
 
 #define FKIODBIGCLC_JOKCJKOHIAJ_OFFSET UNITYSDK_OFFSET(0x157FF790)
 
+inline static constexpr unsigned int FKIODBIGCLC_TypeDefinitionIndex = 63470;
+
 	class FKIODBIGCLC : public ::System::Object
 	{
 	public:

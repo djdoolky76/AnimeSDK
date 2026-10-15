@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace RPG::Client::TAUtils
 {
+	inline static constexpr unsigned int ComputeMaterial_VectorProperty_TypeDefinitionIndex = 73612;
+
 	class ComputeMaterial_VectorProperty : public ::System::Object
 	{
 	public:

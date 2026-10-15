@@ -6,6 +6,8 @@
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int ReportEnumDefine_TypeDefinitionIndex = 46483;
+
 	class ReportEnumDefine : public ::System::Object
 	{
 	public:

@@ -79,6 +79,8 @@ namespace System::Globalization { class TextInfo; }
 
 namespace System::Globalization
 {
+	inline static constexpr unsigned int CultureInfo_TypeDefinitionIndex = 790;
+
 	class CultureInfo : public ::System::Object
 	{
 	public:

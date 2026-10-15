@@ -16,6 +16,8 @@ namespace UnityEngine { class Animator; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoEffectPluginAnim_TypeDefinitionIndex = 70032;
+
 	class MonoEffectPluginAnim : public ::RPG::Client::MonoEffectPluginBase
 	{
 	public:

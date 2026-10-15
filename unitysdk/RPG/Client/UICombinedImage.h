@@ -22,6 +22,8 @@ namespace UnityEngine::UI { class Image; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int UICombinedImage_TypeDefinitionIndex = 69082;
+
 	class UICombinedImage : public ::UnityEngine::MonoBehaviour
 	{
 	public:

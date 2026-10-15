@@ -7,6 +7,8 @@ class GGJFAFONDHN;
 
 namespace EnviromentSystemV2Space
 {
+	inline static constexpr unsigned int LayoutTexturePropertyData_TypeDefinitionIndex = 49373;
+
 	class LayoutTexturePropertyData
 	{
 	public:

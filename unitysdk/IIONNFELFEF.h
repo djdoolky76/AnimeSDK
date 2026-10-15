@@ -32,6 +32,8 @@ namespace System { class String; }
 #define IIONNFELFEF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E68C4D0)
 #define IIONNFELFEF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E68C530)
 
+inline static constexpr unsigned int IIONNFELFEF_TypeDefinitionIndex = 25876;
+
 	class IIONNFELFEF : public ::System::Object
 	{
 	public:

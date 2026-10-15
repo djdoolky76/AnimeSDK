@@ -40,6 +40,8 @@ namespace System::Security::Cryptography::X509Certificates { class X509Certifica
 
 namespace Mono::Unity
 {
+	inline static constexpr unsigned int UnityTlsContext_TypeDefinitionIndex = 2401;
+
 	class UnityTlsContext : public ::Mono::Net::Security::MobileTlsContext
 	{
 	public:

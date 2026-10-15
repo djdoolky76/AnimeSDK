@@ -12,6 +12,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int ConvinceHpChangeClip_TypeDefinitionIndex = 48043;
+
 	class ConvinceHpChangeClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:

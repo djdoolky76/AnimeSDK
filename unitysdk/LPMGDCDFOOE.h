@@ -9,6 +9,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 #define LPMGDCDFOOE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D12C4D0)
 #define LPMGDCDFOOE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D12C490)
 
+inline static constexpr unsigned int LPMGDCDFOOE_TypeDefinitionIndex = 22495;
+
 	class LPMGDCDFOOE : public ::RPG::GameCore::TaskConfig
 	{
 	public:

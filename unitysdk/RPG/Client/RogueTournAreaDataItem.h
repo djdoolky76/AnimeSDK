@@ -56,6 +56,8 @@ namespace System::Collections::ObjectModel { template <typename T> class ReadOnl
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueTournAreaDataItem_TypeDefinitionIndex = 67496;
+
 	class RogueTournAreaDataItem : public ::System::Object
 	{
 	public:

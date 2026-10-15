@@ -6,6 +6,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define MOCALHHICIP_CTOR_OFFSET UNITYSDK_OFFSET(0xBA24CB0)
 
+inline static constexpr unsigned int MOCALHHICIP_TypeDefinitionIndex = 73291;
+
 	class MOCALHHICIP : public ::System::Object
 	{
 	public:

@@ -9,6 +9,8 @@ namespace RPG::GameCore { class IdleLiveTeamSlotLevelLimitRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int IdleLiveTeamSlotLevelLimitRow_TypeDefinitionIndex = 11720;
+
 	class IdleLiveTeamSlotLevelLimitRow : public ::System::Object
 	{
 	public:

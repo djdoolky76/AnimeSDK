@@ -17,6 +17,8 @@ namespace System { class String; }
 #define MGHEJOGLOCN_NLFGNGMEMGF_OFFSET UNITYSDK_OFFSET(0xB91D220)
 #define MGHEJOGLOCN_PFAHDIJMFNG_OFFSET UNITYSDK_OFFSET(0xB91D920)
 
+inline static constexpr unsigned int MGHEJOGLOCN_TypeDefinitionIndex = 59064;
+
 	class MGHEJOGLOCN : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChenLingFesItemAbilityConfig_TypeDefinitionIndex = 18446;
+
 	class ChenLingFesItemAbilityConfig : public ::RPG::GameCore::ChenLingFesAbilityConfig
 	{
 	public:

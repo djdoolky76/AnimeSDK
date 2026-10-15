@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define DPKAAFLBPAP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E212580)
 #define DPKAAFLBPAP___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1E212590)
 
+inline static constexpr unsigned int DPKAAFLBPAP___c_TypeDefinitionIndex = 26694;
+
 	class DPKAAFLBPAP___c : public ::System::Object
 	{
 	public:

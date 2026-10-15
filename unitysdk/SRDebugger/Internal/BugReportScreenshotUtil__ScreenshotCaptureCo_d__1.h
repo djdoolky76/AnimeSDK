@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace SRDebugger::Internal
 {
+	inline static constexpr unsigned int BugReportScreenshotUtil__ScreenshotCaptureCo_d__1_TypeDefinitionIndex = 38101;
+
 	template <typename T>
 	class BugReportScreenshotUtil__ScreenshotCaptureCo_d__1 : public ::System::Object
 	{

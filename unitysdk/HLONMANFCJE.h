@@ -5,6 +5,8 @@ class OOCCBMLAELL;
 
 #define HLONMANFCJE_CTOR_OFFSET UNITYSDK_OFFSET(0x15D75BD0)
 
+inline static constexpr unsigned int HLONMANFCJE_TypeDefinitionIndex = 80593;
+
 	class HLONMANFCJE : public ::System::Object
 	{
 	public:

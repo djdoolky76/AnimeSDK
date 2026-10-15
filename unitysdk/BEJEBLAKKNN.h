@@ -37,6 +37,8 @@ namespace UnityEngine { class GameObject; }
 #define BEJEBLAKKNN_PAIIHJJCJAN_OFFSET UNITYSDK_OFFSET(0x163258E0)
 #define BEJEBLAKKNN_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0x16324970)
 
+inline static constexpr unsigned int BEJEBLAKKNN_TypeDefinitionIndex = 75965;
+
 	class BEJEBLAKKNN : public ::System::Object
 	{
 	public:

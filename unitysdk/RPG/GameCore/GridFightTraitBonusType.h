@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightTraitBonusType_TypeDefinitionIndex = 10561;
+
 	enum class GridFightTraitBonusType : ::System::Int32
 	{
 		None = 0,

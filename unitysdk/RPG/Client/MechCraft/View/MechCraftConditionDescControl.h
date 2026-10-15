@@ -10,6 +10,8 @@ namespace RPG::Client { class LocalizedText; }
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftConditionDescControl_TypeDefinitionIndex = 79814;
+
 	class MechCraftConditionDescControl : public ::UnityEngine::MonoBehaviour
 	{
 	public:

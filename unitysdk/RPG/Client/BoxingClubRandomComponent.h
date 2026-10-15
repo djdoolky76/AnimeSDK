@@ -31,6 +31,8 @@ namespace XLua { class LuaTable; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int BoxingClubRandomComponent_TypeDefinitionIndex = 72512;
+
 	class BoxingClubRandomComponent : public ::UnityEngine::MonoBehaviour
 	{
 	public:

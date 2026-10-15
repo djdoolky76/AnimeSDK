@@ -6,6 +6,8 @@ namespace System { class String; }
 
 namespace TMPro::SpriteAssetUtilities
 {
+	inline static constexpr unsigned int TexturePacker_JsonArray_SpriteSize_TypeDefinitionIndex = 44700;
+
 	struct alignas(4) TexturePacker_JsonArray_SpriteSize
 	{
 		::System::Single w; // 0x10

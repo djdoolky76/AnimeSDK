@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define KHENECNMFPI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E841890)
 #define KHENECNMFPI___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E8418A0)
 
+inline static constexpr unsigned int KHENECNMFPI___c_TypeDefinitionIndex = 26522;
+
 	class KHENECNMFPI___c : public ::System::Object
 	{
 	public:

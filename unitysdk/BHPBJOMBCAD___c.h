@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define BHPBJOMBCAD___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DDFE360)
 #define BHPBJOMBCAD___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1DDFE370)
 
+inline static constexpr unsigned int BHPBJOMBCAD___c_TypeDefinitionIndex = 33444;
+
 	class BHPBJOMBCAD___c : public ::System::Object
 	{
 	public:

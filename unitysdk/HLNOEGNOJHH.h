@@ -110,6 +110,8 @@ namespace UnityEngine { class GameObject; }
 #define HLNOEGNOJHH_POJEGGEHIAE_OFFSET UNITYSDK_OFFSET(0x15D72970)
 #define HLNOEGNOJHH_PPGILLLAABD_OFFSET UNITYSDK_OFFSET(0x15D67DF0)
 
+inline static constexpr unsigned int HLNOEGNOJHH_TypeDefinitionIndex = 77756;
+
 	class HLNOEGNOJHH : public ::System::Object
 	{
 	public:

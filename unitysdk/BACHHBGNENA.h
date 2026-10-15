@@ -32,6 +32,8 @@ namespace System { class String; }
 #define BACHHBGNENA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E7AF060)
 #define BACHHBGNENA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E7AF0C0)
 
+inline static constexpr unsigned int BACHHBGNENA_TypeDefinitionIndex = 31871;
+
 	class BACHHBGNENA : public ::System::Object
 	{
 	public:

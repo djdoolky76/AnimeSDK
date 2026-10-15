@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int StagePrefabConfig_TypeDefinitionIndex = 16359;
+
 	class StagePrefabConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

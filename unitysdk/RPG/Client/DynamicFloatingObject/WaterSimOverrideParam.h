@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::DynamicFloatingObject
 {
+	inline static constexpr unsigned int WaterSimOverrideParam_TypeDefinitionIndex = 73577;
+
 	class WaterSimOverrideParam
 	{
 	public:

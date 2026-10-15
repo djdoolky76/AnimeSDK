@@ -31,6 +31,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::B51Racing
 {
+	inline static constexpr unsigned int MonoB51RacingReadyDriverPanel_TypeDefinitionIndex = 81959;
+
 	class MonoB51RacingReadyDriverPanel : public ::Sofa::BaseSofaControl
 	{
 	public:

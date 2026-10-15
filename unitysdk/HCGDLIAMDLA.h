@@ -31,6 +31,8 @@ namespace System { class String; }
 #define HCGDLIAMDLA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E53CCF0)
 #define HCGDLIAMDLA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E53CD50)
 
+inline static constexpr unsigned int HCGDLIAMDLA_TypeDefinitionIndex = 31865;
+
 	class HCGDLIAMDLA : public ::System::Object
 	{
 	public:

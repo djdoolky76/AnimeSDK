@@ -12,6 +12,8 @@ namespace RPG::GameCore { class ComplexSkillAIPostProcessPreCheckFail; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ComplexSkillAIPostProcessPreCheckFail_TypeDefinitionIndex = 15562;
+
 	class ComplexSkillAIPostProcessPreCheckFail : public ::RPG::GameCore::ComplexSkillAIPostProcess
 	{
 	public:

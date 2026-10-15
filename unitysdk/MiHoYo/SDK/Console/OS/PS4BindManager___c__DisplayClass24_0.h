@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::Console::OS
 {
+	inline static constexpr unsigned int PS4BindManager___c__DisplayClass24_0_TypeDefinitionIndex = 9106;
+
 	class PS4BindManager___c__DisplayClass24_0 : public ::System::Object
 	{
 	public:

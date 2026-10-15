@@ -13,6 +13,8 @@ namespace RPG::GameCore { class TaskContext; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelShowDialogTask_TypeDefinitionIndex = 58187;
+
 	class LevelShowDialogTask : public ::GELIALJDFBL
 	{
 	public:

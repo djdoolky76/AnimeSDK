@@ -14,6 +14,8 @@ namespace UnityEngine::EventSystems { class PointerEventData; }
 
 namespace Cysharp::Threading::Tasks::Triggers
 {
+	inline static constexpr unsigned int AsyncBeginDragTrigger_TypeDefinitionIndex = 38619;
+
 	class AsyncBeginDragTrigger
 	{
 	public:

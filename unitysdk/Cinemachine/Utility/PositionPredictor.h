@@ -16,6 +16,8 @@
 
 namespace Cinemachine::Utility
 {
+	inline static constexpr unsigned int PositionPredictor_TypeDefinitionIndex = 39892;
+
 	class PositionPredictor : public ::System::Object
 	{
 	public:

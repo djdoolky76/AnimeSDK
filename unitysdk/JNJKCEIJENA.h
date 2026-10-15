@@ -33,6 +33,8 @@ namespace System { class String; }
 #define JNJKCEIJENA_PPMAAOACDMH_OFFSET UNITYSDK_OFFSET(0xB2865D0)
 #define JNJKCEIJENA_TEARDOWN_OFFSET UNITYSDK_OFFSET(0xB286EA0)
 
+inline static constexpr unsigned int JNJKCEIJENA_TypeDefinitionIndex = 77139;
+
 	class JNJKCEIJENA : public ::System::Object
 	{
 	public:

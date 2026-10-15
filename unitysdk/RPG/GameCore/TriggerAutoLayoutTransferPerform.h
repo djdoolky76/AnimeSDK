@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TriggerAutoLayoutTransferPerform_TypeDefinitionIndex = 23127;
+
 	class TriggerAutoLayoutTransferPerform : public ::RPG::GameCore::TaskConfig
 	{
 	public:

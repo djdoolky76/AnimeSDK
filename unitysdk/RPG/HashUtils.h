@@ -32,6 +32,8 @@ namespace System::IO { class Stream; }
 
 namespace RPG
 {
+	inline static constexpr unsigned int HashUtils_TypeDefinitionIndex = 6372;
+
 	class HashUtils : public ::System::Object
 	{
 	public:

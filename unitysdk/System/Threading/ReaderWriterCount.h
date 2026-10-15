@@ -7,6 +7,8 @@ namespace System::Threading { class ReaderWriterCount; }
 
 namespace System::Threading
 {
+	inline static constexpr unsigned int ReaderWriterCount_TypeDefinitionIndex = 3116;
+
 	class ReaderWriterCount : public ::System::Object
 	{
 	public:

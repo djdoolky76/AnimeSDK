@@ -9,6 +9,8 @@ namespace RPG::GameCore { class RelicSubAffixAvatarValueRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RelicSubAffixAvatarValueRow_TypeDefinitionIndex = 10883;
+
 	class RelicSubAffixAvatarValueRow : public ::System::Object
 	{
 	public:

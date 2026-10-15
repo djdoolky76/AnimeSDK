@@ -10,6 +10,8 @@
 
 namespace RPG::Client::CatGod
 {
+	inline static constexpr unsigned int CatGodBubbleData_TypeDefinitionIndex = 81651;
+
 	class CatGodBubbleData : public ::System::Object
 	{
 	public:

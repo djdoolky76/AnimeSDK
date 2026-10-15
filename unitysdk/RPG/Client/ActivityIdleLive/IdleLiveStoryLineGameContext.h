@@ -56,6 +56,8 @@ namespace System { template <typename T> class Func_1; }
 
 namespace RPG::Client::ActivityIdleLive
 {
+	inline static constexpr unsigned int IdleLiveStoryLineGameContext_TypeDefinitionIndex = 75323;
+
 	class IdleLiveStoryLineGameContext : public ::RPG::Client::BaseGameFlowContext
 	{
 	public:

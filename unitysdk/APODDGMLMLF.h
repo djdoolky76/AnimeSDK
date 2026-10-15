@@ -31,6 +31,8 @@ namespace System { class String; }
 #define APODDGMLMLF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E67AD10)
 #define APODDGMLMLF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E67AD70)
 
+inline static constexpr unsigned int APODDGMLMLF_TypeDefinitionIndex = 32425;
+
 	class APODDGMLMLF : public ::System::Object
 	{
 	public:

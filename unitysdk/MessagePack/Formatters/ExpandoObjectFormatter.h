@@ -14,6 +14,8 @@ namespace System::Dynamic { class ExpandoObject; }
 
 namespace MessagePack::Formatters
 {
+	inline static constexpr unsigned int ExpandoObjectFormatter_TypeDefinitionIndex = 7430;
+
 	class ExpandoObjectFormatter : public ::System::Object
 	{
 	public:

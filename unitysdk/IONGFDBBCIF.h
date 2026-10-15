@@ -14,6 +14,8 @@ namespace UnityEngine { class Transform; }
 #define IONGFDBBCIF_INIJCJJLPKM_1_OFFSET UNITYSDK_OFFSET(0x165141E0)
 #define IONGFDBBCIF_MPFKCHHCIMO_OFFSET UNITYSDK_OFFSET(0x16514390)
 
+inline static constexpr unsigned int IONGFDBBCIF_TypeDefinitionIndex = 71179;
+
 	class IONGFDBBCIF : public ::System::Object
 	{
 	public:

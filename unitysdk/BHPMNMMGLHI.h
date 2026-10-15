@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define BHPMNMMGLHI_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB493DF0)
 #define BHPMNMMGLHI_OFBAIDIPKBI_OFFSET UNITYSDK_OFFSET(0xB493CE0)
 
+inline static constexpr unsigned int BHPMNMMGLHI_TypeDefinitionIndex = 49678;
+
 	class BHPMNMMGLHI : public ::System::Object
 	{
 	public:

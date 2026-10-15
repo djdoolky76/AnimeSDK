@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define MECGENOFGDM_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1D14E900)
 #define MECGENOFGDM_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1D14E1E0)
 
+inline static constexpr unsigned int MECGENOFGDM_TypeDefinitionIndex = 13708;
+
 	class MECGENOFGDM : public ::System::Object
 	{
 	public:

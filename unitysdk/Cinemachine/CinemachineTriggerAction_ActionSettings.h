@@ -10,6 +10,8 @@ namespace UnityEngine { class Object; }
 
 namespace Cinemachine
 {
+	inline static constexpr unsigned int CinemachineTriggerAction_ActionSettings_TypeDefinitionIndex = 39858;
+
 	struct alignas(8) CinemachineTriggerAction_ActionSettings
 	{
 		::Cinemachine::CinemachineTriggerAction_ActionSettings_Mode m_Action; // 0x10

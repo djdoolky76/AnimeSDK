@@ -3,6 +3,8 @@
 
 namespace CriWare
 {
+	inline static constexpr unsigned int CriDisposableObjectManager_ModuleType_TypeDefinitionIndex = 40197;
+
 	enum class CriDisposableObjectManager_ModuleType : ::System::Int32
 	{
 		Atom = 0,

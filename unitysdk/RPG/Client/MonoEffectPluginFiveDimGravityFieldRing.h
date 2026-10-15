@@ -13,6 +13,8 @@ namespace UnityEngine { class LineRenderer; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoEffectPluginFiveDimGravityFieldRing_TypeDefinitionIndex = 70027;
+
 	class MonoEffectPluginFiveDimGravityFieldRing : public ::RPG::Client::MonoEffectPluginBase
 	{
 	public:

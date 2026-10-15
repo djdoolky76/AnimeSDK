@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define KPDEDHJECEL_HADOHLNHHGB_OFFSET UNITYSDK_OFFSET(0xB5B3A50)
 #define KPDEDHJECEL_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0xB5B3A90)
 
+inline static constexpr unsigned int KPDEDHJECEL_TypeDefinitionIndex = 63356;
+
 	class KPDEDHJECEL : public ::System::Object
 	{
 	public:

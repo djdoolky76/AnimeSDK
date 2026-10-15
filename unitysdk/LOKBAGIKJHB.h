@@ -34,6 +34,8 @@ namespace System { class String; }
 #define LOKBAGIKJHB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E9C3140)
 #define LOKBAGIKJHB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E9C31A0)
 
+inline static constexpr unsigned int LOKBAGIKJHB_TypeDefinitionIndex = 25313;
+
 	class LOKBAGIKJHB : public ::System::Object
 	{
 	public:

@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int LocalizationManager_OnUIWorldFontChange_TypeDefinitionIndex = 61354;
+
 	class LocalizationManager_OnUIWorldFontChange : public ::System::MulticastDelegate
 	{
 	public:

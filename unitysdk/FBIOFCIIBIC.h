@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 #define FBIOFCIIBIC_CTOR_OFFSET UNITYSDK_OFFSET(0x156A1470)
 #define FBIOFCIIBIC_HPMHPJIJAPB_OFFSET UNITYSDK_OFFSET(0x156A13B0)
 
+inline static constexpr unsigned int FBIOFCIIBIC_TypeDefinitionIndex = 77386;
+
 	class FBIOFCIIBIC : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@
 
 namespace TMPro
 {
+	inline static constexpr unsigned int TMP_ColorGradient_TypeDefinitionIndex = 44547;
+
 	class TMP_ColorGradient : public ::UnityEngine::ScriptableObject
 	{
 	public:

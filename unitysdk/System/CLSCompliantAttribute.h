@@ -6,6 +6,8 @@
 
 namespace System
 {
+	inline static constexpr unsigned int CLSCompliantAttribute_TypeDefinitionIndex = 211;
+
 	class CLSCompliantAttribute : public ::System::Attribute
 	{
 	public:

@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 #define CFPNIJINMJA_CJKPEHAGJHP_EFIKHAHHAIM_OFFSET UNITYSDK_OFFSET(0xCC606B0)
 #define CFPNIJINMJA_CJKPEHAGJHP_EPBIHGNFANB_OFFSET UNITYSDK_OFFSET(0xCC605D0)
 
+inline static constexpr unsigned int CFPNIJINMJA_CJKPEHAGJHP_TypeDefinitionIndex = 81609;
+
 	class CFPNIJINMJA_CJKPEHAGJHP : public ::System::Object
 	{
 	public:

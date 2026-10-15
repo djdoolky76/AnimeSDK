@@ -16,6 +16,8 @@ namespace UnityEngine::Rendering { class CommandBuffer; }
 #define PFJNGFLBJFO_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xC213C80)
 #define PFJNGFLBJFO_PKADDEPKJFN_OFFSET UNITYSDK_OFFSET(0xC213D80)
 
+inline static constexpr unsigned int PFJNGFLBJFO_TypeDefinitionIndex = 49322;
+
 	class PFJNGFLBJFO : public ::HHJGACLHFDJ
 	{
 	public:

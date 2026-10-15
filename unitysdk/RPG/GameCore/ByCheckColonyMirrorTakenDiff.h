@@ -13,6 +13,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByCheckColonyMirrorTakenDiff_TypeDefinitionIndex = 21871;
+
 	class ByCheckColonyMirrorTakenDiff : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

@@ -24,6 +24,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define KKCLONGGBNE_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1D09AAA0)
 #define KKCLONGGBNE_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1D09A3C0)
 
+inline static constexpr unsigned int KKCLONGGBNE_TypeDefinitionIndex = 12279;
+
 	class KKCLONGGBNE : public ::System::Object
 	{
 	public:

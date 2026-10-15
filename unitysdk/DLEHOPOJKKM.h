@@ -27,6 +27,8 @@ namespace System { class String; }
 #define DLEHOPOJKKM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E1E4300)
 #define DLEHOPOJKKM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E1E4360)
 
+inline static constexpr unsigned int DLEHOPOJKKM_TypeDefinitionIndex = 26262;
+
 	class DLEHOPOJKKM : public ::System::Object
 	{
 	public:

@@ -27,6 +27,8 @@ namespace System::Collections::Immutable { template <typename T> class IImmutabl
 #define MAAKEBJAIOG_SET_CHIPMOLDS_OFFSET UNITYSDK_OFFSET(0x1C56EDF0)
 #define MAAKEBJAIOG__BINDBUFFCHIPMOLDUSECOUNTLIMIT_B__11_0_OFFSET UNITYSDK_OFFSET(0x1C5702A0)
 
+inline static constexpr unsigned int MAAKEBJAIOG_TypeDefinitionIndex = 41809;
+
 	class MAAKEBJAIOG : public ::System::Object
 	{
 	public:

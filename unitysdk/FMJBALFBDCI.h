@@ -34,6 +34,8 @@ namespace UnityEngine { class GameObject; }
 #define FMJBALFBDCI_PIGLEIKPIBG_OFFSET UNITYSDK_OFFSET(0x1585E0E0)
 #define FMJBALFBDCI_PIOGNBDJOAM_OFFSET UNITYSDK_OFFSET(0x1585CF60)
 
+inline static constexpr unsigned int FMJBALFBDCI_TypeDefinitionIndex = 79123;
+
 	class FMJBALFBDCI : public ::MKHNMHOHEAK
 	{
 	public:

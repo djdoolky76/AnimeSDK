@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdvSetSkillSlotData_TypeDefinitionIndex = 20202;
+
 	class AdvSetSkillSlotData : public ::RPG::GameCore::TaskConfig
 	{
 	public:

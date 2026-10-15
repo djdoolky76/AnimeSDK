@@ -21,6 +21,8 @@ namespace System::Runtime::Serialization { class SerializationInfo; }
 
 namespace System::Net
 {
+	inline static constexpr unsigned int WebResponse_TypeDefinitionIndex = 2772;
+
 	class WebResponse : public ::System::MarshalByRefObject
 	{
 	public:

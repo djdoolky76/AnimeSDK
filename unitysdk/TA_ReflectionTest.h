@@ -18,6 +18,8 @@ namespace UnityEngine::UI { class Slider; }
 #define TA_REFLECTIONTEST_SETSSR_OFFSET UNITYSDK_OFFSET(0xE9E2000)
 #define TA_REFLECTIONTEST_SLIDER_OFFSET UNITYSDK_OFFSET(0xE9E15D0)
 
+inline static constexpr unsigned int TA_ReflectionTest_TypeDefinitionIndex = 47439;
+
 	class TA_ReflectionTest : public ::UnityEngine::MonoBehaviour
 	{
 	public:

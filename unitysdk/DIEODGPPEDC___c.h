@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define DIEODGPPEDC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E1BC2C0)
 #define DIEODGPPEDC___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1E1BC2D0)
 
+inline static constexpr unsigned int DIEODGPPEDC___c_TypeDefinitionIndex = 28436;
+
 	class DIEODGPPEDC___c : public ::System::Object
 	{
 	public:

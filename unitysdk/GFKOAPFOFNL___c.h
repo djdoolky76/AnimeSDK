@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define GFKOAPFOFNL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E471510)
 #define GFKOAPFOFNL___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E471520)
 
+inline static constexpr unsigned int GFKOAPFOFNL___c_TypeDefinitionIndex = 30187;
+
 	class GFKOAPFOFNL___c : public ::System::Object
 	{
 	public:

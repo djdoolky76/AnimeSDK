@@ -14,6 +14,8 @@ namespace RPG::Client { class CableProcedural; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoEffectPluginCableProcedural_TypeDefinitionIndex = 70043;
+
 	class MonoEffectPluginCableProcedural : public ::RPG::Client::MonoEffectPluginBase
 	{
 	public:

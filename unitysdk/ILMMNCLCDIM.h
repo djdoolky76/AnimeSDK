@@ -59,6 +59,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define ILMMNCLCDIM_SET_SKILLENTERCDONUSE_OFFSET UNITYSDK_OFFSET(0x164C7540)
 #define ILMMNCLCDIM_SET_SKILLUSEGUARD_OFFSET UNITYSDK_OFFSET(0x164C7450)
 
+inline static constexpr unsigned int ILMMNCLCDIM_TypeDefinitionIndex = 54133;
+
 	class ILMMNCLCDIM : public ::System::Object
 	{
 	public:

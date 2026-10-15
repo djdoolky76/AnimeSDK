@@ -20,6 +20,8 @@ namespace System { class Object; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int WaypointIdentifier_TypeDefinitionIndex = 69071;
+
 	class WaypointIdentifier : public ::System::Object
 	{
 	public:

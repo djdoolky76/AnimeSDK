@@ -22,6 +22,8 @@ namespace System { class String; }
 
 namespace BansheeGz::BGSpline::Curve
 {
+	inline static constexpr unsigned int BGCurvePointField_TypeDefinitionIndex = 36020;
+
 	class BGCurvePointField : public ::UnityEngine::MonoBehaviour
 	{
 	public:

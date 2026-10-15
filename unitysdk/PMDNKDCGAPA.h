@@ -6,6 +6,8 @@
 #define PMDNKDCGAPA_DISPOSE_OFFSET UNITYSDK_OFFSET(0xDEAB0)
 #define PMDNKDCGAPA_EXECUTE_OFFSET UNITYSDK_OFFSET(0xDEAA0)
 
+inline static constexpr unsigned int PMDNKDCGAPA_TypeDefinitionIndex = 71093;
+
 	struct alignas(8) PMDNKDCGAPA
 	{
 		::Unity::Collections::NativeArray_1<::PJPIEKNGCMC> ENDAAPHNJIL; // 0x10

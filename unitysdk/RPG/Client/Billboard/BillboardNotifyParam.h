@@ -25,6 +25,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::Client::Billboard
 {
+	inline static constexpr unsigned int BillboardNotifyParam_TypeDefinitionIndex = 74973;
+
 	class BillboardNotifyParam : public ::System::Object
 	{
 	public:

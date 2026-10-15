@@ -8,6 +8,8 @@ namespace RPG::GameCore { class CakeRaceActionChangeValidItem; }
 #define PIMHALPLNOF_CTOR_OFFSET UNITYSDK_OFFSET(0x1C7ED3A0)
 #define PIMHALPLNOF_GAILDDCMCHP_OFFSET UNITYSDK_OFFSET(0x1C7ED3B0)
 
+inline static constexpr unsigned int PIMHALPLNOF_TypeDefinitionIndex = 37382;
+
 	class PIMHALPLNOF : public ::GPLOFONGBGI
 	{
 	public:

@@ -4,6 +4,8 @@
 
 namespace RPG::Client::LittleGame::FiveDim
 {
+	inline static constexpr unsigned int FiveDimMoveInputData_TypeDefinitionIndex = 77238;
+
 	struct alignas(4) FiveDimMoveInputData
 	{
 		::UnityEngine::Vector2 NormalizedDirection; // 0x10

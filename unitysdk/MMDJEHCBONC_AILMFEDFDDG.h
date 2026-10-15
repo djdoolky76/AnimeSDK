@@ -21,6 +21,8 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyLi
 #define MMDJEHCBONC_AILMFEDFDDG_JJPAFAAGOND_OFFSET UNITYSDK_OFFSET(0x1C53ACD0)
 #define MMDJEHCBONC_AILMFEDFDDG_LLMIFCGMJBK_OFFSET UNITYSDK_OFFSET(0x1C5396D0)
 
+inline static constexpr unsigned int MMDJEHCBONC_AILMFEDFDDG_TypeDefinitionIndex = 41609;
+
 	class MMDJEHCBONC_AILMFEDFDDG : public ::MMDJEHCBONC
 	{
 	public:

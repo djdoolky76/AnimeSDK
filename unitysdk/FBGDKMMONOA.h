@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define FBGDKMMONOA_CTOR_OFFSET UNITYSDK_OFFSET(0x1569BEF0)
 #define FBGDKMMONOA_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1569BF20)
 
+inline static constexpr unsigned int FBGDKMMONOA_TypeDefinitionIndex = 54508;
+
 	class FBGDKMMONOA
 	{
 	public:

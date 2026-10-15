@@ -26,6 +26,8 @@ namespace RPG::Client { class IGamePhase; }
 #define IDOFDGLMMPD___EXITTOTOWN_B__10_0_OFFSET UNITYSDK_OFFSET(0x15EE26D0)
 #define IDOFDGLMMPD___STORYPHASEEXIT_B__8_0_OFFSET UNITYSDK_OFFSET(0x15EE2650)
 
+inline static constexpr unsigned int IDOFDGLMMPD_TypeDefinitionIndex = 61179;
+
 	class IDOFDGLMMPD : public ::HDJIGMBHENE
 	{
 	public:

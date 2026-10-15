@@ -48,6 +48,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int StageHarmonySignalControllerBehavior_TypeDefinitionIndex = 70983;
+
 	class StageHarmonySignalControllerBehavior : public ::RPG::Client::TABehaviorBase
 	{
 	public:

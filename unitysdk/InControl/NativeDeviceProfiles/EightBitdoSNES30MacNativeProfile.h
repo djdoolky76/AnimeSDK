@@ -7,6 +7,8 @@
 
 namespace InControl::NativeDeviceProfiles
 {
+	inline static constexpr unsigned int EightBitdoSNES30MacNativeProfile_TypeDefinitionIndex = 41257;
+
 	class EightBitdoSNES30MacNativeProfile : public ::InControl::InputDeviceProfile
 	{
 	public:

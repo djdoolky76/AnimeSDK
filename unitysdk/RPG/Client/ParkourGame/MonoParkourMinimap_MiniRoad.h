@@ -7,6 +7,8 @@ namespace BansheeGz::BGSpline::Curve { class BGCurve; }
 
 namespace RPG::Client::ParkourGame
 {
+	inline static constexpr unsigned int MonoParkourMinimap_MiniRoad_TypeDefinitionIndex = 74153;
+
 	class MonoParkourMinimap_MiniRoad : public ::System::Object
 	{
 	public:

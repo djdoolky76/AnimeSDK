@@ -11,6 +11,8 @@ namespace RPG::GameCore { class SwitchRefFloorCustomString; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SwitchRefFloorCustomString_TypeDefinitionIndex = 17523;
+
 	class SwitchRefFloorCustomString : public ::RPG::GameCore::SwitchRefBase
 	{
 	public:

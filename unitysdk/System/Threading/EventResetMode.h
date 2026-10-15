@@ -3,6 +3,8 @@
 
 namespace System::Threading
 {
+	inline static constexpr unsigned int EventResetMode_TypeDefinitionIndex = 826;
+
 	enum class EventResetMode : ::System::Int32
 	{
 		AutoReset = 0,

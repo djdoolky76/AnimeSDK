@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GridFightParamGetNoDamageRoleNumInBattleConfig; 
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightParamGetNoDamageRoleNumInBattleConfig_TypeDefinitionIndex = 19530;
+
 	class GridFightParamGetNoDamageRoleNumInBattleConfig : public ::RPG::GameCore::GridFightParameterConfigBase
 	{
 	public:

@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 #define APEPAPPLMLE_JBPDFOGDFFK_OFFSET UNITYSDK_OFFSET(0x1C5402C0)
 #define APEPAPPLMLE_OBHHNAKALGL_OFFSET UNITYSDK_OFFSET(0x1C540300)
 
+inline static constexpr unsigned int APEPAPPLMLE_TypeDefinitionIndex = 41648;
+
 	class APEPAPPLMLE : public ::System::Object
 	{
 	public:

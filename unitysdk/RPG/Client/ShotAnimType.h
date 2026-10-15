@@ -3,6 +3,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ShotAnimType_TypeDefinitionIndex = 69646;
+
 	enum class ShotAnimType : ::System::Int32
 	{
 		ShotAnimMovement = 0,

@@ -17,6 +17,8 @@ namespace System { class String; }
 
 namespace RPG::Client::Ui::Samples
 {
+	inline static constexpr unsigned int FriendChatContactVM_TypeDefinitionIndex = 73448;
+
 	class FriendChatContactVM : public ::Sofa::BaseViewModel
 	{
 	public:

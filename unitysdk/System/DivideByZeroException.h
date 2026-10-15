@@ -9,6 +9,8 @@ namespace System::Runtime::Serialization { class SerializationInfo; }
 
 namespace System
 {
+	inline static constexpr unsigned int DivideByZeroException_TypeDefinitionIndex = 232;
+
 	class DivideByZeroException : public ::System::ArithmeticException
 	{
 	public:

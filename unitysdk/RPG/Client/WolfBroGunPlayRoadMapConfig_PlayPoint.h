@@ -4,6 +4,8 @@ namespace System { class Object; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int WolfBroGunPlayRoadMapConfig_PlayPoint_TypeDefinitionIndex = 68755;
+
 	struct alignas(8) WolfBroGunPlayRoadMapConfig_PlayPoint
 	{
 		::System::Single timePoint; // 0x10

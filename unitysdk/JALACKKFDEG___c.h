@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define JALACKKFDEG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E6F0BB0)
 #define JALACKKFDEG___C___CCTOR_B__58_0_OFFSET UNITYSDK_OFFSET(0x1E6F0BC0)
 
+inline static constexpr unsigned int JALACKKFDEG___c_TypeDefinitionIndex = 27944;
+
 	class JALACKKFDEG___c : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace System { class Object; }
 #define ICINHDDLEHO_IPIKDCHMHIA_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x15E4F150)
 #define ICINHDDLEHO_IPIKDCHMHIA_INVOKE_OFFSET UNITYSDK_OFFSET(0x15E4ED40)
 
+inline static constexpr unsigned int ICINHDDLEHO_IPIKDCHMHIA_TypeDefinitionIndex = 69424;
+
 	class ICINHDDLEHO_IPIKDCHMHIA : public ::System::MulticastDelegate
 	{
 	public:

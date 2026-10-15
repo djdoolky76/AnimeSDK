@@ -8,6 +8,8 @@ namespace RPG::GameCore { class AvatarSkillTreeRow; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AvatarEnhancedHint___c__DisplayClass38_0_TypeDefinitionIndex = 62491;
+
 	class AvatarEnhancedHint___c__DisplayClass38_0 : public ::System::Object
 	{
 	public:

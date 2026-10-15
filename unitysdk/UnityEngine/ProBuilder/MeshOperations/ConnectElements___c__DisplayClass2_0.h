@@ -10,6 +10,8 @@ namespace UnityEngine::ProBuilder { class ProBuilderMesh; }
 
 namespace UnityEngine::ProBuilder::MeshOperations
 {
+	inline static constexpr unsigned int ConnectElements___c__DisplayClass2_0_TypeDefinitionIndex = 44487;
+
 	class ConnectElements___c__DisplayClass2_0 : public ::System::Object
 	{
 	public:

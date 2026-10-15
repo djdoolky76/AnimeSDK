@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int ConsoleDelegate_PlayGoGetChunkTotalSizeDelegate_TypeDefinitionIndex = 7668;
+
 	class ConsoleDelegate_PlayGoGetChunkTotalSizeDelegate : public ::System::MulticastDelegate
 	{
 	public:

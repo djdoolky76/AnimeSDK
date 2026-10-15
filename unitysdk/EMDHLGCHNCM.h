@@ -11,6 +11,8 @@ namespace System { class String; }
 #define EMDHLGCHNCM_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x15531580)
 #define EMDHLGCHNCM_JAILHGGFLDH_OFFSET UNITYSDK_OFFSET(0x15531590)
 
+inline static constexpr unsigned int EMDHLGCHNCM_TypeDefinitionIndex = 56140;
+
 	class EMDHLGCHNCM : public ::DBGDNLLDPFI
 	{
 	public:

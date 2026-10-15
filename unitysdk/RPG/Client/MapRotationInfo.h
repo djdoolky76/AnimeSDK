@@ -78,6 +78,8 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MapRotationInfo_TypeDefinitionIndex = 62142;
+
 	class MapRotationInfo : public ::System::Object
 	{
 	public:

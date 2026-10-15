@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPGTools::Timeline::Audio
 {
+	inline static constexpr unsigned int BGMEmotionBehaviour_TypeDefinitionIndex = 48834;
+
 	class BGMEmotionBehaviour : public ::RPGTools::Timeline::CustomEventBehaviour
 	{
 	public:

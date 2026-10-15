@@ -13,6 +13,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TargetMapBattleEventCreator_TypeDefinitionIndex = 23930;
+
 	class TargetMapBattleEventCreator : public ::RPG::GameCore::TargetSeqOperation
 	{
 	public:

@@ -3,6 +3,8 @@
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int CastHelper_1_TypeDefinitionIndex = 4318;
+
 	template <typename T>
 	struct alignas(8) CastHelper_1
 	{

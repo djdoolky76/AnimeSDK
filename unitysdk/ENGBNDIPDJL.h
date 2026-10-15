@@ -18,6 +18,8 @@ namespace System { class String; }
 #define ENGBNDIPDJL_KGAFHLGGNHJ_OFFSET UNITYSDK_OFFSET(0x155ABBE0)
 #define ENGBNDIPDJL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x155ABCF0)
 
+inline static constexpr unsigned int ENGBNDIPDJL_TypeDefinitionIndex = 56228;
+
 	class ENGBNDIPDJL : public ::System::Object
 	{
 	public:

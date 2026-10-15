@@ -11,6 +11,8 @@ namespace RPG::Client::MechCraft::View { class MechCraftRequirementRewardItemCon
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftRequirementRewardItemControl_TypeDefinitionIndex = 80000;
+
 	class MechCraftRequirementRewardItemControl : public ::UnityEngine::MonoBehaviour
 	{
 	public:

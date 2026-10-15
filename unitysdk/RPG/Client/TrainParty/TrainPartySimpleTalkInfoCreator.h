@@ -8,6 +8,8 @@ namespace RPG::Client::TrainParty { class TrainPartySimpleTalkInfo; }
 
 namespace RPG::Client::TrainParty
 {
+	inline static constexpr unsigned int TrainPartySimpleTalkInfoCreator_TypeDefinitionIndex = 74322;
+
 	class TrainPartySimpleTalkInfoCreator : public ::System::Object
 	{
 	public:

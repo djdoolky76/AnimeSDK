@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MapProgressConfigRow_TypeDefinitionIndex = 14000;
+
 	class MapProgressConfigRow : public ::System::Object
 	{
 	public:

@@ -6,6 +6,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int DebugLittleGameGraphNavigation_TypeDefinitionIndex = 68339;
+
 	class DebugLittleGameGraphNavigation : public ::UnityEngine::MonoBehaviour
 	{
 	public:

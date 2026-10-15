@@ -11,6 +11,8 @@ namespace UnityEngine::UI { class Text; }
 #define DDOPGDEICED_NKPPGDENJAE_OFFSET UNITYSDK_OFFSET(0xE4F0E20)
 #define DDOPGDEICED__ONBIND_OFFSET UNITYSDK_OFFSET(0xE4F0EF0)
 
+inline static constexpr unsigned int DDOPGDEICED_TypeDefinitionIndex = 71747;
+
 	class DDOPGDEICED : public ::FMPCODLIOLG
 	{
 	public:

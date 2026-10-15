@@ -9,6 +9,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int ThirdLoginConfig_TypeDefinitionIndex = 7907;
+
 	class ThirdLoginConfig : public ::System::Object
 	{
 	public:

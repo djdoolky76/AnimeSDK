@@ -8,6 +8,8 @@ namespace RPG::Client { class CurveUndirectedEdge; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int CurveUndirectedEdgeConnection_TypeDefinitionIndex = 68567;
+
 	class CurveUndirectedEdgeConnection : public ::System::Object
 	{
 	public:

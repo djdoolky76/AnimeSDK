@@ -9,6 +9,8 @@ namespace System { class String; }
 
 namespace RPGTools
 {
+	inline static constexpr unsigned int DeviceUtils_TypeDefinitionIndex = 46918;
+
 	class DeviceUtils : public ::System::Object
 	{
 	public:

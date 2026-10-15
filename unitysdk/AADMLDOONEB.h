@@ -12,6 +12,8 @@ namespace RPG::GameCore { class WaitFrame; }
 #define AADMLDOONEB_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB0C1D40)
 #define AADMLDOONEB_TICK_OFFSET UNITYSDK_OFFSET(0xB0C1D90)
 
+inline static constexpr unsigned int AADMLDOONEB_TypeDefinitionIndex = 58896;
+
 	class AADMLDOONEB : public ::GELIALJDFBL
 	{
 	public:

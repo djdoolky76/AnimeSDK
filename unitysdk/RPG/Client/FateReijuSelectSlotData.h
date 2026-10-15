@@ -7,6 +7,8 @@ namespace RPG::Client { class FateReijuDataItem; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int FateReijuSelectSlotData_TypeDefinitionIndex = 64121;
+
 	class FateReijuSelectSlotData : public ::System::Object
 	{
 	public:

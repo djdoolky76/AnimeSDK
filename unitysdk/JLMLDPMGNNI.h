@@ -7,6 +7,8 @@ namespace System { class String; }
 #define JLMLDPMGNNI_GET_FIGUREPATH_OFFSET UNITYSDK_OFFSET(0xB250A20)
 #define JLMLDPMGNNI_GET_MONSTERID_OFFSET UNITYSDK_OFFSET(0xB250A10)
 
+inline static constexpr unsigned int JLMLDPMGNNI_TypeDefinitionIndex = 80752;
+
 	class JLMLDPMGNNI : public ::System::Object
 	{
 	public:

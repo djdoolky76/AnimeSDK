@@ -24,6 +24,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int RuntimeFontManager_TypeDefinitionIndex = 8262;
+
 	class RuntimeFontManager : public ::System::Object
 	{
 	public:

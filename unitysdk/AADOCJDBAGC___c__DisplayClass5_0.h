@@ -7,6 +7,8 @@ class KAKADGHNMFK;
 #define AADOCJDBAGC___C__DISPLAYCLASS5_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB0C3990)
 #define AADOCJDBAGC___C__DISPLAYCLASS5_0___STATISTICDEATH_B__0_OFFSET UNITYSDK_OFFSET(0xB0C3A70)
 
+inline static constexpr unsigned int AADOCJDBAGC___c__DisplayClass5_0_TypeDefinitionIndex = 77604;
+
 	class AADOCJDBAGC___c__DisplayClass5_0 : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace RPG::GameCore { class RuanMadeCakeFeatureConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RuanMadeCakeFeatureConfig_TypeDefinitionIndex = 17461;
+
 	class RuanMadeCakeFeatureConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

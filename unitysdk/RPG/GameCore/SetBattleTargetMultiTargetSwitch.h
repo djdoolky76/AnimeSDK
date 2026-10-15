@@ -10,6 +10,8 @@ namespace RPG::GameCore { class SetBattleTargetMultiTargetSwitch; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetBattleTargetMultiTargetSwitch_TypeDefinitionIndex = 23183;
+
 	class SetBattleTargetMultiTargetSwitch : public ::RPG::GameCore::TaskConfig
 	{
 	public:

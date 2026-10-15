@@ -15,6 +15,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetDynamicValueByGridFightTraitBonusDropCount_TypeDefinitionIndex = 22527;
+
 	class SetDynamicValueByGridFightTraitBonusDropCount : public ::RPG::GameCore::TaskConfig
 	{
 	public:

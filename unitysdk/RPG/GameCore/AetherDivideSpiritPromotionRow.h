@@ -10,6 +10,8 @@ namespace RPG::GameCore { class AetherDivideSpiritPromotionRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AetherDivideSpiritPromotionRow_TypeDefinitionIndex = 10906;
+
 	class AetherDivideSpiritPromotionRow : public ::System::Object
 	{
 	public:

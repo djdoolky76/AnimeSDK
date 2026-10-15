@@ -13,6 +13,8 @@ namespace UnityEngine::UI { class Text; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int BattleSkillDescItemFitterParamCollector_TypeDefinitionIndex = 71894;
+
 	class BattleSkillDescItemFitterParamCollector : public ::System::Object
 	{
 	public:

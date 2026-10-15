@@ -34,6 +34,8 @@ namespace UnityEngine::UI { class Text; }
 #define OFOICEDIGKB_SET_INDEX_OFFSET UNITYSDK_OFFSET(0xBE4AA20)
 #define OFOICEDIGKB__ONBIND_OFFSET UNITYSDK_OFFSET(0xBE49FC0)
 
+inline static constexpr unsigned int OFOICEDIGKB_TypeDefinitionIndex = 71376;
+
 	class OFOICEDIGKB : public ::FMPCODLIOLG
 	{
 	public:

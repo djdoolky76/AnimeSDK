@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LittleWheelFuncConfigRow_TypeDefinitionIndex = 13325;
+
 	class LittleWheelFuncConfigRow : public ::System::Object
 	{
 	public:

@@ -3,6 +3,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int CameraPushType_TypeDefinitionIndex = 69636;
+
 	enum class CameraPushType : ::System::Int32
 	{
 		None = 0,

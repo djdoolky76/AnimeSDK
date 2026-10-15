@@ -7,6 +7,8 @@ class CBEBICGIOAB;
 #define OBFFHGIPPOL_CTOR_OFFSET UNITYSDK_OFFSET(0xBD3D150)
 #define OBFFHGIPPOL_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0xBD3D1A0)
 
+inline static constexpr unsigned int OBFFHGIPPOL_TypeDefinitionIndex = 49424;
+
 	class OBFFHGIPPOL
 	{
 	public:

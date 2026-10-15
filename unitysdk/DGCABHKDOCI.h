@@ -12,6 +12,8 @@ class ILOOAAOHIIG;
 #define DGCABHKDOCI_OCCCAPKHJLM_OFFSET UNITYSDK_OFFSET(0xE843610)
 #define DGCABHKDOCI_ONJKJJPFKAH_OFFSET UNITYSDK_OFFSET(0xE843570)
 
+inline static constexpr unsigned int DGCABHKDOCI_TypeDefinitionIndex = 79486;
+
 	class DGCABHKDOCI : public ::System::Object
 	{
 	public:

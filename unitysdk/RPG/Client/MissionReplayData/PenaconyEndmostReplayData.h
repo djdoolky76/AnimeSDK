@@ -29,6 +29,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::MissionReplayData
 {
+	inline static constexpr unsigned int PenaconyEndmostReplayData_TypeDefinitionIndex = 74690;
+
 	class PenaconyEndmostReplayData : public ::System::Object
 	{
 	public:

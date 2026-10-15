@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define MNINIONBJNK_CTOR_OFFSET UNITYSDK_OFFSET(0xBA0CEA0)
 #define MNINIONBJNK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBA0CED0)
 
+inline static constexpr unsigned int MNINIONBJNK_TypeDefinitionIndex = 58212;
+
 	class MNINIONBJNK
 	{
 	public:

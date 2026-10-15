@@ -12,6 +12,8 @@ namespace MessagePack { class MessagePackSerializerOptions; }
 
 namespace MessagePack::Unity
 {
+	inline static constexpr unsigned int LayerMaskFormatter_TypeDefinitionIndex = 10135;
+
 	class LayerMaskFormatter : public ::System::Object
 	{
 	public:

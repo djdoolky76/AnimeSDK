@@ -6,6 +6,8 @@ namespace UnityEngine { class Light; }
 
 #define STAGEHARMONYENGINENORMALLIGHTWRAPCOMPONENTLINKSLOT_BFPHEAILOOK_CTOR_OFFSET UNITYSDK_OFFSET(0xE98F7A0)
 
+inline static constexpr unsigned int StageHarmonyEngineNormalLightWrapComponentLinkSlot_BFPHEAILOOK_TypeDefinitionIndex = 47370;
+
 	class StageHarmonyEngineNormalLightWrapComponentLinkSlot_BFPHEAILOOK : public ::System::Object
 	{
 	public:

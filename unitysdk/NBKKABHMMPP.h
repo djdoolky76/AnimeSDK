@@ -43,6 +43,8 @@ namespace System { class String; }
 #define NBKKABHMMPP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EAD3BD0)
 #define NBKKABHMMPP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EAD3C30)
 
+inline static constexpr unsigned int NBKKABHMMPP_TypeDefinitionIndex = 31642;
+
 	class NBKKABHMMPP : public ::System::Object
 	{
 	public:

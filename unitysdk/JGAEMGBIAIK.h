@@ -27,6 +27,8 @@ namespace System { class String; }
 #define JGAEMGBIAIK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E733660)
 #define JGAEMGBIAIK_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E7336C0)
 
+inline static constexpr unsigned int JGAEMGBIAIK_TypeDefinitionIndex = 29405;
+
 	class JGAEMGBIAIK : public ::System::Object
 	{
 	public:

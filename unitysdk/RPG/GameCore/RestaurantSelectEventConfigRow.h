@@ -11,6 +11,8 @@ namespace RPG::GameCore { class RestaurantSelectEventConfigRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RestaurantSelectEventConfigRow_TypeDefinitionIndex = 11386;
+
 	class RestaurantSelectEventConfigRow : public ::System::Object
 	{
 	public:

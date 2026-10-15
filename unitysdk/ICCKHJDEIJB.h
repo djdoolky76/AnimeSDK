@@ -8,6 +8,8 @@ namespace System { class String; }
 #define ICCKHJDEIJB_CTOR_OFFSET UNITYSDK_OFFSET(0x1CEE19B0)
 #define ICCKHJDEIJB_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CEE1830)
 
+inline static constexpr unsigned int ICCKHJDEIJB_TypeDefinitionIndex = 21059;
+
 	class ICCKHJDEIJB : public ::RPG::GameCore::JsonConfig
 	{
 	public:

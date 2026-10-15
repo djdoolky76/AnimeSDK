@@ -8,6 +8,8 @@ namespace RPG::GameCore { class AlleyDeskTalkRow; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AlleyModule___c__DisplayClass115_0_TypeDefinitionIndex = 62248;
+
 	class AlleyModule___c__DisplayClass115_0 : public ::System::Object
 	{
 	public:

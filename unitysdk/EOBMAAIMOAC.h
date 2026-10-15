@@ -19,6 +19,8 @@ namespace System { class Object; }
 #define EOBMAAIMOAC_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x155B96D0)
 #define EOBMAAIMOAC_TICK_OFFSET UNITYSDK_OFFSET(0x155B9720)
 
+inline static constexpr unsigned int EOBMAAIMOAC_TypeDefinitionIndex = 58945;
+
 	class EOBMAAIMOAC : public ::GELIALJDFBL
 	{
 	public:

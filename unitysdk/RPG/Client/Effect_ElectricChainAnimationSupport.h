@@ -11,6 +11,8 @@ namespace RPG::Client { class Effect_ElectricChain; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int Effect_ElectricChainAnimationSupport_TypeDefinitionIndex = 70454;
+
 	class Effect_ElectricChainAnimationSupport : public ::UnityEngine::MonoBehaviour
 	{
 	public:

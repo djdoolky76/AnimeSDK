@@ -11,6 +11,8 @@ namespace System { class Object; }
 #define JCLICPFCBLF_KKHAEKMFIOC_OFFSET UNITYSDK_OFFSET(0x165A67A0)
 #define JCLICPFCBLF_LOHIFEMCGMP_OFFSET UNITYSDK_OFFSET(0x165A6870)
 
+inline static constexpr unsigned int JCLICPFCBLF_TypeDefinitionIndex = 69441;
+
 	class JCLICPFCBLF : public ::PMAPCLKFJGK
 	{
 	public:

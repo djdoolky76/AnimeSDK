@@ -8,6 +8,8 @@ namespace Entitas { class ITearDownSystem; }
 #define EKBFOILFKMC_CTOR_OFFSET UNITYSDK_OFFSET(0x154FC140)
 #define EKBFOILFKMC_TEARDOWN_OFFSET UNITYSDK_OFFSET(0x154FC230)
 
+inline static constexpr unsigned int EKBFOILFKMC_TypeDefinitionIndex = 76774;
+
 	class EKBFOILFKMC : public ::System::Object
 	{
 	public:

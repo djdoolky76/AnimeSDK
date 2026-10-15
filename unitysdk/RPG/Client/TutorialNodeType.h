@@ -3,6 +3,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TutorialNodeType_TypeDefinitionIndex = 68201;
+
 	enum class TutorialNodeType : ::System::Int32
 	{
 		UI2D = 0,

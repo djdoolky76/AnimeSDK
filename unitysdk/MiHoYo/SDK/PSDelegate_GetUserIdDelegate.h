@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int PSDelegate_GetUserIdDelegate_TypeDefinitionIndex = 7729;
+
 	class PSDelegate_GetUserIdDelegate : public ::System::MulticastDelegate
 	{
 	public:

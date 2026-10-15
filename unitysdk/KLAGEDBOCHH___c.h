@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define KLAGEDBOCHH___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E882AC0)
 #define KLAGEDBOCHH___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E882AD0)
 
+inline static constexpr unsigned int KLAGEDBOCHH___c_TypeDefinitionIndex = 34505;
+
 	class KLAGEDBOCHH___c : public ::System::Object
 	{
 	public:

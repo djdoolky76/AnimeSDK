@@ -5,6 +5,8 @@ namespace RPG::GameCore { class FourRotateVoxelGuideHintBillboardConfig; }
 
 #define GCACIOKADOO_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA7BBC0)
 
+inline static constexpr unsigned int GCACIOKADOO_TypeDefinitionIndex = 43236;
+
 	class GCACIOKADOO : public ::System::Object
 	{
 	public:

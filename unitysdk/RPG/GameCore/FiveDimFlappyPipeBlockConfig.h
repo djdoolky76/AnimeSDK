@@ -9,6 +9,8 @@ namespace RPG::GameCore { class FiveDimFlappyPipeBlockConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimFlappyPipeBlockConfig_TypeDefinitionIndex = 16728;
+
 	class FiveDimFlappyPipeBlockConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

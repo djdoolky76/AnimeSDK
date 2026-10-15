@@ -7,6 +7,8 @@ namespace RPG::Client { class ElfFarmCellData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ElfRuntimeCell_TypeDefinitionIndex = 68665;
+
 	class ElfRuntimeCell : public ::UnityEngine::MonoBehaviour
 	{
 	public:

@@ -70,6 +70,8 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyLi
 #define FOHGGGFAGNK___REFRESHDETAIL_B__75_0_OFFSET UNITYSDK_OFFSET(0x158F1CF0)
 #define FOHGGGFAGNK___REFRESHDETAIL_B__75_1_OFFSET UNITYSDK_OFFSET(0x158F1D40)
 
+inline static constexpr unsigned int FOHGGGFAGNK_TypeDefinitionIndex = 79759;
+
 	class FOHGGGFAGNK : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace System { class Action; }
 
 namespace MiHoYo::SDK::PS
 {
+	inline static constexpr unsigned int LoginManager___c__DisplayClass21_0_TypeDefinitionIndex = 8909;
+
 	class LoginManager___c__DisplayClass21_0 : public ::System::Object
 	{
 	public:

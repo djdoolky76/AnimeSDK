@@ -12,6 +12,8 @@
 
 namespace RVO
 {
+	inline static constexpr unsigned int VectorUtils_TypeDefinitionIndex = 46043;
+
 	class VectorUtils : public ::System::Object
 	{
 	public:

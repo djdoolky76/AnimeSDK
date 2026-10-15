@@ -22,6 +22,8 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyLi
 #define EONDIOOGHIA_SET_SUPPORTERSPECIALAVATARIDS_OFFSET UNITYSDK_OFFSET(0x1C551830)
 #define EONDIOOGHIA_SET_UNLOCKQUESTID_OFFSET UNITYSDK_OFFSET(0x1C551870)
 
+inline static constexpr unsigned int EONDIOOGHIA_TypeDefinitionIndex = 41911;
+
 	class EONDIOOGHIA : public ::System::Object
 	{
 	public:

@@ -12,6 +12,8 @@
 
 namespace RPG::Client::LittleGame::ChenLing
 {
+	inline static constexpr unsigned int ChenLingRTDamageData_TypeDefinitionIndex = 77830;
+
 	class ChenLingRTDamageData : public ::System::Object
 	{
 	public:

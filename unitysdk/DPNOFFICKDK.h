@@ -31,6 +31,8 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 #define DPNOFFICKDK_SET_ROWCONFIG_OFFSET UNITYSDK_OFFSET(0x1265F450)
 #define DPNOFFICKDK__ONINITOWNERREF_OFFSET UNITYSDK_OFFSET(0x1265E2A0)
 
+inline static constexpr unsigned int DPNOFFICKDK_TypeDefinitionIndex = 57604;
+
 	class DPNOFFICKDK : public ::RPG::GameCore::GameComponentBase
 	{
 	public:

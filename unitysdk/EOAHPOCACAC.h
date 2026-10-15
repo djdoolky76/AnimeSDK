@@ -7,6 +7,8 @@ namespace System { class String; }
 #define EOAHPOCACAC_GET_ID_OFFSET UNITYSDK_OFFSET(0x1D40)
 #define EOAHPOCACAC_GET_VIEWMODEL_OFFSET UNITYSDK_OFFSET(0x1D30)
 
+inline static constexpr unsigned int EOAHPOCACAC_TypeDefinitionIndex = 80507;
+
 	struct alignas(8) EOAHPOCACAC
 	{
 		::System::Object* _ViewModel_k__BackingField; // 0x10

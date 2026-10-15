@@ -16,6 +16,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetDynamicValueByHPSharedGroup_TypeDefinitionIndex = 23595;
+
 	class SetDynamicValueByHPSharedGroup : public ::RPG::GameCore::SetDynamicValueBase
 	{
 	public:

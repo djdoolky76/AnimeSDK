@@ -8,6 +8,8 @@ namespace System::Linq::Expressions::Interpreter { class InterpretedFrame; }
 
 namespace System::Linq::Expressions::Interpreter
 {
+	inline static constexpr unsigned int OrInstruction_OrUInt16_TypeDefinitionIndex = 3606;
+
 	class OrInstruction_OrUInt16 : public ::System::Linq::Expressions::Interpreter::OrInstruction
 	{
 	public:

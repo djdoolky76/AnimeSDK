@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AvatarServantPropertyOverrideRow_TypeDefinitionIndex = 12810;
+
 	class AvatarServantPropertyOverrideRow : public ::System::Object
 	{
 	public:

@@ -9,6 +9,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Editor
 {
+	inline static constexpr unsigned int SkillLineAssetConfig_TypeDefinitionIndex = 52037;
+
 	class SkillLineAssetConfig : public ::System::Object
 	{
 	public:

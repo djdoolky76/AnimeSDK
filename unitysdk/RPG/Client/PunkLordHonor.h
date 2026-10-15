@@ -12,6 +12,8 @@ namespace RPG::GameCore { class PunkLordHonorRow; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PunkLordHonor_TypeDefinitionIndex = 66750;
+
 	class PunkLordHonor : public ::System::Object
 	{
 	public:

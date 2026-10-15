@@ -14,6 +14,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByIsRebuiltSummonUnit_TypeDefinitionIndex = 20166;
+
 	class ByIsRebuiltSummonUnit : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

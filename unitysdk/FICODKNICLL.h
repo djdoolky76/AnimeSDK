@@ -20,6 +20,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define FICODKNICLL_LDAMHBBILAD_OFFSET UNITYSDK_OFFSET(0x2E76470)
 #define FICODKNICLL_MICDFBGLDDG_OFFSET UNITYSDK_OFFSET(0x157A26A0)
 
+inline static constexpr unsigned int FICODKNICLL_TypeDefinitionIndex = 73962;
+
 	struct alignas(8) FICODKNICLL
 	{
 		::MLFEHGAFNBE OIBKPJEGPOK; // 0x10

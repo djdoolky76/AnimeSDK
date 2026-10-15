@@ -56,6 +56,8 @@ namespace System::Collections::Generic { template <typename T> class IList_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MultiplayerGameModule_TypeDefinitionIndex = 66314;
+
 	class MultiplayerGameModule : public ::RPG::Client::BaseModule
 	{
 	public:

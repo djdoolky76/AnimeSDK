@@ -7,6 +7,8 @@ namespace UnityEngine::UI { class Text; }
 
 #define JLLLBIBKBHJ_CTOR_OFFSET UNITYSDK_OFFSET(0xB24FB00)
 
+inline static constexpr unsigned int JLLLBIBKBHJ_TypeDefinitionIndex = 71724;
+
 	class JLLLBIBKBHJ : public ::System::Object
 	{
 	public:

@@ -30,6 +30,8 @@ namespace System { class String; }
 #define DINGDGLKHIP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E1C2AC0)
 #define DINGDGLKHIP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E1C2B20)
 
+inline static constexpr unsigned int DINGDGLKHIP_TypeDefinitionIndex = 33419;
+
 	class DINGDGLKHIP : public ::System::Object
 	{
 	public:

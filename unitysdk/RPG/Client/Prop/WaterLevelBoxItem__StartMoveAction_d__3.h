@@ -14,6 +14,8 @@ namespace System { class Object; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int WaterLevelBoxItem__StartMoveAction_d__3_TypeDefinitionIndex = 78913;
+
 	template <typename T1, typename T2, typename T3>
 	class WaterLevelBoxItem__StartMoveAction_d__3 : public ::System::Object
 	{

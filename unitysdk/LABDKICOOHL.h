@@ -8,6 +8,8 @@ namespace System { class String; }
 #define LABDKICOOHL_CTOR_1_OFFSET UNITYSDK_OFFSET(0xB5D54B0)
 #define LABDKICOOHL_CTOR_OFFSET UNITYSDK_OFFSET(0xB5D54A0)
 
+inline static constexpr unsigned int LABDKICOOHL_TypeDefinitionIndex = 73422;
+
 	class LABDKICOOHL : public ::System::Exception
 	{
 	public:

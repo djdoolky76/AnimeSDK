@@ -42,6 +42,8 @@ namespace UnityEngine::Timeline { class TimelineClip; }
 
 namespace RPG::Client::Timeline
 {
+	inline static constexpr unsigned int ManaVideoMixerBehaviour_TypeDefinitionIndex = 73349;
+
 	class ManaVideoMixerBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

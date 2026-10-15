@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define GINLLEEBIOH_LLOMGNOIIBF_OFFSET UNITYSDK_OFFSET(0x15A473C0)
 #define GINLLEEBIOH_NODPBIKOJCF_OFFSET UNITYSDK_OFFSET(0x15A47400)
 
+inline static constexpr unsigned int GINLLEEBIOH_TypeDefinitionIndex = 78353;
+
 	class GINLLEEBIOH : public ::PKEJBHFMHCB
 	{
 	public:

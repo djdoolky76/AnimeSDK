@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace RPG::Client::LittleGame
 {
+	inline static constexpr unsigned int SimpleEffectService_1_TypeDefinitionIndex = 76482;
+
 	template <typename T>
 	class SimpleEffectService_1 : public ::System::Object
 	{

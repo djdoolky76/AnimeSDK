@@ -24,6 +24,8 @@ namespace System::Threading::Tasks { class Task; }
 
 namespace Mono::Net::Security
 {
+	inline static constexpr unsigned int AsyncProtocolRequest_TypeDefinitionIndex = 2426;
+
 	class AsyncProtocolRequest : public ::System::Object
 	{
 	public:

@@ -42,6 +42,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MultiFloorConflictModule_TypeDefinitionIndex = 66301;
+
 	class MultiFloorConflictModule : public ::RPG::Client::BaseModule
 	{
 	public:

@@ -8,6 +8,8 @@
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int HEU_InputInterface_TypeDefinitionIndex = 40643;
+
 	class HEU_InputInterface : public ::System::Object
 	{
 	public:

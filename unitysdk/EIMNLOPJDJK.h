@@ -7,6 +7,8 @@ namespace UnityEngine { class Transform; }
 
 #define EIMNLOPJDJK_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA53900)
 
+inline static constexpr unsigned int EIMNLOPJDJK_TypeDefinitionIndex = 42972;
+
 	class EIMNLOPJDJK : public ::System::Object
 	{
 	public:

@@ -19,6 +19,8 @@ namespace RPG::GameCore { class LevelPedestrianV2SpawnGroupInfo; }
 #define GNHANKEMGLG_SET_INFO_OFFSET UNITYSDK_OFFSET(0x15B08DF0)
 #define GNHANKEMGLG_SET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x15B08DD0)
 
+inline static constexpr unsigned int GNHANKEMGLG_TypeDefinitionIndex = 69335;
+
 	class GNHANKEMGLG : public ::System::Object
 	{
 	public:

@@ -12,6 +12,8 @@ namespace RPG::GameCore { class WaitPropCurveMovePaused; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int WaitPropCurveMovePaused_TypeDefinitionIndex = 21010;
+
 	class WaitPropCurveMovePaused : public ::RPG::GameCore::TaskConfig
 	{
 	public:

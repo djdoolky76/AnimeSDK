@@ -36,6 +36,8 @@ namespace UnityEngine { class Transform; }
 #define FMOEFNOMPOG_NLDPEMAKLNC_OFFSET UNITYSDK_OFFSET(0x15862210)
 #define FMOEFNOMPOG_PAFPGODPADL_OFFSET UNITYSDK_OFFSET(0x15862520)
 
+inline static constexpr unsigned int FMOEFNOMPOG_TypeDefinitionIndex = 78032;
+
 	class FMOEFNOMPOG : public ::System::Object
 	{
 	public:

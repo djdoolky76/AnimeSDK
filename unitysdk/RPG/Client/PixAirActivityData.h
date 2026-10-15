@@ -11,6 +11,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PixAirActivityData_TypeDefinitionIndex = 61649;
+
 	class PixAirActivityData : public ::RPG::Client::ActivityPanelData
 	{
 	public:

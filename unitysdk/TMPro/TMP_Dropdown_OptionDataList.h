@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace TMPro
 {
+	inline static constexpr unsigned int TMP_Dropdown_OptionDataList_TypeDefinitionIndex = 44563;
+
 	class TMP_Dropdown_OptionDataList : public ::System::Object
 	{
 	public:

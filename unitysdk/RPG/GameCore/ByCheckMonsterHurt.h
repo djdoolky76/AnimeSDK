@@ -14,6 +14,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByCheckMonsterHurt_TypeDefinitionIndex = 23438;
+
 	class ByCheckMonsterHurt : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define EOPFDKJOBIO_SET_OWNERSNAME_OFFSET UNITYSDK_OFFSET(0x155CD640)
 #define EOPFDKJOBIO_SET_SERVANTCARDOWNERTYPE_OFFSET UNITYSDK_OFFSET(0x155CD600)
 
+inline static constexpr unsigned int EOPFDKJOBIO_TypeDefinitionIndex = 81081;
+
 	class EOPFDKJOBIO : public ::System::Object
 	{
 	public:

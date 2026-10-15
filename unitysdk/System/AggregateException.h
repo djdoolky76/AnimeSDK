@@ -29,6 +29,8 @@ namespace System::Runtime::Serialization { class SerializationInfo; }
 
 namespace System
 {
+	inline static constexpr unsigned int AggregateException_TypeDefinitionIndex = 153;
+
 	class AggregateException : public ::System::Exception
 	{
 	public:

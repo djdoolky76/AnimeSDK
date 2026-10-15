@@ -21,6 +21,8 @@ class OMKDCDIDBIO;
 #define DFFKOJEMIDD_PAGLGOBLGDG_OFFSET UNITYSDK_OFFSET(0xE827A80)
 #define DFFKOJEMIDD_PLJEHILABHF_OFFSET UNITYSDK_OFFSET(0xE827800)
 
+inline static constexpr unsigned int DFFKOJEMIDD_TypeDefinitionIndex = 73398;
+
 	class DFFKOJEMIDD : public ::System::Object
 	{
 	public:

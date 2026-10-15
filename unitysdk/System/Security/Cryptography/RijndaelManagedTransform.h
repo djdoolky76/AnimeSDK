@@ -29,6 +29,8 @@ namespace System { class Object; }
 
 namespace System::Security::Cryptography
 {
+	inline static constexpr unsigned int RijndaelManagedTransform_TypeDefinitionIndex = 1045;
+
 	class RijndaelManagedTransform : public ::System::Object
 	{
 	public:

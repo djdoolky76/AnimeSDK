@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define NILHOOGLKAP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB36750)
 #define NILHOOGLKAP___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1EB36760)
 
+inline static constexpr unsigned int NILHOOGLKAP___c_TypeDefinitionIndex = 32800;
+
 	class NILHOOGLKAP___c : public ::System::Object
 	{
 	public:

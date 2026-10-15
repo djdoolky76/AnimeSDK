@@ -8,6 +8,8 @@ namespace System { class String; }
 #define EIBLMANKKEO_HKIGAJAMNFG_OFFSET UNITYSDK_OFFSET(0x154BBD90)
 #define EIBLMANKKEO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x154BBCE0)
 
+inline static constexpr unsigned int EIBLMANKKEO_TypeDefinitionIndex = 54856;
+
 	class EIBLMANKKEO
 	{
 	public:

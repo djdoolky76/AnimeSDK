@@ -14,6 +14,8 @@ namespace RPG::GameCore { class TalkSentenceConfigRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TalkSentenceConfigRow_TypeDefinitionIndex = 15219;
+
 	class TalkSentenceConfigRow : public ::System::Object
 	{
 	public:

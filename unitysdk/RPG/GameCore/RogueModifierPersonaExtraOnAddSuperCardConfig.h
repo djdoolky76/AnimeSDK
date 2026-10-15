@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueModifierPersonaExtraOnAddSuperCardConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueModifierPersonaExtraOnAddSuperCardConfig_TypeDefinitionIndex = 17865;
+
 	class RogueModifierPersonaExtraOnAddSuperCardConfig : public ::RPG::GameCore::RogueModifierConfig
 	{
 	public:

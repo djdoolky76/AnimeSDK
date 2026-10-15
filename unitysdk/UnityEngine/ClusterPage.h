@@ -3,6 +3,8 @@
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int ClusterPage_TypeDefinitionIndex = 4105;
+
 	struct alignas(4) ClusterPage
 	{
 		::System::UInt32 PartStart; // 0x10

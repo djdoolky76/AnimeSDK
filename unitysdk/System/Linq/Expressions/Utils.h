@@ -9,6 +9,8 @@ namespace System::Linq::Expressions { class DefaultExpression; }
 
 namespace System::Linq::Expressions
 {
+	inline static constexpr unsigned int Utils_TypeDefinitionIndex = 3282;
+
 	class Utils : public ::System::Object
 	{
 	public:

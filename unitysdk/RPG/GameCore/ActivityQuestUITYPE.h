@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ActivityQuestUITYPE_TypeDefinitionIndex = 12311;
+
 	enum class ActivityQuestUITYPE : ::System::Int32
 	{
 		FirstDream = 1,

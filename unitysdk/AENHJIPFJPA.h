@@ -10,6 +10,8 @@ namespace System { class String; }
 #define AENHJIPFJPA_CTOR_OFFSET UNITYSDK_OFFSET(0x1CCB3580)
 #define AENHJIPFJPA_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CCB33B0)
 
+inline static constexpr unsigned int AENHJIPFJPA_TypeDefinitionIndex = 11665;
+
 	class AENHJIPFJPA : public ::System::Object
 	{
 	public:

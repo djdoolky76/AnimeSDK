@@ -16,6 +16,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define JCBKJPLDPGK_ONRETURN_OFFSET UNITYSDK_OFFSET(0x1657A8C0)
 #define JCBKJPLDPGK__ONBIND_OFFSET UNITYSDK_OFFSET(0x1657A130)
 
+inline static constexpr unsigned int JCBKJPLDPGK_TypeDefinitionIndex = 71908;
+
 	class JCBKJPLDPGK : public ::FMPCODLIOLG
 	{
 	public:

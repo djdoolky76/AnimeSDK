@@ -11,6 +11,8 @@ namespace RPG::GameCore { class SetMonsterHUDType; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetMonsterHUDType_TypeDefinitionIndex = 22765;
+
 	class SetMonsterHUDType : public ::RPG::GameCore::TaskConfig
 	{
 	public:

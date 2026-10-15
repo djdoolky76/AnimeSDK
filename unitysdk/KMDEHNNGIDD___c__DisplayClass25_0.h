@@ -12,6 +12,8 @@ namespace System { template <typename T> class Func_1; }
 #define KMDEHNNGIDD___C__DISPLAYCLASS25_0__CREATELOBBY_B__0_OFFSET UNITYSDK_OFFSET(0xB543190)
 #define KMDEHNNGIDD___C__DISPLAYCLASS25_0__CREATELOBBY_B__1_OFFSET UNITYSDK_OFFSET(0xB5432C0)
 
+inline static constexpr unsigned int KMDEHNNGIDD___c__DisplayClass25_0_TypeDefinitionIndex = 63056;
+
 	class KMDEHNNGIDD___c__DisplayClass25_0 : public ::System::Object
 	{
 	public:

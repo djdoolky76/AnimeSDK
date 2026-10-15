@@ -6,6 +6,8 @@
 
 namespace RPG::Client::Timeline
 {
+	inline static constexpr unsigned int ManaVideoBehaviour_TypeDefinitionIndex = 73346;
+
 	class ManaVideoBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

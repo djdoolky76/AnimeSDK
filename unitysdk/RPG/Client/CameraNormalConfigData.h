@@ -23,6 +23,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int CameraNormalConfigData_TypeDefinitionIndex = 69566;
+
 	class CameraNormalConfigData : public ::System::Object
 	{
 	public:

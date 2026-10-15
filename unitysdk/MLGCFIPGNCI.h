@@ -9,6 +9,8 @@ namespace UnityEngine { class Transform; }
 #define MLGCFIPGNCI_CTOR_OFFSET UNITYSDK_OFFSET(0xB9ADCC0)
 #define MLGCFIPGNCI_STARTWITHTARGET_OFFSET UNITYSDK_OFFSET(0xB9ADCE0)
 
+inline static constexpr unsigned int MLGCFIPGNCI_TypeDefinitionIndex = 73506;
+
 	class MLGCFIPGNCI : public ::PPGNDHAAJDO
 	{
 	public:

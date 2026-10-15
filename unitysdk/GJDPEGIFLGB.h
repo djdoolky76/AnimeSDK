@@ -82,6 +82,8 @@ namespace UnityEngine { class Transform; }
 #define GJDPEGIFLGB_PHEPLPLJCKD_OFFSET UNITYSDK_OFFSET(0x15A5EE10)
 #define GJDPEGIFLGB_SET_UNIQUENAME_OFFSET UNITYSDK_OFFSET(0x15A61D40)
 
+inline static constexpr unsigned int GJDPEGIFLGB_TypeDefinitionIndex = 75539;
+
 	class GJDPEGIFLGB : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FiveDimEvilSmileStateOverrideConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimEvilSmileStateOverrideConfig_TypeDefinitionIndex = 18584;
+
 	class FiveDimEvilSmileStateOverrideConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

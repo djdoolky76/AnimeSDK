@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::Client::DirectDeliveryNotice
 {
+	inline static constexpr unsigned int ActivityAvatarInfoViewModel_TypeDefinitionIndex = 81241;
+
 	class ActivityAvatarInfoViewModel : public ::Sofa::Core::ObservableObject
 	{
 	public:

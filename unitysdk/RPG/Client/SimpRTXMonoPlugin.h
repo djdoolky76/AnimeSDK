@@ -5,6 +5,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int SimpRTXMonoPlugin_TypeDefinitionIndex = 70190;
+
 	class SimpRTXMonoPlugin
 	{
 	public:

@@ -13,6 +13,8 @@ namespace RPG::GameCore { class TaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PropStateChangeListenerConfig_TypeDefinitionIndex = 20399;
+
 	class PropStateChangeListenerConfig : public ::RPG::GameCore::TaskConfig
 	{
 	public:

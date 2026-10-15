@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ManikinServantPositionsConfig_TypeDefinitionIndex = 17476;
+
 	class ManikinServantPositionsConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

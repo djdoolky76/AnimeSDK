@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace ScenenLightManager
 {
+	inline static constexpr unsigned int LineGlow_ExportData_TypeDefinitionIndex = 49108;
+
 	class LineGlow_ExportData : public ::ScenenLightManager::BaseComponentExportData
 	{
 	public:

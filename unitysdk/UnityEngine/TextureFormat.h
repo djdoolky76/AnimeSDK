@@ -3,6 +3,8 @@
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int TextureFormat_TypeDefinitionIndex = 4172;
+
 	enum class TextureFormat : ::System::Int32
 	{
 		Alpha8 = 1,

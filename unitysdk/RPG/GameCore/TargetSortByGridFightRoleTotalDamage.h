@@ -13,6 +13,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TargetSortByGridFightRoleTotalDamage_TypeDefinitionIndex = 23993;
+
 	class TargetSortByGridFightRoleTotalDamage : public ::RPG::GameCore::TargetSeqOperation
 	{
 	public:

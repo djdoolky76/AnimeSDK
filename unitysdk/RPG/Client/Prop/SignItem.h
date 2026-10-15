@@ -19,6 +19,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int SignItem_TypeDefinitionIndex = 78862;
+
 	class SignItem : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::PC::OS
 {
+	inline static constexpr unsigned int SteamPayInfo_TypeDefinitionIndex = 8706;
+
 	class SteamPayInfo : public ::System::Object
 	{
 	public:

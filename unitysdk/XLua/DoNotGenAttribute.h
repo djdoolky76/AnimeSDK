@@ -6,6 +6,8 @@
 
 namespace XLua
 {
+	inline static constexpr unsigned int DoNotGenAttribute_TypeDefinitionIndex = 5610;
+
 	class DoNotGenAttribute : public ::System::Attribute
 	{
 	public:

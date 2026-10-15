@@ -19,6 +19,8 @@ namespace System { class Object; }
 #define PNMHPBEDBGH_MGCGAADJMEI_OFFSET UNITYSDK_OFFSET(0x3C3E9B0)
 #define PNMHPBEDBGH_NHCFLDCDLCP_OFFSET UNITYSDK_OFFSET(0x1D312730)
 
+inline static constexpr unsigned int PNMHPBEDBGH_TypeDefinitionIndex = 10662;
+
 	struct alignas(8) PNMHPBEDBGH
 	{
 		::LELCKJPOPAO* BEHHICMOFIE; // 0x10

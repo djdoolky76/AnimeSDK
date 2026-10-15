@@ -169,6 +169,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::ActivityIdleLive
 {
+	inline static constexpr unsigned int IdleLiveGameFlow_TypeDefinitionIndex = 75296;
+
 	class IdleLiveGameFlow : public ::RPG::Client::BaseGameFlow
 	{
 	public:

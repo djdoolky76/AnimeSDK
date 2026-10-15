@@ -10,6 +10,8 @@ class POKKCEHMFMJ;
 #define OPHHOHALNND_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xBFAA940)
 #define OPHHOHALNND_CTOR_OFFSET UNITYSDK_OFFSET(0xBFAA880)
 
+inline static constexpr unsigned int OPHHOHALNND_TypeDefinitionIndex = 62625;
+
 	class OPHHOHALNND : public ::System::Object
 	{
 	public:

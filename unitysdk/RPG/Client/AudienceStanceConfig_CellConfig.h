@@ -5,6 +5,8 @@ namespace System { class Object; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AudienceStanceConfig_CellConfig_TypeDefinitionIndex = 69158;
+
 	struct alignas(8) AudienceStanceConfig_CellConfig
 	{
 		::UnityEngine::Vector2 limitSize; // 0x10

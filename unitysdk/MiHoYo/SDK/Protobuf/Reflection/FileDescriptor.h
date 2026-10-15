@@ -31,6 +31,8 @@ namespace System::Collections::Generic { template <typename T> class IList_1; }
 
 namespace MiHoYo::SDK::Protobuf::Reflection
 {
+	inline static constexpr unsigned int FileDescriptor_TypeDefinitionIndex = 35832;
+
 	class FileDescriptor : public ::System::Object
 	{
 	public:

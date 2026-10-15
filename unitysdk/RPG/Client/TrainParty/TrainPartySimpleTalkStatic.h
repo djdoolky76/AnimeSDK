@@ -8,6 +8,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::TrainParty
 {
+	inline static constexpr unsigned int TrainPartySimpleTalkStatic_TypeDefinitionIndex = 74325;
+
 	class TrainPartySimpleTalkStatic : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@
 
 namespace MessagePack
 {
+	inline static constexpr unsigned int SafeBitConverter_TypeDefinitionIndex = 7240;
+
 	class SafeBitConverter : public ::System::Object
 	{
 	public:

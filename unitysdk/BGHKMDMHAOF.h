@@ -6,6 +6,8 @@ namespace System { class String; }
 #define BGHKMDMHAOF_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C8BA0E0)
 #define BGHKMDMHAOF_CTOR_OFFSET UNITYSDK_OFFSET(0x1C8BA0D0)
 
+inline static constexpr unsigned int BGHKMDMHAOF_TypeDefinitionIndex = 42443;
+
 	class BGHKMDMHAOF : public ::System::Object
 	{
 	public:

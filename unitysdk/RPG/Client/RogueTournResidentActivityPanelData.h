@@ -31,6 +31,8 @@ namespace RPG::GameCore { class RogueActivityResidentConfigRow; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueTournResidentActivityPanelData_TypeDefinitionIndex = 61782;
+
 	class RogueTournResidentActivityPanelData : public ::RPG::Client::RogueResidentActivityPanelData
 	{
 	public:

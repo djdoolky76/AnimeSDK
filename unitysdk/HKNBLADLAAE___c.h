@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define HKNBLADLAAE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E5B6340)
 #define HKNBLADLAAE___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1E5B6350)
 
+inline static constexpr unsigned int HKNBLADLAAE___c_TypeDefinitionIndex = 31066;
+
 	class HKNBLADLAAE___c : public ::System::Object
 	{
 	public:

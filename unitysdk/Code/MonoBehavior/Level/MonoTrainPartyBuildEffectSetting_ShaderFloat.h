@@ -7,6 +7,8 @@ namespace UnityEngine { class Material; }
 
 namespace Code::MonoBehavior::Level
 {
+	inline static constexpr unsigned int MonoTrainPartyBuildEffectSetting_ShaderFloat_TypeDefinitionIndex = 50052;
+
 	struct alignas(8) MonoTrainPartyBuildEffectSetting_ShaderFloat
 	{
 		::System::String* name; // 0x10

@@ -10,6 +10,8 @@ namespace ZenFulcrum::EmbeddedBrowser { class IBrowserUI; }
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
+	inline static constexpr unsigned int BrowserInput_ButtonHistory_TypeDefinitionIndex = 39370;
+
 	class BrowserInput_ButtonHistory : public ::System::Object
 	{
 	public:

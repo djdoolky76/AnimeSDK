@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 
 namespace MiHoYo::SDK::PS
 {
+	inline static constexpr unsigned int SDKUIControllerInput_TypeDefinitionIndex = 8928;
+
 	class SDKUIControllerInput : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace RPG::GameCore { class BattleComboConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int BattleComboConfig_TypeDefinitionIndex = 17112;
+
 	class BattleComboConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

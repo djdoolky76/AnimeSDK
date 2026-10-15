@@ -11,6 +11,8 @@ namespace System { template <typename T> class Comparison_1; }
 
 namespace EzySlice
 {
+	inline static constexpr unsigned int Triangulator___c_TypeDefinitionIndex = 47004;
+
 	class Triangulator___c : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace System { class Object; }
 #define GIEIJAFAGED_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1C642B50)
 #define GIEIJAFAGED_INVOKE_OFFSET UNITYSDK_OFFSET(0x1C642B10)
 
+inline static constexpr unsigned int GIEIJAFAGED_TypeDefinitionIndex = 36240;
+
 	class GIEIJAFAGED : public ::System::MulticastDelegate
 	{
 	public:

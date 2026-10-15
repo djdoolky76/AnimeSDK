@@ -13,6 +13,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int ChangePropLocationClip_TypeDefinitionIndex = 47916;
+
 	class ChangePropLocationClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:

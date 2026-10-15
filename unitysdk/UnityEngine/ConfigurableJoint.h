@@ -7,6 +7,8 @@
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int ConfigurableJoint_TypeDefinitionIndex = 5322;
+
 	class ConfigurableJoint : public ::UnityEngine::Joint
 	{
 	public:

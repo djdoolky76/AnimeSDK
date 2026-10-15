@@ -40,6 +40,8 @@ namespace UnityEngine::UI { class Text; }
 
 namespace MiHoYo::SDK::UI::Internal::OS
 {
+	inline static constexpr unsigned int LoginByAccount_TypeDefinitionIndex = 8424;
+
 	class LoginByAccount : public ::MiHoYo::SDK::UIElement
 	{
 	public:

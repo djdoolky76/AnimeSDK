@@ -25,6 +25,8 @@ namespace System { class String; }
 #define HGKLNOIKPPE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E57CCF0)
 #define HGKLNOIKPPE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E57CD50)
 
+inline static constexpr unsigned int HGKLNOIKPPE_TypeDefinitionIndex = 30092;
+
 	class HGKLNOIKPPE : public ::System::Object
 	{
 	public:

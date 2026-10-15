@@ -5,6 +5,8 @@
 #define GAPHKOJMCGJ_CTOR_OFFSET UNITYSDK_OFFSET(0x15944CD0)
 #define GAPHKOJMCGJ_FHAAHMEJMCI_OFFSET UNITYSDK_OFFSET(0x15944A50)
 
+inline static constexpr unsigned int GAPHKOJMCGJ_TypeDefinitionIndex = 66518;
+
 	class GAPHKOJMCGJ : public ::FMIHMGNLBPN
 	{
 	public:

@@ -4,6 +4,8 @@ namespace System { class String; }
 
 #define KABEJCFNEJA_CTOR_OFFSET UNITYSDK_OFFSET(0x1C900)
 
+inline static constexpr unsigned int KABEJCFNEJA_TypeDefinitionIndex = 36946;
+
 	struct alignas(8) KABEJCFNEJA
 	{
 		::System::UInt64 ONIGBGONALF; // 0x10

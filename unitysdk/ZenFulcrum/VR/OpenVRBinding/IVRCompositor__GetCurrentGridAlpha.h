@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
+	inline static constexpr unsigned int IVRCompositor__GetCurrentGridAlpha_TypeDefinitionIndex = 39030;
+
 	class IVRCompositor__GetCurrentGridAlpha : public ::System::MulticastDelegate
 	{
 	public:

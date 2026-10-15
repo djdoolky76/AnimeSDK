@@ -8,6 +8,8 @@ namespace RPG::GameCore { class GameEntity; }
 #define DJBBODHFLAM_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xF22BF70)
 #define DJBBODHFLAM_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xF22BF20)
 
+inline static constexpr unsigned int DJBBODHFLAM_TypeDefinitionIndex = 56673;
+
 	class DJBBODHFLAM : public ::System::Object
 	{
 	public:

@@ -7,6 +7,8 @@ class NFAHODNHEKK;
 #define GLCGEIKOMAA_FCKDPOPNLIB_OFFSET UNITYSDK_OFFSET(0x1C646910)
 #define GLCGEIKOMAA_TICK_OFFSET UNITYSDK_OFFSET(0x1C647130)
 
+inline static constexpr unsigned int GLCGEIKOMAA_TypeDefinitionIndex = 37348;
+
 	class GLCGEIKOMAA : public ::HOCBJOJNLLC
 	{
 	public:

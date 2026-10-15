@@ -5,6 +5,8 @@ namespace RPG::GameCore { class AnimationZone; }
 #define LLIAIIOKNFI_EJNKHBFPJMI_BKOKENLPBAD_OFFSET UNITYSDK_OFFSET(0x1A340)
 #define LLIAIIOKNFI_EJNKHBFPJMI_CTOR_OFFSET UNITYSDK_OFFSET(0x1A330)
 
+inline static constexpr unsigned int LLIAIIOKNFI_EJNKHBFPJMI_TypeDefinitionIndex = 55915;
+
 	struct alignas(4) LLIAIIOKNFI_EJNKHBFPJMI
 	{
 		::System::Int32 EAJBNHGHPNM; // 0x10

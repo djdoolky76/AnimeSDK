@@ -4,6 +4,8 @@
 
 #define EFAIALMGAMH_CTOR_OFFSET UNITYSDK_OFFSET(0x13A42D70)
 
+inline static constexpr unsigned int EFAIALMGAMH_TypeDefinitionIndex = 81284;
+
 	class EFAIALMGAMH : public ::System::Object
 	{
 	public:

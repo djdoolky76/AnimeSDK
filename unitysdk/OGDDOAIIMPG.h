@@ -37,6 +37,8 @@ namespace System { class String; }
 #define OGDDOAIIMPG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DE50280)
 #define OGDDOAIIMPG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DE502E0)
 
+inline static constexpr unsigned int OGDDOAIIMPG_TypeDefinitionIndex = 33468;
+
 	class OGDDOAIIMPG : public ::System::Object
 	{
 	public:

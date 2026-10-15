@@ -32,6 +32,8 @@ namespace System { class Object; }
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int StencilState_TypeDefinitionIndex = 4774;
+
 	struct alignas(4) StencilState
 	{
 		::System::Byte m_Enabled; // 0x10

@@ -6,6 +6,8 @@ class NLJMEMAMJLC;
 
 #define BHCDMOPHOOH_CHIKMEOMFBE_OFFSET UNITYSDK_OFFSET(0xB472AB0)
 
+inline static constexpr unsigned int BHCDMOPHOOH_TypeDefinitionIndex = 61135;
+
 	class BHCDMOPHOOH : public ::System::Object
 	{
 	public:

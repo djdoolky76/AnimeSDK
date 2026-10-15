@@ -12,6 +12,8 @@ namespace RPG::GameCore { class MiParameterConfigBase; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CondCompareConfig_TypeDefinitionIndex = 17076;
+
 	class CondCompareConfig : public ::RPG::GameCore::MiConditionConfigBase
 	{
 	public:

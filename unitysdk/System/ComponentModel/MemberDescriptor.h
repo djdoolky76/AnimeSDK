@@ -21,6 +21,8 @@ namespace System::ComponentModel { class AttributeCollection; }
 
 namespace System::ComponentModel
 {
+	inline static constexpr unsigned int MemberDescriptor_TypeDefinitionIndex = 2613;
+
 	class MemberDescriptor : public ::System::Object
 	{
 	public:

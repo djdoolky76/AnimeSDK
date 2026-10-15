@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define MBDBLIKIPGH_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1D132DF0)
 #define MBDBLIKIPGH_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1D132750)
 
+inline static constexpr unsigned int MBDBLIKIPGH_TypeDefinitionIndex = 14710;
+
 	class MBDBLIKIPGH : public ::System::Object
 	{
 	public:

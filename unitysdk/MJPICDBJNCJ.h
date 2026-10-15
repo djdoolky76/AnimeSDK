@@ -9,6 +9,8 @@ namespace RPG::GameCore { class ChimeraBattleOverrideAttachPoint; }
 #define MJPICDBJNCJ_KMFNKDMEJBC_OFFSET UNITYSDK_OFFSET(0xB97B9E0)
 #define MJPICDBJNCJ_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0xB97B660)
 
+inline static constexpr unsigned int MJPICDBJNCJ_TypeDefinitionIndex = 78400;
+
 	class MJPICDBJNCJ : public ::System::Object
 	{
 	public:

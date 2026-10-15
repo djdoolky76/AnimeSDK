@@ -10,6 +10,8 @@ namespace RPG::GameCore { class DeviceRelatedInt; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DeviceRelatedInt_TypeDefinitionIndex = 16469;
+
 	class DeviceRelatedInt : public ::RPG::GameCore::DeviceRelatedConfigBase
 	{
 	public:

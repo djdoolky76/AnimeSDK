@@ -11,6 +11,8 @@ namespace System { class Object; }
 #define FEINCMGEKFL___STARTCHILDREN_D__6_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x15723D30)
 #define FEINCMGEKFL___STARTCHILDREN_D__6_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15723BF0)
 
+inline static constexpr unsigned int FEINCMGEKFL___StartChildren_d__6_TypeDefinitionIndex = 80855;
+
 	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6>
 	class FEINCMGEKFL___StartChildren_d__6 : public ::System::Object
 	{

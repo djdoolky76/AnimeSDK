@@ -6,6 +6,8 @@
 
 namespace IFix::Core
 {
+	inline static constexpr unsigned int XIDAttribute_TypeDefinitionIndex = 7101;
+
 	class XIDAttribute : public ::System::Attribute
 	{
 	public:

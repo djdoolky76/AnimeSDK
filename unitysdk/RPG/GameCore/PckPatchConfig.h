@@ -14,6 +14,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PckPatchConfig_TypeDefinitionIndex = 16395;
+
 	class PckPatchConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

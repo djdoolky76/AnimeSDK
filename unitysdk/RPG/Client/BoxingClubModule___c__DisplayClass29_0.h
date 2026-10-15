@@ -9,6 +9,8 @@ namespace RPG::Client { class BoxingClubLevelInstance; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int BoxingClubModule___c__DisplayClass29_0_TypeDefinitionIndex = 62949;
+
 	class BoxingClubModule___c__DisplayClass29_0 : public ::System::Object
 	{
 	public:

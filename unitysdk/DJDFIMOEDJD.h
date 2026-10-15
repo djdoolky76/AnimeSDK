@@ -7,6 +7,8 @@ namespace RPG::GameCore { class MiConditionConfigBase; }
 #define DJDFIMOEDJD_BEJAJNEFHIB_OFFSET UNITYSDK_OFFSET(0xF22DFC0)
 #define DJDFIMOEDJD_CTOR_OFFSET UNITYSDK_OFFSET(0xF22E470)
 
+inline static constexpr unsigned int DJDFIMOEDJD_TypeDefinitionIndex = 59949;
+
 	class DJDFIMOEDJD : public ::System::Object
 	{
 	public:

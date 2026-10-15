@@ -29,6 +29,8 @@ namespace System { class String; }
 #define FDBDLBAPDBE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E351180)
 #define FDBDLBAPDBE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E3511E0)
 
+inline static constexpr unsigned int FDBDLBAPDBE_TypeDefinitionIndex = 33232;
+
 	class FDBDLBAPDBE : public ::System::Object
 	{
 	public:

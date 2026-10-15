@@ -20,6 +20,8 @@ namespace RPG::Client::MissionReplayData { class PenaconyEndmostReplayContext; }
 
 namespace RPG::Client::MissionReplayData
 {
+	inline static constexpr unsigned int PenaconyEndmostReplayContext_TypeDefinitionIndex = 74689;
+
 	class PenaconyEndmostReplayContext : public ::System::Object
 	{
 	public:

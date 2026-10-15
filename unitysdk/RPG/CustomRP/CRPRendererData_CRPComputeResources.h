@@ -7,6 +7,8 @@ namespace UnityEngine { class ComputeShader; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int CRPRendererData_CRPComputeResources_TypeDefinitionIndex = 37863;
+
 	class CRPRendererData_CRPComputeResources : public ::System::Object
 	{
 	public:

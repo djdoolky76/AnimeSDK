@@ -27,6 +27,8 @@ namespace System { class String; }
 #define NPEPGBMPCEK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EB976C0)
 #define NPEPGBMPCEK_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EB97720)
 
+inline static constexpr unsigned int NPEPGBMPCEK_TypeDefinitionIndex = 34453;
+
 	class NPEPGBMPCEK : public ::System::Object
 	{
 	public:

@@ -28,6 +28,8 @@ namespace System { class String; }
 #define KGNPGIKFOMJ_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E83B400)
 #define KGNPGIKFOMJ_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E83B460)
 
+inline static constexpr unsigned int KGNPGIKFOMJ_TypeDefinitionIndex = 33619;
+
 	class KGNPGIKFOMJ : public ::System::Object
 	{
 	public:

@@ -6,6 +6,8 @@
 
 namespace Cinemachine
 {
+	inline static constexpr unsigned int CinemachineImpulseEnvelopePropertyAttribute_TypeDefinitionIndex = 39870;
+
 	class CinemachineImpulseEnvelopePropertyAttribute : public ::UnityEngine::PropertyAttribute
 	{
 	public:

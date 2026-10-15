@@ -12,6 +12,8 @@ namespace RPGTools::Timeline { class ConvincePanelActiveClip; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int ConvincePanelActiveBehaviour_TypeDefinitionIndex = 48048;
+
 	class ConvincePanelActiveBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

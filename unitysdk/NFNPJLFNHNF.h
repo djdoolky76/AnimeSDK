@@ -15,6 +15,8 @@ class NMGLDNNFHFB;
 #define NFNPJLFNHNF_TICK_OFFSET UNITYSDK_OFFSET(0xBB9D610)
 #define NFNPJLFNHNF__ENTER_B__2_0_OFFSET UNITYSDK_OFFSET(0xBB9D670)
 
+inline static constexpr unsigned int NFNPJLFNHNF_TypeDefinitionIndex = 61164;
+
 	class NFNPJLFNHNF : public ::RPG::Client::LoginPhase
 	{
 	public:

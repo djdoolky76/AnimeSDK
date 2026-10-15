@@ -6,6 +6,8 @@ namespace System { class String; }
 
 #define NLGLJEDOLGF_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C96FD80)
 
+inline static constexpr unsigned int NLGLJEDOLGF_TypeDefinitionIndex = 42797;
+
 	class NLGLJEDOLGF : public ::System::Object
 	{
 	public:

@@ -14,6 +14,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdvByIsInPhantomFrozen_TypeDefinitionIndex = 20594;
+
 	class AdvByIsInPhantomFrozen : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

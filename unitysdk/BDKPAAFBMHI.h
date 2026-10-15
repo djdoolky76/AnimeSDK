@@ -7,6 +7,8 @@ namespace System { class String; }
 #define BDKPAAFBMHI_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0x162FD960)
 #define BDKPAAFBMHI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x162FD9B0)
 
+inline static constexpr unsigned int BDKPAAFBMHI_TypeDefinitionIndex = 68289;
+
 	class BDKPAAFBMHI : public ::System::Object
 	{
 	public:

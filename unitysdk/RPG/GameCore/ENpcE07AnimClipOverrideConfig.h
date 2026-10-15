@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ENpcE07AnimClipOverrideConfig_TypeDefinitionIndex = 16521;
+
 	class ENpcE07AnimClipOverrideConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

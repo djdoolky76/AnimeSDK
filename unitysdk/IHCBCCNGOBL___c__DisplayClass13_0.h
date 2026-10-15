@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyLi
 #define IHCBCCNGOBL___C__DISPLAYCLASS13_0_CTOR_OFFSET UNITYSDK_OFFSET(0x16419AC0)
 #define IHCBCCNGOBL___C__DISPLAYCLASS13_0__SAVE_B__0_OFFSET UNITYSDK_OFFSET(0x16419C20)
 
+inline static constexpr unsigned int IHCBCCNGOBL___c__DisplayClass13_0_TypeDefinitionIndex = 80220;
+
 	class IHCBCCNGOBL___c__DisplayClass13_0 : public ::System::Object
 	{
 	public:

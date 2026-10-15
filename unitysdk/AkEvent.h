@@ -24,6 +24,8 @@ namespace UnityEngine { class GameObject; }
 #define AKEVENT_STOP_1_OFFSET UNITYSDK_OFFSET(0x1F5902E0)
 #define AKEVENT_STOP_OFFSET UNITYSDK_OFFSET(0x1F590230)
 
+inline static constexpr unsigned int AkEvent_TypeDefinitionIndex = 44922;
+
 	class AkEvent : public ::AkDragDropTriggerHandler
 	{
 	public:

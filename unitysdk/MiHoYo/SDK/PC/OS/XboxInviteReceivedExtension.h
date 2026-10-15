@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::PC::OS
 {
+	inline static constexpr unsigned int XboxInviteReceivedExtension_TypeDefinitionIndex = 8687;
+
 	class XboxInviteReceivedExtension : public ::System::Object
 	{
 	public:

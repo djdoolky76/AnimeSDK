@@ -9,6 +9,8 @@ namespace RPG::GameCore { class ActivityVoracityInvasionProgressBuffRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ActivityVoracityInvasionProgressBuffRow_TypeDefinitionIndex = 12544;
+
 	class ActivityVoracityInvasionProgressBuffRow : public ::System::Object
 	{
 	public:

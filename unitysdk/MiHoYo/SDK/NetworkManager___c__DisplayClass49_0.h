@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int NetworkManager___c__DisplayClass49_0_TypeDefinitionIndex = 8172;
+
 	class NetworkManager___c__DisplayClass49_0 : public ::System::Object
 	{
 	public:

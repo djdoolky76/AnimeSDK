@@ -11,6 +11,8 @@ namespace RPG::GameCore { class ShowMuseumPage; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ShowMuseumPage_TypeDefinitionIndex = 20903;
+
 	class ShowMuseumPage : public ::RPG::GameCore::TaskConfig
 	{
 	public:

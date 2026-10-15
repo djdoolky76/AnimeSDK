@@ -14,6 +14,8 @@
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
+	inline static constexpr unsigned int ZFDefines_TypeDefinitionIndex = 39575;
+
 	class ZFDefines : public ::System::Object
 	{
 	public:

@@ -18,6 +18,8 @@ namespace UnityEngine::Timeline { class TimelineClip; }
 #define AKRTPCPLAYABLE_SET_PARAMETER_OFFSET UNITYSDK_OFFSET(0x1F5B3E40)
 #define AKRTPCPLAYABLE_UNITYENGINE_TIMELINE_ITIMELINECLIPASSET_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x1F5B3E70)
 
+inline static constexpr unsigned int AkRTPCPlayable_TypeDefinitionIndex = 44940;
+
 	class AkRTPCPlayable : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:

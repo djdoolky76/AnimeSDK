@@ -8,6 +8,8 @@ namespace System { class String; }
 #define DGDAOIINDFI_GET_DELTAHP_X1000_OFFSET UNITYSDK_OFFSET(0xE844190)
 #define DGDAOIINDFI_SET_DELTAHP_X1000_OFFSET UNITYSDK_OFFSET(0xE8441A0)
 
+inline static constexpr unsigned int DGDAOIINDFI_TypeDefinitionIndex = 58999;
+
 	class DGDAOIINDFI : public ::JENIFGNJEPE
 	{
 	public:

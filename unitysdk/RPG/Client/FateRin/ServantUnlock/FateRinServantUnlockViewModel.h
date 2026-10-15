@@ -20,6 +20,8 @@ namespace System { class Object; }
 
 namespace RPG::Client::FateRin::ServantUnlock
 {
+	inline static constexpr unsigned int FateRinServantUnlockViewModel_TypeDefinitionIndex = 80634;
+
 	class FateRinServantUnlockViewModel : public ::RPG::Client::FateRin::BaseViewModel
 	{
 	public:

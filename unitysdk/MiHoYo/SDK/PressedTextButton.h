@@ -13,6 +13,8 @@ namespace UnityEngine::UI { class Text; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int PressedTextButton_TypeDefinitionIndex = 8014;
+
 	class PressedTextButton : public ::UnityEngine::MonoBehaviour
 	{
 	public:

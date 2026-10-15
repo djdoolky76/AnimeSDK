@@ -13,6 +13,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int StackWeakResistance_TypeDefinitionIndex = 23073;
+
 	class StackWeakResistance : public ::RPG::GameCore::TaskConfig
 	{
 	public:

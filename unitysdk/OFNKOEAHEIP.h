@@ -6,6 +6,8 @@
 
 #define OFNKOEAHEIP_CTOR_OFFSET UNITYSDK_OFFSET(0x1C98CDA0)
 
+inline static constexpr unsigned int OFNKOEAHEIP_TypeDefinitionIndex = 42494;
+
 	class OFNKOEAHEIP : public ::System::Object
 	{
 	public:

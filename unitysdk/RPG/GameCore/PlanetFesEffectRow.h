@@ -10,6 +10,8 @@ namespace RPG::GameCore { class PlanetFesEffectRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PlanetFesEffectRow_TypeDefinitionIndex = 12197;
+
 	class PlanetFesEffectRow : public ::System::Object
 	{
 	public:

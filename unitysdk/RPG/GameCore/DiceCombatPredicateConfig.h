@@ -11,6 +11,8 @@ namespace RPG::GameCore { class DiceCombatTaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DiceCombatPredicateConfig_TypeDefinitionIndex = 16083;
+
 	class DiceCombatPredicateConfig : public ::RPG::GameCore::DiceCombatTaskConfig
 	{
 	public:

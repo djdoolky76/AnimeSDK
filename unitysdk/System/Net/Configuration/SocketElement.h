@@ -8,6 +8,8 @@ namespace System::Configuration { class ConfigurationPropertyCollection; }
 
 namespace System::Net::Configuration
 {
+	inline static constexpr unsigned int SocketElement_TypeDefinitionIndex = 3086;
+
 	class SocketElement : public ::System::Configuration::ConfigurationElement
 	{
 	public:

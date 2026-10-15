@@ -50,6 +50,8 @@
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int Screen_TypeDefinitionIndex = 4119;
+
 	class Screen : public ::System::Object
 	{
 	public:

@@ -12,6 +12,8 @@ namespace System::Reflection { class Module; }
 
 namespace System::Reflection
 {
+	inline static constexpr unsigned int MonoAssembly_TypeDefinitionIndex = 613;
+
 	class MonoAssembly : public ::System::Reflection::RuntimeAssembly
 	{
 	public:

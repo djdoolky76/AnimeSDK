@@ -17,6 +17,8 @@ namespace System { class String; }
 
 namespace System
 {
+	inline static constexpr unsigned int ParameterizedStrings_TypeDefinitionIndex = 427;
+
 	class ParameterizedStrings : public ::System::Object
 	{
 	public:

@@ -6,6 +6,8 @@ namespace RPG::GameCore { class WolfBroGunPlayPuzzleLoadClockParkModifier; }
 #define DFFMCKGHOBM_CTOR_OFFSET UNITYSDK_OFFSET(0xE827AE0)
 #define DFFMCKGHOBM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xE827B10)
 
+inline static constexpr unsigned int DFFMCKGHOBM_TypeDefinitionIndex = 58955;
+
 	class DFFMCKGHOBM
 	{
 	public:

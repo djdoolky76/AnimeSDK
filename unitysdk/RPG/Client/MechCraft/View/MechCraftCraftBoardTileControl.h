@@ -27,6 +27,8 @@ namespace System { class String; }
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftCraftBoardTileControl_TypeDefinitionIndex = 79851;
+
 	class MechCraftCraftBoardTileControl : public ::UnityEngine::MonoBehaviour
 	{
 	public:

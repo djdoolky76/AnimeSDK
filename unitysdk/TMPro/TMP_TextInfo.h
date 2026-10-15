@@ -27,6 +27,8 @@ namespace TMPro { class TMP_Text; }
 
 namespace TMPro
 {
+	inline static constexpr unsigned int TMP_TextInfo_TypeDefinitionIndex = 44665;
+
 	class TMP_TextInfo : public ::System::Object
 	{
 	public:

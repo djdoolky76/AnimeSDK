@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int StateBroadcastPermissionRow_TypeDefinitionIndex = 13372;
+
 	class StateBroadcastPermissionRow : public ::System::Object
 	{
 	public:

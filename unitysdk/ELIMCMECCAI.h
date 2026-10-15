@@ -258,6 +258,8 @@ namespace RPG::GameCore { class PlayerActionConfigBase; }
 #define ELIMCMECCAI_PMCGMLLCBLF_OFFSET UNITYSDK_OFFSET(0x1CD9E690)
 #define ELIMCMECCAI_POMEKLECEMK_OFFSET UNITYSDK_OFFSET(0x1CD9DC90)
 
+inline static constexpr unsigned int ELIMCMECCAI_TypeDefinitionIndex = 19554;
+
 	class ELIMCMECCAI : public ::System::Object
 	{
 	public:

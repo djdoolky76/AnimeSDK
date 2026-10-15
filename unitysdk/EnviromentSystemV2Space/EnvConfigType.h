@@ -3,6 +3,8 @@
 
 namespace EnviromentSystemV2Space
 {
+	inline static constexpr unsigned int EnvConfigType_TypeDefinitionIndex = 49328;
+
 	enum class EnvConfigType : ::System::Int32
 	{
 		Common = 0,

@@ -7,6 +7,8 @@
 
 namespace InControl::NativeDeviceProfiles
 {
+	inline static constexpr unsigned int XboxSeriesXMFiNativeProfile_TypeDefinitionIndex = 41252;
+
 	class XboxSeriesXMFiNativeProfile : public ::InControl::InputDeviceProfile
 	{
 	public:

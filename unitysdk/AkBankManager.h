@@ -18,6 +18,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define AKBANKMANAGER_UNLOADBANK_OFFSET UNITYSDK_OFFSET(0x1F56D680)
 #define AKBANKMANAGER_UNLOADINITBANK_OFFSET UNITYSDK_OFFSET(0x1F57AE60)
 
+inline static constexpr unsigned int AkBankManager_TypeDefinitionIndex = 44816;
+
 	class AkBankManager : public ::System::Object
 	{
 	public:

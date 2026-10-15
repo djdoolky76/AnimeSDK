@@ -14,6 +14,8 @@ namespace RPG::GameCore { class LevelEvolveBuildGetKillScore; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelEvolveBuildGetKillScore_TypeDefinitionIndex = 56829;
+
 	class LevelEvolveBuildGetKillScore : public ::CMPGEAFHHDC
 	{
 	public:

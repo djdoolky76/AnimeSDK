@@ -26,6 +26,8 @@ namespace UnityEngine::UI { class Slider; }
 #define BEBKIEOBLPK_PJKJKCDAHMM_OFFSET UNITYSDK_OFFSET(0x1630BA30)
 #define BEBKIEOBLPK__ONBIND_OFFSET UNITYSDK_OFFSET(0x1630ABC0)
 
+inline static constexpr unsigned int BEBKIEOBLPK_TypeDefinitionIndex = 71936;
+
 	class BEBKIEOBLPK : public ::FMPCODLIOLG
 	{
 	public:

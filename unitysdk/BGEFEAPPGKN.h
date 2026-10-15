@@ -32,6 +32,8 @@ namespace System { class String; }
 #define BGEFEAPPGKN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EA72A40)
 #define BGEFEAPPGKN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EA72AA0)
 
+inline static constexpr unsigned int BGEFEAPPGKN_TypeDefinitionIndex = 25974;
+
 	class BGEFEAPPGKN : public ::System::Object
 	{
 	public:

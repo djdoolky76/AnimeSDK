@@ -10,6 +10,8 @@ namespace UnityEngine { class RectTransform; }
 
 namespace SRF::UI
 {
+	inline static constexpr unsigned int CopyPreferredSize_TypeDefinitionIndex = 35377;
+
 	class CopyPreferredSize : public ::UnityEngine::UI::LayoutElement
 	{
 	public:

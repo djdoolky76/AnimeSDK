@@ -10,6 +10,8 @@ namespace RPG::GameCore { class MonopolyQuizTaskConfigRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MonopolyQuizTaskConfigRow_TypeDefinitionIndex = 12061;
+
 	class MonopolyQuizTaskConfigRow : public ::System::Object
 	{
 	public:

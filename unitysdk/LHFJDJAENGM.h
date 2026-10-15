@@ -14,6 +14,8 @@ namespace System { class Object; }
 #define LHFJDJAENGM_ONCLEAR_OFFSET UNITYSDK_OFFSET(0xB6B0E80)
 #define LHFJDJAENGM_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0xB6B0D00)
 
+inline static constexpr unsigned int LHFJDJAENGM_TypeDefinitionIndex = 80849;
+
 	class LHFJDJAENGM : public ::MLKDDLHNNHH
 	{
 	public:

@@ -7,6 +7,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace RPG::Client::ActivityIdleLive
 {
+	inline static constexpr unsigned int IdleLiveGameFlow___O_TypeDefinitionIndex = 75297;
+
 	class IdleLiveGameFlow___O : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ResidentEffectConfigItem_TypeDefinitionIndex = 16535;
+
 	class ResidentEffectConfigItem : public ::RPG::GameCore::JsonConfig
 	{
 	public:

@@ -11,6 +11,8 @@ namespace RPG::GameCore { class ResetPhotoGraphTargets; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ResetPhotoGraphTargets_TypeDefinitionIndex = 21641;
+
 	class ResetPhotoGraphTargets : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -15,6 +15,8 @@ namespace UnityEngine { class MonoBehaviour; }
 
 namespace Cysharp::Threading::Tasks
 {
+	inline static constexpr unsigned int EnumeratorAsyncExtensions__Core_d__4_TypeDefinitionIndex = 38159;
+
 	template <typename T1, typename T2, typename T3, typename T4>
 	class EnumeratorAsyncExtensions__Core_d__4 : public ::System::Object
 	{

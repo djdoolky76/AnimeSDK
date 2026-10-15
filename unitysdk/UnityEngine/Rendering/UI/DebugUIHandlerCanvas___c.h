@@ -14,6 +14,8 @@ namespace UnityEngine::Rendering::UI { class DebugUIHandlerPanel; }
 
 namespace UnityEngine::Rendering::UI
 {
+	inline static constexpr unsigned int DebugUIHandlerCanvas___c_TypeDefinitionIndex = 35676;
+
 	class DebugUIHandlerCanvas___c : public ::System::Object
 	{
 	public:

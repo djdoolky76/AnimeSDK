@@ -11,6 +11,8 @@ namespace RPG::GameCore { class FiveDimNavMapSurfaceConnectConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimNavMapSurfaceConnectConfig_TypeDefinitionIndex = 18832;
+
 	class FiveDimNavMapSurfaceConnectConfig : public ::RPG::GameCore::LittleGameComponentConfig
 	{
 	public:

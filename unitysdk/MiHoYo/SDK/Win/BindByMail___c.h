@@ -11,6 +11,8 @@ namespace System { class Object; }
 
 namespace MiHoYo::SDK::Win
 {
+	inline static constexpr unsigned int BindByMail___c_TypeDefinitionIndex = 9506;
+
 	class BindByMail___c : public ::System::Object
 	{
 	public:

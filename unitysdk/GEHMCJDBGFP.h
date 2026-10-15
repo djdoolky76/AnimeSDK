@@ -18,6 +18,8 @@ namespace System { class Object; }
 #define GEHMCJDBGFP_KPDMFKIIJMO_OFFSET UNITYSDK_OFFSET(0x3C38A00)
 #define GEHMCJDBGFP_NHCFLDCDLCP_OFFSET UNITYSDK_OFFSET(0x1CE36BF0)
 
+inline static constexpr unsigned int GEHMCJDBGFP_TypeDefinitionIndex = 10654;
+
 	struct alignas(8) GEHMCJDBGFP
 	{
 		::LELCKJPOPAO* BEHHICMOFIE; // 0x10

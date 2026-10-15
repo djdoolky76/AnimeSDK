@@ -6,6 +6,8 @@
 
 namespace RPG::Client::LimaoNews
 {
+	inline static constexpr unsigned int LimaoNewsLastLineMessageItemViewModel_TypeDefinitionIndex = 80436;
+
 	class LimaoNewsLastLineMessageItemViewModel : public ::RPG::Client::LimaoNews::LimaoNewsMessageItemViewModel
 	{
 	public:

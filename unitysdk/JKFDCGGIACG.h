@@ -13,6 +13,8 @@ namespace RPG::GameCore { class TriggerCableProceduralEffect; }
 #define JKFDCGGIACG_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB21B360)
 #define JKFDCGGIACG_TICK_OFFSET UNITYSDK_OFFSET(0xB21B3F0)
 
+inline static constexpr unsigned int JKFDCGGIACG_TypeDefinitionIndex = 55724;
+
 	class JKFDCGGIACG : public ::GELIALJDFBL
 	{
 	public:

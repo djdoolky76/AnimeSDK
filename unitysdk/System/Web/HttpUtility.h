@@ -21,6 +21,8 @@ namespace System::Text { class Encoding; }
 
 namespace System::Web
 {
+	inline static constexpr unsigned int HttpUtility_TypeDefinitionIndex = 2663;
+
 	class HttpUtility : public ::System::Object
 	{
 	public:

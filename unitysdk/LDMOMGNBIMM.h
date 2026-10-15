@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define LDMOMGNBIMM_CTOR_OFFSET UNITYSDK_OFFSET(0xB63E210)
 #define LDMOMGNBIMM_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB63E240)
 
+inline static constexpr unsigned int LDMOMGNBIMM_TypeDefinitionIndex = 53144;
+
 	class LDMOMGNBIMM
 	{
 	public:

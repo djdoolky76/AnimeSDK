@@ -13,6 +13,8 @@
 
 namespace RPG::Client::NavMap
 {
+	inline static constexpr unsigned int MappingInfoNode_TypeDefinitionIndex = 74579;
+
 	class MappingInfoNode : public ::System::Object
 	{
 	public:

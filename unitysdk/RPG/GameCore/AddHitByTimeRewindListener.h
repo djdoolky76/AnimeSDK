@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AddHitByTimeRewindListener_TypeDefinitionIndex = 20647;
+
 	class AddHitByTimeRewindListener : public ::RPG::GameCore::TaskConfig
 	{
 	public:

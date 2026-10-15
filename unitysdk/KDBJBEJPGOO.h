@@ -29,6 +29,8 @@ namespace System { class String; }
 #define KDBJBEJPGOO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E7FD690)
 #define KDBJBEJPGOO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E7FD6F0)
 
+inline static constexpr unsigned int KDBJBEJPGOO_TypeDefinitionIndex = 34802;
+
 	class KDBJBEJPGOO : public ::System::Object
 	{
 	public:

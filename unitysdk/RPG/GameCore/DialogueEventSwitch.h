@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DialogueEventSwitch_TypeDefinitionIndex = 20884;
+
 	class DialogueEventSwitch : public ::RPG::GameCore::TaskConfig
 	{
 	public:

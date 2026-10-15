@@ -9,6 +9,8 @@ class IHENDFLIFNJ;
 #define IHENDFLIFNJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1CF0F860)
 #define IHENDFLIFNJ_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CF0F460)
 
+inline static constexpr unsigned int IHENDFLIFNJ_TypeDefinitionIndex = 11483;
+
 	class IHENDFLIFNJ : public ::System::Object
 	{
 	public:

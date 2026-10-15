@@ -74,6 +74,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int VersionData_TypeDefinitionIndex = 59264;
+
 	class VersionData : public ::System::Object
 	{
 	public:

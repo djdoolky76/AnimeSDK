@@ -8,6 +8,8 @@
 #define PMOMFDCLALP_SET_INCREASEPERCENT_OFFSET UNITYSDK_OFFSET(0x1C57E080)
 #define PMOMFDCLALP_SET_PARTNERACTORID_OFFSET UNITYSDK_OFFSET(0x1C57E060)
 
+inline static constexpr unsigned int PMOMFDCLALP_TypeDefinitionIndex = 41874;
+
 	class PMOMFDCLALP : public ::System::Object
 	{
 	public:

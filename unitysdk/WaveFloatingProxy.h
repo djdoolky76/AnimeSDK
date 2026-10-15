@@ -4,6 +4,8 @@ namespace UnityEngine { class SphereCollider; }
 
 #define WAVEFLOATINGPROXY_CTOR_OFFSET UNITYSDK_OFFSET(0xE9F7B20)
 
+inline static constexpr unsigned int WaveFloatingProxy_TypeDefinitionIndex = 47489;
+
 	class WaveFloatingProxy
 	{
 	public:

@@ -21,6 +21,8 @@ namespace System { class Action; }
 
 namespace MiHoYo::SDK::UI::External::OS
 {
+	inline static constexpr unsigned int GooglePCOAuthPluginUI_TypeDefinitionIndex = 8408;
+
 	class GooglePCOAuthPluginUI : public ::System::Object
 	{
 	public:

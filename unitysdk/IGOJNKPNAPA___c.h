@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 #define IGOJNKPNAPA___C__HANDLEPOSTPROCESS_B__0_0_OFFSET UNITYSDK_OFFSET(0x16416350)
 #define IGOJNKPNAPA___C__HANDLEPOSTPROCESS_B__0_1_OFFSET UNITYSDK_OFFSET(0x164166B0)
 
+inline static constexpr unsigned int IGOJNKPNAPA___c_TypeDefinitionIndex = 67146;
+
 	class IGOJNKPNAPA___c : public ::System::Object
 	{
 	public:

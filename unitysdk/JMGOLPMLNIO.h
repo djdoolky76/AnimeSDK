@@ -11,6 +11,8 @@ namespace System { class String; }
 #define JMGOLPMLNIO_GET_TYPE_OFFSET UNITYSDK_OFFSET(0xB265030)
 #define JMGOLPMLNIO_JAILHGGFLDH_OFFSET UNITYSDK_OFFSET(0xB265040)
 
+inline static constexpr unsigned int JMGOLPMLNIO_TypeDefinitionIndex = 56124;
+
 	class JMGOLPMLNIO : public ::DBGDNLLDPFI
 	{
 	public:

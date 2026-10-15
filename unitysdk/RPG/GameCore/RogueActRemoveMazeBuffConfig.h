@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueActRemoveMazeBuffConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueActRemoveMazeBuffConfig_TypeDefinitionIndex = 19629;
+
 	class RogueActRemoveMazeBuffConfig : public ::RPG::GameCore::RogueActionConfigBase
 	{
 	public:

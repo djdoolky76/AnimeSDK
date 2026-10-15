@@ -28,6 +28,8 @@ namespace System { class String; }
 #define HIKOBOMBMPB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E5996B0)
 #define HIKOBOMBMPB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E599710)
 
+inline static constexpr unsigned int HIKOBOMBMPB_TypeDefinitionIndex = 32672;
+
 	class HIKOBOMBMPB : public ::System::Object
 	{
 	public:

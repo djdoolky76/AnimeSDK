@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define INFDOMFEGML___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E6C1190)
 #define INFDOMFEGML___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E6C11A0)
 
+inline static constexpr unsigned int INFDOMFEGML___c_TypeDefinitionIndex = 29890;
+
 	class INFDOMFEGML___c : public ::System::Object
 	{
 	public:

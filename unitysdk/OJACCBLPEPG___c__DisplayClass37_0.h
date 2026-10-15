@@ -8,6 +8,8 @@ namespace System { class String; }
 #define OJACCBLPEPG___C__DISPLAYCLASS37_0_CTOR_OFFSET UNITYSDK_OFFSET(0xBEA96D0)
 #define OJACCBLPEPG___C__DISPLAYCLASS37_0__ASYNCLOADASSET_B__0_OFFSET UNITYSDK_OFFSET(0xBEA9960)
 
+inline static constexpr unsigned int OJACCBLPEPG___c__DisplayClass37_0_TypeDefinitionIndex = 59824;
+
 	class OJACCBLPEPG___c__DisplayClass37_0 : public ::System::Object
 	{
 	public:

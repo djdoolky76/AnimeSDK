@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ItemRecycleShowType_TypeDefinitionIndex = 13860;
+
 	enum class ItemRecycleShowType : ::System::Int32
 	{
 		Unknown = 0,

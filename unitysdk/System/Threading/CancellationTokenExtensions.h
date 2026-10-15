@@ -10,6 +10,8 @@ namespace System { class Object; }
 
 namespace System::Threading
 {
+	inline static constexpr unsigned int CancellationTokenExtensions_TypeDefinitionIndex = 35898;
+
 	class CancellationTokenExtensions : public ::System::Object
 	{
 	public:

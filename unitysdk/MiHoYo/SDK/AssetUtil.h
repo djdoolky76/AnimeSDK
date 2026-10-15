@@ -21,6 +21,8 @@ namespace UnityEngine { class Object; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int AssetUtil_TypeDefinitionIndex = 46468;
+
 	class AssetUtil : public ::System::Object
 	{
 	public:

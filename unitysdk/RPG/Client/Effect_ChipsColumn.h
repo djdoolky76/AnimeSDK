@@ -19,6 +19,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int Effect_ChipsColumn_TypeDefinitionIndex = 70434;
+
 	class Effect_ChipsColumn : public ::UnityEngine::MonoBehaviour
 	{
 	public:

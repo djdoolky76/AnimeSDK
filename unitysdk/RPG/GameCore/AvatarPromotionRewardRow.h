@@ -9,6 +9,8 @@ namespace RPG::GameCore { class AvatarPromotionRewardRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AvatarPromotionRewardRow_TypeDefinitionIndex = 12736;
+
 	class AvatarPromotionRewardRow : public ::System::Object
 	{
 	public:

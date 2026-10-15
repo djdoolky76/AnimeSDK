@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ShowTalkRecordingDialog; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ShowTalkRecordingDialog_TypeDefinitionIndex = 21936;
+
 	class ShowTalkRecordingDialog : public ::RPG::GameCore::TaskConfig
 	{
 	public:

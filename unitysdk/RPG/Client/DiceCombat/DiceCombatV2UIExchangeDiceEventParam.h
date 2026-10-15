@@ -14,6 +14,8 @@ namespace System { class Action; }
 
 namespace RPG::Client::DiceCombat
 {
+	inline static constexpr unsigned int DiceCombatV2UIExchangeDiceEventParam_TypeDefinitionIndex = 76200;
+
 	class DiceCombatV2UIExchangeDiceEventParam : public ::System::Object
 	{
 	public:

@@ -3,6 +3,8 @@
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int CRPPreConfig_TypeDefinitionIndex = 4867;
+
 	struct alignas(4) CRPPreConfig
 	{
 		::System::Int32 HalfResTransparent; // 0x10

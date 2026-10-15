@@ -31,6 +31,8 @@ namespace System { class String; }
 #define BJELONPOIAG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DE08950)
 #define BJELONPOIAG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DE089B0)
 
+inline static constexpr unsigned int BJELONPOIAG_TypeDefinitionIndex = 28173;
+
 	class BJELONPOIAG : public ::System::Object
 	{
 	public:

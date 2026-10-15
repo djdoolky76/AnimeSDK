@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FateTraitConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FateTraitConfig_TypeDefinitionIndex = 16622;
+
 	class FateTraitConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

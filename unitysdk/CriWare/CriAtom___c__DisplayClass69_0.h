@@ -10,6 +10,8 @@ namespace System { template <typename T> class Predicate_1; }
 
 namespace CriWare
 {
+	inline static constexpr unsigned int CriAtom___c__DisplayClass69_0_TypeDefinitionIndex = 39909;
+
 	class CriAtom___c__DisplayClass69_0 : public ::System::Object
 	{
 	public:

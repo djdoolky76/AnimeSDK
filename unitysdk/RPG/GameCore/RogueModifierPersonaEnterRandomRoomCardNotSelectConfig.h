@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueModifierPersonaEnterRandomRoomCardNotSelect
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueModifierPersonaEnterRandomRoomCardNotSelectConfig_TypeDefinitionIndex = 17839;
+
 	class RogueModifierPersonaEnterRandomRoomCardNotSelectConfig : public ::RPG::GameCore::RogueModifierConfig
 	{
 	public:

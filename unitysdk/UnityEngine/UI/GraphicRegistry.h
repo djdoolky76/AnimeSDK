@@ -21,6 +21,8 @@ namespace UnityEngine::UI { class GraphicRegistry; }
 
 namespace UnityEngine::UI
 {
+	inline static constexpr unsigned int GraphicRegistry_TypeDefinitionIndex = 6722;
+
 	class GraphicRegistry : public ::System::Object
 	{
 	public:

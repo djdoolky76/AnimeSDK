@@ -18,6 +18,8 @@ namespace RPG::GameCore { class TimeRewindAudioConfig; }
 #define OIMDPBMAIJJ_OHMHJFANEIF_OFFSET UNITYSDK_OFFSET(0xBEA0B80)
 #define OIMDPBMAIJJ_PGDJOIFCKLB_OFFSET UNITYSDK_OFFSET(0xBEA07C0)
 
+inline static constexpr unsigned int OIMDPBMAIJJ_TypeDefinitionIndex = 60796;
+
 	class OIMDPBMAIJJ : public ::System::Object
 	{
 	public:

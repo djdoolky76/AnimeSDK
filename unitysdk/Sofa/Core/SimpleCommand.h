@@ -10,6 +10,8 @@ namespace System { class Object; }
 
 namespace Sofa::Core
 {
+	inline static constexpr unsigned int SimpleCommand_TypeDefinitionIndex = 44080;
+
 	class SimpleCommand : public ::System::Object
 	{
 	public:

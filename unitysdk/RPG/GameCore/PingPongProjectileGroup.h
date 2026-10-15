@@ -11,6 +11,8 @@ namespace RPG::GameCore { class PingPongProjectileInfo; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PingPongProjectileGroup_TypeDefinitionIndex = 16987;
+
 	class PingPongProjectileGroup : public ::RPG::GameCore::JsonConfig
 	{
 	public:

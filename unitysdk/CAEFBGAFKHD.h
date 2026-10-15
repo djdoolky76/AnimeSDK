@@ -30,6 +30,8 @@ namespace System { class String; }
 #define CAEFBGAFKHD_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E0572A0)
 #define CAEFBGAFKHD_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E057300)
 
+inline static constexpr unsigned int CAEFBGAFKHD_TypeDefinitionIndex = 33458;
+
 	class CAEFBGAFKHD : public ::System::Object
 	{
 	public:

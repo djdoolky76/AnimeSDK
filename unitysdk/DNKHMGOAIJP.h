@@ -5,6 +5,8 @@
 #define DNKHMGOAIJP_CTOR_OFFSET UNITYSDK_OFFSET(0x11FD3D20)
 #define DNKHMGOAIJP_KEOKEELBKHI_OFFSET UNITYSDK_OFFSET(0x11FD3D40)
 
+inline static constexpr unsigned int DNKHMGOAIJP_TypeDefinitionIndex = 59272;
+
 	class DNKHMGOAIJP : public ::System::Object
 	{
 	public:

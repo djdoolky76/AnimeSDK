@@ -10,6 +10,8 @@ namespace RPG::GameCore { class MarbleByIsAttacker; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MarbleByIsAttacker_TypeDefinitionIndex = 16874;
+
 	class MarbleByIsAttacker : public ::RPG::GameCore::MarblePredicateConfig
 	{
 	public:

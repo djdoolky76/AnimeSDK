@@ -13,6 +13,8 @@ namespace System { class Object; }
 #define CGEOCOPMJGI_GET_SETTLERESULT_OFFSET UNITYSDK_OFFSET(0xCC87E10)
 #define CGEOCOPMJGI_KLNBEHCHGIG_OFFSET UNITYSDK_OFFSET(0xCC87E80)
 
+inline static constexpr unsigned int CGEOCOPMJGI_TypeDefinitionIndex = 80179;
+
 	class CGEOCOPMJGI : public ::System::Object
 	{
 	public:

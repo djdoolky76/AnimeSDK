@@ -27,6 +27,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int Airship_AirshipEffectConfig_TypeDefinitionIndex = 59787;
+
 	class Airship_AirshipEffectConfig : public ::System::Object
 	{
 	public:

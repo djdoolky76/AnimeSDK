@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PolymerDatabaseProperty_TypeDefinitionIndex = 70301;
+
 	class PolymerDatabaseProperty : public ::System::Object
 	{
 	public:

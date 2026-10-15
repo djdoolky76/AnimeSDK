@@ -10,6 +10,8 @@ namespace RPG::GameCore { class EventManager; }
 #define CMPGEAFHHDC_CTOR_OFFSET UNITYSDK_OFFSET(0xDA45E50)
 #define CMPGEAFHHDC_EPHFABNKFGJ_OFFSET UNITYSDK_OFFSET(0xDA45CC0)
 
+inline static constexpr unsigned int CMPGEAFHHDC_TypeDefinitionIndex = 56688;
+
 	class CMPGEAFHHDC : public ::System::Object
 	{
 	public:

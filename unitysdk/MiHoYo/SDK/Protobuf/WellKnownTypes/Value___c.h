@@ -10,6 +10,8 @@ namespace System { class Object; }
 
 namespace MiHoYo::SDK::Protobuf::WellKnownTypes
 {
+	inline static constexpr unsigned int Value___c_TypeDefinitionIndex = 35751;
+
 	class Value___c : public ::System::Object
 	{
 	public:

@@ -22,6 +22,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define HLLMCOEIGHH_LCNMIMPGOME_OFFSET UNITYSDK_OFFSET(0x15D64CD0)
 #define HLLMCOEIGHH_OFBKIOEEMKE_OFFSET UNITYSDK_OFFSET(0x15D65120)
 
+inline static constexpr unsigned int HLLMCOEIGHH_TypeDefinitionIndex = 60893;
+
 	class HLLMCOEIGHH : public ::System::Object
 	{
 	public:

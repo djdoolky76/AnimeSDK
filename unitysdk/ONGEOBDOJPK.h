@@ -11,6 +11,8 @@ namespace UnityEngine::UI { class Text; }
 #define ONGEOBDOJPK_IAMCNOAAALI_OFFSET UNITYSDK_OFFSET(0xBF51A90)
 #define ONGEOBDOJPK_JCKGONAAIPB_OFFSET UNITYSDK_OFFSET(0xBF51B00)
 
+inline static constexpr unsigned int ONGEOBDOJPK_TypeDefinitionIndex = 71414;
+
 	class ONGEOBDOJPK : public ::LBAMBIMMJKB
 	{
 	public:

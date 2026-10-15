@@ -10,6 +10,8 @@ namespace System { class Object; }
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int SpatialHashUtils_TypeDefinitionIndex = 4818;
+
 	class SpatialHashUtils : public ::System::Object
 	{
 	public:

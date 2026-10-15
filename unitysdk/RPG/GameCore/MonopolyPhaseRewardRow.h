@@ -9,6 +9,8 @@ namespace RPG::GameCore { class MonopolyPhaseRewardRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MonopolyPhaseRewardRow_TypeDefinitionIndex = 12054;
+
 	class MonopolyPhaseRewardRow : public ::System::Object
 	{
 	public:

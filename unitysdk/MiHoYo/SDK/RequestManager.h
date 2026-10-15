@@ -51,6 +51,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int RequestManager_TypeDefinitionIndex = 8058;
+
 	class RequestManager : public ::System::Object
 	{
 	public:

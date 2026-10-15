@@ -17,6 +17,8 @@ namespace System::Net { class NetworkCredential; }
 
 namespace Mono::Net
 {
+	inline static constexpr unsigned int CFNetwork_CFWebProxy_TypeDefinitionIndex = 2420;
+
 	class CFNetwork_CFWebProxy : public ::System::Object
 	{
 	public:

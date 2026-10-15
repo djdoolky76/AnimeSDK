@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int AnimatorControlTimelineClip_BoolEntry_TypeDefinitionIndex = 47802;
+
 	class AnimatorControlTimelineClip_BoolEntry : public ::System::Object
 	{
 	public:

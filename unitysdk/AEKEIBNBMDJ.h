@@ -38,6 +38,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define AEKEIBNBMDJ_PMDBFHMCPMA_OFFSET UNITYSDK_OFFSET(0xCF00650)
 #define AEKEIBNBMDJ_SET_INTERNALNAME_OFFSET UNITYSDK_OFFSET(0xCEFFF00)
 
+inline static constexpr unsigned int AEKEIBNBMDJ_TypeDefinitionIndex = 49461;
+
 	class AEKEIBNBMDJ : public ::System::Object
 	{
 	public:

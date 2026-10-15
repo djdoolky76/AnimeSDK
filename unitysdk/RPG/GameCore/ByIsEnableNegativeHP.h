@@ -14,6 +14,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByIsEnableNegativeHP_TypeDefinitionIndex = 23711;
+
 	class ByIsEnableNegativeHP : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

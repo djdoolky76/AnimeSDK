@@ -9,6 +9,8 @@
 #define EFBOEHMDDJH_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x13A47430)
 #define EFBOEHMDDJH_JAILHGGFLDH_OFFSET UNITYSDK_OFFSET(0x13A47440)
 
+inline static constexpr unsigned int EFBOEHMDDJH_TypeDefinitionIndex = 56152;
+
 	class EFBOEHMDDJH : public ::DBGDNLLDPFI
 	{
 	public:

@@ -10,6 +10,8 @@ namespace System { class Object; }
 
 namespace Proto
 {
+	inline static constexpr unsigned int PerformanceStartSnapshot___c_TypeDefinitionIndex = 25857;
+
 	class PerformanceStartSnapshot___c : public ::System::Object
 	{
 	public:

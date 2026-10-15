@@ -10,6 +10,8 @@ namespace System { class Action; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int VersionUpdateMgr___c__DisplayClass5_0_TypeDefinitionIndex = 61281;
+
 	class VersionUpdateMgr___c__DisplayClass5_0 : public ::System::Object
 	{
 	public:

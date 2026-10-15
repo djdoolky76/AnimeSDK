@@ -22,6 +22,8 @@ namespace UnityEngine { class Transform; }
 #define ICKCNNLHLNF_MIADPFMELOM_OFFSET UNITYSDK_OFFSET(0x15E50FE0)
 #define ICKCNNLHLNF_POPDJKHOPOA_OFFSET UNITYSDK_OFFSET(0x15E512C0)
 
+inline static constexpr unsigned int ICKCNNLHLNF_TypeDefinitionIndex = 68219;
+
 	class ICKCNNLHLNF : public ::System::Object
 	{
 	public:

@@ -28,6 +28,8 @@ namespace System::Globalization { class DateTimeFormatInfo; }
 
 namespace System::Globalization
 {
+	inline static constexpr unsigned int TimeSpanParse_TimeSpanRawInfo_TypeDefinitionIndex = 778;
+
 	struct alignas(8) TimeSpanParse_TimeSpanRawInfo
 	{
 		::System::Globalization::TimeSpanParse_TTT lastSeenTTT; // 0x10

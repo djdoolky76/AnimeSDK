@@ -8,6 +8,8 @@ namespace UnityEngine { class AnimationCurve; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int CameraBlendCurve_TypeDefinitionIndex = 69535;
+
 	class CameraBlendCurve : public ::UnityEngine::ScriptableObject
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define HGNBPANECAL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E5846D0)
 #define HGNBPANECAL___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E5846E0)
 
+inline static constexpr unsigned int HGNBPANECAL___c_TypeDefinitionIndex = 33945;
+
 	class HGNBPANECAL___c : public ::System::Object
 	{
 	public:

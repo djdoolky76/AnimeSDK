@@ -4,6 +4,8 @@
 
 #define PCGGENBDKKK_CTOR_OFFSET UNITYSDK_OFFSET(0x1C7EB480)
 
+inline static constexpr unsigned int PCGGENBDKKK_TypeDefinitionIndex = 36841;
+
 	class PCGGENBDKKK : public ::System::Attribute
 	{
 	public:

@@ -21,6 +21,8 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyLi
 #define JHEGOEGGGDK__CHECKNEEDREBUILD_OFFSET UNITYSDK_OFFSET(0xB1AD070)
 #define JHEGOEGGGDK__REBUILD_OFFSET UNITYSDK_OFFSET(0xB1AD800)
 
+inline static constexpr unsigned int JHEGOEGGGDK_TypeDefinitionIndex = 62720;
+
 	class JHEGOEGGGDK : public ::GGLKJLLMHBN
 	{
 	public:

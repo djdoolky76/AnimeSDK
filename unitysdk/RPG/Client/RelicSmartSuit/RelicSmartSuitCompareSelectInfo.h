@@ -29,6 +29,8 @@ namespace RPG::Client::RelicSmartSuit { class RelicSmartSuitResultRelicInfo; }
 
 namespace RPG::Client::RelicSmartSuit
 {
+	inline static constexpr unsigned int RelicSmartSuitCompareSelectInfo_TypeDefinitionIndex = 74402;
+
 	class RelicSmartSuitCompareSelectInfo : public ::System::Object
 	{
 	public:

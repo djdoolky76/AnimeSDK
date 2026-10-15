@@ -4,6 +4,8 @@
 
 namespace MiHoYo::SDK::PluginUI
 {
+	inline static constexpr unsigned int PluginUIConstants_OverseaThirdPartyIconType_TypeDefinitionIndex = 9249;
+
 	class PluginUIConstants_OverseaThirdPartyIconType : public ::System::Object
 	{
 	public:

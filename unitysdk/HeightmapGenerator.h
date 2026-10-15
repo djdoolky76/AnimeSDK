@@ -11,6 +11,8 @@ namespace UnityEngine { class Texture2D; }
 #define HEIGHTMAPGENERATOR_ONDRAWGIZMOSSELECTED_OFFSET UNITYSDK_OFFSET(0x15DE24E0)
 #define HEIGHTMAPGENERATOR_SAVETOEXR_OFFSET UNITYSDK_OFFSET(0x15DE2610)
 
+inline static constexpr unsigned int HeightmapGenerator_TypeDefinitionIndex = 47316;
+
 	class HeightmapGenerator : public ::UnityEngine::MonoBehaviour
 	{
 	public:

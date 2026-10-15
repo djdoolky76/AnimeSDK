@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GridFightModifierExecActionRoundBeginAndLastRoun
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightModifierExecActionRoundBeginAndLastRoundNoCostCoinConfig_TypeDefinitionIndex = 19364;
+
 	class GridFightModifierExecActionRoundBeginAndLastRoundNoCostCoinConfig : public ::RPG::GameCore::GridFightModifierConfigBase
 	{
 	public:

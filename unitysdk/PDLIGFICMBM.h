@@ -7,6 +7,8 @@ class KPCDEJGJHBK;
 #define PDLIGFICMBM_CTOR_OFFSET UNITYSDK_OFFSET(0xC01F460)
 #define PDLIGFICMBM_IGKLKLJCMBI_OFFSET UNITYSDK_OFFSET(0xC01F140)
 
+inline static constexpr unsigned int PDLIGFICMBM_TypeDefinitionIndex = 75950;
+
 	class PDLIGFICMBM : public ::MKHNMHOHEAK
 	{
 	public:

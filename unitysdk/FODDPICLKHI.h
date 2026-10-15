@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyLi
 #define FODDPICLKHI_CTOR_OFFSET UNITYSDK_OFFSET(0x1C625BB0)
 #define FODDPICLKHI_IMBNGHDBDLJ_OFFSET UNITYSDK_OFFSET(0x1C625BE0)
 
+inline static constexpr unsigned int FODDPICLKHI_TypeDefinitionIndex = 37433;
+
 	class FODDPICLKHI
 	{
 	public:

@@ -18,6 +18,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GlobalDispatchData_ServerData_TypeDefinitionIndex = 69388;
+
 	class GlobalDispatchData_ServerData : public ::System::Object
 	{
 	public:

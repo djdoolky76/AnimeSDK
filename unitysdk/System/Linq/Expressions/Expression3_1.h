@@ -5,6 +5,8 @@ namespace System::Linq::Expressions { class ParameterExpression; }
 
 namespace System::Linq::Expressions
 {
+	inline static constexpr unsigned int Expression3_1_TypeDefinitionIndex = 3236;
+
 	template <typename T>
 	class Expression3_1
 	{

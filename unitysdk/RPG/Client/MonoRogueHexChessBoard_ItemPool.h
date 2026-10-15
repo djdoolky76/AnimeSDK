@@ -13,6 +13,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoRogueHexChessBoard_ItemPool_TypeDefinitionIndex = 68922;
+
 	class MonoRogueHexChessBoard_ItemPool : public ::System::Object
 	{
 	public:

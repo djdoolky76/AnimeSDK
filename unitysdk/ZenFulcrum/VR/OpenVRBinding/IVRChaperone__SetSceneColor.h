@@ -13,6 +13,8 @@ namespace System { class Object; }
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
+	inline static constexpr unsigned int IVRChaperone__SetSceneColor_TypeDefinitionIndex = 38989;
+
 	class IVRChaperone__SetSceneColor : public ::System::MulticastDelegate
 	{
 	public:

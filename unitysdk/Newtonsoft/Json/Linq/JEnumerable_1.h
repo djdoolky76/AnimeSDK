@@ -4,6 +4,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 
 namespace Newtonsoft::Json::Linq
 {
+	inline static constexpr unsigned int JEnumerable_1_TypeDefinitionIndex = 9773;
+
 	template <typename T>
 	struct alignas(8) JEnumerable_1
 	{

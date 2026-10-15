@@ -17,6 +17,8 @@ namespace RPG::Client::Prop { class PuzzleBoardBase; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int InteractPuzzleItemBase_TypeDefinitionIndex = 78616;
+
 	class InteractPuzzleItemBase : public ::UnityEngine::MonoBehaviour
 	{
 	public:

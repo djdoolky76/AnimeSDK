@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RewindTimeRewindTargetInRange; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RewindTimeRewindTargetInRange_TypeDefinitionIndex = 20658;
+
 	class RewindTimeRewindTargetInRange : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -15,6 +15,8 @@ namespace UnityEngine::UI { class Graphic; }
 #define IIEJPCIFPEF_PRINTMEMBERS_OFFSET UNITYSDK_OFFSET(0x2E81A50)
 #define IIEJPCIFPEF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x2E81A40)
 
+inline static constexpr unsigned int IIEJPCIFPEF_TypeDefinitionIndex = 49754;
+
 	struct alignas(8) IIEJPCIFPEF
 	{
 		::UnityEngine::UI::Graphic* CEEGIDBAPJO; // 0x10

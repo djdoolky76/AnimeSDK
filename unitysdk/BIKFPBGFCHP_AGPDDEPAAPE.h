@@ -12,6 +12,8 @@ namespace System::Collections::Immutable { template <typename T> class IImmutabl
 #define BIKFPBGFCHP_AGPDDEPAAPE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xB4B10F0)
 #define BIKFPBGFCHP_AGPDDEPAAPE_INVOKE_OFFSET UNITYSDK_OFFSET(0xB4AF410)
 
+inline static constexpr unsigned int BIKFPBGFCHP_AGPDDEPAAPE_TypeDefinitionIndex = 79457;
+
 	class BIKFPBGFCHP_AGPDDEPAAPE : public ::System::MulticastDelegate
 	{
 	public:

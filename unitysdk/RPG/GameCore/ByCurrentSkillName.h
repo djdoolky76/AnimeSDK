@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByCurrentSkillName_TypeDefinitionIndex = 23506;
+
 	class ByCurrentSkillName : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

@@ -14,6 +14,8 @@ namespace UnityEngine { class RectTransform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int UIDragGhost_TypeDefinitionIndex = 73060;
+
 	class UIDragGhost : public ::UnityEngine::MonoBehaviour
 	{
 	public:

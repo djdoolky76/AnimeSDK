@@ -21,6 +21,8 @@ namespace System::Xml::Linq { class XNode; }
 
 namespace System::Xml::Linq
 {
+	inline static constexpr unsigned int XDocumentType_TypeDefinitionIndex = 3907;
+
 	class XDocumentType : public ::System::Xml::Linq::XNode
 	{
 	public:

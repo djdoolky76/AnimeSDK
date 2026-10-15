@@ -9,6 +9,8 @@
 
 #define GMDBBACKCGI_CTOR_OFFSET UNITYSDK_OFFSET(0x1CAB1CE0)
 
+inline static constexpr unsigned int GMDBBACKCGI_TypeDefinitionIndex = 42228;
+
 	class GMDBBACKCGI : public ::System::Object
 	{
 	public:

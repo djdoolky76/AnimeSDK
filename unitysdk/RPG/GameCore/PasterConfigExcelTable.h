@@ -33,6 +33,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PasterConfigExcelTable_TypeDefinitionIndex = 15376;
+
 	class PasterConfigExcelTable : public ::System::Object
 	{
 	public:

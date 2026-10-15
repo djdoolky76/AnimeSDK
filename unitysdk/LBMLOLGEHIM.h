@@ -27,6 +27,8 @@ namespace System { class String; }
 #define LBMLOLGEHIM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E8DF5E0)
 #define LBMLOLGEHIM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E8DF640)
 
+inline static constexpr unsigned int LBMLOLGEHIM_TypeDefinitionIndex = 27542;
+
 	class LBMLOLGEHIM : public ::System::Object
 	{
 	public:

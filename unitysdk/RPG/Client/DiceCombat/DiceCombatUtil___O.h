@@ -6,6 +6,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace RPG::Client::DiceCombat
 {
+	inline static constexpr unsigned int DiceCombatUtil___O_TypeDefinitionIndex = 76098;
+
 	class DiceCombatUtil___O : public ::System::Object
 	{
 	public:

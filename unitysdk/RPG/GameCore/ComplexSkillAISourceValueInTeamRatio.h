@@ -12,6 +12,8 @@ namespace RPG::GameCore { class ComplexSkillAISourceValueInTeamRatio; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ComplexSkillAISourceValueInTeamRatio_TypeDefinitionIndex = 15527;
+
 	class ComplexSkillAISourceValueInTeamRatio : public ::RPG::GameCore::ComplexSkillAISource
 	{
 	public:

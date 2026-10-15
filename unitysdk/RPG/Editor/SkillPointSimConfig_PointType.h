@@ -3,6 +3,8 @@
 
 namespace RPG::Editor
 {
+	inline static constexpr unsigned int SkillPointSimConfig_PointType_TypeDefinitionIndex = 52045;
+
 	enum class SkillPointSimConfig_PointType : ::System::Int32
 	{
 		In = 0,

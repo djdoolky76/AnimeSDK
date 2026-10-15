@@ -12,6 +12,8 @@ namespace RPG::Client { class CameraFightStateCommonConfig; }
 #define KMICHODBLBN_REFRESH_OFFSET UNITYSDK_OFFSET(0xB557F40)
 #define KMICHODBLBN_RESET_OFFSET UNITYSDK_OFFSET(0xB557510)
 
+inline static constexpr unsigned int KMICHODBLBN_TypeDefinitionIndex = 69591;
+
 	class KMICHODBLBN : public ::System::Object
 	{
 	public:

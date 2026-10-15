@@ -6,6 +6,8 @@ class BLBHACNKKFC;
 #define JMOHIGODILA_CTOR_OFFSET UNITYSDK_OFFSET(0xB273E60)
 #define JMOHIGODILA_GET_NOTIFY_OFFSET UNITYSDK_OFFSET(0xB273E50)
 
+inline static constexpr unsigned int JMOHIGODILA_TypeDefinitionIndex = 76058;
+
 	class JMOHIGODILA : public ::System::Object
 	{
 	public:

@@ -30,6 +30,8 @@ namespace System { class String; }
 #define EPCNGNEEMBI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E307B40)
 #define EPCNGNEEMBI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E307BA0)
 
+inline static constexpr unsigned int EPCNGNEEMBI_TypeDefinitionIndex = 28654;
+
 	class EPCNGNEEMBI : public ::System::Object
 	{
 	public:

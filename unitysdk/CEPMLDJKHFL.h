@@ -25,6 +25,8 @@ namespace UnityEngine { class Transform; }
 #define CEPMLDJKHFL_LMJCDMPNBKE_OFFSET UNITYSDK_OFFSET(0xC9F9040)
 #define CEPMLDJKHFL_ONHNNLDMAII_OFFSET UNITYSDK_OFFSET(0xC9F8EE0)
 
+inline static constexpr unsigned int CEPMLDJKHFL_TypeDefinitionIndex = 47756;
+
 	class CEPMLDJKHFL : public ::NNEDFJMPCCK
 	{
 	public:

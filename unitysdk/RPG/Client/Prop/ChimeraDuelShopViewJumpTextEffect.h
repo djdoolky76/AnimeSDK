@@ -23,6 +23,8 @@ namespace System { class Nullable; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int ChimeraDuelShopViewJumpTextEffect_TypeDefinitionIndex = 78364;
+
 	class ChimeraDuelShopViewJumpTextEffect : public ::RPG::Client::Prop::ChimeraDuelShopViewEffectBase
 	{
 	public:

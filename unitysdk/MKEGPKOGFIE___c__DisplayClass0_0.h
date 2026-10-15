@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 #define MKEGPKOGFIE___C__DISPLAYCLASS0_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB991310)
 #define MKEGPKOGFIE___C__DISPLAYCLASS0_0__QUERY_B__0_OFFSET UNITYSDK_OFFSET(0xB991650)
 
+inline static constexpr unsigned int MKEGPKOGFIE___c__DisplayClass0_0_TypeDefinitionIndex = 81503;
+
 	class MKEGPKOGFIE___c__DisplayClass0_0 : public ::System::Object
 	{
 	public:

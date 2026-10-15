@@ -20,6 +20,8 @@ namespace System { class Object; }
 #define IIKDDANHKBG_START_OFFSET UNITYSDK_OFFSET(0x1643F570)
 #define IIKDDANHKBG_STOP_OFFSET UNITYSDK_OFFSET(0x1643F790)
 
+inline static constexpr unsigned int IIKDDANHKBG_TypeDefinitionIndex = 62146;
+
 	class IIKDDANHKBG : public ::System::Object
 	{
 	public:

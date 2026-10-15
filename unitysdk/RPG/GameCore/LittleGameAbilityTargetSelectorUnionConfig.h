@@ -11,6 +11,8 @@ namespace RPG::GameCore { class LittleGameAbilityTargetSelectorUnionConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LittleGameAbilityTargetSelectorUnionConfig_TypeDefinitionIndex = 21368;
+
 	class LittleGameAbilityTargetSelectorUnionConfig : public ::RPG::GameCore::BaseLittleGameAbilityTargetSelectorConfig
 	{
 	public:

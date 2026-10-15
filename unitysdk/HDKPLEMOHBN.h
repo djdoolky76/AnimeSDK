@@ -4,6 +4,8 @@
 
 #define HDKPLEMOHBN_CTOR_OFFSET UNITYSDK_OFFSET(0x1CABDD90)
 
+inline static constexpr unsigned int HDKPLEMOHBN_TypeDefinitionIndex = 42990;
+
 	class HDKPLEMOHBN : public ::System::Object
 	{
 	public:

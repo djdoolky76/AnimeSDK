@@ -29,6 +29,8 @@ namespace System { class String; }
 #define FJFBLHNFMOM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E3A1B90)
 #define FJFBLHNFMOM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E3A1BF0)
 
+inline static constexpr unsigned int FJFBLHNFMOM_TypeDefinitionIndex = 33716;
+
 	class FJFBLHNFMOM : public ::System::Object
 	{
 	public:

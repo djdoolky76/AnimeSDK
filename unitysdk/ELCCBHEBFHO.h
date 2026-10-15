@@ -30,6 +30,8 @@ namespace System { class String; }
 #define ELCCBHEBFHO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E2CAAA0)
 #define ELCCBHEBFHO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E2CAB00)
 
+inline static constexpr unsigned int ELCCBHEBFHO_TypeDefinitionIndex = 26117;
+
 	class ELCCBHEBFHO : public ::System::Object
 	{
 	public:

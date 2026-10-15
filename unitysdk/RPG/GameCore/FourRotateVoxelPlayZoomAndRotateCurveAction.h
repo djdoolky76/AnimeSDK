@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FourRotateVoxelPlayZoomAndRotateCurveAction_TypeDefinitionIndex = 16771;
+
 	class FourRotateVoxelPlayZoomAndRotateCurveAction : public ::RPG::GameCore::FiveDimBaseEventAction
 	{
 	public:

@@ -9,6 +9,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 #define AHADFGFJDLG___C_CTOR_OFFSET UNITYSDK_OFFSET(0xEB79380)
 #define AHADFGFJDLG___C___EVALUATEMODIFIERCONTAINER_B__2_0_OFFSET UNITYSDK_OFFSET(0xEB79390)
 
+inline static constexpr unsigned int AHADFGFJDLG___c_TypeDefinitionIndex = 77643;
+
 	class AHADFGFJDLG___c : public ::System::Object
 	{
 	public:

@@ -43,6 +43,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightFlowDirector_TypeDefinitionIndex = 64575;
+
 	class GridFightFlowDirector : public ::System::Object
 	{
 	public:

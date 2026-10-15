@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::PC::OS
 {
+	inline static constexpr unsigned int HoYoChannelEntitlementsResult_TypeDefinitionIndex = 8602;
+
 	class HoYoChannelEntitlementsResult : public ::MiHoYo::SDK::PC::OS::HoYoChannelBaseResult
 	{
 	public:

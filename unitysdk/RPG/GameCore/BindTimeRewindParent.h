@@ -13,6 +13,8 @@ namespace RPG::GameCore { class TimeRewindParentPropStateConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int BindTimeRewindParent_TypeDefinitionIndex = 20654;
+
 	class BindTimeRewindParent : public ::RPG::GameCore::TaskConfig
 	{
 	public:

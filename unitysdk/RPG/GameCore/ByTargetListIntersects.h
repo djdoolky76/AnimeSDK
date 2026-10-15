@@ -14,6 +14,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByTargetListIntersects_TypeDefinitionIndex = 23803;
+
 	class ByTargetListIntersects : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

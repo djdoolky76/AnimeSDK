@@ -4,6 +4,8 @@
 
 #define IRI_LINECUSTOMDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x16537930)
 
+inline static constexpr unsigned int IRI_LineCustomData_TypeDefinitionIndex = 47179;
+
 	class IRI_LineCustomData : public ::UnityEngine::MonoBehaviour
 	{
 	public:

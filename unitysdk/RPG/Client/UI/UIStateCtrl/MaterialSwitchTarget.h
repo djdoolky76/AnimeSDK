@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::Client::UI::UIStateCtrl
 {
+	inline static constexpr unsigned int MaterialSwitchTarget_TypeDefinitionIndex = 74073;
+
 	class MaterialSwitchTarget : public ::System::Object
 	{
 	public:

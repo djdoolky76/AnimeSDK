@@ -14,6 +14,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPGTools::Timeline::Emotion
 {
+	inline static constexpr unsigned int EmoDiscussionMouthClip_TypeDefinitionIndex = 48760;
+
 	class EmoDiscussionMouthClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:

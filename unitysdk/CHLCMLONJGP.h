@@ -11,6 +11,8 @@ namespace RPG::GameCore { class ChenLingBattleAbility_SelfKill; }
 #define CHLCMLONJGP_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0xCF59500)
 #define CHLCMLONJGP_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0xCF595A0)
 
+inline static constexpr unsigned int CHLCMLONJGP_TypeDefinitionIndex = 77914;
+
 	class CHLCMLONJGP : public ::JNALBIEDNLH
 	{
 	public:

@@ -33,6 +33,8 @@ namespace System { class String; }
 #define GDPFJPANHJC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E450350)
 #define GDPFJPANHJC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E4503B0)
 
+inline static constexpr unsigned int GDPFJPANHJC_TypeDefinitionIndex = 25952;
+
 	class GDPFJPANHJC : public ::System::Object
 	{
 	public:

@@ -7,6 +7,8 @@ class GGDIMKDOIGA;
 #define FCCNCMDECJC_CTOR_OFFSET UNITYSDK_OFFSET(0x1C611990)
 #define FCCNCMDECJC_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x1C6119A0)
 
+inline static constexpr unsigned int FCCNCMDECJC_TypeDefinitionIndex = 36466;
+
 	class FCCNCMDECJC : public ::PMMIGNNAIJB
 	{
 	public:

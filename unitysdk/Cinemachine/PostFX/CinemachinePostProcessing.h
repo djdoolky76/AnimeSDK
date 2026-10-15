@@ -10,6 +10,8 @@ namespace Cinemachine { class CinemachineVirtualCameraBase; }
 
 namespace Cinemachine::PostFX
 {
+	inline static constexpr unsigned int CinemachinePostProcessing_TypeDefinitionIndex = 39884;
+
 	class CinemachinePostProcessing : public ::Cinemachine::CinemachineExtension
 	{
 	public:

@@ -26,6 +26,8 @@ namespace UnityEngine::UI { class Image; }
 #define KGMPJMIAPCI_SET_PREFABPATH_OFFSET UNITYSDK_OFFSET(0xB3F7330)
 #define KGMPJMIAPCI__ONBIND_OFFSET UNITYSDK_OFFSET(0xB3F63B0)
 
+inline static constexpr unsigned int KGMPJMIAPCI_TypeDefinitionIndex = 71612;
+
 	class KGMPJMIAPCI : public ::FMPCODLIOLG
 	{
 	public:

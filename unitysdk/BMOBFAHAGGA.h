@@ -11,6 +11,8 @@ namespace System { class String; }
 #define BMOBFAHAGGA_CTOR_OFFSET UNITYSDK_OFFSET(0x1D9E3C50)
 #define BMOBFAHAGGA_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D9E3830)
 
+inline static constexpr unsigned int BMOBFAHAGGA_TypeDefinitionIndex = 11533;
+
 	class BMOBFAHAGGA : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FiveDimGridViewConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimGridViewConfig_TypeDefinitionIndex = 18549;
+
 	class FiveDimGridViewConfig : public ::RPG::GameCore::LittleGameComponentConfig
 	{
 	public:

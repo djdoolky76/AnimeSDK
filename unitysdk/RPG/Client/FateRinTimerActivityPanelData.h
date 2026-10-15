@@ -9,6 +9,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int FateRinTimerActivityPanelData_TypeDefinitionIndex = 61623;
+
 	class FateRinTimerActivityPanelData : public ::RPG::Client::ActivityPanelData
 	{
 	public:

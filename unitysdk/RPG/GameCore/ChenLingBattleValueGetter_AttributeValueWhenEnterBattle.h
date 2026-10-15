@@ -11,6 +11,8 @@ namespace RPG::GameCore { class ChenLingBattleValueGetter_AttributeValueWhenEnte
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChenLingBattleValueGetter_AttributeValueWhenEnterBattle_TypeDefinitionIndex = 15803;
+
 	class ChenLingBattleValueGetter_AttributeValueWhenEnterBattle : public ::RPG::GameCore::BaseChenLingBattleValueGetter
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class HitMotionParams; }
 #define BGOBCKLPEMK_NNCOONLKENF_LHAAHDBLEMG_OFFSET UNITYSDK_OFFSET(0x158B0)
 #define BGOBCKLPEMK_NNCOONLKENF_MJJLIFPKPMO_OFFSET UNITYSDK_OFFSET(0x15760)
 
+inline static constexpr unsigned int BGOBCKLPEMK_NNCOONLKENF_TypeDefinitionIndex = 56957;
+
 	struct alignas(4) BGOBCKLPEMK_NNCOONLKENF
 	{
 		::System::Single PELOGJFGKBK; // 0x10

@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define FCLPHDEONPI_PBDMNIINMMP_OFFSET UNITYSDK_OFFSET(0x1C614C40)
 #define FCLPHDEONPI_PGPBMADIGHB_OFFSET UNITYSDK_OFFSET(0x1C6052A0)
 
+inline static constexpr unsigned int FCLPHDEONPI_TypeDefinitionIndex = 36282;
+
 	class FCLPHDEONPI : public ::System::Object
 	{
 	public:

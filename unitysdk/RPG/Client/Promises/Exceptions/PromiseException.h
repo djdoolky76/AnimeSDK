@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::Client::Promises::Exceptions
 {
+	inline static constexpr unsigned int PromiseException_TypeDefinitionIndex = 9933;
+
 	class PromiseException : public ::System::Exception
 	{
 	public:

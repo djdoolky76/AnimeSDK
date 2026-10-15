@@ -24,6 +24,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define MKDHBHBFEDD_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB98D860)
 #define MKDHBHBFEDD_TICK_OFFSET UNITYSDK_OFFSET(0xB98E4E0)
 
+inline static constexpr unsigned int MKDHBHBFEDD_TypeDefinitionIndex = 55911;
+
 	class MKDHBHBFEDD : public ::BNBOAMEBAOE
 	{
 	public:

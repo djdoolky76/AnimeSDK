@@ -30,6 +30,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::Protobuf::Reflection
 {
+	inline static constexpr unsigned int DescriptorProto_Types_ReservedRange_TypeDefinitionIndex = 35766;
+
 	class DescriptorProto_Types_ReservedRange : public ::System::Object
 	{
 	public:

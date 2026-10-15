@@ -34,6 +34,8 @@ namespace System::Reflection::Emit { class ILGenerator; }
 
 namespace System::Reflection::Emit
 {
+	inline static constexpr unsigned int DynamicMethod_TypeDefinitionIndex = 1769;
+
 	class DynamicMethod : public ::System::Reflection::MethodInfo
 	{
 	public:

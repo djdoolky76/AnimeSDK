@@ -30,6 +30,8 @@ namespace UnityEngine { class PolygonCollider2D; }
 
 namespace Spine::Unity
 {
+	inline static constexpr unsigned int BoundingBoxFollowerGraphic_TypeDefinitionIndex = 45017;
+
 	class BoundingBoxFollowerGraphic : public ::UnityEngine::MonoBehaviour
 	{
 	public:

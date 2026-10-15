@@ -6,6 +6,8 @@ namespace System { class Object; }
 
 namespace Cysharp::Threading::Tasks::Linq
 {
+	inline static constexpr unsigned int EveryValueChangedStandardObject_2__EveryValueChanged___c_TypeDefinitionIndex = 45720;
+
 	template <typename T1, typename T2>
 	class EveryValueChangedStandardObject_2__EveryValueChanged___c : public ::System::Object
 	{

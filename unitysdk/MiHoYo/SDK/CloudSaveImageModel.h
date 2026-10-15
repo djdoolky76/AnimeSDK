@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int CloudSaveImageModel_TypeDefinitionIndex = 8068;
+
 	class CloudSaveImageModel : public ::System::Object
 	{
 	public:

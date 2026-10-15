@@ -18,6 +18,8 @@ namespace UnityEngine::Timeline { class AudioTrack; }
 
 namespace UnityEngine::Timeline
 {
+	inline static constexpr unsigned int AudioTrack__get_outputs_d__4_TypeDefinitionIndex = 38810;
+
 	template <typename T1, typename T2, typename T3, typename T4>
 	class AudioTrack__get_outputs_d__4 : public ::System::Object
 	{

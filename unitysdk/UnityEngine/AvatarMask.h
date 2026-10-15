@@ -28,6 +28,8 @@ namespace UnityEngine { class Transform; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int AvatarMask_TypeDefinitionIndex = 5724;
+
 	class AvatarMask : public ::UnityEngine::Object
 	{
 	public:

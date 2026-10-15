@@ -18,6 +18,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int CharacterLookAtBehaviour_TypeDefinitionIndex = 47975;
+
 	class CharacterLookAtBehaviour : public ::RPGTools::Timeline::CustomEventBehaviour
 	{
 	public:

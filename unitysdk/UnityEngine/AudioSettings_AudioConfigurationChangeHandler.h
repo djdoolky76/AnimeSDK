@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int AudioSettings_AudioConfigurationChangeHandler_TypeDefinitionIndex = 5143;
+
 	class AudioSettings_AudioConfigurationChangeHandler : public ::System::MulticastDelegate
 	{
 	public:

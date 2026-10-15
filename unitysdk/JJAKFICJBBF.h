@@ -35,6 +35,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define JJAKFICJBBF_SET_ISNPCAIRUNNINGBYFIGHTSTATE_OFFSET UNITYSDK_OFFSET(0x1C6FC0D0)
 #define JJAKFICJBBF_SET_ISNPCAIRUNNINGBYTUTORIAL_OFFSET UNITYSDK_OFFSET(0x1C6FC0B0)
 
+inline static constexpr unsigned int JJAKFICJBBF_TypeDefinitionIndex = 37278;
+
 	class JJAKFICJBBF : public ::System::Object
 	{
 	public:

@@ -54,6 +54,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int BigMapModule_TypeDefinitionIndex = 62903;
+
 	class BigMapModule : public ::RPG::Client::BaseModule
 	{
 	public:

@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChangeTargetModifierEffectState_TypeDefinitionIndex = 22456;
+
 	class ChangeTargetModifierEffectState : public ::RPG::GameCore::TaskConfig
 	{
 	public:

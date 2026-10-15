@@ -37,6 +37,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelGraphValueSource_TypeDefinitionIndex = 18312;
+
 	class LevelGraphValueSource : public ::RPG::GameCore::JsonConfig
 	{
 	public:

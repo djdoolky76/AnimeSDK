@@ -10,6 +10,8 @@ namespace RPG::GameCore { class CakeRaceCheckAndSaveTargetsPredicateConfig; }
 #define EFCNFMHNBHE_CTOR_OFFSET UNITYSDK_OFFSET(0x1C5FC2A0)
 #define EFCNFMHNBHE_ISMATCHIMPL_OFFSET UNITYSDK_OFFSET(0x1C5FC2C0)
 
+inline static constexpr unsigned int EFCNFMHNBHE_TypeDefinitionIndex = 37418;
+
 	class EFCNFMHNBHE
 	{
 	public:

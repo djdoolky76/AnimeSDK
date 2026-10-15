@@ -13,6 +13,8 @@ namespace System { class Object; }
 #define KCIHOEOOFLE_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB339240)
 #define KCIHOEOOFLE_TICK_OFFSET UNITYSDK_OFFSET(0xB339360)
 
+inline static constexpr unsigned int KCIHOEOOFLE_TypeDefinitionIndex = 58913;
+
 	class KCIHOEOOFLE : public ::GELIALJDFBL
 	{
 	public:

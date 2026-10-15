@@ -9,6 +9,8 @@ namespace RPG::GameCore { class FormationTargetDistanceConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FormationTargetDistanceConfig_TypeDefinitionIndex = 18202;
+
 	class FormationTargetDistanceConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

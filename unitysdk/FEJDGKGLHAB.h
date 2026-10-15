@@ -5,6 +5,8 @@ class HFHPLJLKOKJ;
 
 #define FEJDGKGLHAB_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA6C920)
 
+inline static constexpr unsigned int FEJDGKGLHAB_TypeDefinitionIndex = 42363;
+
 	class FEJDGKGLHAB : public ::System::Object
 	{
 	public:

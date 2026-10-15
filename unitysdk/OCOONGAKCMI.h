@@ -25,6 +25,8 @@ namespace System { class String; }
 #define OCOONGAKCMI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DE19AB0)
 #define OCOONGAKCMI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DE19B10)
 
+inline static constexpr unsigned int OCOONGAKCMI_TypeDefinitionIndex = 29651;
+
 	class OCOONGAKCMI : public ::System::Object
 	{
 	public:

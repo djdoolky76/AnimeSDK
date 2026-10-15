@@ -31,6 +31,8 @@ namespace UnityEngine::UI { class Text; }
 #define JNDGICOAELE_PNGDKFKENNJ_OFFSET UNITYSDK_OFFSET(0xB27B410)
 #define JNDGICOAELE__ONBIND_OFFSET UNITYSDK_OFFSET(0xB27A750)
 
+inline static constexpr unsigned int JNDGICOAELE_TypeDefinitionIndex = 72185;
+
 	class JNDGICOAELE : public ::FMPCODLIOLG
 	{
 	public:

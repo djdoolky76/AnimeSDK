@@ -5,6 +5,8 @@ namespace RPG::GameCore { class GameEntity; }
 
 #define HMCHEOBPCBH_EQUALS_OFFSET UNITYSDK_OFFSET(0x2E7EFC0)
 
+inline static constexpr unsigned int HMCHEOBPCBH_TypeDefinitionIndex = 57802;
+
 	struct alignas(8) HMCHEOBPCBH
 	{
 		::RPG::GameCore::GameEntity* DKIHKFBHADB; // 0x10

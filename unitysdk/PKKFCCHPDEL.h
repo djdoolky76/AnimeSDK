@@ -8,6 +8,8 @@ namespace UnityEngine { class Animation; }
 #define PKKFCCHPDEL_FGICCPHJGGB_OFFSET UNITYSDK_OFFSET(0xC2C3E80)
 #define PKKFCCHPDEL__ONBIND_OFFSET UNITYSDK_OFFSET(0xC2C3F40)
 
+inline static constexpr unsigned int PKKFCCHPDEL_TypeDefinitionIndex = 72353;
+
 	class PKKFCCHPDEL : public ::FMPCODLIOLG
 	{
 	public:

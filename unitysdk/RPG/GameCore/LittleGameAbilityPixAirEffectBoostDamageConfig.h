@@ -11,6 +11,8 @@ namespace RPG::GameCore { class LittleGameAbilityPixAirEffectBoostDamageConfig; 
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LittleGameAbilityPixAirEffectBoostDamageConfig_TypeDefinitionIndex = 21350;
+
 	class LittleGameAbilityPixAirEffectBoostDamageConfig : public ::RPG::GameCore::BaseLittleGameAbilityEffectConfig
 	{
 	public:

@@ -7,6 +7,8 @@ namespace RPG::GameCore { class DiceCombatAIEffectEvaluatorConfig_DiceAllOddOrEv
 #define HANBKLPHHHK_CTOR_OFFSET UNITYSDK_OFFSET(0x1C65BF90)
 #define HANBKLPHHHK_KFGJEKJHIMB_OFFSET UNITYSDK_OFFSET(0x1C65BFA0)
 
+inline static constexpr unsigned int HANBKLPHHHK_TypeDefinitionIndex = 36209;
+
 	class HANBKLPHHHK : public ::PNECKGBKMEL
 	{
 	public:

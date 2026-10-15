@@ -4,6 +4,8 @@
 
 #define JNLFJMBAKKA_AFMPGHBLHAP_CTOR_OFFSET UNITYSDK_OFFSET(0xB28BB50)
 
+inline static constexpr unsigned int JNLFJMBAKKA_AFMPGHBLHAP_TypeDefinitionIndex = 79534;
+
 	class JNLFJMBAKKA_AFMPGHBLHAP : public ::System::Object
 	{
 	public:

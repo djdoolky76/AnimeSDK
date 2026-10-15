@@ -9,6 +9,8 @@ namespace RPG::GameCore { class CharacterPhaseSkillInfoMappingConfig; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int CharacterPhaseSkillInfoMappingJsonTable_TypeDefinitionIndex = 73296;
+
 	class CharacterPhaseSkillInfoMappingJsonTable : public ::System::Object
 	{
 	public:

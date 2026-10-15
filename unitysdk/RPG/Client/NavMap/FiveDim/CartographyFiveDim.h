@@ -69,6 +69,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::NavMap::FiveDim
 {
+	inline static constexpr unsigned int CartographyFiveDim_TypeDefinitionIndex = 74647;
+
 	class CartographyFiveDim : public ::System::Object
 	{
 	public:

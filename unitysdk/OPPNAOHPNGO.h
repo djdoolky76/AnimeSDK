@@ -20,6 +20,8 @@ namespace System { class Object; }
 #define OPPNAOHPNGO_STOP_OFFSET UNITYSDK_OFFSET(0xBFB6290)
 #define OPPNAOHPNGO__SENDTEAMTOWERSGETDATACSREQ_B__3_0_OFFSET UNITYSDK_OFFSET(0xBFB6920)
 
+inline static constexpr unsigned int OPPNAOHPNGO_TypeDefinitionIndex = 79047;
+
 	class OPPNAOHPNGO : public ::BHPMNMMGLHI
 	{
 	public:

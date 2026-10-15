@@ -16,6 +16,8 @@ namespace System { class Nullable; }
 #define NFJBIJJHNBH_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xBB97AD0)
 #define NFJBIJJHNBH_TICK_OFFSET UNITYSDK_OFFSET(0xBB97B20)
 
+inline static constexpr unsigned int NFJBIJJHNBH_TypeDefinitionIndex = 55573;
+
 	class NFJBIJJHNBH : public ::GELIALJDFBL
 	{
 	public:

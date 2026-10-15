@@ -21,6 +21,8 @@ namespace UnityEngine { class RectTransform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoUIPivotContainmentDetect_TypeDefinitionIndex = 72616;
+
 	class MonoUIPivotContainmentDetect : public ::UnityEngine::MonoBehaviour
 	{
 	public:

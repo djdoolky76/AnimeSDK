@@ -4,6 +4,8 @@
 
 namespace UnityEngine::UI
 {
+	inline static constexpr unsigned int RuntimeAtlasManager_RuntimeAtlas_ClearCmd_TypeDefinitionIndex = 6818;
+
 	struct alignas(4) RuntimeAtlasManager_RuntimeAtlas_ClearCmd
 	{
 		::UnityEngine::Vector2Int dstPos; // 0x10

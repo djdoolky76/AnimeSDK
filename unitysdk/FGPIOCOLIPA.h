@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define FGPIOCOLIPA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1576E9F0)
 #define FGPIOCOLIPA_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1576EB20)
 
+inline static constexpr unsigned int FGPIOCOLIPA_TypeDefinitionIndex = 58544;
+
 	class FGPIOCOLIPA
 	{
 	public:

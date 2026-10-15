@@ -6,6 +6,8 @@
 
 namespace RPG::Client::LittleGame::FiveDim
 {
+	inline static constexpr unsigned int MonoFiveDimSkillInfoCustomData_TypeDefinitionIndex = 77240;
+
 	class MonoFiveDimSkillInfoCustomData : public ::UnityEngine::MonoBehaviour
 	{
 	public:

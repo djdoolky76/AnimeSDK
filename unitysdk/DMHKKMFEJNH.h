@@ -12,6 +12,8 @@ namespace UnityEngine::EventSystems { class PointerEventData; }
 #define DMHKKMFEJNH_EFLNDNGCCGN_OFFSET UNITYSDK_OFFSET(0xFEC2600)
 #define DMHKKMFEJNH_NMNHDLBGDIE_OFFSET UNITYSDK_OFFSET(0xFEC28B0)
 
+inline static constexpr unsigned int DMHKKMFEJNH_TypeDefinitionIndex = 73061;
+
 	class DMHKKMFEJNH : public ::System::Object
 	{
 	public:

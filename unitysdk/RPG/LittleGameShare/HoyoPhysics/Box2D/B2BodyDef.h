@@ -9,6 +9,8 @@ namespace System { class String; }
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
+	inline static constexpr unsigned int B2BodyDef_TypeDefinitionIndex = 36592;
+
 	struct alignas(8) B2BodyDef
 	{
 		::RPG::LittleGameShare::HoyoPhysics::Box2D::B2BodyType type; // 0x10

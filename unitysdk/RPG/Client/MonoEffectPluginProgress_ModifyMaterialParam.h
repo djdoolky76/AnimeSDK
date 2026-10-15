@@ -17,6 +17,8 @@ namespace UnityEngine { class Renderer; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoEffectPluginProgress_ModifyMaterialParam_TypeDefinitionIndex = 70098;
+
 	class MonoEffectPluginProgress_ModifyMaterialParam : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GridFightRoleTagInfoConfigRow; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightRoleSkillTagConfig_TypeDefinitionIndex = 65125;
+
 	class GridFightRoleSkillTagConfig : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::Client::LittleGameShare { class ST_Main_CakeRaceUseFoodItemDecisi
 #define ELOMLODBMIN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1C6032D0)
 #define ELOMLODBMIN_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1C6039B0)
 
+inline static constexpr unsigned int ELOMLODBMIN_TypeDefinitionIndex = 36994;
+
 	class ELOMLODBMIN
 	{
 	public:

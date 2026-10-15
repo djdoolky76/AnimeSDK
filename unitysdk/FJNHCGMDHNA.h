@@ -44,6 +44,8 @@ namespace System { class String; }
 #define FJNHCGMDHNA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E3A7710)
 #define FJNHCGMDHNA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E3A7770)
 
+inline static constexpr unsigned int FJNHCGMDHNA_TypeDefinitionIndex = 32086;
+
 	class FJNHCGMDHNA : public ::System::Object
 	{
 	public:

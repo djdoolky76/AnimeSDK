@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define IJPDFNGMDFN_NAAEFADDKAK_CTOR_4_OFFSET UNITYSDK_OFFSET(0x16480D50)
 #define IJPDFNGMDFN_NAAEFADDKAK_CTOR_OFFSET UNITYSDK_OFFSET(0x16480CE0)
 
+inline static constexpr unsigned int IJPDFNGMDFN_NAAEFADDKAK_TypeDefinitionIndex = 58494;
+
 	class IJPDFNGMDFN_NAAEFADDKAK : public ::System::Object
 	{
 	public:

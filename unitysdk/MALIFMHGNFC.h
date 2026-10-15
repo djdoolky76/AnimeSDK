@@ -5,6 +5,8 @@
 
 #define MALIFMHGNFC_AOBBAOPIHHB_OFFSET UNITYSDK_OFFSET(0xB852EA0)
 
+inline static constexpr unsigned int MALIFMHGNFC_TypeDefinitionIndex = 62195;
+
 	class MALIFMHGNFC : public ::System::Object
 	{
 	public:

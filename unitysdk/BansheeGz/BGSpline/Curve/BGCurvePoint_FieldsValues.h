@@ -17,6 +17,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace BansheeGz::BGSpline::Curve
 {
+	inline static constexpr unsigned int BGCurvePoint_FieldsValues_TypeDefinitionIndex = 36016;
+
 	class BGCurvePoint_FieldsValues : public ::System::Object
 	{
 	public:

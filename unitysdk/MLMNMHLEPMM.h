@@ -9,6 +9,8 @@ namespace Entitas { class IEntity; }
 #define MLMNMHLEPMM_ONREMOVE_OFFSET UNITYSDK_OFFSET(0xB9BA810)
 #define MLMNMHLEPMM_ONUPDATE_OFFSET UNITYSDK_OFFSET(0xB9BA5D0)
 
+inline static constexpr unsigned int MLMNMHLEPMM_TypeDefinitionIndex = 79128;
+
 	class MLMNMHLEPMM
 	{
 	public:

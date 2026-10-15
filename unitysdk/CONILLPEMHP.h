@@ -7,6 +7,8 @@ namespace RPG::GameCore { class DiceCombatTaskConfig_AttackEffect_CutinAnimation
 #define CONILLPEMHP_CTOR_OFFSET UNITYSDK_OFFSET(0x1C5D7E40)
 #define CONILLPEMHP_MLKLPMJEHPF_OFFSET UNITYSDK_OFFSET(0x1C5D7E50)
 
+inline static constexpr unsigned int CONILLPEMHP_TypeDefinitionIndex = 36307;
+
 	class CONILLPEMHP : public ::AJBKGPOEBFG
 	{
 	public:

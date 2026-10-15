@@ -10,6 +10,8 @@ namespace RPG::GameCore { class DecalPuzzleEnd; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DecalPuzzleEnd_TypeDefinitionIndex = 21209;
+
 	class DecalPuzzleEnd : public ::RPG::GameCore::TaskConfig
 	{
 	public:

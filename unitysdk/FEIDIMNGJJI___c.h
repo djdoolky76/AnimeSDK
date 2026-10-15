@@ -25,6 +25,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 #define FEIDIMNGJJI___C__HANDLEPOSTPROCESS_B__1_6_OFFSET UNITYSDK_OFFSET(0x156F3A50)
 #define FEIDIMNGJJI___C__HANDLEPOSTPROCESS_B__1_7_OFFSET UNITYSDK_OFFSET(0x156F3E00)
 
+inline static constexpr unsigned int FEIDIMNGJJI___c_TypeDefinitionIndex = 67139;
+
 	class FEIDIMNGJJI___c : public ::System::Object
 	{
 	public:

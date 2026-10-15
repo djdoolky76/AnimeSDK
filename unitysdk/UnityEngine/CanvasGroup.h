@@ -17,6 +17,8 @@ namespace UnityEngine { class Camera; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int CanvasGroup_TypeDefinitionIndex = 6020;
+
 	class CanvasGroup : public ::UnityEngine::Behaviour
 	{
 	public:

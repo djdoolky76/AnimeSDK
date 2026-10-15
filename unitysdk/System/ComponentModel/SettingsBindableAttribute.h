@@ -12,6 +12,8 @@ namespace System::ComponentModel { class SettingsBindableAttribute; }
 
 namespace System::ComponentModel
 {
+	inline static constexpr unsigned int SettingsBindableAttribute_TypeDefinitionIndex = 2626;
+
 	class SettingsBindableAttribute : public ::System::Attribute
 	{
 	public:

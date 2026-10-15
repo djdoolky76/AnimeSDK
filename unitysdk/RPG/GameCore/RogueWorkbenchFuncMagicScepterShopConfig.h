@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueWorkbenchFuncMagicScepterShopConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueWorkbenchFuncMagicScepterShopConfig_TypeDefinitionIndex = 18027;
+
 	class RogueWorkbenchFuncMagicScepterShopConfig : public ::RPG::GameCore::RogueWorkbenchFuncBaseConfig
 	{
 	public:

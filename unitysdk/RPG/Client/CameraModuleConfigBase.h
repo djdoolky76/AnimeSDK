@@ -6,6 +6,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int CameraModuleConfigBase_TypeDefinitionIndex = 69669;
+
 	class CameraModuleConfigBase : public ::UnityEngine::ScriptableObject
 	{
 	public:

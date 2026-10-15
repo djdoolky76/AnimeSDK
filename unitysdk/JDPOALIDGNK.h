@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define JDPOALIDGNK_CTOR_OFFSET UNITYSDK_OFFSET(0x1CB8FFA0)
 
+inline static constexpr unsigned int JDPOALIDGNK_TypeDefinitionIndex = 42937;
+
 	class JDPOALIDGNK : public ::System::Object
 	{
 	public:

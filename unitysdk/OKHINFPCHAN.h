@@ -27,6 +27,8 @@ namespace System { class String; }
 #define OKHINFPCHAN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DE9A7E0)
 #define OKHINFPCHAN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DE9A840)
 
+inline static constexpr unsigned int OKHINFPCHAN_TypeDefinitionIndex = 29015;
+
 	class OKHINFPCHAN : public ::System::Object
 	{
 	public:

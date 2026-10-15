@@ -5,6 +5,8 @@
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int GradientAlphaKey_TypeDefinitionIndex = 4222;
+
 	struct alignas(4) GradientAlphaKey
 	{
 		::System::Single alpha; // 0x10

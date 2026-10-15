@@ -14,6 +14,8 @@ namespace System { template <typename T> class Comparison_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int FightActivityUtils___c_TypeDefinitionIndex = 64172;
+
 	class FightActivityUtils___c : public ::System::Object
 	{
 	public:

@@ -39,6 +39,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 #define HGJDKPIBJBI_PNJMMPIALEF_OFFSET UNITYSDK_OFFSET(0x15CA2880)
 #define HGJDKPIBJBI_PPPFFEDPKKD_OFFSET UNITYSDK_OFFSET(0x15CA2630)
 
+inline static constexpr unsigned int HGJDKPIBJBI_TypeDefinitionIndex = 62668;
+
 	class HGJDKPIBJBI : public ::System::Object
 	{
 	public:

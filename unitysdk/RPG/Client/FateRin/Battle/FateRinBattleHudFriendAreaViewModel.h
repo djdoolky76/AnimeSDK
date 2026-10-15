@@ -20,6 +20,8 @@ namespace RPG::Client::FateRin::Battle { class IFateRinBattleHealthViewModel; }
 
 namespace RPG::Client::FateRin::Battle
 {
+	inline static constexpr unsigned int FateRinBattleHudFriendAreaViewModel_TypeDefinitionIndex = 80918;
+
 	class FateRinBattleHudFriendAreaViewModel : public ::RPG::Client::FateRin::BaseViewModel
 	{
 	public:

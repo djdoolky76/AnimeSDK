@@ -8,6 +8,8 @@
 #define DGLJEIBPNJJ_HLDKCBBOLBG_OFFSET UNITYSDK_OFFSET(0xE851B90)
 #define DGLJEIBPNJJ_MIFJNPKACOB_OFFSET UNITYSDK_OFFSET(0xE851A30)
 
+inline static constexpr unsigned int DGLJEIBPNJJ_TypeDefinitionIndex = 72935;
+
 	class DGLJEIBPNJJ : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define KEKEOMIMNFI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E80D120)
 #define KEKEOMIMNFI___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E80D130)
 
+inline static constexpr unsigned int KEKEOMIMNFI___c_TypeDefinitionIndex = 26706;
+
 	class KEKEOMIMNFI___c : public ::System::Object
 	{
 	public:

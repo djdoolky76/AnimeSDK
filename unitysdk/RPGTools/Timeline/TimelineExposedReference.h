@@ -11,6 +11,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int TimelineExposedReference_TypeDefinitionIndex = 48518;
+
 	struct alignas(8) TimelineExposedReference
 	{
 		::UnityEngine::ExposedReference_1<::UnityEngine::GameObject*> reference; // 0x10

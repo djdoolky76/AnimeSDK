@@ -4,6 +4,8 @@
 
 #define MLJMOGJMJEB_CTOR_OFFSET UNITYSDK_OFFSET(0xB9B1DB0)
 
+inline static constexpr unsigned int MLJMOGJMJEB_TypeDefinitionIndex = 49697;
+
 	class MLJMOGJMJEB : public ::System::Object
 	{
 	public:

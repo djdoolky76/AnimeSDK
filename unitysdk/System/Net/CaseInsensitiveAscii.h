@@ -14,6 +14,8 @@ namespace System::Net { class CaseInsensitiveAscii; }
 
 namespace System::Net
 {
+	inline static constexpr unsigned int CaseInsensitiveAscii_TypeDefinitionIndex = 2765;
+
 	class CaseInsensitiveAscii : public ::System::Object
 	{
 	public:

@@ -57,6 +57,8 @@ namespace XLua::LuaDLL { class lua_CSFunction; }
 
 namespace XLua
 {
+	inline static constexpr unsigned int Utils_TypeDefinitionIndex = 50265;
+
 	class Utils : public ::System::Object
 	{
 	public:

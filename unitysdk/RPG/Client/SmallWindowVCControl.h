@@ -17,6 +17,8 @@ namespace UnityEngine::Rendering { class CRPVirtualCamera; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int SmallWindowVCControl_TypeDefinitionIndex = 69712;
+
 	class SmallWindowVCControl : public ::UnityEngine::MonoBehaviour
 	{
 	public:

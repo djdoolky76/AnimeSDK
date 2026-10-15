@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SyncBattleEventPropertyValues_TypeDefinitionIndex = 22508;
+
 	class SyncBattleEventPropertyValues : public ::RPG::GameCore::TaskConfig
 	{
 	public:

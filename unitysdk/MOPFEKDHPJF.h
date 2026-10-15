@@ -4,6 +4,8 @@
 
 #define MOPFEKDHPJF_AFKMOKOLLPC_OFFSET UNITYSDK_OFFSET(0x1D1DCC70)
 
+inline static constexpr unsigned int MOPFEKDHPJF_TypeDefinitionIndex = 10682;
+
 	class MOPFEKDHPJF : public ::System::Object
 	{
 	public:

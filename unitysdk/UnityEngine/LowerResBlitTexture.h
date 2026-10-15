@@ -6,6 +6,8 @@
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int LowerResBlitTexture_TypeDefinitionIndex = 4388;
+
 	class LowerResBlitTexture : public ::UnityEngine::Object
 	{
 	public:

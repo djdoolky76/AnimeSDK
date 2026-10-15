@@ -5,6 +5,8 @@ namespace System { class Object; }
 
 #define ADHIHGCOHME_CTOR_OFFSET UNITYSDK_OFFSET(0xB13BD60)
 
+inline static constexpr unsigned int ADHIHGCOHME_TypeDefinitionIndex = 64780;
+
 	class ADHIHGCOHME : public ::System::Object
 	{
 	public:

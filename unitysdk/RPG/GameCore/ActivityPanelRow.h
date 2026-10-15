@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ActivityPanelRow_TypeDefinitionIndex = 11203;
+
 	class ActivityPanelRow : public ::System::Object
 	{
 	public:

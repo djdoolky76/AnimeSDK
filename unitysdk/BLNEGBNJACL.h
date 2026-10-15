@@ -22,6 +22,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define BLNEGBNJACL_ONPLUGININIT_OFFSET UNITYSDK_OFFSET(0xBA7AF40)
 #define BLNEGBNJACL_ONPLUGINUNINIT_OFFSET UNITYSDK_OFFSET(0xBA7B1C0)
 
+inline static constexpr unsigned int BLNEGBNJACL_TypeDefinitionIndex = 73251;
+
 	class BLNEGBNJACL : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace UnityEngine { class Mesh; }
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int HEU_MeshIndexFormat_TypeDefinitionIndex = 40657;
+
 	class HEU_MeshIndexFormat : public ::System::Object
 	{
 	public:

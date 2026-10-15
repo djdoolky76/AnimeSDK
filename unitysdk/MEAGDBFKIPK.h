@@ -7,6 +7,8 @@
 #define MEAGDBFKIPK_KIGBILLGNOH_OFFSET UNITYSDK_OFFSET(0xB8B85E0)
 #define MEAGDBFKIPK_LJOLGCNKIEH_OFFSET UNITYSDK_OFFSET(0xB8B8700)
 
+inline static constexpr unsigned int MEAGDBFKIPK_TypeDefinitionIndex = 77102;
+
 	class MEAGDBFKIPK : public ::GJOFNOCMMKL
 	{
 	public:

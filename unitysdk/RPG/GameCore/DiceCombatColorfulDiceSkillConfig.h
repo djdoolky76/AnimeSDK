@@ -10,6 +10,8 @@ namespace RPG::GameCore { class DiceCombatNotAvatarPreviewConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DiceCombatColorfulDiceSkillConfig_TypeDefinitionIndex = 16127;
+
 	class DiceCombatColorfulDiceSkillConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

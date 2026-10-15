@@ -8,6 +8,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client::LittleGame::FiveDim
 {
+	inline static constexpr unsigned int ShowMusicComboNotify_TypeDefinitionIndex = 76896;
+
 	class ShowMusicComboNotify : public ::System::Object
 	{
 	public:

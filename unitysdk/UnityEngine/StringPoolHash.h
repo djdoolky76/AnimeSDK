@@ -3,6 +3,8 @@
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int StringPoolHash_TypeDefinitionIndex = 4348;
+
 	struct alignas(4) StringPoolHash
 	{
 		::System::UInt32 hashValue; // 0x10

@@ -16,6 +16,8 @@ namespace System { class String; }
 #define AHMPJOJCNJA_LCHDEPNMOOF_OFFSET UNITYSDK_OFFSET(0xEB88600)
 #define AHMPJOJCNJA_LMCEDCHJKFF_OFFSET UNITYSDK_OFFSET(0xEB884B0)
 
+inline static constexpr unsigned int AHMPJOJCNJA_TypeDefinitionIndex = 57536;
+
 	class AHMPJOJCNJA : public ::RPG::GameCore::GameComponentBase
 	{
 	public:

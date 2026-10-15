@@ -27,6 +27,8 @@ namespace System { class String; }
 #define FAHBCNPNBNC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E31ED80)
 #define FAHBCNPNBNC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E31EDE0)
 
+inline static constexpr unsigned int FAHBCNPNBNC_TypeDefinitionIndex = 34852;
+
 	class FAHBCNPNBNC : public ::System::Object
 	{
 	public:

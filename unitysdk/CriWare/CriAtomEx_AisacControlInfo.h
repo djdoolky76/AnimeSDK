@@ -6,6 +6,8 @@ namespace System { class String; }
 
 namespace CriWare
 {
+	inline static constexpr unsigned int CriAtomEx_AisacControlInfo_TypeDefinitionIndex = 39965;
+
 	struct alignas(8) CriAtomEx_AisacControlInfo
 	{
 		::System::String* name; // 0x10

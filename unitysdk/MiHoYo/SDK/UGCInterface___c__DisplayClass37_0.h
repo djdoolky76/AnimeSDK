@@ -11,6 +11,8 @@ namespace System { class Action; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int UGCInterface___c__DisplayClass37_0_TypeDefinitionIndex = 46444;
+
 	class UGCInterface___c__DisplayClass37_0 : public ::System::Object
 	{
 	public:

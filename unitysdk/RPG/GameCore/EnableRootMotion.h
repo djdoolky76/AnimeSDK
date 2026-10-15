@@ -10,6 +10,8 @@ namespace RPG::GameCore { class EnableRootMotion; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int EnableRootMotion_TypeDefinitionIndex = 22404;
+
 	class EnableRootMotion : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -13,6 +13,8 @@ namespace UnityEngine { class Gradient; }
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int Test_Gradient_Extensions___c_TypeDefinitionIndex = 40747;
+
 	class Test_Gradient_Extensions___c : public ::System::Object
 	{
 	public:

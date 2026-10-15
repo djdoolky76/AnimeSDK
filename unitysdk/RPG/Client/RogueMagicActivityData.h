@@ -10,6 +10,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueMagicActivityData_TypeDefinitionIndex = 61657;
+
 	class RogueMagicActivityData : public ::RPG::Client::ActivityPanelData
 	{
 	public:

@@ -9,6 +9,8 @@ namespace RPG::GameCore { class PingPongFloatPos; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PingPongFloatPos_TypeDefinitionIndex = 17003;
+
 	class PingPongFloatPos : public ::RPG::GameCore::JsonConfig
 	{
 	public:

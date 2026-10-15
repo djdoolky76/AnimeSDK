@@ -19,6 +19,8 @@ namespace System { class Action; }
 #define HMPGIJPAGBL_NNAGLJCMMGD_OFFSET UNITYSDK_OFFSET(0x15D8AA60)
 #define HMPGIJPAGBL_NONJDKKDDLE_OFFSET UNITYSDK_OFFSET(0x15D8A950)
 
+inline static constexpr unsigned int HMPGIJPAGBL_TypeDefinitionIndex = 76426;
+
 	class HMPGIJPAGBL : public ::System::Object
 	{
 	public:

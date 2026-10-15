@@ -9,6 +9,8 @@ namespace RPG::SceneOptimizer::PVSSceneBudgetStatTool { class PVSSceneBudgetStat
 
 namespace RPG::SceneOptimizer::PVSSceneBudgetStatTool
 {
+	inline static constexpr unsigned int PVSSceneBudgetStatToolWindowVisualizeHelper___c__DisplayClass7_0_TypeDefinitionIndex = 51790;
+
 	class PVSSceneBudgetStatToolWindowVisualizeHelper___c__DisplayClass7_0 : public ::System::Object
 	{
 	public:

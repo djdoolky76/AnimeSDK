@@ -8,6 +8,8 @@ namespace RPG::GameCore { class BaseChenLingBattleAbilityNodeConfig; }
 #define INKAFKILLMA_CTOR_OFFSET UNITYSDK_OFFSET(0x164F51D0)
 #define INKAFKILLMA_HGAKLHFPKKF_OFFSET UNITYSDK_OFFSET(0x164F49C0)
 
+inline static constexpr unsigned int INKAFKILLMA_TypeDefinitionIndex = 77862;
+
 	class INKAFKILLMA : public ::System::Object
 	{
 	public:

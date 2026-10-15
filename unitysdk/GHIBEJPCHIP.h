@@ -16,6 +16,8 @@ namespace RPG::Client { class LookAtTargetConstraint; }
 #define GHIBEJPCHIP_LKFJFGPFEJJ_OFFSET UNITYSDK_OFFSET(0x2E7BA50)
 #define GHIBEJPCHIP_PBFDABKILKG_OFFSET UNITYSDK_OFFSET(0x2E7BB40)
 
+inline static constexpr unsigned int GHIBEJPCHIP_TypeDefinitionIndex = 68487;
+
 	struct alignas(4) GHIBEJPCHIP
 	{
 		::System::Boolean JGCPBGGDEIN; // 0x10

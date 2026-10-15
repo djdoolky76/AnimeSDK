@@ -7,6 +7,8 @@
 
 namespace BansheeGz::BGSpline::Curve
 {
+	inline static constexpr unsigned int FieldsExtensions_TypeDefinitionIndex = 36004;
+
 	class FieldsExtensions : public ::System::Object
 	{
 	public:

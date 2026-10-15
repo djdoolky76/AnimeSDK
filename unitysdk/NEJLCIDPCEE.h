@@ -29,6 +29,8 @@ namespace System { class String; }
 #define NEJLCIDPCEE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EAF71D0)
 #define NEJLCIDPCEE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EAF7230)
 
+inline static constexpr unsigned int NEJLCIDPCEE_TypeDefinitionIndex = 34574;
+
 	class NEJLCIDPCEE : public ::System::Object
 	{
 	public:

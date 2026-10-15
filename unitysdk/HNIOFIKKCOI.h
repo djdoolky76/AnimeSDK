@@ -34,6 +34,8 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyLi
 #define HNIOFIKKCOI_LMINEIDKPJK_OFFSET UNITYSDK_OFFSET(0x1C670E90)
 #define HNIOFIKKCOI_MOFDOEKNKDC_OFFSET UNITYSDK_OFFSET(0x1C672070)
 
+inline static constexpr unsigned int HNIOFIKKCOI_TypeDefinitionIndex = 37338;
+
 	class HNIOFIKKCOI : public ::System::Object
 	{
 	public:

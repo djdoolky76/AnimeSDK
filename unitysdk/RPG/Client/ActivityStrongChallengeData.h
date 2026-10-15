@@ -7,6 +7,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ActivityStrongChallengeData_TypeDefinitionIndex = 61909;
+
 	class ActivityStrongChallengeData : public ::RPG::Client::ActivityPanelData
 	{
 	public:

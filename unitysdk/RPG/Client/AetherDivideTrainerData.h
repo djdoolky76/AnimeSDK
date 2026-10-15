@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AetherDivideTrainerData_TypeDefinitionIndex = 62236;
+
 	class AetherDivideTrainerData : public ::System::Object
 	{
 	public:

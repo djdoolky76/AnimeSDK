@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TalkTrigger_DialogueGroupInfo_TypeDefinitionIndex = 57532;
+
 	struct alignas(4) TalkTrigger_DialogueGroupInfo
 	{
 		::System::UInt32 DialogueGroupID; // 0x10

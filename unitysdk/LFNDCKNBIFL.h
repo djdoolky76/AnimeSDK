@@ -7,6 +7,8 @@ namespace RPG::GameCore { class DiceCombatAIEffectEvaluatorConfig_DiceAllSequenc
 #define LFNDCKNBIFL_CTOR_OFFSET UNITYSDK_OFFSET(0x1C73B160)
 #define LFNDCKNBIFL_KFGJEKJHIMB_OFFSET UNITYSDK_OFFSET(0x1C73B170)
 
+inline static constexpr unsigned int LFNDCKNBIFL_TypeDefinitionIndex = 36222;
+
 	class LFNDCKNBIFL : public ::PNECKGBKMEL
 	{
 	public:

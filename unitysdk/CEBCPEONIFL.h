@@ -7,6 +7,8 @@
 #define CEBCPEONIFL_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xC77B7F0)
 #define CEBCPEONIFL_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xC77B7A0)
 
+inline static constexpr unsigned int CEBCPEONIFL_TypeDefinitionIndex = 56656;
+
 	class CEBCPEONIFL : public ::System::Object
 	{
 	public:

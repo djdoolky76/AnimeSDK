@@ -11,6 +11,8 @@ namespace MiHoYo::SDK { class MiHoYoSDKMainThreadChecker; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int MiHoYoSDKMainThreadChecker_TypeDefinitionIndex = 46476;
+
 	class MiHoYoSDKMainThreadChecker : public ::System::Object
 	{
 	public:

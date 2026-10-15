@@ -14,6 +14,8 @@ namespace System { class Object; }
 #define POJKPGAFONI_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xC36D480)
 #define POJKPGAFONI_TICK_OFFSET UNITYSDK_OFFSET(0xC36D730)
 
+inline static constexpr unsigned int POJKPGAFONI_TypeDefinitionIndex = 58370;
+
 	class POJKPGAFONI : public ::GELIALJDFBL
 	{
 	public:

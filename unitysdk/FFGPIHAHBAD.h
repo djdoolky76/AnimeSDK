@@ -20,6 +20,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define FFGPIHAHBAD_HHHJELHJNEA_OFFSET UNITYSDK_OFFSET(0x1573CCF0)
 #define FFGPIHAHBAD_LDKABPKGHDG_OFFSET UNITYSDK_OFFSET(0x1573CEF0)
 
+inline static constexpr unsigned int FFGPIHAHBAD_TypeDefinitionIndex = 78910;
+
 	class FFGPIHAHBAD : public ::System::Object
 	{
 	public:

@@ -20,6 +20,8 @@ namespace System::Collections::Generic { template <typename T> class Stack_1; }
 #define KNHNLPIHONJ_MJJKIPLMLEE_OFFSET UNITYSDK_OFFSET(0x1D0BC200)
 #define KNHNLPIHONJ_OAFNABADHNJ_OFFSET UNITYSDK_OFFSET(0x1D0BC500)
 
+inline static constexpr unsigned int KNHNLPIHONJ_TypeDefinitionIndex = 10366;
+
 	class KNHNLPIHONJ : public ::System::Object
 	{
 	public:

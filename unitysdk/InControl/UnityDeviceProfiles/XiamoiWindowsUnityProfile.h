@@ -7,6 +7,8 @@
 
 namespace InControl::UnityDeviceProfiles
 {
+	inline static constexpr unsigned int XiamoiWindowsUnityProfile_TypeDefinitionIndex = 41104;
+
 	class XiamoiWindowsUnityProfile : public ::InControl::InputDeviceProfile
 	{
 	public:

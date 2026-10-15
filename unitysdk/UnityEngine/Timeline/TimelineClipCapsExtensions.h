@@ -14,6 +14,8 @@ namespace UnityEngine::Timeline { class TimelineClip; }
 
 namespace UnityEngine::Timeline
 {
+	inline static constexpr unsigned int TimelineClipCapsExtensions_TypeDefinitionIndex = 38812;
+
 	class TimelineClipCapsExtensions : public ::System::Object
 	{
 	public:

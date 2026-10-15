@@ -48,6 +48,8 @@ namespace System::Net::Sockets { class Socket; }
 #define BEFIOAMDDJC_SET_CONFIG_OFFSET UNITYSDK_OFFSET(0x1DD9BB30)
 #define BEFIOAMDDJC_SET_ISAUTHORIZED_OFFSET UNITYSDK_OFFSET(0x1DD9BAF0)
 
+inline static constexpr unsigned int BEFIOAMDDJC_TypeDefinitionIndex = 43967;
+
 	class BEFIOAMDDJC : public ::System::Object
 	{
 	public:

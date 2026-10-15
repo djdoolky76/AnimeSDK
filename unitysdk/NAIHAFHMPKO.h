@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define NAIHAFHMPKO_CTOR_OFFSET UNITYSDK_OFFSET(0xBA9C5F0)
 #define NAIHAFHMPKO_EVALUATE_OFFSET UNITYSDK_OFFSET(0xBA9C640)
 
+inline static constexpr unsigned int NAIHAFHMPKO_TypeDefinitionIndex = 59147;
+
 	class NAIHAFHMPKO
 	{
 	public:

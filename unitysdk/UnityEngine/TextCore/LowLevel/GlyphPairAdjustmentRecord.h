@@ -8,6 +8,8 @@
 
 namespace UnityEngine::TextCore::LowLevel
 {
+	inline static constexpr unsigned int GlyphPairAdjustmentRecord_TypeDefinitionIndex = 5845;
+
 	struct alignas(4) GlyphPairAdjustmentRecord
 	{
 		::UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord m_FirstAdjustmentRecord; // 0x10

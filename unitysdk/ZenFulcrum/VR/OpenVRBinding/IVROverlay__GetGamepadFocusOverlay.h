@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
+	inline static constexpr unsigned int IVROverlay__GetGamepadFocusOverlay_TypeDefinitionIndex = 39112;
+
 	class IVROverlay__GetGamepadFocusOverlay : public ::System::MulticastDelegate
 	{
 	public:

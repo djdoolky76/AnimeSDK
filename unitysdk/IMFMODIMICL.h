@@ -8,6 +8,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define IMFMODIMICL_MBFABGBENPN_OFFSET UNITYSDK_OFFSET(0x164D2D50)
 #define IMFMODIMICL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x164D2BC0)
 
+inline static constexpr unsigned int IMFMODIMICL_TypeDefinitionIndex = 54914;
+
 	class IMFMODIMICL
 	{
 	public:

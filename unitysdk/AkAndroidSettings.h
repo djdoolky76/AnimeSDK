@@ -11,6 +11,8 @@ class AkCommonUserSettings;
 #define AKANDROIDSETTINGS_GETCOMMSSETTINGS_OFFSET UNITYSDK_OFFSET(0x1F572750)
 #define AKANDROIDSETTINGS_GETUSERSETTINGS_OFFSET UNITYSDK_OFFSET(0x1F5726D0)
 
+inline static constexpr unsigned int AkAndroidSettings_TypeDefinitionIndex = 44807;
+
 	class AkAndroidSettings : public ::AkWwiseInitializationSettings_PlatformSettings
 	{
 	public:

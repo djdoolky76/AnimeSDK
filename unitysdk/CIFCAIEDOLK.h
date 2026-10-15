@@ -29,6 +29,8 @@ namespace System { class String; }
 #define CIFCAIEDOLK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E0D1960)
 #define CIFCAIEDOLK_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E0D19C0)
 
+inline static constexpr unsigned int CIFCAIEDOLK_TypeDefinitionIndex = 32676;
+
 	class CIFCAIEDOLK : public ::System::Object
 	{
 	public:

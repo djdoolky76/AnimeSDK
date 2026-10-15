@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MazeFloorUnlockRow_TypeDefinitionIndex = 14064;
+
 	class MazeFloorUnlockRow : public ::System::Object
 	{
 	public:

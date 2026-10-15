@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetLayerWeight_TypeDefinitionIndex = 23089;
+
 	class SetLayerWeight : public ::RPG::GameCore::TaskConfig
 	{
 	public:

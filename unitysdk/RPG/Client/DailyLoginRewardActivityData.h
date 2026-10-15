@@ -18,6 +18,8 @@ namespace System { class Object; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int DailyLoginRewardActivityData_TypeDefinitionIndex = 61608;
+
 	class DailyLoginRewardActivityData : public ::RPG::Client::ActivityPanelData
 	{
 	public:

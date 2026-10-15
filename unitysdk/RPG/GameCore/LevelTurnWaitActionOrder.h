@@ -15,6 +15,8 @@ namespace RPG::GameCore { class GameEntity; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelTurnWaitActionOrder_TypeDefinitionIndex = 56704;
+
 	class LevelTurnWaitActionOrder : public ::System::Object
 	{
 	public:

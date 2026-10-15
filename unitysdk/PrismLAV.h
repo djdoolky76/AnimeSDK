@@ -4,6 +4,8 @@
 
 #define PRISMLAV_CTOR_OFFSET UNITYSDK_OFFSET(0xC39C390)
 
+inline static constexpr unsigned int PrismLAV_TypeDefinitionIndex = 47315;
+
 	class PrismLAV : public ::GeometryEdit::Prism
 	{
 	public:

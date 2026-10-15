@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define AUISTATETAGACTIVE_ISTRUE_OFFSET UNITYSDK_OFFSET(0x15BC2200)
 #define AUISTATETAGACTIVE_SET_STATETAGLIST_OFFSET UNITYSDK_OFFSET(0x15BC22B0)
 
+inline static constexpr unsigned int AUiStateTagActive_TypeDefinitionIndex = 47576;
+
 	class AUiStateTagActive : public ::AUiStateTagBase
 	{
 	public:

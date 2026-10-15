@@ -15,6 +15,8 @@ namespace RPG::LittleGameShare::HoyoPhysics::Box2D { class B2IdPool; }
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
+	inline static constexpr unsigned int B2IdPools_TypeDefinitionIndex = 36688;
+
 	class B2IdPools : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T> class Queue_1; }
 
 namespace Cysharp::Threading::Tasks::Linq
 {
+	inline static constexpr unsigned int Merge_1__Merge_TypeDefinitionIndex = 45467;
+
 	template <typename T>
 	class Merge_1__Merge : public ::Cysharp::Threading::Tasks::MoveNextSource
 	{

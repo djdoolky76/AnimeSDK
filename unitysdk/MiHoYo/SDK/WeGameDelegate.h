@@ -19,6 +19,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int WeGameDelegate_TypeDefinitionIndex = 7710;
+
 	class WeGameDelegate : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RenderTestItemJson_TypeDefinitionIndex = 24398;
+
 	class RenderTestItemJson : public ::RPG::GameCore::JsonConfig
 	{
 	public:

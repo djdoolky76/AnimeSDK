@@ -28,6 +28,8 @@ namespace System::Text { class StringBuilder; }
 #define NHDNOCLECNC_NLMJABPEBMB_OFFSET UNITYSDK_OFFSET(0x1D209700)
 #define NHDNOCLECNC_OHKKLGFGDCE_OFFSET UNITYSDK_OFFSET(0x1D209C20)
 
+inline static constexpr unsigned int NHDNOCLECNC_TypeDefinitionIndex = 10855;
+
 	class NHDNOCLECNC : public ::System::Object
 	{
 	public:

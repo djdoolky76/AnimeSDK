@@ -13,6 +13,8 @@ namespace RPG::GameCore { class GridFightWaitDragConsumable; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightWaitDragConsumable_TypeDefinitionIndex = 19962;
+
 	class GridFightWaitDragConsumable : public ::RPG::GameCore::TaskConfig
 	{
 	public:

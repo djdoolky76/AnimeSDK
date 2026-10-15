@@ -17,6 +17,8 @@ namespace UnityEngine { class MeshRenderer; }
 #define BKEEADFGJEI_NEKGALPLEOH_OFFSET UNITYSDK_OFFSET(0xB7AF930)
 #define BKEEADFGJEI_PMMNBAJPPKG_OFFSET UNITYSDK_OFFSET(0xB7AF720)
 
+inline static constexpr unsigned int BKEEADFGJEI_TypeDefinitionIndex = 78977;
+
 	class BKEEADFGJEI : public ::System::Object
 	{
 	public:

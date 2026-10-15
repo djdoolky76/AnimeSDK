@@ -9,6 +9,8 @@ namespace RPG::Client { class TimeRewindControlManager_TimeRewindEffBackwardSOAs
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TimeRewindControlManager___c__DisplayClass14_0_TypeDefinitionIndex = 60828;
+
 	class TimeRewindControlManager___c__DisplayClass14_0 : public ::System::Object
 	{
 	public:

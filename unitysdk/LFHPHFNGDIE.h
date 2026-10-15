@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define LFHPHFNGDIE_HOMCMIGLKCN_OFFSET UNITYSDK_OFFSET(0xB66E760)
 #define LFHPHFNGDIE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB66E000)
 
+inline static constexpr unsigned int LFHPHFNGDIE_TypeDefinitionIndex = 58525;
+
 	class LFHPHFNGDIE
 	{
 	public:

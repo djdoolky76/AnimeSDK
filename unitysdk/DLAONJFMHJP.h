@@ -12,6 +12,8 @@ namespace System { class Object; }
 #define DLAONJFMHJP_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xF890CA0)
 #define DLAONJFMHJP_INVOKE_OFFSET UNITYSDK_OFFSET(0xF890C30)
 
+inline static constexpr unsigned int DLAONJFMHJP_TypeDefinitionIndex = 62037;
+
 	class DLAONJFMHJP : public ::System::MulticastDelegate
 	{
 	public:

@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TransformComponent; }
 #define IEGAHANLNNL_KHJGJAMNILF_OFFSET UNITYSDK_OFFSET(0x15EF66A0)
 #define IEGAHANLNNL_PLPJCPLIMIK_OFFSET UNITYSDK_OFFSET(0x15EF6680)
 
+inline static constexpr unsigned int IEGAHANLNNL_TypeDefinitionIndex = 56953;
+
 	class IEGAHANLNNL : public ::System::Object
 	{
 	public:

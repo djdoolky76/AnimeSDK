@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int RPGFinalComposeDebug_TypeDefinitionIndex = 37810;
+
 	class RPGFinalComposeDebug : public ::System::Object
 	{
 	public:

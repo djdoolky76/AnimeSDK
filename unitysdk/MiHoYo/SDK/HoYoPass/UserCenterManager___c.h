@@ -11,6 +11,8 @@ namespace System { class Object; }
 
 namespace MiHoYo::SDK::HoYoPass
 {
+	inline static constexpr unsigned int UserCenterManager___c_TypeDefinitionIndex = 8278;
+
 	class UserCenterManager___c : public ::System::Object
 	{
 	public:

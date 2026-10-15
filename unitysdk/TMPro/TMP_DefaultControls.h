@@ -24,6 +24,8 @@ namespace UnityEngine::UI { class Selectable; }
 
 namespace TMPro
 {
+	inline static constexpr unsigned int TMP_DefaultControls_TypeDefinitionIndex = 44558;
+
 	class TMP_DefaultControls : public ::System::Object
 	{
 	public:

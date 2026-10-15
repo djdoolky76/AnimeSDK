@@ -44,6 +44,8 @@ namespace System::Text { class EncoderNLS; }
 
 namespace System::Text
 {
+	inline static constexpr unsigned int UTF8Encoding_TypeDefinitionIndex = 509;
+
 	class UTF8Encoding : public ::System::Text::Encoding
 	{
 	public:

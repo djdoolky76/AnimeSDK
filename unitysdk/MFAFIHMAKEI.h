@@ -15,6 +15,8 @@ namespace System { class String; }
 #define MFAFIHMAKEI_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB8E8B00)
 #define MFAFIHMAKEI_TICK_OFFSET UNITYSDK_OFFSET(0xB8E8C40)
 
+inline static constexpr unsigned int MFAFIHMAKEI_TypeDefinitionIndex = 58637;
+
 	class MFAFIHMAKEI : public ::GELIALJDFBL
 	{
 	public:

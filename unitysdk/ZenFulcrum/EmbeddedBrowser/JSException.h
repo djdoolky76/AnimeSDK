@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
+	inline static constexpr unsigned int JSException_TypeDefinitionIndex = 39568;
+
 	class JSException : public ::System::Exception
 	{
 	public:

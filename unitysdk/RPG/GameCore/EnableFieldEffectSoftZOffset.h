@@ -10,6 +10,8 @@ namespace RPG::GameCore { class EnableFieldEffectSoftZOffset; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int EnableFieldEffectSoftZOffset_TypeDefinitionIndex = 22709;
+
 	class EnableFieldEffectSoftZOffset : public ::RPG::GameCore::TaskConfig
 	{
 	public:

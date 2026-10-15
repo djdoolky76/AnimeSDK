@@ -18,6 +18,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::FateRin::Battle
 {
+	inline static constexpr unsigned int FateRinBattleSkillDetailViewModel_TypeDefinitionIndex = 80950;
+
 	class FateRinBattleSkillDetailViewModel : public ::RPG::Client::FateRin::BaseViewModel
 	{
 	public:

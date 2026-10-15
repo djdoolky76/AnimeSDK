@@ -36,6 +36,8 @@ namespace System { class String; }
 #define DAEOAHLMACG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E14ED00)
 #define DAEOAHLMACG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E14ED60)
 
+inline static constexpr unsigned int DAEOAHLMACG_TypeDefinitionIndex = 32710;
+
 	class DAEOAHLMACG : public ::System::Object
 	{
 	public:

@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define FLEADEBFLOH_CTOR_OFFSET UNITYSDK_OFFSET(0x1582D6B0)
 #define FLEADEBFLOH_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1582D6E0)
 
+inline static constexpr unsigned int FLEADEBFLOH_TypeDefinitionIndex = 54686;
+
 	class FLEADEBFLOH
 	{
 	public:

@@ -38,6 +38,8 @@ namespace System { class String; }
 #define HHAGOFKBFAP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E585810)
 #define HHAGOFKBFAP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E585870)
 
+inline static constexpr unsigned int HHAGOFKBFAP_TypeDefinitionIndex = 32940;
+
 	class HHAGOFKBFAP : public ::System::Object
 	{
 	public:

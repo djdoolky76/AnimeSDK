@@ -34,6 +34,8 @@ namespace System { class String; }
 #define MGAMADCNPAG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EA1BCA0)
 #define MGAMADCNPAG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EA1BD00)
 
+inline static constexpr unsigned int MGAMADCNPAG_TypeDefinitionIndex = 32344;
+
 	class MGAMADCNPAG : public ::System::Object
 	{
 	public:

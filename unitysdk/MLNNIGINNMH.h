@@ -13,6 +13,8 @@ namespace System { class String; }
 #define MLNNIGINNMH_JBIOGKPHKKC_OFFSET UNITYSDK_OFFSET(0xB9BB190)
 #define MLNNIGINNMH_MLMGEFIOION_OFFSET UNITYSDK_OFFSET(0xB9BB1E0)
 
+inline static constexpr unsigned int MLNNIGINNMH_TypeDefinitionIndex = 80157;
+
 	class MLNNIGINNMH : public ::System::Object
 	{
 	public:

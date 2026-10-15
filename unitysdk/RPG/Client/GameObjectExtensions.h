@@ -25,6 +25,8 @@ namespace UnityEngine::Events { class UnityAction; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GameObjectExtensions_TypeDefinitionIndex = 72778;
+
 	class GameObjectExtensions : public ::System::Object
 	{
 	public:

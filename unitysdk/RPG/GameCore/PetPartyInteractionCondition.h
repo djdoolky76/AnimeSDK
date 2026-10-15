@@ -10,6 +10,8 @@ namespace RPG::GameCore { class PetPartyInteractionCondition; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PetPartyInteractionCondition_TypeDefinitionIndex = 17544;
+
 	class PetPartyInteractionCondition : public ::RPG::GameCore::JsonConfig
 	{
 	public:

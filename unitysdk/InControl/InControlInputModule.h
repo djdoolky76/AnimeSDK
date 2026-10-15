@@ -66,6 +66,8 @@ namespace UnityEngine::EventSystems { class PointerInputModule_MouseButtonEventD
 
 namespace InControl
 {
+	inline static constexpr unsigned int InControlInputModule_TypeDefinitionIndex = 40851;
+
 	class InControlInputModule : public ::UnityEngine::EventSystems::PointerInputModule
 	{
 	public:

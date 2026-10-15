@@ -8,6 +8,8 @@
 #define NOIBOPEACAC_SET_ISACTIVE_OFFSET UNITYSDK_OFFSET(0xBCF08A0)
 #define NOIBOPEACAC_SET_NUM_OFFSET UNITYSDK_OFFSET(0xBCF08C0)
 
+inline static constexpr unsigned int NOIBOPEACAC_TypeDefinitionIndex = 79632;
+
 	class NOIBOPEACAC : public ::System::Object
 	{
 	public:

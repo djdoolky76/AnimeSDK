@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TriggerLittleGameCustomEvent; }
 #define CMJHIPOOEBO_CTOR_OFFSET UNITYSDK_OFFSET(0xDA38D00)
 #define CMJHIPOOEBO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xDA38D30)
 
+inline static constexpr unsigned int CMJHIPOOEBO_TypeDefinitionIndex = 52964;
+
 	class CMJHIPOOEBO
 	{
 	public:

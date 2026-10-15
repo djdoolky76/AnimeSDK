@@ -12,6 +12,8 @@ namespace System { class Action; }
 #define MNHGCMGOFBF_NNAGLJCMMGD_OFFSET UNITYSDK_OFFSET(0xBA08E50)
 #define MNHGCMGOFBF_NONJDKKDDLE_OFFSET UNITYSDK_OFFSET(0xBA08C90)
 
+inline static constexpr unsigned int MNHGCMGOFBF_TypeDefinitionIndex = 60479;
+
 	class MNHGCMGOFBF : public ::System::Object
 	{
 	public:

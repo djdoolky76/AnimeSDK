@@ -10,6 +10,8 @@ namespace RPG::GameCore { class PropCurveMoveStartMode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PropCurveMoveStartMode_TypeDefinitionIndex = 21003;
+
 	class PropCurveMoveStartMode : public ::RPG::GameCore::JsonConfig
 	{
 	public:

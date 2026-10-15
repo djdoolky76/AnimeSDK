@@ -11,6 +11,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::LittleGame
 {
+	inline static constexpr unsigned int MovieGameBlock_TypeDefinitionIndex = 76602;
+
 	class MovieGameBlock : public ::RPG::Client::LittleGame::MovieGameProp
 	{
 	public:

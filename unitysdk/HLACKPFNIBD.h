@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int HLACKPFNIBD_TypeDefinitionIndex = 32577;
+
 	enum class HLACKPFNIBD : ::System::Int32
 	{
 		NLCDGIPGFDJ = 0,

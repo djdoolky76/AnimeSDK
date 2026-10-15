@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int HipplenSetAreaAnchorVisible_TypeDefinitionIndex = 21319;
+
 	class HipplenSetAreaAnchorVisible : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -25,6 +25,8 @@ namespace System { class String; }
 #define MNGNLOCLNOF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EA99590)
 #define MNGNLOCLNOF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EA995F0)
 
+inline static constexpr unsigned int MNGNLOCLNOF_TypeDefinitionIndex = 32924;
+
 	class MNGNLOCLNOF : public ::System::Object
 	{
 	public:

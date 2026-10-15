@@ -5,6 +5,8 @@ class EBLHIMCKJIJ;
 
 #define EBLHIMCKJIJ_KAHJAJMKLII_CTOR_OFFSET UNITYSDK_OFFSET(0x12D01680)
 
+inline static constexpr unsigned int EBLHIMCKJIJ_KAHJAJMKLII_TypeDefinitionIndex = 57399;
+
 	class EBLHIMCKJIJ_KAHJAJMKLII : public ::System::Object
 	{
 	public:

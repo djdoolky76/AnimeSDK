@@ -9,6 +9,8 @@ namespace System { class String; }
 #define MDJOLMBECHA_CLEAR_OFFSET UNITYSDK_OFFSET(0xB8AD230)
 #define MDJOLMBECHA_CTOR_OFFSET UNITYSDK_OFFSET(0xB8AD2A0)
 
+inline static constexpr unsigned int MDJOLMBECHA_TypeDefinitionIndex = 57756;
+
 	class MDJOLMBECHA : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CirclePointGeneratorConfig_TypeDefinitionIndex = 15626;
+
 	class CirclePointGeneratorConfig : public ::RPG::GameCore::PointGeneratorConfig
 	{
 	public:

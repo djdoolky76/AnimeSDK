@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int BLOHGFCFEEL_TypeDefinitionIndex = 25278;
+
 	enum class BLOHGFCFEEL : ::System::Int32
 	{
 		OLLFDOONPPH = 0,

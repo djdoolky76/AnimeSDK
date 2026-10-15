@@ -17,6 +17,8 @@ namespace System::ComponentModel { class PropertyChangedEventArgs; }
 
 namespace RPG::Client::ChenLingFes
 {
+	inline static constexpr unsigned int ChenLingFesFeverProgressLineControl_TypeDefinitionIndex = 81304;
+
 	class ChenLingFesFeverProgressLineControl : public ::Sofa::BaseSofaControl
 	{
 	public:

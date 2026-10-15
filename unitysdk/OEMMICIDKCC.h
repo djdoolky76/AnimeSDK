@@ -17,6 +17,8 @@ namespace RPG::Client { class IRogueTournPersonaStylePumanOrbInfo; }
 #define OEMMICIDKCC_SET_SOURCETYPE_OFFSET UNITYSDK_OFFSET(0xBE335E0)
 #define OEMMICIDKCC_UPDATE_OFFSET UNITYSDK_OFFSET(0xBE33560)
 
+inline static constexpr unsigned int OEMMICIDKCC_TypeDefinitionIndex = 67705;
+
 	class OEMMICIDKCC : public ::System::Object
 	{
 	public:

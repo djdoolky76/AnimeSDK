@@ -10,6 +10,8 @@ namespace System { class Object; }
 #define LFFAJPMHLMD___C___ONPAUSEIMPLEMENT_B__7_0_OFFSET UNITYSDK_OFFSET(0x1EC862B0)
 #define LFFAJPMHLMD___C___ONRESUMEIMPLEMENT_B__8_0_OFFSET UNITYSDK_OFFSET(0x1EC863D0)
 
+inline static constexpr unsigned int LFFAJPMHLMD___c_TypeDefinitionIndex = 44203;
+
 	class LFFAJPMHLMD___c : public ::System::Object
 	{
 	public:

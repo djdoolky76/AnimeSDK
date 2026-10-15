@@ -29,6 +29,8 @@ namespace UnityEngine { class Animation; }
 #define DEJKENAIEIL__ONBIND_OFFSET UNITYSDK_OFFSET(0xE50FB40)
 #define DEJKENAIEIL__ONTICK_OFFSET UNITYSDK_OFFSET(0xE50FFF0)
 
+inline static constexpr unsigned int DEJKENAIEIL_TypeDefinitionIndex = 72222;
+
 	class DEJKENAIEIL : public ::FMPCODLIOLG
 	{
 	public:

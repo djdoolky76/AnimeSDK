@@ -8,6 +8,8 @@ namespace RPG::Client::FateRin::Battle { class FateRinBattleHudCardAreaViewModel
 
 namespace RPG::Client::FateRin::Battle
 {
+	inline static constexpr unsigned int FateRinBattleHudCardAreaViewModel_CardAnimationEntry_TypeDefinitionIndex = 80887;
+
 	class FateRinBattleHudCardAreaViewModel_CardAnimationEntry : public ::System::Object
 	{
 	public:

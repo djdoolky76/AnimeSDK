@@ -4,6 +4,8 @@
 
 #define DLLFEGMJCIB_CTOR_OFFSET UNITYSDK_OFFSET(0xF8AB770)
 
+inline static constexpr unsigned int DLLFEGMJCIB_TypeDefinitionIndex = 47835;
+
 	class DLLFEGMJCIB : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

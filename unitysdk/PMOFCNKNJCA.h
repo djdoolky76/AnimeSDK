@@ -10,6 +10,8 @@ class PMOFCNKNJCA;
 #define PMOFCNKNJCA_CTOR_OFFSET UNITYSDK_OFFSET(0x1D30CBB0)
 #define PMOFCNKNJCA_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D30C970)
 
+inline static constexpr unsigned int PMOFCNKNJCA_TypeDefinitionIndex = 13066;
+
 	class PMOFCNKNJCA : public ::System::Object
 	{
 	public:

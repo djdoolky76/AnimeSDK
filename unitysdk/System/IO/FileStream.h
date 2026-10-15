@@ -66,6 +66,8 @@ namespace System::Threading::Tasks { class Task; }
 
 namespace System::IO
 {
+	inline static constexpr unsigned int FileStream_TypeDefinitionIndex = 717;
+
 	class FileStream : public ::System::IO::Stream
 	{
 	public:

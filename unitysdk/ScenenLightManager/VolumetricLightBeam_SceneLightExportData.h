@@ -9,6 +9,8 @@ namespace ScenenLightManager { class VolumetricLightBeam_ExportData; }
 
 namespace ScenenLightManager
 {
+	inline static constexpr unsigned int VolumetricLightBeam_SceneLightExportData_TypeDefinitionIndex = 49054;
+
 	class VolumetricLightBeam_SceneLightExportData : public ::ScenenLightManager::BaseSceneLightExportData
 	{
 	public:

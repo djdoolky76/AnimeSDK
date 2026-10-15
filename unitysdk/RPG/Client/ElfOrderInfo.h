@@ -7,6 +7,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ElfOrderInfo_TypeDefinitionIndex = 63743;
+
 	class ElfOrderInfo : public ::System::Object
 	{
 	public:

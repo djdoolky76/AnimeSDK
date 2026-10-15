@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
+	inline static constexpr unsigned int BrowserNative_Calltype_zfb_keyEvent_TypeDefinitionIndex = 39443;
+
 	class BrowserNative_Calltype_zfb_keyEvent : public ::System::MulticastDelegate
 	{
 	public:

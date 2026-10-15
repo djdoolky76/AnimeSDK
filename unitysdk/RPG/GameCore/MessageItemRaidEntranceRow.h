@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MessageItemRaidEntranceRow_TypeDefinitionIndex = 14481;
+
 	class MessageItemRaidEntranceRow : public ::System::Object
 	{
 	public:

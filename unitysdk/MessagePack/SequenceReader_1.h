@@ -7,6 +7,8 @@ namespace System::Buffers { class ReadOnlySequence; }
 
 namespace MessagePack
 {
+	inline static constexpr unsigned int SequenceReader_1_TypeDefinitionIndex = 7243;
+
 	template <typename T>
 	struct alignas(8) SequenceReader_1
 	{

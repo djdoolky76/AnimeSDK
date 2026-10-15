@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define DPBEFFILOHE_CTOR_OFFSET UNITYSDK_OFFSET(0x11FF9080)
 #define DPBEFFILOHE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x11FF90B0)
 
+inline static constexpr unsigned int DPBEFFILOHE_TypeDefinitionIndex = 55334;
+
 	class DPBEFFILOHE
 	{
 	public:

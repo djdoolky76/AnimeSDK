@@ -9,6 +9,8 @@ namespace UnityEngine { class Event; }
 
 namespace UnityEngine::UIElements
 {
+	inline static constexpr unsigned int RepaintData_TypeDefinitionIndex = 5887;
+
 	class RepaintData : public ::System::Object
 	{
 	public:

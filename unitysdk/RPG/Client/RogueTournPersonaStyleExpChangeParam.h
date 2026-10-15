@@ -6,6 +6,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueTournPersonaStyleExpChangeParam_TypeDefinitionIndex = 67044;
+
 	class RogueTournPersonaStyleExpChangeParam : public ::System::Object
 	{
 	public:

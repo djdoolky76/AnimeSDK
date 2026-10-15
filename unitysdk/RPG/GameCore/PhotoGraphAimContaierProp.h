@@ -11,6 +11,8 @@ namespace RPG::GameCore { class PhotoGraphAimContaierProp; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PhotoGraphAimContaierProp_TypeDefinitionIndex = 17516;
+
 	class PhotoGraphAimContaierProp : public ::RPG::GameCore::PhotoGraphAimContainerTargetBase
 	{
 	public:

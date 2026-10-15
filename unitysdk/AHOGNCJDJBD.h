@@ -11,6 +11,8 @@ namespace System { class String; }
 #define AHOGNCJDJBD_NCGDIEMGJGN_OFFSET UNITYSDK_OFFSET(0xEB8A020)
 #define AHOGNCJDJBD_PNOFOJLJLDM_OFFSET UNITYSDK_OFFSET(0xEB89EA0)
 
+inline static constexpr unsigned int AHOGNCJDJBD_TypeDefinitionIndex = 77562;
+
 	class AHOGNCJDJBD : public ::NABHGBNKEAP
 	{
 	public:

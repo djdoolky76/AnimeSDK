@@ -8,6 +8,8 @@ class PLMHECGLFFM;
 #define PLMHECGLFFM_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D303AE0)
 #define PLMHECGLFFM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D303AA0)
 
+inline static constexpr unsigned int PLMHECGLFFM_TypeDefinitionIndex = 24317;
+
 	class PLMHECGLFFM : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -54,6 +54,8 @@ namespace System { class String; }
 
 namespace RPG
 {
+	inline static constexpr unsigned int MVector2_TypeDefinitionIndex = 6391;
+
 	struct alignas(4) MVector2
 	{
 		::System::Single x; // 0x10

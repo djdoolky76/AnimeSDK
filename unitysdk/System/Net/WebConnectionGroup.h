@@ -28,6 +28,8 @@ namespace System::Net { class WebConnectionGroup_ConnectionState; }
 
 namespace System::Net
 {
+	inline static constexpr unsigned int WebConnectionGroup_TypeDefinitionIndex = 2886;
+
 	class WebConnectionGroup : public ::System::Object
 	{
 	public:

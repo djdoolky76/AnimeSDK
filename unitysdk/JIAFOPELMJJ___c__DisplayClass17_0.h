@@ -17,6 +17,8 @@ class PNFLEMCDMJD;
 #define JIAFOPELMJJ___C__DISPLAYCLASS17_0__STARTFORPREDOWNLOAD_B__0_OFFSET UNITYSDK_OFFSET(0xB1E5F50)
 #define JIAFOPELMJJ___C__DISPLAYCLASS17_0__STARTFORPREDOWNLOAD_B__1_OFFSET UNITYSDK_OFFSET(0xB1E6010)
 
+inline static constexpr unsigned int JIAFOPELMJJ___c__DisplayClass17_0_TypeDefinitionIndex = 59507;
+
 	class JIAFOPELMJJ___c__DisplayClass17_0 : public ::System::Object
 	{
 	public:

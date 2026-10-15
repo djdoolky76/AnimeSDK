@@ -12,6 +12,8 @@ namespace UnityEngine { class Transform; }
 #define BONECONSTRAINT_HJFFHBPCBNC_OFFSET UNITYSDK_OFFSET(0xC1B62B0)
 #define BONECONSTRAINT_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0xC1B6240)
 
+inline static constexpr unsigned int BoneConstraint_TypeDefinitionIndex = 47441;
+
 	class BoneConstraint : public ::UnityEngine::MonoBehaviour
 	{
 	public:

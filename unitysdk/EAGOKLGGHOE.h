@@ -46,6 +46,8 @@ namespace System { class String; }
 #define EAGOKLGGHOE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E2295A0)
 #define EAGOKLGGHOE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E229600)
 
+inline static constexpr unsigned int EAGOKLGGHOE_TypeDefinitionIndex = 25327;
+
 	class EAGOKLGGHOE : public ::System::Object
 	{
 	public:

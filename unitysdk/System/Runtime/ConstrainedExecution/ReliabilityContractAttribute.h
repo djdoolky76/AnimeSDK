@@ -8,6 +8,8 @@
 
 namespace System::Runtime::ConstrainedExecution
 {
+	inline static constexpr unsigned int ReliabilityContractAttribute_TypeDefinitionIndex = 1344;
+
 	class ReliabilityContractAttribute : public ::System::Attribute
 	{
 	public:

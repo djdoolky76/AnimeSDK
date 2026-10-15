@@ -4,6 +4,8 @@
 
 namespace IRI2
 {
+	inline static constexpr unsigned int ClusterMeshLodInfo_TypeDefinitionIndex = 49664;
+
 	struct alignas(8) ClusterMeshLodInfo
 	{
 		::System::UInt64 MeshHash; // 0x10

@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define EAGCPEPIOIO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E228F50)
 #define EAGCPEPIOIO___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E228F60)
 
+inline static constexpr unsigned int EAGCPEPIOIO___c_TypeDefinitionIndex = 28767;
+
 	class EAGCPEPIOIO___c : public ::System::Object
 	{
 	public:

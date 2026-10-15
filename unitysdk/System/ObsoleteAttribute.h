@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace System
 {
+	inline static constexpr unsigned int ObsoleteAttribute_TypeDefinitionIndex = 310;
+
 	class ObsoleteAttribute : public ::System::Attribute
 	{
 	public:

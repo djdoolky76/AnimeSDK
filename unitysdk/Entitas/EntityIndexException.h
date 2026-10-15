@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace Entitas
 {
+	inline static constexpr unsigned int EntityIndexException_TypeDefinitionIndex = 10020;
+
 	class EntityIndexException : public ::Entitas::EntitasException
 	{
 	public:

@@ -18,6 +18,8 @@ namespace UnityEngine { class SphereCollider; }
 
 namespace RPG::Client::LittleGame::FiveDim
 {
+	inline static constexpr unsigned int FiveDimGrenadierPhysicsProxyView_TypeDefinitionIndex = 77203;
+
 	class FiveDimGrenadierPhysicsProxyView : public ::RPG::Client::LittleGame::FiveDim::FiveDimPropPhysicsProxyView
 	{
 	public:

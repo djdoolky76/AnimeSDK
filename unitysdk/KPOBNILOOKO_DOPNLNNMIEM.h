@@ -7,6 +7,8 @@ namespace RPG::GameCore { class GameEntity; }
 #define KPOBNILOOKO_DOPNLNNMIEM_CLEAR_OFFSET UNITYSDK_OFFSET(0xB5CFC30)
 #define KPOBNILOOKO_DOPNLNNMIEM_CTOR_OFFSET UNITYSDK_OFFSET(0xB5CFC90)
 
+inline static constexpr unsigned int KPOBNILOOKO_DOPNLNNMIEM_TypeDefinitionIndex = 73340;
+
 	class KPOBNILOOKO_DOPNLNNMIEM : public ::System::Object
 	{
 	public:

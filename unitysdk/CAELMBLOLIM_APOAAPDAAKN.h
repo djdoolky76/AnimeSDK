@@ -9,6 +9,8 @@ namespace System { class String; }
 
 #define CAELMBLOLIM_APOAAPDAAKN_CTOR_OFFSET UNITYSDK_OFFSET(0xC477800)
 
+inline static constexpr unsigned int CAELMBLOLIM_APOAAPDAAKN_TypeDefinitionIndex = 60560;
+
 	class CAELMBLOLIM_APOAAPDAAKN : public ::System::Object
 	{
 	public:

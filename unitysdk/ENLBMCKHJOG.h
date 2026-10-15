@@ -9,6 +9,8 @@ class BGMKDGACBNI;
 
 #define ENLBMCKHJOG_CTOR_OFFSET UNITYSDK_OFFSET(0x155B1EA0)
 
+inline static constexpr unsigned int ENLBMCKHJOG_TypeDefinitionIndex = 53850;
+
 	class ENLBMCKHJOG : public ::System::Object
 	{
 	public:

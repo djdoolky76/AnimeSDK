@@ -10,6 +10,8 @@ namespace System::Threading { class WaitCallback; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int SecurityTunnel_ThreadUtil___c__DisplayClass3_0_TypeDefinitionIndex = 46413;
+
 	class SecurityTunnel_ThreadUtil___c__DisplayClass3_0 : public ::System::Object
 	{
 	public:

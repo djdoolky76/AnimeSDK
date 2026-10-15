@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChangeAnimEventConfig_TypeDefinitionIndex = 22881;
+
 	class ChangeAnimEventConfig : public ::RPG::GameCore::TaskConfig
 	{
 	public:

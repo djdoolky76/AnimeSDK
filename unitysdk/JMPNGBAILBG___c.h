@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define JMPNGBAILBG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E791F10)
 #define JMPNGBAILBG___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E791F20)
 
+inline static constexpr unsigned int JMPNGBAILBG___c_TypeDefinitionIndex = 32929;
+
 	class JMPNGBAILBG___c : public ::System::Object
 	{
 	public:

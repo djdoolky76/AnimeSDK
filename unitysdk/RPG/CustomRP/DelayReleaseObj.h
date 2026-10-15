@@ -3,6 +3,8 @@
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int DelayReleaseObj_TypeDefinitionIndex = 37548;
+
 	enum class DelayReleaseObj : ::System::Int32
 	{
 		kPlanarReflection = 0,

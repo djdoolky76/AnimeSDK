@@ -1,6 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
+inline static constexpr unsigned int BFOGLEGJOLK_TypeDefinitionIndex = 10859;
+
 	struct alignas(4) BFOGLEGJOLK
 	{
 		::System::Int32 DPCMOAMHKHB; // 0x10

@@ -27,6 +27,8 @@ namespace System { class String; }
 #define BADCAMHNGKA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E7B02E0)
 #define BADCAMHNGKA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E7B0340)
 
+inline static constexpr unsigned int BADCAMHNGKA_TypeDefinitionIndex = 31073;
+
 	class BADCAMHNGKA : public ::System::Object
 	{
 	public:

@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightTraitBEOverrideConfigRow_TypeDefinitionIndex = 13707;
+
 	class GridFightTraitBEOverrideConfigRow : public ::System::Object
 	{
 	public:

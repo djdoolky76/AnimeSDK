@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define BHPDOLFOBCJ_GET_STEPS_OFFSET UNITYSDK_OFFSET(0xB492D80)
 #define BHPDOLFOBCJ_SET_STEPS_OFFSET UNITYSDK_OFFSET(0xB492D90)
 
+inline static constexpr unsigned int BHPDOLFOBCJ_TypeDefinitionIndex = 72402;
+
 	class BHPDOLFOBCJ : public ::System::Object
 	{
 	public:

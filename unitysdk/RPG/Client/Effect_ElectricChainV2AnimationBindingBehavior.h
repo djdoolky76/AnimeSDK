@@ -12,6 +12,8 @@ namespace RPG::Client::ElectricChainV2 { class GaussianConstraint; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int Effect_ElectricChainV2AnimationBindingBehavior_TypeDefinitionIndex = 70466;
+
 	class Effect_ElectricChainV2AnimationBindingBehavior : public ::RPG::Client::TABehaviorBase
 	{
 	public:

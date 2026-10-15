@@ -5,6 +5,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define PDPMIHGIFDP_CTOR_OFFSET UNITYSDK_OFFSET(0x1C7ECAB0)
 
+inline static constexpr unsigned int PDPMIHGIFDP_TypeDefinitionIndex = 36448;
+
 	class PDPMIHGIFDP : public ::System::Object
 	{
 	public:

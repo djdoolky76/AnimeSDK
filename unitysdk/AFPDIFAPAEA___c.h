@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define AFPDIFAPAEA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E123040)
 #define AFPDIFAPAEA___C___CCTOR_B__113_0_OFFSET UNITYSDK_OFFSET(0x1E123050)
 
+inline static constexpr unsigned int AFPDIFAPAEA___c_TypeDefinitionIndex = 29547;
+
 	class AFPDIFAPAEA___c : public ::System::Object
 	{
 	public:

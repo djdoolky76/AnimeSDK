@@ -36,6 +36,8 @@ namespace System { class String; }
 #define JLGGPEBAIMB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E777D40)
 #define JLGGPEBAIMB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E777DA0)
 
+inline static constexpr unsigned int JLGGPEBAIMB_TypeDefinitionIndex = 26058;
+
 	class JLGGPEBAIMB : public ::System::Object
 	{
 	public:

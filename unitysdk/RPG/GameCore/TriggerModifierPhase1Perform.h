@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TriggerModifierPhase1Perform; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TriggerModifierPhase1Perform_TypeDefinitionIndex = 23447;
+
 	class TriggerModifierPhase1Perform : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -19,6 +19,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 
 namespace RPG::Client::BlindBox::Pool
 {
+	inline static constexpr unsigned int BlindBoxPoolRepository_TypeDefinitionIndex = 74917;
+
 	class BlindBoxPoolRepository : public ::System::Object
 	{
 	public:

@@ -14,6 +14,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByHaveInsertUltraWait_TypeDefinitionIndex = 23549;
+
 	class ByHaveInsertUltraWait : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

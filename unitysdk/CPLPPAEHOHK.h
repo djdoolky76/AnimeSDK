@@ -8,6 +8,8 @@ namespace RPG::GameCore { class SwordTrainingEffectRow; }
 #define CPLPPAEHOHK_CTOR_OFFSET UNITYSDK_OFFSET(0xDCDA0B0)
 #define CPLPPAEHOHK_GMJDOFFGEAM_OFFSET UNITYSDK_OFFSET(0xDCDA0C0)
 
+inline static constexpr unsigned int CPLPPAEHOHK_TypeDefinitionIndex = 75028;
+
 	class CPLPPAEHOHK : public ::BNAIELOHEFF
 	{
 	public:

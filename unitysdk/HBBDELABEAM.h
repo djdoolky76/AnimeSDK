@@ -3,6 +3,8 @@
 class IEPENKDLLKN;
 namespace System { class String; }
 
+inline static constexpr unsigned int HBBDELABEAM_TypeDefinitionIndex = 42028;
+
 	struct alignas(8) HBBDELABEAM
 	{
 		::Il2CppArray<::System::String*>* BBFLMPNEICC; // 0x10

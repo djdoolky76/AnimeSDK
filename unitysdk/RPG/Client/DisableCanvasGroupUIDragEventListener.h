@@ -12,6 +12,8 @@ namespace UnityEngine { class CanvasGroup; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int DisableCanvasGroupUIDragEventListener_TypeDefinitionIndex = 73053;
+
 	class DisableCanvasGroupUIDragEventListener : public ::UnityEngine::MonoBehaviour
 	{
 	public:

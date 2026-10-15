@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define OLGBFEDDODM_CTOR_OFFSET UNITYSDK_OFFSET(0xBF08510)
 #define OLGBFEDDODM_EVALUATE_OFFSET UNITYSDK_OFFSET(0xBF08560)
 
+inline static constexpr unsigned int OLGBFEDDODM_TypeDefinitionIndex = 59253;
+
 	class OLGBFEDDODM
 	{
 	public:

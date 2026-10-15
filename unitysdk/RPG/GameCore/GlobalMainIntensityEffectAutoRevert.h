@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GlobalMainIntensityEffectAutoRevert; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GlobalMainIntensityEffectAutoRevert_TypeDefinitionIndex = 22503;
+
 	class GlobalMainIntensityEffectAutoRevert : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyLi
 #define MCPCIKHFBIO_PCPJBFMLKEP_OFFSET UNITYSDK_OFFSET(0xB88D1C0)
 #define MCPCIKHFBIO_SET_TRAITS_OFFSET UNITYSDK_OFFSET(0xB88C870)
 
+inline static constexpr unsigned int MCPCIKHFBIO_TypeDefinitionIndex = 79579;
+
 	class MCPCIKHFBIO : public ::System::Object
 	{
 	public:

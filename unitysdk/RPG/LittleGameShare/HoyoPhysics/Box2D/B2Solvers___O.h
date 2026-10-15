@@ -7,6 +7,8 @@ namespace RPG::LittleGameShare::HoyoPhysics::Box2D { template <typename T> class
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
+	inline static constexpr unsigned int B2Solvers___O_TypeDefinitionIndex = 36783;
+
 	class B2Solvers___O : public ::System::Object
 	{
 	public:

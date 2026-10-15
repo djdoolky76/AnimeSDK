@@ -217,6 +217,8 @@ namespace UnityEngine { class RenderTexture; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelUIComponent_TypeDefinitionIndex = 57299;
+
 	class LevelUIComponent : public ::RPG::GameCore::GameComponentBase
 	{
 	public:

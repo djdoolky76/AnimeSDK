@@ -11,6 +11,8 @@ namespace RPG::GameCore { class SwitchMascotResetSection; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SwitchMascotResetSection_TypeDefinitionIndex = 22001;
+
 	class SwitchMascotResetSection : public ::RPG::GameCore::TaskConfig
 	{
 	public:

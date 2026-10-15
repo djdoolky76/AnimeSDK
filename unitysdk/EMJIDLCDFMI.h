@@ -6,6 +6,8 @@ class POHKBAILKGD;
 
 #define EMJIDLCDFMI_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA615A0)
 
+inline static constexpr unsigned int EMJIDLCDFMI_TypeDefinitionIndex = 42425;
+
 	class EMJIDLCDFMI : public ::System::Object
 	{
 	public:

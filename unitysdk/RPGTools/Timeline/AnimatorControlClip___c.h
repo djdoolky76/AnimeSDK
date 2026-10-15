@@ -12,6 +12,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int AnimatorControlClip___c_TypeDefinitionIndex = 47853;
+
 	class AnimatorControlClip___c : public ::System::Object
 	{
 	public:

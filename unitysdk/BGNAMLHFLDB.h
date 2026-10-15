@@ -27,6 +27,8 @@ namespace System { class String; }
 #define BGNAMLHFLDB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DDEE860)
 #define BGNAMLHFLDB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DDEE8C0)
 
+inline static constexpr unsigned int BGNAMLHFLDB_TypeDefinitionIndex = 31954;
+
 	class BGNAMLHFLDB : public ::System::Object
 	{
 	public:

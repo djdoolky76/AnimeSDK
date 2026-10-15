@@ -7,6 +7,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int IKHitReactionLimb_TypeDefinitionIndex = 68457;
+
 	class IKHitReactionLimb : public ::System::Object
 	{
 	public:

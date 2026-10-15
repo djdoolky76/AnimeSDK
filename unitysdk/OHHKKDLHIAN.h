@@ -8,6 +8,8 @@ class OHHKKDLHIAN;
 #define OHHKKDLHIAN_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D2784E0)
 #define OHHKKDLHIAN_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D278410)
 
+inline static constexpr unsigned int OHHKKDLHIAN_TypeDefinitionIndex = 23715;
+
 	class OHHKKDLHIAN : public ::RPG::GameCore::TaskConfig
 	{
 	public:

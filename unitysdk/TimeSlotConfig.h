@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define TIMESLOTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0xE9E2310)
 #define TIMESLOTCONFIG_GPJFDBAGLBK_OFFSET UNITYSDK_OFFSET(0xE9E2240)
 
+inline static constexpr unsigned int TimeSlotConfig_TypeDefinitionIndex = 47092;
+
 	class TimeSlotConfig : public ::System::Object
 	{
 	public:

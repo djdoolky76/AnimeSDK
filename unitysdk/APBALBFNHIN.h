@@ -58,6 +58,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define APBALBFNHIN_SET_TOTALCOUNT_OFFSET UNITYSDK_OFFSET(0x158CA200)
 #define APBALBFNHIN_UPDATEPROGRESS_OFFSET UNITYSDK_OFFSET(0x158CB770)
 
+inline static constexpr unsigned int APBALBFNHIN_TypeDefinitionIndex = 59544;
+
 	class APBALBFNHIN : public ::System::Object
 	{
 	public:

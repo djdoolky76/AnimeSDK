@@ -10,6 +10,8 @@ namespace RPG::Client::ParkourGame { class MonoParkourJoyStickProvider; }
 
 namespace RPG::Client::ParkourGame
 {
+	inline static constexpr unsigned int MonoParkourJoyStickProvider_RightPressState_TypeDefinitionIndex = 74148;
+
 	class MonoParkourJoyStickProvider_RightPressState : public ::System::Object
 	{
 	public:

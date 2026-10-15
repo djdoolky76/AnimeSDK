@@ -7,6 +7,8 @@ namespace UnityEngine::ProBuilder::Poly2Tri { class AdvancingFrontNode; }
 
 namespace UnityEngine::ProBuilder::Poly2Tri
 {
+	inline static constexpr unsigned int DTSweepBasin_TypeDefinitionIndex = 38741;
+
 	class DTSweepBasin : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace System::Net::NetworkInformation { class NetworkInterface; }
 
 namespace System::Net::NetworkInformation
 {
+	inline static constexpr unsigned int NetworkInterfaceFactory_Win32NetworkInterfaceAPI_TypeDefinitionIndex = 2958;
+
 	class NetworkInterfaceFactory_Win32NetworkInterfaceAPI : public ::System::Net::NetworkInformation::NetworkInterfaceFactory
 	{
 	public:

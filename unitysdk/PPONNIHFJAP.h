@@ -62,6 +62,8 @@ namespace System { class String; }
 #define PPONNIHFJAP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DFE2A60)
 #define PPONNIHFJAP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DFE2AC0)
 
+inline static constexpr unsigned int PPONNIHFJAP_TypeDefinitionIndex = 34986;
+
 	class PPONNIHFJAP : public ::System::Object
 	{
 	public:

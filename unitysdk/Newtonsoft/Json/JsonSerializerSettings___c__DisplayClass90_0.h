@@ -6,6 +6,8 @@
 
 namespace Newtonsoft::Json
 {
+	inline static constexpr unsigned int JsonSerializerSettings___c__DisplayClass90_0_TypeDefinitionIndex = 9604;
+
 	class JsonSerializerSettings___c__DisplayClass90_0 : public ::System::Object
 	{
 	public:

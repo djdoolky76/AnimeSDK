@@ -31,6 +31,8 @@ namespace UnityEngine { class Texture3D; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int Texture3D_TypeDefinitionIndex = 4199;
+
 	class Texture3D : public ::UnityEngine::Texture
 	{
 	public:

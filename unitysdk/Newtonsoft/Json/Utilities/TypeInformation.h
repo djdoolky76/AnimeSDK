@@ -12,6 +12,8 @@ namespace System { class Type; }
 
 namespace Newtonsoft::Json::Utilities
 {
+	inline static constexpr unsigned int TypeInformation_TypeDefinitionIndex = 9655;
+
 	class TypeInformation : public ::System::Object
 	{
 	public:

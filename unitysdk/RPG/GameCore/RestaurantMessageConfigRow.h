@@ -12,6 +12,8 @@ namespace RPG::GameCore { class RestaurantMessageConfigRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RestaurantMessageConfigRow_TypeDefinitionIndex = 11384;
+
 	class RestaurantMessageConfigRow : public ::System::Object
 	{
 	public:

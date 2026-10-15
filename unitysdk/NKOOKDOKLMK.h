@@ -4,6 +4,8 @@
 
 #define NKOOKDOKLMK_CTOR_OFFSET UNITYSDK_OFFSET(0xBC4C950)
 
+inline static constexpr unsigned int NKOOKDOKLMK_TypeDefinitionIndex = 72396;
+
 	class NKOOKDOKLMK : public ::System::Object
 	{
 	public:

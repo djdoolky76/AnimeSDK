@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int ConsoleDelegate_StoreIsEmptyCallback_TypeDefinitionIndex = 7615;
+
 	class ConsoleDelegate_StoreIsEmptyCallback : public ::System::MulticastDelegate
 	{
 	public:

@@ -30,6 +30,8 @@ namespace System { class String; }
 #define MNEPAIGBPGM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EA94880)
 #define MNEPAIGBPGM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EA948E0)
 
+inline static constexpr unsigned int MNEPAIGBPGM_TypeDefinitionIndex = 34015;
+
 	class MNEPAIGBPGM : public ::System::Object
 	{
 	public:

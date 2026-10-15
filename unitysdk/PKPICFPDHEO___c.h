@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define PKPICFPDHEO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DF9A4F0)
 #define PKPICFPDHEO___C___CCTOR_B__93_0_OFFSET UNITYSDK_OFFSET(0x1DF9A500)
 
+inline static constexpr unsigned int PKPICFPDHEO___c_TypeDefinitionIndex = 30359;
+
 	class PKPICFPDHEO___c : public ::System::Object
 	{
 	public:

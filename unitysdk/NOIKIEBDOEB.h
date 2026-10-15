@@ -22,6 +22,8 @@ namespace System { class Object; }
 #define NOIKIEBDOEB_OLFLGNAFPJK_OFFSET UNITYSDK_OFFSET(0xBCF0A70)
 #define NOIKIEBDOEB__ONBIND_OFFSET UNITYSDK_OFFSET(0xBCF0970)
 
+inline static constexpr unsigned int NOIKIEBDOEB_TypeDefinitionIndex = 72236;
+
 	class NOIKIEBDOEB : public ::FMPCODLIOLG
 	{
 	public:

@@ -21,6 +21,8 @@ namespace System { class Type; }
 
 namespace Google::Protobuf::Reflection
 {
+	inline static constexpr unsigned int GeneratedClrTypeInfo_TypeDefinitionIndex = 5546;
+
 	class GeneratedClrTypeInfo : public ::System::Object
 	{
 	public:

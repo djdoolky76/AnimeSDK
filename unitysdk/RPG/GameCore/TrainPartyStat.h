@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TrainPartyStat; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TrainPartyStat_TypeDefinitionIndex = 10631;
+
 	class TrainPartyStat : public ::RPG::GameCore::JsonConfig
 	{
 	public:

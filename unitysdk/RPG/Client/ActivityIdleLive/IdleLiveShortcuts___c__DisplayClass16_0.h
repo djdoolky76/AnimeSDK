@@ -8,6 +8,8 @@ class FHFCJKKKNLP;
 
 namespace RPG::Client::ActivityIdleLive
 {
+	inline static constexpr unsigned int IdleLiveShortcuts___c__DisplayClass16_0_TypeDefinitionIndex = 75318;
+
 	class IdleLiveShortcuts___c__DisplayClass16_0 : public ::System::Object
 	{
 	public:

@@ -21,6 +21,8 @@ namespace System { class Object; }
 #define BFOAGHGAMIB_NFINIHKKLPK_OFFSET UNITYSDK_OFFSET(0xB1744D0)
 #define BFOAGHGAMIB_NGOHCBGKBKN_OFFSET UNITYSDK_OFFSET(0xB174410)
 
+inline static constexpr unsigned int BFOAGHGAMIB_TypeDefinitionIndex = 62724;
+
 	class BFOAGHGAMIB : public ::System::Object
 	{
 	public:

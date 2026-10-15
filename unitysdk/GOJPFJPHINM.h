@@ -55,6 +55,8 @@ namespace System::Threading { class Thread; }
 #define GOJPFJPHINM_POMLHHJPNMI_OFFSET UNITYSDK_OFFSET(0x1C483F60)
 #define GOJPFJPHINM_PPJLDHAMPNE_OFFSET UNITYSDK_OFFSET(0x1C482640)
 
+inline static constexpr unsigned int GOJPFJPHINM_TypeDefinitionIndex = 41583;
+
 	class GOJPFJPHINM : public ::System::Object
 	{
 	public:

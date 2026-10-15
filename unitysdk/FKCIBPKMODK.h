@@ -30,6 +30,8 @@ namespace System { class String; }
 #define FKCIBPKMODK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E3AC1D0)
 #define FKCIBPKMODK_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E3AC230)
 
+inline static constexpr unsigned int FKCIBPKMODK_TypeDefinitionIndex = 29716;
+
 	class FKCIBPKMODK : public ::System::Object
 	{
 	public:

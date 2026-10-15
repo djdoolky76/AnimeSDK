@@ -33,6 +33,8 @@ namespace System { class String; }
 #define MGFJDLIBABO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EA24420)
 #define MGFJDLIBABO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EA24480)
 
+inline static constexpr unsigned int MGFJDLIBABO_TypeDefinitionIndex = 28827;
+
 	class MGFJDLIBABO : public ::System::Object
 	{
 	public:

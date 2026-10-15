@@ -10,6 +10,8 @@ namespace RPG::GameCore { class DeferCreateTrialPlayer; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DeferCreateTrialPlayer_TypeDefinitionIndex = 23671;
+
 	class DeferCreateTrialPlayer : public ::RPG::GameCore::TaskConfig
 	{
 	public:

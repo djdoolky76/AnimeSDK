@@ -6,6 +6,8 @@
 
 namespace System::Reflection
 {
+	inline static constexpr unsigned int RuntimeParameterInfo_TypeDefinitionIndex = 627;
+
 	class RuntimeParameterInfo : public ::System::Reflection::ParameterInfo
 	{
 	public:

@@ -15,6 +15,8 @@ namespace System { class Object; }
 #define JGKIPOLPACC_OPCKNBHNBOA_OFFSET UNITYSDK_OFFSET(0xB19B220)
 #define JGKIPOLPACC_TICK_OFFSET UNITYSDK_OFFSET(0xB19B0B0)
 
+inline static constexpr unsigned int JGKIPOLPACC_TypeDefinitionIndex = 55861;
+
 	class JGKIPOLPACC : public ::System::Object
 	{
 	public:

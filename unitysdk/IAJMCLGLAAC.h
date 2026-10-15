@@ -35,6 +35,8 @@ namespace System { class String; }
 #define IAJMCLGLAAC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E605D00)
 #define IAJMCLGLAAC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E605D60)
 
+inline static constexpr unsigned int IAJMCLGLAAC_TypeDefinitionIndex = 28550;
+
 	class IAJMCLGLAAC : public ::System::Object
 	{
 	public:

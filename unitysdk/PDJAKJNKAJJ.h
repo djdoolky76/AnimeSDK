@@ -37,6 +37,8 @@ namespace System { class String; }
 #define PDJAKJNKAJJ_SET_SUBATTRIBUTE_OFFSET UNITYSDK_OFFSET(0xC0155E0)
 #define PDJAKJNKAJJ_SET_SUBMISSIONID_OFFSET UNITYSDK_OFFSET(0xC015660)
 
+inline static constexpr unsigned int PDJAKJNKAJJ_TypeDefinitionIndex = 80772;
+
 	class PDJAKJNKAJJ : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define JLHEBEDKIPC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E779240)
 #define JLHEBEDKIPC___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1E779250)
 
+inline static constexpr unsigned int JLHEBEDKIPC___c_TypeDefinitionIndex = 32556;
+
 	class JLHEBEDKIPC___c : public ::System::Object
 	{
 	public:

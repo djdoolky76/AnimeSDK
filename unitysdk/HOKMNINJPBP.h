@@ -37,6 +37,8 @@ namespace System { class String; }
 #define HOKMNINJPBP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E5EBC90)
 #define HOKMNINJPBP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E5EBCF0)
 
+inline static constexpr unsigned int HOKMNINJPBP_TypeDefinitionIndex = 27797;
+
 	class HOKMNINJPBP : public ::System::Object
 	{
 	public:

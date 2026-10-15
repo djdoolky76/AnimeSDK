@@ -148,6 +148,8 @@ namespace System::Runtime::Serialization { class SerializationInfo; }
 
 namespace System
 {
+	inline static constexpr unsigned int Uri_TypeDefinitionIndex = 2461;
+
 	class Uri : public ::System::Object
 	{
 	public:

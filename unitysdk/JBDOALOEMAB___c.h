@@ -9,6 +9,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 #define JBDOALOEMAB___C_CTOR_OFFSET UNITYSDK_OFFSET(0x16569700)
 #define JBDOALOEMAB___C__SELECTENTITYIDS_B__5_0_OFFSET UNITYSDK_OFFSET(0x16569710)
 
+inline static constexpr unsigned int JBDOALOEMAB___c_TypeDefinitionIndex = 77637;
+
 	class JBDOALOEMAB___c : public ::System::Object
 	{
 	public:

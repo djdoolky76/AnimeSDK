@@ -7,6 +7,8 @@ namespace RPG::GameCore { class GameEntity; }
 #define MDJKOJJFBNA_CLEAR_OFFSET UNITYSDK_OFFSET(0xB8AC820)
 #define MDJKOJJFBNA_CTOR_OFFSET UNITYSDK_OFFSET(0xB8AC870)
 
+inline static constexpr unsigned int MDJKOJJFBNA_TypeDefinitionIndex = 57064;
+
 	class MDJKOJJFBNA : public ::System::Object
 	{
 	public:

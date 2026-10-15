@@ -14,6 +14,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueAreaConfigRow_TypeDefinitionIndex = 14705;
+
 	class RogueAreaConfigRow : public ::System::Object
 	{
 	public:

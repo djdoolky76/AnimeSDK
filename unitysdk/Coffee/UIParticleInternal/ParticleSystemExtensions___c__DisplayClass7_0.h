@@ -10,6 +10,8 @@ namespace UnityEngine { class Transform; }
 
 namespace Coffee::UIParticleInternal
 {
+	inline static constexpr unsigned int ParticleSystemExtensions___c__DisplayClass7_0_TypeDefinitionIndex = 45147;
+
 	class ParticleSystemExtensions___c__DisplayClass7_0 : public ::System::Object
 	{
 	public:

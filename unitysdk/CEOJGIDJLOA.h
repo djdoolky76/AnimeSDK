@@ -28,6 +28,8 @@ namespace System { class String; }
 #define CEOJGIDJLOA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E09D390)
 #define CEOJGIDJLOA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E09D3F0)
 
+inline static constexpr unsigned int CEOJGIDJLOA_TypeDefinitionIndex = 25800;
+
 	class CEOJGIDJLOA : public ::System::Object
 	{
 	public:

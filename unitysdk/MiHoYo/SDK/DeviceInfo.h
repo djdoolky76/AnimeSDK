@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int DeviceInfo_TypeDefinitionIndex = 7874;
+
 	class DeviceInfo : public ::System::Object
 	{
 	public:

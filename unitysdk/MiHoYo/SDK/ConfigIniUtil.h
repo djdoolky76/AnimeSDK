@@ -8,6 +8,8 @@ namespace MiHoYo::SDK { class ConfigIniModel; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int ConfigIniUtil_TypeDefinitionIndex = 7976;
+
 	class ConfigIniUtil : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FiveDimStageViewConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimStageViewConfig_TypeDefinitionIndex = 18550;
+
 	class FiveDimStageViewConfig : public ::RPG::GameCore::LittleGameViewComponentConfig
 	{
 	public:

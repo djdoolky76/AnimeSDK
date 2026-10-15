@@ -31,6 +31,8 @@ namespace System { class String; }
 #define NCGNOILONNI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EADC9E0)
 #define NCGNOILONNI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EADCA40)
 
+inline static constexpr unsigned int NCGNOILONNI_TypeDefinitionIndex = 27904;
+
 	class NCGNOILONNI : public ::System::Object
 	{
 	public:

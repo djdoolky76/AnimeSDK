@@ -9,6 +9,8 @@ namespace System { template <typename T> class Func_1; }
 #define JPEGIEJOGIA___C_CTOR_OFFSET UNITYSDK_OFFSET(0xB2BBA30)
 #define JPEGIEJOGIA___C__CREATEITEM_B__1_0_OFFSET UNITYSDK_OFFSET(0xB2BBA40)
 
+inline static constexpr unsigned int JPEGIEJOGIA___c_TypeDefinitionIndex = 65577;
+
 	class JPEGIEJOGIA___c : public ::System::Object
 	{
 	public:

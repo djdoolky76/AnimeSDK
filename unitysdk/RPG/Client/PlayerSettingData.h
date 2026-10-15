@@ -58,6 +58,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PlayerSettingData_TypeDefinitionIndex = 66693;
+
 	class PlayerSettingData : public ::System::Object
 	{
 	public:

@@ -30,6 +30,8 @@ namespace System { class String; }
 #define NENHKMEFAEC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EAFEA80)
 #define NENHKMEFAEC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EAFEAE0)
 
+inline static constexpr unsigned int NENHKMEFAEC_TypeDefinitionIndex = 31270;
+
 	class NENHKMEFAEC : public ::System::Object
 	{
 	public:

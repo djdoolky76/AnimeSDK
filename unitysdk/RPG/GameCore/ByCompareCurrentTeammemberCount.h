@@ -14,6 +14,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByCompareCurrentTeammemberCount_TypeDefinitionIndex = 21678;
+
 	class ByCompareCurrentTeammemberCount : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

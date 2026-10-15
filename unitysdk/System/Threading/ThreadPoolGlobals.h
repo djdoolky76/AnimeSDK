@@ -7,6 +7,8 @@ namespace System::Threading { class ThreadPoolWorkQueue; }
 
 namespace System::Threading
 {
+	inline static constexpr unsigned int ThreadPoolGlobals_TypeDefinitionIndex = 857;
+
 	class ThreadPoolGlobals : public ::System::Object
 	{
 	public:

@@ -18,6 +18,8 @@ namespace UnityEngine::ProBuilder { class Vertex; }
 
 namespace UnityEngine::ProBuilder
 {
+	inline static constexpr unsigned int FaceRebuildData_TypeDefinitionIndex = 44359;
+
 	class FaceRebuildData : public ::System::Object
 	{
 	public:

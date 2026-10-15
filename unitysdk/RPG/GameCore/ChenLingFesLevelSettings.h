@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ChenLingFesLevelSettings; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChenLingFesLevelSettings_TypeDefinitionIndex = 18429;
+
 	class ChenLingFesLevelSettings : public ::RPG::GameCore::LittleGameLevelSettings
 	{
 	public:

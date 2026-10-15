@@ -19,6 +19,8 @@ namespace System::Net::Http::Headers { template <typename T> class HttpHeaderVal
 
 namespace System::Net::Http::Headers
 {
+	inline static constexpr unsigned int HttpRequestHeaders_TypeDefinitionIndex = 3797;
+
 	class HttpRequestHeaders : public ::System::Net::Http::Headers::HttpHeaders
 	{
 	public:

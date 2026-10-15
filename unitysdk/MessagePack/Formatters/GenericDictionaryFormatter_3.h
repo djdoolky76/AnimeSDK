@@ -3,6 +3,8 @@
 
 namespace MessagePack::Formatters
 {
+	inline static constexpr unsigned int GenericDictionaryFormatter_3_TypeDefinitionIndex = 7419;
+
 	template <typename T1, typename T2, typename T3>
 	class GenericDictionaryFormatter_3
 	{

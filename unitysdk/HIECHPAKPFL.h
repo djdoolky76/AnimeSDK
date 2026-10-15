@@ -9,6 +9,8 @@ namespace UnityEngine { class GameObject; }
 
 #define HIECHPAKPFL_CTOR_OFFSET UNITYSDK_OFFSET(0x1CACC1E0)
 
+inline static constexpr unsigned int HIECHPAKPFL_TypeDefinitionIndex = 43223;
+
 	class HIECHPAKPFL : public ::System::Object
 	{
 	public:

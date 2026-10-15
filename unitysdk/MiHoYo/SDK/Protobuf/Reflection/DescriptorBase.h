@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::Protobuf::Reflection
 {
+	inline static constexpr unsigned int DescriptorBase_TypeDefinitionIndex = 35820;
+
 	class DescriptorBase : public ::System::Object
 	{
 	public:

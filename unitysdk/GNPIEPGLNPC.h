@@ -27,6 +27,8 @@ namespace System { class String; }
 #define GNPIEPGLNPC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E4E8380)
 #define GNPIEPGLNPC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E4E83E0)
 
+inline static constexpr unsigned int GNPIEPGLNPC_TypeDefinitionIndex = 30350;
+
 	class GNPIEPGLNPC : public ::System::Object
 	{
 	public:

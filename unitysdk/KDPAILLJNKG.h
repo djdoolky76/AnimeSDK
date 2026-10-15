@@ -8,6 +8,8 @@ class KDPAILLJNKG;
 #define KDPAILLJNKG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D086860)
 #define KDPAILLJNKG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D086820)
 
+inline static constexpr unsigned int KDPAILLJNKG_TypeDefinitionIndex = 10225;
+
 	class KDPAILLJNKG : public ::RPG::GameCore::TaskConfig
 	{
 	public:

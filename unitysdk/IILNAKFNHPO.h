@@ -6,6 +6,8 @@ namespace RPG::Client { class RogueTournPersonaStyleExpChangeParam; }
 #define IILNAKFNHPO_CTOR_OFFSET UNITYSDK_OFFSET(0x1644A650)
 #define IILNAKFNHPO_TRIGGERACTION_OFFSET UNITYSDK_OFFSET(0x1644A660)
 
+inline static constexpr unsigned int IILNAKFNHPO_TypeDefinitionIndex = 67039;
+
 	class IILNAKFNHPO : public ::System::Object
 	{
 	public:

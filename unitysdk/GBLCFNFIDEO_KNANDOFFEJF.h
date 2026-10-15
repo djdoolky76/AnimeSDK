@@ -5,6 +5,8 @@
 
 #define GBLCFNFIDEO_KNANDOFFEJF_CTOR_OFFSET UNITYSDK_OFFSET(0x1DD59220)
 
+inline static constexpr unsigned int GBLCFNFIDEO_KNANDOFFEJF_TypeDefinitionIndex = 6264;
+
 	class GBLCFNFIDEO_KNANDOFFEJF : public ::System::Object
 	{
 	public:

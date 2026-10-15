@@ -15,6 +15,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int Scene_InstanceArrayExternalInputBridge_TypeDefinitionIndex = 70853;
+
 	class Scene_InstanceArrayExternalInputBridge
 	{
 	public:

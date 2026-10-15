@@ -64,6 +64,8 @@ namespace UnityEngine::AI { class AsyncNavMeshSimulator; }
 #define MLFAGNKOOBJ_PJAILPEMLBH_OFFSET UNITYSDK_OFFSET(0xB9AB020)
 #define MLFAGNKOOBJ_SET_ALLOWAUTORESPAWN_OFFSET UNITYSDK_OFFSET(0xB9AC4F0)
 
+inline static constexpr unsigned int MLFAGNKOOBJ_TypeDefinitionIndex = 69282;
+
 	class MLFAGNKOOBJ : public ::System::Object
 	{
 	public:

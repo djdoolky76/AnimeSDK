@@ -10,6 +10,8 @@ namespace UnityEngine { class Object; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TABehaviorBase___c__DisplayClass8_0_TypeDefinitionIndex = 70768;
+
 	class TABehaviorBase___c__DisplayClass8_0 : public ::System::Object
 	{
 	public:

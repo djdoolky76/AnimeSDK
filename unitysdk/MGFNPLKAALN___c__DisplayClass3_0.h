@@ -7,6 +7,8 @@ class MGFNPLKAALN;
 #define MGFNPLKAALN___C__DISPLAYCLASS3_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB91AE70)
 #define MGFNPLKAALN___C__DISPLAYCLASS3_0__FINISHREPORT_B__0_OFFSET UNITYSDK_OFFSET(0xB91AE80)
 
+inline static constexpr unsigned int MGFNPLKAALN___c__DisplayClass3_0_TypeDefinitionIndex = 80225;
+
 	class MGFNPLKAALN___c__DisplayClass3_0 : public ::System::Object
 	{
 	public:

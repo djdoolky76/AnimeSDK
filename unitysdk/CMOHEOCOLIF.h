@@ -12,6 +12,8 @@ namespace System { class Object; }
 #define CMOHEOCOLIF_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xDA40BB0)
 #define CMOHEOCOLIF_TICK_OFFSET UNITYSDK_OFFSET(0xDA40C00)
 
+inline static constexpr unsigned int CMOHEOCOLIF_TypeDefinitionIndex = 58906;
+
 	class CMOHEOCOLIF : public ::GELIALJDFBL
 	{
 	public:

@@ -7,6 +7,8 @@ namespace RPG::GameCore { class ChimeraDuelChimeraPresetRow; }
 #define BBBEMIEOGAG_FMHKLHAKMKO_OFFSET UNITYSDK_OFFSET(0x15E82710)
 #define BBBEMIEOGAG_GET__ROW_OFFSET UNITYSDK_OFFSET(0x15E82700)
 
+inline static constexpr unsigned int BBBEMIEOGAG_TypeDefinitionIndex = 63355;
+
 	class BBBEMIEOGAG : public ::System::Object
 	{
 	public:

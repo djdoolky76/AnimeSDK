@@ -11,6 +11,8 @@ namespace System { class Object; }
 #define BJIAFAFAFNE___C__DISPLAYCLASS30_0__TRYASYNCSWITCHSECTIONUI_B__1_OFFSET UNITYSDK_OFFSET(0xB7A0880)
 #define BJIAFAFAFNE___C__DISPLAYCLASS30_0__TRYASYNCSWITCHSECTIONUI_B__2_OFFSET UNITYSDK_OFFSET(0xB7A08B0)
 
+inline static constexpr unsigned int BJIAFAFAFNE___c__DisplayClass30_0_TypeDefinitionIndex = 76458;
+
 	class BJIAFAFAFNE___c__DisplayClass30_0 : public ::System::Object
 	{
 	public:

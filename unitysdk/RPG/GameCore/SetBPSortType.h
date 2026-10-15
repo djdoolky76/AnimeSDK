@@ -11,6 +11,8 @@ namespace RPG::GameCore { class SetBPSortType; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetBPSortType_TypeDefinitionIndex = 23221;
+
 	class SetBPSortType : public ::RPG::GameCore::TaskConfig
 	{
 	public:

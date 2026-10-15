@@ -10,6 +10,8 @@ class JBFGHNLMEDI;
 #define AGMBFOLALCB_CTOR_OFFSET UNITYSDK_OFFSET(0xCF40450)
 #define AGMBFOLALCB_OKPLPEELPBC_OFFSET UNITYSDK_OFFSET(0xCF40460)
 
+inline static constexpr unsigned int AGMBFOLALCB_TypeDefinitionIndex = 76423;
+
 	class AGMBFOLALCB : public ::HALHKJLBIKJ
 	{
 	public:

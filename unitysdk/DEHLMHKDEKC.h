@@ -33,6 +33,8 @@ namespace UnityEngine { class Animator; }
 #define DEHLMHKDEKC_SET_TOTALTIMEMS_OFFSET UNITYSDK_OFFSET(0xE50C4F0)
 #define DEHLMHKDEKC_TICK_OFFSET UNITYSDK_OFFSET(0xE50C670)
 
+inline static constexpr unsigned int DEHLMHKDEKC_TypeDefinitionIndex = 78114;
+
 	class DEHLMHKDEKC : public ::System::Object
 	{
 	public:

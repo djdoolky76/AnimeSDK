@@ -10,6 +10,8 @@ namespace RPG::Client { class ST_Parkour_ShutdownEngine; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ST_Parkour_ShutdownEngine_TypeDefinitionIndex = 10270;
+
 	class ST_Parkour_ShutdownEngine : public ::RPG::GameCore::STTaskConfig
 	{
 	public:

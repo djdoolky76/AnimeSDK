@@ -12,6 +12,8 @@ namespace RPGTools::Timeline { class LiveStreamBulletCommentsClip; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int LiveStreamBulletCommentsBehaviour_TypeDefinitionIndex = 48172;
+
 	class LiveStreamBulletCommentsBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

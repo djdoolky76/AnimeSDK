@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define KBNMOCNNMKO_NDEPJAHOEOL_OFFSET UNITYSDK_OFFSET(0xB3237A0)
 #define KBNMOCNNMKO_SET_CARDS_OFFSET UNITYSDK_OFFSET(0xB323C70)
 
+inline static constexpr unsigned int KBNMOCNNMKO_TypeDefinitionIndex = 63793;
+
 	class KBNMOCNNMKO : public ::System::Object
 	{
 	public:

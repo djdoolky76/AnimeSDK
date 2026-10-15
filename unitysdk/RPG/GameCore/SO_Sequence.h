@@ -11,6 +11,8 @@ namespace RPG::GameCore { class SO_Sequence; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SO_Sequence_TypeDefinitionIndex = 20056;
+
 	class SO_Sequence : public ::RPG::GameCore::SOCompositeConfig
 	{
 	public:

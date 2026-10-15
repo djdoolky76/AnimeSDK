@@ -16,6 +16,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonsterGuideSkillData_TypeDefinitionIndex = 63144;
+
 	class MonsterGuideSkillData : public ::System::Object
 	{
 	public:

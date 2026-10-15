@@ -9,6 +9,8 @@ namespace UnityEngine { class Texture; }
 
 namespace EnviromentSystemV2Space
 {
+	inline static constexpr unsigned int ImageKeyFrameConfig_TypeDefinitionIndex = 49483;
+
 	class ImageKeyFrameConfig : public ::System::Object
 	{
 	public:

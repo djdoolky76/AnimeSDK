@@ -10,6 +10,8 @@ namespace RPG::GameCore { class SetWaypointIgnoreLock; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetWaypointIgnoreLock_TypeDefinitionIndex = 20876;
+
 	class SetWaypointIgnoreLock : public ::RPG::GameCore::TaskConfig
 	{
 	public:

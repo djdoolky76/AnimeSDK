@@ -67,6 +67,8 @@ namespace UnityEngine::Timeline { class TimelineAsset; }
 
 namespace RPG::Client::ActivityHipplen
 {
+	inline static constexpr unsigned int HipplenCountingChimeraMiniGame_TypeDefinitionIndex = 75584;
+
 	class HipplenCountingChimeraMiniGame : public ::RPG::Client::ActivityHipplen::ActivityHipplenMiniGameBase
 	{
 	public:

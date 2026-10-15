@@ -27,6 +27,8 @@ namespace System { class String; }
 #define OFIKFCJEDNP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DE48590)
 #define OFIKFCJEDNP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DE485F0)
 
+inline static constexpr unsigned int OFIKFCJEDNP_TypeDefinitionIndex = 27228;
+
 	class OFIKFCJEDNP : public ::System::Object
 	{
 	public:

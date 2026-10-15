@@ -9,6 +9,8 @@ namespace Cysharp::Threading::Tasks::Internal { class EmptyDisposable; }
 
 namespace Cysharp::Threading::Tasks::Internal
 {
+	inline static constexpr unsigned int EmptyDisposable_TypeDefinitionIndex = 38693;
+
 	class EmptyDisposable : public ::System::Object
 	{
 	public:

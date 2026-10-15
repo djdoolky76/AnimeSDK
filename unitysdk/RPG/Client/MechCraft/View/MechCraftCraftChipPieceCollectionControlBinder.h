@@ -8,6 +8,8 @@ namespace RPG::Client { class PrefabLoadMeta; }
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftCraftChipPieceCollectionControlBinder_TypeDefinitionIndex = 79867;
+
 	class MechCraftCraftChipPieceCollectionControlBinder : public ::RPG::Client::MechCraft::View::MechCraftBinderBase
 	{
 	public:

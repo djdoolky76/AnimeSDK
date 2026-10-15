@@ -14,6 +14,8 @@ namespace UnityEngine { class Transform; }
 #define FGCPOAGKGCE_JDEKJLHMPLG_OFFSET UNITYSDK_OFFSET(0x15753DA0)
 #define FGCPOAGKGCE_NJOBMENFBFJ_OFFSET UNITYSDK_OFFSET(0x15753EA0)
 
+inline static constexpr unsigned int FGCPOAGKGCE_TypeDefinitionIndex = 72378;
+
 	class FGCPOAGKGCE : public ::System::Object
 	{
 	public:

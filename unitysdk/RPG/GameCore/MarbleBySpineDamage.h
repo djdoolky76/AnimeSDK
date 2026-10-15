@@ -10,6 +10,8 @@ namespace RPG::GameCore { class MarbleBySpineDamage; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MarbleBySpineDamage_TypeDefinitionIndex = 16894;
+
 	class MarbleBySpineDamage : public ::RPG::GameCore::MarblePredicateConfig
 	{
 	public:

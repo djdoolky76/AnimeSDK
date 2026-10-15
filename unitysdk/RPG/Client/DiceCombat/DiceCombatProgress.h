@@ -6,6 +6,8 @@
 
 namespace RPG::Client::DiceCombat
 {
+	inline static constexpr unsigned int DiceCombatProgress_TypeDefinitionIndex = 76081;
+
 	class DiceCombatProgress : public ::System::Object
 	{
 	public:

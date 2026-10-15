@@ -5,6 +5,8 @@
 #define DABBFHEANCE_CTOR_OFFSET UNITYSDK_OFFSET(0xDFBAB90)
 #define DABBFHEANCE_DNFGFHMNDEF_OFFSET UNITYSDK_OFFSET(0xDFBAA10)
 
+inline static constexpr unsigned int DABBFHEANCE_TypeDefinitionIndex = 68940;
+
 	class DABBFHEANCE : public ::FKJEJCFGKNJ
 	{
 	public:

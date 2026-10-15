@@ -20,6 +20,8 @@ namespace System { class Nullable; }
 
 namespace Cysharp::Threading::Tasks::Linq
 {
+	inline static constexpr unsigned int Average_TypeDefinitionIndex = 45228;
+
 	class Average : public ::System::Object
 	{
 	public:

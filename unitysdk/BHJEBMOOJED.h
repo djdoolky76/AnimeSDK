@@ -30,6 +30,8 @@ namespace System { class String; }
 #define BHJEBMOOJED_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DDF6760)
 #define BHJEBMOOJED_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DDF67C0)
 
+inline static constexpr unsigned int BHJEBMOOJED_TypeDefinitionIndex = 26612;
+
 	class BHJEBMOOJED : public ::System::Object
 	{
 	public:

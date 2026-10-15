@@ -7,6 +7,8 @@
 
 namespace RPG::Client::Pet
 {
+	inline static constexpr unsigned int PetInstanceIdentifierExtensions_TypeDefinitionIndex = 75683;
+
 	class PetInstanceIdentifierExtensions : public ::System::Object
 	{
 	public:

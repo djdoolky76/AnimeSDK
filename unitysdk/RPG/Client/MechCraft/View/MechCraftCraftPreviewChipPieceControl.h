@@ -21,6 +21,8 @@ namespace RPG::Client::MechCraft::View { class MechCraftCraftPreviewChipPieceCon
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftCraftPreviewChipPieceControl_TypeDefinitionIndex = 79895;
+
 	class MechCraftCraftPreviewChipPieceControl : public ::UnityEngine::MonoBehaviour
 	{
 	public:

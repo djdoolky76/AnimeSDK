@@ -3,6 +3,8 @@
 
 namespace System::Linq::Expressions
 {
+	inline static constexpr unsigned int GotoExpressionKind_TypeDefinitionIndex = 3221;
+
 	enum class GotoExpressionKind : ::System::Int32
 	{
 		Goto = 0,

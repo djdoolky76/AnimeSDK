@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TrainPartyPerformanceCommonCharacter; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TrainPartyPerformanceCommonCharacter_TypeDefinitionIndex = 16258;
+
 	class TrainPartyPerformanceCommonCharacter : public ::RPG::GameCore::TrainPartyPerformanceCharacter
 	{
 	public:

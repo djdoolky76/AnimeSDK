@@ -5,6 +5,8 @@ namespace RPG::GameCore { class LevelTriggerInfo; }
 
 #define JLHCGPJHMIL_CTOR_OFFSET UNITYSDK_OFFSET(0x1CBA2FD0)
 
+inline static constexpr unsigned int JLHCGPJHMIL_TypeDefinitionIndex = 43650;
+
 	class JLHCGPJHMIL : public ::System::Object
 	{
 	public:

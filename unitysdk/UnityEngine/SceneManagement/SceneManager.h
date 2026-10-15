@@ -44,6 +44,8 @@ namespace UnityEngine::Events { class UnityAction; }
 
 namespace UnityEngine::SceneManagement
 {
+	inline static constexpr unsigned int SceneManager_TypeDefinitionIndex = 4510;
+
 	class SceneManager : public ::System::Object
 	{
 	public:

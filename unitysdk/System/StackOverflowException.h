@@ -11,6 +11,8 @@ namespace System::Runtime::Serialization { class SerializationInfo; }
 
 namespace System
 {
+	inline static constexpr unsigned int StackOverflowException_TypeDefinitionIndex = 329;
+
 	class StackOverflowException : public ::System::SystemException
 	{
 	public:

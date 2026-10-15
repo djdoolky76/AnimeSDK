@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ByCompareRogueTournLevel; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByCompareRogueTournLevel_TypeDefinitionIndex = 21236;
+
 	class ByCompareRogueTournLevel : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

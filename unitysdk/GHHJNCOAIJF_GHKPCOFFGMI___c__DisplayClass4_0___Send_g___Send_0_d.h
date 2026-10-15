@@ -10,6 +10,8 @@ namespace System { class Object; }
 #define GHHJNCOAIJF_GHKPCOFFGMI___C__DISPLAYCLASS4_0___SEND_G___SEND_0_D_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x15A213A0)
 #define GHHJNCOAIJF_GHKPCOFFGMI___C__DISPLAYCLASS4_0___SEND_G___SEND_0_D_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15A211A0)
 
+inline static constexpr unsigned int GHHJNCOAIJF_GHKPCOFFGMI___c__DisplayClass4_0___Send_g___Send_0_d_TypeDefinitionIndex = 69354;
+
 	class GHHJNCOAIJF_GHKPCOFFGMI___c__DisplayClass4_0___Send_g___Send_0_d : public ::System::Object
 	{
 	public:

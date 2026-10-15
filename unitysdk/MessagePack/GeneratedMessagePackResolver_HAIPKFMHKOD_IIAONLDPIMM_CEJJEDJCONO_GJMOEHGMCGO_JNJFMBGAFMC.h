@@ -12,6 +12,8 @@ namespace MessagePack { class MessagePackSerializerOptions; }
 
 namespace MessagePack
 {
+	inline static constexpr unsigned int GeneratedMessagePackResolver_HAIPKFMHKOD_IIAONLDPIMM_CEJJEDJCONO_GJMOEHGMCGO_JNJFMBGAFMC_TypeDefinitionIndex = 36108;
+
 	class GeneratedMessagePackResolver_HAIPKFMHKOD_IIAONLDPIMM_CEJJEDJCONO_GJMOEHGMCGO_JNJFMBGAFMC : public ::System::Object
 	{
 	public:

@@ -29,6 +29,8 @@ namespace System { class String; }
 #define JABBBMCMKAI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E6EB180)
 #define JABBBMCMKAI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E6EB1E0)
 
+inline static constexpr unsigned int JABBBMCMKAI_TypeDefinitionIndex = 30348;
+
 	class JABBBMCMKAI : public ::System::Object
 	{
 	public:

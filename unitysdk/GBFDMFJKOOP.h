@@ -40,6 +40,8 @@ namespace System { class String; }
 #define GBFDMFJKOOP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E429A50)
 #define GBFDMFJKOOP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E429AB0)
 
+inline static constexpr unsigned int GBFDMFJKOOP_TypeDefinitionIndex = 28758;
+
 	class GBFDMFJKOOP : public ::System::Object
 	{
 	public:

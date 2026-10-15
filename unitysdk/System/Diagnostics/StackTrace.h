@@ -27,6 +27,8 @@ namespace System::Text { class StringBuilder; }
 
 namespace System::Diagnostics
 {
+	inline static constexpr unsigned int StackTrace_TypeDefinitionIndex = 1584;
+
 	class StackTrace : public ::System::Object
 	{
 	public:

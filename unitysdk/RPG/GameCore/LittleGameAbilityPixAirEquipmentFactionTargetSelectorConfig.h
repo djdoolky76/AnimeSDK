@@ -11,6 +11,8 @@ namespace RPG::GameCore { class LittleGameAbilityPixAirEquipmentFactionTargetSel
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LittleGameAbilityPixAirEquipmentFactionTargetSelectorConfig_TypeDefinitionIndex = 21376;
+
 	class LittleGameAbilityPixAirEquipmentFactionTargetSelectorConfig : public ::RPG::GameCore::BaseLittleGameAbilityTargetSelectorConfig
 	{
 	public:

@@ -3,6 +3,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RenderTestMode_TypeDefinitionIndex = 61203;
+
 	enum class RenderTestMode : ::System::Int32
 	{
 		AvatarRenderMode = 0,

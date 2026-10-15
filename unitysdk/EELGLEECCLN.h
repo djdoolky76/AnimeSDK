@@ -6,6 +6,8 @@ namespace RPG::GameCore { class WolfBroPuzzleReport; }
 #define EELGLEECCLN_CTOR_OFFSET UNITYSDK_OFFSET(0x13A36410)
 #define EELGLEECCLN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x13A36440)
 
+inline static constexpr unsigned int EELGLEECCLN_TypeDefinitionIndex = 58963;
+
 	class EELGLEECCLN
 	{
 	public:

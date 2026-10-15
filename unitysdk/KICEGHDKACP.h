@@ -32,6 +32,8 @@ namespace System { class String; }
 #define KICEGHDKACP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E855040)
 #define KICEGHDKACP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E8550A0)
 
+inline static constexpr unsigned int KICEGHDKACP_TypeDefinitionIndex = 34718;
+
 	class KICEGHDKACP : public ::System::Object
 	{
 	public:

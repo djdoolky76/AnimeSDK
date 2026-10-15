@@ -3,6 +3,8 @@
 
 namespace MessagePack::Unity::Extension
 {
+	inline static constexpr unsigned int IReverseEndianessHelper_TypeDefinitionIndex = 10153;
+
 	class IReverseEndianessHelper
 	{
 	public:

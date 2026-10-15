@@ -22,6 +22,8 @@ namespace System::Collections::Generic { template <typename T> class Queue_1; }
 #define GOCODBMFHPH_OELCJEDFNFD_OFFSET UNITYSDK_OFFSET(0x15B2A0B0)
 #define GOCODBMFHPH_OMAPMGMEBFA_OFFSET UNITYSDK_OFFSET(0x15B2A1C0)
 
+inline static constexpr unsigned int GOCODBMFHPH_TypeDefinitionIndex = 76300;
+
 	class GOCODBMFHPH : public ::System::Object
 	{
 	public:

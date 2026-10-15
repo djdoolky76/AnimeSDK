@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyLi
 #define NLCKLJDLEPD_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xBC631F0)
 #define NLCKLJDLEPD_CTOR_OFFSET UNITYSDK_OFFSET(0xBC63280)
 
+inline static constexpr unsigned int NLCKLJDLEPD_TypeDefinitionIndex = 63905;
+
 	class NLCKLJDLEPD : public ::System::Object
 	{
 	public:

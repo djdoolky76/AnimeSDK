@@ -26,6 +26,8 @@ namespace RPG::Client::TrainParty { class TrainPartyPassengerStatusRankConfig; }
 
 namespace RPG::Client::TrainParty
 {
+	inline static constexpr unsigned int TrainPartyPassengerStatusInfo_TypeDefinitionIndex = 74354;
+
 	class TrainPartyPassengerStatusInfo : public ::System::Object
 	{
 	public:

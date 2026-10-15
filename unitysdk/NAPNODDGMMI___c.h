@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define NAPNODDGMMI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EACB640)
 #define NAPNODDGMMI___C___CCTOR_B__43_0_OFFSET UNITYSDK_OFFSET(0x1EACB650)
 
+inline static constexpr unsigned int NAPNODDGMMI___c_TypeDefinitionIndex = 27338;
+
 	class NAPNODDGMMI___c : public ::System::Object
 	{
 	public:

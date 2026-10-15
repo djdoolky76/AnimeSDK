@@ -25,6 +25,8 @@ namespace System { class String; }
 #define FNEKPCPNKLO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E3EE5E0)
 #define FNEKPCPNKLO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E3EE640)
 
+inline static constexpr unsigned int FNEKPCPNKLO_TypeDefinitionIndex = 26382;
+
 	class FNEKPCPNKLO : public ::System::Object
 	{
 	public:

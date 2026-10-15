@@ -43,6 +43,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int HandbookChapterData_TypeDefinitionIndex = 65614;
+
 	class HandbookChapterData : public ::System::Object
 	{
 	public:

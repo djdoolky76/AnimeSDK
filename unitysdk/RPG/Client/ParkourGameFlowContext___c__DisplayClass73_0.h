@@ -8,6 +8,8 @@ namespace RPG::Client { class ParkourGameCharacterInfo; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ParkourGameFlowContext___c__DisplayClass73_0_TypeDefinitionIndex = 61843;
+
 	class ParkourGameFlowContext___c__DisplayClass73_0 : public ::System::Object
 	{
 	public:

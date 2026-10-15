@@ -11,6 +11,8 @@ namespace System { class Object; }
 #define DDLDMDFIOMP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xE4E5B60)
 #define DDLDMDFIOMP___STARTTUTORIALMATCH_G__ONMATCHFLOWEND_2_0_OFFSET UNITYSDK_OFFSET(0xE4E61B0)
 
+inline static constexpr unsigned int DDLDMDFIOMP_TypeDefinitionIndex = 57939;
+
 	class DDLDMDFIOMP
 	{
 	public:

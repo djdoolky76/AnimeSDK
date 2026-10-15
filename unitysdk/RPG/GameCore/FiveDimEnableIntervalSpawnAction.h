@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FiveDimEnableIntervalSpawnAction; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimEnableIntervalSpawnAction_TypeDefinitionIndex = 18673;
+
 	class FiveDimEnableIntervalSpawnAction : public ::RPG::GameCore::FiveDimBaseEventAction
 	{
 	public:

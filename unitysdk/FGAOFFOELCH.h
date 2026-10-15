@@ -22,6 +22,8 @@ namespace RPG::GameCore { class VCameraDOFFocusEntity; }
 #define FGAOFFOELCH_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x15750EF0)
 #define FGAOFFOELCH_TICK_OFFSET UNITYSDK_OFFSET(0x15750F40)
 
+inline static constexpr unsigned int FGAOFFOELCH_TypeDefinitionIndex = 55797;
+
 	class FGAOFFOELCH : public ::GELIALJDFBL
 	{
 	public:

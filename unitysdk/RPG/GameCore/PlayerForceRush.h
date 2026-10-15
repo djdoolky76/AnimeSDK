@@ -10,6 +10,8 @@ namespace RPG::GameCore { class PlayerForceRush; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PlayerForceRush_TypeDefinitionIndex = 20006;
+
 	class PlayerForceRush : public ::RPG::GameCore::TaskConfig
 	{
 	public:

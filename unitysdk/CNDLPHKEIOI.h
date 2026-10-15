@@ -12,6 +12,8 @@ namespace RPG::GameCore { class EntityPosAdaptionConfig; }
 #define CNDLPHKEIOI_NGLLFBIBNKM_OFFSET UNITYSDK_OFFSET(0xDA4A480)
 #define CNDLPHKEIOI_TICK_OFFSET UNITYSDK_OFFSET(0xDA4A6F0)
 
+inline static constexpr unsigned int CNDLPHKEIOI_TypeDefinitionIndex = 57442;
+
 	class CNDLPHKEIOI : public ::RPG::GameCore::GameComponentBase
 	{
 	public:

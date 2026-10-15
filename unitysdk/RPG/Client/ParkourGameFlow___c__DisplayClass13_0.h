@@ -9,6 +9,8 @@ namespace RPG::Client::Promises { class Promise; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ParkourGameFlow___c__DisplayClass13_0_TypeDefinitionIndex = 61841;
+
 	class ParkourGameFlow___c__DisplayClass13_0 : public ::System::Object
 	{
 	public:

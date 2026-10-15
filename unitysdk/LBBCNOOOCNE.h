@@ -28,6 +28,8 @@ namespace System { class String; }
 #define LBBCNOOOCNE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E8D6610)
 #define LBBCNOOOCNE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E8D6670)
 
+inline static constexpr unsigned int LBBCNOOOCNE_TypeDefinitionIndex = 33081;
+
 	class LBBCNOOOCNE : public ::System::Object
 	{
 	public:

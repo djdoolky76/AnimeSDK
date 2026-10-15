@@ -28,6 +28,8 @@ namespace System { class String; }
 #define HHNBCLPNDFI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E58CB10)
 #define HHNBCLPNDFI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E58CB70)
 
+inline static constexpr unsigned int HHNBCLPNDFI_TypeDefinitionIndex = 29270;
+
 	class HHNBCLPNDFI : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace System { class Action; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MuseumUtils___c__DisplayClass5_0_TypeDefinitionIndex = 66357;
+
 	class MuseumUtils___c__DisplayClass5_0 : public ::System::Object
 	{
 	public:

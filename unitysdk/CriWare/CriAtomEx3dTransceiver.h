@@ -32,6 +32,8 @@ namespace System { class String; }
 
 namespace CriWare
 {
+	inline static constexpr unsigned int CriAtomEx3dTransceiver_TypeDefinitionIndex = 40013;
+
 	class CriAtomEx3dTransceiver : public ::CriWare::CriDisposable
 	{
 	public:

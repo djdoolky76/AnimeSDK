@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define GABONADEDIJ_CTOR_OFFSET UNITYSDK_OFFSET(0x159369A0)
 #define GABONADEDIJ_EVALUATE_OFFSET UNITYSDK_OFFSET(0x159369D0)
 
+inline static constexpr unsigned int GABONADEDIJ_TypeDefinitionIndex = 52932;
+
 	class GABONADEDIJ
 	{
 	public:

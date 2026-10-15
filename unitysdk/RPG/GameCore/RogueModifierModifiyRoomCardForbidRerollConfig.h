@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueModifierModifiyRoomCardForbidRerollConfig; 
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueModifierModifiyRoomCardForbidRerollConfig_TypeDefinitionIndex = 17836;
+
 	class RogueModifierModifiyRoomCardForbidRerollConfig : public ::RPG::GameCore::RogueModifierConfig
 	{
 	public:

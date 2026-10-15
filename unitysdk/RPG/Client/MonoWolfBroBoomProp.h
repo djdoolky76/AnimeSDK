@@ -7,6 +7,8 @@ namespace RPG::GameCore { class AdventureAttackDetectShapeConfig; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoWolfBroBoomProp_TypeDefinitionIndex = 68718;
+
 	class MonoWolfBroBoomProp : public ::UnityEngine::MonoBehaviour
 	{
 	public:

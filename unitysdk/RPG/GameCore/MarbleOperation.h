@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MarbleOperation_TypeDefinitionIndex = 16824;
+
 	enum class MarbleOperation : ::System::Int32
 	{
 		Add = 0,

@@ -7,6 +7,8 @@ class NAJFFNBJEHC;
 #define NAJFFNBJEHC___C__DISPLAYCLASS8_0_CTOR_OFFSET UNITYSDK_OFFSET(0xBAA0410)
 #define NAJFFNBJEHC___C__DISPLAYCLASS8_0__ONDETAILCHANGE_B__0_OFFSET UNITYSDK_OFFSET(0xBAA1A70)
 
+inline static constexpr unsigned int NAJFFNBJEHC___c__DisplayClass8_0_TypeDefinitionIndex = 71364;
+
 	class NAJFFNBJEHC___c__DisplayClass8_0 : public ::System::Object
 	{
 	public:

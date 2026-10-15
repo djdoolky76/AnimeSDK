@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define FENKCLAJNPD_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1CDE30B0)
 #define FENKCLAJNPD_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1CDE2A10)
 
+inline static constexpr unsigned int FENKCLAJNPD_TypeDefinitionIndex = 13028;
+
 	class FENKCLAJNPD : public ::System::Object
 	{
 	public:

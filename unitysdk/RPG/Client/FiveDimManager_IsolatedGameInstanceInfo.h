@@ -3,6 +3,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int FiveDimManager_IsolatedGameInstanceInfo_TypeDefinitionIndex = 60543;
+
 	struct alignas(4) FiveDimManager_IsolatedGameInstanceInfo
 	{
 		::System::UInt32 GroupID; // 0x10

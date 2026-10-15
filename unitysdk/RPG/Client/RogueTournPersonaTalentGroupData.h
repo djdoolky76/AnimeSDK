@@ -24,6 +24,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueTournPersonaTalentGroupData_TypeDefinitionIndex = 67760;
+
 	class RogueTournPersonaTalentGroupData : public ::System::Object
 	{
 	public:

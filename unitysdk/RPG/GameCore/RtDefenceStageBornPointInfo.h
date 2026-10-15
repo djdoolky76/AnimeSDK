@@ -11,6 +11,8 @@ namespace RPG::GameCore { class RtDefenceStageBornPointInfo; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RtDefenceStageBornPointInfo_TypeDefinitionIndex = 18063;
+
 	class RtDefenceStageBornPointInfo : public ::RPG::GameCore::JsonConfig
 	{
 	public:

@@ -23,6 +23,8 @@ namespace System::IO { class StringWriter; }
 
 namespace Newtonsoft::Json::Utilities
 {
+	inline static constexpr unsigned int StringUtils_TypeDefinitionIndex = 9683;
+
 	class StringUtils : public ::System::Object
 	{
 	public:

@@ -21,6 +21,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PolymerEffectControllBase_TypeDefinitionIndex = 70305;
+
 	class PolymerEffectControllBase : public ::UnityEngine::MonoBehaviour
 	{
 	public:

@@ -23,6 +23,8 @@ namespace System { class Type; }
 #define LJKHPOHKIIF_OIJPAAPDGJH_OFFSET UNITYSDK_OFFSET(0xB71CC00)
 #define LJKHPOHKIIF_PFCKLEMPAAD_OFFSET UNITYSDK_OFFSET(0xB71CE80)
 
+inline static constexpr unsigned int LJKHPOHKIIF_TypeDefinitionIndex = 59700;
+
 	class LJKHPOHKIIF : public ::System::Object
 	{
 	public:

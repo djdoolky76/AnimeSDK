@@ -32,6 +32,8 @@ namespace System { class String; }
 #define DCJGNLLAHEM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E171AF0)
 #define DCJGNLLAHEM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E171B50)
 
+inline static constexpr unsigned int DCJGNLLAHEM_TypeDefinitionIndex = 28851;
+
 	class DCJGNLLAHEM : public ::System::Object
 	{
 	public:

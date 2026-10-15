@@ -27,6 +27,8 @@ namespace System { class String; }
 #define AEGGFGBNLPE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DDEC460)
 #define AEGGFGBNLPE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DDEC4C0)
 
+inline static constexpr unsigned int AEGGFGBNLPE_TypeDefinitionIndex = 31696;
+
 	class AEGGFGBNLPE : public ::System::Object
 	{
 	public:

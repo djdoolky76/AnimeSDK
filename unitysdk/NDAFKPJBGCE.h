@@ -13,6 +13,8 @@ namespace RPG::GameCore { class TurnBasedGameMode; }
 #define NDAFKPJBGCE_DAMAELNBNKF_OFFSET UNITYSDK_OFFSET(0xBB1E320)
 #define NDAFKPJBGCE_DFFCHNLKELO_OFFSET UNITYSDK_OFFSET(0xBB1E810)
 
+inline static constexpr unsigned int NDAFKPJBGCE_TypeDefinitionIndex = 61034;
+
 	class NDAFKPJBGCE : public ::System::Object
 	{
 	public:

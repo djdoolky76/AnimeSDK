@@ -44,6 +44,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::ActivityAlley
 {
+	inline static constexpr unsigned int AlleyPackAnchor_TypeDefinitionIndex = 74084;
+
 	class AlleyPackAnchor : public ::UnityEngine::MonoBehaviour
 	{
 	public:

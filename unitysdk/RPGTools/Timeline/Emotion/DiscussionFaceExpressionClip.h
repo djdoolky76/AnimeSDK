@@ -13,6 +13,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPGTools::Timeline::Emotion
 {
+	inline static constexpr unsigned int DiscussionFaceExpressionClip_TypeDefinitionIndex = 48726;
+
 	class DiscussionFaceExpressionClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:

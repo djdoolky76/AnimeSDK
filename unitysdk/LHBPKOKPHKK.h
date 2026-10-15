@@ -9,6 +9,8 @@ namespace RPG::GameCore { class TurnBasedModifierInstance; }
 #define LHBPKOKPHKK__ONTASKBEGIN_B__1_0_OFFSET UNITYSDK_OFFSET(0xB6A7FA0)
 #define LHBPKOKPHKK__ONTASKBEGIN_B__1_1_OFFSET UNITYSDK_OFFSET(0xB6A8000)
 
+inline static constexpr unsigned int LHBPKOKPHKK_TypeDefinitionIndex = 55536;
+
 	class LHBPKOKPHKK
 	{
 	public:

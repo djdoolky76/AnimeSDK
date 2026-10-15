@@ -17,6 +17,8 @@
 
 namespace UnityEngine::NVIDIA
 {
+	inline static constexpr unsigned int DLSSCommandInitializationData_TypeDefinitionIndex = 5024;
+
 	struct alignas(4) DLSSCommandInitializationData
 	{
 		::System::UInt32 m_InputRTWidth; // 0x10

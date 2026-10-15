@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define HILCBNGIFKL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E59A650)
 #define HILCBNGIFKL___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1E59A660)
 
+inline static constexpr unsigned int HILCBNGIFKL___c_TypeDefinitionIndex = 25306;
+
 	class HILCBNGIFKL___c : public ::System::Object
 	{
 	public:

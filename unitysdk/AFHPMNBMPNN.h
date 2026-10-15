@@ -9,6 +9,8 @@ namespace System { class String; }
 #define AFHPMNBMPNN_CTOR_OFFSET UNITYSDK_OFFSET(0x1CCB6050)
 #define AFHPMNBMPNN_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CCB5E90)
 
+inline static constexpr unsigned int AFHPMNBMPNN_TypeDefinitionIndex = 12820;
+
 	class AFHPMNBMPNN : public ::System::Object
 	{
 	public:

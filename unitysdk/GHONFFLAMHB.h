@@ -27,6 +27,8 @@ namespace System { class String; }
 #define GHONFFLAMHB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E490B60)
 #define GHONFFLAMHB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E490BC0)
 
+inline static constexpr unsigned int GHONFFLAMHB_TypeDefinitionIndex = 31952;
+
 	class GHONFFLAMHB : public ::System::Object
 	{
 	public:

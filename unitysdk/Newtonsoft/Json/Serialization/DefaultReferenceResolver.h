@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace Newtonsoft::Json::Serialization
 {
+	inline static constexpr unsigned int DefaultReferenceResolver_TypeDefinitionIndex = 9701;
+
 	class DefaultReferenceResolver : public ::System::Object
 	{
 	public:

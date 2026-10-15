@@ -5,6 +5,8 @@ namespace UnityEngine { class Transform; }
 
 #define ATTRACTOR_CTOR_OFFSET UNITYSDK_OFFSET(0x1EBBD810)
 
+inline static constexpr unsigned int Attractor_TypeDefinitionIndex = 43986;
+
 	class Attractor : public ::System::Object
 	{
 	public:

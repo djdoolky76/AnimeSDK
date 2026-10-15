@@ -20,6 +20,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define DKOMKFIHPLP_LJBCDJNNBJH_OFFSET UNITYSDK_OFFSET(0xF88C960)
 #define DKOMKFIHPLP_OHPCLEHGCKK_OFFSET UNITYSDK_OFFSET(0xF88DF20)
 
+inline static constexpr unsigned int DKOMKFIHPLP_TypeDefinitionIndex = 62044;
+
 	class DKOMKFIHPLP : public ::BFLILCJMKDB
 	{
 	public:

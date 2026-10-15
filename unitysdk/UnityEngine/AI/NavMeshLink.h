@@ -45,6 +45,8 @@ namespace UnityEngine::AI { class NavMeshLink; }
 
 namespace UnityEngine::AI
 {
+	inline static constexpr unsigned int NavMeshLink_TypeDefinitionIndex = 41348;
+
 	class NavMeshLink : public ::UnityEngine::MonoBehaviour
 	{
 	public:

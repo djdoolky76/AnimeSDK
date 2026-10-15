@@ -5,6 +5,8 @@ namespace System { class String; }
 
 #define PFCCMMPECFF_CTOR_OFFSET UNITYSDK_OFFSET(0x1D2D9E30)
 
+inline static constexpr unsigned int PFCCMMPECFF_TypeDefinitionIndex = 25018;
+
 	class PFCCMMPECFF : public ::System::Attribute
 	{
 	public:

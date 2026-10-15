@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ChallengePeakRewardRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChallengePeakRewardRow_TypeDefinitionIndex = 12984;
+
 	class ChallengePeakRewardRow : public ::System::Object
 	{
 	public:

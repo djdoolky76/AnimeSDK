@@ -27,6 +27,8 @@ namespace RPG::GameCore { class FiveDimEffectItem; }
 #define HAMHMJPADIO_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0x15B955B0)
 #define HAMHMJPADIO_PMHEMEACHOC_OFFSET UNITYSDK_OFFSET(0x15B95B80)
 
+inline static constexpr unsigned int HAMHMJPADIO_TypeDefinitionIndex = 76983;
+
 	class HAMHMJPADIO : public ::PFALJMOJFCA
 	{
 	public:

@@ -11,6 +11,8 @@ namespace System { class Object; }
 #define GOCODBMFHPH___C__DISPLAYCLASS9_0___EXECUTESWITCHPHASE_B__1_OFFSET UNITYSDK_OFFSET(0x15B2A5A0)
 #define GOCODBMFHPH___C__DISPLAYCLASS9_0___EXECUTESWITCHPHASE_B__2_OFFSET UNITYSDK_OFFSET(0x15B2A6E0)
 
+inline static constexpr unsigned int GOCODBMFHPH___c__DisplayClass9_0_TypeDefinitionIndex = 76303;
+
 	class GOCODBMFHPH___c__DisplayClass9_0 : public ::System::Object
 	{
 	public:

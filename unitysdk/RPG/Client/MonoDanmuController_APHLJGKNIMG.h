@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoDanmuController_APHLJGKNIMG_TypeDefinitionIndex = 68947;
+
 	class MonoDanmuController_APHLJGKNIMG : public ::System::Object
 	{
 	public:

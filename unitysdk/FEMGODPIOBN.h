@@ -4,6 +4,8 @@
 
 #define FEMGODPIOBN_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA6E290)
 
+inline static constexpr unsigned int FEMGODPIOBN_TypeDefinitionIndex = 42119;
+
 	class FEMGODPIOBN : public ::System::Object
 	{
 	public:

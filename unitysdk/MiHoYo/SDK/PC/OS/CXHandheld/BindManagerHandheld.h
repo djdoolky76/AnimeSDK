@@ -25,6 +25,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace MiHoYo::SDK::PC::OS::CXHandheld
 {
+	inline static constexpr unsigned int BindManagerHandheld_TypeDefinitionIndex = 8738;
+
 	class BindManagerHandheld : public ::MiHoYo::SDK::PC::OS::CXHandheld::BindManagerBase
 	{
 	public:

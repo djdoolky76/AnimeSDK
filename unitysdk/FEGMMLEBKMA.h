@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int FEGMMLEBKMA_TypeDefinitionIndex = 34312;
+
 	enum class FEGMMLEBKMA : ::System::Int32
 	{
 		NLCDGIPGFDJ = 0,

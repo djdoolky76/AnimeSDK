@@ -15,6 +15,8 @@ namespace RPG::GameCore { class TaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdventureLoopAttackDetect_TypeDefinitionIndex = 20199;
+
 	class AdventureLoopAttackDetect : public ::RPG::GameCore::TaskConfig
 	{
 	public:

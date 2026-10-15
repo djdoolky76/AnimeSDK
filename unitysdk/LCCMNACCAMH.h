@@ -25,6 +25,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define LCCMNACCAMH_SET_ISOPEN_OFFSET UNITYSDK_OFFSET(0xB6120B0)
 #define LCCMNACCAMH_SET_WIDTHCOUNT_OFFSET UNITYSDK_OFFSET(0xB6121B0)
 
+inline static constexpr unsigned int LCCMNACCAMH_TypeDefinitionIndex = 69313;
+
 	class LCCMNACCAMH : public ::System::Object
 	{
 	public:

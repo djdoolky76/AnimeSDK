@@ -6,6 +6,8 @@ class HFKKKFJHPHJ;
 #define CEOJKPJCJCL___C__DISPLAYCLASS31_1_CTOR_OFFSET UNITYSDK_OFFSET(0xC9F2140)
 #define CEOJKPJCJCL___C__DISPLAYCLASS31_1__TOPROTO_B__1_OFFSET UNITYSDK_OFFSET(0xC9F62E0)
 
+inline static constexpr unsigned int CEOJKPJCJCL___c__DisplayClass31_1_TypeDefinitionIndex = 57615;
+
 	template <typename T>
 	class CEOJKPJCJCL___c__DisplayClass31_1 : public ::System::Object
 	{

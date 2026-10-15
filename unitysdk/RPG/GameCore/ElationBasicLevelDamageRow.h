@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ElationBasicLevelDamageRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ElationBasicLevelDamageRow_TypeDefinitionIndex = 13215;
+
 	class ElationBasicLevelDamageRow : public ::System::Object
 	{
 	public:

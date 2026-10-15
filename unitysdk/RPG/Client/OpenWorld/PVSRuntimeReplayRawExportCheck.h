@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::OpenWorld
 {
+	inline static constexpr unsigned int PVSRuntimeReplayRawExportCheck_TypeDefinitionIndex = 73766;
+
 	class PVSRuntimeReplayRawExportCheck : public ::System::Object
 	{
 	public:

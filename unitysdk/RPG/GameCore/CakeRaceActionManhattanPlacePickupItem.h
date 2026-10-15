@@ -11,6 +11,8 @@ namespace RPG::GameCore { class CakeRaceActionManhattanPlacePickupItem; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CakeRaceActionManhattanPlacePickupItem_TypeDefinitionIndex = 18348;
+
 	class CakeRaceActionManhattanPlacePickupItem : public ::RPG::GameCore::CakeRaceActionBase
 	{
 	public:

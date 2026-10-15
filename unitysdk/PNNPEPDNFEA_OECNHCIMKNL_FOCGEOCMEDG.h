@@ -5,6 +5,8 @@ namespace RPG::GameCore { class GameEntity; }
 
 #define PNNPEPDNFEA_OECNHCIMKNL_FOCGEOCMEDG_COMPARETO_OFFSET UNITYSDK_OFFSET(0xDF250)
 
+inline static constexpr unsigned int PNNPEPDNFEA_OECNHCIMKNL_FOCGEOCMEDG_TypeDefinitionIndex = 54382;
+
 	struct alignas(8) PNNPEPDNFEA_OECNHCIMKNL_FOCGEOCMEDG
 	{
 		::RPG::GameCore::GameEntity* GGKGFABFGFE; // 0x10

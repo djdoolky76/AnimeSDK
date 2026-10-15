@@ -27,6 +27,8 @@ namespace System { class String; }
 #define LLPMAKIHAPL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E9A01B0)
 #define LLPMAKIHAPL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E9A0210)
 
+inline static constexpr unsigned int LLPMAKIHAPL_TypeDefinitionIndex = 29607;
+
 	class LLPMAKIHAPL : public ::System::Object
 	{
 	public:

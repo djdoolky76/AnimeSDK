@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define CEINLELLFLF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E094750)
 #define CEINLELLFLF___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E094760)
 
+inline static constexpr unsigned int CEINLELLFLF___c_TypeDefinitionIndex = 32256;
+
 	class CEINLELLFLF___c : public ::System::Object
 	{
 	public:

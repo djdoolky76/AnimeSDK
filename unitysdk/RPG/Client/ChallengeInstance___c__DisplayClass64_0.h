@@ -8,6 +8,8 @@ class IGLLJCAMGMO;
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ChallengeInstance___c__DisplayClass64_0_TypeDefinitionIndex = 63091;
+
 	class ChallengeInstance___c__DisplayClass64_0 : public ::System::Object
 	{
 	public:

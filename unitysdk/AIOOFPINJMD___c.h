@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define AIOOFPINJMD___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E2830B0)
 #define AIOOFPINJMD___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E2830C0)
 
+inline static constexpr unsigned int AIOOFPINJMD___c_TypeDefinitionIndex = 32077;
+
 	class AIOOFPINJMD___c : public ::System::Object
 	{
 	public:

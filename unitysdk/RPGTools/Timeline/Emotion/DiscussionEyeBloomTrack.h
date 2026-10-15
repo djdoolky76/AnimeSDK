@@ -13,6 +13,8 @@ namespace UnityEngine::Timeline { class TimelineClip; }
 
 namespace RPGTools::Timeline::Emotion
 {
+	inline static constexpr unsigned int DiscussionEyeBloomTrack_TypeDefinitionIndex = 48720;
+
 	class DiscussionEyeBloomTrack : public ::RPGTools::Timeline::CharacterTrack
 	{
 	public:

@@ -14,6 +14,8 @@ namespace RPG::GameCore { class ToggleSkillPreShow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ToggleSkillPreShow_TypeDefinitionIndex = 23684;
+
 	class ToggleSkillPreShow : public ::RPG::GameCore::TaskConfig
 	{
 	public:

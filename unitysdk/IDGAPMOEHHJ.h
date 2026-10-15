@@ -7,6 +7,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define IDGAPMOEHHJ_CTOR_OFFSET UNITYSDK_OFFSET(0x15EC8B70)
 
+inline static constexpr unsigned int IDGAPMOEHHJ_TypeDefinitionIndex = 62883;
+
 	class IDGAPMOEHHJ : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace System { class String; }
 #define APOGNPMEHDK_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CCEEDE0)
 #define APOGNPMEHDK_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CCEED00)
 
+inline static constexpr unsigned int APOGNPMEHDK_TypeDefinitionIndex = 10190;
+
 	class APOGNPMEHDK : public ::RPG::GameCore::TaskConfig
 	{
 	public:

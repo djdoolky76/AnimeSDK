@@ -5,6 +5,8 @@
 #define FFEFEHPIFDJ_CTOR_OFFSET UNITYSDK_OFFSET(0x157337E0)
 #define FFEFEHPIFDJ_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x157337F0)
 
+inline static constexpr unsigned int FFEFEHPIFDJ_TypeDefinitionIndex = 75360;
+
 	class FFEFEHPIFDJ : public ::MLKDDLHNNHH
 	{
 	public:

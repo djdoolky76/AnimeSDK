@@ -9,6 +9,8 @@ namespace System { class String; }
 
 namespace RPG::Client::OpenWorld
 {
+	inline static constexpr unsigned int StreamingLayerDetail_TypeDefinitionIndex = 73762;
+
 	class StreamingLayerDetail : public ::System::Object
 	{
 	public:

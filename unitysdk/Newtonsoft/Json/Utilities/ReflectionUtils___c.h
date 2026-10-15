@@ -19,6 +19,8 @@ namespace System::Reflection { class ParameterInfo; }
 
 namespace Newtonsoft::Json::Utilities
 {
+	inline static constexpr unsigned int ReflectionUtils___c_TypeDefinitionIndex = 9680;
+
 	class ReflectionUtils___c : public ::System::Object
 	{
 	public:

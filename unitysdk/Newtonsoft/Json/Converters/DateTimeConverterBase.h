@@ -8,6 +8,8 @@ namespace System { class Type; }
 
 namespace Newtonsoft::Json::Converters
 {
+	inline static constexpr unsigned int DateTimeConverterBase_TypeDefinitionIndex = 9815;
+
 	class DateTimeConverterBase : public ::Newtonsoft::Json::JsonConverter
 	{
 	public:

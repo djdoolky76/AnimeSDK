@@ -18,6 +18,8 @@ namespace System { class Object; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int VerseParam_TypeDefinitionIndex = 66326;
+
 	struct alignas(4) VerseParam
 	{
 		::System::UInt32 _StoryLineID_k__BackingField; // 0x10

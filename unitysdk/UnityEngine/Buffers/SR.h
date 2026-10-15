@@ -13,6 +13,8 @@ namespace System::Resources { class ResourceManager; }
 
 namespace UnityEngine::Buffers
 {
+	inline static constexpr unsigned int SR_TypeDefinitionIndex = 4949;
+
 	class SR : public ::System::Object
 	{
 	public:

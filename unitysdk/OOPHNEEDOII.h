@@ -11,6 +11,8 @@ namespace System { class Object; }
 #define OOPHNEEDOII_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1C7E5470)
 #define OOPHNEEDOII_INVOKE_OFFSET UNITYSDK_OFFSET(0x1C7E5430)
 
+inline static constexpr unsigned int OOPHNEEDOII_TypeDefinitionIndex = 36238;
+
 	class OOPHNEEDOII : public ::System::MulticastDelegate
 	{
 	public:

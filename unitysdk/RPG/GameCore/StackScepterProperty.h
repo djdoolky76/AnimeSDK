@@ -13,6 +13,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int StackScepterProperty_TypeDefinitionIndex = 23104;
+
 	class StackScepterProperty : public ::RPG::GameCore::TaskConfig
 	{
 	public:

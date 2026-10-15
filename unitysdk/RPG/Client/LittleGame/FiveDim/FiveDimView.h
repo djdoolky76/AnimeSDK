@@ -140,6 +140,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::LittleGame::FiveDim
 {
+	inline static constexpr unsigned int FiveDimView_TypeDefinitionIndex = 77191;
+
 	class FiveDimView : public ::RPG::Client::LittleGame::BaseMonoGenericView
 	{
 	public:

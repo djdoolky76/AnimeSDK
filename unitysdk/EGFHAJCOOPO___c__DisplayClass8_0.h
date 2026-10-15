@@ -7,6 +7,8 @@ namespace RPG::Client::Promises { class IPromise; }
 #define EGFHAJCOOPO___C__DISPLAYCLASS8_0_CTOR_OFFSET UNITYSDK_OFFSET(0x14513B70)
 #define EGFHAJCOOPO___C__DISPLAYCLASS8_0__REQUESTDATAANDSHOWMAINPAGEASYNC_B__0_OFFSET UNITYSDK_OFFSET(0x14516790)
 
+inline static constexpr unsigned int EGFHAJCOOPO___c__DisplayClass8_0_TypeDefinitionIndex = 81752;
+
 	class EGFHAJCOOPO___c__DisplayClass8_0 : public ::System::Object
 	{
 	public:

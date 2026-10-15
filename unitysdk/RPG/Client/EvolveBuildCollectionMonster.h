@@ -6,6 +6,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int EvolveBuildCollectionMonster_TypeDefinitionIndex = 63791;
+
 	class EvolveBuildCollectionMonster : public ::System::Object
 	{
 	public:

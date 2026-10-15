@@ -31,6 +31,8 @@ namespace System { class String; }
 #define IGOGKCCOIIF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E655610)
 #define IGOGKCCOIIF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E655670)
 
+inline static constexpr unsigned int IGOGKCCOIIF_TypeDefinitionIndex = 29952;
+
 	class IGOGKCCOIIF : public ::System::Object
 	{
 	public:

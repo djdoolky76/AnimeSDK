@@ -42,6 +42,8 @@ namespace XLua { class LuaTable; }
 
 namespace RPG::Client::B51Racing
 {
+	inline static constexpr unsigned int LuaControllerHandle_TypeDefinitionIndex = 81761;
+
 	class LuaControllerHandle : public ::System::Object
 	{
 	public:

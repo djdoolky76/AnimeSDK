@@ -15,6 +15,8 @@ namespace RPG::GameCore { class IAvatarCommonRowWrap; }
 #define ADILGMDJEJF_LGPLAOGBGLM_OFFSET UNITYSDK_OFFSET(0xB1411C0)
 #define ADILGMDJEJF_OJBNPHBOJPP_OFFSET UNITYSDK_OFFSET(0xB1412B0)
 
+inline static constexpr unsigned int ADILGMDJEJF_TypeDefinitionIndex = 56875;
+
 	class ADILGMDJEJF : public ::System::Object
 	{
 	public:

@@ -39,6 +39,8 @@ namespace System { class String; }
 #define CAJEBOPPMCJ_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E05CD30)
 #define CAJEBOPPMCJ_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E05CD90)
 
+inline static constexpr unsigned int CAJEBOPPMCJ_TypeDefinitionIndex = 32642;
+
 	class CAJEBOPPMCJ : public ::System::Object
 	{
 	public:

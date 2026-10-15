@@ -9,6 +9,8 @@ namespace RPG::GameCore { class BaseLittleGameAbilityValueGetterConfig; }
 #define KGCCNAMPFEC_CTOR_OFFSET UNITYSDK_OFFSET(0xB3CE3F0)
 #define KGCCNAMPFEC_GETVALUE_OFFSET UNITYSDK_OFFSET(0xB3CE010)
 
+inline static constexpr unsigned int KGCCNAMPFEC_TypeDefinitionIndex = 77397;
+
 	class KGCCNAMPFEC : public ::System::Object
 	{
 	public:

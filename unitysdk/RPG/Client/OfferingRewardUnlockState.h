@@ -3,6 +3,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int OfferingRewardUnlockState_TypeDefinitionIndex = 66384;
+
 	enum class OfferingRewardUnlockState : ::System::Int32
 	{
 		Normal = 0,

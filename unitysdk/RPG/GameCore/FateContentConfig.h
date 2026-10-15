@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FateTextDynamicParamConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FateContentConfig_TypeDefinitionIndex = 16621;
+
 	class FateContentConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

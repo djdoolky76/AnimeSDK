@@ -15,6 +15,8 @@ namespace UnityEngine::Yoga { class YogaNode; }
 
 namespace UnityEngine::Yoga
 {
+	inline static constexpr unsigned int MeasureFunction_TypeDefinitionIndex = 5865;
+
 	class MeasureFunction : public ::System::MulticastDelegate
 	{
 	public:

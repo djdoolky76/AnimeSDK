@@ -14,6 +14,8 @@ namespace System { class Object; }
 #define KODADHCELNH_JEBDAFCDCIO_OFFSET UNITYSDK_OFFSET(0xB591110)
 #define KODADHCELNH_NBIELHICJKE_OFFSET UNITYSDK_OFFSET(0xB590F20)
 
+inline static constexpr unsigned int KODADHCELNH_TypeDefinitionIndex = 75453;
+
 	class KODADHCELNH : public ::System::Object
 	{
 	public:

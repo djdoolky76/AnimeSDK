@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GroupState_TypeDefinitionIndex = 17332;
+
 	class GroupState : public ::RPG::GameCore::JsonConfig
 	{
 	public:

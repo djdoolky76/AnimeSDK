@@ -21,6 +21,8 @@ namespace RPG::GameCore { class GameEntity; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AbilityAnyHPChange_TypeDefinitionIndex = 56569;
+
 	class AbilityAnyHPChange : public ::CMPGEAFHHDC
 	{
 	public:

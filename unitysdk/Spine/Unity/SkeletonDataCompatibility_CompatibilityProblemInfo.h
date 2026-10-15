@@ -9,6 +9,8 @@ namespace System { class String; }
 
 namespace Spine::Unity
 {
+	inline static constexpr unsigned int SkeletonDataCompatibility_CompatibilityProblemInfo_TypeDefinitionIndex = 45006;
+
 	class SkeletonDataCompatibility_CompatibilityProblemInfo : public ::System::Object
 	{
 	public:

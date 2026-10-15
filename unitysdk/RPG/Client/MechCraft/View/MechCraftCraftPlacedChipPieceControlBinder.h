@@ -20,6 +20,8 @@ namespace UnityEngine { class RectTransform; }
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftCraftPlacedChipPieceControlBinder_TypeDefinitionIndex = 79874;
+
 	class MechCraftCraftPlacedChipPieceControlBinder : public ::RPG::Client::MechCraft::View::MechCraftBinderBase
 	{
 	public:

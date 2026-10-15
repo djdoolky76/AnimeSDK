@@ -9,6 +9,8 @@ namespace RPG::GameCore { class AetherDivideQuestTypeRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AetherDivideQuestTypeRow_TypeDefinitionIndex = 10932;
+
 	class AetherDivideQuestTypeRow : public ::System::Object
 	{
 	public:

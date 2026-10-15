@@ -5,6 +5,8 @@ namespace System { class Action; }
 
 namespace RPG::Client::FateRin::CaseBoard
 {
+	inline static constexpr unsigned int CaseBoardViewModel___O_TypeDefinitionIndex = 80791;
+
 	class CaseBoardViewModel___O : public ::System::Object
 	{
 	public:

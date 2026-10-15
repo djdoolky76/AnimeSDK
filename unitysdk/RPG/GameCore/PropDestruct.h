@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PropDestruct_TypeDefinitionIndex = 22066;
+
 	class PropDestruct : public ::RPG::GameCore::TaskConfig
 	{
 	public:

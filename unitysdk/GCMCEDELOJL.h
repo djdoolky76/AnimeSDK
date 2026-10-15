@@ -27,6 +27,8 @@ namespace System::Collections::Specialized { class NotifyCollectionChangedEventH
 #define GCMCEDELOJL_PDFEJLKGFLN_OFFSET UNITYSDK_OFFSET(0x159841F0)
 #define GCMCEDELOJL_PGPKCDBDFLA_OFFSET UNITYSDK_OFFSET(0x15984080)
 
+inline static constexpr unsigned int GCMCEDELOJL_TypeDefinitionIndex = 65319;
+
 	class GCMCEDELOJL : public ::System::Object
 	{
 	public:

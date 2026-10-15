@@ -5,6 +5,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int CakeBubbleOffset_TypeDefinitionIndex = 62962;
+
 	struct alignas(4) CakeBubbleOffset
 	{
 		::System::Single X; // 0x10

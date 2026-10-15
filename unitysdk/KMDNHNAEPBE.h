@@ -33,6 +33,8 @@ namespace System { class String; }
 #define KMDNHNAEPBE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E895650)
 #define KMDNHNAEPBE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E8956B0)
 
+inline static constexpr unsigned int KMDNHNAEPBE_TypeDefinitionIndex = 28380;
+
 	class KMDNHNAEPBE : public ::System::Object
 	{
 	public:

@@ -13,6 +13,8 @@ namespace System { class Object; }
 #define DHFBHBHCEBL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xEBCCF90)
 #define DHFBHBHCEBL_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xEBCD210)
 
+inline static constexpr unsigned int DHFBHBHCEBL_TypeDefinitionIndex = 52509;
+
 	class DHFBHBHCEBL
 	{
 	public:

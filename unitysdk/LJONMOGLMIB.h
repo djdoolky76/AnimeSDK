@@ -20,6 +20,8 @@ namespace RPG::GameCore { class ThreadTaskConfig; }
 #define LJONMOGLMIB_PBBNMGPIMFM_OFFSET UNITYSDK_OFFSET(0xB723F90)
 #define LJONMOGLMIB_SET_CONFIG_OFFSET UNITYSDK_OFFSET(0xB7243B0)
 
+inline static constexpr unsigned int LJONMOGLMIB_TypeDefinitionIndex = 71096;
+
 	class LJONMOGLMIB
 	{
 	public:

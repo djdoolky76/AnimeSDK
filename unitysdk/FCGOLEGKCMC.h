@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define FCGOLEGKCMC_CTOR_OFFSET UNITYSDK_OFFSET(0x156BCCC0)
 #define FCGOLEGKCMC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x156BCCF0)
 
+inline static constexpr unsigned int FCGOLEGKCMC_TypeDefinitionIndex = 55204;
+
 	class FCGOLEGKCMC
 	{
 	public:

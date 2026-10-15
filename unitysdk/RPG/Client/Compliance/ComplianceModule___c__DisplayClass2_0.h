@@ -10,6 +10,8 @@ namespace System { class Action; }
 
 namespace RPG::Client::Compliance
 {
+	inline static constexpr unsigned int ComplianceModule___c__DisplayClass2_0_TypeDefinitionIndex = 74811;
+
 	class ComplianceModule___c__DisplayClass2_0 : public ::System::Object
 	{
 	public:

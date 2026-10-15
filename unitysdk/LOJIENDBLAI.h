@@ -31,6 +31,8 @@ namespace System { class String; }
 #define LOJIENDBLAI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E9C1970)
 #define LOJIENDBLAI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E9C19D0)
 
+inline static constexpr unsigned int LOJIENDBLAI_TypeDefinitionIndex = 30606;
+
 	class LOJIENDBLAI : public ::System::Object
 	{
 	public:

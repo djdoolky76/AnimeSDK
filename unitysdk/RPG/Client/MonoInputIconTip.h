@@ -20,6 +20,8 @@ namespace UnityEngine::UI { class Image; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoInputIconTip_TypeDefinitionIndex = 61347;
+
 	class MonoInputIconTip : public ::UnityEngine::MonoBehaviour
 	{
 	public:

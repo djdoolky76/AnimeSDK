@@ -29,6 +29,8 @@ namespace System { class String; }
 #define IGLLJCAMGMO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E6514E0)
 #define IGLLJCAMGMO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E651540)
 
+inline static constexpr unsigned int IGLLJCAMGMO_TypeDefinitionIndex = 26810;
+
 	class IGLLJCAMGMO : public ::System::Object
 	{
 	public:

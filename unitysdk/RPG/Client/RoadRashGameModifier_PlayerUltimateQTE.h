@@ -11,6 +11,8 @@ namespace RPG::Client { class RoadRashGameModifier_PlayerUltimateQTE; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RoadRashGameModifier_PlayerUltimateQTE_TypeDefinitionIndex = 10297;
+
 	class RoadRashGameModifier_PlayerUltimateQTE : public ::RPG::GameCore::BaseLittleGameAbilityTaskConfig
 	{
 	public:

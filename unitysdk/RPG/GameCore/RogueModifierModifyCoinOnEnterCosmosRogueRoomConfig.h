@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueModifierModifyCoinOnEnterCosmosRogueRoomCon
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueModifierModifyCoinOnEnterCosmosRogueRoomConfig_TypeDefinitionIndex = 17988;
+
 	class RogueModifierModifyCoinOnEnterCosmosRogueRoomConfig : public ::RPG::GameCore::RogueModifierConfig
 	{
 	public:

@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetMainLightOffset_TypeDefinitionIndex = 23392;
+
 	class SetMainLightOffset : public ::RPG::GameCore::TaskConfig
 	{
 	public:

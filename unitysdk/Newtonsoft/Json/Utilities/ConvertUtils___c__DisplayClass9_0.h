@@ -9,6 +9,8 @@ namespace System { class Object; }
 
 namespace Newtonsoft::Json::Utilities
 {
+	inline static constexpr unsigned int ConvertUtils___c__DisplayClass9_0_TypeDefinitionIndex = 9660;
+
 	class ConvertUtils___c__DisplayClass9_0 : public ::System::Object
 	{
 	public:

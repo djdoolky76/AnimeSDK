@@ -9,6 +9,8 @@ namespace System::Text::RegularExpressions { class Match; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TextmapStatic___c__DisplayClass38_0_TypeDefinitionIndex = 72948;
+
 	class TextmapStatic___c__DisplayClass38_0 : public ::System::Object
 	{
 	public:

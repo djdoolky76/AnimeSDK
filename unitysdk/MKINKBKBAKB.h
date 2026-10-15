@@ -16,6 +16,8 @@ namespace System { class Object; }
 #define MKINKBKBAKB_PEDFLCNLIOC_OFFSET UNITYSDK_OFFSET(0xB998840)
 #define MKINKBKBAKB_POAACIDJOKM_OFFSET UNITYSDK_OFFSET(0xB9987E0)
 
+inline static constexpr unsigned int MKINKBKBAKB_TypeDefinitionIndex = 72961;
+
 	class MKINKBKBAKB : public ::GNGPLDGOEAI
 	{
 	public:

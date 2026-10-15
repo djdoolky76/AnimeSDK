@@ -7,6 +7,8 @@ namespace RPG::GameCore { class DiceCombatTaskConfig_DirectDamage; }
 #define NKPGLBCNKGM_CTOR_OFFSET UNITYSDK_OFFSET(0x1C79C3E0)
 #define NKPGLBCNKGM_MLKLPMJEHPF_OFFSET UNITYSDK_OFFSET(0x1C79C3F0)
 
+inline static constexpr unsigned int NKPGLBCNKGM_TypeDefinitionIndex = 36313;
+
 	class NKPGLBCNKGM : public ::AJBKGPOEBFG
 	{
 	public:

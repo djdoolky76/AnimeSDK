@@ -13,6 +13,8 @@ namespace System { class Object; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int Web_OnWebViewInputEnableStatus_TypeDefinitionIndex = 8221;
+
 	class Web_OnWebViewInputEnableStatus : public ::System::MulticastDelegate
 	{
 	public:

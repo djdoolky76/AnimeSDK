@@ -5,6 +5,8 @@ class KOAOAKKCCPK;
 
 #define BFINAHGOMOO_MEEMJHBPPKG_CTOR_OFFSET UNITYSDK_OFFSET(0xB16D180)
 
+inline static constexpr unsigned int BFINAHGOMOO_MEEMJHBPPKG_TypeDefinitionIndex = 71216;
+
 	class BFINAHGOMOO_MEEMJHBPPKG : public ::System::Object
 	{
 	public:

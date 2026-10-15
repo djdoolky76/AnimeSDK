@@ -14,6 +14,8 @@ namespace UnityEngine { class Transform; }
 #define MIGHECALOGL_LGBHGOKNJNF_OFFSET UNITYSDK_OFFSET(0xB956B20)
 #define MIGHECALOGL_MPFKCHHCIMO_OFFSET UNITYSDK_OFFSET(0xB957190)
 
+inline static constexpr unsigned int MIGHECALOGL_TypeDefinitionIndex = 60946;
+
 	class MIGHECALOGL : public ::System::Object
 	{
 	public:

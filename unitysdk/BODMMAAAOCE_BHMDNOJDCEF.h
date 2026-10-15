@@ -7,6 +7,8 @@ namespace System { class String; }
 
 #define BODMMAAAOCE_BHMDNOJDCEF_CTOR_OFFSET UNITYSDK_OFFSET(0xC18EF60)
 
+inline static constexpr unsigned int BODMMAAAOCE_BHMDNOJDCEF_TypeDefinitionIndex = 72376;
+
 	class BODMMAAAOCE_BHMDNOJDCEF : public ::System::Object
 	{
 	public:

@@ -86,6 +86,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ElfGame_TypeDefinitionIndex = 63691;
+
 	class ElfGame : public ::System::Object
 	{
 	public:

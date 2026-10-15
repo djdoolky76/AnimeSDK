@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int SetAudienceGroupVisibleClipConfig_TypeDefinitionIndex = 48271;
+
 	class SetAudienceGroupVisibleClipConfig : public ::System::Object
 	{
 	public:

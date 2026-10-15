@@ -12,6 +12,8 @@ namespace MiHoYo::SDK::PluginUI { class HoYoSDKAlertWithTitle; }
 
 namespace MiHoYo::SDK::PluginUI
 {
+	inline static constexpr unsigned int HoYoSDKAlertWithTitle_TypeDefinitionIndex = 46742;
+
 	class HoYoSDKAlertWithTitle : public ::MiHoYo::SDK::PluginUI::MiHoYoSDKUIContainer
 	{
 	public:

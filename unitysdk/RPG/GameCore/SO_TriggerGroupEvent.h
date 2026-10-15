@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SO_TriggerGroupEvent_TypeDefinitionIndex = 20065;
+
 	class SO_TriggerGroupEvent : public ::RPG::GameCore::SOTaskConfig
 	{
 	public:

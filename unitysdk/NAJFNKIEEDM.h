@@ -28,6 +28,8 @@ namespace System { class String; }
 #define NAJFNKIEEDM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EAC4830)
 #define NAJFNKIEEDM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EAC4890)
 
+inline static constexpr unsigned int NAJFNKIEEDM_TypeDefinitionIndex = 31611;
+
 	class NAJFNKIEEDM : public ::System::Object
 	{
 	public:

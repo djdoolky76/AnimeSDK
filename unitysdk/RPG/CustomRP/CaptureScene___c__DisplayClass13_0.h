@@ -9,6 +9,8 @@ namespace RPG::CustomRP { class CaptureScene; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int CaptureScene___c__DisplayClass13_0_TypeDefinitionIndex = 37601;
+
 	class CaptureScene___c__DisplayClass13_0 : public ::System::Object
 	{
 	public:

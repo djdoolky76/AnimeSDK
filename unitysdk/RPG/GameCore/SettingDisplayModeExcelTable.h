@@ -25,6 +25,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SettingDisplayModeExcelTable_TypeDefinitionIndex = 15095;
+
 	class SettingDisplayModeExcelTable : public ::System::Object
 	{
 	public:

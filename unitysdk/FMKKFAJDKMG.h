@@ -14,6 +14,8 @@ namespace System { class String; }
 #define FMKKFAJDKMG_GET_REDDOTTYPE_OFFSET UNITYSDK_OFFSET(0x15860E90)
 #define FMKKFAJDKMG_NOHIKPFNDLL_OFFSET UNITYSDK_OFFSET(0x158610A0)
 
+inline static constexpr unsigned int FMKKFAJDKMG_TypeDefinitionIndex = 79191;
+
 	class FMKKFAJDKMG : public ::System::Object
 	{
 	public:

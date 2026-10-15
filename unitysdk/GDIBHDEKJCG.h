@@ -25,6 +25,8 @@ namespace System { class String; }
 #define GDIBHDEKJCG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E44B590)
 #define GDIBHDEKJCG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E44B5F0)
 
+inline static constexpr unsigned int GDIBHDEKJCG_TypeDefinitionIndex = 25232;
+
 	class GDIBHDEKJCG : public ::System::Object
 	{
 	public:

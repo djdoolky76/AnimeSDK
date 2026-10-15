@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace CloudGame::MailBox
 {
+	inline static constexpr unsigned int Ime___c__DisplayClass3_0_TypeDefinitionIndex = 7541;
+
 	class Ime___c__DisplayClass3_0 : public ::System::Object
 	{
 	public:

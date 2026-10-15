@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdvNPCRunAwayPlayer_TypeDefinitionIndex = 19981;
+
 	class AdvNPCRunAwayPlayer : public ::RPG::GameCore::TaskConfig
 	{
 	public:

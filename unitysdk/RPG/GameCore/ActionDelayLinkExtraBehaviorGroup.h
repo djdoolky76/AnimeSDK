@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ActionDelayLinkExtraBehaviorGroup; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ActionDelayLinkExtraBehaviorGroup_TypeDefinitionIndex = 23269;
+
 	class ActionDelayLinkExtraBehaviorGroup : public ::RPG::GameCore::JsonConfig
 	{
 	public:

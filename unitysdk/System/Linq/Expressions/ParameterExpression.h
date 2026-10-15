@@ -19,6 +19,8 @@ namespace System::Linq::Expressions { class ParameterExpression; }
 
 namespace System::Linq::Expressions
 {
+	inline static constexpr unsigned int ParameterExpression_TypeDefinitionIndex = 3268;
+
 	class ParameterExpression : public ::System::Linq::Expressions::Expression
 	{
 	public:

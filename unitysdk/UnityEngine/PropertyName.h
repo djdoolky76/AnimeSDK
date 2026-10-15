@@ -15,6 +15,8 @@ namespace System { class String; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int PropertyName_TypeDefinitionIndex = 4248;
+
 	struct alignas(4) PropertyName
 	{
 		::System::Int32 id; // 0x10

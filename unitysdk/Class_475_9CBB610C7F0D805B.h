@@ -6,6 +6,8 @@
 #define CLASS_475_9CBB610C7F0D805B_METHOD_2_OFFSET UNITYSDK_OFFSET(0x14912220)
 #define CLASS_475_9CBB610C7F0D805B_METHOD_OFFSET UNITYSDK_OFFSET(0x14912870)
 
+inline static constexpr unsigned int Class_475_9CBB610C7F0D805B_TypeDefinitionIndex = 50804;
+
 	class Class_475_9CBB610C7F0D805B : public ::System::Object
 	{
 	public:

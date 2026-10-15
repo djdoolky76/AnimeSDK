@@ -6,6 +6,8 @@
 
 namespace System::Runtime::InteropServices
 {
+	inline static constexpr unsigned int FieldOffsetAttribute_TypeDefinitionIndex = 1423;
+
 	class FieldOffsetAttribute : public ::System::Attribute
 	{
 	public:

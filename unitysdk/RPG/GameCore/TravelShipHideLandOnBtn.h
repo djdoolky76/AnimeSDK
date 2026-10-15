@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TravelShipHideLandOnBtn; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TravelShipHideLandOnBtn_TypeDefinitionIndex = 20978;
+
 	class TravelShipHideLandOnBtn : public ::RPG::GameCore::TaskConfig
 	{
 	public:

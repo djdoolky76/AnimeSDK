@@ -12,6 +12,8 @@ namespace UnityEngine { class Material; }
 #define IMCPKODGAEO_FLFPOKJBPOI_DKCOFAPIIJD_OFFSET UNITYSDK_OFFSET(0x164D1A80)
 #define IMCPKODGAEO_FLFPOKJBPOI_HJPJAJNNLPE_OFFSET UNITYSDK_OFFSET(0x164D1AE0)
 
+inline static constexpr unsigned int IMCPKODGAEO_FLFPOKJBPOI_TypeDefinitionIndex = 49004;
+
 	class IMCPKODGAEO_FLFPOKJBPOI : public ::System::Object
 	{
 	public:

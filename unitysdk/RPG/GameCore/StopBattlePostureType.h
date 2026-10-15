@@ -10,6 +10,8 @@ namespace RPG::GameCore { class StopBattlePostureType; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int StopBattlePostureType_TypeDefinitionIndex = 20451;
+
 	class StopBattlePostureType : public ::RPG::GameCore::TaskConfig
 	{
 	public:

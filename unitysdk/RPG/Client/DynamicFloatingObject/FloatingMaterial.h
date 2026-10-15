@@ -5,6 +5,8 @@
 
 namespace RPG::Client::DynamicFloatingObject
 {
+	inline static constexpr unsigned int FloatingMaterial_TypeDefinitionIndex = 73575;
+
 	class FloatingMaterial
 	{
 	public:

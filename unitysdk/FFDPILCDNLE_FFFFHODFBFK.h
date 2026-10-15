@@ -4,6 +4,8 @@
 
 #define FFDPILCDNLE_FFFFHODFBFK_CTOR_OFFSET UNITYSDK_OFFSET(0x15733160)
 
+inline static constexpr unsigned int FFDPILCDNLE_FFFFHODFBFK_TypeDefinitionIndex = 67787;
+
 	class FFDPILCDNLE_FFFFHODFBFK : public ::System::Object
 	{
 	public:

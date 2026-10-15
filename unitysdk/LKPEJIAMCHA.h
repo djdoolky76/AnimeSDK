@@ -9,6 +9,8 @@ namespace RPG::GameCore { class BaseLittleGameAbilityValueGetterConfig; }
 #define LKPEJIAMCHA_CTOR_OFFSET UNITYSDK_OFFSET(0xB75C060)
 #define LKPEJIAMCHA_GETVALUE_OFFSET UNITYSDK_OFFSET(0xB75BE60)
 
+inline static constexpr unsigned int LKPEJIAMCHA_TypeDefinitionIndex = 77400;
+
 	class LKPEJIAMCHA : public ::System::Object
 	{
 	public:

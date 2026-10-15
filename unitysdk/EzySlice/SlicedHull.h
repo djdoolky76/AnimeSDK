@@ -19,6 +19,8 @@ namespace UnityEngine { class Mesh; }
 
 namespace EzySlice
 {
+	inline static constexpr unsigned int SlicedHull_TypeDefinitionIndex = 47005;
+
 	class SlicedHull : public ::System::Object
 	{
 	public:

@@ -26,6 +26,8 @@ namespace System::Timers { class ElapsedEventHandler; }
 
 namespace System::Timers
 {
+	inline static constexpr unsigned int Timer_TypeDefinitionIndex = 2494;
+
 	class Timer : public ::System::ComponentModel::Component
 	{
 	public:

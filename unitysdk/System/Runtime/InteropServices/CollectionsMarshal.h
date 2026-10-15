@@ -6,6 +6,8 @@
 
 namespace System::Runtime::InteropServices
 {
+	inline static constexpr unsigned int CollectionsMarshal_TypeDefinitionIndex = 6082;
+
 	class CollectionsMarshal : public ::System::Object
 	{
 	public:

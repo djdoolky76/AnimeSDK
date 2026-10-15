@@ -11,6 +11,8 @@ namespace UnityEngine { class Animator; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoAnimatorStateSimpleEvent_ExitEvent_TypeDefinitionIndex = 68521;
+
 	class MonoAnimatorStateSimpleEvent_ExitEvent : public ::RPG::Client::MonoAnimatorStateSimpleEvent_StateEvent
 	{
 	public:

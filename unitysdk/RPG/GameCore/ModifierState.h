@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ModifierState_TypeDefinitionIndex = 54437;
+
 	enum class ModifierState : ::System::Int32
 	{
 		ToBeAdded = 0,

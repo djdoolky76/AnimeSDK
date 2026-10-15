@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define AKTRIGGERBASE_CTOR_OFFSET UNITYSDK_OFFSET(0x1F618040)
 #define AKTRIGGERBASE_GETALLDERIVEDTYPES_OFFSET UNITYSDK_OFFSET(0x1F617840)
 
+inline static constexpr unsigned int AkTriggerBase_TypeDefinitionIndex = 44959;
+
 	class AkTriggerBase : public ::UnityEngine::MonoBehaviour
 	{
 	public:

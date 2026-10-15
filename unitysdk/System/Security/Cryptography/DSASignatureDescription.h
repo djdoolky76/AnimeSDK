@@ -6,6 +6,8 @@
 
 namespace System::Security::Cryptography
 {
+	inline static constexpr unsigned int DSASignatureDescription_TypeDefinitionIndex = 1069;
+
 	class DSASignatureDescription : public ::System::Security::Cryptography::SignatureDescription
 	{
 	public:

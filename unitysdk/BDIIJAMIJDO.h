@@ -8,6 +8,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define BDIIJAMIJDO_DISPOSE_OFFSET UNITYSDK_OFFSET(0x162FBC10)
 #define BDIIJAMIJDO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x162FBCE0)
 
+inline static constexpr unsigned int BDIIJAMIJDO_TypeDefinitionIndex = 55288;
+
 	class BDIIJAMIJDO
 	{
 	public:

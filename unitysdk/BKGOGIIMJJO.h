@@ -11,6 +11,8 @@ namespace RPG::GameCore { class ChenLingBattleAbility_Attack; }
 #define BKGOGIIMJJO_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0xB7B4A00)
 #define BKGOGIIMJJO_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0xB7B4AA0)
 
+inline static constexpr unsigned int BKGOGIIMJJO_TypeDefinitionIndex = 77893;
+
 	class BKGOGIIMJJO : public ::JNALBIEDNLH
 	{
 	public:

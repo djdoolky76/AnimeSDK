@@ -31,6 +31,8 @@ namespace RPG::Client::Pet::BlindBox { class IBlindBoxPet; }
 
 namespace RPG::Client::BlindBox::Trade
 {
+	inline static constexpr unsigned int PublicBlindBoxTradeOrder_TypeDefinitionIndex = 74879;
+
 	class PublicBlindBoxTradeOrder : public ::System::Object
 	{
 	public:

@@ -36,6 +36,8 @@ namespace System { class String; }
 #define ONKDAPOKGAC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DEC8950)
 #define ONKDAPOKGAC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DEC89B0)
 
+inline static constexpr unsigned int ONKDAPOKGAC_TypeDefinitionIndex = 25309;
+
 	class ONKDAPOKGAC : public ::System::Object
 	{
 	public:

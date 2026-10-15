@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ForceSetDialogCamera_TypeDefinitionIndex = 21133;
+
 	class ForceSetDialogCamera : public ::RPG::GameCore::TaskConfig
 	{
 	public:

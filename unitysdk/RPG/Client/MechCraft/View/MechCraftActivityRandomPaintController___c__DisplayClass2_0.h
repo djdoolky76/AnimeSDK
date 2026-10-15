@@ -9,6 +9,8 @@
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftActivityRandomPaintController___c__DisplayClass2_0_TypeDefinitionIndex = 79969;
+
 	class MechCraftActivityRandomPaintController___c__DisplayClass2_0 : public ::System::Object
 	{
 	public:

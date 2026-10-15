@@ -11,6 +11,8 @@ namespace UnityEngine { class Collider; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int DebugWireframePass___c_TypeDefinitionIndex = 37566;
+
 	class DebugWireframePass___c : public ::System::Object
 	{
 	public:

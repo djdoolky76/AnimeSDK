@@ -10,6 +10,8 @@ namespace RPG::GameCore { class PingPongEnemyGroupEvent_PushStack; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PingPongEnemyGroupEvent_PushStack_TypeDefinitionIndex = 16997;
+
 	class PingPongEnemyGroupEvent_PushStack : public ::RPG::GameCore::PingPongEnemyGroupEventBase
 	{
 	public:

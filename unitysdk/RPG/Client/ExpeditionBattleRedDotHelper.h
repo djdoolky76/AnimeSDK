@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyLi
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ExpeditionBattleRedDotHelper_TypeDefinitionIndex = 63861;
+
 	class ExpeditionBattleRedDotHelper : public ::System::Object
 	{
 	public:

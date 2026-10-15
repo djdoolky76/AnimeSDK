@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LegacyConflictStateBinder_TypeDefinitionIndex = 21039;
+
 	class LegacyConflictStateBinder : public ::RPG::GameCore::TaskConfig
 	{
 	public:

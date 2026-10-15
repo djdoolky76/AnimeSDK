@@ -11,6 +11,8 @@ namespace MiHoYo::SDK::Win { class OverseaPayDialog; }
 
 namespace MiHoYo::SDK::Win
 {
+	inline static constexpr unsigned int OverseaPayDialog___c__DisplayClass67_0_TypeDefinitionIndex = 9555;
+
 	class OverseaPayDialog___c__DisplayClass67_0 : public ::System::Object
 	{
 	public:

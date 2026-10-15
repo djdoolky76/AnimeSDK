@@ -12,6 +12,8 @@ namespace RPG::GameCore { class ChimeraBattleTargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChimeraAbilityModifier_TypeDefinitionIndex = 15843;
+
 	class ChimeraAbilityModifier : public ::RPG::GameCore::JsonConfig
 	{
 	public:

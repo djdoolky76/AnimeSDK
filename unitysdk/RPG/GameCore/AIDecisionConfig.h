@@ -14,6 +14,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AIDecisionConfig_TypeDefinitionIndex = 15482;
+
 	class AIDecisionConfig : public ::RPG::GameCore::AIDecisionBaseConfig
 	{
 	public:

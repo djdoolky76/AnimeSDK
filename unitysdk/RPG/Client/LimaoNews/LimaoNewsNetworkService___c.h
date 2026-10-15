@@ -15,6 +15,8 @@ namespace System { class Object; }
 
 namespace RPG::Client::LimaoNews
 {
+	inline static constexpr unsigned int LimaoNewsNetworkService___c_TypeDefinitionIndex = 80326;
+
 	class LimaoNewsNetworkService___c : public ::System::Object
 	{
 	public:

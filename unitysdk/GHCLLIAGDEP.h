@@ -27,6 +27,8 @@ namespace System { class String; }
 #define GHCLLIAGDEP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E485540)
 #define GHCLLIAGDEP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E4855A0)
 
+inline static constexpr unsigned int GHCLLIAGDEP_TypeDefinitionIndex = 28469;
+
 	class GHCLLIAGDEP : public ::System::Object
 	{
 	public:

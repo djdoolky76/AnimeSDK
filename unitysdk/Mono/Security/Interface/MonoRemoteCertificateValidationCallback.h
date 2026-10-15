@@ -16,6 +16,8 @@ namespace System::Security::Cryptography::X509Certificates { class X509Chain; }
 
 namespace Mono::Security::Interface
 {
+	inline static constexpr unsigned int MonoRemoteCertificateValidationCallback_TypeDefinitionIndex = 2292;
+
 	class MonoRemoteCertificateValidationCallback : public ::System::MulticastDelegate
 	{
 	public:

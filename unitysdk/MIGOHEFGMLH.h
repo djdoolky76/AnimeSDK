@@ -6,6 +6,8 @@ namespace System { class String; }
 #define MIGOHEFGMLH_CTOR_OFFSET UNITYSDK_OFFSET(0xB958BA0)
 #define MIGOHEFGMLH_TOSTRING_OFFSET UNITYSDK_OFFSET(0xB958B50)
 
+inline static constexpr unsigned int MIGOHEFGMLH_TypeDefinitionIndex = 59878;
+
 	class MIGOHEFGMLH : public ::RPG::Client::SyncCheckItemBase
 	{
 	public:

@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int BMDDCGIDIBB_KJFCKEIACEO_ELeaveState_TypeDefinitionIndex = 69184;
+
 	enum class BMDDCGIDIBB_KJFCKEIACEO_ELeaveState : ::System::Int32
 	{
 		None = 0,

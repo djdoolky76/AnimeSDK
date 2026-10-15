@@ -65,6 +65,8 @@ namespace XLua { class LuaTable; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int UIDraggableManager_TypeDefinitionIndex = 69087;
+
 	class UIDraggableManager : public ::UnityEngine::MonoBehaviour
 	{
 	public:

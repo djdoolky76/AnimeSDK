@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define AMIMPEBJMAP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E524430)
 #define AMIMPEBJMAP___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1E524440)
 
+inline static constexpr unsigned int AMIMPEBJMAP___c_TypeDefinitionIndex = 32154;
+
 	class AMIMPEBJMAP___c : public ::System::Object
 	{
 	public:

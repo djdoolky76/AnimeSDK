@@ -10,6 +10,8 @@ namespace RPG::GameCore { class BattleAreaFilterAllExpression; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int BattleAreaFilterAllExpression_TypeDefinitionIndex = 17410;
+
 	class BattleAreaFilterAllExpression : public ::RPG::GameCore::BattleAreaFilterExpression
 	{
 	public:

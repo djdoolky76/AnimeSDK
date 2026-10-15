@@ -29,6 +29,8 @@ namespace System { class String; }
 #define JADFEJKNOCO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E6EC840)
 #define JADFEJKNOCO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E6EC8A0)
 
+inline static constexpr unsigned int JADFEJKNOCO_TypeDefinitionIndex = 34400;
+
 	class JADFEJKNOCO : public ::System::Object
 	{
 	public:

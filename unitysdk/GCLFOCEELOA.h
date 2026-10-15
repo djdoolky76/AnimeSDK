@@ -7,6 +7,8 @@ namespace RPG::Client { class GridFightPrayQuest; }
 #define GCLFOCEELOA_CBGILKCGKAG_OFFSET UNITYSDK_OFFSET(0x15983440)
 #define GCLFOCEELOA_CTOR_OFFSET UNITYSDK_OFFSET(0x159834E0)
 
+inline static constexpr unsigned int GCLFOCEELOA_TypeDefinitionIndex = 65097;
+
 	class GCLFOCEELOA : public ::System::Object
 	{
 	public:

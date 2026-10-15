@@ -10,6 +10,8 @@ namespace System { class Object; }
 #define PIOIHOACNIF___C__GET__ONPLAYERCREATEACTION_B__9_0_OFFSET UNITYSDK_OFFSET(0xC275FE0)
 #define PIOIHOACNIF___C__GET__ONPLAYERDESTROYACTION_B__11_0_OFFSET UNITYSDK_OFFSET(0xC276060)
 
+inline static constexpr unsigned int PIOIHOACNIF___c_TypeDefinitionIndex = 52836;
+
 	class PIOIHOACNIF___c : public ::System::Object
 	{
 	public:

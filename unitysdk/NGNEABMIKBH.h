@@ -35,6 +35,8 @@ namespace UnityEngine::UI { class Text; }
 #define NGNEABMIKBH__ONBIND_OFFSET UNITYSDK_OFFSET(0xBBAFBB0)
 #define NGNEABMIKBH__ONDISPOSE_OFFSET UNITYSDK_OFFSET(0xBBB0520)
 
+inline static constexpr unsigned int NGNEABMIKBH_TypeDefinitionIndex = 71832;
+
 	class NGNEABMIKBH : public ::FMPCODLIOLG
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TryTransferToHeroRoom; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TryTransferToHeroRoom_TypeDefinitionIndex = 22308;
+
 	class TryTransferToHeroRoom : public ::RPG::GameCore::TaskConfig
 	{
 	public:

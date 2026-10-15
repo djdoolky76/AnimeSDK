@@ -14,6 +14,8 @@ namespace UnityEngine::UI { class Button; }
 #define KPPANPGAMBI_REMOVE_CLICKED_OFFSET UNITYSDK_OFFSET(0xB5D42E0)
 #define KPPANPGAMBI___ENSURECLICKWIRED_B__12_0_OFFSET UNITYSDK_OFFSET(0xB5D4510)
 
+inline static constexpr unsigned int KPPANPGAMBI_TypeDefinitionIndex = 72674;
+
 	class KPPANPGAMBI : public ::System::Object
 	{
 	public:

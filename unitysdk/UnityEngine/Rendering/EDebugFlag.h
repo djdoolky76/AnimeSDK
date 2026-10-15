@@ -3,6 +3,8 @@
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int EDebugFlag_TypeDefinitionIndex = 37523;
+
 	enum class EDebugFlag : ::System::Int64
 	{
 		kDFNone = 0,

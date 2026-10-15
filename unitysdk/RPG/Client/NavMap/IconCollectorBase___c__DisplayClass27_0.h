@@ -11,6 +11,8 @@ namespace RPG::GameCore { class SubMissionInfoConfig; }
 
 namespace RPG::Client::NavMap
 {
+	inline static constexpr unsigned int IconCollectorBase___c__DisplayClass27_0_TypeDefinitionIndex = 74528;
+
 	class IconCollectorBase___c__DisplayClass27_0 : public ::System::Object
 	{
 	public:

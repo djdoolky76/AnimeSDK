@@ -9,6 +9,8 @@ namespace UnityEngine::UI { class Scrollbar; }
 #define MHYSDKUICLAMPSCROLLAREA_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0xAF4F1A0)
 #define MHYSDKUICLAMPSCROLLAREA_RESET_OFFSET UNITYSDK_OFFSET(0xAF4F130)
 
+inline static constexpr unsigned int MHYSDKUIClampScrollArea_TypeDefinitionIndex = 45921;
+
 	class MHYSDKUIClampScrollArea : public ::UnityEngine::MonoBehaviour
 	{
 	public:

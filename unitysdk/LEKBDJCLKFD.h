@@ -8,6 +8,8 @@
 #define LEKBDJCLKFD_LDDELEKINOG_OFFSET UNITYSDK_OFFSET(0x1C4AD3F0)
 #define LEKBDJCLKFD_LEDCFMLFPNH_OFFSET UNITYSDK_OFFSET(0x1C4AD330)
 
+inline static constexpr unsigned int LEKBDJCLKFD_TypeDefinitionIndex = 41381;
+
 	class LEKBDJCLKFD : public ::System::Object
 	{
 	public:

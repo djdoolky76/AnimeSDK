@@ -31,6 +31,8 @@ namespace System { class String; }
 #define JJDNPDECDDA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E7587D0)
 #define JJDNPDECDDA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E758830)
 
+inline static constexpr unsigned int JJDNPDECDDA_TypeDefinitionIndex = 30206;
+
 	class JJDNPDECDDA : public ::System::Object
 	{
 	public:

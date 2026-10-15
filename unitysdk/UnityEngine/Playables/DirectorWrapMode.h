@@ -3,6 +3,8 @@
 
 namespace UnityEngine::Playables
 {
+	inline static constexpr unsigned int DirectorWrapMode_TypeDefinitionIndex = 4910;
+
 	enum class DirectorWrapMode : ::System::Int32
 	{
 		Hold = 0,

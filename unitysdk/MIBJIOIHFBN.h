@@ -10,6 +10,8 @@ namespace RPG::GameCore { class VCameraModeChange; }
 #define MIBJIOIHFBN_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB94E7F0)
 #define MIBJIOIHFBN_TICK_OFFSET UNITYSDK_OFFSET(0xB94E840)
 
+inline static constexpr unsigned int MIBJIOIHFBN_TypeDefinitionIndex = 53882;
+
 	class MIBJIOIHFBN : public ::GELIALJDFBL
 	{
 	public:

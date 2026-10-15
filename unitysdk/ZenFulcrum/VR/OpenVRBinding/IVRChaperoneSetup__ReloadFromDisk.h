@@ -13,6 +13,8 @@ namespace System { class Object; }
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
+	inline static constexpr unsigned int IVRChaperoneSetup__ReloadFromDisk_TypeDefinitionIndex = 39006;
+
 	class IVRChaperoneSetup__ReloadFromDisk : public ::System::MulticastDelegate
 	{
 	public:

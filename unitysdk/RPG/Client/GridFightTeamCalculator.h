@@ -26,6 +26,8 @@ namespace System::Text { class StringBuilder; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightTeamCalculator_TypeDefinitionIndex = 64824;
+
 	class GridFightTeamCalculator : public ::System::Object
 	{
 	public:

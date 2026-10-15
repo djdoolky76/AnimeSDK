@@ -4,6 +4,8 @@
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
+	inline static constexpr unsigned int B2ConstraintGraph_TypeDefinitionIndex = 36615;
+
 	struct alignas(8) B2ConstraintGraph
 	{
 		::Il2CppArray<::RPG::LittleGameShare::HoyoPhysics::Box2D::B2GraphColor>* colors; // 0x10

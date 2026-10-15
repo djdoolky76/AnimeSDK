@@ -17,6 +17,8 @@ namespace UnityEngine::Networking { class UnityWebRequest; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int NetUtil__DownloadDataAsByteArray_d__8_TypeDefinitionIndex = 8186;
+
 	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename T8>
 	class NetUtil__DownloadDataAsByteArray_d__8 : public ::System::Object
 	{

@@ -24,6 +24,8 @@ namespace UnityEngine { class Collider; }
 #define HJJIMAJFJDF_OKJDEKLMCFB_OFFSET UNITYSDK_OFFSET(0x15D27B00)
 #define HJJIMAJFJDF_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0x15D26810)
 
+inline static constexpr unsigned int HJJIMAJFJDF_TypeDefinitionIndex = 59020;
+
 	class HJJIMAJFJDF : public ::System::Object
 	{
 	public:

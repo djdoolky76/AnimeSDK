@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int MLPGOBNCBOF_TypeDefinitionIndex = 30352;
+
 	enum class MLPGOBNCBOF : ::System::Int32
 	{
 		NLCDGIPGFDJ = 0,

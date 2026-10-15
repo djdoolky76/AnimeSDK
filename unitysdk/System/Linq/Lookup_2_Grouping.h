@@ -5,6 +5,8 @@ namespace System { class Object; }
 
 namespace System::Linq
 {
+	inline static constexpr unsigned int Lookup_2_Grouping_TypeDefinitionIndex = 3171;
+
 	template <typename T1, typename T2>
 	class Lookup_2_Grouping : public ::System::Object
 	{

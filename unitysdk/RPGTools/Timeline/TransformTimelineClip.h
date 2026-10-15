@@ -13,6 +13,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int TransformTimelineClip_TypeDefinitionIndex = 48523;
+
 	class TransformTimelineClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:

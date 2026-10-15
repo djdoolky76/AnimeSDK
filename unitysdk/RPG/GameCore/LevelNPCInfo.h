@@ -42,6 +42,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelNPCInfo_TypeDefinitionIndex = 17277;
+
 	class LevelNPCInfo : public ::RPG::GameCore::NamedLevelObjectInfo
 	{
 	public:

@@ -33,6 +33,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define BAIBJGAMDAI_SET_MAP_OFFSET UNITYSDK_OFFSET(0x15E6BA00)
 #define BAIBJGAMDAI_SET_TEAMS_OFFSET UNITYSDK_OFFSET(0x15E6BA40)
 
+inline static constexpr unsigned int BAIBJGAMDAI_TypeDefinitionIndex = 63879;
+
 	class BAIBJGAMDAI : public ::System::Object
 	{
 	public:

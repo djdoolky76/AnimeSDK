@@ -9,6 +9,8 @@ namespace UnityEngine::ProBuilder { class ProBuilderMesh; }
 
 namespace UnityEngine::ProBuilder::MeshOperations
 {
+	inline static constexpr unsigned int MeshValidation___c__DisplayClass10_0_TypeDefinitionIndex = 44510;
+
 	class MeshValidation___c__DisplayClass10_0 : public ::System::Object
 	{
 	public:

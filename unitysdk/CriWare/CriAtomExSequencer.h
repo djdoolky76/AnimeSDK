@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace CriWare
 {
+	inline static constexpr unsigned int CriAtomExSequencer_TypeDefinitionIndex = 39996;
+
 	class CriAtomExSequencer : public ::System::Object
 	{
 	public:

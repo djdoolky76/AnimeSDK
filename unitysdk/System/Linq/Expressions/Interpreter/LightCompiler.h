@@ -132,6 +132,8 @@ namespace System::Reflection { class MethodInfo; }
 
 namespace System::Linq::Expressions::Interpreter
 {
+	inline static constexpr unsigned int LightCompiler_TypeDefinitionIndex = 3485;
+
 	class LightCompiler : public ::System::Object
 	{
 	public:

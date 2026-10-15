@@ -5,6 +5,8 @@
 
 #define BFINOGCFBMJ_CTOR_OFFSET UNITYSDK_OFFSET(0xB16D190)
 
+inline static constexpr unsigned int BFINOGCFBMJ_TypeDefinitionIndex = 53654;
+
 	class BFINOGCFBMJ : public ::System::Object
 	{
 	public:

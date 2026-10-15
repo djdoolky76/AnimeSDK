@@ -18,6 +18,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define EOHOBJGGMNP_NKPOPPEGBPO_OFFSET UNITYSDK_OFFSET(0x155C1890)
 #define EOHOBJGGMNP_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0x155C15E0)
 
+inline static constexpr unsigned int EOHOBJGGMNP_TypeDefinitionIndex = 72125;
+
 	class EOHOBJGGMNP : public ::System::Object
 	{
 	public:

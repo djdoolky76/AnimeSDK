@@ -17,6 +17,8 @@ namespace UnityEngine { class Camera; }
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int RenderPipeline_TypeDefinitionIndex = 4761;
+
 	class RenderPipeline : public ::System::Object
 	{
 	public:

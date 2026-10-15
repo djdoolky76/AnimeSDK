@@ -7,6 +7,8 @@
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int CRPGraphicsSettingsData_RPDebugSettings_TypeDefinitionIndex = 37663;
+
 	class CRPGraphicsSettingsData_RPDebugSettings : public ::System::Object
 	{
 	public:

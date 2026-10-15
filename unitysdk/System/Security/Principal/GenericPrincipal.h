@@ -8,6 +8,8 @@ namespace System::Security::Principal { class IIdentity; }
 
 namespace System::Security::Principal
 {
+	inline static constexpr unsigned int GenericPrincipal_TypeDefinitionIndex = 984;
+
 	class GenericPrincipal : public ::System::Security::Claims::ClaimsPrincipal
 	{
 	public:

@@ -165,6 +165,8 @@ namespace UnityEngine::Rendering { class CommandBuffer; }
 #define HFJJCHKBGCC_PNHKOOGEOHE_OFFSET UNITYSDK_OFFSET(0x15C85D20)
 #define HFJJCHKBGCC__RELEASEPRIORITYIMMEDIANTLY_B__145_0_OFFSET UNITYSDK_OFFSET(0x15C870E0)
 
+inline static constexpr unsigned int HFJJCHKBGCC_TypeDefinitionIndex = 49277;
+
 	class HFJJCHKBGCC
 	{
 	public:

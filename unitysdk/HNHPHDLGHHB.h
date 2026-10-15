@@ -30,6 +30,8 @@ namespace UnityEngine::Rendering { class CommandBuffer; }
 #define HNHPHDLGHHB__INIT_B__4_2_OFFSET UNITYSDK_OFFSET(0x15D969C0)
 #define HNHPHDLGHHB__INIT_B__4_3_OFFSET UNITYSDK_OFFSET(0x15D969F0)
 
+inline static constexpr unsigned int HNHPHDLGHHB_TypeDefinitionIndex = 49316;
+
 	class HNHPHDLGHHB : public ::KHAKCLAJLOB
 	{
 	public:

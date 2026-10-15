@@ -8,6 +8,8 @@ namespace UnityEngine { class Camera; }
 #define JCPGAMOEIMK_IIFJCDAPKDG_OFFSET UNITYSDK_OFFSET(0x165A9D00)
 #define JCPGAMOEIMK_NALLEIKKDJD_OFFSET UNITYSDK_OFFSET(0x165A9BC0)
 
+inline static constexpr unsigned int JCPGAMOEIMK_TypeDefinitionIndex = 69762;
+
 	class JCPGAMOEIMK : public ::System::Object
 	{
 	public:

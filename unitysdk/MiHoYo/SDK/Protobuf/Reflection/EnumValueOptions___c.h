@@ -10,6 +10,8 @@ namespace System { class Object; }
 
 namespace MiHoYo::SDK::Protobuf::Reflection
 {
+	inline static constexpr unsigned int EnumValueOptions___c_TypeDefinitionIndex = 35800;
+
 	class EnumValueOptions___c : public ::System::Object
 	{
 	public:

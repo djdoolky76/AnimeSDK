@@ -17,6 +17,8 @@ namespace UnityEngine { class Event; }
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
+	inline static constexpr unsigned int KeyEvents_TypeDefinitionIndex = 39475;
+
 	class KeyEvents : public ::System::Object
 	{
 	public:

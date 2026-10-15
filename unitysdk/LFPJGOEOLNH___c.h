@@ -13,6 +13,8 @@ namespace System { template <typename T> class Predicate_1; }
 #define LFPJGOEOLNH___C__INIT_B__7_3_OFFSET UNITYSDK_OFFSET(0xB68ACF0)
 #define LFPJGOEOLNH___C__INIT_B__7_4_OFFSET UNITYSDK_OFFSET(0xB68AD50)
 
+inline static constexpr unsigned int LFPJGOEOLNH___c_TypeDefinitionIndex = 59372;
+
 	class LFPJGOEOLNH___c : public ::System::Object
 	{
 	public:

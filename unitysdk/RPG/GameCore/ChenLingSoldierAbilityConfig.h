@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ChenLingSoldierAbilityConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChenLingSoldierAbilityConfig_TypeDefinitionIndex = 15703;
+
 	class ChenLingSoldierAbilityConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

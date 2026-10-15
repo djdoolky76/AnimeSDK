@@ -33,6 +33,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define EGFMHEDPFOC__ONBIND_OFFSET UNITYSDK_OFFSET(0x145168D0)
 #define EGFMHEDPFOC__ONDISPOSE_OFFSET UNITYSDK_OFFSET(0x14517150)
 
+inline static constexpr unsigned int EGFMHEDPFOC_TypeDefinitionIndex = 71596;
+
 	class EGFMHEDPFOC : public ::FMPCODLIOLG
 	{
 	public:

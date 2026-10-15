@@ -6,6 +6,8 @@
 
 namespace System::Security::Cryptography::X509Certificates
 {
+	inline static constexpr unsigned int X509Certificate2Impl_TypeDefinitionIndex = 2694;
+
 	class X509Certificate2Impl : public ::System::Security::Cryptography::X509Certificates::X509CertificateImpl
 	{
 	public:

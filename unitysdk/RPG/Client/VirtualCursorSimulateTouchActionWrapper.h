@@ -17,6 +17,8 @@ namespace UnityEngine::EventSystems { class PointerEventData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int VirtualCursorSimulateTouchActionWrapper_TypeDefinitionIndex = 73231;
+
 	class VirtualCursorSimulateTouchActionWrapper : public ::System::Object
 	{
 	public:

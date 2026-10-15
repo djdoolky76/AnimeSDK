@@ -4,6 +4,8 @@
 #define NJHKONOLLPK_FAKEKMHJIBI_OFFSET UNITYSDK_OFFSET(0x21760)
 #define NJHKONOLLPK_IBLFENNIHDN_OFFSET UNITYSDK_OFFSET(0x21740)
 
+inline static constexpr unsigned int NJHKONOLLPK_TypeDefinitionIndex = 57167;
+
 	struct alignas(4) NJHKONOLLPK
 	{
 		::System::Single DHPDILNLIPC; // 0x10

@@ -8,6 +8,8 @@ namespace RPG::Client { class GridFightRole; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightRoleTransferEvent_TypeDefinitionIndex = 65197;
+
 	class GridFightRoleTransferEvent : public ::System::Object
 	{
 	public:

@@ -21,6 +21,8 @@ class EPDDOMFGIMK;
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueNousValueInfo_TypeDefinitionIndex = 67489;
+
 	class RogueNousValueInfo : public ::System::Object
 	{
 	public:

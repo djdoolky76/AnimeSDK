@@ -10,6 +10,8 @@
 
 namespace RPG::Client::ChenLingBattle
 {
+	inline static constexpr unsigned int CardIdentifier_TypeDefinitionIndex = 76223;
+
 	class CardIdentifier : public ::System::Object
 	{
 	public:

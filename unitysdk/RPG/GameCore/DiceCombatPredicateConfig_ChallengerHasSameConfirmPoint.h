@@ -10,6 +10,8 @@ namespace RPG::GameCore { class DiceCombatPredicateConfig_ChallengerHasSameConfi
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DiceCombatPredicateConfig_ChallengerHasSameConfirmPoint_TypeDefinitionIndex = 16110;
+
 	class DiceCombatPredicateConfig_ChallengerHasSameConfirmPoint : public ::RPG::GameCore::DiceCombatPredicateConfig
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System { class String; }
 #define LICCJOEFPLK_LCNMILBEICC_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB6C6F20)
 #define LICCJOEFPLK_LCNMILBEICC_JKEONEEPIHH_OFFSET UNITYSDK_OFFSET(0xB6C6ED0)
 
+inline static constexpr unsigned int LICCJOEFPLK_LCNMILBEICC_TypeDefinitionIndex = 81965;
+
 	class LICCJOEFPLK_LCNMILBEICC : public ::System::Object
 	{
 	public:

@@ -29,6 +29,8 @@ namespace System { class String; }
 #define BPDMBMPFPEB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E0419E0)
 #define BPDMBMPFPEB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E041A40)
 
+inline static constexpr unsigned int BPDMBMPFPEB_TypeDefinitionIndex = 31739;
+
 	class BPDMBMPFPEB : public ::System::Object
 	{
 	public:

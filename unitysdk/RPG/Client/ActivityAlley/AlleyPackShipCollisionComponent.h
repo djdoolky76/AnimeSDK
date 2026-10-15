@@ -11,6 +11,8 @@ namespace UnityEngine { class Collider; }
 
 namespace RPG::Client::ActivityAlley
 {
+	inline static constexpr unsigned int AlleyPackShipCollisionComponent_TypeDefinitionIndex = 74096;
+
 	class AlleyPackShipCollisionComponent : public ::UnityEngine::MonoBehaviour
 	{
 	public:

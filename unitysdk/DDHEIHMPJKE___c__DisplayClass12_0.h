@@ -7,6 +7,8 @@ class EKAFJOGBCFA;
 #define DDHEIHMPJKE___C__DISPLAYCLASS12_0_CTOR_OFFSET UNITYSDK_OFFSET(0xE2652F0)
 #define DDHEIHMPJKE___C__DISPLAYCLASS12_0___ONTIMELINEBIND_B__0_OFFSET UNITYSDK_OFFSET(0xE265300)
 
+inline static constexpr unsigned int DDHEIHMPJKE___c__DisplayClass12_0_TypeDefinitionIndex = 57954;
+
 	class DDHEIHMPJKE___c__DisplayClass12_0 : public ::System::Object
 	{
 	public:

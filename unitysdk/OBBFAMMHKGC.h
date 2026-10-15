@@ -8,6 +8,8 @@ namespace UnityEngine { class Component; }
 #define OBBFAMMHKGC_DPGCMNFJCOH_OFFSET UNITYSDK_OFFSET(0xBD36CA0)
 #define OBBFAMMHKGC_PKADDEPKJFN_OFFSET UNITYSDK_OFFSET(0xBD369D0)
 
+inline static constexpr unsigned int OBBFAMMHKGC_TypeDefinitionIndex = 69029;
+
 	class OBBFAMMHKGC : public ::System::Object
 	{
 	public:

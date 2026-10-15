@@ -7,6 +7,8 @@
 #define NAMPAKJKBHH_GET_REVERSE_OFFSET UNITYSDK_OFFSET(0xBAA7F20)
 #define NAMPAKJKBHH_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0xBAA7DB0)
 
+inline static constexpr unsigned int NAMPAKJKBHH_TypeDefinitionIndex = 74199;
+
 	class NAMPAKJKBHH : public ::FFPAFGCOKHK
 	{
 	public:

@@ -4,6 +4,8 @@
 
 #define ENVIRONMENTSYSTEMTEST_CTOR_OFFSET UNITYSDK_OFFSET(0x15659600)
 
+inline static constexpr unsigned int EnvironmentSystemTest_TypeDefinitionIndex = 47300;
+
 	class EnvironmentSystemTest : public ::UnityEngine::MonoBehaviour
 	{
 	public:

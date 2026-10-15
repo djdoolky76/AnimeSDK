@@ -15,6 +15,8 @@ namespace RPG::GameCore { class PerformanceReplayGenderRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PerformanceReplayGenderRow_TypeDefinitionIndex = 14352;
+
 	class PerformanceReplayGenderRow : public ::System::Object
 	{
 	public:

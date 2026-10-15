@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define HPMFJIBDNIK_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0x15DD4C10)
 #define HPMFJIBDNIK_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0x15DD4C50)
 
+inline static constexpr unsigned int HPMFJIBDNIK_TypeDefinitionIndex = 82288;
+
 	class HPMFJIBDNIK : public ::KAANKGHDHCB
 	{
 	public:

@@ -15,6 +15,8 @@ namespace System { class String; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int TimelineEventArgument_TypeDefinitionIndex = 48431;
+
 	class TimelineEventArgument : public ::System::Object
 	{
 	public:

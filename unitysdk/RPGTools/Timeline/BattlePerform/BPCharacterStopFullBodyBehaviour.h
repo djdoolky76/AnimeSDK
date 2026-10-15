@@ -12,6 +12,8 @@ namespace RPGTools::Timeline::BattlePerform { class BPCharacterStopFullBodyClip;
 
 namespace RPGTools::Timeline::BattlePerform
 {
+	inline static constexpr unsigned int BPCharacterStopFullBodyBehaviour_TypeDefinitionIndex = 48810;
+
 	class BPCharacterStopFullBodyBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

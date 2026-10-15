@@ -7,6 +7,8 @@ namespace System { class Action; }
 #define IBBHJCHGKLC_CTOR_OFFSET UNITYSDK_OFFSET(0x15E29F90)
 #define IBBHJCHGKLC_DMKJAJLNEBK_OFFSET UNITYSDK_OFFSET(0x15E29FA0)
 
+inline static constexpr unsigned int IBBHJCHGKLC_TypeDefinitionIndex = 79706;
+
 	class IBBHJCHGKLC : public ::CKAAHMNPJPA
 	{
 	public:

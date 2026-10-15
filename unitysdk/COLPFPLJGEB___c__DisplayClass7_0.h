@@ -7,6 +7,8 @@ namespace System { class String; }
 #define COLPFPLJGEB___C__DISPLAYCLASS7_0_CTOR_OFFSET UNITYSDK_OFFSET(0xDCBDE50)
 #define COLPFPLJGEB___C__DISPLAYCLASS7_0__BUILDCATLOCKFOODCOMMAND_B__0_OFFSET UNITYSDK_OFFSET(0xDCBF150)
 
+inline static constexpr unsigned int COLPFPLJGEB___c__DisplayClass7_0_TypeDefinitionIndex = 76430;
+
 	class COLPFPLJGEB___c__DisplayClass7_0 : public ::System::Object
 	{
 	public:

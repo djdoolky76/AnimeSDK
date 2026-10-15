@@ -9,6 +9,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 #define FACMNJFJEFP_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CDC4850)
 #define FACMNJFJEFP_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CDC4810)
 
+inline static constexpr unsigned int FACMNJFJEFP_TypeDefinitionIndex = 22540;
+
 	class FACMNJFJEFP : public ::RPG::GameCore::TaskConfig
 	{
 	public:

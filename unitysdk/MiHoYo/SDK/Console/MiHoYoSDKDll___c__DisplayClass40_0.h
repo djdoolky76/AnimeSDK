@@ -7,6 +7,8 @@
 
 namespace MiHoYo::SDK::Console
 {
+	inline static constexpr unsigned int MiHoYoSDKDll___c__DisplayClass40_0_TypeDefinitionIndex = 8952;
+
 	class MiHoYoSDKDll___c__DisplayClass40_0 : public ::System::Object
 	{
 	public:

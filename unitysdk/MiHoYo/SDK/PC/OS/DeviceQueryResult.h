@@ -6,6 +6,8 @@
 
 namespace MiHoYo::SDK::PC::OS
 {
+	inline static constexpr unsigned int DeviceQueryResult_TypeDefinitionIndex = 8642;
+
 	class DeviceQueryResult : public ::System::Object
 	{
 	public:

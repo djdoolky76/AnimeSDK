@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define BOAKFPMPBPB_CTOR_OFFSET UNITYSDK_OFFSET(0xBDE70B0)
 #define BOAKFPMPBPB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBDE70E0)
 
+inline static constexpr unsigned int BOAKFPMPBPB_TypeDefinitionIndex = 53034;
+
 	class BOAKFPMPBPB
 	{
 	public:

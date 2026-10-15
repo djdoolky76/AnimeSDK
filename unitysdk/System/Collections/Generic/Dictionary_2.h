@@ -6,6 +6,8 @@ namespace System::Collections::Generic { template <typename T> class IEqualityCo
 
 namespace System::Collections::Generic
 {
+	inline static constexpr unsigned int Dictionary_2_TypeDefinitionIndex = 1535;
+
 	template <typename T1, typename T2>
 	class Dictionary_2 : public ::System::Object
 	{

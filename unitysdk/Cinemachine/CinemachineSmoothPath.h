@@ -22,6 +22,8 @@ namespace System { class Object; }
 
 namespace Cinemachine
 {
+	inline static constexpr unsigned int CinemachineSmoothPath_TypeDefinitionIndex = 39748;
+
 	class CinemachineSmoothPath : public ::Cinemachine::CinemachinePathBase
 	{
 	public:

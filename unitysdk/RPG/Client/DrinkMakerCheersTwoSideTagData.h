@@ -15,6 +15,8 @@ namespace RPG::GameCore { class DrinkMakerCheersConfigRow; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int DrinkMakerCheersTwoSideTagData_TypeDefinitionIndex = 63627;
+
 	class DrinkMakerCheersTwoSideTagData : public ::System::Object
 	{
 	public:

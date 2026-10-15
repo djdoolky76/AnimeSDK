@@ -13,6 +13,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdvAddAIHangUpInfo_TypeDefinitionIndex = 20233;
+
 	class AdvAddAIHangUpInfo : public ::RPG::GameCore::TaskConfig
 	{
 	public:

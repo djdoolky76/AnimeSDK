@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FateParamShopRefreshCountConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FateParamShopRefreshCountConfig_TypeDefinitionIndex = 16625;
+
 	class FateParamShopRefreshCountConfig : public ::RPG::GameCore::FateParameterConfigBase
 	{
 	public:

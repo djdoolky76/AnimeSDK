@@ -29,6 +29,8 @@ namespace System { class String; }
 #define GOFFDNPBHIK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E4EF400)
 #define GOFFDNPBHIK_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E4EF460)
 
+inline static constexpr unsigned int GOFFDNPBHIK_TypeDefinitionIndex = 25329;
+
 	class GOFFDNPBHIK : public ::System::Object
 	{
 	public:

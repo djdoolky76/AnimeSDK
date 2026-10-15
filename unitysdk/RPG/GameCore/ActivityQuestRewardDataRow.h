@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ActivityQuestRewardDataRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ActivityQuestRewardDataRow_TypeDefinitionIndex = 12307;
+
 	class ActivityQuestRewardDataRow : public ::System::Object
 	{
 	public:

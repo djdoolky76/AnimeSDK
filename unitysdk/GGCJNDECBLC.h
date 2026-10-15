@@ -4,6 +4,8 @@
 
 #define GGCJNDECBLC_CTOR_OFFSET UNITYSDK_OFFSET(0x15A02C80)
 
+inline static constexpr unsigned int GGCJNDECBLC_TypeDefinitionIndex = 48930;
+
 	class GGCJNDECBLC : public ::System::Object
 	{
 	public:

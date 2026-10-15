@@ -18,6 +18,8 @@ namespace System { class Object; }
 #define CJGEMKGLFLO_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xD205140)
 #define CJGEMKGLFLO_TICK_OFFSET UNITYSDK_OFFSET(0xD205190)
 
+inline static constexpr unsigned int CJGEMKGLFLO_TypeDefinitionIndex = 58780;
+
 	class CJGEMKGLFLO : public ::GELIALJDFBL
 	{
 	public:

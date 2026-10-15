@@ -30,6 +30,8 @@ namespace System { class String; }
 #define DBIFGMGGCMA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E15D8C0)
 #define DBIFGMGGCMA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E15D920)
 
+inline static constexpr unsigned int DBIFGMGGCMA_TypeDefinitionIndex = 31994;
+
 	class DBIFGMGGCMA : public ::System::Object
 	{
 	public:

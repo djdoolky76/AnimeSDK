@@ -5,6 +5,8 @@ class FNMPFMCLCHP;
 
 #define HKDNFPBFODG_CTOR_OFFSET UNITYSDK_OFFSET(0x15D3FCD0)
 
+inline static constexpr unsigned int HKDNFPBFODG_TypeDefinitionIndex = 71730;
+
 	class HKDNFPBFODG : public ::System::Object
 	{
 	public:

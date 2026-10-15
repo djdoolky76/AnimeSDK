@@ -10,6 +10,8 @@ namespace RPG::GameCore { class CharacterCustomPreloadConfigBase; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CharacterCustomPreloadConfigBase_TypeDefinitionIndex = 16344;
+
 	class CharacterCustomPreloadConfigBase : public ::RPG::GameCore::JsonConfig
 	{
 	public:

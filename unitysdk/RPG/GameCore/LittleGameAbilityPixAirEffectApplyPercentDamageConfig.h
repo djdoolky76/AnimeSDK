@@ -11,6 +11,8 @@ namespace RPG::GameCore { class LittleGameAbilityPixAirEffectApplyPercentDamageC
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LittleGameAbilityPixAirEffectApplyPercentDamageConfig_TypeDefinitionIndex = 21347;
+
 	class LittleGameAbilityPixAirEffectApplyPercentDamageConfig : public ::RPG::GameCore::BaseLittleGameAbilityEffectConfig
 	{
 	public:

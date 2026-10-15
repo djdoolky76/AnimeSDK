@@ -28,6 +28,8 @@ namespace System { class String; }
 #define GNLACIGLJJN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E4E3E40)
 #define GNLACIGLJJN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E4E3EA0)
 
+inline static constexpr unsigned int GNLACIGLJJN_TypeDefinitionIndex = 34521;
+
 	class GNLACIGLJJN : public ::System::Object
 	{
 	public:

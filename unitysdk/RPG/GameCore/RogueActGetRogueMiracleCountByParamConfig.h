@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueActGetRogueMiracleCountByParamConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueActGetRogueMiracleCountByParamConfig_TypeDefinitionIndex = 19603;
+
 	class RogueActGetRogueMiracleCountByParamConfig : public ::RPG::GameCore::RogueActionConfigBase
 	{
 	public:

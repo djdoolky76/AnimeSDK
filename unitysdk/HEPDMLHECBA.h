@@ -7,6 +7,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define HEPDMLHECBA_CTOR_OFFSET UNITYSDK_OFFSET(0x15C64050)
 #define HEPDMLHECBA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15C64080)
 
+inline static constexpr unsigned int HEPDMLHECBA_TypeDefinitionIndex = 57902;
+
 	class HEPDMLHECBA
 	{
 	public:

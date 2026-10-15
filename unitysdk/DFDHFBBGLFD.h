@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define DFDHFBBGLFD_CTOR_OFFSET UNITYSDK_OFFSET(0xE8249F0)
 #define DFDHFBBGLFD_EVALUATE_OFFSET UNITYSDK_OFFSET(0xE824A60)
 
+inline static constexpr unsigned int DFDHFBBGLFD_TypeDefinitionIndex = 53794;
+
 	class DFDHFBBGLFD
 	{
 	public:

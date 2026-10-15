@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define MKOADBDNMGE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA5DB50)
 #define MKOADBDNMGE___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1EA5DB60)
 
+inline static constexpr unsigned int MKOADBDNMGE___c_TypeDefinitionIndex = 34056;
+
 	class MKOADBDNMGE___c : public ::System::Object
 	{
 	public:

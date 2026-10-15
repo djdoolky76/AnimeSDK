@@ -9,6 +9,8 @@ namespace UnityEngine { class GameObject; }
 #define DGMLPCOHFLK_CLEAR_OFFSET UNITYSDK_OFFSET(0x1CA29710)
 #define DGMLPCOHFLK_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA29790)
 
+inline static constexpr unsigned int DGMLPCOHFLK_TypeDefinitionIndex = 43195;
+
 	class DGMLPCOHFLK : public ::System::Object
 	{
 	public:

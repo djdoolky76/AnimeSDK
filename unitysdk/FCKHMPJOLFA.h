@@ -22,6 +22,8 @@ namespace System { class String; }
 #define FCKHMPJOLFA_SET_OVERRIDEPATH_OFFSET UNITYSDK_OFFSET(0x94C0)
 #define FCKHMPJOLFA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x3C38260)
 
+inline static constexpr unsigned int FCKHMPJOLFA_TypeDefinitionIndex = 24839;
+
 	struct alignas(8) FCKHMPJOLFA
 	{
 		::System::String* _BaseJsonPath_k__BackingField; // 0x10

@@ -10,6 +10,8 @@ namespace RPG::Client { class CycleScoreService; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int CycleScoreSystem_TypeDefinitionIndex = 63548;
+
 	class CycleScoreSystem : public ::System::Object
 	{
 	public:

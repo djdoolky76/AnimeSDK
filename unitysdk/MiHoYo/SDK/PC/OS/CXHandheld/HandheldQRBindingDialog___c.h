@@ -11,6 +11,8 @@ namespace System { class Object; }
 
 namespace MiHoYo::SDK::PC::OS::CXHandheld
 {
+	inline static constexpr unsigned int HandheldQRBindingDialog___c_TypeDefinitionIndex = 8817;
+
 	class HandheldQRBindingDialog___c : public ::System::Object
 	{
 	public:

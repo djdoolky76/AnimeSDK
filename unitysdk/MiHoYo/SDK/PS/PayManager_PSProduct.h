@@ -6,6 +6,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::PS
 {
+	inline static constexpr unsigned int PayManager_PSProduct_TypeDefinitionIndex = 8914;
+
 	struct alignas(8) PayManager_PSProduct
 	{
 		::System::String* productLabel; // 0x10

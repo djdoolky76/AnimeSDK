@@ -9,6 +9,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int FMSystemDebugInfo_TypeDefinitionIndex = 68352;
+
 	class FMSystemDebugInfo : public ::UnityEngine::MonoBehaviour
 	{
 	public:

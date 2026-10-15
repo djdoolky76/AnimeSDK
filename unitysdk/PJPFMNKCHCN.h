@@ -7,6 +7,8 @@ namespace RPG::GameCore { class TextJoinConfigRow; }
 #define PJPFMNKCHCN_CTOR_OFFSET UNITYSDK_OFFSET(0xC29E680)
 #define PJPFMNKCHCN_KIGIDKAFKEG_OFFSET UNITYSDK_OFFSET(0xC29E5A0)
 
+inline static constexpr unsigned int PJPFMNKCHCN_TypeDefinitionIndex = 74386;
+
 	class PJPFMNKCHCN : public ::System::Object
 	{
 	public:

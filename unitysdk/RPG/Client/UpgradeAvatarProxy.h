@@ -19,6 +19,8 @@ namespace RPG::AvatarSystem { class IAvatar; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int UpgradeAvatarProxy_TypeDefinitionIndex = 62863;
+
 	class UpgradeAvatarProxy : public ::System::Object
 	{
 	public:

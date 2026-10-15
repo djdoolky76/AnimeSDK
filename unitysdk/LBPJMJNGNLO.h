@@ -17,6 +17,8 @@ namespace System { class String; }
 #define LBPJMJNGNLO_KIGBILLGNOH_OFFSET UNITYSDK_OFFSET(0xB60ED70)
 #define LBPJMJNGNLO_OPCKNBHNBOA_OFFSET UNITYSDK_OFFSET(0xB60F680)
 
+inline static constexpr unsigned int LBPJMJNGNLO_TypeDefinitionIndex = 55921;
+
 	class LBPJMJNGNLO : public ::JJANGHIBICJ
 	{
 	public:

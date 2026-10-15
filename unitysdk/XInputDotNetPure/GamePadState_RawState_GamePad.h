@@ -3,6 +3,8 @@
 
 namespace XInputDotNetPure
 {
+	inline static constexpr unsigned int GamePadState_RawState_GamePad_TypeDefinitionIndex = 40788;
+
 	struct alignas(4) GamePadState_RawState_GamePad
 	{
 		::System::UInt16 dwButtons; // 0x10

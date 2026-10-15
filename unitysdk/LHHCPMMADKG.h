@@ -5,6 +5,8 @@
 
 #define LHHCPMMADKG_CTOR_OFFSET UNITYSDK_OFFSET(0xB6B1770)
 
+inline static constexpr unsigned int LHHCPMMADKG_TypeDefinitionIndex = 55355;
+
 	class LHHCPMMADKG : public ::System::Object
 	{
 	public:

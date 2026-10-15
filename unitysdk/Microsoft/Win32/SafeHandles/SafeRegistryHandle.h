@@ -7,6 +7,8 @@
 
 namespace Microsoft::Win32::SafeHandles
 {
+	inline static constexpr unsigned int SafeRegistryHandle_TypeDefinitionIndex = 116;
+
 	class SafeRegistryHandle : public ::Microsoft::Win32::SafeHandles::SafeHandleZeroOrMinusOneIsInvalid
 	{
 	public:

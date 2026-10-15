@@ -69,6 +69,8 @@ namespace UnityEngine { class Coroutine; }
 
 namespace MiHoYo::SDK::Win
 {
+	inline static constexpr unsigned int OverseaPayManager_TypeDefinitionIndex = 9339;
+
 	class OverseaPayManager : public ::System::Object
 	{
 	public:

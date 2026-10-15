@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace UnityEngine::Scripting
 {
+	inline static constexpr unsigned int RequiredByNativeCodeAttribute_TypeDefinitionIndex = 3739;
+
 	class RequiredByNativeCodeAttribute : public ::System::Attribute
 	{
 	public:

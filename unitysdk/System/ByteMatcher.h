@@ -12,6 +12,8 @@ namespace System::Collections { class Hashtable; }
 
 namespace System
 {
+	inline static constexpr unsigned int ByteMatcher_TypeDefinitionIndex = 430;
+
 	class ByteMatcher : public ::System::Object
 	{
 	public:

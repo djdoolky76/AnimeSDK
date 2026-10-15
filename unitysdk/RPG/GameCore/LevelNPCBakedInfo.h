@@ -23,6 +23,8 @@ namespace System { class Object; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelNPCBakedInfo_TypeDefinitionIndex = 10715;
+
 	struct alignas(8) LevelNPCBakedInfo
 	{
 		::LELCKJPOPAO* _Pool; // 0x10

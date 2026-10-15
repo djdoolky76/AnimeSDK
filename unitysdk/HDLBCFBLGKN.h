@@ -21,6 +21,8 @@ namespace UnityEngine { class Font; }
 #define HDLBCFBLGKN_LPCJNIPHNGK_OFFSET UNITYSDK_OFFSET(0x15C3C330)
 #define HDLBCFBLGKN_ONJFJFJHOOF_OFFSET UNITYSDK_OFFSET(0x15C3C010)
 
+inline static constexpr unsigned int HDLBCFBLGKN_TypeDefinitionIndex = 72374;
+
 	class HDLBCFBLGKN : public ::System::Object
 	{
 	public:

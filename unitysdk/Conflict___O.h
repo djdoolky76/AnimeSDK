@@ -3,6 +3,8 @@
 #include "unitysdk/System/Object.h"
 class DLAONJFMHJP;
 
+inline static constexpr unsigned int Conflict___O_TypeDefinitionIndex = 47154;
+
 	class Conflict___O : public ::System::Object
 	{
 	public:

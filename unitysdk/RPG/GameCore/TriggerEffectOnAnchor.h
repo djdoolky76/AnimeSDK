@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TriggerEffectOnAnchor_TypeDefinitionIndex = 21695;
+
 	class TriggerEffectOnAnchor : public ::RPG::GameCore::TaskConfig
 	{
 	public:

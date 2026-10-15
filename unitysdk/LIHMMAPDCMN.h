@@ -27,6 +27,8 @@ namespace System { class String; }
 #define LIHMMAPDCMN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E96D970)
 #define LIHMMAPDCMN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E96D9D0)
 
+inline static constexpr unsigned int LIHMMAPDCMN_TypeDefinitionIndex = 32627;
+
 	class LIHMMAPDCMN : public ::System::Object
 	{
 	public:

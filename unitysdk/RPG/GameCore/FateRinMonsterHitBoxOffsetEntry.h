@@ -9,6 +9,8 @@ namespace RPG::GameCore { class FateRinMonsterHitBoxOffsetEntry; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FateRinMonsterHitBoxOffsetEntry_TypeDefinitionIndex = 18160;
+
 	class FateRinMonsterHitBoxOffsetEntry : public ::RPG::GameCore::JsonConfig
 	{
 	public:

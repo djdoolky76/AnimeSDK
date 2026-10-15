@@ -59,6 +59,8 @@ namespace UnityEngine { class Renderer; }
 #define BOBJFFPMFDB_OGJKMAKNPMI_OFFSET UNITYSDK_OFFSET(0xC18B0E0)
 #define BOBJFFPMFDB_PHNNOPBBHNE_OFFSET UNITYSDK_OFFSET(0xBDE99D0)
 
+inline static constexpr unsigned int BOBJFFPMFDB_TypeDefinitionIndex = 78029;
+
 	class BOBJFFPMFDB : public ::System::Object
 	{
 	public:

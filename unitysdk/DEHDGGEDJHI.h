@@ -28,6 +28,8 @@ namespace System { class String; }
 #define DEHDGGEDJHI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E193010)
 #define DEHDGGEDJHI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E193070)
 
+inline static constexpr unsigned int DEHDGGEDJHI_TypeDefinitionIndex = 25682;
+
 	class DEHDGGEDJHI : public ::System::Object
 	{
 	public:

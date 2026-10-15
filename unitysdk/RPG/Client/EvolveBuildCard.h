@@ -39,6 +39,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int EvolveBuildCard_TypeDefinitionIndex = 63786;
+
 	class EvolveBuildCard : public ::System::Object
 	{
 	public:

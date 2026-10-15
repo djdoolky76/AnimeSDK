@@ -9,6 +9,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 #define JHLCCGABEGB___C_CTOR_OFFSET UNITYSDK_OFFSET(0xB1BB2B0)
 #define JHLCCGABEGB___C__SATISFY_B__0_0_OFFSET UNITYSDK_OFFSET(0xB1BB2C0)
 
+inline static constexpr unsigned int JHLCCGABEGB___c_TypeDefinitionIndex = 64909;
+
 	class JHLCCGABEGB___c : public ::System::Object
 	{
 	public:

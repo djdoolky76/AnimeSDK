@@ -8,6 +8,8 @@ namespace RPG::GameCore { class GameEntity; }
 #define MGLFJBALLGL_HDKMDFOFIBG_OFFSET UNITYSDK_OFFSET(0xB9280E0)
 #define MGLFJBALLGL_LMCEDCHJKFF_OFFSET UNITYSDK_OFFSET(0xB928040)
 
+inline static constexpr unsigned int MGLFJBALLGL_TypeDefinitionIndex = 56940;
+
 	class MGLFJBALLGL : public ::RPG::GameCore::GameComponentBase
 	{
 	public:

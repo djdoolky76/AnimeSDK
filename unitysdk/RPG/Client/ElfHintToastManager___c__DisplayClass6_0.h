@@ -9,6 +9,8 @@ namespace RPG::Client { class UserPrefs; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ElfHintToastManager___c__DisplayClass6_0_TypeDefinitionIndex = 63703;
+
 	class ElfHintToastManager___c__DisplayClass6_0 : public ::System::Object
 	{
 	public:

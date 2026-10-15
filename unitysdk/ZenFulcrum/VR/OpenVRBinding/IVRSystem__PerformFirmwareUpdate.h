@@ -13,6 +13,8 @@ namespace System { class Object; }
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
+	inline static constexpr unsigned int IVRSystem__PerformFirmwareUpdate_TypeDefinitionIndex = 38932;
+
 	class IVRSystem__PerformFirmwareUpdate : public ::System::MulticastDelegate
 	{
 	public:

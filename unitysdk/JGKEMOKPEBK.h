@@ -5,6 +5,8 @@
 
 #define JGKEMOKPEBK_CTOR_OFFSET UNITYSDK_OFFSET(0x1CB94740)
 
+inline static constexpr unsigned int JGKEMOKPEBK_TypeDefinitionIndex = 42277;
+
 	class JGKEMOKPEBK : public ::System::Object
 	{
 	public:

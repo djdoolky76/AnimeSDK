@@ -5,6 +5,8 @@
 
 #define HNCGINPEEHG_CTOR_OFFSET UNITYSDK_OFFSET(0x1CAED100)
 
+inline static constexpr unsigned int HNCGINPEEHG_TypeDefinitionIndex = 42294;
+
 	class HNCGINPEEHG : public ::System::Object
 	{
 	public:

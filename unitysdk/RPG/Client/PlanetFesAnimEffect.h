@@ -20,6 +20,8 @@ namespace UnityEngine::UI { class Image; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PlanetFesAnimEffect_TypeDefinitionIndex = 66470;
+
 	class PlanetFesAnimEffect : public ::UnityEngine::MonoBehaviour
 	{
 	public:

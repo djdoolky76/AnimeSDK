@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::Client::TAUtils
 {
+	inline static constexpr unsigned int MaterialPropertiesCollection_Property_TypeDefinitionIndex = 73615;
+
 	class MaterialPropertiesCollection_Property : public ::System::Object
 	{
 	public:

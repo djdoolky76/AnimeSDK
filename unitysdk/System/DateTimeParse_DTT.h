@@ -3,6 +3,8 @@
 
 namespace System
 {
+	inline static constexpr unsigned int DateTimeParse_DTT_TypeDefinitionIndex = 254;
+
 	enum class DateTimeParse_DTT : ::System::Int32
 	{
 		End = 0,

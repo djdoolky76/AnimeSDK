@@ -30,6 +30,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PlanetFesGachaData_TypeDefinitionIndex = 66596;
+
 	class PlanetFesGachaData : public ::System::Object
 	{
 	public:

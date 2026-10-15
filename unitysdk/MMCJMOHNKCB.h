@@ -10,6 +10,8 @@ namespace System { class String; }
 #define MMCJMOHNKCB_CTOR_OFFSET UNITYSDK_OFFSET(0x1D1CFFF0)
 #define MMCJMOHNKCB_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D1CF9A0)
 
+inline static constexpr unsigned int MMCJMOHNKCB_TypeDefinitionIndex = 15061;
+
 	class MMCJMOHNKCB : public ::System::Object
 	{
 	public:

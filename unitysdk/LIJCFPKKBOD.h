@@ -9,6 +9,8 @@ namespace System { class String; }
 #define LIJCFPKKBOD_CTOR_OFFSET UNITYSDK_OFFSET(0x1D0FA5F0)
 #define LIJCFPKKBOD_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D0FA090)
 
+inline static constexpr unsigned int LIJCFPKKBOD_TypeDefinitionIndex = 13929;
+
 	class LIJCFPKKBOD : public ::System::Object
 	{
 	public:

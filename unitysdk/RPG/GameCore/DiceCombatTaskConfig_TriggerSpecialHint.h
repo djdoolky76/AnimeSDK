@@ -10,6 +10,8 @@ namespace RPG::GameCore { class DiceCombatTaskConfig_TriggerSpecialHint; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DiceCombatTaskConfig_TriggerSpecialHint_TypeDefinitionIndex = 16042;
+
 	class DiceCombatTaskConfig_TriggerSpecialHint : public ::RPG::GameCore::DiceCombatTaskConfig
 	{
 	public:

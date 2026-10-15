@@ -35,6 +35,8 @@ namespace System { class String; }
 #define FHNIFCJJKEO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E391D80)
 #define FHNIFCJJKEO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E391DE0)
 
+inline static constexpr unsigned int FHNIFCJJKEO_TypeDefinitionIndex = 33702;
+
 	class FHNIFCJJKEO : public ::System::Object
 	{
 	public:

@@ -6,6 +6,8 @@
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int Bool_TypeDefinitionIndex = 7568;
+
 	class Bool : public ::System::Object
 	{
 	public:

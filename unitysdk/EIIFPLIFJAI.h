@@ -10,6 +10,8 @@ namespace System { class Type; }
 #define EIIFPLIFJAI_FNAAJGAHIAI_OFFSET UNITYSDK_OFFSET(0x154CBE00)
 #define EIIFPLIFJAI_IHPAKOMCHGP_OFFSET UNITYSDK_OFFSET(0x154CBE50)
 
+inline static constexpr unsigned int EIIFPLIFJAI_TypeDefinitionIndex = 81213;
+
 	class EIIFPLIFJAI : public ::System::Object
 	{
 	public:

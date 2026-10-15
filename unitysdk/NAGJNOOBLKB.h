@@ -15,6 +15,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define NAGJNOOBLKB_LJKGFKNGJDF_OFFSET UNITYSDK_OFFSET(0xBA9BA60)
 #define NAGJNOOBLKB_OLIOHDILFHP_OFFSET UNITYSDK_OFFSET(0xBA9B7A0)
 
+inline static constexpr unsigned int NAGJNOOBLKB_TypeDefinitionIndex = 66734;
+
 	class NAGJNOOBLKB : public ::System::Object
 	{
 	public:

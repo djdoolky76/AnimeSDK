@@ -11,6 +11,8 @@ namespace RPG::Client { class VirtualCursor; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int VirtualCursor_VirtualCursorDampingState_TypeDefinitionIndex = 73236;
+
 	class VirtualCursor_VirtualCursorDampingState : public ::System::Object
 	{
 	public:

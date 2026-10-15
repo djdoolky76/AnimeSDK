@@ -147,6 +147,8 @@ namespace UnityEngine { class Rigidbody; }
 #define KMEOMKNPNCC_SET_VELOCITY_OFFSET UNITYSDK_OFFSET(0xB549500)
 #define KMEOMKNPNCC_SET_WALLHITS_OFFSET UNITYSDK_OFFSET(0xB5510E0)
 
+inline static constexpr unsigned int KMEOMKNPNCC_TypeDefinitionIndex = 57101;
+
 	class KMEOMKNPNCC : public ::System::Object
 	{
 	public:

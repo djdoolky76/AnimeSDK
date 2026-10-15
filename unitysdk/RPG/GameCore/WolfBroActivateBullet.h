@@ -10,6 +10,8 @@ namespace RPG::GameCore { class WolfBroActivateBullet; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int WolfBroActivateBullet_TypeDefinitionIndex = 21587;
+
 	class WolfBroActivateBullet : public ::RPG::GameCore::TaskConfig
 	{
 	public:

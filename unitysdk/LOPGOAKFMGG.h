@@ -9,6 +9,8 @@ class LOPGOAKFMGG;
 #define LOPGOAKFMGG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D123BB0)
 #define LOPGOAKFMGG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D123B50)
 
+inline static constexpr unsigned int LOPGOAKFMGG_TypeDefinitionIndex = 16843;
+
 	class LOPGOAKFMGG : public ::RPG::GameCore::MarbleTaskConfig
 	{
 	public:

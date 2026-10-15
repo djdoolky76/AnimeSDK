@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int HideWaypoint_TypeDefinitionIndex = 20871;
+
 	class HideWaypoint : public ::RPG::GameCore::TaskConfig
 	{
 	public:

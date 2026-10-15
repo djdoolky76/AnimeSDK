@@ -24,6 +24,8 @@ namespace UnityEngine { class Transform; }
 #define MLPOPBACEFJ_OGGNJFHIOFG_OFFSET UNITYSDK_OFFSET(0xB9BBE20)
 #define MLPOPBACEFJ_ONJDGBDCABB_OFFSET UNITYSDK_OFFSET(0xB9BC450)
 
+inline static constexpr unsigned int MLPOPBACEFJ_TypeDefinitionIndex = 76879;
+
 	class MLPOPBACEFJ : public ::LFKJCGCCIOA
 	{
 	public:

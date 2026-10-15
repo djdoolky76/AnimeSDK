@@ -3,6 +3,8 @@
 
 namespace Cinemachine
 {
+	inline static constexpr unsigned int CinemachineGroupComposer_AdjustmentMode_TypeDefinitionIndex = 39778;
+
 	enum class CinemachineGroupComposer_AdjustmentMode : ::System::Int32
 	{
 		ZoomOnly = 0,

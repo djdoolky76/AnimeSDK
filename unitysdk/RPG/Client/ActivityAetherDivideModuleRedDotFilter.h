@@ -36,6 +36,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ActivityAetherDivideModuleRedDotFilter_TypeDefinitionIndex = 66819;
+
 	class ActivityAetherDivideModuleRedDotFilter : public ::RPG::Client::BaseRedDotFilter
 	{
 	public:

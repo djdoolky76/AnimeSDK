@@ -24,6 +24,8 @@ namespace UnityEngine { class AsyncOperation; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int AsyncOperation_TypeDefinitionIndex = 4300;
+
 	class AsyncOperation : public ::UnityEngine::YieldInstruction
 	{
 	public:

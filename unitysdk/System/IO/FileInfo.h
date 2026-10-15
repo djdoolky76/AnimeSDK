@@ -27,6 +27,8 @@ namespace System::Runtime::Serialization { class SerializationInfo; }
 
 namespace System::IO
 {
+	inline static constexpr unsigned int FileInfo_TypeDefinitionIndex = 669;
+
 	class FileInfo : public ::System::IO::FileSystemInfo
 	{
 	public:

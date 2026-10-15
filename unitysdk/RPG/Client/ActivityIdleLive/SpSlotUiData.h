@@ -15,6 +15,8 @@ namespace System { class String; }
 
 namespace RPG::Client::ActivityIdleLive
 {
+	inline static constexpr unsigned int SpSlotUiData_TypeDefinitionIndex = 75441;
+
 	class SpSlotUiData : public ::System::Object
 	{
 	public:

@@ -13,6 +13,8 @@ namespace System { class Object; }
 #define MNNHAEKPOBL__REGISTEREVENTCALLBACK_OFFSET UNITYSDK_OFFSET(0xBA18220)
 #define MNNHAEKPOBL__UNREGISTEREVENTCALLBACK_OFFSET UNITYSDK_OFFSET(0xBA182E0)
 
+inline static constexpr unsigned int MNNHAEKPOBL_TypeDefinitionIndex = 52993;
+
 	class MNNHAEKPOBL
 	{
 	public:

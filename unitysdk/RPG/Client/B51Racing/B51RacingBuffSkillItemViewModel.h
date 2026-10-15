@@ -8,6 +8,8 @@
 
 namespace RPG::Client::B51Racing
 {
+	inline static constexpr unsigned int B51RacingBuffSkillItemViewModel_TypeDefinitionIndex = 82010;
+
 	class B51RacingBuffSkillItemViewModel : public ::System::Object
 	{
 	public:

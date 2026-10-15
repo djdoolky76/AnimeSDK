@@ -6,6 +6,8 @@ namespace System { class Object; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MaterialSwitchMonoPlugin_TypeDefinitionIndex = 70724;
+
 	class MaterialSwitchMonoPlugin
 	{
 	public:

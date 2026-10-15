@@ -31,6 +31,8 @@ namespace System { class String; }
 #define PILLGGGIPAF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DF6CD90)
 #define PILLGGGIPAF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DF6CDF0)
 
+inline static constexpr unsigned int PILLGGGIPAF_TypeDefinitionIndex = 26002;
+
 	class PILLGGGIPAF : public ::System::Object
 	{
 	public:

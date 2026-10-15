@@ -12,6 +12,8 @@ namespace System { class String; }
 #define JMECAFJNCOM_CTOR_OFFSET UNITYSDK_OFFSET(0x1D04A840)
 #define JMECAFJNCOM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D049FF0)
 
+inline static constexpr unsigned int JMECAFJNCOM_TypeDefinitionIndex = 11538;
+
 	class JMECAFJNCOM : public ::System::Object
 	{
 	public:

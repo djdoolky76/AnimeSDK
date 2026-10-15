@@ -9,6 +9,8 @@ class ECIAICDLAHO;
 #define MOIIIDMHOFK_GET_CONFLICTGUID_OFFSET UNITYSDK_OFFSET(0x1EC87B70)
 #define MOIIIDMHOFK_GET_EXISTINGCONCRETE_OFFSET UNITYSDK_OFFSET(0x1EC87B90)
 
+inline static constexpr unsigned int MOIIIDMHOFK_TypeDefinitionIndex = 44301;
+
 	class MOIIIDMHOFK : public ::System::Exception
 	{
 	public:

@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 
 namespace RPG::Client::DiceCombat
 {
+	inline static constexpr unsigned int DiceCombatUtil___c__DisplayClass83_0_TypeDefinitionIndex = 76104;
+
 	class DiceCombatUtil___c__DisplayClass83_0 : public ::System::Object
 	{
 	public:

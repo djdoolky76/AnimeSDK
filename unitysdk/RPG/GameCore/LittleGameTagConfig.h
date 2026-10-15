@@ -11,6 +11,8 @@ namespace RPG::GameCore { class LittleGameTagConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LittleGameTagConfig_TypeDefinitionIndex = 18849;
+
 	class LittleGameTagConfig : public ::RPG::GameCore::LittleGameComponentConfig
 	{
 	public:

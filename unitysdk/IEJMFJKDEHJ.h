@@ -37,6 +37,8 @@ namespace UnityEngine::Rendering { class CommandBuffer; }
 #define IEJMFJKDEHJ_RELEASE_OFFSET UNITYSDK_OFFSET(0x15EFFEF0)
 #define IEJMFJKDEHJ_TICK_OFFSET UNITYSDK_OFFSET(0x15F001B0)
 
+inline static constexpr unsigned int IEJMFJKDEHJ_TypeDefinitionIndex = 49338;
+
 	class IEJMFJKDEHJ : public ::System::Object
 	{
 	public:

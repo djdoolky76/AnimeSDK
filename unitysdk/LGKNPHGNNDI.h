@@ -7,6 +7,8 @@ namespace System { class String; }
 
 #define LGKNPHGNNDI_CTOR_OFFSET UNITYSDK_OFFSET(0xB69AC20)
 
+inline static constexpr unsigned int LGKNPHGNNDI_TypeDefinitionIndex = 82057;
+
 	class LGKNPHGNNDI : public ::System::Object
 	{
 	public:

@@ -36,6 +36,8 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 #define MCFOLOOCDGJ_LGGHPHPLIPN_OFFSET UNITYSDK_OFFSET(0xB8795F0)
 #define MCFOLOOCDGJ_NCCJBLALCDF_OFFSET UNITYSDK_OFFSET(0xB87AA40)
 
+inline static constexpr unsigned int MCFOLOOCDGJ_TypeDefinitionIndex = 76568;
+
 	class MCFOLOOCDGJ : public ::HLFHMKMJNPK
 	{
 	public:

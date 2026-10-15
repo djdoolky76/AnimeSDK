@@ -10,6 +10,8 @@ namespace RPG::GameCore { class NavMapTabRow; }
 
 namespace RPG::Client::NavMap
 {
+	inline static constexpr unsigned int TrainTabData_TypeDefinitionIndex = 74535;
+
 	class TrainTabData : public ::RPG::Client::NavMap::ComposedTabData
 	{
 	public:

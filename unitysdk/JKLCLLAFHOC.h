@@ -31,6 +31,8 @@ namespace System { class String; }
 #define JKLCLLAFHOC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E76EA00)
 #define JKLCLLAFHOC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E76EA60)
 
+inline static constexpr unsigned int JKLCLLAFHOC_TypeDefinitionIndex = 27288;
+
 	class JKLCLLAFHOC : public ::System::Object
 	{
 	public:

@@ -6,6 +6,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ChimeraWorkSettleData_TypeDefinitionIndex = 63453;
+
 	class ChimeraWorkSettleData : public ::System::Object
 	{
 	public:

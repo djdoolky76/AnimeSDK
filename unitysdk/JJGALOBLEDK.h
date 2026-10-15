@@ -5,6 +5,8 @@ namespace System { class String; }
 
 #define JJGALOBLEDK_MKGBADKMKBA_OFFSET UNITYSDK_OFFSET(0xB204320)
 
+inline static constexpr unsigned int JJGALOBLEDK_TypeDefinitionIndex = 72734;
+
 	class JJGALOBLEDK : public ::System::Object
 	{
 	public:

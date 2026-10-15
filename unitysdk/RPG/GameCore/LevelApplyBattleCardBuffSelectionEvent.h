@@ -11,6 +11,8 @@ namespace RPG::GameCore { class LevelApplyBattleCardBuffSelectionEvent; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelApplyBattleCardBuffSelectionEvent_TypeDefinitionIndex = 56810;
+
 	class LevelApplyBattleCardBuffSelectionEvent : public ::CMPGEAFHHDC
 	{
 	public:

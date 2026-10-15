@@ -12,6 +12,8 @@ namespace RPG::GameCore { class LittleGameSmartObjectSlotData; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LittleGameSmartObjectSlotData_TypeDefinitionIndex = 18874;
+
 	class LittleGameSmartObjectSlotData : public ::RPG::GameCore::JsonConfig
 	{
 	public:

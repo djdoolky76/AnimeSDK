@@ -11,6 +11,8 @@ namespace RPG::Client { class RoadRashGameModifier_MatchLevelAIConfig_ProgressKe
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RoadRashGameModifier_MatchLevelAIConfig_TypeDefinitionIndex = 10316;
+
 	class RoadRashGameModifier_MatchLevelAIConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

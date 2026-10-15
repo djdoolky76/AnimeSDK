@@ -8,6 +8,8 @@ class MPDIEABIDFI;
 #define MPDIEABIDFI_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D1DDCE0)
 #define MPDIEABIDFI_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D1DDC90)
 
+inline static constexpr unsigned int MPDIEABIDFI_TypeDefinitionIndex = 10223;
+
 	class MPDIEABIDFI : public ::RPG::GameCore::TaskConfig
 	{
 	public:

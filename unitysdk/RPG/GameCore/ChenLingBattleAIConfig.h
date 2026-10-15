@@ -12,6 +12,8 @@ namespace RPG::GameCore { class ChenLingBattleAIConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChenLingBattleAIConfig_TypeDefinitionIndex = 15694;
+
 	class ChenLingBattleAIConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

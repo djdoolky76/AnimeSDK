@@ -9,6 +9,8 @@ namespace RPG::GameCore { class GMAccountRelicConfigRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GMAccountRelicConfigRow_TypeDefinitionIndex = 13342;
+
 	class GMAccountRelicConfigRow : public ::System::Object
 	{
 	public:

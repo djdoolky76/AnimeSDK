@@ -14,6 +14,8 @@ namespace RPG::Client::Promises { class Promise; }
 #define HMGELDJBNLH_NDPGEKOCCAM_OFFSET UNITYSDK_OFFSET(0x15D7C7A0)
 #define HMGELDJBNLH_SET_WAITFULLSYNCFINISH_OFFSET UNITYSDK_OFFSET(0x15D7CE70)
 
+inline static constexpr unsigned int HMGELDJBNLH_TypeDefinitionIndex = 82070;
+
 	class HMGELDJBNLH : public ::System::Object
 	{
 	public:

@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int CACGKIJHEMG_TypeDefinitionIndex = 25381;
+
 	enum class CACGKIJHEMG : ::System::Int32
 	{
 		KFDEMFFJNKA = 0,

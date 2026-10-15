@@ -7,6 +7,8 @@ namespace RPG::GameCore { class FateRinCaseBoardMoveBaseInfo; }
 
 namespace RPG::Client::FateRin::CaseBoard
 {
+	inline static constexpr unsigned int CaseBoardMoveToGrailParams_TypeDefinitionIndex = 80808;
+
 	class CaseBoardMoveToGrailParams : public ::System::Object
 	{
 	public:

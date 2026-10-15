@@ -4,6 +4,8 @@
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int HAPI_Session_TypeDefinitionIndex = 40492;
+
 	struct alignas(4) HAPI_Session
 	{
 		::HoudiniEngineUnity::HAPI_SessionType type; // 0x10

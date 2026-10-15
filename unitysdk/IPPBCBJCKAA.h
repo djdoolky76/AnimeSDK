@@ -9,6 +9,8 @@ namespace RPG::Client { class AvatarOutfit; }
 #define IPPBCBJCKAA_GET_OUTFIT_OFFSET UNITYSDK_OFFSET(0x16526670)
 #define IPPBCBJCKAA_ODLGFNPHMDJ_OFFSET UNITYSDK_OFFSET(0x16526600)
 
+inline static constexpr unsigned int IPPBCBJCKAA_TypeDefinitionIndex = 81208;
+
 	class IPPBCBJCKAA : public ::System::Object
 	{
 	public:

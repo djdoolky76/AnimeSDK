@@ -31,6 +31,8 @@ namespace System { class String; }
 #define HDAOEKOEDHO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E5468F0)
 #define HDAOEKOEDHO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E546950)
 
+inline static constexpr unsigned int HDAOEKOEDHO_TypeDefinitionIndex = 30612;
+
 	class HDAOEKOEDHO : public ::System::Object
 	{
 	public:

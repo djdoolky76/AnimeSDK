@@ -7,6 +7,8 @@ namespace UnityEngine { class Material; }
 
 namespace RPG::Client::TAUtils
 {
+	inline static constexpr unsigned int MaterialPropertiesCollection_MatrixArrayProperty_TypeDefinitionIndex = 73628;
+
 	class MaterialPropertiesCollection_MatrixArrayProperty
 	{
 	public:

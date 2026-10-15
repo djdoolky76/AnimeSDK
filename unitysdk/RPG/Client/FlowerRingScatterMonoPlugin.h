@@ -11,6 +11,8 @@ namespace UnityEngine { class Texture2D; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int FlowerRingScatterMonoPlugin_TypeDefinitionIndex = 70606;
+
 	class FlowerRingScatterMonoPlugin
 	{
 	public:

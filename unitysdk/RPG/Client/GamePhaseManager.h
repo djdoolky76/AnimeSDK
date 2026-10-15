@@ -42,6 +42,8 @@ namespace System { class Object; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GamePhaseManager_TypeDefinitionIndex = 61288;
+
 	class GamePhaseManager : public ::System::Object
 	{
 	public:

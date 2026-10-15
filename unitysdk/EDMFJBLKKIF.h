@@ -6,6 +6,8 @@
 #define EDMFJBLKKIF_CLEAR_OFFSET UNITYSDK_OFFSET(0x1CA33520)
 #define EDMFJBLKKIF_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA33580)
 
+inline static constexpr unsigned int EDMFJBLKKIF_TypeDefinitionIndex = 43285;
+
 	class EDMFJBLKKIF : public ::System::Object
 	{
 	public:

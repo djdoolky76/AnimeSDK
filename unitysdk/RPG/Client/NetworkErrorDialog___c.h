@@ -10,6 +10,8 @@ namespace System { class Object; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int NetworkErrorDialog___c_TypeDefinitionIndex = 72724;
+
 	class NetworkErrorDialog___c : public ::System::Object
 	{
 	public:

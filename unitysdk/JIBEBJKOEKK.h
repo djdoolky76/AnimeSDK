@@ -6,6 +6,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define JIBEBJKOEKK_CTOR_OFFSET UNITYSDK_OFFSET(0x1CB95520)
 
+inline static constexpr unsigned int JIBEBJKOEKK_TypeDefinitionIndex = 42835;
+
 	class JIBEBJKOEKK : public ::System::Object
 	{
 	public:

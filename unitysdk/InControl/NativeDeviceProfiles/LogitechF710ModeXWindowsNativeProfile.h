@@ -7,6 +7,8 @@
 
 namespace InControl::NativeDeviceProfiles
 {
+	inline static constexpr unsigned int LogitechF710ModeXWindowsNativeProfile_TypeDefinitionIndex = 41312;
+
 	class LogitechF710ModeXWindowsNativeProfile : public ::InControl::InputDeviceProfile
 	{
 	public:

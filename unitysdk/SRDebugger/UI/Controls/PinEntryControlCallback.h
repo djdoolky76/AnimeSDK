@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T> class IList_1; }
 
 namespace SRDebugger::UI::Controls
 {
+	inline static constexpr unsigned int PinEntryControlCallback_TypeDefinitionIndex = 38027;
+
 	class PinEntryControlCallback : public ::System::MulticastDelegate
 	{
 	public:

@@ -9,6 +9,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 #define AKLNIAEEONB___C_CTOR_OFFSET UNITYSDK_OFFSET(0x12CD7AE0)
 #define AKLNIAEEONB___C__REMOVELAUCHERRECORD_B__7_0_OFFSET UNITYSDK_OFFSET(0x12CD7AF0)
 
+inline static constexpr unsigned int AKLNIAEEONB___c_TypeDefinitionIndex = 61214;
+
 	class AKLNIAEEONB___c : public ::System::Object
 	{
 	public:

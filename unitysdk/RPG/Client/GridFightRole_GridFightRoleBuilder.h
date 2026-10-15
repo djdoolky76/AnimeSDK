@@ -35,6 +35,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightRole_GridFightRoleBuilder_TypeDefinitionIndex = 65107;
+
 	class GridFightRole_GridFightRoleBuilder : public ::System::Object
 	{
 	public:

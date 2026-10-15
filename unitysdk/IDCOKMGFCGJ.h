@@ -103,6 +103,8 @@ namespace UnityEngine { class SkinnedMeshRenderer; }
 #define IDCOKMGFCGJ_SET_ISMOVEABLE_OFFSET UNITYSDK_OFFSET(0x15EB3B70)
 #define IDCOKMGFCGJ_TICK_OFFSET UNITYSDK_OFFSET(0x15EB3610)
 
+inline static constexpr unsigned int IDCOKMGFCGJ_TypeDefinitionIndex = 57252;
+
 	class IDCOKMGFCGJ : public ::RPG::GameCore::GameComponentBase
 	{
 	public:

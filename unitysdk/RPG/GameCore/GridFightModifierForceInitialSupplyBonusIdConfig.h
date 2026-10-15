@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GridFightModifierForceInitialSupplyBonusIdConfig
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightModifierForceInitialSupplyBonusIdConfig_TypeDefinitionIndex = 19377;
+
 	class GridFightModifierForceInitialSupplyBonusIdConfig : public ::RPG::GameCore::GridFightModifierConfigBase
 	{
 	public:

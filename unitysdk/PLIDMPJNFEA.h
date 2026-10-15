@@ -30,6 +30,8 @@ namespace System { class String; }
 #define PLIDMPJNFEA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DFA27A0)
 #define PLIDMPJNFEA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DFA2800)
 
+inline static constexpr unsigned int PLIDMPJNFEA_TypeDefinitionIndex = 32734;
+
 	class PLIDMPJNFEA : public ::System::Object
 	{
 	public:

@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int ArchiveCharacter_TypeDefinitionIndex = 48503;
+
 	class ArchiveCharacter : public ::RPGTools::Timeline::ArchiveAsset
 	{
 	public:

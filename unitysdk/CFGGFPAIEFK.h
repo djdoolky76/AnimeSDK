@@ -31,6 +31,8 @@ namespace System { class String; }
 #define CFGGFPAIEFK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E0A1D00)
 #define CFGGFPAIEFK_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E0A1D60)
 
+inline static constexpr unsigned int CFGGFPAIEFK_TypeDefinitionIndex = 33764;
+
 	class CFGGFPAIEFK : public ::System::Object
 	{
 	public:

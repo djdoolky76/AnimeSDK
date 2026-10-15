@@ -4,6 +4,8 @@
 class OFKKOGBKOFI;
 namespace System { template <typename T1, typename T2, typename T3> class Func_3; }
 
+inline static constexpr unsigned int DMNNACMBAJC___O_TypeDefinitionIndex = 37186;
+
 	class DMNNACMBAJC___O : public ::System::Object
 	{
 	public:

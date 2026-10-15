@@ -10,6 +10,8 @@ namespace UnityEngine { class Texture; }
 
 namespace EnviromentSystemV2Space
 {
+	inline static constexpr unsigned int GradientCurveAsset_TypeDefinitionIndex = 49482;
+
 	class GradientCurveAsset : public ::UnityEngine::ScriptableObject
 	{
 	public:

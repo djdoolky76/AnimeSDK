@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define HIPPLENBUILDERACTIVITYASSET_ACTIVITY_CTOR_OFFSET UNITYSDK_OFFSET(0x15DE2F40)
 
+inline static constexpr unsigned int HipplenBuilderActivityAsset_Activity_TypeDefinitionIndex = 47222;
+
 	class HipplenBuilderActivityAsset_Activity : public ::System::Object
 	{
 	public:

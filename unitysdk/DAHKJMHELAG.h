@@ -7,6 +7,8 @@ namespace RPG { template <typename T> class PoolList_1; }
 #define DAHKJMHELAG_CLEAR_OFFSET UNITYSDK_OFFSET(0x1CA13EB0)
 #define DAHKJMHELAG_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA13FE0)
 
+inline static constexpr unsigned int DAHKJMHELAG_TypeDefinitionIndex = 43652;
+
 	class DAHKJMHELAG : public ::System::Object
 	{
 	public:

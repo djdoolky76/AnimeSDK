@@ -6,6 +6,8 @@
 #define CHFAIKPJMGE_HBFKMECBOND_OFFSET UNITYSDK_OFFSET(0xCC94E80)
 #define CHFAIKPJMGE_JGIAAGKKOAN_OFFSET UNITYSDK_OFFSET(0xCC94E30)
 
+inline static constexpr unsigned int CHFAIKPJMGE_TypeDefinitionIndex = 69698;
+
 	struct alignas(4) CHFAIKPJMGE
 	{
 		::System::Int32 COEMCOBPMKD; // 0x10

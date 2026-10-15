@@ -10,6 +10,8 @@ namespace RPG::GameCore { class PlayMessage; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PlayMessage_TypeDefinitionIndex = 21120;
+
 	class PlayMessage : public ::RPG::GameCore::TaskConfig
 	{
 	public:

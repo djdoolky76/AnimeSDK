@@ -14,6 +14,8 @@ namespace System::Text { class StringBuilder; }
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
+	inline static constexpr unsigned int IVRApplications__GetApplicationKeyByIndex_TypeDefinitionIndex = 38957;
+
 	class IVRApplications__GetApplicationKeyByIndex : public ::System::MulticastDelegate
 	{
 	public:

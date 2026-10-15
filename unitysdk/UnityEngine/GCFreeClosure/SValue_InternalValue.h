@@ -7,6 +7,8 @@ namespace System { class Object; }
 
 namespace UnityEngine::GCFreeClosure
 {
+	inline static constexpr unsigned int SValue_InternalValue_TypeDefinitionIndex = 4468;
+
 	struct alignas(4) SValue_InternalValue
 	{
 		::System::Boolean _bool; // 0x10

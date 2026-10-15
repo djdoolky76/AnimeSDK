@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int DefaultConsoleConfigReader_ReadDeviceProfileContext_TypeDefinitionIndex = 4066;
+
 	class DefaultConsoleConfigReader_ReadDeviceProfileContext : public ::System::Object
 	{
 	public:

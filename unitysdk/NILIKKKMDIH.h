@@ -16,6 +16,8 @@ namespace System { class String; }
 #define NILIKKKMDIH_MIKHPDIALMA_OFFSET UNITYSDK_OFFSET(0xBBFB120)
 #define NILIKKKMDIH_POIPJDLIMGF_OFFSET UNITYSDK_OFFSET(0xBBFA320)
 
+inline static constexpr unsigned int NILIKKKMDIH_TypeDefinitionIndex = 59945;
+
 	class NILIKKKMDIH : public ::System::Object
 	{
 	public:

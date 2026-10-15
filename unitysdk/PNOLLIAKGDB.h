@@ -31,6 +31,8 @@ namespace System { class String; }
 #define PNOLLIAKGDB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DFC0BF0)
 #define PNOLLIAKGDB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DFC0C50)
 
+inline static constexpr unsigned int PNOLLIAKGDB_TypeDefinitionIndex = 32032;
+
 	class PNOLLIAKGDB : public ::System::Object
 	{
 	public:

@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int ProtocolNativeTaskConfig_TypeDefinitionIndex = 7927;
+
 	class ProtocolNativeTaskConfig : public ::MiHoYo::SDK::SwitchBaseConfig
 	{
 	public:

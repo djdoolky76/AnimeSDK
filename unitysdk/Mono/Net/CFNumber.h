@@ -7,6 +7,8 @@
 
 namespace Mono::Net
 {
+	inline static constexpr unsigned int CFNumber_TypeDefinitionIndex = 2407;
+
 	class CFNumber : public ::Mono::Net::CFObject
 	{
 	public:

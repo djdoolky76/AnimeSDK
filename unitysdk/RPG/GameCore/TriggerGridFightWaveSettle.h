@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TriggerGridFightWaveSettle; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TriggerGridFightWaveSettle_TypeDefinitionIndex = 22532;
+
 	class TriggerGridFightWaveSettle : public ::RPG::GameCore::TaskConfig
 	{
 	public:

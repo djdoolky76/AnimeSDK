@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define GBMPOBJDAFF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E433150)
 #define GBMPOBJDAFF___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E433160)
 
+inline static constexpr unsigned int GBMPOBJDAFF___c_TypeDefinitionIndex = 28809;
+
 	class GBMPOBJDAFF___c : public ::System::Object
 	{
 	public:

@@ -4,6 +4,8 @@
 
 namespace System::ComponentModel
 {
+	inline static constexpr unsigned int ComponentConverter_TypeDefinitionIndex = 2571;
+
 	class ComponentConverter : public ::System::ComponentModel::ReferenceConverter
 	{
 	public:

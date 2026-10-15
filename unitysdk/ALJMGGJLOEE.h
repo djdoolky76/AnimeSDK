@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define ALJMGGJLOEE_LOCK_OFFSET UNITYSDK_OFFSET(0x1556F0A0)
 #define ALJMGGJLOEE_UNLOCK_OFFSET UNITYSDK_OFFSET(0x1556F520)
 
+inline static constexpr unsigned int ALJMGGJLOEE_TypeDefinitionIndex = 74773;
+
 	class ALJMGGJLOEE : public ::RPG::Client::GamePlayLockTargetFunc
 	{
 	public:

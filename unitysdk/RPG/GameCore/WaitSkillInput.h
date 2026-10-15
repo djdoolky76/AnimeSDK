@@ -13,6 +13,8 @@ namespace RPG::GameCore { class WaitSkillInput; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int WaitSkillInput_TypeDefinitionIndex = 20198;
+
 	class WaitSkillInput : public ::RPG::GameCore::TaskConfig
 	{
 	public:

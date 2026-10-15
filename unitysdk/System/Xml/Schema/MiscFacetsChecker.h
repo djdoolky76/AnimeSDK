@@ -6,6 +6,8 @@
 
 namespace System::Xml::Schema
 {
+	inline static constexpr unsigned int MiscFacetsChecker_TypeDefinitionIndex = 2162;
+
 	class MiscFacetsChecker : public ::System::Xml::Schema::FacetsChecker
 	{
 	public:

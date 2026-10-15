@@ -25,6 +25,8 @@ namespace System { class String; }
 #define KGGIFOABIDF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E8369A0)
 #define KGGIFOABIDF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E836A00)
 
+inline static constexpr unsigned int KGGIFOABIDF_TypeDefinitionIndex = 33706;
+
 	class KGGIFOABIDF : public ::System::Object
 	{
 	public:

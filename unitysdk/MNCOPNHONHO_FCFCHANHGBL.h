@@ -18,6 +18,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define MNCOPNHONHO_FCFCHANHGBL_OPLFIOIGDBF_OFFSET UNITYSDK_OFFSET(0xBA04B70)
 #define MNCOPNHONHO_FCFCHANHGBL_SET_DITHERALPHAVALUE_OFFSET UNITYSDK_OFFSET(0xBA04A30)
 
+inline static constexpr unsigned int MNCOPNHONHO_FCFCHANHGBL_TypeDefinitionIndex = 76685;
+
 	class MNCOPNHONHO_FCFCHANHGBL : public ::System::Object
 	{
 	public:

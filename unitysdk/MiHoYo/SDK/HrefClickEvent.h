@@ -5,6 +5,8 @@
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int HrefClickEvent_TypeDefinitionIndex = 8021;
+
 	class HrefClickEvent
 	{
 	public:

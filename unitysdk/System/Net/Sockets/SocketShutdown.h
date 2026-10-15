@@ -3,6 +3,8 @@
 
 namespace System::Net::Sockets
 {
+	inline static constexpr unsigned int SocketShutdown_TypeDefinitionIndex = 2912;
+
 	enum class SocketShutdown : ::System::Int32
 	{
 		Receive = 0,

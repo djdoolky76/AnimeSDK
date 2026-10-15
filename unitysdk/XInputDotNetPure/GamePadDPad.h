@@ -10,6 +10,8 @@
 
 namespace XInputDotNetPure
 {
+	inline static constexpr unsigned int GamePadDPad_TypeDefinitionIndex = 40782;
+
 	struct alignas(4) GamePadDPad
 	{
 		::XInputDotNetPure::ButtonState up; // 0x10

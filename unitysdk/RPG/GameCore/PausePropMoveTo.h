@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PausePropMoveTo_TypeDefinitionIndex = 21963;
+
 	class PausePropMoveTo : public ::RPG::GameCore::TaskConfig
 	{
 	public:

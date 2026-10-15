@@ -33,6 +33,8 @@ namespace System { class String; }
 #define FAOLLLOFMKB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E32C070)
 #define FAOLLLOFMKB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E32C0D0)
 
+inline static constexpr unsigned int FAOLLLOFMKB_TypeDefinitionIndex = 32772;
+
 	class FAOLLLOFMKB : public ::System::Object
 	{
 	public:

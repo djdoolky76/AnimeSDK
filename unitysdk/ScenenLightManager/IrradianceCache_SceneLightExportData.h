@@ -9,6 +9,8 @@ namespace ScenenLightManager { class IrradianceCache_ExportData; }
 
 namespace ScenenLightManager
 {
+	inline static constexpr unsigned int IrradianceCache_SceneLightExportData_TypeDefinitionIndex = 49063;
+
 	class IrradianceCache_SceneLightExportData : public ::ScenenLightManager::BaseSceneLightExportData
 	{
 	public:

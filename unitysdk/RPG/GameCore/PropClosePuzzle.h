@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PropClosePuzzle_TypeDefinitionIndex = 20367;
+
 	class PropClosePuzzle : public ::RPG::GameCore::TaskConfig
 	{
 	public:

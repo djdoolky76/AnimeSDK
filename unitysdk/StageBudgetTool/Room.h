@@ -12,6 +12,8 @@ namespace UnityEngine { class Transform; }
 
 namespace StageBudgetTool
 {
+	inline static constexpr unsigned int Room_TypeDefinitionIndex = 47722;
+
 	class Room : public ::System::Object
 	{
 	public:

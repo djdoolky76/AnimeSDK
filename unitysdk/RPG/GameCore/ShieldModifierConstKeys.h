@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ShieldModifierConstKeys; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ShieldModifierConstKeys_TypeDefinitionIndex = 17102;
+
 	class ShieldModifierConstKeys : public ::RPG::GameCore::JsonConfig
 	{
 	public:

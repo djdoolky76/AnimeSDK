@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ManikinMonsterConfig_TypeDefinitionIndex = 17480;
+
 	class ManikinMonsterConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

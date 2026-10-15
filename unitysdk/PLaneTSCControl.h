@@ -14,6 +14,8 @@ namespace UnityEngine { class Renderer; }
 #define PLANETSCCONTROL_STOPCLIP_OFFSET UNITYSDK_OFFSET(0xC3114A0)
 #define PLANETSCCONTROL_UPDATE_OFFSET UNITYSDK_OFFSET(0xC310C00)
 
+inline static constexpr unsigned int PLaneTSCControl_TypeDefinitionIndex = 47279;
+
 	class PLaneTSCControl : public ::UnityEngine::MonoBehaviour
 	{
 	public:

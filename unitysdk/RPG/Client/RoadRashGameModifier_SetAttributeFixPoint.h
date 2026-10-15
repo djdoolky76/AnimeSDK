@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RoadRashGameModifier_SetAttributeFixPoint_TypeDefinitionIndex = 10302;
+
 	class RoadRashGameModifier_SetAttributeFixPoint : public ::RPG::GameCore::BaseLittleGameAbilityTaskConfig
 	{
 	public:

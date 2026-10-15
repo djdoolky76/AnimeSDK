@@ -7,6 +7,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MaterialPropertyAnimBehavior_NGJAHLKPAIM_TypeDefinitionIndex = 70720;
+
 	class MaterialPropertyAnimBehavior_NGJAHLKPAIM : public ::System::Object
 	{
 	public:

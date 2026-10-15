@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ToggleTotalDamageFinishNotify; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ToggleTotalDamageFinishNotify_TypeDefinitionIndex = 23225;
+
 	class ToggleTotalDamageFinishNotify : public ::RPG::GameCore::TaskConfig
 	{
 	public:

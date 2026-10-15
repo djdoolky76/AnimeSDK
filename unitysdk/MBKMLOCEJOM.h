@@ -10,6 +10,8 @@ class MBKMLOCEJOM;
 #define MBKMLOCEJOM_CTOR_OFFSET UNITYSDK_OFFSET(0xB85FA00)
 #define MBKMLOCEJOM_OKPLPEELPBC_OFFSET UNITYSDK_OFFSET(0xB85FA10)
 
+inline static constexpr unsigned int MBKMLOCEJOM_TypeDefinitionIndex = 76421;
+
 	class MBKMLOCEJOM : public ::HALHKJLBIKJ
 	{
 	public:

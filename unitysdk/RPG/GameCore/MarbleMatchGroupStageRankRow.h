@@ -9,6 +9,8 @@ namespace RPG::GameCore { class MarbleMatchGroupStageRankRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MarbleMatchGroupStageRankRow_TypeDefinitionIndex = 11871;
+
 	class MarbleMatchGroupStageRankRow : public ::System::Object
 	{
 	public:

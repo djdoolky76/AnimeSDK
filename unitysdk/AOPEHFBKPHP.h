@@ -31,6 +31,8 @@ namespace System { class String; }
 #define AOPEHFBKPHP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E670D90)
 #define AOPEHFBKPHP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E670DF0)
 
+inline static constexpr unsigned int AOPEHFBKPHP_TypeDefinitionIndex = 31117;
+
 	class AOPEHFBKPHP : public ::System::Object
 	{
 	public:

@@ -12,6 +12,8 @@ namespace RPGTools::Timeline::BattlePerform { class BPTalkClip; }
 
 namespace RPGTools::Timeline::BattlePerform
 {
+	inline static constexpr unsigned int BPTalkBehaviour_TypeDefinitionIndex = 48827;
+
 	class BPTalkBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

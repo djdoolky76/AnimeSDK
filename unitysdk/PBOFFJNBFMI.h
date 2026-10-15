@@ -93,6 +93,8 @@ namespace System { class String; }
 #define PBOFFJNBFMI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DEFCC30)
 #define PBOFFJNBFMI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DEFCC90)
 
+inline static constexpr unsigned int PBOFFJNBFMI_TypeDefinitionIndex = 28708;
+
 	class PBOFFJNBFMI : public ::System::Object
 	{
 	public:

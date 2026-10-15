@@ -53,6 +53,8 @@ namespace UnityEngine::UI { class ScrollRect; }
 
 namespace SuperScrollView
 {
+	inline static constexpr unsigned int StaggeredGridItemGroup_TypeDefinitionIndex = 47680;
+
 	class StaggeredGridItemGroup : public ::System::Object
 	{
 	public:

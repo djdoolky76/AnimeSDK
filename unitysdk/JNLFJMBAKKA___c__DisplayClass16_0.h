@@ -7,6 +7,8 @@ class JNLFJMBAKKA_DAGLEBBMHEF;
 #define JNLFJMBAKKA___C__DISPLAYCLASS16_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB28B900)
 #define JNLFJMBAKKA___C__DISPLAYCLASS16_0___ONWAITMOVEPIECEREQUEST_B__0_OFFSET UNITYSDK_OFFSET(0xB28BAB0)
 
+inline static constexpr unsigned int JNLFJMBAKKA___c__DisplayClass16_0_TypeDefinitionIndex = 79537;
+
 	class JNLFJMBAKKA___c__DisplayClass16_0 : public ::System::Object
 	{
 	public:

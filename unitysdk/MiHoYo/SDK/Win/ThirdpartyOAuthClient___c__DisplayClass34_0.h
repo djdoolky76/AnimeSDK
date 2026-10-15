@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::Win
 {
+	inline static constexpr unsigned int ThirdpartyOAuthClient___c__DisplayClass34_0_TypeDefinitionIndex = 9265;
+
 	class ThirdpartyOAuthClient___c__DisplayClass34_0 : public ::System::Object
 	{
 	public:

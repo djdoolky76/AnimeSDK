@@ -27,6 +27,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::Client::Level
 {
+	inline static constexpr unsigned int ChenLingBattleConquerLevelInfo_TypeDefinitionIndex = 75620;
+
 	class ChenLingBattleConquerLevelInfo : public ::System::Object
 	{
 	public:

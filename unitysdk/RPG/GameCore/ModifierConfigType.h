@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ModifierConfigType_TypeDefinitionIndex = 10524;
+
 	enum class ModifierConfigType : ::System::Int32
 	{
 		ModifierNone = 0,

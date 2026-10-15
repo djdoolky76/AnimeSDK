@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define BEFAPANHPDL_EGELDBHCJKK_OFFSET UNITYSDK_OFFSET(0x163124D0)
 #define BEFAPANHPDL_HKILPOPCDPJ_OFFSET UNITYSDK_OFFSET(0x16312100)
 
+inline static constexpr unsigned int BEFAPANHPDL_TypeDefinitionIndex = 76354;
+
 	class BEFAPANHPDL : public ::ODLJOLJDLNI
 	{
 	public:

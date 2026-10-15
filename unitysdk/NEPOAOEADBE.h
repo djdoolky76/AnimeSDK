@@ -14,6 +14,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define NEPOAOEADBE_CLEAR_OFFSET UNITYSDK_OFFSET(0xBB769A0)
 #define NEPOAOEADBE_CTOR_OFFSET UNITYSDK_OFFSET(0xBB76AB0)
 
+inline static constexpr unsigned int NEPOAOEADBE_TypeDefinitionIndex = 56049;
+
 	class NEPOAOEADBE : public ::System::Object
 	{
 	public:

@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CakeRaceBuffStackType_TypeDefinitionIndex = 18368;
+
 	enum class CakeRaceBuffStackType : ::System::Int32
 	{
 		None = 0,

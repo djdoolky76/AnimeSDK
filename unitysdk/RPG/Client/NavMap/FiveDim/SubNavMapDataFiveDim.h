@@ -73,6 +73,8 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyLi
 
 namespace RPG::Client::NavMap::FiveDim
 {
+	inline static constexpr unsigned int SubNavMapDataFiveDim_TypeDefinitionIndex = 74677;
+
 	class SubNavMapDataFiveDim : public ::System::Object
 	{
 	public:

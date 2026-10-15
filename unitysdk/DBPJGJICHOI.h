@@ -16,6 +16,8 @@ namespace System { class String; }
 #define DBPJGJICHOI_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DCD1930)
 #define DBPJGJICHOI_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DCD1820)
 
+inline static constexpr unsigned int DBPJGJICHOI_TypeDefinitionIndex = 24164;
+
 	class DBPJGJICHOI : public ::RPG::GameCore::TaskConfig
 	{
 	public:

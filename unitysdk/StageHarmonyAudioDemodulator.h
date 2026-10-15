@@ -11,6 +11,8 @@ namespace System { class String; }
 #define STAGEHARMONYAUDIODEMODULATOR_FCDECODOKAK_OFFSET UNITYSDK_OFFSET(0xE98B6A0)
 #define STAGEHARMONYAUDIODEMODULATOR_JHCJALOEFAI_OFFSET UNITYSDK_OFFSET(0xE98B7A0)
 
+inline static constexpr unsigned int StageHarmonyAudioDemodulator_TypeDefinitionIndex = 47520;
+
 	class StageHarmonyAudioDemodulator
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace RPG::Client::ChenLingGameBoy
 {
+	inline static constexpr unsigned int ChenLingGameBoyPuzzleData_ChenLingGameBoyStatistics_TypeDefinitionIndex = 74798;
+
 	class ChenLingGameBoyPuzzleData_ChenLingGameBoyStatistics : public ::System::Object
 	{
 	public:

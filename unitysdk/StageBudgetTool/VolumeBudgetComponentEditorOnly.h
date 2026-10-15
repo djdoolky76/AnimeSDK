@@ -9,6 +9,8 @@ namespace StageBudgetTool { class Volume; }
 
 namespace StageBudgetTool
 {
+	inline static constexpr unsigned int VolumeBudgetComponentEditorOnly_TypeDefinitionIndex = 47726;
+
 	class VolumeBudgetComponentEditorOnly : public ::UnityEngine::MonoBehaviour
 	{
 	public:

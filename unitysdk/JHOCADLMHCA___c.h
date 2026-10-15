@@ -11,6 +11,8 @@ namespace System { template <typename T1, typename T2, typename T3> class Func_3
 #define JHOCADLMHCA___C__GETSHEETVALUES_B__4_0_OFFSET UNITYSDK_OFFSET(0xB1C1380)
 #define JHOCADLMHCA___C__GETSHEETVALUES_B__4_1_OFFSET UNITYSDK_OFFSET(0xB1C13A0)
 
+inline static constexpr unsigned int JHOCADLMHCA___c_TypeDefinitionIndex = 50034;
+
 	class JHOCADLMHCA___c : public ::System::Object
 	{
 	public:

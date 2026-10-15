@@ -1,6 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
+inline static constexpr unsigned int MOOOBLNKFLL_TypeDefinitionIndex = 56179;
+
 	struct alignas(4) MOOOBLNKFLL
 	{
 		::System::UInt32 JFFBHFJMIOK; // 0x10

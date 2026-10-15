@@ -58,6 +58,8 @@ namespace System::Text { class StringBuilder; }
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int HEU_PDGSession_TypeDefinitionIndex = 40543;
+
 	class HEU_PDGSession : public ::System::Object
 	{
 	public:

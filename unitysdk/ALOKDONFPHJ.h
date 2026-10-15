@@ -16,6 +16,8 @@ namespace System { class String; }
 #define ALOKDONFPHJ_PGOEIOCEJIG_OFFSET UNITYSDK_OFFSET(0x3C431B0)
 #define ALOKDONFPHJ_TOSTRING_OFFSET UNITYSDK_OFFSET(0x3C436D0)
 
+inline static constexpr unsigned int ALOKDONFPHJ_TypeDefinitionIndex = 6287;
+
 	struct alignas(4) ALOKDONFPHJ
 	{
 		::RPG::MVector2 AKFGOEJBPLD; // 0x10

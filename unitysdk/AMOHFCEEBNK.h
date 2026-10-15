@@ -28,6 +28,8 @@ namespace System { class String; }
 #define AMOHFCEEBNK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E526D10)
 #define AMOHFCEEBNK_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E526D70)
 
+inline static constexpr unsigned int AMOHFCEEBNK_TypeDefinitionIndex = 33662;
+
 	class AMOHFCEEBNK : public ::System::Object
 	{
 	public:

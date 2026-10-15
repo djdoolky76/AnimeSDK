@@ -18,6 +18,8 @@ namespace System { class String; }
 #define JIAFOPELMJJ___C__DISPLAYCLASS68_0___MAKELOCALVERIFYDELAY_B__5_OFFSET UNITYSDK_OFFSET(0xB1E7F40)
 #define JIAFOPELMJJ___C__DISPLAYCLASS68_0___MAKELOCALVERIFYDELAY_B__6_OFFSET UNITYSDK_OFFSET(0xB1E7F60)
 
+inline static constexpr unsigned int JIAFOPELMJJ___c__DisplayClass68_0_TypeDefinitionIndex = 59522;
+
 	class JIAFOPELMJJ___c__DisplayClass68_0 : public ::System::Object
 	{
 	public:

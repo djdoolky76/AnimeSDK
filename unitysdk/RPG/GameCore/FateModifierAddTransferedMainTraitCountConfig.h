@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FateModifierAddTransferedMainTraitCountConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FateModifierAddTransferedMainTraitCountConfig_TypeDefinitionIndex = 19283;
+
 	class FateModifierAddTransferedMainTraitCountConfig : public ::RPG::GameCore::FateModifierConfigBase
 	{
 	public:

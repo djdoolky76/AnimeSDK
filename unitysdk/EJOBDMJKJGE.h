@@ -23,6 +23,8 @@ namespace XLua { class LuaTable; }
 #define EJOBDMJKJGE_OFEMKJPLDNN_OFFSET UNITYSDK_OFFSET(0x154F2490)
 #define EJOBDMJKJGE__ONBIND_OFFSET UNITYSDK_OFFSET(0x154F1840)
 
+inline static constexpr unsigned int EJOBDMJKJGE_TypeDefinitionIndex = 72260;
+
 	class EJOBDMJKJGE : public ::FMPCODLIOLG
 	{
 	public:

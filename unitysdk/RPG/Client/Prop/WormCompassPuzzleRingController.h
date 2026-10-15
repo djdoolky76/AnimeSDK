@@ -20,6 +20,8 @@ namespace UnityEngine { class AnimationCurve; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int WormCompassPuzzleRingController_TypeDefinitionIndex = 78934;
+
 	class WormCompassPuzzleRingController : public ::UnityEngine::MonoBehaviour
 	{
 	public:

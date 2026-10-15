@@ -30,6 +30,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChallengeMazeConfigExcelTable_TypeDefinitionIndex = 12970;
+
 	class ChallengeMazeConfigExcelTable : public ::System::Object
 	{
 	public:

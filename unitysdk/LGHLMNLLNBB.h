@@ -11,6 +11,8 @@ namespace UnityEngine { class Transform; }
 #define LGHLMNLLNBB_NKPPGDENJAE_OFFSET UNITYSDK_OFFSET(0xB697B10)
 #define LGHLMNLLNBB__ONBIND_OFFSET UNITYSDK_OFFSET(0xB697A00)
 
+inline static constexpr unsigned int LGHLMNLLNBB_TypeDefinitionIndex = 71861;
+
 	class LGHLMNLLNBB : public ::FMPCODLIOLG
 	{
 	public:

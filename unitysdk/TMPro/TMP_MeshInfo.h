@@ -26,6 +26,8 @@ namespace UnityEngine { class Mesh; }
 
 namespace TMPro
 {
+	inline static constexpr unsigned int TMP_MeshInfo_TypeDefinitionIndex = 44620;
+
 	struct alignas(8) TMP_MeshInfo
 	{
 		::UnityEngine::Mesh* mesh; // 0x10

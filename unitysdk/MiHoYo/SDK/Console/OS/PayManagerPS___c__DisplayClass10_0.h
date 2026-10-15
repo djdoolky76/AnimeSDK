@@ -9,6 +9,8 @@ namespace MiHoYo::SDK::Console::OS { class PayManagerPS; }
 
 namespace MiHoYo::SDK::Console::OS
 {
+	inline static constexpr unsigned int PayManagerPS___c__DisplayClass10_0_TypeDefinitionIndex = 9095;
+
 	class PayManagerPS___c__DisplayClass10_0 : public ::System::Object
 	{
 	public:

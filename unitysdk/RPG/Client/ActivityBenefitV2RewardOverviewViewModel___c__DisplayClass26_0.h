@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ActivityBenefitV2RewardOverviewViewModel___c__DisplayClass26_0_TypeDefinitionIndex = 61416;
+
 	class ActivityBenefitV2RewardOverviewViewModel___c__DisplayClass26_0 : public ::System::Object
 	{
 	public:

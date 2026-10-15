@@ -10,6 +10,8 @@ namespace RPG::GameCore { class WolfBroGunPlayPuzzleLoadClockParkModifier; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int WolfBroGunPlayPuzzleLoadClockParkModifier_TypeDefinitionIndex = 20372;
+
 	class WolfBroGunPlayPuzzleLoadClockParkModifier : public ::RPG::GameCore::TaskConfig
 	{
 	public:

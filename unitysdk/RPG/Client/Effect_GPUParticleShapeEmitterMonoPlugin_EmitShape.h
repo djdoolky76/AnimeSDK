@@ -12,6 +12,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int Effect_GPUParticleShapeEmitterMonoPlugin_EmitShape_TypeDefinitionIndex = 70485;
+
 	class Effect_GPUParticleShapeEmitterMonoPlugin_EmitShape : public ::System::Object
 	{
 	public:

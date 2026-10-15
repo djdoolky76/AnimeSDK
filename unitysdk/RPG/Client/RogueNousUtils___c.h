@@ -22,6 +22,8 @@ namespace System { template <typename T> class Comparison_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueNousUtils___c_TypeDefinitionIndex = 67488;
+
 	class RogueNousUtils___c : public ::System::Object
 	{
 	public:

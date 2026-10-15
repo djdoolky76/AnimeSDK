@@ -12,6 +12,8 @@ namespace UnityEngine { class ParticleSystem; }
 
 namespace VLB
 {
+	inline static constexpr unsigned int VolumetricDustParticles_TypeDefinitionIndex = 49012;
+
 	class VolumetricDustParticles
 	{
 	public:

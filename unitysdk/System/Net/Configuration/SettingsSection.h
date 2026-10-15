@@ -8,6 +8,8 @@ namespace System::Configuration { class ConfigurationPropertyCollection; }
 
 namespace System::Net::Configuration
 {
+	inline static constexpr unsigned int SettingsSection_TypeDefinitionIndex = 3083;
+
 	class SettingsSection : public ::System::Configuration::ConfigurationSection
 	{
 	public:

@@ -12,6 +12,8 @@ namespace UnityEngine::EventSystems { class EventSystem; }
 
 namespace UnityEngine::EventSystems
 {
+	inline static constexpr unsigned int BaseEventData_TypeDefinitionIndex = 6905;
+
 	class BaseEventData : public ::UnityEngine::EventSystems::AbstractEventData
 	{
 	public:

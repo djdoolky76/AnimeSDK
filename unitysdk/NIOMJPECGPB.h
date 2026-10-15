@@ -21,6 +21,8 @@ namespace System { class Object; }
 #define NIOMJPECGPB_NHCFLDCDLCP_OFFSET UNITYSDK_OFFSET(0x1D214FA0)
 #define NIOMJPECGPB_OMOGNAOKJCI_OFFSET UNITYSDK_OFFSET(0x3C3D3E0)
 
+inline static constexpr unsigned int NIOMJPECGPB_TypeDefinitionIndex = 10700;
+
 	struct alignas(8) NIOMJPECGPB
 	{
 		::LELCKJPOPAO* BEHHICMOFIE; // 0x10

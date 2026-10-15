@@ -5,6 +5,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define IEIEAAJCDNP_CTOR_OFFSET UNITYSDK_OFFSET(0x1C692C30)
 
+inline static constexpr unsigned int IEIEAAJCDNP_TypeDefinitionIndex = 36527;
+
 	class IEIEAAJCDNP : public ::System::Object
 	{
 	public:

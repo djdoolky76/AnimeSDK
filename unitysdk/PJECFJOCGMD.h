@@ -10,6 +10,8 @@ namespace System { class Type; }
 #define PJECFJOCGMD_FNAAJGAHIAI_OFFSET UNITYSDK_OFFSET(0xC283C80)
 #define PJECFJOCGMD_IHPAKOMCHGP_OFFSET UNITYSDK_OFFSET(0xC283DB0)
 
+inline static constexpr unsigned int PJECFJOCGMD_TypeDefinitionIndex = 62602;
+
 	class PJECFJOCGMD : public ::System::Object
 	{
 	public:

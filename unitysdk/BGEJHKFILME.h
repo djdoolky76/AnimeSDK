@@ -25,6 +25,8 @@ namespace System { class String; }
 #define BGEJHKFILME_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EA73480)
 #define BGEJHKFILME_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EA734E0)
 
+inline static constexpr unsigned int BGEJHKFILME_TypeDefinitionIndex = 28804;
+
 	class BGEJHKFILME : public ::System::Object
 	{
 	public:

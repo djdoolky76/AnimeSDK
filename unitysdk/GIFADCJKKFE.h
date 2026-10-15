@@ -27,6 +27,8 @@ namespace System { class String; }
 #define GIFADCJKKFE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E495D10)
 #define GIFADCJKKFE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E495D70)
 
+inline static constexpr unsigned int GIFADCJKKFE_TypeDefinitionIndex = 26246;
+
 	class GIFADCJKKFE : public ::System::Object
 	{
 	public:

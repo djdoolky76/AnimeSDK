@@ -6,6 +6,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ColliderTriggerComponent_NotifyParam_TypeDefinitionIndex = 57505;
+
 	class ColliderTriggerComponent_NotifyParam : public ::System::Object
 	{
 	public:

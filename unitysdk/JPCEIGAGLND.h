@@ -29,6 +29,8 @@ namespace System { class String; }
 #define JPCEIGAGLND_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E7CE860)
 #define JPCEIGAGLND_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E7CE8C0)
 
+inline static constexpr unsigned int JPCEIGAGLND_TypeDefinitionIndex = 26184;
+
 	class JPCEIGAGLND : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace System { class Object; }
 #define LJHCGAGNIKN_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1CC934E0)
 #define LJHCGAGNIKN_INVOKE_OFFSET UNITYSDK_OFFSET(0x1CC93490)
 
+inline static constexpr unsigned int LJHCGAGNIKN_TypeDefinitionIndex = 43882;
+
 	class LJHCGAGNIKN : public ::System::MulticastDelegate
 	{
 	public:

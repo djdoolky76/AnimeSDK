@@ -12,6 +12,8 @@ namespace System { class Action; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TarotBookHelper_TypeDefinitionIndex = 72460;
+
 	class TarotBookHelper : public ::System::Object
 	{
 	public:

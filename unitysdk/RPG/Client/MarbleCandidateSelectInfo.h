@@ -27,6 +27,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MarbleCandidateSelectInfo_TypeDefinitionIndex = 65805;
+
 	class MarbleCandidateSelectInfo : public ::System::Object
 	{
 	public:

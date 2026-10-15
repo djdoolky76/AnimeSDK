@@ -9,6 +9,8 @@ namespace System { class Action; }
 #define GABKELEBMFM_KFGJEKJHIMB_OFFSET UNITYSDK_OFFSET(0x2E78BA0)
 #define GABKELEBMFM_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0x2E78B50)
 
+inline static constexpr unsigned int GABKELEBMFM_TypeDefinitionIndex = 60302;
+
 	struct alignas(8) GABKELEBMFM
 	{
 		::UnityEngine::Vector3 CEOCJBPLDOG; // 0x10

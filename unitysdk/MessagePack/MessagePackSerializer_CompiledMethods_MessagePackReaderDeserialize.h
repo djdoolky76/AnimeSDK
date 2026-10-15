@@ -14,6 +14,8 @@ namespace System { class Object; }
 
 namespace MessagePack
 {
+	inline static constexpr unsigned int MessagePackSerializer_CompiledMethods_MessagePackReaderDeserialize_TypeDefinitionIndex = 7218;
+
 	class MessagePackSerializer_CompiledMethods_MessagePackReaderDeserialize : public ::System::MulticastDelegate
 	{
 	public:

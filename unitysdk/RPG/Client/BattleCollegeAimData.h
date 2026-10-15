@@ -19,6 +19,8 @@ namespace RPG::GameCore { class BattleCollegeAimConfigRow; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int BattleCollegeAimData_TypeDefinitionIndex = 62873;
+
 	class BattleCollegeAimData : public ::System::Object
 	{
 	public:

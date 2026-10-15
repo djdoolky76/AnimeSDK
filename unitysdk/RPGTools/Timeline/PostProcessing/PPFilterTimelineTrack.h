@@ -10,6 +10,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPGTools::Timeline::PostProcessing
 {
+	inline static constexpr unsigned int PPFilterTimelineTrack_TypeDefinitionIndex = 48592;
+
 	class PPFilterTimelineTrack : public ::UnityEngine::Timeline::TrackAsset
 	{
 	public:

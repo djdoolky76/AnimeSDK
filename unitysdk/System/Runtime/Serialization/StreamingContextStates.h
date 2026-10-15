@@ -3,6 +3,8 @@
 
 namespace System::Runtime::Serialization
 {
+	inline static constexpr unsigned int StreamingContextStates_TypeDefinitionIndex = 1135;
+
 	enum class StreamingContextStates : ::System::Int32
 	{
 		CrossProcess = 1,

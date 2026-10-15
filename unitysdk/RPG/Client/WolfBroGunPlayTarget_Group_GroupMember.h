@@ -6,6 +6,8 @@ namespace RPG::Client { class WolfBroGunPlayTarget; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int WolfBroGunPlayTarget_Group_GroupMember_TypeDefinitionIndex = 68728;
+
 	struct alignas(8) WolfBroGunPlayTarget_Group_GroupMember
 	{
 		::RPG::Client::WolfBroGunPlayTarget* target; // 0x10

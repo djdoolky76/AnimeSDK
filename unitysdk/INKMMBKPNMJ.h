@@ -4,6 +4,8 @@
 namespace RPG::GameCore { class TurnBasedModifierInstance; }
 namespace System { class String; }
 
+inline static constexpr unsigned int INKMMBKPNMJ_TypeDefinitionIndex = 56898;
+
 	struct alignas(8) INKMMBKPNMJ
 	{
 		::System::Boolean DFKJCMCDMEI; // 0x10

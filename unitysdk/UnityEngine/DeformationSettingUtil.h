@@ -9,6 +9,8 @@
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int DeformationSettingUtil_TypeDefinitionIndex = 4281;
+
 	class DeformationSettingUtil : public ::System::Object
 	{
 	public:

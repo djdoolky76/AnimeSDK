@@ -18,6 +18,8 @@ namespace System { class String; }
 
 namespace RPG::Client::LimaoNews
 {
+	inline static constexpr unsigned int LimaoNewsWorkProgressStartMessageViewModel_TypeDefinitionIndex = 80451;
+
 	class LimaoNewsWorkProgressStartMessageViewModel : public ::Sofa::BaseViewModel
 	{
 	public:

@@ -7,6 +7,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueTournModule___c__DisplayClass61_1_TypeDefinitionIndex = 67804;
+
 	template <typename T>
 	class RogueTournModule___c__DisplayClass61_1 : public ::System::Object
 	{

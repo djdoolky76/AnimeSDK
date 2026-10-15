@@ -19,6 +19,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int StoryPropMoveBehaviour_TypeDefinitionIndex = 48355;
+
 	class StoryPropMoveBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

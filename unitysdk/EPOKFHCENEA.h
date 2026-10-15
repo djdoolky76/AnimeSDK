@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define EPOKFHCENEA_CTOR_OFFSET UNITYSDK_OFFSET(0x155D9050)
 #define EPOKFHCENEA_EVALUATE_OFFSET UNITYSDK_OFFSET(0x155D9080)
 
+inline static constexpr unsigned int EPOKFHCENEA_TypeDefinitionIndex = 53889;
+
 	class EPOKFHCENEA
 	{
 	public:

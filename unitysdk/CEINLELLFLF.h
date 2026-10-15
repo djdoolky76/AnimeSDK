@@ -31,6 +31,8 @@ namespace System { class String; }
 #define CEINLELLFLF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E094080)
 #define CEINLELLFLF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E0940E0)
 
+inline static constexpr unsigned int CEINLELLFLF_TypeDefinitionIndex = 32255;
+
 	class CEINLELLFLF : public ::System::Object
 	{
 	public:

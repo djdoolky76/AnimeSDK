@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ActivityHotModule___c__DisplayClass4_0_TypeDefinitionIndex = 61536;
+
 	class ActivityHotModule___c__DisplayClass4_0 : public ::System::Object
 	{
 	public:

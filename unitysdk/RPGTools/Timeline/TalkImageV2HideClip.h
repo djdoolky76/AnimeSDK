@@ -17,6 +17,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int TalkImageV2HideClip_TypeDefinitionIndex = 48391;
+
 	class TalkImageV2HideClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:

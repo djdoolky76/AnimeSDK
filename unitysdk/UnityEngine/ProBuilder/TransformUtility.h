@@ -13,6 +13,8 @@ namespace UnityEngine::ProBuilder { class Vertex; }
 
 namespace UnityEngine::ProBuilder
 {
+	inline static constexpr unsigned int TransformUtility_TypeDefinitionIndex = 44442;
+
 	class TransformUtility : public ::System::Object
 	{
 	public:

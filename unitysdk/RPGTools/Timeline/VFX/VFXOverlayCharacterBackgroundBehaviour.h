@@ -42,6 +42,8 @@ namespace UnityEngine { class Texture2D; }
 
 namespace RPGTools::Timeline::VFX
 {
+	inline static constexpr unsigned int VFXOverlayCharacterBackgroundBehaviour_TypeDefinitionIndex = 48667;
+
 	class VFXOverlayCharacterBackgroundBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

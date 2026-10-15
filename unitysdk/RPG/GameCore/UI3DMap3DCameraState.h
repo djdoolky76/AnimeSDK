@@ -69,6 +69,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int UI3DMap3DCameraState_TypeDefinitionIndex = 57547;
+
 	class UI3DMap3DCameraState : public ::RPG::GameCore::UI3DCameraStateBase
 	{
 	public:

@@ -11,6 +11,8 @@ namespace System::IO { class MemoryStream; }
 #define EKDDFNJAICK_LBIHOLKGMIB_OFFSET UNITYSDK_OFFSET(0x1DD9AC60)
 #define EKDDFNJAICK_NJKHGPCDAMI_OFFSET UNITYSDK_OFFSET(0x1DDAB1B0)
 
+inline static constexpr unsigned int EKDDFNJAICK_TypeDefinitionIndex = 43961;
+
 	class EKDDFNJAICK : public ::System::Object
 	{
 	public:

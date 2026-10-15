@@ -20,6 +20,8 @@ namespace UnityEngine { class Transform; }
 #define GDAAHJOGIGC_ONPLUGININIT_OFFSET UNITYSDK_OFFSET(0x15990780)
 #define GDAAHJOGIGC_ONPLUGINUNINIT_OFFSET UNITYSDK_OFFSET(0x159907D0)
 
+inline static constexpr unsigned int GDAAHJOGIGC_TypeDefinitionIndex = 57827;
+
 	class GDAAHJOGIGC : public ::System::Object
 	{
 	public:

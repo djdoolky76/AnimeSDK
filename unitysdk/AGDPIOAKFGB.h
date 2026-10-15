@@ -29,6 +29,8 @@ namespace System { class String; }
 #define AGDPIOAKFGB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E129480)
 #define AGDPIOAKFGB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E1294E0)
 
+inline static constexpr unsigned int AGDPIOAKFGB_TypeDefinitionIndex = 30457;
+
 	class AGDPIOAKFGB : public ::System::Object
 	{
 	public:

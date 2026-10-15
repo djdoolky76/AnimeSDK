@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int NetUtil_ResponseModel_TypeDefinitionIndex = 8184;
+
 	class NetUtil_ResponseModel : public ::System::Object
 	{
 	public:

@@ -3,6 +3,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ECurveAudioType_TypeDefinitionIndex = 68537;
+
 	enum class ECurveAudioType : ::System::Int32
 	{
 		Unknown = 0,

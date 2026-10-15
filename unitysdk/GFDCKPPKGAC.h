@@ -30,6 +30,8 @@ namespace System { class String; }
 #define GFDCKPPKGAC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E462B50)
 #define GFDCKPPKGAC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E462BB0)
 
+inline static constexpr unsigned int GFDCKPPKGAC_TypeDefinitionIndex = 32116;
+
 	class GFDCKPPKGAC : public ::System::Object
 	{
 	public:

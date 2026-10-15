@@ -13,6 +13,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int CaptureScene___c__DisplayClass10_0_TypeDefinitionIndex = 37600;
+
 	class CaptureScene___c__DisplayClass10_0 : public ::System::Object
 	{
 	public:

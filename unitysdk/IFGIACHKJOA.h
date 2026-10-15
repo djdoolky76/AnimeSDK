@@ -5,6 +5,8 @@
 
 #define IFGIACHKJOA_CTOR_OFFSET UNITYSDK_OFFSET(0x1CB0CCC0)
 
+inline static constexpr unsigned int IFGIACHKJOA_TypeDefinitionIndex = 43688;
+
 	class IFGIACHKJOA : public ::System::Object
 	{
 	public:

@@ -40,6 +40,8 @@ namespace System { class String; }
 #define NEJJPFMAOOB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EAF6520)
 #define NEJJPFMAOOB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EAF6580)
 
+inline static constexpr unsigned int NEJJPFMAOOB_TypeDefinitionIndex = 32274;
+
 	class NEJJPFMAOOB : public ::System::Object
 	{
 	public:

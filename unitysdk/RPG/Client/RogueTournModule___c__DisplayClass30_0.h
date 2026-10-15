@@ -17,6 +17,8 @@ namespace System { class Exception; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueTournModule___c__DisplayClass30_0_TypeDefinitionIndex = 67800;
+
 	class RogueTournModule___c__DisplayClass30_0 : public ::System::Object
 	{
 	public:

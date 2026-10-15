@@ -19,6 +19,8 @@ namespace UnityEngine { class Transform; }
 #define MFHDFHJOKJC_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xB8FB670)
 #define MFHDFHJOKJC_OIBPOPCFDHA_OFFSET UNITYSDK_OFFSET(0xB8FDFB0)
 
+inline static constexpr unsigned int MFHDFHJOKJC_TypeDefinitionIndex = 69865;
+
 	class MFHDFHJOKJC : public ::RPG::Client::BehaviorBase
 	{
 	public:

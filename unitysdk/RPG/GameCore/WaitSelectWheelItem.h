@@ -12,6 +12,8 @@ namespace RPG::GameCore { class WaitSelectWheelItem; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int WaitSelectWheelItem_TypeDefinitionIndex = 24277;
+
 	class WaitSelectWheelItem : public ::RPG::GameCore::TaskConfig
 	{
 	public:

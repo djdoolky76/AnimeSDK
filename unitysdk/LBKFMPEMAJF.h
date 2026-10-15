@@ -10,6 +10,8 @@
 #define LBKFMPEMAJF_SET_MATCHID_OFFSET UNITYSDK_OFFSET(0xB606DE0)
 #define LBKFMPEMAJF_SET_TRACKID_OFFSET UNITYSDK_OFFSET(0xB606E00)
 
+inline static constexpr unsigned int LBKFMPEMAJF_TypeDefinitionIndex = 81666;
+
 	class LBKFMPEMAJF : public ::System::Object
 	{
 	public:

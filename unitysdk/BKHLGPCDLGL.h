@@ -27,6 +27,8 @@ namespace System { class String; }
 #define BKHLGPCDLGL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DF589B0)
 #define BKHLGPCDLGL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DF58A10)
 
+inline static constexpr unsigned int BKHLGPCDLGL_TypeDefinitionIndex = 26194;
+
 	class BKHLGPCDLGL : public ::System::Object
 	{
 	public:

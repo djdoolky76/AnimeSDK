@@ -9,6 +9,8 @@ namespace System { class Object; }
 #define BANMMCONAFC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x15E7DB20)
 #define BANMMCONAFC___C___DOSPLIT_B__11_1_OFFSET UNITYSDK_OFFSET(0x15E7DB30)
 
+inline static constexpr unsigned int BANMMCONAFC___c_TypeDefinitionIndex = 77898;
+
 	class BANMMCONAFC___c : public ::System::Object
 	{
 	public:

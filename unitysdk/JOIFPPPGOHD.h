@@ -8,6 +8,8 @@ namespace RPG::Client::ActivityIdleLive { class IdleLiveTickManager; }
 #define JOIFPPPGOHD_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB2A0C50)
 #define JOIFPPPGOHD_ENILNPGABHD_OFFSET UNITYSDK_OFFSET(0xB2A0BF0)
 
+inline static constexpr unsigned int JOIFPPPGOHD_TypeDefinitionIndex = 75449;
+
 	class JOIFPPPGOHD : public ::System::Object
 	{
 	public:

@@ -9,6 +9,8 @@ namespace RPG::GameCore { class TrainPartyDialogueEventOptionConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TrainPartyDialogueEventOptionConfig_TypeDefinitionIndex = 18091;
+
 	class TrainPartyDialogueEventOptionConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

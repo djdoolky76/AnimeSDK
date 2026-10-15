@@ -14,6 +14,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TargetSortByPropertyRatio_TypeDefinitionIndex = 23995;
+
 	class TargetSortByPropertyRatio : public ::RPG::GameCore::TargetSeqOperation
 	{
 	public:

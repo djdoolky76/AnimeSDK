@@ -9,6 +9,8 @@ namespace RPG::GameCore { class FirstPerformanceRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FirstPerformanceRow_TypeDefinitionIndex = 13140;
+
 	class FirstPerformanceRow : public ::System::Object
 	{
 	public:

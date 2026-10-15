@@ -25,6 +25,8 @@ namespace UnityEngine { class GameObject; }
 #define NEEJNCHJFKL_IIGEFJJHHPK_OFFSET UNITYSDK_OFFSET(0xBB5C0A0)
 #define NEEJNCHJFKL_KMDFOAPFHCD_OFFSET UNITYSDK_OFFSET(0xBB5B600)
 
+inline static constexpr unsigned int NEEJNCHJFKL_TypeDefinitionIndex = 73792;
+
 	class NEEJNCHJFKL : public ::GDMONJOAKHD
 	{
 	public:

@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define KIFJCNNALIL_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0xB41E890)
 #define KIFJCNNALIL_OHCJOIANPFG_OFFSET UNITYSDK_OFFSET(0xB41E250)
 
+inline static constexpr unsigned int KIFJCNNALIL_TypeDefinitionIndex = 54209;
+
 	class KIFJCNNALIL : public ::System::Object
 	{
 	public:

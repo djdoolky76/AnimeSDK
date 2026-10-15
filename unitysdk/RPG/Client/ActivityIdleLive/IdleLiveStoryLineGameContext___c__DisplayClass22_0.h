@@ -8,6 +8,8 @@ namespace RPG::Client::ActivityIdleLive { class IdleLiveStoryLineGameContext; }
 
 namespace RPG::Client::ActivityIdleLive
 {
+	inline static constexpr unsigned int IdleLiveStoryLineGameContext___c__DisplayClass22_0_TypeDefinitionIndex = 75325;
+
 	class IdleLiveStoryLineGameContext___c__DisplayClass22_0 : public ::System::Object
 	{
 	public:

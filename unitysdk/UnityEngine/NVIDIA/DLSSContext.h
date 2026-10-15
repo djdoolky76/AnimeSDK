@@ -16,6 +16,8 @@ namespace UnityEngine::NVIDIA { template <typename T> class NativeData_1; }
 
 namespace UnityEngine::NVIDIA
 {
+	inline static constexpr unsigned int DLSSContext_TypeDefinitionIndex = 5032;
+
 	class DLSSContext : public ::System::Object
 	{
 	public:

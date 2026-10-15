@@ -6,6 +6,8 @@ namespace UnityEngine { class GameObject; }
 
 #define OBOCABOPCON_FGIHJGKPONO_CTOR_OFFSET UNITYSDK_OFFSET(0xBD4CFC0)
 
+inline static constexpr unsigned int OBOCABOPCON_FGIHJGKPONO_TypeDefinitionIndex = 81259;
+
 	class OBOCABOPCON_FGIHJGKPONO : public ::System::Object
 	{
 	public:

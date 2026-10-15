@@ -30,6 +30,8 @@ namespace System { class String; }
 #define CPKCMNJKPOE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E141320)
 #define CPKCMNJKPOE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E141380)
 
+inline static constexpr unsigned int CPKCMNJKPOE_TypeDefinitionIndex = 35105;
+
 	class CPKCMNJKPOE : public ::System::Object
 	{
 	public:

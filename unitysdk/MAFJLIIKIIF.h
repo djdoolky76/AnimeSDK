@@ -28,6 +28,8 @@ namespace System { class String; }
 #define MAFJLIIKIIF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E9D8A00)
 #define MAFJLIIKIIF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E9D8A60)
 
+inline static constexpr unsigned int MAFJLIIKIIF_TypeDefinitionIndex = 28349;
+
 	class MAFJLIIKIIF : public ::System::Object
 	{
 	public:

@@ -19,6 +19,8 @@ namespace UnityEngine { class Collider; }
 #define AKROOMAWAREOBJECT_SETGAMEOBJECTINHIGHESTPRIORITYACTIVEANDENABLEDROOM_OFFSET UNITYSDK_OFFSET(0x1F5BB170)
 #define AKROOMAWAREOBJECT_SETGAMEOBJECTINROOM_OFFSET UNITYSDK_OFFSET(0x1F5BB720)
 
+inline static constexpr unsigned int AkRoomAwareObject_TypeDefinitionIndex = 44946;
+
 	class AkRoomAwareObject : public ::UnityEngine::MonoBehaviour
 	{
 	public:

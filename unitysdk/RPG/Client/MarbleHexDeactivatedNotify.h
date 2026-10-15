@@ -6,6 +6,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MarbleHexDeactivatedNotify_TypeDefinitionIndex = 65807;
+
 	class MarbleHexDeactivatedNotify : public ::System::Object
 	{
 	public:

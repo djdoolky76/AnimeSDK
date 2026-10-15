@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int EnumStatusType_TypeDefinitionIndex = 10414;
+
 	enum class EnumStatusType : ::System::Int32
 	{
 		Unknown = 0,

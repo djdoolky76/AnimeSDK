@@ -12,6 +12,8 @@ namespace UnityEngine::UI { class Image; }
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftSettleTalentEffectControl_TypeDefinitionIndex = 80049;
+
 	class MechCraftSettleTalentEffectControl : public ::UnityEngine::MonoBehaviour
 	{
 	public:

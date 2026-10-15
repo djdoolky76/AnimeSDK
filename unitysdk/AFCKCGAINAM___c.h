@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define AFCKCGAINAM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E114C20)
 #define AFCKCGAINAM___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E114C30)
 
+inline static constexpr unsigned int AFCKCGAINAM___c_TypeDefinitionIndex = 34128;
+
 	class AFCKCGAINAM___c : public ::System::Object
 	{
 	public:

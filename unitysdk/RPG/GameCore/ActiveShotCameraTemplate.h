@@ -13,6 +13,8 @@ namespace RPG::GameCore { class VCameraBlend; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ActiveShotCameraTemplate_TypeDefinitionIndex = 20828;
+
 	class ActiveShotCameraTemplate : public ::RPG::GameCore::TaskConfig
 	{
 	public:

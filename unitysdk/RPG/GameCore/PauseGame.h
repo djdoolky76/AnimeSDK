@@ -10,6 +10,8 @@ namespace RPG::GameCore { class PauseGame; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PauseGame_TypeDefinitionIndex = 24321;
+
 	class PauseGame : public ::RPG::GameCore::TaskConfig
 	{
 	public:

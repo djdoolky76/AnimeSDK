@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define AIDJOMKDIMA_IJIIDFGDCPI_OFFSET UNITYSDK_OFFSET(0xEBA1110)
 #define AIDJOMKDIMA_JMFDMJOIBMG_OFFSET UNITYSDK_OFFSET(0xEBA10C0)
 
+inline static constexpr unsigned int AIDJOMKDIMA_TypeDefinitionIndex = 50031;
+
 	class AIDJOMKDIMA : public ::System::Object
 	{
 	public:

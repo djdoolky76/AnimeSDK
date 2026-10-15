@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define GEGLJDELBHA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E459210)
 #define GEGLJDELBHA___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1E459220)
 
+inline static constexpr unsigned int GEGLJDELBHA___c_TypeDefinitionIndex = 32371;
+
 	class GEGLJDELBHA___c : public ::System::Object
 	{
 	public:

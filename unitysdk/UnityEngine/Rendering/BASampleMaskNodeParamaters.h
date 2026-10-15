@@ -7,6 +7,8 @@ namespace UnityEngine::Rendering { class BatchAnimationInstance; }
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int BASampleMaskNodeParamaters_TypeDefinitionIndex = 4797;
+
 	struct alignas(4) BASampleMaskNodeParamaters
 	{
 		static ::System::Int32 Play(::UnityEngine::Rendering::BatchAnimationInstance* a1, ::UnityEngine::Rendering::BANodeHash a2, ::System::Single a3, ::System::Int32 a4)

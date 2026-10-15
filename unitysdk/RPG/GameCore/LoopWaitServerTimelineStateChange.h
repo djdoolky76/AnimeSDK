@@ -10,6 +10,8 @@ namespace RPG::GameCore { class LoopWaitServerTimelineStateChange; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LoopWaitServerTimelineStateChange_TypeDefinitionIndex = 22235;
+
 	class LoopWaitServerTimelineStateChange : public ::RPG::GameCore::TaskConfig
 	{
 	public:

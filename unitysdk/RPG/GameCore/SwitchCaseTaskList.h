@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SwitchCaseTaskList_TypeDefinitionIndex = 23771;
+
 	class SwitchCaseTaskList : public ::RPG::GameCore::JsonConfig
 	{
 	public:

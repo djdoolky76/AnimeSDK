@@ -11,6 +11,8 @@ namespace System { class String; }
 #define JCAIHCKBCCF_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x165781B0)
 #define JCAIHCKBCCF_INVOKE_OFFSET UNITYSDK_OFFSET(0x16578170)
 
+inline static constexpr unsigned int JCAIHCKBCCF_TypeDefinitionIndex = 52109;
+
 	class JCAIHCKBCCF : public ::System::MulticastDelegate
 	{
 	public:

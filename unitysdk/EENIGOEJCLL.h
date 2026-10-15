@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define EENIGOEJCLL_OPJDBMEIJJP_OFFSET UNITYSDK_OFFSET(0x13A400D0)
 #define EENIGOEJCLL_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0x13A3FAC0)
 
+inline static constexpr unsigned int EENIGOEJCLL_TypeDefinitionIndex = 69625;
+
 	class EENIGOEJCLL : public ::MDILEMALGNC
 	{
 	public:

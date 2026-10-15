@@ -25,6 +25,8 @@ namespace UnityEngine { class Transform; }
 
 namespace SRF
 {
+	inline static constexpr unsigned int SRMonoBehaviour_TypeDefinitionIndex = 35361;
+
 	class SRMonoBehaviour : public ::UnityEngine::MonoBehaviour
 	{
 	public:

@@ -13,6 +13,8 @@ namespace RPG::GameCore { class CakeRacePickupItemConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CakeRacePickupItemConfig_TypeDefinitionIndex = 18421;
+
 	class CakeRacePickupItemConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

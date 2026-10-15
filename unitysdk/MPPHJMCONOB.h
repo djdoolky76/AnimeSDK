@@ -8,6 +8,8 @@ class MPPHJMCONOB;
 #define MPPHJMCONOB_CTOR_OFFSET UNITYSDK_OFFSET(0xBA458F0)
 #define MPPHJMCONOB_GAILDDCMCHP_OFFSET UNITYSDK_OFFSET(0xBA458B0)
 
+inline static constexpr unsigned int MPPHJMCONOB_TypeDefinitionIndex = 78004;
+
 	class MPPHJMCONOB : public ::BKFOHAKAJLP
 	{
 	public:

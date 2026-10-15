@@ -13,6 +13,8 @@ namespace UnityEngine { class SkinnedMeshRenderer; }
 
 namespace RPG::Client::TAUtils
 {
+	inline static constexpr unsigned int MeshSelfIntersectionDebugger_TypeDefinitionIndex = 73635;
+
 	class MeshSelfIntersectionDebugger : public ::RPG::Client::TAMonoBase
 	{
 	public:

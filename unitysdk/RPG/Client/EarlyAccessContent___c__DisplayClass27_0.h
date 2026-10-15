@@ -8,6 +8,8 @@ class PBNOGIFIKBC;
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int EarlyAccessContent___c__DisplayClass27_0_TypeDefinitionIndex = 63644;
+
 	class EarlyAccessContent___c__DisplayClass27_0 : public ::System::Object
 	{
 	public:

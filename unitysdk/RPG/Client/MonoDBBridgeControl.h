@@ -13,6 +13,8 @@ namespace UnityEngine { class Renderer; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoDBBridgeControl_TypeDefinitionIndex = 70728;
+
 	class MonoDBBridgeControl : public ::UnityEngine::MonoBehaviour
 	{
 	public:

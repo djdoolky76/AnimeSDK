@@ -27,6 +27,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int EvolveBuildStageResult_TypeDefinitionIndex = 63782;
+
 	class EvolveBuildStageResult : public ::System::Object
 	{
 	public:

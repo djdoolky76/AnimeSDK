@@ -6,6 +6,8 @@ namespace System { class Action; }
 namespace System { class Object; }
 namespace System { class String; }
 
+inline static constexpr unsigned int IPKKECOEFMG___c__0_1_TypeDefinitionIndex = 49959;
+
 	template <typename T>
 	class IPKKECOEFMG___c__0_1 : public ::System::Object
 	{

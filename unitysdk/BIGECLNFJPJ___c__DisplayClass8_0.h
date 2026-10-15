@@ -7,6 +7,8 @@ namespace System { class String; }
 #define BIGECLNFJPJ___C__DISPLAYCLASS8_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB4A5B50)
 #define BIGECLNFJPJ___C__DISPLAYCLASS8_0__SETTIMEOUT_B__0_OFFSET UNITYSDK_OFFSET(0xB4A71C0)
 
+inline static constexpr unsigned int BIGECLNFJPJ___c__DisplayClass8_0_TypeDefinitionIndex = 49201;
+
 	class BIGECLNFJPJ___c__DisplayClass8_0 : public ::System::Object
 	{
 	public:

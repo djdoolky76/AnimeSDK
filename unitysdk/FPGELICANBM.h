@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define FPGELICANBM_CTOR_OFFSET UNITYSDK_OFFSET(0x15917F90)
 #define FPGELICANBM_EVALUATE_OFFSET UNITYSDK_OFFSET(0x15917FC0)
 
+inline static constexpr unsigned int FPGELICANBM_TypeDefinitionIndex = 54687;
+
 	class FPGELICANBM
 	{
 	public:

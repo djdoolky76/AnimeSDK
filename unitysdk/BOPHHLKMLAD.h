@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define BOPHHLKMLAD_CTOR_OFFSET UNITYSDK_OFFSET(0xC19AA50)
 #define BOPHHLKMLAD_EVALUATE_OFFSET UNITYSDK_OFFSET(0xC19AA80)
 
+inline static constexpr unsigned int BOPHHLKMLAD_TypeDefinitionIndex = 54559;
+
 	class BOPHHLKMLAD
 	{
 	public:

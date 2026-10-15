@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define BHOPIKPAMPJ___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DDFD730)
 #define BHOPIKPAMPJ___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1DDFD740)
 
+inline static constexpr unsigned int BHOPIKPAMPJ___c_TypeDefinitionIndex = 34835;
+
 	class BHOPIKPAMPJ___c : public ::System::Object
 	{
 	public:

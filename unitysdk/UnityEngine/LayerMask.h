@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int LayerMask_TypeDefinitionIndex = 4330;
+
 	struct alignas(4) LayerMask
 	{
 		::System::Int32 m_Mask; // 0x10

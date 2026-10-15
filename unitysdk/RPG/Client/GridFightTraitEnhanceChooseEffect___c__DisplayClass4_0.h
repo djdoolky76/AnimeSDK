@@ -8,6 +8,8 @@ namespace RPG::Client { class GridFightTraitEffectEnhanceSelectConfig; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightTraitEnhanceChooseEffect___c__DisplayClass4_0_TypeDefinitionIndex = 65398;
+
 	class GridFightTraitEnhanceChooseEffect___c__DisplayClass4_0 : public ::System::Object
 	{
 	public:

@@ -13,6 +13,8 @@ namespace System::Runtime::Serialization { class SerializationInfo; }
 
 namespace System
 {
+	inline static constexpr unsigned int MissingFieldException_TypeDefinitionIndex = 299;
+
 	class MissingFieldException : public ::System::MissingMemberException
 	{
 	public:

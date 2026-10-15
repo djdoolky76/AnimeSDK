@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int EventMuseumItemConfigRow_TypeDefinitionIndex = 14235;
+
 	class EventMuseumItemConfigRow : public ::System::Object
 	{
 	public:

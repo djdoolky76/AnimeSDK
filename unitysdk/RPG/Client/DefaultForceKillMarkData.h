@@ -25,6 +25,8 @@ namespace RPG::GameCore { class TurnBasedModifierInstance; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int DefaultForceKillMarkData_TypeDefinitionIndex = 71670;
+
 	class DefaultForceKillMarkData : public ::System::Object
 	{
 	public:

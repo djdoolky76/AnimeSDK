@@ -33,6 +33,8 @@ namespace System { class String; }
 #define MIGHOPHLBMF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EA3BB30)
 #define MIGHOPHLBMF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EA3BB90)
 
+inline static constexpr unsigned int MIGHOPHLBMF_TypeDefinitionIndex = 26850;
+
 	class MIGHOPHLBMF : public ::System::Object
 	{
 	public:

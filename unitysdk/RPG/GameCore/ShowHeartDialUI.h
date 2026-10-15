@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ShowHeartDialUI_TypeDefinitionIndex = 21223;
+
 	class ShowHeartDialUI : public ::RPG::GameCore::TaskConfig
 	{
 	public:

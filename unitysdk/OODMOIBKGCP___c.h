@@ -21,6 +21,8 @@ namespace UnityEngine { class Transform; }
 #define OODMOIBKGCP___C__CREATERACKET_B__6_0_OFFSET UNITYSDK_OFFSET(0xBF79600)
 #define OODMOIBKGCP___C___CREATEENEMYUNIT_B__21_0_OFFSET UNITYSDK_OFFSET(0xBF79730)
 
+inline static constexpr unsigned int OODMOIBKGCP___c_TypeDefinitionIndex = 76656;
+
 	class OODMOIBKGCP___c : public ::System::Object
 	{
 	public:

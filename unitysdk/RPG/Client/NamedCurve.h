@@ -9,6 +9,8 @@ namespace UnityEngine { class AnimationCurve; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int NamedCurve_TypeDefinitionIndex = 60045;
+
 	class NamedCurve : public ::UnityEngine::ScriptableObject
 	{
 	public:

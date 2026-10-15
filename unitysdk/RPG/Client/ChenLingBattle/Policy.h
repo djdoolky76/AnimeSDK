@@ -34,6 +34,8 @@ namespace System { class String; }
 
 namespace RPG::Client::ChenLingBattle
 {
+	inline static constexpr unsigned int Policy_TypeDefinitionIndex = 76370;
+
 	class Policy : public ::System::Object
 	{
 	public:

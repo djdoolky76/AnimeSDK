@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ConvinceGameplayNPCConfigRow_TypeDefinitionIndex = 13097;
+
 	class ConvinceGameplayNPCConfigRow : public ::System::Object
 	{
 	public:

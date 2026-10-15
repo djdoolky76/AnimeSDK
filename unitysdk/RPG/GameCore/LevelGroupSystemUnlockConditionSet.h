@@ -10,6 +10,8 @@ namespace RPG::GameCore { class LevelGroupSystemUnlockConditionSet; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelGroupSystemUnlockConditionSet_TypeDefinitionIndex = 17211;
+
 	class LevelGroupSystemUnlockConditionSet : public ::RPG::GameCore::JsonConfig
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GridFightModifierAddSpecialGoodsConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightModifierAddSpecialGoodsConfig_TypeDefinitionIndex = 19410;
+
 	class GridFightModifierAddSpecialGoodsConfig : public ::RPG::GameCore::GridFightModifierConfigBase
 	{
 	public:

@@ -6,6 +6,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int NodeListViewPanel_1_TypeDefinitionIndex = 72619;
+
 	template <typename T>
 	class NodeListViewPanel_1 : public ::FMPCODLIOLG
 	{

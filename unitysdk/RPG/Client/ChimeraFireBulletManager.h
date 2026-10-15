@@ -20,6 +20,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ChimeraFireBulletManager_TypeDefinitionIndex = 68647;
+
 	class ChimeraFireBulletManager : public ::UnityEngine::MonoBehaviour
 	{
 	public:

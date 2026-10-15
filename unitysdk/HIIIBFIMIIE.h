@@ -31,6 +31,8 @@ namespace System { class String; }
 #define HIIIBFIMIIE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E596A30)
 #define HIIIBFIMIIE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E596A90)
 
+inline static constexpr unsigned int HIIIBFIMIIE_TypeDefinitionIndex = 32322;
+
 	class HIIIBFIMIIE : public ::System::Object
 	{
 	public:

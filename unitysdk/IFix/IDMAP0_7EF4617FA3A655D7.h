@@ -3,6 +3,8 @@
 
 namespace IFix
 {
+	inline static constexpr unsigned int IDMAP0_7EF4617FA3A655D7_TypeDefinitionIndex = 43814;
+
 	enum class IDMAP0_7EF4617FA3A655D7 : ::System::Int32
 	{
 		FiveDimPlayerSkillCurveAsset_OINBDMGFFJL0 = 0,

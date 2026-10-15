@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GuardingState_TypeDefinitionIndex = 52425;
+
 	enum class GuardingState : ::System::Int32
 	{
 		Search = 0,

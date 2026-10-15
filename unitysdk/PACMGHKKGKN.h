@@ -28,6 +28,8 @@ namespace System { class String; }
 #define PACMGHKKGKN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DEEA570)
 #define PACMGHKKGKN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DEEA5D0)
 
+inline static constexpr unsigned int PACMGHKKGKN_TypeDefinitionIndex = 30716;
+
 	class PACMGHKKGKN : public ::System::Object
 	{
 	public:

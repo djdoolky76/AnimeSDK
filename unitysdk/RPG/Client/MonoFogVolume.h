@@ -21,6 +21,8 @@ namespace UnityEngine { class Texture3D; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoFogVolume_TypeDefinitionIndex = 70793;
+
 	class MonoFogVolume : public ::UnityEngine::MonoBehaviour
 	{
 	public:

@@ -2,6 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 
+inline static constexpr unsigned int BGMFAGEMHOM_TypeDefinitionIndex = 54988;
+
 	struct alignas(4) BGMFAGEMHOM
 	{
 		::RPG::GameCore::FixPoint HCICPDGOPKI; // 0x10

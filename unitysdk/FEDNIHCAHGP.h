@@ -29,6 +29,8 @@ namespace System { class String; }
 #define FEDNIHCAHGP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E361190)
 #define FEDNIHCAHGP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E3611F0)
 
+inline static constexpr unsigned int FEDNIHCAHGP_TypeDefinitionIndex = 29837;
+
 	class FEDNIHCAHGP : public ::System::Object
 	{
 	public:

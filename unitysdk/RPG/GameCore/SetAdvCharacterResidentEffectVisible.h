@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetAdvCharacterResidentEffectVisible_TypeDefinitionIndex = 22401;
+
 	class SetAdvCharacterResidentEffectVisible : public ::RPG::GameCore::TaskConfig
 	{
 	public:

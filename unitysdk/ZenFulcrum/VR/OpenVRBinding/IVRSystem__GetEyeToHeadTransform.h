@@ -14,6 +14,8 @@ namespace System { class Object; }
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
+	inline static constexpr unsigned int IVRSystem__GetEyeToHeadTransform_TypeDefinitionIndex = 38894;
+
 	class IVRSystem__GetEyeToHeadTransform : public ::System::MulticastDelegate
 	{
 	public:

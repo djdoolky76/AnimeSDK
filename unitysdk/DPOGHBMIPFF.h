@@ -24,6 +24,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define DPOGHBMIPFF_PJJKDBGLNJE_OFFSET UNITYSDK_OFFSET(0x12661730)
 #define DPOGHBMIPFF_TEARDOWN_OFFSET UNITYSDK_OFFSET(0x12660790)
 
+inline static constexpr unsigned int DPOGHBMIPFF_TypeDefinitionIndex = 77165;
+
 	class DPOGHBMIPFF : public ::System::Object
 	{
 	public:

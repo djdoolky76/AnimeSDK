@@ -63,6 +63,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace MiHoYo::SDK::PC::OS::CXHandheld
 {
+	inline static constexpr unsigned int AgeGateManager_TypeDefinitionIndex = 8722;
+
 	class AgeGateManager : public ::System::Object
 	{
 	public:

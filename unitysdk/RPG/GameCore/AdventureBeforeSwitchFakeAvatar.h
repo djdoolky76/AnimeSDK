@@ -13,6 +13,8 @@ namespace RPG::GameCore { class GameEntity; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdventureBeforeSwitchFakeAvatar_TypeDefinitionIndex = 56611;
+
 	class AdventureBeforeSwitchFakeAvatar : public ::CMPGEAFHHDC
 	{
 	public:

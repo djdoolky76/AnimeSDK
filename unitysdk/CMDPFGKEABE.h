@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define CMDPFGKEABE_CTOR_OFFSET UNITYSDK_OFFSET(0xDA28FB0)
 #define CMDPFGKEABE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xDA28FE0)
 
+inline static constexpr unsigned int CMDPFGKEABE_TypeDefinitionIndex = 57884;
+
 	class CMDPFGKEABE
 	{
 	public:

@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int OverrideTimeRewindSpecularMatStyle_TypeDefinitionIndex = 20663;
+
 	class OverrideTimeRewindSpecularMatStyle : public ::RPG::GameCore::TaskConfig
 	{
 	public:

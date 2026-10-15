@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int StoryLineUIDataRow_TypeDefinitionIndex = 15202;
+
 	class StoryLineUIDataRow : public ::System::Object
 	{
 	public:

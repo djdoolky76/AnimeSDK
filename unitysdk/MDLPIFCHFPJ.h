@@ -30,6 +30,8 @@ namespace System { class String; }
 #define MDLPIFCHFPJ_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EA06460)
 #define MDLPIFCHFPJ_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EA064C0)
 
+inline static constexpr unsigned int MDLPIFCHFPJ_TypeDefinitionIndex = 33714;
+
 	class MDLPIFCHFPJ : public ::System::Object
 	{
 	public:

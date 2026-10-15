@@ -6,6 +6,8 @@
 #define SERIALIZEDRASTERSTATE_ICGKFDEILKA_OFFSET UNITYSDK_OFFSET(0xF9850)
 #define SERIALIZEDRASTERSTATE_OLCHHDKKPLI_OFFSET UNITYSDK_OFFSET(0xF98E0)
 
+inline static constexpr unsigned int SerializedRasterState_TypeDefinitionIndex = 47416;
+
 	struct alignas(4) SerializedRasterState
 	{
 		::UnityEngine::Rendering::CullMode cullingMode; // 0x10

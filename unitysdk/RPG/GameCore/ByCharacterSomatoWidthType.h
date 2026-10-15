@@ -15,6 +15,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByCharacterSomatoWidthType_TypeDefinitionIndex = 23705;
+
 	class ByCharacterSomatoWidthType : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

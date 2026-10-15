@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelNavNodeConditionInfo_TypeDefinitionIndex = 17160;
+
 	class LevelNavNodeConditionInfo : public ::RPG::GameCore::JsonConfig
 	{
 	public:

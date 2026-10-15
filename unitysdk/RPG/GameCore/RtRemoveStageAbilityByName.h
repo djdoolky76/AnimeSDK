@@ -11,6 +11,8 @@ namespace RPG::GameCore { class RtRemoveStageAbilityByName; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RtRemoveStageAbilityByName_TypeDefinitionIndex = 24081;
+
 	class RtRemoveStageAbilityByName : public ::RPG::GameCore::TaskConfig
 	{
 	public:

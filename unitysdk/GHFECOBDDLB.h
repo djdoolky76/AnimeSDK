@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define GHFECOBDDLB_KJBLCICJNBF_OFFSET UNITYSDK_OFFSET(0x15A193A0)
 #define GHFECOBDDLB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15A18D70)
 
+inline static constexpr unsigned int GHFECOBDDLB_TypeDefinitionIndex = 52976;
+
 	class GHFECOBDDLB
 	{
 	public:

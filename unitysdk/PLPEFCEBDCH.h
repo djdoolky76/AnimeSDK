@@ -15,6 +15,8 @@ namespace UnityEngine { class Transform; }
 #define PLPEFCEBDCH_JLPLBEKOCMP_OFFSET UNITYSDK_OFFSET(0xC30E270)
 #define PLPEFCEBDCH__ONBIND_OFFSET UNITYSDK_OFFSET(0xC30E2D0)
 
+inline static constexpr unsigned int PLPEFCEBDCH_TypeDefinitionIndex = 72011;
+
 	class PLPEFCEBDCH : public ::FMPCODLIOLG
 	{
 	public:

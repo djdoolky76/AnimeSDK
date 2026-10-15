@@ -12,6 +12,8 @@ namespace System { class Object; }
 #define GCOOJALEHNP_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1598F530)
 #define GCOOJALEHNP_TICK_OFFSET UNITYSDK_OFFSET(0x1598F4D0)
 
+inline static constexpr unsigned int GCOOJALEHNP_TypeDefinitionIndex = 58495;
+
 	class GCOOJALEHNP : public ::GELIALJDFBL
 	{
 	public:

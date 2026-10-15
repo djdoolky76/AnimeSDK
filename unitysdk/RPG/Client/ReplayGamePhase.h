@@ -17,6 +17,8 @@ class OEIGEPGAGNA;
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ReplayGamePhase_TypeDefinitionIndex = 61206;
+
 	class ReplayGamePhase : public ::RPG::Client::BattleGamePhase
 	{
 	public:

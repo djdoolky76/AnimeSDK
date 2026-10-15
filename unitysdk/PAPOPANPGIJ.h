@@ -15,6 +15,8 @@ namespace Entitas { class IEntity; }
 #define PAPOPANPGIJ_SET_LITTLEGAMEENTITY_OFFSET UNITYSDK_OFFSET(0x1C7E6090)
 #define PAPOPANPGIJ_SET_ROOTSTATE_OFFSET UNITYSDK_OFFSET(0x1C7E60D0)
 
+inline static constexpr unsigned int PAPOPANPGIJ_TypeDefinitionIndex = 37008;
+
 	class PAPOPANPGIJ : public ::System::Object
 	{
 	public:

@@ -3,6 +3,8 @@
 
 namespace Newtonsoft::Json
 {
+	inline static constexpr unsigned int PreserveReferencesHandling_TypeDefinitionIndex = 9596;
+
 	enum class PreserveReferencesHandling : ::System::Int32
 	{
 		None = 0,

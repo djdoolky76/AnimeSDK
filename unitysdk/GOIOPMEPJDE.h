@@ -6,6 +6,8 @@
 #define GOIOPMEPJDE_CTOR_OFFSET UNITYSDK_OFFSET(0x15B34740)
 #define GOIOPMEPJDE_GNADABFLEFM_OFFSET UNITYSDK_OFFSET(0x15B345E0)
 
+inline static constexpr unsigned int GOIOPMEPJDE_TypeDefinitionIndex = 64930;
+
 	class GOIOPMEPJDE : public ::HBIAKFCLCIG
 	{
 	public:

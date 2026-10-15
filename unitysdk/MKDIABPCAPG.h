@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define MKDIABPCAPG_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1D1B92D0)
 #define MKDIABPCAPG_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1D1B8BF0)
 
+inline static constexpr unsigned int MKDIABPCAPG_TypeDefinitionIndex = 12660;
+
 	class MKDIABPCAPG : public ::System::Object
 	{
 	public:

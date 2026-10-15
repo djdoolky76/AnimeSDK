@@ -17,6 +17,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int BattleUINodeRegister_TypeDefinitionIndex = 72304;
+
 	class BattleUINodeRegister : public ::UnityEngine::MonoBehaviour
 	{
 	public:

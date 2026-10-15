@@ -9,6 +9,8 @@ namespace UnityEngine { class GameObject; }
 #define FNFAEAEOFAN___C__DISPLAYCLASS23_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1586E440)
 #define FNFAEAEOFAN___C__DISPLAYCLASS23_0___ONTRAILEFFECTCOMPLETE_B__0_OFFSET UNITYSDK_OFFSET(0x1586E580)
 
+inline static constexpr unsigned int FNFAEAEOFAN___c__DisplayClass23_0_TypeDefinitionIndex = 60611;
+
 	class FNFAEAEOFAN___c__DisplayClass23_0 : public ::System::Object
 	{
 	public:

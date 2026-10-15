@@ -12,6 +12,8 @@ namespace RPGTools::Timeline { class NPCCancelRideClip; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int NPCCancelRideBehaviour_TypeDefinitionIndex = 48202;
+
 	class NPCCancelRideBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

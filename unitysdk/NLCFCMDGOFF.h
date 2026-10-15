@@ -19,6 +19,8 @@ namespace System { class String; }
 #define NLCFCMDGOFF_LKEFCMNJDJI_OFFSET UNITYSDK_OFFSET(0x3C4FCE0)
 #define NLCFCMDGOFF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x3C4FE20)
 
+inline static constexpr unsigned int NLCFCMDGOFF_TypeDefinitionIndex = 35254;
+
 	struct alignas(8) NLCFCMDGOFF
 	{
 		::System::ReadOnlyMemory_1<::System::Char> INNIEFKCKBK; // 0x10

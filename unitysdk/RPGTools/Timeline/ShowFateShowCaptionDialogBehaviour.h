@@ -9,6 +9,8 @@
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int ShowFateShowCaptionDialogBehaviour_TypeDefinitionIndex = 48295;
+
 	class ShowFateShowCaptionDialogBehaviour : public ::RPGTools::Timeline::BaseShowDialogBehaviour
 	{
 	public:

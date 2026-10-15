@@ -13,6 +13,8 @@ namespace RPG::GameCore { class DynamicFloat; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DiceCombatPredicateConfig_CurrentHPCompare_TypeDefinitionIndex = 16114;
+
 	class DiceCombatPredicateConfig_CurrentHPCompare : public ::RPG::GameCore::DiceCombatPredicateConfig
 	{
 	public:

@@ -7,6 +7,8 @@ namespace System::Reflection { class ModuleResolveEventHandler; }
 
 namespace System::Reflection
 {
+	inline static constexpr unsigned int Assembly_ResolveEventHolder_TypeDefinitionIndex = 595;
+
 	class Assembly_ResolveEventHolder : public ::System::Object
 	{
 	public:

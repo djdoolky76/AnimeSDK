@@ -60,6 +60,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CharacterWeakness_TypeDefinitionIndex = 57731;
+
 	class CharacterWeakness : public ::System::Object
 	{
 	public:

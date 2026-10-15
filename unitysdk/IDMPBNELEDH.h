@@ -17,6 +17,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define IDMPBNELEDH_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0x15EDC0E0)
 #define IDMPBNELEDH_NCBGDCINJEB_OFFSET UNITYSDK_OFFSET(0x15EDC0D0)
 
+inline static constexpr unsigned int IDMPBNELEDH_TypeDefinitionIndex = 60197;
+
 	class IDMPBNELEDH : public ::DGCLAKDAHDB
 	{
 	public:

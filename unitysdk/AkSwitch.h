@@ -13,6 +13,8 @@ namespace UnityEngine { class GameObject; }
 #define AKSWITCH_GET_WWISETYPE_OFFSET UNITYSDK_OFFSET(0x1F60EF00)
 #define AKSWITCH_HANDLEEVENT_OFFSET UNITYSDK_OFFSET(0x1F60EF40)
 
+inline static constexpr unsigned int AkSwitch_TypeDefinitionIndex = 44957;
+
 	class AkSwitch : public ::AkDragDropTriggerHandler
 	{
 	public:

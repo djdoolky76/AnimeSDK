@@ -30,6 +30,8 @@ namespace UnityEngine { class MeshRenderer; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ShellFurRendererBehavior_TypeDefinitionIndex = 70945;
+
 	class ShellFurRendererBehavior : public ::RPG::Client::TABehaviorBase
 	{
 	public:

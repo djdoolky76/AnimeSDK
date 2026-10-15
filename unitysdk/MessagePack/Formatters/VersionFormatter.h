@@ -14,6 +14,8 @@ namespace System { class Version; }
 
 namespace MessagePack::Formatters
 {
+	inline static constexpr unsigned int VersionFormatter_TypeDefinitionIndex = 7491;
+
 	class VersionFormatter : public ::System::Object
 	{
 	public:

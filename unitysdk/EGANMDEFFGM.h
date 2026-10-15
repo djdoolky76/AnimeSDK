@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int EGANMDEFFGM_TypeDefinitionIndex = 32807;
+
 	enum class EGANMDEFFGM : ::System::Int32
 	{
 		NLCDGIPGFDJ = 0,

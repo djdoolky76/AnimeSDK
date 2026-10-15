@@ -18,6 +18,8 @@ namespace System::Collections::Generic { template <typename T> class IList_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightBonusServerData_BattleResultBonusSummarizer_TypeDefinitionIndex = 64432;
+
 	class GridFightBonusServerData_BattleResultBonusSummarizer : public ::AMCOEFHHBPO
 	{
 	public:

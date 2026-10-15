@@ -25,6 +25,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MusicAlbumGroupData_TypeDefinitionIndex = 66358;
+
 	class MusicAlbumGroupData : public ::System::Object
 	{
 	public:

@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightRoleTraitEffect_TypeDefinitionIndex = 64503;
+
 	class GridFightRoleTraitEffect : public ::RPG::Client::GridFightMemberEffect
 	{
 	public:

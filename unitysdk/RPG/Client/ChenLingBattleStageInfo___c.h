@@ -11,6 +11,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ChenLingBattleStageInfo___c_TypeDefinitionIndex = 61459;
+
 	class ChenLingBattleStageInfo___c : public ::System::Object
 	{
 	public:

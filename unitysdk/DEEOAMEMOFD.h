@@ -46,6 +46,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define DEEOAMEMOFD_PJFJOKODKLJ_OFFSET UNITYSDK_OFFSET(0xE507540)
 #define DEEOAMEMOFD_SET_BOUNDSOCCLUDERFORJOB_OFFSET UNITYSDK_OFFSET(0xE509B40)
 
+inline static constexpr unsigned int DEEOAMEMOFD_TypeDefinitionIndex = 57789;
+
 	class DEEOAMEMOFD : public ::System::Object
 	{
 	public:

@@ -27,6 +27,8 @@ namespace UnityEngine { class Animation; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PlanetFesAssistantController_TypeDefinitionIndex = 66471;
+
 	class PlanetFesAssistantController : public ::UnityEngine::MonoBehaviour
 	{
 	public:

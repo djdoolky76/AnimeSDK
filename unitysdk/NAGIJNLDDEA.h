@@ -31,6 +31,8 @@ namespace System { class String; }
 #define NAGIJNLDDEA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EAC18E0)
 #define NAGIJNLDDEA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EAC1940)
 
+inline static constexpr unsigned int NAGIJNLDDEA_TypeDefinitionIndex = 28256;
+
 	class NAGIJNLDDEA : public ::System::Object
 	{
 	public:

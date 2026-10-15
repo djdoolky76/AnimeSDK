@@ -23,6 +23,8 @@ namespace UnityEngine::ProBuilder { class WingedEdge; }
 
 namespace UnityEngine::ProBuilder::MeshOperations
 {
+	inline static constexpr unsigned int ExtrudeElements_TypeDefinitionIndex = 44497;
+
 	class ExtrudeElements : public ::System::Object
 	{
 	public:

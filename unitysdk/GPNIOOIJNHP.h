@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define GPNIOOIJNHP_OJHKJLNONDF_OFFSET UNITYSDK_OFFSET(0x15B61CF0)
 #define GPNIOOIJNHP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15B617B0)
 
+inline static constexpr unsigned int GPNIOOIJNHP_TypeDefinitionIndex = 53219;
+
 	class GPNIOOIJNHP
 	{
 	public:

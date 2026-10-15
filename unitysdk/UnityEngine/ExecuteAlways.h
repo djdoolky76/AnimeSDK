@@ -6,6 +6,8 @@
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int ExecuteAlways_TypeDefinitionIndex = 4308;
+
 	class ExecuteAlways : public ::System::Attribute
 	{
 	public:

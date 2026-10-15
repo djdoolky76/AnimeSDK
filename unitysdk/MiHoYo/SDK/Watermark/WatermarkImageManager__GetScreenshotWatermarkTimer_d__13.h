@@ -15,6 +15,8 @@ namespace UnityEngine { class Texture2D; }
 
 namespace MiHoYo::SDK::Watermark
 {
+	inline static constexpr unsigned int WatermarkImageManager__GetScreenshotWatermarkTimer_d__13_TypeDefinitionIndex = 8870;
+
 	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename T8, typename T9, typename T10, typename T11, typename T12, typename T13>
 	class WatermarkImageManager__GetScreenshotWatermarkTimer_d__13 : public ::System::Object
 	{

@@ -7,6 +7,8 @@ namespace System { class String; }
 
 #define KADDGDOKLEF_FBAGLJEDDDN_CTOR_OFFSET UNITYSDK_OFFSET(0xB2D28F0)
 
+inline static constexpr unsigned int KADDGDOKLEF_FBAGLJEDDDN_TypeDefinitionIndex = 71548;
+
 	class KADDGDOKLEF_FBAGLJEDDDN : public ::System::Object
 	{
 	public:

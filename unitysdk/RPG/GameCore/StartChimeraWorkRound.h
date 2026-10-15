@@ -10,6 +10,8 @@ namespace RPG::GameCore { class StartChimeraWorkRound; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int StartChimeraWorkRound_TypeDefinitionIndex = 21732;
+
 	class StartChimeraWorkRound : public ::RPG::GameCore::TaskConfig
 	{
 	public:

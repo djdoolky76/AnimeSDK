@@ -13,6 +13,8 @@ namespace System { class Object; }
 
 namespace Newtonsoft::Json::Serialization
 {
+	inline static constexpr unsigned int SerializationCallback_TypeDefinitionIndex = 9721;
+
 	class SerializationCallback : public ::System::MulticastDelegate
 	{
 	public:

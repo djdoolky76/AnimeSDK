@@ -16,6 +16,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace XLua
 {
+	inline static constexpr unsigned int LuaMemoryLeakChecker___c_TypeDefinitionIndex = 50062;
+
 	class LuaMemoryLeakChecker___c : public ::System::Object
 	{
 	public:

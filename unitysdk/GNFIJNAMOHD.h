@@ -23,6 +23,8 @@ namespace UnityEngine { class Texture2D; }
 #define GNFIJNAMOHD_MBGGEKKOKCL_OFFSET UNITYSDK_OFFSET(0x15B01B90)
 #define GNFIJNAMOHD_OKHEEBIJIAO_OFFSET UNITYSDK_OFFSET(0x15B01420)
 
+inline static constexpr unsigned int GNFIJNAMOHD_TypeDefinitionIndex = 49542;
+
 	class GNFIJNAMOHD : public ::System::Object
 	{
 	public:

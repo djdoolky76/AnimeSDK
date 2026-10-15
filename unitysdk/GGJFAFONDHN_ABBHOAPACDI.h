@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T> class Stack_1; }
 #define GGJFAFONDHN_ABBHOAPACDI_CTOR_OFFSET UNITYSDK_OFFSET(0x15A0D360)
 #define GGJFAFONDHN_ABBHOAPACDI_LBJLOBHFGEH_OFFSET UNITYSDK_OFFSET(0x15A0D3B0)
 
+inline static constexpr unsigned int GGJFAFONDHN_ABBHOAPACDI_TypeDefinitionIndex = 49515;
+
 	class GGJFAFONDHN_ABBHOAPACDI : public ::System::Object
 	{
 	public:

@@ -17,6 +17,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AnniversaryAvatarDeliverModule_DelivererData_TypeDefinitionIndex = 62388;
+
 	class AnniversaryAvatarDeliverModule_DelivererData : public ::System::Object
 	{
 	public:

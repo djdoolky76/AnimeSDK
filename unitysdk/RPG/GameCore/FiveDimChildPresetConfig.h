@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FiveDimChildPresetItemConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimChildPresetConfig_TypeDefinitionIndex = 16719;
+
 	class FiveDimChildPresetConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

@@ -29,6 +29,8 @@ namespace System { class String; }
 #define ENEKCKAHDIM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E2EBFB0)
 #define ENEKCKAHDIM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E2EC010)
 
+inline static constexpr unsigned int ENEKCKAHDIM_TypeDefinitionIndex = 33976;
+
 	class ENEKCKAHDIM : public ::System::Object
 	{
 	public:

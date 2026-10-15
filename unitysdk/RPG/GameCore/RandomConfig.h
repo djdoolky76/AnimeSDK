@@ -15,6 +15,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RandomConfig_TypeDefinitionIndex = 23780;
+
 	class RandomConfig : public ::RPG::GameCore::CompositeConfig
 	{
 	public:

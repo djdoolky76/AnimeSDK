@@ -26,6 +26,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define BGNDPIPJFCI_NIDFKJGGDDD_OFFSET UNITYSDK_OFFSET(0xB18FCF0)
 #define BGNDPIPJFCI_NNEEKPGDKMF_OFFSET UNITYSDK_OFFSET(0xB18FB20)
 
+inline static constexpr unsigned int BGNDPIPJFCI_TypeDefinitionIndex = 73840;
+
 	class BGNDPIPJFCI : public ::HEAIEBHLCMJ
 	{
 	public:

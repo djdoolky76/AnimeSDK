@@ -22,6 +22,8 @@ class LNHACPACCKH;
 #define MKBPLNIIHID_PGFBKNALCKD_OFFSET UNITYSDK_OFFSET(0x1C74D360)
 #define MKBPLNIIHID_PNJODACLLPH_OFFSET UNITYSDK_OFFSET(0x1C74D310)
 
+inline static constexpr unsigned int MKBPLNIIHID_TypeDefinitionIndex = 37069;
+
 	class MKBPLNIIHID : public ::System::Object
 	{
 	public:

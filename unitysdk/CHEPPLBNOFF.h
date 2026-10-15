@@ -27,6 +27,8 @@ namespace System { class String; }
 #define CHEPPLBNOFF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E0C4480)
 #define CHEPPLBNOFF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E0C44E0)
 
+inline static constexpr unsigned int CHEPPLBNOFF_TypeDefinitionIndex = 32900;
+
 	class CHEPPLBNOFF : public ::System::Object
 	{
 	public:

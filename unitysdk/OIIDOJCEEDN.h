@@ -40,6 +40,8 @@ namespace System { class String; }
 #define OIIDOJCEEDN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DE6F090)
 #define OIIDOJCEEDN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DE6F0F0)
 
+inline static constexpr unsigned int OIIDOJCEEDN_TypeDefinitionIndex = 27536;
+
 	class OIIDOJCEEDN : public ::System::Object
 	{
 	public:

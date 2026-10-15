@@ -39,6 +39,8 @@ namespace System { class String; }
 #define HCHDLMIOOIP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E53E5F0)
 #define HCHDLMIOOIP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E53E650)
 
+inline static constexpr unsigned int HCHDLMIOOIP_TypeDefinitionIndex = 25114;
+
 	class HCHDLMIOOIP : public ::System::Object
 	{
 	public:

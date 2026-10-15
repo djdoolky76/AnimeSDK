@@ -12,6 +12,8 @@ namespace UnityEngine::UI { class Text; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int PressedMaskButton_TypeDefinitionIndex = 8013;
+
 	class PressedMaskButton : public ::UnityEngine::MonoBehaviour
 	{
 	public:

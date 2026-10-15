@@ -18,6 +18,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RootMotion::FinalIK
 {
+	inline static constexpr unsigned int IKSolver_Bone_TypeDefinitionIndex = 46016;
+
 	class IKSolver_Bone : public ::RootMotion::FinalIK::IKSolver_Point
 	{
 	public:

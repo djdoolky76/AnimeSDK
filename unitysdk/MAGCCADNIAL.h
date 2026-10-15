@@ -15,6 +15,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define MAGCCADNIAL_ONPLUGININIT_OFFSET UNITYSDK_OFFSET(0xB84D5A0)
 #define MAGCCADNIAL_ONPLUGINUNINIT_OFFSET UNITYSDK_OFFSET(0xB84D640)
 
+inline static constexpr unsigned int MAGCCADNIAL_TypeDefinitionIndex = 54132;
+
 	class MAGCCADNIAL : public ::System::Object
 	{
 	public:

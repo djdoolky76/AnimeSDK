@@ -11,6 +11,8 @@ namespace RPG::GameCore { class OverrideEndTransferType; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int OverrideEndTransferType_TypeDefinitionIndex = 21921;
+
 	class OverrideEndTransferType : public ::RPG::GameCore::TaskConfig
 	{
 	public:

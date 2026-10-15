@@ -16,6 +16,8 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 #define NELDMGIGNPH_HKKFFCBJOKM_OFFSET UNITYSDK_OFFSET(0xBB6FEE0)
 #define NELDMGIGNPH_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0xBB70C40)
 
+inline static constexpr unsigned int NELDMGIGNPH_TypeDefinitionIndex = 77923;
+
 	class NELDMGIGNPH : public ::JNALBIEDNLH
 	{
 	public:

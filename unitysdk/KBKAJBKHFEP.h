@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 #define KBKAJBKHFEP_CTOR_OFFSET UNITYSDK_OFFSET(0xB30A640)
 #define KBKAJBKHFEP_HPMHPJIJAPB_OFFSET UNITYSDK_OFFSET(0xB30A580)
 
+inline static constexpr unsigned int KBKAJBKHFEP_TypeDefinitionIndex = 77385;
+
 	class KBKAJBKHFEP : public ::System::Object
 	{
 	public:

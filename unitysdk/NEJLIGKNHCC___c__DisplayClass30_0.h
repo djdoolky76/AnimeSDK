@@ -8,6 +8,8 @@ namespace Collections::Pooled { template <typename T1, typename T2> class Pooled
 
 #define NEJLIGKNHCC___C__DISPLAYCLASS30_0_CTOR_OFFSET UNITYSDK_OFFSET(0xBB65670)
 
+inline static constexpr unsigned int NEJLIGKNHCC___c__DisplayClass30_0_TypeDefinitionIndex = 69297;
+
 	class NEJLIGKNHCC___c__DisplayClass30_0 : public ::System::Object
 	{
 	public:

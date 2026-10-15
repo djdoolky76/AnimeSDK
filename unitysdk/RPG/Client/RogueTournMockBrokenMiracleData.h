@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueTournMockBrokenMiracleData_TypeDefinitionIndex = 67685;
+
 	class RogueTournMockBrokenMiracleData : public ::RPG::Client::RogueTournMiracleDataBase
 	{
 	public:

@@ -9,6 +9,8 @@ namespace RPG::GameCore { class SaveCheckConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SaveCheckConfig_TypeDefinitionIndex = 16451;
+
 	class SaveCheckConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

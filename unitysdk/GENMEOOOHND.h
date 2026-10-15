@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TriggerUITopEffect; }
 #define GENMEOOOHND_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x159E2B60)
 #define GENMEOOOHND_TICK_OFFSET UNITYSDK_OFFSET(0x159E2BB0)
 
+inline static constexpr unsigned int GENMEOOOHND_TypeDefinitionIndex = 55770;
+
 	class GENMEOOOHND : public ::GELIALJDFBL
 	{
 	public:

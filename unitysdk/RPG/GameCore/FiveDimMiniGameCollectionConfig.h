@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimMiniGameCollectionConfig_TypeDefinitionIndex = 16668;
+
 	class FiveDimMiniGameCollectionConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

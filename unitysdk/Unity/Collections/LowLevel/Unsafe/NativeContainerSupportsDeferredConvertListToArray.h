@@ -6,6 +6,8 @@
 
 namespace Unity::Collections::LowLevel::Unsafe
 {
+	inline static constexpr unsigned int NativeContainerSupportsDeferredConvertListToArray_TypeDefinitionIndex = 3997;
+
 	class NativeContainerSupportsDeferredConvertListToArray : public ::System::Attribute
 	{
 	public:

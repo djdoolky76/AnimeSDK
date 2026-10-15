@@ -18,6 +18,8 @@ namespace System::Text { class Encoding; }
 
 namespace System::IO
 {
+	inline static constexpr unsigned int StreamReader_NullStreamReader_TypeDefinitionIndex = 693;
+
 	class StreamReader_NullStreamReader : public ::System::IO::StreamReader
 	{
 	public:

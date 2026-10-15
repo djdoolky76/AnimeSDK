@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PhoneCaseConfigRow_TypeDefinitionIndex = 14451;
+
 	class PhoneCaseConfigRow : public ::System::Object
 	{
 	public:

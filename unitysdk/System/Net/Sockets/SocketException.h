@@ -19,6 +19,8 @@ namespace System::Runtime::Serialization { class SerializationInfo; }
 
 namespace System::Net::Sockets
 {
+	inline static constexpr unsigned int SocketException_TypeDefinitionIndex = 2893;
+
 	class SocketException : public ::System::ComponentModel::Win32Exception
 	{
 	public:

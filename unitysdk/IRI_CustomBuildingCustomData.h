@@ -4,6 +4,8 @@
 
 #define IRI_CUSTOMBUILDINGCUSTOMDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x16533650)
 
+inline static constexpr unsigned int IRI_CustomBuildingCustomData_TypeDefinitionIndex = 47169;
+
 	class IRI_CustomBuildingCustomData : public ::IRI_BaseBuildingCustomData
 	{
 	public:

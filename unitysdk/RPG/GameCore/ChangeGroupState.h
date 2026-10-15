@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ChangeGroupState; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChangeGroupState_TypeDefinitionIndex = 21178;
+
 	class ChangeGroupState : public ::RPG::GameCore::TaskConfig
 	{
 	public:

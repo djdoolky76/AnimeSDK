@@ -13,6 +13,8 @@ namespace System { class Object; }
 #define DLAGHDCPOPJ_ONCLEAR_OFFSET UNITYSDK_OFFSET(0xF8906C0)
 #define DLAGHDCPOPJ_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0xF8904E0)
 
+inline static constexpr unsigned int DLAGHDCPOPJ_TypeDefinitionIndex = 80851;
+
 	class DLAGHDCPOPJ : public ::MLKDDLHNNHH
 	{
 	public:

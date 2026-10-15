@@ -37,6 +37,8 @@ namespace System::IO { class StreamWriter; }
 #define DKNHOGCDNHH_SET_SUBPACKID_OFFSET UNITYSDK_OFFSET(0x1C45AA10)
 #define DKNHOGCDNHH_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1C45E640)
 
+inline static constexpr unsigned int DKNHOGCDNHH_TypeDefinitionIndex = 41444;
+
 	class DKNHOGCDNHH : public ::System::Object
 	{
 	public:

@@ -14,6 +14,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdventureByIsWeakTypeActive_TypeDefinitionIndex = 20789;
+
 	class AdventureByIsWeakTypeActive : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

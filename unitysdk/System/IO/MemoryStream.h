@@ -46,6 +46,8 @@ namespace System::Threading::Tasks { class Task; }
 
 namespace System::IO
 {
+	inline static constexpr unsigned int MemoryStream_TypeDefinitionIndex = 681;
+
 	class MemoryStream : public ::System::IO::Stream
 	{
 	public:

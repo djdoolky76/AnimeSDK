@@ -52,6 +52,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define IFEKHDCLFAA_PLKECDLKCMH_OFFSET UNITYSDK_OFFSET(0x15F10360)
 #define IFEKHDCLFAA_SET_ISPLAYERINRANGE_OFFSET UNITYSDK_OFFSET(0x15F108C0)
 
+inline static constexpr unsigned int IFEKHDCLFAA_TypeDefinitionIndex = 62995;
+
 	class IFEKHDCLFAA : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace RPG::GameCore { class RogueDLC1Dot3ImmediateNotify; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueDLC1Dot3ImmediateNotify_TypeDefinitionIndex = 22272;
+
 	class RogueDLC1Dot3ImmediateNotify : public ::RPG::GameCore::TaskConfig
 	{
 	public:

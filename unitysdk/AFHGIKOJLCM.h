@@ -4,6 +4,8 @@
 
 #define AFHGIKOJLCM_CTOR_OFFSET UNITYSDK_OFFSET(0xCF0C640)
 
+inline static constexpr unsigned int AFHGIKOJLCM_TypeDefinitionIndex = 48085;
+
 	class AFHGIKOJLCM : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

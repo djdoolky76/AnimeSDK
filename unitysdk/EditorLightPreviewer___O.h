@@ -4,6 +4,8 @@
 class SceneLightVolume;
 namespace System { template <typename T> class Comparison_1; }
 
+inline static constexpr unsigned int EditorLightPreviewer___O_TypeDefinitionIndex = 47344;
+
 	class EditorLightPreviewer___O : public ::System::Object
 	{
 	public:

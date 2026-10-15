@@ -35,6 +35,8 @@
 
 namespace UnityEngine::AI
 {
+	inline static constexpr unsigned int NavMeshObstacle_TypeDefinitionIndex = 5648;
+
 	class NavMeshObstacle : public ::UnityEngine::Behaviour
 	{
 	public:

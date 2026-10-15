@@ -7,6 +7,8 @@ namespace System { class Exception; }
 
 namespace Cysharp::Threading::Tasks
 {
+	inline static constexpr unsigned int ExceptionExtensions_TypeDefinitionIndex = 38160;
+
 	class ExceptionExtensions : public ::System::Object
 	{
 	public:

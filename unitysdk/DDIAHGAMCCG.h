@@ -35,6 +35,8 @@ namespace UnityEngine { class GameObject; }
 #define DDIAHGAMCCG_PGEDNEFADBC_OFFSET UNITYSDK_OFFSET(0xE268F00)
 #define DDIAHGAMCCG_SET_INSTANCE_OFFSET UNITYSDK_OFFSET(0xE267AC0)
 
+inline static constexpr unsigned int DDIAHGAMCCG_TypeDefinitionIndex = 68670;
+
 	class DDIAHGAMCCG : public ::System::Object
 	{
 	public:

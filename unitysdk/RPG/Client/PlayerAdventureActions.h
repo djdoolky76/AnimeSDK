@@ -15,6 +15,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PlayerAdventureActions_TypeDefinitionIndex = 61331;
+
 	class PlayerAdventureActions : public ::IIJLENHLAIJ
 	{
 	public:

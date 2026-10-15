@@ -14,6 +14,8 @@ namespace System { class Object; }
 #define CDOGJMHPAMO_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xC76EE50)
 #define CDOGJMHPAMO_TICK_OFFSET UNITYSDK_OFFSET(0xC76EEA0)
 
+inline static constexpr unsigned int CDOGJMHPAMO_TypeDefinitionIndex = 58163;
+
 	class CDOGJMHPAMO
 	{
 	public:

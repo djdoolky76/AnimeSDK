@@ -18,6 +18,8 @@ namespace System { class Object; }
 #define AIADLOGFPCD_LGMDENKHIFJ_OFFSET UNITYSDK_OFFSET(0x1C53E080)
 #define AIADLOGFPCD_PFABKAHHLDA_OFFSET UNITYSDK_OFFSET(0x1C53DB20)
 
+inline static constexpr unsigned int AIADLOGFPCD_TypeDefinitionIndex = 41852;
+
 	class AIADLOGFPCD : public ::JEBPFBNCALB
 	{
 	public:

@@ -16,6 +16,8 @@ namespace System::Security::Cryptography { class KeySizes; }
 
 namespace System::Security::Cryptography
 {
+	inline static constexpr unsigned int DES_TypeDefinitionIndex = 1017;
+
 	class DES : public ::System::Security::Cryptography::SymmetricAlgorithm
 	{
 	public:

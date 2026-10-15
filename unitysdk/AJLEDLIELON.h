@@ -21,6 +21,8 @@ namespace UnityEngine { class GameObject; }
 #define AJLEDLIELON_HNLIEOKDGFH_OFFSET UNITYSDK_OFFSET(0x12CC4A30)
 #define AJLEDLIELON_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0x12CC5070)
 
+inline static constexpr unsigned int AJLEDLIELON_TypeDefinitionIndex = 49458;
+
 	class AJLEDLIELON : public ::AEKEIBNBMDJ
 	{
 	public:

@@ -17,6 +17,8 @@ namespace System::ComponentModel { class DescriptionAttribute; }
 
 namespace System::ComponentModel
 {
+	inline static constexpr unsigned int DescriptionAttribute_TypeDefinitionIndex = 2581;
+
 	class DescriptionAttribute : public ::System::Attribute
 	{
 	public:

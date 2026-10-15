@@ -15,6 +15,8 @@ namespace System::Net { class WebRequest; }
 
 namespace System::Net
 {
+	inline static constexpr unsigned int BasicClient_TypeDefinitionIndex = 2823;
+
 	class BasicClient : public ::System::Object
 	{
 	public:

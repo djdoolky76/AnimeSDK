@@ -21,6 +21,8 @@ namespace System { class String; }
 
 namespace RPG::Client::Challenge::Tierce
 {
+	inline static constexpr unsigned int ChallengeTierceRewardViewModel_TypeDefinitionIndex = 81615;
+
 	class ChallengeTierceRewardViewModel : public ::System::Object
 	{
 	public:

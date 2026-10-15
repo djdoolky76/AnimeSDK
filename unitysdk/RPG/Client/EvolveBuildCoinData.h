@@ -30,6 +30,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int EvolveBuildCoinData_TypeDefinitionIndex = 63789;
+
 	class EvolveBuildCoinData : public ::System::Object
 	{
 	public:

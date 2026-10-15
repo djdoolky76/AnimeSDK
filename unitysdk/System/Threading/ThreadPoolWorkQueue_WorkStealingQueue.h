@@ -13,6 +13,8 @@ namespace System::Threading { class IThreadPoolWorkItem; }
 
 namespace System::Threading
 {
+	inline static constexpr unsigned int ThreadPoolWorkQueue_WorkStealingQueue_TypeDefinitionIndex = 860;
+
 	class ThreadPoolWorkQueue_WorkStealingQueue : public ::System::Object
 	{
 	public:

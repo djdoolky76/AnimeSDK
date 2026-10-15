@@ -36,6 +36,8 @@
 #define PHEPICPODMB_OHDEFDIDPLM_OFFSET UNITYSDK_OFFSET(0xC24AEC0)
 #define PHEPICPODMB_PBLOLAAFPAJ_OFFSET UNITYSDK_OFFSET(0xC24B4E0)
 
+inline static constexpr unsigned int PHEPICPODMB_TypeDefinitionIndex = 74271;
+
 	class PHEPICPODMB : public ::System::Object
 	{
 	public:

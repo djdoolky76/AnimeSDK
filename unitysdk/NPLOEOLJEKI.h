@@ -28,6 +28,8 @@ namespace UnityEngine { class Transform; }
 #define NPLOEOLJEKI_JHAJLBKIINL_OFFSET UNITYSDK_OFFSET(0x1C9775E0)
 #define NPLOEOLJEKI_MNHOCNCGOLJ_OFFSET UNITYSDK_OFFSET(0x1C977200)
 
+inline static constexpr unsigned int NPLOEOLJEKI_TypeDefinitionIndex = 42533;
+
 	class NPLOEOLJEKI : public ::HLFHMKMJNPK
 	{
 	public:

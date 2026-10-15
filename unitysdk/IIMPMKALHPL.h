@@ -9,6 +9,8 @@ namespace System { class String; }
 #define IIMPMKALHPL_CTOR_OFFSET UNITYSDK_OFFSET(0x164519D0)
 #define IIMPMKALHPL_DDCENCNBHDN_OFFSET UNITYSDK_OFFSET(0x16451800)
 
+inline static constexpr unsigned int IIMPMKALHPL_TypeDefinitionIndex = 73386;
+
 	class IIMPMKALHPL : public ::System::Object
 	{
 	public:

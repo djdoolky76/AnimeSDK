@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TrainPartyShowEffectResult; }
 #define GONEDKHDFBN_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x15B3A850)
 #define GONEDKHDFBN_TICK_OFFSET UNITYSDK_OFFSET(0x15B3A8A0)
 
+inline static constexpr unsigned int GONEDKHDFBN_TypeDefinitionIndex = 53428;
+
 	class GONEDKHDFBN : public ::GELIALJDFBL
 	{
 	public:

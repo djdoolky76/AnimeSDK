@@ -14,6 +14,8 @@ namespace System { class String; }
 #define EMHHFLMIMKI_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CDA7540)
 #define EMHHFLMIMKI_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CDA74A0)
 
+inline static constexpr unsigned int EMHHFLMIMKI_TypeDefinitionIndex = 24102;
+
 	class EMHHFLMIMKI : public ::RPG::GameCore::SetDynamicValueBase
 	{
 	public:

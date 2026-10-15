@@ -27,6 +27,8 @@ namespace System { class String; }
 #define PIKKAEBHIKF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DF6BD90)
 #define PIKKAEBHIKF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DF6BDF0)
 
+inline static constexpr unsigned int PIKKAEBHIKF_TypeDefinitionIndex = 29288;
+
 	class PIKKAEBHIKF : public ::System::Object
 	{
 	public:

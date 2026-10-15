@@ -19,6 +19,8 @@ namespace RPG::LittleGameShare::HoyoPhysics::Box2D { class B2World; }
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
+	inline static constexpr unsigned int B2StepContext_TypeDefinitionIndex = 36784;
+
 	class B2StepContext : public ::System::Object
 	{
 	public:

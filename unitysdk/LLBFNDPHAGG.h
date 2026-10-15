@@ -19,6 +19,8 @@ namespace System { class String; }
 #define LLBFNDPHAGG_MLMGEFIOION_OFFSET UNITYSDK_OFFSET(0xB75D490)
 #define LLBFNDPHAGG_MMFEEJAHPLJ_OFFSET UNITYSDK_OFFSET(0xB75D4F0)
 
+inline static constexpr unsigned int LLBFNDPHAGG_TypeDefinitionIndex = 54207;
+
 	class LLBFNDPHAGG : public ::System::Object
 	{
 	public:

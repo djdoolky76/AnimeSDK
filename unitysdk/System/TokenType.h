@@ -3,6 +3,8 @@
 
 namespace System
 {
+	inline static constexpr unsigned int TokenType_TypeDefinitionIndex = 266;
+
 	enum class TokenType : ::System::Int32
 	{
 		NumberToken = 1,

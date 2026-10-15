@@ -39,6 +39,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int InfiniteSymbolGPUParticleBehavior_TypeDefinitionIndex = 70311;
+
 	class InfiniteSymbolGPUParticleBehavior : public ::RPG::Client::TABehaviorBase
 	{
 	public:

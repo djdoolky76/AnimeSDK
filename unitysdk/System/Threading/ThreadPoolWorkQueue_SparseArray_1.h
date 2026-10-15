@@ -4,6 +4,8 @@
 
 namespace System::Threading
 {
+	inline static constexpr unsigned int ThreadPoolWorkQueue_SparseArray_1_TypeDefinitionIndex = 859;
+
 	template <typename T>
 	class ThreadPoolWorkQueue_SparseArray_1 : public ::System::Object
 	{

@@ -16,6 +16,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetDynamicValueByMostAvatarBaseTypeMemberCount_TypeDefinitionIndex = 23590;
+
 	class SetDynamicValueByMostAvatarBaseTypeMemberCount : public ::RPG::GameCore::SetDynamicValueBase
 	{
 	public:

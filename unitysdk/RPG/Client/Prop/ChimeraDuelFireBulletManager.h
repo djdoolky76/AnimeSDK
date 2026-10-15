@@ -24,6 +24,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int ChimeraDuelFireBulletManager_TypeDefinitionIndex = 78299;
+
 	class ChimeraDuelFireBulletManager : public ::UnityEngine::MonoBehaviour
 	{
 	public:

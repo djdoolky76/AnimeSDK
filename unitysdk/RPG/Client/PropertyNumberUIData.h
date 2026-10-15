@@ -18,6 +18,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PropertyNumberUIData_TypeDefinitionIndex = 73048;
+
 	class PropertyNumberUIData : public ::System::Object
 	{
 	public:

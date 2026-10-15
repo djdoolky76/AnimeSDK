@@ -27,6 +27,8 @@ namespace System { class String; }
 #define AOMOENMNCNB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E670170)
 #define AOMOENMNCNB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E6701D0)
 
+inline static constexpr unsigned int AOMOENMNCNB_TypeDefinitionIndex = 32904;
+
 	class AOMOENMNCNB : public ::System::Object
 	{
 	public:

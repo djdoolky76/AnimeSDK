@@ -16,6 +16,8 @@ namespace RPG::GameCore { class MonopolyMapGroundLayer; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MonopolyMapCell_TypeDefinitionIndex = 16243;
+
 	class MonopolyMapCell : public ::RPG::GameCore::JsonConfig
 	{
 	public:

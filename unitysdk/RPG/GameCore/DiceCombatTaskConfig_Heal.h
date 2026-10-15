@@ -12,6 +12,8 @@ namespace RPG::GameCore { class DynamicFloat; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DiceCombatTaskConfig_Heal_TypeDefinitionIndex = 16052;
+
 	class DiceCombatTaskConfig_Heal : public ::RPG::GameCore::DiceCombatTaskConfig
 	{
 	public:

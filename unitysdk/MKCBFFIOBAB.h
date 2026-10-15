@@ -33,6 +33,8 @@ namespace System { class String; }
 #define MKCBFFIOBAB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EA51F80)
 #define MKCBFFIOBAB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EA51FE0)
 
+inline static constexpr unsigned int MKCBFFIOBAB_TypeDefinitionIndex = 34115;
+
 	class MKCBFFIOBAB : public ::System::Object
 	{
 	public:

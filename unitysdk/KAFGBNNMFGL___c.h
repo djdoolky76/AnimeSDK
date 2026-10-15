@@ -9,6 +9,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 #define KAFGBNNMFGL___C__ONTASKBEGIN_B__1_0_OFFSET UNITYSDK_OFFSET(0xB2D6040)
 #define KAFGBNNMFGL___C__ONTASKBEGIN_B__1_1_OFFSET UNITYSDK_OFFSET(0xB2D6050)
 
+inline static constexpr unsigned int KAFGBNNMFGL___c_TypeDefinitionIndex = 52650;
+
 	class KAFGBNNMFGL___c : public ::System::Object
 	{
 	public:

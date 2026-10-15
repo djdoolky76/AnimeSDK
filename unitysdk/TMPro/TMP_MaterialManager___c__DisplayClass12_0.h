@@ -9,6 +9,8 @@ namespace UnityEngine { class Material; }
 
 namespace TMPro
 {
+	inline static constexpr unsigned int TMP_MaterialManager___c__DisplayClass12_0_TypeDefinitionIndex = 44616;
+
 	class TMP_MaterialManager___c__DisplayClass12_0 : public ::System::Object
 	{
 	public:

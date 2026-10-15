@@ -7,6 +7,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MarbleBattleInputHandler_MarbleForceLaunchConfig_TypeDefinitionIndex = 65803;
+
 	class MarbleBattleInputHandler_MarbleForceLaunchConfig : public ::System::Object
 	{
 	public:

@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace System::Threading
 {
+	inline static constexpr unsigned int OSSpecificSynchronizationContext_InvocationEntryDelegate_TypeDefinitionIndex = 844;
+
 	class OSSpecificSynchronizationContext_InvocationEntryDelegate : public ::System::MulticastDelegate
 	{
 	public:

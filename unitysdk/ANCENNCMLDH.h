@@ -31,6 +31,8 @@ namespace System { class String; }
 #define ANCENNCMLDH_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E528970)
 #define ANCENNCMLDH_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E5289D0)
 
+inline static constexpr unsigned int ANCENNCMLDH_TypeDefinitionIndex = 31083;
+
 	class ANCENNCMLDH : public ::System::Object
 	{
 	public:

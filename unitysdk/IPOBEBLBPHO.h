@@ -5,6 +5,8 @@ class HAFCMNPMFGO;
 
 #define IPOBEBLBPHO_CTOR_OFFSET UNITYSDK_OFFSET(0x1C6E5C40)
 
+inline static constexpr unsigned int IPOBEBLBPHO_TypeDefinitionIndex = 36453;
+
 	class IPOBEBLBPHO : public ::System::Object
 	{
 	public:

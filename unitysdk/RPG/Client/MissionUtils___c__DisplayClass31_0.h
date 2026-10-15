@@ -9,6 +9,8 @@ namespace RPG::Client { class MissionUtils_SubMissionSortItem; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MissionUtils___c__DisplayClass31_0_TypeDefinitionIndex = 66196;
+
 	class MissionUtils___c__DisplayClass31_0 : public ::System::Object
 	{
 	public:

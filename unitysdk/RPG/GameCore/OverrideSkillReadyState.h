@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int OverrideSkillReadyState_TypeDefinitionIndex = 22838;
+
 	class OverrideSkillReadyState : public ::RPG::GameCore::TaskConfig
 	{
 	public:

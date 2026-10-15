@@ -6,6 +6,8 @@ namespace UnityEngine { class Gradient; }
 
 namespace RPGTools::Timeline::EnvironmentSyetem
 {
+	inline static constexpr unsigned int EnvSysFogParam_TypeDefinitionIndex = 48637;
+
 	struct alignas(8) EnvSysFogParam
 	{
 		::System::Single BlendWeight; // 0x10

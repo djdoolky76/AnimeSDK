@@ -7,6 +7,8 @@
 
 namespace RPG::Client::B51Racing
 {
+	inline static constexpr unsigned int B51RacingFinishGameCameraSetting_TypeDefinitionIndex = 81844;
+
 	class B51RacingFinishGameCameraSetting : public ::UnityEngine::MonoBehaviour
 	{
 	public:

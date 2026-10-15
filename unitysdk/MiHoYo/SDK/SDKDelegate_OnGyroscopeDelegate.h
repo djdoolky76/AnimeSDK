@@ -13,6 +13,8 @@ namespace System { class Object; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int SDKDelegate_OnGyroscopeDelegate_TypeDefinitionIndex = 7795;
+
 	class SDKDelegate_OnGyroscopeDelegate : public ::System::MulticastDelegate
 	{
 	public:

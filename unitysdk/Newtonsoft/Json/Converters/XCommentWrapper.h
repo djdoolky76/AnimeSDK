@@ -12,6 +12,8 @@ namespace System::Xml::Linq { class XComment; }
 
 namespace Newtonsoft::Json::Converters
 {
+	inline static constexpr unsigned int XCommentWrapper_TypeDefinitionIndex = 9839;
+
 	class XCommentWrapper : public ::Newtonsoft::Json::Converters::XObjectWrapper
 	{
 	public:

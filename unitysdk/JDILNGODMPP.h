@@ -6,6 +6,8 @@
 #define JDILNGODMPP_CTOR_OFFSET UNITYSDK_OFFSET(0x165CE170)
 #define JDILNGODMPP_EPPAFNJFCMH_OFFSET UNITYSDK_OFFSET(0x165CE160)
 
+inline static constexpr unsigned int JDILNGODMPP_TypeDefinitionIndex = 76787;
+
 	class JDILNGODMPP : public ::BPOHEJCKEKJ
 	{
 	public:

@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ActivityLocalLegendGroupConfigRow_TypeDefinitionIndex = 11842;
+
 	class ActivityLocalLegendGroupConfigRow : public ::System::Object
 	{
 	public:

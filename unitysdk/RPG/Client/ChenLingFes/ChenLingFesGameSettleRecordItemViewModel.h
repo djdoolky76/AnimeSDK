@@ -27,6 +27,8 @@ namespace System { class String; }
 
 namespace RPG::Client::ChenLingFes
 {
+	inline static constexpr unsigned int ChenLingFesGameSettleRecordItemViewModel_TypeDefinitionIndex = 81402;
+
 	class ChenLingFesGameSettleRecordItemViewModel : public ::Sofa::BaseViewModel
 	{
 	public:

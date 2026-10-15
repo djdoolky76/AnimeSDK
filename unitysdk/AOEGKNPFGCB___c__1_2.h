@@ -6,6 +6,8 @@ namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
+inline static constexpr unsigned int AOEGKNPFGCB___c__1_2_TypeDefinitionIndex = 44136;
+
 	template <typename T1, typename T2>
 	class AOEGKNPFGCB___c__1_2 : public ::System::Object
 	{

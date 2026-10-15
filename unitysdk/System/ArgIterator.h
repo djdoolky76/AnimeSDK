@@ -14,6 +14,8 @@ namespace System { class Object; }
 
 namespace System
 {
+	inline static constexpr unsigned int ArgIterator_TypeDefinitionIndex = 379;
+
 	struct alignas(4) ArgIterator
 	{
 		::System::IntPtr sig; // 0x10

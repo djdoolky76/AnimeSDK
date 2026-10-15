@@ -9,6 +9,8 @@ namespace RPG::GameCore { class FiveDimSectionConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimSectionConfig_TypeDefinitionIndex = 18526;
+
 	class FiveDimSectionConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

@@ -20,6 +20,8 @@ namespace UnityEngine::UI { class Image; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightTraitActiveEffect_TypeDefinitionIndex = 64505;
+
 	class GridFightTraitActiveEffect : public ::RPG::Client::GridFightMemberEffect
 	{
 	public:

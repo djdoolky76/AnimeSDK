@@ -14,6 +14,8 @@ namespace UnityEngine::UI { class Text; }
 
 namespace RPG::Client::PixAir
 {
+	inline static constexpr unsigned int PixAirPlaneStatusControl_TypeDefinitionIndex = 79246;
+
 	class PixAirPlaneStatusControl : public ::Sofa::BaseSofaControl
 	{
 	public:

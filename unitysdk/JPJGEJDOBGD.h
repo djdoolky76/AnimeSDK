@@ -6,6 +6,8 @@ class JBGMDJBCHFO;
 #define JPJGEJDOBGD_CTOR_OFFSET UNITYSDK_OFFSET(0x1DD681F0)
 #define JPJGEJDOBGD_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0x1DD68220)
 
+inline static constexpr unsigned int JPJGEJDOBGD_TypeDefinitionIndex = 6274;
+
 	class JPJGEJDOBGD : public ::ALNFHFDBDCH
 	{
 	public:

@@ -28,6 +28,8 @@ namespace System { class String; }
 #define LNOPJJFKMDL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E9B75F0)
 #define LNOPJJFKMDL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E9B7650)
 
+inline static constexpr unsigned int LNOPJJFKMDL_TypeDefinitionIndex = 33348;
+
 	class LNOPJJFKMDL : public ::System::Object
 	{
 	public:

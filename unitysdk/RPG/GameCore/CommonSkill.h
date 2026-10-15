@@ -12,6 +12,8 @@ namespace RPG::GameCore { class SkillConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CommonSkill_TypeDefinitionIndex = 18149;
+
 	class CommonSkill : public ::RPG::GameCore::JsonConfig
 	{
 	public:

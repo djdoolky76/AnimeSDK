@@ -34,6 +34,8 @@ namespace System { class String; }
 #define AGDNLAAKGDD_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E128A70)
 #define AGDNLAAKGDD_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E128AD0)
 
+inline static constexpr unsigned int AGDNLAAKGDD_TypeDefinitionIndex = 28835;
+
 	class AGDNLAAKGDD : public ::System::Object
 	{
 	public:

@@ -32,6 +32,8 @@ namespace System { class String; }
 #define AIIGHJEIGHE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E27D0C0)
 #define AIIGHJEIGHE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E27D120)
 
+inline static constexpr unsigned int AIIGHJEIGHE_TypeDefinitionIndex = 25185;
+
 	class AIIGHJEIGHE : public ::System::Object
 	{
 	public:

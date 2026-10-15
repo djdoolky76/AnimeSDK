@@ -4,6 +4,8 @@
 
 #define LOAMKOLJMNL_AFKMOKOLLPC_OFFSET UNITYSDK_OFFSET(0x1D11F7D0)
 
+inline static constexpr unsigned int LOAMKOLJMNL_TypeDefinitionIndex = 10735;
+
 	class LOAMKOLJMNL : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define GFNAPELNFIC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E474300)
 #define GFNAPELNFIC___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1E474310)
 
+inline static constexpr unsigned int GFNAPELNFIC___c_TypeDefinitionIndex = 25486;
+
 	class GFNAPELNFIC___c : public ::System::Object
 	{
 	public:

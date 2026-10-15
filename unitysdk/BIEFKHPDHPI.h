@@ -15,6 +15,8 @@ namespace System { class String; }
 #define BIEFKHPDHPI_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D806EE0)
 #define BIEFKHPDHPI_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D806E00)
 
+inline static constexpr unsigned int BIEFKHPDHPI_TypeDefinitionIndex = 22990;
+
 	class BIEFKHPDHPI : public ::RPG::GameCore::SetDynamicValueBase
 	{
 	public:

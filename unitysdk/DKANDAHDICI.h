@@ -17,6 +17,8 @@ namespace UnityEngine { class Animator; }
 #define DKANDAHDICI_ONUNINIT_OFFSET UNITYSDK_OFFSET(0xF254090)
 #define DKANDAHDICI_PKMMBEABKFM_OFFSET UNITYSDK_OFFSET(0xF254500)
 
+inline static constexpr unsigned int DKANDAHDICI_TypeDefinitionIndex = 54195;
+
 	class DKANDAHDICI
 	{
 	public:

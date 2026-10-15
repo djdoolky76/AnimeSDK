@@ -3,6 +3,8 @@
 
 namespace XInputDotNetPure
 {
+	inline static constexpr unsigned int ButtonState_TypeDefinitionIndex = 40780;
+
 	enum class ButtonState : ::System::Int32
 	{
 		Pressed = 0,

@@ -150,6 +150,8 @@ namespace System { class String; }
 #define PKHKEEKIODC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DF8E430)
 #define PKHKEEKIODC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DF8E490)
 
+inline static constexpr unsigned int PKHKEEKIODC_TypeDefinitionIndex = 33048;
+
 	class PKHKEEKIODC : public ::System::Object
 	{
 	public:

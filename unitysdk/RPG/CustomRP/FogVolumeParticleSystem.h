@@ -9,6 +9,8 @@ namespace UnityEngine { class MaterialPropertyBlock; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int FogVolumeParticleSystem_TypeDefinitionIndex = 37733;
+
 	class FogVolumeParticleSystem : public ::UnityEngine::MonoBehaviour
 	{
 	public:

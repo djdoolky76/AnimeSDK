@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPGTools::Timeline::Emotion
 {
+	inline static constexpr unsigned int EmoBlendShapeAutoMouthConfig_TypeDefinitionIndex = 48733;
+
 	class EmoBlendShapeAutoMouthConfig : public ::System::Object
 	{
 	public:

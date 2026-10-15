@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::Win
 {
+	inline static constexpr unsigned int NoticeManager_WebEventModel_TypeDefinitionIndex = 9394;
+
 	class NoticeManager_WebEventModel : public ::System::Object
 	{
 	public:

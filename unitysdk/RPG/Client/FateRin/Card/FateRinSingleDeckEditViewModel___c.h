@@ -11,6 +11,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace RPG::Client::FateRin::Card
 {
+	inline static constexpr unsigned int FateRinSingleDeckEditViewModel___c_TypeDefinitionIndex = 81175;
+
 	class FateRinSingleDeckEditViewModel___c : public ::System::Object
 	{
 	public:

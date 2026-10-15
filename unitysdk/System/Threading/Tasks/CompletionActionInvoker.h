@@ -11,6 +11,8 @@ namespace System::Threading::Tasks { class Task; }
 
 namespace System::Threading::Tasks
 {
+	inline static constexpr unsigned int CompletionActionInvoker_TypeDefinitionIndex = 906;
+
 	class CompletionActionInvoker : public ::System::Object
 	{
 	public:

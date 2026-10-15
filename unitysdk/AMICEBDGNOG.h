@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define AMICEBDGNOG_EBBGNFPNGFE_OFFSET UNITYSDK_OFFSET(0x1CCDF5D0)
 #define AMICEBDGNOG_EFBEDKJGDII_OFFSET UNITYSDK_OFFSET(0x1CCDF610)
 
+inline static constexpr unsigned int AMICEBDGNOG_TypeDefinitionIndex = 10637;
+
 	class AMICEBDGNOG : public ::System::Object
 	{
 	public:

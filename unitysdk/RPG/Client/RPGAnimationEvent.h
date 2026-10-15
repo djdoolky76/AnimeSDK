@@ -31,6 +31,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RPGAnimationEvent_TypeDefinitionIndex = 72857;
+
 	class RPGAnimationEvent : public ::UnityEngine::MonoBehaviour
 	{
 	public:

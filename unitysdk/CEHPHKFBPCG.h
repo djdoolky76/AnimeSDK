@@ -33,6 +33,8 @@ namespace UnityEngine { class Transform; }
 #define CEHPHKFBPCG_NHBBDMIKBEL_OFFSET UNITYSDK_OFFSET(0xC9DCFC0)
 #define CEHPHKFBPCG_POBAGGGKFHM_OFFSET UNITYSDK_OFFSET(0xC9DDF00)
 
+inline static constexpr unsigned int CEHPHKFBPCG_TypeDefinitionIndex = 74189;
+
 	class CEHPHKFBPCG : public ::System::Object
 	{
 	public:

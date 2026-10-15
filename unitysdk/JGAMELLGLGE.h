@@ -28,6 +28,8 @@ namespace System { class String; }
 #define JGAMELLGLGE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E7340F0)
 #define JGAMELLGLGE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E734150)
 
+inline static constexpr unsigned int JGAMELLGLGE_TypeDefinitionIndex = 34190;
+
 	class JGAMELLGLGE : public ::System::Object
 	{
 	public:

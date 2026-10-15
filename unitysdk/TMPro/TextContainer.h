@@ -47,6 +47,8 @@ namespace UnityEngine { class RectTransform; }
 
 namespace TMPro
 {
+	inline static constexpr unsigned int TextContainer_TypeDefinitionIndex = 44696;
+
 	class TextContainer : public ::UnityEngine::EventSystems::UIBehaviour
 	{
 	public:

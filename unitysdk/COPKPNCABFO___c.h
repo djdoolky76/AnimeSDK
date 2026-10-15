@@ -24,6 +24,8 @@ namespace System::Linq { template <typename T1, typename T2> class IGrouping_2; 
 #define COPKPNCABFO___C__PACKCARDSTOATLAS_MANUAL_B__46_0_OFFSET UNITYSDK_OFFSET(0xDCCDAF0)
 #define COPKPNCABFO___C__PACKCARDSTOATLAS_MANUAL_B__46_1_OFFSET UNITYSDK_OFFSET(0xDCCDB30)
 
+inline static constexpr unsigned int COPKPNCABFO___c_TypeDefinitionIndex = 51761;
+
 	class COPKPNCABFO___c : public ::System::Object
 	{
 	public:

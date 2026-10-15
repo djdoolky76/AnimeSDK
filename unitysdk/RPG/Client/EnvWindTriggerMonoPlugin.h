@@ -7,6 +7,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int EnvWindTriggerMonoPlugin_TypeDefinitionIndex = 71069;
+
 	class EnvWindTriggerMonoPlugin
 	{
 	public:

@@ -7,6 +7,8 @@ namespace RPG::GameCore { class GameEntity; }
 #define PFFMOOLAIHJ_CLEAR_OFFSET UNITYSDK_OFFSET(0xC20D690)
 #define PFFMOOLAIHJ_CTOR_OFFSET UNITYSDK_OFFSET(0xC20D6F0)
 
+inline static constexpr unsigned int PFFMOOLAIHJ_TypeDefinitionIndex = 57714;
+
 	class PFFMOOLAIHJ : public ::System::Object
 	{
 	public:

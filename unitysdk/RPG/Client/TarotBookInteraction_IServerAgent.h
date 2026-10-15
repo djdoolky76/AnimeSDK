@@ -3,6 +3,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TarotBookInteraction_IServerAgent_TypeDefinitionIndex = 68063;
+
 	class TarotBookInteraction_IServerAgent
 	{
 	public:

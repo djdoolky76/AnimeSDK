@@ -12,6 +12,8 @@ namespace UnityEngine { class GameObject; }
 #define ACKABEKCMOH_HADOHLNHHGB_OFFSET UNITYSDK_OFFSET(0xB123AB0)
 #define ACKABEKCMOH_MPFKCHHCIMO_OFFSET UNITYSDK_OFFSET(0xB123B00)
 
+inline static constexpr unsigned int ACKABEKCMOH_TypeDefinitionIndex = 65956;
+
 	class ACKABEKCMOH : public ::System::Object
 	{
 	public:

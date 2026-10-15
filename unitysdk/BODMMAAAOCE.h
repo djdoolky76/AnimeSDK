@@ -15,6 +15,8 @@ namespace System { class String; }
 #define BODMMAAAOCE_NKPPGDENJAE_OFFSET UNITYSDK_OFFSET(0xC18EE10)
 #define BODMMAAAOCE__ONBIND_OFFSET UNITYSDK_OFFSET(0xC18EBC0)
 
+inline static constexpr unsigned int BODMMAAAOCE_TypeDefinitionIndex = 72375;
+
 	class BODMMAAAOCE : public ::FMPCODLIOLG
 	{
 	public:

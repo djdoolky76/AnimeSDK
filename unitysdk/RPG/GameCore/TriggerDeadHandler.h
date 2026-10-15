@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TriggerDeadHandler; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TriggerDeadHandler_TypeDefinitionIndex = 22418;
+
 	class TriggerDeadHandler : public ::RPG::GameCore::TaskConfig
 	{
 	public:

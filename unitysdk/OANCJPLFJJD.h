@@ -4,6 +4,8 @@
 
 #define OANCJPLFJJD_AFKMOKOLLPC_OFFSET UNITYSDK_OFFSET(0x1D24D870)
 
+inline static constexpr unsigned int OANCJPLFJJD_TypeDefinitionIndex = 10707;
+
 	class OANCJPLFJJD : public ::System::Object
 	{
 	public:

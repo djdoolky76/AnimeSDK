@@ -13,6 +13,8 @@ namespace System { class Tuple; }
 #define EJLIOMPMHHI___C__DISPLAYCLASS12_0__ADDLOCALVERIFY_B__0_OFFSET UNITYSDK_OFFSET(0x154EAA00)
 #define EJLIOMPMHHI___C__DISPLAYCLASS12_0__ADDLOCALVERIFY_B__1_OFFSET UNITYSDK_OFFSET(0x154EA990)
 
+inline static constexpr unsigned int EJLIOMPMHHI___c__DisplayClass12_0_TypeDefinitionIndex = 59565;
+
 	class EJLIOMPMHHI___c__DisplayClass12_0 : public ::System::Object
 	{
 	public:

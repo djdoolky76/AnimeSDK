@@ -9,6 +9,8 @@ namespace System { class String; }
 
 #define JDNEAIDOOAN_LECEFIDKNNG_CTOR_OFFSET UNITYSDK_OFFSET(0x1660B570)
 
+inline static constexpr unsigned int JDNEAIDOOAN_LECEFIDKNNG_TypeDefinitionIndex = 48946;
+
 	class JDNEAIDOOAN_LECEFIDKNNG : public ::System::Object
 	{
 	public:

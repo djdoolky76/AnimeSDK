@@ -4,6 +4,8 @@
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int RPMath_TransformBoundsTmp_TypeDefinitionIndex = 37891;
+
 	struct alignas(4) RPMath_TransformBoundsTmp
 	{
 		::UnityEngine::Vector3 right; // 0x10

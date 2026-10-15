@@ -16,6 +16,8 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyLi
 
 namespace RPG::Client::BlindBox::Pool
 {
+	inline static constexpr unsigned int BlindBoxSet_TypeDefinitionIndex = 74918;
+
 	class BlindBoxSet : public ::System::Object
 	{
 	public:

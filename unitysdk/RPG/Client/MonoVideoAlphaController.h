@@ -9,6 +9,8 @@ namespace UnityEngine::UI { class Image; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoVideoAlphaController_TypeDefinitionIndex = 73208;
+
 	class MonoVideoAlphaController : public ::UnityEngine::MonoBehaviour
 	{
 	public:

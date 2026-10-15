@@ -30,6 +30,8 @@ namespace System { class String; }
 #define AALIMFELNHE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DDBEDF0)
 #define AALIMFELNHE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DDBEE50)
 
+inline static constexpr unsigned int AALIMFELNHE_TypeDefinitionIndex = 34254;
+
 	class AALIMFELNHE : public ::System::Object
 	{
 	public:

@@ -32,6 +32,8 @@ namespace System { class String; }
 #define BAJDLLEFGHB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E7B9540)
 #define BAJDLLEFGHB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E7B95A0)
 
+inline static constexpr unsigned int BAJDLLEFGHB_TypeDefinitionIndex = 33305;
+
 	class BAJDLLEFGHB : public ::System::Object
 	{
 	public:

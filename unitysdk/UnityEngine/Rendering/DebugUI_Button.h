@@ -9,6 +9,8 @@ namespace System { class Action; }
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int DebugUI_Button_TypeDefinitionIndex = 35549;
+
 	class DebugUI_Button : public ::UnityEngine::Rendering::DebugUI_Widget
 	{
 	public:

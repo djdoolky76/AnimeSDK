@@ -23,6 +23,8 @@ namespace System::Xml { class XmlWriterSettings; }
 
 namespace System::Xml
 {
+	inline static constexpr unsigned int XmlWriter_TypeDefinitionIndex = 1885;
+
 	class XmlWriter : public ::System::Object
 	{
 	public:

@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int HandbookDailyFilter_TypeDefinitionIndex = 66839;
+
 	class HandbookDailyFilter : public ::RPG::Client::BaseRedDotFilter
 	{
 	public:

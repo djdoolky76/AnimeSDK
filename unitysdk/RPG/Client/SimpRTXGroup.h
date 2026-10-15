@@ -16,6 +16,8 @@ namespace UnityEngine { class Texture2D; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int SimpRTXGroup_TypeDefinitionIndex = 70186;
+
 	class SimpRTXGroup : public ::System::Object
 	{
 	public:

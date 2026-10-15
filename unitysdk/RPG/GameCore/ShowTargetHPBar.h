@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ShowTargetHPBar_TypeDefinitionIndex = 22936;
+
 	class ShowTargetHPBar : public ::RPG::GameCore::TaskConfig
 	{
 	public:

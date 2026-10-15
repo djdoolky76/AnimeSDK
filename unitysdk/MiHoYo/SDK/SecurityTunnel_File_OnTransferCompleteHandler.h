@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int SecurityTunnel_File_OnTransferCompleteHandler_TypeDefinitionIndex = 46378;
+
 	class SecurityTunnel_File_OnTransferCompleteHandler : public ::System::MulticastDelegate
 	{
 	public:

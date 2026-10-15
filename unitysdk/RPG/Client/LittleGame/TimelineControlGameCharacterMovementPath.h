@@ -10,6 +10,8 @@ class HPCKCJDCNFM;
 
 namespace RPG::Client::LittleGame
 {
+	inline static constexpr unsigned int TimelineControlGameCharacterMovementPath_TypeDefinitionIndex = 42490;
+
 	class TimelineControlGameCharacterMovementPath : public ::System::Object
 	{
 	public:

@@ -37,6 +37,8 @@ namespace System { class Object; }
 #define ADGFFEDNPPO_SET_VIEW_OFFSET UNITYSDK_OFFSET(0xB138980)
 #define ADGFFEDNPPO_TICK_OFFSET UNITYSDK_OFFSET(0xB1388B0)
 
+inline static constexpr unsigned int ADGFFEDNPPO_TypeDefinitionIndex = 53708;
+
 	class ADGFFEDNPPO : public ::System::Object
 	{
 	public:

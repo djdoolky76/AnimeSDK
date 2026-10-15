@@ -14,6 +14,8 @@ class LGHPKEAODPH;
 #define ABBADDFPFGH_PMDKDHIJMPF_OFFSET UNITYSDK_OFFSET(0xB0E5030)
 #define ABBADDFPFGH_TEARDOWN_OFFSET UNITYSDK_OFFSET(0xB0E55B0)
 
+inline static constexpr unsigned int ABBADDFPFGH_TypeDefinitionIndex = 78133;
+
 	class ABBADDFPFGH : public ::System::Object
 	{
 	public:

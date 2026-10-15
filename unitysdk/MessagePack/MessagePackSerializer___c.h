@@ -11,6 +11,8 @@ namespace System { class Type; }
 
 namespace MessagePack
 {
+	inline static constexpr unsigned int MessagePackSerializer___c_TypeDefinitionIndex = 7229;
+
 	class MessagePackSerializer___c : public ::System::Object
 	{
 	public:

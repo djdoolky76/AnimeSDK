@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RegisterPropServerStateRotation; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RegisterPropServerStateRotation_TypeDefinitionIndex = 20351;
+
 	class RegisterPropServerStateRotation : public ::RPG::GameCore::TaskConfig
 	{
 	public:

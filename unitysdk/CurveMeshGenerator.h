@@ -12,6 +12,8 @@ namespace UnityEngine { class MeshRenderer; }
 #define CURVEMESHGENERATOR_START_OFFSET UNITYSDK_OFFSET(0xDFB8D50)
 #define CURVEMESHGENERATOR_UPDATE_OFFSET UNITYSDK_OFFSET(0xDFB8DA0)
 
+inline static constexpr unsigned int CurveMeshGenerator_TypeDefinitionIndex = 47267;
+
 	class CurveMeshGenerator : public ::UnityEngine::MonoBehaviour
 	{
 	public:

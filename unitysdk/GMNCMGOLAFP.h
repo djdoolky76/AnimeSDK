@@ -10,6 +10,8 @@ namespace System { class String; }
 #define GMNCMGOLAFP_OECIHKHGCFD_1_OFFSET UNITYSDK_OFFSET(0x1EC6F000)
 #define GMNCMGOLAFP_OECIHKHGCFD_OFFSET UNITYSDK_OFFSET(0x1EC6EE50)
 
+inline static constexpr unsigned int GMNCMGOLAFP_TypeDefinitionIndex = 44089;
+
 	class GMNCMGOLAFP : public ::System::Object
 	{
 	public:

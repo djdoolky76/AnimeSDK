@@ -34,6 +34,8 @@ namespace System { class String; }
 #define INBDBFEEBAD_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E6BCFF0)
 #define INBDBFEEBAD_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E6BD050)
 
+inline static constexpr unsigned int INBDBFEEBAD_TypeDefinitionIndex = 32286;
+
 	class INBDBFEEBAD : public ::System::Object
 	{
 	public:

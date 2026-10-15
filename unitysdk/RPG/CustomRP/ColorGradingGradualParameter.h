@@ -5,6 +5,8 @@
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int ColorGradingGradualParameter_TypeDefinitionIndex = 37796;
+
 	class ColorGradingGradualParameter
 	{
 	public:

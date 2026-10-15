@@ -56,6 +56,8 @@ namespace System { class String; }
 #define LIJFHHMGBFE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E96F3A0)
 #define LIJFHHMGBFE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E96F400)
 
+inline static constexpr unsigned int LIJFHHMGBFE_TypeDefinitionIndex = 28718;
+
 	class LIJFHHMGBFE : public ::System::Object
 	{
 	public:

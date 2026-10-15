@@ -11,6 +11,8 @@ namespace System { class Object; }
 
 namespace RPG::Client::ActivityIdleLive
 {
+	inline static constexpr unsigned int IdleLiveGameFlow___c_TypeDefinitionIndex = 75298;
+
 	class IdleLiveGameFlow___c : public ::System::Object
 	{
 	public:

@@ -6,6 +6,8 @@
 #define DEHONPDAAKD_ONINIT_OFFSET UNITYSDK_OFFSET(0xE50C8A0)
 #define DEHONPDAAKD_ONUNINIT_OFFSET UNITYSDK_OFFSET(0xE50C8E0)
 
+inline static constexpr unsigned int DEHONPDAAKD_TypeDefinitionIndex = 60293;
+
 	class DEHONPDAAKD : public ::HBCMHADMLOP
 	{
 	public:

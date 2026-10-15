@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightTraitBonusThresholdConfigRow_TypeDefinitionIndex = 13699;
+
 	class GridFightTraitBonusThresholdConfigRow : public ::System::Object
 	{
 	public:

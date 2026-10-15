@@ -9,6 +9,8 @@ namespace RPG::GameCore { class ChenLingFesPosition; }
 #define KMAPEPBHBFB_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D0AC9D0)
 #define KMAPEPBHBFB_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D0AC990)
 
+inline static constexpr unsigned int KMAPEPBHBFB_TypeDefinitionIndex = 24311;
+
 	class KMAPEPBHBFB : public ::RPG::GameCore::TaskConfig
 	{
 	public:

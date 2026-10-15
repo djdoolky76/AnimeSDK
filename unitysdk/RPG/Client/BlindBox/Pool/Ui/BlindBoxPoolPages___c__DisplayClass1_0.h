@@ -12,6 +12,8 @@ namespace UnityEngine { class Texture; }
 
 namespace RPG::Client::BlindBox::Pool::Ui
 {
+	inline static constexpr unsigned int BlindBoxPoolPages___c__DisplayClass1_0_TypeDefinitionIndex = 74965;
+
 	class BlindBoxPoolPages___c__DisplayClass1_0 : public ::System::Object
 	{
 	public:

@@ -4,6 +4,8 @@
 
 namespace MiHoYo::SDK::PluginUI
 {
+	inline static constexpr unsigned int PluginUIConstants_WebViewBridgeField_TypeDefinitionIndex = 9257;
+
 	class PluginUIConstants_WebViewBridgeField : public ::System::Object
 	{
 	public:

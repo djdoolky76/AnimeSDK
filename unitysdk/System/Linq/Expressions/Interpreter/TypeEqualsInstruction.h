@@ -14,6 +14,8 @@ namespace System::Linq::Expressions::Interpreter { class TypeEqualsInstruction; 
 
 namespace System::Linq::Expressions::Interpreter
 {
+	inline static constexpr unsigned int TypeEqualsInstruction_TypeDefinitionIndex = 3643;
+
 	class TypeEqualsInstruction : public ::System::Linq::Expressions::Interpreter::Instruction
 	{
 	public:

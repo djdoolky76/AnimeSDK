@@ -7,6 +7,8 @@
 #define KLPGPGDOCCA_ANIMATEDINSTANCE_CTOR_OFFSET UNITYSDK_OFFSET(0xB53AA80)
 #define KLPGPGDOCCA_ANIMATEDINSTANCE_GET_RANDOMVALUE_OFFSET UNITYSDK_OFFSET(0xB53A810)
 
+inline static constexpr unsigned int KLPGPGDOCCA_AnimatedInstance_TypeDefinitionIndex = 70319;
+
 	class KLPGPGDOCCA_AnimatedInstance : public ::System::Object
 	{
 	public:

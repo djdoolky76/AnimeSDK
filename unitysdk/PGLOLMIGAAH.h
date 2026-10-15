@@ -21,6 +21,8 @@ namespace UnityEngine { class Transform; }
 #define PGLOLMIGAAH_NDABEMAONDD_1_OFFSET UNITYSDK_OFFSET(0xC229470)
 #define PGLOLMIGAAH_NDABEMAONDD_OFFSET UNITYSDK_OFFSET(0xC229400)
 
+inline static constexpr unsigned int PGLOLMIGAAH_TypeDefinitionIndex = 69761;
+
 	class PGLOLMIGAAH : public ::System::Object
 	{
 	public:

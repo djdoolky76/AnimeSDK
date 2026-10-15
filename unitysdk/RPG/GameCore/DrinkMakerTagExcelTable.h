@@ -25,6 +25,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DrinkMakerTagExcelTable_TypeDefinitionIndex = 13159;
+
 	class DrinkMakerTagExcelTable : public ::System::Object
 	{
 	public:

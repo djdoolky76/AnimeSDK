@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ModifySkillPropertyByName_TypeDefinitionIndex = 23556;
+
 	class ModifySkillPropertyByName : public ::RPG::GameCore::TaskConfig
 	{
 	public:

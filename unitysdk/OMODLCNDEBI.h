@@ -8,6 +8,8 @@ namespace RPG::GameCore { class TriggerValidGuestConfig; }
 
 #define OMODLCNDEBI_CTOR_OFFSET UNITYSDK_OFFSET(0xBF44A10)
 
+inline static constexpr unsigned int OMODLCNDEBI_TypeDefinitionIndex = 57510;
+
 	class OMODLCNDEBI : public ::System::Object
 	{
 	public:

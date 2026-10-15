@@ -24,6 +24,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::DiceCombat
 {
+	inline static constexpr unsigned int DiceCombatV2PvPBattleResultInfo_TypeDefinitionIndex = 76146;
+
 	class DiceCombatV2PvPBattleResultInfo : public ::RPG::Client::DiceCombat::DiceCombatV2BattleResultInfo
 	{
 	public:

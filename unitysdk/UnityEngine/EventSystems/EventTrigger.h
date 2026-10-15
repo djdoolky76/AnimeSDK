@@ -34,6 +34,8 @@ namespace UnityEngine::EventSystems { class PointerEventData; }
 
 namespace UnityEngine::EventSystems
 {
+	inline static constexpr unsigned int EventTrigger_TypeDefinitionIndex = 6930;
+
 	class EventTrigger : public ::UnityEngine::MonoBehaviour
 	{
 	public:

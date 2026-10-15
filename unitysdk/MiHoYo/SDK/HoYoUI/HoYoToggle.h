@@ -11,6 +11,8 @@ namespace MiHoYo::SDK::HoYoUI { class HoYoUIMeta; }
 
 namespace MiHoYo::SDK::HoYoUI
 {
+	inline static constexpr unsigned int HoYoToggle_TypeDefinitionIndex = 46718;
+
 	class HoYoToggle : public ::UnityEngine::UI::Toggle
 	{
 	public:

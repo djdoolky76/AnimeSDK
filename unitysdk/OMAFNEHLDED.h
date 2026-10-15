@@ -6,6 +6,8 @@
 #define OMAFNEHLDED_CTOR_OFFSET UNITYSDK_OFFSET(0xBF17720)
 #define OMAFNEHLDED_DFIPKNDNEBP_OFFSET UNITYSDK_OFFSET(0xBF176D0)
 
+inline static constexpr unsigned int OMAFNEHLDED_TypeDefinitionIndex = 76783;
+
 	class OMAFNEHLDED : public ::FMBPAEBCDLE
 	{
 	public:

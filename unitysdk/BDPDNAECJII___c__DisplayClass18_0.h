@@ -9,6 +9,8 @@ class IAANKDNLKHL;
 #define BDPDNAECJII___C__DISPLAYCLASS18_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1C5A49E0)
 #define BDPDNAECJII___C__DISPLAYCLASS18_0__TRYSPAWNBRICKONSERVER_B__0_OFFSET UNITYSDK_OFFSET(0x1C5B6FC0)
 
+inline static constexpr unsigned int BDPDNAECJII___c__DisplayClass18_0_TypeDefinitionIndex = 37161;
+
 	class BDPDNAECJII___c__DisplayClass18_0 : public ::System::Object
 	{
 	public:

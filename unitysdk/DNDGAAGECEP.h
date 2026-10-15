@@ -9,6 +9,8 @@
 #define DNDGAAGECEP_MKCIINGJBFD_OFFSET UNITYSDK_OFFSET(0x1DD37610)
 #define DNDGAAGECEP_PJNNPOKJEFD_OFFSET UNITYSDK_OFFSET(0x1DD375A0)
 
+inline static constexpr unsigned int DNDGAAGECEP_TypeDefinitionIndex = 6341;
+
 	class DNDGAAGECEP : public ::System::Object
 	{
 	public:

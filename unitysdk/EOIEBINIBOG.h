@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define EOIEBINIBOG_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x155C2AB0)
 #define EOIEBINIBOG_TICK_OFFSET UNITYSDK_OFFSET(0x155C2B00)
 
+inline static constexpr unsigned int EOIEBINIBOG_TypeDefinitionIndex = 55303;
+
 	class EOIEBINIBOG : public ::GELIALJDFBL
 	{
 	public:

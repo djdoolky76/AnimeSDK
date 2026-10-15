@@ -3,6 +3,8 @@
 
 namespace RPG::Client::B51Racing
 {
+	inline static constexpr unsigned int RoadRashGameHitSource_TypeDefinitionIndex = 81678;
+
 	enum class RoadRashGameHitSource : ::System::Int32
 	{
 		None = 0,

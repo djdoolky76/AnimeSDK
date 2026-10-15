@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int BookletElement_1_TypeDefinitionIndex = 72388;
+
 	template <typename T>
 	class BookletElement_1 : public ::UnityEngine::EventSystems::UIBehaviour
 	{

@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 #define OCFMCBFNLND_LEEPJIGMNDK_OFFSET UNITYSDK_OFFSET(0xBD60630)
 #define OCFMCBFNLND_NODPBIKOJCF_OFFSET UNITYSDK_OFFSET(0xBD60780)
 
+inline static constexpr unsigned int OCFMCBFNLND_TypeDefinitionIndex = 77630;
+
 	class OCFMCBFNLND : public ::PKEJBHFMHCB
 	{
 	public:

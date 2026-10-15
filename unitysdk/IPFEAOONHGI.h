@@ -5,6 +5,8 @@
 
 #define IPFEAOONHGI_CTOR_OFFSET UNITYSDK_OFFSET(0x1C6E5AC0)
 
+inline static constexpr unsigned int IPFEAOONHGI_TypeDefinitionIndex = 36830;
+
 	class IPFEAOONHGI : public ::System::Object
 	{
 	public:

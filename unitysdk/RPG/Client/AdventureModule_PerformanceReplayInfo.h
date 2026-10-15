@@ -8,6 +8,8 @@ namespace RPG::GameCore { class PerformanceBackupConfig; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AdventureModule_PerformanceReplayInfo_TypeDefinitionIndex = 62010;
+
 	class AdventureModule_PerformanceReplayInfo : public ::System::Object
 	{
 	public:

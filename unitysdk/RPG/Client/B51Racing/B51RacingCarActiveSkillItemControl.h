@@ -22,6 +22,8 @@ namespace UnityEngine::UI { class Slider; }
 
 namespace RPG::Client::B51Racing
 {
+	inline static constexpr unsigned int B51RacingCarActiveSkillItemControl_TypeDefinitionIndex = 81727;
+
 	class B51RacingCarActiveSkillItemControl : public ::Sofa::BaseSofaControl
 	{
 	public:

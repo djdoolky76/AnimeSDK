@@ -8,6 +8,8 @@ namespace System { class String; }
 #define MEPPPIFBCFC_TOSTRING_OFFSET UNITYSDK_OFFSET(0xB8E83F0)
 #define MEPPPIFBCFC_TRIGGERACTION_OFFSET UNITYSDK_OFFSET(0xB8E84A0)
 
+inline static constexpr unsigned int MEPPPIFBCFC_TypeDefinitionIndex = 67066;
+
 	class MEPPPIFBCFC : public ::System::Object
 	{
 	public:

@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CaptureEntity_TypeDefinitionIndex = 20820;
+
 	class CaptureEntity : public ::RPG::GameCore::TaskConfig
 	{
 	public:

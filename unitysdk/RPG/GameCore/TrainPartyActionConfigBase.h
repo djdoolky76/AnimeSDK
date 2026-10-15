@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TrainPartyActionConfigBase; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TrainPartyActionConfigBase_TypeDefinitionIndex = 18071;
+
 	class TrainPartyActionConfigBase : public ::RPG::GameCore::MiActionConfigBase
 	{
 	public:

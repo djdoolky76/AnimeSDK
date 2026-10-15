@@ -12,6 +12,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoCharacterRootDamper_TypeDefinitionIndex = 68536;
+
 	class MonoCharacterRootDamper : public ::UnityEngine::MonoBehaviour
 	{
 	public:

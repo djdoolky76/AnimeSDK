@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int OrbSpawnConfig_TypeDefinitionIndex = 64459;
+
 	class OrbSpawnConfig : public ::System::Object
 	{
 	public:

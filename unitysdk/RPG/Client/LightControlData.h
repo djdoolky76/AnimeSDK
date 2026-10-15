@@ -17,6 +17,8 @@ namespace UnityEngine { class Light; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int LightControlData_TypeDefinitionIndex = 70183;
+
 	class LightControlData : public ::UnityEngine::MonoBehaviour
 	{
 	public:

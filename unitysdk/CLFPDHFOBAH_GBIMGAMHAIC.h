@@ -5,6 +5,8 @@ namespace System { class Object; }
 
 #define CLFPDHFOBAH_GBIMGAMHAIC_EXECUTE_OFFSET UNITYSDK_OFFSET(0xEBC50)
 
+inline static constexpr unsigned int CLFPDHFOBAH_GBIMGAMHAIC_TypeDefinitionIndex = 47130;
+
 	struct alignas(8) CLFPDHFOBAH_GBIMGAMHAIC
 	{
 		::Unity::Collections::NativeArray_1<::System::Object*> JOMPKBLKKKH; // 0x10

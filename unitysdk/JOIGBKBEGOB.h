@@ -25,6 +25,8 @@ namespace System { class String; }
 #define JOIGBKBEGOB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E7A3FF0)
 #define JOIGBKBEGOB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E7A4050)
 
+inline static constexpr unsigned int JOIGBKBEGOB_TypeDefinitionIndex = 30893;
+
 	class JOIGBKBEGOB : public ::System::Object
 	{
 	public:

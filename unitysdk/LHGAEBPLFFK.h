@@ -4,6 +4,8 @@
 
 #define LHGAEBPLFFK_CTOR_OFFSET UNITYSDK_OFFSET(0x1C56E250)
 
+inline static constexpr unsigned int LHGAEBPLFFK_TypeDefinitionIndex = 41748;
+
 	class LHGAEBPLFFK : public ::System::Object
 	{
 	public:

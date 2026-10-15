@@ -5,6 +5,8 @@ namespace System { class String; }
 
 #define JGGAKCPPEPM_CTOR_OFFSET UNITYSDK_OFFSET(0xB199940)
 
+inline static constexpr unsigned int JGGAKCPPEPM_TypeDefinitionIndex = 69390;
+
 	class JGGAKCPPEPM : public ::System::Object
 	{
 	public:

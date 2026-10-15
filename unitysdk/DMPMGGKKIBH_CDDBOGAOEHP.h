@@ -3,6 +3,8 @@
 
 #define DMPMGGKKIBH_CDDBOGAOEHP_CTOR_OFFSET UNITYSDK_OFFSET(0x198F720)
 
+inline static constexpr unsigned int DMPMGGKKIBH_CDDBOGAOEHP_TypeDefinitionIndex = 74223;
+
 	struct alignas(4) DMPMGGKKIBH_CDDBOGAOEHP
 	{
 		::System::Int32 BFLBECPBGEL; // 0x10

@@ -20,6 +20,8 @@ namespace UnityEngine::UI { class Toggle; }
 
 namespace MiHoYo::SDK::Win
 {
+	inline static constexpr unsigned int PayLimitTipsDialog_TypeDefinitionIndex = 9558;
+
 	class PayLimitTipsDialog : public ::MiHoYo::SDK::UIElement
 	{
 	public:

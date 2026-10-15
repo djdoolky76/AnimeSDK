@@ -15,6 +15,8 @@ namespace XLua { class LuaTable; }
 
 namespace RPG::Client::LimaoNews
 {
+	inline static constexpr unsigned int LimaoNewsCommentListControl_TypeDefinitionIndex = 80352;
+
 	class LimaoNewsCommentListControl : public ::Sofa::BaseSofaControl
 	{
 	public:

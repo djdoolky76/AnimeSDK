@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GridFightParamGetGamePlayWinCntConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightParamGetGamePlayWinCntConfig_TypeDefinitionIndex = 19544;
+
 	class GridFightParamGetGamePlayWinCntConfig : public ::RPG::GameCore::GridFightParameterConfigBase
 	{
 	public:

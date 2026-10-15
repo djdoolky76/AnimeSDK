@@ -18,6 +18,8 @@ namespace UnityEngine { class Texture2D; }
 #define PATRENDERER_ONENABLE_OFFSET UNITYSDK_OFFSET(0xBFDF450)
 #define PATRENDERER_RESET_OFFSET UNITYSDK_OFFSET(0xBFDF4A0)
 
+inline static constexpr unsigned int PATRenderer_TypeDefinitionIndex = 47442;
+
 	class PATRenderer : public ::UnityEngine::MonoBehaviour
 	{
 	public:

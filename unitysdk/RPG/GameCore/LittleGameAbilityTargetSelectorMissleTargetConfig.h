@@ -10,6 +10,8 @@ namespace RPG::GameCore { class LittleGameAbilityTargetSelectorMissleTargetConfi
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LittleGameAbilityTargetSelectorMissleTargetConfig_TypeDefinitionIndex = 21372;
+
 	class LittleGameAbilityTargetSelectorMissleTargetConfig : public ::RPG::GameCore::BaseLittleGameAbilityTargetSelectorConfig
 	{
 	public:

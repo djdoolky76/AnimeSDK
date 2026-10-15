@@ -21,6 +21,8 @@ namespace RPG::Client::RelicSmartSuit { class RelicSmartSuitResultRelicInfo; }
 
 namespace RPG::Client::RelicSmartSuit
 {
+	inline static constexpr unsigned int RelicSmartSuitResultRelicInfo_TypeDefinitionIndex = 74417;
+
 	class RelicSmartSuitResultRelicInfo : public ::System::Object
 	{
 	public:

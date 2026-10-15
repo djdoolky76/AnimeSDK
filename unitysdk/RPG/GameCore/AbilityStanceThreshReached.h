@@ -16,6 +16,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AbilityStanceThreshReached_TypeDefinitionIndex = 56587;
+
 	class AbilityStanceThreshReached : public ::CMPGEAFHHDC
 	{
 	public:

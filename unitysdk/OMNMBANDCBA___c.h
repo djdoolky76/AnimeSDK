@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define OMNMBANDCBA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DEBDB80)
 #define OMNMBANDCBA___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1DEBDB90)
 
+inline static constexpr unsigned int OMNMBANDCBA___c_TypeDefinitionIndex = 33312;
+
 	class OMNMBANDCBA___c : public ::System::Object
 	{
 	public:

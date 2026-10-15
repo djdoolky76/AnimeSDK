@@ -45,6 +45,8 @@ namespace UnityEngine { class Transform; }
 #define OOFFEFAJDFK_PNJKFOILFOB_OFFSET UNITYSDK_OFFSET(0xBF7B580)
 #define OOFFEFAJDFK__ONBIND_OFFSET UNITYSDK_OFFSET(0xBF7AA20)
 
+inline static constexpr unsigned int OOFFEFAJDFK_TypeDefinitionIndex = 71975;
+
 	class OOFFEFAJDFK : public ::FMPCODLIOLG
 	{
 	public:

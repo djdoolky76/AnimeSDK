@@ -6,6 +6,8 @@
 
 namespace RPG::SceneOptimizer
 {
+	inline static constexpr unsigned int SceneOptimizeSamplerHandle_TypeDefinitionIndex = 51785;
+
 	class SceneOptimizeSamplerHandle : public ::UnityEngine::MonoBehaviour
 	{
 	public:

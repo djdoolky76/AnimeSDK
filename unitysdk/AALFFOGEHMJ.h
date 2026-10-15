@@ -14,6 +14,8 @@ class OBJANKHLNGO;
 #define AALFFOGEHMJ___ONCARDUNLOCKSYNC_B__3_0_OFFSET UNITYSDK_OFFSET(0xB0CEAF0)
 #define AALFFOGEHMJ___ONCARDUNLOCKSYNC_B__3_1_OFFSET UNITYSDK_OFFSET(0xB0CEB40)
 
+inline static constexpr unsigned int AALFFOGEHMJ_TypeDefinitionIndex = 81077;
+
 	class AALFFOGEHMJ : public ::System::Object
 	{
 	public:

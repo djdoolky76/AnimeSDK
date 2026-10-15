@@ -9,6 +9,8 @@ namespace UnityEngine { class RectTransform; }
 
 namespace RPG::Client::Challenge
 {
+	inline static constexpr unsigned int ChallengeTargetInfoRowTierceControl_TypeDefinitionIndex = 81422;
+
 	class ChallengeTargetInfoRowTierceControl : public ::UnityEngine::MonoBehaviour
 	{
 	public:

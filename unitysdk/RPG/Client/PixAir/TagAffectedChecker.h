@@ -8,6 +8,8 @@
 
 namespace RPG::Client::PixAir
 {
+	inline static constexpr unsigned int TagAffectedChecker_TypeDefinitionIndex = 79310;
+
 	class TagAffectedChecker : public ::System::Object
 	{
 	public:

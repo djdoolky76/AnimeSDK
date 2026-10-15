@@ -15,6 +15,8 @@ namespace System::Security::Cryptography::X509Certificates { class X509Certifica
 
 namespace System::Security::Cryptography::X509Certificates
 {
+	inline static constexpr unsigned int X509CertificateCollection_X509CertificateEnumerator_TypeDefinitionIndex = 2697;
+
 	class X509CertificateCollection_X509CertificateEnumerator : public ::System::Object
 	{
 	public:

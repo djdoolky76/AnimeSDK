@@ -5,6 +5,8 @@ namespace System::Threading::Tasks { class Task; }
 
 namespace System::Threading::Tasks
 {
+	inline static constexpr unsigned int ContinuationTaskFromResultTask_1_TypeDefinitionIndex = 918;
+
 	template <typename T>
 	class ContinuationTaskFromResultTask_1 : public ::System::Threading::Tasks::Task
 	{

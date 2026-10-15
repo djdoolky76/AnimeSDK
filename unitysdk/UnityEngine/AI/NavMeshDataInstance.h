@@ -10,6 +10,8 @@ namespace UnityEngine { class Object; }
 
 namespace UnityEngine::AI
 {
+	inline static constexpr unsigned int NavMeshDataInstance_TypeDefinitionIndex = 5654;
+
 	struct alignas(4) NavMeshDataInstance
 	{
 		::System::Int32 _id_k__BackingField; // 0x10

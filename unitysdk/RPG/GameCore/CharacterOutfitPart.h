@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CharacterOutfitPart_TypeDefinitionIndex = 17482;
+
 	class CharacterOutfitPart : public ::RPG::GameCore::JsonConfig
 	{
 	public:

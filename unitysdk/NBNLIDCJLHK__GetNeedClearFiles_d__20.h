@@ -20,6 +20,8 @@ namespace System::IO { class FileInfo; }
 #define NBNLIDCJLHK__GETNEEDCLEARFILES_D__20_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBADD8E0)
 #define NBNLIDCJLHK__GETNEEDCLEARFILES_D__20___M__FINALLY1_OFFSET UNITYSDK_OFFSET(0xBADD920)
 
+inline static constexpr unsigned int NBNLIDCJLHK__GetNeedClearFiles_d__20_TypeDefinitionIndex = 59469;
+
 	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename T8, typename T9, typename T10, typename T11, typename T12, typename T13, typename T14, typename T15, typename T16, typename T17, typename T18, typename T19, typename T20>
 	class NBNLIDCJLHK__GetNeedClearFiles_d__20 : public ::System::Object
 	{

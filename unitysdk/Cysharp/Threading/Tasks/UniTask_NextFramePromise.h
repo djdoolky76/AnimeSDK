@@ -26,6 +26,8 @@ namespace System { class Object; }
 
 namespace Cysharp::Threading::Tasks
 {
+	inline static constexpr unsigned int UniTask_NextFramePromise_TypeDefinitionIndex = 38230;
+
 	class UniTask_NextFramePromise : public ::System::Object
 	{
 	public:

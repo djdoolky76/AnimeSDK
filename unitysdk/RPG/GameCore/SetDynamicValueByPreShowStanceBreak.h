@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetDynamicValueByPreShowStanceBreak_TypeDefinitionIndex = 23689;
+
 	class SetDynamicValueByPreShowStanceBreak : public ::RPG::GameCore::TaskConfig
 	{
 	public:

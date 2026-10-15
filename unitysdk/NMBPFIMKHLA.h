@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 #define NMBPFIMKHLA_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0xBC81120)
 #define NMBPFIMKHLA_SET_ISRUNNING_OFFSET UNITYSDK_OFFSET(0xBC80F00)
 
+inline static constexpr unsigned int NMBPFIMKHLA_TypeDefinitionIndex = 82269;
+
 	class NMBPFIMKHLA : public ::System::Object
 	{
 	public:

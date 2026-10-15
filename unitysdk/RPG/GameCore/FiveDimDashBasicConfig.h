@@ -11,6 +11,8 @@ namespace RPG::GameCore { class FiveDimDashBasicConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimDashBasicConfig_TypeDefinitionIndex = 16662;
+
 	class FiveDimDashBasicConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

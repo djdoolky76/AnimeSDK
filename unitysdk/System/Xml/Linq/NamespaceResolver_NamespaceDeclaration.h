@@ -9,6 +9,8 @@ namespace System::Xml::Linq { class XNamespace; }
 
 namespace System::Xml::Linq
 {
+	inline static constexpr unsigned int NamespaceResolver_NamespaceDeclaration_TypeDefinitionIndex = 3900;
+
 	class NamespaceResolver_NamespaceDeclaration : public ::System::Object
 	{
 	public:

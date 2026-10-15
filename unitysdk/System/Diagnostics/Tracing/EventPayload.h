@@ -30,6 +30,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace System::Diagnostics::Tracing
 {
+	inline static constexpr unsigned int EventPayload_TypeDefinitionIndex = 1602;
+
 	class EventPayload : public ::System::Object
 	{
 	public:

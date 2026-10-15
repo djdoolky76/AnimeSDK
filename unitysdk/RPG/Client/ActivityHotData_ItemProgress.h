@@ -14,6 +14,8 @@ class BOMPFHOMMBH;
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ActivityHotData_ItemProgress_TypeDefinitionIndex = 61534;
+
 	class ActivityHotData_ItemProgress : public ::System::Object
 	{
 	public:

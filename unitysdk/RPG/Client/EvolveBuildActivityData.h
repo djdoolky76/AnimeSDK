@@ -10,6 +10,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int EvolveBuildActivityData_TypeDefinitionIndex = 63784;
+
 	class EvolveBuildActivityData : public ::RPG::Client::ActivityPanelData
 	{
 	public:

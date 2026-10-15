@@ -17,6 +17,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 #define OLHPNPEHEON_HGONPBCKOGM_OFFSET UNITYSDK_OFFSET(0xBF0C990)
 #define OLHPNPEHEON_KJGABLPOFKD_OFFSET UNITYSDK_OFFSET(0xBF0C730)
 
+inline static constexpr unsigned int OLHPNPEHEON_TypeDefinitionIndex = 65272;
+
 	class OLHPNPEHEON : public ::System::Object
 	{
 	public:

@@ -34,6 +34,8 @@ namespace System { class String; }
 #define AABJNONNLML_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DDB6070)
 #define AABJNONNLML_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DDB60D0)
 
+inline static constexpr unsigned int AABJNONNLML_TypeDefinitionIndex = 27240;
+
 	class AABJNONNLML : public ::System::Object
 	{
 	public:

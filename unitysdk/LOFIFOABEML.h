@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define LOFIFOABEML_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB7FEE90)
 #define LOFIFOABEML_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB7FF3E0)
 
+inline static constexpr unsigned int LOFIFOABEML_TypeDefinitionIndex = 52178;
+
 	class LOFIFOABEML
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ChangeTrackingMission; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChangeTrackingMission_TypeDefinitionIndex = 21578;
+
 	class ChangeTrackingMission : public ::RPG::GameCore::TaskConfig
 	{
 	public:

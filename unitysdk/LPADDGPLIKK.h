@@ -37,6 +37,8 @@ namespace System { class String; }
 #define LPADDGPLIKK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E9C78E0)
 #define LPADDGPLIKK_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E9C7940)
 
+inline static constexpr unsigned int LPADDGPLIKK_TypeDefinitionIndex = 33645;
+
 	class LPADDGPLIKK : public ::System::Object
 	{
 	public:

@@ -5,6 +5,8 @@
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int RPGSpeedLine_SpeedLineModeParameter_TypeDefinitionIndex = 37845;
+
 	class RPGSpeedLine_SpeedLineModeParameter
 	{
 	public:

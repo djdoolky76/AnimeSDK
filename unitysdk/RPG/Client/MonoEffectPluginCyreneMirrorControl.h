@@ -36,6 +36,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoEffectPluginCyreneMirrorControl_TypeDefinitionIndex = 69987;
+
 	class MonoEffectPluginCyreneMirrorControl : public ::RPG::Client::MonoEffectPluginBase
 	{
 	public:

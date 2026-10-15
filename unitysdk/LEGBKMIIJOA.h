@@ -41,6 +41,8 @@ namespace System { class String; }
 #define LEGBKMIIJOA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E92D1F0)
 #define LEGBKMIIJOA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E92D250)
 
+inline static constexpr unsigned int LEGBKMIIJOA_TypeDefinitionIndex = 28339;
+
 	class LEGBKMIIJOA : public ::System::Object
 	{
 	public:

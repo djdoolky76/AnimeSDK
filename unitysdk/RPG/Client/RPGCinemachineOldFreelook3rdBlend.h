@@ -14,6 +14,8 @@ namespace Cinemachine { class CinemachineVirtualCameraBase; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RPGCinemachineOldFreelook3rdBlend_TypeDefinitionIndex = 69703;
+
 	class RPGCinemachineOldFreelook3rdBlend : public ::Cinemachine::CinemachineExtension
 	{
 	public:

@@ -17,6 +17,8 @@ namespace System { class String; }
 #define KMCJMBABNNE_JDBEGLPAPBE_OFFSET UNITYSDK_OFFSET(0xB53F300)
 #define KMCJMBABNNE_NDMBDGKAJEK_OFFSET UNITYSDK_OFFSET(0xB53ED10)
 
+inline static constexpr unsigned int KMCJMBABNNE_TypeDefinitionIndex = 65285;
+
 	class KMCJMBABNNE : public ::HEOLKMLMPML
 	{
 	public:

@@ -39,6 +39,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::LittleGame::PixAir
 {
+	inline static constexpr unsigned int PixAirPlaneView_TypeDefinitionIndex = 77324;
+
 	class PixAirPlaneView : public ::RPG::Client::LittleGame::PixAir::BasePixAirView
 	{
 	public:

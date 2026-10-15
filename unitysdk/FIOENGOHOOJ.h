@@ -28,6 +28,8 @@ namespace System { class String; }
 #define FIOENGOHOOJ_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E39D4B0)
 #define FIOENGOHOOJ_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E39D510)
 
+inline static constexpr unsigned int FIOENGOHOOJ_TypeDefinitionIndex = 31045;
+
 	class FIOENGOHOOJ : public ::System::Object
 	{
 	public:

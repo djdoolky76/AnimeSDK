@@ -6,6 +6,8 @@
 
 namespace System
 {
+	inline static constexpr unsigned int Variant_TypeDefinitionIndex = 452;
+
 	struct alignas(4) Variant
 	{
 		::System::Int16 vt; // 0x10

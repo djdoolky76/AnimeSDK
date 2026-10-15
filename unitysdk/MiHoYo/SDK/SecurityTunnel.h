@@ -104,6 +104,8 @@ namespace System::Timers { class Timer; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int SecurityTunnel_TypeDefinitionIndex = 46371;
+
 	class SecurityTunnel : public ::System::Object
 	{
 	public:

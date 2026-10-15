@@ -8,6 +8,8 @@ namespace RPG::Client::MechCraft::View { class MechCraftProductTraitControl; }
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftCraftProgressControl___c__DisplayClass12_0_TypeDefinitionIndex = 79930;
+
 	class MechCraftCraftProgressControl___c__DisplayClass12_0 : public ::System::Object
 	{
 	public:

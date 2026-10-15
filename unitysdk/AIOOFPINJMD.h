@@ -28,6 +28,8 @@ namespace System { class String; }
 #define AIOOFPINJMD_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E282BD0)
 #define AIOOFPINJMD_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E282C30)
 
+inline static constexpr unsigned int AIOOFPINJMD_TypeDefinitionIndex = 32076;
+
 	class AIOOFPINJMD : public ::System::Object
 	{
 	public:

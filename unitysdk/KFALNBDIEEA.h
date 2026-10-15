@@ -11,6 +11,8 @@ namespace System { class String; }
 #define KFALNBDIEEA_GET_TYPE_OFFSET UNITYSDK_OFFSET(0xB3880C0)
 #define KFALNBDIEEA_JAILHGGFLDH_OFFSET UNITYSDK_OFFSET(0xB3880D0)
 
+inline static constexpr unsigned int KFALNBDIEEA_TypeDefinitionIndex = 56099;
+
 	class KFALNBDIEEA : public ::DBGDNLLDPFI
 	{
 	public:

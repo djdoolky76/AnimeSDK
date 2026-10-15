@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TrainPartyModifierSpecifyMeetingCardPassengerIdL
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TrainPartyModifierSpecifyMeetingCardPassengerIdListConfig_TypeDefinitionIndex = 18114;
+
 	class TrainPartyModifierSpecifyMeetingCardPassengerIdListConfig : public ::RPG::GameCore::TrainPartyModifierConfigBase
 	{
 	public:

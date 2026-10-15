@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define NDMEMOIGNDG_CCTOR_OFFSET UNITYSDK_OFFSET(0xBB50F20)
 #define NDMEMOIGNDG_OMNGJIFEIFH_OFFSET UNITYSDK_OFFSET(0xBB50910)
 
+inline static constexpr unsigned int NDMEMOIGNDG_TypeDefinitionIndex = 69266;
+
 	class NDMEMOIGNDG : public ::System::Object
 	{
 	public:

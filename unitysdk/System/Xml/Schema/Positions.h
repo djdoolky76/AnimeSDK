@@ -12,6 +12,8 @@ namespace System::Collections { class ArrayList; }
 
 namespace System::Xml::Schema
 {
+	inline static constexpr unsigned int Positions_TypeDefinitionIndex = 2067;
+
 	class Positions : public ::System::Object
 	{
 	public:

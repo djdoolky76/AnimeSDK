@@ -28,6 +28,8 @@ namespace UnityEngine::UI { class Button; }
 #define EIDENFJENAJ_PFAMLBIOAFH_3_OFFSET UNITYSDK_OFFSET(0x154BD5C0)
 #define EIDENFJENAJ_PFAMLBIOAFH_OFFSET UNITYSDK_OFFSET(0x154BD1A0)
 
+inline static constexpr unsigned int EIDENFJENAJ_TypeDefinitionIndex = 71356;
+
 	class EIDENFJENAJ : public ::System::Object
 	{
 	public:

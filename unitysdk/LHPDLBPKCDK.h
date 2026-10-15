@@ -37,6 +37,8 @@ namespace System { class String; }
 #define LHPDLBPKCDK___BEGINFADEIN_ONLYEFFECTMODE_B__16_0_OFFSET UNITYSDK_OFFSET(0xB6C1AA0)
 #define LHPDLBPKCDK___BEGINFADEOUT_ONLYEFFECTMODE_B__17_0_OFFSET UNITYSDK_OFFSET(0xB6C1B50)
 
+inline static constexpr unsigned int LHPDLBPKCDK_TypeDefinitionIndex = 57356;
+
 	class LHPDLBPKCDK : public ::RPG::GameCore::GameComponentBase
 	{
 	public:

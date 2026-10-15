@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define ONJIANLPDBE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DEC7990)
 #define ONJIANLPDBE___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1DEC79A0)
 
+inline static constexpr unsigned int ONJIANLPDBE___c_TypeDefinitionIndex = 30719;
+
 	class ONJIANLPDBE___c : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::PC::OS
 {
+	inline static constexpr unsigned int XboxStatisticsParamExtension_TypeDefinitionIndex = 8672;
+
 	class XboxStatisticsParamExtension : public ::System::Object
 	{
 	public:

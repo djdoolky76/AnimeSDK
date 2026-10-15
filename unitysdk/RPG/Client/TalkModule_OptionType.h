@@ -3,6 +3,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TalkModule_OptionType_TypeDefinitionIndex = 68035;
+
 	enum class TalkModule_OptionType : ::System::Int32
 	{
 		Defalut = 0,

@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ActivityRaidAlleyPlacingShowUI_TypeDefinitionIndex = 21188;
+
 	class ActivityRaidAlleyPlacingShowUI : public ::RPG::GameCore::TaskConfig
 	{
 	public:

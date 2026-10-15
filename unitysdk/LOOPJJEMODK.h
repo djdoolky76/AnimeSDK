@@ -6,6 +6,8 @@ class LBJLBMOOJGM;
 #define LOOPJJEMODK_CTOR_OFFSET UNITYSDK_OFFSET(0xB811F70)
 #define LOOPJJEMODK_KDPCHKAGJMK_OFFSET UNITYSDK_OFFSET(0xB811A00)
 
+inline static constexpr unsigned int LOOPJJEMODK_TypeDefinitionIndex = 80533;
+
 	class LOOPJJEMODK : public ::System::Object
 	{
 	public:

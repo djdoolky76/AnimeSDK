@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ResolutionAdaptionConfigList_TypeDefinitionIndex = 17139;
+
 	class ResolutionAdaptionConfigList : public ::RPG::GameCore::JsonConfig
 	{
 	public:

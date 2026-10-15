@@ -19,6 +19,8 @@ namespace System::Xml::Serialization { class ObjectMap; }
 
 namespace System::Xml::Serialization
 {
+	inline static constexpr unsigned int XmlMapping_TypeDefinitionIndex = 2012;
+
 	class XmlMapping : public ::System::Object
 	{
 	public:

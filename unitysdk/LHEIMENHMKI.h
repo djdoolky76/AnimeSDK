@@ -15,6 +15,8 @@ namespace UnityEngine { class Transform; }
 #define LHEIMENHMKI_PRINTMEMBERS_OFFSET UNITYSDK_OFFSET(0x194D0)
 #define LHEIMENHMKI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x194C0)
 
+inline static constexpr unsigned int LHEIMENHMKI_TypeDefinitionIndex = 49761;
+
 	struct alignas(8) LHEIMENHMKI
 	{
 		::UnityEngine::Transform* ICGKFDEILKA; // 0x10

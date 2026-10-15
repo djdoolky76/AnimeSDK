@@ -16,6 +16,8 @@ namespace System::Threading { class Timer; }
 
 namespace System::Runtime::Remoting::Lifetime
 {
+	inline static constexpr unsigned int LeaseManager_TypeDefinitionIndex = 1242;
+
 	class LeaseManager : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace RPG::GameCore { class WaitFor; }
 #define MGEEJIGDLBE_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB918080)
 #define MGEEJIGDLBE_TICK_OFFSET UNITYSDK_OFFSET(0xB9180D0)
 
+inline static constexpr unsigned int MGEEJIGDLBE_TypeDefinitionIndex = 58892;
+
 	class MGEEJIGDLBE : public ::GELIALJDFBL
 	{
 	public:

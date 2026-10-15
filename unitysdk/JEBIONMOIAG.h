@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int JEBIONMOIAG_TypeDefinitionIndex = 25269;
+
 	enum class JEBIONMOIAG : ::System::Int32
 	{
 		KNBMAAKIECL = 0,

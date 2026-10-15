@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define HMAGPIIGHPI_CTOR_OFFSET UNITYSDK_OFFSET(0x15D785E0)
 #define HMAGPIIGHPI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15D78610)
 
+inline static constexpr unsigned int HMAGPIIGHPI_TypeDefinitionIndex = 52865;
+
 	class HMAGPIIGHPI
 	{
 	public:

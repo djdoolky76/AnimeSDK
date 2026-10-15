@@ -6,6 +6,8 @@
 #define MKFCKCFLBFB_CDKBKBNJMEH_OFFSET UNITYSDK_OFFSET(0xB996A60)
 #define MKFCKCFLBFB_CTOR_OFFSET UNITYSDK_OFFSET(0xB996A40)
 
+inline static constexpr unsigned int MKFCKCFLBFB_TypeDefinitionIndex = 68909;
+
 	class MKFCKCFLBFB : public ::System::Object
 	{
 	public:

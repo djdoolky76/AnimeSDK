@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GridFightParamGetPlayerLevelConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightParamGetPlayerLevelConfig_TypeDefinitionIndex = 19511;
+
 	class GridFightParamGetPlayerLevelConfig : public ::RPG::GameCore::GridFightParameterConfigBase
 	{
 	public:

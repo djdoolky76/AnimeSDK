@@ -32,6 +32,8 @@ namespace System { class String; }
 #define BCPMPHNADMN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E9126A0)
 #define BCPMPHNADMN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E912700)
 
+inline static constexpr unsigned int BCPMPHNADMN_TypeDefinitionIndex = 34368;
+
 	class BCPMPHNADMN : public ::System::Object
 	{
 	public:

@@ -25,6 +25,8 @@ namespace System { class String; }
 #define CGJKIDOBEAL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E0AF870)
 #define CGJKIDOBEAL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E0AF8D0)
 
+inline static constexpr unsigned int CGJKIDOBEAL_TypeDefinitionIndex = 27023;
+
 	class CGJKIDOBEAL : public ::System::Object
 	{
 	public:

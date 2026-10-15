@@ -9,6 +9,8 @@ namespace RPG::Client::MechCraft::ViewModel { class MechCraftTalentPointViewMode
 #define FOACJPEHDKO_JNPNKBMJIPH_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x158DD060)
 #define FOACJPEHDKO_JNPNKBMJIPH_CTOR_OFFSET UNITYSDK_OFFSET(0x158DD050)
 
+inline static constexpr unsigned int FOACJPEHDKO_JNPNKBMJIPH_TypeDefinitionIndex = 79776;
+
 	class FOACJPEHDKO_JNPNKBMJIPH : public ::System::Object
 	{
 	public:

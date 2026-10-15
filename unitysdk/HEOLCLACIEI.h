@@ -15,6 +15,8 @@ namespace UnityEngine::UI { class Image; }
 #define HEOLCLACIEI_ONRETURN_OFFSET UNITYSDK_OFFSET(0x15C637A0)
 #define HEOLCLACIEI__ONDISPOSE_OFFSET UNITYSDK_OFFSET(0x15C637E0)
 
+inline static constexpr unsigned int HEOLCLACIEI_TypeDefinitionIndex = 71798;
+
 	class HEOLCLACIEI : public ::FMPCODLIOLG
 	{
 	public:

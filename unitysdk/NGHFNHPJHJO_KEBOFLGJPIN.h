@@ -9,6 +9,8 @@ namespace RPG::LittleGameShare::HoyoPhysics::Box2D { class B2World; }
 #define NGHFNHPJHJO_KEBOFLGJPIN_HIJHILKHPDA_1_OFFSET UNITYSDK_OFFSET(0x1C795840)
 #define NGHFNHPJHJO_KEBOFLGJPIN_HIJHILKHPDA_OFFSET UNITYSDK_OFFSET(0x1C7953D0)
 
+inline static constexpr unsigned int NGHFNHPJHJO_KEBOFLGJPIN_TypeDefinitionIndex = 36548;
+
 	class NGHFNHPJHJO_KEBOFLGJPIN : public ::PKBGGJPKDKM
 	{
 	public:

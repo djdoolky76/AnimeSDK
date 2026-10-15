@@ -11,6 +11,8 @@ namespace RPG::GameCore { class MarbleAddShield; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MarbleAddShield_TypeDefinitionIndex = 16853;
+
 	class MarbleAddShield : public ::RPG::GameCore::MarbleTaskConfig
 	{
 	public:

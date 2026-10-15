@@ -15,6 +15,8 @@ namespace System { class String; }
 #define LLGOBCPGKOB_SET_MAXLEVEL_OFFSET UNITYSDK_OFFSET(0xB76CCA0)
 #define LLGOBCPGKOB_SET_SKILLID_OFFSET UNITYSDK_OFFSET(0xB76CC60)
 
+inline static constexpr unsigned int LLGOBCPGKOB_TypeDefinitionIndex = 74349;
+
 	class LLGOBCPGKOB : public ::System::Object
 	{
 	public:

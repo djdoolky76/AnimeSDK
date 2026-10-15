@@ -97,6 +97,8 @@ namespace UnityEngine { class Texture; }
 #define IOLIAAFBFON_SET_ONACTIVEPANELCHANGED_OFFSET UNITYSDK_OFFSET(0x1650D170)
 #define IOLIAAFBFON_SET_ONINSTANCED_OFFSET UNITYSDK_OFFSET(0x16509150)
 
+inline static constexpr unsigned int IOLIAAFBFON_TypeDefinitionIndex = 47495;
+
 	class IOLIAAFBFON : public ::System::Object
 	{
 	public:

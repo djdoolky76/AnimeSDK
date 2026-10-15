@@ -27,6 +27,8 @@ namespace System { class String; }
 #define MLHMOBMFJDF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EA82200)
 #define MLHMOBMFJDF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EA82260)
 
+inline static constexpr unsigned int MLHMOBMFJDF_TypeDefinitionIndex = 34441;
+
 	class MLHMOBMFJDF : public ::System::Object
 	{
 	public:

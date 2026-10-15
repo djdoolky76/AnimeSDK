@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TurnBasedAbilityComponent; }
 #define LKJEOBHCOID_FEJKOHFHHNN_OFFSET UNITYSDK_OFFSET(0xB751B90)
 #define LKJEOBHCOID_OFDDFDGKNPJ_OFFSET UNITYSDK_OFFSET(0xB751D90)
 
+inline static constexpr unsigned int LKJEOBHCOID_TypeDefinitionIndex = 57971;
+
 	class LKJEOBHCOID
 	{
 	public:

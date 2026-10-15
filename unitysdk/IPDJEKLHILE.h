@@ -9,6 +9,8 @@ namespace System { class String; }
 #define IPDJEKLHILE_CTOR_OFFSET UNITYSDK_OFFSET(0x1651E530)
 #define IPDJEKLHILE_OHCJOIANPFG_OFFSET UNITYSDK_OFFSET(0x1651E3E0)
 
+inline static constexpr unsigned int IPDJEKLHILE_TypeDefinitionIndex = 68007;
+
 	class IPDJEKLHILE : public ::System::Object
 	{
 	public:

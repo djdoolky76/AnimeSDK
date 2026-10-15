@@ -8,6 +8,8 @@ namespace MiHoYo::SDK::HoYoUI { class FontSizeValueMap; }
 
 namespace MiHoYo::SDK::HoYoUI
 {
+	inline static constexpr unsigned int HoYoLocalSkinAsset_TypeDefinitionIndex = 46724;
+
 	class HoYoLocalSkinAsset : public ::UnityEngine::ScriptableObject
 	{
 	public:

@@ -103,6 +103,8 @@ namespace UnityEngine { class Texture; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int ReflectionProbe_TypeDefinitionIndex = 4052;
+
 	class ReflectionProbe : public ::UnityEngine::Behaviour
 	{
 	public:

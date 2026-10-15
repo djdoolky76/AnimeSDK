@@ -28,6 +28,8 @@ namespace System::Collections::Generic { template <typename T> class Stack_1; }
 
 namespace RPG::Client::LittleGame::FiveDim
 {
+	inline static constexpr unsigned int FiveDimEntityBehaviour_TypeDefinitionIndex = 76870;
+
 	class FiveDimEntityBehaviour : public ::Entitas::VisualDebugging::Unity::EntityBehaviour
 	{
 	public:

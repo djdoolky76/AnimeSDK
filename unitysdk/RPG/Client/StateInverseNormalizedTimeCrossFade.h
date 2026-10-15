@@ -15,6 +15,8 @@ namespace UnityEngine { class Animator; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int StateInverseNormalizedTimeCrossFade_TypeDefinitionIndex = 68828;
+
 	class StateInverseNormalizedTimeCrossFade : public ::UnityEngine::StateMachineBehaviour
 	{
 	public:

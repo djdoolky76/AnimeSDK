@@ -19,6 +19,8 @@ namespace RPG::Client { class PlanetFesMiniGameBingoData; }
 #define BJHLHNAOGEM_OCJJKPPIPBI_OFFSET UNITYSDK_OFFSET(0xB79ACD0)
 #define BJHLHNAOGEM_SET_FINISHCOUNT_OFFSET UNITYSDK_OFFSET(0xB79B0C0)
 
+inline static constexpr unsigned int BJHLHNAOGEM_TypeDefinitionIndex = 66616;
+
 	class BJHLHNAOGEM : public ::System::Object
 	{
 	public:

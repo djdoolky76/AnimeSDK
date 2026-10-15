@@ -12,6 +12,8 @@ class PNHJNKGPPCC;
 #define GMPJIHGDDJB_JPKMKMDGMHK_OFFSET UNITYSDK_OFFSET(0x15ADE200)
 #define GMPJIHGDDJB_LJJJNPJEHEB_OFFSET UNITYSDK_OFFSET(0x15ADE280)
 
+inline static constexpr unsigned int GMPJIHGDDJB_TypeDefinitionIndex = 66707;
+
 	class GMPJIHGDDJB : public ::System::Object
 	{
 	public:

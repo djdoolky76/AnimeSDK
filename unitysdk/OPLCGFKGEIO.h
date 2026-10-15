@@ -6,6 +6,8 @@ class FOAKMDKBOJJ;
 #define OPLCGFKGEIO_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xBFB0180)
 #define OPLCGFKGEIO_CTOR_OFFSET UNITYSDK_OFFSET(0xBFB0560)
 
+inline static constexpr unsigned int OPLCGFKGEIO_TypeDefinitionIndex = 54294;
+
 	class OPLCGFKGEIO : public ::System::Object
 	{
 	public:

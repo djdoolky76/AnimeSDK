@@ -11,6 +11,8 @@ namespace UnityEngine::Timeline { class TrackAsset; }
 #define OKKFJLFMPFK___C__DISPLAYCLASS4_2_CTOR_OFFSET UNITYSDK_OFFSET(0xBEE16D0)
 #define OKKFJLFMPFK___C__DISPLAYCLASS4_2__ONTASKBEGIN_B__2_OFFSET UNITYSDK_OFFSET(0xBEE8DA0)
 
+inline static constexpr unsigned int OKKFJLFMPFK___c__DisplayClass4_2_TypeDefinitionIndex = 56373;
+
 	template <typename T1, typename T2>
 	class OKKFJLFMPFK___c__DisplayClass4_2 : public ::System::Object
 	{

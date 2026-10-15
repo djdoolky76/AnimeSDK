@@ -6,6 +6,8 @@ namespace RPG::GameCore { class VCameraConfigChange; }
 
 #define PMCCDNCDGJJ_CTOR_OFFSET UNITYSDK_OFFSET(0xC315C60)
 
+inline static constexpr unsigned int PMCCDNCDGJJ_TypeDefinitionIndex = 69563;
+
 	class PMCCDNCDGJJ : public ::System::Object
 	{
 	public:

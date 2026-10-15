@@ -8,6 +8,8 @@ class JCLBAEHIBLA;
 #define EOKLEHHBNJC_CTOR_OFFSET UNITYSDK_OFFSET(0x155C4350)
 #define EOKLEHHBNJC_LFFBCABFBOK_OFFSET UNITYSDK_OFFSET(0x155C4360)
 
+inline static constexpr unsigned int EOKLEHHBNJC_TypeDefinitionIndex = 60373;
+
 	class EOKLEHHBNJC : public ::DAMIINECKKH
 	{
 	public:

@@ -9,6 +9,8 @@ namespace MiHoYo::SDK::Win { class SafeMobileBind; }
 
 namespace MiHoYo::SDK::Win
 {
+	inline static constexpr unsigned int SafeMobileBind___c__DisplayClass26_0_TypeDefinitionIndex = 9519;
+
 	class SafeMobileBind___c__DisplayClass26_0 : public ::System::Object
 	{
 	public:

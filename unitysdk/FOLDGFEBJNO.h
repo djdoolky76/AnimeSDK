@@ -4,6 +4,8 @@
 
 #define FOLDGFEBJNO_CTOR_OFFSET UNITYSDK_OFFSET(0x158F74D0)
 
+inline static constexpr unsigned int FOLDGFEBJNO_TypeDefinitionIndex = 54318;
+
 	class FOLDGFEBJNO : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueActPersonaRandomRoomCardCastRemoveRandomAtt
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueActPersonaRandomRoomCardCastRemoveRandomAttributeConfig_TypeDefinitionIndex = 19737;
+
 	class RogueActPersonaRandomRoomCardCastRemoveRandomAttributeConfig : public ::RPG::GameCore::RogueActPersonaRandomRoomCardCastConfig
 	{
 	public:

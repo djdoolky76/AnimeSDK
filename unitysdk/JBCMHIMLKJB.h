@@ -4,6 +4,8 @@
 
 #define JBCMHIMLKJB_CTOR_OFFSET UNITYSDK_OFFSET(0x1CB8D100)
 
+inline static constexpr unsigned int JBCMHIMLKJB_TypeDefinitionIndex = 42803;
+
 	class JBCMHIMLKJB : public ::Entitas::CodeGeneration::Attributes::ContextAttribute
 	{
 	public:

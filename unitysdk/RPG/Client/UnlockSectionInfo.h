@@ -7,6 +7,8 @@ namespace RPG::Client { class MiniMapZone; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int UnlockSectionInfo_TypeDefinitionIndex = 60651;
+
 	class UnlockSectionInfo : public ::System::Object
 	{
 	public:

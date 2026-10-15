@@ -9,6 +9,8 @@ namespace System { class String; }
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int HAPI_AttributeInfo_TypeDefinitionIndex = 40506;
+
 	struct alignas(4) HAPI_AttributeInfo
 	{
 		::System::Boolean exists; // 0x10

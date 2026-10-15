@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChenLingFesToastConfig_TypeDefinitionIndex = 18453;
+
 	class ChenLingFesToastConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

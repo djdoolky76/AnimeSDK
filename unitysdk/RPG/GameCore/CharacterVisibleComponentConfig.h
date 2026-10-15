@@ -10,6 +10,8 @@ namespace RPG::GameCore { class CharacterVisibleComponentConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CharacterVisibleComponentConfig_TypeDefinitionIndex = 16562;
+
 	class CharacterVisibleComponentConfig : public ::RPG::GameCore::ComponentConfig
 	{
 	public:

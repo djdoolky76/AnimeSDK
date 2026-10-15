@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define HDCIKKPIPKA_CABIFHLBBOF_OFFSET UNITYSDK_OFFSET(0x15C302D0)
 #define HDCIKKPIPKA_PIOKOOFLFLA_OFFSET UNITYSDK_OFFSET(0x15C30800)
 
+inline static constexpr unsigned int HDCIKKPIPKA_TypeDefinitionIndex = 74864;
+
 	class HDCIKKPIPKA : public ::System::Object
 	{
 	public:

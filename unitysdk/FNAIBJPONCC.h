@@ -11,6 +11,8 @@ namespace System { class String; }
 #define FNAIBJPONCC_MNJOCIFNCFK_OFFSET UNITYSDK_OFFSET(0x15868460)
 #define FNAIBJPONCC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x15868690)
 
+inline static constexpr unsigned int FNAIBJPONCC_TypeDefinitionIndex = 59270;
+
 	class FNAIBJPONCC : public ::System::Object
 	{
 	public:

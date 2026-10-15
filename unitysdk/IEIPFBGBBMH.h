@@ -19,6 +19,8 @@ namespace System { class String; }
 #define IEIPFBGBBMH_SET_INSTANCEID_OFFSET UNITYSDK_OFFSET(0x15EFD650)
 #define IEIPFBGBBMH_SET_LITTLEGAMEENTITYID_OFFSET UNITYSDK_OFFSET(0x15EFD670)
 
+inline static constexpr unsigned int IEIPFBGBBMH_TypeDefinitionIndex = 74654;
+
 	class IEIPFBGBBMH : public ::System::Object
 	{
 	public:

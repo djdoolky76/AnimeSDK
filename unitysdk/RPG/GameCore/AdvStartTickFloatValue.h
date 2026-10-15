@@ -12,6 +12,8 @@ namespace RPG::GameCore { class DynamicString; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdvStartTickFloatValue_TypeDefinitionIndex = 21024;
+
 	class AdvStartTickFloatValue : public ::RPG::GameCore::TaskConfig
 	{
 	public:

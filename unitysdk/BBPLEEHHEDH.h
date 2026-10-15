@@ -7,6 +7,8 @@ namespace System { class Object; }
 #define BBPLEEHHEDH_CTOR_OFFSET UNITYSDK_OFFSET(0x15E9F640)
 #define BBPLEEHHEDH__ADDNOTIFYHANDLERS_OFFSET UNITYSDK_OFFSET(0x15E9F030)
 
+inline static constexpr unsigned int BBPLEEHHEDH_TypeDefinitionIndex = 68282;
+
 	class BBPLEEHHEDH : public ::RPG::Client::BaseModule
 	{
 	public:

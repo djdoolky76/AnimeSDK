@@ -23,6 +23,8 @@ namespace System { class String; }
 
 namespace RPG::Client::BlindBox::Trade
 {
+	inline static constexpr unsigned int BlindBoxTradeNormalPlayerInfo_TypeDefinitionIndex = 74883;
+
 	class BlindBoxTradeNormalPlayerInfo : public ::System::Object
 	{
 	public:

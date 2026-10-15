@@ -13,6 +13,8 @@ namespace UnityEngine { class Collider; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ChenLingStackDropProxy_TypeDefinitionIndex = 69236;
+
 	class ChenLingStackDropProxy : public ::UnityEngine::MonoBehaviour
 	{
 	public:

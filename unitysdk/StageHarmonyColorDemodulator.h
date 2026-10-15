@@ -7,6 +7,8 @@
 #define STAGEHARMONYCOLORDEMODULATOR_CTOR_OFFSET UNITYSDK_OFFSET(0xE98D520)
 #define STAGEHARMONYCOLORDEMODULATOR_FCDECODOKAK_OFFSET UNITYSDK_OFFSET(0xE98D430)
 
+inline static constexpr unsigned int StageHarmonyColorDemodulator_TypeDefinitionIndex = 47525;
+
 	class StageHarmonyColorDemodulator
 	{
 	public:

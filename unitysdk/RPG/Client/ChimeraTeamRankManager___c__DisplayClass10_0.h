@@ -11,6 +11,8 @@ namespace RPG::Client::Promises { class Promise; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ChimeraTeamRankManager___c__DisplayClass10_0_TypeDefinitionIndex = 63439;
+
 	class ChimeraTeamRankManager___c__DisplayClass10_0 : public ::System::Object
 	{
 	public:

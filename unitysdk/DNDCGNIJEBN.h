@@ -14,6 +14,8 @@ namespace System { class Object; }
 #define DNDCGNIJEBN_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x11944950)
 #define DNDCGNIJEBN_TICK_OFFSET UNITYSDK_OFFSET(0x11944F10)
 
+inline static constexpr unsigned int DNDCGNIJEBN_TypeDefinitionIndex = 58130;
+
 	class DNDCGNIJEBN : public ::GELIALJDFBL
 	{
 	public:

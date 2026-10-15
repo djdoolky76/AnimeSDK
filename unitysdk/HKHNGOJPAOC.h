@@ -8,6 +8,8 @@ namespace System { class String; }
 #define HKHNGOJPAOC_CTOR_OFFSET UNITYSDK_OFFSET(0x15D44FC0)
 #define HKHNGOJPAOC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x15D45090)
 
+inline static constexpr unsigned int HKHNGOJPAOC_TypeDefinitionIndex = 62027;
+
 	class HKHNGOJPAOC : public ::MAOPBKPKCEK
 	{
 	public:

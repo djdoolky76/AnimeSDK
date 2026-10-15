@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T> class IEqualityCo
 
 namespace MessagePack::Internal
 {
+	inline static constexpr unsigned int RuntimeTypeHandleEqualityComparer_TypeDefinitionIndex = 7299;
+
 	class RuntimeTypeHandleEqualityComparer : public ::System::Object
 	{
 	public:

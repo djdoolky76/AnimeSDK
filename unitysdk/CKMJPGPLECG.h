@@ -81,6 +81,8 @@ namespace UnityEngine { class Coroutine; }
 #define CKMJPGPLECG_PJOALEKPOJP_OFFSET UNITYSDK_OFFSET(0xD768F30)
 #define CKMJPGPLECG_PLNKCHMAGDD_OFFSET UNITYSDK_OFFSET(0xD764E70)
 
+inline static constexpr unsigned int CKMJPGPLECG_TypeDefinitionIndex = 60550;
+
 	class CKMJPGPLECG : public ::DKBCNADLOGN
 	{
 	public:

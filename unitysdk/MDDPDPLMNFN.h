@@ -39,6 +39,8 @@ namespace UnityEngine::UI { class Text; }
 #define MDDPDPLMNFN_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0xB8A0E70)
 #define MDDPDPLMNFN__ONBIND_OFFSET UNITYSDK_OFFSET(0xB8A1370)
 
+inline static constexpr unsigned int MDDPDPLMNFN_TypeDefinitionIndex = 71528;
+
 	class MDDPDPLMNFN : public ::FMPCODLIOLG
 	{
 	public:

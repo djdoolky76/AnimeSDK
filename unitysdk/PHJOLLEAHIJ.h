@@ -11,6 +11,8 @@ namespace RPG::Client::ActivityAlley { class ClientAlleyPlacingShip; }
 #define PHJOLLEAHIJ_DPCNJNKHHHM_OFFSET UNITYSDK_OFFSET(0xC252E40)
 #define PHJOLLEAHIJ_HLBKLCMEFFP_OFFSET UNITYSDK_OFFSET(0xC2523F0)
 
+inline static constexpr unsigned int PHJOLLEAHIJ_TypeDefinitionIndex = 74111;
+
 	class PHJOLLEAHIJ : public ::System::Object
 	{
 	public:

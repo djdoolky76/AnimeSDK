@@ -15,6 +15,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::ReporterUtil
 {
+	inline static constexpr unsigned int AutoReportHandler_TypeDefinitionIndex = 46650;
+
 	class AutoReportHandler : public ::System::MulticastDelegate
 	{
 	public:

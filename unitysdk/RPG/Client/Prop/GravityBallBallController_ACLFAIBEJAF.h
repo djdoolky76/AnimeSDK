@@ -12,6 +12,8 @@ namespace UnityEngine { class Material; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int GravityBallBallController_ACLFAIBEJAF_TypeDefinitionIndex = 78589;
+
 	class GravityBallBallController_ACLFAIBEJAF : public ::System::Object
 	{
 	public:

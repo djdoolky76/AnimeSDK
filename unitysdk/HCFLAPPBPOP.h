@@ -74,6 +74,8 @@ namespace System { class String; }
 #define HCFLAPPBPOP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E5375E0)
 #define HCFLAPPBPOP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E537640)
 
+inline static constexpr unsigned int HCFLAPPBPOP_TypeDefinitionIndex = 28612;
+
 	class HCFLAPPBPOP : public ::System::Object
 	{
 	public:

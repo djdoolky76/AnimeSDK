@@ -7,6 +7,8 @@ class GAHPNAEGACM;
 #define EGDHCBFEGJG___C__DISPLAYCLASS41_0_CTOR_OFFSET UNITYSDK_OFFSET(0x13A63D10)
 #define EGDHCBFEGJG___C__DISPLAYCLASS41_0__ONSUBITEMDETAILCHANGE_B__0_OFFSET UNITYSDK_OFFSET(0x13A64490)
 
+inline static constexpr unsigned int EGDHCBFEGJG___c__DisplayClass41_0_TypeDefinitionIndex = 72183;
+
 	class EGDHCBFEGJG___c__DisplayClass41_0 : public ::System::Object
 	{
 	public:

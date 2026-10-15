@@ -8,6 +8,8 @@ namespace System { class String; }
 
 #define BGIKFIJNAED_CTOR_OFFSET UNITYSDK_OFFSET(0xB189BD0)
 
+inline static constexpr unsigned int BGIKFIJNAED_TypeDefinitionIndex = 71879;
+
 	class BGIKFIJNAED : public ::System::Object
 	{
 	public:

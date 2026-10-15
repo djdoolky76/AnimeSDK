@@ -12,6 +12,8 @@ namespace RPG::Client { class PlayerBriefDisplayData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int OnlinePlayRoomModule_PendingVisitDisplayData_TypeDefinitionIndex = 66399;
+
 	class OnlinePlayRoomModule_PendingVisitDisplayData : public ::System::Object
 	{
 	public:

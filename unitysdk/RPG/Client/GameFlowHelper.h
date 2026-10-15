@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyLi
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GameFlowHelper_TypeDefinitionIndex = 64352;
+
 	class GameFlowHelper : public ::System::Object
 	{
 	public:

@@ -13,6 +13,8 @@ namespace RPG::GameCore { class DynamicStringList; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CollectionPlayBubbleTalk_TypeDefinitionIndex = 20410;
+
 	class CollectionPlayBubbleTalk : public ::RPG::GameCore::TaskConfig
 	{
 	public:

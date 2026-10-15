@@ -8,6 +8,8 @@ namespace System { class Action; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ResManagerConfirmDialogData_TypeDefinitionIndex = 72726;
+
 	class ResManagerConfirmDialogData : public ::System::Object
 	{
 	public:

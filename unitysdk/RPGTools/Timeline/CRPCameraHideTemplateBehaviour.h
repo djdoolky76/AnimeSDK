@@ -12,6 +12,8 @@ namespace RPGTools::Timeline { class CRPCameraHideTemplateClip; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int CRPCameraHideTemplateBehaviour_TypeDefinitionIndex = 47889;
+
 	class CRPCameraHideTemplateBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

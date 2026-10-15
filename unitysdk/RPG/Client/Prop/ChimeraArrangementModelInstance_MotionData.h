@@ -9,6 +9,8 @@ namespace System { class Action; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int ChimeraArrangementModelInstance_MotionData_TypeDefinitionIndex = 78463;
+
 	class ChimeraArrangementModelInstance_MotionData : public ::System::Object
 	{
 	public:

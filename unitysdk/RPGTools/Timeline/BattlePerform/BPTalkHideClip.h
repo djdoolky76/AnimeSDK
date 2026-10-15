@@ -12,6 +12,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPGTools::Timeline::BattlePerform
 {
+	inline static constexpr unsigned int BPTalkHideClip_TypeDefinitionIndex = 48828;
+
 	class BPTalkHideClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:

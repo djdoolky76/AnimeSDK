@@ -5,6 +5,8 @@
 
 #define APLNICFBMGA_CTOR_OFFSET UNITYSDK_OFFSET(0x1C8ACE90)
 
+inline static constexpr unsigned int APLNICFBMGA_TypeDefinitionIndex = 42979;
+
 	class APLNICFBMGA : public ::System::Object
 	{
 	public:

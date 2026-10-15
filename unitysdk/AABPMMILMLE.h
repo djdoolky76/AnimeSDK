@@ -32,6 +32,8 @@ namespace System { class String; }
 #define AABPMMILMLE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DDB6D60)
 #define AABPMMILMLE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DDB6DC0)
 
+inline static constexpr unsigned int AABPMMILMLE_TypeDefinitionIndex = 34209;
+
 	class AABPMMILMLE : public ::System::Object
 	{
 	public:

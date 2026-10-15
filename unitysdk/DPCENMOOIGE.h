@@ -9,6 +9,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define DPCENMOOIGE_EVALUATE_OFFSET UNITYSDK_OFFSET(0x11FF9910)
 #define DPCENMOOIGE_FEJKOHFHHNN_OFFSET UNITYSDK_OFFSET(0x11FF9B10)
 
+inline static constexpr unsigned int DPCENMOOIGE_TypeDefinitionIndex = 57967;
+
 	class DPCENMOOIGE
 	{
 	public:

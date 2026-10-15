@@ -29,6 +29,8 @@ namespace System { class String; }
 #define CLNABFMHFFH_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E0FD070)
 #define CLNABFMHFFH_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E0FD0D0)
 
+inline static constexpr unsigned int CLNABFMHFFH_TypeDefinitionIndex = 28267;
+
 	class CLNABFMHFFH : public ::System::Object
 	{
 	public:

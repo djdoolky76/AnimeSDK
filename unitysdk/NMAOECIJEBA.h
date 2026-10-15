@@ -35,6 +35,8 @@ namespace System { class String; }
 #define NMAOECIJEBA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EB6D240)
 #define NMAOECIJEBA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EB6D2A0)
 
+inline static constexpr unsigned int NMAOECIJEBA_TypeDefinitionIndex = 29029;
+
 	class NMAOECIJEBA : public ::System::Object
 	{
 	public:

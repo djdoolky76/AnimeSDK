@@ -12,6 +12,8 @@ namespace UnityEngine::Timeline { class TimelineClip; }
 
 namespace RPGTools::Timeline::BattlePerform
 {
+	inline static constexpr unsigned int BPCameraTrack_TypeDefinitionIndex = 48795;
+
 	class BPCameraTrack : public ::UnityEngine::Timeline::TrackAsset
 	{
 	public:

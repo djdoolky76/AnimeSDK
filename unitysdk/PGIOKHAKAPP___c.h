@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define PGIOKHAKAPP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DF33390)
 #define PGIOKHAKAPP___C___CCTOR_B__48_0_OFFSET UNITYSDK_OFFSET(0x1DF333A0)
 
+inline static constexpr unsigned int PGIOKHAKAPP___c_TypeDefinitionIndex = 30652;
+
 	class PGIOKHAKAPP___c : public ::System::Object
 	{
 	public:

@@ -9,6 +9,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define LKLEILNGCDD_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB753E40)
 #define LKLEILNGCDD_FEJKOHFHHNN_OFFSET UNITYSDK_OFFSET(0xB754010)
 
+inline static constexpr unsigned int LKLEILNGCDD_TypeDefinitionIndex = 57970;
+
 	class LKLEILNGCDD
 	{
 	public:

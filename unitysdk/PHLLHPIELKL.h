@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define PHLLHPIELKL_CTOR_OFFSET UNITYSDK_OFFSET(0xC255560)
 #define PHLLHPIELKL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC255590)
 
+inline static constexpr unsigned int PHLLHPIELKL_TypeDefinitionIndex = 52718;
+
 	class PHLLHPIELKL
 	{
 	public:

@@ -11,6 +11,8 @@ namespace RPG::GameCore { class FiveDimOneSidePassPropConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimOneSidePassPropConfig_TypeDefinitionIndex = 18548;
+
 	class FiveDimOneSidePassPropConfig : public ::RPG::GameCore::LittleGameComponentConfig
 	{
 	public:

@@ -6,6 +6,8 @@
 
 #define CKHEMPGDADJ_CTOR_OFFSET UNITYSDK_OFFSET(0xD75BB10)
 
+inline static constexpr unsigned int CKHEMPGDADJ_TypeDefinitionIndex = 60933;
+
 	class CKHEMPGDADJ : public ::System::Object
 	{
 	public:

@@ -5,6 +5,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define CKAEFFGOGCO_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA12660)
 
+inline static constexpr unsigned int CKAEFFGOGCO_TypeDefinitionIndex = 42962;
+
 	class CKAEFFGOGCO : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ElfRestaurantPauseGame; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ElfRestaurantPauseGame_TypeDefinitionIndex = 24295;
+
 	class ElfRestaurantPauseGame : public ::RPG::GameCore::TaskConfig
 	{
 	public:

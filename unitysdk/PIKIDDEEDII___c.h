@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define PIKIDDEEDII___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DF6B920)
 #define PIKIDDEEDII___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1DF6B930)
 
+inline static constexpr unsigned int PIKIDDEEDII___c_TypeDefinitionIndex = 28320;
+
 	class PIKIDDEEDII___c : public ::System::Object
 	{
 	public:

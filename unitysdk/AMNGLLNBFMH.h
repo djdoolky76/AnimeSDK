@@ -20,6 +20,8 @@ namespace System { class Object; }
 #define AMNGLLNBFMH_NMBINJBMFCA_OFFSET UNITYSDK_OFFSET(0x15588970)
 #define AMNGLLNBFMH_OOJLBPNNLGP_OFFSET UNITYSDK_OFFSET(0x155883E0)
 
+inline static constexpr unsigned int AMNGLLNBFMH_TypeDefinitionIndex = 59707;
+
 	class AMNGLLNBFMH : public ::LJKHPOHKIIF
 	{
 	public:

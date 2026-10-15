@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::MTR
 {
+	inline static constexpr unsigned int MiHoYoMTRInterface_MTRTask_TypeDefinitionIndex = 46682;
+
 	class MiHoYoMTRInterface_MTRTask : public ::MiHoYo::SDK::MTR::MiHoYoMTRInterface_BaseTask
 	{
 	public:

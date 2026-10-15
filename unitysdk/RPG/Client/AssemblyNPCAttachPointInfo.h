@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AssemblyNPCAttachPointInfo_TypeDefinitionIndex = 60050;
+
 	class AssemblyNPCAttachPointInfo : public ::System::Object
 	{
 	public:

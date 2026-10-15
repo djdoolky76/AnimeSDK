@@ -27,6 +27,8 @@ namespace System { class String; }
 #define KCDBGKJANIH_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E7F32A0)
 #define KCDBGKJANIH_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E7F3300)
 
+inline static constexpr unsigned int KCDBGKJANIH_TypeDefinitionIndex = 33806;
+
 	class KCDBGKJANIH : public ::System::Object
 	{
 	public:

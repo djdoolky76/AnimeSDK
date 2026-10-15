@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueParamRogueMagicCurrentRoomTypeConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueParamRogueMagicCurrentRoomTypeConfig_TypeDefinitionIndex = 19838;
+
 	class RogueParamRogueMagicCurrentRoomTypeConfig : public ::RPG::GameCore::RogueParameterConfigBase
 	{
 	public:

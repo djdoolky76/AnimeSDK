@@ -7,6 +7,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define KBGKAMMKDCE_LNPJCCKMEIP_CTOR_OFFSET UNITYSDK_OFFSET(0xB300DF0)
 #define KBGKAMMKDCE_LNPJCCKMEIP_EPKMKNKGDDF_OFFSET UNITYSDK_OFFSET(0xB300F20)
 
+inline static constexpr unsigned int KBGKAMMKDCE_LNPJCCKMEIP_TypeDefinitionIndex = 69225;
+
 	class KBGKAMMKDCE_LNPJCCKMEIP : public ::System::Object
 	{
 	public:

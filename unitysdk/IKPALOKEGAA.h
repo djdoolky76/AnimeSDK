@@ -10,6 +10,8 @@ namespace System { class String; }
 #define IKPALOKEGAA_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CF1D7B0)
 #define IKPALOKEGAA_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CF1D770)
 
+inline static constexpr unsigned int IKPALOKEGAA_TypeDefinitionIndex = 21518;
+
 	class IKPALOKEGAA : public ::RPG::GameCore::TaskConfig
 	{
 	public:

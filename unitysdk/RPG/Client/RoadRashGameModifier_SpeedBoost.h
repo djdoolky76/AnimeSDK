@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RoadRashGameModifier_SpeedBoost_TypeDefinitionIndex = 10310;
+
 	class RoadRashGameModifier_SpeedBoost : public ::RPG::GameCore::BaseLittleGameAbilityTaskConfig
 	{
 	public:

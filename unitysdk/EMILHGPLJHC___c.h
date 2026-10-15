@@ -12,6 +12,8 @@ namespace System { class Object; }
 #define EMILHGPLJHC___C__ADDPROGRESSLOG_B__90_5_OFFSET UNITYSDK_OFFSET(0x15543C70)
 #define EMILHGPLJHC___C__ADDPROGRESSLOG_B__90_6_OFFSET UNITYSDK_OFFSET(0x15543CB0)
 
+inline static constexpr unsigned int EMILHGPLJHC___c_TypeDefinitionIndex = 59552;
+
 	class EMILHGPLJHC___c : public ::System::Object
 	{
 	public:

@@ -22,6 +22,8 @@ namespace Mono::Math { class BigInteger_B63D07FB4865BEA1; }
 
 namespace Mono::Math
 {
+	inline static constexpr unsigned int BigInteger_B63D07FB4865BEA1_Kernel_TypeDefinitionIndex = 2317;
+
 	class BigInteger_B63D07FB4865BEA1_Kernel : public ::System::Object
 	{
 	public:

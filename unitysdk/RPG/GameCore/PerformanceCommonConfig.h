@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PerformanceCommonConfig_TypeDefinitionIndex = 19038;
+
 	class PerformanceCommonConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

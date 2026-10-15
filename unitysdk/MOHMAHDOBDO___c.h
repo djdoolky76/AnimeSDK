@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define MOHMAHDOBDO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EAAAFD0)
 #define MOHMAHDOBDO___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1EAAAFE0)
 
+inline static constexpr unsigned int MOHMAHDOBDO___c_TypeDefinitionIndex = 25432;
+
 	class MOHMAHDOBDO___c : public ::System::Object
 	{
 	public:

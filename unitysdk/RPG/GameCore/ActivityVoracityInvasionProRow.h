@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ActivityVoracityInvasionProRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ActivityVoracityInvasionProRow_TypeDefinitionIndex = 12542;
+
 	class ActivityVoracityInvasionProRow : public ::System::Object
 	{
 	public:

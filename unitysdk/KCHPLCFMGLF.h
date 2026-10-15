@@ -32,6 +32,8 @@ namespace System { class String; }
 #define KCHPLCFMGLF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E7F69C0)
 #define KCHPLCFMGLF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E7F6A20)
 
+inline static constexpr unsigned int KCHPLCFMGLF_TypeDefinitionIndex = 27313;
+
 	class KCHPLCFMGLF : public ::System::Object
 	{
 	public:

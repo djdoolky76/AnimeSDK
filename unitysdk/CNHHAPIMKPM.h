@@ -30,6 +30,8 @@ namespace System { class String; }
 #define CNHHAPIMKPM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E109950)
 #define CNHHAPIMKPM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E1099B0)
 
+inline static constexpr unsigned int CNHHAPIMKPM_TypeDefinitionIndex = 26398;
+
 	class CNHHAPIMKPM : public ::System::Object
 	{
 	public:

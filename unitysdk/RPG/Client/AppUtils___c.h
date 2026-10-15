@@ -10,6 +10,8 @@ namespace System::Threading { class ThreadStart; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AppUtils___c_TypeDefinitionIndex = 59279;
+
 	class AppUtils___c : public ::System::Object
 	{
 	public:

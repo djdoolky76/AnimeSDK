@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RtProjectileOnHitList_TypeDefinitionIndex = 24140;
+
 	class RtProjectileOnHitList : public ::RPG::GameCore::JsonConfig
 	{
 	public:

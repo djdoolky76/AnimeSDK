@@ -9,6 +9,8 @@
 
 namespace InControl
 {
+	inline static constexpr unsigned int DeadZone_TypeDefinitionIndex = 40818;
+
 	class DeadZone : public ::System::Object
 	{
 	public:

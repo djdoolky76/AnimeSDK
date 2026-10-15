@@ -9,6 +9,8 @@ namespace RPG::Client::FateRin::Battle { class FateRinBattleHudHoverBrain; }
 #define CHEMJEJKPJI_EPJFIHHDMAK_OFFSET UNITYSDK_OFFSET(0xCC93980)
 #define CHEMJEJKPJI_ONDRAG_OFFSET UNITYSDK_OFFSET(0xCC93870)
 
+inline static constexpr unsigned int CHEMJEJKPJI_TypeDefinitionIndex = 80991;
+
 	class CHEMJEJKPJI : public ::GAIDPLAKEBP
 	{
 	public:

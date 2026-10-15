@@ -12,6 +12,8 @@ namespace RPG::GameCore { class SwitchChallengeBossInfoPanelState; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SwitchChallengeBossInfoPanelState_TypeDefinitionIndex = 23217;
+
 	class SwitchChallengeBossInfoPanelState : public ::RPG::GameCore::TaskConfig
 	{
 	public:

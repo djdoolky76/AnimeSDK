@@ -4,6 +4,8 @@
 
 #define FDEMOJNIGMG_CTOR_OFFSET UNITYSDK_OFFSET(0x156D4D60)
 
+inline static constexpr unsigned int FDEMOJNIGMG_TypeDefinitionIndex = 72031;
+
 	class FDEMOJNIGMG : public ::System::Object
 	{
 	public:

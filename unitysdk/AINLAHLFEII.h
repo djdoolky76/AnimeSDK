@@ -40,6 +40,8 @@ namespace System::Collections::Generic { template <typename T> class SortedSet_1
 #define AINLAHLFEII_NHJEMDBODLO_OFFSET UNITYSDK_OFFSET(0x12CAAEB0)
 #define AINLAHLFEII_PMPHEOGFPFJ_OFFSET UNITYSDK_OFFSET(0x12CAC4A0)
 
+inline static constexpr unsigned int AINLAHLFEII_TypeDefinitionIndex = 57277;
+
 	class AINLAHLFEII : public ::RPG::GameCore::FreeStyleController
 	{
 	public:

@@ -14,6 +14,8 @@ namespace System { class Object; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TimeSpaceCrisscrossGroupBehavior___AsyncCombinedInstanceDatas_d__1_TypeDefinitionIndex = 70206;
+
 	template <typename T>
 	class TimeSpaceCrisscrossGroupBehavior___AsyncCombinedInstanceDatas_d__1 : public ::System::Object
 	{

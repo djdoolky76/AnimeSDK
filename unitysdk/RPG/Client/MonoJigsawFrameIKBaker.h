@@ -10,6 +10,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoJigsawFrameIKBaker_TypeDefinitionIndex = 68607;
+
 	class MonoJigsawFrameIKBaker : public ::UnityEngine::MonoBehaviour
 	{
 	public:

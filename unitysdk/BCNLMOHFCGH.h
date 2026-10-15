@@ -14,6 +14,8 @@ namespace RPG::Client::CakeRace { class CakeRacePerformanceDataItem; }
 #define BCNLMOHFCGH_SET_COMMAND_OFFSET UNITYSDK_OFFSET(0x162E98A0)
 #define BCNLMOHFCGH___ONEXECUTE_B__6_0_OFFSET UNITYSDK_OFFSET(0x162E9B30)
 
+inline static constexpr unsigned int BCNLMOHFCGH_TypeDefinitionIndex = 78101;
+
 	class BCNLMOHFCGH : public ::JIPBOGKHKBE
 	{
 	public:

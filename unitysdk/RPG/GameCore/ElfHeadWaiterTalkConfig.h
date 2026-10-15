@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ElfHeadWaiterTalkConfigItem; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ElfHeadWaiterTalkConfig_TypeDefinitionIndex = 18464;
+
 	class ElfHeadWaiterTalkConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

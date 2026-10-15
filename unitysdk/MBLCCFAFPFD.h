@@ -20,6 +20,8 @@ namespace UnityEngine { class GameObject; }
 #define MBLCCFAFPFD_KAOPDJDKIMF_OFFSET UNITYSDK_OFFSET(0xB860760)
 #define MBLCCFAFPFD_MGMDCDBEMNK_OFFSET UNITYSDK_OFFSET(0xB8604D0)
 
+inline static constexpr unsigned int MBLCCFAFPFD_TypeDefinitionIndex = 60525;
+
 	class MBLCCFAFPFD : public ::System::Object
 	{
 	public:

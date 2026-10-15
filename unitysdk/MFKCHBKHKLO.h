@@ -26,6 +26,8 @@ namespace System::Text { class StringBuilder; }
 #define MFKCHBKHKLO_TOSTRING_OFFSET UNITYSDK_OFFSET(0xB904680)
 #define MFKCHBKHKLO__CLONE___OFFSET UNITYSDK_OFFSET(0xB904F90)
 
+inline static constexpr unsigned int MFKCHBKHKLO_TypeDefinitionIndex = 80753;
+
 	class MFKCHBKHKLO : public ::System::Object
 	{
 	public:

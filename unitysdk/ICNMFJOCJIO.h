@@ -7,6 +7,8 @@ namespace RPG::GameCore { class DiceCombatPredicateConfig_IsChallenger; }
 #define ICNMFJOCJIO_CTOR_OFFSET UNITYSDK_OFFSET(0x1C6927F0)
 #define ICNMFJOCJIO_KFGJEKJHIMB_OFFSET UNITYSDK_OFFSET(0x1C692810)
 
+inline static constexpr unsigned int ICNMFJOCJIO_TypeDefinitionIndex = 36350;
+
 	class ICNMFJOCJIO : public ::HHOHBHGLHHF
 	{
 	public:

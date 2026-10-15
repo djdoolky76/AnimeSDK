@@ -30,6 +30,8 @@ namespace System { class String; }
 #define BKLPIMMNFOC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DF5ADD0)
 #define BKLPIMMNFOC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DF5AE30)
 
+inline static constexpr unsigned int BKLPIMMNFOC_TypeDefinitionIndex = 25764;
+
 	class BKLPIMMNFOC : public ::System::Object
 	{
 	public:

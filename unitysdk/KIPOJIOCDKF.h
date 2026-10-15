@@ -92,6 +92,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define KIPOJIOCDKF_PGODIDADNOC_OFFSET UNITYSDK_OFFSET(0x1C714480)
 #define KIPOJIOCDKF_PPMGCDCFODB_OFFSET UNITYSDK_OFFSET(0x1C714870)
 
+inline static constexpr unsigned int KIPOJIOCDKF_TypeDefinitionIndex = 37165;
+
 	class KIPOJIOCDKF : public ::KILOJFMKNAI
 	{
 	public:

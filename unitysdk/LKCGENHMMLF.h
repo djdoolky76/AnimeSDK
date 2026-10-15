@@ -6,6 +6,8 @@ namespace RPG::GameCore { class BaseLittleGameAbilityEffectConfig; }
 
 #define LKCGENHMMLF_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x1C73CB80)
 
+inline static constexpr unsigned int LKCGENHMMLF_TypeDefinitionIndex = 37137;
+
 	class LKCGENHMMLF : public ::System::Object
 	{
 	public:

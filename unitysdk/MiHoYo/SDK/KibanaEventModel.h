@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int KibanaEventModel_TypeDefinitionIndex = 7882;
+
 	class KibanaEventModel : public ::MiHoYo::SDK::KibanaBaseModel
 	{
 	public:

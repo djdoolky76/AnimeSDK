@@ -15,6 +15,8 @@ namespace RPG::AvatarSystem { class IAvatar; }
 #define ICONDBACCHJ_LBDINHCAPAI_OFFSET UNITYSDK_OFFSET(0x15E62D60)
 #define ICONDBACCHJ_NICPOPJIFKC_OFFSET UNITYSDK_OFFSET(0x15E62B70)
 
+inline static constexpr unsigned int ICONDBACCHJ_TypeDefinitionIndex = 62830;
+
 	class ICONDBACCHJ : public ::System::Object
 	{
 	public:

@@ -33,6 +33,8 @@ namespace UnityEngine::UI { class Button; }
 #define DILAPCEEDDN_PMMAKFGDDDH_OFFSET UNITYSDK_OFFSET(0xF212030)
 #define DILAPCEEDDN__ONBIND_OFFSET UNITYSDK_OFFSET(0xF2119A0)
 
+inline static constexpr unsigned int DILAPCEEDDN_TypeDefinitionIndex = 71644;
+
 	class DILAPCEEDDN : public ::FMPCODLIOLG
 	{
 	public:

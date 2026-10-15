@@ -8,6 +8,8 @@
 
 namespace UnityEngine::Timeline
 {
+	inline static constexpr unsigned int RuntimeClipBase_TypeDefinitionIndex = 38823;
+
 	class RuntimeClipBase : public ::UnityEngine::Timeline::RuntimeElement
 	{
 	public:

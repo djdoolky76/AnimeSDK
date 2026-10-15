@@ -8,6 +8,8 @@ class FEKGOOFCJLC;
 #define FEKGOOFCJLC_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CDE2090)
 #define FEKGOOFCJLC_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CDE1F90)
 
+inline static constexpr unsigned int FEKGOOFCJLC_TypeDefinitionIndex = 21490;
+
 	class FEKGOOFCJLC : public ::RPG::GameCore::WaitSecond
 	{
 	public:

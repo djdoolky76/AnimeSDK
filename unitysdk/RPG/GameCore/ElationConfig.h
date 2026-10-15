@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ElationConfig_TypeDefinitionIndex = 16542;
+
 	class ElationConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

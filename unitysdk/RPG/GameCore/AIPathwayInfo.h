@@ -10,6 +10,8 @@ namespace RPG::GameCore { class AIPathwayInfo; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AIPathwayInfo_TypeDefinitionIndex = 17230;
+
 	class AIPathwayInfo : public ::RPG::GameCore::JsonConfig
 	{
 	public:

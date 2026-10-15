@@ -6,6 +6,8 @@ namespace RPG::GameCore { class BaseChenLingBattleEffect; }
 
 #define HPKDDKEBEMG_CTOR_OFFSET UNITYSDK_OFFSET(0x15DD1490)
 
+inline static constexpr unsigned int HPKDDKEBEMG_TypeDefinitionIndex = 77859;
+
 	class HPKDDKEBEMG : public ::LKFPICOFNDF
 	{
 	public:

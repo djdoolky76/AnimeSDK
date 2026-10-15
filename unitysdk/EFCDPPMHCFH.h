@@ -14,6 +14,8 @@ namespace RPG::Client { class ItemDisplayData; }
 #define EFCDPPMHCFH_NALNOKIADOB_OFFSET UNITYSDK_OFFSET(0x13A47BE0)
 #define EFCDPPMHCFH_PODJLMDDBJB_OFFSET UNITYSDK_OFFSET(0x13A47FD0)
 
+inline static constexpr unsigned int EFCDPPMHCFH_TypeDefinitionIndex = 79141;
+
 	class EFCDPPMHCFH : public ::System::Object
 	{
 	public:

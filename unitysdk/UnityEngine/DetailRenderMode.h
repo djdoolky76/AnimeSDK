@@ -3,6 +3,8 @@
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int DetailRenderMode_TypeDefinitionIndex = 5330;
+
 	enum class DetailRenderMode : ::System::Int32
 	{
 		GrassBillboard = 0,

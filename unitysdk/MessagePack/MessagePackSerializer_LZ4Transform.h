@@ -14,6 +14,8 @@ namespace System { class Object; }
 
 namespace MessagePack
 {
+	inline static constexpr unsigned int MessagePackSerializer_LZ4Transform_TypeDefinitionIndex = 7214;
+
 	class MessagePackSerializer_LZ4Transform : public ::System::MulticastDelegate
 	{
 	public:

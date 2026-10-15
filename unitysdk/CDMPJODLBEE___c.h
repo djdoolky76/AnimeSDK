@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define CDMPJODLBEE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E08A940)
 #define CDMPJODLBEE___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1E08A950)
 
+inline static constexpr unsigned int CDMPJODLBEE___c_TypeDefinitionIndex = 25658;
+
 	class CDMPJODLBEE___c : public ::System::Object
 	{
 	public:

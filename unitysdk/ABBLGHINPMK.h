@@ -16,6 +16,8 @@ namespace System { class Object; }
 #define ABBLGHINPMK_NKEBOIHBCCD_OFFSET UNITYSDK_OFFSET(0xB0EB330)
 #define ABBLGHINPMK_PKMHODPACHF_OFFSET UNITYSDK_OFFSET(0xB0EB390)
 
+inline static constexpr unsigned int ABBLGHINPMK_TypeDefinitionIndex = 56886;
+
 	class ABBLGHINPMK : public ::NPKNJAMIKEA
 	{
 	public:

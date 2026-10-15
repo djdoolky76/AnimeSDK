@@ -31,6 +31,8 @@ namespace System { class String; }
 #define NOPOBDIIFIA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EB91E50)
 #define NOPOBDIIFIA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EB91EB0)
 
+inline static constexpr unsigned int NOPOBDIIFIA_TypeDefinitionIndex = 34160;
+
 	class NOPOBDIIFIA : public ::System::Object
 	{
 	public:

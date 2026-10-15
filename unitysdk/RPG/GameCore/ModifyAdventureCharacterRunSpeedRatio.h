@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ModifyAdventureCharacterRunSpeedRatio_TypeDefinitionIndex = 20520;
+
 	class ModifyAdventureCharacterRunSpeedRatio : public ::RPG::GameCore::TaskConfig
 	{
 	public:

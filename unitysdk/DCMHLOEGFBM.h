@@ -32,6 +32,8 @@ namespace System { class String; }
 #define DCMHLOEGFBM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E175430)
 #define DCMHLOEGFBM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E175490)
 
+inline static constexpr unsigned int DCMHLOEGFBM_TypeDefinitionIndex = 31159;
+
 	class DCMHLOEGFBM : public ::System::Object
 	{
 	public:

@@ -17,6 +17,8 @@ class MHDENEBAEMI;
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoEmoAnimMouthShapeLayerController_TypeDefinitionIndex = 71141;
+
 	class MonoEmoAnimMouthShapeLayerController : public ::UnityEngine::MonoBehaviour
 	{
 	public:

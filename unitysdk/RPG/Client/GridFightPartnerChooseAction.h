@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightPartnerChooseAction_TypeDefinitionIndex = 65358;
+
 	class GridFightPartnerChooseAction : public ::RPG::Client::GridFightTraitChooseBaseAction
 	{
 	public:

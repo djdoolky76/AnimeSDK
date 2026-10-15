@@ -8,6 +8,8 @@ namespace System { class String; }
 #define EMGLNOILCAJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1CDA6760)
 #define EMGLNOILCAJ_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CDA64C0)
 
+inline static constexpr unsigned int EMGLNOILCAJ_TypeDefinitionIndex = 14417;
+
 	class EMGLNOILCAJ : public ::System::Object
 	{
 	public:

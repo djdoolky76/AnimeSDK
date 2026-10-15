@@ -10,6 +10,8 @@ namespace System { class String; }
 #define EMLPMKPFLAH_GMFKFFBMACL_OFFSET UNITYSDK_OFFSET(0x15552CA0)
 #define EMLPMKPFLAH_KBFDFOGDILL_OFFSET UNITYSDK_OFFSET(0x15552C40)
 
+inline static constexpr unsigned int EMLPMKPFLAH_TypeDefinitionIndex = 49527;
+
 	class EMLPMKPFLAH : public ::System::Object
 	{
 	public:

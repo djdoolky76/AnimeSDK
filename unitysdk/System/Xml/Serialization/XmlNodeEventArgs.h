@@ -8,6 +8,8 @@ namespace System::Xml { class XmlNode; }
 
 namespace System::Xml::Serialization
 {
+	inline static constexpr unsigned int XmlNodeEventArgs_TypeDefinitionIndex = 1986;
+
 	class XmlNodeEventArgs : public ::System::EventArgs
 	{
 	public:

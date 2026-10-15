@@ -10,6 +10,8 @@ namespace UnityEngine { class Transform; }
 #define MNIKPLOHPDK_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBA0CC00)
 #define MNIKPLOHPDK_LHOFDLKIFBF_OFFSET UNITYSDK_OFFSET(0xBA0CC50)
 
+inline static constexpr unsigned int MNIKPLOHPDK_TypeDefinitionIndex = 75914;
+
 	class MNIKPLOHPDK : public ::System::Object
 	{
 	public:

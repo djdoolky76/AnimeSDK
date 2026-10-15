@@ -4,6 +4,8 @@ namespace System { class String; }
 
 namespace RPG::QA::RemoteDebug
 {
+	inline static constexpr unsigned int RemoteDebugDiscoveryReply_TypeDefinitionIndex = 51834;
+
 	struct alignas(8) RemoteDebugDiscoveryReply
 	{
 		::System::UInt16 TcpPort; // 0x10

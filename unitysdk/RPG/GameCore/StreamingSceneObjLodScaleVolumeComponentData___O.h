@@ -5,6 +5,8 @@ namespace System { class Object; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int StreamingSceneObjLodScaleVolumeComponentData___O_TypeDefinitionIndex = 19128;
+
 	class StreamingSceneObjLodScaleVolumeComponentData___O : public ::System::Object
 	{
 	public:

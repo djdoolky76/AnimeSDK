@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimSetTriggerEnableAction_TypeDefinitionIndex = 18685;
+
 	class FiveDimSetTriggerEnableAction : public ::RPG::GameCore::FiveDimBaseEventAction
 	{
 	public:

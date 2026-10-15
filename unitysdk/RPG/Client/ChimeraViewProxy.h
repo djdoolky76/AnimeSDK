@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ChimeraViewProxy_TypeDefinitionIndex = 68650;
+
 	class ChimeraViewProxy : public ::RPG::Client::BaseChimeraViewProxy
 	{
 	public:

@@ -9,6 +9,8 @@ namespace RPG::GameCore { class GameObjectPoolGroupConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GameObjectPoolGroupConfig_TypeDefinitionIndex = 18263;
+
 	class GameObjectPoolGroupConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

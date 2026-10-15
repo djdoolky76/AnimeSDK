@@ -4,6 +4,8 @@ namespace RPG::GameCore { class DynamicFloat; }
 
 #define ADBMFDNMBIJ_MCBDMHPPLAH_OFFSET UNITYSDK_OFFSET(0xF2A0)
 
+inline static constexpr unsigned int ADBMFDNMBIJ_TypeDefinitionIndex = 57754;
+
 	struct alignas(8) ADBMFDNMBIJ
 	{
 		::RPG::GameCore::DynamicFloat* MMFJHJFCBMP; // 0x10

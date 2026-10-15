@@ -10,6 +10,8 @@ namespace UnityEngine::UI { class Text; }
 #define DEJBFAOMIBD_NKPPGDENJAE_OFFSET UNITYSDK_OFFSET(0xE50E5C0)
 #define DEJBFAOMIBD__ONBIND_OFFSET UNITYSDK_OFFSET(0xE50E500)
 
+inline static constexpr unsigned int DEJBFAOMIBD_TypeDefinitionIndex = 72175;
+
 	class DEJBFAOMIBD : public ::FMPCODLIOLG
 	{
 	public:

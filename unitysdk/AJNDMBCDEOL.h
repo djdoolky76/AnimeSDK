@@ -30,6 +30,8 @@ namespace System { class String; }
 #define AJNDMBCDEOL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E3C4B50)
 #define AJNDMBCDEOL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E3C4BB0)
 
+inline static constexpr unsigned int AJNDMBCDEOL_TypeDefinitionIndex = 32726;
+
 	class AJNDMBCDEOL : public ::System::Object
 	{
 	public:

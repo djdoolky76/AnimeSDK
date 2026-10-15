@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace System::Runtime::CompilerServices
 {
+	inline static constexpr unsigned int CallerArgumentExpressionAttribute_TypeDefinitionIndex = 6080;
+
 	class CallerArgumentExpressionAttribute : public ::System::Attribute
 	{
 	public:

@@ -8,6 +8,8 @@
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int RPGGrassBlockManagerInterface_TypeDefinitionIndex = 4288;
+
 	class RPGGrassBlockManagerInterface : public ::System::Object
 	{
 	public:

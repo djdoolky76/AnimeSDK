@@ -23,6 +23,8 @@ namespace UnityEngine::UI { class Image; }
 
 namespace RPG::Client::Challenge
 {
+	inline static constexpr unsigned int ChallengeRewardItemIconLiteControl_TypeDefinitionIndex = 81419;
+
 	class ChallengeRewardItemIconLiteControl : public ::UnityEngine::MonoBehaviour
 	{
 	public:

@@ -8,6 +8,8 @@ class GGLPKOIOBFP;
 #define GGLPKOIOBFP_CTOR_OFFSET UNITYSDK_OFFSET(0x1CE42D10)
 #define GGLPKOIOBFP_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CE42B90)
 
+inline static constexpr unsigned int GGLPKOIOBFP_TypeDefinitionIndex = 14436;
+
 	class GGLPKOIOBFP : public ::System::Object
 	{
 	public:

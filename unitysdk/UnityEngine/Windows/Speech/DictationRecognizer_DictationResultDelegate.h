@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace UnityEngine::Windows::Speech
 {
+	inline static constexpr unsigned int DictationRecognizer_DictationResultDelegate_TypeDefinitionIndex = 4439;
+
 	class DictationRecognizer_DictationResultDelegate : public ::System::MulticastDelegate
 	{
 	public:

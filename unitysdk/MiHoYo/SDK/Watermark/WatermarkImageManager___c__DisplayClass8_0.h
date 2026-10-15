@@ -11,6 +11,8 @@ namespace UnityEngine { class Texture2D; }
 
 namespace MiHoYo::SDK::Watermark
 {
+	inline static constexpr unsigned int WatermarkImageManager___c__DisplayClass8_0_TypeDefinitionIndex = 8868;
+
 	class WatermarkImageManager___c__DisplayClass8_0 : public ::System::Object
 	{
 	public:

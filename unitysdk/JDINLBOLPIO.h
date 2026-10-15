@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define JDINLBOLPIO_CTOR_OFFSET UNITYSDK_OFFSET(0x165CEDD0)
 #define JDINLBOLPIO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x165CEE00)
 
+inline static constexpr unsigned int JDINLBOLPIO_TypeDefinitionIndex = 55526;
+
 	class JDINLBOLPIO
 	{
 	public:

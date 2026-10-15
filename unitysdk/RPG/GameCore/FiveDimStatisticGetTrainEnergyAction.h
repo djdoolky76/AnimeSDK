@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FiveDimStatisticGetTrainEnergyAction; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimStatisticGetTrainEnergyAction_TypeDefinitionIndex = 18758;
+
 	class FiveDimStatisticGetTrainEnergyAction : public ::RPG::GameCore::FiveDimBaseEventAction
 	{
 	public:

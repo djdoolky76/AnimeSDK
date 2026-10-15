@@ -3,6 +3,8 @@
 
 namespace System::Collections::Generic
 {
+	inline static constexpr unsigned int NodeColor_TypeDefinitionIndex = 3050;
+
 	enum class NodeColor : ::System::Byte
 	{
 		Black = 0,

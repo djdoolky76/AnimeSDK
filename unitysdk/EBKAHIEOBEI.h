@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define EBKAHIEOBEI_GET_LATESTVERSION_OFFSET UNITYSDK_OFFSET(0x12D00100)
 #define EBKAHIEOBEI_SET_LATESTVERSION_OFFSET UNITYSDK_OFFSET(0x12D00110)
 
+inline static constexpr unsigned int EBKAHIEOBEI_TypeDefinitionIndex = 82245;
+
 	class EBKAHIEOBEI : public ::System::Object
 	{
 	public:

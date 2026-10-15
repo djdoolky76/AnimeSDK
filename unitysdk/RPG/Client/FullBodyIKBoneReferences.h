@@ -7,6 +7,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int FullBodyIKBoneReferences_TypeDefinitionIndex = 68601;
+
 	struct alignas(8) FullBodyIKBoneReferences
 	{
 		::UnityEngine::Transform* root; // 0x10

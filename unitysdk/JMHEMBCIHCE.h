@@ -6,6 +6,8 @@ class JMOFEOFNLDC;
 #define JMHEMBCIHCE_CTOR_OFFSET UNITYSDK_OFFSET(0xB2667A0)
 #define JMHEMBCIHCE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB266A20)
 
+inline static constexpr unsigned int JMHEMBCIHCE_TypeDefinitionIndex = 69568;
+
 	class JMHEMBCIHCE : public ::System::Object
 	{
 	public:

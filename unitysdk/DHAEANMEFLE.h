@@ -14,6 +14,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 #define DHAEANMEFLE_CTOR_OFFSET UNITYSDK_OFFSET(0xE85D5A0)
 #define DHAEANMEFLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xE85D520)
 
+inline static constexpr unsigned int DHAEANMEFLE_TypeDefinitionIndex = 60814;
+
 	class DHAEANMEFLE : public ::System::Object
 	{
 	public:

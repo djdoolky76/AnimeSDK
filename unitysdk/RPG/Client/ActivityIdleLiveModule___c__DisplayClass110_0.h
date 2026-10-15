@@ -8,6 +8,8 @@ namespace RPG::Client { class ItemDisplayData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ActivityIdleLiveModule___c__DisplayClass110_0_TypeDefinitionIndex = 61539;
+
 	class ActivityIdleLiveModule___c__DisplayClass110_0 : public ::System::Object
 	{
 	public:

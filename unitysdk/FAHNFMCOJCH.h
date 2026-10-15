@@ -27,6 +27,8 @@ namespace System { class String; }
 #define FAHNFMCOJCH_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E321D40)
 #define FAHNFMCOJCH_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E321DA0)
 
+inline static constexpr unsigned int FAHNFMCOJCH_TypeDefinitionIndex = 27120;
+
 	class FAHNFMCOJCH : public ::System::Object
 	{
 	public:

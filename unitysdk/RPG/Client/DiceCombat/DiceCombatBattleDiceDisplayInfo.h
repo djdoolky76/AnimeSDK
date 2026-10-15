@@ -54,6 +54,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::DiceCombat
 {
+	inline static constexpr unsigned int DiceCombatBattleDiceDisplayInfo_TypeDefinitionIndex = 76038;
+
 	class DiceCombatBattleDiceDisplayInfo : public ::System::Object
 	{
 	public:

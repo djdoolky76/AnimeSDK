@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int JDHJMNAGIIA_TypeDefinitionIndex = 31603;
+
 	enum class JDHJMNAGIIA : ::System::Int32
 	{
 		CDCHHNPNPLN = 0,

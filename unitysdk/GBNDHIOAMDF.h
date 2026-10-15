@@ -27,6 +27,8 @@ namespace System { class String; }
 #define GBNDHIOAMDF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E4334C0)
 #define GBNDHIOAMDF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E433520)
 
+inline static constexpr unsigned int GBNDHIOAMDF_TypeDefinitionIndex = 27255;
+
 	class GBNDHIOAMDF : public ::System::Object
 	{
 	public:

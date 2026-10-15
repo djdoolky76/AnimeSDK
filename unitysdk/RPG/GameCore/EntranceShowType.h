@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int EntranceShowType_TypeDefinitionIndex = 13304;
+
 	enum class EntranceShowType : ::System::Int32
 	{
 		None = 0,

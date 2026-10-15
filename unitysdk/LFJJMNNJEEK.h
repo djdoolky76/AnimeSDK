@@ -11,6 +11,8 @@ namespace System { class String; }
 #define LFJJMNNJEEK_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D0E9400)
 #define LFJJMNNJEEK_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D0E93C0)
 
+inline static constexpr unsigned int LFJJMNNJEEK_TypeDefinitionIndex = 19907;
+
 	class LFJJMNNJEEK : public ::RPG::GameCore::TaskConfig
 	{
 	public:

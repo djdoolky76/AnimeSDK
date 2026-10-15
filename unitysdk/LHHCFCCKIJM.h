@@ -10,6 +10,8 @@ class OBJANKHLNGO;
 #define LHHCFCCKIJM_START_OFFSET UNITYSDK_OFFSET(0xB6B1520)
 #define LHHCFCCKIJM_STOP_OFFSET UNITYSDK_OFFSET(0xB6B15B0)
 
+inline static constexpr unsigned int LHHCFCCKIJM_TypeDefinitionIndex = 81076;
+
 	class LHHCFCCKIJM : public ::System::Object
 	{
 	public:

@@ -63,6 +63,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::DiceCombat
 {
+	inline static constexpr unsigned int DiceCombatV2DiceExchangeContext_TypeDefinitionIndex = 76168;
+
 	class DiceCombatV2DiceExchangeContext : public ::System::Object
 	{
 	public:

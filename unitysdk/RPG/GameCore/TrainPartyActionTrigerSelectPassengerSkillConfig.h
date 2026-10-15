@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TrainPartyActionTrigerSelectPassengerSkillConfig
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TrainPartyActionTrigerSelectPassengerSkillConfig_TypeDefinitionIndex = 18079;
+
 	class TrainPartyActionTrigerSelectPassengerSkillConfig : public ::RPG::GameCore::TrainPartyActionConfigBase
 	{
 	public:

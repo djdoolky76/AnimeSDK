@@ -14,6 +14,8 @@
 
 namespace System::Security::Cryptography
 {
+	inline static constexpr unsigned int SHA1Managed_TypeDefinitionIndex = 1056;
+
 	class SHA1Managed : public ::System::Security::Cryptography::SHA1
 	{
 	public:

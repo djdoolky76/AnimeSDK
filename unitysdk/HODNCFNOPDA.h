@@ -31,6 +31,8 @@ namespace System { class String; }
 #define HODNCFNOPDA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E5E6BD0)
 #define HODNCFNOPDA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E5E6C30)
 
+inline static constexpr unsigned int HODNCFNOPDA_TypeDefinitionIndex = 27853;
+
 	class HODNCFNOPDA : public ::System::Object
 	{
 	public:

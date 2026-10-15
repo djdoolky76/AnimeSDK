@@ -8,6 +8,8 @@ namespace RPG::Client { class GridFightFormationRole; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightGameFormationFilter___c__DisplayClass2_0_TypeDefinitionIndex = 64694;
+
 	class GridFightGameFormationFilter___c__DisplayClass2_0 : public ::System::Object
 	{
 	public:

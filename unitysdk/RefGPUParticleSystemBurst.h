@@ -5,6 +5,8 @@
 #define REFGPUPARTICLESYSTEMBURST_CHHOKFIHNDG_OFFSET UNITYSDK_OFFSET(0x1EBD43E0)
 #define REFGPUPARTICLESYSTEMBURST_CTOR_OFFSET UNITYSDK_OFFSET(0x1EBD62B0)
 
+inline static constexpr unsigned int RefGPUParticleSystemBurst_TypeDefinitionIndex = 44013;
+
 	class RefGPUParticleSystemBurst : public ::System::Object
 	{
 	public:

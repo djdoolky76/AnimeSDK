@@ -7,6 +7,8 @@ namespace RPG::LittleGameShare::HoyoPhysics::Box2D { class B2MovePair; }
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
+	inline static constexpr unsigned int B2MovePair_TypeDefinitionIndex = 36718;
+
 	class B2MovePair : public ::System::Object
 	{
 	public:

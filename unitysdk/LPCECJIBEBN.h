@@ -37,6 +37,8 @@ namespace UnityEngine { class AnimationCurve; }
 #define LPCECJIBEBN_SET_FOV_OFFSET UNITYSDK_OFFSET(0xB8185D0)
 #define LPCECJIBEBN_SET_REQUIRECHARGEVALUE_OFFSET UNITYSDK_OFFSET(0xB8184F0)
 
+inline static constexpr unsigned int LPCECJIBEBN_TypeDefinitionIndex = 75830;
+
 	class LPCECJIBEBN : public ::System::Object
 	{
 	public:

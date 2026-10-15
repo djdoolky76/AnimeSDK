@@ -4,6 +4,8 @@
 
 #define LPOIDGKPNAO_CTOR_OFFSET UNITYSDK_OFFSET(0xB835B70)
 
+inline static constexpr unsigned int LPOIDGKPNAO_TypeDefinitionIndex = 48767;
+
 	class LPOIDGKPNAO : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

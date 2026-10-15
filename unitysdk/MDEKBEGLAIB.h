@@ -5,6 +5,8 @@
 
 #define MDEKBEGLAIB_CTOR_OFFSET UNITYSDK_OFFSET(0x1D144400)
 
+inline static constexpr unsigned int MDEKBEGLAIB_TypeDefinitionIndex = 24860;
+
 	class MDEKBEGLAIB : public ::System::Attribute
 	{
 	public:

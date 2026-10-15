@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int BattleTutorialDynamicValueParam_TypeDefinitionIndex = 24325;
+
 	class BattleTutorialDynamicValueParam : public ::RPG::GameCore::TutorialDynamicParamBase
 	{
 	public:

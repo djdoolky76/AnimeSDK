@@ -10,6 +10,8 @@ namespace RPG::GameCore { class SetUpTrainVisitorDialogue; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetUpTrainVisitorDialogue_TypeDefinitionIndex = 21594;
+
 	class SetUpTrainVisitorDialogue : public ::RPG::GameCore::TaskConfig
 	{
 	public:

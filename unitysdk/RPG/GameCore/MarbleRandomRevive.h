@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MarbleRandomRevive_TypeDefinitionIndex = 16857;
+
 	class MarbleRandomRevive : public ::RPG::GameCore::MarbleTaskConfig
 	{
 	public:

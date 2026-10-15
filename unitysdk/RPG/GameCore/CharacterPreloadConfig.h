@@ -10,6 +10,8 @@ namespace RPG::GameCore { class CharacterPreloadConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CharacterPreloadConfig_TypeDefinitionIndex = 16340;
+
 	class CharacterPreloadConfig : public ::RPG::GameCore::CharacterPreloadConfigBase
 	{
 	public:

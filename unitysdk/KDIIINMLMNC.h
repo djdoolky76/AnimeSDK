@@ -32,6 +32,8 @@ namespace UnityEngine { class Mesh; }
 #define KDIIINMLMNC_NIKLJNFCMNN_OFFSET UNITYSDK_OFFSET(0xB35E780)
 #define KDIIINMLMNC_PDMACNMBFLN_OFFSET UNITYSDK_OFFSET(0xB35E8E0)
 
+inline static constexpr unsigned int KDIIINMLMNC_TypeDefinitionIndex = 73711;
+
 	class KDIIINMLMNC : public ::System::Object
 	{
 	public:

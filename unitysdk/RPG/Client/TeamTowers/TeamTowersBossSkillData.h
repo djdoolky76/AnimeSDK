@@ -15,6 +15,8 @@ namespace System { class String; }
 
 namespace RPG::Client::TeamTowers
 {
+	inline static constexpr unsigned int TeamTowersBossSkillData_TypeDefinitionIndex = 79020;
+
 	class TeamTowersBossSkillData : public ::System::Object
 	{
 	public:

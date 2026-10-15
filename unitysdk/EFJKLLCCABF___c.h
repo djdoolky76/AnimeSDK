@@ -9,6 +9,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 #define EFJKLLCCABF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x13A51650)
 #define EFJKLLCCABF___C___ENSURETEAMEDITCONTROLLER_B__12_1_OFFSET UNITYSDK_OFFSET(0x13A51660)
 
+inline static constexpr unsigned int EFJKLLCCABF___c_TypeDefinitionIndex = 60408;
+
 	class EFJKLLCCABF___c : public ::System::Object
 	{
 	public:

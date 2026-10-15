@@ -4,6 +4,8 @@
 
 #define NBEAPDPABLI_CTOR_OFFSET UNITYSDK_OFFSET(0xBABE910)
 
+inline static constexpr unsigned int NBEAPDPABLI_TypeDefinitionIndex = 56078;
+
 	class NBEAPDPABLI : public ::System::Object
 	{
 	public:

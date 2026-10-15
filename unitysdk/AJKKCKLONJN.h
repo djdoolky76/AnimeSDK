@@ -14,6 +14,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define AJKKCKLONJN_MCEMEHPCOLP_OFFSET UNITYSDK_OFFSET(0x1C430280)
 #define AJKKCKLONJN_NGCFPFALCGD_OFFSET UNITYSDK_OFFSET(0x1C430320)
 
+inline static constexpr unsigned int AJKKCKLONJN_TypeDefinitionIndex = 41500;
+
 	class AJKKCKLONJN : public ::System::Object
 	{
 	public:

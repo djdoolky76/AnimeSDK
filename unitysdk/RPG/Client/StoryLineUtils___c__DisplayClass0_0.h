@@ -8,6 +8,8 @@ namespace System { class Action; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int StoryLineUtils___c__DisplayClass0_0_TypeDefinitionIndex = 67998;
+
 	class StoryLineUtils___c__DisplayClass0_0 : public ::System::Object
 	{
 	public:

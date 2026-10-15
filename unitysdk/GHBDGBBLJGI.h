@@ -15,6 +15,8 @@ namespace System { class Object; }
 #define GHBDGBBLJGI_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0x15A14B30)
 #define GHBDGBBLJGI_OLEHFIFCLIN_OFFSET UNITYSDK_OFFSET(0x15A14DC0)
 
+inline static constexpr unsigned int GHBDGBBLJGI_TypeDefinitionIndex = 61372;
+
 	class GHBDGBBLJGI : public ::System::Object
 	{
 	public:

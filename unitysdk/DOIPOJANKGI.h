@@ -29,6 +29,8 @@ namespace System { class String; }
 #define DOIPOJANKGI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E202470)
 #define DOIPOJANKGI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E2024D0)
 
+inline static constexpr unsigned int DOIPOJANKGI_TypeDefinitionIndex = 28691;
+
 	class DOIPOJANKGI : public ::System::Object
 	{
 	public:

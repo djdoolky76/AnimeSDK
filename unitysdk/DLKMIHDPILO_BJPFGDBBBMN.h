@@ -10,6 +10,8 @@ namespace UnityEngine { class Transform; }
 #define DLKMIHDPILO_BJPFGDBBBMN_CTOR_OFFSET UNITYSDK_OFFSET(0xF8AA400)
 #define DLKMIHDPILO_BJPFGDBBBMN_HADOHLNHHGB_OFFSET UNITYSDK_OFFSET(0xF8A8F20)
 
+inline static constexpr unsigned int DLKMIHDPILO_BJPFGDBBBMN_TypeDefinitionIndex = 76810;
+
 	class DLKMIHDPILO_BJPFGDBBBMN : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TriggerPropEventInBattle; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TriggerPropEventInBattle_TypeDefinitionIndex = 23130;
+
 	class TriggerPropEventInBattle : public ::RPG::GameCore::TaskConfig
 	{
 	public:

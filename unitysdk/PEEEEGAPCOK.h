@@ -35,6 +35,8 @@ namespace System { class String; }
 #define PEEEEGAPCOK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DF15620)
 #define PEEEEGAPCOK_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DF15680)
 
+inline static constexpr unsigned int PEEEEGAPCOK_TypeDefinitionIndex = 25892;
+
 	class PEEEEGAPCOK : public ::System::Object
 	{
 	public:

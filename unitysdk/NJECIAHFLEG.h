@@ -14,6 +14,8 @@ namespace UnityEngine::UI { class RawImage; }
 #define NJECIAHFLEG_IAMCNOAAALI_OFFSET UNITYSDK_OFFSET(0xBC0AFF0)
 #define NJECIAHFLEG_JCKGONAAIPB_OFFSET UNITYSDK_OFFSET(0xBC0B040)
 
+inline static constexpr unsigned int NJECIAHFLEG_TypeDefinitionIndex = 72924;
+
 	class NJECIAHFLEG : public ::LBAMBIMMJKB
 	{
 	public:

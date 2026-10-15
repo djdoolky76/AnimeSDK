@@ -71,6 +71,8 @@ namespace UnityEngine { class Animation; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int EvolveBuildRewardBox_TypeDefinitionIndex = 53567;
+
 	class EvolveBuildRewardBox : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define FNBFKEGEIPM_CONVERT_OFFSET UNITYSDK_OFFSET(0x1CC92BD0)
 #define FNBFKEGEIPM_CTOR_OFFSET UNITYSDK_OFFSET(0x1CC92D20)
 
+inline static constexpr unsigned int FNBFKEGEIPM_TypeDefinitionIndex = 43898;
+
 	class FNBFKEGEIPM : public ::System::Object
 	{
 	public:

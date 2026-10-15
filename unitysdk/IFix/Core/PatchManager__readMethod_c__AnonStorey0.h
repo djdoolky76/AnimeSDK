@@ -10,6 +10,8 @@ namespace System::Text::RegularExpressions { class Match; }
 
 namespace IFix::Core
 {
+	inline static constexpr unsigned int PatchManager__readMethod_c__AnonStorey0_TypeDefinitionIndex = 7103;
+
 	class PatchManager__readMethod_c__AnonStorey0 : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define DDAPICMFDAB___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E17AA90)
 #define DDAPICMFDAB___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1E17AAA0)
 
+inline static constexpr unsigned int DDAPICMFDAB___c_TypeDefinitionIndex = 30339;
+
 	class DDAPICMFDAB___c : public ::System::Object
 	{
 	public:

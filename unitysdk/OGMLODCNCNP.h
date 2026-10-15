@@ -33,6 +33,8 @@ namespace System { class String; }
 #define OGMLODCNCNP_LJBCDJNNBJH_OFFSET UNITYSDK_OFFSET(0xBE5A080)
 #define OGMLODCNCNP_OMCOIEJDFCO_OFFSET UNITYSDK_OFFSET(0xBE5AEE0)
 
+inline static constexpr unsigned int OGMLODCNCNP_TypeDefinitionIndex = 62040;
+
 	class OGMLODCNCNP : public ::System::Object
 	{
 	public:

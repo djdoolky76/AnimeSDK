@@ -56,6 +56,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int Scene_InstanceArrayBehavior_TypeDefinitionIndex = 70845;
+
 	class Scene_InstanceArrayBehavior : public ::RPG::Client::TABehaviorBase
 	{
 	public:

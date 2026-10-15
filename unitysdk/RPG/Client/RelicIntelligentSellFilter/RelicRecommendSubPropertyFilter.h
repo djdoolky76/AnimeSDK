@@ -19,6 +19,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::RelicIntelligentSellFilter
 {
+	inline static constexpr unsigned int RelicRecommendSubPropertyFilter_TypeDefinitionIndex = 74448;
+
 	class RelicRecommendSubPropertyFilter : public ::System::Object
 	{
 	public:

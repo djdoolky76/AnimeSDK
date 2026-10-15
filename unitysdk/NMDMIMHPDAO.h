@@ -15,6 +15,8 @@ namespace UnityEngine::UI { class Button; }
 #define NMDMIMHPDAO_SET_INDEX_OFFSET UNITYSDK_OFFSET(0xBC81E60)
 #define NMDMIMHPDAO__ONBIND_OFFSET UNITYSDK_OFFSET(0xBC81DF0)
 
+inline static constexpr unsigned int NMDMIMHPDAO_TypeDefinitionIndex = 71395;
+
 	class NMDMIMHPDAO : public ::FMPCODLIOLG
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System::Xml::Serialization { class XmlMemberMapping; }
 
 namespace System::Xml::Serialization
 {
+	inline static constexpr unsigned int XmlMembersMapping_TypeDefinitionIndex = 2016;
+
 	class XmlMembersMapping : public ::System::Xml::Serialization::XmlMapping
 	{
 	public:

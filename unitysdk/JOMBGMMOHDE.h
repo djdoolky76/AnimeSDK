@@ -7,6 +7,8 @@ namespace RPG::GameCore { class GameComponentBase; }
 #define JOMBGMMOHDE_CTOR_OFFSET UNITYSDK_OFFSET(0xB2A99E0)
 #define JOMBGMMOHDE_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0xB2A9990)
 
+inline static constexpr unsigned int JOMBGMMOHDE_TypeDefinitionIndex = 57568;
+
 	class JOMBGMMOHDE : public ::System::Object
 	{
 	public:

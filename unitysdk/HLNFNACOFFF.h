@@ -33,6 +33,8 @@ namespace System { class String; }
 #define HLNFNACOFFF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E5C3050)
 #define HLNFNACOFFF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E5C30B0)
 
+inline static constexpr unsigned int HLNFNACOFFF_TypeDefinitionIndex = 34754;
+
 	class HLNFNACOFFF : public ::System::Object
 	{
 	public:

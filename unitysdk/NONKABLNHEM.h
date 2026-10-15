@@ -27,6 +27,8 @@ namespace System { class String; }
 #define NONKABLNHEM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EB90C70)
 #define NONKABLNHEM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EB90CD0)
 
+inline static constexpr unsigned int NONKABLNHEM_TypeDefinitionIndex = 28623;
+
 	class NONKABLNHEM : public ::System::Object
 	{
 	public:

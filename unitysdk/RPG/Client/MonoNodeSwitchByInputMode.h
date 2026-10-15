@@ -14,6 +14,8 @@ namespace UnityEngine { class RectTransform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoNodeSwitchByInputMode_TypeDefinitionIndex = 72825;
+
 	class MonoNodeSwitchByInputMode : public ::UnityEngine::MonoBehaviour
 	{
 	public:

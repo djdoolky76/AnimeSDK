@@ -16,6 +16,8 @@ namespace System::Reflection { class PropertyInfo; }
 
 namespace DesperateDevs::Utils
 {
+	inline static constexpr unsigned int PublicMemberInfo_TypeDefinitionIndex = 7097;
+
 	class PublicMemberInfo : public ::System::Object
 	{
 	public:

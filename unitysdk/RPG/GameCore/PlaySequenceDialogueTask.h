@@ -15,6 +15,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PlaySequenceDialogueTask_TypeDefinitionIndex = 58283;
+
 	class PlaySequenceDialogueTask : public ::GELIALJDFBL
 	{
 	public:

@@ -8,6 +8,8 @@ namespace RPG::Client { class ItemData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AvatarEidolonHelper_TypeDefinitionIndex = 62639;
+
 	class AvatarEidolonHelper : public ::System::Object
 	{
 	public:

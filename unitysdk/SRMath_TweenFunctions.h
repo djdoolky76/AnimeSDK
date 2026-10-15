@@ -44,6 +44,8 @@
 #define SRMATH_TWEENFUNCTIONS_SINEEASEOUTIN_OFFSET UNITYSDK_OFFSET(0x1ED84BC0)
 #define SRMATH_TWEENFUNCTIONS_SINEEASEOUT_OFFSET UNITYSDK_OFFSET(0x1ED84A80)
 
+inline static constexpr unsigned int SRMath_TweenFunctions_TypeDefinitionIndex = 35353;
+
 	class SRMath_TweenFunctions : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ResetActionCountDown_TypeDefinitionIndex = 23695;
+
 	class ResetActionCountDown : public ::RPG::GameCore::TaskConfig
 	{
 	public:

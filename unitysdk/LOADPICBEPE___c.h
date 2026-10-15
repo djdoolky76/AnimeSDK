@@ -10,6 +10,8 @@ namespace System::Collections::Generic { class KeyValuePair; }
 #define LOADPICBEPE___C_CTOR_OFFSET UNITYSDK_OFFSET(0xB7F1D50)
 #define LOADPICBEPE___C___ONPLAYERFINISH_B__32_0_OFFSET UNITYSDK_OFFSET(0xB7F1D60)
 
+inline static constexpr unsigned int LOADPICBEPE___c_TypeDefinitionIndex = 74209;
+
 	class LOADPICBEPE___c : public ::System::Object
 	{
 	public:

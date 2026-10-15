@@ -5,6 +5,8 @@ namespace RPG::Client { class FateGameData; }
 
 #define OFKKIMABHJD_CTOR_OFFSET UNITYSDK_OFFSET(0xBE45E10)
 
+inline static constexpr unsigned int OFKKIMABHJD_TypeDefinitionIndex = 64037;
+
 	class OFKKIMABHJD : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueActTriggerDialogueConditionEffectListConfig
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueActTriggerDialogueConditionEffectListConfig_TypeDefinitionIndex = 19633;
+
 	class RogueActTriggerDialogueConditionEffectListConfig : public ::RPG::GameCore::RogueActionConfigBase
 	{
 	public:

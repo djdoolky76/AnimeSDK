@@ -7,6 +7,8 @@ namespace RPG::GameCore { class MarbleSetTechActive; }
 #define CMDHADFNKJB_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA13070)
 #define CMDHADFNKJB_KDNAAOHECPD_OFFSET UNITYSDK_OFFSET(0x1CA13080)
 
+inline static constexpr unsigned int CMDHADFNKJB_TypeDefinitionIndex = 43110;
+
 	class CMDHADFNKJB : public ::BKABEBEPPJK
 	{
 	public:

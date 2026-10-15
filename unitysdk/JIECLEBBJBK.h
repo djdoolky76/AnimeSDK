@@ -3,6 +3,8 @@
 
 #define JIECLEBBJBK_CTOR_OFFSET UNITYSDK_OFFSET(0x10480)
 
+inline static constexpr unsigned int JIECLEBBJBK_TypeDefinitionIndex = 82253;
+
 	struct alignas(4) JIECLEBBJBK
 	{
 		::System::UInt64 HOKPHCBNHNF; // 0x10

@@ -18,6 +18,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int NPCPedestrianGPUAssetConfig__FindAllIdentities_d__4_TypeDefinitionIndex = 69241;
+
 	template <typename T1, typename T2, typename T3, typename T4>
 	class NPCPedestrianGPUAssetConfig__FindAllIdentities_d__4 : public ::System::Object
 	{

@@ -14,6 +14,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ModifyDefaultTeamFormation_TypeDefinitionIndex = 22489;
+
 	class ModifyDefaultTeamFormation : public ::RPG::GameCore::TaskConfig
 	{
 	public:

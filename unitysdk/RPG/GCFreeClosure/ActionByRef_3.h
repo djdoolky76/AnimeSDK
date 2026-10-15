@@ -4,6 +4,8 @@
 
 namespace RPG::GCFreeClosure
 {
+	inline static constexpr unsigned int ActionByRef_3_TypeDefinitionIndex = 6518;
+
 	template <typename T1, typename T2, typename T3>
 	class ActionByRef_3 : public ::System::MulticastDelegate
 	{

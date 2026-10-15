@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ST_Main_ElfCustomerExtraPay; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ST_Main_ElfCustomerExtraPay_TypeDefinitionIndex = 21534;
+
 	class ST_Main_ElfCustomerExtraPay : public ::RPG::GameCore::STTaskConfig
 	{
 	public:

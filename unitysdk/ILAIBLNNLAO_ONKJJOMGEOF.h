@@ -20,6 +20,8 @@ namespace UnityEngine { class GameObject; }
 #define ILAIBLNNLAO_ONKJJOMGEOF_SET_ISLOADING_OFFSET UNITYSDK_OFFSET(0x164A6880)
 #define ILAIBLNNLAO_ONKJJOMGEOF_SET_ISREADY_OFFSET UNITYSDK_OFFSET(0x164A6860)
 
+inline static constexpr unsigned int ILAIBLNNLAO_ONKJJOMGEOF_TypeDefinitionIndex = 60621;
+
 	class ILAIBLNNLAO_ONKJJOMGEOF : public ::System::Object
 	{
 	public:

@@ -18,6 +18,8 @@ namespace System { class String; }
 
 namespace RootMotion::FinalIK
 {
+	inline static constexpr unsigned int LimbIK_TypeDefinitionIndex = 46012;
+
 	class LimbIK : public ::RootMotion::FinalIK::IK
 	{
 	public:

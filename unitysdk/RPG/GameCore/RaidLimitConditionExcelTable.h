@@ -25,6 +25,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RaidLimitConditionExcelTable_TypeDefinitionIndex = 14596;
+
 	class RaidLimitConditionExcelTable : public ::System::Object
 	{
 	public:

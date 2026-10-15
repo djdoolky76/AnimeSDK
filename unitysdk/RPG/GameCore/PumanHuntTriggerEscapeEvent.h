@@ -10,6 +10,8 @@ namespace RPG::GameCore { class PumanHuntTriggerEscapeEvent; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PumanHuntTriggerEscapeEvent_TypeDefinitionIndex = 20231;
+
 	class PumanHuntTriggerEscapeEvent : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -9,6 +9,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RaidConfigExcelTable_IndexKey_TypeDefinitionIndex = 14594;
+
 	struct alignas(4) RaidConfigExcelTable_IndexKey
 	{
 		::System::UInt32 RaidID; // 0x10

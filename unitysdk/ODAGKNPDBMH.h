@@ -2,6 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/CMIMHAHPAOC.h"
 
+inline static constexpr unsigned int ODAGKNPDBMH_TypeDefinitionIndex = 56325;
+
 	struct alignas(8) ODAGKNPDBMH
 	{
 		::System::UInt32 PHFMCACHFIJ; // 0x10

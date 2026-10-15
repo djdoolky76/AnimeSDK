@@ -5,6 +5,8 @@ class HIECHPAKPFL;
 
 #define BHOGEICMOND_CTOR_OFFSET UNITYSDK_OFFSET(0x1C8BADF0)
 
+inline static constexpr unsigned int BHOGEICMOND_TypeDefinitionIndex = 43224;
+
 	class BHOGEICMOND : public ::System::Object
 	{
 	public:

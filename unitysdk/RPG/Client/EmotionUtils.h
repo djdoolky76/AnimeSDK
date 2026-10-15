@@ -19,6 +19,8 @@ namespace UnityEngine { class SkinnedMeshRenderer; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int EmotionUtils_TypeDefinitionIndex = 71130;
+
 	class EmotionUtils : public ::System::Object
 	{
 	public:

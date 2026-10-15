@@ -6,6 +6,8 @@
 #define NGIOCFNJNKB_GET_CMDID_OFFSET UNITYSDK_OFFSET(0xBBA9E50)
 #define NGIOCFNJNKB_GET_TIMEOUTMS_OFFSET UNITYSDK_OFFSET(0xBBA9E60)
 
+inline static constexpr unsigned int NGIOCFNJNKB_TypeDefinitionIndex = 69404;
+
 	class NGIOCFNJNKB : public ::System::Exception
 	{
 	public:

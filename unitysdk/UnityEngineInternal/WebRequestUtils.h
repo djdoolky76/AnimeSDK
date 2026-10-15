@@ -13,6 +13,8 @@ namespace System::Text::RegularExpressions { class Regex; }
 
 namespace UnityEngineInternal
 {
+	inline static constexpr unsigned int WebRequestUtils_TypeDefinitionIndex = 5350;
+
 	class WebRequestUtils : public ::System::Object
 	{
 	public:

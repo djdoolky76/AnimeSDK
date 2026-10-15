@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueModifierForceChangeRogueAdventureRewardLeve
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueModifierForceChangeRogueAdventureRewardLevelConfig_TypeDefinitionIndex = 17831;
+
 	class RogueModifierForceChangeRogueAdventureRewardLevelConfig : public ::RPG::GameCore::RogueModifierConfig
 	{
 	public:

@@ -9,6 +9,8 @@ namespace System { class Action; }
 
 namespace RPG::Client::B51Racing
 {
+	inline static constexpr unsigned int B51RacingCarActiveSkillUpgradePageViewModel_TypeDefinitionIndex = 81985;
+
 	class B51RacingCarActiveSkillUpgradePageViewModel : public ::System::Object
 	{
 	public:

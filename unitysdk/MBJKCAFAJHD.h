@@ -47,6 +47,8 @@ namespace System { class Action; }
 #define MBJKCAFAJHD_PEEGCKEAGGL_OFFSET UNITYSDK_OFFSET(0xB85C3F0)
 #define MBJKCAFAJHD_PNOOHCOMNPJ_OFFSET UNITYSDK_OFFSET(0xB85DA20)
 
+inline static constexpr unsigned int MBJKCAFAJHD_TypeDefinitionIndex = 81841;
+
 	class MBJKCAFAJHD : public ::System::Object
 	{
 	public:

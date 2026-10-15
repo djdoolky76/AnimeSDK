@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int StageTypePrefabs_TypeDefinitionIndex = 16358;
+
 	class StageTypePrefabs : public ::RPG::GameCore::JsonConfig
 	{
 	public:

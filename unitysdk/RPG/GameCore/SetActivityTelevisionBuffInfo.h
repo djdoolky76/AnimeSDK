@@ -11,6 +11,8 @@ namespace RPG::GameCore { class SetActivityTelevisionBuffInfo; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetActivityTelevisionBuffInfo_TypeDefinitionIndex = 23243;
+
 	class SetActivityTelevisionBuffInfo : public ::RPG::GameCore::TaskConfig
 	{
 	public:

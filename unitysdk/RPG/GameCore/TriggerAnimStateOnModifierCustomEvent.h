@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TriggerAnimStateOnModifierCustomEvent_TypeDefinitionIndex = 23129;
+
 	class TriggerAnimStateOnModifierCustomEvent : public ::RPG::GameCore::TaskConfig
 	{
 	public:

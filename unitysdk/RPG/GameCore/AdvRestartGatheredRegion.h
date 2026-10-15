@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdvRestartGatheredRegion_TypeDefinitionIndex = 21000;
+
 	class AdvRestartGatheredRegion : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -27,6 +27,8 @@ namespace System { class String; }
 #define FMIGHLPJAME_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E3E6BA0)
 #define FMIGHLPJAME_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E3E6C00)
 
+inline static constexpr unsigned int FMIGHLPJAME_TypeDefinitionIndex = 34923;
+
 	class FMIGHLPJAME : public ::System::Object
 	{
 	public:

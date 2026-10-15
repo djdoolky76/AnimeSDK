@@ -16,6 +16,8 @@ namespace System { class Object; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int WaitDialogueBeginTask_TypeDefinitionIndex = 58882;
+
 	class WaitDialogueBeginTask : public ::GELIALJDFBL
 	{
 	public:

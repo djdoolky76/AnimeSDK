@@ -7,6 +7,8 @@ namespace UnityEngine { class Canvas; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int LayerOrderAdjustCanvasItem_TypeDefinitionIndex = 73073;
+
 	class LayerOrderAdjustCanvasItem : public ::System::Object
 	{
 	public:

@@ -6,6 +6,8 @@ namespace Proto { class MonopolyActionResult; }
 #define IEGHKAIMCAJ_CTOR_OFFSET UNITYSDK_OFFSET(0x15EF9C60)
 #define IEGHKAIMCAJ_TRIGGER_OFFSET UNITYSDK_OFFSET(0x15EF9C20)
 
+inline static constexpr unsigned int IEGHKAIMCAJ_TypeDefinitionIndex = 66243;
+
 	class IEGHKAIMCAJ : public ::System::Object
 	{
 	public:

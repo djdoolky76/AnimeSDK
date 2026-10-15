@@ -9,6 +9,8 @@ namespace SWRT { class BVH2_HNode; }
 
 namespace SWRT
 {
+	inline static constexpr unsigned int BVH2_HNode_TypeDefinitionIndex = 37494;
+
 	class BVH2_HNode : public ::System::Object
 	{
 	public:

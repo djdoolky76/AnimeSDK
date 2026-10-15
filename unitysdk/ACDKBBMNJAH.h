@@ -7,6 +7,8 @@ namespace System { template <typename T> class Comparison_1; }
 #define ACDKBBMNJAH_CTOR_OFFSET UNITYSDK_OFFSET(0xB1181A0)
 #define ACDKBBMNJAH__COMPAREIMPL_OFFSET UNITYSDK_OFFSET(0xB1181B0)
 
+inline static constexpr unsigned int ACDKBBMNJAH_TypeDefinitionIndex = 62811;
+
 	class ACDKBBMNJAH : public ::RPG::Client::AvatarComparerBase
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System { class Object; }
 
 namespace Entitas
 {
+	inline static constexpr unsigned int EntityIsNotRetainedByOwnerException_TypeDefinitionIndex = 10010;
+
 	class EntityIsNotRetainedByOwnerException : public ::Entitas::EntitasException
 	{
 	public:

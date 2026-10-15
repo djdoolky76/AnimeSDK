@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define ECOGPFKDJDF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E258C70)
 #define ECOGPFKDJDF___C___CCTOR_B__48_0_OFFSET UNITYSDK_OFFSET(0x1E258C80)
 
+inline static constexpr unsigned int ECOGPFKDJDF___c_TypeDefinitionIndex = 25075;
+
 	class ECOGPFKDJDF___c : public ::System::Object
 	{
 	public:

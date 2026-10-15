@@ -10,6 +10,8 @@ namespace ZXing::Datamatrix::Encoder { class EncoderContext; }
 
 namespace ZXing::Datamatrix::Encoder
 {
+	inline static constexpr unsigned int Base256Encoder_TypeDefinitionIndex = 7053;
+
 	class Base256Encoder : public ::System::Object
 	{
 	public:

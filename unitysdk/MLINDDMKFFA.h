@@ -40,6 +40,8 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyLi
 #define MLINDDMKFFA_SET_TALENTENTRANCE_OFFSET UNITYSDK_OFFSET(0xB9AEB40)
 #define MLINDDMKFFA___ONCONFIRM_B__39_0_OFFSET UNITYSDK_OFFSET(0xB9AF2F0)
 
+inline static constexpr unsigned int MLINDDMKFFA_TypeDefinitionIndex = 79638;
+
 	class MLINDDMKFFA : public ::System::Object
 	{
 	public:

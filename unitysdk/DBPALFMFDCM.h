@@ -12,6 +12,8 @@ namespace System { class Object; }
 #define DBPALFMFDCM_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xE234FA0)
 #define DBPALFMFDCM_TICK_OFFSET UNITYSDK_OFFSET(0xE235050)
 
+inline static constexpr unsigned int DBPALFMFDCM_TypeDefinitionIndex = 52938;
+
 	class DBPALFMFDCM : public ::GELIALJDFBL
 	{
 	public:

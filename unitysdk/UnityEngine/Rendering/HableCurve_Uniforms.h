@@ -15,6 +15,8 @@ namespace UnityEngine::Rendering { class HableCurve; }
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int HableCurve_Uniforms_TypeDefinitionIndex = 35603;
+
 	class HableCurve_Uniforms : public ::System::Object
 	{
 	public:

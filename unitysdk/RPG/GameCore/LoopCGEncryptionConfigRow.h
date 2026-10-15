@@ -10,6 +10,8 @@ namespace RPG::GameCore { class LoopCGEncryptionConfigRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LoopCGEncryptionConfigRow_TypeDefinitionIndex = 15420;
+
 	class LoopCGEncryptionConfigRow : public ::System::Object
 	{
 	public:

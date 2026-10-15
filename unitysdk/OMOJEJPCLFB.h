@@ -9,6 +9,8 @@ namespace RPG::GameCore { class TaskConfig; }
 #define OMOJEJPCLFB_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D29E4A0)
 #define OMOJEJPCLFB_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D29E460)
 
+inline static constexpr unsigned int OMOJEJPCLFB_TypeDefinitionIndex = 19892;
+
 	class OMOJEJPCLFB : public ::RPG::GameCore::TaskConfig
 	{
 	public:

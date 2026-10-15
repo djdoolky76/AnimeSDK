@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define JFFDODABJDL_CTOR_OFFSET UNITYSDK_OFFSET(0x16649660)
 #define JFFDODABJDL_EVALUATE_OFFSET UNITYSDK_OFFSET(0x16649690)
 
+inline static constexpr unsigned int JFFDODABJDL_TypeDefinitionIndex = 53124;
+
 	class JFFDODABJDL
 	{
 	public:

@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int MmtManager___c__DisplayClass13_2_TypeDefinitionIndex = 8039;
+
 	template <typename T1, typename T2>
 	class MmtManager___c__DisplayClass13_2 : public ::System::Object
 	{

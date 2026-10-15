@@ -25,6 +25,8 @@ namespace System { class String; }
 #define MHJNOBBOFOC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EA33B30)
 #define MHJNOBBOFOC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EA33B90)
 
+inline static constexpr unsigned int MHJNOBBOFOC_TypeDefinitionIndex = 26945;
+
 	class MHJNOBBOFOC : public ::System::Object
 	{
 	public:

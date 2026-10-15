@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetMonsterHPTotalSeg_TypeDefinitionIndex = 23143;
+
 	class SetMonsterHPTotalSeg : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -19,6 +19,8 @@ namespace RPG::Client { class RogueBuffData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueBuffShopItemData_TypeDefinitionIndex = 67329;
+
 	class RogueBuffShopItemData : public ::System::Object
 	{
 	public:

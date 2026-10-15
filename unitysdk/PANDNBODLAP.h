@@ -24,6 +24,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define PANDNBODLAP_SET_PREMATCHTRACKINFOLIST_OFFSET UNITYSDK_OFFSET(0xBFD7FC0)
 #define PANDNBODLAP_SET_TARGETPARTID_OFFSET UNITYSDK_OFFSET(0xBFD8020)
 
+inline static constexpr unsigned int PANDNBODLAP_TypeDefinitionIndex = 81708;
+
 	class PANDNBODLAP : public ::System::Object
 	{
 	public:

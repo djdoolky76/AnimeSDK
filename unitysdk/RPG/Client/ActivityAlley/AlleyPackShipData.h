@@ -16,6 +16,8 @@ class JLBNMIJCNNI;
 
 namespace RPG::Client::ActivityAlley
 {
+	inline static constexpr unsigned int AlleyPackShipData_TypeDefinitionIndex = 74107;
+
 	class AlleyPackShipData : public ::RPG::Client::ActivityAlley::AlleyPackGoodData
 	{
 	public:

@@ -7,6 +7,8 @@ namespace UnityEngine { class Texture2D; }
 
 namespace IRI2
 {
+	inline static constexpr unsigned int ClusterIRIType_TypeDefinitionIndex = 49665;
+
 	struct alignas(8) ClusterIRIType
 	{
 		::System::UInt64 MaterialHash; // 0x10

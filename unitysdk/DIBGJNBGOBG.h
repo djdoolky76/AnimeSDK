@@ -3,6 +3,8 @@
 #include "unitysdk/System/Object.h"
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
+inline static constexpr unsigned int DIBGJNBGOBG_TypeDefinitionIndex = 44270;
+
 	class DIBGJNBGOBG : public ::System::Object
 	{
 	public:

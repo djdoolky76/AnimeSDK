@@ -4,6 +4,8 @@
 
 namespace MiHoYo::SDK::PluginUI
 {
+	inline static constexpr unsigned int UIConstants_ConfirmElements_TypeDefinitionIndex = 46799;
+
 	class UIConstants_ConfirmElements : public ::System::Object
 	{
 	public:

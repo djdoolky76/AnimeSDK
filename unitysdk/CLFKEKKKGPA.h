@@ -5,6 +5,8 @@
 #define CLFKEKKKGPA_CTOR_OFFSET UNITYSDK_OFFSET(0xD77CA50)
 #define CLFKEKKKGPA_JJNFOPNOPBF_OFFSET UNITYSDK_OFFSET(0xD77CA80)
 
+inline static constexpr unsigned int CLFKEKKKGPA_TypeDefinitionIndex = 62448;
+
 	class CLFKEKKKGPA : public ::System::Object
 	{
 	public:

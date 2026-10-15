@@ -22,6 +22,8 @@ namespace RPG::GameCore { class AetherDivideSpiritRow; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AetherMonsterAvatarDisplayData_TypeDefinitionIndex = 62225;
+
 	class AetherMonsterAvatarDisplayData : public ::System::Object
 	{
 	public:

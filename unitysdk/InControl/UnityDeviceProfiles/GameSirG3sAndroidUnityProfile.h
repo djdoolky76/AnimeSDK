@@ -7,6 +7,8 @@
 
 namespace InControl::UnityDeviceProfiles
 {
+	inline static constexpr unsigned int GameSirG3sAndroidUnityProfile_TypeDefinitionIndex = 40957;
+
 	class GameSirG3sAndroidUnityProfile : public ::InControl::InputDeviceProfile
 	{
 	public:

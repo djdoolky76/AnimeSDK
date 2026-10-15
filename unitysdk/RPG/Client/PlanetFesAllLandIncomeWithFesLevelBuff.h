@@ -15,6 +15,8 @@ namespace RPG::Client { class PlanetFesAvatarData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PlanetFesAllLandIncomeWithFesLevelBuff_TypeDefinitionIndex = 66538;
+
 	class PlanetFesAllLandIncomeWithFesLevelBuff : public ::RPG::Client::BasePlanetFesBuff
 	{
 	public:

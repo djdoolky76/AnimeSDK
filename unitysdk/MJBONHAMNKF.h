@@ -13,6 +13,8 @@ class MJBONHAMNKF;
 #define MJBONHAMNKF_SET_FORBIDREASON_OFFSET UNITYSDK_OFFSET(0xB964080)
 #define MJBONHAMNKF_SET_ISCANOPENDOOR_OFFSET UNITYSDK_OFFSET(0xB964060)
 
+inline static constexpr unsigned int MJBONHAMNKF_TypeDefinitionIndex = 67696;
+
 	class MJBONHAMNKF : public ::System::Object
 	{
 	public:

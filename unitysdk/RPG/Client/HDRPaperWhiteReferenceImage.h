@@ -13,6 +13,8 @@ namespace UnityEngine::UI { class Image; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int HDRPaperWhiteReferenceImage_TypeDefinitionIndex = 72805;
+
 	class HDRPaperWhiteReferenceImage : public ::UnityEngine::MonoBehaviour
 	{
 	public:

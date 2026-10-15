@@ -15,6 +15,8 @@ namespace System::Net::Sockets { class Socket; }
 #define MNFEMJNAJJJ_OIMIBPILLFN_OFFSET UNITYSDK_OFFSET(0x1DDAE990)
 #define MNFEMJNAJJJ_PDKLDMNAJBO_OFFSET UNITYSDK_OFFSET(0x1DDAEB00)
 
+inline static constexpr unsigned int MNFEMJNAJJJ_TypeDefinitionIndex = 43950;
+
 	class MNFEMJNAJJJ : public ::System::Object
 	{
 	public:

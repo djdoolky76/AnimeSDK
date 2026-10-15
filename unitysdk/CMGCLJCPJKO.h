@@ -27,6 +27,8 @@ namespace System { class String; }
 #define CMGCLJCPJKO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E101830)
 #define CMGCLJCPJKO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E101890)
 
+inline static constexpr unsigned int CMGCLJCPJKO_TypeDefinitionIndex = 30645;
+
 	class CMGCLJCPJKO : public ::System::Object
 	{
 	public:

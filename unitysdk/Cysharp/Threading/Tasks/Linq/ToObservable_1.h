@@ -5,6 +5,8 @@ namespace Cysharp::Threading::Tasks { template <typename T> class IUniTaskAsyncE
 
 namespace Cysharp::Threading::Tasks::Linq
 {
+	inline static constexpr unsigned int ToObservable_1_TypeDefinitionIndex = 45699;
+
 	template <typename T>
 	class ToObservable_1 : public ::System::Object
 	{

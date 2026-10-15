@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define NGIHJNMIMOM_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1D207770)
 #define NGIHJNMIMOM_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1D207090)
 
+inline static constexpr unsigned int NGIHJNMIMOM_TypeDefinitionIndex = 11854;
+
 	class NGIHJNMIMOM : public ::System::Object
 	{
 	public:

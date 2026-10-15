@@ -11,6 +11,8 @@ namespace RPG::GameCore { class HipplenRequireStatGrade; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int HipplenRequireStatGrade_TypeDefinitionIndex = 16787;
+
 	class HipplenRequireStatGrade : public ::RPG::GameCore::JsonConfig
 	{
 	public:

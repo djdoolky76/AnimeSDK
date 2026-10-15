@@ -9,6 +9,8 @@ namespace System { class String; }
 #define NBHLFPACHPP_CTOR_OFFSET UNITYSDK_OFFSET(0xBAC4220)
 #define NBHLFPACHPP_KDEAEDHAAAE_OFFSET UNITYSDK_OFFSET(0xBAC4160)
 
+inline static constexpr unsigned int NBHLFPACHPP_TypeDefinitionIndex = 69506;
+
 	class NBHLFPACHPP : public ::System::Object
 	{
 	public:

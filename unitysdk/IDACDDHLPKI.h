@@ -17,6 +17,8 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyLi
 #define IDACDDHLPKI_IMPORTPROFILE_OFFSET UNITYSDK_OFFSET(0x15E671B0)
 #define IDACDDHLPKI_SET_DRESSEDSKIN_OFFSET UNITYSDK_OFFSET(0x15E67190)
 
+inline static constexpr unsigned int IDACDDHLPKI_TypeDefinitionIndex = 51945;
+
 	class IDACDDHLPKI : public ::System::Object
 	{
 	public:

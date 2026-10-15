@@ -27,6 +27,8 @@ namespace System { class String; }
 #define ELNAIJEFGMK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E2D6F70)
 #define ELNAIJEFGMK_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E2D6FD0)
 
+inline static constexpr unsigned int ELNAIJEFGMK_TypeDefinitionIndex = 30744;
+
 	class ELNAIJEFGMK : public ::System::Object
 	{
 	public:

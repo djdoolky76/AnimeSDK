@@ -8,6 +8,8 @@ namespace RPG::Client { class ListView; }
 namespace System { class IDisposable; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
+inline static constexpr unsigned int LIHGCOJMOAF_TypeDefinitionIndex = 49804;
+
 	class LIHGCOJMOAF : public ::System::Object
 	{
 	public:

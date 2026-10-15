@@ -19,6 +19,8 @@ namespace System { class String; }
 #define IBNCECGKMNI_POIPBCKGABI_OFFSET UNITYSDK_OFFSET(0x15E434A0)
 #define IBNCECGKMNI_SET_ISENABLE_OFFSET UNITYSDK_OFFSET(0x15E433E0)
 
+inline static constexpr unsigned int IBNCECGKMNI_TypeDefinitionIndex = 59462;
+
 	class IBNCECGKMNI : public ::System::Object
 	{
 	public:

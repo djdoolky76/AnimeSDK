@@ -11,6 +11,8 @@ namespace RPG::GameCore { class WaitUIControllerClose; }
 #define PBGCIDOOGJN_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xBFECCE0)
 #define PBGCIDOOGJN_TICK_OFFSET UNITYSDK_OFFSET(0xBFECD30)
 
+inline static constexpr unsigned int PBGCIDOOGJN_TypeDefinitionIndex = 58941;
+
 	class PBGCIDOOGJN : public ::GELIALJDFBL
 	{
 	public:

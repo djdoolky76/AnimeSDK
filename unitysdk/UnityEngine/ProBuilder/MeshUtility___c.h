@@ -13,6 +13,8 @@ namespace UnityEngine::ProBuilder { class Vertex; }
 
 namespace UnityEngine::ProBuilder
 {
+	inline static constexpr unsigned int MeshUtility___c_TypeDefinitionIndex = 44378;
+
 	class MeshUtility___c : public ::System::Object
 	{
 	public:

@@ -7,6 +7,8 @@
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int ShadowSettings_TypeDefinitionIndex = 37571;
+
 	class ShadowSettings : public ::System::Object
 	{
 	public:

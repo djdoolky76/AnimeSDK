@@ -25,6 +25,8 @@ namespace UnityEngine { class MaterialPropertyBlock; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int Effect_KaleidoscopeAnimatorBehavior_TypeDefinitionIndex = 70492;
+
 	class Effect_KaleidoscopeAnimatorBehavior : public ::RPG::Client::TABehaviorBase
 	{
 	public:

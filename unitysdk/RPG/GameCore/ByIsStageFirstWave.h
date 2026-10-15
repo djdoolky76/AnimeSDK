@@ -13,6 +13,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByIsStageFirstWave_TypeDefinitionIndex = 23523;
+
 	class ByIsStageFirstWave : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

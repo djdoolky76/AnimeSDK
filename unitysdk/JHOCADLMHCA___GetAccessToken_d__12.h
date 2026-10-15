@@ -10,6 +10,8 @@ namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 #define JHOCADLMHCA___GETACCESSTOKEN_D__12_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x10C30)
 #define JHOCADLMHCA___GETACCESSTOKEN_D__12_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x10C40)
 
+inline static constexpr unsigned int JHOCADLMHCA___GetAccessToken_d__12_TypeDefinitionIndex = 50043;
+
 	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename T8, typename T9, typename T10, typename T11, typename T12>
 	struct alignas(8) JHOCADLMHCA___GetAccessToken_d__12
 	{

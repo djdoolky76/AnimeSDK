@@ -31,6 +31,8 @@ namespace System::Collections::Generic { template <typename T> class LinkedList_
 #define NEPMJIEFJCF_ONAOAJHNPMM_OFFSET UNITYSDK_OFFSET(0xBB75490)
 #define NEPMJIEFJCF_SET_LINKOWNER_OFFSET UNITYSDK_OFFSET(0xBB76940)
 
+inline static constexpr unsigned int NEPMJIEFJCF_TypeDefinitionIndex = 55950;
+
 	class NEPMJIEFJCF : public ::System::Object
 	{
 	public:

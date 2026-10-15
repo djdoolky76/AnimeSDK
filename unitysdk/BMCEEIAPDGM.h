@@ -4,6 +4,8 @@
 
 #define BMCEEIAPDGM_CTOR_OFFSET UNITYSDK_OFFSET(0x1C8BC770)
 
+inline static constexpr unsigned int BMCEEIAPDGM_TypeDefinitionIndex = 42148;
+
 	class BMCEEIAPDGM : public ::System::Object
 	{
 	public:

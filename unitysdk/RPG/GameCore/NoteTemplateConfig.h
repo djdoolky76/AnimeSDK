@@ -9,6 +9,8 @@ namespace RPG::GameCore { class NoteTemplateConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int NoteTemplateConfig_TypeDefinitionIndex = 16973;
+
 	class NoteTemplateConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

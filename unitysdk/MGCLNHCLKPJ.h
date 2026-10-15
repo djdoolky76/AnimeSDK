@@ -14,6 +14,8 @@ class OPPEGLOCAGH;
 #define MGCLNHCLKPJ_LIGODLHKMJN_OFFSET UNITYSDK_OFFSET(0xB916CE0)
 #define MGCLNHCLKPJ_NPJLADPFABC_OFFSET UNITYSDK_OFFSET(0xB917030)
 
+inline static constexpr unsigned int MGCLNHCLKPJ_TypeDefinitionIndex = 80124;
+
 	class MGCLNHCLKPJ : public ::System::Object
 	{
 	public:

@@ -15,6 +15,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByIsFakeSkillBySlot_TypeDefinitionIndex = 23007;
+
 	class ByIsFakeSkillBySlot : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

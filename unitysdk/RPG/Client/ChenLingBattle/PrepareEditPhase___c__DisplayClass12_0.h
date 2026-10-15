@@ -9,6 +9,8 @@ namespace RPG::Client::Promises { class Promise; }
 
 namespace RPG::Client::ChenLingBattle
 {
+	inline static constexpr unsigned int PrepareEditPhase___c__DisplayClass12_0_TypeDefinitionIndex = 76306;
+
 	class PrepareEditPhase___c__DisplayClass12_0 : public ::System::Object
 	{
 	public:

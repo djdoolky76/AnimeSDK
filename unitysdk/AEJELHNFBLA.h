@@ -5,6 +5,8 @@
 #define AEJELHNFBLA_CTOR_OFFSET UNITYSDK_OFFSET(0xCEFEBB0)
 #define AEJELHNFBLA_FHAAHMEJMCI_OFFSET UNITYSDK_OFFSET(0xCEFE900)
 
+inline static constexpr unsigned int AEJELHNFBLA_TypeDefinitionIndex = 66513;
+
 	class AEJELHNFBLA : public ::FMIHMGNLBPN
 	{
 	public:

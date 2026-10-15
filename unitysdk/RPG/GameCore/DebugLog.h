@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DebugLog_TypeDefinitionIndex = 23763;
+
 	class DebugLog : public ::RPG::GameCore::TaskConfig
 	{
 	public:

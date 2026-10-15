@@ -10,6 +10,8 @@ namespace RPG::GameCore { class UIMonopolyWaitMainPage; }
 #define AHJNBFGFADH_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xEB84CC0)
 #define AHJNBFGFADH_TICK_OFFSET UNITYSDK_OFFSET(0xEB84A70)
 
+inline static constexpr unsigned int AHJNBFGFADH_TypeDefinitionIndex = 58836;
+
 	class AHJNBFGFADH : public ::GELIALJDFBL
 	{
 	public:

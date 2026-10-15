@@ -28,6 +28,8 @@ namespace System { class String; }
 #define HFHFMPLAJCC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E56A2B0)
 #define HFHFMPLAJCC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E56A310)
 
+inline static constexpr unsigned int HFHFMPLAJCC_TypeDefinitionIndex = 25230;
+
 	class HFHFMPLAJCC : public ::System::Object
 	{
 	public:

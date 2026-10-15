@@ -4,6 +4,8 @@
 
 #define STAGEHARMONYAUDIOLINKSLOT_OJKBKDDKCIK_CTOR_OFFSET UNITYSDK_OFFSET(0xE98B9E0)
 
+inline static constexpr unsigned int StageHarmonyAudioLinkSlot_OJKBKDDKCIK_TypeDefinitionIndex = 47536;
+
 	class StageHarmonyAudioLinkSlot_OJKBKDDKCIK : public ::System::Object
 	{
 	public:

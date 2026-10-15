@@ -32,6 +32,8 @@ namespace System { class String; }
 #define ILDLFBKGLDP_SET_FORCESELECTCARDINDEX_OFFSET UNITYSDK_OFFSET(0x164AA070)
 #define ILDLFBKGLDP_SET_ISGAMEPADCARDAUTOFOCUSENABLED_OFFSET UNITYSDK_OFFSET(0x164AA180)
 
+inline static constexpr unsigned int ILDLFBKGLDP_TypeDefinitionIndex = 80712;
+
 	class ILDLFBKGLDP : public ::System::Object
 	{
 	public:

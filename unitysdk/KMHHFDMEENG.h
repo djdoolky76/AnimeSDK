@@ -9,6 +9,8 @@ namespace RPG::GameCore { class MusicRhythmOpticalRow; }
 #define KMHHFDMEENG_CTOR_OFFSET UNITYSDK_OFFSET(0xB5573C0)
 #define KMHHFDMEENG_NBBMINIOAIP_OFFSET UNITYSDK_OFFSET(0xB557290)
 
+inline static constexpr unsigned int KMHHFDMEENG_TypeDefinitionIndex = 61812;
+
 	class KMHHFDMEENG : public ::System::Object
 	{
 	public:

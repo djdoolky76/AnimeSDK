@@ -14,6 +14,8 @@ namespace RPG::LittleGameShare::HoyoPhysics::Box2D { class B2MoveResult; }
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
+	inline static constexpr unsigned int B2BroadPhase_TypeDefinitionIndex = 36601;
+
 	class B2BroadPhase : public ::System::Object
 	{
 	public:

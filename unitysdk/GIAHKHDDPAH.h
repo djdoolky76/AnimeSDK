@@ -10,6 +10,8 @@ namespace RPG::GameCore { class UINotifyMonopolyEventStart; }
 #define GIAHKHDDPAH_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x15A2E150)
 #define GIAHKHDDPAH_TICK_OFFSET UNITYSDK_OFFSET(0x15A2E0F0)
 
+inline static constexpr unsigned int GIAHKHDDPAH_TypeDefinitionIndex = 58838;
+
 	class GIAHKHDDPAH : public ::GELIALJDFBL
 	{
 	public:

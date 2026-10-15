@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FiveDimPlayerSkillArrowCondition; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimPlayerSkillArrowCondition_TypeDefinitionIndex = 18798;
+
 	class FiveDimPlayerSkillArrowCondition : public ::RPG::GameCore::FiveDimBaseEventCondition
 	{
 	public:

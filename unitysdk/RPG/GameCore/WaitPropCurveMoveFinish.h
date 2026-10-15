@@ -13,6 +13,8 @@ namespace RPG::GameCore { class WaitPropCurveMoveFinish; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int WaitPropCurveMoveFinish_TypeDefinitionIndex = 21015;
+
 	class WaitPropCurveMoveFinish : public ::RPG::GameCore::TaskConfig
 	{
 	public:

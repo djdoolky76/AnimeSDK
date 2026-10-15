@@ -9,6 +9,8 @@ namespace System { class Object; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ConditionCheckItemFactory_TypeDefinitionIndex = 59894;
+
 	class ConditionCheckItemFactory : public ::System::Object
 	{
 	public:

@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define CBOPNLIFNFD_CTOR_OFFSET UNITYSDK_OFFSET(0xC4B5EC0)
 #define CBOPNLIFNFD_EVALUATE_OFFSET UNITYSDK_OFFSET(0xC4B5EF0)
 
+inline static constexpr unsigned int CBOPNLIFNFD_TypeDefinitionIndex = 52196;
+
 	class CBOPNLIFNFD
 	{
 	public:

@@ -12,6 +12,8 @@ namespace UnityEngine { class Camera; }
 
 namespace UnityEngine::Formats::Alembic::Importer
 {
+	inline static constexpr unsigned int VPMatrices_TypeDefinitionIndex = 45883;
+
 	class VPMatrices : public ::System::Object
 	{
 	public:

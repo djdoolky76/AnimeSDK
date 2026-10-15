@@ -10,6 +10,8 @@
 
 namespace RPG::Client::LittleGame::FourRotateVoxel
 {
+	inline static constexpr unsigned int FourRotateVoxelSimpleCameraCurve_TypeDefinitionIndex = 76849;
+
 	class FourRotateVoxelSimpleCameraCurve : public ::RPG::Client::LittleGame::FourRotateVoxel::FouRotateVoxelSimpleCameraCurveBase
 	{
 	public:

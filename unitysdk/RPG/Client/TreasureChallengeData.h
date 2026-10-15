@@ -13,6 +13,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TreasureChallengeData_TypeDefinitionIndex = 68185;
+
 	class TreasureChallengeData : public ::System::Object
 	{
 	public:

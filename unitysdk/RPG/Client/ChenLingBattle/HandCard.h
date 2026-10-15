@@ -34,6 +34,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::ChenLingBattle
 {
+	inline static constexpr unsigned int HandCard_TypeDefinitionIndex = 76364;
+
 	class HandCard : public ::System::Object
 	{
 	public:

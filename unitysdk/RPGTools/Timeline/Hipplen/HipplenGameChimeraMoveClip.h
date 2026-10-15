@@ -13,6 +13,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPGTools::Timeline::Hipplen
 {
+	inline static constexpr unsigned int HipplenGameChimeraMoveClip_TypeDefinitionIndex = 48649;
+
 	class HipplenGameChimeraMoveClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:

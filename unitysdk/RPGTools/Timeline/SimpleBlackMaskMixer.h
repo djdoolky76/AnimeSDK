@@ -6,6 +6,8 @@
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int SimpleBlackMaskMixer_TypeDefinitionIndex = 48309;
+
 	class SimpleBlackMaskMixer : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

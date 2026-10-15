@@ -19,6 +19,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define KFBMOOPNEEP_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB389370)
 #define KFBMOOPNEEP_TICK_OFFSET UNITYSDK_OFFSET(0xB3893C0)
 
+inline static constexpr unsigned int KFBMOOPNEEP_TypeDefinitionIndex = 54394;
+
 	class KFBMOOPNEEP : public ::GELIALJDFBL
 	{
 	public:

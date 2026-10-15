@@ -10,6 +10,8 @@ namespace System { class Object; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ActivityBenefitV2ActivityPanelData___c_TypeDefinitionIndex = 61578;
+
 	class ActivityBenefitV2ActivityPanelData___c : public ::System::Object
 	{
 	public:

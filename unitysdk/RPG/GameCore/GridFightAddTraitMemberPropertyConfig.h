@@ -9,6 +9,8 @@ namespace RPG::GameCore { class GridFightAddTraitMemberPropertyConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightAddTraitMemberPropertyConfig_TypeDefinitionIndex = 19474;
+
 	class GridFightAddTraitMemberPropertyConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

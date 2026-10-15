@@ -47,6 +47,8 @@ namespace UnityEngine { class Coroutine; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int EnterGamePhase_TypeDefinitionIndex = 61145;
+
 	class EnterGamePhase : public ::RPG::Client::LoginPhase
 	{
 	public:

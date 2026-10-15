@@ -25,6 +25,8 @@ namespace System { class String; }
 #define JEJNIBGECID_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E71EBB0)
 #define JEJNIBGECID_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E71EC10)
 
+inline static constexpr unsigned int JEJNIBGECID_TypeDefinitionIndex = 31051;
+
 	class JEJNIBGECID : public ::System::Object
 	{
 	public:

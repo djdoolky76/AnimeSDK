@@ -12,6 +12,8 @@ namespace RPGTools::Timeline::BattlePerform { class BPCharacterHeadStopLookAtCli
 
 namespace RPGTools::Timeline::BattlePerform
 {
+	inline static constexpr unsigned int BPCharacterHeadStopLookAtBehaviour_TypeDefinitionIndex = 48816;
+
 	class BPCharacterHeadStopLookAtBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

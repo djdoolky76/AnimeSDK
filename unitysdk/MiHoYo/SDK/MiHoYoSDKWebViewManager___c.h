@@ -11,6 +11,8 @@ namespace ZenFulcrum::EmbeddedBrowser { class Browser_VisibleChangedDelegate; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int MiHoYoSDKWebViewManager___c_TypeDefinitionIndex = 46623;
+
 	class MiHoYoSDKWebViewManager___c : public ::System::Object
 	{
 	public:

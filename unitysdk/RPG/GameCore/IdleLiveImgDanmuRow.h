@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int IdleLiveImgDanmuRow_TypeDefinitionIndex = 11786;
+
 	class IdleLiveImgDanmuRow : public ::System::Object
 	{
 	public:

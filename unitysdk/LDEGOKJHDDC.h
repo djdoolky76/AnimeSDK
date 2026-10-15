@@ -20,6 +20,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define LDEGOKJHDDC_SET_CURRENTAICONTROLLER_OFFSET UNITYSDK_OFFSET(0xB61E830)
 #define LDEGOKJHDDC_SET_CURRENTAIUID_OFFSET UNITYSDK_OFFSET(0xB61E850)
 
+inline static constexpr unsigned int LDEGOKJHDDC_TypeDefinitionIndex = 79098;
+
 	class LDEGOKJHDDC : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace System { template <typename T> class Predicate_1; }
 
 namespace RPG::Editor
 {
+	inline static constexpr unsigned int BGCurvePCG_Road___c__DisplayClass27_0_TypeDefinitionIndex = 52017;
+
 	class BGCurvePCG_Road___c__DisplayClass27_0 : public ::System::Object
 	{
 	public:

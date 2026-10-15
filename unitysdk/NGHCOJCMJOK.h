@@ -35,6 +35,8 @@ namespace System { class String; }
 #define NGHCOJCMJOK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EB0F4F0)
 #define NGHCOJCMJOK_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EB0F550)
 
+inline static constexpr unsigned int NGHCOJCMJOK_TypeDefinitionIndex = 31844;
+
 	class NGHCOJCMJOK : public ::System::Object
 	{
 	public:

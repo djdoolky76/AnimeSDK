@@ -9,6 +9,8 @@ namespace UnityEngine { class Material; }
 #define EFFECT_UVANIMATION_START_OFFSET UNITYSDK_OFFSET(0x155E39A0)
 #define EFFECT_UVANIMATION_UPDATE_OFFSET UNITYSDK_OFFSET(0x155E3A70)
 
+inline static constexpr unsigned int Effect_UVAnimation_TypeDefinitionIndex = 47458;
+
 	class Effect_UVAnimation : public ::UnityEngine::MonoBehaviour
 	{
 	public:

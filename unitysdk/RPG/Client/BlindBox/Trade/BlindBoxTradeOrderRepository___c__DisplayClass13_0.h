@@ -12,6 +12,8 @@ namespace System { class Action; }
 
 namespace RPG::Client::BlindBox::Trade
 {
+	inline static constexpr unsigned int BlindBoxTradeOrderRepository___c__DisplayClass13_0_TypeDefinitionIndex = 74873;
+
 	class BlindBoxTradeOrderRepository___c__DisplayClass13_0 : public ::System::Object
 	{
 	public:

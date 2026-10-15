@@ -12,6 +12,8 @@ namespace RPG::Client { class OnAssetOperationDelegate; }
 #define FEMJNDGPBKO_PINAIAPNGMA_IDPFIMKAMDN_OFFSET UNITYSDK_OFFSET(0x15726FE0)
 #define FEMJNDGPBKO_PINAIAPNGMA_OIBKPJEGPOK_OFFSET UNITYSDK_OFFSET(0x15726F30)
 
+inline static constexpr unsigned int FEMJNDGPBKO_PINAIAPNGMA_TypeDefinitionIndex = 49132;
+
 	class FEMJNDGPBKO_PINAIAPNGMA : public ::System::Object
 	{
 	public:

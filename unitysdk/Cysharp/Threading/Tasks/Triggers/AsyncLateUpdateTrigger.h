@@ -13,6 +13,8 @@ namespace Cysharp::Threading::Tasks::Triggers { class IAsyncLateUpdateHandler; }
 
 namespace Cysharp::Threading::Tasks::Triggers
 {
+	inline static constexpr unsigned int AsyncLateUpdateTrigger_TypeDefinitionIndex = 38507;
+
 	class AsyncLateUpdateTrigger
 	{
 	public:

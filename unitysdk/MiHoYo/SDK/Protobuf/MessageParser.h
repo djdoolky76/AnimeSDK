@@ -10,6 +10,8 @@ namespace System { template <typename T> class Func_1; }
 
 namespace MiHoYo::SDK::Protobuf
 {
+	inline static constexpr unsigned int MessageParser_TypeDefinitionIndex = 35730;
+
 	class MessageParser : public ::System::Object
 	{
 	public:

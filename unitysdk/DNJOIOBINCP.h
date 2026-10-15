@@ -13,6 +13,8 @@ namespace System { class Object; }
 #define DNJOIOBINCP_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x11963B30)
 #define DNJOIOBINCP_TICK_OFFSET UNITYSDK_OFFSET(0x11963FF0)
 
+inline static constexpr unsigned int DNJOIOBINCP_TypeDefinitionIndex = 53204;
+
 	class DNJOIOBINCP : public ::GELIALJDFBL
 	{
 	public:

@@ -31,6 +31,8 @@ namespace System { class String; }
 #define KBCNABANJLF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E7EAB70)
 #define KBCNABANJLF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E7EABD0)
 
+inline static constexpr unsigned int KBCNABANJLF_TypeDefinitionIndex = 35006;
+
 	class KBCNABANJLF : public ::System::Object
 	{
 	public:

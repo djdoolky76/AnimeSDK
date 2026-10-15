@@ -10,6 +10,8 @@ namespace RPG::GameCore { class CakeRaceActionDeactiveTrap; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CakeRaceActionDeactiveTrap_TypeDefinitionIndex = 18351;
+
 	class CakeRaceActionDeactiveTrap : public ::RPG::GameCore::CakeRaceActionBase
 	{
 	public:

@@ -13,6 +13,8 @@ namespace System { class Object; }
 #define NADCKIGKIIJ_OJNNNDDDGHP_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1C934980)
 #define NADCKIGKIIJ_OJNNNDDDGHP_INVOKE_OFFSET UNITYSDK_OFFSET(0x1C92E960)
 
+inline static constexpr unsigned int NADCKIGKIIJ_OJNNNDDDGHP_TypeDefinitionIndex = 43166;
+
 	class NADCKIGKIIJ_OJNNNDDDGHP : public ::System::MulticastDelegate
 	{
 	public:

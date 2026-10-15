@@ -9,6 +9,8 @@ namespace System { class String; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int ChimeraDuelInitialEffectConfig_TypeDefinitionIndex = 78322;
+
 	class ChimeraDuelInitialEffectConfig : public ::System::Object
 	{
 	public:

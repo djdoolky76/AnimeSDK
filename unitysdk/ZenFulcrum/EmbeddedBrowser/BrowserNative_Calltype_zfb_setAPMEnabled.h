@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
+	inline static constexpr unsigned int BrowserNative_Calltype_zfb_setAPMEnabled_TypeDefinitionIndex = 39399;
+
 	class BrowserNative_Calltype_zfb_setAPMEnabled : public ::System::MulticastDelegate
 	{
 	public:

@@ -31,6 +31,8 @@ namespace System { class String; }
 #define PGEDFOBAEBC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DF2DB20)
 #define PGEDFOBAEBC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DF2DB80)
 
+inline static constexpr unsigned int PGEDFOBAEBC_TypeDefinitionIndex = 27246;
+
 	class PGEDFOBAEBC : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AutoDestroy_TypeDefinitionIndex = 68318;
+
 	class AutoDestroy : public ::UnityEngine::MonoBehaviour
 	{
 	public:

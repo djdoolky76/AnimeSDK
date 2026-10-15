@@ -13,6 +13,8 @@ namespace UnityEngine { class Transform; }
 
 namespace SRF
 {
+	inline static constexpr unsigned int Hierarchy_TypeDefinitionIndex = 35374;
+
 	class Hierarchy : public ::System::Object
 	{
 	public:

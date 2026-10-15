@@ -13,6 +13,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TutorialStateQueryParam_TypeDefinitionIndex = 68247;
+
 	class TutorialStateQueryParam : public ::System::Object
 	{
 	public:

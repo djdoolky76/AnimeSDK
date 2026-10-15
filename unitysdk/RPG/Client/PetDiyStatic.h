@@ -6,6 +6,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PetDiyStatic_TypeDefinitionIndex = 66414;
+
 	class PetDiyStatic : public ::System::Object
 	{
 	public:

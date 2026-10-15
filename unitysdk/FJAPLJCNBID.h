@@ -15,6 +15,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define FJAPLJCNBID_GETSLOTUNITDATAITEM_OFFSET UNITYSDK_OFFSET(0x157B6D90)
 #define FJAPLJCNBID_GETSLOTUNITUID_OFFSET UNITYSDK_OFFSET(0x157B6D40)
 
+inline static constexpr unsigned int FJAPLJCNBID_TypeDefinitionIndex = 67418;
+
 	class FJAPLJCNBID : public ::System::Object
 	{
 	public:

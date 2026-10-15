@@ -22,6 +22,8 @@ namespace System::Net::Http::Headers { class RetryConditionHeaderValue; }
 
 namespace System::Net::Http::Headers
 {
+	inline static constexpr unsigned int RetryConditionHeaderValue_TypeDefinitionIndex = 3825;
+
 	class RetryConditionHeaderValue : public ::System::Object
 	{
 	public:

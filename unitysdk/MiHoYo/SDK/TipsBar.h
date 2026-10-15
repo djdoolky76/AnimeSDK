@@ -19,6 +19,8 @@ namespace UnityEngine::UI { class Text; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int TipsBar_TypeDefinitionIndex = 8231;
+
 	class TipsBar : public ::MiHoYo::SDK::UIElement
 	{
 	public:

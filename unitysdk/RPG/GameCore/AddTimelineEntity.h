@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TimelineEntityConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AddTimelineEntity_TypeDefinitionIndex = 20632;
+
 	class AddTimelineEntity : public ::RPG::GameCore::TaskConfig
 	{
 	public:

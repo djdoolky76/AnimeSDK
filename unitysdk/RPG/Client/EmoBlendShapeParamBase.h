@@ -9,6 +9,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int EmoBlendShapeParamBase_TypeDefinitionIndex = 71148;
+
 	class EmoBlendShapeParamBase : public ::System::Object
 	{
 	public:

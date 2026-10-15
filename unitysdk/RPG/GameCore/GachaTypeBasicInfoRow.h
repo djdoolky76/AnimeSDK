@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GachaTypeBasicInfoRow_TypeDefinitionIndex = 13358;
+
 	class GachaTypeBasicInfoRow : public ::System::Object
 	{
 	public:

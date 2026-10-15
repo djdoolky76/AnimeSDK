@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define LIMAAJAJPKJ_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xB6D9CF0)
 #define LIMAAJAJPKJ_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xB6D9C10)
 
+inline static constexpr unsigned int LIMAAJAJPKJ_TypeDefinitionIndex = 56598;
+
 	class LIMAAJAJPKJ : public ::CMPGEAFHHDC
 	{
 	public:

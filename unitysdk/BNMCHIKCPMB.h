@@ -7,6 +7,8 @@ namespace RPG::GameCore { class DiceCombatTaskConfig_InitConsumnHPUnlimitedRoll;
 #define BNMCHIKCPMB_CTOR_OFFSET UNITYSDK_OFFSET(0x1C5C8820)
 #define BNMCHIKCPMB_MLKLPMJEHPF_OFFSET UNITYSDK_OFFSET(0x1C5C8830)
 
+inline static constexpr unsigned int BNMCHIKCPMB_TypeDefinitionIndex = 36326;
+
 	class BNMCHIKCPMB : public ::AJBKGPOEBFG
 	{
 	public:

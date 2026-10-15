@@ -29,6 +29,8 @@ namespace System { class String; }
 #define OMACAKFNAOA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DEAE610)
 #define OMACAKFNAOA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DEAE670)
 
+inline static constexpr unsigned int OMACAKFNAOA_TypeDefinitionIndex = 33142;
+
 	class OMACAKFNAOA : public ::System::Object
 	{
 	public:

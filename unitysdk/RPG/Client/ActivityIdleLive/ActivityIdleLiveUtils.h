@@ -54,6 +54,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::ActivityIdleLive
 {
+	inline static constexpr unsigned int ActivityIdleLiveUtils_TypeDefinitionIndex = 75066;
+
 	class ActivityIdleLiveUtils : public ::System::Object
 	{
 	public:

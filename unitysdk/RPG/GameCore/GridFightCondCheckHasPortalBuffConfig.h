@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GridFightCondCheckHasPortalBuffConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightCondCheckHasPortalBuffConfig_TypeDefinitionIndex = 19332;
+
 	class GridFightCondCheckHasPortalBuffConfig : public ::RPG::GameCore::GridFightConditionConfigBase
 	{
 	public:

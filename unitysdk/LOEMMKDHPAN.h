@@ -8,6 +8,8 @@ namespace RPG::Client { class IRogueMiracleInfo; }
 #define LOEMMKDHPAN_CTOR_OFFSET UNITYSDK_OFFSET(0xB7FE6B0)
 #define LOEMMKDHPAN_JAGMPHPNAHM_OFFSET UNITYSDK_OFFSET(0xB7FE6C0)
 
+inline static constexpr unsigned int LOEMMKDHPAN_TypeDefinitionIndex = 67095;
+
 	class LOEMMKDHPAN : public ::DOLNICOMJJM
 	{
 	public:

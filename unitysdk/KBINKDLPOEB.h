@@ -12,6 +12,8 @@ namespace System::IO { class MemoryStream; }
 #define KBINKDLPOEB_MKPIFPKICFJ_OFFSET UNITYSDK_OFFSET(0xB301980)
 #define KBINKDLPOEB_MOOBBPMKELO_OFFSET UNITYSDK_OFFSET(0xB301BB0)
 
+inline static constexpr unsigned int KBINKDLPOEB_TypeDefinitionIndex = 64621;
+
 	class KBINKDLPOEB : public ::System::Object
 	{
 	public:

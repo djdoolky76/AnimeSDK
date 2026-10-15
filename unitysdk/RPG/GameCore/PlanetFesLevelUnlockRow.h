@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PlanetFesLevelUnlockRow_TypeDefinitionIndex = 12269;
+
 	class PlanetFesLevelUnlockRow : public ::System::Object
 	{
 	public:

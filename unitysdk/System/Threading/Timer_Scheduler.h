@@ -22,6 +22,8 @@ namespace System::Threading { class Timer_Scheduler; }
 
 namespace System::Threading
 {
+	inline static constexpr unsigned int Timer_Scheduler_TypeDefinitionIndex = 881;
+
 	class Timer_Scheduler : public ::System::Object
 	{
 	public:

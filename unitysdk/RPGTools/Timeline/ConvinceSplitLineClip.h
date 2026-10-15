@@ -12,6 +12,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int ConvinceSplitLineClip_TypeDefinitionIndex = 48053;
+
 	class ConvinceSplitLineClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:

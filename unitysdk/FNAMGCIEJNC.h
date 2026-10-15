@@ -8,6 +8,8 @@ class FNAMGCIEJNC;
 #define FNAMGCIEJNC_CTOR_OFFSET UNITYSDK_OFFSET(0x1586A210)
 #define FNAMGCIEJNC_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x1586A140)
 
+inline static constexpr unsigned int FNAMGCIEJNC_TypeDefinitionIndex = 65874;
+
 	class FNAMGCIEJNC : public ::MLKDDLHNNHH
 	{
 	public:

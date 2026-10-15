@@ -10,6 +10,8 @@ namespace System { class String; }
 #define MOPOKJECALI_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D1DD940)
 #define MOPOKJECALI_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D1DD900)
 
+inline static constexpr unsigned int MOPOKJECALI_TypeDefinitionIndex = 22713;
+
 	class MOPOKJECALI : public ::RPG::GameCore::TaskConfig
 	{
 	public:

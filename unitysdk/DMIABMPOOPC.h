@@ -7,6 +7,8 @@ namespace System { class String; }
 #define DMIABMPOOPC_FHAPPCADGCE_OFFSET UNITYSDK_OFFSET(0x1C5F73C0)
 #define DMIABMPOOPC_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0x1C5F7310)
 
+inline static constexpr unsigned int DMIABMPOOPC_TypeDefinitionIndex = 36966;
+
 	class DMIABMPOOPC : public ::DOEPPCHKFPB
 	{
 	public:

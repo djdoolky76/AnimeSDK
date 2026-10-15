@@ -13,6 +13,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByCompareCityAtmosphereSubwayArrived_TypeDefinitionIndex = 21036;
+
 	class ByCompareCityAtmosphereSubwayArrived : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

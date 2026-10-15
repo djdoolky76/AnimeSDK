@@ -31,6 +31,8 @@ namespace System { class String; }
 #define NAPFNBJDIOO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EAC9FC0)
 #define NAPFNBJDIOO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EACA020)
 
+inline static constexpr unsigned int NAPFNBJDIOO_TypeDefinitionIndex = 32922;
+
 	class NAPFNBJDIOO : public ::System::Object
 	{
 	public:

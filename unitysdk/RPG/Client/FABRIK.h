@@ -17,6 +17,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int FABRIK_TypeDefinitionIndex = 68419;
+
 	class FABRIK : public ::UnityEngine::MonoBehaviour
 	{
 	public:

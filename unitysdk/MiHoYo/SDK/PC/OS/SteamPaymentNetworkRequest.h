@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::PC::OS
 {
+	inline static constexpr unsigned int SteamPaymentNetworkRequest_TypeDefinitionIndex = 8707;
+
 	class SteamPaymentNetworkRequest : public ::System::Object
 	{
 	public:

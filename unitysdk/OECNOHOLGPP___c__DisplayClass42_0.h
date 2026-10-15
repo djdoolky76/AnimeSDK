@@ -8,6 +8,8 @@ class OECNOHOLGPP;
 #define OECNOHOLGPP___C__DISPLAYCLASS42_0__SIMULATELIFT_G__APPLY_0_OFFSET UNITYSDK_OFFSET(0x1C577400)
 #define OECNOHOLGPP___C__DISPLAYCLASS42_0__SIMULATELIFT_G__REVERT_1_OFFSET UNITYSDK_OFFSET(0x1C5782A0)
 
+inline static constexpr unsigned int OECNOHOLGPP___c__DisplayClass42_0_TypeDefinitionIndex = 41801;
+
 	class OECNOHOLGPP___c__DisplayClass42_0 : public ::System::Object
 	{
 	public:

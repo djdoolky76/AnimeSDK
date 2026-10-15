@@ -4,6 +4,8 @@
 
 #define HPLOLNKGHPC_CTOR_OFFSET UNITYSDK_OFFSET(0x1CAF7810)
 
+inline static constexpr unsigned int HPLOLNKGHPC_TypeDefinitionIndex = 43300;
+
 	class HPLOLNKGHPC : public ::System::Object
 	{
 	public:

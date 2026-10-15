@@ -14,6 +14,8 @@ namespace RPG::GameCore { class PlaneEventRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PlaneEventRow_TypeDefinitionIndex = 14068;
+
 	class PlaneEventRow : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace System::Net { class HttpWebRequest; }
 
 namespace Mono::Http
 {
+	inline static constexpr unsigned int NtlmClient___c_TypeDefinitionIndex = 2454;
+
 	class NtlmClient___c : public ::System::Object
 	{
 	public:

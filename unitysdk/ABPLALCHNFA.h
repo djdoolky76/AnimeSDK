@@ -33,6 +33,8 @@ namespace System { class String; }
 #define ABPLALCHNFA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DDD4000)
 #define ABPLALCHNFA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DDD4060)
 
+inline static constexpr unsigned int ABPLALCHNFA_TypeDefinitionIndex = 29393;
+
 	class ABPLALCHNFA : public ::System::Object
 	{
 	public:

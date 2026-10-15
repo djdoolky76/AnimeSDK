@@ -13,6 +13,8 @@ namespace System { class Object; }
 #define MFPLPKCKPGF_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB9128E0)
 #define MFPLPKCKPGF_TICK_OFFSET UNITYSDK_OFFSET(0xB912930)
 
+inline static constexpr unsigned int MFPLPKCKPGF_TypeDefinitionIndex = 53098;
+
 	class MFPLPKCKPGF : public ::GELIALJDFBL
 	{
 	public:

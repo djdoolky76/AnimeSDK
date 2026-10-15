@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdvEntitySyncFreeStyleWithSound_TypeDefinitionIndex = 22427;
+
 	class AdvEntitySyncFreeStyleWithSound : public ::RPG::GameCore::TaskConfig
 	{
 	public:

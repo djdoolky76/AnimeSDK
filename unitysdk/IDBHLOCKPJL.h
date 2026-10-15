@@ -22,6 +22,8 @@ namespace UnityEngine { class GameObject; }
 #define IDBHLOCKPJL_ONSETSCENELIGHTLOD_OFFSET UNITYSDK_OFFSET(0x15E69660)
 #define IDBHLOCKPJL_UNSERIALIZEASYNC_OFFSET UNITYSDK_OFFSET(0x15E68D70)
 
+inline static constexpr unsigned int IDBHLOCKPJL_TypeDefinitionIndex = 49049;
+
 	class IDBHLOCKPJL
 	{
 	public:

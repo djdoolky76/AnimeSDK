@@ -6,6 +6,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define ELJDJAOHEAD_GNLAPACLOGE_CTOR_OFFSET UNITYSDK_OFFSET(0x15525E60)
 
+inline static constexpr unsigned int ELJDJAOHEAD_GNLAPACLOGE_TypeDefinitionIndex = 58413;
+
 	class ELJDJAOHEAD_GNLAPACLOGE : public ::System::Object
 	{
 	public:

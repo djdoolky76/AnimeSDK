@@ -13,6 +13,8 @@ namespace System { class Object; }
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
+	inline static constexpr unsigned int IVRSystem__GetProjectionRaw_TypeDefinitionIndex = 38892;
+
 	class IVRSystem__GetProjectionRaw : public ::System::MulticastDelegate
 	{
 	public:

@@ -3,6 +3,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MouseInputController__POINT_TypeDefinitionIndex = 61329;
+
 	struct alignas(4) MouseInputController__POINT
 	{
 		::System::Int32 X; // 0x10

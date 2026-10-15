@@ -8,6 +8,8 @@ namespace RPG::Client::Prop { class ChimeraDuelPuzzleVirtualCameraConfig_Adaptiv
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int ChimeraDuelPuzzleVirtualCameraConfig_AdaptiveCameraSet___c__DisplayClass3_0_TypeDefinitionIndex = 78317;
+
 	class ChimeraDuelPuzzleVirtualCameraConfig_AdaptiveCameraSet___c__DisplayClass3_0 : public ::System::Object
 	{
 	public:

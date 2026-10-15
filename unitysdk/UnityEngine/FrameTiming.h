@@ -3,6 +3,8 @@
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int FrameTiming_TypeDefinitionIndex = 4125;
+
 	struct alignas(4) FrameTiming
 	{
 		::System::UInt64 cpuTimePresentCalled; // 0x10

@@ -8,6 +8,8 @@ namespace RPG::Client { class FrameCaptureManager; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int FrameCaptureManager_FrameBlendingEndOPDefault_TypeDefinitionIndex = 69767;
+
 	class FrameCaptureManager_FrameBlendingEndOPDefault : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define LICMNPOKCMB___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E96BAB0)
 #define LICMNPOKCMB___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1E96BAC0)
 
+inline static constexpr unsigned int LICMNPOKCMB___c_TypeDefinitionIndex = 31395;
+
 	class LICMNPOKCMB___c : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightTraitRemarkLineDefaultStateParser_TypeDefinitionIndex = 65485;
+
 	class GridFightTraitRemarkLineDefaultStateParser : public ::System::Object
 	{
 	public:

@@ -29,6 +29,8 @@ namespace System { class String; }
 #define AFKFJCPELEM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E119AD0)
 #define AFKFJCPELEM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E119B30)
 
+inline static constexpr unsigned int AFKFJCPELEM_TypeDefinitionIndex = 30712;
+
 	class AFKFJCPELEM : public ::System::Object
 	{
 	public:

@@ -3,6 +3,8 @@
 
 namespace System::Reflection
 {
+	inline static constexpr unsigned int MemberTypes_TypeDefinitionIndex = 575;
+
 	enum class MemberTypes : ::System::Int32
 	{
 		Constructor = 1,

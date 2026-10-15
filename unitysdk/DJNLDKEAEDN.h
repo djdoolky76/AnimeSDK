@@ -87,6 +87,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define DJNLDKEAEDN_PMBACPBBBBD_OFFSET UNITYSDK_OFFSET(0xF246710)
 #define DJNLDKEAEDN_POEEBKJFPCM_OFFSET UNITYSDK_OFFSET(0xF2416E0)
 
+inline static constexpr unsigned int DJNLDKEAEDN_TypeDefinitionIndex = 70159;
+
 	class DJNLDKEAEDN : public ::System::Object
 	{
 	public:

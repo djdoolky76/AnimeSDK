@@ -7,6 +7,8 @@
 
 namespace UnityEngine::Timeline
 {
+	inline static constexpr unsigned int WeightUtility_TypeDefinitionIndex = 38884;
+
 	class WeightUtility : public ::System::Object
 	{
 	public:

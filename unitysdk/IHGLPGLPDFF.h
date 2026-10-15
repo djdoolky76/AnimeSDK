@@ -25,6 +25,8 @@ namespace System { class String; }
 #define IHGLPGLPDFF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E65D360)
 #define IHGLPGLPDFF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E65D3C0)
 
+inline static constexpr unsigned int IHGLPGLPDFF_TypeDefinitionIndex = 31262;
+
 	class IHGLPGLPDFF : public ::System::Object
 	{
 	public:

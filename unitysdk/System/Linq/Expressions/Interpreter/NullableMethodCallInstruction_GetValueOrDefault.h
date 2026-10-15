@@ -10,6 +10,8 @@ namespace System::Reflection { class MethodInfo; }
 
 namespace System::Linq::Expressions::Interpreter
 {
+	inline static constexpr unsigned int NullableMethodCallInstruction_GetValueOrDefault_TypeDefinitionIndex = 3647;
+
 	class NullableMethodCallInstruction_GetValueOrDefault : public ::System::Linq::Expressions::Interpreter::NullableMethodCallInstruction
 	{
 	public:

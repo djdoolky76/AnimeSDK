@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define IHGLPGLPDFF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E65D5F0)
 #define IHGLPGLPDFF___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1E65D600)
 
+inline static constexpr unsigned int IHGLPGLPDFF___c_TypeDefinitionIndex = 31263;
+
 	class IHGLPGLPDFF___c : public ::System::Object
 	{
 	public:

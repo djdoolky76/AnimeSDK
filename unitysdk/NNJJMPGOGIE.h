@@ -74,6 +74,8 @@ namespace UnityEngine::Rendering { class VolumeProfile; }
 #define NNJJMPGOGIE_SET_CURTARGETCHARACTER_OFFSET UNITYSDK_OFFSET(0xBCB5AB0)
 #define NNJJMPGOGIE_TICK_OFFSET UNITYSDK_OFFSET(0xBCB2100)
 
+inline static constexpr unsigned int NNJJMPGOGIE_TypeDefinitionIndex = 61204;
+
 	class NNJJMPGOGIE : public ::System::Object
 	{
 	public:

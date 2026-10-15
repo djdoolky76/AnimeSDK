@@ -38,6 +38,8 @@ namespace UnityEngine { class Transform; }
 
 namespace Cinemachine
 {
+	inline static constexpr unsigned int CinemachineMixingCamera_TypeDefinitionIndex = 39742;
+
 	class CinemachineMixingCamera : public ::Cinemachine::CinemachineVirtualCameraBase
 	{
 	public:

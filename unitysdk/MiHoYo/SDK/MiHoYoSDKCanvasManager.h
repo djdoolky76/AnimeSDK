@@ -14,6 +14,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int MiHoYoSDKCanvasManager_TypeDefinitionIndex = 46459;
+
 	class MiHoYoSDKCanvasManager : public ::System::Object
 	{
 	public:

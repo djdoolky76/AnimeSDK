@@ -5,6 +5,8 @@ class CEEGMMCFCBG;
 namespace System { class Delegate; }
 namespace System { class Object; }
 
+inline static constexpr unsigned int FKKLIKJNNFA_TypeDefinitionIndex = 44067;
+
 	class FKKLIKJNNFA : public ::System::Object
 	{
 	public:

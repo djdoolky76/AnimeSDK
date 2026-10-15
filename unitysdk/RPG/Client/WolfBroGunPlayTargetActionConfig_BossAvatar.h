@@ -8,6 +8,8 @@ class JNKPPLPLFOM;
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int WolfBroGunPlayTargetActionConfig_BossAvatar_TypeDefinitionIndex = 68717;
+
 	class WolfBroGunPlayTargetActionConfig_BossAvatar : public ::RPG::Client::WolfBroGunPlayTargetActionConfig
 	{
 	public:

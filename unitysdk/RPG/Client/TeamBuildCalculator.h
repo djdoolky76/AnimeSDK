@@ -60,6 +60,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TeamBuildCalculator_TypeDefinitionIndex = 68086;
+
 	class TeamBuildCalculator : public ::System::Object
 	{
 	public:

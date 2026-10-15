@@ -11,6 +11,8 @@ namespace RPG::GameCore { class DynamicFloat; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RequestChangeMatchThreeV2BirdLocation_TypeDefinitionIndex = 10259;
+
 	class RequestChangeMatchThreeV2BirdLocation : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -89,6 +89,8 @@ namespace UnityEngine { class GameObject; }
 #define MEIGMBOLDOF_PLEAAKMAJLA_OFFSET UNITYSDK_OFFSET(0xB8D07F0)
 #define MEIGMBOLDOF_TOSTRING_OFFSET UNITYSDK_OFFSET(0xB8CFD90)
 
+inline static constexpr unsigned int MEIGMBOLDOF_TypeDefinitionIndex = 49113;
+
 	class MEIGMBOLDOF : public ::System::Object
 	{
 	public:

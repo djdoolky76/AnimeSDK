@@ -9,6 +9,8 @@ namespace MiHoYo::SDK::Protobuf { class IMessage; }
 
 namespace MiHoYo::SDK::Protobuf
 {
+	inline static constexpr unsigned int MessageExtensions_TypeDefinitionIndex = 35729;
+
 	class MessageExtensions : public ::System::Object
 	{
 	public:

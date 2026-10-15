@@ -4,6 +4,8 @@
 
 #define AHFMPOOIDLI_CTOR_OFFSET UNITYSDK_OFFSET(0xEB807F0)
 
+inline static constexpr unsigned int AHFMPOOIDLI_TypeDefinitionIndex = 61270;
+
 	class AHFMPOOIDLI : public ::System::Exception
 	{
 	public:

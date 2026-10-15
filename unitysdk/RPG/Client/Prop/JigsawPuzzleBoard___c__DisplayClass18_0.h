@@ -9,6 +9,8 @@ namespace RPG::Client::Prop { class JigsawPuzzleItem; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int JigsawPuzzleBoard___c__DisplayClass18_0_TypeDefinitionIndex = 78652;
+
 	class JigsawPuzzleBoard___c__DisplayClass18_0 : public ::System::Object
 	{
 	public:

@@ -27,6 +27,8 @@ namespace System { class String; }
 #define EJPCHNDAMLH_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E2BE9E0)
 #define EJPCHNDAMLH_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E2BEA40)
 
+inline static constexpr unsigned int EJPCHNDAMLH_TypeDefinitionIndex = 27445;
+
 	class EJPCHNDAMLH : public ::System::Object
 	{
 	public:

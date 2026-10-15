@@ -15,6 +15,8 @@ namespace UnityEngine { class Component; }
 
 namespace RPG::Client::AstraFX
 {
+	inline static constexpr unsigned int AstraFXDataNode_TypeDefinitionIndex = 73685;
+
 	class AstraFXDataNode
 	{
 	public:

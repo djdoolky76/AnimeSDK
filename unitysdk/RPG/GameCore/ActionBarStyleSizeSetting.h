@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ActionBarStyleSizeSetting; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ActionBarStyleSizeSetting_TypeDefinitionIndex = 17152;
+
 	class ActionBarStyleSizeSetting : public ::RPG::GameCore::JsonConfig
 	{
 	public:

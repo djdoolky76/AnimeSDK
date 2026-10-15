@@ -12,6 +12,8 @@ namespace UnityEngine { class RectTransform; }
 #define EFINDGEDGMD_HELMJANIFNN_OFFSET UNITYSDK_OFFSET(0x13A4D670)
 #define EFINDGEDGMD_OBIIJABDNPC_OFFSET UNITYSDK_OFFSET(0x13A4D960)
 
+inline static constexpr unsigned int EFINDGEDGMD_TypeDefinitionIndex = 71893;
+
 	class EFINDGEDGMD : public ::System::Object
 	{
 	public:

@@ -13,6 +13,8 @@ namespace System::Runtime::Remoting::Proxies { class RealProxy; }
 
 namespace System::Runtime::Remoting::Proxies
 {
+	inline static constexpr unsigned int ProxyAttribute_TypeDefinitionIndex = 1234;
+
 	class ProxyAttribute : public ::System::Attribute
 	{
 	public:

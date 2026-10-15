@@ -20,6 +20,8 @@ class MGBHKCMHDOK;
 #define JBPIOKMAGFC_SETCOLLECTOR_OFFSET UNITYSDK_OFFSET(0x16576FB0)
 #define JBPIOKMAGFC_SET_ISRECOVER_OFFSET UNITYSDK_OFFSET(0x16576EB0)
 
+inline static constexpr unsigned int JBPIOKMAGFC_TypeDefinitionIndex = 65457;
+
 	class JBPIOKMAGFC : public ::System::Object
 	{
 	public:

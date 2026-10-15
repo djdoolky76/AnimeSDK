@@ -7,6 +7,8 @@ namespace UnityEngine::UIElements { class IPanel; }
 
 namespace UnityEngine::UIElements
 {
+	inline static constexpr unsigned int BlurEvent_TypeDefinitionIndex = 5942;
+
 	class BlurEvent
 	{
 	public:

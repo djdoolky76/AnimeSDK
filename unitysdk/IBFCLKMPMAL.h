@@ -35,6 +35,8 @@ namespace System { class String; }
 #define IBFCLKMPMAL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E613CE0)
 #define IBFCLKMPMAL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E613D40)
 
+inline static constexpr unsigned int IBFCLKMPMAL_TypeDefinitionIndex = 34106;
+
 	class IBFCLKMPMAL : public ::System::Object
 	{
 	public:

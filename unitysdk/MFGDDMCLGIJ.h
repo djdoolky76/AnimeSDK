@@ -7,6 +7,8 @@ namespace RPG::GameCore { class DiceCombatTaskConfig_AttackEffect_IgnoreDefendPo
 #define MFGDDMCLGIJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1C74A720)
 #define MFGDDMCLGIJ_MLKLPMJEHPF_OFFSET UNITYSDK_OFFSET(0x1C74A730)
 
+inline static constexpr unsigned int MFGDDMCLGIJ_TypeDefinitionIndex = 36308;
+
 	class MFGDDMCLGIJ : public ::AJBKGPOEBFG
 	{
 	public:

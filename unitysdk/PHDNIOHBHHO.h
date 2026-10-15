@@ -4,6 +4,8 @@
 
 #define PHDNIOHBHHO_CTOR_OFFSET UNITYSDK_OFFSET(0x1C9E96C0)
 
+inline static constexpr unsigned int PHDNIOHBHHO_TypeDefinitionIndex = 42966;
+
 	class PHDNIOHBHHO : public ::System::Object
 	{
 	public:

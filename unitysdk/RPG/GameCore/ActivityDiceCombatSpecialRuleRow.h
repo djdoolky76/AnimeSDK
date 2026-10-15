@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ActivityDiceCombatSpecialRuleRow_TypeDefinitionIndex = 11270;
+
 	class ActivityDiceCombatSpecialRuleRow : public ::System::Object
 	{
 	public:

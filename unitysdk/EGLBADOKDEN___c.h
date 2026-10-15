@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define EGLBADOKDEN___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E299720)
 #define EGLBADOKDEN___C___CCTOR_B__128_0_OFFSET UNITYSDK_OFFSET(0x1E299730)
 
+inline static constexpr unsigned int EGLBADOKDEN___c_TypeDefinitionIndex = 28894;
+
 	class EGLBADOKDEN___c : public ::System::Object
 	{
 	public:

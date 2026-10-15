@@ -9,6 +9,8 @@ namespace RPG::Client { class BattleGamePhase; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ActivityStrongChallengeModule___c__DisplayClass8_0_TypeDefinitionIndex = 61914;
+
 	class ActivityStrongChallengeModule___c__DisplayClass8_0 : public ::System::Object
 	{
 	public:

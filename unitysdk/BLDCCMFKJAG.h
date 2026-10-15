@@ -9,6 +9,8 @@ namespace RPG::GameCore { class LevelNPCNearbyEventConfig; }
 #define BLDCCMFKJAG_DOONENTER_OFFSET UNITYSDK_OFFSET(0xBA68330)
 #define BLDCCMFKJAG_DOONEXIT_OFFSET UNITYSDK_OFFSET(0xBA68700)
 
+inline static constexpr unsigned int BLDCCMFKJAG_TypeDefinitionIndex = 57518;
+
 	class BLDCCMFKJAG : public ::EDLDHDMLJDH
 	{
 	public:

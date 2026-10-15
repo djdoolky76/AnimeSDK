@@ -13,6 +13,8 @@ namespace UnityEngine::ProBuilder { class Face; }
 
 namespace UnityEngine::ProBuilder
 {
+	inline static constexpr unsigned int MeshHandles___c_TypeDefinitionIndex = 44376;
+
 	class MeshHandles___c : public ::System::Object
 	{
 	public:

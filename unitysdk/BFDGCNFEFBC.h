@@ -6,6 +6,8 @@ namespace UnityEngine { class AnimationCurve; }
 #define BFDGCNFEFBC_CLEAR_OFFSET UNITYSDK_OFFSET(0xB160900)
 #define BFDGCNFEFBC_CTOR_OFFSET UNITYSDK_OFFSET(0xB160960)
 
+inline static constexpr unsigned int BFDGCNFEFBC_TypeDefinitionIndex = 60794;
+
 	class BFDGCNFEFBC : public ::System::Object
 	{
 	public:

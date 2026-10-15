@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define CPNAIAACFDO_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1DCC2900)
 #define CPNAIAACFDO_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1DCC21E0)
 
+inline static constexpr unsigned int CPNAIAACFDO_TypeDefinitionIndex = 13687;
+
 	class CPNAIAACFDO : public ::System::Object
 	{
 	public:

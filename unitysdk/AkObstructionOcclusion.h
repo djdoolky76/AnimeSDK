@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define AKOBSTRUCTIONOCCLUSION_UPDATEOBSTRUCTIONOCCLUSIONVALUES_OFFSET UNITYSDK_OFFSET(0x1F5A9C50)
 #define AKOBSTRUCTIONOCCLUSION_UPDATE_OFFSET UNITYSDK_OFFSET(0x1F5AA570)
 
+inline static constexpr unsigned int AkObstructionOcclusion_TypeDefinitionIndex = 44938;
+
 	class AkObstructionOcclusion : public ::UnityEngine::MonoBehaviour
 	{
 	public:

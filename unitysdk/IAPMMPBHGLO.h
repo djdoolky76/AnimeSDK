@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define IAPMMPBHGLO_CTOR_OFFSET UNITYSDK_OFFSET(0x15E26100)
 #define IAPMMPBHGLO_ECNKMIFCAFC_OFFSET UNITYSDK_OFFSET(0x15E26170)
 
+inline static constexpr unsigned int IAPMMPBHGLO_TypeDefinitionIndex = 60922;
+
 	class IAPMMPBHGLO : public ::PBDLKBEAHDL
 	{
 	public:

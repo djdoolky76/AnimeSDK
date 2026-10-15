@@ -67,6 +67,8 @@ namespace System { class Nullable; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TimeRewindFoundationAndBallTarget_TypeDefinitionIndex = 60816;
+
 	class TimeRewindFoundationAndBallTarget : public ::System::Object
 	{
 	public:

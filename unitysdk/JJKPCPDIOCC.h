@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define JJKPCPDIOCC_CTOR_OFFSET UNITYSDK_OFFSET(0x1C6FFF90)
 #define JJKPCPDIOCC_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0x1C6FFE70)
 
+inline static constexpr unsigned int JJKPCPDIOCC_TypeDefinitionIndex = 37321;
+
 	class JJKPCPDIOCC : public ::System::Object
 	{
 	public:

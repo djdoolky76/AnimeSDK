@@ -8,6 +8,8 @@ class LDODCBONPLA;
 #define LDODCBONPLA_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D0E4690)
 #define LDODCBONPLA_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D0E45C0)
 
+inline static constexpr unsigned int LDODCBONPLA_TypeDefinitionIndex = 21149;
+
 	class LDODCBONPLA : public ::RPG::GameCore::TaskConfig
 	{
 	public:

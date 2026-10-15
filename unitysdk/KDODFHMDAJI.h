@@ -40,6 +40,8 @@ namespace System { class String; }
 #define KDODFHMDAJI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E806D00)
 #define KDODFHMDAJI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E806D60)
 
+inline static constexpr unsigned int KDODFHMDAJI_TypeDefinitionIndex = 33276;
+
 	class KDODFHMDAJI : public ::System::Object
 	{
 	public:

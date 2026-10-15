@@ -6,6 +6,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define HKKFDLCOIBD_CTOR_OFFSET UNITYSDK_OFFSET(0x15D4AD10)
 
+inline static constexpr unsigned int HKKFDLCOIBD_TypeDefinitionIndex = 58619;
+
 	class HKKFDLCOIBD : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class LockToast; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LockToast_TypeDefinitionIndex = 24352;
+
 	class LockToast : public ::RPG::GameCore::TaskConfig
 	{
 	public:

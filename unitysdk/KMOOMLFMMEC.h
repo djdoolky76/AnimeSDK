@@ -8,6 +8,8 @@ namespace System { class String; }
 #define KMOOMLFMMEC_CTOR_OFFSET UNITYSDK_OFFSET(0x1D0B5830)
 #define KMOOMLFMMEC_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D0B5740)
 
+inline static constexpr unsigned int KMOOMLFMMEC_TypeDefinitionIndex = 21557;
+
 	class KMOOMLFMMEC : public ::RPG::GameCore::JsonConfig
 	{
 	public:

@@ -46,6 +46,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define FJBAPLNNLIC_OKJJGNBFAOD_OFFSET UNITYSDK_OFFSET(0x157B73D0)
 #define FJBAPLNNLIC_PIGPIPKKOLH_OFFSET UNITYSDK_OFFSET(0x157B7650)
 
+inline static constexpr unsigned int FJBAPLNNLIC_TypeDefinitionIndex = 81040;
+
 	class FJBAPLNNLIC : public ::System::Object
 	{
 	public:

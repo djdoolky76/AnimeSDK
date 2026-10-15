@@ -5,6 +5,8 @@ class OOKFEOBBJPI_OGNBLDHPLIJ;
 
 #define OOKFEOBBJPI_APAJCCNIGCO_CTOR_OFFSET UNITYSDK_OFFSET(0x1DD88B00)
 
+inline static constexpr unsigned int OOKFEOBBJPI_APAJCCNIGCO_TypeDefinitionIndex = 6194;
+
 	class OOKFEOBBJPI_APAJCCNIGCO : public ::System::Object
 	{
 	public:

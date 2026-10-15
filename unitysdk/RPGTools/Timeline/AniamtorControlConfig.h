@@ -27,6 +27,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int AniamtorControlConfig_TypeDefinitionIndex = 47851;
+
 	class AniamtorControlConfig : public ::System::Object
 	{
 	public:

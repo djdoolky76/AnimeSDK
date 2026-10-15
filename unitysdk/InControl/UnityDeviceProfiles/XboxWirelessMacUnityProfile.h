@@ -7,6 +7,8 @@
 
 namespace InControl::UnityDeviceProfiles
 {
+	inline static constexpr unsigned int XboxWirelessMacUnityProfile_TypeDefinitionIndex = 41034;
+
 	class XboxWirelessMacUnityProfile : public ::InControl::InputDeviceProfile
 	{
 	public:

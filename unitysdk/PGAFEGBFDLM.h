@@ -19,6 +19,8 @@ namespace System { class Object; }
 #define PGAFEGBFDLM_OPCKNBHNBOA_OFFSET UNITYSDK_OFFSET(0xC21B950)
 #define PGAFEGBFDLM_TICK_OFFSET UNITYSDK_OFFSET(0xC21BC20)
 
+inline static constexpr unsigned int PGAFEGBFDLM_TypeDefinitionIndex = 55850;
+
 	class PGAFEGBFDLM : public ::System::Object
 	{
 	public:

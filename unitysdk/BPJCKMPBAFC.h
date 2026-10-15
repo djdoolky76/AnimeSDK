@@ -31,6 +31,8 @@ namespace System { class String; }
 #define BPJCKMPBAFC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E049260)
 #define BPJCKMPBAFC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E0492C0)
 
+inline static constexpr unsigned int BPJCKMPBAFC_TypeDefinitionIndex = 32326;
+
 	class BPJCKMPBAFC : public ::System::Object
 	{
 	public:

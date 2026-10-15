@@ -37,6 +37,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightElationTraitEquipRecommend_TypeDefinitionIndex = 65367;
+
 	class GridFightElationTraitEquipRecommend : public ::System::Object
 	{
 	public:

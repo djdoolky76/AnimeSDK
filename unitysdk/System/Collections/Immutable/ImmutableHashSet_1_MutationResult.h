@@ -5,6 +5,8 @@ namespace System::Collections::Immutable { template <typename T> class SortedInt
 
 namespace System::Collections::Immutable
 {
+	inline static constexpr unsigned int ImmutableHashSet_1_MutationResult_TypeDefinitionIndex = 6608;
+
 	template <typename T>
 	struct alignas(8) ImmutableHashSet_1_MutationResult
 	{

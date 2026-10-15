@@ -10,6 +10,8 @@ namespace RPG::Client { class LocalizedText; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MatchThreePowerNumberAnim_TypeDefinitionIndex = 65962;
+
 	class MatchThreePowerNumberAnim : public ::UnityEngine::MonoBehaviour
 	{
 	public:

@@ -12,6 +12,8 @@ class BLKEPPAFKNF;
 #define BLKEPPAFKNF_SET_OPTIONID_OFFSET UNITYSDK_OFFSET(0xBA78C40)
 #define BLKEPPAFKNF_SET_RATIO_OFFSET UNITYSDK_OFFSET(0xBA78C60)
 
+inline static constexpr unsigned int BLKEPPAFKNF_TypeDefinitionIndex = 66292;
+
 	class BLKEPPAFKNF : public ::System::Object
 	{
 	public:

@@ -65,6 +65,8 @@ namespace System { class Object; }
 #define IILBDKLEPMM_SET_CURRENTDEFENDER_OFFSET UNITYSDK_OFFSET(0x16447DD0)
 #define IILBDKLEPMM_SET_ISMAZETOBATTLETRANSITIONSHOWSTARTED_OFFSET UNITYSDK_OFFSET(0x16447D90)
 
+inline static constexpr unsigned int IILBDKLEPMM_TypeDefinitionIndex = 60857;
+
 	class IILBDKLEPMM : public ::System::Object
 	{
 	public:

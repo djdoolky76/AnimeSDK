@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::Client::ActivityIdleLive
 {
+	inline static constexpr unsigned int ChapterUiData_TypeDefinitionIndex = 75415;
+
 	class ChapterUiData : public ::System::Object
 	{
 	public:

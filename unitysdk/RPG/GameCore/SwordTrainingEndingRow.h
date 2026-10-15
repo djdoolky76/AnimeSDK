@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SwordTrainingEndingRow_TypeDefinitionIndex = 12430;
+
 	class SwordTrainingEndingRow : public ::System::Object
 	{
 	public:

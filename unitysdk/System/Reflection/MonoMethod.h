@@ -63,6 +63,8 @@ namespace System::Reflection { class ParameterInfo; }
 
 namespace System::Reflection
 {
+	inline static constexpr unsigned int MonoMethod_TypeDefinitionIndex = 622;
+
 	class MonoMethod : public ::System::Reflection::RuntimeMethodInfo
 	{
 	public:

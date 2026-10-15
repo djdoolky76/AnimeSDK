@@ -10,6 +10,8 @@ namespace System { class Object; }
 #define NBCAOOBFHEA_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1F060)
 #define NBCAOOBFHEA_GIAOOPPHODF_OFFSET UNITYSDK_OFFSET(0xBABD380)
 
+inline static constexpr unsigned int NBCAOOBFHEA_TypeDefinitionIndex = 78611;
+
 	struct alignas(4) NBCAOOBFHEA
 	{
 		::System::Int32 GAOAMKBNDPN; // 0x10

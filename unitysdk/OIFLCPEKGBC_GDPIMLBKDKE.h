@@ -12,6 +12,8 @@ namespace System { class Object; }
 #define OIFLCPEKGBC_GDPIMLBKDKE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xBE8E7E0)
 #define OIFLCPEKGBC_GDPIMLBKDKE_INVOKE_OFFSET UNITYSDK_OFFSET(0xBE8DF20)
 
+inline static constexpr unsigned int OIFLCPEKGBC_GDPIMLBKDKE_TypeDefinitionIndex = 70221;
+
 	class OIFLCPEKGBC_GDPIMLBKDKE : public ::System::MulticastDelegate
 	{
 	public:

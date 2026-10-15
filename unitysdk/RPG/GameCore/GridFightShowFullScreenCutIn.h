@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightShowFullScreenCutIn_TypeDefinitionIndex = 23234;
+
 	class GridFightShowFullScreenCutIn : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -11,6 +11,8 @@ namespace RPG::GameCore { class RoadRashGameAbilityConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RoadRashGameAbilityConfig_TypeDefinitionIndex = 17006;
+
 	class RoadRashGameAbilityConfig : public ::RPG::GameCore::LittleGameAbilityConfig
 	{
 	public:

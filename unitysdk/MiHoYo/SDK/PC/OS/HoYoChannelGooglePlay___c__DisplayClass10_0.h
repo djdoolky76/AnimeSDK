@@ -10,6 +10,8 @@ namespace MiHoYo::SDK::PC::OS { class HoYoChannelProductsResult; }
 
 namespace MiHoYo::SDK::PC::OS
 {
+	inline static constexpr unsigned int HoYoChannelGooglePlay___c__DisplayClass10_0_TypeDefinitionIndex = 8574;
+
 	class HoYoChannelGooglePlay___c__DisplayClass10_0 : public ::System::Object
 	{
 	public:

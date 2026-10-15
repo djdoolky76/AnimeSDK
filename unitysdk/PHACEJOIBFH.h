@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define PHACEJOIBFH_CTOR_OFFSET UNITYSDK_OFFSET(0xC236950)
 #define PHACEJOIBFH_EVALUATE_OFFSET UNITYSDK_OFFSET(0xC236980)
 
+inline static constexpr unsigned int PHACEJOIBFH_TypeDefinitionIndex = 54721;
+
 	class PHACEJOIBFH
 	{
 	public:

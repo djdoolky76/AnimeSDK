@@ -8,6 +8,8 @@ namespace System { class String; }
 #define OLHPNPEHEON_HOLDJEIHEFG_CTOR_OFFSET UNITYSDK_OFFSET(0xBF0CA40)
 #define OLHPNPEHEON_HOLDJEIHEFG_MNGGAOFNGIP_OFFSET UNITYSDK_OFFSET(0xBF0CD00)
 
+inline static constexpr unsigned int OLHPNPEHEON_HOLDJEIHEFG_TypeDefinitionIndex = 65276;
+
 	class OLHPNPEHEON_HOLDJEIHEFG : public ::System::Object
 	{
 	public:

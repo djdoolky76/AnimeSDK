@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define EJGFJKJOIHO_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1CA53980)
 #define EJGFJKJOIHO_OKEFAAMKPKK_OFFSET UNITYSDK_OFFSET(0x1CA54730)
 
+inline static constexpr unsigned int EJGFJKJOIHO_TypeDefinitionIndex = 42391;
+
 	class EJGFJKJOIHO : public ::System::Object
 	{
 	public:

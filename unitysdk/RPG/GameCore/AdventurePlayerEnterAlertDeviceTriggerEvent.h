@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GameEntity; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdventurePlayerEnterAlertDeviceTriggerEvent_TypeDefinitionIndex = 56655;
+
 	class AdventurePlayerEnterAlertDeviceTriggerEvent : public ::System::Object
 	{
 	public:

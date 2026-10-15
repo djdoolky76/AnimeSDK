@@ -28,6 +28,8 @@ namespace System::Resources { class ResourceSet; }
 
 namespace System::Resources
 {
+	inline static constexpr unsigned int ManifestBasedResourceGroveler_TypeDefinitionIndex = 520;
+
 	class ManifestBasedResourceGroveler : public ::System::Object
 	{
 	public:

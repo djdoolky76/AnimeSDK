@@ -36,6 +36,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define AONPHMEKJJE_PHOGKCOMOCH_OFFSET UNITYSDK_OFFSET(0x158C4AA0)
 #define AONPHMEKJJE_TICK_OFFSET UNITYSDK_OFFSET(0x158C4DD0)
 
+inline static constexpr unsigned int AONPHMEKJJE_TypeDefinitionIndex = 60251;
+
 	class AONPHMEKJJE : public ::HBCMHADMLOP
 	{
 	public:

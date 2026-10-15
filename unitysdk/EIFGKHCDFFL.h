@@ -4,6 +4,8 @@
 
 #define EIFGKHCDFFL_CTOR_OFFSET UNITYSDK_OFFSET(0x154C1A90)
 
+inline static constexpr unsigned int EIFGKHCDFFL_TypeDefinitionIndex = 59994;
+
 	class EIFGKHCDFFL : public ::System::Object
 	{
 	public:

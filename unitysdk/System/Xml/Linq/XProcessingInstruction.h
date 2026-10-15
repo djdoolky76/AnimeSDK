@@ -18,6 +18,8 @@ namespace System::Xml::Linq { class XProcessingInstruction; }
 
 namespace System::Xml::Linq
 {
+	inline static constexpr unsigned int XProcessingInstruction_TypeDefinitionIndex = 3905;
+
 	class XProcessingInstruction : public ::System::Xml::Linq::XNode
 	{
 	public:

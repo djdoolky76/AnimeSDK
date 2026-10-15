@@ -39,6 +39,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PlayVideoPageContext_TypeDefinitionIndex = 72926;
+
 	class PlayVideoPageContext : public ::RPG::Client::UIController
 	{
 	public:

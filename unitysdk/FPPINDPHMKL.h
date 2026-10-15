@@ -11,6 +11,8 @@ namespace System { class Object; }
 #define FPPINDPHMKL_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1C532710)
 #define FPPINDPHMKL_LICEAJDINOM_OFFSET UNITYSDK_OFFSET(0x1C5326B0)
 
+inline static constexpr unsigned int FPPINDPHMKL_TypeDefinitionIndex = 41616;
+
 	class FPPINDPHMKL : public ::IPADOJLOLPH
 	{
 	public:

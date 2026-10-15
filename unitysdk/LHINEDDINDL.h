@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define LHINEDDINDL_CTOR_OFFSET UNITYSDK_OFFSET(0xB6B43B0)
 #define LHINEDDINDL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB6B43E0)
 
+inline static constexpr unsigned int LHINEDDINDL_TypeDefinitionIndex = 55564;
+
 	class LHINEDDINDL
 	{
 	public:

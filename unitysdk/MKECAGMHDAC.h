@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define MKECAGMHDAC_OGHNIKCIDMG_OFFSET UNITYSDK_OFFSET(0xB98ED80)
 #define MKECAGMHDAC_PPHNFOAKNCI_OFFSET UNITYSDK_OFFSET(0xB98F670)
 
+inline static constexpr unsigned int MKECAGMHDAC_TypeDefinitionIndex = 73213;
+
 	class MKECAGMHDAC : public ::System::Object
 	{
 	public:

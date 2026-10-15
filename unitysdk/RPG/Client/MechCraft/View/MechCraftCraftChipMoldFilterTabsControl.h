@@ -15,6 +15,8 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyLi
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftCraftChipMoldFilterTabsControl_TypeDefinitionIndex = 79863;
+
 	class MechCraftCraftChipMoldFilterTabsControl : public ::UnityEngine::MonoBehaviour
 	{
 	public:

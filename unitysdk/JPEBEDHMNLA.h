@@ -35,6 +35,8 @@ namespace System { class String; }
 #define JPEBEDHMNLA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E7D1460)
 #define JPEBEDHMNLA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E7D14C0)
 
+inline static constexpr unsigned int JPEBEDHMNLA_TypeDefinitionIndex = 31619;
+
 	class JPEBEDHMNLA : public ::System::Object
 	{
 	public:

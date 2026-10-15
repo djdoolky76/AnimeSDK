@@ -8,6 +8,8 @@ namespace Entitas { class ISystem; }
 #define GOFGMFHDOFE_CTOR_OFFSET UNITYSDK_OFFSET(0x15B2E020)
 #define GOFGMFHDOFE_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x15B2E0F0)
 
+inline static constexpr unsigned int GOFGMFHDOFE_TypeDefinitionIndex = 76771;
+
 	class GOFGMFHDOFE : public ::System::Object
 	{
 	public:

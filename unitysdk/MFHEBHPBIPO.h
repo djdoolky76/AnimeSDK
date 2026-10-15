@@ -10,6 +10,8 @@ namespace System { class String; }
 #define MFHEBHPBIPO_NFAIKOJEIJP_OFFSET UNITYSDK_OFFSET(0xB8FEA20)
 #define MFHEBHPBIPO_TOSTRING_OFFSET UNITYSDK_OFFSET(0xB8FEA70)
 
+inline static constexpr unsigned int MFHEBHPBIPO_TypeDefinitionIndex = 64148;
+
 	class MFHEBHPBIPO : public ::HGMMFJHJECA
 	{
 	public:

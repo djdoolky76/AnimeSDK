@@ -3,6 +3,8 @@
 
 namespace Entitas
 {
+	inline static constexpr unsigned int ICollector_1_TypeDefinitionIndex = 9983;
+
 	template <typename T>
 	class ICollector_1
 	{

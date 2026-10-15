@@ -13,6 +13,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RtBattleTargetCameraFocusTarget_TypeDefinitionIndex = 24244;
+
 	class RtBattleTargetCameraFocusTarget : public ::RPG::GameCore::TargetEvaluator
 	{
 	public:

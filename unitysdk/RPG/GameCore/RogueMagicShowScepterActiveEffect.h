@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueMagicShowScepterActiveEffect_TypeDefinitionIndex = 23316;
+
 	class RogueMagicShowScepterActiveEffect : public ::RPG::GameCore::TaskConfig
 	{
 	public:

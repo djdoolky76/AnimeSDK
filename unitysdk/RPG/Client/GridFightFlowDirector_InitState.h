@@ -11,6 +11,8 @@ namespace RPG::Client { class GridFightFlowDirector_IFlowStateEvent; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightFlowDirector_InitState_TypeDefinitionIndex = 64592;
+
 	class GridFightFlowDirector_InitState : public ::System::Object
 	{
 	public:

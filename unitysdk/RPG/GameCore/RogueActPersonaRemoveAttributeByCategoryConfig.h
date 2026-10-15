@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueActPersonaRemoveAttributeByCategoryConfig; 
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueActPersonaRemoveAttributeByCategoryConfig_TypeDefinitionIndex = 19773;
+
 	class RogueActPersonaRemoveAttributeByCategoryConfig : public ::RPG::GameCore::RogueActionConfigBase
 	{
 	public:

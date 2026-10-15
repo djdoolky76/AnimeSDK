@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define HGJFHGEPFPP_GET_SENDERRUNTIMEID_OFFSET UNITYSDK_OFFSET(0x15CA3AD0)
 #define HGJFHGEPFPP_GET_VALUEPAYLOADS_OFFSET UNITYSDK_OFFSET(0x15CA3AE0)
 
+inline static constexpr unsigned int HGJFHGEPFPP_TypeDefinitionIndex = 77302;
+
 	class HGJFHGEPFPP : public ::System::Object
 	{
 	public:

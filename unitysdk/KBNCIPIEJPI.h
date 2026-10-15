@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define KBNCIPIEJPI_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1D062FA0)
 #define KBNCIPIEJPI_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1D0628C0)
 
+inline static constexpr unsigned int KBNCIPIEJPI_TypeDefinitionIndex = 11805;
+
 	class KBNCIPIEJPI : public ::System::Object
 	{
 	public:

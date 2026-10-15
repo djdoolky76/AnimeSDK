@@ -16,6 +16,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MultiPlayGameCollectionActivityData_TypeDefinitionIndex = 66065;
+
 	class MultiPlayGameCollectionActivityData : public ::RPG::Client::ActivityPanelData
 	{
 	public:

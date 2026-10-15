@@ -10,6 +10,8 @@ namespace UnityEngine { class AnimationCurve; }
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int Test_AnimationCurve_TypeDefinitionIndex = 40748;
+
 	class Test_AnimationCurve : public ::System::Object
 	{
 	public:

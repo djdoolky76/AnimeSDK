@@ -17,6 +17,8 @@ namespace UnityEngine { class Mesh; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int Effect_CollapsingParticleMonoPlugin_TypeDefinitionIndex = 70436;
+
 	class Effect_CollapsingParticleMonoPlugin
 	{
 	public:

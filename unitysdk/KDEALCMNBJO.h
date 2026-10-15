@@ -13,6 +13,8 @@ namespace System { class String; }
 #define KDEALCMNBJO_NIFANMHOKPP_OFFSET UNITYSDK_OFFSET(0x1C4A9F90)
 #define KDEALCMNBJO_OBFHNAPFEIN_OFFSET UNITYSDK_OFFSET(0x1C4A9FA0)
 
+inline static constexpr unsigned int KDEALCMNBJO_TypeDefinitionIndex = 41397;
+
 	class KDEALCMNBJO : public ::System::Object
 	{
 	public:

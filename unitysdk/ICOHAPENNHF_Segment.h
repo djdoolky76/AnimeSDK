@@ -5,6 +5,8 @@
 #define ICOHAPENNHF_SEGMENT_CTOR_OFFSET UNITYSDK_OFFSET(0x10480)
 #define ICOHAPENNHF_SEGMENT_GET_CENTER_OFFSET UNITYSDK_OFFSET(0x2E7FC40)
 
+inline static constexpr unsigned int ICOHAPENNHF_Segment_TypeDefinitionIndex = 69329;
+
 	struct alignas(4) ICOHAPENNHF_Segment
 	{
 		::UnityEngine::Vector2 a; // 0x10

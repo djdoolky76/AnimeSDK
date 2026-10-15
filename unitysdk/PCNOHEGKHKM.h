@@ -20,6 +20,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 #define PCNOHEGKHKM_PAHALFAIMGN_OFFSET UNITYSDK_OFFSET(0xC009420)
 #define PCNOHEGKHKM_PFNDDBOENHC_OFFSET UNITYSDK_OFFSET(0xC009380)
 
+inline static constexpr unsigned int PCNOHEGKHKM_TypeDefinitionIndex = 62823;
+
 	class PCNOHEGKHKM : public ::System::Object
 	{
 	public:

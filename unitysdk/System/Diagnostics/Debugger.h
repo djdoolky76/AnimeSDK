@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace System::Diagnostics
 {
+	inline static constexpr unsigned int Debugger_TypeDefinitionIndex = 1582;
+
 	class Debugger : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CharacterHeadResetLookAtSpeed_TypeDefinitionIndex = 20868;
+
 	class CharacterHeadResetLookAtSpeed : public ::RPG::GameCore::TaskConfig
 	{
 	public:

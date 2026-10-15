@@ -26,6 +26,8 @@ namespace UnityEngine { class Transform; }
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int HEU_InputUtility_TypeDefinitionIndex = 40654;
+
 	class HEU_InputUtility : public ::System::Object
 	{
 	public:

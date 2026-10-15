@@ -38,6 +38,8 @@ namespace UnityEngine { class Collider; }
 #define FNNNPKDEDHO_PIBOIOIAFIG_OFFSET UNITYSDK_OFFSET(0x15887A00)
 #define FNNNPKDEDHO_PMHHJKEFDCK_OFFSET UNITYSDK_OFFSET(0x158881C0)
 
+inline static constexpr unsigned int FNNNPKDEDHO_TypeDefinitionIndex = 76914;
+
 	class FNNNPKDEDHO : public ::System::Object
 	{
 	public:

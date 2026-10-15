@@ -36,6 +36,8 @@ namespace UnityEngine { class Mesh; }
 
 namespace RPG::Embree
 {
+	inline static constexpr unsigned int EmbreeWrapper_TypeDefinitionIndex = 47016;
+
 	class EmbreeWrapper : public ::System::Object
 	{
 	public:

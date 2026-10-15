@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DestroyPropTrigger_TypeDefinitionIndex = 21583;
+
 	class DestroyPropTrigger : public ::RPG::GameCore::TaskConfig
 	{
 	public:

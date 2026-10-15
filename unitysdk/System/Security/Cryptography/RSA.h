@@ -18,6 +18,8 @@ namespace System::Security::Cryptography { class RSAEncryptionPadding; }
 
 namespace System::Security::Cryptography
 {
+	inline static constexpr unsigned int RSA_TypeDefinitionIndex = 1049;
+
 	class RSA : public ::System::Security::Cryptography::AsymmetricAlgorithm
 	{
 	public:

@@ -15,6 +15,8 @@ namespace VLB { class VolumetricLightBeam; }
 #define STAGEHARMONYVOLUMETRICLIGHTBEAMBEHAVIORLINKSLOT_NEKGALPLEOH_OFFSET UNITYSDK_OFFSET(0xE9981F0)
 #define STAGEHARMONYVOLUMETRICLIGHTBEAMBEHAVIORLINKSLOT_PKDEMCONMDA_OFFSET UNITYSDK_OFFSET(0xE9976B0)
 
+inline static constexpr unsigned int StageHarmonyVolumetricLightBeamBehaviorLinkSlot_TypeDefinitionIndex = 47385;
+
 	class StageHarmonyVolumetricLightBeamBehaviorLinkSlot : public ::StageHarmonyLightModLinkSlot
 	{
 	public:

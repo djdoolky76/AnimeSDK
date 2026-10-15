@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int TelemetryDelegate_ReportToKibanaDelegate_TypeDefinitionIndex = 7709;
+
 	class TelemetryDelegate_ReportToKibanaDelegate : public ::System::MulticastDelegate
 	{
 	public:

@@ -9,6 +9,8 @@ namespace System { class String; }
 #define NNAGJHEBNJD_SET_ACCOUNTID_OFFSET UNITYSDK_OFFSET(0xBC9A9D0)
 #define NNAGJHEBNJD_SET_ONLINEID_OFFSET UNITYSDK_OFFSET(0xBC9A9F0)
 
+inline static constexpr unsigned int NNAGJHEBNJD_TypeDefinitionIndex = 66736;
+
 	class NNAGJHEBNJD : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace RPG::GameCore { class WaitDialogueEvent; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int WaitDialogueEvent_TypeDefinitionIndex = 21127;
+
 	class WaitDialogueEvent : public ::RPG::GameCore::TaskConfig
 	{
 	public:

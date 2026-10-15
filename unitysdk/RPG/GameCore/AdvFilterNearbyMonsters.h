@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdvFilterNearbyMonsters_TypeDefinitionIndex = 21749;
+
 	class AdvFilterNearbyMonsters : public ::RPG::GameCore::TaskConfig
 	{
 	public:

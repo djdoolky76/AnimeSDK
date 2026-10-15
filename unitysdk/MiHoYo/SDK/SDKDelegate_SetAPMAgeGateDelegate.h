@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int SDKDelegate_SetAPMAgeGateDelegate_TypeDefinitionIndex = 7807;
+
 	class SDKDelegate_SetAPMAgeGateDelegate : public ::System::MulticastDelegate
 	{
 	public:

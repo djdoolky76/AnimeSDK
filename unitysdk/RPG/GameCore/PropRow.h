@@ -19,6 +19,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PropRow_TypeDefinitionIndex = 14071;
+
 	class PropRow : public ::System::Object
 	{
 	public:

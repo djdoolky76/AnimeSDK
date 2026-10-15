@@ -30,6 +30,8 @@ namespace System { class String; }
 #define PMNLJEJKLOD_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DFAF6B0)
 #define PMNLJEJKLOD_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DFAF710)
 
+inline static constexpr unsigned int PMNLJEJKLOD_TypeDefinitionIndex = 25499;
+
 	class PMNLJEJKLOD : public ::System::Object
 	{
 	public:

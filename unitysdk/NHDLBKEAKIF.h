@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define NHDLBKEAKIF_CTOR_OFFSET UNITYSDK_OFFSET(0xBBBEB50)
 #define NHDLBKEAKIF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBBBEB80)
 
+inline static constexpr unsigned int NHDLBKEAKIF_TypeDefinitionIndex = 53044;
+
 	class NHDLBKEAKIF
 	{
 	public:

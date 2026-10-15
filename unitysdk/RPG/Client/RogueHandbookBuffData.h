@@ -29,6 +29,8 @@ namespace RPG::GameCore { class RogueBuffRow; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueHandbookBuffData_TypeDefinitionIndex = 67370;
+
 	class RogueHandbookBuffData : public ::System::Object
 	{
 	public:

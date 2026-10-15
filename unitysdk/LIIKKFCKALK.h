@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define LIIKKFCKALK_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1D0F9700)
 #define LIIKKFCKALK_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1D0F9BB0)
 
+inline static constexpr unsigned int LIIKKFCKALK_TypeDefinitionIndex = 15208;
+
 	class LIIKKFCKALK : public ::System::Object
 	{
 	public:

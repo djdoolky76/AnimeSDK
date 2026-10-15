@@ -7,6 +7,8 @@
 #define NEFFDKCEKBP_CTOR_OFFSET UNITYSDK_OFFSET(0x1C955710)
 #define NEFFDKCEKBP_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0x1C955720)
 
+inline static constexpr unsigned int NEFFDKCEKBP_TypeDefinitionIndex = 42479;
+
 	class NEFFDKCEKBP : public ::KIDPCOMKMKJ
 	{
 	public:

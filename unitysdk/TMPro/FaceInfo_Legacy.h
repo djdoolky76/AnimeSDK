@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace TMPro
 {
+	inline static constexpr unsigned int FaceInfo_Legacy_TypeDefinitionIndex = 44572;
+
 	class FaceInfo_Legacy : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CheckMainMissionFinishedInCurrentVersion_TypeDefinitionIndex = 20766;
+
 	class CheckMainMissionFinishedInCurrentVersion : public ::RPG::GameCore::TaskConfig
 	{
 	public:

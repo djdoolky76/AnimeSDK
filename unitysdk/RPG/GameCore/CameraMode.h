@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CameraMode_TypeDefinitionIndex = 16433;
+
 	enum class CameraMode : ::System::Int32
 	{
 		FightNormal = 0,

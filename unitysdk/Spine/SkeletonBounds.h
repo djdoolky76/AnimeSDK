@@ -35,6 +35,8 @@ namespace Spine { template <typename T> class ExposedList_1; }
 
 namespace Spine
 {
+	inline static constexpr unsigned int SkeletonBounds_TypeDefinitionIndex = 39689;
+
 	class SkeletonBounds : public ::System::Object
 	{
 	public:

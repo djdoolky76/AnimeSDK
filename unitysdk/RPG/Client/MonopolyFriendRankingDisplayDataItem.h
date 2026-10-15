@@ -28,6 +28,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonopolyFriendRankingDisplayDataItem_TypeDefinitionIndex = 66259;
+
 	class MonopolyFriendRankingDisplayDataItem : public ::System::Object
 	{
 	public:

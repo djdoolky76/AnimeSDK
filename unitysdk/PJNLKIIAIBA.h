@@ -4,6 +4,8 @@
 
 #define PJNLKIIAIBA_CTOR_OFFSET UNITYSDK_OFFSET(0x1C9F4060)
 
+inline static constexpr unsigned int PJNLKIIAIBA_TypeDefinitionIndex = 43301;
+
 	class PJNLKIIAIBA : public ::System::Object
 	{
 	public:

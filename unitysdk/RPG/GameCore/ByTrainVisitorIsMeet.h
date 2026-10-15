@@ -14,6 +14,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByTrainVisitorIsMeet_TypeDefinitionIndex = 21679;
+
 	class ByTrainVisitorIsMeet : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

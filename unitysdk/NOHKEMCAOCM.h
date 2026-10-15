@@ -4,6 +4,8 @@
 
 #define NOHKEMCAOCM_CTOR_OFFSET UNITYSDK_OFFSET(0x1C9761E0)
 
+inline static constexpr unsigned int NOHKEMCAOCM_TypeDefinitionIndex = 43255;
+
 	class NOHKEMCAOCM : public ::System::Object
 	{
 	public:

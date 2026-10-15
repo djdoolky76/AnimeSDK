@@ -4,6 +4,8 @@
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int MHYSDKC_Bool_TypeDefinitionIndex = 46188;
+
 	class MHYSDKC_Bool : public ::System::Object
 	{
 	public:

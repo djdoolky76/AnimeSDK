@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int FINKPKBICHJ_TypeDefinitionIndex = 31966;
+
 	enum class FINKPKBICHJ : ::System::Int32
 	{
 		NLCDGIPGFDJ = 0,

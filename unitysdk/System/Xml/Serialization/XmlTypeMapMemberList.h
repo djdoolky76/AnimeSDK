@@ -6,6 +6,8 @@
 
 namespace System::Xml::Serialization
 {
+	inline static constexpr unsigned int XmlTypeMapMemberList_TypeDefinitionIndex = 2050;
+
 	class XmlTypeMapMemberList : public ::System::Xml::Serialization::XmlTypeMapMemberElement
 	{
 	public:

@@ -32,6 +32,8 @@ namespace System { class String; }
 #define NNFOMOBLFAC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EB82830)
 #define NNFOMOBLFAC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EB82890)
 
+inline static constexpr unsigned int NNFOMOBLFAC_TypeDefinitionIndex = 34207;
+
 	class NNFOMOBLFAC : public ::System::Object
 	{
 	public:

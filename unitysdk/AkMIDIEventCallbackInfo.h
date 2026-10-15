@@ -25,6 +25,8 @@ class AkMIDIEventCallbackInfo;
 #define AKMIDIEVENTCALLBACKINFO_GET_BYVELOCITY_OFFSET UNITYSDK_OFFSET(0x1F5A3640)
 #define AKMIDIEVENTCALLBACKINFO_SETCPTR_OFFSET UNITYSDK_OFFSET(0x1F5A3010)
 
+inline static constexpr unsigned int AkMIDIEventCallbackInfo_TypeDefinitionIndex = 44758;
+
 	class AkMIDIEventCallbackInfo : public ::AkEventCallbackInfo
 	{
 	public:

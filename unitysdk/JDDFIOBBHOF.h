@@ -29,6 +29,8 @@ namespace System { class String; }
 #define JDDFIOBBHOF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E7086C0)
 #define JDDFIOBBHOF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E708720)
 
+inline static constexpr unsigned int JDDFIOBBHOF_TypeDefinitionIndex = 25982;
+
 	class JDDFIOBBHOF : public ::System::Object
 	{
 	public:

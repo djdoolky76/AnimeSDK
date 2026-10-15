@@ -8,6 +8,8 @@ class FHKCLKBHLON;
 #define FHKCLKBHLON_CTOR_OFFSET UNITYSDK_OFFSET(0x1CDF12C0)
 #define FHKCLKBHLON_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CDF11A0)
 
+inline static constexpr unsigned int FHKCLKBHLON_TypeDefinitionIndex = 13584;
+
 	class FHKCLKBHLON : public ::System::Object
 	{
 	public:

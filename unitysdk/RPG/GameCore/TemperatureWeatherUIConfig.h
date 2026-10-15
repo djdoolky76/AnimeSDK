@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TemperatureWeatherUIConfig_TypeDefinitionIndex = 22791;
+
 	class TemperatureWeatherUIConfig : public ::RPG::GameCore::WeatherUIBaseConfig
 	{
 	public:

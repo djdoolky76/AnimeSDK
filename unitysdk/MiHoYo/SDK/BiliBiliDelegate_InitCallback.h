@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int BiliBiliDelegate_InitCallback_TypeDefinitionIndex = 7602;
+
 	class BiliBiliDelegate_InitCallback : public ::System::MulticastDelegate
 	{
 	public:

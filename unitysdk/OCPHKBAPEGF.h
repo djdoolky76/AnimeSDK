@@ -27,6 +27,8 @@ namespace System { class String; }
 #define OCPHKBAPEGF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DE1A9E0)
 #define OCPHKBAPEGF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DE1AA40)
 
+inline static constexpr unsigned int OCPHKBAPEGF_TypeDefinitionIndex = 28877;
+
 	class OCPHKBAPEGF : public ::System::Object
 	{
 	public:

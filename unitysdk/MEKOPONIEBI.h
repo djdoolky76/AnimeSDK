@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define MEKOPONIEBI_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1D151FC0)
 #define MEKOPONIEBI_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1D151960)
 
+inline static constexpr unsigned int MEKOPONIEBI_TypeDefinitionIndex = 12188;
+
 	class MEKOPONIEBI : public ::System::Object
 	{
 	public:

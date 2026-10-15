@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GridFightModifierFinancingConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightModifierFinancingConfig_TypeDefinitionIndex = 19498;
+
 	class GridFightModifierFinancingConfig : public ::RPG::GameCore::GridFightModifierConfigBase
 	{
 	public:

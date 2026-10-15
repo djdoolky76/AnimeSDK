@@ -7,6 +7,8 @@ class MHDDKNOJJOM;
 #define HNJKEHLONHN_CTOR_OFFSET UNITYSDK_OFFSET(0x15D9C6E0)
 #define HNJKEHLONHN_MGFLFCHMGPA_OFFSET UNITYSDK_OFFSET(0x15D9C6F0)
 
+inline static constexpr unsigned int HNJKEHLONHN_TypeDefinitionIndex = 78254;
+
 	class HNJKEHLONHN : public ::KNFCEJEJINK
 	{
 	public:

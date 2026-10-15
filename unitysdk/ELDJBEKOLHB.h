@@ -66,6 +66,8 @@ namespace System { class String; }
 #define ELDJBEKOLHB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E2CC020)
 #define ELDJBEKOLHB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E2CC080)
 
+inline static constexpr unsigned int ELDJBEKOLHB_TypeDefinitionIndex = 29576;
+
 	class ELDJBEKOLHB : public ::System::Object
 	{
 	public:

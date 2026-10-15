@@ -6,6 +6,8 @@
 #define AIIKHGCCFBN_CLEAR_OFFSET UNITYSDK_OFFSET(0xEBA7260)
 #define AIIKHGCCFBN_CTOR_OFFSET UNITYSDK_OFFSET(0xEBA72C0)
 
+inline static constexpr unsigned int AIIKHGCCFBN_TypeDefinitionIndex = 53502;
+
 	class AIIKHGCCFBN : public ::System::Object
 	{
 	public:

@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define BOKGLIFLEMA_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1D9F2890)
 #define BOKGLIFLEMA_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1D9F21B0)
 
+inline static constexpr unsigned int BOKGLIFLEMA_TypeDefinitionIndex = 13482;
+
 	class BOKGLIFLEMA : public ::System::Object
 	{
 	public:

@@ -27,6 +27,8 @@ namespace System { class String; }
 #define PJJAIIONOPE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DF7B5F0)
 #define PJJAIIONOPE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DF7B650)
 
+inline static constexpr unsigned int PJJAIIONOPE_TypeDefinitionIndex = 29072;
+
 	class PJJAIIONOPE : public ::System::Object
 	{
 	public:

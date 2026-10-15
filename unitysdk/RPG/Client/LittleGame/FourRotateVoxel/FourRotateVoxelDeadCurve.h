@@ -17,6 +17,8 @@ namespace UnityEngine { class AnimationCurve; }
 
 namespace RPG::Client::LittleGame::FourRotateVoxel
 {
+	inline static constexpr unsigned int FourRotateVoxelDeadCurve_TypeDefinitionIndex = 76836;
+
 	class FourRotateVoxelDeadCurve : public ::RPG::Client::LittleGame::FourRotateVoxel::FouRotateVoxelSimpleCameraCurveBase
 	{
 	public:

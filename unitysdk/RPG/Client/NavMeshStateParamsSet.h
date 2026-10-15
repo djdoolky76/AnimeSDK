@@ -10,6 +10,8 @@ namespace UnityEngine::AI { class NavMeshSurface; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int NavMeshStateParamsSet_TypeDefinitionIndex = 68640;
+
 	class NavMeshStateParamsSet : public ::System::Object
 	{
 	public:

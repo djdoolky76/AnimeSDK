@@ -18,6 +18,8 @@ namespace ZXing::Common { class BitMatrix; }
 
 namespace ZXing::Aztec
 {
+	inline static constexpr unsigned int AztecWriter_TypeDefinitionIndex = 7039;
+
 	class AztecWriter : public ::System::Object
 	{
 	public:

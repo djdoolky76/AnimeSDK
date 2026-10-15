@@ -7,6 +7,8 @@ class GGJFAFONDHN;
 
 namespace EnviromentSystemV2Space
 {
+	inline static constexpr unsigned int IntPropertyData_TypeDefinitionIndex = 49384;
+
 	class IntPropertyData
 	{
 	public:

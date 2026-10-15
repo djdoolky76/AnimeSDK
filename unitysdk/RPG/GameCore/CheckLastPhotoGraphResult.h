@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CheckLastPhotoGraphResult_TypeDefinitionIndex = 21622;
+
 	class CheckLastPhotoGraphResult : public ::RPG::GameCore::TaskConfig
 	{
 	public:

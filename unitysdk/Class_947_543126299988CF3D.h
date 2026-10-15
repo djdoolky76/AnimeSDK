@@ -6,6 +6,8 @@
 #define CLASS_947_543126299988CF3D_METHOD_2_OFFSET UNITYSDK_OFFSET(0x149DF0D0)
 #define CLASS_947_543126299988CF3D_METHOD_OFFSET UNITYSDK_OFFSET(0x149DF720)
 
+inline static constexpr unsigned int Class_947_543126299988CF3D_TypeDefinitionIndex = 51282;
+
 	class Class_947_543126299988CF3D : public ::System::Object
 	{
 	public:

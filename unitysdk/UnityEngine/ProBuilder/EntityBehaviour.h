@@ -8,6 +8,8 @@ namespace UnityEngine { class Material; }
 
 namespace UnityEngine::ProBuilder
 {
+	inline static constexpr unsigned int EntityBehaviour_TypeDefinitionIndex = 44357;
+
 	class EntityBehaviour : public ::UnityEngine::MonoBehaviour
 	{
 	public:

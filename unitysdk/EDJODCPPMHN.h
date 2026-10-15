@@ -4,6 +4,8 @@
 
 #define EDJODCPPMHN_CTOR_OFFSET UNITYSDK_OFFSET(0x13325570)
 
+inline static constexpr unsigned int EDJODCPPMHN_TypeDefinitionIndex = 73128;
+
 	class EDJODCPPMHN : public ::GHODJENKHNE
 	{
 	public:

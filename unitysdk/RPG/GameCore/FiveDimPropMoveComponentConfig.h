@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FiveDimPropMoveComponentConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimPropMoveComponentConfig_TypeDefinitionIndex = 18568;
+
 	class FiveDimPropMoveComponentConfig : public ::RPG::GameCore::LittleGameComponentConfig
 	{
 	public:

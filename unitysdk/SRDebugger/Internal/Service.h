@@ -21,6 +21,8 @@ namespace SRDebugger::Services { class IPinnedUIService; }
 
 namespace SRDebugger::Internal
 {
+	inline static constexpr unsigned int Service_TypeDefinitionIndex = 38106;
+
 	class Service : public ::System::Object
 	{
 	public:

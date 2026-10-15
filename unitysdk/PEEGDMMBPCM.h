@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define PEEGDMMBPCM_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1D2D2A00)
 #define PEEGDMMBPCM_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1D2D2320)
 
+inline static constexpr unsigned int PEEGDMMBPCM_TypeDefinitionIndex = 11749;
+
 	class PEEGDMMBPCM : public ::System::Object
 	{
 	public:

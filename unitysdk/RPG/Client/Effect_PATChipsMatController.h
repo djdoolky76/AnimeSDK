@@ -11,6 +11,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int Effect_PATChipsMatController_TypeDefinitionIndex = 70515;
+
 	class Effect_PATChipsMatController : public ::UnityEngine::MonoBehaviour
 	{
 	public:

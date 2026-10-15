@@ -11,6 +11,8 @@ namespace RPG::Client::TAUtils { class Vector4AnimationCurve; }
 
 namespace RPG::Client::TAUtils
 {
+	inline static constexpr unsigned int QuaternionTransformAnimationCurve_TypeDefinitionIndex = 73647;
+
 	class QuaternionTransformAnimationCurve : public ::System::Object
 	{
 	public:

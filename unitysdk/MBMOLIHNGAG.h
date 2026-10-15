@@ -24,6 +24,8 @@ namespace UnityEngine::UI { class Image; }
 #define MBMOLIHNGAG__ONTICK_OFFSET UNITYSDK_OFFSET(0xB86E010)
 #define MBMOLIHNGAG__SETUPVIEW_OFFSET UNITYSDK_OFFSET(0xB86DC10)
 
+inline static constexpr unsigned int MBMOLIHNGAG_TypeDefinitionIndex = 72027;
+
 	class MBMOLIHNGAG : public ::RPG::Client::UIController
 	{
 	public:

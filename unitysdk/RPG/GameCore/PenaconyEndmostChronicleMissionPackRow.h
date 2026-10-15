@@ -9,6 +9,8 @@ namespace RPG::GameCore { class PenaconyEndmostChronicleMissionPackRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PenaconyEndmostChronicleMissionPackRow_TypeDefinitionIndex = 14129;
+
 	class PenaconyEndmostChronicleMissionPackRow : public ::System::Object
 	{
 	public:

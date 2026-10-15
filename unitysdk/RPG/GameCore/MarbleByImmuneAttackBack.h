@@ -11,6 +11,8 @@ namespace RPG::GameCore { class MarbleByImmuneAttackBack; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MarbleByImmuneAttackBack_TypeDefinitionIndex = 16896;
+
 	class MarbleByImmuneAttackBack : public ::RPG::GameCore::MarblePredicateConfig
 	{
 	public:

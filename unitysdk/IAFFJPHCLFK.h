@@ -21,6 +21,8 @@ namespace RPG::Client { class MonoInflatableFighter; }
 #define IAFFJPHCLFK_LJBBOIIODGK_OFFSET UNITYSDK_OFFSET(0x15E058E0)
 #define IAFFJPHCLFK_SET_ISDODGING_OFFSET UNITYSDK_OFFSET(0x15E05950)
 
+inline static constexpr unsigned int IAFFJPHCLFK_TypeDefinitionIndex = 68667;
+
 	class IAFFJPHCLFK : public ::System::Object
 	{
 	public:

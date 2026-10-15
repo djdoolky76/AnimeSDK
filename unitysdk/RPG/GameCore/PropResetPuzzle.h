@@ -10,6 +10,8 @@ namespace RPG::GameCore { class PropResetPuzzle; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PropResetPuzzle_TypeDefinitionIndex = 21985;
+
 	class PropResetPuzzle : public ::RPG::GameCore::TaskConfig
 	{
 	public:

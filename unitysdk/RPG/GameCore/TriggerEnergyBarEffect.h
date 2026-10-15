@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TriggerEnergyBarEffect_TypeDefinitionIndex = 22740;
+
 	class TriggerEnergyBarEffect : public ::RPG::GameCore::TaskConfig
 	{
 	public:

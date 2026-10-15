@@ -7,6 +7,8 @@ namespace RPG::GameCore { class MarbleBySpineDamage; }
 #define KNGBOACMDOP_CTOR_OFFSET UNITYSDK_OFFSET(0x1C909850)
 #define KNGBOACMDOP_KHNFOOKHOJF_OFFSET UNITYSDK_OFFSET(0x1C909920)
 
+inline static constexpr unsigned int KNGBOACMDOP_TypeDefinitionIndex = 43158;
+
 	class KNGBOACMDOP : public ::LHJPMDPJPEC
 	{
 	public:

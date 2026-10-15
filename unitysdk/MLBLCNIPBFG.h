@@ -29,6 +29,8 @@ namespace System { class String; }
 #define MLBLCNIPBFG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EA7FC30)
 #define MLBLCNIPBFG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EA7FC90)
 
+inline static constexpr unsigned int MLBLCNIPBFG_TypeDefinitionIndex = 31386;
+
 	class MLBLCNIPBFG : public ::System::Object
 	{
 	public:

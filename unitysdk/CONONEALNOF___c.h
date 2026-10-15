@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define CONONEALNOF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E1381F0)
 #define CONONEALNOF___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E138200)
 
+inline static constexpr unsigned int CONONEALNOF___c_TypeDefinitionIndex = 29187;
+
 	class CONONEALNOF___c : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int ChimeraEntranceAnchorConfig_TypeDefinitionIndex = 78482;
+
 	class ChimeraEntranceAnchorConfig : public ::UnityEngine::MonoBehaviour
 	{
 	public:

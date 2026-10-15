@@ -20,6 +20,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace Cysharp::Threading::Tasks
 {
+	inline static constexpr unsigned int CancellationTokenSourceExtensions_TypeDefinitionIndex = 38138;
+
 	class CancellationTokenSourceExtensions : public ::System::Object
 	{
 	public:

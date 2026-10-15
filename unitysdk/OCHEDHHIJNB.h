@@ -12,6 +12,8 @@ namespace System { class String; }
 #define OCHEDHHIJNB_FIFLBLPMGOO_OFFSET UNITYSDK_OFFSET(0xBD634F0)
 #define OCHEDHHIJNB_IHOLEGDCFNO_OFFSET UNITYSDK_OFFSET(0xBD632D0)
 
+inline static constexpr unsigned int OCHEDHHIJNB_TypeDefinitionIndex = 77835;
+
 	class OCHEDHHIJNB : public ::System::Object
 	{
 	public:

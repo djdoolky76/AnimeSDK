@@ -11,6 +11,8 @@ namespace System { class String; }
 #define MMLMAKEPJLP_CTOR_OFFSET UNITYSDK_OFFSET(0x1D1D2DA0)
 #define MMLMAKEPJLP_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D1D29B0)
 
+inline static constexpr unsigned int MMLMAKEPJLP_TypeDefinitionIndex = 14515;
+
 	class MMLMAKEPJLP : public ::System::Object
 	{
 	public:

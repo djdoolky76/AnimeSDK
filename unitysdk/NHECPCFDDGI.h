@@ -20,6 +20,8 @@ namespace System { class Exception; }
 #define NHECPCFDDGI_LOCLIGNNNKO_OFFSET UNITYSDK_OFFSET(0x1EC88F60)
 #define NHECPCFDDGI_PMKMEAAGKAP_OFFSET UNITYSDK_OFFSET(0x1EC88B10)
 
+inline static constexpr unsigned int NHECPCFDDGI_TypeDefinitionIndex = 44209;
+
 	class NHECPCFDDGI : public ::System::Object
 	{
 	public:

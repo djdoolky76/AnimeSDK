@@ -35,6 +35,8 @@ namespace UnityEngine { class RectTransform; }
 #define BENKEDNFOGH__ONBIND_OFFSET UNITYSDK_OFFSET(0xB15AF70)
 #define BENKEDNFOGH__ONRETURN_B__1_0_OFFSET UNITYSDK_OFFSET(0xB15B080)
 
+inline static constexpr unsigned int BENKEDNFOGH_TypeDefinitionIndex = 71742;
+
 	class BENKEDNFOGH : public ::FMPCODLIOLG
 	{
 	public:

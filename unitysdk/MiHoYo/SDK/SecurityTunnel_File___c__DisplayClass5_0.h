@@ -8,6 +8,8 @@ namespace MiHoYo::SDK { class SecurityTunnel_File_Range; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int SecurityTunnel_File___c__DisplayClass5_0_TypeDefinitionIndex = 46380;
+
 	class SecurityTunnel_File___c__DisplayClass5_0 : public ::System::Object
 	{
 	public:

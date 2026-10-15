@@ -7,6 +7,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FateRinBattleToastUIParam_TypeDefinitionIndex = 52788;
+
 	class FateRinBattleToastUIParam : public ::System::Object
 	{
 	public:

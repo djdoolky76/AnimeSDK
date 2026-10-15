@@ -15,6 +15,8 @@ namespace System::Collections::Generic { template <typename T> class Queue_1; }
 #define JCLLCEJLODJ_LDHAAHGMOKF_OFFSET UNITYSDK_OFFSET(0x165A6D20)
 #define JCLLCEJLODJ_LHOPBHMPAPE_OFFSET UNITYSDK_OFFSET(0x165A6B80)
 
+inline static constexpr unsigned int JCLLCEJLODJ_TypeDefinitionIndex = 62198;
+
 	class JCLLCEJLODJ : public ::System::Object
 	{
 	public:

@@ -48,6 +48,8 @@ namespace System::Text::RegularExpressions { class Regex; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int UIStringUtil_TypeDefinitionIndex = 73182;
+
 	class UIStringUtil : public ::System::Object
 	{
 	public:

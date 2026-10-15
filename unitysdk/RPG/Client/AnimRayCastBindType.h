@@ -3,6 +3,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AnimRayCastBindType_TypeDefinitionIndex = 60846;
+
 	enum class AnimRayCastBindType : ::System::Int32
 	{
 		AnimState = 0,

@@ -13,6 +13,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdvPlayerForceUseDefaultOutfit_TypeDefinitionIndex = 21031;
+
 	class AdvPlayerForceUseDefaultOutfit : public ::RPG::GameCore::TaskConfig
 	{
 	public:

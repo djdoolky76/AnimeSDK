@@ -14,6 +14,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define OFAHLLPMOBO_NIBJNBCAAIA_OFFSET UNITYSDK_OFFSET(0xBE3A940)
 #define OFAHLLPMOBO_PALNHOCIHDK_OFFSET UNITYSDK_OFFSET(0xBE3A7C0)
 
+inline static constexpr unsigned int OFAHLLPMOBO_TypeDefinitionIndex = 60224;
+
 	class OFAHLLPMOBO : public ::System::Object
 	{
 	public:

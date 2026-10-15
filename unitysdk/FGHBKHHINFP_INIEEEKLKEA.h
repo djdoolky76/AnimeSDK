@@ -12,6 +12,8 @@ namespace UnityEngine { class GameObject; }
 #define FGHBKHHINFP_INIEEEKLKEA_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x157625B0)
 #define FGHBKHHINFP_INIEEEKLKEA_INVOKE_OFFSET UNITYSDK_OFFSET(0x157624E0)
 
+inline static constexpr unsigned int FGHBKHHINFP_INIEEEKLKEA_TypeDefinitionIndex = 69165;
+
 	class FGHBKHHINFP_INIEEEKLKEA : public ::System::MulticastDelegate
 	{
 	public:

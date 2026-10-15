@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GiftDanmuContentRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GiftDanmuContentRow_TypeDefinitionIndex = 15192;
+
 	class GiftDanmuContentRow : public ::System::Object
 	{
 	public:

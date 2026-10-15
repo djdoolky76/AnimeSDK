@@ -8,6 +8,8 @@ namespace UnityEngine::Timeline { class TimelineClip; }
 
 namespace UnityEngine::Timeline
 {
+	inline static constexpr unsigned int PlayableTrack_TypeDefinitionIndex = 38854;
+
 	class PlayableTrack : public ::UnityEngine::Timeline::TrackAsset
 	{
 	public:

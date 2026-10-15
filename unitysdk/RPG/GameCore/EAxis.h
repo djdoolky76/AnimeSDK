@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int EAxis_TypeDefinitionIndex = 10487;
+
 	enum class EAxis : ::System::Int32
 	{
 		Vertical = 0,

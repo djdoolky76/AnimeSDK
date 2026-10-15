@@ -3,6 +3,8 @@
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
+	inline static constexpr unsigned int VREvent_Notification_t_TypeDefinitionIndex = 39286;
+
 	struct alignas(4) VREvent_Notification_t
 	{
 		::System::UInt64 ulUserValue; // 0x10

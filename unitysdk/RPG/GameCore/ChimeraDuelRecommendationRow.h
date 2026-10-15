@@ -9,6 +9,8 @@ namespace RPG::GameCore { class ChimeraDuelRecommendationRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChimeraDuelRecommendationRow_TypeDefinitionIndex = 11121;
+
 	class ChimeraDuelRecommendationRow : public ::System::Object
 	{
 	public:

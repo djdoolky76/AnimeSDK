@@ -5,6 +5,8 @@ namespace UnityEngine::EventSystems { class PointerEventData; }
 
 #define HAEBPNAFKDJ_CTOR_OFFSET UNITYSDK_OFFSET(0x15B72190)
 
+inline static constexpr unsigned int HAEBPNAFKDJ_TypeDefinitionIndex = 73238;
+
 	class HAEBPNAFKDJ : public ::System::Object
 	{
 	public:

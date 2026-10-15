@@ -25,6 +25,8 @@ namespace System { class String; }
 #define GBCKAGHDPEB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E427880)
 #define GBCKAGHDPEB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E4278E0)
 
+inline static constexpr unsigned int GBCKAGHDPEB_TypeDefinitionIndex = 27110;
+
 	class GBCKAGHDPEB : public ::System::Object
 	{
 	public:

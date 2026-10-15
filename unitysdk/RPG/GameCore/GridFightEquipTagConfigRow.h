@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GridFightEquipTagConfigRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightEquipTagConfigRow_TypeDefinitionIndex = 13463;
+
 	class GridFightEquipTagConfigRow : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@ namespace UnityEngine { class Object; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int BinaryPrefabInstantiateRequest_TypeDefinitionIndex = 5769;
+
 	class BinaryPrefabInstantiateRequest : public ::UnityEngine::AsyncOperation
 	{
 	public:

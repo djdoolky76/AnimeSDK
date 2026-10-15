@@ -28,6 +28,8 @@ namespace System::Collections::Generic { template <typename T> class IList_1; }
 #define OKNBLMBAMMD_UPDATEREMOVEROLE_OFFSET UNITYSDK_OFFSET(0xBEEF8B0)
 #define OKNBLMBAMMD_UPDATESHOP_OFFSET UNITYSDK_OFFSET(0xBEEF6E0)
 
+inline static constexpr unsigned int OKNBLMBAMMD_TypeDefinitionIndex = 64390;
+
 	class OKNBLMBAMMD : public ::AMCOEFHHBPO
 	{
 	public:

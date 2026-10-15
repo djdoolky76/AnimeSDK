@@ -9,6 +9,8 @@ namespace RPG::GameCore { class ConfigMunicipalPedestrianOverride; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ConfigMunicipalPedestrianOverride_TypeDefinitionIndex = 16919;
+
 	class ConfigMunicipalPedestrianOverride : public ::RPG::GameCore::JsonConfig
 	{
 	public:

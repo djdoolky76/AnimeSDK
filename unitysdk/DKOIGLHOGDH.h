@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define DKOIGLHOGDH_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C5F5A70)
 #define DKOIGLHOGDH_HJJFOBGFBIO_OFFSET UNITYSDK_OFFSET(0x1C5E8800)
 
+inline static constexpr unsigned int DKOIGLHOGDH_TypeDefinitionIndex = 37429;
+
 	class DKOIGLHOGDH : public ::System::Object
 	{
 	public:

@@ -28,6 +28,8 @@ namespace UnityEngine { class Transform; }
 #define NAJCEIHIIIP_OMLKKAIIDGF_OFFSET UNITYSDK_OFFSET(0xBA9FCE0)
 #define NAJCEIHIIIP_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0xBA9F370)
 
+inline static constexpr unsigned int NAJCEIHIIIP_TypeDefinitionIndex = 78048;
+
 	class NAJCEIHIIIP : public ::System::Object
 	{
 	public:

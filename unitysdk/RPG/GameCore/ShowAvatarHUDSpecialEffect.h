@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ShowAvatarHUDSpecialEffect_TypeDefinitionIndex = 22931;
+
 	class ShowAvatarHUDSpecialEffect : public ::RPG::GameCore::TaskConfig
 	{
 	public:

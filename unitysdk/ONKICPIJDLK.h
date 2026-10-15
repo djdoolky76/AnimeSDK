@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 #define ONKICPIJDLK_EXECUTE_OFFSET UNITYSDK_OFFSET(0xBF581B0)
 #define ONKICPIJDLK_KJDEGBBEBFM_OFFSET UNITYSDK_OFFSET(0xBF58510)
 
+inline static constexpr unsigned int ONKICPIJDLK_TypeDefinitionIndex = 77959;
+
 	class ONKICPIJDLK : public ::System::Object
 	{
 	public:

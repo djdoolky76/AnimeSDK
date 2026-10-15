@@ -10,6 +10,8 @@ namespace System { class IDisposable; }
 #define NLKJJGNPCDE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1EC89B40)
 #define NLKJJGNPCDE_GBMLHDDJMJM_OFFSET UNITYSDK_OFFSET(0x1EC89C80)
 
+inline static constexpr unsigned int NLKJJGNPCDE_TypeDefinitionIndex = 44187;
+
 	class NLKJJGNPCDE : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@
 #define EMOHACFGKLF_GET_TOP_OFFSET UNITYSDK_OFFSET(0x15559490)
 #define EMOHACFGKLF_GET_WIDTH_OFFSET UNITYSDK_OFFSET(0x15559440)
 
+inline static constexpr unsigned int EMOHACFGKLF_TypeDefinitionIndex = 64469;
+
 	class EMOHACFGKLF : public ::System::Object
 	{
 	public:

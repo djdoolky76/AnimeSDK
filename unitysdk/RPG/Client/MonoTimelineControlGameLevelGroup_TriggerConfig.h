@@ -9,6 +9,8 @@ namespace UnityEngine { class Animator; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoTimelineControlGameLevelGroup_TriggerConfig_TypeDefinitionIndex = 60449;
+
 	class MonoTimelineControlGameLevelGroup_TriggerConfig : public ::System::Object
 	{
 	public:

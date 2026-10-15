@@ -40,6 +40,8 @@ namespace UnityEngine { class Transform; }
 #define FENHNNDHGFI_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0x15729290)
 #define FENHNNDHGFI_PLJHHJFAOFA_OFFSET UNITYSDK_OFFSET(0x1572BE70)
 
+inline static constexpr unsigned int FENHNNDHGFI_TypeDefinitionIndex = 69656;
+
 	class FENHNNDHGFI : public ::MDILEMALGNC
 	{
 	public:

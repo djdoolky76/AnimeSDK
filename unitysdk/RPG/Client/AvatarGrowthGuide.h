@@ -14,6 +14,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AvatarGrowthGuide_TypeDefinitionIndex = 65544;
+
 	class AvatarGrowthGuide : public ::System::Object
 	{
 	public:

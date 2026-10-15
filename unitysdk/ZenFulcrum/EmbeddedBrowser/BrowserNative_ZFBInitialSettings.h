@@ -4,6 +4,8 @@ namespace System { class String; }
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
+	inline static constexpr unsigned int BrowserNative_ZFBInitialSettings_TypeDefinitionIndex = 39395;
+
 	struct alignas(8) BrowserNative_ZFBInitialSettings
 	{
 		::System::String* cefPath; // 0x10

@@ -27,6 +27,8 @@ namespace System { class String; }
 #define GOOILNEKEMG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E4F4390)
 #define GOOILNEKEMG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E4F43F0)
 
+inline static constexpr unsigned int GOOILNEKEMG_TypeDefinitionIndex = 33738;
+
 	class GOOILNEKEMG : public ::System::Object
 	{
 	public:

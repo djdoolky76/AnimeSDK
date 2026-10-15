@@ -21,6 +21,8 @@ namespace UnityEngine::ProBuilder { class WingedEdge; }
 
 namespace UnityEngine::ProBuilder::MeshOperations
 {
+	inline static constexpr unsigned int VertexEditing_TypeDefinitionIndex = 44523;
+
 	class VertexEditing : public ::System::Object
 	{
 	public:

@@ -7,6 +7,8 @@ namespace UnityEngine { class Collider; }
 #define PDHLJJCMEDJ_CTOR_1_OFFSET UNITYSDK_OFFSET(0x26A20)
 #define PDHLJJCMEDJ_CTOR_OFFSET UNITYSDK_OFFSET(0x269E0)
 
+inline static constexpr unsigned int PDHLJJCMEDJ_TypeDefinitionIndex = 71111;
+
 	struct alignas(8) PDHLJJCMEDJ
 	{
 		::RPG::GameCore::GameEntity* CKLPGEPGCMJ; // 0x10

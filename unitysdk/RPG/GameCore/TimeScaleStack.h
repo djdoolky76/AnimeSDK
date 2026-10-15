@@ -41,6 +41,8 @@ namespace UnityEngine { class AnimationCurve; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TimeScaleStack_TypeDefinitionIndex = 59258;
+
 	class TimeScaleStack : public ::System::Object
 	{
 	public:

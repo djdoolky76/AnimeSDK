@@ -15,6 +15,8 @@ namespace RPG::Client::MechCraft::View { class MechCraftOrderSelectControl; }
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftOrderSelectWindow_TypeDefinitionIndex = 80007;
+
 	class MechCraftOrderSelectWindow : public ::Sofa::BaseSofaWindow
 	{
 	public:

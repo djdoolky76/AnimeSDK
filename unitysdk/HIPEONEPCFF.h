@@ -32,6 +32,8 @@ namespace System { class String; }
 #define HIPEONEPCFF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E59FEB0)
 #define HIPEONEPCFF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E59FF10)
 
+inline static constexpr unsigned int HIPEONEPCFF_TypeDefinitionIndex = 32080;
+
 	class HIPEONEPCFF : public ::System::Object
 	{
 	public:

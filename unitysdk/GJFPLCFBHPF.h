@@ -9,6 +9,8 @@ namespace RPG::Client { class UIController; }
 #define GJFPLCFBHPF_ONEXITBEGIN_OFFSET UNITYSDK_OFFSET(0x15A67120)
 #define GJFPLCFBHPF_ONTRANSITIONEND_OFFSET UNITYSDK_OFFSET(0x15A67310)
 
+inline static constexpr unsigned int GJFPLCFBHPF_TypeDefinitionIndex = 73125;
+
 	class GJFPLCFBHPF : public ::HFACHPPOANI
 	{
 	public:

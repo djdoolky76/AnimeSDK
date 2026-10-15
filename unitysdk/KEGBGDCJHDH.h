@@ -19,6 +19,8 @@ namespace System::Text { class StringBuilder; }
 #define KEGBGDCJHDH_KNKALOLLDEJ_OFFSET UNITYSDK_OFFSET(0xB376A20)
 #define KEGBGDCJHDH_NFLGGCHDENJ_OFFSET UNITYSDK_OFFSET(0xB3772B0)
 
+inline static constexpr unsigned int KEGBGDCJHDH_TypeDefinitionIndex = 73865;
+
 	class KEGBGDCJHDH : public ::System::Object
 	{
 	public:

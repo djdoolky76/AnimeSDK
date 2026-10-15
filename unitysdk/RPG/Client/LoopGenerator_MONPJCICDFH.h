@@ -5,6 +5,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int LoopGenerator_MONPJCICDFH_TypeDefinitionIndex = 72975;
+
 	struct alignas(4) LoopGenerator_MONPJCICDFH
 	{
 		::UnityEngine::Vector3 PECPBEOHOJC; // 0x10

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TrainPartyModifierAddStatRatioOnStopGridBreakByM
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TrainPartyModifierAddStatRatioOnStopGridBreakByMeetingConfig_TypeDefinitionIndex = 18106;
+
 	class TrainPartyModifierAddStatRatioOnStopGridBreakByMeetingConfig : public ::RPG::GameCore::TrainPartyModifierConfigBase
 	{
 	public:

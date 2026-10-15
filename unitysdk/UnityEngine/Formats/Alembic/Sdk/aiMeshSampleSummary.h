@@ -17,6 +17,8 @@
 
 namespace UnityEngine::Formats::Alembic::Sdk
 {
+	inline static constexpr unsigned int aiMeshSampleSummary_TypeDefinitionIndex = 45809;
+
 	struct alignas(4) aiMeshSampleSummary
 	{
 		::UnityEngine::Formats::Alembic::Sdk::Bool _visibility_k__BackingField; // 0x10

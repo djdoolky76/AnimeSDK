@@ -18,6 +18,8 @@ namespace RPG::GameCore { class UseSkillByComplexSkillAI; }
 #define PGJBMAMDEAO_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xC223420)
 #define PGJBMAMDEAO_TICK_OFFSET UNITYSDK_OFFSET(0xC221CD0)
 
+inline static constexpr unsigned int PGJBMAMDEAO_TypeDefinitionIndex = 54395;
+
 	class PGJBMAMDEAO : public ::GELIALJDFBL
 	{
 	public:

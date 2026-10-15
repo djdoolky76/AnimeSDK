@@ -12,6 +12,8 @@ namespace RPGTools::Timeline { class StoryPropEffectTransformClip; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int StoryPropEffectTransformBehaviour_TypeDefinitionIndex = 48350;
+
 	class StoryPropEffectTransformBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

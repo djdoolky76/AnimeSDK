@@ -21,6 +21,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightPermanentTalentNode_TypeDefinitionIndex = 65257;
+
 	class GridFightPermanentTalentNode : public ::RPG::Client::GridFightTalentNode
 	{
 	public:

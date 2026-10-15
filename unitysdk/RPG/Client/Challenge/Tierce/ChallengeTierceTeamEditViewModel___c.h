@@ -16,6 +16,8 @@ namespace System { template <typename T> class Func_1; }
 
 namespace RPG::Client::Challenge::Tierce
 {
+	inline static constexpr unsigned int ChallengeTierceTeamEditViewModel___c_TypeDefinitionIndex = 81632;
+
 	class ChallengeTierceTeamEditViewModel___c : public ::System::Object
 	{
 	public:

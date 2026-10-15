@@ -20,6 +20,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int VirtualCameraNoiseClip_TypeDefinitionIndex = 47827;
+
 	class VirtualCameraNoiseClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:

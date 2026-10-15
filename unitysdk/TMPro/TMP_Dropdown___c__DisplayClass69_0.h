@@ -9,6 +9,8 @@ namespace TMPro { class TMP_Dropdown_DropdownItem; }
 
 namespace TMPro
 {
+	inline static constexpr unsigned int TMP_Dropdown___c__DisplayClass69_0_TypeDefinitionIndex = 44565;
+
 	class TMP_Dropdown___c__DisplayClass69_0 : public ::System::Object
 	{
 	public:

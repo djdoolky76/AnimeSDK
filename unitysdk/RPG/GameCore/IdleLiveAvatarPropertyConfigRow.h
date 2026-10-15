@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int IdleLiveAvatarPropertyConfigRow_TypeDefinitionIndex = 11712;
+
 	class IdleLiveAvatarPropertyConfigRow : public ::System::Object
 	{
 	public:

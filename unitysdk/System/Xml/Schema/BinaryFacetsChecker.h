@@ -14,6 +14,8 @@ namespace System::Xml::Schema { class XmlSchemaDatatype; }
 
 namespace System::Xml::Schema
 {
+	inline static constexpr unsigned int BinaryFacetsChecker_TypeDefinitionIndex = 2163;
+
 	class BinaryFacetsChecker : public ::System::Xml::Schema::FacetsChecker
 	{
 	public:

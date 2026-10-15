@@ -8,6 +8,8 @@
 #define PFIBMCPLJOI_JMKLBMEHDCG_OFFSET UNITYSDK_OFFSET(0xC20FD20)
 #define PFIBMCPLJOI_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xC20FCC0)
 
+inline static constexpr unsigned int PFIBMCPLJOI_TypeDefinitionIndex = 61051;
+
 	class PFIBMCPLJOI : public ::System::Object
 	{
 	public:

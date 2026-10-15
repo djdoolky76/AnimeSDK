@@ -50,6 +50,8 @@ namespace System { class String; }
 #define PPFAMGCOOFP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DFD6F40)
 #define PPFAMGCOOFP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DFD6FA0)
 
+inline static constexpr unsigned int PPFAMGCOOFP_TypeDefinitionIndex = 30700;
+
 	class PPFAMGCOOFP : public ::System::Object
 	{
 	public:

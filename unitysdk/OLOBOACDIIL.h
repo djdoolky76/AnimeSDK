@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GameEntity; }
 #define OLOBOACDIIL_IPAOOLDOOIN_OFFSET UNITYSDK_OFFSET(0xBF14820)
 #define OLOBOACDIIL_KADCICGJFLJ_OFFSET UNITYSDK_OFFSET(0xBF144F0)
 
+inline static constexpr unsigned int OLOBOACDIIL_TypeDefinitionIndex = 80829;
+
 	class OLOBOACDIIL : public ::System::Object
 	{
 	public:

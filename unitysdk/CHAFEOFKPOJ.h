@@ -5,6 +5,8 @@ namespace RPG::GameCore { class FourRotateVoxel2DPlatformConfig; }
 
 #define CHAFEOFKPOJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1C8E46F0)
 
+inline static constexpr unsigned int CHAFEOFKPOJ_TypeDefinitionIndex = 43232;
+
 	class CHAFEOFKPOJ : public ::System::Object
 	{
 	public:

@@ -131,6 +131,8 @@ namespace System::Xml::Schema { class XmlSchemaException; }
 
 namespace System::Xml
 {
+	inline static constexpr unsigned int DtdParser_TypeDefinitionIndex = 1931;
+
 	class DtdParser : public ::System::Object
 	{
 	public:

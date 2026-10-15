@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int MiHoYoSDKWebViewManager_WebEventModel_TypeDefinitionIndex = 46621;
+
 	class MiHoYoSDKWebViewManager_WebEventModel : public ::System::Object
 	{
 	public:

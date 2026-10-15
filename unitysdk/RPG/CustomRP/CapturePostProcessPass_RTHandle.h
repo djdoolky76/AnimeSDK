@@ -9,6 +9,8 @@ namespace UnityEngine { class RenderTexture; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int CapturePostProcessPass_RTHandle_TypeDefinitionIndex = 37764;
+
 	class CapturePostProcessPass_RTHandle : public ::System::Object
 	{
 	public:

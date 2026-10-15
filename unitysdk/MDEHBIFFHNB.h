@@ -14,6 +14,8 @@ namespace RPG::GameCore { class CakeRaceActionBase; }
 #define MDEHBIFFHNB_SET_REMAINEXECUTETIMES_OFFSET UNITYSDK_OFFSET(0x1C748A50)
 #define MDEHBIFFHNB_SET_SHOWDURATIONMS_OFFSET UNITYSDK_OFFSET(0x1C748A30)
 
+inline static constexpr unsigned int MDEHBIFFHNB_TypeDefinitionIndex = 37310;
+
 	class MDEHBIFFHNB : public ::System::Object
 	{
 	public:

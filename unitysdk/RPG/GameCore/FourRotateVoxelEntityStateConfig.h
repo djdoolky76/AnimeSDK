@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FourRotateVoxelEntityStateConfig_TypeDefinitionIndex = 16776;
+
 	class FourRotateVoxelEntityStateConfig : public ::RPG::GameCore::LittleGameComponentConfig
 	{
 	public:

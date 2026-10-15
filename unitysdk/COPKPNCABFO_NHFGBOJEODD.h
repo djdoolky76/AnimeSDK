@@ -1,6 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
+inline static constexpr unsigned int COPKPNCABFO_NHFGBOJEODD_TypeDefinitionIndex = 51760;
+
 	struct alignas(4) COPKPNCABFO_NHFGBOJEODD
 	{
 		::System::Int32 BDCFLFPLDAN; // 0x10

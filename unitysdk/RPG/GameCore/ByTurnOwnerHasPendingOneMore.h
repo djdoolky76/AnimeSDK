@@ -13,6 +13,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByTurnOwnerHasPendingOneMore_TypeDefinitionIndex = 23482;
+
 	class ByTurnOwnerHasPendingOneMore : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

@@ -12,6 +12,8 @@ namespace System { class String; }
 #define NFCFALPOGOI_HKMHCHNNGBK_OFFSET UNITYSDK_OFFSET(0xBB78D00)
 #define NFCFALPOGOI_LFPMEJBHNFD_OFFSET UNITYSDK_OFFSET(0xBB78CF0)
 
+inline static constexpr unsigned int NFCFALPOGOI_TypeDefinitionIndex = 56684;
+
 	class NFCFALPOGOI : public ::System::Object
 	{
 	public:

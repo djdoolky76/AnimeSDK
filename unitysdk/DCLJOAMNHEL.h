@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define DCLJOAMNHEL_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1DCDAC10)
 #define DCLJOAMNHEL_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1DCDA530)
 
+inline static constexpr unsigned int DCLJOAMNHEL_TypeDefinitionIndex = 12258;
+
 	class DCLJOAMNHEL : public ::System::Object
 	{
 	public:

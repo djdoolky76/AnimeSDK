@@ -5,6 +5,8 @@ namespace System { class Object; }
 
 #define EMOOOIOAINK_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA615B0)
 
+inline static constexpr unsigned int EMOOOIOAINK_TypeDefinitionIndex = 43783;
+
 	class EMOOOIOAINK : public ::System::Object
 	{
 	public:

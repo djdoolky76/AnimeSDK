@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define FAJLAPKAMEC_CTOR_OFFSET UNITYSDK_OFFSET(0x15682620)
 #define FAJLAPKAMEC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15682650)
 
+inline static constexpr unsigned int FAJLAPKAMEC_TypeDefinitionIndex = 55509;
+
 	class FAJLAPKAMEC
 	{
 	public:

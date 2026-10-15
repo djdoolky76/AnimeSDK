@@ -5,6 +5,8 @@ namespace System { class String; }
 
 #define DNKAAIFEKNP_GJGEAIBHOAN_CTOR_OFFSET UNITYSDK_OFFSET(0x11FD28C0)
 
+inline static constexpr unsigned int DNKAAIFEKNP_GJGEAIBHOAN_TypeDefinitionIndex = 59991;
+
 	class DNKAAIFEKNP_GJGEAIBHOAN : public ::System::Object
 	{
 	public:

@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace Mono
 {
+	inline static constexpr unsigned int Runtime_TypeDefinitionIndex = 4;
+
 	class Runtime : public ::System::Object
 	{
 	public:

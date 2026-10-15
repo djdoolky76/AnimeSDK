@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PointEvaluatorConstValue_TypeDefinitionIndex = 15633;
+
 	class PointEvaluatorConstValue : public ::RPG::GameCore::JsonConfig
 	{
 	public:

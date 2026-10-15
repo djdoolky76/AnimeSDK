@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByCompareLastKillSkill_TypeDefinitionIndex = 23016;
+
 	class ByCompareLastKillSkill : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

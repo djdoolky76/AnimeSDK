@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightAddItemSourceType_TypeDefinitionIndex = 10555;
+
 	enum class GridFightAddItemSourceType : ::System::Int32
 	{
 		None = 0,

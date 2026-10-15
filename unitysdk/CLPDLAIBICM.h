@@ -8,6 +8,8 @@ namespace UnityEngine { class GameObject; }
 
 #define CLPDLAIBICM_CTOR_OFFSET UNITYSDK_OFFSET(0xDA22630)
 
+inline static constexpr unsigned int CLPDLAIBICM_TypeDefinitionIndex = 73745;
+
 	class CLPDLAIBICM : public ::GDMONJOAKHD
 	{
 	public:

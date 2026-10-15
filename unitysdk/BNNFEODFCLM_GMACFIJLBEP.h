@@ -8,6 +8,8 @@ namespace System::IO { class MemoryStream; }
 #define BNNFEODFCLM_GMACFIJLBEP_CTOR_OFFSET UNITYSDK_OFFSET(0xBDE1260)
 #define BNNFEODFCLM_GMACFIJLBEP_DCDDKNNINEB_OFFSET UNITYSDK_OFFSET(0xBDE12C0)
 
+inline static constexpr unsigned int BNNFEODFCLM_GMACFIJLBEP_TypeDefinitionIndex = 64625;
+
 	class BNNFEODFCLM_GMACFIJLBEP : public ::System::Object
 	{
 	public:

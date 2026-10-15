@@ -9,6 +9,8 @@ class EBMFAGKJIIM;
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightGridData___c__DisplayClass4_0_TypeDefinitionIndex = 64831;
+
 	class GridFightGridData___c__DisplayClass4_0 : public ::System::Object
 	{
 	public:

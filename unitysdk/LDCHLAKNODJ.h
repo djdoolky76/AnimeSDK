@@ -34,6 +34,8 @@ namespace System { class String; }
 #define LDCHLAKNODJ_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E8F4350)
 #define LDCHLAKNODJ_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E8F43B0)
 
+inline static constexpr unsigned int LDCHLAKNODJ_TypeDefinitionIndex = 30049;
+
 	class LDCHLAKNODJ : public ::System::Object
 	{
 	public:

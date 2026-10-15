@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define MFJAMEFIDIF_GET_PROPDATAS_OFFSET UNITYSDK_OFFSET(0xB902250)
 #define MFJAMEFIDIF_SET_BIRDID_OFFSET UNITYSDK_OFFSET(0xB902240)
 
+inline static constexpr unsigned int MFJAMEFIDIF_TypeDefinitionIndex = 66054;
+
 	class MFJAMEFIDIF : public ::System::Object
 	{
 	public:

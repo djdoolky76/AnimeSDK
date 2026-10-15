@@ -6,6 +6,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define CEFLOOJMCOO_CTOR_OFFSET UNITYSDK_OFFSET(0xC9D5710)
 #define CEFLOOJMCOO_PAKFEFGCHFM_OFFSET UNITYSDK_OFFSET(0xC9D5350)
 
+inline static constexpr unsigned int CEFLOOJMCOO_TypeDefinitionIndex = 56083;
+
 	class CEFLOOJMCOO : public ::System::Object
 	{
 	public:

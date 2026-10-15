@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MiniEmoEffectNodeVisible_TypeDefinitionIndex = 21861;
+
 	class MiniEmoEffectNodeVisible : public ::RPG::GameCore::JsonConfig
 	{
 	public:

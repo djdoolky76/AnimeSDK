@@ -13,6 +13,8 @@ namespace System::Xml::Serialization { class XmlElementEventArgs; }
 
 namespace System::Xml::Serialization
 {
+	inline static constexpr unsigned int XmlElementEventHandler_TypeDefinitionIndex = 1983;
+
 	class XmlElementEventHandler : public ::System::MulticastDelegate
 	{
 	public:

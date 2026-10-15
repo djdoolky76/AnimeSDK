@@ -9,6 +9,8 @@ namespace RPG::Client { class PlayerModule; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PlayerModule___c__DisplayClass57_0_TypeDefinitionIndex = 66689;
+
 	class PlayerModule___c__DisplayClass57_0 : public ::System::Object
 	{
 	public:

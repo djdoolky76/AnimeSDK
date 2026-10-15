@@ -8,6 +8,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RtCharacterAnimInfoBaker_TypeDefinitionIndex = 73253;
+
 	class RtCharacterAnimInfoBaker : public ::UnityEngine::MonoBehaviour
 	{
 	public:

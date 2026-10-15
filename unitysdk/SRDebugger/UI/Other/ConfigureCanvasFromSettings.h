@@ -14,6 +14,8 @@ namespace UnityEngine::UI { class CanvasScaler; }
 
 namespace SRDebugger::UI::Other
 {
+	inline static constexpr unsigned int ConfigureCanvasFromSettings_TypeDefinitionIndex = 38000;
+
 	class ConfigureCanvasFromSettings : public ::SRF::SRMonoBehaviour
 	{
 	public:

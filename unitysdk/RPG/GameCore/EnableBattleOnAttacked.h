@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int EnableBattleOnAttacked_TypeDefinitionIndex = 21761;
+
 	class EnableBattleOnAttacked : public ::RPG::GameCore::TaskConfig
 	{
 	public:

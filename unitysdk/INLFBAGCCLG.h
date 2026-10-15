@@ -25,6 +25,8 @@ namespace System { class String; }
 #define INLFBAGCCLG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E6C5BF0)
 #define INLFBAGCCLG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E6C5C50)
 
+inline static constexpr unsigned int INLFBAGCCLG_TypeDefinitionIndex = 32040;
+
 	class INLFBAGCCLG : public ::System::Object
 	{
 	public:

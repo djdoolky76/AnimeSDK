@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace System::Linq::Expressions::Interpreter
 {
+	inline static constexpr unsigned int NumericConvertInstruction_ToUnderlying_TypeDefinitionIndex = 3599;
+
 	class NumericConvertInstruction_ToUnderlying : public ::System::Linq::Expressions::Interpreter::NumericConvertInstruction
 	{
 	public:

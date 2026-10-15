@@ -11,6 +11,8 @@ namespace System { class String; }
 #define CIKKPOCLPHN_GET_TYPE_OFFSET UNITYSDK_OFFSET(0xCF8D410)
 #define CIKKPOCLPHN_JAILHGGFLDH_OFFSET UNITYSDK_OFFSET(0xCF8D420)
 
+inline static constexpr unsigned int CIKKPOCLPHN_TypeDefinitionIndex = 56112;
+
 	class CIKKPOCLPHN : public ::DBGDNLLDPFI
 	{
 	public:

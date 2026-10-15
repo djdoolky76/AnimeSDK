@@ -8,6 +8,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client::LittleGame::CakeRace
 {
+	inline static constexpr unsigned int CakeRaceHUDBubbleFadeoutMessage_TypeDefinitionIndex = 78140;
+
 	class CakeRaceHUDBubbleFadeoutMessage : public ::System::Object
 	{
 	public:

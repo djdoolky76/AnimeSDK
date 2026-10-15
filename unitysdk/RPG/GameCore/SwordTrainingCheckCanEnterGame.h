@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SwordTrainingCheckCanEnterGame_TypeDefinitionIndex = 20998;
+
 	class SwordTrainingCheckCanEnterGame : public ::RPG::GameCore::TaskConfig
 	{
 	public:

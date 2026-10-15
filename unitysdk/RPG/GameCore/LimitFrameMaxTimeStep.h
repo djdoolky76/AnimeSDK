@@ -10,6 +10,8 @@ namespace RPG::GameCore { class LimitFrameMaxTimeStep; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LimitFrameMaxTimeStep_TypeDefinitionIndex = 20887;
+
 	class LimitFrameMaxTimeStep : public ::RPG::GameCore::TaskConfig
 	{
 	public:

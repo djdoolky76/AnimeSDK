@@ -10,6 +10,8 @@ namespace System { class Object; }
 
 namespace Google::Protobuf::WellKnownTypes
 {
+	inline static constexpr unsigned int Any___c_TypeDefinitionIndex = 5419;
+
 	class Any___c : public ::System::Object
 	{
 	public:

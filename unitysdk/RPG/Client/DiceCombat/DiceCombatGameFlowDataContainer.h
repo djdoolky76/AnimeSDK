@@ -20,6 +20,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::DiceCombat
 {
+	inline static constexpr unsigned int DiceCombatGameFlowDataContainer_TypeDefinitionIndex = 76108;
+
 	class DiceCombatGameFlowDataContainer : public ::System::Object
 	{
 	public:

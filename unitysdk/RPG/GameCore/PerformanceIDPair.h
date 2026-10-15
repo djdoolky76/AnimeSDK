@@ -10,6 +10,8 @@ namespace RPG::GameCore { class PerformanceIDPair; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PerformanceIDPair_TypeDefinitionIndex = 19039;
+
 	class PerformanceIDPair : public ::RPG::GameCore::JsonConfig
 	{
 	public:

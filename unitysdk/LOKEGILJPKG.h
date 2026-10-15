@@ -16,6 +16,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define LOKEGILJPKG_JLNLAPDLKCC_OFFSET UNITYSDK_OFFSET(0xB806A50)
 #define LOKEGILJPKG_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xB806330)
 
+inline static constexpr unsigned int LOKEGILJPKG_TypeDefinitionIndex = 54315;
+
 	class LOKEGILJPKG : public ::System::Object
 	{
 	public:

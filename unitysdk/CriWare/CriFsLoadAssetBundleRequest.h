@@ -17,6 +17,8 @@ namespace UnityEngine { class AssetBundleCreateRequest; }
 
 namespace CriWare
 {
+	inline static constexpr unsigned int CriFsLoadAssetBundleRequest_TypeDefinitionIndex = 40110;
+
 	class CriFsLoadAssetBundleRequest : public ::CriWare::CriFsRequest
 	{
 	public:

@@ -4,6 +4,8 @@
 
 namespace MiHoYo::SDK::PluginUI
 {
+	inline static constexpr unsigned int UIConstants_RealNameActionParam_TypeDefinitionIndex = 46825;
+
 	class UIConstants_RealNameActionParam : public ::System::Object
 	{
 	public:

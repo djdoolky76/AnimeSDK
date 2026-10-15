@@ -3,6 +3,8 @@
 
 namespace Spine::Unity
 {
+	inline static constexpr unsigned int BoneFollower_AxisOrientation_TypeDefinitionIndex = 45014;
+
 	enum class BoneFollower_AxisOrientation : ::System::Int32
 	{
 		XAxis = 1,

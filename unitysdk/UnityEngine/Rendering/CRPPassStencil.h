@@ -10,6 +10,8 @@
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int CRPPassStencil_TypeDefinitionIndex = 4869;
+
 	struct alignas(4) CRPPassStencil
 	{
 		::System::Int32 replaceType; // 0x10

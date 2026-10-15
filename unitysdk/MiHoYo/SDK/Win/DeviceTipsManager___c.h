@@ -15,6 +15,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace MiHoYo::SDK::Win
 {
+	inline static constexpr unsigned int DeviceTipsManager___c_TypeDefinitionIndex = 9332;
+
 	class DeviceTipsManager___c : public ::System::Object
 	{
 	public:

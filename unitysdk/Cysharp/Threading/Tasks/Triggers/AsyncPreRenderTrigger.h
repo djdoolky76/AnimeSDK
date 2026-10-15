@@ -13,6 +13,8 @@ namespace Cysharp::Threading::Tasks::Triggers { class IAsyncOnPreRenderHandler; 
 
 namespace Cysharp::Threading::Tasks::Triggers
 {
+	inline static constexpr unsigned int AsyncPreRenderTrigger_TypeDefinitionIndex = 38583;
+
 	class AsyncPreRenderTrigger
 	{
 	public:

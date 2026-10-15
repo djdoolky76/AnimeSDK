@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace System::Xml::Schema
 {
+	inline static constexpr unsigned int DtdValidator_NamespaceManager_TypeDefinitionIndex = 2154;
+
 	class DtdValidator_NamespaceManager : public ::System::Xml::XmlNamespaceManager
 	{
 	public:

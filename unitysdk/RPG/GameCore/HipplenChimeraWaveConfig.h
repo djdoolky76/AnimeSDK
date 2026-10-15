@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int HipplenChimeraWaveConfig_TypeDefinitionIndex = 16794;
+
 	class HipplenChimeraWaveConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

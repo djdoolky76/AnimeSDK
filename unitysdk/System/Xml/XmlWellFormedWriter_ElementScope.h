@@ -10,6 +10,8 @@ namespace System::Xml { class XmlRawWriter; }
 
 namespace System::Xml
 {
+	inline static constexpr unsigned int XmlWellFormedWriter_ElementScope_TypeDefinitionIndex = 1875;
+
 	struct alignas(8) XmlWellFormedWriter_ElementScope
 	{
 		::System::Int32 prevNSTop; // 0x10

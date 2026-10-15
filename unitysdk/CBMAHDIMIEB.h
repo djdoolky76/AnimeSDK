@@ -10,6 +10,8 @@ namespace System { class Nullable; }
 #define CBMAHDIMIEB_MBICHOHBCPD_1_OFFSET UNITYSDK_OFFSET(0xC4AF840)
 #define CBMAHDIMIEB_MBICHOHBCPD_OFFSET UNITYSDK_OFFSET(0xC4AF7D0)
 
+inline static constexpr unsigned int CBMAHDIMIEB_TypeDefinitionIndex = 71228;
+
 	class CBMAHDIMIEB : public ::System::Object
 	{
 	public:

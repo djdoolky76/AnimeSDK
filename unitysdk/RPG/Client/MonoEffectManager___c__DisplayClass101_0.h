@@ -9,6 +9,8 @@ namespace RPG::Client { class MonoEffectManager; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoEffectManager___c__DisplayClass101_0_TypeDefinitionIndex = 69855;
+
 	class MonoEffectManager___c__DisplayClass101_0 : public ::System::Object
 	{
 	public:

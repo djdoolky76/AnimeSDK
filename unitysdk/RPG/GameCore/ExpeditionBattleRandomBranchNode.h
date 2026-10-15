@@ -11,6 +11,8 @@ namespace RPG::GameCore { class ExpeditionBattleRandomBranchNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ExpeditionBattleRandomBranchNode_TypeDefinitionIndex = 16202;
+
 	class ExpeditionBattleRandomBranchNode : public ::RPG::GameCore::BaseExpeditionBattleNode
 	{
 	public:

@@ -6,6 +6,8 @@ namespace RPG::Client { class SDFObjectMonoPlugin; }
 #define HALFODCJNDE_GAHLPBDEOLF_COMPARE_OFFSET UNITYSDK_OFFSET(0x15B8F9C0)
 #define HALFODCJNDE_GAHLPBDEOLF_CTOR_OFFSET UNITYSDK_OFFSET(0x15B8F870)
 
+inline static constexpr unsigned int HALFODCJNDE_GAHLPBDEOLF_TypeDefinitionIndex = 51782;
+
 	class HALFODCJNDE_GAHLPBDEOLF : public ::System::Object
 	{
 	public:

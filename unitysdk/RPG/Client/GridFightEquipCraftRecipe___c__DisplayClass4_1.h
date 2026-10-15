@@ -10,6 +10,8 @@ namespace System::Collections::Generic { class KeyValuePair; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightEquipCraftRecipe___c__DisplayClass4_1_TypeDefinitionIndex = 64515;
+
 	template <typename T>
 	class GridFightEquipCraftRecipe___c__DisplayClass4_1 : public ::System::Object
 	{

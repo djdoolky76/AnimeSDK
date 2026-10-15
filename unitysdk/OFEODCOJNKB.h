@@ -8,6 +8,8 @@ namespace RPG::Client { class ExpeditionBattleTeam; }
 #define OFEODCOJNKB_CTOR_OFFSET UNITYSDK_OFFSET(0xBE3F480)
 #define OFEODCOJNKB_HEIJDKMBPMI_OFFSET UNITYSDK_OFFSET(0xBE3F490)
 
+inline static constexpr unsigned int OFEODCOJNKB_TypeDefinitionIndex = 63940;
+
 	class OFEODCOJNKB : public ::System::Object
 	{
 	public:

@@ -13,6 +13,8 @@ namespace RPG::GameCore { class CakeRaceCircleTargetSelectorConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CakeRaceCircleTargetSelectorConfig_TypeDefinitionIndex = 18389;
+
 	class CakeRaceCircleTargetSelectorConfig : public ::RPG::GameCore::CakeRaceBaseTargetSelectorConfig
 	{
 	public:

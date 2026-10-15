@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define LHMOFCGDHOE_CTOR_OFFSET UNITYSDK_OFFSET(0xB6BC6F0)
 #define LHMOFCGDHOE_FOLPLPJHICL_OFFSET UNITYSDK_OFFSET(0xB6BC8D0)
 
+inline static constexpr unsigned int LHMOFCGDHOE_TypeDefinitionIndex = 62746;
+
 	class LHMOFCGDHOE : public ::System::Object
 	{
 	public:

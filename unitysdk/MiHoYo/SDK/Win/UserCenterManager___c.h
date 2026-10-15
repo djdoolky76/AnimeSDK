@@ -10,6 +10,8 @@ namespace System { class Object; }
 
 namespace MiHoYo::SDK::Win
 {
+	inline static constexpr unsigned int UserCenterManager___c_TypeDefinitionIndex = 9481;
+
 	class UserCenterManager___c : public ::System::Object
 	{
 	public:

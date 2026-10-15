@@ -9,6 +9,8 @@ namespace UnityEngine::UI { class ScrollRect; }
 #define PLANETFESREGIONPROGRESSSCROLLAUTOHIDE_KEENPLHLENK_OFFSET UNITYSDK_OFFSET(0xC39B100)
 #define PLANETFESREGIONPROGRESSSCROLLAUTOHIDE_UPDATE_OFFSET UNITYSDK_OFFSET(0xC39AFE0)
 
+inline static constexpr unsigned int PlanetFesRegionProgressScrollAutoHide_TypeDefinitionIndex = 47237;
+
 	class PlanetFesRegionProgressScrollAutoHide : public ::UnityEngine::MonoBehaviour
 	{
 	public:

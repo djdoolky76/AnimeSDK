@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SwordTrainingCheckStoryLineFinished_TypeDefinitionIndex = 20328;
+
 	class SwordTrainingCheckStoryLineFinished : public ::RPG::GameCore::TaskConfig
 	{
 	public:

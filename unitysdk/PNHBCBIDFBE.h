@@ -32,6 +32,8 @@ namespace System { class String; }
 #define PNHBCBIDFBE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DFB9460)
 #define PNHBCBIDFBE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DFB94C0)
 
+inline static constexpr unsigned int PNHBCBIDFBE_TypeDefinitionIndex = 28568;
+
 	class PNHBCBIDFBE : public ::System::Object
 	{
 	public:

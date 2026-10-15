@@ -37,6 +37,8 @@ namespace System { class String; }
 #define JGNCJOINEMP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E73D710)
 #define JGNCJOINEMP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E73D770)
 
+inline static constexpr unsigned int JGNCJOINEMP_TypeDefinitionIndex = 28603;
+
 	class JGNCJOINEMP : public ::System::Object
 	{
 	public:

@@ -31,6 +31,8 @@ namespace UnityEngine::UI { class Button; }
 #define BABICHJDNNH__ONBIND_OFFSET UNITYSDK_OFFSET(0x15BCCAD0)
 #define BABICHJDNNH___INITVARONCE_G___COMPAREDISPLAYDATA_15_0_OFFSET UNITYSDK_OFFSET(0x15BCE340)
 
+inline static constexpr unsigned int BABICHJDNNH_TypeDefinitionIndex = 72325;
+
 	class BABICHJDNNH : public ::FMPCODLIOLG
 	{
 	public:

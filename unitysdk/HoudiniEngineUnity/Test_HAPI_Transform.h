@@ -9,6 +9,8 @@ namespace HoudiniEngineUnity { class Test_HAPI_Transform; }
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int Test_HAPI_Transform_TypeDefinitionIndex = 40700;
+
 	class Test_HAPI_Transform : public ::System::Object
 	{
 	public:

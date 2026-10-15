@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimSwitchPlatformConfig_TypeDefinitionIndex = 18559;
+
 	class FiveDimSwitchPlatformConfig : public ::RPG::GameCore::LittleGameComponentConfig
 	{
 	public:

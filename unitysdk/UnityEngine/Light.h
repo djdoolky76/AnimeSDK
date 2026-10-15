@@ -199,6 +199,8 @@ namespace UnityEngine::Rendering { class CommandBuffer; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int Light_TypeDefinitionIndex = 4145;
+
 	class Light : public ::UnityEngine::Behaviour
 	{
 	public:

@@ -11,6 +11,8 @@ namespace RPG::GameCore { class HipplenIncidentRandomOptionConfig; }
 #define JEAMJIEKBOL_HLAFINMGAMF_OFFSET UNITYSDK_OFFSET(0x16616E10)
 #define JEAMJIEKBOL_IGGHFPBDCBK_OFFSET UNITYSDK_OFFSET(0x16616E80)
 
+inline static constexpr unsigned int JEAMJIEKBOL_TypeDefinitionIndex = 75549;
+
 	class JEAMJIEKBOL : public ::System::Object
 	{
 	public:

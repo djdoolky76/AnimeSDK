@@ -20,6 +20,8 @@ namespace UnityEngine::EventSystems { class PointerEventData; }
 #define FDFONCLFPHO_PKGHCKJAEOI_OFFSET UNITYSDK_OFFSET(0x156D74A0)
 #define FDFONCLFPHO_SET_CAMERA_OFFSET UNITYSDK_OFFSET(0x156D6C50)
 
+inline static constexpr unsigned int FDFONCLFPHO_TypeDefinitionIndex = 62322;
+
 	class FDFONCLFPHO : public ::System::Object
 	{
 	public:

@@ -16,6 +16,8 @@ namespace System { class String; }
 #define KFGJOHMDBJG_SET_CONFIGURE_OFFSET UNITYSDK_OFFSET(0xB39A430)
 #define KFGJOHMDBJG_SET_TIMESCALE_OFFSET UNITYSDK_OFFSET(0xB39A410)
 
+inline static constexpr unsigned int KFGJOHMDBJG_TypeDefinitionIndex = 82168;
+
 	class KFGJOHMDBJG : public ::System::Object
 	{
 	public:

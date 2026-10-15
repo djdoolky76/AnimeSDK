@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChimeraBattleShowNPCLeave_TypeDefinitionIndex = 15874;
+
 	class ChimeraBattleShowNPCLeave : public ::RPG::GameCore::ChimeraAbilityProgressBase
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GridFightModifierGainOrbBonusAfterUseOrbConfig; 
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightModifierGainOrbBonusAfterUseOrbConfig_TypeDefinitionIndex = 19409;
+
 	class GridFightModifierGainOrbBonusAfterUseOrbConfig : public ::RPG::GameCore::GridFightModifierConfigBase
 	{
 	public:

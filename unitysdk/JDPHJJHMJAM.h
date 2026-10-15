@@ -18,6 +18,8 @@
 #define JDPHJJHMJAM_LKIJOLOMEKA_OFFSET UNITYSDK_OFFSET(0x166118A0)
 #define JDPHJJHMJAM_NHHNEMNIGAF_OFFSET UNITYSDK_OFFSET(0x166115B0)
 
+inline static constexpr unsigned int JDPHJJHMJAM_TypeDefinitionIndex = 73656;
+
 	class JDPHJJHMJAM : public ::System::Object
 	{
 	public:

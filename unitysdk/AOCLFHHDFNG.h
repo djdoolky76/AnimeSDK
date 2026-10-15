@@ -7,6 +7,8 @@ namespace RPG { template <typename T> class PoolList_1; }
 #define AOCLFHHDFNG_CLEAR_OFFSET UNITYSDK_OFFSET(0x1C89E690)
 #define AOCLFHHDFNG_CTOR_OFFSET UNITYSDK_OFFSET(0x1C89E750)
 
+inline static constexpr unsigned int AOCLFHHDFNG_TypeDefinitionIndex = 43313;
+
 	class AOCLFHHDFNG : public ::KMGHEKCKAAP
 	{
 	public:

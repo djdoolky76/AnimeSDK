@@ -6,6 +6,8 @@
 #define WWISESTATEGROUPREFERENCE_CTOR_OFFSET UNITYSDK_OFFSET(0x1F637240)
 #define WWISESTATEGROUPREFERENCE_GET_WWISEOBJECTTYPE_OFFSET UNITYSDK_OFFSET(0x1F637230)
 
+inline static constexpr unsigned int WwiseStateGroupReference_TypeDefinitionIndex = 44889;
+
 	class WwiseStateGroupReference : public ::WwiseObjectReference
 	{
 	public:

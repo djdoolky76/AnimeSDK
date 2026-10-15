@@ -13,6 +13,8 @@ class PEEDLCHFAFL;
 #define IDNKJNHDCPA_NGFIPEAHDJI_OFFSET UNITYSDK_OFFSET(0x15EDF1E0)
 #define IDNKJNHDCPA_NINMBAJDPDE_OFFSET UNITYSDK_OFFSET(0x15EDEEC0)
 
+inline static constexpr unsigned int IDNKJNHDCPA_TypeDefinitionIndex = 77018;
+
 	class IDNKJNHDCPA : public ::System::Object
 	{
 	public:

@@ -40,6 +40,8 @@ namespace UnityEngine { class Texture; }
 #define KBPPKMAJGCG_PNIEFOONFOP_OFFSET UNITYSDK_OFFSET(0xB327870)
 #define KBPPKMAJGCG_TICK_OFFSET UNITYSDK_OFFSET(0xB3281D0)
 
+inline static constexpr unsigned int KBPPKMAJGCG_TypeDefinitionIndex = 70324;
+
 	class KBPPKMAJGCG : public ::RPG::Client::TABehaviorBase
 	{
 	public:

@@ -8,6 +8,8 @@ namespace RPG { template <typename T1, typename T2> class PoolDictionary_2; }
 #define GELEOLEEDHH_ONALLOC_OFFSET UNITYSDK_OFFSET(0x1CA89450)
 #define GELEOLEEDHH_ONRECYCLE_OFFSET UNITYSDK_OFFSET(0x1CA895B0)
 
+inline static constexpr unsigned int GELEOLEEDHH_TypeDefinitionIndex = 43318;
+
 	class GELEOLEEDHH : public ::System::Object
 	{
 	public:

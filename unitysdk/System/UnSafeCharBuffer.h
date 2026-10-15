@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace System
 {
+	inline static constexpr unsigned int UnSafeCharBuffer_TypeDefinitionIndex = 363;
+
 	struct alignas(8) UnSafeCharBuffer
 	{
 		::PVOID m_buffer; // 0x10

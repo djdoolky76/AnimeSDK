@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T> class Queue_1; }
 #define AFBFELJNPBO_SET_ISRUNNING_OFFSET UNITYSDK_OFFSET(0xCF05290)
 #define AFBFELJNPBO_TOSTRING_OFFSET UNITYSDK_OFFSET(0xCF05D20)
 
+inline static constexpr unsigned int AFBFELJNPBO_TypeDefinitionIndex = 82267;
+
 	class AFBFELJNPBO : public ::System::Object
 	{
 	public:

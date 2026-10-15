@@ -28,6 +28,8 @@ namespace System { class Object; }
 #define BPNMJLEMOMK_PEDFLCNLIOC_OFFSET UNITYSDK_OFFSET(0xC1AB640)
 #define BPNMJLEMOMK_SET_INPUTDATA_OFFSET UNITYSDK_OFFSET(0xC1ABD20)
 
+inline static constexpr unsigned int BPNMJLEMOMK_TypeDefinitionIndex = 69053;
+
 	class BPNMJLEMOMK : public ::System::Object
 	{
 	public:

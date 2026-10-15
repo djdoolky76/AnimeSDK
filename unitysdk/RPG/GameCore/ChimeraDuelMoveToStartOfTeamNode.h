@@ -11,6 +11,8 @@ namespace RPG::GameCore { class ChimeraDuelMoveToStartOfTeamNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChimeraDuelMoveToStartOfTeamNode_TypeDefinitionIndex = 16020;
+
 	class ChimeraDuelMoveToStartOfTeamNode : public ::RPG::GameCore::BaseChimeraDuelNode
 	{
 	public:

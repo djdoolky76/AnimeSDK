@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define PAIJCBOKIFO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DEEF300)
 #define PAIJCBOKIFO___C___CCTOR_B__43_0_OFFSET UNITYSDK_OFFSET(0x1DEEF310)
 
+inline static constexpr unsigned int PAIJCBOKIFO___c_TypeDefinitionIndex = 32639;
+
 	class PAIJCBOKIFO___c : public ::System::Object
 	{
 	public:

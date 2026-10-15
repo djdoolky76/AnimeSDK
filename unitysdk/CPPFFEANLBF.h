@@ -14,6 +14,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 #define CPPFFEANLBF_OPKAPJECDME_OFFSET UNITYSDK_OFFSET(0xDCDD9C0)
 #define CPPFFEANLBF_PCOKFGHFJJF_OFFSET UNITYSDK_OFFSET(0xDCDD8A0)
 
+inline static constexpr unsigned int CPPFFEANLBF_TypeDefinitionIndex = 62793;
+
 	class CPPFFEANLBF : public ::System::Object
 	{
 	public:

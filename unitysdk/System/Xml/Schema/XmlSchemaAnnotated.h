@@ -6,6 +6,8 @@
 
 namespace System::Xml::Schema
 {
+	inline static constexpr unsigned int XmlSchemaAnnotated_TypeDefinitionIndex = 2184;
+
 	class XmlSchemaAnnotated : public ::System::Xml::Schema::XmlSchemaObject
 	{
 	public:

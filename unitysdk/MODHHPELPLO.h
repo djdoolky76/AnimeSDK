@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define MODHHPELPLO_GET_ROUTES_OFFSET UNITYSDK_OFFSET(0xBA273A0)
 #define MODHHPELPLO_GKKDODPDBLA_OFFSET UNITYSDK_OFFSET(0xBA27430)
 
+inline static constexpr unsigned int MODHHPELPLO_TypeDefinitionIndex = 63929;
+
 	class MODHHPELPLO : public ::System::Object
 	{
 	public:

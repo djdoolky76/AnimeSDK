@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ChallengePeakTeamContext___c__DisplayClass42_0_TypeDefinitionIndex = 63196;
+
 	class ChallengePeakTeamContext___c__DisplayClass42_0 : public ::System::Object
 	{
 	public:

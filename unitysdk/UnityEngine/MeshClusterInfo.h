@@ -5,6 +5,8 @@
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int MeshClusterInfo_TypeDefinitionIndex = 4290;
+
 	struct alignas(8) MeshClusterInfo
 	{
 		::PVOID ClusterIndexData; // 0x10

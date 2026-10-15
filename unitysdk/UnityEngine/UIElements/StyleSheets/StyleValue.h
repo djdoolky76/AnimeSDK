@@ -14,6 +14,8 @@
 
 namespace UnityEngine::UIElements::StyleSheets
 {
+	inline static constexpr unsigned int StyleValue_TypeDefinitionIndex = 6015;
+
 	struct alignas(4) StyleValue
 	{
 		::UnityEngine::UIElements::StyleSheets::StylePropertyID id; // 0x10

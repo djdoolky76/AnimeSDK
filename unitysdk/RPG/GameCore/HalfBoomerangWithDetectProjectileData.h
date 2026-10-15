@@ -11,6 +11,8 @@ namespace RPG::GameCore { class HalfBoomerangWithDetectProjectileData; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int HalfBoomerangWithDetectProjectileData_TypeDefinitionIndex = 15666;
+
 	class HalfBoomerangWithDetectProjectileData : public ::RPG::GameCore::NewProjectileConfig
 	{
 	public:

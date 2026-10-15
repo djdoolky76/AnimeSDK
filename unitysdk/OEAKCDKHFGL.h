@@ -2,6 +2,8 @@
 #include "unitysdk/unitysdk.h"
 namespace RPG::GameCore { class LevelGraphConfig; }
 
+inline static constexpr unsigned int OEAKCDKHFGL_TypeDefinitionIndex = 60874;
+
 	struct alignas(8) OEAKCDKHFGL
 	{
 		::System::Int32 OPDEEBNAKBB; // 0x10

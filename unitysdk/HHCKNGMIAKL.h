@@ -57,6 +57,8 @@ namespace System::Collections::Generic { template <typename T> class Queue_1; }
 #define HHCKNGMIAKL_PHEJFJMPOFP_OFFSET UNITYSDK_OFFSET(0x15CB7070)
 #define HHCKNGMIAKL_PMEACGOONCM_OFFSET UNITYSDK_OFFSET(0x15CB5E90)
 
+inline static constexpr unsigned int HHCKNGMIAKL_TypeDefinitionIndex = 60774;
+
 	class HHCKNGMIAKL : public ::System::Object
 	{
 	public:

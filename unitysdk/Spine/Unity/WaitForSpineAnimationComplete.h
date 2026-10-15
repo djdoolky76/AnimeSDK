@@ -9,6 +9,8 @@ namespace Spine::Unity { class WaitForSpineAnimationComplete; }
 
 namespace Spine::Unity
 {
+	inline static constexpr unsigned int WaitForSpineAnimationComplete_TypeDefinitionIndex = 45107;
+
 	class WaitForSpineAnimationComplete : public ::Spine::Unity::WaitForSpineAnimation
 	{
 	public:

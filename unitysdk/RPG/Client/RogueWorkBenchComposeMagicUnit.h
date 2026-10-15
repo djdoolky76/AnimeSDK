@@ -19,6 +19,8 @@ namespace RPG::Client { class RogueWorkBenchCost; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueWorkBenchComposeMagicUnit_TypeDefinitionIndex = 67350;
+
 	class RogueWorkBenchComposeMagicUnit : public ::System::Object
 	{
 	public:

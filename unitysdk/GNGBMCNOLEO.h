@@ -10,6 +10,8 @@ namespace System { class String; }
 #define GNGBMCNOLEO_LBDJFNDMMOA_OFFSET UNITYSDK_OFFSET(0x3C499A0)
 #define GNGBMCNOLEO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x3C49A60)
 
+inline static constexpr unsigned int GNGBMCNOLEO_TypeDefinitionIndex = 6286;
+
 	struct alignas(4) GNGBMCNOLEO
 	{
 		::RPG::MVector2 BHCMCMADHBF; // 0x10

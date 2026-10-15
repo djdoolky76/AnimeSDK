@@ -45,6 +45,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::Client::PetMarble
 {
+	inline static constexpr unsigned int PetMarbleMatchController_TypeDefinitionIndex = 74710;
+
 	class PetMarbleMatchController : public ::System::Object
 	{
 	public:

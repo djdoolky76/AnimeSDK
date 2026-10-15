@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ParabolaProjectileData; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ParabolaProjectileData_TypeDefinitionIndex = 15667;
+
 	class ParabolaProjectileData : public ::RPG::GameCore::NewProjectileConfig
 	{
 	public:

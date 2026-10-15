@@ -7,6 +7,8 @@ namespace RPG::GameCore { class GameEntity; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ActionSkillNotify_TypeDefinitionIndex = 72354;
+
 	class ActionSkillNotify : public ::System::Object
 	{
 	public:

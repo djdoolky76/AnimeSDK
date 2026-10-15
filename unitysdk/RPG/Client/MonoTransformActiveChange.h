@@ -13,6 +13,8 @@ namespace XLua { class LuaTable; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoTransformActiveChange_TypeDefinitionIndex = 72611;
+
 	class MonoTransformActiveChange : public ::UnityEngine::MonoBehaviour
 	{
 	public:

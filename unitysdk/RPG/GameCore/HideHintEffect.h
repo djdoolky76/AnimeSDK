@@ -10,6 +10,8 @@ namespace RPG::GameCore { class HideHintEffect; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int HideHintEffect_TypeDefinitionIndex = 20565;
+
 	class HideHintEffect : public ::RPG::GameCore::TaskConfig
 	{
 	public:

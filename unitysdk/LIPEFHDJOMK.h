@@ -6,6 +6,8 @@ namespace System { class String; }
 
 #define LIPEFHDJOMK_IPKDBIFDMHJ_OFFSET UNITYSDK_OFFSET(0xB6DC100)
 
+inline static constexpr unsigned int LIPEFHDJOMK_TypeDefinitionIndex = 49694;
+
 	class LIPEFHDJOMK : public ::System::Object
 	{
 	public:

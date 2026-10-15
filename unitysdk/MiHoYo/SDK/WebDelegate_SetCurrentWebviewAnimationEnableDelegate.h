@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int WebDelegate_SetCurrentWebviewAnimationEnableDelegate_TypeDefinitionIndex = 7832;
+
 	class WebDelegate_SetCurrentWebviewAnimationEnableDelegate : public ::System::MulticastDelegate
 	{
 	public:

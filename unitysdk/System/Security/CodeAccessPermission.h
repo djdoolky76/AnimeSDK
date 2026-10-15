@@ -20,6 +20,8 @@ namespace System::Security { class SecurityElement; }
 
 namespace System::Security
 {
+	inline static constexpr unsigned int CodeAccessPermission_TypeDefinitionIndex = 942;
+
 	class CodeAccessPermission : public ::System::Object
 	{
 	public:

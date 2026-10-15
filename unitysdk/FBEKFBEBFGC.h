@@ -7,6 +7,8 @@ class JMOHKKCNCMA;
 #define FBEKFBEBFGC_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA66050)
 #define FBEKFBEBFGC_KDNAAOHECPD_OFFSET UNITYSDK_OFFSET(0x1CA66060)
 
+inline static constexpr unsigned int FBEKFBEBFGC_TypeDefinitionIndex = 43098;
+
 	class FBEKFBEBFGC : public ::BKABEBEPPJK
 	{
 	public:

@@ -18,6 +18,8 @@ namespace System { class String; }
 
 namespace RPG::Client::FateRin
 {
+	inline static constexpr unsigned int FateRinBattlePauseHelper_TypeDefinitionIndex = 80613;
+
 	class FateRinBattlePauseHelper : public ::System::Object
 	{
 	public:

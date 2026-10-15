@@ -21,6 +21,8 @@ namespace System::Xml { class XmlWriter; }
 
 namespace System::Xml
 {
+	inline static constexpr unsigned int XmlWhitespace_TypeDefinitionIndex = 1923;
+
 	class XmlWhitespace : public ::System::Xml::XmlCharacterData
 	{
 	public:

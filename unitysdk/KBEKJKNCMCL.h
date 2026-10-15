@@ -28,6 +28,8 @@ namespace System { class String; }
 #define KBEKJKNCMCL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E7EDA70)
 #define KBEKJKNCMCL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E7EDAD0)
 
+inline static constexpr unsigned int KBEKJKNCMCL_TypeDefinitionIndex = 29312;
+
 	class KBEKJKNCMCL : public ::System::Object
 	{
 	public:

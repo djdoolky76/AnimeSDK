@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TurnBasedModifierInstance; }
 #define MPOIBBBIADJ_MPDMJBILNMI_OFFSET UNITYSDK_OFFSET(0xBA44A60)
 #define MPOIBBBIADJ_NJLICGGKCAB_OFFSET UNITYSDK_OFFSET(0xBA44AE0)
 
+inline static constexpr unsigned int MPOIBBBIADJ_TypeDefinitionIndex = 55746;
+
 	class MPOIBBBIADJ : public ::System::Object
 	{
 	public:

@@ -3,6 +3,8 @@
 
 namespace UnityEngine::Timeline
 {
+	inline static constexpr unsigned int AnimationPlayableAsset_LoopMode_TypeDefinitionIndex = 38771;
+
 	enum class AnimationPlayableAsset_LoopMode : ::System::Int32
 	{
 		UseSourceAsset = 0,

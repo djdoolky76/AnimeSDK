@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define MLBELOOPPNO_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1D1CBE10)
 #define MLBELOOPPNO_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1D1CB730)
 
+inline static constexpr unsigned int MLBELOOPPNO_TypeDefinitionIndex = 14891;
+
 	class MLBELOOPPNO : public ::System::Object
 	{
 	public:

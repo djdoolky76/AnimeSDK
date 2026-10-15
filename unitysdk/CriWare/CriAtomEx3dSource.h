@@ -67,6 +67,8 @@ namespace System { class Object; }
 
 namespace CriWare
 {
+	inline static constexpr unsigned int CriAtomEx3dSource_TypeDefinitionIndex = 40011;
+
 	class CriAtomEx3dSource : public ::CriWare::CriDisposable
 	{
 	public:

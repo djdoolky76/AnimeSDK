@@ -9,6 +9,8 @@ namespace System { class String; }
 #define HAELNJMDBMN_CTOR_OFFSET UNITYSDK_OFFSET(0x1CE7C6B0)
 #define HAELNJMDBMN_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CE7C450)
 
+inline static constexpr unsigned int HAELNJMDBMN_TypeDefinitionIndex = 14428;
+
 	class HAELNJMDBMN : public ::System::Object
 	{
 	public:

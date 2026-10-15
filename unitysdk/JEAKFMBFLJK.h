@@ -9,6 +9,8 @@ class MCDOIAPPMBF;
 #define JEAKFMBFLJK_GET__RHS_OFFSET UNITYSDK_OFFSET(0x16613DD0)
 #define JEAKFMBFLJK_GIGJMNCIFMJ_OFFSET UNITYSDK_OFFSET(0x16613A90)
 
+inline static constexpr unsigned int JEAKFMBFLJK_TypeDefinitionIndex = 82162;
+
 	class JEAKFMBFLJK : public ::System::Object
 	{
 	public:

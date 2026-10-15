@@ -7,6 +7,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define PNCLGKOHCKF_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC333940)
 #define PNCLGKOHCKF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC333980)
 
+inline static constexpr unsigned int PNCLGKOHCKF_TypeDefinitionIndex = 55196;
+
 	class PNCLGKOHCKF
 	{
 	public:

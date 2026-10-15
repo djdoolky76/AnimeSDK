@@ -9,6 +9,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 #define DNLECAAMGIC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1C54F2E0)
 #define DNLECAAMGIC___C___REFRESHATTRIBUTES_B__17_0_OFFSET UNITYSDK_OFFSET(0x1C54F2F0)
 
+inline static constexpr unsigned int DNLECAAMGIC___c_TypeDefinitionIndex = 41752;
+
 	class DNLECAAMGIC___c : public ::System::Object
 	{
 	public:

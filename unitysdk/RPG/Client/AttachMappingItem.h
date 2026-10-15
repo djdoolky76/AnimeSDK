@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AttachMappingItem_TypeDefinitionIndex = 68911;
+
 	class AttachMappingItem : public ::System::Object
 	{
 	public:

@@ -9,6 +9,8 @@ namespace RPG::GameCore { class ItemUseDataRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ItemUseDataRow_TypeDefinitionIndex = 13871;
+
 	class ItemUseDataRow : public ::System::Object
 	{
 	public:

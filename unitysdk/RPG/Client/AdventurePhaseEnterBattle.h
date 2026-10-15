@@ -154,6 +154,8 @@ namespace System::Text { class StringBuilder; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AdventurePhaseEnterBattle_TypeDefinitionIndex = 60138;
+
 	class AdventurePhaseEnterBattle : public ::System::Object
 	{
 	public:

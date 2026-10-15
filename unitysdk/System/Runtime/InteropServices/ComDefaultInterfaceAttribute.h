@@ -7,6 +7,8 @@ namespace System { class Type; }
 
 namespace System::Runtime::InteropServices
 {
+	inline static constexpr unsigned int ComDefaultInterfaceAttribute_TypeDefinitionIndex = 1407;
+
 	class ComDefaultInterfaceAttribute : public ::System::Attribute
 	{
 	public:

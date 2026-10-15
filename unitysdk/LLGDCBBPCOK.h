@@ -34,6 +34,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define LLGDCBBPCOK_OINBDMGFFJL_OFFSET UNITYSDK_OFFSET(0xB76AAF0)
 #define LLGDCBBPCOK_PFFKHDAKLOH_OFFSET UNITYSDK_OFFSET(0xB76B460)
 
+inline static constexpr unsigned int LLGDCBBPCOK_TypeDefinitionIndex = 51805;
+
 	class LLGDCBBPCOK : public ::System::Object
 	{
 	public:

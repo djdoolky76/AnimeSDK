@@ -33,6 +33,8 @@ namespace System { class String; }
 #define PAMNDCBKJEI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DEF0880)
 #define PAMNDCBKJEI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DEF08E0)
 
+inline static constexpr unsigned int PAMNDCBKJEI_TypeDefinitionIndex = 26606;
+
 	class PAMNDCBKJEI : public ::System::Object
 	{
 	public:

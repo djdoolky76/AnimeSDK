@@ -10,6 +10,8 @@ namespace RPG::GameCore { class NotifyFarmUnlock; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int NotifyFarmUnlock_TypeDefinitionIndex = 21958;
+
 	class NotifyFarmUnlock : public ::RPG::GameCore::TaskConfig
 	{
 	public:

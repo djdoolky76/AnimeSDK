@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define FCABIGNMAPL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E33D550)
 #define FCABIGNMAPL___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E33D560)
 
+inline static constexpr unsigned int FCABIGNMAPL___c_TypeDefinitionIndex = 29311;
+
 	class FCABIGNMAPL___c : public ::System::Object
 	{
 	public:

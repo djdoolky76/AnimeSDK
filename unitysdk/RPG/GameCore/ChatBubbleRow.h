@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ChatBubbleRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChatBubbleRow_TypeDefinitionIndex = 13002;
+
 	class ChatBubbleRow : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define EBGJAKBKPAN___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E237710)
 #define EBGJAKBKPAN___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E237720)
 
+inline static constexpr unsigned int EBGJAKBKPAN___c_TypeDefinitionIndex = 34274;
+
 	class EBGJAKBKPAN___c : public ::System::Object
 	{
 	public:

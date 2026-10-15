@@ -85,6 +85,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PlayerLockTargetComponent_TypeDefinitionIndex = 57656;
+
 	class PlayerLockTargetComponent : public ::RPG::GameCore::GameComponentBase
 	{
 	public:

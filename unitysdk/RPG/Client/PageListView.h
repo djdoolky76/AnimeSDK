@@ -33,6 +33,8 @@ namespace XLua { class LuaTable; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PageListView_TypeDefinitionIndex = 72623;
+
 	class PageListView : public ::SuperScrollView::LoopListView2
 	{
 	public:

@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace MiHoYo::SDK::MTR
 {
+	inline static constexpr unsigned int MiHoYoMTRInterface_MTRMsgLooper___c_TypeDefinitionIndex = 46686;
+
 	class MiHoYoMTRInterface_MTRMsgLooper___c : public ::System::Object
 	{
 	public:

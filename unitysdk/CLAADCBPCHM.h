@@ -106,6 +106,8 @@ namespace UnityEngine { class Transform; }
 #define CLAADCBPCHM__ONDISPOSE_OFFSET UNITYSDK_OFFSET(0xD7712E0)
 #define CLAADCBPCHM__ONTICK_OFFSET UNITYSDK_OFFSET(0xD771340)
 
+inline static constexpr unsigned int CLAADCBPCHM_TypeDefinitionIndex = 72009;
+
 	class CLAADCBPCHM : public ::FMPCODLIOLG
 	{
 	public:

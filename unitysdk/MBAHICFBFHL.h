@@ -14,6 +14,8 @@ namespace RPG::Client { class EnvironmentSystem; }
 #define MBAHICFBFHL_ONPLAYABLEDESTROY_OFFSET UNITYSDK_OFFSET(0xB857CC0)
 #define MBAHICFBFHL_PJMACJOJFDJ_OFFSET UNITYSDK_OFFSET(0xB857A20)
 
+inline static constexpr unsigned int MBAHICFBFHL_TypeDefinitionIndex = 48346;
+
 	class MBAHICFBFHL : public ::RPGTools::Timeline::RecoverablePlayableBehaviour
 	{
 	public:

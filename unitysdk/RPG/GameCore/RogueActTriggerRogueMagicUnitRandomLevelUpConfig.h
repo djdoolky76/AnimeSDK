@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueActTriggerRogueMagicUnitRandomLevelUpConfig
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueActTriggerRogueMagicUnitRandomLevelUpConfig_TypeDefinitionIndex = 19683;
+
 	class RogueActTriggerRogueMagicUnitRandomLevelUpConfig : public ::RPG::GameCore::RogueActionConfigBase
 	{
 	public:

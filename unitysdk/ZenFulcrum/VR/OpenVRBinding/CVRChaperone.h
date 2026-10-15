@@ -18,6 +18,8 @@
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
+	inline static constexpr unsigned int CVRChaperone_TypeDefinitionIndex = 39199;
+
 	class CVRChaperone : public ::System::Object
 	{
 	public:

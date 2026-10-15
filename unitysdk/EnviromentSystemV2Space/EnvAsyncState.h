@@ -3,6 +3,8 @@
 
 namespace EnviromentSystemV2Space
 {
+	inline static constexpr unsigned int EnvAsyncState_TypeDefinitionIndex = 49195;
+
 	enum class EnvAsyncState : ::System::Int32
 	{
 		Pending = 0,

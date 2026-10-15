@@ -13,6 +13,8 @@ namespace System { class Nullable; }
 #define BHBNAJMBAHO_LBGDGIOCPFK_OFFSET UNITYSDK_OFFSET(0xB472790)
 #define BHBNAJMBAHO_OGDMBIDELJI_OFFSET UNITYSDK_OFFSET(0xB472A20)
 
+inline static constexpr unsigned int BHBNAJMBAHO_TypeDefinitionIndex = 71511;
+
 	class BHBNAJMBAHO : public ::System::Object
 	{
 	public:

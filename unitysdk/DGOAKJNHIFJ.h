@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define DGOAKJNHIFJ_CCTOR_OFFSET UNITYSDK_OFFSET(0xE858F80)
 #define DGOAKJNHIFJ_MHAHLFKCLKI_OFFSET UNITYSDK_OFFSET(0xF6990)
 
+inline static constexpr unsigned int DGOAKJNHIFJ_TypeDefinitionIndex = 69400;
+
 	struct alignas(8) DGOAKJNHIFJ
 	{
 		::System::UInt32 GEEJAJPPGDG; // 0x10

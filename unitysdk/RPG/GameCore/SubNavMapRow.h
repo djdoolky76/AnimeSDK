@@ -10,6 +10,8 @@ namespace RPG::GameCore { class SubNavMapRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SubNavMapRow_TypeDefinitionIndex = 14014;
+
 	class SubNavMapRow : public ::System::Object
 	{
 	public:

@@ -14,6 +14,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define IHGIENOHBMJ_SET_HTTPSTATUS_OFFSET UNITYSDK_OFFSET(0x1641E600)
 #define IHGIENOHBMJ_SET_RAWBODY_OFFSET UNITYSDK_OFFSET(0x1641E640)
 
+inline static constexpr unsigned int IHGIENOHBMJ_TypeDefinitionIndex = 69357;
+
 	class IHGIENOHBMJ : public ::System::Object
 	{
 	public:

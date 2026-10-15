@@ -13,6 +13,8 @@ namespace UnityEngine::Timeline { class TimelineClip; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int SwitchCharacterAnchorTrack_TypeDefinitionIndex = 48366;
+
 	class SwitchCharacterAnchorTrack : public ::RPGTools::Timeline::CharacterTrack
 	{
 	public:

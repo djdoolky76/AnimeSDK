@@ -11,6 +11,8 @@ namespace System::Diagnostics::Tracing { class TraceLoggingMetadataCollector; }
 
 namespace System::Diagnostics::Tracing
 {
+	inline static constexpr unsigned int CharTypeInfo_TypeDefinitionIndex = 1627;
+
 	class CharTypeInfo
 	{
 	public:

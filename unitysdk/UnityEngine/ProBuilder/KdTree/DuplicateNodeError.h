@@ -6,6 +6,8 @@
 
 namespace UnityEngine::ProBuilder::KdTree
 {
+	inline static constexpr unsigned int DuplicateNodeError_TypeDefinitionIndex = 38721;
+
 	class DuplicateNodeError : public ::System::Exception
 	{
 	public:

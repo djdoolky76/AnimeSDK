@@ -10,6 +10,8 @@ namespace System { class Exception; }
 #define BECJPAKGDMA___C__DISPLAYCLASS10_0___DOENTERGAMEFLOW_B__0_OFFSET UNITYSDK_OFFSET(0x1630FF10)
 #define BECJPAKGDMA___C__DISPLAYCLASS10_0___DOENTERGAMEFLOW_B__1_OFFSET UNITYSDK_OFFSET(0x1630FFF0)
 
+inline static constexpr unsigned int BECJPAKGDMA___c__DisplayClass10_0_TypeDefinitionIndex = 58161;
+
 	class BECJPAKGDMA___c__DisplayClass10_0 : public ::System::Object
 	{
 	public:

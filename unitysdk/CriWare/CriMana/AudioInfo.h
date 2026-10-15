@@ -4,6 +4,8 @@
 
 namespace CriWare::CriMana
 {
+	inline static constexpr unsigned int AudioInfo_TypeDefinitionIndex = 40209;
+
 	struct alignas(4) AudioInfo
 	{
 		::System::UInt32 samplingRate; // 0x10

@@ -13,6 +13,8 @@ namespace RPG::GameCore { class JsonEnum; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System { class String; }
 
+inline static constexpr unsigned int ODEFBOOANPF_TypeDefinitionIndex = 56231;
+
 	struct alignas(8) ODEFBOOANPF
 	{
 		::RPG::GameCore::TaskContext* BKIFMPHBIAK; // 0x10

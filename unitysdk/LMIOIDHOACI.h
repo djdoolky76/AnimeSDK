@@ -7,6 +7,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define LMIOIDHOACI_CTOR_OFFSET UNITYSDK_OFFSET(0xB7CA040)
 #define LMIOIDHOACI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB7CA120)
 
+inline static constexpr unsigned int LMIOIDHOACI_TypeDefinitionIndex = 55439;
+
 	class LMIOIDHOACI
 	{
 	public:

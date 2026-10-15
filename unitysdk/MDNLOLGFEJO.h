@@ -9,6 +9,8 @@ namespace System { class String; }
 #define MDNLOLGFEJO_GET_IMAGEPATH_OFFSET UNITYSDK_OFFSET(0xB8B3B40)
 #define MDNLOLGFEJO_GET_MOTIONID_OFFSET UNITYSDK_OFFSET(0xB8B3B50)
 
+inline static constexpr unsigned int MDNLOLGFEJO_TypeDefinitionIndex = 80127;
+
 	class MDNLOLGFEJO : public ::System::Object
 	{
 	public:

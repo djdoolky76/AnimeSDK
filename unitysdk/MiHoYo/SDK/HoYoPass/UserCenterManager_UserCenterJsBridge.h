@@ -13,6 +13,8 @@ namespace System { class Object; }
 
 namespace MiHoYo::SDK::HoYoPass
 {
+	inline static constexpr unsigned int UserCenterManager_UserCenterJsBridge_TypeDefinitionIndex = 8274;
+
 	class UserCenterManager_UserCenterJsBridge : public ::System::MulticastDelegate
 	{
 	public:

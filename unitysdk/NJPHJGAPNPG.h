@@ -9,6 +9,8 @@ namespace RPG::GameCore { class FiveDimPortalTarget; }
 #define NJPHJGAPNPG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D22E830)
 #define NJPHJGAPNPG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D22E7F0)
 
+inline static constexpr unsigned int NJPHJGAPNPG_TypeDefinitionIndex = 21461;
+
 	class NJPHJGAPNPG : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -4,6 +4,8 @@
 
 #define GNFLPMACOFA_CTOR_OFFSET UNITYSDK_OFFSET(0x15B02340)
 
+inline static constexpr unsigned int GNFLPMACOFA_TypeDefinitionIndex = 66919;
+
 	class GNFLPMACOFA : public ::System::Object
 	{
 	public:

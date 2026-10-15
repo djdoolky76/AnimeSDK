@@ -76,6 +76,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int EquipmentItemData_TypeDefinitionIndex = 65680;
+
 	class EquipmentItemData : public ::RPG::Client::ItemData
 	{
 	public:

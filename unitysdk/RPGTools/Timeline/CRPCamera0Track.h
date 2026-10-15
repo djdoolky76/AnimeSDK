@@ -12,6 +12,8 @@ namespace UnityEngine::Timeline { class TimelineClip; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int CRPCamera0Track_TypeDefinitionIndex = 47877;
+
 	class CRPCamera0Track : public ::UnityEngine::Timeline::TrackAsset
 	{
 	public:

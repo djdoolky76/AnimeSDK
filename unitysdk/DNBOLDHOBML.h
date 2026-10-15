@@ -9,6 +9,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 #define DNBOLDHOBML_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CD496E0)
 #define DNBOLDHOBML_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CD496A0)
 
+inline static constexpr unsigned int DNBOLDHOBML_TypeDefinitionIndex = 19952;
+
 	class DNBOLDHOBML : public ::RPG::GameCore::TaskConfig
 	{
 	public:

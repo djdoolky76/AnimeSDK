@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueModifierTitanBlessAnaxaExConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueModifierTitanBlessAnaxaExConfig_TypeDefinitionIndex = 17761;
+
 	class RogueModifierTitanBlessAnaxaExConfig : public ::RPG::GameCore::RogueModifierConfig
 	{
 	public:

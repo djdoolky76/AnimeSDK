@@ -16,6 +16,8 @@ namespace UnityEngine::UI { class Image; }
 #define CECAMMLOAPB_JPPFCPGPOFG_OFFSET UNITYSDK_OFFSET(0xC77CAF0)
 #define CECAMMLOAPB__ONBIND_OFFSET UNITYSDK_OFFSET(0xC77C800)
 
+inline static constexpr unsigned int CECAMMLOAPB_TypeDefinitionIndex = 71256;
+
 	class CECAMMLOAPB : public ::FCHPIFLNKJO
 	{
 	public:

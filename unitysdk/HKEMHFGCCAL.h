@@ -6,6 +6,8 @@ class FENHFCCKGGJ;
 
 #define HKEMHFGCCAL_CTOR_OFFSET UNITYSDK_OFFSET(0x15D40CC0)
 
+inline static constexpr unsigned int HKEMHFGCCAL_TypeDefinitionIndex = 56870;
+
 	class HKEMHFGCCAL : public ::System::Object
 	{
 	public:

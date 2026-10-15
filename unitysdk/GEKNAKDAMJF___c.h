@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define GEKNAKDAMJF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E45D020)
 #define GEKNAKDAMJF___C___CCTOR_B__48_0_OFFSET UNITYSDK_OFFSET(0x1E45D030)
 
+inline static constexpr unsigned int GEKNAKDAMJF___c_TypeDefinitionIndex = 26966;
+
 	class GEKNAKDAMJF___c : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@ namespace UnityEngine::UIElements { class PropagationPaths; }
 
 namespace UnityEngine::UIElements
 {
+	inline static constexpr unsigned int EventDebugger_TypeDefinitionIndex = 5994;
+
 	class EventDebugger : public ::System::Object
 	{
 	public:

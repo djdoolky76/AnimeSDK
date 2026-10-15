@@ -4,6 +4,8 @@
 
 namespace RPG::Client::RoadRash
 {
+	inline static constexpr unsigned int RoadRashObstacleImpactVisualOverrideConfig_TypeDefinitionIndex = 75877;
+
 	struct alignas(4) RoadRashObstacleImpactVisualOverrideConfig
 	{
 		::RPG::Client::RoadRash::MonoEffectConfig AttackerEffectConfig; // 0x10

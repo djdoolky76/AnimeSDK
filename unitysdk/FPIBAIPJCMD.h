@@ -31,6 +31,8 @@ namespace System { class String; }
 #define FPIBAIPJCMD_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E40A8D0)
 #define FPIBAIPJCMD_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E40A930)
 
+inline static constexpr unsigned int FPIBAIPJCMD_TypeDefinitionIndex = 29767;
+
 	class FPIBAIPJCMD : public ::System::Object
 	{
 	public:

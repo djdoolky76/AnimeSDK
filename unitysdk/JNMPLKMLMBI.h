@@ -8,6 +8,8 @@ namespace System { class Action; }
 #define JNMPLKMLMBI_CTOR_OFFSET UNITYSDK_OFFSET(0xB28E0C0)
 #define JNMPLKMLMBI_KDPCHKAGJMK_OFFSET UNITYSDK_OFFSET(0xB28DF40)
 
+inline static constexpr unsigned int JNMPLKMLMBI_TypeDefinitionIndex = 49770;
+
 	class JNMPLKMLMBI : public ::System::Object
 	{
 	public:

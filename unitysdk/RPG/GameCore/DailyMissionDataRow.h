@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DailyMissionDataRow_TypeDefinitionIndex = 13123;
+
 	class DailyMissionDataRow : public ::System::Object
 	{
 	public:

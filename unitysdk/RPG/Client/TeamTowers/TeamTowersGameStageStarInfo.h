@@ -14,6 +14,8 @@ class OJNEALELKJB;
 
 namespace RPG::Client::TeamTowers
 {
+	inline static constexpr unsigned int TeamTowersGameStageStarInfo_TypeDefinitionIndex = 79061;
+
 	class TeamTowersGameStageStarInfo : public ::System::Object
 	{
 	public:

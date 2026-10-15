@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ShowDeleteMissionDialog_TypeDefinitionIndex = 21687;
+
 	class ShowDeleteMissionDialog : public ::RPG::GameCore::TaskConfig
 	{
 	public:

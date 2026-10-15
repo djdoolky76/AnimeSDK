@@ -13,6 +13,8 @@ namespace System { class Object; }
 #define NJBPDBGNFEO_MIJNPOKLFBO_OFFSET UNITYSDK_OFFSET(0x1DD81270)
 #define NJBPDBGNFEO_NAGNPGPIBDO_OFFSET UNITYSDK_OFFSET(0x1DD81B40)
 
+inline static constexpr unsigned int NJBPDBGNFEO_TypeDefinitionIndex = 6269;
+
 	class NJBPDBGNFEO : public ::System::Object
 	{
 	public:

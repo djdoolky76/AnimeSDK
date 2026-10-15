@@ -9,6 +9,8 @@
 
 namespace System::Xml
 {
+	inline static constexpr unsigned int SafeAsciiDecoder_TypeDefinitionIndex = 1951;
+
 	class SafeAsciiDecoder : public ::System::Text::Decoder
 	{
 	public:

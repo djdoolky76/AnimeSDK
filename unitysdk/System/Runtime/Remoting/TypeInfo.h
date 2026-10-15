@@ -11,6 +11,8 @@ namespace System { class Type; }
 
 namespace System::Runtime::Remoting
 {
+	inline static constexpr unsigned int TypeInfo_TypeDefinitionIndex = 1228;
+
 	class TypeInfo : public ::System::Object
 	{
 	public:

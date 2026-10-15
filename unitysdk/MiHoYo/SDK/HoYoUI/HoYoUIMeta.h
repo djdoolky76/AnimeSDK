@@ -15,6 +15,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::HoYoUI
 {
+	inline static constexpr unsigned int HoYoUIMeta_TypeDefinitionIndex = 46720;
+
 	class HoYoUIMeta : public ::System::Object
 	{
 	public:

@@ -20,6 +20,8 @@ namespace RPG::GameCore { class PixAirPlanePresetConfig; }
 
 namespace RPG::Client::PixAir
 {
+	inline static constexpr unsigned int PixAirFakeBattleAction_TypeDefinitionIndex = 79288;
+
 	class PixAirFakeBattleAction : public ::System::Object
 	{
 	public:

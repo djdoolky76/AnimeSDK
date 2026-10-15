@@ -37,6 +37,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define OCHJELFOKBD_OMBOCAEKCPH_OFFSET UNITYSDK_OFFSET(0xBD64C00)
 #define OCHJELFOKBD_PAHGNMDHBOO_OFFSET UNITYSDK_OFFSET(0xBD673F0)
 
+inline static constexpr unsigned int OCHJELFOKBD_TypeDefinitionIndex = 63271;
+
 	class OCHJELFOKBD : public ::System::Object
 	{
 	public:

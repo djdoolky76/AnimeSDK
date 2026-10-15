@@ -9,6 +9,8 @@ namespace System { class String; }
 
 namespace Cysharp::Threading::Tasks
 {
+	inline static constexpr unsigned int AsyncUnit_TypeDefinitionIndex = 38132;
+
 	struct alignas(4) AsyncUnit
 	{
 		static ::Cysharp::Threading::Tasks::AsyncUnit* StaticGet_Default()

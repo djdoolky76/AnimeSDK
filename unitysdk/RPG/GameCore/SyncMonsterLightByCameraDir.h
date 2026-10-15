@@ -10,6 +10,8 @@ namespace RPG::GameCore { class SyncMonsterLightByCameraDir; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SyncMonsterLightByCameraDir_TypeDefinitionIndex = 22974;
+
 	class SyncMonsterLightByCameraDir : public ::RPG::GameCore::TaskConfig
 	{
 	public:

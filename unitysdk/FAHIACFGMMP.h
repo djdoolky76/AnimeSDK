@@ -25,6 +25,8 @@ namespace System { class String; }
 #define FAHIACFGMMP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E321740)
 #define FAHIACFGMMP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E3217A0)
 
+inline static constexpr unsigned int FAHIACFGMMP_TypeDefinitionIndex = 26916;
+
 	class FAHIACFGMMP : public ::System::Object
 	{
 	public:

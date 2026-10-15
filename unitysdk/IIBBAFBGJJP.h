@@ -6,6 +6,8 @@ namespace System { class Nullable; }
 
 #define IIBBAFBGJJP_CTOR_OFFSET UNITYSDK_OFFSET(0x1CB76C80)
 
+inline static constexpr unsigned int IIBBAFBGJJP_TypeDefinitionIndex = 42248;
+
 	class IIBBAFBGJJP : public ::System::Object
 	{
 	public:

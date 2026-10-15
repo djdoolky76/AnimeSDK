@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int PSDelegate_GetSystemEnterButtonAssignDelegate_TypeDefinitionIndex = 7721;
+
 	class PSDelegate_GetSystemEnterButtonAssignDelegate : public ::System::MulticastDelegate
 	{
 	public:

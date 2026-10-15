@@ -11,6 +11,8 @@ namespace UnityEngine { class Texture; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int ProbeRenderData_TypeDefinitionIndex = 37679;
+
 	struct alignas(8) ProbeRenderData
 	{
 		::UnityEngine::Texture* tex; // 0x10

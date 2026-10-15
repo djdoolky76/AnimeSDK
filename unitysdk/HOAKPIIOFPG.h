@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define HOAKPIIOFPG_CTOR_OFFSET UNITYSDK_OFFSET(0x2E7F1E0)
 #define HOAKPIIOFPG_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0x2E7F240)
 
+inline static constexpr unsigned int HOAKPIIOFPG_TypeDefinitionIndex = 73563;
+
 	struct alignas(8) HOAKPIIOFPG
 	{
 		::RPGTools::Timeline::Emotion::EmoTrackType KHNBIBLIEGF; // 0x10

@@ -31,6 +31,8 @@ namespace System { class String; }
 #define BHCFGOHFLIO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DDF4300)
 #define BHCFGOHFLIO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DDF4360)
 
+inline static constexpr unsigned int BHCFGOHFLIO_TypeDefinitionIndex = 26042;
+
 	class BHCFGOHFLIO : public ::System::Object
 	{
 	public:

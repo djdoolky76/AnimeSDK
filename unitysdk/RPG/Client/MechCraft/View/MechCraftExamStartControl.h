@@ -15,6 +15,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftExamStartControl_TypeDefinitionIndex = 79964;
+
 	class MechCraftExamStartControl : public ::UnityEngine::MonoBehaviour
 	{
 	public:

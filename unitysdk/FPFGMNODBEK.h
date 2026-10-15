@@ -7,6 +7,8 @@ namespace RPG::GameCore { class DiceCombatTaskConfig_AttackEffect_Cutin; }
 #define FPFGMNODBEK_CTOR_OFFSET UNITYSDK_OFFSET(0x1C627D40)
 #define FPFGMNODBEK_MLKLPMJEHPF_OFFSET UNITYSDK_OFFSET(0x1C627D50)
 
+inline static constexpr unsigned int FPFGMNODBEK_TypeDefinitionIndex = 36306;
+
 	class FPFGMNODBEK : public ::AJBKGPOEBFG
 	{
 	public:

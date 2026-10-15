@@ -12,6 +12,8 @@ namespace UnityEngine::Timeline { class TimelineClip; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int LiveStreamBulletCommentsTrack_TypeDefinitionIndex = 48173;
+
 	class LiveStreamBulletCommentsTrack : public ::UnityEngine::Timeline::TrackAsset
 	{
 	public:

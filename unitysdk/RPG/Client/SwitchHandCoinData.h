@@ -9,6 +9,8 @@ namespace RPG::Client { class SwitchHandCoinData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int SwitchHandCoinData_TypeDefinitionIndex = 68001;
+
 	class SwitchHandCoinData : public ::System::Object
 	{
 	public:

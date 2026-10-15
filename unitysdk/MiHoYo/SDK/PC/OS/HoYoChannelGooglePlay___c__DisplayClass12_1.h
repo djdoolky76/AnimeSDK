@@ -14,6 +14,8 @@ namespace UnityEngine { class Coroutine; }
 
 namespace MiHoYo::SDK::PC::OS
 {
+	inline static constexpr unsigned int HoYoChannelGooglePlay___c__DisplayClass12_1_TypeDefinitionIndex = 8576;
+
 	template <typename T>
 	class HoYoChannelGooglePlay___c__DisplayClass12_1 : public ::System::Object
 	{

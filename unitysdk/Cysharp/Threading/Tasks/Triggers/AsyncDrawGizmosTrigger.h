@@ -13,6 +13,8 @@ namespace Cysharp::Threading::Tasks::Triggers { class IAsyncOnDrawGizmosHandler;
 
 namespace Cysharp::Threading::Tasks::Triggers
 {
+	inline static constexpr unsigned int AsyncDrawGizmosTrigger_TypeDefinitionIndex = 38545;
+
 	class AsyncDrawGizmosTrigger
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define KINFINGMICK___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E8645D0)
 #define KINFINGMICK___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E8645E0)
 
+inline static constexpr unsigned int KINFINGMICK___c_TypeDefinitionIndex = 28765;
+
 	class KINFINGMICK___c : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define CNFPBAJNIEL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E109610)
 #define CNFPBAJNIEL___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E109620)
 
+inline static constexpr unsigned int CNFPBAJNIEL___c_TypeDefinitionIndex = 34849;
+
 	class CNFPBAJNIEL___c : public ::System::Object
 	{
 	public:

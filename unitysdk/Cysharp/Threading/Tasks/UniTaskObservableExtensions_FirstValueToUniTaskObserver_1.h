@@ -10,6 +10,8 @@ namespace System { class Object; }
 
 namespace Cysharp::Threading::Tasks
 {
+	inline static constexpr unsigned int UniTaskObservableExtensions_FirstValueToUniTaskObserver_1_TypeDefinitionIndex = 38440;
+
 	template <typename T>
 	class UniTaskObservableExtensions_FirstValueToUniTaskObserver_1 : public ::System::Object
 	{

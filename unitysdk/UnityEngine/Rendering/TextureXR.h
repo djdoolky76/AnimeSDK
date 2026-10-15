@@ -28,6 +28,8 @@ namespace UnityEngine::Rendering { class RTHandle; }
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int TextureXR_TypeDefinitionIndex = 35587;
+
 	class TextureXR : public ::System::Object
 	{
 	public:

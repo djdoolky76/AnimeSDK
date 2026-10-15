@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace RPG::Client::Subway
 {
+	inline static constexpr unsigned int AirlineSubwayWay_MemberConfig_TypeDefinitionIndex = 82195;
+
 	class AirlineSubwayWay_MemberConfig : public ::System::Object
 	{
 	public:

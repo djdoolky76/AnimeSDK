@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int MOBANEOGHIB_EatingState_TypeDefinitionIndex = 52153;
+
 	enum class MOBANEOGHIB_EatingState : ::System::Int32
 	{
 		Eating = 0,

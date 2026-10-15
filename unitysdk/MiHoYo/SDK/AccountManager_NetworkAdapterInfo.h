@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int AccountManager_NetworkAdapterInfo_TypeDefinitionIndex = 7950;
+
 	class AccountManager_NetworkAdapterInfo : public ::System::Object
 	{
 	public:

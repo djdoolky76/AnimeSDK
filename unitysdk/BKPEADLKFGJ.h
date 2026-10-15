@@ -31,6 +31,8 @@ namespace UnityEngine { class GameObject; }
 #define BKPEADLKFGJ__ONBIND_OFFSET UNITYSDK_OFFSET(0xBA63BA0)
 #define BKPEADLKFGJ__ONDISPOSE_OFFSET UNITYSDK_OFFSET(0xBA64800)
 
+inline static constexpr unsigned int BKPEADLKFGJ_TypeDefinitionIndex = 72343;
+
 	class BKPEADLKFGJ : public ::FMPCODLIOLG
 	{
 	public:

@@ -48,6 +48,8 @@ namespace ZenFulcrum::VR::OpenVRBinding { class IVRSystem__TriggerHapticPulse; }
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
+	inline static constexpr unsigned int IVRSystem_TypeDefinitionIndex = 38889;
+
 	struct alignas(8) IVRSystem
 	{
 		::ZenFulcrum::VR::OpenVRBinding::IVRSystem__GetRecommendedRenderTargetSize* GetRecommendedRenderTargetSize; // 0x10

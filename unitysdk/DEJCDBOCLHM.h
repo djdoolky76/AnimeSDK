@@ -29,6 +29,8 @@ namespace System { class String; }
 #define DEJCDBOCLHM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E195920)
 #define DEJCDBOCLHM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E195980)
 
+inline static constexpr unsigned int DEJCDBOCLHM_TypeDefinitionIndex = 28048;
+
 	class DEJCDBOCLHM : public ::System::Object
 	{
 	public:

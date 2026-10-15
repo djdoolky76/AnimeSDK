@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define GOGMKAHGLAC_HFJOFENDOHE_OFFSET UNITYSDK_OFFSET(0x15B30590)
 #define GOGMKAHGLAC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15B2FAF0)
 
+inline static constexpr unsigned int GOGMKAHGLAC_TypeDefinitionIndex = 58738;
+
 	class GOGMKAHGLAC
 	{
 	public:

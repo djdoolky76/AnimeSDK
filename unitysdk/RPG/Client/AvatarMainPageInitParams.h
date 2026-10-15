@@ -23,6 +23,8 @@ namespace System { class Nullable; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AvatarMainPageInitParams_TypeDefinitionIndex = 60104;
+
 	class AvatarMainPageInitParams : public ::System::Object
 	{
 	public:

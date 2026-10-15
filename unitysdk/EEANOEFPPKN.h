@@ -29,6 +29,8 @@ namespace System { class String; }
 #define EEANOEFPPKN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E264DD0)
 #define EEANOEFPPKN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E264E30)
 
+inline static constexpr unsigned int EEANOEFPPKN_TypeDefinitionIndex = 31900;
+
 	class EEANOEFPPKN : public ::System::Object
 	{
 	public:

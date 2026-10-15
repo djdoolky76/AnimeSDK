@@ -246,6 +246,8 @@ namespace XLua { class LuaTable; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int UIManager_TypeDefinitionIndex = 73077;
+
 	class UIManager : public ::System::Object
 	{
 	public:

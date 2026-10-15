@@ -7,6 +7,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AttachPointOverride_TypeDefinitionIndex = 68362;
+
 	class AttachPointOverride : public ::System::Object
 	{
 	public:

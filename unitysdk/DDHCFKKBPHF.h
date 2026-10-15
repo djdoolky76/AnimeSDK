@@ -7,6 +7,8 @@ class PLGNNPBFHCJ;
 
 #define DDHCFKKBPHF_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA1BC40)
 
+inline static constexpr unsigned int DDHCFKKBPHF_TypeDefinitionIndex = 42461;
+
 	class DDHCFKKBPHF : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FiveDimMinionDestroySelfAction; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimMinionDestroySelfAction_TypeDefinitionIndex = 18744;
+
 	class FiveDimMinionDestroySelfAction : public ::RPG::GameCore::FiveDimBaseEventAction
 	{
 	public:

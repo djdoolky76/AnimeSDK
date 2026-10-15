@@ -12,6 +12,8 @@ namespace UnityEngine::Timeline { class TimelineClip; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int ClockBoyEmotionTrack_TypeDefinitionIndex = 48033;
+
 	class ClockBoyEmotionTrack : public ::RPGTools::Timeline::CharacterTrack
 	{
 	public:

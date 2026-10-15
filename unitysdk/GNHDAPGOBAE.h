@@ -12,6 +12,8 @@ namespace UnityChan { class SpringManager; }
 #define GNHDAPGOBAE_CIJDJDICMMM_OFFSET UNITYSDK_OFFSET(0x2E7CB30)
 #define GNHDAPGOBAE_LGBCLGCBHNJ_OFFSET UNITYSDK_OFFSET(0x2E7CB40)
 
+inline static constexpr unsigned int GNHDAPGOBAE_TypeDefinitionIndex = 68488;
+
 	struct alignas(8) GNHDAPGOBAE
 	{
 		::System::Boolean FKPPFNENHLL; // 0x10

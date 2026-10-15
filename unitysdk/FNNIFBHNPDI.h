@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define FNNIFBHNPDI_CTOR_OFFSET UNITYSDK_OFFSET(0x158861C0)
 #define FNNIFBHNPDI_TRIGGERACTION_OFFSET UNITYSDK_OFFSET(0x15886230)
 
+inline static constexpr unsigned int FNNIFBHNPDI_TypeDefinitionIndex = 67058;
+
 	class FNNIFBHNPDI : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@ class FLEDJOFODPJ;
 #define FLEDJOFODPJ_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CE03240)
 #define FLEDJOFODPJ_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CE03170)
 
+inline static constexpr unsigned int FLEDJOFODPJ_TypeDefinitionIndex = 21515;
+
 	class FLEDJOFODPJ : public ::RPG::GameCore::TaskConfig
 	{
 	public:

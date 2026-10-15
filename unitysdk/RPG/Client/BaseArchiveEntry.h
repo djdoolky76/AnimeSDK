@@ -20,6 +20,8 @@ namespace RPG::Client { class BaseArchiveEntry; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int BaseArchiveEntry_TypeDefinitionIndex = 62412;
+
 	class BaseArchiveEntry : public ::System::Object
 	{
 	public:

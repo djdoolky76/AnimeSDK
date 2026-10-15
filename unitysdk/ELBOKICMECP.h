@@ -28,6 +28,8 @@ namespace System { class String; }
 #define ELBOKICMECP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E2CA0D0)
 #define ELBOKICMECP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E2CA130)
 
+inline static constexpr unsigned int ELBOKICMECP_TypeDefinitionIndex = 30865;
+
 	class ELBOKICMECP : public ::System::Object
 	{
 	public:

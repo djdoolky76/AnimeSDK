@@ -13,6 +13,8 @@ namespace System { class String; }
 #define NBJKPANCCHD_LGGBOLEEOLD_OFFSET UNITYSDK_OFFSET(0xBAC96A0)
 #define NBJKPANCCHD_ODPAPLIIDDD_OFFSET UNITYSDK_OFFSET(0xBAC9200)
 
+inline static constexpr unsigned int NBJKPANCCHD_TypeDefinitionIndex = 70147;
+
 	class NBJKPANCCHD : public ::System::Object
 	{
 	public:

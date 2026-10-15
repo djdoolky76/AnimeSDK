@@ -4,6 +4,8 @@
 
 #define ECIKCALENKF_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA332D0)
 
+inline static constexpr unsigned int ECIKCALENKF_TypeDefinitionIndex = 42823;
+
 	class ECIKCALENKF : public ::Entitas::CodeGeneration::Attributes::ContextAttribute
 	{
 	public:

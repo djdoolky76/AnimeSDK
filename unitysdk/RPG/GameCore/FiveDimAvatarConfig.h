@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimAvatarConfig_TypeDefinitionIndex = 16709;
+
 	class FiveDimAvatarConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

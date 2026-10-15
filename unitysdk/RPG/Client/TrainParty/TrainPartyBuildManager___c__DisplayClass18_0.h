@@ -6,6 +6,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::TrainParty
 {
+	inline static constexpr unsigned int TrainPartyBuildManager___c__DisplayClass18_0_TypeDefinitionIndex = 74301;
+
 	struct alignas(8) TrainPartyBuildManager___c__DisplayClass18_0
 	{
 		::RPG::Client::TrainParty::TrainPartyBuildManager* __4__this; // 0x10

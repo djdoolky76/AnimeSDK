@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TimeRewindLoopControlStateChangeListener; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TimeRewindLoopControlStateChangeListener_TypeDefinitionIndex = 20670;
+
 	class TimeRewindLoopControlStateChangeListener : public ::RPG::GameCore::TaskConfig
 	{
 	public:

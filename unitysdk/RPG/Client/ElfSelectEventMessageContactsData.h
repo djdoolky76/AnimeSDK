@@ -16,6 +16,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ElfSelectEventMessageContactsData_TypeDefinitionIndex = 63670;
+
 	class ElfSelectEventMessageContactsData : public ::System::Object
 	{
 	public:

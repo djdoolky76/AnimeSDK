@@ -4,6 +4,8 @@
 
 #define BGCGMCONOEL_CTOR_OFFSET UNITYSDK_OFFSET(0x1C8BA090)
 
+inline static constexpr unsigned int BGCGMCONOEL_TypeDefinitionIndex = 42805;
+
 	class BGCGMCONOEL : public ::Entitas::CodeGeneration::Attributes::ContextAttribute
 	{
 	public:

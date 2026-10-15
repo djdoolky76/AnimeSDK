@@ -38,6 +38,8 @@ namespace System { class String; }
 #define BAIEHPEHGIO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E7B83C0)
 #define BAIEHPEHGIO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E7B8420)
 
+inline static constexpr unsigned int BAIEHPEHGIO_TypeDefinitionIndex = 30212;
+
 	class BAIEHPEHGIO : public ::System::Object
 	{
 	public:

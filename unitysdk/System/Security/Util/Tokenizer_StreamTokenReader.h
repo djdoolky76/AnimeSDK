@@ -9,6 +9,8 @@ namespace System::IO { class StreamReader; }
 
 namespace System::Security::Util
 {
+	inline static constexpr unsigned int Tokenizer_StreamTokenReader_TypeDefinitionIndex = 979;
+
 	class Tokenizer_StreamTokenReader : public ::System::Object
 	{
 	public:

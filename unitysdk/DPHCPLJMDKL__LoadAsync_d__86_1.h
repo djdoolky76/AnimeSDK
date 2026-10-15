@@ -8,6 +8,8 @@ namespace System { class Action; }
 namespace System { class Object; }
 namespace System { class String; }
 
+inline static constexpr unsigned int DPHCPLJMDKL__LoadAsync_d__86_1_TypeDefinitionIndex = 60032;
+
 	template <typename T>
 	struct alignas(8) DPHCPLJMDKL__LoadAsync_d__86_1
 	{

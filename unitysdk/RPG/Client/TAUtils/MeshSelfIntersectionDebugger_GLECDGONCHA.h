@@ -8,6 +8,8 @@ namespace System { class Object; }
 
 namespace RPG::Client::TAUtils
 {
+	inline static constexpr unsigned int MeshSelfIntersectionDebugger_GLECDGONCHA_TypeDefinitionIndex = 73637;
+
 	struct alignas(4) MeshSelfIntersectionDebugger_GLECDGONCHA
 	{
 		::System::Int32 IODCJHMDGFH; // 0x10

@@ -14,6 +14,8 @@
 #define GELNKBNABNG_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x1DD5C250)
 #define GELNKBNABNG_PAMDKBMJCEJ_OFFSET UNITYSDK_OFFSET(0x1DD5D6E0)
 
+inline static constexpr unsigned int GELNKBNABNG_TypeDefinitionIndex = 6382;
+
 	class GELNKBNABNG : public ::System::Security::Cryptography::MD5
 	{
 	public:

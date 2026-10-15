@@ -16,6 +16,8 @@ namespace System { class String; }
 #define PNNDFBADNJJ_NAKLCDFEOCE_OFFSET UNITYSDK_OFFSET(0xC34F5A0)
 #define PNNDFBADNJJ_PLKABJDCOCH_OFFSET UNITYSDK_OFFSET(0xC34F780)
 
+inline static constexpr unsigned int PNNDFBADNJJ_TypeDefinitionIndex = 81922;
+
 	class PNNDFBADNJJ : public ::System::Object
 	{
 	public:

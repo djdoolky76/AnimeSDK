@@ -15,6 +15,8 @@ namespace System { class Object; }
 
 namespace Cinemachine::Timeline
 {
+	inline static constexpr unsigned int CinemachineMixer_TypeDefinitionIndex = 39879;
+
 	class CinemachineMixer : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

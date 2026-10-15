@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define AHJJOIHCOML___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E272180)
 #define AHJJOIHCOML___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1E272190)
 
+inline static constexpr unsigned int AHJJOIHCOML___c_TypeDefinitionIndex = 31547;
+
 	class AHJJOIHCOML___c : public ::System::Object
 	{
 	public:

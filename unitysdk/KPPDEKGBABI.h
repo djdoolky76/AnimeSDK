@@ -17,6 +17,8 @@ namespace RPG::GameCore { class ChimeraDuelUIMoveToSummonQueueNode; }
 #define KPPDEKGBABI_MPDEDENADJH_OFFSET UNITYSDK_OFFSET(0xB5D45F0)
 #define KPPDEKGBABI_MPHHNKLDHFJ_OFFSET UNITYSDK_OFFSET(0xB5D4790)
 
+inline static constexpr unsigned int KPPDEKGBABI_TypeDefinitionIndex = 77646;
+
 	class KPPDEKGBABI : public ::HMDKMIJLJFH
 	{
 	public:

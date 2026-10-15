@@ -14,6 +14,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByCheckFloorCustomBool_TypeDefinitionIndex = 20695;
+
 	class ByCheckFloorCustomBool : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

@@ -8,6 +8,8 @@ class BGFNFLBFBPC;
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int SettledPunkLordData___c__DisplayClass1_0_TypeDefinitionIndex = 66747;
+
 	class SettledPunkLordData___c__DisplayClass1_0 : public ::System::Object
 	{
 	public:

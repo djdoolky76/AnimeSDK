@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define NEJLIGKNHCC___C__DISPLAYCLASS30_2_CTOR_OFFSET UNITYSDK_OFFSET(0xBB66720)
 #define NEJLIGKNHCC___C__DISPLAYCLASS30_2___BUILDPOINTLAYOUT_B__1_OFFSET UNITYSDK_OFFSET(0xBB67490)
 
+inline static constexpr unsigned int NEJLIGKNHCC___c__DisplayClass30_2_TypeDefinitionIndex = 69299;
+
 	template <typename T1, typename T2>
 	class NEJLIGKNHCC___c__DisplayClass30_2 : public ::System::Object
 	{

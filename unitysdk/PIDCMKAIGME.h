@@ -3,6 +3,8 @@
 namespace System { class String; }
 namespace UnityEngine { class AnimationCurve; }
 
+inline static constexpr unsigned int PIDCMKAIGME_TypeDefinitionIndex = 59259;
+
 	struct alignas(8) PIDCMKAIGME
 	{
 		::System::String* BFLIFKBEOPJ; // 0x10

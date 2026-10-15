@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AdventureWaypointConfig_TypeDefinitionIndex = 69077;
+
 	class AdventureWaypointConfig : public ::System::Object
 	{
 	public:

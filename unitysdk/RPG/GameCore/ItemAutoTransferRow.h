@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ItemAutoTransferRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ItemAutoTransferRow_TypeDefinitionIndex = 13897;
+
 	class ItemAutoTransferRow : public ::System::Object
 	{
 	public:

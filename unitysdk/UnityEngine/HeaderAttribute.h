@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int HeaderAttribute_TypeDefinitionIndex = 4241;
+
 	class HeaderAttribute : public ::UnityEngine::PropertyAttribute
 	{
 	public:

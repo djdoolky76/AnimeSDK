@@ -10,6 +10,8 @@ namespace UnityEngine { class RectTransform; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MarbleDragGuideConfig_TypeDefinitionIndex = 52306;
+
 	class MarbleDragGuideConfig : public ::System::Object
 	{
 	public:

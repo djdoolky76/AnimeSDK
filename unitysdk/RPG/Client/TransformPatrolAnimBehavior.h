@@ -36,6 +36,8 @@ namespace RPG::Client { class TransformPatrolAnimBehavior_PatrolPoint; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TransformPatrolAnimBehavior_TypeDefinitionIndex = 70338;
+
 	class TransformPatrolAnimBehavior : public ::RPG::Client::TABehaviorBase
 	{
 	public:

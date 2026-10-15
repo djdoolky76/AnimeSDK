@@ -43,6 +43,8 @@ namespace UnityEngine::Buffers { template <typename T> class ArrayPool_1; }
 #define GKMKOMHLGDC_PLAMKEFFEGD_OFFSET UNITYSDK_OFFSET(0x15AA2C80)
 #define GKMKOMHLGDC_SET_ISREINIT_OFFSET UNITYSDK_OFFSET(0x15AA46C0)
 
+inline static constexpr unsigned int GKMKOMHLGDC_TypeDefinitionIndex = 56339;
+
 	class GKMKOMHLGDC : public ::System::Object
 	{
 	public:

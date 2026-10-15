@@ -12,6 +12,8 @@ namespace System::Text::RegularExpressions { class RegexPrefix; }
 
 namespace System::Text::RegularExpressions
 {
+	inline static constexpr unsigned int RegexCode_TypeDefinitionIndex = 2510;
+
 	class RegexCode : public ::System::Object
 	{
 	public:

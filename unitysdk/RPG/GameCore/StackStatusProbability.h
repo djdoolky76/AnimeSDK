@@ -13,6 +13,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int StackStatusProbability_TypeDefinitionIndex = 22683;
+
 	class StackStatusProbability : public ::RPG::GameCore::TaskConfig
 	{
 	public:

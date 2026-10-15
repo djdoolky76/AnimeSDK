@@ -18,6 +18,8 @@ namespace System::Text { class StringBuilder; }
 #define HLOHDPOEMDK_APFBEFJEGOK_SET_VALUE_OFFSET UNITYSDK_OFFSET(0xAF40)
 #define HLOHDPOEMDK_APFBEFJEGOK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x2E7EDF0)
 
+inline static constexpr unsigned int HLOHDPOEMDK_APFBEFJEGOK_TypeDefinitionIndex = 81102;
+
 	struct alignas(4) HLOHDPOEMDK_APFBEFJEGOK
 	{
 		::System::UInt32 _Value_k__BackingField; // 0x10

@@ -34,6 +34,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 #define HDJIGMBHENE_NPJGONHMEOD_OFFSET UNITYSDK_OFFSET(0x15C3A070)
 #define HDJIGMBHENE_PEKEFOLNFOH_OFFSET UNITYSDK_OFFSET(0x15C3A200)
 
+inline static constexpr unsigned int HDJIGMBHENE_TypeDefinitionIndex = 61175;
+
 	class HDJIGMBHENE : public ::System::Object
 	{
 	public:

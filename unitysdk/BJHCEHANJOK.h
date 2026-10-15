@@ -13,6 +13,8 @@ namespace System { class Object; }
 #define BJHCEHANJOK__ONBIND_OFFSET UNITYSDK_OFFSET(0xB799E30)
 #define BJHCEHANJOK___ONBUTTONCLICK_B__6_0_OFFSET UNITYSDK_OFFSET(0xB79A200)
 
+inline static constexpr unsigned int BJHCEHANJOK_TypeDefinitionIndex = 72282;
+
 	class BJHCEHANJOK : public ::FMPCODLIOLG
 	{
 	public:

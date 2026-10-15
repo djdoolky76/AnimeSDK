@@ -9,6 +9,8 @@ namespace System { class Object; }
 
 namespace Cysharp::Threading::Tasks::Linq
 {
+	inline static constexpr unsigned int AsyncEnumeratorBase_2_TypeDefinitionIndex = 45226;
+
 	template <typename T1, typename T2>
 	class AsyncEnumeratorBase_2 : public ::Cysharp::Threading::Tasks::MoveNextSource
 	{

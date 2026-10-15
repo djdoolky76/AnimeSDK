@@ -14,6 +14,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define JPEAMNOBMFL_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xB2BABA0)
 #define JPEAMNOBMFL_MNFDNAKPDAJ_OFFSET UNITYSDK_OFFSET(0xB2BB070)
 
+inline static constexpr unsigned int JPEAMNOBMFL_TypeDefinitionIndex = 54324;
+
 	class JPEAMNOBMFL : public ::System::Object
 	{
 	public:

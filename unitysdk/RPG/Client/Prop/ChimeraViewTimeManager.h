@@ -21,6 +21,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int ChimeraViewTimeManager_TypeDefinitionIndex = 78506;
+
 	class ChimeraViewTimeManager : public ::System::Object
 	{
 	public:

@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CakeRaceTrapCellConfig_TypeDefinitionIndex = 18411;
+
 	class CakeRaceTrapCellConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

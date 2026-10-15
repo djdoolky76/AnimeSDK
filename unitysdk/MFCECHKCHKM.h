@@ -11,6 +11,8 @@ namespace System { class String; }
 #define MFCECHKCHKM_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB8EDD80)
 #define MFCECHKCHKM_TICK_OFFSET UNITYSDK_OFFSET(0xB8EDF10)
 
+inline static constexpr unsigned int MFCECHKCHKM_TypeDefinitionIndex = 58321;
+
 	class MFCECHKCHKM : public ::GELIALJDFBL
 	{
 	public:

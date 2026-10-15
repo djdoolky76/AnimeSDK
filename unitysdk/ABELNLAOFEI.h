@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 #define ABELNLAOFEI_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CC9F270)
 #define ABELNLAOFEI_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CC9F230)
 
+inline static constexpr unsigned int ABELNLAOFEI_TypeDefinitionIndex = 19904;
+
 	class ABELNLAOFEI : public ::RPG::GameCore::TaskConfig
 	{
 	public:

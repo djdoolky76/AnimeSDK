@@ -61,6 +61,8 @@ namespace UnityEngine { class RectTransform; }
 #define NNACFBFOEPM__ONTICK_OFFSET UNITYSDK_OFFSET(0xBC95BD0)
 #define NNACFBFOEPM___FORCEPLAYHPTWEEN_B__23_0_OFFSET UNITYSDK_OFFSET(0xBC98010)
 
+inline static constexpr unsigned int NNACFBFOEPM_TypeDefinitionIndex = 71741;
+
 	class NNACFBFOEPM : public ::FMPCODLIOLG
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class PlayerForceWalk; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PlayerForceWalk_TypeDefinitionIndex = 20005;
+
 	class PlayerForceWalk : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -41,6 +41,8 @@ namespace UnityEngine { class Transform; }
 #define JLFOEGOBLDL_PLIGOHOCKOC_OFFSET UNITYSDK_OFFSET(0xB241A00)
 #define JLFOEGOBLDL_TEARDOWN_OFFSET UNITYSDK_OFFSET(0xB240820)
 
+inline static constexpr unsigned int JLFOEGOBLDL_TypeDefinitionIndex = 76663;
+
 	class JLFOEGOBLDL : public ::System::Object
 	{
 	public:

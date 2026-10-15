@@ -3,6 +3,8 @@
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
+	inline static constexpr unsigned int B2SurfaceMaterial_TypeDefinitionIndex = 36785;
+
 	struct alignas(4) B2SurfaceMaterial
 	{
 		::System::Single friction; // 0x10

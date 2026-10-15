@@ -21,6 +21,8 @@ namespace RPG::Client { class HPBar; }
 #define LJAGLOPALFG_NEPLDJLAJII_OFFSET UNITYSDK_OFFSET(0xB6DF560)
 #define LJAGLOPALFG_PKMIIPFIIOF_OFFSET UNITYSDK_OFFSET(0xB6DF8E0)
 
+inline static constexpr unsigned int LJAGLOPALFG_TypeDefinitionIndex = 71657;
+
 	class LJAGLOPALFG : public ::System::Object
 	{
 	public:

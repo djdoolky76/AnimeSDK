@@ -7,6 +7,8 @@ namespace UnityEngine::Timeline { class TrackAsset; }
 
 namespace RPGTools::Timeline::PostProcessing
 {
+	inline static constexpr unsigned int BaseTimelineClip_TypeDefinitionIndex = 48534;
+
 	class BaseTimelineClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:

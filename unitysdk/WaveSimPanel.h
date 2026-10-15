@@ -30,6 +30,8 @@ namespace UnityEngine { class Texture2D; }
 #define WAVESIMPANEL_RESETSIMULATION_OFFSET UNITYSDK_OFFSET(0xE9F7CC0)
 #define WAVESIMPANEL_SPAWNED_OFFSET UNITYSDK_OFFSET(0xE9F7B30)
 
+inline static constexpr unsigned int WaveSimPanel_TypeDefinitionIndex = 47499;
+
 	class WaveSimPanel
 	{
 	public:

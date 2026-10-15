@@ -4,6 +4,8 @@
 namespace System { class Object; }
 namespace System { class String; }
 
+inline static constexpr unsigned int FGAPOJBAGLG_TypeDefinitionIndex = 44271;
+
 	class FGAPOJBAGLG : public ::System::Object
 	{
 	public:

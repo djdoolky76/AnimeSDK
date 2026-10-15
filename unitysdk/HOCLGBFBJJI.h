@@ -13,6 +13,8 @@ namespace System { class String; }
 #define HOCLGBFBJJI__TEARDOWN_OFFSET UNITYSDK_OFFSET(0x15DB0AE0)
 #define HOCLGBFBJJI___CREATEINTERACTTRIGGER_B__3_0_OFFSET UNITYSDK_OFFSET(0x15DB0F40)
 
+inline static constexpr unsigned int HOCLGBFBJJI_TypeDefinitionIndex = 76781;
+
 	class HOCLGBFBJJI
 	{
 	public:

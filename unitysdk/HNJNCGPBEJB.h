@@ -24,6 +24,8 @@ namespace RPG::AvatarSystem { class IAvatar; }
 #define HNJNCGPBEJB_IPHIJHNKOEI_OFFSET UNITYSDK_OFFSET(0x15D9CE00)
 #define HNJNCGPBEJB_LPIONLOMNNF_OFFSET UNITYSDK_OFFSET(0x15D9DCB0)
 
+inline static constexpr unsigned int HNJNCGPBEJB_TypeDefinitionIndex = 82089;
+
 	class HNJNCGPBEJB : public ::System::Object
 	{
 	public:

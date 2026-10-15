@@ -15,6 +15,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define HLBDEFLOBIO_HFFPBOBJADB_OFFSET UNITYSDK_OFFSET(0x15D59B20)
 #define HLBDEFLOBIO_JGMLLOGAFFE_OFFSET UNITYSDK_OFFSET(0x15D59680)
 
+inline static constexpr unsigned int HLBDEFLOBIO_TypeDefinitionIndex = 60156;
+
 	class HLBDEFLOBIO : public ::System::Object
 	{
 	public:

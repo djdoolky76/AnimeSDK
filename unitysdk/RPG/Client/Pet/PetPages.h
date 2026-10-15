@@ -20,6 +20,8 @@ namespace System { class Object; }
 
 namespace RPG::Client::Pet
 {
+	inline static constexpr unsigned int PetPages_TypeDefinitionIndex = 75719;
+
 	class PetPages : public ::System::Object
 	{
 	public:

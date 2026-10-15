@@ -8,6 +8,8 @@ namespace RPG::GameCore { class CakeRaceActionWaitSleep; }
 #define MNPGHBHIFGL_CTOR_OFFSET UNITYSDK_OFFSET(0x1C74FFC0)
 #define MNPGHBHIFGL_GAILDDCMCHP_OFFSET UNITYSDK_OFFSET(0x1C74FFD0)
 
+inline static constexpr unsigned int MNPGHBHIFGL_TypeDefinitionIndex = 37400;
+
 	class MNPGHBHIFGL : public ::GPLOFONGBGI
 	{
 	public:

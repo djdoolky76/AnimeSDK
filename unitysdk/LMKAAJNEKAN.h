@@ -8,6 +8,8 @@ namespace System { class String; }
 #define LMKAAJNEKAN_TOSTRING_OFFSET UNITYSDK_OFFSET(0xB7CCD00)
 #define LMKAAJNEKAN_TRIGGERACTION_OFFSET UNITYSDK_OFFSET(0xB7CCDB0)
 
+inline static constexpr unsigned int LMKAAJNEKAN_TypeDefinitionIndex = 67067;
+
 	class LMKAAJNEKAN : public ::System::Object
 	{
 	public:

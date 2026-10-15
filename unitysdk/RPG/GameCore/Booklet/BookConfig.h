@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::GameCore::Booklet
 {
+	inline static constexpr unsigned int BookConfig_TypeDefinitionIndex = 24958;
+
 	class BookConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

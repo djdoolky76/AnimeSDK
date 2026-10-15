@@ -3,6 +3,8 @@
 
 namespace System::IO
 {
+	inline static constexpr unsigned int MonoIOError_TypeDefinitionIndex = 723;
+
 	enum class MonoIOError : ::System::Int32
 	{
 		ERROR_SUCCESS = 0,

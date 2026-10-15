@@ -28,6 +28,8 @@ namespace System { class String; }
 #define IDOMBJBHFEO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E632DF0)
 #define IDOMBJBHFEO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E632E50)
 
+inline static constexpr unsigned int IDOMBJBHFEO_TypeDefinitionIndex = 32294;
+
 	class IDOMBJBHFEO : public ::System::Object
 	{
 	public:

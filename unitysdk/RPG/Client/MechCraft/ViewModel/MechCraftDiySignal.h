@@ -11,6 +11,8 @@ namespace System { class IDisposable; }
 
 namespace RPG::Client::MechCraft::ViewModel
 {
+	inline static constexpr unsigned int MechCraftDiySignal_TypeDefinitionIndex = 79619;
+
 	class MechCraftDiySignal : public ::System::Object
 	{
 	public:

@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace RPG::Client::ChimeraDuel
 {
+	inline static constexpr unsigned int ChimeraDuelBattleChimeraModel_TypeDefinitionIndex = 81248;
+
 	class ChimeraDuelBattleChimeraModel : public ::Sofa::Core::ObservableObject
 	{
 	public:

@@ -9,6 +9,8 @@ class HFFHEPEBJFE;
 #define DGCLAKDAHDB_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xE843EB0)
 #define DGCLAKDAHDB_NCBGDCINJEB_OFFSET UNITYSDK_OFFSET(0xE843EA0)
 
+inline static constexpr unsigned int DGCLAKDAHDB_TypeDefinitionIndex = 60193;
+
 	class DGCLAKDAHDB : public ::System::Object
 	{
 	public:

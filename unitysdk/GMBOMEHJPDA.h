@@ -4,6 +4,8 @@
 
 #define GMBOMEHJPDA_CTOR_OFFSET UNITYSDK_OFFSET(0x15ACA3C0)
 
+inline static constexpr unsigned int GMBOMEHJPDA_TypeDefinitionIndex = 81672;
+
 	class GMBOMEHJPDA : public ::AJPBKMBIGNC
 	{
 	public:

@@ -26,6 +26,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define LHKHMGHALNH_PHBFDPONIIN_OFFSET UNITYSDK_OFFSET(0xB6B7660)
 #define LHKHMGHALNH_PMPIIFKCAPF_OFFSET UNITYSDK_OFFSET(0xB6B7CB0)
 
+inline static constexpr unsigned int LHKHMGHALNH_TypeDefinitionIndex = 52419;
+
 	class LHKHMGHALNH : public ::ADHODLINHMD
 	{
 	public:

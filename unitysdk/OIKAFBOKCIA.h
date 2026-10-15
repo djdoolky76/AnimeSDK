@@ -5,6 +5,8 @@
 
 #define OIKAFBOKCIA_CTOR_OFFSET UNITYSDK_OFFSET(0x1C995120)
 
+inline static constexpr unsigned int OIKAFBOKCIA_TypeDefinitionIndex = 42219;
+
 	class OIKAFBOKCIA : public ::System::Object
 	{
 	public:

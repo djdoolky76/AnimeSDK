@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ParkourBGMConfigRow_TypeDefinitionIndex = 12114;
+
 	class ParkourBGMConfigRow : public ::System::Object
 	{
 	public:

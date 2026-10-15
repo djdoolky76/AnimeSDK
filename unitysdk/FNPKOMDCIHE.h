@@ -7,6 +7,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define FNPKOMDCIHE_EVALUATE_OFFSET UNITYSDK_OFFSET(0x158DC190)
 #define FNPKOMDCIHE_OCGLBHOILBJ_OFFSET UNITYSDK_OFFSET(0x158DC610)
 
+inline static constexpr unsigned int FNPKOMDCIHE_TypeDefinitionIndex = 52822;
+
 	class FNPKOMDCIHE
 	{
 	public:

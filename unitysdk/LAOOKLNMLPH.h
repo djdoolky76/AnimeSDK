@@ -52,6 +52,8 @@ namespace System { class String; }
 #define LAOOKLNMLPH_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E8D2670)
 #define LAOOKLNMLPH_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E8D26D0)
 
+inline static constexpr unsigned int LAOOKLNMLPH_TypeDefinitionIndex = 26543;
+
 	class LAOOKLNMLPH : public ::System::Object
 	{
 	public:

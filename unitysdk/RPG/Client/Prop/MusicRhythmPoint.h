@@ -7,6 +7,8 @@
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int MusicRhythmPoint_TypeDefinitionIndex = 78180;
+
 	class MusicRhythmPoint : public ::UnityEngine::MonoBehaviour
 	{
 	public:

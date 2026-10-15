@@ -13,6 +13,8 @@ namespace RPG::GameCore { class AbilityCoolDownChange; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AbilityCoolDownChange_TypeDefinitionIndex = 56577;
+
 	class AbilityCoolDownChange : public ::CMPGEAFHHDC
 	{
 	public:

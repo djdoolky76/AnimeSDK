@@ -10,6 +10,8 @@ namespace RPG::GameCore { class PlanetFesUseItemRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PlanetFesUseItemRow_TypeDefinitionIndex = 12253;
+
 	class PlanetFesUseItemRow : public ::System::Object
 	{
 	public:

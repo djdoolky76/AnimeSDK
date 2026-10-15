@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::Client::B51Racing
 {
+	inline static constexpr unsigned int B51RacingNewCarDriverPageViewModel_TypeDefinitionIndex = 82033;
+
 	class B51RacingNewCarDriverPageViewModel : public ::System::Object
 	{
 	public:

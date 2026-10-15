@@ -13,6 +13,8 @@ namespace RPG::GameCore { class ToastPage; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ToastPage_TypeDefinitionIndex = 20305;
+
 	class ToastPage : public ::RPG::GameCore::TaskConfig
 	{
 	public:

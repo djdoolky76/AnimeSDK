@@ -15,6 +15,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftCraftProgressAttrTrailControl_TypeDefinitionIndex = 79919;
+
 	class MechCraftCraftProgressAttrTrailControl : public ::UnityEngine::MonoBehaviour
 	{
 	public:

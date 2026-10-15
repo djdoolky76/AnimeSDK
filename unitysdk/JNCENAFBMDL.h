@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define JNCENAFBMDL_HCDPIBFLAME_OFFSET UNITYSDK_OFFSET(0xB2799C0)
 #define JNCENAFBMDL_NLBNJGKAMII_OFFSET UNITYSDK_OFFSET(0xB279960)
 
+inline static constexpr unsigned int JNCENAFBMDL_TypeDefinitionIndex = 53758;
+
 	class JNCENAFBMDL : public ::GJPFGOGOLBI
 	{
 	public:

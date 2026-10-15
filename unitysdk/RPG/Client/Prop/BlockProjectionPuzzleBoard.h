@@ -83,6 +83,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int BlockProjectionPuzzleBoard_TypeDefinitionIndex = 78210;
+
 	class BlockProjectionPuzzleBoard : public ::RPG::Client::Prop::InteractPuzzleBoardBase
 	{
 	public:

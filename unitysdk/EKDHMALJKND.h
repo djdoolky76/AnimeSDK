@@ -5,6 +5,8 @@
 #define EKDHMALJKND_CTOR_OFFSET UNITYSDK_OFFSET(0x15501180)
 #define EKDHMALJKND_HHNOCHCDKPP_OFFSET UNITYSDK_OFFSET(0x155010A0)
 
+inline static constexpr unsigned int EKDHMALJKND_TypeDefinitionIndex = 80174;
+
 	class EKDHMALJKND : public ::System::Object
 	{
 	public:

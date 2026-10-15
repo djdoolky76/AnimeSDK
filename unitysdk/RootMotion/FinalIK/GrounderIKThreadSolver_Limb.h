@@ -18,6 +18,8 @@ namespace System { class Object; }
 
 namespace RootMotion::FinalIK
 {
+	inline static constexpr unsigned int GrounderIKThreadSolver_Limb_TypeDefinitionIndex = 45997;
+
 	struct alignas(8) GrounderIKThreadSolver_Limb
 	{
 		::System::Boolean enabled; // 0x10

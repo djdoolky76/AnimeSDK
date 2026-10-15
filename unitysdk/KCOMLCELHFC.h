@@ -16,6 +16,8 @@ namespace System::Text { class Encoding; }
 #define KCOMLCELHFC_PAKFEFGCHFM_5_OFFSET UNITYSDK_OFFSET(0x1DD68F80)
 #define KCOMLCELHFC_PAKFEFGCHFM_OFFSET UNITYSDK_OFFSET(0x1DD68310)
 
+inline static constexpr unsigned int KCOMLCELHFC_TypeDefinitionIndex = 6413;
+
 	class KCOMLCELHFC : public ::System::Object
 	{
 	public:

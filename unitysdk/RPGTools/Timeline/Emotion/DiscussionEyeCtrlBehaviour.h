@@ -19,6 +19,8 @@ namespace System { class Object; }
 
 namespace RPGTools::Timeline::Emotion
 {
+	inline static constexpr unsigned int DiscussionEyeCtrlBehaviour_TypeDefinitionIndex = 48723;
+
 	class DiscussionEyeCtrlBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

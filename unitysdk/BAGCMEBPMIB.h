@@ -31,6 +31,8 @@ namespace UnityEngine::UI { class Image; }
 #define BAGCMEBPMIB_SET_INDEX_OFFSET UNITYSDK_OFFSET(0x15BDCCD0)
 #define BAGCMEBPMIB__ONBIND_OFFSET UNITYSDK_OFFSET(0x15BDCB70)
 
+inline static constexpr unsigned int BAGCMEBPMIB_TypeDefinitionIndex = 71382;
+
 	class BAGCMEBPMIB : public ::FMPCODLIOLG
 	{
 	public:

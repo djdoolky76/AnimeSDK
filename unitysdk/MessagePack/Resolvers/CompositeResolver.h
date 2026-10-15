@@ -14,6 +14,8 @@ namespace System::Collections::ObjectModel { template <typename T1, typename T2>
 
 namespace MessagePack::Resolvers
 {
+	inline static constexpr unsigned int CompositeResolver_TypeDefinitionIndex = 7254;
+
 	class CompositeResolver : public ::System::Object
 	{
 	public:

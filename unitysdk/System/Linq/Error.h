@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace System::Linq
 {
+	inline static constexpr unsigned int Error_TypeDefinitionIndex = 3132;
+
 	class Error : public ::System::Object
 	{
 	public:

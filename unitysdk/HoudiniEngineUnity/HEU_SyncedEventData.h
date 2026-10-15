@@ -8,6 +8,8 @@ namespace HoudiniEngineUnity { class HEU_ThreadedTaskLoadGeo_HEU_LoadData; }
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int HEU_SyncedEventData_TypeDefinitionIndex = 40594;
+
 	class HEU_SyncedEventData : public ::System::Object
 	{
 	public:

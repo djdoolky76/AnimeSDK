@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define DAKIMICINOH___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E152E30)
 #define DAKIMICINOH___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1E152E40)
 
+inline static constexpr unsigned int DAKIMICINOH___c_TypeDefinitionIndex = 26108;
+
 	class DAKIMICINOH___c : public ::System::Object
 	{
 	public:

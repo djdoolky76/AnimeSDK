@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PlanetFesLineupAvatar_TypeDefinitionIndex = 66530;
+
 	class PlanetFesLineupAvatar : public ::System::Object
 	{
 	public:

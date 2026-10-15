@@ -38,6 +38,8 @@ namespace System { class String; }
 #define GPEPGKCPBPB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E4F8630)
 #define GPEPGKCPBPB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E4F8690)
 
+inline static constexpr unsigned int GPEPGKCPBPB_TypeDefinitionIndex = 33481;
+
 	class GPEPGKCPBPB : public ::System::Object
 	{
 	public:

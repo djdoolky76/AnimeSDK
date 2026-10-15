@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace RPG::Client::CrowdAnimator
 {
+	inline static constexpr unsigned int SkinnedMeshData_TypeDefinitionIndex = 73731;
+
 	class SkinnedMeshData : public ::System::Object
 	{
 	public:

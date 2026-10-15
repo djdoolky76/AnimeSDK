@@ -9,6 +9,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define DLFDDJKLINL_CTOR_OFFSET UNITYSDK_OFFSET(0xF89BBA0)
 #define DLFDDJKLINL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xF89BBD0)
 
+inline static constexpr unsigned int DLFDDJKLINL_TypeDefinitionIndex = 55207;
+
 	class DLFDDJKLINL
 	{
 	public:

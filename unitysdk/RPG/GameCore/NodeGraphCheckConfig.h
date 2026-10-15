@@ -9,6 +9,8 @@ namespace RPG::GameCore { class NodeGraphCheckConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int NodeGraphCheckConfig_TypeDefinitionIndex = 16450;
+
 	class NodeGraphCheckConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

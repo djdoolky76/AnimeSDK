@@ -11,6 +11,8 @@ namespace UnityEngine::UI { class Slider; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AvatarHpBarControl_TypeDefinitionIndex = 60090;
+
 	class AvatarHpBarControl
 	{
 	public:

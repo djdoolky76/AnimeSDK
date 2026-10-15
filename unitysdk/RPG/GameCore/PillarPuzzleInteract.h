@@ -10,6 +10,8 @@ namespace RPG::GameCore { class PillarPuzzleInteract; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PillarPuzzleInteract_TypeDefinitionIndex = 20376;
+
 	class PillarPuzzleInteract : public ::RPG::GameCore::TaskConfig
 	{
 	public:

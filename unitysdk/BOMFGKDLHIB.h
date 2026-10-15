@@ -330,6 +330,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define BOMFGKDLHIB_SET_IMMOVABLEPIECETAGS_OFFSET UNITYSDK_OFFSET(0x1C8DB630)
 #define BOMFGKDLHIB_SET_PERIPHERALSERVICE_OFFSET UNITYSDK_OFFSET(0x1C8DB520)
 
+inline static constexpr unsigned int BOMFGKDLHIB_TypeDefinitionIndex = 43037;
+
 	class BOMFGKDLHIB : public ::GIFNELLKBFE
 	{
 	public:

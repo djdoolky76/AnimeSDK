@@ -9,6 +9,8 @@ namespace System { class String; }
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int HEU_OutputAttribute_TypeDefinitionIndex = 40428;
+
 	class HEU_OutputAttribute : public ::System::Object
 	{
 	public:

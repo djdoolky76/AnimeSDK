@@ -6,6 +6,8 @@ class KANHBPAGDJD;
 #define LDNBNCICPOM_CTOR_OFFSET UNITYSDK_OFFSET(0xB63E3E0)
 #define LDNBNCICPOM_EXECUTE_OFFSET UNITYSDK_OFFSET(0xB63E380)
 
+inline static constexpr unsigned int LDNBNCICPOM_TypeDefinitionIndex = 54308;
+
 	class LDNBNCICPOM : public ::GOIIMBFKMJC
 	{
 	public:

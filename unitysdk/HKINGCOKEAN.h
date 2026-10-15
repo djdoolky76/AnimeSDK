@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define HKINGCOKEAN_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1CEBA020)
 #define HKINGCOKEAN_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1CEB9940)
 
+inline static constexpr unsigned int HKINGCOKEAN_TypeDefinitionIndex = 11983;
+
 	class HKINGCOKEAN : public ::System::Object
 	{
 	public:

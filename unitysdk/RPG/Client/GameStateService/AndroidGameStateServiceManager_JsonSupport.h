@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T> class Queue_1; }
 
 namespace RPG::Client::GameStateService
 {
+	inline static constexpr unsigned int AndroidGameStateServiceManager_JsonSupport_TypeDefinitionIndex = 75626;
+
 	class AndroidGameStateServiceManager_JsonSupport : public ::System::Object
 	{
 	public:

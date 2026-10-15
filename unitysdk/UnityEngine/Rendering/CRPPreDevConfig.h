@@ -3,6 +3,8 @@
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int CRPPreDevConfig_TypeDefinitionIndex = 4868;
+
 	struct alignas(4) CRPPreDevConfig
 	{
 		::System::Int32 DebugPlatform; // 0x10

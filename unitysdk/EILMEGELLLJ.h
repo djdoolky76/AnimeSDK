@@ -28,6 +28,8 @@ namespace System { class String; }
 #define EILMEGELLLJ_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E2ABB00)
 #define EILMEGELLLJ_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E2ABB60)
 
+inline static constexpr unsigned int EILMEGELLLJ_TypeDefinitionIndex = 28459;
+
 	class EILMEGELLLJ : public ::System::Object
 	{
 	public:

@@ -4,6 +4,8 @@
 
 #define JOKHNGEGILA_CTOR_OFFSET UNITYSDK_OFFSET(0xB2A6920)
 
+inline static constexpr unsigned int JOKHNGEGILA_TypeDefinitionIndex = 59967;
+
 	class JOKHNGEGILA : public ::System::Object
 	{
 	public:

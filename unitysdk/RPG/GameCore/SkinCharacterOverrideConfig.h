@@ -16,6 +16,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SkinCharacterOverrideConfig_TypeDefinitionIndex = 17458;
+
 	class SkinCharacterOverrideConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

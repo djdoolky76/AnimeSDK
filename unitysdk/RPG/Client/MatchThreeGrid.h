@@ -22,6 +22,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MatchThreeGrid_TypeDefinitionIndex = 65951;
+
 	class MatchThreeGrid : public ::UnityEngine::MonoBehaviour
 	{
 	public:

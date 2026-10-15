@@ -15,6 +15,8 @@ namespace UnityEngine { class Transform; }
 #define OCNPMDNGMAL_NHEDINBLOIH_OFFSET UNITYSDK_OFFSET(0xBD730F0)
 #define OCNPMDNGMAL_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0xBD74940)
 
+inline static constexpr unsigned int OCNPMDNGMAL_TypeDefinitionIndex = 69623;
+
 	class OCNPMDNGMAL : public ::MDILEMALGNC
 	{
 	public:

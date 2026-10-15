@@ -7,6 +7,8 @@ namespace RPG::GameCore { class TaskContext; }
 
 #define GIBILAKDENF_CTOR_OFFSET UNITYSDK_OFFSET(0x15A30420)
 
+inline static constexpr unsigned int GIBILAKDENF_TypeDefinitionIndex = 56187;
+
 	class GIBILAKDENF : public ::System::Object
 	{
 	public:

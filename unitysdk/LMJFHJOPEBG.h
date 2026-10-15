@@ -6,6 +6,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define LMJFHJOPEBG_CTOR_OFFSET UNITYSDK_OFFSET(0x1C914000)
 
+inline static constexpr unsigned int LMJFHJOPEBG_TypeDefinitionIndex = 42841;
+
 	class LMJFHJOPEBG : public ::System::Object
 	{
 	public:

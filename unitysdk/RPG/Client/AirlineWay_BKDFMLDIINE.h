@@ -7,6 +7,8 @@ namespace RPG::Client { class Airship_AirshipEffectConfig; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AirlineWay_BKDFMLDIINE_TypeDefinitionIndex = 59775;
+
 	class AirlineWay_BKDFMLDIINE : public ::System::Object
 	{
 	public:

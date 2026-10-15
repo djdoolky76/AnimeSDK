@@ -7,6 +7,8 @@ namespace RPG::Client::ChenLingBattle { class ChenLingBattleGameContext; }
 #define CANENIIACKO_CTOR_OFFSET UNITYSDK_OFFSET(0xC493270)
 #define CANENIIACKO_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0xC493200)
 
+inline static constexpr unsigned int CANENIIACKO_TypeDefinitionIndex = 76274;
+
 	class CANENIIACKO : public ::MLKDDLHNNHH
 	{
 	public:

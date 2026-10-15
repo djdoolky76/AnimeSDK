@@ -28,6 +28,8 @@ namespace System { class String; }
 #define EPHPENFEPAJ_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E30D3B0)
 #define EPHPENFEPAJ_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E30D410)
 
+inline static constexpr unsigned int EPHPENFEPAJ_TypeDefinitionIndex = 32304;
+
 	class EPHPENFEPAJ : public ::System::Object
 	{
 	public:

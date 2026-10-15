@@ -21,6 +21,8 @@ namespace System { class Action; }
 #define OJMONJELOAF_MGFLFCHMGPA_OFFSET UNITYSDK_OFFSET(0xBECBD50)
 #define OJMONJELOAF_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0xBECB850)
 
+inline static constexpr unsigned int OJMONJELOAF_TypeDefinitionIndex = 54092;
+
 	class OJMONJELOAF : public ::System::Object
 	{
 	public:

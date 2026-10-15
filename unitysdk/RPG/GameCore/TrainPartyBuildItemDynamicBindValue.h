@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TrainPartyBuildItemDynamicBindValue; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TrainPartyBuildItemDynamicBindValue_TypeDefinitionIndex = 16266;
+
 	class TrainPartyBuildItemDynamicBindValue : public ::RPG::GameCore::JsonConfig
 	{
 	public:

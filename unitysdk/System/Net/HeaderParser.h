@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace System::Net
 {
+	inline static constexpr unsigned int HeaderParser_TypeDefinitionIndex = 2775;
+
 	class HeaderParser : public ::System::MulticastDelegate
 	{
 	public:

@@ -21,6 +21,8 @@ namespace UnityEngine::Experimental::TerrainAPI { class TerrainUtility_TerrainMa
 
 namespace UnityEngine::Experimental::TerrainAPI
 {
+	inline static constexpr unsigned int TerrainUtility_TerrainMap_TypeDefinitionIndex = 5341;
+
 	class TerrainUtility_TerrainMap : public ::System::Object
 	{
 	public:

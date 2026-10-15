@@ -9,6 +9,8 @@ namespace System { class Object; }
 #define SRDEBUG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1ED364F0)
 #define SRDEBUG___C__GETDEFAULTCOPYCONSOLEITEMCALLBACK_B__8_0_OFFSET UNITYSDK_OFFSET(0x1ED36500)
 
+inline static constexpr unsigned int SRDebug___c_TypeDefinitionIndex = 37947;
+
 	class SRDebug___c : public ::System::Object
 	{
 	public:

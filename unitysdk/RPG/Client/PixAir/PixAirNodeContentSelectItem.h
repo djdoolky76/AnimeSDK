@@ -19,6 +19,8 @@ namespace System { class String; }
 
 namespace RPG::Client::PixAir
 {
+	inline static constexpr unsigned int PixAirNodeContentSelectItem_TypeDefinitionIndex = 79292;
+
 	class PixAirNodeContentSelectItem : public ::System::Object
 	{
 	public:

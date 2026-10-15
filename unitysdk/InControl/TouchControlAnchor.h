@@ -3,6 +3,8 @@
 
 namespace InControl
 {
+	inline static constexpr unsigned int TouchControlAnchor_TypeDefinitionIndex = 40886;
+
 	enum class TouchControlAnchor : ::System::Int32
 	{
 		TopLeft = 0,

@@ -9,6 +9,8 @@ class MBLEHDIHIBG;
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftReportControl___c__DisplayClass15_0_TypeDefinitionIndex = 80025;
+
 	class MechCraftReportControl___c__DisplayClass15_0 : public ::System::Object
 	{
 	public:

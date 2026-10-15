@@ -38,6 +38,8 @@ namespace System { class String; }
 #define GEDMHFPPBHN_SET_DELAYCHANGEDATA_OFFSET UNITYSDK_OFFSET(0x159CE920)
 #define GEDMHFPPBHN_SET_PENDINGINSERTABILITYPRIORITY_OFFSET UNITYSDK_OFFSET(0x159CE840)
 
+inline static constexpr unsigned int GEDMHFPPBHN_TypeDefinitionIndex = 71227;
+
 	class GEDMHFPPBHN : public ::System::Object
 	{
 	public:

@@ -12,6 +12,8 @@ namespace RPGTools::Timeline { class DestroyEmojiBubbleClip; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int DestroyEmojiBubbleBehaviour_TypeDefinitionIndex = 48095;
+
 	class DestroyEmojiBubbleBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

@@ -18,6 +18,8 @@ class KGGNDGKIHLD;
 #define DIAGOMCGNPM_MMLEFGGOADO_OFFSET UNITYSDK_OFFSET(0xEBEF210)
 #define DIAGOMCGNPM_SET_INSTANCE_OFFSET UNITYSDK_OFFSET(0xEBEF110)
 
+inline static constexpr unsigned int DIAGOMCGNPM_TypeDefinitionIndex = 82167;
+
 	class DIAGOMCGNPM : public ::System::Object
 	{
 	public:

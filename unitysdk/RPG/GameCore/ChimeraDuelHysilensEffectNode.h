@@ -12,6 +12,8 @@ namespace RPG::GameCore { class ChimeraDuelHysilensEffectNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChimeraDuelHysilensEffectNode_TypeDefinitionIndex = 15981;
+
 	class ChimeraDuelHysilensEffectNode : public ::RPG::GameCore::BaseChimeraDuelNode
 	{
 	public:

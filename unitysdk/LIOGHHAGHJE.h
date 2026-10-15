@@ -9,6 +9,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define LIOGHHAGHJE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB6DB260)
 #define LIOGHHAGHJE_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB6DBDF0)
 
+inline static constexpr unsigned int LIOGHHAGHJE_TypeDefinitionIndex = 52477;
+
 	class LIOGHHAGHJE
 	{
 	public:

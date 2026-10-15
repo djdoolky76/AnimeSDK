@@ -8,6 +8,8 @@ namespace RPG::GameCore { class CheckVisionAxis; }
 #define MKLBMFBJGAJ_CTOR_OFFSET UNITYSDK_OFFSET(0xB99CE60)
 #define MKLBMFBJGAJ_MNAKIEOGPDK_OFFSET UNITYSDK_OFFSET(0xB99CE70)
 
+inline static constexpr unsigned int MKLBMFBJGAJ_TypeDefinitionIndex = 54377;
+
 	class MKLBMFBJGAJ : public ::BEMKNPIFMBI
 	{
 	public:

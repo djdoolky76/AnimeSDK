@@ -31,6 +31,8 @@ namespace System { class String; }
 #define BJLNEBBMMOE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DF487D0)
 #define BJLNEBBMMOE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DF48830)
 
+inline static constexpr unsigned int BJLNEBBMMOE_TypeDefinitionIndex = 33634;
+
 	class BJLNEBBMMOE : public ::System::Object
 	{
 	public:

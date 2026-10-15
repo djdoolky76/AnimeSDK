@@ -3,6 +3,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TrimmedArray_1_TypeDefinitionIndex = 35335;
+
 	template <typename T>
 	struct alignas(8) TrimmedArray_1
 	{

@@ -3,6 +3,8 @@
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int LightDataFlag_TypeDefinitionIndex = 37703;
+
 	enum class LightDataFlag : ::System::Int32
 	{
 		Dirty = 1,

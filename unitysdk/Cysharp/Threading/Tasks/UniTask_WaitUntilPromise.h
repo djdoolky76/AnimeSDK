@@ -26,6 +26,8 @@ namespace System { template <typename T> class Func_1; }
 
 namespace Cysharp::Threading::Tasks
 {
+	inline static constexpr unsigned int UniTask_WaitUntilPromise_TypeDefinitionIndex = 38252;
+
 	class UniTask_WaitUntilPromise : public ::System::Object
 	{
 	public:

@@ -15,6 +15,8 @@ namespace System { class Object; }
 #define JNKMKNJACFP_PDHBABIFIML_OFFSET UNITYSDK_OFFSET(0xB289BD0)
 #define JNKMKNJACFP_PIEBLMHAHDD_OFFSET UNITYSDK_OFFSET(0xB28A090)
 
+inline static constexpr unsigned int JNKMKNJACFP_TypeDefinitionIndex = 72209;
+
 	class JNKMKNJACFP : public ::System::Object
 	{
 	public:

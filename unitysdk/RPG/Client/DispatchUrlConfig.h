@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int DispatchUrlConfig_TypeDefinitionIndex = 60020;
+
 	class DispatchUrlConfig : public ::System::Object
 	{
 	public:

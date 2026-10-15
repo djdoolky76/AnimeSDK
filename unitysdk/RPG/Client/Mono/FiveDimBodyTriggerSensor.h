@@ -14,6 +14,8 @@ namespace UnityEngine { class Collider; }
 
 namespace RPG::Client::Mono
 {
+	inline static constexpr unsigned int FiveDimBodyTriggerSensor_TypeDefinitionIndex = 76022;
+
 	class FiveDimBodyTriggerSensor : public ::UnityEngine::MonoBehaviour
 	{
 	public:

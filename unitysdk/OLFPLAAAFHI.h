@@ -31,6 +31,8 @@ namespace System { class String; }
 #define OLFPLAAAFHI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DEA6EB0)
 #define OLFPLAAAFHI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DEA6F10)
 
+inline static constexpr unsigned int OLFPLAAAFHI_TypeDefinitionIndex = 29990;
+
 	class OLFPLAAAFHI : public ::System::Object
 	{
 	public:

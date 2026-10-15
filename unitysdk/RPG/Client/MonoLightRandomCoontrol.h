@@ -15,6 +15,8 @@ namespace UnityEngine { class Renderer; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoLightRandomCoontrol_TypeDefinitionIndex = 70741;
+
 	class MonoLightRandomCoontrol : public ::UnityEngine::MonoBehaviour
 	{
 	public:

@@ -4,6 +4,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ColorMaterialBlock_TypeDefinitionIndex = 69928;
+
 	struct alignas(4) ColorMaterialBlock
 	{
 		::System::Boolean Enable; // 0x10

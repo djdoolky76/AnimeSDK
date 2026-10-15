@@ -3,6 +3,8 @@
 
 namespace RPG::Client::Billboard
 {
+	inline static constexpr unsigned int BillboardIdentifierType_TypeDefinitionIndex = 74976;
+
 	enum class BillboardIdentifierType : ::System::Int32
 	{
 		MazeEntity = 0,

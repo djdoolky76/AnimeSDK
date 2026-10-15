@@ -8,6 +8,8 @@ namespace UnityEngine { class Shader; }
 
 namespace CriWare::CriMana::Detail
 {
+	inline static constexpr unsigned int RendererResourceH264Yuv_TypeDefinitionIndex = 40232;
+
 	class RendererResourceH264Yuv : public ::CriWare::CriMana::Detail::RendererResourceSofdecPrimeYuvRawData
 	{
 	public:

@@ -33,6 +33,8 @@ namespace System { class String; }
 #define BHBAILHMCOI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DDF24A0)
 #define BHBAILHMCOI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DDF2500)
 
+inline static constexpr unsigned int BHBAILHMCOI_TypeDefinitionIndex = 29227;
+
 	class BHBAILHMCOI : public ::System::Object
 	{
 	public:

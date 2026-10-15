@@ -43,6 +43,8 @@ namespace System { class String; }
 #define LMIFHAMFCFE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E9A4C20)
 #define LMIFHAMFCFE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E9A4C80)
 
+inline static constexpr unsigned int LMIFHAMFCFE_TypeDefinitionIndex = 29425;
+
 	class LMIFHAMFCFE : public ::System::Object
 	{
 	public:

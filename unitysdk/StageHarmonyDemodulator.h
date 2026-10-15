@@ -6,6 +6,8 @@ namespace System { class String; }
 
 #define STAGEHARMONYDEMODULATOR_CTOR_OFFSET UNITYSDK_OFFSET(0xE98D640)
 
+inline static constexpr unsigned int StageHarmonyDemodulator_TypeDefinitionIndex = 47523;
+
 	class StageHarmonyDemodulator : public ::System::Object
 	{
 	public:

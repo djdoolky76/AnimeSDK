@@ -28,6 +28,8 @@ namespace System { class String; }
 #define KJJDLEIGPMJ_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E86EAD0)
 #define KJJDLEIGPMJ_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E86EB30)
 
+inline static constexpr unsigned int KJJDLEIGPMJ_TypeDefinitionIndex = 32400;
+
 	class KJJDLEIGPMJ : public ::System::Object
 	{
 	public:

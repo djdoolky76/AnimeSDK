@@ -46,6 +46,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 #define JGNCIONCKNN_PNJKFOILFOB_OFFSET UNITYSDK_OFFSET(0xB1A1A60)
 #define JGNCIONCKNN__ONBIND_OFFSET UNITYSDK_OFFSET(0xB19F1D0)
 
+inline static constexpr unsigned int JGNCIONCKNN_TypeDefinitionIndex = 71960;
+
 	class JGNCIONCKNN : public ::FMPCODLIOLG
 	{
 	public:

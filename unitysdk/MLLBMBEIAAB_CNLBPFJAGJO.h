@@ -19,6 +19,8 @@ namespace UnityEngine { class Object; }
 #define MLLBMBEIAAB_CNLBPFJAGJO_JPPMONIIGOF_OFFSET UNITYSDK_OFFSET(0xB9B84B0)
 #define MLLBMBEIAAB_CNLBPFJAGJO_NBKAFMOEBAM_OFFSET UNITYSDK_OFFSET(0xB9B7FD0)
 
+inline static constexpr unsigned int MLLBMBEIAAB_CNLBPFJAGJO_TypeDefinitionIndex = 49174;
+
 	class MLLBMBEIAAB_CNLBPFJAGJO : public ::System::Object
 	{
 	public:

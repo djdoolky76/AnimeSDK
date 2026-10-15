@@ -32,6 +32,8 @@ namespace System { class String; }
 #define CNMMLLCIGOG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E10BD00)
 #define CNMMLLCIGOG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E10BD60)
 
+inline static constexpr unsigned int CNMMLLCIGOG_TypeDefinitionIndex = 25998;
+
 	class CNMMLLCIGOG : public ::System::Object
 	{
 	public:

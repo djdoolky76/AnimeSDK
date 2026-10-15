@@ -11,6 +11,8 @@ namespace RPG::GameCore { class ElfBehaviorStateEmojiItem; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ElfBehaviorStateEmojiItem_TypeDefinitionIndex = 18503;
+
 	class ElfBehaviorStateEmojiItem : public ::RPG::GameCore::ElfBehaviorStateContentItem
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int AndroidJavaException_TypeDefinitionIndex = 5677;
+
 	class AndroidJavaException : public ::System::Exception
 	{
 	public:

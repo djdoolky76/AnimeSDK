@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::DiceCombat
 {
+	inline static constexpr unsigned int DiceCombatProgressData___c__DisplayClass2_0_TypeDefinitionIndex = 76080;
+
 	class DiceCombatProgressData___c__DisplayClass2_0 : public ::System::Object
 	{
 	public:

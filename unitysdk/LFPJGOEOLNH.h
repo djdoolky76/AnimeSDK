@@ -88,6 +88,8 @@ namespace UnityEngine { class Transform; }
 #define LFPJGOEOLNH_SET_POOLIMMEDIATELYRELEASEMEMORYTHRESH_OFFSET UNITYSDK_OFFSET(0xB68A720)
 #define LFPJGOEOLNH_SET_POOLRELEASEMODE_OFFSET UNITYSDK_OFFSET(0xB68A740)
 
+inline static constexpr unsigned int LFPJGOEOLNH_TypeDefinitionIndex = 59371;
+
 	class LFPJGOEOLNH : public ::System::Object
 	{
 	public:

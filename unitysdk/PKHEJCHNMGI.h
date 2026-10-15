@@ -9,6 +9,8 @@ class PKHEJCHNMGI;
 #define PKHEJCHNMGI_CTOR_OFFSET UNITYSDK_OFFSET(0x1D2F9C60)
 #define PKHEJCHNMGI_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D2F98E0)
 
+inline static constexpr unsigned int PKHEJCHNMGI_TypeDefinitionIndex = 11576;
+
 	class PKHEJCHNMGI : public ::System::Object
 	{
 	public:

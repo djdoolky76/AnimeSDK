@@ -14,6 +14,8 @@ namespace System { class Object; }
 #define NOKDIGNPJNG_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xBCF2E30)
 #define NOKDIGNPJNG_TICK_OFFSET UNITYSDK_OFFSET(0xBCF2EF0)
 
+inline static constexpr unsigned int NOKDIGNPJNG_TypeDefinitionIndex = 53178;
+
 	class NOKDIGNPJNG : public ::GELIALJDFBL
 	{
 	public:

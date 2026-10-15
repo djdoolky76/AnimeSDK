@@ -42,6 +42,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define DEAEOIDEIGM_PCFBCBEAEAM_OFFSET UNITYSDK_OFFSET(0xE4F26A0)
 #define DEAEOIDEIGM_PLILJALBKKL_OFFSET UNITYSDK_OFFSET(0xE4F2280)
 
+inline static constexpr unsigned int DEAEOIDEIGM_TypeDefinitionIndex = 54749;
+
 	class DEAEOIDEIGM : public ::System::Object
 	{
 	public:

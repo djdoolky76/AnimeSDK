@@ -27,6 +27,8 @@ namespace System { class String; }
 #define LODMLDKMPPL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E9BACF0)
 #define LODMLDKMPPL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E9BAD50)
 
+inline static constexpr unsigned int LODMLDKMPPL_TypeDefinitionIndex = 29859;
+
 	class LODMLDKMPPL : public ::System::Object
 	{
 	public:

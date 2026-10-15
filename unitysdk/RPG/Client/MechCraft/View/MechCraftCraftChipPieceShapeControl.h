@@ -19,6 +19,8 @@ namespace UnityEngine { class RectTransform; }
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftCraftChipPieceShapeControl_TypeDefinitionIndex = 79869;
+
 	class MechCraftCraftChipPieceShapeControl : public ::UnityEngine::MonoBehaviour
 	{
 	public:

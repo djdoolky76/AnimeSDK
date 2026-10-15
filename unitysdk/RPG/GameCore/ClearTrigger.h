@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ClearTrigger_TypeDefinitionIndex = 20024;
+
 	class ClearTrigger : public ::RPG::GameCore::TaskConfig
 	{
 	public:

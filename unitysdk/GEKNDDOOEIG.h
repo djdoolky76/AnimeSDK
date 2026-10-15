@@ -16,6 +16,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define GEKNDDOOEIG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x159DF290)
 #define GEKNDDOOEIG_PBFANKMMAOC_OFFSET UNITYSDK_OFFSET(0x159DFF40)
 
+inline static constexpr unsigned int GEKNDDOOEIG_TypeDefinitionIndex = 53858;
+
 	class GEKNDDOOEIG
 	{
 	public:

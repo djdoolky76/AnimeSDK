@@ -4,6 +4,8 @@
 namespace System { class Action; }
 namespace UnityEngine { class Font; }
 
+inline static constexpr unsigned int MPNCINEOKEJ___O_TypeDefinitionIndex = 72678;
+
 	class MPNCINEOKEJ___O : public ::System::Object
 	{
 	public:

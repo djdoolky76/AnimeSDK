@@ -32,6 +32,8 @@ namespace UnityEngine { class ComputeBuffer; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int ComputeBuffer_TypeDefinitionIndex = 4377;
+
 	class ComputeBuffer : public ::System::Object
 	{
 	public:

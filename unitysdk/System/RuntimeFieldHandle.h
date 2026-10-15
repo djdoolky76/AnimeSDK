@@ -20,6 +20,8 @@ namespace System::Runtime::Serialization { class SerializationInfo; }
 
 namespace System
 {
+	inline static constexpr unsigned int RuntimeFieldHandle_TypeDefinitionIndex = 422;
+
 	struct alignas(4) RuntimeFieldHandle
 	{
 		::System::IntPtr value; // 0x10

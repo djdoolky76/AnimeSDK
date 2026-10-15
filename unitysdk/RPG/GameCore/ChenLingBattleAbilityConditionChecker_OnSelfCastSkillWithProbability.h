@@ -11,6 +11,8 @@ namespace RPG::GameCore { class ChenLingBattleAbilityConditionChecker_OnSelfCast
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChenLingBattleAbilityConditionChecker_OnSelfCastSkillWithProbability_TypeDefinitionIndex = 15729;
+
 	class ChenLingBattleAbilityConditionChecker_OnSelfCastSkillWithProbability : public ::RPG::GameCore::BaseChenLingBattleAbilityConditionChecker
 	{
 	public:

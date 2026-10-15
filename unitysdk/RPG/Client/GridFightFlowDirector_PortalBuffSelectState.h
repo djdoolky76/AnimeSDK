@@ -11,6 +11,8 @@ namespace RPG::Client { class GridFightFlowDirector_IFlowStateEvent; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightFlowDirector_PortalBuffSelectState_TypeDefinitionIndex = 64595;
+
 	class GridFightFlowDirector_PortalBuffSelectState : public ::System::Object
 	{
 	public:

@@ -15,6 +15,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MarbleModifyValue_TypeDefinitionIndex = 16830;
+
 	class MarbleModifyValue : public ::RPG::GameCore::MarbleTaskConfig
 	{
 	public:

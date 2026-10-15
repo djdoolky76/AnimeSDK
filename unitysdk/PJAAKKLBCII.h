@@ -82,6 +82,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define PJAAKKLBCII_SET_PHASETIMER_OFFSET UNITYSDK_OFFSET(0x1C9F3850)
 #define PJAAKKLBCII_SET_ROOMID_OFFSET UNITYSDK_OFFSET(0x1C9F3830)
 
+inline static constexpr unsigned int PJAAKKLBCII_TypeDefinitionIndex = 43081;
+
 	class PJAAKKLBCII : public ::KHLDHMFKOCP
 	{
 	public:

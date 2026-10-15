@@ -21,6 +21,8 @@ namespace UnityEngine::Events { class UnityEvent; }
 
 namespace Cysharp::Threading::Tasks
 {
+	inline static constexpr unsigned int UnityEventHandlerAsyncEnumerable_UnityEventHandlerAsyncEnumerator_TypeDefinitionIndex = 38484;
+
 	class UnityEventHandlerAsyncEnumerable_UnityEventHandlerAsyncEnumerator : public ::Cysharp::Threading::Tasks::MoveNextSource
 	{
 	public:

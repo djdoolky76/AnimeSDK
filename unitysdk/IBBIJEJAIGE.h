@@ -17,6 +17,8 @@ namespace UnityEngine { class Camera; }
 #define IBBIJEJAIGE_ONPLAYABLEDESTROY_OFFSET UNITYSDK_OFFSET(0x15E2A860)
 #define IBBIJEJAIGE_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0x15E2A050)
 
+inline static constexpr unsigned int IBBIJEJAIGE_TypeDefinitionIndex = 48445;
+
 	class IBBIJEJAIGE : public ::RPGTools::Timeline::RecoverablePlayableBehaviour
 	{
 	public:

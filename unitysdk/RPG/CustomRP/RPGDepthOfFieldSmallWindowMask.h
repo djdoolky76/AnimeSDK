@@ -12,6 +12,8 @@ namespace UnityEngine::Rendering { class CRPVirtualCamera; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int RPGDepthOfFieldSmallWindowMask_TypeDefinitionIndex = 37806;
+
 	class RPGDepthOfFieldSmallWindowMask : public ::System::Object
 	{
 	public:

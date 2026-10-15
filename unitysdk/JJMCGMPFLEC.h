@@ -9,6 +9,8 @@ namespace System { class Action; }
 #define JJMCGMPFLEC_EXECUTE_OFFSET UNITYSDK_OFFSET(0xB208C30)
 #define JJMCGMPFLEC_TICK_OFFSET UNITYSDK_OFFSET(0xB208CB0)
 
+inline static constexpr unsigned int JJMCGMPFLEC_TypeDefinitionIndex = 78350;
+
 	class JJMCGMPFLEC : public ::System::Object
 	{
 	public:

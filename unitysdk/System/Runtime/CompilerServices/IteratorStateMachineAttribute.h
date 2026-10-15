@@ -7,6 +7,8 @@ namespace System { class Type; }
 
 namespace System::Runtime::CompilerServices
 {
+	inline static constexpr unsigned int IteratorStateMachineAttribute_TypeDefinitionIndex = 1365;
+
 	class IteratorStateMachineAttribute : public ::System::Runtime::CompilerServices::StateMachineAttribute
 	{
 	public:

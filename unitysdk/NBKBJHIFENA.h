@@ -4,6 +4,8 @@
 
 #define NBKBJHIFENA_CTOR_OFFSET UNITYSDK_OFFSET(0x1C76ED10)
 
+inline static constexpr unsigned int NBKBJHIFENA_TypeDefinitionIndex = 36452;
+
 	class NBKBJHIFENA : public ::System::Object
 	{
 	public:

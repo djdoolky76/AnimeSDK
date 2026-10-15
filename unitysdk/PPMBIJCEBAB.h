@@ -39,6 +39,8 @@ namespace UnityEngine { class Transform; }
 #define PPMBIJCEBAB__ONBIND_OFFSET UNITYSDK_OFFSET(0xC391E30)
 #define PPMBIJCEBAB__ONDISPOSE_OFFSET UNITYSDK_OFFSET(0xC3920E0)
 
+inline static constexpr unsigned int PPMBIJCEBAB_TypeDefinitionIndex = 72050;
+
 	class PPMBIJCEBAB : public ::FMPCODLIOLG
 	{
 	public:

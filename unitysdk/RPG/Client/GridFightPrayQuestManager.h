@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T> class Queue_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightPrayQuestManager_TypeDefinitionIndex = 65090;
+
 	class GridFightPrayQuestManager : public ::Sofa::Core::ObservableObject
 	{
 	public:

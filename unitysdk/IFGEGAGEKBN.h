@@ -17,6 +17,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define IFGEGAGEKBN_PDFBFNFBMLF_OFFSET UNITYSDK_OFFSET(0x15F13BF0)
 #define IFGEGAGEKBN_TICK_OFFSET UNITYSDK_OFFSET(0x15F141C0)
 
+inline static constexpr unsigned int IFGEGAGEKBN_TypeDefinitionIndex = 58237;
+
 	class IFGEGAGEKBN : public ::GELIALJDFBL
 	{
 	public:

@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ExpeditionBattleTutorialTaskUnlockAction_TypeDefinitionIndex = 16226;
+
 	class ExpeditionBattleTutorialTaskUnlockAction : public ::RPG::GameCore::BaseExpeditionBattleAction
 	{
 	public:

@@ -29,6 +29,8 @@ namespace System { class Object; }
 #define CGNHALFCLJB_SET_REASON_OFFSET UNITYSDK_OFFSET(0xCC8B500)
 #define CGNHALFCLJB_SET_SOURCE_OFFSET UNITYSDK_OFFSET(0xCC8B4E0)
 
+inline static constexpr unsigned int CGNHALFCLJB_TypeDefinitionIndex = 79515;
+
 	class CGNHALFCLJB : public ::JEOCDNBFEBF
 	{
 	public:

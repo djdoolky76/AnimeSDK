@@ -7,6 +7,8 @@
 
 namespace CloudGame::MailBox::GameControl
 {
+	inline static constexpr unsigned int GameControl___c__DisplayClass13_0_TypeDefinitionIndex = 7548;
+
 	class GameControl___c__DisplayClass13_0 : public ::System::Object
 	{
 	public:

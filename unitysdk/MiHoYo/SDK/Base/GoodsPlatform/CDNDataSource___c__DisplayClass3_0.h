@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::Base::GoodsPlatform
 {
+	inline static constexpr unsigned int CDNDataSource___c__DisplayClass3_0_TypeDefinitionIndex = 8838;
+
 	class CDNDataSource___c__DisplayClass3_0 : public ::System::Object
 	{
 	public:

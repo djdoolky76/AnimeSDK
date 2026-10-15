@@ -31,6 +31,8 @@ namespace System { class String; }
 #define JLLBOPLHIKD_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E780830)
 #define JLLBOPLHIKD_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E780890)
 
+inline static constexpr unsigned int JLLBOPLHIKD_TypeDefinitionIndex = 26038;
+
 	class JLLBOPLHIKD : public ::System::Object
 	{
 	public:

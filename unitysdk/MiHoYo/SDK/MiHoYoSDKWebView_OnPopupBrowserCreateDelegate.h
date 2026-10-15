@@ -14,6 +14,8 @@ namespace System { class Object; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int MiHoYoSDKWebView_OnPopupBrowserCreateDelegate_TypeDefinitionIndex = 46601;
+
 	class MiHoYoSDKWebView_OnPopupBrowserCreateDelegate : public ::System::MulticastDelegate
 	{
 	public:

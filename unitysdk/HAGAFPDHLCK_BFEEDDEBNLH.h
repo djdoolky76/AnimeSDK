@@ -6,6 +6,8 @@
 
 #define HAGAFPDHLCK_BFEEDDEBNLH_CTOR_OFFSET UNITYSDK_OFFSET(0x15B75F60)
 
+inline static constexpr unsigned int HAGAFPDHLCK_BFEEDDEBNLH_TypeDefinitionIndex = 73634;
+
 	class HAGAFPDHLCK_BFEEDDEBNLH : public ::System::Object
 	{
 	public:

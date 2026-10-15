@@ -5,6 +5,8 @@ namespace MessagePack::Formatters { class IMessagePackFormatter; }
 
 namespace MessagePack::Formatters
 {
+	inline static constexpr unsigned int StaticNullableFormatter_1_TypeDefinitionIndex = 7443;
+
 	template <typename T>
 	class StaticNullableFormatter_1 : public ::System::Object
 	{

@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define PJHCAEOMDPF_DAMDMJJKLON_OFFSET UNITYSDK_OFFSET(0xC286D00)
 #define PJHCAEOMDPF_NLBNJGKAMII_OFFSET UNITYSDK_OFFSET(0xC286D70)
 
+inline static constexpr unsigned int PJHCAEOMDPF_TypeDefinitionIndex = 53740;
+
 	class PJHCAEOMDPF : public ::GJPFGOGOLBI
 	{
 	public:

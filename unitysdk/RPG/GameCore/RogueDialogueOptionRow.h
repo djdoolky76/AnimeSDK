@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueDialogueOptionRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueDialogueOptionRow_TypeDefinitionIndex = 14818;
+
 	class RogueDialogueOptionRow : public ::System::Object
 	{
 	public:

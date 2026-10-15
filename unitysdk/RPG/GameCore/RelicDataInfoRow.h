@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RelicDataInfoRow_TypeDefinitionIndex = 14648;
+
 	class RelicDataInfoRow : public ::System::Object
 	{
 	public:

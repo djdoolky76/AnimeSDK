@@ -9,6 +9,8 @@ namespace System { class String; }
 #define MKDNHOFBGPA_CTOR_OFFSET UNITYSDK_OFFSET(0x1D1B9D00)
 #define MKDNHOFBGPA_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D1B9920)
 
+inline static constexpr unsigned int MKDNHOFBGPA_TypeDefinitionIndex = 12493;
+
 	class MKDNHOFBGPA : public ::System::Object
 	{
 	public:

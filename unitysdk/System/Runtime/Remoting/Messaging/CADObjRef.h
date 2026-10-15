@@ -7,6 +7,8 @@ namespace System::Runtime::Remoting { class ObjRef; }
 
 namespace System::Runtime::Remoting::Messaging
 {
+	inline static constexpr unsigned int CADObjRef_TypeDefinitionIndex = 1300;
+
 	class CADObjRef : public ::System::Object
 	{
 	public:

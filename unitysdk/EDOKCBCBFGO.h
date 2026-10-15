@@ -14,6 +14,8 @@ namespace RPG::GameCore { class WaitSubMissionStateChange; }
 #define EDOKCBCBFGO__REGISTEREVENTCALLBACK_OFFSET UNITYSDK_OFFSET(0x1332E660)
 #define EDOKCBCBFGO__UNREGISTEREVENTCALLBACK_OFFSET UNITYSDK_OFFSET(0x1332E720)
 
+inline static constexpr unsigned int EDOKCBCBFGO_TypeDefinitionIndex = 53495;
+
 	class EDOKCBCBFGO
 	{
 	public:

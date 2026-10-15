@@ -3,6 +3,8 @@
 #include "unitysdk/RPG/GameCore/ModifierBehaviorFlag.h"
 namespace RPG::GameCore { class TurnBasedAbilityComponent; }
 
+inline static constexpr unsigned int GHEFGEFEFHC_TypeDefinitionIndex = 55829;
+
 	struct alignas(8) GHEFGEFEFHC
 	{
 		::RPG::GameCore::TurnBasedAbilityComponent* MCLLALGABAB; // 0x10

@@ -6,6 +6,8 @@ namespace System::Collections::Generic { template <typename T> class IList_1; }
 
 #define DFKFAIOPKLN_CTOR_OFFSET UNITYSDK_OFFSET(0xE8310E0)
 
+inline static constexpr unsigned int DFKFAIOPKLN_TypeDefinitionIndex = 47064;
+
 	class DFKFAIOPKLN : public ::System::Object
 	{
 	public:

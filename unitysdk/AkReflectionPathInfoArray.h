@@ -7,6 +7,8 @@ class AkReflectionPathInfo;
 #define AKREFLECTIONPATHINFOARRAY_CTOR_OFFSET UNITYSDK_OFFSET(0x1F5B6930)
 #define AKREFLECTIONPATHINFOARRAY_GET_STRUCTURESIZE_OFFSET UNITYSDK_OFFSET(0x1F5B6970)
 
+inline static constexpr unsigned int AkReflectionPathInfoArray_TypeDefinitionIndex = 44871;
+
 	class AkReflectionPathInfoArray
 	{
 	public:

@@ -5,6 +5,8 @@
 
 #define JABBOPGBHNH_CTOR_OFFSET UNITYSDK_OFFSET(0x1CB8AA40)
 
+inline static constexpr unsigned int JABBOPGBHNH_TypeDefinitionIndex = 43275;
+
 	class JABBOPGBHNH : public ::System::Object
 	{
 	public:

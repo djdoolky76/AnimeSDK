@@ -5,6 +5,8 @@ namespace System { class Object; }
 
 namespace System::Collections::Generic
 {
+	inline static constexpr unsigned int Stack_1_TypeDefinitionIndex = 3053;
+
 	template <typename T>
 	class Stack_1 : public ::System::Object
 	{

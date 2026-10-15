@@ -7,6 +7,8 @@
 
 namespace StageBudgetTool
 {
+	inline static constexpr unsigned int EntityBudgetComponentEditorOnly_TypeDefinitionIndex = 47711;
+
 	class EntityBudgetComponentEditorOnly : public ::UnityEngine::MonoBehaviour
 	{
 	public:

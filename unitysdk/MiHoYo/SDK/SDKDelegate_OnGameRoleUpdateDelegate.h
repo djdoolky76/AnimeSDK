@@ -13,6 +13,8 @@ namespace System { class Object; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int SDKDelegate_OnGameRoleUpdateDelegate_TypeDefinitionIndex = 7796;
+
 	class SDKDelegate_OnGameRoleUpdateDelegate : public ::System::MulticastDelegate
 	{
 	public:

@@ -6,6 +6,8 @@ namespace System { class String; }
 #define KOGLKLCCAGE_CTOR_OFFSET UNITYSDK_OFFSET(0xB5969A0)
 #define KOGLKLCCAGE_JJNFOPNOPBF_OFFSET UNITYSDK_OFFSET(0xB596950)
 
+inline static constexpr unsigned int KOGLKLCCAGE_TypeDefinitionIndex = 63995;
+
 	class KOGLKLCCAGE
 	{
 	public:

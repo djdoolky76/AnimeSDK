@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int ConsoleDelegate_DialogOpenPlayGoDialogDelegate_TypeDefinitionIndex = 7670;
+
 	class ConsoleDelegate_DialogOpenPlayGoDialogDelegate : public ::System::MulticastDelegate
 	{
 	public:

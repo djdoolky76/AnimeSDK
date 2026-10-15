@@ -9,6 +9,8 @@ class AOFHFKPKKJI;
 
 namespace RPG::Client::FateRin::Battle
 {
+	inline static constexpr unsigned int FateRinBattleHudEnemyStatusDetailViewModel___c__DisplayClass10_0_TypeDefinitionIndex = 80911;
+
 	class FateRinBattleHudEnemyStatusDetailViewModel___c__DisplayClass10_0 : public ::System::Object
 	{
 	public:

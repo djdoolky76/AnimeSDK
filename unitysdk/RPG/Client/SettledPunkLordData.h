@@ -19,6 +19,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int SettledPunkLordData_TypeDefinitionIndex = 66746;
+
 	class SettledPunkLordData : public ::RPG::Client::PunkLordData
 	{
 	public:

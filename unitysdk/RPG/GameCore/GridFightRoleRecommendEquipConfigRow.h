@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GridFightRoleRecommendEquipConfigRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightRoleRecommendEquipConfigRow_TypeDefinitionIndex = 13529;
+
 	class GridFightRoleRecommendEquipConfigRow : public ::System::Object
 	{
 	public:

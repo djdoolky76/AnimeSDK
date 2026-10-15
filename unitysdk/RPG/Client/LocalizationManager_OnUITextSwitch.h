@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int LocalizationManager_OnUITextSwitch_TypeDefinitionIndex = 61353;
+
 	class LocalizationManager_OnUITextSwitch : public ::System::MulticastDelegate
 	{
 	public:

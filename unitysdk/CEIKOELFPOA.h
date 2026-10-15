@@ -16,6 +16,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define CEIKOELFPOA_FHFMMFPGNOF_OFFSET UNITYSDK_OFFSET(0xC9E1B60)
 #define CEIKOELFPOA_OKPLPEELPBC_OFFSET UNITYSDK_OFFSET(0xC9E1F30)
 
+inline static constexpr unsigned int CEIKOELFPOA_TypeDefinitionIndex = 74600;
+
 	class CEIKOELFPOA : public ::System::Object
 	{
 	public:

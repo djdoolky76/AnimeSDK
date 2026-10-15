@@ -11,6 +11,8 @@ namespace RPG::GameCore { class LimitTypeConfigRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LimitTypeConfigRow_TypeDefinitionIndex = 15099;
+
 	class LimitTypeConfigRow : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GuideVideoConfigRow_TypeDefinitionIndex = 15415;
+
 	class GuideVideoConfigRow : public ::System::Object
 	{
 	public:

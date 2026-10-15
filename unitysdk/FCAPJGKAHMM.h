@@ -2,6 +2,8 @@
 #include "unitysdk/unitysdk.h"
 namespace R3 { class Observable; }
 
+inline static constexpr unsigned int FCAPJGKAHMM_TypeDefinitionIndex = 44239;
+
 	class FCAPJGKAHMM
 	{
 	public:

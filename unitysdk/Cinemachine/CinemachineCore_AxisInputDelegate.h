@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace Cinemachine
 {
+	inline static constexpr unsigned int CinemachineCore_AxisInputDelegate_TypeDefinitionIndex = 39812;
+
 	class CinemachineCore_AxisInputDelegate : public ::System::MulticastDelegate
 	{
 	public:

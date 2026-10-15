@@ -14,6 +14,8 @@ namespace System { class Object; }
 #define HFFKPPEJPIH_PIJIAKLEJPN_OFFSET UNITYSDK_OFFSET(0x15C78850)
 #define HFFKPPEJPIH_TICK_OFFSET UNITYSDK_OFFSET(0x15C78DA0)
 
+inline static constexpr unsigned int HFFKPPEJPIH_TypeDefinitionIndex = 52767;
+
 	class HFFKPPEJPIH : public ::GELIALJDFBL
 	{
 	public:

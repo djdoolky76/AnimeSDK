@@ -10,6 +10,8 @@ namespace System { class Object; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ClientStartupPhase___c_TypeDefinitionIndex = 61139;
+
 	class ClientStartupPhase___c : public ::System::Object
 	{
 	public:

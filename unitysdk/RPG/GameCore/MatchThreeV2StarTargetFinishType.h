@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MatchThreeV2StarTargetFinishType_TypeDefinitionIndex = 11930;
+
 	enum class MatchThreeV2StarTargetFinishType : ::System::Int32
 	{
 		None = 0,

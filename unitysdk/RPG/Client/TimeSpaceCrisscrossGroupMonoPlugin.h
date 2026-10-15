@@ -26,6 +26,8 @@ namespace UnityEngine { class Renderer; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TimeSpaceCrisscrossGroupMonoPlugin_TypeDefinitionIndex = 70223;
+
 	class TimeSpaceCrisscrossGroupMonoPlugin
 	{
 	public:

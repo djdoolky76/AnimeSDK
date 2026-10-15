@@ -6,6 +6,8 @@ namespace System { class String; }
 #define WATERINTERACTOR_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0xE9F79A0)
 #define WATERINTERACTOR_TRIGGERWAVE_OFFSET UNITYSDK_OFFSET(0xE9F7940)
 
+inline static constexpr unsigned int WaterInteractor_TypeDefinitionIndex = 47485;
+
 	class WaterInteractor
 	{
 	public:

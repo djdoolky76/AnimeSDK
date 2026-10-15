@@ -6,6 +6,8 @@
 #define KFBGEBCPMAM_DAMDMJJKLON_OFFSET UNITYSDK_OFFSET(0xB3883F0)
 #define KFBGEBCPMAM_KKGNDNGNIDI_OFFSET UNITYSDK_OFFSET(0xB388610)
 
+inline static constexpr unsigned int KFBGEBCPMAM_TypeDefinitionIndex = 74201;
+
 	class KFBGEBCPMAM : public ::FFPAFGCOKHK
 	{
 	public:

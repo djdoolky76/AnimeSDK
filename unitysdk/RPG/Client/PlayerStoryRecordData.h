@@ -8,6 +8,8 @@ class BPLFICOBKKK;
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PlayerStoryRecordData_TypeDefinitionIndex = 64274;
+
 	class PlayerStoryRecordData : public ::RPG::Client::PlayerChallengeRecordData
 	{
 	public:

@@ -25,6 +25,8 @@ namespace UnityEngine { class GameObject; }
 #define BPBFCHPINDD_OKCEIMPAPHD_OFFSET UNITYSDK_OFFSET(0xC19C4F0)
 #define BPBFCHPINDD_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0xC19CA70)
 
+inline static constexpr unsigned int BPBFCHPINDD_TypeDefinitionIndex = 73797;
+
 	class BPBFCHPINDD : public ::System::Object
 	{
 	public:

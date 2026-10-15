@@ -6,6 +6,8 @@
 
 namespace UnityEngine::Timeline
 {
+	inline static constexpr unsigned int NotKeyableAttribute_TypeDefinitionIndex = 38858;
+
 	class NotKeyableAttribute : public ::System::Attribute
 	{
 	public:

@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TarotBookRevealedIconRow_TypeDefinitionIndex = 15232;
+
 	class TarotBookRevealedIconRow : public ::System::Object
 	{
 	public:

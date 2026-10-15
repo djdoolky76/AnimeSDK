@@ -5,6 +5,8 @@
 #define CNHBOLKGGFJ_CTOR_OFFSET UNITYSDK_OFFSET(0xDA4FCA0)
 #define CNHBOLKGGFJ_FHAAHMEJMCI_OFFSET UNITYSDK_OFFSET(0xDA4FAF0)
 
+inline static constexpr unsigned int CNHBOLKGGFJ_TypeDefinitionIndex = 66510;
+
 	class CNHBOLKGGFJ : public ::FMIHMGNLBPN
 	{
 	public:

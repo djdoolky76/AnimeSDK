@@ -10,6 +10,8 @@ namespace System { class Type; }
 #define DJIJJONPFGD_FNAAJGAHIAI_OFFSET UNITYSDK_OFFSET(0xF235950)
 #define DJIJJONPFGD_IHPAKOMCHGP_OFFSET UNITYSDK_OFFSET(0xF2359F0)
 
+inline static constexpr unsigned int DJIJJONPFGD_TypeDefinitionIndex = 62683;
+
 	class DJIJJONPFGD : public ::System::Object
 	{
 	public:

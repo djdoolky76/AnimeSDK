@@ -27,6 +27,8 @@ namespace System { class String; }
 #define PBILBBMINBI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DEF7790)
 #define PBILBBMINBI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DEF77F0)
 
+inline static constexpr unsigned int PBILBBMINBI_TypeDefinitionIndex = 27371;
+
 	class PBILBBMINBI : public ::System::Object
 	{
 	public:

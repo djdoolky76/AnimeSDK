@@ -24,6 +24,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 #define KJCGFLIFPKB_PNJKFOILFOB_OFFSET UNITYSDK_OFFSET(0xB43D6B0)
 #define KJCGFLIFPKB__ONBIND_OFFSET UNITYSDK_OFFSET(0xB43CB90)
 
+inline static constexpr unsigned int KJCGFLIFPKB_TypeDefinitionIndex = 71970;
+
 	class KJCGFLIFPKB : public ::FMPCODLIOLG
 	{
 	public:

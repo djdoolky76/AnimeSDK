@@ -27,6 +27,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define CGNDHCFAAPM_PFHNCPILOFA_OFFSET UNITYSDK_OFFSET(0x1C5CE480)
 #define CGNDHCFAAPM_PKLNKLJOGGG_OFFSET UNITYSDK_OFFSET(0x1C5CFA70)
 
+inline static constexpr unsigned int CGNDHCFAAPM_TypeDefinitionIndex = 36503;
+
 	class CGNDHCFAAPM : public ::System::Object
 	{
 	public:

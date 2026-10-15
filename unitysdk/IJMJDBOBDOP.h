@@ -6,6 +6,8 @@ class JFKNBJMPOOM;
 #define IJMJDBOBDOP_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x1646EE70)
 #define IJMJDBOBDOP_CTOR_OFFSET UNITYSDK_OFFSET(0x1646EEF0)
 
+inline static constexpr unsigned int IJMJDBOBDOP_TypeDefinitionIndex = 62615;
+
 	class IJMJDBOBDOP : public ::System::Object
 	{
 	public:

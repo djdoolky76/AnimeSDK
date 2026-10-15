@@ -15,6 +15,8 @@ namespace System { class Object; }
 
 namespace MiHoYo::SDK::PC::OS
 {
+	inline static constexpr unsigned int HoYoChannel___c_TypeDefinitionIndex = 8507;
+
 	class HoYoChannel___c : public ::System::Object
 	{
 	public:

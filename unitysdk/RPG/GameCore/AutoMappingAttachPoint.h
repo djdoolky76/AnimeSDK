@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AutoMappingAttachPoint_TypeDefinitionIndex = 23194;
+
 	class AutoMappingAttachPoint : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -12,6 +12,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftNodeListControl___c__DisplayClass22_0_TypeDefinitionIndex = 79823;
+
 	class MechCraftNodeListControl___c__DisplayClass22_0 : public ::System::Object
 	{
 	public:

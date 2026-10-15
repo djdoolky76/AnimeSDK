@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TargetFormationPosConfig; }
 #define BABPNPJGDHP_EMKDEBMGDPO_NCEGDAPJGIK_OFFSET UNITYSDK_OFFSET(0x15BD0360)
 #define BABPNPJGDHP_EMKDEBMGDPO_PENKCHBNLIO_OFFSET UNITYSDK_OFFSET(0x15BCF8F0)
 
+inline static constexpr unsigned int BABPNPJGDHP_EMKDEBMGDPO_TypeDefinitionIndex = 59051;
+
 	class BABPNPJGDHP_EMKDEBMGDPO : public ::System::Object
 	{
 	public:

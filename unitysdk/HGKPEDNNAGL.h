@@ -14,6 +14,8 @@ namespace RPG::GameCore { class FloatCurveKeyframe; }
 #define HGKPEDNNAGL_MLKOLOKHIKO_OFFSET UNITYSDK_OFFSET(0x1CEA7DD0)
 #define HGKPEDNNAGL_ODOIAFEBMLN_OFFSET UNITYSDK_OFFSET(0x1CEA7B20)
 
+inline static constexpr unsigned int HGKPEDNNAGL_TypeDefinitionIndex = 24845;
+
 	class HGKPEDNNAGL : public ::System::Object
 	{
 	public:

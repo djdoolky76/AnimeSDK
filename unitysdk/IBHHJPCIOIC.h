@@ -33,6 +33,8 @@ namespace System { class String; }
 #define IBHHJPCIOIC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E6159F0)
 #define IBHHJPCIOIC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E615A50)
 
+inline static constexpr unsigned int IBHHJPCIOIC_TypeDefinitionIndex = 25433;
+
 	class IBHHJPCIOIC : public ::System::Object
 	{
 	public:

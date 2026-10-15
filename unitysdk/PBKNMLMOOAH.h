@@ -7,6 +7,8 @@ class OMNJCDDMLHI;
 #define PBKNMLMOOAH_CTOR_OFFSET UNITYSDK_OFFSET(0xBFF2880)
 #define PBKNMLMOOAH_EXECUTE_OFFSET UNITYSDK_OFFSET(0xBFF2890)
 
+inline static constexpr unsigned int PBKNMLMOOAH_TypeDefinitionIndex = 77961;
+
 	class PBKNMLMOOAH : public ::System::Object
 	{
 	public:

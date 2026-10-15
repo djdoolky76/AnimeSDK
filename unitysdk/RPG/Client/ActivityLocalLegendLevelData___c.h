@@ -14,6 +14,8 @@ namespace System { template <typename T> class Comparison_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ActivityLocalLegendLevelData___c_TypeDefinitionIndex = 61558;
+
 	class ActivityLocalLegendLevelData___c : public ::System::Object
 	{
 	public:

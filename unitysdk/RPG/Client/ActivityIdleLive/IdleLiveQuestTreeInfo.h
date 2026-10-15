@@ -19,6 +19,8 @@ namespace System::Collections::ObjectModel { template <typename T> class ReadOnl
 
 namespace RPG::Client::ActivityIdleLive
 {
+	inline static constexpr unsigned int IdleLiveQuestTreeInfo_TypeDefinitionIndex = 75374;
+
 	class IdleLiveQuestTreeInfo : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ class LHOBLLEMGHB;
 #define HAILIPBNAJL___C__DISPLAYCLASS34_0___PROCESSSWAPQUEUE_B__1_OFFSET UNITYSDK_OFFSET(0x1C65AB60)
 #define HAILIPBNAJL___C__DISPLAYCLASS34_0___PROCESSSWAPQUEUE_B__2_OFFSET UNITYSDK_OFFSET(0x1C65AAF0)
 
+inline static constexpr unsigned int HAILIPBNAJL___c__DisplayClass34_0_TypeDefinitionIndex = 36412;
+
 	class HAILIPBNAJL___c__DisplayClass34_0 : public ::System::Object
 	{
 	public:

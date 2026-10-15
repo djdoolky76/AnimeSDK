@@ -13,6 +13,8 @@ namespace UnityEngine { class ParticleSystem; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ParticleSystemUtils_TypeDefinitionIndex = 72852;
+
 	class ParticleSystemUtils : public ::UnityEngine::MonoBehaviour
 	{
 	public:

@@ -6,6 +6,8 @@
 
 namespace UnityEngine::Formats::Alembic::Sdk
 {
+	inline static constexpr unsigned int NativeMethods_aiPolyMesh_TypeDefinitionIndex = 45796;
+
 	struct alignas(4) NativeMethods_aiPolyMesh
 	{
 		static ::UnityEngine::Formats::Alembic::Sdk::aiPolyMeshSample aiSchemaGetSample(::System::IntPtr a1)

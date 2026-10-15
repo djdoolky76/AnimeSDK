@@ -121,6 +121,8 @@ namespace System::Collections::Generic { template <typename T> class Queue_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonopolyGameSystemInfo_TypeDefinitionIndex = 66260;
+
 	class MonopolyGameSystemInfo : public ::System::Object
 	{
 	public:

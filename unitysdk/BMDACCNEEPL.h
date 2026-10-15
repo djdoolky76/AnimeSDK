@@ -25,6 +25,8 @@ namespace System { class String; }
 #define BMDACCNEEPL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E022A70)
 #define BMDACCNEEPL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E022AD0)
 
+inline static constexpr unsigned int BMDACCNEEPL_TypeDefinitionIndex = 30569;
+
 	class BMDACCNEEPL : public ::System::Object
 	{
 	public:

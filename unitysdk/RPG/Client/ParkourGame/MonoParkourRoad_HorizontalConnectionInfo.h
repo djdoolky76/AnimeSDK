@@ -7,6 +7,8 @@ namespace System { class Object; }
 
 namespace RPG::Client::ParkourGame
 {
+	inline static constexpr unsigned int MonoParkourRoad_HorizontalConnectionInfo_TypeDefinitionIndex = 74162;
+
 	class MonoParkourRoad_HorizontalConnectionInfo : public ::RPG::Client::ParkourGame::MonoParkourRoad_ConnectionInfo
 	{
 	public:

@@ -11,6 +11,8 @@ class PFMAAAJFLOA;
 #define NFOFJJJMLDK_FLKOAFFOIKJ_OFFSET UNITYSDK_OFFSET(0x1C794080)
 #define NFOFJJJMLDK_HCKHNPKFLNB_OFFSET UNITYSDK_OFFSET(0x1C793E90)
 
+inline static constexpr unsigned int NFOFJJJMLDK_TypeDefinitionIndex = 37238;
+
 	class NFOFJJJMLDK : public ::System::Object
 	{
 	public:

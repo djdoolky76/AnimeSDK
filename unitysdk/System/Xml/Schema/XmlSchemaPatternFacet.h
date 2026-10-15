@@ -6,6 +6,8 @@
 
 namespace System::Xml::Schema
 {
+	inline static constexpr unsigned int XmlSchemaPatternFacet_TypeDefinitionIndex = 2199;
+
 	class XmlSchemaPatternFacet : public ::System::Xml::Schema::XmlSchemaFacet
 	{
 	public:

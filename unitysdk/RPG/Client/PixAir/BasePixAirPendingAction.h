@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::Client::PixAir
 {
+	inline static constexpr unsigned int BasePixAirPendingAction_TypeDefinitionIndex = 79281;
+
 	class BasePixAirPendingAction : public ::System::Object
 	{
 	public:

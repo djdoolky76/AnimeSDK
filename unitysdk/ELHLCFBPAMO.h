@@ -32,6 +32,8 @@ namespace System { class String; }
 #define ELHLCFBPAMO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E2D22D0)
 #define ELHLCFBPAMO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E2D2330)
 
+inline static constexpr unsigned int ELHLCFBPAMO_TypeDefinitionIndex = 33664;
+
 	class ELHLCFBPAMO : public ::System::Object
 	{
 	public:

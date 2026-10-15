@@ -18,6 +18,8 @@ namespace System { class Object; }
 #define EAGKLEJDFEP_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x12678450)
 #define EAGKLEJDFEP_TICK_OFFSET UNITYSDK_OFFSET(0x126784A0)
 
+inline static constexpr unsigned int EAGKLEJDFEP_TypeDefinitionIndex = 53328;
+
 	class EAGKLEJDFEP : public ::GELIALJDFBL
 	{
 	public:

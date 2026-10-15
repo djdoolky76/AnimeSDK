@@ -3,6 +3,8 @@
 
 namespace Spine::Unity
 {
+	inline static constexpr unsigned int IHasSkeletonDataAsset_TypeDefinitionIndex = 45073;
+
 	class IHasSkeletonDataAsset
 	{
 	public:

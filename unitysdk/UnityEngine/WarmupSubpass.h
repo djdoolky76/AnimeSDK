@@ -3,6 +3,8 @@
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int WarmupSubpass_TypeDefinitionIndex = 4381;
+
 	struct alignas(8) WarmupSubpass
 	{
 		::Il2CppArray<::System::Int32>* inputAttachments; // 0x10

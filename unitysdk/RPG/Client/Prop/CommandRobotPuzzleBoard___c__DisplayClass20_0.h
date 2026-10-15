@@ -9,6 +9,8 @@ namespace RPG::Client::Prop { class CommandRobotPuzzleBoard; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int CommandRobotPuzzleBoard___c__DisplayClass20_0_TypeDefinitionIndex = 78513;
+
 	class CommandRobotPuzzleBoard___c__DisplayClass20_0 : public ::System::Object
 	{
 	public:

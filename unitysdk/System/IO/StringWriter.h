@@ -21,6 +21,8 @@ namespace System::Text { class UnicodeEncoding; }
 
 namespace System::IO
 {
+	inline static constexpr unsigned int StringWriter_TypeDefinitionIndex = 696;
+
 	class StringWriter : public ::System::IO::TextWriter
 	{
 	public:

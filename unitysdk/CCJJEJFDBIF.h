@@ -93,6 +93,8 @@ namespace UnityEngine { class GameObject; }
 #define CCJJEJFDBIF_PLIONAKOBGG_OFFSET UNITYSDK_OFFSET(0xC740150)
 #define CCJJEJFDBIF_TICK_OFFSET UNITYSDK_OFFSET(0xC742610)
 
+inline static constexpr unsigned int CCJJEJFDBIF_TypeDefinitionIndex = 60299;
+
 	class CCJJEJFDBIF : public ::HBCMHADMLOP
 	{
 	public:

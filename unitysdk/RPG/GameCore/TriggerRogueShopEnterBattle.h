@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TriggerRogueShopEnterBattle; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TriggerRogueShopEnterBattle_TypeDefinitionIndex = 21047;
+
 	class TriggerRogueShopEnterBattle : public ::RPG::GameCore::TaskConfig
 	{
 	public:

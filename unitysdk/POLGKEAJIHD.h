@@ -32,6 +32,8 @@ namespace System { class String; }
 #define POLGKEAJIHD_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DFCCD60)
 #define POLGKEAJIHD_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DFCCDC0)
 
+inline static constexpr unsigned int POLGKEAJIHD_TypeDefinitionIndex = 26340;
+
 	class POLGKEAJIHD : public ::System::Object
 	{
 	public:

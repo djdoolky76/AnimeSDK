@@ -38,6 +38,8 @@ namespace System { class String; }
 
 namespace Google::Protobuf::Reflection
 {
+	inline static constexpr unsigned int EnumOptions_TypeDefinitionIndex = 5501;
+
 	class EnumOptions : public ::System::Object
 	{
 	public:

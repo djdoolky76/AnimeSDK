@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define DBGHCHPONOH___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E15C0D0)
 #define DBGHCHPONOH___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E15C0E0)
 
+inline static constexpr unsigned int DBGHCHPONOH___c_TypeDefinitionIndex = 34872;
+
 	class DBGHCHPONOH___c : public ::System::Object
 	{
 	public:

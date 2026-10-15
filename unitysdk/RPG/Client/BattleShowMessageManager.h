@@ -20,6 +20,8 @@ namespace System::Collections::Generic { template <typename T> class LinkedList_
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int BattleShowMessageManager_TypeDefinitionIndex = 71856;
+
 	class BattleShowMessageManager : public ::FMPCODLIOLG
 	{
 	public:

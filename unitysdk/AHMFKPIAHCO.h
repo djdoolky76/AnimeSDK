@@ -33,6 +33,8 @@ namespace System { class String; }
 #define AHMFKPIAHCO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E275B00)
 #define AHMFKPIAHCO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E275B60)
 
+inline static constexpr unsigned int AHMFKPIAHCO_TypeDefinitionIndex = 31108;
+
 	class AHMFKPIAHCO : public ::System::Object
 	{
 	public:

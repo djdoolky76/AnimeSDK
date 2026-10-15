@@ -4,6 +4,8 @@
 
 namespace RPG::Embree
 {
+	inline static constexpr unsigned int EmbreeRaycastAPI_Ray_TypeDefinitionIndex = 47014;
+
 	struct alignas(4) EmbreeRaycastAPI_Ray
 	{
 		::UnityEngine::Vector3 origin; // 0x10

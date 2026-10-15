@@ -6,6 +6,8 @@ namespace RPG::GameCore { class ChimeraEvaluationCondition; }
 #define LDDNHCOOJAG_AMPLNFFNNJI_OFFSET UNITYSDK_OFFSET(0xB61DC80)
 #define LDDNHCOOJAG_CTOR_OFFSET UNITYSDK_OFFSET(0xB61DC70)
 
+inline static constexpr unsigned int LDDNHCOOJAG_TypeDefinitionIndex = 63472;
+
 	class LDDNHCOOJAG : public ::GEJKIKIKHFK
 	{
 	public:

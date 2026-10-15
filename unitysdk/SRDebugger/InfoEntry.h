@@ -17,6 +17,8 @@ namespace System { template <typename T> class Func_1; }
 
 namespace SRDebugger
 {
+	inline static constexpr unsigned int InfoEntry_TypeDefinitionIndex = 37968;
+
 	class InfoEntry : public ::System::Object
 	{
 	public:

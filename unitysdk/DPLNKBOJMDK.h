@@ -5,6 +5,8 @@ namespace System { class String; }
 
 #define DPLNKBOJMDK_CTOR_OFFSET UNITYSDK_OFFSET(0x1265A5F0)
 
+inline static constexpr unsigned int DPLNKBOJMDK_TypeDefinitionIndex = 61870;
+
 	class DPLNKBOJMDK : public ::System::Object
 	{
 	public:

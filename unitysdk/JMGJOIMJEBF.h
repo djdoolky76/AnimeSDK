@@ -17,6 +17,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 #define JMGJOIMJEBF_OOBADKHILIH_OFFSET UNITYSDK_OFFSET(0xB2648D0)
 #define JMGJOIMJEBF_SYSTEM_COLLECTIONS_IENUMERABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0xB264770)
 
+inline static constexpr unsigned int JMGJOIMJEBF_TypeDefinitionIndex = 67186;
+
 	class JMGJOIMJEBF : public ::System::Object
 	{
 	public:

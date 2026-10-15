@@ -3,6 +3,8 @@
 
 namespace MiHoYo::SDK::HoYoPass
 {
+	inline static constexpr unsigned int HoYoPassSDK_ThirdpartyLoginMethod_TypeDefinitionIndex = 8285;
+
 	enum class HoYoPassSDK_ThirdpartyLoginMethod : ::System::Int32
 	{
 		Unknown = 0,

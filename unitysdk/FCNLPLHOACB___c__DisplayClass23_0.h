@@ -8,6 +8,8 @@ namespace System::Collections::Generic { class KeyValuePair; }
 #define FCNLPLHOACB___C__DISPLAYCLASS23_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1C552940)
 #define FCNLPLHOACB___C__DISPLAYCLASS23_0___CTOR_B__0_OFFSET UNITYSDK_OFFSET(0x1C552DE0)
 
+inline static constexpr unsigned int FCNLPLHOACB___c__DisplayClass23_0_TypeDefinitionIndex = 41833;
+
 	class FCNLPLHOACB___c__DisplayClass23_0 : public ::System::Object
 	{
 	public:

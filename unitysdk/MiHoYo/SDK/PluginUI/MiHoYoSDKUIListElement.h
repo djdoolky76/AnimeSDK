@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace MiHoYo::SDK::PluginUI
 {
+	inline static constexpr unsigned int MiHoYoSDKUIListElement_TypeDefinitionIndex = 46884;
+
 	class MiHoYoSDKUIListElement : public ::MiHoYo::SDK::PluginUI::MiHoYoSDKUIElement
 	{
 	public:

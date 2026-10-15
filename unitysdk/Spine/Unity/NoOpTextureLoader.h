@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace Spine::Unity
 {
+	inline static constexpr unsigned int NoOpTextureLoader_TypeDefinitionIndex = 45009;
+
 	class NoOpTextureLoader : public ::System::Object
 	{
 	public:

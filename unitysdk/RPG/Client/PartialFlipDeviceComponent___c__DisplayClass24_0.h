@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PartialFlipDeviceComponent___c__DisplayClass24_0_TypeDefinitionIndex = 73321;
+
 	class PartialFlipDeviceComponent___c__DisplayClass24_0 : public ::System::Object
 	{
 	public:

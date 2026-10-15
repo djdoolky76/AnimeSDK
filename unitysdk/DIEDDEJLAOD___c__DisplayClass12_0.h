@@ -7,6 +7,8 @@ class DIEDDEJLAOD;
 #define DIEDDEJLAOD___C__DISPLAYCLASS12_0_CTOR_OFFSET UNITYSDK_OFFSET(0xEBF1B60)
 #define DIEDDEJLAOD___C__DISPLAYCLASS12_0__SETUPVIEW_B__0_OFFSET UNITYSDK_OFFSET(0xEBF26F0)
 
+inline static constexpr unsigned int DIEDDEJLAOD___c__DisplayClass12_0_TypeDefinitionIndex = 71283;
+
 	class DIEDDEJLAOD___c__DisplayClass12_0 : public ::System::Object
 	{
 	public:

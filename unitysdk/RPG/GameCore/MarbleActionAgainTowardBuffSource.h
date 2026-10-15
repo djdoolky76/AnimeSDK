@@ -11,6 +11,8 @@ namespace RPG::GameCore { class MarbleActionAgainTowardBuffSource; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MarbleActionAgainTowardBuffSource_TypeDefinitionIndex = 16836;
+
 	class MarbleActionAgainTowardBuffSource : public ::RPG::GameCore::MarbleTaskConfig
 	{
 	public:

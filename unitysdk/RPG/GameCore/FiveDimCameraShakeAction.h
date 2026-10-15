@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimCameraShakeAction_TypeDefinitionIndex = 18716;
+
 	class FiveDimCameraShakeAction : public ::RPG::GameCore::FiveDimBaseEventAction
 	{
 	public:

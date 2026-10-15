@@ -6,6 +6,8 @@
 
 namespace System::Runtime::CompilerServices
 {
+	inline static constexpr unsigned int UnsafeValueTypeAttribute_TypeDefinitionIndex = 1395;
+
 	class UnsafeValueTypeAttribute : public ::System::Attribute
 	{
 	public:

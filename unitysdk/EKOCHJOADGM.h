@@ -20,6 +20,8 @@ namespace UnityEngine { class Transform; }
 #define EKOCHJOADGM_FNCEDJLDBMC_OFFSET UNITYSDK_OFFSET(0x15512A40)
 #define EKOCHJOADGM_TEARDOWN_OFFSET UNITYSDK_OFFSET(0x15512A00)
 
+inline static constexpr unsigned int EKOCHJOADGM_TypeDefinitionIndex = 77273;
+
 	class EKOCHJOADGM : public ::System::Object
 	{
 	public:

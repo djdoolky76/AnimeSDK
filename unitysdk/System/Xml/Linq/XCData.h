@@ -15,6 +15,8 @@ namespace System::Xml::Linq { class XNode; }
 
 namespace System::Xml::Linq
 {
+	inline static constexpr unsigned int XCData_TypeDefinitionIndex = 3892;
+
 	class XCData : public ::System::Xml::Linq::XText
 	{
 	public:

@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPGTools
 {
+	inline static constexpr unsigned int StoryDurationTimeConfig_TypeDefinitionIndex = 47781;
+
 	class StoryDurationTimeConfig : public ::UnityEngine::ScriptableObject
 	{
 	public:

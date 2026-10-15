@@ -29,6 +29,8 @@ namespace RPG::Client { class MonoUI3DTouch; }
 #define HHLKOEICAHB_OKMMDGOHMCA_OFFSET UNITYSDK_OFFSET(0x15CD2140)
 #define HHLKOEICAHB_POINTERPOSITION_OFFSET UNITYSDK_OFFSET(0x15CD1E50)
 
+inline static constexpr unsigned int HHLKOEICAHB_TypeDefinitionIndex = 62309;
+
 	class HHLKOEICAHB : public ::System::Object
 	{
 	public:

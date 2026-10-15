@@ -15,6 +15,8 @@ namespace RPG::GameCore { class GameEntity; }
 #define NKIBGHMHHNI_GET__PAUSEMOVEMENTREASON_OFFSET UNITYSDK_OFFSET(0xBC35580)
 #define NKIBGHMHHNI_IDPLOFEJCMD_OFFSET UNITYSDK_OFFSET(0xBC35480)
 
+inline static constexpr unsigned int NKIBGHMHHNI_TypeDefinitionIndex = 57032;
+
 	class NKIBGHMHHNI : public ::CMJCPMOPHJJ
 	{
 	public:

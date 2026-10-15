@@ -25,6 +25,8 @@ namespace System { class Action; }
 #define EJGIMKACABB_SET_ONUISTATEPLAYCOMPLETEDACTION_OFFSET UNITYSDK_OFFSET(0x154DB810)
 #define EJGIMKACABB_SET_PARENTUISTATECTRL_OFFSET UNITYSDK_OFFSET(0x154DB870)
 
+inline static constexpr unsigned int EJGIMKACABB_TypeDefinitionIndex = 74069;
+
 	class EJGIMKACABB : public ::System::Object
 	{
 	public:

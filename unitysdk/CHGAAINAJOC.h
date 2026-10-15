@@ -14,6 +14,8 @@ namespace System { class String; }
 #define CHGAAINAJOC_JJIPEOOFHDN_OFFSET UNITYSDK_OFFSET(0xCC9A160)
 #define CHGAAINAJOC_MNLPJLBAJKJ_OFFSET UNITYSDK_OFFSET(0xCF47B70)
 
+inline static constexpr unsigned int CHGAAINAJOC_TypeDefinitionIndex = 71581;
+
 	class CHGAAINAJOC : public ::System::Object
 	{
 	public:

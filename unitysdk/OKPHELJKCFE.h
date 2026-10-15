@@ -21,6 +21,8 @@ namespace UnityEngine { class Animator; }
 #define OKPHELJKCFE_OMBNDGOINPP_OFFSET UNITYSDK_OFFSET(0xBEFCBC0)
 #define OKPHELJKCFE_ONANIMATORMOVE_OFFSET UNITYSDK_OFFSET(0xBEFC380)
 
+inline static constexpr unsigned int OKPHELJKCFE_TypeDefinitionIndex = 57152;
+
 	class OKPHELJKCFE : public ::RPG::GameCore::GameComponentBase
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class LoopWaitRogueTournLevelChange; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LoopWaitRogueTournLevelChange_TypeDefinitionIndex = 21237;
+
 	class LoopWaitRogueTournLevelChange : public ::RPG::GameCore::TaskConfig
 	{
 	public:

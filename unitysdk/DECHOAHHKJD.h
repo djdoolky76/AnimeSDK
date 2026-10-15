@@ -2,6 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
+inline static constexpr unsigned int DECHOAHHKJD_TypeDefinitionIndex = 49260;
+
 	class DECHOAHHKJD : public ::System::Object
 	{
 	public:

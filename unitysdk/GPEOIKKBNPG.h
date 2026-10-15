@@ -30,6 +30,8 @@ namespace System { class String; }
 #define GPEOIKKBNPG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E4F7C50)
 #define GPEOIKKBNPG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E4F7CB0)
 
+inline static constexpr unsigned int GPEOIKKBNPG_TypeDefinitionIndex = 27443;
+
 	class GPEOIKKBNPG : public ::System::Object
 	{
 	public:

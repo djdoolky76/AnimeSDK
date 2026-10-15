@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define NAAKDKALFBC_CTOR_OFFSET UNITYSDK_OFFSET(0x1C784B30)
 #define NAAKDKALFBC_MIDKKNAGOFA_OFFSET UNITYSDK_OFFSET(0x1C784B40)
 
+inline static constexpr unsigned int NAAKDKALFBC_TypeDefinitionIndex = 36380;
+
 	class NAAKDKALFBC : public ::IFNMPBPNBIF
 	{
 	public:

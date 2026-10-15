@@ -6,6 +6,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int DebugCloudInfoPanel_TypeDefinitionIndex = 72733;
+
 	class DebugCloudInfoPanel : public ::UnityEngine::MonoBehaviour
 	{
 	public:

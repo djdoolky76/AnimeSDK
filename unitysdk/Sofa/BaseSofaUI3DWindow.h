@@ -11,6 +11,8 @@ class HEJLOAOKDGE;
 
 namespace Sofa
 {
+	inline static constexpr unsigned int BaseSofaUI3DWindow_TypeDefinitionIndex = 49692;
+
 	class BaseSofaUI3DWindow : public ::RPG::Client::UI3DControllerBase
 	{
 	public:

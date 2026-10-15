@@ -5,6 +5,8 @@ namespace RPG::Client::Textmap::Parameter { template <typename T> class IndexedP
 
 namespace RPG::Client::Textmap::Parameter
 {
+	inline static constexpr unsigned int IndexedParameterContextGenericArray_1_DebuggerView_TypeDefinitionIndex = 73377;
+
 	template <typename T>
 	class IndexedParameterContextGenericArray_1_DebuggerView : public ::System::Object
 	{

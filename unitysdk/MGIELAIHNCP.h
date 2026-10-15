@@ -7,6 +7,8 @@ class PBGNKMMDBGD;
 #define MGIELAIHNCP_CTOR_OFFSET UNITYSDK_OFFSET(0x1C74AF70)
 #define MGIELAIHNCP_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1C74AF80)
 
+inline static constexpr unsigned int MGIELAIHNCP_TypeDefinitionIndex = 37444;
+
 	class MGIELAIHNCP : public ::System::Object
 	{
 	public:

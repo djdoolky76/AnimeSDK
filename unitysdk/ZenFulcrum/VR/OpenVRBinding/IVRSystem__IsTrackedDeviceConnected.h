@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
+	inline static constexpr unsigned int IVRSystem__IsTrackedDeviceConnected_TypeDefinitionIndex = 38911;
+
 	class IVRSystem__IsTrackedDeviceConnected : public ::System::MulticastDelegate
 	{
 	public:

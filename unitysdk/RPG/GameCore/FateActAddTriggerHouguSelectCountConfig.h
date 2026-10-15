@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FateActAddTriggerHouguSelectCountConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FateActAddTriggerHouguSelectCountConfig_TypeDefinitionIndex = 19245;
+
 	class FateActAddTriggerHouguSelectCountConfig : public ::RPG::GameCore::FateActionConfigBase
 	{
 	public:

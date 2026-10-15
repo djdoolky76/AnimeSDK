@@ -25,6 +25,8 @@ namespace UnityEngine::Rendering { class DebugUI_Panel; }
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int DebugUI_Widget_TypeDefinitionIndex = 35546;
+
 	class DebugUI_Widget : public ::System::Object
 	{
 	public:

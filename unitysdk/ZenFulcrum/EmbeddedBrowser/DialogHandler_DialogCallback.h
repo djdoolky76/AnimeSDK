@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
+	inline static constexpr unsigned int DialogHandler_DialogCallback_TypeDefinitionIndex = 39494;
+
 	class DialogHandler_DialogCallback : public ::System::MulticastDelegate
 	{
 	public:

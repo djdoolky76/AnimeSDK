@@ -30,6 +30,8 @@ namespace System { class String; }
 #define BGFAPAAMJOF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EA744B0)
 #define BGFAPAAMJOF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EA74510)
 
+inline static constexpr unsigned int BGFAPAAMJOF_TypeDefinitionIndex = 32066;
+
 	class BGFAPAAMJOF : public ::System::Object
 	{
 	public:

@@ -25,6 +25,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AutoFightVOExcelTable_TypeDefinitionIndex = 15115;
+
 	class AutoFightVOExcelTable : public ::System::Object
 	{
 	public:

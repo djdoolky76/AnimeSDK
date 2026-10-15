@@ -9,6 +9,8 @@ namespace UnityEngine { class Animator; }
 #define JDHODOEHBKM_MFICHELGPFA_OFFSET UNITYSDK_OFFSET(0x165CC340)
 #define JDHODOEHBKM_PEIAGNIBNNN_OFFSET UNITYSDK_OFFSET(0x165CC3D0)
 
+inline static constexpr unsigned int JDHODOEHBKM_TypeDefinitionIndex = 73332;
+
 	class JDHODOEHBKM : public ::System::Object
 	{
 	public:

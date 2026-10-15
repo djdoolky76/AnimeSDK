@@ -23,6 +23,8 @@ namespace System { class Nullable; }
 #define IOJPCGBBOKJ_MKOFMFBGDKL_OFFSET UNITYSDK_OFFSET(0x165042D0)
 #define IOJPCGBBOKJ_PNNHMOIACLL_OFFSET UNITYSDK_OFFSET(0x165046F0)
 
+inline static constexpr unsigned int IOJPCGBBOKJ_TypeDefinitionIndex = 72025;
+
 	class IOJPCGBBOKJ : public ::System::Object
 	{
 	public:

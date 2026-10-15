@@ -44,6 +44,8 @@ namespace System { class String; }
 
 namespace Google::Protobuf::Reflection
 {
+	inline static constexpr unsigned int MessageOptions_TypeDefinitionIndex = 5492;
+
 	class MessageOptions : public ::System::Object
 	{
 	public:

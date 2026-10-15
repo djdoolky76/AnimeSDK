@@ -22,6 +22,8 @@ namespace UnityEngine::UI { class Text; }
 #define LOICGOMHPCA_PDJEELONEOI_OFFSET UNITYSDK_OFFSET(0xB804DD0)
 #define LOICGOMHPCA__ONBIND_OFFSET UNITYSDK_OFFSET(0xB804390)
 
+inline static constexpr unsigned int LOICGOMHPCA_TypeDefinitionIndex = 71755;
+
 	class LOICGOMHPCA : public ::GPMFOHDCMFF
 	{
 	public:

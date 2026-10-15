@@ -28,6 +28,8 @@ namespace System { class String; }
 #define AHKGHNIDDHI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E273290)
 #define AHKGHNIDDHI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E2732F0)
 
+inline static constexpr unsigned int AHKGHNIDDHI_TypeDefinitionIndex = 32589;
+
 	class AHKGHNIDDHI : public ::System::Object
 	{
 	public:

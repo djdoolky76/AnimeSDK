@@ -29,6 +29,8 @@ namespace System { class String; }
 #define MDKHMNKAECP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EA05880)
 #define MDKHMNKAECP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EA058E0)
 
+inline static constexpr unsigned int MDKHMNKAECP_TypeDefinitionIndex = 29380;
+
 	class MDKHMNKAECP : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::Client { class IRogueMiracleInGame; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueMiracleExt___c__DisplayClass4_0_TypeDefinitionIndex = 67277;
+
 	class RogueMiracleExt___c__DisplayClass4_0 : public ::System::Object
 	{
 	public:

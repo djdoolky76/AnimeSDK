@@ -13,6 +13,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int NpcBodySizeInfo_TypeDefinitionIndex = 60048;
+
 	class NpcBodySizeInfo : public ::System::Object
 	{
 	public:

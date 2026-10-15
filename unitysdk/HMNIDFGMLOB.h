@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 #define HMNIDFGMLOB_CTOR_OFFSET UNITYSDK_OFFSET(0x15D88680)
 #define HMNIDFGMLOB_LALPGEAJIHF_OFFSET UNITYSDK_OFFSET(0x15D884D0)
 
+inline static constexpr unsigned int HMNIDFGMLOB_TypeDefinitionIndex = 80134;
+
 	class HMNIDFGMLOB : public ::System::Object
 	{
 	public:

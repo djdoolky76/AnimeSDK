@@ -7,6 +7,8 @@ namespace RPG::Client::ActivityIdleLive { class StoryLine; }
 #define OEAHGHEJCPA_BFDECCFKKOK_OFFSET UNITYSDK_OFFSET(0xBDF2FD0)
 #define OEAHGHEJCPA_CTOR_OFFSET UNITYSDK_OFFSET(0xBDF3040)
 
+inline static constexpr unsigned int OEAHGHEJCPA_TypeDefinitionIndex = 75141;
+
 	class OEAHGHEJCPA : public ::System::Object
 	{
 	public:

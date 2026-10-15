@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueModifierExecActionOnArbitraryRoomCardChange
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueModifierExecActionOnArbitraryRoomCardChangeConfig_TypeDefinitionIndex = 17867;
+
 	class RogueModifierExecActionOnArbitraryRoomCardChangeConfig : public ::RPG::GameCore::RogueModifierConfig
 	{
 	public:

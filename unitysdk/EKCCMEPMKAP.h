@@ -12,6 +12,8 @@ namespace RPG::Client::Prop { class ChimeraDuelNpcModelView; }
 #define EKCCMEPMKAP_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0x154FE5E0)
 #define EKCCMEPMKAP_MGFLFCHMGPA_OFFSET UNITYSDK_OFFSET(0x154FE3B0)
 
+inline static constexpr unsigned int EKCCMEPMKAP_TypeDefinitionIndex = 78255;
+
 	class EKCCMEPMKAP : public ::KNFCEJEJINK
 	{
 	public:

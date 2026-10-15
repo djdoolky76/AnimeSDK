@@ -32,6 +32,8 @@ namespace RPG::Client::FateRin::Card { class IFateRinBattleCardViewModel; }
 
 namespace RPG::Client::FateRin::Battle
 {
+	inline static constexpr unsigned int FateRinBattleHudReplicateCardViewModel_TypeDefinitionIndex = 80934;
+
 	class FateRinBattleHudReplicateCardViewModel : public ::RPG::Client::FateRin::BaseViewModel
 	{
 	public:

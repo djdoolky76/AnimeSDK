@@ -11,6 +11,8 @@ namespace UnityEngine { class Material; }
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftActivityRandomPaintController_TypeDefinitionIndex = 79968;
+
 	class MechCraftActivityRandomPaintController : public ::UnityEngine::MonoBehaviour
 	{
 	public:

@@ -14,6 +14,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByHaveObstacle_TypeDefinitionIndex = 20036;
+
 	class ByHaveObstacle : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

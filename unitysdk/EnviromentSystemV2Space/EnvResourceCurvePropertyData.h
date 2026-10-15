@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace EnviromentSystemV2Space
 {
+	inline static constexpr unsigned int EnvResourceCurvePropertyData_TypeDefinitionIndex = 49390;
+
 	class EnvResourceCurvePropertyData
 	{
 	public:

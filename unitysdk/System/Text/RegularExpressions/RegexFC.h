@@ -15,6 +15,8 @@ namespace System::Text::RegularExpressions { class RegexFC; }
 
 namespace System::Text::RegularExpressions
 {
+	inline static constexpr unsigned int RegexFC_TypeDefinitionIndex = 2512;
+
 	class RegexFC : public ::System::Object
 	{
 	public:

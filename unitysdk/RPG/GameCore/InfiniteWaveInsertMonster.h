@@ -12,6 +12,8 @@ namespace RPG::GameCore { class InfiniteWaveInsertMonster; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int InfiniteWaveInsertMonster_TypeDefinitionIndex = 23259;
+
 	class InfiniteWaveInsertMonster : public ::RPG::GameCore::TaskConfig
 	{
 	public:

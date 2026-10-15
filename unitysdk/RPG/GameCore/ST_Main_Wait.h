@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ST_Main_Wait; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ST_Main_Wait_TypeDefinitionIndex = 20098;
+
 	class ST_Main_Wait : public ::RPG::GameCore::STTaskConfig
 	{
 	public:

@@ -8,6 +8,8 @@ namespace UnityEngine::UI { class RawImage; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int FrameCaptureManager_FrameCaptureEndOPDefault_TypeDefinitionIndex = 69766;
+
 	class FrameCaptureManager_FrameCaptureEndOPDefault : public ::System::Object
 	{
 	public:

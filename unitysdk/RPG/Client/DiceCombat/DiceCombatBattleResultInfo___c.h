@@ -11,6 +11,8 @@ namespace System { template <typename T> class Comparison_1; }
 
 namespace RPG::Client::DiceCombat
 {
+	inline static constexpr unsigned int DiceCombatBattleResultInfo___c_TypeDefinitionIndex = 76048;
+
 	class DiceCombatBattleResultInfo___c : public ::System::Object
 	{
 	public:

@@ -13,6 +13,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int TriggerEffectListOnCharacterClip_TypeDefinitionIndex = 48334;
+
 	class TriggerEffectListOnCharacterClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:

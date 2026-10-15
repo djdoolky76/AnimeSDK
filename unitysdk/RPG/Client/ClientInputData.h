@@ -26,6 +26,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ClientInputData_TypeDefinitionIndex = 61303;
+
 	class ClientInputData : public ::System::Object
 	{
 	public:

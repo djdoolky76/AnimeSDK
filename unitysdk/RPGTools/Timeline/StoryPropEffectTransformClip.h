@@ -15,6 +15,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int StoryPropEffectTransformClip_TypeDefinitionIndex = 48349;
+
 	class StoryPropEffectTransformClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:

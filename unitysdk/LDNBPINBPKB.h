@@ -30,6 +30,8 @@ namespace System { class String; }
 #define LDNBPINBPKB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E8FE070)
 #define LDNBPINBPKB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E8FE0D0)
 
+inline static constexpr unsigned int LDNBPINBPKB_TypeDefinitionIndex = 28562;
+
 	class LDNBPINBPKB : public ::System::Object
 	{
 	public:

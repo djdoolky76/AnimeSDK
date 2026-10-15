@@ -34,6 +34,8 @@ namespace System { class String; }
 #define ADNCPPCPLLH_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DDE4250)
 #define ADNCPPCPLLH_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DDE42B0)
 
+inline static constexpr unsigned int ADNCPPCPLLH_TypeDefinitionIndex = 31028;
+
 	class ADNCPPCPLLH : public ::System::Object
 	{
 	public:

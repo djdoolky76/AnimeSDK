@@ -7,6 +7,8 @@ namespace System { class Object; }
 
 namespace Newtonsoft::Json::Serialization
 {
+	inline static constexpr unsigned int ReflectionAttributeProvider_TypeDefinitionIndex = 9693;
+
 	class ReflectionAttributeProvider : public ::System::Object
 	{
 	public:

@@ -16,6 +16,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ActivityBenefitV2RoundListViewModel_TypeDefinitionIndex = 61418;
+
 	class ActivityBenefitV2RoundListViewModel : public ::System::Object
 	{
 	public:

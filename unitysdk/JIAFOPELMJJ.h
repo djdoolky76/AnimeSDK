@@ -85,6 +85,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define JIAFOPELMJJ_SET_INSTANCE_OFFSET UNITYSDK_OFFSET(0xB1D8740)
 #define JIAFOPELMJJ__MAKESTATEMESSAGE_B__57_0_OFFSET UNITYSDK_OFFSET(0xB1E42E0)
 
+inline static constexpr unsigned int JIAFOPELMJJ_TypeDefinitionIndex = 59495;
+
 	class JIAFOPELMJJ : public ::System::Object
 	{
 	public:

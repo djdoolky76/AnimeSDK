@@ -6,6 +6,8 @@
 
 namespace System::Diagnostics
 {
+	inline static constexpr unsigned int DebuggerNonUserCodeAttribute_TypeDefinitionIndex = 1575;
+
 	class DebuggerNonUserCodeAttribute : public ::System::Attribute
 	{
 	public:

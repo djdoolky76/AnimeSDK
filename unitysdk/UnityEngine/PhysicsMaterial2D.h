@@ -9,6 +9,8 @@ namespace UnityEngine { class PhysicsMaterial2D; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int PhysicsMaterial2D_TypeDefinitionIndex = 5821;
+
 	class PhysicsMaterial2D : public ::UnityEngine::Object
 	{
 	public:

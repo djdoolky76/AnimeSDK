@@ -17,6 +17,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetSummonerEnergyBarState_TypeDefinitionIndex = 22733;
+
 	class SetSummonerEnergyBarState : public ::RPG::GameCore::TaskConfig
 	{
 	public:

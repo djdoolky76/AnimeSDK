@@ -14,6 +14,8 @@ namespace Cysharp::Threading::Tasks::Triggers { class IAsyncOnAudioFilterReadHan
 
 namespace Cysharp::Threading::Tasks::Triggers
 {
+	inline static constexpr unsigned int AsyncAudioFilterReadTrigger_TypeDefinitionIndex = 38519;
+
 	class AsyncAudioFilterReadTrigger
 	{
 	public:

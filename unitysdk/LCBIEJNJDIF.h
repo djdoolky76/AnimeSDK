@@ -28,6 +28,8 @@ namespace System { class String; }
 #define LCBIEJNJDIF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E8E28D0)
 #define LCBIEJNJDIF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E8E2930)
 
+inline static constexpr unsigned int LCBIEJNJDIF_TypeDefinitionIndex = 30901;
+
 	class LCBIEJNJDIF : public ::System::Object
 	{
 	public:

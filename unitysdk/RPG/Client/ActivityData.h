@@ -52,6 +52,8 @@ namespace RPG::GameCore { class ActivityConfigRow; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ActivityData_TypeDefinitionIndex = 61686;
+
 	class ActivityData : public ::System::Object
 	{
 	public:

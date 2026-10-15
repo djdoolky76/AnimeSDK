@@ -21,6 +21,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MatchThreeV2ActivityPanelData_TypeDefinitionIndex = 61637;
+
 	class MatchThreeV2ActivityPanelData : public ::RPG::Client::ActivityPanelData
 	{
 	public:

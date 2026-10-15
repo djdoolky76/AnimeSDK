@@ -10,6 +10,8 @@ namespace System { class Object; }
 #define OLFOGIJOPPM_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xBF084E0)
 #define OLFOGIJOPPM_INVOKE_OFFSET UNITYSDK_OFFSET(0xBF084A0)
 
+inline static constexpr unsigned int OLFOGIJOPPM_TypeDefinitionIndex = 80836;
+
 	class OLFOGIJOPPM : public ::System::MulticastDelegate
 	{
 	public:

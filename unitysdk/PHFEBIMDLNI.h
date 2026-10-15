@@ -5,6 +5,8 @@ class IJFIHJJPHNA;
 
 #define PHFEBIMDLNI_CTOR_OFFSET UNITYSDK_OFFSET(0x1C7CD3D0)
 
+inline static constexpr unsigned int PHFEBIMDLNI_TypeDefinitionIndex = 36542;
+
 	class PHFEBIMDLNI : public ::System::Object
 	{
 	public:

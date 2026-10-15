@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int BattlePerformInit_TypeDefinitionIndex = 23387;
+
 	class BattlePerformInit : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -12,6 +12,8 @@ namespace System { class String; }
 #define LJBDOGABCID_ONSKIP_OFFSET UNITYSDK_OFFSET(0xB6E03F0)
 #define LJBDOGABCID_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB6E0910)
 
+inline static constexpr unsigned int LJBDOGABCID_TypeDefinitionIndex = 58077;
+
 	class LJBDOGABCID
 	{
 	public:

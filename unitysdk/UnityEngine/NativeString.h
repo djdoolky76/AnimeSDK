@@ -36,6 +36,8 @@ namespace System { class String; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int NativeString_TypeDefinitionIndex = 4352;
+
 	struct alignas(4) NativeString
 	{
 		::System::IntPtr _Str_k__BackingField; // 0x10

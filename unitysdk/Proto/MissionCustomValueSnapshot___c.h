@@ -10,6 +10,8 @@ namespace System { class Object; }
 
 namespace Proto
 {
+	inline static constexpr unsigned int MissionCustomValueSnapshot___c_TypeDefinitionIndex = 25831;
+
 	class MissionCustomValueSnapshot___c : public ::System::Object
 	{
 	public:

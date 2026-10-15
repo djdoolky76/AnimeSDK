@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int Test_TreeInstance_Extensions_TypeDefinitionIndex = 40758;
+
 	class Test_TreeInstance_Extensions : public ::System::Object
 	{
 	public:

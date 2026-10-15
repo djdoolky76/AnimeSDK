@@ -39,6 +39,8 @@ namespace System { class Nullable; }
 #define DJMLOBGBDOC__TRYHANDLECANCELDRAG_B__18_0_OFFSET UNITYSDK_OFFSET(0xF240360)
 #define DJMLOBGBDOC__TRYHANDLEFINISHDRAG_B__19_0_OFFSET UNITYSDK_OFFSET(0xF240370)
 
+inline static constexpr unsigned int DJMLOBGBDOC_TypeDefinitionIndex = 79508;
+
 	class DJMLOBGBDOC : public ::JEOCDNBFEBF
 	{
 	public:

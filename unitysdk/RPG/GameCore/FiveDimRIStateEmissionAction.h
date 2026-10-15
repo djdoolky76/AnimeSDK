@@ -11,6 +11,8 @@ namespace RPG::GameCore { class FiveDimRIStateEmissionAction; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimRIStateEmissionAction_TypeDefinitionIndex = 18695;
+
 	class FiveDimRIStateEmissionAction : public ::RPG::GameCore::FiveDimBaseEventAction
 	{
 	public:

@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FloatVariableConfig_TypeDefinitionIndex = 15491;
+
 	class FloatVariableConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

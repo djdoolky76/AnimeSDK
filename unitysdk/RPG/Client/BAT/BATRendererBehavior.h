@@ -49,6 +49,8 @@ namespace UnityEngine::Rendering { class CommandBuffer; }
 
 namespace RPG::Client::BAT
 {
+	inline static constexpr unsigned int BATRendererBehavior_TypeDefinitionIndex = 73674;
+
 	class BATRendererBehavior : public ::RPG::Client::TABehaviorBase
 	{
 	public:

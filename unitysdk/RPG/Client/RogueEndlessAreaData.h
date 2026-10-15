@@ -81,6 +81,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueEndlessAreaData_TypeDefinitionIndex = 67447;
+
 	class RogueEndlessAreaData : public ::System::Object
 	{
 	public:

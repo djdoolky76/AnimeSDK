@@ -21,6 +21,8 @@ namespace UnityEngine { class Transform; }
 
 namespace EffectPlugin
 {
+	inline static constexpr unsigned int Effect_CustomFollowPlugin_TypeDefinitionIndex = 49018;
+
 	class Effect_CustomFollowPlugin : public ::UnityEngine::MonoBehaviour
 	{
 	public:

@@ -8,6 +8,8 @@ namespace CriWare { class CriAudioReadStream_Delegate; }
 
 namespace CriWare
 {
+	inline static constexpr unsigned int CriAudioReadStream___c__DisplayClass12_0_TypeDefinitionIndex = 40090;
+
 	class CriAudioReadStream___c__DisplayClass12_0 : public ::System::Object
 	{
 	public:

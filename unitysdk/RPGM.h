@@ -4,6 +4,8 @@
 
 #define RPGM_CTOR_OFFSET UNITYSDK_OFFSET(0xE89E340)
 
+inline static constexpr unsigned int RPGM_TypeDefinitionIndex = 47588;
+
 	class RPGM : public ::UnityEngine::MonoBehaviour
 	{
 	public:

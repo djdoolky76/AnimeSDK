@@ -3,6 +3,8 @@
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int TAASettings_TypeDefinitionIndex = 4842;
+
 	struct alignas(4) TAASettings
 	{
 		::System::Int32 quality; // 0x10

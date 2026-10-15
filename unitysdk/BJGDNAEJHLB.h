@@ -8,6 +8,8 @@ class PEMFMPIPNJN;
 #define BJGDNAEJHLB_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1C8BB060)
 #define BJGDNAEJHLB_TEARDOWN_OFFSET UNITYSDK_OFFSET(0x1C8BB5A0)
 
+inline static constexpr unsigned int BJGDNAEJHLB_TypeDefinitionIndex = 42466;
+
 	class BJGDNAEJHLB : public ::System::Object
 	{
 	public:

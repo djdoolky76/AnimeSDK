@@ -6,6 +6,8 @@
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
+	inline static constexpr unsigned int B2AABB_TypeDefinitionIndex = 36570;
+
 	struct alignas(4) B2AABB
 	{
 		::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Vec2 lowerBound; // 0x10

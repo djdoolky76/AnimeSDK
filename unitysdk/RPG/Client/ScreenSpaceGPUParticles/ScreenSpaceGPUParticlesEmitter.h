@@ -10,6 +10,8 @@
 
 namespace RPG::Client::ScreenSpaceGPUParticles
 {
+	inline static constexpr unsigned int ScreenSpaceGPUParticlesEmitter_TypeDefinitionIndex = 73707;
+
 	class ScreenSpaceGPUParticlesEmitter : public ::RPG::Client::TAMonoBase
 	{
 	public:

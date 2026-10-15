@@ -13,6 +13,8 @@ namespace UnityEngine::Timeline { class TimelineClip; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int StoryPropEffectTransformTrack_TypeDefinitionIndex = 48351;
+
 	class StoryPropEffectTransformTrack : public ::RPGTools::Timeline::CharacterTrack
 	{
 	public:

@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyLi
 #define CPNHCAKCFIC_OBHHNAKALGL_OFFSET UNITYSDK_OFFSET(0x1C54CF00)
 #define CPNHCAKCFIC_PMIBNMKEHOJ_OFFSET UNITYSDK_OFFSET(0x1C54CFB0)
 
+inline static constexpr unsigned int CPNHCAKCFIC_TypeDefinitionIndex = 41643;
+
 	class CPNHCAKCFIC : public ::System::Object
 	{
 	public:

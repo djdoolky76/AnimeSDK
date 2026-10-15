@@ -5,6 +5,8 @@
 
 #define MMMEPBABPCJ_CCTOR_OFFSET UNITYSDK_OFFSET(0xB9D8B80)
 
+inline static constexpr unsigned int MMMEPBABPCJ_TypeDefinitionIndex = 50058;
+
 	class MMMEPBABPCJ : public ::System::Object
 	{
 	public:

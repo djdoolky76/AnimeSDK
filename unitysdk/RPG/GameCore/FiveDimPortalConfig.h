@@ -15,6 +15,8 @@ namespace RPG::GameCore { class PropButtonConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimPortalConfig_TypeDefinitionIndex = 18560;
+
 	class FiveDimPortalConfig : public ::RPG::GameCore::LittleGameComponentConfig
 	{
 	public:

@@ -14,6 +14,8 @@
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int CRPGraphicsPlatformConfig_TypeDefinitionIndex = 37653;
+
 	class CRPGraphicsPlatformConfig : public ::UnityEngine::ScriptableObject
 	{
 	public:

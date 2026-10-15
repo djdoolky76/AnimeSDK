@@ -32,6 +32,8 @@ namespace System { class String; }
 #define MOIONLDJGJI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EAAC710)
 #define MOIONLDJGJI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EAAC770)
 
+inline static constexpr unsigned int MOIONLDJGJI_TypeDefinitionIndex = 29428;
+
 	class MOIONLDJGJI : public ::System::Object
 	{
 	public:

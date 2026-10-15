@@ -12,6 +12,8 @@ namespace RPG::Client { class UIController; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int UI3DTransition___c__DisplayClass1_0_TypeDefinitionIndex = 73009;
+
 	class UI3DTransition___c__DisplayClass1_0 : public ::System::Object
 	{
 	public:

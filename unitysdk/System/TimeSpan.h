@@ -71,6 +71,8 @@ namespace System { class String; }
 
 namespace System
 {
+	inline static constexpr unsigned int TimeSpan_TypeDefinitionIndex = 341;
+
 	struct alignas(4) TimeSpan
 	{
 		::System::Int64 _ticks; // 0x10

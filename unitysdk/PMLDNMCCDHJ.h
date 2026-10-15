@@ -14,6 +14,8 @@ namespace Entitas { template <typename T> class IMatcher_1; }
 #define PMLDNMCCDHJ_KCKGCBPHGBD_OFFSET UNITYSDK_OFFSET(0x1C9F8FE0)
 #define PMLDNMCCDHJ_MFJMABJFEMG_OFFSET UNITYSDK_OFFSET(0x1C9F8EC0)
 
+inline static constexpr unsigned int PMLDNMCCDHJ_TypeDefinitionIndex = 42643;
+
 	class PMLDNMCCDHJ : public ::System::Object
 	{
 	public:

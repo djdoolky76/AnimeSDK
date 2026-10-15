@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 #define PFEMGGAFOFM_GETPROXY_OFFSET UNITYSDK_OFFSET(0xC20C0B0)
 #define PFEMGGAFOFM_REMOVEPROXY_OFFSET UNITYSDK_OFFSET(0xC20C220)
 
+inline static constexpr unsigned int PFEMGGAFOFM_TypeDefinitionIndex = 78233;
+
 	class PFEMGGAFOFM : public ::NJMLJBNICND
 	{
 	public:

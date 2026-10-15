@@ -31,6 +31,8 @@ namespace System { class String; }
 #define EEFCOCPHIOD_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E2663E0)
 #define EEFCOCPHIOD_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E266440)
 
+inline static constexpr unsigned int EEFCOCPHIOD_TypeDefinitionIndex = 30771;
+
 	class EEFCOCPHIOD : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace System::Runtime::Serialization { class SerializationInfo; }
 
 namespace System::Threading
 {
+	inline static constexpr unsigned int LockRecursionException_TypeDefinitionIndex = 835;
+
 	class LockRecursionException : public ::System::Exception
 	{
 	public:

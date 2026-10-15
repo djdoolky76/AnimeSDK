@@ -10,6 +10,8 @@ namespace UnityEngine::Rendering { class BatchAnimationInstance; }
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int BABlendNodeParamaters_TypeDefinitionIndex = 4796;
+
 	struct alignas(4) BABlendNodeParamaters
 	{
 		static ::System::Int32 Play(::UnityEngine::Rendering::BatchAnimationInstance* a1, ::UnityEngine::Rendering::BANodeHash a2, ::System::Single a3)

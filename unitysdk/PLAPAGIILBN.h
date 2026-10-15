@@ -48,6 +48,8 @@ namespace Entitas { template <typename T> class IMatcher_1; }
 #define PLAPAGIILBN_PAJFFLEEHPL_OFFSET UNITYSDK_OFFSET(0x1C9F50A0)
 #define PLAPAGIILBN_PIMOBDIPAPN_OFFSET UNITYSDK_OFFSET(0x1C9F5B20)
 
+inline static constexpr unsigned int PLAPAGIILBN_TypeDefinitionIndex = 42623;
+
 	class PLAPAGIILBN : public ::System::Object
 	{
 	public:

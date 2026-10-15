@@ -15,6 +15,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdvNPCPatrol_TypeDefinitionIndex = 19979;
+
 	class AdvNPCPatrol : public ::RPG::GameCore::TaskConfig
 	{
 	public:

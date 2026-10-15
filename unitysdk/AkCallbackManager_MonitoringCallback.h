@@ -13,6 +13,8 @@ namespace System { class String; }
 #define AKCALLBACKMANAGER_MONITORINGCALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1F581E70)
 #define AKCALLBACKMANAGER_MONITORINGCALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0x1F580B00)
 
+inline static constexpr unsigned int AkCallbackManager_MonitoringCallback_TypeDefinitionIndex = 44824;
+
 	class AkCallbackManager_MonitoringCallback : public ::System::MulticastDelegate
 	{
 	public:

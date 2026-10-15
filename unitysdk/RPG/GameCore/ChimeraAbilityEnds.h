@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ChimeraAbilityEnds; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChimeraAbilityEnds_TypeDefinitionIndex = 15859;
+
 	class ChimeraAbilityEnds : public ::RPG::GameCore::ChimeraAbilityProgressBase
 	{
 	public:

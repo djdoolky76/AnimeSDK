@@ -10,6 +10,8 @@ namespace System::Collections::Generic { class KeyValuePair; }
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int JSONObject___c__DisplayClass23_0_TypeDefinitionIndex = 40679;
+
 	class JSONObject___c__DisplayClass23_0 : public ::System::Object
 	{
 	public:

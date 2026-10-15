@@ -6,6 +6,8 @@ namespace System { class Type; }
 
 #define GEHHDAPGKFG_BJFCPHAFOCE_OFFSET UNITYSDK_OFFSET(0x159D69D0)
 
+inline static constexpr unsigned int GEHHDAPGKFG_TypeDefinitionIndex = 49151;
+
 	class GEHHDAPGKFG : public ::System::Object
 	{
 	public:

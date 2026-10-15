@@ -16,6 +16,8 @@ namespace UnityEngine { class TreePrototype; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int TreePrototype_TypeDefinitionIndex = 5329;
+
 	class TreePrototype : public ::System::Object
 	{
 	public:

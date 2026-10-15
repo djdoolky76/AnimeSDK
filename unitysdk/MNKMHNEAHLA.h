@@ -13,6 +13,8 @@ class PBMDEBCGNMD;
 #define MNKMHNEAHLA_START_OFFSET UNITYSDK_OFFSET(0xBA114B0)
 #define MNKMHNEAHLA_STOP_OFFSET UNITYSDK_OFFSET(0xBA11540)
 
+inline static constexpr unsigned int MNKMHNEAHLA_TypeDefinitionIndex = 81649;
+
 	class MNKMHNEAHLA : public ::BHPMNMMGLHI
 	{
 	public:

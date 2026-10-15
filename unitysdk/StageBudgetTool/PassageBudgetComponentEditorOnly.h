@@ -7,6 +7,8 @@ namespace StageBudgetTool { class Passage; }
 
 namespace StageBudgetTool
 {
+	inline static constexpr unsigned int PassageBudgetComponentEditorOnly_TypeDefinitionIndex = 47712;
+
 	class PassageBudgetComponentEditorOnly : public ::UnityEngine::MonoBehaviour
 	{
 	public:

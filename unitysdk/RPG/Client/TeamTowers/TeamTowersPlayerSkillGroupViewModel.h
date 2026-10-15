@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::TeamTowers
 {
+	inline static constexpr unsigned int TeamTowersPlayerSkillGroupViewModel_TypeDefinitionIndex = 79083;
+
 	class TeamTowersPlayerSkillGroupViewModel : public ::System::Object
 	{
 	public:

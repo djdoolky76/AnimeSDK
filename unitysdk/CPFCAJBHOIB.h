@@ -28,6 +28,8 @@ namespace System { class String; }
 #define CPFCAJBHOIB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E13C2C0)
 #define CPFCAJBHOIB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E13C320)
 
+inline static constexpr unsigned int CPFCAJBHOIB_TypeDefinitionIndex = 30974;
+
 	class CPFCAJBHOIB : public ::System::Object
 	{
 	public:

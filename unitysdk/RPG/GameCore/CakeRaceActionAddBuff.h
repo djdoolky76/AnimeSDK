@@ -13,6 +13,8 @@ namespace RPG::GameCore { class CakeRaceBuffConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CakeRaceActionAddBuff_TypeDefinitionIndex = 18334;
+
 	class CakeRaceActionAddBuff : public ::RPG::GameCore::CakeRaceActionBase
 	{
 	public:

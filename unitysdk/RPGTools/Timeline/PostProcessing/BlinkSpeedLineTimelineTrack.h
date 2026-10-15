@@ -10,6 +10,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPGTools::Timeline::PostProcessing
 {
+	inline static constexpr unsigned int BlinkSpeedLineTimelineTrack_TypeDefinitionIndex = 48540;
+
 	class BlinkSpeedLineTimelineTrack : public ::UnityEngine::Timeline::TrackAsset
 	{
 	public:

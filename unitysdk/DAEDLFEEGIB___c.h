@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define DAEDLFEEGIB___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E14DA20)
 #define DAEDLFEEGIB___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E14DA30)
 
+inline static constexpr unsigned int DAEDLFEEGIB___c_TypeDefinitionIndex = 34414;
+
 	class DAEDLFEEGIB___c : public ::System::Object
 	{
 	public:

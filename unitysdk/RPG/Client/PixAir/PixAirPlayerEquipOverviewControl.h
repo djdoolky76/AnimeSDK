@@ -16,6 +16,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::PixAir
 {
+	inline static constexpr unsigned int PixAirPlayerEquipOverviewControl_TypeDefinitionIndex = 79248;
+
 	class PixAirPlayerEquipOverviewControl : public ::Sofa::BaseSofaControl
 	{
 	public:

@@ -10,6 +10,8 @@ namespace UnityEngine { class Texture2D; }
 
 namespace RPG::Rendering
 {
+	inline static constexpr unsigned int SDFAtlasData_TypeDefinitionIndex = 51795;
+
 	class SDFAtlasData : public ::UnityEngine::ScriptableObject
 	{
 	public:

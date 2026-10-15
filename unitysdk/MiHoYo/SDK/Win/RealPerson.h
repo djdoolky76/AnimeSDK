@@ -24,6 +24,8 @@ namespace UnityEngine::UI { class Text; }
 
 namespace MiHoYo::SDK::Win
 {
+	inline static constexpr unsigned int RealPerson_TypeDefinitionIndex = 9490;
+
 	class RealPerson : public ::MiHoYo::SDK::UIElement
 	{
 	public:

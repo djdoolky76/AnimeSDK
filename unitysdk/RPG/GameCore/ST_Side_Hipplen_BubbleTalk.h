@@ -12,6 +12,8 @@ namespace RPG::GameCore { class ST_Side_Hipplen_BubbleTalk; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ST_Side_Hipplen_BubbleTalk_TypeDefinitionIndex = 21302;
+
 	class ST_Side_Hipplen_BubbleTalk : public ::RPG::GameCore::STTaskConfig
 	{
 	public:

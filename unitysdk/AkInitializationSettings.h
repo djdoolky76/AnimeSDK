@@ -31,6 +31,8 @@ class AkUnityPlatformSpecificSettings;
 #define AKINITIALIZATIONSETTINGS_SET_UNITYPLATFORMSPECIFICSETTINGS_OFFSET UNITYSDK_OFFSET(0x1F59B4C0)
 #define AKINITIALIZATIONSETTINGS_SET_USEASYNCOPEN_OFFSET UNITYSDK_OFFSET(0x1F587830)
 
+inline static constexpr unsigned int AkInitializationSettings_TypeDefinitionIndex = 44747;
+
 	class AkInitializationSettings : public ::System::Object
 	{
 	public:

@@ -7,6 +7,8 @@ namespace System { class Object; }
 #define SKIRTIK_HAIRIKFREEAXISCLASS_CTOR_OFFSET UNITYSDK_OFFSET(0xE972E20)
 #define SKIRTIK_HAIRIKFREEAXISCLASS_FBIGIJPAMPO_OFFSET UNITYSDK_OFFSET(0xE972D90)
 
+inline static constexpr unsigned int SkirtIK_HairIKFreeAxisClass_TypeDefinitionIndex = 47258;
+
 	class SkirtIK_HairIKFreeAxisClass : public ::System::Object
 	{
 	public:

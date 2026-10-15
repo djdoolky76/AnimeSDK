@@ -20,6 +20,8 @@ namespace System::Reflection { class MemberInfo; }
 
 namespace Newtonsoft::Json::Serialization
 {
+	inline static constexpr unsigned int DefaultContractResolver___c_TypeDefinitionIndex = 9708;
+
 	class DefaultContractResolver___c : public ::System::Object
 	{
 	public:

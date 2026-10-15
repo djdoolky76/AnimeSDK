@@ -44,6 +44,8 @@ namespace RPG::GameCore { class CakeRaceFieldScoreRow; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int CakeRaceFieldData_TypeDefinitionIndex = 63019;
+
 	class CakeRaceFieldData : public ::System::Object
 	{
 	public:

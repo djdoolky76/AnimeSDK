@@ -11,6 +11,8 @@ namespace System { template <typename T> class Comparison_1; }
 
 namespace RPG::Client::LimaoNews
 {
+	inline static constexpr unsigned int LimaoNewsManagementWorkEntranceViewModel___c_TypeDefinitionIndex = 80431;
+
 	class LimaoNewsManagementWorkEntranceViewModel___c : public ::System::Object
 	{
 	public:

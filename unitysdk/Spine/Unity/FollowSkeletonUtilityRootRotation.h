@@ -12,6 +12,8 @@ namespace UnityEngine { class Transform; }
 
 namespace Spine::Unity
 {
+	inline static constexpr unsigned int FollowSkeletonUtilityRootRotation_TypeDefinitionIndex = 45059;
+
 	class FollowSkeletonUtilityRootRotation : public ::UnityEngine::MonoBehaviour
 	{
 	public:

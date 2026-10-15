@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CharacterEyeBloomMappingConfig_TypeDefinitionIndex = 17453;
+
 	class CharacterEyeBloomMappingConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

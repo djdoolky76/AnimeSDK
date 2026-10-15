@@ -13,6 +13,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByCompareIsWolfBroBulletActivated_TypeDefinitionIndex = 21990;
+
 	class ByCompareIsWolfBroBulletActivated : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

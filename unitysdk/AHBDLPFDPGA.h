@@ -25,6 +25,8 @@ namespace System { class String; }
 #define AHBDLPFDPGA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E26BD40)
 #define AHBDLPFDPGA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E26BDA0)
 
+inline static constexpr unsigned int AHBDLPFDPGA_TypeDefinitionIndex = 27602;
+
 	class AHBDLPFDPGA : public ::System::Object
 	{
 	public:

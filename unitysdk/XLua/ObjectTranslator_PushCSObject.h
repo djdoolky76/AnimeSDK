@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace XLua
 {
+	inline static constexpr unsigned int ObjectTranslator_PushCSObject_TypeDefinitionIndex = 50071;
+
 	class ObjectTranslator_PushCSObject : public ::System::MulticastDelegate
 	{
 	public:

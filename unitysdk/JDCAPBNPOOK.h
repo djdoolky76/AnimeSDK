@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int JDCAPBNPOOK_TypeDefinitionIndex = 25296;
+
 	enum class JDCAPBNPOOK : ::System::Int32
 	{
 		NLCDGIPGFDJ = 0,

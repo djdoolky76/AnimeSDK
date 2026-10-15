@@ -12,6 +12,8 @@ namespace RPG::GameCore { class WaitPropDestroy; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int WaitPropDestroy_TypeDefinitionIndex = 21569;
+
 	class WaitPropDestroy : public ::RPG::GameCore::TaskConfig
 	{
 	public:

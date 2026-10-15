@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 #define NENKIHNDBKD_CTOR_OFFSET UNITYSDK_OFFSET(0xBB73B60)
 #define NENKIHNDBKD_FBCHIEODBOG_OFFSET UNITYSDK_OFFSET(0xBB73B70)
 
+inline static constexpr unsigned int NENKIHNDBKD_TypeDefinitionIndex = 80161;
+
 	class NENKIHNDBKD : public ::System::Object
 	{
 	public:

@@ -4,6 +4,8 @@
 
 #define GLDAMFHLMPM_BCDMCGDEKNP_CTOR_OFFSET UNITYSDK_OFFSET(0x15AAEA40)
 
+inline static constexpr unsigned int GLDAMFHLMPM_BCDMCGDEKNP_TypeDefinitionIndex = 59854;
+
 	class GLDAMFHLMPM_BCDMCGDEKNP : public ::System::Object
 	{
 	public:

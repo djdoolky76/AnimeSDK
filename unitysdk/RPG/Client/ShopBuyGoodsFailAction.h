@@ -14,6 +14,8 @@ namespace XLua { class LuaTable; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ShopBuyGoodsFailAction_TypeDefinitionIndex = 67950;
+
 	class ShopBuyGoodsFailAction : public ::System::MulticastDelegate
 	{
 	public:

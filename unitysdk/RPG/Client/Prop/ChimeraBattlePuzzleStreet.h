@@ -15,6 +15,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int ChimeraBattlePuzzleStreet_TypeDefinitionIndex = 78429;
+
 	class ChimeraBattlePuzzleStreet : public ::UnityEngine::MonoBehaviour
 	{
 	public:

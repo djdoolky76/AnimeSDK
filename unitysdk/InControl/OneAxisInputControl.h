@@ -53,6 +53,8 @@ namespace InControl { class OneAxisInputControl; }
 
 namespace InControl
 {
+	inline static constexpr unsigned int OneAxisInputControl_TypeDefinitionIndex = 40828;
+
 	class OneAxisInputControl : public ::System::Object
 	{
 	public:

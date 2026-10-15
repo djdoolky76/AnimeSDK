@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AIComplexSkillAISelector_TypeDefinitionIndex = 15603;
+
 	class AIComplexSkillAISelector : public ::RPG::GameCore::AISelector
 	{
 	public:

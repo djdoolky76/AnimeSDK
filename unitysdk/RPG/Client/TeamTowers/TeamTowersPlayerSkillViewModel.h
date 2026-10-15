@@ -23,6 +23,8 @@ namespace System { class String; }
 
 namespace RPG::Client::TeamTowers
 {
+	inline static constexpr unsigned int TeamTowersPlayerSkillViewModel_TypeDefinitionIndex = 79082;
+
 	class TeamTowersPlayerSkillViewModel : public ::System::Object
 	{
 	public:

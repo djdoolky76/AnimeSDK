@@ -7,6 +7,8 @@ namespace RPG::Client { class AlleySpecialOrderData; }
 #define DEPOKANDMDH_JOLJKLAFHEP_OFFSET UNITYSDK_OFFSET(0xE520310)
 #define DEPOKANDMDH_OHFNGKOCCIO_OFFSET UNITYSDK_OFFSET(0xE5203A0)
 
+inline static constexpr unsigned int DEPOKANDMDH_TypeDefinitionIndex = 62263;
+
 	class DEPOKANDMDH : public ::System::Object
 	{
 	public:

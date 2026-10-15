@@ -25,6 +25,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GPUTransformLoopAnim_TypeDefinitionIndex = 70322;
+
 	class GPUTransformLoopAnim
 	{
 	public:

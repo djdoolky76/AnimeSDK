@@ -13,6 +13,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AddTargetStancePreshowConfig_TypeDefinitionIndex = 23685;
+
 	class AddTargetStancePreshowConfig : public ::RPG::GameCore::TaskConfig
 	{
 	public:

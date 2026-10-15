@@ -9,6 +9,8 @@ namespace RPG::GameCore { class RogueTournBuildRefSortConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueTournBuildRefSortConfig_TypeDefinitionIndex = 17680;
+
 	class RogueTournBuildRefSortConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

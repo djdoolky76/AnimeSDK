@@ -11,6 +11,8 @@ namespace System { class String; }
 #define DJOHHNPBKBG_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xF24E320)
 #define DJOHHNPBKBG_TOSTRING_OFFSET UNITYSDK_OFFSET(0xF24E7C0)
 
+inline static constexpr unsigned int DJOHHNPBKBG_TypeDefinitionIndex = 60759;
+
 	class DJOHHNPBKBG : public ::System::Object
 	{
 	public:

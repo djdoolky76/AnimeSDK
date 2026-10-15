@@ -5,6 +5,8 @@ namespace RPG::Client { class RogueTournTitanBless; }
 
 #define BABICHJDNNH_DODNLPDHOKN_OAFIKDAEONJ_OFFSET UNITYSDK_OFFSET(0x15BCDBF0)
 
+inline static constexpr unsigned int BABICHJDNNH_DODNLPDHOKN_TypeDefinitionIndex = 72326;
+
 	struct alignas(4) BABICHJDNNH_DODNLPDHOKN
 	{
 		::RPG::GameCore::RogueTitanType PHPNBFLILFL; // 0x10

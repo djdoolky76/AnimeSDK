@@ -11,6 +11,8 @@ namespace RPG::GameCore { class MappingInfoRow; }
 #define PHNDHAKHCPA_MLMGEFIOION_OFFSET UNITYSDK_OFFSET(0xC256350)
 #define PHNDHAKHCPA_PNLLINHJDJF_OFFSET UNITYSDK_OFFSET(0xC256430)
 
+inline static constexpr unsigned int PHNDHAKHCPA_TypeDefinitionIndex = 62926;
+
 	class PHNDHAKHCPA : public ::System::Object
 	{
 	public:

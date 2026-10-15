@@ -14,6 +14,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FloorTargetAgentConfig_TypeDefinitionIndex = 18285;
+
 	class FloorTargetAgentConfig : public ::RPG::GameCore::FloorCustomValueConfig
 	{
 	public:

@@ -9,6 +9,8 @@ namespace System { class Exception; }
 #define GMFCLDPJAPN__ONTASKBEGIN_B__1_0_OFFSET UNITYSDK_OFFSET(0x15ACBB30)
 #define GMFCLDPJAPN__ONTASKBEGIN_B__1_1_OFFSET UNITYSDK_OFFSET(0x15ACBB40)
 
+inline static constexpr unsigned int GMFCLDPJAPN_TypeDefinitionIndex = 52789;
+
 	class GMFCLDPJAPN
 	{
 	public:

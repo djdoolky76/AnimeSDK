@@ -16,6 +16,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define IAMCCGHEIJK_OEHEMIFDMCM_KIALBGHMMDC_OFFSET UNITYSDK_OFFSET(0x15E1F000)
 #define IAMCCGHEIJK_OEHEMIFDMCM_TICK_OFFSET UNITYSDK_OFFSET(0x15E1EBE0)
 
+inline static constexpr unsigned int IAMCCGHEIJK_OEHEMIFDMCM_TypeDefinitionIndex = 62288;
+
 	class IAMCCGHEIJK_OEHEMIFDMCM : public ::System::Object
 	{
 	public:

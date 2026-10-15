@@ -11,6 +11,8 @@ namespace RPG::GameCore { class ChimeraAbilityModifierParam; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChimeraAbilityModifierParam_TypeDefinitionIndex = 15844;
+
 	class ChimeraAbilityModifierParam : public ::RPG::GameCore::JsonConfig
 	{
 	public:

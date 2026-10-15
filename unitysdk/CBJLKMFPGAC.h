@@ -7,6 +7,8 @@ class OEMOIGDNPNP;
 #define CBJLKMFPGAC_CTOR_OFFSET UNITYSDK_OFFSET(0xC4AF2D0)
 #define CBJLKMFPGAC_HMPDCLHIPHI_OFFSET UNITYSDK_OFFSET(0xC4AF170)
 
+inline static constexpr unsigned int CBJLKMFPGAC_TypeDefinitionIndex = 56073;
+
 	class CBJLKMFPGAC : public ::System::Object
 	{
 	public:

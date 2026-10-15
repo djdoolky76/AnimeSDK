@@ -9,6 +9,8 @@ class IOJGBIAJBIC;
 #define PKBGGJPKDKM_SET_TRIGGERCOLLIDER_OFFSET UNITYSDK_OFFSET(0x1C7ED540)
 #define PKBGGJPKDKM_SET_VISITORCOLLIDER_OFFSET UNITYSDK_OFFSET(0x1C7ED560)
 
+inline static constexpr unsigned int PKBGGJPKDKM_TypeDefinitionIndex = 36554;
+
 	class PKBGGJPKDKM : public ::System::Object
 	{
 	public:

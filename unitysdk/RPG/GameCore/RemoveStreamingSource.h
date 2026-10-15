@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RemoveStreamingSource_TypeDefinitionIndex = 21242;
+
 	class RemoveStreamingSource : public ::RPG::GameCore::TaskConfig
 	{
 	public:

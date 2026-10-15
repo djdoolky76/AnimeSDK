@@ -24,6 +24,8 @@ namespace System { class String; }
 
 namespace UnityEngine::Formats::Alembic::Importer
 {
+	inline static constexpr unsigned int AlembicStream_SafeContext_TypeDefinitionIndex = 45863;
+
 	struct alignas(4) AlembicStream_SafeContext
 	{
 		::UnityEngine::Formats::Alembic::Sdk::aiContext context; // 0x10

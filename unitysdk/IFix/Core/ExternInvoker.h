@@ -14,6 +14,8 @@ namespace System { class Object; }
 
 namespace IFix::Core
 {
+	inline static constexpr unsigned int ExternInvoker_TypeDefinitionIndex = 7138;
+
 	class ExternInvoker : public ::System::MulticastDelegate
 	{
 	public:

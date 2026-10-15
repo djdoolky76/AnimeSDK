@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TravelShipNavigateTo; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TravelShipNavigateTo_TypeDefinitionIndex = 20975;
+
 	class TravelShipNavigateTo : public ::RPG::GameCore::TaskConfig
 	{
 	public:

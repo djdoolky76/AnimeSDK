@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 #define BJMFOPNJPHE_GET_HIDESKILLIDS_OFFSET UNITYSDK_OFFSET(0xB7A6D90)
 #define BJMFOPNJPHE_SET_HIDESKILLIDS_OFFSET UNITYSDK_OFFSET(0xB7A6DA0)
 
+inline static constexpr unsigned int BJMFOPNJPHE_TypeDefinitionIndex = 56935;
+
 	class BJMFOPNJPHE : public ::System::Object
 	{
 	public:

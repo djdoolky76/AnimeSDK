@@ -3,6 +3,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int Eff_VoxelUnidirOcclusionMonoPlugin_SeparationUniformScaleMode_TypeDefinitionIndex = 70409;
+
 	enum class Eff_VoxelUnidirOcclusionMonoPlugin_SeparationUniformScaleMode : ::System::Int32
 	{
 		AvgAbs = 0,

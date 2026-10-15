@@ -104,6 +104,8 @@ namespace UnityEngine { class Transform; }
 
 namespace TMPro
 {
+	inline static constexpr unsigned int TextMeshPro_TypeDefinitionIndex = 44691;
+
 	class TextMeshPro : public ::TMPro::TMP_Text
 	{
 	public:

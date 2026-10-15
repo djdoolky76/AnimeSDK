@@ -9,6 +9,8 @@
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int AnimatorTransitionInfo_TypeDefinitionIndex = 5707;
+
 	struct alignas(4) AnimatorTransitionInfo
 	{
 		::System::Int32 m_FullPath; // 0x10

@@ -9,6 +9,8 @@ namespace XLua::LuaDLL { class lua_CSFunction; }
 
 namespace XLua
 {
+	inline static constexpr unsigned int MethodWrapsCache___c__DisplayClass7_1_TypeDefinitionIndex = 50219;
+
 	template <typename T>
 	class MethodWrapsCache___c__DisplayClass7_1 : public ::System::Object
 	{

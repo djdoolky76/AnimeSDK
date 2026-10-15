@@ -3,6 +3,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int IRogueFormulaInfoProvider_TypeDefinitionIndex = 67304;
+
 	class IRogueFormulaInfoProvider
 	{
 	public:

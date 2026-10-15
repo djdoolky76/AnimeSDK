@@ -27,6 +27,8 @@ namespace System { class String; }
 #define DOEJLDNIDED_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E1FE240)
 #define DOEJLDNIDED_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E1FE2A0)
 
+inline static constexpr unsigned int DOEJLDNIDED_TypeDefinitionIndex = 33352;
+
 	class DOEJLDNIDED : public ::System::Object
 	{
 	public:

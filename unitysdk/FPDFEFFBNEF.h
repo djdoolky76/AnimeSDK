@@ -10,6 +10,8 @@ namespace RPG::GameCore { class LittleGameFireEffectParams; }
 #define FPDFEFFBNEF_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CE1A950)
 #define FPDFEFFBNEF_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CE1A910)
 
+inline static constexpr unsigned int FPDFEFFBNEF_TypeDefinitionIndex = 21442;
+
 	class FPDFEFFBNEF : public ::RPG::GameCore::TaskConfig
 	{
 	public:

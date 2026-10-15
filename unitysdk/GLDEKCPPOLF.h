@@ -7,6 +7,8 @@ namespace RPG::GameCore { class DiceCombatPredicateConfig_HasCustomValue; }
 #define GLDEKCPPOLF_CTOR_OFFSET UNITYSDK_OFFSET(0x1C6471F0)
 #define GLDEKCPPOLF_KFGJEKJHIMB_OFFSET UNITYSDK_OFFSET(0x1C647210)
 
+inline static constexpr unsigned int GLDEKCPPOLF_TypeDefinitionIndex = 36362;
+
 	class GLDEKCPPOLF : public ::HHOHBHGLHHF
 	{
 	public:

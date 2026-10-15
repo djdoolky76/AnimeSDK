@@ -11,6 +11,8 @@ namespace RPG::GameCore { class DiceCombatDiceSelectorConfig_Intersect; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DiceCombatDiceSelectorConfig_Intersect_TypeDefinitionIndex = 16152;
+
 	class DiceCombatDiceSelectorConfig_Intersect : public ::RPG::GameCore::DiceCombatDiceSelectorConfig
 	{
 	public:

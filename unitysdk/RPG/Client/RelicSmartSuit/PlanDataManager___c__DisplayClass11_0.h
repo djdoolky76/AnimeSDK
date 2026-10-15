@@ -17,6 +17,8 @@ namespace System { class Exception; }
 
 namespace RPG::Client::RelicSmartSuit
 {
+	inline static constexpr unsigned int PlanDataManager___c__DisplayClass11_0_TypeDefinitionIndex = 74415;
+
 	class PlanDataManager___c__DisplayClass11_0 : public ::System::Object
 	{
 	public:

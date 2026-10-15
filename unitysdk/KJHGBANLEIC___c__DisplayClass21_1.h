@@ -8,6 +8,8 @@ namespace System { class String; }
 #define KJHGBANLEIC___C__DISPLAYCLASS21_1___DOACTION_B__0_OFFSET UNITYSDK_OFFSET(0xB4560A0)
 #define KJHGBANLEIC___C__DISPLAYCLASS21_1___DOACTION_B__1_OFFSET UNITYSDK_OFFSET(0xB456190)
 
+inline static constexpr unsigned int KJHGBANLEIC___c__DisplayClass21_1_TypeDefinitionIndex = 59594;
+
 	template <typename T>
 	class KJHGBANLEIC___c__DisplayClass21_1 : public ::System::Object
 	{

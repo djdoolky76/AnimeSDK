@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueModifierAddBuffWithMostPathNumAndActivatePa
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueModifierAddBuffWithMostPathNumAndActivatePathEchoConfig_TypeDefinitionIndex = 17828;
+
 	class RogueModifierAddBuffWithMostPathNumAndActivatePathEchoConfig : public ::RPG::GameCore::RogueModifierConfig
 	{
 	public:

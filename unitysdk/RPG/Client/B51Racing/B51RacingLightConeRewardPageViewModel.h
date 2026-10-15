@@ -7,6 +7,8 @@ namespace RPG::Client { class IActivityLightConeRewardData; }
 
 namespace RPG::Client::B51Racing
 {
+	inline static constexpr unsigned int B51RacingLightConeRewardPageViewModel_TypeDefinitionIndex = 82058;
+
 	class B51RacingLightConeRewardPageViewModel : public ::System::Object
 	{
 	public:

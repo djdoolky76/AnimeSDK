@@ -22,6 +22,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define OBPNAKBOHDP_OBHPFBFHEJI_OFFSET UNITYSDK_OFFSET(0xBD52D90)
 #define OBPNAKBOHDP_PLLPHNAFIBC_OFFSET UNITYSDK_OFFSET(0xBD535E0)
 
+inline static constexpr unsigned int OBPNAKBOHDP_TypeDefinitionIndex = 71950;
+
 	class OBPNAKBOHDP : public ::System::Object
 	{
 	public:

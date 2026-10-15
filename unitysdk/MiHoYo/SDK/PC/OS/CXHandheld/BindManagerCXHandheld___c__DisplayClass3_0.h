@@ -11,6 +11,8 @@ namespace System { class Action; }
 
 namespace MiHoYo::SDK::PC::OS::CXHandheld
 {
+	inline static constexpr unsigned int BindManagerCXHandheld___c__DisplayClass3_0_TypeDefinitionIndex = 8744;
+
 	class BindManagerCXHandheld___c__DisplayClass3_0 : public ::System::Object
 	{
 	public:

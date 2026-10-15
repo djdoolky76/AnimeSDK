@@ -26,6 +26,8 @@ namespace ZLinq { class ValueEnumerable; }
 #define GGIAJBANHCC_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1CE41690)
 #define GGIAJBANHCC_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1CE40F90)
 
+inline static constexpr unsigned int GGIAJBANHCC_TypeDefinitionIndex = 11282;
+
 	class GGIAJBANHCC : public ::System::Object
 	{
 	public:

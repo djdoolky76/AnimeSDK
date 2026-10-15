@@ -9,6 +9,8 @@ namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 #define JFMLJIFNMDJ___EXECUTE_D__2_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x3C52AE0)
 #define JFMLJIFNMDJ___EXECUTE_D__2_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x10B0)
 
+inline static constexpr unsigned int JFMLJIFNMDJ___Execute_d__2_TypeDefinitionIndex = 44225;
+
 	template <typename T1, typename T2>
 	struct alignas(8) JFMLJIFNMDJ___Execute_d__2
 	{

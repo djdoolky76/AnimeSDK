@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RtDefenceValueIncreasement; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RtDefenceValueIncreasement_TypeDefinitionIndex = 18061;
+
 	class RtDefenceValueIncreasement : public ::RPG::GameCore::JsonConfig
 	{
 	public:

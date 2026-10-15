@@ -11,6 +11,8 @@ namespace RPG::GameCore { class CakeRaceFrontCatNumPredicateConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CakeRaceFrontCatNumPredicateConfig_TypeDefinitionIndex = 18383;
+
 	class CakeRaceFrontCatNumPredicateConfig : public ::RPG::GameCore::CakeRaceBasePredicateConfig
 	{
 	public:

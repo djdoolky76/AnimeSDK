@@ -47,6 +47,8 @@ namespace System { class Object; }
 
 namespace BansheeGz::BGSpline::Components
 {
+	inline static constexpr unsigned int BGCcCursorChangeLinear_TypeDefinitionIndex = 36033;
+
 	class BGCcCursorChangeLinear : public ::BansheeGz::BGSpline::Components::BGCcWithCursor
 	{
 	public:

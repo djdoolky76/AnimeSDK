@@ -4,6 +4,8 @@
 class SceneLightVolume;
 namespace System { template <typename T> class Comparison_1; }
 
+inline static constexpr unsigned int PLELPMFHKMO___O_TypeDefinitionIndex = 49344;
+
 	class PLELPMFHKMO___O : public ::System::Object
 	{
 	public:

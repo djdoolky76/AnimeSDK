@@ -28,6 +28,8 @@ namespace System { class String; }
 #define DACCNAFGHFJ_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E14BDF0)
 #define DACCNAFGHFJ_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E14BE50)
 
+inline static constexpr unsigned int DACCNAFGHFJ_TypeDefinitionIndex = 28335;
+
 	class DACCNAFGHFJ : public ::System::Object
 	{
 	public:

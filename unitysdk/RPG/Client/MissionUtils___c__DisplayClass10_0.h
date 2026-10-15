@@ -9,6 +9,8 @@ namespace RPG::Client { class MainMissionData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MissionUtils___c__DisplayClass10_0_TypeDefinitionIndex = 66194;
+
 	class MissionUtils___c__DisplayClass10_0 : public ::System::Object
 	{
 	public:

@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int JADIINBLALB_TypeDefinitionIndex = 31579;
+
 	enum class JADIINBLALB : ::System::Int32
 	{
 		NLCDGIPGFDJ = 0,

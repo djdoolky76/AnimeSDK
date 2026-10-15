@@ -38,6 +38,8 @@ namespace System::Text { class StringBuilder; }
 #define CCPEGENJFIH_PEFLJDOKOIL_OFFSET UNITYSDK_OFFSET(0x1C426D40)
 #define CCPEGENJFIH_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1C4267A0)
 
+inline static constexpr unsigned int CCPEGENJFIH_TypeDefinitionIndex = 5635;
+
 	class CCPEGENJFIH : public ::System::Object
 	{
 	public:

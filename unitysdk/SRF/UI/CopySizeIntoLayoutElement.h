@@ -12,6 +12,8 @@ namespace UnityEngine { class RectTransform; }
 
 namespace SRF::UI
 {
+	inline static constexpr unsigned int CopySizeIntoLayoutElement_TypeDefinitionIndex = 35378;
+
 	class CopySizeIntoLayoutElement : public ::UnityEngine::UI::LayoutElement
 	{
 	public:

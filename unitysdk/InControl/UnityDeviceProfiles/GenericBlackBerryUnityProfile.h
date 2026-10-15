@@ -7,6 +7,8 @@
 
 namespace InControl::UnityDeviceProfiles
 {
+	inline static constexpr unsigned int GenericBlackBerryUnityProfile_TypeDefinitionIndex = 41039;
+
 	class GenericBlackBerryUnityProfile : public ::InControl::InputDeviceProfile
 	{
 	public:

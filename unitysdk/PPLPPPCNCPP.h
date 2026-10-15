@@ -12,6 +12,8 @@ namespace System { class String; }
 #define PPLPPPCNCPP_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xC391B40)
 #define PPLPPPCNCPP_KPNCMNLCKKM_OFFSET UNITYSDK_OFFSET(0xC391CA0)
 
+inline static constexpr unsigned int PPLPPPCNCPP_TypeDefinitionIndex = 49091;
+
 	class PPLPPPCNCPP : public ::System::Object
 	{
 	public:

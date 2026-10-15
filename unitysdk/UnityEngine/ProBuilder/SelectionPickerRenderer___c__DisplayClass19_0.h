@@ -9,6 +9,8 @@ namespace UnityEngine::ProBuilder { class SharedVertex; }
 
 namespace UnityEngine::ProBuilder
 {
+	inline static constexpr unsigned int SelectionPickerRenderer___c__DisplayClass19_0_TypeDefinitionIndex = 44425;
+
 	class SelectionPickerRenderer___c__DisplayClass19_0 : public ::System::Object
 	{
 	public:

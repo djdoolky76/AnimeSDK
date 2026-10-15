@@ -4,6 +4,8 @@
 
 #define GNAKGNEAPLD_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DD5F8C0)
 
+inline static constexpr unsigned int GNAKGNEAPLD_TypeDefinitionIndex = 6319;
+
 	class GNAKGNEAPLD : public ::System::Object
 	{
 	public:

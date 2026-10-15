@@ -9,6 +9,8 @@ namespace RPG::GameCore { class FloatingSpiritBlock; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FloatingSpiritBlock_TypeDefinitionIndex = 18581;
+
 	class FloatingSpiritBlock : public ::RPG::GameCore::JsonConfig
 	{
 	public:

@@ -12,6 +12,8 @@ namespace RPG::Client::MechCraft::View { class MechCraftTalentedPartnersDetailCo
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftTalentedPartnersDetailWindow_TypeDefinitionIndex = 79837;
+
 	class MechCraftTalentedPartnersDetailWindow : public ::Sofa::BaseSofaWindow
 	{
 	public:

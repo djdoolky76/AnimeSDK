@@ -7,6 +7,8 @@
 
 namespace RPG::Client::FateRin::CaseBoard
 {
+	inline static constexpr unsigned int CaseBoardTrackTeamParams_TypeDefinitionIndex = 80807;
+
 	class CaseBoardTrackTeamParams : public ::System::Object
 	{
 	public:

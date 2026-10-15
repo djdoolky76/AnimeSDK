@@ -9,6 +9,8 @@
 
 namespace InControl
 {
+	inline static constexpr unsigned int TouchUtility_TypeDefinitionIndex = 40896;
+
 	class TouchUtility : public ::System::Object
 	{
 	public:

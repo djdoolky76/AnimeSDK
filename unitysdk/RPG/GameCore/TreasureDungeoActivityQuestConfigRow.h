@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TreasureDungeoActivityQuestConfigRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TreasureDungeoActivityQuestConfigRow_TypeDefinitionIndex = 12540;
+
 	class TreasureDungeoActivityQuestConfigRow : public ::System::Object
 	{
 	public:

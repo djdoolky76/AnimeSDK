@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GridFightUnlockConfigRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightUnlockConfigRow_TypeDefinitionIndex = 13588;
+
 	class GridFightUnlockConfigRow : public ::System::Object
 	{
 	public:

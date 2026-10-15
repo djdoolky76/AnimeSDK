@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SelectorConfig_TypeDefinitionIndex = 23784;
+
 	class SelectorConfig : public ::RPG::GameCore::CompositeConfig
 	{
 	public:

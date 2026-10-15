@@ -18,6 +18,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define ANLGKLFJHEO_OBLEEOBODFH_OFFSET UNITYSDK_OFFSET(0x1589B520)
 #define ANLGKLFJHEO_PMGPHIJPDNA_OFFSET UNITYSDK_OFFSET(0x1589B410)
 
+inline static constexpr unsigned int ANLGKLFJHEO_TypeDefinitionIndex = 60128;
+
 	class ANLGKLFJHEO : public ::System::Object
 	{
 	public:

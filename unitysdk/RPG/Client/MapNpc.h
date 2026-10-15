@@ -52,6 +52,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MapNpc_TypeDefinitionIndex = 60879;
+
 	class MapNpc : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MiActionConfigBase_TypeDefinitionIndex = 17069;
+
 	class MiActionConfigBase : public ::RPG::GameCore::MiAtomConfigBase
 	{
 	public:

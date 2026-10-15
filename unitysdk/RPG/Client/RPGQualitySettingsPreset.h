@@ -9,6 +9,8 @@ namespace RPG::Client { class RPGQualitySettingsPresetDetail; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RPGQualitySettingsPreset_TypeDefinitionIndex = 67941;
+
 	class RPGQualitySettingsPreset : public ::System::Object
 	{
 	public:

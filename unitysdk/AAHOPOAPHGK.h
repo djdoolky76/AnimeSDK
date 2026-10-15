@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TriggerMazeMapUI; }
 #define AAHOPOAPHGK_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB0C7620)
 #define AAHOPOAPHGK_TICK_OFFSET UNITYSDK_OFFSET(0xB0C7670)
 
+inline static constexpr unsigned int AAHOPOAPHGK_TypeDefinitionIndex = 53450;
+
 	class AAHOPOAPHGK : public ::GELIALJDFBL
 	{
 	public:

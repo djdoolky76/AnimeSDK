@@ -8,6 +8,8 @@ namespace RPG::Client::Promises { class IPromise; }
 #define DACLGPPLFMO___C__DISPLAYCLASS25_0_CTOR_OFFSET UNITYSDK_OFFSET(0xDFBD8E0)
 #define DACLGPPLFMO___C__DISPLAYCLASS25_0__TRYSTARTGAME_B__0_OFFSET UNITYSDK_OFFSET(0xDFBE920)
 
+inline static constexpr unsigned int DACLGPPLFMO___c__DisplayClass25_0_TypeDefinitionIndex = 76453;
+
 	class DACLGPPLFMO___c__DisplayClass25_0 : public ::System::Object
 	{
 	public:

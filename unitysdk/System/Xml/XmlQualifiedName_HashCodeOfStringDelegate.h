@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace System::Xml
 {
+	inline static constexpr unsigned int XmlQualifiedName_HashCodeOfStringDelegate_TypeDefinitionIndex = 1968;
+
 	class XmlQualifiedName_HashCodeOfStringDelegate : public ::System::MulticastDelegate
 	{
 	public:

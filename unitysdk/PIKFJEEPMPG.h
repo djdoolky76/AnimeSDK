@@ -19,6 +19,8 @@ namespace System::Collections::Generic { template <typename T> class Queue_1; }
 #define PIKFJEEPMPG_NNGOEGHABPB_OFFSET UNITYSDK_OFFSET(0xC26BA40)
 #define PIKFJEEPMPG_PJIBOFIPDIN_OFFSET UNITYSDK_OFFSET(0xC26B9F0)
 
+inline static constexpr unsigned int PIKFJEEPMPG_TypeDefinitionIndex = 70633;
+
 	class PIKFJEEPMPG : public ::BCIAMPIIHPF
 	{
 	public:

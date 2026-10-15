@@ -8,6 +8,8 @@ namespace RPG::GameCore { class SkillData; }
 #define OIGLHNJBHED_CTOR_OFFSET UNITYSDK_OFFSET(0xBE90DD0)
 #define OIGLHNJBHED_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xBE90D20)
 
+inline static constexpr unsigned int OIGLHNJBHED_TypeDefinitionIndex = 55246;
+
 	class OIGLHNJBHED : public ::System::Object
 	{
 	public:

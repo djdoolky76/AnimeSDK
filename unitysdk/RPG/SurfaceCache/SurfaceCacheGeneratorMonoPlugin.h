@@ -22,6 +22,8 @@ namespace UnityEngine { class Texture2D; }
 
 namespace RPG::SurfaceCache
 {
+	inline static constexpr unsigned int SurfaceCacheGeneratorMonoPlugin_TypeDefinitionIndex = 51751;
+
 	class SurfaceCacheGeneratorMonoPlugin
 	{
 	public:

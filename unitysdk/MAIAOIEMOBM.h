@@ -8,6 +8,8 @@ namespace RPG::Client::LittleGameShare { class ST_CakeRaceByCompareSupportCatBeh
 #define MAIAOIEMOBM_CTOR_OFFSET UNITYSDK_OFFSET(0x1C747170)
 #define MAIAOIEMOBM_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1C747250)
 
+inline static constexpr unsigned int MAIAOIEMOBM_TypeDefinitionIndex = 36981;
+
 	class MAIAOIEMOBM
 	{
 	public:

@@ -14,6 +14,8 @@ namespace System { class Object; }
 
 namespace Newtonsoft::Json::Linq
 {
+	inline static constexpr unsigned int JProperty_JPropertyList__GetEnumerator_d__1_TypeDefinitionIndex = 9789;
+
 	template <typename T>
 	class JProperty_JPropertyList__GetEnumerator_d__1 : public ::System::Object
 	{

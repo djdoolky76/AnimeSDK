@@ -7,6 +7,8 @@ class MKFBEMBLFKO;
 #define ABACJHJPDJK_NJBDJBHEBAN_OFFSET UNITYSDK_OFFSET(0xB0E4350)
 #define ABACJHJPDJK__ONBIND_OFFSET UNITYSDK_OFFSET(0xB0E42F0)
 
+inline static constexpr unsigned int ABACJHJPDJK_TypeDefinitionIndex = 71836;
+
 	class ABACJHJPDJK : public ::FMPCODLIOLG
 	{
 	public:

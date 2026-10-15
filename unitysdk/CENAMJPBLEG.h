@@ -33,6 +33,8 @@ namespace System { class String; }
 #define CENAMJPBLEG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E09BEB0)
 #define CENAMJPBLEG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E09BF10)
 
+inline static constexpr unsigned int CENAMJPBLEG_TypeDefinitionIndex = 34285;
+
 	class CENAMJPBLEG : public ::System::Object
 	{
 	public:

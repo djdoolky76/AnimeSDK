@@ -48,6 +48,8 @@ namespace System::Collections::Generic { template <typename T> class IList_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PlayerBriefDisplayData_TypeDefinitionIndex = 64263;
+
 	class PlayerBriefDisplayData : public ::System::Object
 	{
 	public:

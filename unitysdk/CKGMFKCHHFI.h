@@ -7,6 +7,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define CKGMFKCHHFI_CTOR_OFFSET UNITYSDK_OFFSET(0xD75AD60)
 #define CKGMFKCHHFI_KMHHKMENOEH_OFFSET UNITYSDK_OFFSET(0xD75AA90)
 
+inline static constexpr unsigned int CKGMFKCHHFI_TypeDefinitionIndex = 67149;
+
 	class CKGMFKCHHFI : public ::System::Object
 	{
 	public:

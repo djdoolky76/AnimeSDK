@@ -10,6 +10,8 @@ namespace RPG::GameCore { class MarbleHideAuxiliaryLine; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MarbleHideAuxiliaryLine_TypeDefinitionIndex = 16859;
+
 	class MarbleHideAuxiliaryLine : public ::RPG::GameCore::MarbleTaskConfig
 	{
 	public:

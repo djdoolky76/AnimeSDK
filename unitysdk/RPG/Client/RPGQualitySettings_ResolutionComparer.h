@@ -9,6 +9,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RPGQualitySettings_ResolutionComparer_TypeDefinitionIndex = 67920;
+
 	class RPGQualitySettings_ResolutionComparer : public ::System::Object
 	{
 	public:

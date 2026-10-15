@@ -15,6 +15,8 @@ namespace UnityEngine { class Component; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int SpritePresetApplier_TypeDefinitionIndex = 69026;
+
 	class SpritePresetApplier : public ::System::Object
 	{
 	public:

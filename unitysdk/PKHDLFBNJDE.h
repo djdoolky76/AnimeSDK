@@ -7,6 +7,8 @@ namespace RPG::Client { class MapDef; }
 #define PKHDLFBNJDE_CTOR_OFFSET UNITYSDK_OFFSET(0xC2BAEF0)
 #define PKHDLFBNJDE_NFPADGPLOLE_OFFSET UNITYSDK_OFFSET(0xC2BAE80)
 
+inline static constexpr unsigned int PKHDLFBNJDE_TypeDefinitionIndex = 60878;
+
 	class PKHDLFBNJDE : public ::System::Object
 	{
 	public:

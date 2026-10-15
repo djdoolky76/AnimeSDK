@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int StageItemAlias_TypeDefinitionIndex = 22251;
+
 	class StageItemAlias : public ::RPG::GameCore::JsonConfig
 	{
 	public:

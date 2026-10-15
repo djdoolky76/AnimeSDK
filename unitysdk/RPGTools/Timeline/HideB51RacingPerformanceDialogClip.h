@@ -13,6 +13,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int HideB51RacingPerformanceDialogClip_TypeDefinitionIndex = 48281;
+
 	class HideB51RacingPerformanceDialogClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:

@@ -15,6 +15,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int NavigationEntryShortcut_TypeDefinitionIndex = 72618;
+
 	class NavigationEntryShortcut : public ::UnityEngine::MonoBehaviour
 	{
 	public:

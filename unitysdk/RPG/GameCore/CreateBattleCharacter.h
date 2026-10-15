@@ -16,6 +16,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CreateBattleCharacter_TypeDefinitionIndex = 22754;
+
 	class CreateBattleCharacter : public ::RPG::GameCore::TaskConfig
 	{
 	public:

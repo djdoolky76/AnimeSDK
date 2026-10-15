@@ -29,6 +29,8 @@ namespace System { class String; }
 #define CHHBLFHDFEK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E0C64C0)
 #define CHHBLFHDFEK_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E0C6520)
 
+inline static constexpr unsigned int CHHBLFHDFEK_TypeDefinitionIndex = 27331;
+
 	class CHHBLFHDFEK : public ::System::Object
 	{
 	public:

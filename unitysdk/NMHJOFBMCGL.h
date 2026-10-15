@@ -20,6 +20,8 @@ namespace UnityEngine { class Transform; }
 #define NMHJOFBMCGL_STARTWITHTARGET_OFFSET UNITYSDK_OFFSET(0xBC85AE0)
 #define NMHJOFBMCGL_STEP_OFFSET UNITYSDK_OFFSET(0xBC85DC0)
 
+inline static constexpr unsigned int NMHJOFBMCGL_TypeDefinitionIndex = 73510;
+
 	class NMHJOFBMCGL : public ::MOGBNBGMIHF
 	{
 	public:

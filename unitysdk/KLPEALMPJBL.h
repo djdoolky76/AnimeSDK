@@ -11,6 +11,8 @@ namespace System { class String; }
 #define KLPEALMPJBL_CTOR_OFFSET UNITYSDK_OFFSET(0xB536550)
 #define KLPEALMPJBL_EXECUTE_OFFSET UNITYSDK_OFFSET(0xB536680)
 
+inline static constexpr unsigned int KLPEALMPJBL_TypeDefinitionIndex = 77776;
+
 	class KLPEALMPJBL : public ::System::Object
 	{
 	public:

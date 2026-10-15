@@ -5,6 +5,8 @@
 
 #define DKAIEPKJKNF_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA2C000)
 
+inline static constexpr unsigned int DKAIEPKJKNF_TypeDefinitionIndex = 42223;
+
 	class DKAIEPKJKNF : public ::System::Object
 	{
 	public:

@@ -25,6 +25,8 @@ namespace System { class String; }
 
 namespace RPG::Client::UI3DGame
 {
+	inline static constexpr unsigned int MonoUI3DGameView_TypeDefinitionIndex = 75787;
+
 	class MonoUI3DGameView : public ::RPG::Client::LittleGame::BaseMonoView
 	{
 	public:

@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define KIFCMGADLEI_OLOLADKPPIM_CTOR_OFFSET UNITYSDK_OFFSET(0xB41E180)
 #define KIFCMGADLEI_OLOLADKPPIM_HKEPJLDBGIG_OFFSET UNITYSDK_OFFSET(0xB41DAF0)
 
+inline static constexpr unsigned int KIFCMGADLEI_OLOLADKPPIM_TypeDefinitionIndex = 63370;
+
 	class KIFCMGADLEI_OLOLADKPPIM : public ::System::Object
 	{
 	public:

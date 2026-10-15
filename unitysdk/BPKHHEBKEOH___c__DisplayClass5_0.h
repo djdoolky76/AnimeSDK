@@ -7,6 +7,8 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 #define BPKHHEBKEOH___C__DISPLAYCLASS5_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC1A8570)
 #define BPKHHEBKEOH___C__DISPLAYCLASS5_0___TRYAPPLY_B__0_OFFSET UNITYSDK_OFFSET(0xC1A86D0)
 
+inline static constexpr unsigned int BPKHHEBKEOH___c__DisplayClass5_0_TypeDefinitionIndex = 77451;
+
 	class BPKHHEBKEOH___c__DisplayClass5_0 : public ::System::Object
 	{
 	public:

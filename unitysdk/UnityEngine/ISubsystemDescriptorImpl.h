@@ -3,6 +3,8 @@
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int ISubsystemDescriptorImpl_TypeDefinitionIndex = 5826;
+
 	class ISubsystemDescriptorImpl
 	{
 	public:

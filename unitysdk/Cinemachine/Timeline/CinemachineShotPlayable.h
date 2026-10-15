@@ -8,6 +8,8 @@ namespace Cinemachine { class CinemachineVirtualCameraBase; }
 
 namespace Cinemachine::Timeline
 {
+	inline static constexpr unsigned int CinemachineShotPlayable_TypeDefinitionIndex = 39882;
+
 	class CinemachineShotPlayable : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

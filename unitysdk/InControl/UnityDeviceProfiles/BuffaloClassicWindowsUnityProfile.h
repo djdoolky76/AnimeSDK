@@ -7,6 +7,8 @@
 
 namespace InControl::UnityDeviceProfiles
 {
+	inline static constexpr unsigned int BuffaloClassicWindowsUnityProfile_TypeDefinitionIndex = 41062;
+
 	class BuffaloClassicWindowsUnityProfile : public ::InControl::InputDeviceProfile
 	{
 	public:

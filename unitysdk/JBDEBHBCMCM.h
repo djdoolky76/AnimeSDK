@@ -8,6 +8,8 @@ namespace RPG::Client::FateRin::Card { class IFateRinSystemCardViewModel; }
 #define JBDEBHBCMCM_COMPARE_OFFSET UNITYSDK_OFFSET(0x16567590)
 #define JBDEBHBCMCM_CTOR_OFFSET UNITYSDK_OFFSET(0x16567990)
 
+inline static constexpr unsigned int JBDEBHBCMCM_TypeDefinitionIndex = 81200;
+
 	class JBDEBHBCMCM : public ::System::Object
 	{
 	public:

@@ -15,6 +15,8 @@ namespace System { class Type; }
 
 namespace Newtonsoft::Json::Serialization
 {
+	inline static constexpr unsigned int DefaultSerializationBinder_TypeDefinitionIndex = 9714;
+
 	class DefaultSerializationBinder : public ::System::Runtime::Serialization::SerializationBinder
 	{
 	public:

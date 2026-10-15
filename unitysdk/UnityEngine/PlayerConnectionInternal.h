@@ -24,6 +24,8 @@ namespace System { class String; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int PlayerConnectionInternal_TypeDefinitionIndex = 4234;
+
 	class PlayerConnectionInternal : public ::System::Object
 	{
 	public:

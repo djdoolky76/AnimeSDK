@@ -3,6 +3,8 @@
 
 namespace System::Threading::Tasks
 {
+	inline static constexpr unsigned int ITaskCompletionAction_TypeDefinitionIndex = 912;
+
 	class ITaskCompletionAction
 	{
 	public:

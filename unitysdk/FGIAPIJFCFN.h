@@ -29,6 +29,8 @@ namespace UnityEngine::Playables { class PlayableDirector; }
 #define FGIAPIJFCFN_NOJCAGEDEKO_OFFSET UNITYSDK_OFFSET(0x15764010)
 #define FGIAPIJFCFN_OHMHJFANEIF_OFFSET UNITYSDK_OFFSET(0x15763F70)
 
+inline static constexpr unsigned int FGIAPIJFCFN_TypeDefinitionIndex = 60764;
+
 	class FGIAPIJFCFN : public ::System::Object
 	{
 	public:

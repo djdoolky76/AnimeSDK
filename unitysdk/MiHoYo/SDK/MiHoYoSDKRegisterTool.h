@@ -17,6 +17,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int MiHoYoSDKRegisterTool_TypeDefinitionIndex = 46480;
+
 	class MiHoYoSDKRegisterTool : public ::System::Object
 	{
 	public:

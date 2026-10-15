@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GameReplayModel_TypeDefinitionIndex = 60975;
+
 	class GameReplayModel : public ::System::Object
 	{
 	public:

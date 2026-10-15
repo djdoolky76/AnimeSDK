@@ -16,6 +16,8 @@ namespace UnityEngine::Rendering { class VolumeProfile; }
 #define FBMBFECHHLB_LEDPNJMKGOJ_OFFSET UNITYSDK_OFFSET(0x156A5EB0)
 #define FBMBFECHHLB_ONAMGOODPBA_OFFSET UNITYSDK_OFFSET(0x156A6950)
 
+inline static constexpr unsigned int FBMBFECHHLB_TypeDefinitionIndex = 47302;
+
 	class FBMBFECHHLB : public ::System::Object
 	{
 	public:

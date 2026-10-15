@@ -10,6 +10,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int WolfBroGunPlayTarget_Unhittable_TypeDefinitionIndex = 68736;
+
 	class WolfBroGunPlayTarget_Unhittable : public ::RPG::Client::WolfBroGunPlayTarget
 	{
 	public:

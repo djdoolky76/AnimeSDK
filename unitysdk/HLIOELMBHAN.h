@@ -15,6 +15,8 @@ namespace System { class Object; }
 #define HLIOELMBHAN_MBOMDOAMNHP_OFFSET UNITYSDK_OFFSET(0x15D5FF80)
 #define HLIOELMBHAN_NEHKCKIPBPL_OFFSET UNITYSDK_OFFSET(0x15D60150)
 
+inline static constexpr unsigned int HLIOELMBHAN_TypeDefinitionIndex = 68680;
+
 	class HLIOELMBHAN : public ::System::Object
 	{
 	public:

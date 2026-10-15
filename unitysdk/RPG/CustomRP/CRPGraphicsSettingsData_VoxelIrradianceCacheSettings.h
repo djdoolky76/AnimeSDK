@@ -10,6 +10,8 @@
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int CRPGraphicsSettingsData_VoxelIrradianceCacheSettings_TypeDefinitionIndex = 37668;
+
 	class CRPGraphicsSettingsData_VoxelIrradianceCacheSettings : public ::System::Object
 	{
 	public:

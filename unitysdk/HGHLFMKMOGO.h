@@ -11,6 +11,8 @@ namespace System { class Object; }
 #define HGHLFMKMOGO_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1C666C50)
 #define HGHLFMKMOGO_INVOKE_OFFSET UNITYSDK_OFFSET(0x1C666C10)
 
+inline static constexpr unsigned int HGHLFMKMOGO_TypeDefinitionIndex = 36231;
+
 	class HGHLFMKMOGO : public ::System::MulticastDelegate
 	{
 	public:

@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define MONOUIADAPTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0xBA4FA30)
 #define MONOUIADAPTCONFIG_GETUIADAPTIONOPERATIONS_OFFSET UNITYSDK_OFFSET(0xBA4F3D0)
 
+inline static constexpr unsigned int MonoUIAdaptConfig_TypeDefinitionIndex = 47585;
+
 	class MonoUIAdaptConfig : public ::UnityEngine::MonoBehaviour
 	{
 	public:

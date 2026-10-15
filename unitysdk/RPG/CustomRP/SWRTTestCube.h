@@ -16,6 +16,8 @@ namespace UnityEngine { class Shader; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int SWRTTestCube_TypeDefinitionIndex = 37872;
+
 	class SWRTTestCube : public ::UnityEngine::MonoBehaviour
 	{
 	public:

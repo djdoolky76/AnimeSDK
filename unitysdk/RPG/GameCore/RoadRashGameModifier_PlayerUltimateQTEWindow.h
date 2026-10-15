@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RoadRashGameModifier_PlayerUltimateQTEWindow_TypeDefinitionIndex = 58428;
+
 	struct alignas(4) RoadRashGameModifier_PlayerUltimateQTEWindow
 	{
 		::System::Single QTEStart; // 0x10

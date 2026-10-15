@@ -9,6 +9,8 @@ namespace System { class String; }
 
 namespace HPatchZ
 {
+	inline static constexpr unsigned int HPatch_TypeDefinitionIndex = 46993;
+
 	class HPatch : public ::System::Object
 	{
 	public:

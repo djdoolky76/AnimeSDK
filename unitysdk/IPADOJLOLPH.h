@@ -11,6 +11,8 @@ class IPADOJLOLPH;
 #define IPADOJLOLPH_LCLFJLLIMCH_OFFSET UNITYSDK_OFFSET(0x1C536F80)
 #define IPADOJLOLPH_OMKFNPGBODJ_OFFSET UNITYSDK_OFFSET(0x1C536F90)
 
+inline static constexpr unsigned int IPADOJLOLPH_TypeDefinitionIndex = 41614;
+
 	class IPADOJLOLPH : public ::System::Object
 	{
 	public:

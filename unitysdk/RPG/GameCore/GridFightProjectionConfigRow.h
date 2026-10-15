@@ -13,6 +13,8 @@ namespace RPG::GameCore { class GridFightProjectionConfigRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightProjectionConfigRow_TypeDefinitionIndex = 13495;
+
 	class GridFightProjectionConfigRow : public ::System::Object
 	{
 	public:

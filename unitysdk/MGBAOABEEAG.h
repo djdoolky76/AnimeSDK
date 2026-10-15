@@ -37,6 +37,8 @@ namespace System { class String; }
 #define MGBAOABEEAG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EA1C840)
 #define MGBAOABEEAG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EA1C8A0)
 
+inline static constexpr unsigned int MGBAOABEEAG_TypeDefinitionIndex = 25177;
+
 	class MGBAOABEEAG : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FateActChangeMasterHpToCoinConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FateActChangeMasterHpToCoinConfig_TypeDefinitionIndex = 19227;
+
 	class FateActChangeMasterHpToCoinConfig : public ::RPG::GameCore::FateActionConfigBase
 	{
 	public:

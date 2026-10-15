@@ -5,6 +5,8 @@ class KPGLJBFPDEG;
 namespace System { class Action; }
 namespace System { template <typename T> class Func_1; }
 
+inline static constexpr unsigned int KPGLJBFPDEG___O_TypeDefinitionIndex = 72044;
+
 	class KPGLJBFPDEG___O : public ::System::Object
 	{
 	public:

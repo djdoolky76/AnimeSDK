@@ -8,6 +8,8 @@ namespace System::Collections { class IList; }
 
 #define DHAFGMHPMHG_NNIFNAGDEHL_CTOR_OFFSET UNITYSDK_OFFSET(0xEBB45E0)
 
+inline static constexpr unsigned int DHAFGMHPMHG_NNIFNAGDEHL_TypeDefinitionIndex = 59581;
+
 	class DHAFGMHPMHG_NNIFNAGDEHL : public ::System::Object
 	{
 	public:

@@ -14,6 +14,8 @@ namespace System { class Exception; }
 #define HGDOIPMEKHE_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x15C94010)
 #define HGDOIPMEKHE_TICK_OFFSET UNITYSDK_OFFSET(0x15C94060)
 
+inline static constexpr unsigned int HGDOIPMEKHE_TypeDefinitionIndex = 57952;
+
 	class HGDOIPMEKHE : public ::GELIALJDFBL
 	{
 	public:

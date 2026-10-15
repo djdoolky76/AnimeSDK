@@ -14,6 +14,8 @@ class FiveDimRenderingItem;
 #define FDRIDISSOLVEOPERATION_LJBCDJNNBJH_OFFSET UNITYSDK_OFFSET(0x156E3DB0)
 #define FDRIDISSOLVEOPERATION_PKADDEPKJFN_OFFSET UNITYSDK_OFFSET(0x156E39E0)
 
+inline static constexpr unsigned int FDRIDissolveOperation_TypeDefinitionIndex = 47118;
+
 	class FDRIDissolveOperation : public ::FDRIMatStateOperation
 	{
 	public:

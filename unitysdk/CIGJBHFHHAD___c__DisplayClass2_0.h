@@ -7,6 +7,8 @@ class CIGJBHFHHAD;
 #define CIGJBHFHHAD___C__DISPLAYCLASS2_0_CTOR_OFFSET UNITYSDK_OFFSET(0xCF717A0)
 #define CIGJBHFHHAD___C__DISPLAYCLASS2_0___ONGROUPLOADED_B__0_OFFSET UNITYSDK_OFFSET(0xCF71D00)
 
+inline static constexpr unsigned int CIGJBHFHHAD___c__DisplayClass2_0_TypeDefinitionIndex = 57309;
+
 	class CIGJBHFHHAD___c__DisplayClass2_0 : public ::System::Object
 	{
 	public:

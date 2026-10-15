@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define BOCKIEGFIAO_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1D9EDE60)
 #define BOCKIEGFIAO_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1D9ED800)
 
+inline static constexpr unsigned int BOCKIEGFIAO_TypeDefinitionIndex = 14268;
+
 	class BOCKIEGFIAO : public ::System::Object
 	{
 	public:

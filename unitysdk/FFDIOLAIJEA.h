@@ -7,6 +7,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define FFDIOLAIJEA_CTOR_OFFSET UNITYSDK_OFFSET(0x15732D80)
 #define FFDIOLAIJEA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15732DB0)
 
+inline static constexpr unsigned int FFDIOLAIJEA_TypeDefinitionIndex = 53059;
+
 	class FFDIOLAIJEA
 	{
 	public:

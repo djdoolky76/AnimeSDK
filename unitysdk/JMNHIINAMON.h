@@ -4,6 +4,8 @@
 
 #define JMNHIINAMON_CTOR_OFFSET UNITYSDK_OFFSET(0x1CBA3390)
 
+inline static constexpr unsigned int JMNHIINAMON_TypeDefinitionIndex = 42378;
+
 	class JMNHIINAMON : public ::System::Object
 	{
 	public:

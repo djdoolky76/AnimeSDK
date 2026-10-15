@@ -10,6 +10,8 @@ namespace System { class Object; }
 
 namespace RPG::Client::ActivityIdleLive
 {
+	inline static constexpr unsigned int FailGuideDungeonImpl___c_TypeDefinitionIndex = 75384;
+
 	class FailGuideDungeonImpl___c : public ::System::Object
 	{
 	public:

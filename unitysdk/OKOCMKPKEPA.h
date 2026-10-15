@@ -26,6 +26,8 @@ namespace UnityEngine { class Mesh; }
 #define OKOCMKPKEPA_PMLJDKDPPGO_OFFSET UNITYSDK_OFFSET(0xBEF1CF0)
 #define OKOCMKPKEPA_SET_MATERIALS_OFFSET UNITYSDK_OFFSET(0xBEF2800)
 
+inline static constexpr unsigned int OKOCMKPKEPA_TypeDefinitionIndex = 47771;
+
 	class OKOCMKPKEPA : public ::System::Object
 	{
 	public:

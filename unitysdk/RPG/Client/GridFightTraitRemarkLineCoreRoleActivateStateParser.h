@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightTraitRemarkLineCoreRoleActivateStateParser_TypeDefinitionIndex = 65484;
+
 	class GridFightTraitRemarkLineCoreRoleActivateStateParser : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ClockParkStorySwitchBackgroundAnim; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ClockParkStorySwitchBackgroundAnim_TypeDefinitionIndex = 20949;
+
 	class ClockParkStorySwitchBackgroundAnim : public ::RPG::GameCore::TaskConfig
 	{
 	public:

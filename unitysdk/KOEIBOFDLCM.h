@@ -27,6 +27,8 @@ namespace System { class String; }
 #define KOEIBOFDLCM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E8AFE10)
 #define KOEIBOFDLCM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E8AFE70)
 
+inline static constexpr unsigned int KOEIBOFDLCM_TypeDefinitionIndex = 31877;
+
 	class KOEIBOFDLCM : public ::System::Object
 	{
 	public:

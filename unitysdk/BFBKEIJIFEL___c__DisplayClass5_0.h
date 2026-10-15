@@ -7,6 +7,8 @@ namespace System { class Action; }
 #define BFBKEIJIFEL___C__DISPLAYCLASS5_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB15E6F0)
 #define BFBKEIJIFEL___C__DISPLAYCLASS5_0__REGISTERSCHEDULEOPENWATCH_B__0_OFFSET UNITYSDK_OFFSET(0xB15F7B0)
 
+inline static constexpr unsigned int BFBKEIJIFEL___c__DisplayClass5_0_TypeDefinitionIndex = 66713;
+
 	class BFBKEIJIFEL___c__DisplayClass5_0 : public ::System::Object
 	{
 	public:

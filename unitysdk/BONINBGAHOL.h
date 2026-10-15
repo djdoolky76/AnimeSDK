@@ -15,6 +15,8 @@ namespace UnityEngine { class Camera; }
 #define BONINBGAHOL_HPDJPBBEJBI_OFFSET UNITYSDK_OFFSET(0xC198D30)
 #define BONINBGAHOL_NNJGFABCOAK_OFFSET UNITYSDK_OFFSET(0xC198F00)
 
+inline static constexpr unsigned int BONINBGAHOL_TypeDefinitionIndex = 51887;
+
 	class BONINBGAHOL : public ::System::Object
 	{
 	public:

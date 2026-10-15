@@ -13,6 +13,8 @@ namespace System { class Action; }
 #define GCMNECJNLBL_OEGPCGCIDCC___C__DISPLAYCLASS20_0__RUNASYNCALL_B__3_OFFSET UNITYSDK_OFFSET(0x1598D3A0)
 #define GCMNECJNLBL_OEGPCGCIDCC___C__DISPLAYCLASS20_0__RUNASYNCALL_B__4_OFFSET UNITYSDK_OFFSET(0x1598D5C0)
 
+inline static constexpr unsigned int GCMNECJNLBL_OEGPCGCIDCC___c__DisplayClass20_0_TypeDefinitionIndex = 49224;
+
 	class GCMNECJNLBL_OEGPCGCIDCC___c__DisplayClass20_0 : public ::System::Object
 	{
 	public:

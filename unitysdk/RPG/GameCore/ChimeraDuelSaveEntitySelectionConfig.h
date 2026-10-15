@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChimeraDuelSaveEntitySelectionConfig_TypeDefinitionIndex = 15900;
+
 	class ChimeraDuelSaveEntitySelectionConfig : public ::RPG::GameCore::BaseChimeraDuelSaveEntitySelectionConfig
 	{
 	public:

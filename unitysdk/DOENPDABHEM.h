@@ -13,6 +13,8 @@ namespace UnityEngine::UI { class Image; }
 #define DOENPDABHEM_NKPPGDENJAE_OFFSET UNITYSDK_OFFSET(0x11FE2AD0)
 #define DOENPDABHEM__ONBIND_OFFSET UNITYSDK_OFFSET(0x11FE2670)
 
+inline static constexpr unsigned int DOENPDABHEM_TypeDefinitionIndex = 71933;
+
 	class DOENPDABHEM : public ::BEBKIEOBLPK
 	{
 	public:

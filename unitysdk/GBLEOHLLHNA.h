@@ -14,6 +14,8 @@ namespace Entitas { class IGroup; }
 #define GBLEOHLLHNA_ILDLLFNLKDL_OFFSET UNITYSDK_OFFSET(0x15952270)
 #define GBLEOHLLHNA_JMMOBKNNPIE_OFFSET UNITYSDK_OFFSET(0x159521B0)
 
+inline static constexpr unsigned int GBLEOHLLHNA_TypeDefinitionIndex = 75767;
+
 	class GBLEOHLLHNA : public ::System::Object
 	{
 	public:

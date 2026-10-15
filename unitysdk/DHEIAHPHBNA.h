@@ -20,6 +20,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define DHEIAHPHBNA_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0xEBCCC00)
 #define DHEIAHPHBNA_SET_GAMEINSTANCE_OFFSET UNITYSDK_OFFSET(0xEBCCEF0)
 
+inline static constexpr unsigned int DHEIAHPHBNA_TypeDefinitionIndex = 76547;
+
 	class DHEIAHPHBNA : public ::System::Object
 	{
 	public:

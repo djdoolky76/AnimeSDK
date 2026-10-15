@@ -25,6 +25,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 #define LAFJEKPBCLE_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1D0D2820)
 #define LAFJEKPBCLE_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1D0D2170)
 
+inline static constexpr unsigned int LAFJEKPBCLE_TypeDefinitionIndex = 12681;
+
 	class LAFJEKPBCLE : public ::System::Object
 	{
 	public:

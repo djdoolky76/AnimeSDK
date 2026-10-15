@@ -9,6 +9,8 @@ namespace RPG::CustomRP { class RPGDepthOfField; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int RPGDepthOfFieldRenderer___c__DisplayClass11_0_TypeDefinitionIndex = 37808;
+
 	class RPGDepthOfFieldRenderer___c__DisplayClass11_0 : public ::System::Object
 	{
 	public:

@@ -42,6 +42,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define GHNMNFHDCME_PNKKDMGDJMH_OFFSET UNITYSDK_OFFSET(0x1C63E870)
 #define GHNMNFHDCME_POPILNPECEP_OFFSET UNITYSDK_OFFSET(0x1C63EDF0)
 
+inline static constexpr unsigned int GHNMNFHDCME_TypeDefinitionIndex = 36191;
+
 	class GHNMNFHDCME : public ::System::Object
 	{
 	public:

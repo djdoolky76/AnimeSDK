@@ -7,6 +7,8 @@ namespace RPG::GameCore { class DiceCombatTaskConfig_TriggerSkillCutin; }
 #define FHILGAOPCCD_CTOR_OFFSET UNITYSDK_OFFSET(0x1C5DE230)
 #define FHILGAOPCCD_MLKLPMJEHPF_OFFSET UNITYSDK_OFFSET(0x1C61A5C0)
 
+inline static constexpr unsigned int FHILGAOPCCD_TypeDefinitionIndex = 36302;
+
 	class FHILGAOPCCD : public ::AJBKGPOEBFG
 	{
 	public:

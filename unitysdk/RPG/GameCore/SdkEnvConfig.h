@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SdkEnvConfig_TypeDefinitionIndex = 19037;
+
 	class SdkEnvConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

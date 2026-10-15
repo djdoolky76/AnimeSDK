@@ -31,6 +31,8 @@ namespace System { class String; }
 #define IFPAJBFOHLN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E647BD0)
 #define IFPAJBFOHLN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E647C30)
 
+inline static constexpr unsigned int IFPAJBFOHLN_TypeDefinitionIndex = 29326;
+
 	class IFPAJBFOHLN : public ::System::Object
 	{
 	public:

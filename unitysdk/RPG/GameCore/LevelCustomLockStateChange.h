@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelCustomLockStateChange_TypeDefinitionIndex = 56847;
+
 	class LevelCustomLockStateChange : public ::CMPGEAFHHDC
 	{
 	public:

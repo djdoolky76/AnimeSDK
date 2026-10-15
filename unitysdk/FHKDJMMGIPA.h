@@ -27,6 +27,8 @@ namespace System { class String; }
 #define FHKDJMMGIPA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E38E140)
 #define FHKDJMMGIPA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E38E1A0)
 
+inline static constexpr unsigned int FHKDJMMGIPA_TypeDefinitionIndex = 25211;
+
 	class FHKDJMMGIPA : public ::System::Object
 	{
 	public:

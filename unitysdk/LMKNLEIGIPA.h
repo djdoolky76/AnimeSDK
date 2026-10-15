@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define LMKNLEIGIPA_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1D116FF0)
 #define LMKNLEIGIPA_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1D116910)
 
+inline static constexpr unsigned int LMKNLEIGIPA_TypeDefinitionIndex = 11858;
+
 	class LMKNLEIGIPA : public ::System::Object
 	{
 	public:

@@ -20,6 +20,8 @@ namespace System { class Action; }
 
 namespace RPG::Client::B51Racing
 {
+	inline static constexpr unsigned int B51RacingDevelopPartSelectItemControl_TypeDefinitionIndex = 81823;
+
 	class B51RacingDevelopPartSelectItemControl : public ::Sofa::BaseSofaControl
 	{
 	public:

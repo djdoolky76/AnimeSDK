@@ -8,6 +8,8 @@ namespace System { class Object; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int SkillDetailInfoDialogInitParam_RelatedSkillDetailParam_TypeDefinitionIndex = 72131;
+
 	class SkillDetailInfoDialogInitParam_RelatedSkillDetailParam : public ::System::Object
 	{
 	public:

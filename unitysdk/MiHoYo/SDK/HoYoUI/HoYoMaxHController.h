@@ -12,6 +12,8 @@ namespace UnityEngine::UI { class LayoutElement; }
 
 namespace MiHoYo::SDK::HoYoUI
 {
+	inline static constexpr unsigned int HoYoMaxHController_TypeDefinitionIndex = 46711;
+
 	class HoYoMaxHController : public ::UnityEngine::MonoBehaviour
 	{
 	public:

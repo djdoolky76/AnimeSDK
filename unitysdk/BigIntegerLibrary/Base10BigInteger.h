@@ -37,6 +37,8 @@ namespace System { class String; }
 
 namespace BigIntegerLibrary
 {
+	inline static constexpr unsigned int Base10BigInteger_TypeDefinitionIndex = 7055;
+
 	class Base10BigInteger : public ::System::Object
 	{
 	public:

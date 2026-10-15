@@ -20,6 +20,8 @@ namespace System::Resources { class ResourceManager; }
 
 namespace System
 {
+	inline static constexpr unsigned int SR_DD3FC73C477C907C_TypeDefinitionIndex = 6578;
+
 	class SR_DD3FC73C477C907C : public ::System::Object
 	{
 	public:

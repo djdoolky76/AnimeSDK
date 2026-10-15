@@ -15,6 +15,8 @@ namespace System::Text { class StringBuilder; }
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
+	inline static constexpr unsigned int IVRSystem__GetStringTrackedDeviceProperty_TypeDefinitionIndex = 38917;
+
 	class IVRSystem__GetStringTrackedDeviceProperty : public ::System::MulticastDelegate
 	{
 	public:

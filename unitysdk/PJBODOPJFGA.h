@@ -30,6 +30,8 @@ namespace System { class String; }
 #define PJBODOPJFGA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DF742A0)
 #define PJBODOPJFGA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DF74300)
 
+inline static constexpr unsigned int PJBODOPJFGA_TypeDefinitionIndex = 27453;
+
 	class PJBODOPJFGA : public ::System::Object
 	{
 	public:

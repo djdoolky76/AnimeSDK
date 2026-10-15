@@ -10,6 +10,8 @@ namespace RPG::GameCore { class MapEntranceUnlockRow; }
 #define CAJFABMOPAL_CTOR_OFFSET UNITYSDK_OFFSET(0xC484A40)
 #define CAJFABMOPAL_MJDEIPBNMOB_OFFSET UNITYSDK_OFFSET(0xC484AC0)
 
+inline static constexpr unsigned int CAJFABMOPAL_TypeDefinitionIndex = 68174;
+
 	class CAJFABMOPAL : public ::System::Object
 	{
 	public:

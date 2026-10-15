@@ -6,6 +6,8 @@
 
 #define MCCNOCCAACC_CTOR_OFFSET UNITYSDK_OFFSET(0x1C924C00)
 
+inline static constexpr unsigned int MCCNOCCAACC_TypeDefinitionIndex = 43736;
+
 	class MCCNOCCAACC : public ::System::Object
 	{
 	public:

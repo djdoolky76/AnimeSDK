@@ -15,6 +15,8 @@ class GGHEGHCAIEH;
 
 namespace RPG::Client::MechCraft::ViewModel
 {
+	inline static constexpr unsigned int MechCraftExamSettleViewModel_TypeDefinitionIndex = 79731;
+
 	class MechCraftExamSettleViewModel : public ::RPG::Client::MechCraft::ViewModel::MechCraftSettleViewModel
 	{
 	public:

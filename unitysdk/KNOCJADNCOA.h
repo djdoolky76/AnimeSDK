@@ -5,6 +5,8 @@ namespace RPG::GameCore { class GameEntity; }
 
 #define KNOCJADNCOA_CTOR_OFFSET UNITYSDK_OFFSET(0xB58A4F0)
 
+inline static constexpr unsigned int KNOCJADNCOA_TypeDefinitionIndex = 71983;
+
 	class KNOCJADNCOA : public ::System::Object
 	{
 	public:

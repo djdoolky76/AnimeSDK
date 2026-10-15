@@ -16,6 +16,8 @@ namespace System::Collections::Concurrent { template <typename T1, typename T2> 
 #define KGGNDGKIHLD_KHNCMBEFIKI_OFFSET UNITYSDK_OFFSET(0xB3EC0B0)
 #define KGGNDGKIHLD_OAFKAFLEMFK_OFFSET UNITYSDK_OFFSET(0xB3EB5F0)
 
+inline static constexpr unsigned int KGGNDGKIHLD_TypeDefinitionIndex = 82169;
+
 	class KGGNDGKIHLD : public ::System::Object
 	{
 	public:

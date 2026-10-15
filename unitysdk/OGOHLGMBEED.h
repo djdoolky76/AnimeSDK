@@ -26,6 +26,8 @@ namespace ZLinq { class ValueEnumerable; }
 #define OGOHLGMBEED_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1D2746C0)
 #define OGOHLGMBEED_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1D273F20)
 
+inline static constexpr unsigned int OGOHLGMBEED_TypeDefinitionIndex = 11708;
+
 	class OGOHLGMBEED : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FiveDimBeatBackPlayerAction; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimBeatBackPlayerAction_TypeDefinitionIndex = 18686;
+
 	class FiveDimBeatBackPlayerAction : public ::RPG::GameCore::FiveDimBaseEventAction
 	{
 	public:

@@ -7,6 +7,8 @@
 #define GIGJKOIHAAC_ONALLOC_OFFSET UNITYSDK_OFFSET(0x1CAAB9E0)
 #define GIGJKOIHAAC_ONRECYCLE_OFFSET UNITYSDK_OFFSET(0x1CAABA20)
 
+inline static constexpr unsigned int GIGJKOIHAAC_TypeDefinitionIndex = 43341;
+
 	class GIGJKOIHAAC : public ::System::Object
 	{
 	public:

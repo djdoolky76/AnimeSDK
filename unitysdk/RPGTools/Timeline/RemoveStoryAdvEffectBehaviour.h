@@ -12,6 +12,8 @@ namespace RPGTools::Timeline { class RemoveStoryAdvEffectClip; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int RemoveStoryAdvEffectBehaviour_TypeDefinitionIndex = 48317;
+
 	class RemoveStoryAdvEffectBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

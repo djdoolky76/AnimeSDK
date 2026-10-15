@@ -11,6 +11,8 @@ namespace System::Reflection { class PropertyInfo; }
 
 namespace MiHoYo::SDK::Protobuf::Reflection
 {
+	inline static constexpr unsigned int MapFieldAccessor_TypeDefinitionIndex = 35837;
+
 	class MapFieldAccessor : public ::MiHoYo::SDK::Protobuf::Reflection::FieldAccessorBase
 	{
 	public:

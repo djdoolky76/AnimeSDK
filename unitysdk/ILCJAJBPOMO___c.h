@@ -11,6 +11,8 @@ namespace System { class Object; }
 #define ILCJAJBPOMO___C___CCTOR_B__33_1_OFFSET UNITYSDK_OFFSET(0x1E6AA0C0)
 #define ILCJAJBPOMO___C___CCTOR_B__33_2_OFFSET UNITYSDK_OFFSET(0x1E6AA0D0)
 
+inline static constexpr unsigned int ILCJAJBPOMO___c_TypeDefinitionIndex = 33379;
+
 	class ILCJAJBPOMO___c : public ::System::Object
 	{
 	public:

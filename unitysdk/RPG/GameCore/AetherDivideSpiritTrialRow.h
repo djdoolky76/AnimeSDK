@@ -9,6 +9,8 @@ namespace RPG::GameCore { class AetherDivideSpiritTrialRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AetherDivideSpiritTrialRow_TypeDefinitionIndex = 10934;
+
 	class AetherDivideSpiritTrialRow : public ::System::Object
 	{
 	public:

@@ -31,6 +31,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define JAJPDPAHFOA_NLCAFABBKEH_OFFSET UNITYSDK_OFFSET(0x16556D60)
 #define JAJPDPAHFOA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16554550)
 
+inline static constexpr unsigned int JAJPDPAHFOA_TypeDefinitionIndex = 54816;
+
 	class JAJPDPAHFOA
 	{
 	public:

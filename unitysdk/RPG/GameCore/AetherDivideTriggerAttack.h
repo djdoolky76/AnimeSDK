@@ -10,6 +10,8 @@ namespace RPG::GameCore { class AetherDivideTriggerAttack; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AetherDivideTriggerAttack_TypeDefinitionIndex = 20208;
+
 	class AetherDivideTriggerAttack : public ::RPG::GameCore::AdventureTriggerAttack
 	{
 	public:

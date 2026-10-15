@@ -5,6 +5,8 @@
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int BoolParameter_TypeDefinitionIndex = 35623;
+
 	class BoolParameter
 	{
 	public:

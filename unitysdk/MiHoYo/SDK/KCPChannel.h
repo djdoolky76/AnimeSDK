@@ -27,6 +27,8 @@ namespace System::Net::Sockets { class Socket; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int KCPChannel_TypeDefinitionIndex = 46127;
+
 	class KCPChannel : public ::MiHoYo::SDK::IKCPChannel
 	{
 	public:

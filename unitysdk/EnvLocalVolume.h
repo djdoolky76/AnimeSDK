@@ -19,6 +19,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define ENVLOCALVOLUME_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x155E46B0)
 #define ENVLOCALVOLUME_ONENABLE_OFFSET UNITYSDK_OFFSET(0x155E4660)
 
+inline static constexpr unsigned int EnvLocalVolume_TypeDefinitionIndex = 47296;
+
 	class EnvLocalVolume : public ::GeometryEdit::Prism
 	{
 	public:

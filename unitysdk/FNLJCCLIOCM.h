@@ -33,6 +33,8 @@ namespace System { class String; }
 #define FNLJCCLIOCM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E3F31C0)
 #define FNLJCCLIOCM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E3F3220)
 
+inline static constexpr unsigned int FNLJCCLIOCM_TypeDefinitionIndex = 29081;
+
 	class FNLJCCLIOCM : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class LevelPropDecalParam; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelPropDecalParam_TypeDefinitionIndex = 17255;
+
 	class LevelPropDecalParam : public ::RPG::GameCore::LevelPropParameter
 	{
 	public:

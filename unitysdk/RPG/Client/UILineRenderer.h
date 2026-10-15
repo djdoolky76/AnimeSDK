@@ -52,6 +52,8 @@ namespace UnityEngine::UI { class VertexHelper; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int UILineRenderer_TypeDefinitionIndex = 72694;
+
 	class UILineRenderer : public ::UnityEngine::UI::MaskableGraphic
 	{
 	public:

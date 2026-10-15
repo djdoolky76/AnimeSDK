@@ -38,6 +38,8 @@ namespace System { class Object; }
 #define IGJGEAGKDDP___C___CCTOR_B__3_8_OFFSET UNITYSDK_OFFSET(0x1C6D7000)
 #define IGJGEAGKDDP___C___CCTOR_B__3_9_OFFSET UNITYSDK_OFFSET(0x1C6D7040)
 
+inline static constexpr unsigned int IGJGEAGKDDP___c_TypeDefinitionIndex = 37370;
+
 	class IGJGEAGKDDP___c : public ::System::Object
 	{
 	public:

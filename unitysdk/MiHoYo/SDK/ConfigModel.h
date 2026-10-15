@@ -24,6 +24,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int ConfigModel_TypeDefinitionIndex = 7885;
+
 	class ConfigModel : public ::System::Object
 	{
 	public:

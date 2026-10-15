@@ -14,6 +14,8 @@ namespace System { class Object; }
 #define NIJALNBMDMK_OOJIFECGAGE_OFFSET UNITYSDK_OFFSET(0xBBED240)
 #define NIJALNBMDMK_TICK_OFFSET UNITYSDK_OFFSET(0xBBED0C0)
 
+inline static constexpr unsigned int NIJALNBMDMK_TypeDefinitionIndex = 53484;
+
 	class NIJALNBMDMK : public ::GELIALJDFBL
 	{
 	public:

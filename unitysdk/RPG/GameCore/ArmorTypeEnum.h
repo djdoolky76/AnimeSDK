@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ArmorTypeEnum_TypeDefinitionIndex = 16499;
+
 	enum class ArmorTypeEnum : ::System::Int32
 	{
 		Default = 0,

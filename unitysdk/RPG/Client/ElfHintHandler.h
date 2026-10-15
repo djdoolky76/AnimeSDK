@@ -10,6 +10,8 @@ namespace System { class Action; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ElfHintHandler_TypeDefinitionIndex = 63697;
+
 	class ElfHintHandler : public ::System::Object
 	{
 	public:

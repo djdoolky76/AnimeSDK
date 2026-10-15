@@ -15,6 +15,8 @@ namespace System { class String; }
 #define FGPJDBPGPAB_NPJGONHMEOD_OFFSET UNITYSDK_OFFSET(0x1576EEE0)
 #define FGPJDBPGPAB_ONIAAGDIGMB_OFFSET UNITYSDK_OFFSET(0x1576F6A0)
 
+inline static constexpr unsigned int FGPJDBPGPAB_TypeDefinitionIndex = 61184;
+
 	class FGPJDBPGPAB : public ::HDJIGMBHENE
 	{
 	public:

@@ -10,6 +10,8 @@ namespace System::Xml { class XmlWriter; }
 
 namespace System::Xml
 {
+	inline static constexpr unsigned int BinHexEncoder_TypeDefinitionIndex = 1791;
+
 	class BinHexEncoder : public ::System::Object
 	{
 	public:

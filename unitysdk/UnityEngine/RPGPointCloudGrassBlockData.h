@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int RPGPointCloudGrassBlockData_TypeDefinitionIndex = 4284;
+
 	class RPGPointCloudGrassBlockData : public ::UnityEngine::Object
 	{
 	public:

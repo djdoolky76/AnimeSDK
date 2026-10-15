@@ -21,6 +21,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::PetDiy
 {
+	inline static constexpr unsigned int TrainPetDiyController_TypeDefinitionIndex = 74489;
+
 	class TrainPetDiyController : public ::System::Object
 	{
 	public:

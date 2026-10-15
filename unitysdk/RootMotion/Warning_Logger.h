@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RootMotion
 {
+	inline static constexpr unsigned int Warning_Logger_TypeDefinitionIndex = 45982;
+
 	class Warning_Logger : public ::System::MulticastDelegate
 	{
 	public:

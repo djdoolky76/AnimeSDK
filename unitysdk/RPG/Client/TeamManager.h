@@ -111,6 +111,8 @@ namespace UnityEngine { class AsyncOperation; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TeamManager_TypeDefinitionIndex = 60781;
+
 	class TeamManager : public ::System::Object
 	{
 	public:

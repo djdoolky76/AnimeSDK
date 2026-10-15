@@ -14,6 +14,8 @@
 #define DADCLCMLNNF_LKCOKDKCKHB_OFFSET UNITYSDK_OFFSET(0xDFC0DB0)
 #define DADCLCMLNNF_OACODPGFNLC_OFFSET UNITYSDK_OFFSET(0xDFC0E00)
 
+inline static constexpr unsigned int DADCLCMLNNF_TypeDefinitionIndex = 71348;
+
 	class DADCLCMLNNF : public ::System::Object
 	{
 	public:

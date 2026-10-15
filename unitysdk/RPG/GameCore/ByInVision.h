@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByInVision_TypeDefinitionIndex = 20774;
+
 	class ByInVision : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

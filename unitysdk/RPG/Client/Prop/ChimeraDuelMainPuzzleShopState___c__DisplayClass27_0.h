@@ -10,6 +10,8 @@ namespace System { class Action; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int ChimeraDuelMainPuzzleShopState___c__DisplayClass27_0_TypeDefinitionIndex = 78388;
+
 	class ChimeraDuelMainPuzzleShopState___c__DisplayClass27_0 : public ::System::Object
 	{
 	public:

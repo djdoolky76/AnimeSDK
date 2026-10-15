@@ -22,6 +22,8 @@ namespace UnityEngine { class Renderer; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int UI3DMonsterDataComponent_TypeDefinitionIndex = 57550;
+
 	class UI3DMonsterDataComponent : public ::RPG::GameCore::GameComponentBase
 	{
 	public:

@@ -21,6 +21,8 @@ namespace UnityEngine::Rendering { class CommandBuffer; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int CapsuleAOPass_TypeDefinitionIndex = 37551;
+
 	class CapsuleAOPass : public ::System::Object
 	{
 	public:

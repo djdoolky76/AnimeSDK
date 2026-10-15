@@ -10,6 +10,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int Effect_TransformToMaterialBehavior_TransformPropertyScale_TypeDefinitionIndex = 70577;
+
 	class Effect_TransformToMaterialBehavior_TransformPropertyScale : public ::RPG::Client::Effect_TransformToMaterialBehavior_TransformProperty
 	{
 	public:

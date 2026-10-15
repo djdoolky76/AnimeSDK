@@ -11,6 +11,8 @@ namespace RPG::GameCore { class LittleGameTriggerConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimOneWayEntryConfig_TypeDefinitionIndex = 18537;
+
 	class FiveDimOneWayEntryConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

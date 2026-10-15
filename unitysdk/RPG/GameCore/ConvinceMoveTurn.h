@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ConvinceMoveTurn; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ConvinceMoveTurn_TypeDefinitionIndex = 21838;
+
 	class ConvinceMoveTurn : public ::RPG::GameCore::TaskConfig
 	{
 	public:

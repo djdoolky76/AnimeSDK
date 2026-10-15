@@ -16,6 +16,8 @@ namespace UnityEngine::UI { class Image; }
 #define IINJIFDEKBC_LGPCCEMAJDM_OFFSET UNITYSDK_OFFSET(0x164543F0)
 #define IINJIFDEKBC_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0x16453DC0)
 
+inline static constexpr unsigned int IINJIFDEKBC_TypeDefinitionIndex = 69101;
+
 	class IINJIFDEKBC : public ::System::Object
 	{
 	public:

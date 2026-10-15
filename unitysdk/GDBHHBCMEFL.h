@@ -16,6 +16,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define GDBHHBCMEFL_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x15993B40)
 #define GDBHHBCMEFL_TICK_OFFSET UNITYSDK_OFFSET(0x15993B90)
 
+inline static constexpr unsigned int GDBHHBCMEFL_TypeDefinitionIndex = 53342;
+
 	class GDBHHBCMEFL : public ::GELIALJDFBL
 	{
 	public:

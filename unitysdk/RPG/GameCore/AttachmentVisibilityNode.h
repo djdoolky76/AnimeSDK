@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AttachmentVisibilityNode_TypeDefinitionIndex = 22374;
+
 	class AttachmentVisibilityNode : public ::RPG::GameCore::JsonConfig
 	{
 	public:

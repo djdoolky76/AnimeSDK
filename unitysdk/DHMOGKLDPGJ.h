@@ -15,6 +15,8 @@ namespace System { class String; }
 #define DHMOGKLDPGJ_KOCLGAFFGOP_OFFSET UNITYSDK_OFFSET(0xEBEAAB0)
 #define DHMOGKLDPGJ_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xEBEA2A0)
 
+inline static constexpr unsigned int DHMOGKLDPGJ_TypeDefinitionIndex = 58051;
+
 	class DHMOGKLDPGJ
 	{
 	public:

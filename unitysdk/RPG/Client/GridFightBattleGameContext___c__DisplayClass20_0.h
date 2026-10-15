@@ -8,6 +8,8 @@ namespace RPG::Client { class GridFightTrait; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightBattleGameContext___c__DisplayClass20_0_TypeDefinitionIndex = 64400;
+
 	class GridFightBattleGameContext___c__DisplayClass20_0 : public ::System::Object
 	{
 	public:

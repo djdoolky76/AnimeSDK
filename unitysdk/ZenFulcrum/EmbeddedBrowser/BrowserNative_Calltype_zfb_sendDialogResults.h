@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
+	inline static constexpr unsigned int BrowserNative_Calltype_zfb_sendDialogResults_TypeDefinitionIndex = 39452;
+
 	class BrowserNative_Calltype_zfb_sendDialogResults : public ::System::MulticastDelegate
 	{
 	public:

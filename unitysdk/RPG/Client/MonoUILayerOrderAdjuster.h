@@ -19,6 +19,8 @@ namespace UnityEngine { class Canvas; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoUILayerOrderAdjuster_TypeDefinitionIndex = 73075;
+
 	class MonoUILayerOrderAdjuster : public ::UnityEngine::MonoBehaviour
 	{
 	public:

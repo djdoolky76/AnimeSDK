@@ -24,6 +24,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define JNFDNNPGCGB_NKONLLGKKKC_OFFSET UNITYSDK_OFFSET(0xB27DB60)
 #define JNFDNNPGCGB_PGGCKBHGHNO_OFFSET UNITYSDK_OFFSET(0xB27E980)
 
+inline static constexpr unsigned int JNFDNNPGCGB_TypeDefinitionIndex = 61373;
+
 	class JNFDNNPGCGB : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace System::Runtime::Serialization { class SerializationInfo; }
 
 namespace System::Threading::Tasks
 {
+	inline static constexpr unsigned int TaskSchedulerException_TypeDefinitionIndex = 933;
+
 	class TaskSchedulerException : public ::System::Exception
 	{
 	public:

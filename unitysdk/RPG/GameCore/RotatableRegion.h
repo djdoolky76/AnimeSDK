@@ -15,6 +15,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RotatableRegion_TypeDefinitionIndex = 17026;
+
 	class RotatableRegion : public ::RPG::GameCore::JsonConfig
 	{
 	public:

@@ -25,6 +25,8 @@ namespace System { class String; }
 #define LHDIOCPFGHJ_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E95E050)
 #define LHDIOCPFGHJ_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E95E0B0)
 
+inline static constexpr unsigned int LHDIOCPFGHJ_TypeDefinitionIndex = 29566;
+
 	class LHDIOCPFGHJ : public ::System::Object
 	{
 	public:

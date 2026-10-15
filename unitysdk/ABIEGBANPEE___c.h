@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define ABIEGBANPEE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DDCD0E0)
 #define ABIEGBANPEE___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1DDCD0F0)
 
+inline static constexpr unsigned int ABIEGBANPEE___c_TypeDefinitionIndex = 25482;
+
 	class ABIEGBANPEE___c : public ::System::Object
 	{
 	public:

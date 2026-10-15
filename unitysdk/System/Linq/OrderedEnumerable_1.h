@@ -5,6 +5,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 
 namespace System::Linq
 {
+	inline static constexpr unsigned int OrderedEnumerable_1_TypeDefinitionIndex = 3177;
+
 	template <typename T>
 	class OrderedEnumerable_1 : public ::System::Object
 	{

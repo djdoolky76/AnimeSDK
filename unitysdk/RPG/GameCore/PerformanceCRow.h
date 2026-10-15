@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PerformanceCRow_TypeDefinitionIndex = 14328;
+
 	class PerformanceCRow : public ::System::Object
 	{
 	public:

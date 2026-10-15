@@ -31,6 +31,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int CRPLocalLightVolume_TypeDefinitionIndex = 37678;
+
 	class CRPLocalLightVolume : public ::System::Object
 	{
 	public:

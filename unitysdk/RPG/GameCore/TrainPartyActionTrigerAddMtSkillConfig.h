@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TrainPartyActionTrigerAddMtSkillConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TrainPartyActionTrigerAddMtSkillConfig_TypeDefinitionIndex = 18081;
+
 	class TrainPartyActionTrigerAddMtSkillConfig : public ::RPG::GameCore::TrainPartyActionConfigBase
 	{
 	public:

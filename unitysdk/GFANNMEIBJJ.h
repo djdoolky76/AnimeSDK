@@ -8,6 +8,8 @@ namespace RPG::Client::LittleGameShare { class ST_CakeRaceByCompareSupportCatID;
 #define GFANNMEIBJJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1C63B440)
 #define GFANNMEIBJJ_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1C63B520)
 
+inline static constexpr unsigned int GFANNMEIBJJ_TypeDefinitionIndex = 36982;
+
 	class GFANNMEIBJJ
 	{
 	public:

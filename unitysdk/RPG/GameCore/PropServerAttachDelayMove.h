@@ -10,6 +10,8 @@ namespace RPG::GameCore { class PropServerAttachDelayMove; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PropServerAttachDelayMove_TypeDefinitionIndex = 20352;
+
 	class PropServerAttachDelayMove : public ::RPG::GameCore::TaskConfig
 	{
 	public:

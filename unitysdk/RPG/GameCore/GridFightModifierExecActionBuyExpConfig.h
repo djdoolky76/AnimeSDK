@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GridFightModifierExecActionBuyExpConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightModifierExecActionBuyExpConfig_TypeDefinitionIndex = 19374;
+
 	class GridFightModifierExecActionBuyExpConfig : public ::RPG::GameCore::GridFightModifierConfigBase
 	{
 	public:

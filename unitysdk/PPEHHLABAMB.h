@@ -21,6 +21,8 @@ namespace System::Collections::Generic { template <typename T> class IList_1; }
 #define PPEHHLABAMB_UPDATELEVELANDEXP_OFFSET UNITYSDK_OFFSET(0xC37E220)
 #define PPEHHLABAMB_UPDATEORB_OFFSET UNITYSDK_OFFSET(0xC37E310)
 
+inline static constexpr unsigned int PPEHHLABAMB_TypeDefinitionIndex = 64392;
+
 	class PPEHHLABAMB : public ::AMCOEFHHBPO
 	{
 	public:

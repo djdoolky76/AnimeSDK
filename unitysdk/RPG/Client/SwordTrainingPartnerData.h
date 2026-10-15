@@ -25,6 +25,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int SwordTrainingPartnerData_TypeDefinitionIndex = 61983;
+
 	class SwordTrainingPartnerData : public ::System::Object
 	{
 	public:

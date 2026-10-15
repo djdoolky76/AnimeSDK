@@ -21,6 +21,8 @@ namespace UnityEngine::Rendering { class CommandBuffer; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int AvatarEffectHelper_TypeDefinitionIndex = 37589;
+
 	class AvatarEffectHelper : public ::System::Object
 	{
 	public:

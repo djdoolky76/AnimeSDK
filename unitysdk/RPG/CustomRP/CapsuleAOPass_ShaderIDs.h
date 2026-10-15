@@ -6,6 +6,8 @@
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int CapsuleAOPass_ShaderIDs_TypeDefinitionIndex = 37552;
+
 	class CapsuleAOPass_ShaderIDs : public ::System::Object
 	{
 	public:

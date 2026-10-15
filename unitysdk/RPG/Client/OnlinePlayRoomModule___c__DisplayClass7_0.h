@@ -9,6 +9,8 @@ namespace RPG::Client::SocialPlay { class SocialPlayMapInfo; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int OnlinePlayRoomModule___c__DisplayClass7_0_TypeDefinitionIndex = 66407;
+
 	class OnlinePlayRoomModule___c__DisplayClass7_0 : public ::System::Object
 	{
 	public:

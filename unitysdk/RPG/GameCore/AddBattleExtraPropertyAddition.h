@@ -11,6 +11,8 @@ namespace RPG::GameCore { class BattleExtraPropertyAdditionPair; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AddBattleExtraPropertyAddition_TypeDefinitionIndex = 23645;
+
 	class AddBattleExtraPropertyAddition : public ::RPG::GameCore::TaskConfig
 	{
 	public:

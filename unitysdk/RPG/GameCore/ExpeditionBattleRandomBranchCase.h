@@ -11,6 +11,8 @@ namespace RPG::GameCore { class ExpeditionBattleRandomBranchCase; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ExpeditionBattleRandomBranchCase_TypeDefinitionIndex = 16203;
+
 	class ExpeditionBattleRandomBranchCase : public ::RPG::GameCore::JsonConfig
 	{
 	public:

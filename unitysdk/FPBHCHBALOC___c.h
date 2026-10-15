@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define FPBHCHBALOC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E403AF0)
 #define FPBHCHBALOC___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E403B00)
 
+inline static constexpr unsigned int FPBHCHBALOC___c_TypeDefinitionIndex = 26575;
+
 	class FPBHCHBALOC___c : public ::System::Object
 	{
 	public:

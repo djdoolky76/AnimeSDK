@@ -15,6 +15,8 @@ namespace UnityEngine::Playables { class PlayableAsset; }
 
 namespace UnityEngine::Playables
 {
+	inline static constexpr unsigned int PlayableAsset_TypeDefinitionIndex = 4913;
+
 	class PlayableAsset : public ::UnityEngine::ScriptableObject
 	{
 	public:

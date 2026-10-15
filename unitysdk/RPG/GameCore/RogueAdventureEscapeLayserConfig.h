@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueAdventureEscapeLayserConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueAdventureEscapeLayserConfig_TypeDefinitionIndex = 17895;
+
 	class RogueAdventureEscapeLayserConfig : public ::RPG::GameCore::RogueAdventureConfigBase
 	{
 	public:

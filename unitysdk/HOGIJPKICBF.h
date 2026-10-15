@@ -19,6 +19,8 @@ namespace System { class String; }
 #define HOGIJPKICBF_PKLAFBFEEDF_OFFSET UNITYSDK_OFFSET(0x15DB6370)
 #define HOGIJPKICBF___UPDATEEFFECTDATA_B__2_0_OFFSET UNITYSDK_OFFSET(0x15DB6B50)
 
+inline static constexpr unsigned int HOGIJPKICBF_TypeDefinitionIndex = 72297;
+
 	class HOGIJPKICBF : public ::OCNFFGBIMPD
 	{
 	public:

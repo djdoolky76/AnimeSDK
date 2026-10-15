@@ -8,6 +8,8 @@ class HIJHELGLLBL;
 #define HIJHELGLLBL_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CEAF3C0)
 #define HIJHELGLLBL_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CEAF380)
 
+inline static constexpr unsigned int HIJHELGLLBL_TypeDefinitionIndex = 10221;
+
 	class HIJHELGLLBL : public ::RPG::GameCore::TaskConfig
 	{
 	public:

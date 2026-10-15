@@ -15,6 +15,8 @@ namespace System { class Object; }
 #define EBCEOIKNLOH_NAOPJIDFCGG_OFFSET UNITYSDK_OFFSET(0x12CE96F0)
 #define EBCEOIKNLOH_NEKMIOOKAHO_OFFSET UNITYSDK_OFFSET(0x12CE9370)
 
+inline static constexpr unsigned int EBCEOIKNLOH_TypeDefinitionIndex = 71758;
+
 	class EBCEOIKNLOH : public ::System::Object
 	{
 	public:

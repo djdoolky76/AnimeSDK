@@ -35,6 +35,8 @@ namespace UnityEngine { class SkinnedMeshRenderer; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int AstraFXRenderer_TypeDefinitionIndex = 4085;
+
 	class AstraFXRenderer : public ::UnityEngine::Behaviour
 	{
 	public:

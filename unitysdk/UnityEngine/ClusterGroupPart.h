@@ -3,6 +3,8 @@
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int ClusterGroupPart_TypeDefinitionIndex = 4103;
+
 	struct alignas(8) ClusterGroupPart
 	{
 		::System::UInt32 GroupIndex; // 0x10

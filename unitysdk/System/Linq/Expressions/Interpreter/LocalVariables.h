@@ -20,6 +20,8 @@ namespace System::Linq::Expressions::Interpreter { template <typename T1, typena
 
 namespace System::Linq::Expressions::Interpreter
 {
+	inline static constexpr unsigned int LocalVariables_TypeDefinitionIndex = 3521;
+
 	class LocalVariables : public ::System::Object
 	{
 	public:

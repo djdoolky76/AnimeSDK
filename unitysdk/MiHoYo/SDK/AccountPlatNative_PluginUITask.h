@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int AccountPlatNative_PluginUITask_TypeDefinitionIndex = 46088;
+
 	class AccountPlatNative_PluginUITask : public ::System::Object
 	{
 	public:

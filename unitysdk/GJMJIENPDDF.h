@@ -33,6 +33,8 @@ namespace UnityEngine { class GameObject; }
 #define GJMJIENPDDF_NGKIHMLBGLE_OFFSET UNITYSDK_OFFSET(0x15A72A60)
 #define GJMJIENPDDF_OAJDOMAOEAN_OFFSET UNITYSDK_OFFSET(0x15A76190)
 
+inline static constexpr unsigned int GJMJIENPDDF_TypeDefinitionIndex = 71109;
+
 	class GJMJIENPDDF : public ::System::Object
 	{
 	public:

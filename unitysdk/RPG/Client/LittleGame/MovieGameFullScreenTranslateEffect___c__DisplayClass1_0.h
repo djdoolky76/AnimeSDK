@@ -11,6 +11,8 @@ namespace RPG::Client::LittleGame { class MovieGameFullScreenTranslateEffect; }
 
 namespace RPG::Client::LittleGame
 {
+	inline static constexpr unsigned int MovieGameFullScreenTranslateEffect___c__DisplayClass1_0_TypeDefinitionIndex = 76610;
+
 	class MovieGameFullScreenTranslateEffect___c__DisplayClass1_0 : public ::System::Object
 	{
 	public:

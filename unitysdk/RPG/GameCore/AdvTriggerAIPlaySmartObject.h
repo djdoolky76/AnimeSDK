@@ -13,6 +13,8 @@ namespace RPG::GameCore { class TaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdvTriggerAIPlaySmartObject_TypeDefinitionIndex = 22202;
+
 	class AdvTriggerAIPlaySmartObject : public ::RPG::GameCore::TaskConfig
 	{
 	public:

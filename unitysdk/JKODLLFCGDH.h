@@ -14,6 +14,8 @@ namespace UnityEngine { class GameObject; }
 #define JKODLLFCGDH_FJMKAOHGMHH_OFFSET UNITYSDK_OFFSET(0xB22D710)
 #define JKODLLFCGDH_JBEHEILLOEG_OFFSET UNITYSDK_OFFSET(0xB22D5B0)
 
+inline static constexpr unsigned int JKODLLFCGDH_TypeDefinitionIndex = 49753;
+
 	class JKODLLFCGDH
 	{
 	public:

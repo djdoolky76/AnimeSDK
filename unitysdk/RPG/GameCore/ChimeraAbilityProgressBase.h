@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ChimeraAbilityProgressBase; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChimeraAbilityProgressBase_TypeDefinitionIndex = 15857;
+
 	class ChimeraAbilityProgressBase : public ::RPG::GameCore::JsonConfig
 	{
 	public:

@@ -13,6 +13,8 @@ namespace RPG::GameCore { class TurnBasedGameMode; }
 #define FEJCFEFLDAF_MBAABBDJKNG_OFFSET UNITYSDK_OFFSET(0x15724CF0)
 #define FEJCFEFLDAF_SET_CURRENTQTEINSTANCE_OFFSET UNITYSDK_OFFSET(0x15724EA0)
 
+inline static constexpr unsigned int FEJCFEFLDAF_TypeDefinitionIndex = 56191;
+
 	class FEJCFEFLDAF : public ::System::Object
 	{
 	public:

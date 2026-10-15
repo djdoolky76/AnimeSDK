@@ -7,6 +7,8 @@ class GGDIMKDOIGA;
 #define OCNOKDDAMMM_CTOR_OFFSET UNITYSDK_OFFSET(0x1C7CBFD0)
 #define OCNOKDDAMMM_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x1C7CBFE0)
 
+inline static constexpr unsigned int OCNOKDDAMMM_TypeDefinitionIndex = 36506;
+
 	class OCNOKDDAMMM : public ::CGNDHCFAAPM
 	{
 	public:

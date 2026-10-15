@@ -25,6 +25,8 @@ namespace RPG::GameCore { class TransformComponent; }
 #define MFJMBIACNKJ_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB9034C0)
 #define MFJMBIACNKJ_TICK_OFFSET UNITYSDK_OFFSET(0xB903BF0)
 
+inline static constexpr unsigned int MFJMBIACNKJ_TypeDefinitionIndex = 52401;
+
 	class MFJMBIACNKJ : public ::GELIALJDFBL
 	{
 	public:

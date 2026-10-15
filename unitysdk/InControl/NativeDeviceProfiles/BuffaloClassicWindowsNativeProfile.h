@@ -7,6 +7,8 @@
 
 namespace InControl::NativeDeviceProfiles
 {
+	inline static constexpr unsigned int BuffaloClassicWindowsNativeProfile_TypeDefinitionIndex = 41297;
+
 	class BuffaloClassicWindowsNativeProfile : public ::InControl::InputDeviceProfile
 	{
 	public:

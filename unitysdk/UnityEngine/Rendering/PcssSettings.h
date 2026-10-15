@@ -5,6 +5,8 @@
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int PcssSettings_TypeDefinitionIndex = 4887;
+
 	struct alignas(4) PcssSettings
 	{
 		::System::Boolean enable; // 0x10

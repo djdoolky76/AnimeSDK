@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define PAGLKKPEOGG_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1D2BF8B0)
 #define PAGLKKPEOGG_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1D2BF1D0)
 
+inline static constexpr unsigned int PAGLKKPEOGG_TypeDefinitionIndex = 12080;
+
 	class PAGLKKPEOGG : public ::System::Object
 	{
 	public:

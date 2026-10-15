@@ -10,6 +10,8 @@ namespace RPG::GameCore { class HeartDialConditionRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int HeartDialConditionRow_TypeDefinitionIndex = 13722;
+
 	class HeartDialConditionRow : public ::System::Object
 	{
 	public:

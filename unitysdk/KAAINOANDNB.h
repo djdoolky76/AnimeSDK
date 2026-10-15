@@ -4,6 +4,8 @@ namespace RPG { template <typename T> class PoolList_1; }
 
 #define KAAINOANDNB_NHLFAAMAGKN_OFFSET UNITYSDK_OFFSET(0x12CB0)
 
+inline static constexpr unsigned int KAAINOANDNB_TypeDefinitionIndex = 56287;
+
 	struct alignas(4) KAAINOANDNB
 	{
 		::System::UInt32 KPOCDFKLHDJ; // 0x10

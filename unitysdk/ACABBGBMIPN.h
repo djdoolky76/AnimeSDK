@@ -41,6 +41,8 @@ namespace System { class String; }
 #define ACABBGBMIPN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DDD5990)
 #define ACABBGBMIPN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DDD59F0)
 
+inline static constexpr unsigned int ACABBGBMIPN_TypeDefinitionIndex = 30423;
+
 	class ACABBGBMIPN : public ::System::Object
 	{
 	public:

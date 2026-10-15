@@ -86,6 +86,8 @@ namespace UnityEngine { class Object; }
 #define BOPECJBFFNJ_PODLKOGHGMA_OFFSET UNITYSDK_OFFSET(0x1C444490)
 #define BOPECJBFFNJ__CLEARCACHE_B__48_0_OFFSET UNITYSDK_OFFSET(0x1C44AB40)
 
+inline static constexpr unsigned int BOPECJBFFNJ_TypeDefinitionIndex = 41574;
+
 	class BOPECJBFFNJ : public ::System::Object
 	{
 	public:

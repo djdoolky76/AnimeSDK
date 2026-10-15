@@ -10,6 +10,8 @@ namespace RPG::GameCore { class EnableNegativeHP; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int EnableNegativeHP_TypeDefinitionIndex = 23710;
+
 	class EnableNegativeHP : public ::RPG::GameCore::TaskConfig
 	{
 	public:

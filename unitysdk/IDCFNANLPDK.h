@@ -15,6 +15,8 @@ class GDGKGOGKPCG;
 #define IDCFNANLPDK__ONTICK_OFFSET UNITYSDK_OFFSET(0x15EACB60)
 #define IDCFNANLPDK__SETUPVIEW_OFFSET UNITYSDK_OFFSET(0x15EAC950)
 
+inline static constexpr unsigned int IDCFNANLPDK_TypeDefinitionIndex = 73105;
+
 	class IDCFNANLPDK : public ::RPG::Client::UIController
 	{
 	public:

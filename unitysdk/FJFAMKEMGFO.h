@@ -7,6 +7,8 @@ class ENFDMFGIJDC;
 
 #define FJFAMKEMGFO_NKCKKFAHKNN_OFFSET UNITYSDK_OFFSET(0x157C3510)
 
+inline static constexpr unsigned int FJFAMKEMGFO_TypeDefinitionIndex = 77987;
+
 	class FJFAMKEMGFO : public ::System::Object
 	{
 	public:

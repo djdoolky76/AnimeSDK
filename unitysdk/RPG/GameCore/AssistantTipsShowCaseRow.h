@@ -10,6 +10,8 @@ namespace RPG::GameCore { class AssistantTipsShowCaseRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AssistantTipsShowCaseRow_TypeDefinitionIndex = 12674;
+
 	class AssistantTipsShowCaseRow : public ::System::Object
 	{
 	public:

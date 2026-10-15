@@ -9,6 +9,8 @@
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int SimpRTXGI_TypeDefinitionIndex = 4271;
+
 	class SimpRTXGI : public ::System::Object
 	{
 	public:

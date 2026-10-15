@@ -31,6 +31,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::Protobuf::Reflection
 {
+	inline static constexpr unsigned int EnumValueOptions_TypeDefinitionIndex = 35799;
+
 	class EnumValueOptions : public ::System::Object
 	{
 	public:

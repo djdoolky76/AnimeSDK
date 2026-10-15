@@ -16,6 +16,8 @@ namespace RPG::GameCore { class StageVolumeComponentData; }
 #define OLJJFCEAIPN_NDGDDODNDMP_OFFSET UNITYSDK_OFFSET(0xBF0DCA0)
 #define OLJJFCEAIPN_OJJPFMBLLDJ_OFFSET UNITYSDK_OFFSET(0xBF0DD40)
 
+inline static constexpr unsigned int OLJJFCEAIPN_TypeDefinitionIndex = 73987;
+
 	class OLJJFCEAIPN : public ::ANDHCEBLPON
 	{
 	public:

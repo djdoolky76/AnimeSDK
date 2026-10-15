@@ -14,6 +14,8 @@ namespace RPG::Client { class CameraFightStateUseSkillPerformConfig; }
 #define IJNIDMMGEOE_REFRESH_OFFSET UNITYSDK_OFFSET(0x1646FF10)
 #define IJNIDMMGEOE_RESET_OFFSET UNITYSDK_OFFSET(0x1646FE70)
 
+inline static constexpr unsigned int IJNIDMMGEOE_TypeDefinitionIndex = 69606;
+
 	class IJNIDMMGEOE : public ::System::Object
 	{
 	public:

@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define MENPOEFIHBO_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1D156380)
 #define MENPOEFIHBO_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1D155CA0)
 
+inline static constexpr unsigned int MENPOEFIHBO_TypeDefinitionIndex = 12929;
+
 	class MENPOEFIHBO : public ::System::Object
 	{
 	public:

@@ -5,6 +5,8 @@
 
 #define JMADFKOEEJM_KHJNHDOJDDP_OFFSET UNITYSDK_OFFSET(0xB258AF0)
 
+inline static constexpr unsigned int JMADFKOEEJM_TypeDefinitionIndex = 66708;
+
 	class JMADFKOEEJM : public ::System::Object
 	{
 	public:

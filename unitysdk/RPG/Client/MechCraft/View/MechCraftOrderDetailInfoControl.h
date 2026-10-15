@@ -16,6 +16,8 @@ namespace System::ComponentModel { class PropertyChangedEventArgs; }
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftOrderDetailInfoControl_TypeDefinitionIndex = 79987;
+
 	class MechCraftOrderDetailInfoControl : public ::UnityEngine::MonoBehaviour
 	{
 	public:

@@ -8,6 +8,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define DMHFEPMLOGM_DISPOSE_OFFSET UNITYSDK_OFFSET(0xFEC0EC0)
 #define DMHFEPMLOGM_EVALUATE_OFFSET UNITYSDK_OFFSET(0xFEC0E10)
 
+inline static constexpr unsigned int DMHFEPMLOGM_TypeDefinitionIndex = 52194;
+
 	class DMHFEPMLOGM
 	{
 	public:

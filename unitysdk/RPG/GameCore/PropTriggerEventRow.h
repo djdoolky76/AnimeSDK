@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PropTriggerEventRow_TypeDefinitionIndex = 14566;
+
 	class PropTriggerEventRow : public ::System::Object
 	{
 	public:

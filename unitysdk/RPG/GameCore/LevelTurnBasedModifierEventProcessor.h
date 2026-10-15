@@ -8,6 +8,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelTurnBasedModifierEventProcessor_TypeDefinitionIndex = 56222;
+
 	class LevelTurnBasedModifierEventProcessor
 	{
 	public:

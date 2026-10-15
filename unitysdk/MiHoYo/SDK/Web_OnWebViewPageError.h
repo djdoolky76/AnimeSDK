@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int Web_OnWebViewPageError_TypeDefinitionIndex = 8217;
+
 	class Web_OnWebViewPageError : public ::System::MulticastDelegate
 	{
 	public:

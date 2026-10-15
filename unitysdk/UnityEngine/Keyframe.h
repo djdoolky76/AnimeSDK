@@ -25,6 +25,8 @@
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int Keyframe_TypeDefinitionIndex = 4024;
+
 	struct alignas(4) Keyframe
 	{
 		::System::Single m_Time; // 0x10

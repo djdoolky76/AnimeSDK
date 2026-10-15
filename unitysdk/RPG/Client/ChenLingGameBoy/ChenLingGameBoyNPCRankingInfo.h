@@ -18,6 +18,8 @@ namespace System { class String; }
 
 namespace RPG::Client::ChenLingGameBoy
 {
+	inline static constexpr unsigned int ChenLingGameBoyNPCRankingInfo_TypeDefinitionIndex = 74805;
+
 	class ChenLingGameBoyNPCRankingInfo : public ::System::Object
 	{
 	public:

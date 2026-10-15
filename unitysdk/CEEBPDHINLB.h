@@ -18,6 +18,8 @@ namespace System { class Action; }
 #define CEEBPDHINLB_KANMCJHEFJJ_OFFSET UNITYSDK_OFFSET(0xC77F270)
 #define CEEBPDHINLB_REMOVE_ONRECORDCHANGED_OFFSET UNITYSDK_OFFSET(0xC77F060)
 
+inline static constexpr unsigned int CEEBPDHINLB_TypeDefinitionIndex = 81573;
+
 	class CEEBPDHINLB : public ::System::Object
 	{
 	public:

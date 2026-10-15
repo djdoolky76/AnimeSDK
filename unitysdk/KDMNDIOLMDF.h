@@ -24,6 +24,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define KDMNDIOLMDF_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1D084800)
 #define KDMNDIOLMDF_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1D084120)
 
+inline static constexpr unsigned int KDMNDIOLMDF_TypeDefinitionIndex = 14490;
+
 	class KDMNDIOLMDF : public ::System::Object
 	{
 	public:

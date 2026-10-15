@@ -25,6 +25,8 @@ namespace System { class String; }
 #define DIEODGPPEDC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E1BC070)
 #define DIEODGPPEDC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E1BC0D0)
 
+inline static constexpr unsigned int DIEODGPPEDC_TypeDefinitionIndex = 28435;
+
 	class DIEODGPPEDC : public ::System::Object
 	{
 	public:

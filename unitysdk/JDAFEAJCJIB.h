@@ -29,6 +29,8 @@ namespace System { class String; }
 #define JDAFEAJCJIB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E706860)
 #define JDAFEAJCJIB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E7068C0)
 
+inline static constexpr unsigned int JDAFEAJCJIB_TypeDefinitionIndex = 32060;
+
 	class JDAFEAJCJIB : public ::System::Object
 	{
 	public:

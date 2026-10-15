@@ -43,6 +43,8 @@ namespace System { class String; }
 #define BBDBABJLIIB_SET_ENDBLACKCLOSEDELAYTIME_OFFSET UNITYSDK_OFFSET(0x15E83BA0)
 #define BBDBABJLIIB_SET_ENDMASKTALKSENTENCEID_OFFSET UNITYSDK_OFFSET(0x15E83BC0)
 
+inline static constexpr unsigned int BBDBABJLIIB_TypeDefinitionIndex = 53558;
+
 	class BBDBABJLIIB : public ::System::Object
 	{
 	public:

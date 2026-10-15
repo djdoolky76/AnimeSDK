@@ -27,6 +27,8 @@ namespace System { class Exception; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int SDKLoginPhase_TypeDefinitionIndex = 61160;
+
 	class SDKLoginPhase : public ::RPG::Client::LoginPhase
 	{
 	public:

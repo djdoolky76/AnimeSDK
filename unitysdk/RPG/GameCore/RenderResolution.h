@@ -9,6 +9,8 @@ namespace RPG::GameCore { class RenderResolution; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RenderResolution_TypeDefinitionIndex = 18266;
+
 	class RenderResolution : public ::RPG::GameCore::JsonConfig
 	{
 	public:

@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimCreateMascotFakePlayerAction_TypeDefinitionIndex = 18677;
+
 	class FiveDimCreateMascotFakePlayerAction : public ::RPG::GameCore::FiveDimBaseEventAction
 	{
 	public:

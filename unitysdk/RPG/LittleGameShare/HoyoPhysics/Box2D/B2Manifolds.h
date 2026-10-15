@@ -34,6 +34,8 @@
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
+	inline static constexpr unsigned int B2Manifolds_TypeDefinitionIndex = 36706;
+
 	class B2Manifolds : public ::System::Object
 	{
 	public:

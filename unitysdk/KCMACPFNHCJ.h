@@ -9,6 +9,8 @@ class FDPALAEIHPB;
 #define KCMACPFNHCJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1CBB0F70)
 #define KCMACPFNHCJ_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0x1CBB1340)
 
+inline static constexpr unsigned int KCMACPFNHCJ_TypeDefinitionIndex = 42181;
+
 	class KCMACPFNHCJ : public ::System::Object
 	{
 	public:

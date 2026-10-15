@@ -15,6 +15,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetDynamicValueByTargetToTeamCenterDistance_TypeDefinitionIndex = 22773;
+
 	class SetDynamicValueByTargetToTeamCenterDistance : public ::RPG::GameCore::SetDynamicValueBase
 	{
 	public:

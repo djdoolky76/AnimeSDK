@@ -4,6 +4,8 @@
 
 #define NPFGINPCNBL_CTOR_OFFSET UNITYSDK_OFFSET(0xBCFCE60)
 
+inline static constexpr unsigned int NPFGINPCNBL_TypeDefinitionIndex = 49779;
+
 	class NPFGINPCNBL : public ::System::Attribute
 	{
 	public:

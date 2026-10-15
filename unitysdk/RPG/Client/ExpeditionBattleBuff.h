@@ -27,6 +27,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ExpeditionBattleBuff_TypeDefinitionIndex = 63839;
+
 	class ExpeditionBattleBuff : public ::System::Object
 	{
 	public:

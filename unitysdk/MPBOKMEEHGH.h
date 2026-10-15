@@ -7,6 +7,8 @@ namespace System { class String; }
 #define MPBOKMEEHGH_CTOR_OFFSET UNITYSDK_OFFSET(0xBA392D0)
 #define MPBOKMEEHGH__ONBIND_OFFSET UNITYSDK_OFFSET(0xBA38F80)
 
+inline static constexpr unsigned int MPBOKMEEHGH_TypeDefinitionIndex = 71497;
+
 	class MPBOKMEEHGH : public ::BCFDAHOHJEA
 	{
 	public:

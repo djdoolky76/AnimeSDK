@@ -20,6 +20,8 @@ namespace RPG::GameCore { class RogueTournExhibitionConfigRow; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueTournExhibitionBoothData_TypeDefinitionIndex = 67573;
+
 	class RogueTournExhibitionBoothData : public ::System::Object
 	{
 	public:

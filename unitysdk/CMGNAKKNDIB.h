@@ -16,6 +16,8 @@ class FiveDimRenderingPanel;
 #define CMGNAKKNDIB_MOKNCFJICIC_OFFSET UNITYSDK_OFFSET(0xDA32CB0)
 #define CMGNAKKNDIB_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0xDA32DE0)
 
+inline static constexpr unsigned int CMGNAKKNDIB_TypeDefinitionIndex = 76904;
+
 	class CMGNAKKNDIB : public ::System::Object
 	{
 	public:

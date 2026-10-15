@@ -7,6 +7,8 @@ class LKJOIAFONIL;
 #define BEFDLIAPHKI___C__DISPLAYCLASS8_0_CTOR_OFFSET UNITYSDK_OFFSET(0x16313120)
 #define BEFDLIAPHKI___C__DISPLAYCLASS8_0___TRYADDSELECTACTION_B__0_OFFSET UNITYSDK_OFFSET(0x16313180)
 
+inline static constexpr unsigned int BEFDLIAPHKI___c__DisplayClass8_0_TypeDefinitionIndex = 67061;
+
 	class BEFDLIAPHKI___c__DisplayClass8_0 : public ::System::Object
 	{
 	public:

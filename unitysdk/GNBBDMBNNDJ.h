@@ -29,6 +29,8 @@ namespace System { class String; }
 #define GNBBDMBNNDJ_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E4D7F00)
 #define GNBBDMBNNDJ_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E4D7F60)
 
+inline static constexpr unsigned int GNBBDMBNNDJ_TypeDefinitionIndex = 25169;
+
 	class GNBBDMBNNDJ : public ::System::Object
 	{
 	public:

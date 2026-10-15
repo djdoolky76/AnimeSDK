@@ -6,6 +6,8 @@
 
 namespace UnityEngine::Timeline
 {
+	inline static constexpr unsigned int CustomGroupTrackDataBase_TypeDefinitionIndex = 38839;
+
 	class CustomGroupTrackDataBase : public ::UnityEngine::ScriptableObject
 	{
 	public:

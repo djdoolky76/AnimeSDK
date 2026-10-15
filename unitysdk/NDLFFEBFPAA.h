@@ -22,6 +22,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define NDLFFEBFPAA_CTOR_OFFSET UNITYSDK_OFFSET(0xBB4BDD0)
 #define NDLFFEBFPAA_KAGFKKKENNB_OFFSET UNITYSDK_OFFSET(0xBB4C5B0)
 
+inline static constexpr unsigned int NDLFFEBFPAA_TypeDefinitionIndex = 79756;
+
 	class NDLFFEBFPAA : public ::System::Object
 	{
 	public:

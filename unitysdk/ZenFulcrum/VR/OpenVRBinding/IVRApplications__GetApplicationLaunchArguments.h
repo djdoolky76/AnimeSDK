@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
+	inline static constexpr unsigned int IVRApplications__GetApplicationLaunchArguments_TypeDefinitionIndex = 38976;
+
 	class IVRApplications__GetApplicationLaunchArguments : public ::System::MulticastDelegate
 	{
 	public:

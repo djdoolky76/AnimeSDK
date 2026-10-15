@@ -8,6 +8,8 @@ class LBNENBNFPAD;
 #define IOIPCGLLCNN_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x16503190)
 #define IOIPCGLLCNN_CTOR_OFFSET UNITYSDK_OFFSET(0x16503200)
 
+inline static constexpr unsigned int IOIPCGLLCNN_TypeDefinitionIndex = 62619;
+
 	class IOIPCGLLCNN : public ::System::Object
 	{
 	public:

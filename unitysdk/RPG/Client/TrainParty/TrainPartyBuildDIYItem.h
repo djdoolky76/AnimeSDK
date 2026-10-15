@@ -27,6 +27,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::TrainParty
 {
+	inline static constexpr unsigned int TrainPartyBuildDIYItem_TypeDefinitionIndex = 74308;
+
 	class TrainPartyBuildDIYItem : public ::System::Object
 	{
 	public:

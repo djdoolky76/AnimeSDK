@@ -5,6 +5,8 @@
 #define NCOANOGHHPC_CTOR_OFFSET UNITYSDK_OFFSET(0x1D1F6970)
 #define NCOANOGHHPC_OINBDMGFFJL_OFFSET UNITYSDK_OFFSET(0x1D1F6960)
 
+inline static constexpr unsigned int NCOANOGHHPC_TypeDefinitionIndex = 25003;
+
 	class NCOANOGHHPC : public ::System::Object
 	{
 	public:

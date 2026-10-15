@@ -25,6 +25,8 @@ namespace System { class String; }
 #define LIFDLLPAAKF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E96C9F0)
 #define LIFDLLPAAKF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E96CA50)
 
+inline static constexpr unsigned int LIFDLLPAAKF_TypeDefinitionIndex = 31644;
+
 	class LIFDLLPAAKF : public ::System::Object
 	{
 	public:

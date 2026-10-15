@@ -13,6 +13,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TargetRemoveUnselectable_TypeDefinitionIndex = 23903;
+
 	class TargetRemoveUnselectable : public ::RPG::GameCore::TargetSeqOperation
 	{
 	public:

@@ -7,6 +7,8 @@
 
 namespace InControl::UnityDeviceProfiles
 {
+	inline static constexpr unsigned int BeboncoolDA015CAAndroidUnityProfile_TypeDefinitionIndex = 40940;
+
 	class BeboncoolDA015CAAndroidUnityProfile : public ::InControl::InputDeviceProfile
 	{
 	public:

@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int ConsoleDelegate_SessionInitDelegate_TypeDefinitionIndex = 7625;
+
 	class ConsoleDelegate_SessionInitDelegate : public ::System::MulticastDelegate
 	{
 	public:

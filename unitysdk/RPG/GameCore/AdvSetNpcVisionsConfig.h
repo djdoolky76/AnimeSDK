@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdvSetNpcVisionsConfig_TypeDefinitionIndex = 19998;
+
 	class AdvSetNpcVisionsConfig : public ::RPG::GameCore::TaskConfig
 	{
 	public:

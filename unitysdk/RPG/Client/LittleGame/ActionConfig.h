@@ -8,6 +8,8 @@
 
 namespace RPG::Client::LittleGame
 {
+	inline static constexpr unsigned int ActionConfig_TypeDefinitionIndex = 42329;
+
 	class ActionConfig : public ::System::Object
 	{
 	public:

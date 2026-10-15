@@ -27,6 +27,8 @@ namespace System { class String; }
 #define KFFNAEDMDOD_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E8185A0)
 #define KFFNAEDMDOD_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E818600)
 
+inline static constexpr unsigned int KFFNAEDMDOD_TypeDefinitionIndex = 27343;
+
 	class KFFNAEDMDOD : public ::System::Object
 	{
 	public:

@@ -19,6 +19,8 @@ namespace System { class Action; }
 
 namespace RPG::Client::MechCraft::ViewModel
 {
+	inline static constexpr unsigned int MechCraftTalentTreeEntranceViewModel_TypeDefinitionIndex = 79673;
+
 	class MechCraftTalentTreeEntranceViewModel : public ::Sofa::Core::ObservableObject
 	{
 	public:

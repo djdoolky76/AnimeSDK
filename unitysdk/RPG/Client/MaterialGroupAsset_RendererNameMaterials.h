@@ -9,6 +9,8 @@ namespace UnityEngine { class Material; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MaterialGroupAsset_RendererNameMaterials_TypeDefinitionIndex = 69845;
+
 	class MaterialGroupAsset_RendererNameMaterials : public ::System::Object
 	{
 	public:

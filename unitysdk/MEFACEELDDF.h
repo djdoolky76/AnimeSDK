@@ -32,6 +32,8 @@ namespace System { class Action; }
 #define MEFACEELDDF_NEEGKNENPLP_OFFSET UNITYSDK_OFFSET(0xB8BF640)
 #define MEFACEELDDF_OOGPEFAAJIH_OFFSET UNITYSDK_OFFSET(0xB8BE600)
 
+inline static constexpr unsigned int MEFACEELDDF_TypeDefinitionIndex = 61043;
+
 	class MEFACEELDDF : public ::System::Object
 	{
 	public:

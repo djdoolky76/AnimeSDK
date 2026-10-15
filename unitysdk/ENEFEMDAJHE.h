@@ -9,6 +9,8 @@ namespace RPG::GameCore { class MarbleBySealCount; }
 #define ENEFEMDAJHE_HDGEJBEENPD_OFFSET UNITYSDK_OFFSET(0x1CA61750)
 #define ENEFEMDAJHE_KHNFOOKHOJF_OFFSET UNITYSDK_OFFSET(0x1CA615F0)
 
+inline static constexpr unsigned int ENEFEMDAJHE_TypeDefinitionIndex = 43152;
+
 	class ENEFEMDAJHE : public ::LHJPMDPJPEC
 	{
 	public:

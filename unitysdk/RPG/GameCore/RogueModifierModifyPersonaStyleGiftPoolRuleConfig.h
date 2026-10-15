@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueModifierModifyPersonaStyleGiftPoolRuleConfi
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueModifierModifyPersonaStyleGiftPoolRuleConfig_TypeDefinitionIndex = 17873;
+
 	class RogueModifierModifyPersonaStyleGiftPoolRuleConfig : public ::RPG::GameCore::RogueModifierConfig
 	{
 	public:

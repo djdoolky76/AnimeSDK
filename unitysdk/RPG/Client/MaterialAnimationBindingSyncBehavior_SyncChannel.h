@@ -10,6 +10,8 @@ namespace UnityEngine { class Renderer; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MaterialAnimationBindingSyncBehavior_SyncChannel_TypeDefinitionIndex = 70292;
+
 	class MaterialAnimationBindingSyncBehavior_SyncChannel : public ::System::Object
 	{
 	public:

@@ -22,6 +22,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MatchThreeFlashEffect_TypeDefinitionIndex = 65934;
+
 	class MatchThreeFlashEffect : public ::UnityEngine::MonoBehaviour
 	{
 	public:

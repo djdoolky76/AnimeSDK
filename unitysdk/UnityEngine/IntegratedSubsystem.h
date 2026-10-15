@@ -9,6 +9,8 @@ namespace UnityEngine { class IntegratedSubsystem; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int IntegratedSubsystem_TypeDefinitionIndex = 5832;
+
 	class IntegratedSubsystem : public ::System::Object
 	{
 	public:

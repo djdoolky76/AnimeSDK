@@ -12,6 +12,8 @@ namespace RPG::Client { class RogueMagicScepterInfo; }
 #define HMJIELAOLEK_LNNONDPMPGG_OFFSET UNITYSDK_OFFSET(0x15D85280)
 #define HMJIELAOLEK_MCBOJBKFPHK_OFFSET UNITYSDK_OFFSET(0x15D84B00)
 
+inline static constexpr unsigned int HMJIELAOLEK_TypeDefinitionIndex = 67157;
+
 	class HMJIELAOLEK : public ::System::Object
 	{
 	public:

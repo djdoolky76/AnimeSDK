@@ -27,6 +27,8 @@ namespace System { class String; }
 #define IENCCMEAIAJ_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E63FAE0)
 #define IENCCMEAIAJ_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E63FB40)
 
+inline static constexpr unsigned int IENCCMEAIAJ_TypeDefinitionIndex = 28934;
+
 	class IENCCMEAIAJ : public ::System::Object
 	{
 	public:

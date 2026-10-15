@@ -10,6 +10,8 @@ namespace UnityEngine { class ParticleSystem; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int SkillCounterItem_TypeDefinitionIndex = 72377;
+
 	class SkillCounterItem : public ::UnityEngine::MonoBehaviour
 	{
 	public:

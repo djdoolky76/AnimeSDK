@@ -24,6 +24,8 @@ namespace System::Security::Claims { class ClaimsPrincipal; }
 
 namespace System::Security::Claims
 {
+	inline static constexpr unsigned int ClaimsPrincipal_TypeDefinitionIndex = 994;
+
 	class ClaimsPrincipal : public ::System::Object
 	{
 	public:

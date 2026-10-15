@@ -17,6 +17,8 @@ namespace RPG::GameCore { class WaitPropDestroy; }
 #define EFOHGGCKGAJ_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x13A5E720)
 #define EFOHGGCKGAJ_TICK_OFFSET UNITYSDK_OFFSET(0x13A5EB60)
 
+inline static constexpr unsigned int EFOHGGCKGAJ_TypeDefinitionIndex = 53486;
+
 	class EFOHGGCKGAJ : public ::GELIALJDFBL
 	{
 	public:

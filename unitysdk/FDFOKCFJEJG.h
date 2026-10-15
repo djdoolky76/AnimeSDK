@@ -9,6 +9,8 @@
 #define FDFOKCFJEJG_FNKBCCEPHOJ_OFFSET UNITYSDK_OFFSET(0x156D6400)
 #define FDFOKCFJEJG_PMDPEIANNLF_OFFSET UNITYSDK_OFFSET(0x156D62A0)
 
+inline static constexpr unsigned int FDFOKCFJEJG_TypeDefinitionIndex = 48006;
+
 	class FDFOKCFJEJG : public ::System::Object
 	{
 	public:

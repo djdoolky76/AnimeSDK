@@ -10,6 +10,8 @@
 
 namespace Cysharp::Threading::Tasks
 {
+	inline static constexpr unsigned int UniTaskStatusExtensions_TypeDefinitionIndex = 38172;
+
 	class UniTaskStatusExtensions : public ::System::Object
 	{
 	public:

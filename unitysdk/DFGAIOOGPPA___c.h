@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define DFGAIOOGPPA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E1A2830)
 #define DFGAIOOGPPA___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E1A2840)
 
+inline static constexpr unsigned int DFGAIOOGPPA___c_TypeDefinitionIndex = 33578;
+
 	class DFGAIOOGPPA___c : public ::System::Object
 	{
 	public:

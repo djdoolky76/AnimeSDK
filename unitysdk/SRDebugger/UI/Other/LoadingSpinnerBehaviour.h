@@ -7,6 +7,8 @@
 
 namespace SRDebugger::UI::Other
 {
+	inline static constexpr unsigned int LoadingSpinnerBehaviour_TypeDefinitionIndex = 38008;
+
 	class LoadingSpinnerBehaviour : public ::SRF::SRMonoBehaviour
 	{
 	public:

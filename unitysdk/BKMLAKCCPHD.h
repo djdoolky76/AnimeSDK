@@ -32,6 +32,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define BKMLAKCCPHD_OMICEPNECIA_OFFSET UNITYSDK_OFFSET(0xBA5FF40)
 #define BKMLAKCCPHD_SET_BLOCKNEW_OFFSET UNITYSDK_OFFSET(0xBA60560)
 
+inline static constexpr unsigned int BKMLAKCCPHD_TypeDefinitionIndex = 60701;
+
 	class BKMLAKCCPHD : public ::System::Object
 	{
 	public:

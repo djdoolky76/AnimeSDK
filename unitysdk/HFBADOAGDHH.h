@@ -28,6 +28,8 @@ namespace System { class String; }
 #define HFBADOAGDHH_NLPDIMIEPMJ_OFFSET UNITYSDK_OFFSET(0x15C68110)
 #define HFBADOAGDHH_NNHMPIEGPAP_OFFSET UNITYSDK_OFFSET(0x15C68000)
 
+inline static constexpr unsigned int HFBADOAGDHH_TypeDefinitionIndex = 80773;
+
 	class HFBADOAGDHH : public ::System::Object
 	{
 	public:

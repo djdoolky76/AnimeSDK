@@ -11,6 +11,8 @@ namespace RPG::Client::ActivityIdleLive { template <typename T> class IdleLiveMo
 
 namespace RPG::Client::ActivityIdleLive
 {
+	inline static constexpr unsigned int IdleLiveBaseTeamInfo___c__DisplayClass41_0_TypeDefinitionIndex = 75100;
+
 	class IdleLiveBaseTeamInfo___c__DisplayClass41_0 : public ::System::Object
 	{
 	public:

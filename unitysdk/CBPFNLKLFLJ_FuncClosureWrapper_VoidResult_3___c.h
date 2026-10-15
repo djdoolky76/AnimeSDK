@@ -3,6 +3,8 @@
 #include "unitysdk/System/Object.h"
 namespace System { class Object; }
 
+inline static constexpr unsigned int CBPFNLKLFLJ_FuncClosureWrapper_VoidResult_3___c_TypeDefinitionIndex = 6495;
+
 	template <typename T1, typename T2, typename T3>
 	class CBPFNLKLFLJ_FuncClosureWrapper_VoidResult_3___c : public ::System::Object
 	{

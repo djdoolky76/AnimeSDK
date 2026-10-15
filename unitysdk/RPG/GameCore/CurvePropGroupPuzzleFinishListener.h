@@ -11,6 +11,8 @@ namespace RPG::GameCore { class DynamicString; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CurvePropGroupPuzzleFinishListener_TypeDefinitionIndex = 22256;
+
 	class CurvePropGroupPuzzleFinishListener : public ::RPG::GameCore::TaskConfig
 	{
 	public:

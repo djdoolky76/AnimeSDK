@@ -10,6 +10,8 @@ namespace RPG::GameCore { class LevelPedestrianV2RoadEntryInfo; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelPedestrianV2IntersectionChenLingFactorySpawnInfo_TypeDefinitionIndex = 17303;
+
 	class LevelPedestrianV2IntersectionChenLingFactorySpawnInfo : public ::RPG::GameCore::JsonConfig
 	{
 	public:

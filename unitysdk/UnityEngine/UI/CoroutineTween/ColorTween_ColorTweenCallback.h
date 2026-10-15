@@ -5,6 +5,8 @@
 
 namespace UnityEngine::UI::CoroutineTween
 {
+	inline static constexpr unsigned int ColorTween_ColorTweenCallback_TypeDefinitionIndex = 6898;
+
 	class ColorTween_ColorTweenCallback
 	{
 	public:

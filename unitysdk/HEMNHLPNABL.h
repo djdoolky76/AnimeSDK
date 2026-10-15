@@ -9,6 +9,8 @@ namespace RPG::AvatarSystem { class IAvatar; }
 #define HEMNHLPNABL_CTOR_OFFSET UNITYSDK_OFFSET(0x15C5B900)
 #define HEMNHLPNABL_ODEBFADAKFA_OFFSET UNITYSDK_OFFSET(0x15C5B680)
 
+inline static constexpr unsigned int HEMNHLPNABL_TypeDefinitionIndex = 62854;
+
 	class HEMNHLPNABL : public ::System::Object
 	{
 	public:

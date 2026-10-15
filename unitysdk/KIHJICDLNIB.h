@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define KIHJICDLNIB_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB41F520)
 #define KIHJICDLNIB_TICK_OFFSET UNITYSDK_OFFSET(0xB41F570)
 
+inline static constexpr unsigned int KIHJICDLNIB_TypeDefinitionIndex = 52156;
+
 	class KIHJICDLNIB
 	{
 	public:

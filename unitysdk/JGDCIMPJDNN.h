@@ -20,6 +20,8 @@ namespace RPG::Client::Promises { class Promise; }
 #define JGDCIMPJDNN_LNCIJBEMPJF_OFFSET UNITYSDK_OFFSET(0xB1980F0)
 #define JGDCIMPJDNN_SET_WAITFULLSYNCFINISH_OFFSET UNITYSDK_OFFSET(0xB198700)
 
+inline static constexpr unsigned int JGDCIMPJDNN_TypeDefinitionIndex = 80520;
+
 	class JGDCIMPJDNN : public ::System::Object
 	{
 	public:

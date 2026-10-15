@@ -29,6 +29,8 @@ namespace System { class String; }
 #define BJNCNELEOMO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DF4AC70)
 #define BJNCNELEOMO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DF4ACD0)
 
+inline static constexpr unsigned int BJNCNELEOMO_TypeDefinitionIndex = 25700;
+
 	class BJNCNELEOMO : public ::System::Object
 	{
 	public:

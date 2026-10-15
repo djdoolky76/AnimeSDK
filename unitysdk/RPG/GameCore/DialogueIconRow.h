@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DialogueIconRow_TypeDefinitionIndex = 13136;
+
 	class DialogueIconRow : public ::System::Object
 	{
 	public:

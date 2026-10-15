@@ -12,6 +12,8 @@ namespace RPG::GameCore { class ToggleHitCountUITop; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ToggleHitCountUITop_TypeDefinitionIndex = 23154;
+
 	class ToggleHitCountUITop : public ::RPG::GameCore::TaskConfig
 	{
 	public:

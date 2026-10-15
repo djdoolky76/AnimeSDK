@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int StartMarblePVEChallengeMatch_TypeDefinitionIndex = 21273;
+
 	class StartMarblePVEChallengeMatch : public ::RPG::GameCore::TaskConfig
 	{
 	public:

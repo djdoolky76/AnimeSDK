@@ -12,6 +12,8 @@ namespace System::Runtime::Serialization { class SerializationInfo; }
 
 namespace System::Net
 {
+	inline static constexpr unsigned int HttpListenerException_TypeDefinitionIndex = 2733;
+
 	class HttpListenerException : public ::System::ComponentModel::Win32Exception
 	{
 	public:

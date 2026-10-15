@@ -6,6 +6,8 @@
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int ComboDefine_TypeDefinitionIndex = 7573;
+
 	class ComboDefine : public ::System::Object
 	{
 	public:

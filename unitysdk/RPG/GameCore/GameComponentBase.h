@@ -12,6 +12,8 @@ namespace RPG::GameCore { class GameEntity; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GameComponentBase_TypeDefinitionIndex = 57574;
+
 	class GameComponentBase : public ::System::Object
 	{
 	public:

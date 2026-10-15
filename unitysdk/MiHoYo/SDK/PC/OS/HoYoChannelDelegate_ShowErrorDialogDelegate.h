@@ -15,6 +15,8 @@ namespace System { class Object; }
 
 namespace MiHoYo::SDK::PC::OS
 {
+	inline static constexpr unsigned int HoYoChannelDelegate_ShowErrorDialogDelegate_TypeDefinitionIndex = 8560;
+
 	class HoYoChannelDelegate_ShowErrorDialogDelegate : public ::System::MulticastDelegate
 	{
 	public:

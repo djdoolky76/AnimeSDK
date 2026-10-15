@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ControllLightEditComp_TypeDefinitionIndex = 70181;
+
 	class ControllLightEditComp : public ::UnityEngine::MonoBehaviour
 	{
 	public:

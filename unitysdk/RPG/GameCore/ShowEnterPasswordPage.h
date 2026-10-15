@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ShowEnterPasswordPage_TypeDefinitionIndex = 21953;
+
 	class ShowEnterPasswordPage : public ::RPG::GameCore::TaskConfig
 	{
 	public:

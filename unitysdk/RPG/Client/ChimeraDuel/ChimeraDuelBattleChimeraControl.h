@@ -17,6 +17,8 @@ namespace UnityEngine { class RectTransform; }
 
 namespace RPG::Client::ChimeraDuel
 {
+	inline static constexpr unsigned int ChimeraDuelBattleChimeraControl_TypeDefinitionIndex = 81250;
+
 	class ChimeraDuelBattleChimeraControl : public ::Sofa::BaseSofaControl
 	{
 	public:

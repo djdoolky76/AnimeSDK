@@ -4,6 +4,8 @@
 
 #define HFHIHPKOCIC_CTOR_OFFSET UNITYSDK_OFFSET(0x1CAC8320)
 
+inline static constexpr unsigned int HFHIHPKOCIC_TypeDefinitionIndex = 43256;
+
 	class HFHIHPKOCIC : public ::System::Object
 	{
 	public:

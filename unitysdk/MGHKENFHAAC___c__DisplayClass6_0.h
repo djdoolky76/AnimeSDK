@@ -8,6 +8,8 @@ namespace UnityEngine { class Texture2D; }
 #define MGHKENFHAAC___C__DISPLAYCLASS6_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB91EF80)
 #define MGHKENFHAAC___C__DISPLAYCLASS6_0__REPLACETEXTURE_B__0_OFFSET UNITYSDK_OFFSET(0xB91FC20)
 
+inline static constexpr unsigned int MGHKENFHAAC___c__DisplayClass6_0_TypeDefinitionIndex = 57421;
+
 	class MGHKENFHAAC___c__DisplayClass6_0 : public ::System::Object
 	{
 	public:

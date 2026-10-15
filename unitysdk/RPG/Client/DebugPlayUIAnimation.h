@@ -14,6 +14,8 @@ namespace UnityEngine { class Animation; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int DebugPlayUIAnimation_TypeDefinitionIndex = 68340;
+
 	class DebugPlayUIAnimation : public ::UnityEngine::MonoBehaviour
 	{
 	public:

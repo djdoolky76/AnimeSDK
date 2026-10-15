@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define HGPJADMHEEA_FNPMJDIAOCM_OFFSET UNITYSDK_OFFSET(0x15CB3300)
 #define HGPJADMHEEA_KFHNBNDFFKK_OFFSET UNITYSDK_OFFSET(0x15CB3710)
 
+inline static constexpr unsigned int HGPJADMHEEA_TypeDefinitionIndex = 56492;
+
 	class HGPJADMHEEA : public ::System::Object
 	{
 	public:

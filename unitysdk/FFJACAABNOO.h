@@ -10,6 +10,8 @@ namespace System { class String; }
 #define FFJACAABNOO_KKALFKHJHCJ_OFFSET UNITYSDK_OFFSET(0x1EC07BF0)
 #define FFJACAABNOO_PPKCOODEKOJ_OFFSET UNITYSDK_OFFSET(0x1EC07C30)
 
+inline static constexpr unsigned int FFJACAABNOO_TypeDefinitionIndex = 35296;
+
 	class FFJACAABNOO : public ::System::Object
 	{
 	public:

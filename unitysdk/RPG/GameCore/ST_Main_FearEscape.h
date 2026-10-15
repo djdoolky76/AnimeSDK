@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ST_Main_FearEscape; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ST_Main_FearEscape_TypeDefinitionIndex = 20142;
+
 	class ST_Main_FearEscape : public ::RPG::GameCore::STTaskConfig
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class WolfBroGunEnableBulletTime; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int WolfBroGunEnableBulletTime_TypeDefinitionIndex = 21591;
+
 	class WolfBroGunEnableBulletTime : public ::RPG::GameCore::TaskConfig
 	{
 	public:

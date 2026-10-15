@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TalkImage_TypeDefinitionIndex = 24392;
+
 	class TalkImage : public ::RPG::GameCore::JsonConfig
 	{
 	public:

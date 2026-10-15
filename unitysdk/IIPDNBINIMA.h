@@ -18,6 +18,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define IIPDNBINIMA_NBJFLGNEBED_OFFSET UNITYSDK_OFFSET(0x164560A0)
 #define IIPDNBINIMA_NLHCGMDBKCB_OFFSET UNITYSDK_OFFSET(0x16455F70)
 
+inline static constexpr unsigned int IIPDNBINIMA_TypeDefinitionIndex = 69168;
+
 	class IIPDNBINIMA : public ::System::Object
 	{
 	public:

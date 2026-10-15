@@ -9,6 +9,8 @@ namespace System { template <typename T> class Comparison_1; }
 #define PINPFDNJBBB___C_CTOR_OFFSET UNITYSDK_OFFSET(0xC274560)
 #define PINPFDNJBBB___C___CTOR_B__0_0_OFFSET UNITYSDK_OFFSET(0xC274570)
 
+inline static constexpr unsigned int PINPFDNJBBB___c_TypeDefinitionIndex = 80760;
+
 	class PINPFDNJBBB___c : public ::System::Object
 	{
 	public:

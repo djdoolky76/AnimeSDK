@@ -6,6 +6,8 @@ namespace System { class String; }
 
 #define BFHGEENHOLP_MFHKICCFMIC_CTOR_OFFSET UNITYSDK_OFFSET(0xB1642F0)
 
+inline static constexpr unsigned int BFHGEENHOLP_MFHKICCFMIC_TypeDefinitionIndex = 69480;
+
 	class BFHGEENHOLP_MFHKICCFMIC : public ::System::Object
 	{
 	public:

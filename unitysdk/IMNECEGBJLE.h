@@ -12,6 +12,8 @@ namespace System { class String; }
 #define IMNECEGBJLE_GGBLHEHJBDO_OFFSET UNITYSDK_OFFSET(0x164E1120)
 #define IMNECEGBJLE_LDCLEJOIMFL_OFFSET UNITYSDK_OFFSET(0x164E0F40)
 
+inline static constexpr unsigned int IMNECEGBJLE_TypeDefinitionIndex = 56515;
+
 	class IMNECEGBJLE : public ::System::Object
 	{
 	public:

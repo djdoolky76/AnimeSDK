@@ -11,6 +11,8 @@ namespace RPG::GameCore::Match3 { class ShowCharacterCutInGroupAction; }
 
 namespace RPG::GameCore::Match3
 {
+	inline static constexpr unsigned int ShowCharacterCutInGroupAction_TypeDefinitionIndex = 24915;
+
 	class ShowCharacterCutInGroupAction : public ::RPG::GameCore::Match3::Match3ActionBase
 	{
 	public:

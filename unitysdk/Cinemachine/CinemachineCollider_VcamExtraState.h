@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace Cinemachine
 {
+	inline static constexpr unsigned int CinemachineCollider_VcamExtraState_TypeDefinitionIndex = 39729;
+
 	class CinemachineCollider_VcamExtraState : public ::System::Object
 	{
 	public:

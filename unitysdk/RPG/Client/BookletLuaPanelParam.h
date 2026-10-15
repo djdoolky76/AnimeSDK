@@ -8,6 +8,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int BookletLuaPanelParam_TypeDefinitionIndex = 72391;
+
 	class BookletLuaPanelParam : public ::System::Object
 	{
 	public:

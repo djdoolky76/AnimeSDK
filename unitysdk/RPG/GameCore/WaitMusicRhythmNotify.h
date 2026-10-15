@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int WaitMusicRhythmNotify_TypeDefinitionIndex = 22064;
+
 	class WaitMusicRhythmNotify : public ::RPG::GameCore::TaskConfig
 	{
 	public:

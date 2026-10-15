@@ -14,6 +14,8 @@ namespace System { class Object; }
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
+	inline static constexpr unsigned int IVRCompositor__GetLastPoseForTrackedDeviceIndex_TypeDefinitionIndex = 39019;
+
 	class IVRCompositor__GetLastPoseForTrackedDeviceIndex : public ::System::MulticastDelegate
 	{
 	public:

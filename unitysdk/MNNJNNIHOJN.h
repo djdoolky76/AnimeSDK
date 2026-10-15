@@ -6,6 +6,8 @@ namespace System { class String; }
 
 #define MNNJNNIHOJN_CTOR_OFFSET UNITYSDK_OFFSET(0xBA18B30)
 
+inline static constexpr unsigned int MNNJNNIHOJN_TypeDefinitionIndex = 71802;
+
 	class MNNJNNIHOJN : public ::System::Object
 	{
 	public:

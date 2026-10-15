@@ -37,6 +37,8 @@ namespace System { class String; }
 #define KDMLMIFIMHE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E804AF0)
 #define KDMLMIFIMHE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E804B50)
 
+inline static constexpr unsigned int KDMLMIFIMHE_TypeDefinitionIndex = 28521;
+
 	class KDMLMIFIMHE : public ::System::Object
 	{
 	public:

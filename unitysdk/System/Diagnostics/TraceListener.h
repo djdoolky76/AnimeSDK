@@ -28,6 +28,8 @@ namespace System::Diagnostics { class TraceFilter; }
 
 namespace System::Diagnostics
 {
+	inline static constexpr unsigned int TraceListener_TypeDefinitionIndex = 2542;
+
 	class TraceListener : public ::System::MarshalByRefObject
 	{
 	public:

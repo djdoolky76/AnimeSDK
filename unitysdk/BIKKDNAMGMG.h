@@ -18,6 +18,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define BIKKDNAMGMG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D8081D0)
 #define BIKKDNAMGMG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D8080D0)
 
+inline static constexpr unsigned int BIKKDNAMGMG_TypeDefinitionIndex = 22611;
+
 	class BIKKDNAMGMG : public ::RPG::GameCore::TaskConfig
 	{
 	public:

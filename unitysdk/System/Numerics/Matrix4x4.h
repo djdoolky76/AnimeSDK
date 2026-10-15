@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace System::Numerics
 {
+	inline static constexpr unsigned int Matrix4x4_TypeDefinitionIndex = 3858;
+
 	struct alignas(4) Matrix4x4
 	{
 		::System::Single M11; // 0x10

@@ -36,6 +36,8 @@ namespace System::Collections::Generic { template <typename T> class Queue_1; }
 #define LMNNKEACHLL_NONMFOLKOFN_OFFSET UNITYSDK_OFFSET(0x1C9173F0)
 #define LMNNKEACHLL_PIILIAFHODM_OFFSET UNITYSDK_OFFSET(0x1C91BF20)
 
+inline static constexpr unsigned int LMNNKEACHLL_TypeDefinitionIndex = 43028;
+
 	class LMNNKEACHLL : public ::System::Object
 	{
 	public:

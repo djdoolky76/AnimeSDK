@@ -6,6 +6,8 @@
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int AOSetting_TypeDefinitionIndex = 4841;
+
 	struct alignas(4) AOSetting
 	{
 		::UnityEngine::Rendering::AOMethod method; // 0x10

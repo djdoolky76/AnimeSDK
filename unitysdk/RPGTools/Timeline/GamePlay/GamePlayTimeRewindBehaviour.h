@@ -21,6 +21,8 @@ namespace UnityEngine::Playables { class PlayableDirector; }
 
 namespace RPGTools::Timeline::GamePlay
 {
+	inline static constexpr unsigned int GamePlayTimeRewindBehaviour_TypeDefinitionIndex = 48654;
+
 	class GamePlayTimeRewindBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

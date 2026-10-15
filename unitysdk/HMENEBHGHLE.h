@@ -13,6 +13,8 @@ namespace System { class String; }
 #define HMENEBHGHLE_NCODOJBNMLO_OFFSET UNITYSDK_OFFSET(0x15D7B6B0)
 #define HMENEBHGHLE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15D7B470)
 
+inline static constexpr unsigned int HMENEBHGHLE_TypeDefinitionIndex = 54951;
+
 	class HMENEBHGHLE
 	{
 	public:

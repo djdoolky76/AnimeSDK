@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define HNGLCIGBNGB___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E5DDD00)
 #define HNGLCIGBNGB___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E5DDD10)
 
+inline static constexpr unsigned int HNGLCIGBNGB___c_TypeDefinitionIndex = 34012;
+
 	class HNGLCIGBNGB___c : public ::System::Object
 	{
 	public:

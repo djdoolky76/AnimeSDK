@@ -9,6 +9,8 @@ namespace System { class Action; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ElfRestaurantGameInstance___c__DisplayClass49_0_TypeDefinitionIndex = 60386;
+
 	class ElfRestaurantGameInstance___c__DisplayClass49_0 : public ::System::Object
 	{
 	public:

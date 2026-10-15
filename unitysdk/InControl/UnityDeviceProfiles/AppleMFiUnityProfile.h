@@ -7,6 +7,8 @@
 
 namespace InControl::UnityDeviceProfiles
 {
+	inline static constexpr unsigned int AppleMFiUnityProfile_TypeDefinitionIndex = 41036;
+
 	class AppleMFiUnityProfile : public ::InControl::InputDeviceProfile
 	{
 	public:

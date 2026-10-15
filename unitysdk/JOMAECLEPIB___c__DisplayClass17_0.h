@@ -7,6 +7,8 @@ namespace RPG::Client { template <typename T> class PrefHashSet_1; }
 #define JOMAECLEPIB___C__DISPLAYCLASS17_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB2A95B0)
 #define JOMAECLEPIB___C__DISPLAYCLASS17_0___DETERMINEAUTOUNLOCKEDPATHPOINT_B__0_OFFSET UNITYSDK_OFFSET(0xB2A9940)
 
+inline static constexpr unsigned int JOMAECLEPIB___c__DisplayClass17_0_TypeDefinitionIndex = 79764;
+
 	class JOMAECLEPIB___c__DisplayClass17_0 : public ::System::Object
 	{
 	public:

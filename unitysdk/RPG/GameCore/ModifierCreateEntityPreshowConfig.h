@@ -14,6 +14,8 @@ namespace RPG::GameCore { class PredicateConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ModifierCreateEntityPreshowConfig_TypeDefinitionIndex = 18182;
+
 	class ModifierCreateEntityPreshowConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

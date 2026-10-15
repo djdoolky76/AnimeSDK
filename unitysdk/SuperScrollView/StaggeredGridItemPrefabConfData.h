@@ -7,6 +7,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace SuperScrollView
 {
+	inline static constexpr unsigned int StaggeredGridItemPrefabConfData_TypeDefinitionIndex = 47673;
+
 	class StaggeredGridItemPrefabConfData : public ::System::Object
 	{
 	public:

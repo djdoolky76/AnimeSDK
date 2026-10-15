@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define JPFOKIGNDLN_CTOR_OFFSET UNITYSDK_OFFSET(0xB2BD2F0)
 #define JPFOKIGNDLN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB2BD320)
 
+inline static constexpr unsigned int JPFOKIGNDLN_TypeDefinitionIndex = 53230;
+
 	class JPFOKIGNDLN
 	{
 	public:

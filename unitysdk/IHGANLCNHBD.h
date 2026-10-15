@@ -31,6 +31,8 @@ namespace System { class String; }
 #define IHGANLCNHBD_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E65C940)
 #define IHGANLCNHBD_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E65C9A0)
 
+inline static constexpr unsigned int IHGANLCNHBD_TypeDefinitionIndex = 29468;
+
 	class IHGANLCNHBD : public ::System::Object
 	{
 	public:

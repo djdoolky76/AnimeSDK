@@ -34,6 +34,8 @@ namespace System { class String; }
 #define CLASS_3_7B13EA51A1F71F43_METHOD_9_OFFSET UNITYSDK_OFFSET(0xB068B10)
 #define CLASS_3_7B13EA51A1F71F43_METHOD_OFFSET UNITYSDK_OFFSET(0xB0686D0)
 
+inline static constexpr unsigned int Class_3_7B13EA51A1F71F43_TypeDefinitionIndex = 46889;
+
 	class Class_3_7B13EA51A1F71F43 : public ::System::Object
 	{
 	public:

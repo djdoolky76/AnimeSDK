@@ -5,6 +5,8 @@
 
 namespace UnityEngine::UIElements
 {
+	inline static constexpr unsigned int ContextClickEvent_TypeDefinitionIndex = 5963;
+
 	class ContextClickEvent
 	{
 	public:

@@ -41,6 +41,8 @@ namespace System { class String; }
 #define DHEOOPKAOFC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E1B2170)
 #define DHEOOPKAOFC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E1B21D0)
 
+inline static constexpr unsigned int DHEOOPKAOFC_TypeDefinitionIndex = 30364;
+
 	class DHEOOPKAOFC : public ::System::Object
 	{
 	public:

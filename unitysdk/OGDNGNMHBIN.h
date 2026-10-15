@@ -4,6 +4,8 @@
 
 #define OGDNGNMHBIN_CTOR_OFFSET UNITYSDK_OFFSET(0x1C98D030)
 
+inline static constexpr unsigned int OGDNGNMHBIN_TypeDefinitionIndex = 42124;
+
 	class OGDNGNMHBIN : public ::System::Object
 	{
 	public:

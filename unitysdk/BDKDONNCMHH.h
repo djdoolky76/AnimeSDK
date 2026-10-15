@@ -7,6 +7,8 @@ namespace UnityEngine { class AnimationCurve; }
 
 #define BDKDONNCMHH_CTOR_OFFSET UNITYSDK_OFFSET(0x1C8B7E90)
 
+inline static constexpr unsigned int BDKDONNCMHH_TypeDefinitionIndex = 43726;
+
 	class BDKDONNCMHH : public ::System::Object
 	{
 	public:

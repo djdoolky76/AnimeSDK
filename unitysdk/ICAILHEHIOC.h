@@ -4,6 +4,8 @@
 
 #define ICAILHEHIOC_CTOR_OFFSET UNITYSDK_OFFSET(0x1C68E550)
 
+inline static constexpr unsigned int ICAILHEHIOC_TypeDefinitionIndex = 36457;
+
 	class ICAILHEHIOC : public ::System::Object
 	{
 	public:

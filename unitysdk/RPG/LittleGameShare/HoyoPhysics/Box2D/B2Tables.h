@@ -20,6 +20,8 @@
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
+	inline static constexpr unsigned int B2Tables_TypeDefinitionIndex = 36790;
+
 	class B2Tables : public ::System::Object
 	{
 	public:

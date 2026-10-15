@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace WeLing::SDK
 {
+	inline static constexpr unsigned int PipeWrapper_OnSensorCallbackFun_TypeDefinitionIndex = 7539;
+
 	class PipeWrapper_OnSensorCallbackFun : public ::System::MulticastDelegate
 	{
 	public:

@@ -32,6 +32,8 @@ namespace System { class String; }
 #define ELOPGADIBBE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E2D9C00)
 #define ELOPGADIBBE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E2D9C60)
 
+inline static constexpr unsigned int ELOPGADIBBE_TypeDefinitionIndex = 25966;
+
 	class ELOPGADIBBE : public ::System::Object
 	{
 	public:

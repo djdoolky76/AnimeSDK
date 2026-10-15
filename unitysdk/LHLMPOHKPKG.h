@@ -37,6 +37,8 @@ namespace System { class String; }
 #define LHLMPOHKPKG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E966910)
 #define LHLMPOHKPKG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E966970)
 
+inline static constexpr unsigned int LHLMPOHKPKG_TypeDefinitionIndex = 29224;
+
 	class LHLMPOHKPKG : public ::System::Object
 	{
 	public:

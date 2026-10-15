@@ -9,6 +9,8 @@ namespace System { class String; }
 
 namespace MessagePack
 {
+	inline static constexpr unsigned int MessagePackSecurity_StringEqualityComparer_TypeDefinitionIndex = 7210;
+
 	class MessagePackSecurity_StringEqualityComparer
 	{
 	public:

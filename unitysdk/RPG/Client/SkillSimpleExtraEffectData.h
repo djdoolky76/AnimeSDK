@@ -16,6 +16,8 @@ namespace RPG::Client { class SkillSimpleExtraEffectData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int SkillSimpleExtraEffectData_TypeDefinitionIndex = 72133;
+
 	class SkillSimpleExtraEffectData : public ::System::Object
 	{
 	public:

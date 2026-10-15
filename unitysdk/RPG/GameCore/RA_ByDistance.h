@@ -14,6 +14,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RA_ByDistance_TypeDefinitionIndex = 20046;
+
 	class RA_ByDistance : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

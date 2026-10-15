@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 #define GIIJMKDOOMB_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x15A3BF60)
 #define GIIJMKDOOMB_TICK_OFFSET UNITYSDK_OFFSET(0x15A3C030)
 
+inline static constexpr unsigned int GIIJMKDOOMB_TypeDefinitionIndex = 55140;
+
 	class GIIJMKDOOMB : public ::GELIALJDFBL
 	{
 	public:

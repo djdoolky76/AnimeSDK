@@ -31,6 +31,8 @@ namespace System { class String; }
 #define FHEGFNKFGOG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E3898B0)
 #define FHEGFNKFGOG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E389910)
 
+inline static constexpr unsigned int FHEGFNKFGOG_TypeDefinitionIndex = 35075;
+
 	class FHEGFNKFGOG : public ::System::Object
 	{
 	public:

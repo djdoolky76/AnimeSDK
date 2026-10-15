@@ -6,6 +6,8 @@ namespace MessagePack { class IFormatterResolver; }
 #define COCIJMIENJK_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C5D7E10)
 #define COCIJMIENJK_CTOR_OFFSET UNITYSDK_OFFSET(0x1C5D7E00)
 
+inline static constexpr unsigned int COCIJMIENJK_TypeDefinitionIndex = 37207;
+
 	class COCIJMIENJK : public ::System::Object
 	{
 	public:

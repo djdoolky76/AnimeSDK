@@ -6,6 +6,8 @@ namespace RPG::Client { class BattleGamePhase; }
 #define IDOFDGLMMPD___C__DISPLAYCLASS2_0_CTOR_OFFSET UNITYSDK_OFFSET(0x15EE1610)
 #define IDOFDGLMMPD___C__DISPLAYCLASS2_0__PHASEEXIT_B__0_OFFSET UNITYSDK_OFFSET(0x15EE2980)
 
+inline static constexpr unsigned int IDOFDGLMMPD___c__DisplayClass2_0_TypeDefinitionIndex = 61180;
+
 	class IDOFDGLMMPD___c__DisplayClass2_0 : public ::System::Object
 	{
 	public:

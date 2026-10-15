@@ -34,6 +34,8 @@ namespace System { class String; }
 #define KEKFNKDLDOM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E80D8B0)
 #define KEKFNKDLDOM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E80D910)
 
+inline static constexpr unsigned int KEKFNKDLDOM_TypeDefinitionIndex = 32164;
+
 	class KEKFNKDLDOM : public ::System::Object
 	{
 	public:

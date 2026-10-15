@@ -27,6 +27,8 @@ namespace System::Xml::Schema { class XmlValueConverter; }
 
 namespace System::Xml::Schema
 {
+	inline static constexpr unsigned int Datatype_NOTATION_TypeDefinitionIndex = 2132;
+
 	class Datatype_NOTATION : public ::System::Xml::Schema::Datatype_anySimpleType
 	{
 	public:

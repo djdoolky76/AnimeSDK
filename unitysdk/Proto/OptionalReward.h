@@ -31,6 +31,8 @@ namespace System { class String; }
 
 namespace Proto
 {
+	inline static constexpr unsigned int OptionalReward_TypeDefinitionIndex = 26553;
+
 	class OptionalReward : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define DMBMPINDIPC_CTOR_OFFSET UNITYSDK_OFFSET(0xFEB84F0)
 #define DMBMPINDIPC_PKADDEPKJFN_OFFSET UNITYSDK_OFFSET(0xFEB7E10)
 
+inline static constexpr unsigned int DMBMPINDIPC_TypeDefinitionIndex = 77884;
+
 	class DMBMPINDIPC : public ::System::Object
 	{
 	public:

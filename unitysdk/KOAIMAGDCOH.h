@@ -47,6 +47,8 @@ namespace UnityEngine { class Texture2D; }
 #define KOAIMAGDCOH_PEKMBKMNCMC_OFFSET UNITYSDK_OFFSET(0xB58DBD0)
 #define KOAIMAGDCOH_PLNCKDADELF_OFFSET UNITYSDK_OFFSET(0xB58EF40)
 
+inline static constexpr unsigned int KOAIMAGDCOH_TypeDefinitionIndex = 68804;
+
 	class KOAIMAGDCOH : public ::RPG::Client::BehaviorBase
 	{
 	public:

@@ -6,6 +6,8 @@ namespace System::Collections::Generic { template <typename T> class IEqualityCo
 
 namespace Cysharp::Threading::Tasks::Linq
 {
+	inline static constexpr unsigned int Intersect_1_TypeDefinitionIndex = 45399;
+
 	template <typename T>
 	class Intersect_1 : public ::System::Object
 	{

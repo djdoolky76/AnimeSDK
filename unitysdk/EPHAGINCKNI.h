@@ -11,6 +11,8 @@ namespace System { class String; }
 #define EPHAGINCKNI_MJGKNFEILLI_OFFSET UNITYSDK_OFFSET(0x155D4A60)
 #define EPHAGINCKNI_PLNCKLJOJME_OFFSET UNITYSDK_OFFSET(0x155D4B00)
 
+inline static constexpr unsigned int EPHAGINCKNI_TypeDefinitionIndex = 63392;
+
 	class EPHAGINCKNI : public ::System::Object
 	{
 	public:

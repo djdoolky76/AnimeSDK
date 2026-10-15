@@ -6,6 +6,8 @@
 
 namespace System
 {
+	inline static constexpr unsigned int __ComObject_TypeDefinitionIndex = 463;
+
 	class __ComObject : public ::System::Object
 	{
 	public:

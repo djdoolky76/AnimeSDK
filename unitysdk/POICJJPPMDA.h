@@ -16,6 +16,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define POICJJPPMDA_KAEOKJCPCPM_OFFSET UNITYSDK_OFFSET(0xC368260)
 #define POICJJPPMDA_KCMBNIOAPAJ_OFFSET UNITYSDK_OFFSET(0xC368370)
 
+inline static constexpr unsigned int POICJJPPMDA_TypeDefinitionIndex = 62692;
+
 	class POICJJPPMDA : public ::System::Object
 	{
 	public:

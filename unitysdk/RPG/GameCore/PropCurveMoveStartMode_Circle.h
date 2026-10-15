@@ -10,6 +10,8 @@ namespace RPG::GameCore { class PropCurveMoveStartMode_Circle; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PropCurveMoveStartMode_Circle_TypeDefinitionIndex = 21006;
+
 	class PropCurveMoveStartMode_Circle : public ::RPG::GameCore::PropCurveMoveStartMode
 	{
 	public:

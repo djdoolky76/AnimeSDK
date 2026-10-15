@@ -26,6 +26,8 @@ namespace RPG::GameCore { class GameEntity; }
 #define ACHPKKLGLNI_SET_MINIEMOSTECILINDEX_OFFSET UNITYSDK_OFFSET(0xB121C80)
 #define ACHPKKLGLNI_SET_STENCILEYE_OFFSET UNITYSDK_OFFSET(0xB121C60)
 
+inline static constexpr unsigned int ACHPKKLGLNI_TypeDefinitionIndex = 57324;
+
 	class ACHPKKLGLNI : public ::System::Object
 	{
 	public:

@@ -7,6 +7,8 @@
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int ColorUsageAttribute_TypeDefinitionIndex = 4245;
+
 	class ColorUsageAttribute : public ::UnityEngine::PropertyAttribute
 	{
 	public:

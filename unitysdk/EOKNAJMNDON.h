@@ -14,6 +14,8 @@ namespace UnityEngine { class Coroutine; }
 #define EOKNAJMNDON_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x155C4890)
 #define EOKNAJMNDON_TICK_OFFSET UNITYSDK_OFFSET(0x155C4910)
 
+inline static constexpr unsigned int EOKNAJMNDON_TypeDefinitionIndex = 58515;
+
 	class EOKNAJMNDON : public ::GELIALJDFBL
 	{
 	public:

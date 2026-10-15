@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ExitBreakState_TypeDefinitionIndex = 23637;
+
 	class ExitBreakState : public ::RPG::GameCore::TaskConfig
 	{
 	public:

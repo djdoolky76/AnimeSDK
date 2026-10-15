@@ -9,6 +9,8 @@ namespace System { class String; }
 
 namespace UnityEngine::UIElements
 {
+	inline static constexpr unsigned int PointerType_TypeDefinitionIndex = 5976;
+
 	class PointerType : public ::System::Object
 	{
 	public:

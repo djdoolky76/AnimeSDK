@@ -8,6 +8,8 @@ namespace RPG::GameCore { class TutorialChimeraBattlePauseGameLock; }
 #define CHBMPGLPHEO_HHPLCLPFPLD_OFFSET UNITYSDK_OFFSET(0xCC917D0)
 #define CHBMPGLPHEO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xCC91780)
 
+inline static constexpr unsigned int CHBMPGLPHEO_TypeDefinitionIndex = 58817;
+
 	class CHBMPGLPHEO
 	{
 	public:

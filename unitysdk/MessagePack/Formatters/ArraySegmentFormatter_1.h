@@ -4,6 +4,8 @@
 
 namespace MessagePack::Formatters
 {
+	inline static constexpr unsigned int ArraySegmentFormatter_1_TypeDefinitionIndex = 7381;
+
 	template <typename T>
 	class ArraySegmentFormatter_1 : public ::System::Object
 	{

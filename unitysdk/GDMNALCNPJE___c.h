@@ -9,6 +9,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 #define GDMNALCNPJE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x159A84D0)
 #define GDMNALCNPJE___C___CTOR_B__2_0_OFFSET UNITYSDK_OFFSET(0x159A84E0)
 
+inline static constexpr unsigned int GDMNALCNPJE___c_TypeDefinitionIndex = 82214;
+
 	class GDMNALCNPJE___c : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace RPG::GameCore { class HeartDialEmoRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int HeartDialEmoRow_TypeDefinitionIndex = 13726;
+
 	class HeartDialEmoRow : public ::System::Object
 	{
 	public:

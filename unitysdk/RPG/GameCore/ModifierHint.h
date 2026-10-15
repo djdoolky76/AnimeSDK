@@ -12,6 +12,8 @@ namespace RPG::GameCore { class ModifierHint; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ModifierHint_TypeDefinitionIndex = 18243;
+
 	class ModifierHint : public ::RPG::GameCore::JsonConfig
 	{
 	public:

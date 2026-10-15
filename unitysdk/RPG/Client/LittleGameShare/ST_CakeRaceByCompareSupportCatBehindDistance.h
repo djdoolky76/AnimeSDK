@@ -14,6 +14,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::Client::LittleGameShare
 {
+	inline static constexpr unsigned int ST_CakeRaceByCompareSupportCatBehindDistance_TypeDefinitionIndex = 10348;
+
 	class ST_CakeRaceByCompareSupportCatBehindDistance : public ::RPG::Client::LittleGameShare::LittleGamePredicateConfig
 	{
 	public:

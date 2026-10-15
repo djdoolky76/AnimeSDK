@@ -30,6 +30,8 @@ namespace System { class String; }
 #define OBEHBNOCLMM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EBADA20)
 #define OBEHBNOCLMM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EBADA80)
 
+inline static constexpr unsigned int OBEHBNOCLMM_TypeDefinitionIndex = 31781;
+
 	class OBEHBNOCLMM : public ::System::Object
 	{
 	public:

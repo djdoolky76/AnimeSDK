@@ -11,6 +11,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AudioManager_AudioListenerInfo_TypeDefinitionIndex = 59730;
+
 	class AudioManager_AudioListenerInfo : public ::System::Object
 	{
 	public:

@@ -7,6 +7,8 @@
 
 namespace TMPro
 {
+	inline static constexpr unsigned int TMP_Compatibility_TypeDefinitionIndex = 44548;
+
 	class TMP_Compatibility : public ::System::Object
 	{
 	public:

@@ -15,6 +15,8 @@ namespace System { class String; }
 #define GCCBOJPECJK_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x15960A20)
 #define GCCBOJPECJK_TICK_OFFSET UNITYSDK_OFFSET(0x15960D00)
 
+inline static constexpr unsigned int GCCBOJPECJK_TypeDefinitionIndex = 58914;
+
 	class GCCBOJPECJK : public ::GELIALJDFBL
 	{
 	public:

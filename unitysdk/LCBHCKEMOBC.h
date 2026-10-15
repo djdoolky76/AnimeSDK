@@ -12,6 +12,8 @@ namespace RPG::GameCore { class GameEntity; }
 #define LCBHCKEMOBC_HADOHLNHHGB_OFFSET UNITYSDK_OFFSET(0xB610D00)
 #define LCBHCKEMOBC_IEHGJKIODLM_OFFSET UNITYSDK_OFFSET(0xB610DB0)
 
+inline static constexpr unsigned int LCBHCKEMOBC_TypeDefinitionIndex = 57046;
+
 	class LCBHCKEMOBC : public ::BDENDNDOFLF
 	{
 	public:

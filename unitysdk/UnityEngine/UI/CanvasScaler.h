@@ -41,6 +41,8 @@ namespace UnityEngine { class Canvas; }
 
 namespace UnityEngine::UI
 {
+	inline static constexpr unsigned int CanvasScaler_TypeDefinitionIndex = 6762;
+
 	class CanvasScaler : public ::UnityEngine::EventSystems::UIBehaviour
 	{
 	public:

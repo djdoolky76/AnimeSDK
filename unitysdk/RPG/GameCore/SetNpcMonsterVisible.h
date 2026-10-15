@@ -10,6 +10,8 @@ namespace RPG::GameCore { class SetNpcMonsterVisible; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetNpcMonsterVisible_TypeDefinitionIndex = 22070;
+
 	class SetNpcMonsterVisible : public ::RPG::GameCore::TaskConfig
 	{
 	public:

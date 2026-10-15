@@ -6,6 +6,8 @@
 
 namespace CriWare
 {
+	inline static constexpr unsigned int CriAtomConfig_VitaAtrac9VoicePoolConfig_TypeDefinitionIndex = 40161;
+
 	class CriAtomConfig_VitaAtrac9VoicePoolConfig : public ::System::Object
 	{
 	public:

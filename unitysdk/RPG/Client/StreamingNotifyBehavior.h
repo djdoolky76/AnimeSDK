@@ -17,6 +17,8 @@ namespace RPG::Client { class StreamingNotifyMonoPlugin; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int StreamingNotifyBehavior_TypeDefinitionIndex = 70863;
+
 	class StreamingNotifyBehavior : public ::RPG::Client::TABehaviorBase
 	{
 	public:

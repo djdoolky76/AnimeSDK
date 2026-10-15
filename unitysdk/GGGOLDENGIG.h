@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define GGGOLDENGIG_CTOR_OFFSET UNITYSDK_OFFSET(0x15A04520)
 #define GGGOLDENGIG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15A04550)
 
+inline static constexpr unsigned int GGGOLDENGIG_TypeDefinitionIndex = 52391;
+
 	class GGGOLDENGIG
 	{
 	public:

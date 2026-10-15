@@ -11,6 +11,8 @@ namespace System { class Object; }
 #define JKAOPBAAFMI_GNLKPJHAKHM_OFFSET UNITYSDK_OFFSET(0xB20C9A0)
 #define JKAOPBAAFMI_POJFGLBHNDG_OFFSET UNITYSDK_OFFSET(0xB20CA10)
 
+inline static constexpr unsigned int JKAOPBAAFMI_TypeDefinitionIndex = 59713;
+
 	class JKAOPBAAFMI : public ::LJKHPOHKIIF
 	{
 	public:

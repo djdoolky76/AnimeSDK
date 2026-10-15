@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define HMBCOANODNA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E5CA660)
 #define HMBCOANODNA___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E5CA670)
 
+inline static constexpr unsigned int HMBCOANODNA___c_TypeDefinitionIndex = 34140;
+
 	class HMBCOANODNA___c : public ::System::Object
 	{
 	public:

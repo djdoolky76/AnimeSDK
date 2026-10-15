@@ -15,6 +15,8 @@ namespace System::Xml::Linq { class XObject; }
 
 namespace Newtonsoft::Json::Converters
 {
+	inline static constexpr unsigned int XContainerWrapper_TypeDefinitionIndex = 9841;
+
 	class XContainerWrapper : public ::Newtonsoft::Json::Converters::XObjectWrapper
 	{
 	public:

@@ -30,6 +30,8 @@ namespace System { class String; }
 #define KABIKFGACNC_TOSTRING_1_OFFSET UNITYSDK_OFFSET(0x1C537A50)
 #define KABIKFGACNC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1C5375E0)
 
+inline static constexpr unsigned int KABIKFGACNC_TypeDefinitionIndex = 41612;
+
 	class KABIKFGACNC : public ::System::Object
 	{
 	public:

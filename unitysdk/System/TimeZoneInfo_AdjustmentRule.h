@@ -26,6 +26,8 @@ namespace System::Runtime::Serialization { class SerializationInfo; }
 
 namespace System
 {
+	inline static constexpr unsigned int TimeZoneInfo_AdjustmentRule_TypeDefinitionIndex = 344;
+
 	class TimeZoneInfo_AdjustmentRule : public ::System::Object
 	{
 	public:

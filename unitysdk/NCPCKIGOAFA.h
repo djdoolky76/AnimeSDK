@@ -7,6 +7,8 @@ class NCPCKIGOAFA;
 #define NCPCKIGOAFA_CTOR_OFFSET UNITYSDK_OFFSET(0x1D1F6B80)
 #define NCPCKIGOAFA_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D1E59D0)
 
+inline static constexpr unsigned int NCPCKIGOAFA_TypeDefinitionIndex = 13883;
+
 	class NCPCKIGOAFA : public ::System::Object
 	{
 	public:

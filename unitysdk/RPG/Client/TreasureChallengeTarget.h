@@ -21,6 +21,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TreasureChallengeTarget_TypeDefinitionIndex = 66781;
+
 	class TreasureChallengeTarget : public ::System::Object
 	{
 	public:

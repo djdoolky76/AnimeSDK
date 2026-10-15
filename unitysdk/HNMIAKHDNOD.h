@@ -8,6 +8,8 @@
 #define HNMIAKHDNOD_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x15DA12A0)
 #define HNMIAKHDNOD_JAILHGGFLDH_OFFSET UNITYSDK_OFFSET(0x15DA12B0)
 
+inline static constexpr unsigned int HNMIAKHDNOD_TypeDefinitionIndex = 56103;
+
 	class HNMIAKHDNOD : public ::DBGDNLLDPFI
 	{
 	public:

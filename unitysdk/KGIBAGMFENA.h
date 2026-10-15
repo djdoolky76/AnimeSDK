@@ -7,6 +7,8 @@ namespace System { class String; }
 
 #define KGIBAGMFENA_CTOR_OFFSET UNITYSDK_OFFSET(0x1CBB8150)
 
+inline static constexpr unsigned int KGIBAGMFENA_TypeDefinitionIndex = 43201;
+
 	class KGIBAGMFENA : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TutorialBlockAndWait; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TutorialBlockAndWait_TypeDefinitionIndex = 24380;
+
 	class TutorialBlockAndWait : public ::RPG::GameCore::TaskConfig
 	{
 	public:

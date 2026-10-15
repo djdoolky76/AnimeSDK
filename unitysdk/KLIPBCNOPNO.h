@@ -34,6 +34,8 @@ namespace System { class String; }
 #define KLIPBCNOPNO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E88CFF0)
 #define KLIPBCNOPNO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E88D050)
 
+inline static constexpr unsigned int KLIPBCNOPNO_TypeDefinitionIndex = 30245;
+
 	class KLIPBCNOPNO : public ::System::Object
 	{
 	public:

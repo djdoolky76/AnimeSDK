@@ -16,6 +16,8 @@ namespace System::Xml::Schema { class XmlSchemaDatatype; }
 
 namespace System::Xml::Schema
 {
+	inline static constexpr unsigned int XmlSchemaDatatype_TypeDefinitionIndex = 2193;
+
 	class XmlSchemaDatatype : public ::System::Object
 	{
 	public:

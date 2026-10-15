@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int IBJPMEHJNMA_EnterBattlePriority_TypeDefinitionIndex = 55749;
+
 	enum class IBJPMEHJNMA_EnterBattlePriority : ::System::Int32
 	{
 		VeryHigh = 0,

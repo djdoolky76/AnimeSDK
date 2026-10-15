@@ -95,6 +95,8 @@ namespace System::Threading { class Thread; }
 
 namespace System
 {
+	inline static constexpr unsigned int NumberFormatter_TypeDefinitionIndex = 414;
+
 	class NumberFormatter : public ::System::Object
 	{
 	public:

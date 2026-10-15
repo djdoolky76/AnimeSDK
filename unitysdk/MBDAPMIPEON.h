@@ -25,6 +25,8 @@ namespace System { class String; }
 #define MBDAPMIPEON_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E9E1F50)
 #define MBDAPMIPEON_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E9E1FB0)
 
+inline static constexpr unsigned int MBDAPMIPEON_TypeDefinitionIndex = 35002;
+
 	class MBDAPMIPEON : public ::System::Object
 	{
 	public:

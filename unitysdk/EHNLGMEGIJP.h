@@ -27,6 +27,8 @@ namespace System { class String; }
 #define EHNLGMEGIJP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E2A2BC0)
 #define EHNLGMEGIJP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E2A2C20)
 
+inline static constexpr unsigned int EHNLGMEGIJP_TypeDefinitionIndex = 30811;
+
 	class EHNLGMEGIJP : public ::System::Object
 	{
 	public:

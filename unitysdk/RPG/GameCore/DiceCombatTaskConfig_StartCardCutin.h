@@ -10,6 +10,8 @@ namespace RPG::GameCore { class DiceCombatTaskConfig_StartCardCutin; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DiceCombatTaskConfig_StartCardCutin_TypeDefinitionIndex = 16044;
+
 	class DiceCombatTaskConfig_StartCardCutin : public ::RPG::GameCore::DiceCombatTaskConfig
 	{
 	public:

@@ -11,6 +11,8 @@ namespace RPG::GameCore { class GravityBallPuzzleSwitchBoard; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GravityBallPuzzleSwitchBoard_TypeDefinitionIndex = 20378;
+
 	class GravityBallPuzzleSwitchBoard : public ::RPG::GameCore::TaskConfig
 	{
 	public:

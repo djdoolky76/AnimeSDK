@@ -18,6 +18,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int WaterWheel_TypeDefinitionIndex = 68810;
+
 	class WaterWheel : public ::UnityEngine::MonoBehaviour
 	{
 	public:

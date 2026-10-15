@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int BKCCNEKJADF_TypeDefinitionIndex = 34327;
+
 	enum class BKCCNEKJADF : ::System::Int32
 	{
 		NLCDGIPGFDJ = 0,

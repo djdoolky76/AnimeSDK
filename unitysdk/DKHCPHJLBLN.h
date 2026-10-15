@@ -22,6 +22,8 @@ namespace System::Reflection { class Assembly; }
 #define DKHCPHJLBLN_OLFFELAAEFF_OFFSET UNITYSDK_OFFSET(0xF87CDE0)
 #define DKHCPHJLBLN_PPBEHEGLOPD_OFFSET UNITYSDK_OFFSET(0xF87C330)
 
+inline static constexpr unsigned int DKHCPHJLBLN_TypeDefinitionIndex = 82297;
+
 	class DKHCPHJLBLN : public ::System::Object
 	{
 	public:

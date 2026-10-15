@@ -8,6 +8,8 @@
 #define AMNPGECIPHB_GET_MAXWAITTIME_OFFSET UNITYSDK_OFFSET(0x1D10)
 #define AMNPGECIPHB_GET_RSPCMDID_OFFSET UNITYSDK_OFFSET(0x2E73830)
 
+inline static constexpr unsigned int AMNPGECIPHB_TypeDefinitionIndex = 69401;
+
 	struct alignas(4) AMNPGECIPHB
 	{
 		::System::UInt16 _RspCmdID_k__BackingField; // 0x10

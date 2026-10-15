@@ -24,6 +24,8 @@ namespace System { class String; }
 #define PAEKOKFPOIM_MHNKNCJEJOE_OFFSET UNITYSDK_OFFSET(0xBFC6950)
 #define PAEKOKFPOIM_OGFKHMHHHPE_OFFSET UNITYSDK_OFFSET(0xBFC6C90)
 
+inline static constexpr unsigned int PAEKOKFPOIM_TypeDefinitionIndex = 79692;
+
 	class PAEKOKFPOIM : public ::System::Object
 	{
 	public:

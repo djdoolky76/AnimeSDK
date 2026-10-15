@@ -13,6 +13,8 @@
 #define EHDEDFMPMFC_SET_RTT_OFFSET UNITYSDK_OFFSET(0x1DDAA810)
 #define EHDEDFMPMFC_SET_TO_OFFSET UNITYSDK_OFFSET(0x1DDAA7F0)
 
+inline static constexpr unsigned int EHDEDFMPMFC_TypeDefinitionIndex = 43920;
+
 	class EHDEDFMPMFC : public ::System::Object
 	{
 	public:

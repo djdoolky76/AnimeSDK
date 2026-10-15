@@ -8,6 +8,8 @@ class JNAHFCBAIMM;
 #define JNAHFCBAIMM_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D04E270)
 #define JNAHFCBAIMM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D04E1A0)
 
+inline static constexpr unsigned int JNAHFCBAIMM_TypeDefinitionIndex = 21742;
+
 	class JNAHFCBAIMM : public ::RPG::GameCore::TaskConfig
 	{
 	public:

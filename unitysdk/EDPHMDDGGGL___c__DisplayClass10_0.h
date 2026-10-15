@@ -7,6 +7,8 @@ namespace System { class String; }
 #define EDPHMDDGGGL___C__DISPLAYCLASS10_0_CTOR_OFFSET UNITYSDK_OFFSET(0x13330020)
 #define EDPHMDDGGGL___C__DISPLAYCLASS10_0___SETAUDIOSTATE_B__0_OFFSET UNITYSDK_OFFSET(0x1334C190)
 
+inline static constexpr unsigned int EDPHMDDGGGL___c__DisplayClass10_0_TypeDefinitionIndex = 60722;
+
 	class EDPHMDDGGGL___c__DisplayClass10_0 : public ::System::Object
 	{
 	public:

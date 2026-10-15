@@ -8,6 +8,8 @@ namespace RPG::Client::CakeRace { class CakeRaceLoanPrepareData; }
 #define MIBPJLAGBLD___C__DISPLAYCLASS9_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB950A90)
 #define MIBPJLAGBLD___C__DISPLAYCLASS9_0___TRYSHOWLOANPERFORMENCE_B__0_OFFSET UNITYSDK_OFFSET(0xB9515F0)
 
+inline static constexpr unsigned int MIBPJLAGBLD___c__DisplayClass9_0_TypeDefinitionIndex = 76464;
+
 	class MIBPJLAGBLD___c__DisplayClass9_0 : public ::System::Object
 	{
 	public:

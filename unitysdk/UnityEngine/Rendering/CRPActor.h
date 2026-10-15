@@ -20,6 +20,8 @@ namespace UnityEngine { class Renderer; }
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int CRPActor_TypeDefinitionIndex = 4871;
+
 	struct alignas(4) CRPActor
 	{
 		::System::IntPtr actorPtr; // 0x10

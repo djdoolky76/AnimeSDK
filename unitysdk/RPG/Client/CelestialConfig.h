@@ -8,6 +8,8 @@ class OrbitData;
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int CelestialConfig_TypeDefinitionIndex = 69789;
+
 	class CelestialConfig : public ::System::Object
 	{
 	public:

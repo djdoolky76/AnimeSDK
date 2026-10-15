@@ -9,6 +9,8 @@ class KMOOMLFMMEC;
 #define IPKEDJJCLNO_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CF2FFE0)
 #define IPKEDJJCLNO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CF2FFA0)
 
+inline static constexpr unsigned int IPKEDJJCLNO_TypeDefinitionIndex = 21558;
+
 	class IPKEDJJCLNO : public ::RPG::GameCore::TaskConfig
 	{
 	public:

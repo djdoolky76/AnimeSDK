@@ -8,6 +8,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int NewbieGachaPoolData_TypeDefinitionIndex = 64313;
+
 	class NewbieGachaPoolData : public ::RPG::Client::BaseGachaPoolData
 	{
 	public:

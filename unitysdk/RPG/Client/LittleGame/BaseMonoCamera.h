@@ -6,6 +6,8 @@
 
 namespace RPG::Client::LittleGame
 {
+	inline static constexpr unsigned int BaseMonoCamera_TypeDefinitionIndex = 76508;
+
 	class BaseMonoCamera : public ::RPG::Client::LittleGame::BaseMonoGenericView
 	{
 	public:

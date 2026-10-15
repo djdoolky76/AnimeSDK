@@ -9,6 +9,8 @@ namespace RPG::Client::Prop { class DronesPuzzleBoard; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int DronesPuzzleBoard___c__DisplayClass14_0_TypeDefinitionIndex = 78568;
+
 	class DronesPuzzleBoard___c__DisplayClass14_0 : public ::System::Object
 	{
 	public:

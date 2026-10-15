@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int CloudUtils_TypeDefinitionIndex = 59863;
+
 	class CloudUtils : public ::System::Object
 	{
 	public:

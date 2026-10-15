@@ -7,6 +7,8 @@ namespace System { class String; }
 #define NABFBNBJNKK_GET_CANFOCUS_OFFSET UNITYSDK_OFFSET(0xBA52CB0)
 #define NABFBNBJNKK_GET_LABEL_OFFSET UNITYSDK_OFFSET(0xBA52CA0)
 
+inline static constexpr unsigned int NABFBNBJNKK_TypeDefinitionIndex = 73478;
+
 	class NABFBNBJNKK : public ::System::Object
 	{
 	public:

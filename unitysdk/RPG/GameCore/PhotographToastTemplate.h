@@ -10,6 +10,8 @@ namespace RPG::GameCore { class PhotographToastTemplate; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PhotographToastTemplate_TypeDefinitionIndex = 19062;
+
 	class PhotographToastTemplate : public ::RPG::GameCore::JsonConfig
 	{
 	public:

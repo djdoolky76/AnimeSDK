@@ -42,6 +42,8 @@ namespace UnityEngine { class GUIStyle; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int GUILayout_TypeDefinitionIndex = 5173;
+
 	class GUILayout : public ::System::Object
 	{
 	public:

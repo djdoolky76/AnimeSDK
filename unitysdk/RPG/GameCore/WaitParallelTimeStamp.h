@@ -11,6 +11,8 @@ namespace RPG::GameCore { class WaitParallelTimeStamp; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int WaitParallelTimeStamp_TypeDefinitionIndex = 22691;
+
 	class WaitParallelTimeStamp : public ::RPG::GameCore::TaskConfig
 	{
 	public:

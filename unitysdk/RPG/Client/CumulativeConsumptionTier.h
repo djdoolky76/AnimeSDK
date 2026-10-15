@@ -20,6 +20,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int CumulativeConsumptionTier_TypeDefinitionIndex = 63541;
+
 	class CumulativeConsumptionTier : public ::System::Object
 	{
 	public:

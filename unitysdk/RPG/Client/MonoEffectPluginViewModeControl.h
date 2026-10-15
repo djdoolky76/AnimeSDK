@@ -15,6 +15,8 @@ namespace UnityEngine { class Component; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoEffectPluginViewModeControl_TypeDefinitionIndex = 70017;
+
 	class MonoEffectPluginViewModeControl : public ::RPG::Client::MonoEffectPluginBase
 	{
 	public:

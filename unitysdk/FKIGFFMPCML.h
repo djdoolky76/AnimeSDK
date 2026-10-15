@@ -36,6 +36,8 @@ namespace System { class Object; }
 #define FKIGFFMPCML_PDCNDLBCJKO_OFFSET UNITYSDK_OFFSET(0x157FF630)
 #define FKIGFFMPCML__ADDNOTIFYHANDLERS_OFFSET UNITYSDK_OFFSET(0x157FDF90)
 
+inline static constexpr unsigned int FKIGFFMPCML_TypeDefinitionIndex = 64233;
+
 	class FKIGFFMPCML : public ::RPG::Client::BaseModule
 	{
 	public:

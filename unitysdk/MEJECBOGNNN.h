@@ -27,6 +27,8 @@ namespace System { class String; }
 #define MEJECBOGNNN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EA0D090)
 #define MEJECBOGNNN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EA0D0F0)
 
+inline static constexpr unsigned int MEJECBOGNNN_TypeDefinitionIndex = 27106;
+
 	class MEJECBOGNNN : public ::System::Object
 	{
 	public:

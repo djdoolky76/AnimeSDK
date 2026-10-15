@@ -10,6 +10,8 @@ class ODGPPIHLOFF;
 #define LADMLBFFNGL_CCTOR_OFFSET UNITYSDK_OFFSET(0xB5DBBE0)
 #define LADMLBFFNGL_DFJOEAIABMJ_OFFSET UNITYSDK_OFFSET(0xB5DB900)
 
+inline static constexpr unsigned int LADMLBFFNGL_TypeDefinitionIndex = 49206;
+
 	class LADMLBFFNGL : public ::System::Object
 	{
 	public:

@@ -9,6 +9,8 @@ namespace RPG::GameCore { class PenaconyEndmostSimpleTalkData; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PenaconyEndmostSimpleTalkData_TypeDefinitionIndex = 21825;
+
 	class PenaconyEndmostSimpleTalkData : public ::RPG::GameCore::JsonConfig
 	{
 	public:

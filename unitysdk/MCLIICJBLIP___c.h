@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define MCLIICJBLIP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E9FB710)
 #define MCLIICJBLIP___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E9FB720)
 
+inline static constexpr unsigned int MCLIICJBLIP___c_TypeDefinitionIndex = 31905;
+
 	class MCLIICJBLIP___c : public ::System::Object
 	{
 	public:

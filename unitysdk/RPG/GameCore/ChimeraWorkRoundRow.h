@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChimeraWorkRoundRow_TypeDefinitionIndex = 13023;
+
 	class ChimeraWorkRoundRow : public ::System::Object
 	{
 	public:

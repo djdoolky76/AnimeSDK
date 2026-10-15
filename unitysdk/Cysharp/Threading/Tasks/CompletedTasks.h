@@ -8,6 +8,8 @@
 
 namespace Cysharp::Threading::Tasks
 {
+	inline static constexpr unsigned int CompletedTasks_TypeDefinitionIndex = 38362;
+
 	class CompletedTasks : public ::System::Object
 	{
 	public:

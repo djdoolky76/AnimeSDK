@@ -11,6 +11,8 @@ namespace RPG::GameCore { class CheckSkillUsabilityAxis; }
 #define KEIMNPJIHIF_MNAKIEOGPDK_OFFSET UNITYSDK_OFFSET(0xB37B760)
 #define KEIMNPJIHIF_OHEGIKMCAFN_OFFSET UNITYSDK_OFFSET(0xB37B810)
 
+inline static constexpr unsigned int KEIMNPJIHIF_TypeDefinitionIndex = 54373;
+
 	class KEIMNPJIHIF : public ::BEMKNPIFMBI
 	{
 	public:

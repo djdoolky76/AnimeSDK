@@ -11,6 +11,8 @@ namespace System { class String; }
 #define OLDALHKKOJK_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D298620)
 #define OLDALHKKOJK_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D2985E0)
 
+inline static constexpr unsigned int OLDALHKKOJK_TypeDefinitionIndex = 21501;
+
 	class OLDALHKKOJK : public ::RPG::GameCore::TaskConfig
 	{
 	public:

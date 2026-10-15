@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueModifierChangePersonaStyleGiftMaxRerollCoun
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueModifierChangePersonaStyleGiftMaxRerollCountConfig_TypeDefinitionIndex = 17800;
+
 	class RogueModifierChangePersonaStyleGiftMaxRerollCountConfig : public ::RPG::GameCore::RogueModifierConfig
 	{
 	public:

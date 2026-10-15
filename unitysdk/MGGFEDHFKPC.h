@@ -15,6 +15,8 @@ namespace RPG::GameCore { class ThreadTaskConfig; }
 #define MGGFEDHFKPC_ONENABLE_OFFSET UNITYSDK_OFFSET(0xB91CD70)
 #define MGGFEDHFKPC_SET_CONFIG_OFFSET UNITYSDK_OFFSET(0xB91CE00)
 
+inline static constexpr unsigned int MGGFEDHFKPC_TypeDefinitionIndex = 71078;
+
 	class MGGFEDHFKPC
 	{
 	public:

@@ -13,6 +13,8 @@ namespace UnityEngine::UI { class SmoothMask; }
 
 namespace RPG::Client::LimaoNews
 {
+	inline static constexpr unsigned int LimaoNewsIssueNumberControl_TypeDefinitionIndex = 80391;
+
 	class LimaoNewsIssueNumberControl : public ::Sofa::BaseSofaControl
 	{
 	public:

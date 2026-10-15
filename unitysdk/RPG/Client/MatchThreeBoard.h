@@ -192,6 +192,8 @@ namespace UnityEngine::EventSystems { class PointerEventData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MatchThreeBoard_TypeDefinitionIndex = 65900;
+
 	class MatchThreeBoard : public ::UnityEngine::MonoBehaviour
 	{
 	public:

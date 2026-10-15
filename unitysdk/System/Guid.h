@@ -51,6 +51,8 @@ namespace System::Security::Cryptography { class RandomNumberGenerator; }
 
 namespace System
 {
+	inline static constexpr unsigned int Guid_TypeDefinitionIndex = 267;
+
 	struct alignas(4) Guid
 	{
 		::System::Int32 _a; // 0x10

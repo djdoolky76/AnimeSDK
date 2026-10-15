@@ -37,6 +37,8 @@ namespace System::Collections::Generic { template <typename T> class Queue_1; }
 #define JEIFBCPKIDA_OEFPBEBMEFC_OFFSET UNITYSDK_OFFSET(0x16629520)
 #define JEIFBCPKIDA_OODNAEEEEEM_OFFSET UNITYSDK_OFFSET(0x16629CC0)
 
+inline static constexpr unsigned int JEIFBCPKIDA_TypeDefinitionIndex = 78063;
+
 	class JEIFBCPKIDA : public ::System::Object
 	{
 	public:

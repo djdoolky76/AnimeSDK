@@ -10,6 +10,8 @@ namespace RPG::GameCore { class SetFollowLightDeviceDamp; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetFollowLightDeviceDamp_TypeDefinitionIndex = 22341;
+
 	class SetFollowLightDeviceDamp : public ::RPG::GameCore::TaskConfig
 	{
 	public:

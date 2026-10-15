@@ -26,6 +26,8 @@ namespace UnityEngine { class Collider; }
 
 namespace Cinemachine
 {
+	inline static constexpr unsigned int CinemachineConfiner_TypeDefinitionIndex = 39730;
+
 	class CinemachineConfiner : public ::Cinemachine::CinemachineExtension
 	{
 	public:

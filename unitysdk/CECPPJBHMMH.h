@@ -31,6 +31,8 @@ namespace System { class String; }
 #define CECPPJBHMMH_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E08F1F0)
 #define CECPPJBHMMH_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E08F250)
 
+inline static constexpr unsigned int CECPPJBHMMH_TypeDefinitionIndex = 29698;
+
 	class CECPPJBHMMH : public ::System::Object
 	{
 	public:

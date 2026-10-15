@@ -20,6 +20,8 @@ namespace UnityEngine { class Transform; }
 #define BOKOFFJDGFA_TOSTRING_OFFSET UNITYSDK_OFFSET(0xC1950B0)
 #define BOKOFFJDGFA__CLONE___OFFSET UNITYSDK_OFFSET(0xC195A50)
 
+inline static constexpr unsigned int BOKOFFJDGFA_TypeDefinitionIndex = 49725;
+
 	class BOKOFFJDGFA : public ::System::Object
 	{
 	public:

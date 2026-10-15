@@ -11,6 +11,8 @@
 
 namespace MiHoYo::SDK::ReporterUtil
 {
+	inline static constexpr unsigned int AvgResult_TypeDefinitionIndex = 46640;
+
 	class AvgResult : public ::System::Object
 	{
 	public:

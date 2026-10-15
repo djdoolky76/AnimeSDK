@@ -7,6 +7,8 @@ namespace UnityEngine { class Transform; }
 
 #define GBJCIJBLDIG_CTOR_OFFSET UNITYSDK_OFFSET(0x159513B0)
 
+inline static constexpr unsigned int GBJCIJBLDIG_TypeDefinitionIndex = 59912;
+
 	class GBJCIJBLDIG : public ::System::Object
 	{
 	public:

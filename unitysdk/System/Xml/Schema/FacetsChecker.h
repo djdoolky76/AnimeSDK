@@ -33,6 +33,8 @@ namespace System::Xml::Schema { class XmlSchemaDatatype; }
 
 namespace System::Xml::Schema
 {
+	inline static constexpr unsigned int FacetsChecker_TypeDefinitionIndex = 2155;
+
 	class FacetsChecker : public ::System::Object
 	{
 	public:

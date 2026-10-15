@@ -12,6 +12,8 @@ namespace System::Net { class SimpleAsyncResult; }
 
 namespace System::Net
 {
+	inline static constexpr unsigned int SimpleAsyncResult___c__DisplayClass11_0_TypeDefinitionIndex = 2879;
+
 	class SimpleAsyncResult___c__DisplayClass11_0 : public ::System::Object
 	{
 	public:

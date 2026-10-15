@@ -6,6 +6,8 @@
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int RecordEffectTimelineTrack_TypeDefinitionIndex = 48476;
+
 	class RecordEffectTimelineTrack : public ::UnityEngine::Timeline::TrackAsset
 	{
 	public:

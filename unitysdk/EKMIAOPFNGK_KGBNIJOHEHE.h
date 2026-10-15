@@ -6,6 +6,8 @@ namespace UnityEngine { class Transform; }
 
 #define EKMIAOPFNGK_KGBNIJOHEHE_CTOR_OFFSET UNITYSDK_OFFSET(0x1550D880)
 
+inline static constexpr unsigned int EKMIAOPFNGK_KGBNIJOHEHE_TypeDefinitionIndex = 68449;
+
 	class EKMIAOPFNGK_KGBNIJOHEHE : public ::System::Object
 	{
 	public:

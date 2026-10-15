@@ -7,6 +7,8 @@ class OMAOANEABAP;
 #define OMAOANEABAP_CTOR_OFFSET UNITYSDK_OFFSET(0x1D29D290)
 #define OMAOANEABAP_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D29D120)
 
+inline static constexpr unsigned int OMAOANEABAP_TypeDefinitionIndex = 12894;
+
 	class OMAOANEABAP : public ::System::Object
 	{
 	public:

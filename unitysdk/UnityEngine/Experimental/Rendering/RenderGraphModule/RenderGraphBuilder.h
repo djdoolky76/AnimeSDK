@@ -18,6 +18,8 @@ namespace UnityEngine::Experimental::Rendering::RenderGraphModule { class Render
 
 namespace UnityEngine::Experimental::Rendering::RenderGraphModule
 {
+	inline static constexpr unsigned int RenderGraphBuilder_TypeDefinitionIndex = 35454;
+
 	struct alignas(8) RenderGraphBuilder
 	{
 		::UnityEngine::Experimental::Rendering::RenderGraphModule::RenderGraph_RenderPass* m_RenderPass; // 0x10

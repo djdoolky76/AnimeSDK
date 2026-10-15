@@ -4,6 +4,8 @@
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int DeformationSetting_TypeDefinitionIndex = 4280;
+
 	struct alignas(4) DeformationSetting
 	{
 		::System::Single MaxZExtent; // 0x10

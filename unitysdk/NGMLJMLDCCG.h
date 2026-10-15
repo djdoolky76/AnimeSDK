@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define NGMLJMLDCCG_HNHKBFLDBJI_OFFSET UNITYSDK_OFFSET(0xBBAF770)
 #define NGMLJMLDCCG_KCIEEJPFOCM_OFFSET UNITYSDK_OFFSET(0xBBAF810)
 
+inline static constexpr unsigned int NGMLJMLDCCG_TypeDefinitionIndex = 71464;
+
 	class NGMLJMLDCCG : public ::System::Object
 	{
 	public:

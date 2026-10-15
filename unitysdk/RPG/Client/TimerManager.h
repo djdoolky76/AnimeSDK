@@ -20,6 +20,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TimerManager_TypeDefinitionIndex = 68311;
+
 	class TimerManager : public ::System::Object
 	{
 	public:

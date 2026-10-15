@@ -11,6 +11,8 @@
 #define FMBAOAEHEPM_MEMFNCNBIPD_OFFSET UNITYSDK_OFFSET(0x15847850)
 #define FMBAOAEHEPM_OBIKIDCNEPI_OFFSET UNITYSDK_OFFSET(0x158477C0)
 
+inline static constexpr unsigned int FMBAOAEHEPM_TypeDefinitionIndex = 73282;
+
 	class FMBAOAEHEPM : public ::System::Object
 	{
 	public:

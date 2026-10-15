@@ -43,6 +43,8 @@ namespace System { class String; }
 
 namespace RPG::Client::ActivityFinalityBattle::Entrance
 {
+	inline static constexpr unsigned int FinalityBattleEntranceBattleItemViewModel_TypeDefinitionIndex = 82077;
+
 	class FinalityBattleEntranceBattleItemViewModel : public ::Sofa::BaseViewModel
 	{
 	public:

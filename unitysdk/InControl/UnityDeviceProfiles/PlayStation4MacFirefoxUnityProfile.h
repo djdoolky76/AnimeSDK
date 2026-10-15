@@ -7,6 +7,8 @@
 
 namespace InControl::UnityDeviceProfiles
 {
+	inline static constexpr unsigned int PlayStation4MacFirefoxUnityProfile_TypeDefinitionIndex = 41048;
+
 	class PlayStation4MacFirefoxUnityProfile : public ::InControl::InputDeviceProfile
 	{
 	public:

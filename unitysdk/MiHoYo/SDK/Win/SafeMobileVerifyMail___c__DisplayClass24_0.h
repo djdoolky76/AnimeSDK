@@ -9,6 +9,8 @@ namespace MiHoYo::SDK::Win { class SafeMobileVerifyMail; }
 
 namespace MiHoYo::SDK::Win
 {
+	inline static constexpr unsigned int SafeMobileVerifyMail___c__DisplayClass24_0_TypeDefinitionIndex = 9493;
+
 	class SafeMobileVerifyMail___c__DisplayClass24_0 : public ::System::Object
 	{
 	public:

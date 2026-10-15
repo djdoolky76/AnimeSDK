@@ -30,6 +30,8 @@ namespace System { class String; }
 #define AAOABMHALOJ_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DDC2840)
 #define AAOABMHALOJ_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DDC28A0)
 
+inline static constexpr unsigned int AAOABMHALOJ_TypeDefinitionIndex = 26105;
+
 	class AAOABMHALOJ : public ::System::Object
 	{
 	public:

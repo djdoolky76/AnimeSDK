@@ -13,6 +13,8 @@ namespace System::Runtime::CompilerServices { template <typename T> class Strong
 
 namespace System::Linq::Expressions::Interpreter
 {
+	inline static constexpr unsigned int StringSwitchInstruction_TypeDefinitionIndex = 3340;
+
 	class StringSwitchInstruction : public ::System::Linq::Expressions::Interpreter::Instruction
 	{
 	public:

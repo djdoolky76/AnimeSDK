@@ -8,6 +8,8 @@ namespace System { class Object; }
 
 namespace System::Net
 {
+	inline static constexpr unsigned int Comparer_TypeDefinitionIndex = 2799;
+
 	class Comparer : public ::System::Object
 	{
 	public:

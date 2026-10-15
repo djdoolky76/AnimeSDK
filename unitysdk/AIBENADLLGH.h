@@ -25,6 +25,8 @@ namespace System { class String; }
 #define AIBENADLLGH_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E279010)
 #define AIBENADLLGH_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E279070)
 
+inline static constexpr unsigned int AIBENADLLGH_TypeDefinitionIndex = 30451;
+
 	class AIBENADLLGH : public ::System::Object
 	{
 	public:

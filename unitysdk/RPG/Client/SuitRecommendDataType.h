@@ -3,6 +3,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int SuitRecommendDataType_TypeDefinitionIndex = 66893;
+
 	enum class SuitRecommendDataType : ::System::Int32
 	{
 		BigData = 1,

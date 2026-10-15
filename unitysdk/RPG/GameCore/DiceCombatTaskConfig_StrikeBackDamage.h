@@ -12,6 +12,8 @@ namespace RPG::GameCore { class DiceCombatTaskConfig_StrikeBackDamage; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DiceCombatTaskConfig_StrikeBackDamage_TypeDefinitionIndex = 16051;
+
 	class DiceCombatTaskConfig_StrikeBackDamage : public ::RPG::GameCore::DiceCombatTaskConfig
 	{
 	public:

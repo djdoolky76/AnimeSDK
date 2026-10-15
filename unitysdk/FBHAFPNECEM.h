@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define FBHAFPNECEM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1569DF70)
 #define FBHAFPNECEM_PKLMBPFCMOH_OFFSET UNITYSDK_OFFSET(0x1569E0B0)
 
+inline static constexpr unsigned int FBHAFPNECEM_TypeDefinitionIndex = 52948;
+
 	class FBHAFPNECEM
 	{
 	public:

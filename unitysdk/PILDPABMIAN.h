@@ -7,6 +7,8 @@ namespace RPG::GameCore { class MarbleByTeamOnFieldCount; }
 #define PILDPABMIAN_CTOR_OFFSET UNITYSDK_OFFSET(0x1C9E9810)
 #define PILDPABMIAN_KHNFOOKHOJF_OFFSET UNITYSDK_OFFSET(0x1C9E9830)
 
+inline static constexpr unsigned int PILDPABMIAN_TypeDefinitionIndex = 43155;
+
 	class PILDPABMIAN : public ::LHJPMDPJPEC
 	{
 	public:

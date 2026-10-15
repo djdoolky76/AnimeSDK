@@ -8,6 +8,8 @@ class LBGEDAJEBCC;
 #define LBGEDAJEBCC_CTOR_OFFSET UNITYSDK_OFFSET(0x1D0D6180)
 #define LBGEDAJEBCC_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D0D6030)
 
+inline static constexpr unsigned int LBGEDAJEBCC_TypeDefinitionIndex = 13668;
+
 	class LBGEDAJEBCC : public ::System::Object
 	{
 	public:

@@ -5,6 +5,8 @@ namespace System { class String; }
 
 #define FCMCFKJCAPA_CTOR_OFFSET UNITYSDK_OFFSET(0x156CE970)
 
+inline static constexpr unsigned int FCMCFKJCAPA_TypeDefinitionIndex = 52052;
+
 	class FCMCFKJCAPA : public ::System::Attribute
 	{
 	public:

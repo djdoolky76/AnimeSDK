@@ -31,6 +31,8 @@ namespace System { class String; }
 #define CMFIANLCNEA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E100E10)
 #define CMFIANLCNEA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E100E70)
 
+inline static constexpr unsigned int CMFIANLCNEA_TypeDefinitionIndex = 31950;
+
 	class CMFIANLCNEA : public ::System::Object
 	{
 	public:

@@ -13,6 +13,8 @@ namespace RPG::AvatarSystem { class IAvatar; }
 #define ADACHIJCKMB_GKDCFFAAMBC_OFFSET UNITYSDK_OFFSET(0xB133910)
 #define ADACHIJCKMB_ODEBFADAKFA_OFFSET UNITYSDK_OFFSET(0xB1334F0)
 
+inline static constexpr unsigned int ADACHIJCKMB_TypeDefinitionIndex = 62858;
+
 	class ADACHIJCKMB : public ::System::Object
 	{
 	public:

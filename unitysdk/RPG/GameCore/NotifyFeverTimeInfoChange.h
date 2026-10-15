@@ -14,6 +14,8 @@ namespace RPG::GameCore { class NotifyFeverTimeInfoChange; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int NotifyFeverTimeInfoChange_TypeDefinitionIndex = 23253;
+
 	class NotifyFeverTimeInfoChange : public ::RPG::GameCore::TaskConfig
 	{
 	public:

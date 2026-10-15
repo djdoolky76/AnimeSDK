@@ -18,6 +18,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 #define CPGIAIBIFLI_LCJMKJPECAP_OFFSET UNITYSDK_OFFSET(0xDCD4F50)
 #define CPGIAIBIFLI_MKIKLBPGFGI_OFFSET UNITYSDK_OFFSET(0xDCD5240)
 
+inline static constexpr unsigned int CPGIAIBIFLI_TypeDefinitionIndex = 48871;
+
 	class CPGIAIBIFLI : public ::System::Object
 	{
 	public:

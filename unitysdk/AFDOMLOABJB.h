@@ -27,6 +27,8 @@ namespace System { class String; }
 #define AFDOMLOABJB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E116650)
 #define AFDOMLOABJB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E1166B0)
 
+inline static constexpr unsigned int AFDOMLOABJB_TypeDefinitionIndex = 32128;
+
 	class AFDOMLOABJB : public ::System::Object
 	{
 	public:

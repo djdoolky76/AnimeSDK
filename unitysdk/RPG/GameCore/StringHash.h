@@ -16,6 +16,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int StringHash_TypeDefinitionIndex = 10875;
+
 	struct alignas(4) StringHash
 	{
 		::System::Int32 Hash; // 0x10

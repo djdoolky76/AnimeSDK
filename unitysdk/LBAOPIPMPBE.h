@@ -8,6 +8,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define LBAOPIPMPBE_ONSKIP_OFFSET UNITYSDK_OFFSET(0xB5EE0A0)
 #define LBAOPIPMPBE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB5EDFC0)
 
+inline static constexpr unsigned int LBAOPIPMPBE_TypeDefinitionIndex = 52358;
+
 	class LBAOPIPMPBE
 	{
 	public:

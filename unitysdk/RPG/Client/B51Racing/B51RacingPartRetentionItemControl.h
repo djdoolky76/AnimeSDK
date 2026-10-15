@@ -16,6 +16,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client::B51Racing
 {
+	inline static constexpr unsigned int B51RacingPartRetentionItemControl_TypeDefinitionIndex = 81794;
+
 	class B51RacingPartRetentionItemControl : public ::Sofa::BaseSofaControl
 	{
 	public:

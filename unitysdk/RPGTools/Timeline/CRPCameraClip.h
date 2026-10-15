@@ -15,6 +15,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int CRPCameraClip_TypeDefinitionIndex = 47886;
+
 	class CRPCameraClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:

@@ -30,6 +30,8 @@ namespace System { class String; }
 #define OPHOAKJPGFE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DEE1B10)
 #define OPHOAKJPGFE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DEE1B70)
 
+inline static constexpr unsigned int OPHOAKJPGFE_TypeDefinitionIndex = 31231;
+
 	class OPHOAKJPGFE : public ::System::Object
 	{
 	public:

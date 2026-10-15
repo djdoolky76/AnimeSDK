@@ -7,6 +7,8 @@ namespace System { class Object; }
 #define FOBOPNHIHMC_GAOJGOJPCOJ_OFFSET UNITYSDK_OFFSET(0x158E13B0)
 #define FOBOPNHIHMC__ADDPACKETHANDLERS_OFFSET UNITYSDK_OFFSET(0x158E1290)
 
+inline static constexpr unsigned int FOBOPNHIHMC_TypeDefinitionIndex = 63530;
+
 	class FOBOPNHIHMC : public ::RPG::Client::BaseModule
 	{
 	public:

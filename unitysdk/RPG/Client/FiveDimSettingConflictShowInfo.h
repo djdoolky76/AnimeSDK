@@ -17,6 +17,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int FiveDimSettingConflictShowInfo_TypeDefinitionIndex = 64214;
+
 	class FiveDimSettingConflictShowInfo : public ::System::Object
 	{
 	public:

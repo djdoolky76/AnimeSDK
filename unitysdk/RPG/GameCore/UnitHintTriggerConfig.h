@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int UnitHintTriggerConfig_TypeDefinitionIndex = 17601;
+
 	class UnitHintTriggerConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

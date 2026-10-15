@@ -10,6 +10,8 @@ namespace RPG::GameCore { class IsometricEnableClusterLighting; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int IsometricEnableClusterLighting_TypeDefinitionIndex = 22210;
+
 	class IsometricEnableClusterLighting : public ::RPG::GameCore::TaskConfig
 	{
 	public:

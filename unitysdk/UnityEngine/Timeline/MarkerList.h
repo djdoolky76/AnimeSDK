@@ -28,6 +28,8 @@ namespace UnityEngine::Timeline { class TrackAsset; }
 
 namespace UnityEngine::Timeline
 {
+	inline static constexpr unsigned int MarkerList_TypeDefinitionIndex = 38829;
+
 	struct alignas(8) MarkerList
 	{
 		::System::Collections::Generic::List_1<::UnityEngine::ScriptableObject*>* m_Objects; // 0x10

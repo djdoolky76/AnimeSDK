@@ -8,6 +8,8 @@ namespace System { class Object; }
 
 namespace RPG::Client::Challenge::Tierce
 {
+	inline static constexpr unsigned int ChallengeTierceStageSelectControlBase___c_TypeDefinitionIndex = 81550;
+
 	class ChallengeTierceStageSelectControlBase___c : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace System { template <typename T> class Func_1; }
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int DebugUI_Value_TypeDefinitionIndex = 35550;
+
 	class DebugUI_Value : public ::UnityEngine::Rendering::DebugUI_Widget
 	{
 	public:

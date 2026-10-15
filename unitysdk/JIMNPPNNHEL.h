@@ -41,6 +41,8 @@ namespace System { class String; }
 #define JIMNPPNNHEL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E751B80)
 #define JIMNPPNNHEL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E751BE0)
 
+inline static constexpr unsigned int JIMNPPNNHEL_TypeDefinitionIndex = 28285;
+
 	class JIMNPPNNHEL : public ::System::Object
 	{
 	public:

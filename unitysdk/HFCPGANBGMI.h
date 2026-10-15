@@ -29,6 +29,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define HFCPGANBGMI_SET_SERVICES_OFFSET UNITYSDK_OFFSET(0x1CAC8170)
 #define HFCPGANBGMI_SET__CURRENTSTATEINSTANCE_OFFSET UNITYSDK_OFFSET(0x1CAC81F0)
 
+inline static constexpr unsigned int HFCPGANBGMI_TypeDefinitionIndex = 43661;
+
 	class HFCPGANBGMI : public ::System::Object
 	{
 	public:

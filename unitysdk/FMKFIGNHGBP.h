@@ -6,6 +6,8 @@ namespace RPG::Client::ChenLingBattle { class ChenLingBattleGameContext; }
 #define FMKFIGNHGBP_CTOR_OFFSET UNITYSDK_OFFSET(0x15860E80)
 #define FMKFIGNHGBP_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x15860D00)
 
+inline static constexpr unsigned int FMKFIGNHGBP_TypeDefinitionIndex = 76258;
+
 	class FMKFIGNHGBP : public ::MLKDDLHNNHH
 	{
 	public:

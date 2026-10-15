@@ -31,6 +31,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 #define GCHGOOJFCFP_NDLAPNBKJMF_OFFSET UNITYSDK_OFFSET(0x1596B7D0)
 #define GCHGOOJFCFP_OLBABNNMKGN_OFFSET UNITYSDK_OFFSET(0x1596E9C0)
 
+inline static constexpr unsigned int GCHGOOJFCFP_TypeDefinitionIndex = 78089;
+
 	class GCHGOOJFCFP : public ::System::Object
 	{
 	public:

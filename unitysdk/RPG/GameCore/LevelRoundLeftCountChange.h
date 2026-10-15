@@ -11,6 +11,8 @@ namespace RPG::GameCore { class LevelRoundLeftCountChange; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelRoundLeftCountChange_TypeDefinitionIndex = 56815;
+
 	class LevelRoundLeftCountChange : public ::CMPGEAFHHDC
 	{
 	public:

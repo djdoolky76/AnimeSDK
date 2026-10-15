@@ -30,6 +30,8 @@ namespace System { class String; }
 #define GBHIPKDIMMH_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E42BED0)
 #define GBHIPKDIMMH_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E42BF30)
 
+inline static constexpr unsigned int GBHIPKDIMMH_TypeDefinitionIndex = 34694;
+
 	class GBHIPKDIMMH : public ::System::Object
 	{
 	public:

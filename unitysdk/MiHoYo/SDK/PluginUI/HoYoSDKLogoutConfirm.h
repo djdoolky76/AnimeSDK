@@ -13,6 +13,8 @@ namespace MiHoYo::SDK::PluginUI { class HoYoSDKLogoutConfirm; }
 
 namespace MiHoYo::SDK::PluginUI
 {
+	inline static constexpr unsigned int HoYoSDKLogoutConfirm_TypeDefinitionIndex = 46759;
+
 	class HoYoSDKLogoutConfirm : public ::MiHoYo::SDK::PluginUI::MiHoYoSDKUIContainer
 	{
 	public:

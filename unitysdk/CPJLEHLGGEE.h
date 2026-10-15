@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TriggerPermanentEmotion; }
 #define CPJLEHLGGEE_CTOR_OFFSET UNITYSDK_OFFSET(0xDCD7730)
 #define CPJLEHLGGEE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xDCD7760)
 
+inline static constexpr unsigned int CPJLEHLGGEE_TypeDefinitionIndex = 55905;
+
 	class CPJLEHLGGEE
 	{
 	public:

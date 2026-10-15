@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define IDGMALDABBE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E62BE40)
 #define IDGMALDABBE___C___CCTOR_B__43_0_OFFSET UNITYSDK_OFFSET(0x1E62BE50)
 
+inline static constexpr unsigned int IDGMALDABBE___c_TypeDefinitionIndex = 27613;
+
 	class IDGMALDABBE___c : public ::System::Object
 	{
 	public:

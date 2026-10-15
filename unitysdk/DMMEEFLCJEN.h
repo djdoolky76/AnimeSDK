@@ -16,6 +16,8 @@ namespace UnityEngine { class Transform; }
 #define DMMEEFLCJEN_NJBDJBHEBAN_OFFSET UNITYSDK_OFFSET(0xFEC52A0)
 #define DMMEEFLCJEN_NKPPGDENJAE_OFFSET UNITYSDK_OFFSET(0xFEC53F0)
 
+inline static constexpr unsigned int DMMEEFLCJEN_TypeDefinitionIndex = 71638;
+
 	class DMMEEFLCJEN : public ::System::Object
 	{
 	public:

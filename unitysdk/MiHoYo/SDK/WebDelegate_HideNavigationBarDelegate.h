@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int WebDelegate_HideNavigationBarDelegate_TypeDefinitionIndex = 7828;
+
 	class WebDelegate_HideNavigationBarDelegate : public ::System::MulticastDelegate
 	{
 	public:

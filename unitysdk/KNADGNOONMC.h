@@ -8,6 +8,8 @@
 #define KNADGNOONMC_SET_ID_OFFSET UNITYSDK_OFFSET(0xB575C70)
 #define KNADGNOONMC_SET_STAGEID_OFFSET UNITYSDK_OFFSET(0xB575C90)
 
+inline static constexpr unsigned int KNADGNOONMC_TypeDefinitionIndex = 63843;
+
 	class KNADGNOONMC : public ::System::Object
 	{
 	public:

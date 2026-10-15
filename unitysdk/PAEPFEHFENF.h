@@ -8,6 +8,8 @@ class POEGKFEADIE;
 #define PAEPFEHFENF_EXECUTE_OFFSET UNITYSDK_OFFSET(0xBFC6EF0)
 #define PAEPFEHFENF_KKKIONIDKFA_OFFSET UNITYSDK_OFFSET(0xBFC6E30)
 
+inline static constexpr unsigned int PAEPFEHFENF_TypeDefinitionIndex = 54309;
+
 	class PAEPFEHFENF : public ::GOIIMBFKMJC
 	{
 	public:

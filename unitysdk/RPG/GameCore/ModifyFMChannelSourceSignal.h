@@ -12,6 +12,8 @@ namespace RPG::GameCore { class ModifyFMChannelSourceSignal; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ModifyFMChannelSourceSignal_TypeDefinitionIndex = 20576;
+
 	class ModifyFMChannelSourceSignal : public ::RPG::GameCore::TaskConfig
 	{
 	public:

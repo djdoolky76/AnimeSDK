@@ -12,6 +12,8 @@ namespace RPG::GameCore { class FiveDimSwitchPlatformConfig; }
 #define HAOHHNKPNCP_INNDIDIFCAC_OFFSET UNITYSDK_OFFSET(0x1CAB5B10)
 #define HAOHHNKPNCP_MAHONBMLJMP_OFFSET UNITYSDK_OFFSET(0x1CAB5C60)
 
+inline static constexpr unsigned int HAOHHNKPNCP_TypeDefinitionIndex = 42761;
+
 	class HAOHHNKPNCP : public ::System::Object
 	{
 	public:

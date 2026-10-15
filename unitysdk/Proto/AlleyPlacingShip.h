@@ -33,6 +33,8 @@ namespace System { class String; }
 
 namespace Proto
 {
+	inline static constexpr unsigned int AlleyPlacingShip_TypeDefinitionIndex = 26214;
+
 	class AlleyPlacingShip : public ::System::Object
 	{
 	public:

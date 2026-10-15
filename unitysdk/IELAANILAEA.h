@@ -18,6 +18,8 @@ namespace UnityEngine { class Mesh; }
 #define IELAANILAEA_ODLNKAKGMLL_OFFSET UNITYSDK_OFFSET(0x15F03700)
 #define IELAANILAEA_PBDOMIINHOP_OFFSET UNITYSDK_OFFSET(0x15F02870)
 
+inline static constexpr unsigned int IELAANILAEA_TypeDefinitionIndex = 48921;
+
 	class IELAANILAEA : public ::System::Object
 	{
 	public:

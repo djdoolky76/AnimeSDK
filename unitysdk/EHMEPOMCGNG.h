@@ -30,6 +30,8 @@ namespace System { class String; }
 #define EHMEPOMCGNG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E2A21B0)
 #define EHMEPOMCGNG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E2A2210)
 
+inline static constexpr unsigned int EHMEPOMCGNG_TypeDefinitionIndex = 25752;
+
 	class EHMEPOMCGNG : public ::System::Object
 	{
 	public:

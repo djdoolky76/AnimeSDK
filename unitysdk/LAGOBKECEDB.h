@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int LAGOBKECEDB_TypeDefinitionIndex = 34512;
+
 	enum class LAGOBKECEDB : ::System::Int32
 	{
 		MNPGFLPBDLK = 0,

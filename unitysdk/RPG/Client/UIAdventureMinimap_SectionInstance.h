@@ -9,6 +9,8 @@ namespace UnityEngine::UI { class Image; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int UIAdventureMinimap_SectionInstance_TypeDefinitionIndex = 69066;
+
 	class UIAdventureMinimap_SectionInstance : public ::System::Object
 	{
 	public:

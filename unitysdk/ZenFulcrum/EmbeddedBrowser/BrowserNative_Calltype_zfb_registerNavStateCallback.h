@@ -13,6 +13,8 @@ namespace ZenFulcrum::EmbeddedBrowser { class BrowserNative_NavStateFunc; }
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
+	inline static constexpr unsigned int BrowserNative_Calltype_zfb_registerNavStateCallback_TypeDefinitionIndex = 39431;
+
 	class BrowserNative_Calltype_zfb_registerNavStateCallback : public ::System::MulticastDelegate
 	{
 	public:

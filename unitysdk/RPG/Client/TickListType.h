@@ -3,6 +3,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TickListType_TypeDefinitionIndex = 70151;
+
 	enum class TickListType : ::System::Int32
 	{
 		Tick = 0,

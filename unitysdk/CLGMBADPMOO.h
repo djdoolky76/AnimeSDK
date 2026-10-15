@@ -18,6 +18,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define CLGMBADPMOO_PDKLDMNAJBO_OFFSET UNITYSDK_OFFSET(0xD780320)
 #define CLGMBADPMOO_PKDCCLKHNOO_OFFSET UNITYSDK_OFFSET(0xD77FC40)
 
+inline static constexpr unsigned int CLGMBADPMOO_TypeDefinitionIndex = 80509;
+
 	class CLGMBADPMOO : public ::System::Object
 	{
 	public:

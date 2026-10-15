@@ -11,6 +11,8 @@ class WwiseStateGroupReference;
 #define WWISESTATEREFERENCE_GET_WWISEOBJECTTYPE_OFFSET UNITYSDK_OFFSET(0x1F637270)
 #define WWISESTATEREFERENCE_SET_GROUPOBJECTREFERENCE_OFFSET UNITYSDK_OFFSET(0x1F637290)
 
+inline static constexpr unsigned int WwiseStateReference_TypeDefinitionIndex = 44890;
+
 	class WwiseStateReference : public ::WwiseGroupValueObjectReference
 	{
 	public:

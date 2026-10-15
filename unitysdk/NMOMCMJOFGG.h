@@ -28,6 +28,8 @@ namespace System { class String; }
 #define NMOMCMJOFGG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EB7ACD0)
 #define NMOMCMJOFGG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EB7AD30)
 
+inline static constexpr unsigned int NMOMCMJOFGG_TypeDefinitionIndex = 28748;
+
 	class NMOMCMJOFGG : public ::System::Object
 	{
 	public:

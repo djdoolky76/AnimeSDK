@@ -50,6 +50,8 @@ namespace System { class String; }
 #define GFANCGGPKPD__INITCOMPONENT_B__0_1_OFFSET UNITYSDK_OFFSET(0x159E86F0)
 #define GFANCGGPKPD__INITCOMPONENT_B__0_2_OFFSET UNITYSDK_OFFSET(0x159E8730)
 
+inline static constexpr unsigned int GFANCGGPKPD_TypeDefinitionIndex = 73316;
+
 	class GFANCGGPKPD : public ::RPG::GameCore::GameComponentBase
 	{
 	public:

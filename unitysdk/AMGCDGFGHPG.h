@@ -4,6 +4,8 @@
 
 #define AMGCDGFGHPG_CTOR_OFFSET UNITYSDK_OFFSET(0x1557CB60)
 
+inline static constexpr unsigned int AMGCDGFGHPG_TypeDefinitionIndex = 59669;
+
 	class AMGCDGFGHPG : public ::System::Object
 	{
 	public:

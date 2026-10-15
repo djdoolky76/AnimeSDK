@@ -83,6 +83,8 @@ namespace XLua { class LuaTable; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightTutorialManager_TypeDefinitionIndex = 65508;
+
 	class GridFightTutorialManager : public ::System::Object
 	{
 	public:

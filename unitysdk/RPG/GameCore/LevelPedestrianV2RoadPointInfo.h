@@ -10,6 +10,8 @@ namespace RPG::GameCore { class LevelPedestrianV2RoadPointInfo; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelPedestrianV2RoadPointInfo_TypeDefinitionIndex = 17289;
+
 	class LevelPedestrianV2RoadPointInfo : public ::RPG::GameCore::JsonConfig
 	{
 	public:

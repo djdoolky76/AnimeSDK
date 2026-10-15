@@ -18,6 +18,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoEffectPluginCtrlCamera_TypeDefinitionIndex = 70051;
+
 	class MonoEffectPluginCtrlCamera : public ::RPG::Client::MonoEffectPluginBase
 	{
 	public:

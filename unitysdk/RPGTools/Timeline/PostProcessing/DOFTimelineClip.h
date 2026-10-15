@@ -14,6 +14,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPGTools::Timeline::PostProcessing
 {
+	inline static constexpr unsigned int DOFTimelineClip_TypeDefinitionIndex = 48564;
+
 	class DOFTimelineClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:

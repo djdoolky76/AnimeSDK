@@ -7,6 +7,8 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 
 namespace Cysharp::Threading::Tasks::Linq
 {
+	inline static constexpr unsigned int DistinctAwaitWithCancellation_2__DistinctAwaitWithCancellation_TypeDefinitionIndex = 45343;
+
 	template <typename T1, typename T2>
 	class DistinctAwaitWithCancellation_2__DistinctAwaitWithCancellation
 	{

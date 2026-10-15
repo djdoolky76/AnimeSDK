@@ -10,6 +10,8 @@ namespace RPG::GameCore { class VideoEncryptionConfigRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int VideoEncryptionConfigRow_TypeDefinitionIndex = 15419;
+
 	class VideoEncryptionConfigRow : public ::System::Object
 	{
 	public:

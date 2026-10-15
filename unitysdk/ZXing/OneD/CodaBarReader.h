@@ -7,6 +7,8 @@
 
 namespace ZXing::OneD
 {
+	inline static constexpr unsigned int CodaBarReader_TypeDefinitionIndex = 6978;
+
 	class CodaBarReader : public ::ZXing::OneD::OneDReader
 	{
 	public:

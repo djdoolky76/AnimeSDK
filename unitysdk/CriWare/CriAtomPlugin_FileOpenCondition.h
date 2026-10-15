@@ -8,6 +8,8 @@
 
 namespace CriWare
 {
+	inline static constexpr unsigned int CriAtomPlugin_FileOpenCondition_TypeDefinitionIndex = 39930;
+
 	struct alignas(4) CriAtomPlugin_FileOpenCondition
 	{
 		::System::Int32 freeBindsCount; // 0x10

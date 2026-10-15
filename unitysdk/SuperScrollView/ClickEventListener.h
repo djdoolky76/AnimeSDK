@@ -19,6 +19,8 @@ namespace UnityEngine::EventSystems { class PointerEventData; }
 
 namespace SuperScrollView
 {
+	inline static constexpr unsigned int ClickEventListener_TypeDefinitionIndex = 47627;
+
 	class ClickEventListener : public ::UnityEngine::MonoBehaviour
 	{
 	public:

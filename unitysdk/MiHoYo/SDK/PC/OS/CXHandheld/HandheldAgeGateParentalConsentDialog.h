@@ -44,6 +44,8 @@ namespace UnityEngine::UI { class InputField; }
 
 namespace MiHoYo::SDK::PC::OS::CXHandheld
 {
+	inline static constexpr unsigned int HandheldAgeGateParentalConsentDialog_TypeDefinitionIndex = 8787;
+
 	class HandheldAgeGateParentalConsentDialog : public ::MiHoYo::SDK::Console::ConsoleDialogBase
 	{
 	public:

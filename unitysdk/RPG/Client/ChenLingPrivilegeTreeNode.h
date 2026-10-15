@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ChenLingPrivilegeTreeNode_TypeDefinitionIndex = 61445;
+
 	class ChenLingPrivilegeTreeNode : public ::System::Object
 	{
 	public:

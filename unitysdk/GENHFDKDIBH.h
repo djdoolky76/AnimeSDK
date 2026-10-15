@@ -14,6 +14,8 @@ namespace System { class String; }
 #define GENHFDKDIBH_LIAJFKOBEKF_OFFSET UNITYSDK_OFFSET(0x159E1520)
 #define GENHFDKDIBH_NDMBDGKAJEK_OFFSET UNITYSDK_OFFSET(0x159E0E40)
 
+inline static constexpr unsigned int GENHFDKDIBH_TypeDefinitionIndex = 65296;
+
 	class GENHFDKDIBH : public ::HEOLKMLMPML
 	{
 	public:

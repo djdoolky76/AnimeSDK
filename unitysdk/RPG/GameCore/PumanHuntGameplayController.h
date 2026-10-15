@@ -10,6 +10,8 @@ namespace RPG::GameCore { class PumanHuntGameplayController; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PumanHuntGameplayController_TypeDefinitionIndex = 21198;
+
 	class PumanHuntGameplayController : public ::RPG::GameCore::TaskConfig
 	{
 	public:

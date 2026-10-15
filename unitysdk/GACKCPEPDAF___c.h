@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define GACKCPEPDAF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E4154A0)
 #define GACKCPEPDAF___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1E4154B0)
 
+inline static constexpr unsigned int GACKCPEPDAF___c_TypeDefinitionIndex = 27043;
+
 	class GACKCPEPDAF___c : public ::System::Object
 	{
 	public:

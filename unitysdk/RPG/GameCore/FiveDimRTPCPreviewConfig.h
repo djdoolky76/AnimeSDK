@@ -9,6 +9,8 @@ namespace RPG::GameCore { class FiveDimRTPCPreviewConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimRTPCPreviewConfig_TypeDefinitionIndex = 18822;
+
 	class FiveDimRTPCPreviewConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

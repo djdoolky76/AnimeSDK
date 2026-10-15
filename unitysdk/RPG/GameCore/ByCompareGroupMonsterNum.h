@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ByCompareGroupMonsterNum; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByCompareGroupMonsterNum_TypeDefinitionIndex = 22263;
+
 	class ByCompareGroupMonsterNum : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

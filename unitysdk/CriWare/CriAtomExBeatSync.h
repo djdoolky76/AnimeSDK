@@ -9,6 +9,8 @@ namespace CriWare { class CriAtomExBeatSync_CbFunc; }
 
 namespace CriWare
 {
+	inline static constexpr unsigned int CriAtomExBeatSync_TypeDefinitionIndex = 40000;
+
 	class CriAtomExBeatSync : public ::System::Object
 	{
 	public:

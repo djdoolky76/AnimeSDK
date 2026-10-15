@@ -14,6 +14,8 @@ namespace RPG::Client { class GridFightTraitElationEffect; }
 #define EDKHIJKIPLM_PAMKOLICNOL_OFFSET UNITYSDK_OFFSET(0x13326450)
 #define EDKHIJKIPLM_PFBNDKLPNKF_OFFSET UNITYSDK_OFFSET(0x133261C0)
 
+inline static constexpr unsigned int EDKHIJKIPLM_TypeDefinitionIndex = 65381;
+
 	class EDKHIJKIPLM : public ::System::Object
 	{
 	public:

@@ -9,6 +9,8 @@ namespace System { class String; }
 #define HMJOALIFFGO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x15D857F0)
 #define HMJOALIFFGO_TRIGGERACTION_OFFSET UNITYSDK_OFFSET(0x15D85890)
 
+inline static constexpr unsigned int HMJOALIFFGO_TypeDefinitionIndex = 66994;
+
 	class HMJOALIFFGO : public ::System::Object
 	{
 	public:

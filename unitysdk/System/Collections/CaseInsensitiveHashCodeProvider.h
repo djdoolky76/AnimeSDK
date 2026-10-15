@@ -13,6 +13,8 @@ namespace System::Globalization { class TextInfo; }
 
 namespace System::Collections
 {
+	inline static constexpr unsigned int CaseInsensitiveHashCodeProvider_TypeDefinitionIndex = 1466;
+
 	class CaseInsensitiveHashCodeProvider : public ::System::Object
 	{
 	public:

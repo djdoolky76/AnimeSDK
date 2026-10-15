@@ -16,6 +16,8 @@ namespace System { class String; }
 #define CAAABPAMKAA_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xC1BA950)
 #define CAAABPAMKAA_TICK_OFFSET UNITYSDK_OFFSET(0xC1BA9A0)
 
+inline static constexpr unsigned int CAAABPAMKAA_TypeDefinitionIndex = 53262;
+
 	class CAAABPAMKAA : public ::GELIALJDFBL
 	{
 	public:

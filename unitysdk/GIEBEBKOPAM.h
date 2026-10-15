@@ -6,6 +6,8 @@ namespace System { class String; }
 #define GIEBEBKOPAM_CTOR_OFFSET UNITYSDK_OFFSET(0x1C421500)
 #define GIEBEBKOPAM_GET_PARAMETERNAME_OFFSET UNITYSDK_OFFSET(0x1C421510)
 
+inline static constexpr unsigned int GIEBEBKOPAM_TypeDefinitionIndex = 5082;
+
 	class GIEBEBKOPAM : public ::System::Attribute
 	{
 	public:

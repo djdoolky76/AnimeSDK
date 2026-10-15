@@ -17,6 +17,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 #define DDHMKBHNMJF_SET_TOTALSELLREVENUE_OFFSET UNITYSDK_OFFSET(0xE2655C0)
 #define DDHMKBHNMJF_UPDATE_OFFSET UNITYSDK_OFFSET(0xE265490)
 
+inline static constexpr unsigned int DDHMKBHNMJF_TypeDefinitionIndex = 67702;
+
 	class DDHMKBHNMJF : public ::System::Object
 	{
 	public:

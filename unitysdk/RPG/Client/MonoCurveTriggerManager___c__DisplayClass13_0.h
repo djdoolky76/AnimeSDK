@@ -10,6 +10,8 @@ namespace RPG::GameCore { class OptionTriggerInfo; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoCurveTriggerManager___c__DisplayClass13_0_TypeDefinitionIndex = 68559;
+
 	class MonoCurveTriggerManager___c__DisplayClass13_0 : public ::System::Object
 	{
 	public:

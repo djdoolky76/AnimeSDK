@@ -9,6 +9,8 @@ namespace RPG::Client { class FantasticStoryBuffData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int FantasticStoryActivityModule___c__DisplayClass38_0_TypeDefinitionIndex = 63974;
+
 	class FantasticStoryActivityModule___c__DisplayClass38_0 : public ::System::Object
 	{
 	public:

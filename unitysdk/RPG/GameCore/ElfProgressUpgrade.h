@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ElfProgressUpgrade; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ElfProgressUpgrade_TypeDefinitionIndex = 21071;
+
 	class ElfProgressUpgrade : public ::RPG::GameCore::TaskConfig
 	{
 	public:

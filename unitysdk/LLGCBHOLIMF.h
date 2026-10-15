@@ -9,6 +9,8 @@ namespace RPG::Client::LittleGameShare { class ST_Main_CakeRaceRootDecision; }
 #define LLGCBHOLIMF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1C73FBE0)
 #define LLGCBHOLIMF_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1C73FD00)
 
+inline static constexpr unsigned int LLGCBHOLIMF_TypeDefinitionIndex = 36990;
+
 	class LLGCBHOLIMF
 	{
 	public:

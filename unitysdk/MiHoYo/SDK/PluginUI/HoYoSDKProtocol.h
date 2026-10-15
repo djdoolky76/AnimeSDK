@@ -19,6 +19,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::PluginUI
 {
+	inline static constexpr unsigned int HoYoSDKProtocol_TypeDefinitionIndex = 46763;
+
 	class HoYoSDKProtocol : public ::MiHoYo::SDK::PluginUI::MiHoYoSDKUIContainer
 	{
 	public:

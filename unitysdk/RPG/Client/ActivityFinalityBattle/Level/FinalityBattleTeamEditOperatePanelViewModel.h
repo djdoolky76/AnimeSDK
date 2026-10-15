@@ -54,6 +54,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::ActivityFinalityBattle::Level
 {
+	inline static constexpr unsigned int FinalityBattleTeamEditOperatePanelViewModel_TypeDefinitionIndex = 82096;
+
 	class FinalityBattleTeamEditOperatePanelViewModel : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GravityBallPuzzleStart; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GravityBallPuzzleStart_TypeDefinitionIndex = 20380;
+
 	class GravityBallPuzzleStart : public ::RPG::GameCore::TaskConfig
 	{
 	public:

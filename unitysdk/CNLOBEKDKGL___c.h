@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define CNLOBEKDKGL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E10B710)
 #define CNLOBEKDKGL___C___CCTOR_B__43_0_OFFSET UNITYSDK_OFFSET(0x1E10B720)
 
+inline static constexpr unsigned int CNLOBEKDKGL___c_TypeDefinitionIndex = 28191;
+
 	class CNLOBEKDKGL___c : public ::System::Object
 	{
 	public:

@@ -3,6 +3,8 @@
 
 namespace RPG::Client::RedDot
 {
+	inline static constexpr unsigned int LogLevel_TypeDefinitionIndex = 79171;
+
 	enum class LogLevel : ::System::Int32
 	{
 		Info = 0,

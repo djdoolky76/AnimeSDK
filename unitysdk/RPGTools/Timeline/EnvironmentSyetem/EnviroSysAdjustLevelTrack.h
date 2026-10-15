@@ -6,6 +6,8 @@
 
 namespace RPGTools::Timeline::EnvironmentSyetem
 {
+	inline static constexpr unsigned int EnviroSysAdjustLevelTrack_TypeDefinitionIndex = 48636;
+
 	class EnviroSysAdjustLevelTrack : public ::UnityEngine::Timeline::TrackAsset
 	{
 	public:

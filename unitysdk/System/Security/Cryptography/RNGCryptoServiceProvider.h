@@ -17,6 +17,8 @@ namespace System { class Object; }
 
 namespace System::Security::Cryptography
 {
+	inline static constexpr unsigned int RNGCryptoServiceProvider_TypeDefinitionIndex = 1079;
+
 	class RNGCryptoServiceProvider : public ::System::Security::Cryptography::RandomNumberGenerator
 	{
 	public:

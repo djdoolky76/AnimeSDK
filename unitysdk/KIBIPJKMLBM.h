@@ -46,6 +46,8 @@ namespace System { class String; }
 #define KIBIPJKMLBM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E8536A0)
 #define KIBIPJKMLBM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E853700)
 
+inline static constexpr unsigned int KIBIPJKMLBM_TypeDefinitionIndex = 34736;
+
 	class KIBIPJKMLBM : public ::System::Object
 	{
 	public:

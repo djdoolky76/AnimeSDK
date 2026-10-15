@@ -14,6 +14,8 @@ namespace System::Threading { class ExecutionContext; }
 
 namespace System::Net
 {
+	inline static constexpr unsigned int ServerCertValidationCallback_TypeDefinitionIndex = 2820;
+
 	class ServerCertValidationCallback : public ::System::Object
 	{
 	public:

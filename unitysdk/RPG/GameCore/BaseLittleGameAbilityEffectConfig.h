@@ -10,6 +10,8 @@ namespace RPG::GameCore { class BaseLittleGameAbilityEffectConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int BaseLittleGameAbilityEffectConfig_TypeDefinitionIndex = 21337;
+
 	class BaseLittleGameAbilityEffectConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

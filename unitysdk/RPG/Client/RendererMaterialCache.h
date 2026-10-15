@@ -75,6 +75,8 @@ namespace UnityEngine { class Texture; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RendererMaterialCache_TypeDefinitionIndex = 69832;
+
 	class RendererMaterialCache : public ::System::Object
 	{
 	public:

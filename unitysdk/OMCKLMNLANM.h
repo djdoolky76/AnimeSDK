@@ -32,6 +32,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define OMCKLMNLANM_PEEFECIKEPF_OFFSET UNITYSDK_OFFSET(0x1C7D7F50)
 #define OMCKLMNLANM_SET_GAMEENTITY_OFFSET UNITYSDK_OFFSET(0x1C7D8940)
 
+inline static constexpr unsigned int OMCKLMNLANM_TypeDefinitionIndex = 37312;
+
 	class OMCKLMNLANM : public ::System::Object
 	{
 	public:

@@ -27,6 +27,8 @@ namespace UnityEngine::UI { class Text; }
 
 namespace RPG::Client::ChenLingFes
 {
+	inline static constexpr unsigned int ChenLingFesGameplayProgressInfoControl_TypeDefinitionIndex = 81318;
+
 	class ChenLingFesGameplayProgressInfoControl : public ::Sofa::BaseSofaControl
 	{
 	public:

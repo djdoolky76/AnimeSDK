@@ -6,6 +6,8 @@ namespace RPG::GameCore { class ToastPile; }
 #define DFLLNEPOCAH_CTOR_OFFSET UNITYSDK_OFFSET(0xE832510)
 #define DFLLNEPOCAH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xE832540)
 
+inline static constexpr unsigned int DFLLNEPOCAH_TypeDefinitionIndex = 53409;
+
 	class DFLLNEPOCAH
 	{
 	public:

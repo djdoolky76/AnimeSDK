@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define MGAMADCNPAG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA1C3D0)
 #define MGAMADCNPAG___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1EA1C3E0)
 
+inline static constexpr unsigned int MGAMADCNPAG___c_TypeDefinitionIndex = 32345;
+
 	class MGAMADCNPAG___c : public ::System::Object
 	{
 	public:

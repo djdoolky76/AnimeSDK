@@ -16,6 +16,8 @@ namespace UnityEngine { class Camera; }
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftCraftProgressAttrControlBinder_TypeDefinitionIndex = 79913;
+
 	class MechCraftCraftProgressAttrControlBinder : public ::RPG::Client::MechCraft::View::MechCraftBinderBase
 	{
 	public:

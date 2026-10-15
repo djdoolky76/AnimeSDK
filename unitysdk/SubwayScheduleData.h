@@ -5,6 +5,8 @@ namespace System { class Object; }
 
 #define SUBWAYSCHEDULEDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xE9991A0)
 
+inline static constexpr unsigned int SubwayScheduleData_TypeDefinitionIndex = 47093;
+
 	class SubwayScheduleData : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdventureCurrentInteractNPC_TypeDefinitionIndex = 56602;
+
 	class AdventureCurrentInteractNPC : public ::System::Object
 	{
 	public:

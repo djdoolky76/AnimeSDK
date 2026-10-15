@@ -22,6 +22,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define HNLOPNDDJNA_NGBBALHHKFN_OFFSET UNITYSDK_OFFSET(0x15DA08D0)
 #define HNLOPNDDJNA_OPACDFGBMLJ_OFFSET UNITYSDK_OFFSET(0x15DA0BE0)
 
+inline static constexpr unsigned int HNLOPNDDJNA_TypeDefinitionIndex = 71417;
+
 	class HNLOPNDDJNA : public ::System::Object
 	{
 	public:

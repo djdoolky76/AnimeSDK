@@ -59,6 +59,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define GINPKJDOMDN__ONLATEUPDATE_OFFSET UNITYSDK_OFFSET(0x15A49E60)
 #define GINPKJDOMDN__ONTICK_OFFSET UNITYSDK_OFFSET(0x15A496D0)
 
+inline static constexpr unsigned int GINPKJDOMDN_TypeDefinitionIndex = 60431;
+
 	class GINPKJDOMDN : public ::HCLPKMIIANI
 	{
 	public:

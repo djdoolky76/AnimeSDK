@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TriggerBreak; }
 #define JOJDODIDCFB_CTOR_OFFSET UNITYSDK_OFFSET(0xB2A0EF0)
 #define JOJDODIDCFB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB2A0F20)
 
+inline static constexpr unsigned int JOJDODIDCFB_TypeDefinitionIndex = 55723;
+
 	class JOJDODIDCFB
 	{
 	public:

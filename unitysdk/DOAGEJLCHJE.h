@@ -29,6 +29,8 @@ namespace System { class String; }
 #define DOAGEJLCHJE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E1FC620)
 #define DOAGEJLCHJE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E1FC680)
 
+inline static constexpr unsigned int DOAGEJLCHJE_TypeDefinitionIndex = 30010;
+
 	class DOAGEJLCHJE : public ::System::Object
 	{
 	public:

@@ -27,6 +27,8 @@ namespace System { class String; }
 #define MGMDNBOLBMO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EA277A0)
 #define MGMDNBOLBMO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EA27800)
 
+inline static constexpr unsigned int MGMDNBOLBMO_TypeDefinitionIndex = 26252;
+
 	class MGMDNBOLBMO : public ::System::Object
 	{
 	public:

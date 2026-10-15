@@ -13,6 +13,8 @@ namespace System::Linq::Expressions { class LambdaExpression; }
 
 namespace System::Linq::Expressions
 {
+	inline static constexpr unsigned int CoalesceConversionBinaryExpression_TypeDefinitionIndex = 3187;
+
 	class CoalesceConversionBinaryExpression : public ::System::Linq::Expressions::BinaryExpression
 	{
 	public:

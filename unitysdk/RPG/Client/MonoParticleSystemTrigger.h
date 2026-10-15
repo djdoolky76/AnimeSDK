@@ -10,6 +10,8 @@ namespace System { class Action; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoParticleSystemTrigger_TypeDefinitionIndex = 68963;
+
 	class MonoParticleSystemTrigger : public ::UnityEngine::MonoBehaviour
 	{
 	public:

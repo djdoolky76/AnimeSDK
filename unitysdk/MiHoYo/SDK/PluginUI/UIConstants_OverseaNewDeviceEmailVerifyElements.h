@@ -4,6 +4,8 @@
 
 namespace MiHoYo::SDK::PluginUI
 {
+	inline static constexpr unsigned int UIConstants_OverseaNewDeviceEmailVerifyElements_TypeDefinitionIndex = 46857;
+
 	class UIConstants_OverseaNewDeviceEmailVerifyElements : public ::System::Object
 	{
 	public:

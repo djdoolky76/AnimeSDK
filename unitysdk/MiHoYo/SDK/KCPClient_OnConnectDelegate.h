@@ -13,6 +13,8 @@ namespace System { class Object; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int KCPClient_OnConnectDelegate_TypeDefinitionIndex = 46130;
+
 	class KCPClient_OnConnectDelegate : public ::System::MulticastDelegate
 	{
 	public:

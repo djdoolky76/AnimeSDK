@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace SRDebugger::UI::Other
 {
+	inline static constexpr unsigned int DebugPanelBackgroundBehaviour_TypeDefinitionIndex = 38002;
+
 	class DebugPanelBackgroundBehaviour : public ::SRF::SRMonoBehaviour
 	{
 	public:

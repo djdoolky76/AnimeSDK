@@ -21,6 +21,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AvatarRankControl_TypeDefinitionIndex = 71042;
+
 	class AvatarRankControl : public ::UnityEngine::MonoBehaviour
 	{
 	public:

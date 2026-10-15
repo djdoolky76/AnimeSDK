@@ -9,6 +9,8 @@ namespace UnityEngine::UI { class Text; }
 
 #define IIOGEFLNOCE_CTOR_OFFSET UNITYSDK_OFFSET(0x16454C70)
 
+inline static constexpr unsigned int IIOGEFLNOCE_TypeDefinitionIndex = 71824;
+
 	class IIOGEFLNOCE : public ::System::Object
 	{
 	public:

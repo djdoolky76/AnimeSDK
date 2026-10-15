@@ -11,6 +11,8 @@ namespace RPG::GameCore { class SwitchMainCamera; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SwitchMainCamera_TypeDefinitionIndex = 23323;
+
 	class SwitchMainCamera : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ComplexSkillAILinearItem; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ComplexSkillAILinearItem_TypeDefinitionIndex = 15556;
+
 	class ComplexSkillAILinearItem : public ::RPG::GameCore::JsonConfig
 	{
 	public:

@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define OLMIPHFMIAL_IAEKDNGGBEN_OFFSET UNITYSDK_OFFSET(0xBF11470)
 #define OLMIPHFMIAL_KMJNGGGPJPF_OFFSET UNITYSDK_OFFSET(0xBF10DC0)
 
+inline static constexpr unsigned int OLMIPHFMIAL_TypeDefinitionIndex = 56090;
+
 	class OLMIPHFMIAL : public ::System::Object
 	{
 	public:

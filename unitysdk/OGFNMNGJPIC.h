@@ -12,6 +12,8 @@ namespace RPG::GameCore { class GameEntity; }
 #define OGFNMNGJPIC_SET_DAMAGEFP_OFFSET UNITYSDK_OFFSET(0xBE57190)
 #define OGFNMNGJPIC_SET_TOTALDAMAGE_OFFSET UNITYSDK_OFFSET(0xBE57170)
 
+inline static constexpr unsigned int OGFNMNGJPIC_TypeDefinitionIndex = 57610;
+
 	class OGFNMNGJPIC : public ::System::Object
 	{
 	public:

@@ -17,6 +17,8 @@ namespace System { class String; }
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
+	inline static constexpr unsigned int IVRNotifications__CreateNotification_TypeDefinitionIndex = 39160;
+
 	class IVRNotifications__CreateNotification : public ::System::MulticastDelegate
 	{
 	public:

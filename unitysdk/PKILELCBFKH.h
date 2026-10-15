@@ -42,6 +42,8 @@ namespace UnityEngine::UI { class Image; }
 #define PKILELCBFKH_PFJDLLGFCOD_OFFSET UNITYSDK_OFFSET(0xC2C01C0)
 #define PKILELCBFKH__ONBIND_OFFSET UNITYSDK_OFFSET(0xC2BF9F0)
 
+inline static constexpr unsigned int PKILELCBFKH_TypeDefinitionIndex = 71614;
+
 	class PKILELCBFKH : public ::FMPCODLIOLG
 	{
 	public:

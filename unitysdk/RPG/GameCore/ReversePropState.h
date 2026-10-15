@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ReversePropState; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ReversePropState_TypeDefinitionIndex = 22127;
+
 	class ReversePropState : public ::RPG::GameCore::TaskConfig
 	{
 	public:

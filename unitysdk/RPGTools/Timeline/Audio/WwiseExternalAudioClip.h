@@ -16,6 +16,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPGTools::Timeline::Audio
 {
+	inline static constexpr unsigned int WwiseExternalAudioClip_TypeDefinitionIndex = 48845;
+
 	class WwiseExternalAudioClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:

@@ -13,6 +13,8 @@ namespace System { class Object; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int FileDownloadTask_OnProgressChange_TypeDefinitionIndex = 46294;
+
 	class FileDownloadTask_OnProgressChange : public ::System::MulticastDelegate
 	{
 	public:

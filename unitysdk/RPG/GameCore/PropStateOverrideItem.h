@@ -10,6 +10,8 @@ namespace RPG::GameCore { class PropStateOverrideItem; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PropStateOverrideItem_TypeDefinitionIndex = 19040;
+
 	class PropStateOverrideItem : public ::RPG::GameCore::JsonConfig
 	{
 	public:

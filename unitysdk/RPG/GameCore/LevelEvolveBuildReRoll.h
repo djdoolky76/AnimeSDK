@@ -9,6 +9,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelEvolveBuildReRoll_TypeDefinitionIndex = 56827;
+
 	class LevelEvolveBuildReRoll : public ::CMPGEAFHHDC
 	{
 	public:

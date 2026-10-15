@@ -10,6 +10,8 @@ namespace System { class String; }
 #define OMBLCOFIDOA_NOICODFGEIE_OFFSET UNITYSDK_OFFSET(0xBF19DD0)
 #define OMBLCOFIDOA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBF19BF0)
 
+inline static constexpr unsigned int OMBLCOFIDOA_TypeDefinitionIndex = 55413;
+
 	class OMBLCOFIDOA
 	{
 	public:

@@ -6,6 +6,8 @@
 
 namespace RPGTools::Story
 {
+	inline static constexpr unsigned int DiscussionAutoGenerateConfig_TypeDefinitionIndex = 48964;
+
 	class DiscussionAutoGenerateConfig : public ::UnityEngine::ScriptableObject
 	{
 	public:

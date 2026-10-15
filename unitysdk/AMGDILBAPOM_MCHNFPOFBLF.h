@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define AMGDILBAPOM_MCHNFPOFBLF_NBHCMAPGMMM_OFFSET UNITYSDK_OFFSET(0x1557E290)
 #define AMGDILBAPOM_MCHNFPOFBLF_NCMDBLNGHLK_OFFSET UNITYSDK_OFFSET(0x1557DD60)
 
+inline static constexpr unsigned int AMGDILBAPOM_MCHNFPOFBLF_TypeDefinitionIndex = 58440;
+
 	class AMGDILBAPOM_MCHNFPOFBLF : public ::System::Object
 	{
 	public:

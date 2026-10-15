@@ -8,6 +8,8 @@ namespace RPG::Client { class GridFightTrait; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightTraitRemarkLineTraitLargeEqualStateParser_TypeDefinitionIndex = 65498;
+
 	class GridFightTraitRemarkLineTraitLargeEqualStateParser : public ::RPG::Client::GridFightTraitRemarkLineTraitStateParserBase
 	{
 	public:

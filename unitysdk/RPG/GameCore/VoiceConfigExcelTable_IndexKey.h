@@ -9,6 +9,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int VoiceConfigExcelTable_IndexKey_TypeDefinitionIndex = 15425;
+
 	struct alignas(4) VoiceConfigExcelTable_IndexKey
 	{
 		::System::UInt32 VoiceID; // 0x10

@@ -23,6 +23,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::LittleGame
 {
+	inline static constexpr unsigned int MovieGameBullet_TypeDefinitionIndex = 76604;
+
 	class MovieGameBullet : public ::RPG::Client::LittleGame::BaseMonoView
 	{
 	public:

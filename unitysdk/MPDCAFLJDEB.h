@@ -29,6 +29,8 @@ namespace System { class String; }
 #define MPDCAFLJDEB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EAB4A50)
 #define MPDCAFLJDEB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EAB4AB0)
 
+inline static constexpr unsigned int MPDCAFLJDEB_TypeDefinitionIndex = 34630;
+
 	class MPDCAFLJDEB : public ::System::Object
 	{
 	public:

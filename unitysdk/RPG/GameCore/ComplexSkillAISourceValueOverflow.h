@@ -11,6 +11,8 @@ namespace RPG::GameCore { class ComplexSkillAISourceValueOverflow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ComplexSkillAISourceValueOverflow_TypeDefinitionIndex = 15528;
+
 	class ComplexSkillAISourceValueOverflow : public ::RPG::GameCore::ComplexSkillAISource
 	{
 	public:

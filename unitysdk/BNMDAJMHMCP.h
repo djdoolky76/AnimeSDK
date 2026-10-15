@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define BNMDAJMHMCP_CTOR_OFFSET UNITYSDK_OFFSET(0xBDDEBB0)
 #define BNMDAJMHMCP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBDDEBE0)
 
+inline static constexpr unsigned int BNMDAJMHMCP_TypeDefinitionIndex = 55313;
+
 	class BNMDAJMHMCP
 	{
 	public:

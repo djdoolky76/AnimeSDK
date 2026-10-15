@@ -25,6 +25,8 @@ namespace RPG::GameCore { class EventManager; }
 
 namespace RPG::Client::FateRin::Battle
 {
+	inline static constexpr unsigned int FateRinBattleFunctionAreaViewModel_TypeDefinitionIndex = 80878;
+
 	class FateRinBattleFunctionAreaViewModel : public ::RPG::Client::FateRin::BaseViewModel
 	{
 	public:

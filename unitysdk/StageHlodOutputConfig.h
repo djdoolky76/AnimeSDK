@@ -4,6 +4,8 @@
 
 #define STAGEHLODOUTPUTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0xE998300)
 
+inline static constexpr unsigned int StageHlodOutputConfig_TypeDefinitionIndex = 47564;
+
 	class StageHlodOutputConfig : public ::UnityEngine::MonoBehaviour
 	{
 	public:

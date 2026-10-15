@@ -14,6 +14,8 @@ namespace UnityEngine::ProBuilder::Shapes { class Shape; }
 
 namespace UnityEngine::ProBuilder::Shapes
 {
+	inline static constexpr unsigned int Cone_TypeDefinitionIndex = 44459;
+
 	class Cone : public ::UnityEngine::ProBuilder::Shapes::Shape
 	{
 	public:

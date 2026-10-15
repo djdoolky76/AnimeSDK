@@ -6,6 +6,8 @@
 #define WWISERTPCREFERENCE_CTOR_OFFSET UNITYSDK_OFFSET(0x1F637200)
 #define WWISERTPCREFERENCE_GET_WWISEOBJECTTYPE_OFFSET UNITYSDK_OFFSET(0x1F6371F0)
 
+inline static constexpr unsigned int WwiseRtpcReference_TypeDefinitionIndex = 44888;
+
 	class WwiseRtpcReference : public ::WwiseObjectReference
 	{
 	public:

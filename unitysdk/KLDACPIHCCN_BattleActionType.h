@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int KLDACPIHCCN_BattleActionType_TypeDefinitionIndex = 56208;
+
 	enum class KLDACPIHCCN_BattleActionType : ::System::Int32
 	{
 		Unknown = 0,

@@ -20,6 +20,8 @@ namespace System { class String; }
 #define KCNGFCAMLLN_OBIIJABDNPC_OFFSET UNITYSDK_OFFSET(0xB33E8B0)
 #define KCNGFCAMLLN_TOSTRING_OFFSET UNITYSDK_OFFSET(0xB33E3D0)
 
+inline static constexpr unsigned int KCNGFCAMLLN_TypeDefinitionIndex = 73413;
+
 	class KCNGFCAMLLN : public ::PEFLHOJEIMG
 	{
 	public:

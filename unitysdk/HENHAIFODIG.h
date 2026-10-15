@@ -27,6 +27,8 @@ namespace System { class String; }
 #define HENHAIFODIG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E55D360)
 #define HENHAIFODIG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E55D3C0)
 
+inline static constexpr unsigned int HENHAIFODIG_TypeDefinitionIndex = 31676;
+
 	class HENHAIFODIG : public ::System::Object
 	{
 	public:

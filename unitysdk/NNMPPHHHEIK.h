@@ -67,6 +67,8 @@ namespace UnityEngine { class Animator; }
 #define NNMPPHHHEIK_PLFEIOCNDAN_OFFSET UNITYSDK_OFFSET(0xBCD44D0)
 #define NNMPPHHHEIK_PONJEHDBMGP_OFFSET UNITYSDK_OFFSET(0xBCD4280)
 
+inline static constexpr unsigned int NNMPPHHHEIK_TypeDefinitionIndex = 59036;
+
 	class NNMPPHHHEIK : public ::System::Object
 	{
 	public:

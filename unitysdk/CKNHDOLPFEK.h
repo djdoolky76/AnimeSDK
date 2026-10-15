@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define CKNHDOLPFEK_TOSTRING_OFFSET UNITYSDK_OFFSET(0xD76A360)
 #define CKNHDOLPFEK_TRIGGERACTION_OFFSET UNITYSDK_OFFSET(0xD76A3F0)
 
+inline static constexpr unsigned int CKNHDOLPFEK_TypeDefinitionIndex = 67021;
+
 	class CKNHDOLPFEK : public ::System::Object
 	{
 	public:

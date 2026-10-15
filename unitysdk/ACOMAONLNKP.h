@@ -37,6 +37,8 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 #define ACOMAONLNKP_MMEOMCINFOG_OFFSET UNITYSDK_OFFSET(0xB12CA50)
 #define ACOMAONLNKP_PMPDOHLFPMF_OFFSET UNITYSDK_OFFSET(0xB12B840)
 
+inline static constexpr unsigned int ACOMAONLNKP_TypeDefinitionIndex = 79403;
+
 	class ACOMAONLNKP : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define ONLFOIONDAF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DECE450)
 #define ONLFOIONDAF___C___CCTOR_B__43_0_OFFSET UNITYSDK_OFFSET(0x1DECE460)
 
+inline static constexpr unsigned int ONLFOIONDAF___c_TypeDefinitionIndex = 29261;
+
 	class ONLFOIONDAF___c : public ::System::Object
 	{
 	public:

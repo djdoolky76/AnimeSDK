@@ -260,6 +260,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define AGCPAMNLCGN_REPLACEGENERICVIEWUNLOADCALLBACK_OFFSET UNITYSDK_OFFSET(0x1C8884C0)
 #define AGCPAMNLCGN_REPLACETRANSFORM_OFFSET UNITYSDK_OFFSET(0x1C888860)
 
+inline static constexpr unsigned int AGCPAMNLCGN_TypeDefinitionIndex = 42561;
+
 	class AGCPAMNLCGN : public ::Entitas::Entity
 	{
 	public:

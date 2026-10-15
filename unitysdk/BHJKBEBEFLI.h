@@ -4,6 +4,8 @@
 
 #define BHJKBEBEFLI_CTOR_OFFSET UNITYSDK_OFFSET(0xB48D900)
 
+inline static constexpr unsigned int BHJKBEBEFLI_TypeDefinitionIndex = 49066;
+
 	class BHJKBEBEFLI : public ::System::Attribute
 	{
 	public:

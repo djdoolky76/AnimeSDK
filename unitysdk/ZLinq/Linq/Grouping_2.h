@@ -5,6 +5,8 @@ namespace ZLinq::Linq { template <typename T1, typename T2> class Grouping_2; }
 
 namespace ZLinq::Linq
 {
+	inline static constexpr unsigned int Grouping_2_TypeDefinitionIndex = 6141;
+
 	template <typename T1, typename T2>
 	class Grouping_2 : public ::System::Object
 	{

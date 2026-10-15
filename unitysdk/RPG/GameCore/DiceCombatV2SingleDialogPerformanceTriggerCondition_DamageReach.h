@@ -10,6 +10,8 @@ namespace RPG::GameCore { class DiceCombatV2SingleDialogPerformanceTriggerCondit
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DiceCombatV2SingleDialogPerformanceTriggerCondition_DamageReach_TypeDefinitionIndex = 16183;
+
 	class DiceCombatV2SingleDialogPerformanceTriggerCondition_DamageReach : public ::RPG::GameCore::DiceCombatV2SingleDialogPerformanceTriggerCondition
 	{
 	public:

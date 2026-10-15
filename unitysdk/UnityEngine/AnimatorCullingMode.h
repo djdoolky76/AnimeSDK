@@ -3,6 +3,8 @@
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int AnimatorCullingMode_TypeDefinitionIndex = 5700;
+
 	enum class AnimatorCullingMode : ::System::Int32
 	{
 		AlwaysAnimate = 0,

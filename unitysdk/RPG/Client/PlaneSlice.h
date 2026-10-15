@@ -12,6 +12,8 @@ namespace UnityEngine { class MeshFilter; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PlaneSlice_TypeDefinitionIndex = 70698;
+
 	class PlaneSlice : public ::UnityEngine::MonoBehaviour
 	{
 	public:

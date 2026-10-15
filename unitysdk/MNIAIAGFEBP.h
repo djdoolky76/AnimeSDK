@@ -29,6 +29,8 @@ namespace System { class String; }
 #define MNIAIAGFEBP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EA99EF0)
 #define MNIAIAGFEBP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EA99F50)
 
+inline static constexpr unsigned int MNIAIAGFEBP_TypeDefinitionIndex = 25070;
+
 	class MNIAIAGFEBP : public ::System::Object
 	{
 	public:

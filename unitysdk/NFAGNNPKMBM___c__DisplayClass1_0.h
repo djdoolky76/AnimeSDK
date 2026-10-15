@@ -7,6 +7,8 @@ namespace System { class Object; }
 #define NFAGNNPKMBM___C__DISPLAYCLASS1_0_CTOR_OFFSET UNITYSDK_OFFSET(0xBB76D50)
 #define NFAGNNPKMBM___C__DISPLAYCLASS1_0__CLOSECOMMAND_B__0_OFFSET UNITYSDK_OFFSET(0xBB76D90)
 
+inline static constexpr unsigned int NFAGNNPKMBM___c__DisplayClass1_0_TypeDefinitionIndex = 80514;
+
 	class NFAGNNPKMBM___c__DisplayClass1_0 : public ::System::Object
 	{
 	public:

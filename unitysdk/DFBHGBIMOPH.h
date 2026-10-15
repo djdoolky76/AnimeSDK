@@ -5,6 +5,8 @@
 #define DFBHGBIMOPH_CTOR_OFFSET UNITYSDK_OFFSET(0xE823AE0)
 #define DFBHGBIMOPH_FHAAHMEJMCI_OFFSET UNITYSDK_OFFSET(0xE8239E0)
 
+inline static constexpr unsigned int DFBHGBIMOPH_TypeDefinitionIndex = 66517;
+
 	class DFBHGBIMOPH : public ::FMIHMGNLBPN
 	{
 	public:

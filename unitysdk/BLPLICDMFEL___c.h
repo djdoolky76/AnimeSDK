@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define BLPLICDMFEL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E01D480)
 #define BLPLICDMFEL___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E01D490)
 
+inline static constexpr unsigned int BLPLICDMFEL___c_TypeDefinitionIndex = 30846;
+
 	class BLPLICDMFEL___c : public ::System::Object
 	{
 	public:

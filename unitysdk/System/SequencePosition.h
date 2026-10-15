@@ -11,6 +11,8 @@ namespace System { class Object; }
 
 namespace System
 {
+	inline static constexpr unsigned int SequencePosition_TypeDefinitionIndex = 4978;
+
 	struct alignas(8) SequencePosition
 	{
 		::System::Object* _object; // 0x10

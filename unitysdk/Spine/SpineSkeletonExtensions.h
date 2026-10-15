@@ -10,6 +10,8 @@ namespace Spine { class VertexAttachment; }
 
 namespace Spine
 {
+	inline static constexpr unsigned int SpineSkeletonExtensions_TypeDefinitionIndex = 44995;
+
 	class SpineSkeletonExtensions : public ::System::Object
 	{
 	public:

@@ -23,6 +23,8 @@ namespace System { class Nullable; }
 #define FECPMLEGDBK_OOGCMLCLMJF_OFFSET UNITYSDK_OFFSET(0x156E6E90)
 #define FECPMLEGDBK_TICK_OFFSET UNITYSDK_OFFSET(0x156E6C70)
 
+inline static constexpr unsigned int FECPMLEGDBK_TypeDefinitionIndex = 52210;
+
 	class FECPMLEGDBK
 	{
 	public:

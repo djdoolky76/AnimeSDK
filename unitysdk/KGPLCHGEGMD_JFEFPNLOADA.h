@@ -18,6 +18,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 #define KGPLCHGEGMD_JFEFPNLOADA_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0xB3FA180)
 #define KGPLCHGEGMD_JFEFPNLOADA_SYSTEM_COLLECTIONS_IENUMERABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0xB3FB000)
 
+inline static constexpr unsigned int KGPLCHGEGMD_JFEFPNLOADA_TypeDefinitionIndex = 73754;
+
 	class KGPLCHGEGMD_JFEFPNLOADA : public ::System::Object
 	{
 	public:

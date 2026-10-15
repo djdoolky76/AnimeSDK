@@ -33,6 +33,8 @@ namespace System { class String; }
 #define DFKMNLIJMFB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E1A4C10)
 #define DFKMNLIJMFB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E1A4C70)
 
+inline static constexpr unsigned int DFKMNLIJMFB_TypeDefinitionIndex = 27284;
+
 	class DFKMNLIJMFB : public ::System::Object
 	{
 	public:

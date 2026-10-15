@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GridFightModifierEquipUpgradeBeforeBattleConfig;
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightModifierEquipUpgradeBeforeBattleConfig_TypeDefinitionIndex = 19464;
+
 	class GridFightModifierEquipUpgradeBeforeBattleConfig : public ::RPG::GameCore::GridFightModifierConfigBase
 	{
 	public:

@@ -13,6 +13,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetAbilityTagMapping_TypeDefinitionIndex = 22714;
+
 	class SetAbilityTagMapping : public ::RPG::GameCore::TaskConfig
 	{
 	public:

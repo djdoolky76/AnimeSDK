@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define LEGAPPMEBBL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E92CB40)
 #define LEGAPPMEBBL___C___CCTOR_B__158_0_OFFSET UNITYSDK_OFFSET(0x1E92CB50)
 
+inline static constexpr unsigned int LEGAPPMEBBL___c_TypeDefinitionIndex = 32011;
+
 	class LEGAPPMEBBL___c : public ::System::Object
 	{
 	public:

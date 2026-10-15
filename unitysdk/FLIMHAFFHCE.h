@@ -5,6 +5,8 @@
 #define FLIMHAFFHCE_CTOR_OFFSET UNITYSDK_OFFSET(0x158358A0)
 #define FLIMHAFFHCE_JJNFOPNOPBF_OFFSET UNITYSDK_OFFSET(0x158357D0)
 
+inline static constexpr unsigned int FLIMHAFFHCE_TypeDefinitionIndex = 62446;
+
 	class FLIMHAFFHCE : public ::System::Object
 	{
 	public:

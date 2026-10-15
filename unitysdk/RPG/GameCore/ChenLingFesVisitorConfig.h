@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ChenLingFesVisitorConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChenLingFesVisitorConfig_TypeDefinitionIndex = 18439;
+
 	class ChenLingFesVisitorConfig : public ::RPG::GameCore::LittleGameComponentConfig
 	{
 	public:

@@ -45,6 +45,8 @@ namespace System { class Action; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int VersionUpdateCheck_TypeDefinitionIndex = 61257;
+
 	class VersionUpdateCheck : public ::System::Object
 	{
 	public:

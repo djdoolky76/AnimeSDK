@@ -12,6 +12,8 @@ namespace System { class String; }
 #define KDBJEKOLPDE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D07F8B0)
 #define KDBJEKOLPDE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D07F400)
 
+inline static constexpr unsigned int KDBJEKOLPDE_TypeDefinitionIndex = 11523;
+
 	class KDBJEKOLPDE : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@ class HLOAEFNDCLJ;
 #define HLOAEFNDCLJ_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CEC1750)
 #define HLOAEFNDCLJ_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CEC1680)
 
+inline static constexpr unsigned int HLOAEFNDCLJ_TypeDefinitionIndex = 24141;
+
 	class HLOAEFNDCLJ : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -7,6 +7,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define BLCGNLOKCAN_CTOR_OFFSET UNITYSDK_OFFSET(0xBA66320)
 #define BLCGNLOKCAN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBA66400)
 
+inline static constexpr unsigned int BLCGNLOKCAN_TypeDefinitionIndex = 55435;
+
 	class BLCGNLOKCAN
 	{
 	public:

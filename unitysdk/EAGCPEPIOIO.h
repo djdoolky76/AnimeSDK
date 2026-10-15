@@ -28,6 +28,8 @@ namespace System { class String; }
 #define EAGCPEPIOIO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E228940)
 #define EAGCPEPIOIO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E2289A0)
 
+inline static constexpr unsigned int EAGCPEPIOIO_TypeDefinitionIndex = 28766;
+
 	class EAGCPEPIOIO : public ::System::Object
 	{
 	public:

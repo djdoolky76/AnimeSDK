@@ -10,6 +10,8 @@ namespace RPG::GameCore { class LookAtAdditiveCurveConstraint; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LookAtAdditiveCurveConstraint_TypeDefinitionIndex = 21913;
+
 	class LookAtAdditiveCurveConstraint : public ::RPG::GameCore::JsonConfig
 	{
 	public:

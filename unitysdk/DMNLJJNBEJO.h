@@ -14,6 +14,8 @@ namespace System { class String; }
 #define DMNLJJNBEJO_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CD48E70)
 #define DMNLJJNBEJO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CD48DD0)
 
+inline static constexpr unsigned int DMNLJJNBEJO_TypeDefinitionIndex = 20167;
+
 	class DMNLJJNBEJO : public ::RPG::GameCore::TaskConfig
 	{
 	public:

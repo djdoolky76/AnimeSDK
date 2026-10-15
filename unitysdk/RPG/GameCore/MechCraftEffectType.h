@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MechCraftEffectType_TypeDefinitionIndex = 11997;
+
 	enum class MechCraftEffectType : ::System::Int32
 	{
 		None = 0,

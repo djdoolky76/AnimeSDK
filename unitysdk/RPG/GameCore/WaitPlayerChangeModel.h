@@ -11,6 +11,8 @@ namespace RPG::GameCore { class WaitPlayerChangeModel; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int WaitPlayerChangeModel_TypeDefinitionIndex = 20386;
+
 	class WaitPlayerChangeModel : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -24,6 +24,8 @@ namespace UnityEngine { class Sprite; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int Wheel_TypeDefinitionIndex = 70761;
+
 	class Wheel : public ::System::Object
 	{
 	public:

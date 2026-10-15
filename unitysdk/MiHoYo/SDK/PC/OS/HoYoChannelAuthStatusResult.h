@@ -8,6 +8,8 @@ namespace MiHoYo::SDK::PC::OS { class XboxAuthStatusExtension; }
 
 namespace MiHoYo::SDK::PC::OS
 {
+	inline static constexpr unsigned int HoYoChannelAuthStatusResult_TypeDefinitionIndex = 8603;
+
 	class HoYoChannelAuthStatusResult : public ::MiHoYo::SDK::PC::OS::HoYoChannelBaseResult
 	{
 	public:

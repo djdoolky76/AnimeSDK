@@ -12,6 +12,8 @@ namespace UnityEngine { class MeshRenderer; }
 #define LCAGAOODECN_HOIDHCGFJCJ_OFFSET UNITYSDK_OFFSET(0xB6101A0)
 #define LCAGAOODECN_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xB610090)
 
+inline static constexpr unsigned int LCAGAOODECN_TypeDefinitionIndex = 48689;
+
 	class LCAGAOODECN : public ::OGBPMPBLDNK
 	{
 	public:

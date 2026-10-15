@@ -44,6 +44,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PerformanceRecallModule_TypeDefinitionIndex = 66444;
+
 	class PerformanceRecallModule : public ::RPG::Client::BaseModule
 	{
 	public:

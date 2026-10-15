@@ -30,6 +30,8 @@ namespace System { class String; }
 #define MHMLENGPLLD_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EA375A0)
 #define MHMLENGPLLD_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EA37600)
 
+inline static constexpr unsigned int MHMLENGPLLD_TypeDefinitionIndex = 28246;
+
 	class MHMLENGPLLD : public ::System::Object
 	{
 	public:

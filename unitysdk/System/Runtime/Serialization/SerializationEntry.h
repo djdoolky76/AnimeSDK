@@ -10,6 +10,8 @@ namespace System { class Type; }
 
 namespace System::Runtime::Serialization
 {
+	inline static constexpr unsigned int SerializationEntry_TypeDefinitionIndex = 1131;
+
 	struct alignas(8) SerializationEntry
 	{
 		::System::Type* m_type; // 0x10

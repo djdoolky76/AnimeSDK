@@ -3,6 +3,8 @@
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int ShaderGroupAlloc_TypeDefinitionIndex = 4257;
+
 	struct alignas(4) ShaderGroupAlloc
 	{
 		::System::Int32 shaderID; // 0x10

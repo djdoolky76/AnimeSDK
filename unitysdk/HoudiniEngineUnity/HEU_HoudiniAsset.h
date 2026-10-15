@@ -320,6 +320,8 @@ namespace UnityEngine::Events { class UnityAction; }
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int HEU_HoudiniAsset_TypeDefinitionIndex = 40391;
+
 	class HEU_HoudiniAsset : public ::UnityEngine::MonoBehaviour
 	{
 	public:

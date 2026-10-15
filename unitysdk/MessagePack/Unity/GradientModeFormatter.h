@@ -12,6 +12,8 @@ namespace MessagePack { class MessagePackSerializerOptions; }
 
 namespace MessagePack::Unity
 {
+	inline static constexpr unsigned int GradientModeFormatter_TypeDefinitionIndex = 10126;
+
 	class GradientModeFormatter : public ::System::Object
 	{
 	public:

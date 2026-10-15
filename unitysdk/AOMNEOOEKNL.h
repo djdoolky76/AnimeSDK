@@ -11,6 +11,8 @@ namespace UnityEngine { class Object; }
 #define AOMNEOOEKNL_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0x158C3D20)
 #define AOMNEOOEKNL_OBIHLGBEOPP_OFFSET UNITYSDK_OFFSET(0x158C3D90)
 
+inline static constexpr unsigned int AOMNEOOEKNL_TypeDefinitionIndex = 49531;
+
 	class AOMNEOOEKNL : public ::System::Object
 	{
 	public:

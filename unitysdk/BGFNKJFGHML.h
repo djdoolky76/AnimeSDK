@@ -22,6 +22,8 @@ namespace System { class Nullable; }
 #define BGFNKJFGHML_NLCLHECPCIB_OFFSET UNITYSDK_OFFSET(0xB1845C0)
 #define BGFNKJFGHML_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0xB184F50)
 
+inline static constexpr unsigned int BGFNKJFGHML_TypeDefinitionIndex = 69650;
+
 	class BGFNKJFGHML : public ::MDILEMALGNC
 	{
 	public:

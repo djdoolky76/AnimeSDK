@@ -9,6 +9,8 @@ namespace RPG::GameCore { class WheelSelectConfigRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int WheelSelectConfigRow_TypeDefinitionIndex = 13321;
+
 	class WheelSelectConfigRow : public ::System::Object
 	{
 	public:

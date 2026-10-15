@@ -13,6 +13,8 @@ namespace System::Net { class TimerThread_Timer; }
 
 namespace System::Net
 {
+	inline static constexpr unsigned int TimerThread_Callback_TypeDefinitionIndex = 2787;
+
 	class TimerThread_Callback : public ::System::MulticastDelegate
 	{
 	public:

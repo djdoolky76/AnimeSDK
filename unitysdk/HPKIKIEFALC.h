@@ -27,6 +27,8 @@ namespace System { class String; }
 #define HPKIKIEFALC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E5FC1D0)
 #define HPKIKIEFALC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E5FC230)
 
+inline static constexpr unsigned int HPKIKIEFALC_TypeDefinitionIndex = 32245;
+
 	class HPKIKIEFALC : public ::System::Object
 	{
 	public:

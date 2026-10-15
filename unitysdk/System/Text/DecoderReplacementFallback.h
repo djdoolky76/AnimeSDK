@@ -15,6 +15,8 @@ namespace System::Text { class DecoderFallbackBuffer; }
 
 namespace System::Text
 {
+	inline static constexpr unsigned int DecoderReplacementFallback_TypeDefinitionIndex = 476;
+
 	class DecoderReplacementFallback : public ::System::Text::DecoderFallback
 	{
 	public:

@@ -44,6 +44,8 @@ namespace System { class String; }
 #define CGDOAHDPBHF_PNBPMANLEAI_OFFSET UNITYSDK_OFFSET(0x1DD180E0)
 #define CGDOAHDPBHF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DD186A0)
 
+inline static constexpr unsigned int CGDOAHDPBHF_TypeDefinitionIndex = 6285;
+
 	class CGDOAHDPBHF : public ::System::Object
 	{
 	public:

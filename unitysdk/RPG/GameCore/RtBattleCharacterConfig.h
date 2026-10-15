@@ -12,6 +12,8 @@ namespace RPG::GameCore { class ValueEvaluatorConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RtBattleCharacterConfig_TypeDefinitionIndex = 18037;
+
 	class RtBattleCharacterConfig : public ::RPG::GameCore::RtCharacterConfig
 	{
 	public:

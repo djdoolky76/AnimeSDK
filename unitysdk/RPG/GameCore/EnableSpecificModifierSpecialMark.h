@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int EnableSpecificModifierSpecialMark_TypeDefinitionIndex = 23175;
+
 	class EnableSpecificModifierSpecialMark : public ::RPG::GameCore::TaskConfig
 	{
 	public:

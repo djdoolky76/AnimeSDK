@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int LoginFlowNotificationBoxConfig_TypeDefinitionIndex = 7923;
+
 	class LoginFlowNotificationBoxConfig : public ::System::Object
 	{
 	public:

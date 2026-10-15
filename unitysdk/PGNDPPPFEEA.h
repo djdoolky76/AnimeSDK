@@ -22,6 +22,8 @@ namespace UnityEngine::UI { class Image; }
 #define PGNDPPPFEEA_NKPPGDENJAE_OFFSET UNITYSDK_OFFSET(0xC229960)
 #define PGNDPPPFEEA__ONBIND_OFFSET UNITYSDK_OFFSET(0xC229740)
 
+inline static constexpr unsigned int PGNDPPPFEEA_TypeDefinitionIndex = 72173;
+
 	class PGNDPPPFEEA : public ::FMPCODLIOLG
 	{
 	public:

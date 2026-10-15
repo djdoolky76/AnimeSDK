@@ -11,6 +11,8 @@ namespace RPG::Client { template <typename T> class RPGHttpPlatformActResponse_1
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueTournModule___c__DisplayClass39_0_TypeDefinitionIndex = 67801;
+
 	class RogueTournModule___c__DisplayClass39_0 : public ::System::Object
 	{
 	public:

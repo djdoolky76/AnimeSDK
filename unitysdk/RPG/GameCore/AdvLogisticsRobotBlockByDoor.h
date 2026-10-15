@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdvLogisticsRobotBlockByDoor_TypeDefinitionIndex = 21200;
+
 	class AdvLogisticsRobotBlockByDoor : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -6,6 +6,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueToastMiracleBrokenParam_TypeDefinitionIndex = 67018;
+
 	class RogueToastMiracleBrokenParam : public ::System::Object
 	{
 	public:

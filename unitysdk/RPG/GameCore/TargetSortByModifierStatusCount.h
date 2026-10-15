@@ -14,6 +14,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TargetSortByModifierStatusCount_TypeDefinitionIndex = 23985;
+
 	class TargetSortByModifierStatusCount : public ::RPG::GameCore::TargetSeqOperation
 	{
 	public:

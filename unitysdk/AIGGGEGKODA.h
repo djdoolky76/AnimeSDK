@@ -4,6 +4,8 @@
 
 #define AIGGGEGKODA_CTOR_OFFSET UNITYSDK_OFFSET(0xEBA3940)
 
+inline static constexpr unsigned int AIGGGEGKODA_TypeDefinitionIndex = 80482;
+
 	class AIGGGEGKODA : public ::System::Object
 	{
 	public:

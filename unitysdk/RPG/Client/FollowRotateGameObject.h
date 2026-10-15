@@ -8,6 +8,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int FollowRotateGameObject_TypeDefinitionIndex = 68427;
+
 	class FollowRotateGameObject : public ::System::Object
 	{
 	public:

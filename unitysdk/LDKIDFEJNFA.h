@@ -34,6 +34,8 @@ namespace System { class String; }
 #define LDKIDFEJNFA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E8FAFA0)
 #define LDKIDFEJNFA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E8FB000)
 
+inline static constexpr unsigned int LDKIDFEJNFA_TypeDefinitionIndex = 25407;
+
 	class LDKIDFEJNFA : public ::System::Object
 	{
 	public:

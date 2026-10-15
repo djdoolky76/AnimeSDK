@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define ONCAOGIEEIG___C__DISPLAYCLASS26_1__APPLYPROPERTYWITHRESLOADING_B__3_OFFSET UNITYSDK_OFFSET(0xBF4EBF0)
 #define ONCAOGIEEIG___C__DISPLAYCLASS26_1__APPLYPROPERTYWITHRESLOADING_B__4_OFFSET UNITYSDK_OFFSET(0xBF4EF00)
 
+inline static constexpr unsigned int ONCAOGIEEIG___c__DisplayClass26_1_TypeDefinitionIndex = 49442;
+
 	template <typename T>
 	class ONCAOGIEEIG___c__DisplayClass26_1 : public ::System::Object
 	{

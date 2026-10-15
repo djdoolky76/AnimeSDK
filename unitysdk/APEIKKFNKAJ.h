@@ -33,6 +33,8 @@ namespace System { class String; }
 #define APEIKKFNKAJ_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E674300)
 #define APEIKKFNKAJ_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E674360)
 
+inline static constexpr unsigned int APEIKKFNKAJ_TypeDefinitionIndex = 27874;
+
 	class APEIKKFNKAJ : public ::System::Object
 	{
 	public:

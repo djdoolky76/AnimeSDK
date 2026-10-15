@@ -23,6 +23,8 @@ namespace System { class Uri; }
 
 namespace System
 {
+	inline static constexpr unsigned int UriBuilder_TypeDefinitionIndex = 2457;
+
 	class UriBuilder : public ::System::Object
 	{
 	public:

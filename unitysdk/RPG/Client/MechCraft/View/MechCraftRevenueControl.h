@@ -13,6 +13,8 @@ namespace RPG::Client::MechCraft::View { class MechCraftRevenueControlBinder; }
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftRevenueControl_TypeDefinitionIndex = 80047;
+
 	class MechCraftRevenueControl : public ::UnityEngine::MonoBehaviour
 	{
 	public:

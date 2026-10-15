@@ -22,6 +22,8 @@ namespace System { class Object; }
 
 namespace RPG
 {
+	inline static constexpr unsigned int MColor_TypeDefinitionIndex = 6384;
+
 	struct alignas(4) MColor
 	{
 		::System::Single r; // 0x10

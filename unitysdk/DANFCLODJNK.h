@@ -11,6 +11,8 @@ namespace System { class String; }
 #define DANFCLODJNK_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DCCBBB0)
 #define DANFCLODJNK_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DCCBB10)
 
+inline static constexpr unsigned int DANFCLODJNK_TypeDefinitionIndex = 23122;
+
 	class DANFCLODJNK : public ::RPG::GameCore::TaskConfig
 	{
 	public:

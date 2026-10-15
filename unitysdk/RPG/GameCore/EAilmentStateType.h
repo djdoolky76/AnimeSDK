@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int EAilmentStateType_TypeDefinitionIndex = 10510;
+
 	enum class EAilmentStateType : ::System::Int32
 	{
 		None = 0,

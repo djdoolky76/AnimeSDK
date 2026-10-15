@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace RPG::Client::ChenLingBattle
 {
+	inline static constexpr unsigned int ConditionIconData_TypeDefinitionIndex = 76348;
+
 	struct alignas(8) ConditionIconData
 	{
 		::RPG::GameCore::ChenLingIconType Type; // 0x10

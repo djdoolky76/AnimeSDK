@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define LAPACOEMOCK___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E8D4770)
 #define LAPACOEMOCK___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1E8D4780)
 
+inline static constexpr unsigned int LAPACOEMOCK___c_TypeDefinitionIndex = 32001;
+
 	class LAPACOEMOCK___c : public ::System::Object
 	{
 	public:

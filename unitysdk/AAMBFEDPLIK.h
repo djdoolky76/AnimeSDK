@@ -4,6 +4,8 @@
 
 #define AAMBFEDPLIK_CTOR_OFFSET UNITYSDK_OFFSET(0x1C8775F0)
 
+inline static constexpr unsigned int AAMBFEDPLIK_TypeDefinitionIndex = 42354;
+
 	class AAMBFEDPLIK : public ::System::Object
 	{
 	public:

@@ -28,6 +28,8 @@ namespace System { class String; }
 #define NHLBNBBDHMI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EB201C0)
 #define NHLBNBBDHMI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EB20220)
 
+inline static constexpr unsigned int NHLBNBBDHMI_TypeDefinitionIndex = 32908;
+
 	class NHLBNBBDHMI : public ::System::Object
 	{
 	public:

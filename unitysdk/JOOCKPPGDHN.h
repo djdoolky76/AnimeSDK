@@ -7,6 +7,8 @@ namespace RPG::GameCore { class LittleGameLevelVariable; }
 #define JOOCKPPGDHN_ISVALUEEQUALSTO_OFFSET UNITYSDK_OFFSET(0xB2AEA40)
 #define JOOCKPPGDHN_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xB2AE980)
 
+inline static constexpr unsigned int JOOCKPPGDHN_TypeDefinitionIndex = 76501;
+
 	class JOOCKPPGDHN
 	{
 	public:

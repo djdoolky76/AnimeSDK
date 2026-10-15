@@ -34,6 +34,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int FollowPointMapping_TypeDefinitionIndex = 68425;
+
 	class FollowPointMapping : public ::UnityEngine::MonoBehaviour
 	{
 	public:

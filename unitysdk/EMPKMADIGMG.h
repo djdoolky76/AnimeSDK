@@ -26,6 +26,8 @@ namespace UnityEngine::UI { class SmoothMask; }
 #define EMPKMADIGMG_NGNACJONELO_OFFSET UNITYSDK_OFFSET(0x155A5670)
 #define EMPKMADIGMG__ONBIND_OFFSET UNITYSDK_OFFSET(0x155A52A0)
 
+inline static constexpr unsigned int EMPKMADIGMG_TypeDefinitionIndex = 71927;
+
 	class EMPKMADIGMG : public ::CLAADCBPCHM
 	{
 	public:

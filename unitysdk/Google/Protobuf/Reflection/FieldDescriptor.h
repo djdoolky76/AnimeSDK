@@ -34,6 +34,8 @@ namespace System { class String; }
 
 namespace Google::Protobuf::Reflection
 {
+	inline static constexpr unsigned int FieldDescriptor_TypeDefinitionIndex = 5541;
+
 	class FieldDescriptor : public ::Google::Protobuf::Reflection::DescriptorBase
 	{
 	public:

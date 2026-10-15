@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ElationCharacterUIConfig_TypeDefinitionIndex = 16544;
+
 	class ElationCharacterUIConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

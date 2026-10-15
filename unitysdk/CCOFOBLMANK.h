@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define CCOFOBLMANK_CTOR_OFFSET UNITYSDK_OFFSET(0xC751DE0)
 #define CCOFOBLMANK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC751E10)
 
+inline static constexpr unsigned int CCOFOBLMANK_TypeDefinitionIndex = 58357;
+
 	class CCOFOBLMANK
 	{
 	public:

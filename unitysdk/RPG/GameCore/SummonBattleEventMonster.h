@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SummonBattleEventMonster_TypeDefinitionIndex = 22656;
+
 	class SummonBattleEventMonster : public ::RPG::GameCore::TaskConfig
 	{
 	public:

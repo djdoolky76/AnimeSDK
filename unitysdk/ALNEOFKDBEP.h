@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define ALNEOFKDBEP_GOKOJHODEAK_OFFSET UNITYSDK_OFFSET(0x15571020)
 #define ALNEOFKDBEP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15570B90)
 
+inline static constexpr unsigned int ALNEOFKDBEP_TypeDefinitionIndex = 52675;
+
 	class ALNEOFKDBEP
 	{
 	public:

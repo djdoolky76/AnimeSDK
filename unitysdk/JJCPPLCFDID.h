@@ -6,6 +6,8 @@
 #define JJCPPLCFDID_CTOR_OFFSET UNITYSDK_OFFSET(0xB201BF0)
 #define JJCPPLCFDID_GNADABFLEFM_OFFSET UNITYSDK_OFFSET(0xB2013F0)
 
+inline static constexpr unsigned int JJCPPLCFDID_TypeDefinitionIndex = 64929;
+
 	class JJCPPLCFDID : public ::HBIAKFCLCIG
 	{
 	public:

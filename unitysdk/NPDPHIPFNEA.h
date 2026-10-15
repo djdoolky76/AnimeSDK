@@ -7,6 +7,8 @@ class GGELFBGMBGK;
 #define NPDPHIPFNEA_CCTOR_OFFSET UNITYSDK_OFFSET(0xBCFB510)
 #define NPDPHIPFNEA_ECCPIPCGAMI_OFFSET UNITYSDK_OFFSET(0xBCF3E30)
 
+inline static constexpr unsigned int NPDPHIPFNEA_TypeDefinitionIndex = 75124;
+
 	class NPDPHIPFNEA : public ::System::Object
 	{
 	public:

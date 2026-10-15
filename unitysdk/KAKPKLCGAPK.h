@@ -4,6 +4,8 @@
 
 #define KAKPKLCGAPK_CTOR_OFFSET UNITYSDK_OFFSET(0x1CBB02F0)
 
+inline static constexpr unsigned int KAKPKLCGAPK_TypeDefinitionIndex = 42339;
+
 	class KAKPKLCGAPK : public ::System::Object
 	{
 	public:

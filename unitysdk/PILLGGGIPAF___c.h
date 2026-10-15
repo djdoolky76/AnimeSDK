@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define PILLGGGIPAF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DF6D3F0)
 #define PILLGGGIPAF___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1DF6D400)
 
+inline static constexpr unsigned int PILLGGGIPAF___c_TypeDefinitionIndex = 26003;
+
 	class PILLGGGIPAF___c : public ::System::Object
 	{
 	public:

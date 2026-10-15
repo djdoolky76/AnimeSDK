@@ -6,6 +6,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int CRPSFXSettings_TypeDefinitionIndex = 67932;
+
 	class CRPSFXSettings : public ::System::Object
 	{
 	public:

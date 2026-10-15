@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GachPoolRewardConfigRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GachPoolRewardConfigRow_TypeDefinitionIndex = 14626;
+
 	class GachPoolRewardConfigRow : public ::System::Object
 	{
 	public:

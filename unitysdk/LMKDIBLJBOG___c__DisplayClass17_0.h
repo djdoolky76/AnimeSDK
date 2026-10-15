@@ -5,6 +5,8 @@
 #define LMKDIBLJBOG___C__DISPLAYCLASS17_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB7CD990)
 #define LMKDIBLJBOG___C__DISPLAYCLASS17_0___CREATESENDMESSAGEACTION_B__0_OFFSET UNITYSDK_OFFSET(0xB7CE020)
 
+inline static constexpr unsigned int LMKDIBLJBOG___c__DisplayClass17_0_TypeDefinitionIndex = 76441;
+
 	class LMKDIBLJBOG___c__DisplayClass17_0 : public ::System::Object
 	{
 	public:

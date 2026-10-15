@@ -30,6 +30,8 @@ namespace System { class String; }
 #define NKLLJAMLBCB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EB5B2C0)
 #define NKLLJAMLBCB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EB5B320)
 
+inline static constexpr unsigned int NKLLJAMLBCB_TypeDefinitionIndex = 34359;
+
 	class NKLLJAMLBCB : public ::System::Object
 	{
 	public:

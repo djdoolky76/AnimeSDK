@@ -7,6 +7,8 @@ namespace System { class Action; }
 #define HPMJLMFKOKP_CTOR_OFFSET UNITYSDK_OFFSET(0x15DD4ED0)
 #define HPMJLMFKOKP_IDOCGNIBDFE_OFFSET UNITYSDK_OFFSET(0x15DD4DF0)
 
+inline static constexpr unsigned int HPMJLMFKOKP_TypeDefinitionIndex = 69392;
+
 	class HPMJLMFKOKP : public ::System::Object
 	{
 	public:

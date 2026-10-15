@@ -13,6 +13,8 @@ namespace RPG::Client { class NotifyHandler; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int BaseRedDotFilter_TypeDefinitionIndex = 66831;
+
 	class BaseRedDotFilter : public ::System::Object
 	{
 	public:

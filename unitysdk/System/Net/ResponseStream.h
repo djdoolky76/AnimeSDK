@@ -33,6 +33,8 @@ namespace System::Net { class HttpListenerResponse; }
 
 namespace System::Net
 {
+	inline static constexpr unsigned int ResponseStream_TypeDefinitionIndex = 2872;
+
 	class ResponseStream : public ::System::IO::Stream
 	{
 	public:

@@ -44,6 +44,8 @@ namespace System { class String; }
 #define LDJDPENEGNH_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E8F9300)
 #define LDJDPENEGNH_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E8F9360)
 
+inline static constexpr unsigned int LDJDPENEGNH_TypeDefinitionIndex = 25337;
+
 	class LDJDPENEGNH : public ::System::Object
 	{
 	public:

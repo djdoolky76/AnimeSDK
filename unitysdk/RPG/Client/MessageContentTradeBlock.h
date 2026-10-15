@@ -24,6 +24,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MessageContentTradeBlock_TypeDefinitionIndex = 63253;
+
 	class MessageContentTradeBlock : public ::RPG::Client::MessageContentBlock
 	{
 	public:

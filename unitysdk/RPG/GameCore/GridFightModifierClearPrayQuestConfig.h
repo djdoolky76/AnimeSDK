@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GridFightModifierClearPrayQuestConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightModifierClearPrayQuestConfig_TypeDefinitionIndex = 19496;
+
 	class GridFightModifierClearPrayQuestConfig : public ::RPG::GameCore::GridFightModifierConfigBase
 	{
 	public:

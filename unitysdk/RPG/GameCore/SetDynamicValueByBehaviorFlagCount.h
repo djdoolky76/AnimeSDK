@@ -16,6 +16,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetDynamicValueByBehaviorFlagCount_TypeDefinitionIndex = 23583;
+
 	class SetDynamicValueByBehaviorFlagCount : public ::RPG::GameCore::SetDynamicValueBase
 	{
 	public:

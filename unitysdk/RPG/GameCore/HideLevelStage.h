@@ -11,6 +11,8 @@ namespace RPG::GameCore { class HideLevelStage; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int HideLevelStage_TypeDefinitionIndex = 22506;
+
 	class HideLevelStage : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -13,6 +13,8 @@ namespace RPG::Client { class CameraFightStateSelectDarkTeamSelfEntityConfig; }
 #define HDEPAIHHFCI_REFRESH_OFFSET UNITYSDK_OFFSET(0x15C320B0)
 #define HDEPAIHHFCI_RESET_OFFSET UNITYSDK_OFFSET(0x15C32010)
 
+inline static constexpr unsigned int HDEPAIHHFCI_TypeDefinitionIndex = 69603;
+
 	class HDEPAIHHFCI : public ::System::Object
 	{
 	public:

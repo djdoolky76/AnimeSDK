@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueActRemoveFormulaAndTriggerSelectConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueActRemoveFormulaAndTriggerSelectConfig_TypeDefinitionIndex = 19707;
+
 	class RogueActRemoveFormulaAndTriggerSelectConfig : public ::RPG::GameCore::RogueActionConfigBase
 	{
 	public:

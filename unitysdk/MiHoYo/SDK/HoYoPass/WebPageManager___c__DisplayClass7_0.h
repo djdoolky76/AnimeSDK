@@ -11,6 +11,8 @@ namespace System { class Action; }
 
 namespace MiHoYo::SDK::HoYoPass
 {
+	inline static constexpr unsigned int WebPageManager___c__DisplayClass7_0_TypeDefinitionIndex = 8345;
+
 	class WebPageManager___c__DisplayClass7_0 : public ::System::Object
 	{
 	public:

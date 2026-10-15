@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace Newtonsoft::Json::Serialization
 {
+	inline static constexpr unsigned int DefaultSerializationBinder_TypeNameKey_TypeDefinitionIndex = 9715;
+
 	struct alignas(8) DefaultSerializationBinder_TypeNameKey
 	{
 		::System::String* AssemblyName; // 0x10

@@ -16,6 +16,8 @@ namespace System { class String; }
 
 namespace RPG::Client::FateRin::Challenge
 {
+	inline static constexpr unsigned int FateRinBattlePauseChallengeBuffViewModel_TypeDefinitionIndex = 81026;
+
 	class FateRinBattlePauseChallengeBuffViewModel : public ::RPG::Client::FateRin::BaseViewModel
 	{
 	public:

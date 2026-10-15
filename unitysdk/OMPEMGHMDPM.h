@@ -29,6 +29,8 @@ namespace System { class String; }
 #define OMPEMGHMDPM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DEBDEE0)
 #define OMPEMGHMDPM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DEBDF40)
 
+inline static constexpr unsigned int OMPEMGHMDPM_TypeDefinitionIndex = 27765;
+
 	class OMPEMGHMDPM : public ::System::Object
 	{
 	public:

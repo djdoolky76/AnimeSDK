@@ -4,6 +4,8 @@
 
 #define HPIJDELNNNE_CTOR_OFFSET UNITYSDK_OFFSET(0x1C688F40)
 
+inline static constexpr unsigned int HPIJDELNNNE_TypeDefinitionIndex = 36840;
+
 	class HPIJDELNNNE : public ::System::Attribute
 	{
 	public:

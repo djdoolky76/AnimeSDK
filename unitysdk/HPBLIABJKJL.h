@@ -12,6 +12,8 @@ namespace RPG::GameCore { class WaitForWithTaskList; }
 #define HPBLIABJKJL_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x15DC15A0)
 #define HPBLIABJKJL_TICK_OFFSET UNITYSDK_OFFSET(0x15DC15F0)
 
+inline static constexpr unsigned int HPBLIABJKJL_TypeDefinitionIndex = 58895;
+
 	class HPBLIABJKJL : public ::GELIALJDFBL
 	{
 	public:

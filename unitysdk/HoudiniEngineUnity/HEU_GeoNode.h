@@ -85,6 +85,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int HEU_GeoNode_TypeDefinitionIndex = 40390;
+
 	class HEU_GeoNode : public ::UnityEngine::ScriptableObject
 	{
 	public:

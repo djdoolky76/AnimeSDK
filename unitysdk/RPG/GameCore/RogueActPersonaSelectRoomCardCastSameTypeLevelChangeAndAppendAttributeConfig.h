@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueActPersonaSelectRoomCardCastSameTypeLevelCh
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueActPersonaSelectRoomCardCastSameTypeLevelChangeAndAppendAttributeConfig_TypeDefinitionIndex = 19727;
+
 	class RogueActPersonaSelectRoomCardCastSameTypeLevelChangeAndAppendAttributeConfig : public ::RPG::GameCore::RogueActPersonaSelectRoomCardCastConfig
 	{
 	public:

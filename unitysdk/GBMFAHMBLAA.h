@@ -29,6 +29,8 @@ namespace System { class String; }
 #define GBMFAHMBLAA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E431440)
 #define GBMFAHMBLAA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E4314A0)
 
+inline static constexpr unsigned int GBMFAHMBLAA_TypeDefinitionIndex = 34005;
+
 	class GBMFAHMBLAA : public ::System::Object
 	{
 	public:

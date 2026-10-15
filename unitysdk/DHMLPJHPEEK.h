@@ -28,6 +28,8 @@ namespace ZLinq { class ValueEnumerable; }
 #define DHMLPJHPEEK_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1CD23000)
 #define DHMLPJHPEEK_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1CD22680)
 
+inline static constexpr unsigned int DHMLPJHPEEK_TypeDefinitionIndex = 14392;
+
 	class DHMLPJHPEEK : public ::System::Object
 	{
 	public:

@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ReplayUploadContent_TypeDefinitionIndex = 60977;
+
 	class ReplayUploadContent : public ::System::Object
 	{
 	public:

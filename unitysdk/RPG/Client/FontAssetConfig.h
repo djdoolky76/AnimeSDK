@@ -10,6 +10,8 @@ namespace UnityEngine { class Material; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int FontAssetConfig_TypeDefinitionIndex = 60040;
+
 	class FontAssetConfig : public ::UnityEngine::ScriptableObject
 	{
 	public:

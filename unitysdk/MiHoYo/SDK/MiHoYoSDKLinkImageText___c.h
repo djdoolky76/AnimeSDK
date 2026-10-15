@@ -11,6 +11,8 @@ namespace UnityEngine::UI { class Image; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int MiHoYoSDKLinkImageText___c_TypeDefinitionIndex = 46458;
+
 	class MiHoYoSDKLinkImageText___c : public ::System::Object
 	{
 	public:

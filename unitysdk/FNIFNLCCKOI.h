@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define FNIFNLCCKOI_CTOR_OFFSET UNITYSDK_OFFSET(0x15871780)
 #define FNIFNLCCKOI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x158717B0)
 
+inline static constexpr unsigned int FNIFNLCCKOI_TypeDefinitionIndex = 52853;
+
 	class FNIFNLCCKOI
 	{
 	public:

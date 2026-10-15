@@ -11,6 +11,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace RPG::Client::Challenge
 {
+	inline static constexpr unsigned int ChallengeGroupExpirationDetectViewModel___c_TypeDefinitionIndex = 81425;
+
 	class ChallengeGroupExpirationDetectViewModel___c : public ::System::Object
 	{
 	public:

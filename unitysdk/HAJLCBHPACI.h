@@ -33,6 +33,8 @@ namespace UnityEngine::Rendering { class CRPVirtualCamera; }
 #define HAJLCBHPACI_NIOJLAEEMLG_OFFSET UNITYSDK_OFFSET(0x15B7C0D0)
 #define HAJLCBHPACI_PJCJEAJNPBE_OFFSET UNITYSDK_OFFSET(0x15B7D160)
 
+inline static constexpr unsigned int HAJLCBHPACI_TypeDefinitionIndex = 69715;
+
 	class HAJLCBHPACI : public ::RPG::Client::BehaviorBase
 	{
 	public:

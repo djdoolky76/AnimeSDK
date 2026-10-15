@@ -9,6 +9,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::Console
 {
+	inline static constexpr unsigned int ConsoleBindMobileDialog___c__DisplayClass21_0_TypeDefinitionIndex = 8965;
+
 	class ConsoleBindMobileDialog___c__DisplayClass21_0 : public ::System::Object
 	{
 	public:

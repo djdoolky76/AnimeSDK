@@ -48,6 +48,8 @@ namespace System::Runtime::Serialization { class SerializationInfo; }
 
 namespace System::Runtime::Serialization
 {
+	inline static constexpr unsigned int ObjectManager_TypeDefinitionIndex = 1109;
+
 	class ObjectManager : public ::System::Object
 	{
 	public:

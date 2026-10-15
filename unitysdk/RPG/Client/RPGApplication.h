@@ -50,6 +50,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RPGApplication_TypeDefinitionIndex = 69491;
+
 	class RPGApplication : public ::System::Object
 	{
 	public:

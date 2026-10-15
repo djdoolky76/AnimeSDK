@@ -13,6 +13,8 @@ namespace System::Runtime::Serialization { class SerializationInfo; }
 
 namespace System
 {
+	inline static constexpr unsigned int ApplicationException_TypeDefinitionIndex = 191;
+
 	class ApplicationException : public ::System::Exception
 	{
 	public:

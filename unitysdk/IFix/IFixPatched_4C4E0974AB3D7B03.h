@@ -8,6 +8,8 @@
 
 namespace IFix
 {
+	inline static constexpr unsigned int IFixPatched_4C4E0974AB3D7B03_TypeDefinitionIndex = 43811;
+
 	class IFixPatched_4C4E0974AB3D7B03 : public ::System::Object
 	{
 	public:

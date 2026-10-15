@@ -7,6 +7,8 @@
 
 namespace InControl::NativeDeviceProfiles
 {
+	inline static constexpr unsigned int XboxOneWindows10AENativeProfile_TypeDefinitionIndex = 41330;
+
 	class XboxOneWindows10AENativeProfile : public ::InControl::InputDeviceProfile
 	{
 	public:

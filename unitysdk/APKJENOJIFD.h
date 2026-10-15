@@ -25,6 +25,8 @@ namespace System { class String; }
 #define APKJENOJIFD_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E679350)
 #define APKJENOJIFD_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E6793B0)
 
+inline static constexpr unsigned int APKJENOJIFD_TypeDefinitionIndex = 29954;
+
 	class APKJENOJIFD : public ::System::Object
 	{
 	public:

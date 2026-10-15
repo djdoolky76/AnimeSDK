@@ -13,6 +13,8 @@ namespace UnityEngine::Rendering::UI { class DebugUIHandlerToggleHistory; }
 
 namespace UnityEngine::Rendering::UI
 {
+	inline static constexpr unsigned int DebugUIHandlerToggleHistory__RefreshAfterSanitization_d__4_TypeDefinitionIndex = 35696;
+
 	template <typename T1, typename T2, typename T3, typename T4>
 	class DebugUIHandlerToggleHistory__RefreshAfterSanitization_d__4 : public ::System::Object
 	{

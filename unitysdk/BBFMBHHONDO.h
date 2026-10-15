@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TriggerEffectList; }
 #define BBFMBHHONDO_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x15E87760)
 #define BBFMBHHONDO_TICK_OFFSET UNITYSDK_OFFSET(0x15E877B0)
 
+inline static constexpr unsigned int BBFMBHHONDO_TypeDefinitionIndex = 55730;
+
 	class BBFMBHHONDO : public ::GELIALJDFBL
 	{
 	public:

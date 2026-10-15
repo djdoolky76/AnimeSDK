@@ -12,6 +12,8 @@ namespace RPG::GameCore { class WaitGroupStateChange; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int WaitGroupStateChange_TypeDefinitionIndex = 20725;
+
 	class WaitGroupStateChange : public ::RPG::GameCore::AdvWaitingEventBase
 	{
 	public:

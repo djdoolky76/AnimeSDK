@@ -4,6 +4,8 @@
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int TextFormatChange_TypeDefinitionIndex = 5057;
+
 	struct alignas(4) TextFormatChange
 	{
 		::System::Int32 startPosition; // 0x10

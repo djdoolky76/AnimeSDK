@@ -16,6 +16,8 @@ namespace System::Security::Util { class TokenizerStream; }
 
 namespace System::Security::Util
 {
+	inline static constexpr unsigned int Parser_TypeDefinitionIndex = 974;
+
 	class Parser : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace RPG::GameCore { class RemoveLevelAreas; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RemoveLevelAreas_TypeDefinitionIndex = 20748;
+
 	class RemoveLevelAreas : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -16,6 +16,8 @@ namespace System::Collections { class IEnumerator; }
 
 namespace System::Collections
 {
+	inline static constexpr unsigned int ReadOnlyCollectionBase_TypeDefinitionIndex = 1497;
+
 	class ReadOnlyCollectionBase : public ::System::Object
 	{
 	public:

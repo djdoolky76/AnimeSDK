@@ -19,6 +19,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define KAOBNMGLDPB_ODGPOOLNEGL_OFFSET UNITYSDK_OFFSET(0xB2E5500)
 #define KAOBNMGLDPB_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0xB2E5910)
 
+inline static constexpr unsigned int KAOBNMGLDPB_TypeDefinitionIndex = 69167;
+
 	class KAOBNMGLDPB : public ::RPG::Client::BaseModule
 	{
 	public:

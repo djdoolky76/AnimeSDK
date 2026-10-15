@@ -7,6 +7,8 @@ namespace System { class Type; }
 
 namespace XLua
 {
+	inline static constexpr unsigned int ObjectTranslator_ExtraParameter_TypeDefinitionIndex = 50070;
+
 	class ObjectTranslator_ExtraParameter : public ::System::Object
 	{
 	public:

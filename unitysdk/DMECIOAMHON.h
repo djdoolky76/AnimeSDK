@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define DMECIOAMHON_EVALUATE_OFFSET UNITYSDK_OFFSET(0xFEBA9A0)
 #define DMECIOAMHON_TRANSFORM_OFFSET UNITYSDK_OFFSET(0xFEBA910)
 
+inline static constexpr unsigned int DMECIOAMHON_TypeDefinitionIndex = 59072;
+
 	class DMECIOAMHON : public ::System::Object
 	{
 	public:

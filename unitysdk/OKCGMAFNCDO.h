@@ -7,6 +7,8 @@ namespace RPG::GameCore { class DiceCombatPredicateConfig_DiceIncludeAnyContent;
 #define OKCGMAFNCDO_CTOR_OFFSET UNITYSDK_OFFSET(0x1C7D04B0)
 #define OKCGMAFNCDO_KFGJEKJHIMB_OFFSET UNITYSDK_OFFSET(0x1C7D04D0)
 
+inline static constexpr unsigned int OKCGMAFNCDO_TypeDefinitionIndex = 36345;
+
 	class OKCGMAFNCDO : public ::HHOHBHGLHHF
 	{
 	public:

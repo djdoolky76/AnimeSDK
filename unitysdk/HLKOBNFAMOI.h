@@ -14,6 +14,8 @@ namespace RPG::Client::Promises { class IPromise; }
 #define HLKOBNFAMOI_START_OFFSET UNITYSDK_OFFSET(0x15D631C0)
 #define HLKOBNFAMOI_STOP_OFFSET UNITYSDK_OFFSET(0x15D63200)
 
+inline static constexpr unsigned int HLKOBNFAMOI_TypeDefinitionIndex = 62760;
+
 	class HLKOBNFAMOI : public ::BHPMNMMGLHI
 	{
 	public:

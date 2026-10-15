@@ -24,6 +24,8 @@ namespace UnityEngine { class Animation; }
 #define CGAEPBLMFIK_OJMHEDADEAL_OFFSET UNITYSDK_OFFSET(0xCC627F0)
 #define CGAEPBLMFIK_ONCLGACONPD_OFFSET UNITYSDK_OFFSET(0xCC62AE0)
 
+inline static constexpr unsigned int CGAEPBLMFIK_TypeDefinitionIndex = 81921;
+
 	class CGAEPBLMFIK : public ::System::Object
 	{
 	public:

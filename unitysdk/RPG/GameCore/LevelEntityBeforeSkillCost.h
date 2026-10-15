@@ -18,6 +18,8 @@ namespace RPG::GameCore { class SkillConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelEntityBeforeSkillCost_TypeDefinitionIndex = 56749;
+
 	class LevelEntityBeforeSkillCost : public ::CMPGEAFHHDC
 	{
 	public:

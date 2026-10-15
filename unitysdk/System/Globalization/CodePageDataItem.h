@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace System::Globalization
 {
+	inline static constexpr unsigned int CodePageDataItem_TypeDefinitionIndex = 784;
+
 	class CodePageDataItem : public ::System::Object
 	{
 	public:

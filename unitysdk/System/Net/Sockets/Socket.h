@@ -179,6 +179,8 @@ namespace System::Threading { class Thread; }
 
 namespace System::Net::Sockets
 {
+	inline static constexpr unsigned int Socket_TypeDefinitionIndex = 2902;
+
 	class Socket : public ::System::Object
 	{
 	public:

@@ -9,6 +9,8 @@ namespace System { class String; }
 
 namespace RPGTools::Timeline::VFX
 {
+	inline static constexpr unsigned int PageTearConfig_TypeDefinitionIndex = 48677;
+
 	class PageTearConfig : public ::System::Object
 	{
 	public:

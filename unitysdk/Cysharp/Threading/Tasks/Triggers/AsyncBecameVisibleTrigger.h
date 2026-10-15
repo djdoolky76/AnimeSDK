@@ -13,6 +13,8 @@ namespace Cysharp::Threading::Tasks::Triggers { class IAsyncOnBecameVisibleHandl
 
 namespace Cysharp::Threading::Tasks::Triggers
 {
+	inline static constexpr unsigned int AsyncBecameVisibleTrigger_TypeDefinitionIndex = 38523;
+
 	class AsyncBecameVisibleTrigger
 	{
 	public:

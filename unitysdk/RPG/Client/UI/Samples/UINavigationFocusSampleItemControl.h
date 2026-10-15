@@ -8,6 +8,8 @@ class HIKAAGHELPH;
 
 namespace RPG::Client::Ui::Samples
 {
+	inline static constexpr unsigned int UINavigationFocusSampleItemControl_TypeDefinitionIndex = 73473;
+
 	class UINavigationFocusSampleItemControl
 	{
 	public:

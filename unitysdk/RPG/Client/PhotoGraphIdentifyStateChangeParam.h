@@ -8,6 +8,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PhotoGraphIdentifyStateChangeParam_TypeDefinitionIndex = 69426;
+
 	class PhotoGraphIdentifyStateChangeParam : public ::System::Object
 	{
 	public:

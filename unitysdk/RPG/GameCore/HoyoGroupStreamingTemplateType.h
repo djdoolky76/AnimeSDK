@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int HoyoGroupStreamingTemplateType_TypeDefinitionIndex = 17334;
+
 	enum class HoyoGroupStreamingTemplateType : ::System::Int32
 	{
 		None = 0,

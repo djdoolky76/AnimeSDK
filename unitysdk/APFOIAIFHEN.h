@@ -30,6 +30,8 @@ namespace System { class String; }
 #define APFOIAIFHEN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E674F10)
 #define APFOIAIFHEN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E674F70)
 
+inline static constexpr unsigned int APFOIAIFHEN_TypeDefinitionIndex = 25663;
+
 	class APFOIAIFHEN : public ::System::Object
 	{
 	public:

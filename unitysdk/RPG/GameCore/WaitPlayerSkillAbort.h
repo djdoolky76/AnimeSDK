@@ -11,6 +11,8 @@ namespace RPG::GameCore { class WaitPlayerSkillAbort; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int WaitPlayerSkillAbort_TypeDefinitionIndex = 20913;
+
 	class WaitPlayerSkillAbort : public ::RPG::GameCore::TaskConfig
 	{
 	public:

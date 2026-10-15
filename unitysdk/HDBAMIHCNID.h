@@ -5,6 +5,8 @@
 
 #define HDBAMIHCNID_CTOR_OFFSET UNITYSDK_OFFSET(0x1CABD0F0)
 
+inline static constexpr unsigned int HDBAMIHCNID_TypeDefinitionIndex = 42950;
+
 	class HDBAMIHCNID : public ::System::Object
 	{
 	public:

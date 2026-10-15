@@ -18,6 +18,8 @@ namespace UnityEngine { class Transform; }
 #define PMMJMFOEBPN__ONBIND_OFFSET UNITYSDK_OFFSET(0xC327410)
 #define PMMJMFOEBPN__ONDISPOSE_OFFSET UNITYSDK_OFFSET(0xC327930)
 
+inline static constexpr unsigned int PMMJMFOEBPN_TypeDefinitionIndex = 71297;
+
 	class PMMJMFOEBPN : public ::FMPCODLIOLG
 	{
 	public:

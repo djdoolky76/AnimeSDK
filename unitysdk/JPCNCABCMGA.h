@@ -27,6 +27,8 @@ namespace System { class String; }
 #define JPCNCABCMGA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E7CF120)
 #define JPCNCABCMGA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E7CF180)
 
+inline static constexpr unsigned int JPCNCABCMGA_TypeDefinitionIndex = 32396;
+
 	class JPCNCABCMGA : public ::System::Object
 	{
 	public:

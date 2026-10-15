@@ -18,6 +18,8 @@ namespace System::Collections::Generic { template <typename T> class IList_1; }
 
 namespace Google::Protobuf::Reflection
 {
+	inline static constexpr unsigned int ExtensionCollection___c_TypeDefinitionIndex = 5537;
+
 	class ExtensionCollection___c : public ::System::Object
 	{
 	public:

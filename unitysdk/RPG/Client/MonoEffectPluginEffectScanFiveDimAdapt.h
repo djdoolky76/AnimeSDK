@@ -11,6 +11,8 @@ namespace RPG::Client { class MonoEffectPluginEffectScan; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoEffectPluginEffectScanFiveDimAdapt_TypeDefinitionIndex = 70005;
+
 	class MonoEffectPluginEffectScanFiveDimAdapt : public ::RPG::Client::MonoEffectPluginBase
 	{
 	public:

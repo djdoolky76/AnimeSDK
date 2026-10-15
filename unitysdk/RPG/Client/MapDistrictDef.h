@@ -36,6 +36,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MapDistrictDef_TypeDefinitionIndex = 62098;
+
 	class MapDistrictDef : public ::RPG::Client::MapEntityDef
 	{
 	public:

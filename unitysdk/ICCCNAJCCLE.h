@@ -15,6 +15,8 @@ namespace System { class String; }
 #define ICCCNAJCCLE_SET_ICONPATH_OFFSET UNITYSDK_OFFSET(0x15E4C5B0)
 #define ICCCNAJCCLE_SET_NODEID_OFFSET UNITYSDK_OFFSET(0x15E4C590)
 
+inline static constexpr unsigned int ICCCNAJCCLE_TypeDefinitionIndex = 72164;
+
 	class ICCCNAJCCLE : public ::System::Object
 	{
 	public:

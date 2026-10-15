@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ByPlantFesIsInSpineAnim_TypeDefinitionIndex = 10278;
+
 	class ByPlantFesIsInSpineAnim : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

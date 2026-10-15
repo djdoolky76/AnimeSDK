@@ -11,6 +11,8 @@ namespace System { class String; }
 #define GPGPMLIGDON_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x15B594F0)
 #define GPGPMLIGDON_JAILHGGFLDH_OFFSET UNITYSDK_OFFSET(0x15B59500)
 
+inline static constexpr unsigned int GPGPMLIGDON_TypeDefinitionIndex = 56143;
+
 	class GPGPMLIGDON : public ::DBGDNLLDPFI
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class SetShenJunActionBar; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetShenJunActionBar_TypeDefinitionIndex = 22932;
+
 	class SetShenJunActionBar : public ::RPG::GameCore::TaskConfig
 	{
 	public:

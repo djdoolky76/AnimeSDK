@@ -15,6 +15,8 @@ namespace System { class String; }
 
 namespace RPG::Client::FateRin::Challenge
 {
+	inline static constexpr unsigned int FateRinChallengeTabBtnViewModel_TypeDefinitionIndex = 81033;
+
 	class FateRinChallengeTabBtnViewModel : public ::RPG::Client::FateRin::BaseViewModel
 	{
 	public:

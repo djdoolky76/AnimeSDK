@@ -10,6 +10,8 @@ namespace System { class Object; }
 
 namespace MiHoYo::SDK::Win
 {
+	inline static constexpr unsigned int BindManager___c__DisplayClass36_1_TypeDefinitionIndex = 9390;
+
 	template <typename T>
 	class BindManager___c__DisplayClass36_1 : public ::System::Object
 	{

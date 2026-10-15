@@ -27,6 +27,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define LBLNEEJDGNI_NCNAMOLPELK_OFFSET UNITYSDK_OFFSET(0xB60A930)
 #define LBLNEEJDGNI_OJEPEECEGCH_OFFSET UNITYSDK_OFFSET(0xB60B330)
 
+inline static constexpr unsigned int LBLNEEJDGNI_TypeDefinitionIndex = 73818;
+
 	class LBLNEEJDGNI : public ::System::Object
 	{
 	public:

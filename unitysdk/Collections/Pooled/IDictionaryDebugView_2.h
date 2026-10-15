@@ -6,6 +6,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace Collections::Pooled
 {
+	inline static constexpr unsigned int IDictionaryDebugView_2_TypeDefinitionIndex = 5092;
+
 	template <typename T1, typename T2>
 	class IDictionaryDebugView_2 : public ::System::Object
 	{

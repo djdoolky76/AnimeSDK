@@ -15,6 +15,8 @@ class IHOAIJMMOEF;
 #define IENJIFNLDKB_MCBGPGPGMOE_OFFSET UNITYSDK_OFFSET(0x15F06190)
 #define IENJIFNLDKB_OGINGCNFKKG_OFFSET UNITYSDK_OFFSET(0x15F06C00)
 
+inline static constexpr unsigned int IENJIFNLDKB_TypeDefinitionIndex = 62865;
+
 	class IENJIFNLDKB : public ::System::Object
 	{
 	public:

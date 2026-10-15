@@ -13,6 +13,8 @@ namespace System { class Action; }
 #define PIANHFLDHAA_NNAGLJCMMGD_OFFSET UNITYSDK_OFFSET(0xC25AEF0)
 #define PIANHFLDHAA_NONJDKKDDLE_OFFSET UNITYSDK_OFFSET(0xC25ADC0)
 
+inline static constexpr unsigned int PIANHFLDHAA_TypeDefinitionIndex = 60483;
+
 	class PIANHFLDHAA : public ::System::Object
 	{
 	public:

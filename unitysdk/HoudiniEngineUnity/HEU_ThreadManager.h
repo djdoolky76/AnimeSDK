@@ -17,6 +17,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int HEU_ThreadManager_TypeDefinitionIndex = 40606;
+
 	class HEU_ThreadManager : public ::System::Object
 	{
 	public:

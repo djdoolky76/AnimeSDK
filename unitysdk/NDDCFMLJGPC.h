@@ -8,6 +8,8 @@ namespace RPG::GameCore { class CakeRaceActionChangeRobinRadiusByVote; }
 #define NDDCFMLJGPC_CTOR_OFFSET UNITYSDK_OFFSET(0x1C786610)
 #define NDDCFMLJGPC_GAILDDCMCHP_OFFSET UNITYSDK_OFFSET(0x1C786620)
 
+inline static constexpr unsigned int NDDCFMLJGPC_TypeDefinitionIndex = 37381;
+
 	class NDDCFMLJGPC : public ::GPLOFONGBGI
 	{
 	public:

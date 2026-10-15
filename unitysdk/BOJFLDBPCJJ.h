@@ -5,6 +5,8 @@ namespace System { class Object; }
 
 #define BOJFLDBPCJJ_AAFKDOFODJB_OFFSET UNITYSDK_OFFSET(0xC193FF0)
 
+inline static constexpr unsigned int BOJFLDBPCJJ_TypeDefinitionIndex = 48897;
+
 	class BOJFLDBPCJJ : public ::System::Object
 	{
 	public:

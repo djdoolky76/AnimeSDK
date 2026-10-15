@@ -18,6 +18,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int BattleAvatarUltraSkillFlyEffect_TypeDefinitionIndex = 71474;
+
 	class BattleAvatarUltraSkillFlyEffect : public ::UnityEngine::MonoBehaviour
 	{
 	public:

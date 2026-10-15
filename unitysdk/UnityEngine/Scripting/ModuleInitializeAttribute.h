@@ -6,6 +6,8 @@
 
 namespace UnityEngine::Scripting
 {
+	inline static constexpr unsigned int ModuleInitializeAttribute_TypeDefinitionIndex = 4502;
+
 	class ModuleInitializeAttribute : public ::System::Attribute
 	{
 	public:

@@ -31,6 +31,8 @@ namespace System { class Object; }
 
 namespace Cysharp::Threading::Tasks
 {
+	inline static constexpr unsigned int AutoResetUniTaskCompletionSource_TypeDefinitionIndex = 38395;
+
 	class AutoResetUniTaskCompletionSource : public ::System::Object
 	{
 	public:

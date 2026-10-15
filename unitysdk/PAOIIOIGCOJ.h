@@ -6,6 +6,8 @@ class LJFHKAJPFNE;
 #define PAOIIOIGCOJ_AGMANDJBGJJ_OFFSET UNITYSDK_OFFSET(0xBFDA0B0)
 #define PAOIIOIGCOJ_CTOR_OFFSET UNITYSDK_OFFSET(0xBFC7410)
 
+inline static constexpr unsigned int PAOIIOIGCOJ_TypeDefinitionIndex = 73782;
+
 	class PAOIIOIGCOJ : public ::System::Object
 	{
 	public:

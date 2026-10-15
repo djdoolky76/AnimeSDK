@@ -3,6 +3,8 @@
 
 namespace UnityEngine::NVIDIA
 {
+	inline static constexpr unsigned int GraphicsDeviceFeature_TypeDefinitionIndex = 5033;
+
 	enum class GraphicsDeviceFeature : ::System::Int32
 	{
 		DLSS = 0,

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TurnInsertActionUIConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TurnInsertActionUIConfig_TypeDefinitionIndex = 22659;
+
 	class TurnInsertActionUIConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

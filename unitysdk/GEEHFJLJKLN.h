@@ -7,6 +7,8 @@ namespace System { class Object; }
 
 #define GEEHFJLJKLN_MPJLLDMGAEP_OFFSET UNITYSDK_OFFSET(0x1EC6CC60)
 
+inline static constexpr unsigned int GEEHFJLJKLN_TypeDefinitionIndex = 44066;
+
 	class GEEHFJLJKLN : public ::System::Object
 	{
 	public:

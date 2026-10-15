@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::Client::FateRin::Auxiliary
 {
+	inline static constexpr unsigned int SuperDebugLogger_TypeDefinitionIndex = 81061;
+
 	class SuperDebugLogger : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 #define LDPOAPIPHIE_NHEACEELNJF_OFFSET UNITYSDK_OFFSET(0xB645090)
 #define LDPOAPIPHIE_NJMHKAKCIGK_OFFSET UNITYSDK_OFFSET(0xB645170)
 
+inline static constexpr unsigned int LDPOAPIPHIE_TypeDefinitionIndex = 58972;
+
 	class LDPOAPIPHIE : public ::System::Object
 	{
 	public:

@@ -13,6 +13,8 @@ namespace System::Security::Cryptography { class RandomNumberGenerator; }
 
 namespace System::Security::Cryptography
 {
+	inline static constexpr unsigned int RSAPKCS1KeyExchangeFormatter_TypeDefinitionIndex = 1054;
+
 	class RSAPKCS1KeyExchangeFormatter : public ::System::Security::Cryptography::AsymmetricKeyExchangeFormatter
 	{
 	public:

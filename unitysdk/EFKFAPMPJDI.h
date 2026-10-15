@@ -35,6 +35,8 @@ namespace UnityEngine { class Transform; }
 #define EFKFAPMPJDI_OCGDHGJLMEB_OFFSET UNITYSDK_OFFSET(0x13A53B80)
 #define EFKFAPMPJDI_PIHLANMDHHK_OFFSET UNITYSDK_OFFSET(0x13A53C60)
 
+inline static constexpr unsigned int EFKFAPMPJDI_TypeDefinitionIndex = 69322;
+
 	class EFKFAPMPJDI : public ::ICOHAPENNHF
 	{
 	public:

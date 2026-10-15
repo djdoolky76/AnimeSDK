@@ -13,6 +13,8 @@ namespace RPG::GameCore { class TurnBasedModifierInstance; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelModfierBeginPerform_TypeDefinitionIndex = 56780;
+
 	class LevelModfierBeginPerform : public ::CMPGEAFHHDC
 	{
 	public:

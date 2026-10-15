@@ -34,6 +34,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define FAAEKAHOPFH_OOFAEFJGLKB_OFFSET UNITYSDK_OFFSET(0x1565C400)
 #define FAAEKAHOPFH_TICK_OFFSET UNITYSDK_OFFSET(0x1565C200)
 
+inline static constexpr unsigned int FAAEKAHOPFH_TypeDefinitionIndex = 58189;
+
 	class FAAEKAHOPFH : public ::GELIALJDFBL
 	{
 	public:

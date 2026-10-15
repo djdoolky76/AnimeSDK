@@ -7,6 +7,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int LoopGenerateBehavior_GroupWeightPair_TypeDefinitionIndex = 70908;
+
 	struct alignas(8) LoopGenerateBehavior_GroupWeightPair
 	{
 		::System::String* GroupContent; // 0x10

@@ -10,6 +10,8 @@
 #define NJFKEICBMAA_GET_TYPE_OFFSET UNITYSDK_OFFSET(0xBC0F420)
 #define NJFKEICBMAA_JAILHGGFLDH_OFFSET UNITYSDK_OFFSET(0xBC0F430)
 
+inline static constexpr unsigned int NJFKEICBMAA_TypeDefinitionIndex = 56110;
+
 	class NJFKEICBMAA : public ::DBGDNLLDPFI
 	{
 	public:

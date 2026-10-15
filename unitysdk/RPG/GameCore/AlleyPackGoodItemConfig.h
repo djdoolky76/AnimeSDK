@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AlleyPackGoodItemConfig_TypeDefinitionIndex = 15685;
+
 	class AlleyPackGoodItemConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

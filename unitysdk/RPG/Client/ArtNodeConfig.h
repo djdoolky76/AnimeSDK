@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ArtNodeConfig_TypeDefinitionIndex = 68317;
+
 	class ArtNodeConfig : public ::UnityEngine::MonoBehaviour
 	{
 	public:

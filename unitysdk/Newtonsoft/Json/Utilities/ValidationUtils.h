@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace Newtonsoft::Json::Utilities
 {
+	inline static constexpr unsigned int ValidationUtils_TypeDefinitionIndex = 9686;
+
 	class ValidationUtils : public ::System::Object
 	{
 	public:

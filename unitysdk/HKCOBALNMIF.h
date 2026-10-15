@@ -8,6 +8,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 #define HKCOBALNMIF_GOEEBLPHCEJ_OFFSET UNITYSDK_OFFSET(0x15D3E610)
 #define HKCOBALNMIF_MBDNDAPNMFH_OFFSET UNITYSDK_OFFSET(0x15D3EE80)
 
+inline static constexpr unsigned int HKCOBALNMIF_TypeDefinitionIndex = 67432;
+
 	class HKCOBALNMIF : public ::System::Object
 	{
 	public:

@@ -13,6 +13,8 @@
 #define GPLAJPEJEMJ_NDLNCMOLIAL_OFFSET UNITYSDK_OFFSET(0x15B5D700)
 #define GPLAJPEJEMJ_NHPBMMFNNCK_OFFSET UNITYSDK_OFFSET(0x15B5D790)
 
+inline static constexpr unsigned int GPLAJPEJEMJ_TypeDefinitionIndex = 57089;
+
 	class GPLAJPEJEMJ : public ::System::Object
 	{
 	public:

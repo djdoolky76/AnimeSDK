@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::CrowdAnimator
 {
+	inline static constexpr unsigned int CrowdAssetsPathConfig_TypeDefinitionIndex = 73716;
+
 	class CrowdAssetsPathConfig : public ::UnityEngine::ScriptableObject
 	{
 	public:

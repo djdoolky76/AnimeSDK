@@ -9,6 +9,8 @@ namespace System { class Action; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MultiPlayerActivityModule___c__DisplayClass2_0_TypeDefinitionIndex = 61802;
+
 	class MultiPlayerActivityModule___c__DisplayClass2_0 : public ::System::Object
 	{
 	public:

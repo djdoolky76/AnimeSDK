@@ -27,6 +27,8 @@ namespace System { class String; }
 #define LFKNBJPPOGC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E9430C0)
 #define LFKNBJPPOGC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E943120)
 
+inline static constexpr unsigned int LFKNBJPPOGC_TypeDefinitionIndex = 26326;
+
 	class LFKNBJPPOGC : public ::System::Object
 	{
 	public:

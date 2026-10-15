@@ -26,6 +26,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define ENDEAPMHAOI_OOJBNDPOCLN_OFFSET UNITYSDK_OFFSET(0x1C6059C0)
 #define ENDEAPMHAOI_PIGJDJADHAB_OFFSET UNITYSDK_OFFSET(0x1C605630)
 
+inline static constexpr unsigned int ENDEAPMHAOI_TypeDefinitionIndex = 37401;
+
 	class ENDEAPMHAOI : public ::System::Object
 	{
 	public:

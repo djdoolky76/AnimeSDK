@@ -7,6 +7,8 @@
 
 namespace RPG::Client::Monster
 {
+	inline static constexpr unsigned int MonsterDataProviderViewModelBase_TypeDefinitionIndex = 79410;
+
 	class MonsterDataProviderViewModelBase : public ::System::Object
 	{
 	public:

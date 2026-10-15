@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int RotatePillarPuzzleFragmentMono_TypeDefinitionIndex = 78804;
+
 	class RotatePillarPuzzleFragmentMono : public ::UnityEngine::MonoBehaviour
 	{
 	public:

@@ -7,6 +7,8 @@ namespace System { class String; }
 #define FMMKENDGOPH_CTOR_OFFSET UNITYSDK_OFFSET(0x15861730)
 #define FMMKENDGOPH_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0x158616E0)
 
+inline static constexpr unsigned int FMMKENDGOPH_TypeDefinitionIndex = 82304;
+
 	class FMMKENDGOPH : public ::System::Object
 	{
 	public:

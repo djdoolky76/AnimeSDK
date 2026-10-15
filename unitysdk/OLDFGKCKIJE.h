@@ -4,6 +4,8 @@
 
 #define OLDFGKCKIJE_CTOR_OFFSET UNITYSDK_OFFSET(0x1C99DBD0)
 
+inline static constexpr unsigned int OLDFGKCKIJE_TypeDefinitionIndex = 42113;
+
 	class OLDFGKCKIJE : public ::System::Object
 	{
 	public:

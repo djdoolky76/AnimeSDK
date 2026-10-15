@@ -13,6 +13,8 @@ namespace System { template <typename T> class Comparison_1; }
 #define CMFAIIHOFPL___C___INITPOINTCONTROLCONTEXT_B__7_0_OFFSET UNITYSDK_OFFSET(0xDA2F1F0)
 #define CMFAIIHOFPL___C___PROCESSLINETRACEONVISIBLECHANGEDCLOSURE_B__27_0_OFFSET UNITYSDK_OFFSET(0xDA2F250)
 
+inline static constexpr unsigned int CMFAIIHOFPL___c_TypeDefinitionIndex = 77163;
+
 	class CMFAIIHOFPL___c : public ::System::Object
 	{
 	public:

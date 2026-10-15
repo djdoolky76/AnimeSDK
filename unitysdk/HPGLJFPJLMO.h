@@ -35,6 +35,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define HPGLJFPJLMO_PCIFOCDJOJM_OFFSET UNITYSDK_OFFSET(0x15DC5230)
 #define HPGLJFPJLMO_PLDAJIKABKG_OFFSET UNITYSDK_OFFSET(0x15DC5A00)
 
+inline static constexpr unsigned int HPGLJFPJLMO_TypeDefinitionIndex = 69658;
+
 	class HPGLJFPJLMO : public ::System::Object
 	{
 	public:

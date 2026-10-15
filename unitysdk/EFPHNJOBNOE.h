@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int EFPHNJOBNOE_TypeDefinitionIndex = 34979;
+
 	enum class EFPHNJOBNOE : ::System::Int32
 	{
 		OMCKGLPAFKD = 0,

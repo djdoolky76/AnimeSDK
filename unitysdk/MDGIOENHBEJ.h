@@ -34,6 +34,8 @@ namespace System { class String; }
 #define MDGIOENHBEJ_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EA026C0)
 #define MDGIOENHBEJ_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EA02720)
 
+inline static constexpr unsigned int MDGIOENHBEJ_TypeDefinitionIndex = 25715;
+
 	class MDGIOENHBEJ : public ::System::Object
 	{
 	public:

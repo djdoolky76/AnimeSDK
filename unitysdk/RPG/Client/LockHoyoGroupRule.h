@@ -3,6 +3,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int LockHoyoGroupRule_TypeDefinitionIndex = 62075;
+
 	enum class LockHoyoGroupRule : ::System::Int32
 	{
 		VisionRange = 0,

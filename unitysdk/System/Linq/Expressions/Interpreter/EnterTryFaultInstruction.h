@@ -13,6 +13,8 @@ namespace System::Linq::Expressions::Interpreter { class TryFaultHandler; }
 
 namespace System::Linq::Expressions::Interpreter
 {
+	inline static constexpr unsigned int EnterTryFaultInstruction_TypeDefinitionIndex = 3329;
+
 	class EnterTryFaultInstruction : public ::System::Linq::Expressions::Interpreter::IndexedBranchInstruction
 	{
 	public:

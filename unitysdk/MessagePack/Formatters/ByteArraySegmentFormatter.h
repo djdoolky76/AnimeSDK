@@ -14,6 +14,8 @@ namespace MessagePack::Formatters { class ByteArraySegmentFormatter; }
 
 namespace MessagePack::Formatters
 {
+	inline static constexpr unsigned int ByteArraySegmentFormatter_TypeDefinitionIndex = 7376;
+
 	class ByteArraySegmentFormatter : public ::System::Object
 	{
 	public:

@@ -3,6 +3,8 @@
 
 namespace RPG::Client::TrainParty
 {
+	inline static constexpr unsigned int TrainPartyBuildDIYPhotoItemFilterType_TypeDefinitionIndex = 74287;
+
 	enum class TrainPartyBuildDIYPhotoItemFilterType : ::System::Int32
 	{
 		WORLD = 0,

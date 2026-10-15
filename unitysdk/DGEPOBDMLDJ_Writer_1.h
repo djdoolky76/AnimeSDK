@@ -4,6 +4,8 @@
 #include "unitysdk/System/Object.h"
 namespace System { template <typename T1, typename T2> class Func_2; }
 
+inline static constexpr unsigned int DGEPOBDMLDJ_Writer_1_TypeDefinitionIndex = 6544;
+
 	template <typename T>
 	class DGEPOBDMLDJ_Writer_1 : public ::System::Object
 	{

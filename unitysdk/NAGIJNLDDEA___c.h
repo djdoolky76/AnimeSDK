@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define NAGIJNLDDEA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EAC1F70)
 #define NAGIJNLDDEA___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1EAC1F80)
 
+inline static constexpr unsigned int NAGIJNLDDEA___c_TypeDefinitionIndex = 28257;
+
 	class NAGIJNLDDEA___c : public ::System::Object
 	{
 	public:

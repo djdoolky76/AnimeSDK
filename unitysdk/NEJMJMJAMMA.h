@@ -31,6 +31,8 @@ namespace System { class String; }
 #define NEJMJMJAMMA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EAF7AA0)
 #define NEJMJMJAMMA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EAF7B00)
 
+inline static constexpr unsigned int NEJMJMJAMMA_TypeDefinitionIndex = 25620;
+
 	class NEJMJMJAMMA : public ::System::Object
 	{
 	public:

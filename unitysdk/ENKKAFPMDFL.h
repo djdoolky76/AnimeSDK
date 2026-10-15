@@ -23,6 +23,8 @@ namespace System::Text { class StringBuilder; }
 #define ENKKAFPMDFL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x155B1130)
 #define ENKKAFPMDFL__CLONE___OFFSET UNITYSDK_OFFSET(0x155B18A0)
 
+inline static constexpr unsigned int ENKKAFPMDFL_TypeDefinitionIndex = 82066;
+
 	class ENKKAFPMDFL : public ::System::Object
 	{
 	public:

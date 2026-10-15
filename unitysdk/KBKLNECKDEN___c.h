@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define KBKLNECKDEN___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E7F1540)
 #define KBKLNECKDEN___C___CCTOR_B__43_0_OFFSET UNITYSDK_OFFSET(0x1E7F1550)
 
+inline static constexpr unsigned int KBKLNECKDEN___c_TypeDefinitionIndex = 33086;
+
 	class KBKLNECKDEN___c : public ::System::Object
 	{
 	public:

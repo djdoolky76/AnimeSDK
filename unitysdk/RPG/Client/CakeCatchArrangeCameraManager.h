@@ -19,6 +19,8 @@ namespace RPG::Client { class CameraBlendCurve; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int CakeCatchArrangeCameraManager_TypeDefinitionIndex = 62976;
+
 	class CakeCatchArrangeCameraManager : public ::UnityEngine::MonoBehaviour
 	{
 	public:

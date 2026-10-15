@@ -64,6 +64,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int HandbookChronicleDisplayData_TypeDefinitionIndex = 65616;
+
 	class HandbookChronicleDisplayData : public ::System::Object
 	{
 	public:

@@ -13,6 +13,8 @@ namespace RPG::GameCore { class PamChatQuickFunctionConfigRow; }
 #define EHFPIBGDAKP_SET_SENDTEXT_OFFSET UNITYSDK_OFFSET(0x154A5830)
 #define EHFPIBGDAKP_SET_TYPE_OFFSET UNITYSDK_OFFSET(0x154A57F0)
 
+inline static constexpr unsigned int EHFPIBGDAKP_TypeDefinitionIndex = 63288;
+
 	class EHFPIBGDAKP : public ::System::Object
 	{
 	public:

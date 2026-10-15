@@ -5,6 +5,8 @@
 
 namespace XLua::Cast
 {
+	inline static constexpr unsigned int Byte_TypeDefinitionIndex = 50292;
+
 	class Byte
 	{
 	public:

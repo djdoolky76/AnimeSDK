@@ -7,6 +7,8 @@ class FCOEMCEDLNL;
 #define ANPKIMHNJDO_CTOR_OFFSET UNITYSDK_OFFSET(0x1CCE7860)
 #define ANPKIMHNJDO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CCE74E0)
 
+inline static constexpr unsigned int ANPKIMHNJDO_TypeDefinitionIndex = 11288;
+
 	class ANPKIMHNJDO : public ::System::Object
 	{
 	public:

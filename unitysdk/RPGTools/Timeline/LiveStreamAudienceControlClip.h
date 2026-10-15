@@ -13,6 +13,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int LiveStreamAudienceControlClip_TypeDefinitionIndex = 48165;
+
 	class LiveStreamAudienceControlClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:

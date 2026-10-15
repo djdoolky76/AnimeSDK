@@ -9,6 +9,8 @@ namespace RPG::GameCore { class LineupGridFightAvatarData; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LineupGridFightAvatarData_TypeDefinitionIndex = 18127;
+
 	class LineupGridFightAvatarData : public ::RPG::GameCore::JsonConfig
 	{
 	public:

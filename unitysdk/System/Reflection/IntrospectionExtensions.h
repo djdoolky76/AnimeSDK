@@ -8,6 +8,8 @@ namespace System::Reflection { class TypeInfo; }
 
 namespace System::Reflection
 {
+	inline static constexpr unsigned int IntrospectionExtensions_TypeDefinitionIndex = 565;
+
 	class IntrospectionExtensions : public ::System::Object
 	{
 	public:

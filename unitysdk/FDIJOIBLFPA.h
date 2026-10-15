@@ -7,6 +7,8 @@ namespace UnityEngine { class Animation; }
 #define FDIJOIBLFPA_DKKJNPPHDPM_OFFSET UNITYSDK_OFFSET(0x156DB860)
 #define FDIJOIBLFPA__ONBIND_OFFSET UNITYSDK_OFFSET(0x156DB800)
 
+inline static constexpr unsigned int FDIJOIBLFPA_TypeDefinitionIndex = 71909;
+
 	class FDIJOIBLFPA : public ::FMPCODLIOLG
 	{
 	public:

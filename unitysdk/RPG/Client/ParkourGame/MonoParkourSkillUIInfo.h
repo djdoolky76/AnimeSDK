@@ -10,6 +10,8 @@ namespace UnityEngine::UI { class Image; }
 
 namespace RPG::Client::ParkourGame
 {
+	inline static constexpr unsigned int MonoParkourSkillUIInfo_TypeDefinitionIndex = 74168;
+
 	class MonoParkourSkillUIInfo : public ::UnityEngine::MonoBehaviour
 	{
 	public:

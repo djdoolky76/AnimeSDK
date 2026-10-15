@@ -24,6 +24,8 @@ namespace UnityEngine::Rendering { class CRPVirtualCamera; }
 #define IAOCBAKNDJI_LFHACHMKOOJ_OFFSET UNITYSDK_OFFSET(0x15E23030)
 #define IAOCBAKNDJI_LPDPKOOEHFE_OFFSET UNITYSDK_OFFSET(0x15E23A50)
 
+inline static constexpr unsigned int IAOCBAKNDJI_TypeDefinitionIndex = 69713;
+
 	class IAOCBAKNDJI : public ::RPG::Client::BehaviorBase
 	{
 	public:

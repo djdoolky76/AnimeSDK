@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ConfigBakeLayoutInfoList; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ConfigBakeLayoutInfoList_TypeDefinitionIndex = 16448;
+
 	class ConfigBakeLayoutInfoList : public ::RPG::GameCore::JsonConfig
 	{
 	public:

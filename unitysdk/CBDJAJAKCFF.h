@@ -27,6 +27,8 @@ namespace System { class String; }
 #define CBDJAJAKCFF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E063E70)
 #define CBDJAJAKCFF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E063ED0)
 
+inline static constexpr unsigned int CBDJAJAKCFF_TypeDefinitionIndex = 28798;
+
 	class CBDJAJAKCFF : public ::System::Object
 	{
 	public:

@@ -9,6 +9,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelEventSnapshotCheckAhead_TypeDefinitionIndex = 56807;
+
 	class LevelEventSnapshotCheckAhead : public ::System::Object
 	{
 	public:

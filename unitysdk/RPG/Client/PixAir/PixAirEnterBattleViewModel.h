@@ -24,6 +24,8 @@ namespace System { class String; }
 
 namespace RPG::Client::PixAir
 {
+	inline static constexpr unsigned int PixAirEnterBattleViewModel_TypeDefinitionIndex = 79263;
+
 	class PixAirEnterBattleViewModel : public ::Sofa::BaseViewModel
 	{
 	public:

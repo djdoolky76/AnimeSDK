@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MarbleBattleSealData_TypeDefinitionIndex = 65812;
+
 	class MarbleBattleSealData : public ::System::Object
 	{
 	public:

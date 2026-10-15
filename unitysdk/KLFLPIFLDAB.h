@@ -10,6 +10,8 @@ namespace System { class String; }
 #define KLFLPIFLDAB_SET_NAME_OFFSET UNITYSDK_OFFSET(0xB526270)
 #define KLFLPIFLDAB_SET_PORTRAITPATH_OFFSET UNITYSDK_OFFSET(0xB526290)
 
+inline static constexpr unsigned int KLFLPIFLDAB_TypeDefinitionIndex = 79745;
+
 	class KLFLPIFLDAB : public ::System::Object
 	{
 	public:

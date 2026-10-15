@@ -11,6 +11,8 @@ namespace UnityEngine { class Texture2D; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int ImageCache___c_TypeDefinitionIndex = 7980;
+
 	class ImageCache___c : public ::System::Object
 	{
 	public:

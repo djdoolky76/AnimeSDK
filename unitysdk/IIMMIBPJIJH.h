@@ -18,6 +18,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define IIMMIBPJIJH_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x16450B20)
 #define IIMMIBPJIJH_TICK_OFFSET UNITYSDK_OFFSET(0x16450E40)
 
+inline static constexpr unsigned int IIMMIBPJIJH_TypeDefinitionIndex = 54766;
+
 	class IIMMIBPJIJH : public ::BNBOAMEBAOE
 	{
 	public:

@@ -39,6 +39,8 @@ namespace System::Text { class StringBuilder; }
 #define MPEJKCIJCLD_TOSTRING_OFFSET UNITYSDK_OFFSET(0xBA3B6B0)
 #define MPEJKCIJCLD__CLONE___OFFSET UNITYSDK_OFFSET(0xBA3CC40)
 
+inline static constexpr unsigned int MPEJKCIJCLD_TypeDefinitionIndex = 81205;
+
 	class MPEJKCIJCLD : public ::System::Object
 	{
 	public:

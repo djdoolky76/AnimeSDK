@@ -33,6 +33,8 @@ namespace System::Collections::ObjectModel { template <typename T> class ReadOnl
 
 namespace RPG::Client::FateRin::Card
 {
+	inline static constexpr unsigned int FateRinHandbookCardOwnerViewModel_TypeDefinitionIndex = 81179;
+
 	class FateRinHandbookCardOwnerViewModel : public ::RPG::Client::FateRin::BaseViewModel
 	{
 	public:

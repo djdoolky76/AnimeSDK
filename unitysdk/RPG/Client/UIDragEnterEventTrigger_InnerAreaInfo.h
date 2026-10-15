@@ -10,6 +10,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int UIDragEnterEventTrigger_InnerAreaInfo_TypeDefinitionIndex = 73058;
+
 	class UIDragEnterEventTrigger_InnerAreaInfo : public ::System::Object
 	{
 	public:

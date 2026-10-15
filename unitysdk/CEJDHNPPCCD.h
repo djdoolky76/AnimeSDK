@@ -27,6 +27,8 @@ namespace System { class String; }
 #define CEJDHNPPCCD_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E094B00)
 #define CEJDHNPPCCD_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E094B60)
 
+inline static constexpr unsigned int CEJDHNPPCCD_TypeDefinitionIndex = 26549;
+
 	class CEJDHNPPCCD : public ::System::Object
 	{
 	public:

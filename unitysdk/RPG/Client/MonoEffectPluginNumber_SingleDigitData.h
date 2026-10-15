@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoEffectPluginNumber_SingleDigitData_TypeDefinitionIndex = 70085;
+
 	class MonoEffectPluginNumber_SingleDigitData : public ::System::Object
 	{
 	public:

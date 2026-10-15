@@ -9,6 +9,8 @@ namespace UnityEngine::ProBuilder { class ProBuilderMesh; }
 
 namespace UnityEngine::ProBuilder::MeshOperations
 {
+	inline static constexpr unsigned int DeleteElements___c__DisplayClass2_0_TypeDefinitionIndex = 44492;
+
 	class DeleteElements___c__DisplayClass2_0 : public ::System::Object
 	{
 	public:

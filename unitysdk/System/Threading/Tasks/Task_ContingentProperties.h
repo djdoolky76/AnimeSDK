@@ -16,6 +16,8 @@ namespace System::Threading::Tasks { template <typename T> class Shared_1; }
 
 namespace System::Threading::Tasks
 {
+	inline static constexpr unsigned int Task_ContingentProperties_TypeDefinitionIndex = 900;
+
 	class Task_ContingentProperties : public ::System::Object
 	{
 	public:

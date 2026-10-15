@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AICompareCustomValueSelector_TypeDefinitionIndex = 15596;
+
 	class AICompareCustomValueSelector : public ::RPG::GameCore::AISelector
 	{
 	public:

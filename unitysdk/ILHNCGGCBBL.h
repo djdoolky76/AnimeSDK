@@ -35,6 +35,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define ILHNCGGCBBL_SET_CURRENTLOGICSTATETYPE_OFFSET UNITYSDK_OFFSET(0x164B77E0)
 #define ILHNCGGCBBL_SET_HASMOVESINCETELEPORT_OFFSET UNITYSDK_OFFSET(0x164B7800)
 
+inline static constexpr unsigned int ILHNCGGCBBL_TypeDefinitionIndex = 55845;
+
 	class ILHNCGGCBBL : public ::System::Object
 	{
 	public:

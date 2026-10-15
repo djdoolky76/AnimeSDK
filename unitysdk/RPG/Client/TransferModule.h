@@ -41,6 +41,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TransferModule_TypeDefinitionIndex = 68176;
+
 	class TransferModule : public ::RPG::Client::BaseModule
 	{
 	public:

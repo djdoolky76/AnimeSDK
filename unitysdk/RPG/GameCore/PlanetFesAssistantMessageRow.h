@@ -11,6 +11,8 @@ namespace RPG::GameCore { class PlanetFesAssistantMessageRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PlanetFesAssistantMessageRow_TypeDefinitionIndex = 12272;
+
 	class PlanetFesAssistantMessageRow : public ::System::Object
 	{
 	public:

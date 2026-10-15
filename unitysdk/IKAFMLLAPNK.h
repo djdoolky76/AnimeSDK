@@ -11,6 +11,8 @@ namespace System { class String; }
 #define IKAFMLLAPNK_CTOR_OFFSET UNITYSDK_OFFSET(0x16481820)
 #define IKAFMLLAPNK_GETAPPLYSTREAMINGLAYER_OFFSET UNITYSDK_OFFSET(0x16481860)
 
+inline static constexpr unsigned int IKAFMLLAPNK_TypeDefinitionIndex = 73896;
+
 	class IKAFMLLAPNK : public ::GDKHHPPIFBC
 	{
 	public:

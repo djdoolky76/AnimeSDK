@@ -7,6 +7,8 @@ namespace RPG::Client { class MaterialSubmitter; }
 #define KINABBFEMHP_OMDKHKBHMDN_OFFSET UNITYSDK_OFFSET(0xB436120)
 #define KINABBFEMHP_ONMPNLGIHFL_OFFSET UNITYSDK_OFFSET(0xB4360E0)
 
+inline static constexpr unsigned int KINABBFEMHP_TypeDefinitionIndex = 61794;
+
 	class KINABBFEMHP : public ::System::Object
 	{
 	public:

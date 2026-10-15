@@ -13,6 +13,8 @@ namespace RPG::GameCore { class ChimeraDuelValueComparePredicate; }
 #define FGLMDDJIGBL_KFGJEKJHIMB_OFFSET UNITYSDK_OFFSET(0x15768A80)
 #define FGLMDDJIGBL_NNEKCMIAONE_OFFSET UNITYSDK_OFFSET(0x15768D40)
 
+inline static constexpr unsigned int FGLMDDJIGBL_TypeDefinitionIndex = 77575;
+
 	class FGLMDDJIGBL : public ::System::Object
 	{
 	public:

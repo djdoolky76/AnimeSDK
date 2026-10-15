@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define BBLADJPMCAC_IPKIPDHJDNI_OFFSET UNITYSDK_OFFSET(0x15E902F0)
 #define BBLADJPMCAC_ONGRAPHSTART_OFFSET UNITYSDK_OFFSET(0x15E90540)
 
+inline static constexpr unsigned int BBLADJPMCAC_TypeDefinitionIndex = 47915;
+
 	class BBLADJPMCAC : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

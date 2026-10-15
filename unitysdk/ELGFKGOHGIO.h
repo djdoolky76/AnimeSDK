@@ -43,6 +43,8 @@ namespace System { class String; }
 #define ELGFKGOHGIO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E2CFB90)
 #define ELGFKGOHGIO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E2CFBF0)
 
+inline static constexpr unsigned int ELGFKGOHGIO_TypeDefinitionIndex = 25390;
+
 	class ELGFKGOHGIO : public ::System::Object
 	{
 	public:

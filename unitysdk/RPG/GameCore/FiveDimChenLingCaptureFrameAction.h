@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FiveDimChenLingCaptureFrameAction; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimChenLingCaptureFrameAction_TypeDefinitionIndex = 18782;
+
 	class FiveDimChenLingCaptureFrameAction : public ::RPG::GameCore::FiveDimBaseEventAction
 	{
 	public:

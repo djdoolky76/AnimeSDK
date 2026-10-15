@@ -4,6 +4,8 @@
 class DKNHOGCDNHH;
 namespace System { template <typename T> class Comparison_1; }
 
+inline static constexpr unsigned int JGLKGLDJBGH___O_TypeDefinitionIndex = 41449;
+
 	class JGLKGLDJBGH___O : public ::System::Object
 	{
 	public:

@@ -37,6 +37,8 @@ namespace UnityEngine::UIElements { class Panel; }
 
 namespace UnityEngine::UIElements
 {
+	inline static constexpr unsigned int UIElementsUtility_TypeDefinitionIndex = 5898;
+
 	class UIElementsUtility : public ::System::Object
 	{
 	public:

@@ -3,6 +3,8 @@
 
 #define IJHOJHBEJGL_HADLEOMNCJC_OFFSET UNITYSDK_OFFSET(0x3C33340)
 
+inline static constexpr unsigned int IJHOJHBEJGL_TypeDefinitionIndex = 43381;
+
 	struct alignas(4) IJHOJHBEJGL
 	{
 		::System::Boolean PLFHGJJCOHJ; // 0x10

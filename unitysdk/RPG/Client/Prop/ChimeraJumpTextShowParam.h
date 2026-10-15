@@ -7,6 +7,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int ChimeraJumpTextShowParam_TypeDefinitionIndex = 78419;
+
 	class ChimeraJumpTextShowParam : public ::System::Object
 	{
 	public:

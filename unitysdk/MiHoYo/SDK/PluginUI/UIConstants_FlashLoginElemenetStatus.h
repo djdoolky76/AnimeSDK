@@ -4,6 +4,8 @@
 
 namespace MiHoYo::SDK::PluginUI
 {
+	inline static constexpr unsigned int UIConstants_FlashLoginElemenetStatus_TypeDefinitionIndex = 46813;
+
 	class UIConstants_FlashLoginElemenetStatus : public ::System::Object
 	{
 	public:

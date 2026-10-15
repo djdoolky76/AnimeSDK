@@ -9,6 +9,8 @@ class NJGDIEAIHPD;
 #define PMNMGJKMHPK_CTOR_OFFSET UNITYSDK_OFFSET(0xC328150)
 #define PMNMGJKMHPK_IIHFPKJNAHP_OFFSET UNITYSDK_OFFSET(0xC328160)
 
+inline static constexpr unsigned int PMNMGJKMHPK_TypeDefinitionIndex = 62524;
+
 	class PMNMGJKMHPK : public ::System::Object
 	{
 	public:

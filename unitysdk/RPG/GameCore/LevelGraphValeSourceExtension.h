@@ -8,6 +8,8 @@ namespace RPG::GameCore { class LevelGraphValueSource; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelGraphValeSourceExtension_TypeDefinitionIndex = 57769;
+
 	class LevelGraphValeSourceExtension : public ::System::Object
 	{
 	public:

@@ -7,6 +7,8 @@
 
 namespace InControl
 {
+	inline static constexpr unsigned int MarshalUtility_TypeDefinitionIndex = 40903;
+
 	class MarshalUtility : public ::System::Object
 	{
 	public:

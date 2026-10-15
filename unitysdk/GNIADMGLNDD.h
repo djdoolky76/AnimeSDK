@@ -8,6 +8,8 @@ namespace System { class String; }
 #define GNIADMGLNDD_CTOR_OFFSET UNITYSDK_OFFSET(0x15B111D0)
 #define GNIADMGLNDD_MGPLPPLEMPK_OFFSET UNITYSDK_OFFSET(0x15B10F60)
 
+inline static constexpr unsigned int GNIADMGLNDD_TypeDefinitionIndex = 57318;
+
 	class GNIADMGLNDD : public ::FHKIKPOPLPJ
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Editor
 {
+	inline static constexpr unsigned int ShaderPassVarientCollection_SPVC_TypeDefinitionIndex = 52009;
+
 	class ShaderPassVarientCollection_SPVC : public ::System::Object
 	{
 	public:

@@ -2,6 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/MVector2.h"
 
+inline static constexpr unsigned int KNOGPMGGDFL_TypeDefinitionIndex = 43055;
+
 	struct alignas(4) KNOGPMGGDFL
 	{
 		::RPG::MVector2 BBFOLEOPPPL; // 0x10

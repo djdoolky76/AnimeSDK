@@ -8,6 +8,8 @@ class GJCIOLMFNAK;
 #define GJCIOLMFNAK_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CE55350)
 #define GJCIOLMFNAK_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CE55280)
 
+inline static constexpr unsigned int GJCIOLMFNAK_TypeDefinitionIndex = 10207;
+
 	class GJCIOLMFNAK : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -11,6 +11,8 @@ namespace RPG::GameCore { class ComplexSkillAIMapperBinary; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ComplexSkillAIMapperBinary_TypeDefinitionIndex = 15555;
+
 	class ComplexSkillAIMapperBinary : public ::RPG::GameCore::ComplexSkillAIMapper
 	{
 	public:

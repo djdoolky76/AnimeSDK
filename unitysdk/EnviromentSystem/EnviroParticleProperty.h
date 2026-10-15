@@ -40,6 +40,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace EnviromentSystem
 {
+	inline static constexpr unsigned int EnviroParticleProperty_TypeDefinitionIndex = 49607;
+
 	class EnviroParticleProperty : public ::EnviromentSystem::EnviroAssetProperty
 	{
 	public:

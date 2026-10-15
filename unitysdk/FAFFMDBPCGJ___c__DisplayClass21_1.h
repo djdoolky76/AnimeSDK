@@ -12,6 +12,8 @@ namespace System { class Object; }
 #define FAFFMDBPCGJ___C__DISPLAYCLASS21_1___ONVIEWLOAD_B__2_OFFSET UNITYSDK_OFFSET(0x15679390)
 #define FAFFMDBPCGJ___C__DISPLAYCLASS21_1___ONVIEWLOAD_B__3_OFFSET UNITYSDK_OFFSET(0x15679410)
 
+inline static constexpr unsigned int FAFFMDBPCGJ___c__DisplayClass21_1_TypeDefinitionIndex = 76738;
+
 	template <typename T>
 	class FAFFMDBPCGJ___c__DisplayClass21_1 : public ::System::Object
 	{

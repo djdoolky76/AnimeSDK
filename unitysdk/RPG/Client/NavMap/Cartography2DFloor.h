@@ -39,6 +39,8 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyLi
 
 namespace RPG::Client::NavMap
 {
+	inline static constexpr unsigned int Cartography2DFloor_TypeDefinitionIndex = 74504;
+
 	class Cartography2DFloor : public ::RPG::Client::NavMap::CartographyBaseData
 	{
 	public:

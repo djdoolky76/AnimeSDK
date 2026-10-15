@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ByCheckLineupHeroAvatarID; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByCheckLineupHeroAvatarID_TypeDefinitionIndex = 20795;
+
 	class ByCheckLineupHeroAvatarID : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

@@ -19,6 +19,8 @@ namespace UnityEngine { class ParticleSystem; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int UIColorUtils_TypeDefinitionIndex = 73169;
+
 	class UIColorUtils : public ::System::Object
 	{
 	public:

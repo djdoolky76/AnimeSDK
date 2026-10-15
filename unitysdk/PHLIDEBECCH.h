@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define PHLIDEBECCH_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1D2EBA40)
 #define PHLIDEBECCH_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1D2EB360)
 
+inline static constexpr unsigned int PHLIDEBECCH_TypeDefinitionIndex = 12015;
+
 	class PHLIDEBECCH : public ::System::Object
 	{
 	public:

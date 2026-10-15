@@ -31,6 +31,8 @@ namespace System { class String; }
 #define AAPCFLPKIFN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DDC4990)
 #define AAPCFLPKIFN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DDC49F0)
 
+inline static constexpr unsigned int AAPCFLPKIFN_TypeDefinitionIndex = 35067;
+
 	class AAPCFLPKIFN : public ::System::Object
 	{
 	public:

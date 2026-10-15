@@ -10,6 +10,8 @@ namespace System { class Object; }
 #define PEMJDEKBMAD_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xC1F39B0)
 #define PEMJDEKBMAD_INVOKE_OFFSET UNITYSDK_OFFSET(0xC1F3950)
 
+inline static constexpr unsigned int PEMJDEKBMAD_TypeDefinitionIndex = 69455;
+
 	class PEMJDEKBMAD : public ::System::MulticastDelegate
 	{
 	public:

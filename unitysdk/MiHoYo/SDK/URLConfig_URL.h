@@ -101,6 +101,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int URLConfig_URL_TypeDefinitionIndex = 8077;
+
 	class URLConfig_URL : public ::MiHoYo::SDK::ConfigUrlModel
 	{
 	public:

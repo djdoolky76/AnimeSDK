@@ -6,6 +6,8 @@
 
 namespace System::Net::Configuration
 {
+	inline static constexpr unsigned int BypassElementCollection_TypeDefinitionIndex = 3074;
+
 	class BypassElementCollection : public ::System::Configuration::ConfigurationElementCollection
 	{
 	public:

@@ -16,6 +16,8 @@ namespace UnityEngine { class Transform; }
 #define AMPNMIBFGAM_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0x1558ED00)
 #define AMPNMIBFGAM_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0x1558ED40)
 
+inline static constexpr unsigned int AMPNMIBFGAM_TypeDefinitionIndex = 78471;
+
 	class AMPNMIBFGAM : public ::System::Object
 	{
 	public:

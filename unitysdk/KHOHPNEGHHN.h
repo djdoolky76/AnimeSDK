@@ -17,6 +17,8 @@ namespace System { class Object; }
 #define KHOHPNEGHHN_ONALLOC_OFFSET UNITYSDK_OFFSET(0x1C8E4BA0)
 #define KHOHPNEGHHN_ONRECYCLE_OFFSET UNITYSDK_OFFSET(0x1C8E4C50)
 
+inline static constexpr unsigned int KHOHPNEGHHN_TypeDefinitionIndex = 43295;
+
 	class KHOHPNEGHHN : public ::System::Object
 	{
 	public:

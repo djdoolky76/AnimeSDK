@@ -76,6 +76,8 @@ namespace System::Globalization { class CultureInfo; }
 
 namespace Newtonsoft::Json::Serialization
 {
+	inline static constexpr unsigned int JsonSerializerInternalReader_TypeDefinitionIndex = 9735;
+
 	class JsonSerializerInternalReader : public ::Newtonsoft::Json::Serialization::JsonSerializerInternalBase
 	{
 	public:

@@ -70,6 +70,8 @@ namespace UnityEngine::UI { class Text; }
 #define GBPIGOGPJKC__ONBIND_OFFSET UNITYSDK_OFFSET(0x15959B40)
 #define GBPIGOGPJKC__ONTICK_OFFSET UNITYSDK_OFFSET(0x1595A340)
 
+inline static constexpr unsigned int GBPIGOGPJKC_TypeDefinitionIndex = 71636;
+
 	class GBPIGOGPJKC : public ::FMPCODLIOLG
 	{
 	public:

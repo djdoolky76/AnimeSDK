@@ -17,6 +17,8 @@ namespace System { class String; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int ThreadLocalStringBuffer_TypeDefinitionIndex = 4356;
+
 	class ThreadLocalStringBuffer : public ::System::Object
 	{
 	public:

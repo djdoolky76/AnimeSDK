@@ -14,6 +14,8 @@ namespace RPG::GameCore { class LittleGameAbilityTargetSelectorFilterByAttribute
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LittleGameAbilityTargetSelectorFilterByAttributeConfig_TypeDefinitionIndex = 21381;
+
 	class LittleGameAbilityTargetSelectorFilterByAttributeConfig : public ::RPG::GameCore::BaseLittleGameAbilityTargetSelectorConfig
 	{
 	public:

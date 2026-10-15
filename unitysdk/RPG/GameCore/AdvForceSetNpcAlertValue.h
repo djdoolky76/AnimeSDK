@@ -10,6 +10,8 @@ namespace RPG::GameCore { class AdvForceSetNpcAlertValue; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdvForceSetNpcAlertValue_TypeDefinitionIndex = 20344;
+
 	class AdvForceSetNpcAlertValue : public ::RPG::GameCore::TaskConfig
 	{
 	public:

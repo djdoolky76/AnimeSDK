@@ -50,6 +50,8 @@ namespace System::Runtime::Serialization { class SerializationInfo; }
 
 namespace System::Net
 {
+	inline static constexpr unsigned int WebHeaderCollection_TypeDefinitionIndex = 2763;
+
 	class WebHeaderCollection : public ::System::Collections::Specialized::NameValueCollection
 	{
 	public:

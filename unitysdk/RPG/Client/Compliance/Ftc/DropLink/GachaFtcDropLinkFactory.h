@@ -14,6 +14,8 @@ namespace System { class Action; }
 
 namespace RPG::Client::Compliance::Ftc::DropLink
 {
+	inline static constexpr unsigned int GachaFtcDropLinkFactory_TypeDefinitionIndex = 74823;
+
 	class GachaFtcDropLinkFactory : public ::System::Object
 	{
 	public:

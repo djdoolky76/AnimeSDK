@@ -5,6 +5,8 @@ namespace Collections::Pooled { template <typename T1, typename T2> class Pooled
 
 namespace Collections::Pooled
 {
+	inline static constexpr unsigned int PooledDictionary_2_ValueCollection_TypeDefinitionIndex = 5107;
+
 	template <typename T1, typename T2>
 	class PooledDictionary_2_ValueCollection : public ::System::Object
 	{

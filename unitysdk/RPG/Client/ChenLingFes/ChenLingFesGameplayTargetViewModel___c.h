@@ -13,6 +13,8 @@ namespace System { template <typename T> class Predicate_1; }
 
 namespace RPG::Client::ChenLingFes
 {
+	inline static constexpr unsigned int ChenLingFesGameplayTargetViewModel___c_TypeDefinitionIndex = 81392;
+
 	class ChenLingFesGameplayTargetViewModel___c : public ::System::Object
 	{
 	public:

@@ -37,6 +37,8 @@ namespace System { class String; }
 #define PAEFDELFKJK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DEEBEB0)
 #define PAEFDELFKJK_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DEEBF10)
 
+inline static constexpr unsigned int PAEFDELFKJK_TypeDefinitionIndex = 28879;
+
 	class PAEFDELFKJK : public ::System::Object
 	{
 	public:

@@ -9,6 +9,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int MiHoYoSDKLocalConfigModel_TypeDefinitionIndex = 46350;
+
 	class MiHoYoSDKLocalConfigModel : public ::System::Object
 	{
 	public:

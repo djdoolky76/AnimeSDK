@@ -54,6 +54,8 @@ namespace System::Threading { template <typename T> class ThreadLocal_1; }
 #define LBJLBMOOJGM___RESOLVEMULTI_B__24_0_OFFSET UNITYSDK_OFFSET(0x1EC84880)
 #define LBJLBMOOJGM___RESOLVEMULTI_B__24_1_OFFSET UNITYSDK_OFFSET(0x1EC84910)
 
+inline static constexpr unsigned int LBJLBMOOJGM_TypeDefinitionIndex = 44295;
+
 	class LBJLBMOOJGM : public ::System::Object
 	{
 	public:

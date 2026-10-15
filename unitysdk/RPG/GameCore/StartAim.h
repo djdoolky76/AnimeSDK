@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int StartAim_TypeDefinitionIndex = 22405;
+
 	class StartAim : public ::RPG::GameCore::TaskConfig
 	{
 	public:

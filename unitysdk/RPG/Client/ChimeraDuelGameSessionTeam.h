@@ -52,6 +52,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ChimeraDuelGameSessionTeam_TypeDefinitionIndex = 63323;
+
 	class ChimeraDuelGameSessionTeam : public ::System::Object
 	{
 	public:

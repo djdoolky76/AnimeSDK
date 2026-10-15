@@ -8,6 +8,8 @@ namespace System { class String; }
 #define HJIOMFDJLLA_GET_PARAMLIST_OFFSET UNITYSDK_OFFSET(0x94F0)
 #define HJIOMFDJLLA_SET_PARAMLIST_OFFSET UNITYSDK_OFFSET(0x9500)
 
+inline static constexpr unsigned int HJIOMFDJLLA_TypeDefinitionIndex = 54000;
+
 	struct alignas(8) HJIOMFDJLLA
 	{
 		::RPG::GameCore::TaskContext* GPKCGOLOJKC; // 0x10

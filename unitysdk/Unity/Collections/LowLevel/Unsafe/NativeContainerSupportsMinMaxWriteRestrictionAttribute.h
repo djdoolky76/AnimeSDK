@@ -6,6 +6,8 @@
 
 namespace Unity::Collections::LowLevel::Unsafe
 {
+	inline static constexpr unsigned int NativeContainerSupportsMinMaxWriteRestrictionAttribute_TypeDefinitionIndex = 3995;
+
 	class NativeContainerSupportsMinMaxWriteRestrictionAttribute : public ::System::Attribute
 	{
 	public:

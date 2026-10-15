@@ -7,6 +7,8 @@ class APJDGABPDGH;
 #define NBILAHJEBCL_GET_CONFIG_OFFSET UNITYSDK_OFFSET(0x1C572FD0)
 #define NBILAHJEBCL_GET_IDENTIFIER_OFFSET UNITYSDK_OFFSET(0x1C572FC0)
 
+inline static constexpr unsigned int NBILAHJEBCL_TypeDefinitionIndex = 41866;
+
 	class NBILAHJEBCL : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class SetAlleyPackEnable3DControl; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetAlleyPackEnable3DControl_TypeDefinitionIndex = 24363;
+
 	class SetAlleyPackEnable3DControl : public ::RPG::GameCore::TaskConfig
 	{
 	public:

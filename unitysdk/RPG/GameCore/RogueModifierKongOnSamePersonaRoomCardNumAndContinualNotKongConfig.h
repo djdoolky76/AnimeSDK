@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueModifierKongOnSamePersonaRoomCardNumAndCont
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueModifierKongOnSamePersonaRoomCardNumAndContinualNotKongConfig_TypeDefinitionIndex = 17822;
+
 	class RogueModifierKongOnSamePersonaRoomCardNumAndContinualNotKongConfig : public ::RPG::GameCore::RogueModifierConfig
 	{
 	public:

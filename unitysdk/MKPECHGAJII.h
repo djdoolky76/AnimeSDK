@@ -17,6 +17,8 @@ namespace System { class String; }
 #define MKPECHGAJII_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB9A3D00)
 #define MKPECHGAJII_TICK_OFFSET UNITYSDK_OFFSET(0xB9A3E50)
 
+inline static constexpr unsigned int MKPECHGAJII_TypeDefinitionIndex = 58933;
+
 	class MKPECHGAJII : public ::GELIALJDFBL
 	{
 	public:

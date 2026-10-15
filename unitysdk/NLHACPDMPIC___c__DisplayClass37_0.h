@@ -12,6 +12,8 @@ namespace System { class Object; }
 #define NLHACPDMPIC___C__DISPLAYCLASS37_0__HANDLESTARTPVPMATCH_B__2_OFFSET UNITYSDK_OFFSET(0xBC6B9D0)
 #define NLHACPDMPIC___C__DISPLAYCLASS37_0__HANDLESTARTPVPMATCH_B__3_OFFSET UNITYSDK_OFFSET(0xBC6B9F0)
 
+inline static constexpr unsigned int NLHACPDMPIC___c__DisplayClass37_0_TypeDefinitionIndex = 76189;
+
 	class NLHACPDMPIC___c__DisplayClass37_0 : public ::System::Object
 	{
 	public:

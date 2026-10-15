@@ -11,6 +11,8 @@ namespace RPG::Client { class IActivityQuestRewardData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int CommonActivityQuestRewardDataFactory_TypeDefinitionIndex = 61734;
+
 	class CommonActivityQuestRewardDataFactory : public ::System::Object
 	{
 	public:

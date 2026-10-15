@@ -79,6 +79,8 @@ namespace System::IO { class FileInfo; }
 #define CLHANDBGHIB_PNLMANBEMLK_OFFSET UNITYSDK_OFFSET(0xD783010)
 #define CLHANDBGHIB_POIPBCKGABI_OFFSET UNITYSDK_OFFSET(0xD786F90)
 
+inline static constexpr unsigned int CLHANDBGHIB_TypeDefinitionIndex = 59635;
+
 	class CLHANDBGHIB : public ::System::Object
 	{
 	public:

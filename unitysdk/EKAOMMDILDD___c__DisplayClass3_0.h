@@ -8,6 +8,8 @@ namespace RPG::GameCore { class GameEntity; }
 #define EKAOMMDILDD___C__DISPLAYCLASS3_0_CTOR_OFFSET UNITYSDK_OFFSET(0x154FA940)
 #define EKAOMMDILDD___C__DISPLAYCLASS3_0__SETFOLLOW_B__0_OFFSET UNITYSDK_OFFSET(0x154FB640)
 
+inline static constexpr unsigned int EKAOMMDILDD___c__DisplayClass3_0_TypeDefinitionIndex = 71540;
+
 	class EKAOMMDILDD___c__DisplayClass3_0 : public ::System::Object
 	{
 	public:

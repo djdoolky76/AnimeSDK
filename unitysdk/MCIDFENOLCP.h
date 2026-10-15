@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define MCIDFENOLCP_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1D13DB40)
 #define MCIDFENOLCP_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1D13D4E0)
 
+inline static constexpr unsigned int MCIDFENOLCP_TypeDefinitionIndex = 12509;
+
 	class MCIDFENOLCP : public ::System::Object
 	{
 	public:

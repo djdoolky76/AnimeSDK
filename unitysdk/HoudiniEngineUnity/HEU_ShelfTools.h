@@ -44,6 +44,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int HEU_ShelfTools_TypeDefinitionIndex = 40664;
+
 	class HEU_ShelfTools : public ::System::Object
 	{
 	public:

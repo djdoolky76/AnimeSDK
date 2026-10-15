@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TimeRewindControllerInteract; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TimeRewindControllerInteract_TypeDefinitionIndex = 20652;
+
 	class TimeRewindControllerInteract : public ::RPG::GameCore::TaskConfig
 	{
 	public:

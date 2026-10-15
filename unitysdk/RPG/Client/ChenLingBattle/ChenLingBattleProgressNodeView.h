@@ -13,6 +13,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::ChenLingBattle
 {
+	inline static constexpr unsigned int ChenLingBattleProgressNodeView_TypeDefinitionIndex = 76398;
+
 	class ChenLingBattleProgressNodeView : public ::UnityEngine::MonoBehaviour
 	{
 	public:

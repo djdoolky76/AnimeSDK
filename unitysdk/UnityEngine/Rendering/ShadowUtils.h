@@ -39,6 +39,8 @@ namespace UnityEngine { class Light; }
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int ShadowUtils_TypeDefinitionIndex = 4894;
+
 	class ShadowUtils : public ::System::Object
 	{
 	public:

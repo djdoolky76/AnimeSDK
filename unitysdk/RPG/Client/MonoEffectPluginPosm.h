@@ -13,6 +13,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoEffectPluginPosm_TypeDefinitionIndex = 70096;
+
 	class MonoEffectPluginPosm : public ::RPG::Client::MonoEffectPluginBase
 	{
 	public:

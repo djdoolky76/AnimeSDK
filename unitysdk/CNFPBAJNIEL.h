@@ -29,6 +29,8 @@ namespace System { class String; }
 #define CNFPBAJNIEL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E109080)
 #define CNFPBAJNIEL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E1090E0)
 
+inline static constexpr unsigned int CNFPBAJNIEL_TypeDefinitionIndex = 34848;
+
 	class CNFPBAJNIEL : public ::System::Object
 	{
 	public:

@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace ScenenLightManager
 {
+	inline static constexpr unsigned int LightSetQualityExportData_TypeDefinitionIndex = 49162;
+
 	class LightSetQualityExportData : public ::System::Object
 	{
 	public:

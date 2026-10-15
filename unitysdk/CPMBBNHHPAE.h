@@ -8,6 +8,8 @@ class OAFCCICMILM;
 #define CPMBBNHHPAE_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1CA13930)
 #define CPMBBNHHPAE_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x1CA13D90)
 
+inline static constexpr unsigned int CPMBBNHHPAE_TypeDefinitionIndex = 42398;
+
 	class CPMBBNHHPAE : public ::System::Object
 	{
 	public:

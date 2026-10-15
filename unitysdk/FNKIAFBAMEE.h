@@ -32,6 +32,8 @@ namespace RPG::Client::Promises { class IPromise; }
 #define FNKIAFBAMEE_LFEBEKAIPKM_OFFSET UNITYSDK_OFFSET(0x15877330)
 #define FNKIAFBAMEE_MDGFHLDOCIC_OFFSET UNITYSDK_OFFSET(0x158763D0)
 
+inline static constexpr unsigned int FNKIAFBAMEE_TypeDefinitionIndex = 81291;
+
 	class FNKIAFBAMEE : public ::System::Object
 	{
 	public:

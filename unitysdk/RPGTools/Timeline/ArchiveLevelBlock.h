@@ -9,6 +9,8 @@ namespace System { class String; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int ArchiveLevelBlock_TypeDefinitionIndex = 48504;
+
 	class ArchiveLevelBlock : public ::RPGTools::Timeline::ArchiveAsset
 	{
 	public:

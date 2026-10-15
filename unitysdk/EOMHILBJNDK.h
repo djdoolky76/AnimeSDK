@@ -30,6 +30,8 @@ namespace System { class String; }
 #define EOMHILBJNDK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E3006A0)
 #define EOMHILBJNDK_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E300700)
 
+inline static constexpr unsigned int EOMHILBJNDK_TypeDefinitionIndex = 33696;
+
 	class EOMHILBJNDK : public ::System::Object
 	{
 	public:

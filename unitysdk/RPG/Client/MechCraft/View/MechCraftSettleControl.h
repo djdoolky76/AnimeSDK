@@ -23,6 +23,8 @@ namespace UnityEngine { class Animation; }
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftSettleControl_TypeDefinitionIndex = 80035;
+
 	class MechCraftSettleControl : public ::UnityEngine::MonoBehaviour
 	{
 	public:

@@ -11,6 +11,8 @@ namespace RPG::GameCore { class PunkLordRewardFinishWayRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PunkLordRewardFinishWayRow_TypeDefinitionIndex = 12297;
+
 	class PunkLordRewardFinishWayRow : public ::System::Object
 	{
 	public:

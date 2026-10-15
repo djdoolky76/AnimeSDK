@@ -97,6 +97,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define PJDHMMEEBBC__BUILDACTIONSELECTPAGEVMBYAGENDA_B__8_0_OFFSET UNITYSDK_OFFSET(0xC283490)
 #define PJDHMMEEBBC__CREATENEWDEVELOPTARGETDIALOGVM_B__11_0_OFFSET UNITYSDK_OFFSET(0xC2834B0)
 
+inline static constexpr unsigned int PJDHMMEEBBC_TypeDefinitionIndex = 81986;
+
 	class PJDHMMEEBBC : public ::System::Object
 	{
 	public:

@@ -111,6 +111,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define AOLHNHEPKNO_PLNGNLAPOPF_OFFSET UNITYSDK_OFFSET(0x158BF2A0)
 #define AOLHNHEPKNO_PNAIBACBHDO_OFFSET UNITYSDK_OFFSET(0x158BD6B0)
 
+inline static constexpr unsigned int AOLHNHEPKNO_TypeDefinitionIndex = 56095;
+
 	class AOLHNHEPKNO : public ::System::Object
 	{
 	public:

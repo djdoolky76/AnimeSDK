@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace CriWare
 {
+	inline static constexpr unsigned int CriAtomExOutputPort_Config_TypeDefinitionIndex = 40051;
+
 	struct alignas(8) CriAtomExOutputPort_Config
 	{
 		::System::String* name; // 0x10

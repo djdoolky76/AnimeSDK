@@ -12,6 +12,8 @@ namespace RPGTools::Timeline { class SpecialVisionOffClip; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int SpecialVisionOffBehaviour_TypeDefinitionIndex = 48311;
+
 	class SpecialVisionOffBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

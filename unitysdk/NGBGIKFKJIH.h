@@ -18,6 +18,8 @@ namespace UnityEngine { class Animator; }
 #define NGBGIKFKJIH_NKPPGDENJAE_OFFSET UNITYSDK_OFFSET(0xBBA1360)
 #define NGBGIKFKJIH__ONBIND_OFFSET UNITYSDK_OFFSET(0xBBA12F0)
 
+inline static constexpr unsigned int NGBGIKFKJIH_TypeDefinitionIndex = 71268;
+
 	class NGBGIKFKJIH : public ::GJPBCNIIEOB
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int CinemachineBrainBlendConfigs_TypeDefinitionIndex = 69700;
+
 	class CinemachineBrainBlendConfigs : public ::UnityEngine::ScriptableObject
 	{
 	public:

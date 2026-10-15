@@ -4,6 +4,8 @@
 
 #define ADAOFPMEPDA_CTOR_OFFSET UNITYSDK_OFFSET(0x1C877F10)
 
+inline static constexpr unsigned int ADAOFPMEPDA_TypeDefinitionIndex = 42138;
+
 	class ADAOFPMEPDA : public ::System::Object
 	{
 	public:

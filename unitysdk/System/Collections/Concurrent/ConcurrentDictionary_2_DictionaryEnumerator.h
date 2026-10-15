@@ -6,6 +6,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 
 namespace System::Collections::Concurrent
 {
+	inline static constexpr unsigned int ConcurrentDictionary_2_DictionaryEnumerator_TypeDefinitionIndex = 1517;
+
 	template <typename T1, typename T2>
 	class ConcurrentDictionary_2_DictionaryEnumerator : public ::System::Object
 	{

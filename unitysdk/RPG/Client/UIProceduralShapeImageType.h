@@ -3,6 +3,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int UIProceduralShapeImageType_TypeDefinitionIndex = 72701;
+
 	enum class UIProceduralShapeImageType : ::System::Int32
 	{
 		Simple = 0,

@@ -12,6 +12,8 @@ class NJKFOJJDGGG;
 #define PALLDNLCCFF_SET_TOTALSKIPCOUNT_OFFSET UNITYSDK_OFFSET(0xBFD2300)
 #define PALLDNLCCFF_UPDATE_OFFSET UNITYSDK_OFFSET(0xBFD2220)
 
+inline static constexpr unsigned int PALLDNLCCFF_TypeDefinitionIndex = 65026;
+
 	class PALLDNLCCFF : public ::RPG::Client::GridFightGameModifier
 	{
 	public:

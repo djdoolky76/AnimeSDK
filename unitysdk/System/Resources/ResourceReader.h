@@ -44,6 +44,8 @@ namespace System::Runtime::Serialization::Formatters::Binary { class BinaryForma
 
 namespace System::Resources
 {
+	inline static constexpr unsigned int ResourceReader_TypeDefinitionIndex = 530;
+
 	class ResourceReader : public ::System::Object
 	{
 	public:

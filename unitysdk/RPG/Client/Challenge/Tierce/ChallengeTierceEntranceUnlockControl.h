@@ -13,6 +13,8 @@ namespace UnityEngine::UI { class SmoothMask; }
 
 namespace RPG::Client::Challenge::Tierce
 {
+	inline static constexpr unsigned int ChallengeTierceEntranceUnlockControl_TypeDefinitionIndex = 81537;
+
 	class ChallengeTierceEntranceUnlockControl : public ::UnityEngine::MonoBehaviour
 	{
 	public:

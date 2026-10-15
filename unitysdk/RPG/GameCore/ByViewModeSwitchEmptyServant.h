@@ -14,6 +14,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByViewModeSwitchEmptyServant_TypeDefinitionIndex = 22920;
+
 	class ByViewModeSwitchEmptyServant : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

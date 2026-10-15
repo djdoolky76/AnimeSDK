@@ -6,6 +6,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ActivityRewardItem_TypeDefinitionIndex = 61699;
+
 	class ActivityRewardItem : public ::System::Object
 	{
 	public:

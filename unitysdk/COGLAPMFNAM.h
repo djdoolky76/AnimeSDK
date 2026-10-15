@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define COGLAPMFNAM_DISPOSE_OFFSET UNITYSDK_OFFSET(0xDCB7300)
 #define COGLAPMFNAM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xDCB74F0)
 
+inline static constexpr unsigned int COGLAPMFNAM_TypeDefinitionIndex = 53877;
+
 	class COGLAPMFNAM
 	{
 	public:

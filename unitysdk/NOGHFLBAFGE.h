@@ -5,6 +5,8 @@ namespace XLua { class LuaTable; }
 
 #define NOGHFLBAFGE_CTOR_OFFSET UNITYSDK_OFFSET(0xBCEBE80)
 
+inline static constexpr unsigned int NOGHFLBAFGE_TypeDefinitionIndex = 59428;
+
 	class NOGHFLBAFGE : public ::System::Object
 	{
 	public:

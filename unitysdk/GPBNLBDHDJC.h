@@ -3,6 +3,8 @@
 #include "unitysdk/Dest/Math/IntersectionTypes.h"
 #include "unitysdk/RPG/MVector3.h"
 
+inline static constexpr unsigned int GPBNLBDHDJC_TypeDefinitionIndex = 6251;
+
 	struct alignas(4) GPBNLBDHDJC
 	{
 		::Dest::Math::IntersectionTypes DLMLMAGCHJK; // 0x10

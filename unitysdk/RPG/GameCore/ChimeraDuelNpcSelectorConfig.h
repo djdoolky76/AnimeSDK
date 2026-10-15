@@ -11,6 +11,8 @@ namespace RPG::GameCore { class ChimeraDuelNpcSelectorConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChimeraDuelNpcSelectorConfig_TypeDefinitionIndex = 15952;
+
 	class ChimeraDuelNpcSelectorConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

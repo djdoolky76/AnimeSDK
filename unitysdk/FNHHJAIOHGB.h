@@ -20,6 +20,8 @@ namespace UnityEngine { class Object; }
 #define FNHHJAIOHGB_PINOKCNDANM_OFFSET UNITYSDK_OFFSET(0x15871250)
 #define FNHHJAIOHGB_SET_CONFIG_OFFSET UNITYSDK_OFFSET(0x158715F0)
 
+inline static constexpr unsigned int FNHHJAIOHGB_TypeDefinitionIndex = 71075;
+
 	class FNHHJAIOHGB
 	{
 	public:

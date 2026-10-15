@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int ProtocolManager_NativeProtocol_ProtocolConfig_TypeDefinitionIndex = 8042;
+
 	class ProtocolManager_NativeProtocol_ProtocolConfig : public ::System::Object
 	{
 	public:

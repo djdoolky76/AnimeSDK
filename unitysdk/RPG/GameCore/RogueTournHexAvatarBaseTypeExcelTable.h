@@ -25,6 +25,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueTournHexAvatarBaseTypeExcelTable_TypeDefinitionIndex = 15030;
+
 	class RogueTournHexAvatarBaseTypeExcelTable : public ::System::Object
 	{
 	public:

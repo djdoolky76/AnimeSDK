@@ -8,6 +8,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 #define AFDGEBOPHLG_EKAFDGOAGLJ_OFFSET UNITYSDK_OFFSET(0x1DD0A6F0)
 #define AFDGEBOPHLG_JDABGFMCGAH_OFFSET UNITYSDK_OFFSET(0x1DD0AB80)
 
+inline static constexpr unsigned int AFDGEBOPHLG_TypeDefinitionIndex = 6270;
+
 	class AFDGEBOPHLG : public ::System::Object
 	{
 	public:

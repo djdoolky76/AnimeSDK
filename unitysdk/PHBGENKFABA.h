@@ -5,6 +5,8 @@
 
 #define PHBGENKFABA_CTOR_OFFSET UNITYSDK_OFFSET(0x1C7ECED0)
 
+inline static constexpr unsigned int PHBGENKFABA_TypeDefinitionIndex = 37086;
+
 	class PHBGENKFABA : public ::System::Object
 	{
 	public:

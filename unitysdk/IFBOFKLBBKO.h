@@ -19,6 +19,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define IFBOFKLBBKO_PHANFIFHKCN_OFFSET UNITYSDK_OFFSET(0x1C6998D0)
 #define IFBOFKLBBKO_SET_ACTIVELOCKER_OFFSET UNITYSDK_OFFSET(0x1C699E20)
 
+inline static constexpr unsigned int IFBOFKLBBKO_TypeDefinitionIndex = 37242;
+
 	class IFBOFKLBBKO : public ::System::Object
 	{
 	public:

@@ -6,6 +6,8 @@ namespace System { class String; }
 
 namespace System::Net::NetworkInformation
 {
+	inline static constexpr unsigned int Win32_FIXED_INFO_TypeDefinitionIndex = 2964;
+
 	struct alignas(8) Win32_FIXED_INFO
 	{
 		::System::String* HostName; // 0x10

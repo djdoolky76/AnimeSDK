@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 #define BCOAEFIKBAO_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CCFAC10)
 #define BCOAEFIKBAO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CCFABD0)
 
+inline static constexpr unsigned int BCOAEFIKBAO_TypeDefinitionIndex = 23602;
+
 	class BCOAEFIKBAO : public ::RPG::GameCore::TaskConfig
 	{
 	public:

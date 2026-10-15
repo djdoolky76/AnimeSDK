@@ -18,6 +18,8 @@
 #define MNGOLJJNPEA_PFIMEIAAPEH_2_OFFSET UNITYSDK_OFFSET(0x1EC38980)
 #define MNGOLJJNPEA_PFIMEIAAPEH_OFFSET UNITYSDK_OFFSET(0x1EC388E0)
 
+inline static constexpr unsigned int MNGOLJJNPEA_TypeDefinitionIndex = 35192;
+
 	class MNGOLJJNPEA : public ::System::Object
 	{
 	public:

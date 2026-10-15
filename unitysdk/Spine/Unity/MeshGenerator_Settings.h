@@ -5,6 +5,8 @@
 
 namespace Spine::Unity
 {
+	inline static constexpr unsigned int MeshGenerator_Settings_TypeDefinitionIndex = 45082;
+
 	struct alignas(4) MeshGenerator_Settings
 	{
 		::System::Boolean useClipping; // 0x10

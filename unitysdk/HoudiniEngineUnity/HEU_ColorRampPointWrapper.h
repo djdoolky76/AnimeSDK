@@ -10,6 +10,8 @@
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int HEU_ColorRampPointWrapper_TypeDefinitionIndex = 40573;
+
 	class HEU_ColorRampPointWrapper : public ::HoudiniEngineUnity::HEU_RampPointWrapper
 	{
 	public:

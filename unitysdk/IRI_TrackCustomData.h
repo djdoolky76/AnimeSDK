@@ -9,6 +9,8 @@ namespace System { class String; }
 #define IRI_TRACKCUSTOMDATA_ONENABLE_OFFSET UNITYSDK_OFFSET(0x165379E0)
 #define IRI_TRACKCUSTOMDATA_PHOLCMFCIBM_OFFSET UNITYSDK_OFFSET(0x16537A20)
 
+inline static constexpr unsigned int IRI_TrackCustomData_TypeDefinitionIndex = 47185;
+
 	class IRI_TrackCustomData : public ::IRI_BaseBuildingCustomData
 	{
 	public:

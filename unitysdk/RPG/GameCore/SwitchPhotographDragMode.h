@@ -12,6 +12,8 @@ namespace RPG::GameCore { class SwitchPhotographDragMode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SwitchPhotographDragMode_TypeDefinitionIndex = 21636;
+
 	class SwitchPhotographDragMode : public ::RPG::GameCore::TaskConfig
 	{
 	public:

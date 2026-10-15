@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int GCKCLGJIKFC_TypeDefinitionIndex = 33474;
+
 	enum class GCKCLGJIKFC : ::System::Int32
 	{
 		ELGPACEMCGP = 0,

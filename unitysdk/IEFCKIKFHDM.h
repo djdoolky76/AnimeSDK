@@ -14,6 +14,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define IEFCKIKFHDM_PENKGGKBKFK_OFFSET UNITYSDK_OFFSET(0x15EF5990)
 #define IEFCKIKFHDM_TICK_OFFSET UNITYSDK_OFFSET(0x15EF5690)
 
+inline static constexpr unsigned int IEFCKIKFHDM_TypeDefinitionIndex = 58503;
+
 	class IEFCKIKFHDM : public ::GELIALJDFBL
 	{
 	public:

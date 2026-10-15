@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int TalkImageV2HideData_TypeDefinitionIndex = 48390;
+
 	class TalkImageV2HideData : public ::System::Object
 	{
 	public:

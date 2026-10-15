@@ -8,6 +8,8 @@ class IFNGPCPEKCB;
 #define IFNGPCPEKCB_CTOR_OFFSET UNITYSDK_OFFSET(0x1CEF5E30)
 #define IFNGPCPEKCB_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CEF5BE0)
 
+inline static constexpr unsigned int IFNGPCPEKCB_TypeDefinitionIndex = 12888;
+
 	class IFNGPCPEKCB : public ::System::Object
 	{
 	public:

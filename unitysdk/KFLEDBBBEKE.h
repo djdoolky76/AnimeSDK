@@ -33,6 +33,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define KFLEDBBBEKE_OHMNIAPKCOB_OFFSET UNITYSDK_OFFSET(0xB3BFF10)
 #define KFLEDBBBEKE_PDNLHJNOICH_OFFSET UNITYSDK_OFFSET(0xB3BFBB0)
 
+inline static constexpr unsigned int KFLEDBBBEKE_TypeDefinitionIndex = 78560;
+
 	class KFLEDBBBEKE : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ChimeraWorkFireBullet; }
 #define LDKKELIGKED_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0xB636B30)
 #define LDKKELIGKED__START_B__2_0_OFFSET UNITYSDK_OFFSET(0xB636D50)
 
+inline static constexpr unsigned int LDKKELIGKED_TypeDefinitionIndex = 78412;
+
 	class LDKKELIGKED : public ::System::Object
 	{
 	public:

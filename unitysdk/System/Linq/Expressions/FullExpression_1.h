@@ -4,6 +4,8 @@ namespace System { class String; }
 
 namespace System::Linq::Expressions
 {
+	inline static constexpr unsigned int FullExpression_1_TypeDefinitionIndex = 3238;
+
 	template <typename T>
 	class FullExpression_1
 	{

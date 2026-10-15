@@ -14,6 +14,8 @@ namespace CriWare { class CriAtomEx3dSource; }
 
 namespace CriWare
 {
+	inline static constexpr unsigned int CriManaAmbisonicSource_TypeDefinitionIndex = 40126;
+
 	class CriManaAmbisonicSource : public ::CriWare::CriMonoBehaviour
 	{
 	public:

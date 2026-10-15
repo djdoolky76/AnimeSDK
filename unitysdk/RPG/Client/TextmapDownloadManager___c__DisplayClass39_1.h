@@ -8,6 +8,8 @@ namespace System { class Object; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TextmapDownloadManager___c__DisplayClass39_1_TypeDefinitionIndex = 61249;
+
 	template <typename T>
 	class TextmapDownloadManager___c__DisplayClass39_1 : public ::System::Object
 	{

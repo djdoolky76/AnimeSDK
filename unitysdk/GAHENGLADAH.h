@@ -14,6 +14,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define GAHENGLADAH_CTOR_OFFSET UNITYSDK_OFFSET(0x1593C280)
 #define GAHENGLADAH_JJNFOPNOPBF_OFFSET UNITYSDK_OFFSET(0x1593BF00)
 
+inline static constexpr unsigned int GAHENGLADAH_TypeDefinitionIndex = 53981;
+
 	class GAHENGLADAH : public ::System::Object
 	{
 	public:

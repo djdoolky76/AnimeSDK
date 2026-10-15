@@ -15,6 +15,8 @@ namespace System { class Object; }
 #define GLHOGOIBGDP___ONSUBMITLIMAONEWSISSUE_B__5_0_OFFSET UNITYSDK_OFFSET(0x15AB7400)
 #define GLHOGOIBGDP___ONSUBMITLIMAONEWSISSUE_B__5_1_OFFSET UNITYSDK_OFFSET(0x15AB75B0)
 
+inline static constexpr unsigned int GLHOGOIBGDP_TypeDefinitionIndex = 52941;
+
 	class GLHOGOIBGDP : public ::GELIALJDFBL
 	{
 	public:

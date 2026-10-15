@@ -10,6 +10,8 @@ class ODGPPIHLOFF;
 #define JJFLABBCMBL_CCTOR_OFFSET UNITYSDK_OFFSET(0xB2042E0)
 #define JJFLABBCMBL_DFJOEAIABMJ_OFFSET UNITYSDK_OFFSET(0xB204070)
 
+inline static constexpr unsigned int JJFLABBCMBL_TypeDefinitionIndex = 49204;
+
 	class JJFLABBCMBL : public ::System::Object
 	{
 	public:

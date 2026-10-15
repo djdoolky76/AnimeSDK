@@ -19,6 +19,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int GravityBallLinearMoveObstacle_TypeDefinitionIndex = 78591;
+
 	class GravityBallLinearMoveObstacle : public ::RPG::Client::Prop::GravityBallObstacle
 	{
 	public:

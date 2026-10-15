@@ -19,6 +19,8 @@ namespace System { class String; }
 
 namespace System
 {
+	inline static constexpr unsigned int ConsoleDriver_TypeDefinitionIndex = 386;
+
 	class ConsoleDriver : public ::System::Object
 	{
 	public:

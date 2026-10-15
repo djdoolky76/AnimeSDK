@@ -11,6 +11,8 @@ class KPCDEJGJHBK;
 #define MKHNMHOHEAK_PJAGIJLDFIB_OFFSET UNITYSDK_OFFSET(0x1C74D8E0)
 #define MKHNMHOHEAK_SET_PARENTENTITYVIEW_OFFSET UNITYSDK_OFFSET(0x1C74D940)
 
+inline static constexpr unsigned int MKHNMHOHEAK_TypeDefinitionIndex = 36849;
+
 	class MKHNMHOHEAK : public ::System::Object
 	{
 	public:

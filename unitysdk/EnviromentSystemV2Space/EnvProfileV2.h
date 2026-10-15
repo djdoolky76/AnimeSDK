@@ -37,6 +37,8 @@ namespace System::Collections::ObjectModel { template <typename T> class ReadOnl
 
 namespace EnviromentSystemV2Space
 {
+	inline static constexpr unsigned int EnvProfileV2_TypeDefinitionIndex = 49406;
+
 	class EnvProfileV2 : public ::UnityEngine::ScriptableObject
 	{
 	public:

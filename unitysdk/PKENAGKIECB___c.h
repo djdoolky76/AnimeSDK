@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define PKENAGKIECB___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DF89520)
 #define PKENAGKIECB___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1DF89530)
 
+inline static constexpr unsigned int PKENAGKIECB___c_TypeDefinitionIndex = 27880;
+
 	class PKENAGKIECB___c : public ::System::Object
 	{
 	public:

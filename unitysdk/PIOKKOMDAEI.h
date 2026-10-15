@@ -25,6 +25,8 @@ namespace System { class String; }
 #define PIOKKOMDAEI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DF72F70)
 #define PIOKKOMDAEI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DF72FD0)
 
+inline static constexpr unsigned int PIOKKOMDAEI_TypeDefinitionIndex = 34592;
+
 	class PIOKKOMDAEI : public ::System::Object
 	{
 	public:

@@ -36,6 +36,8 @@ namespace System { class String; }
 #define HOKCDEEABII_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E5EA6C0)
 #define HOKCDEEABII_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E5EA720)
 
+inline static constexpr unsigned int HOKCDEEABII_TypeDefinitionIndex = 34712;
+
 	class HOKCDEEABII : public ::System::Object
 	{
 	public:

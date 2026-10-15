@@ -3,6 +3,8 @@
 
 namespace SRDebugger::Services
 {
+	inline static constexpr unsigned int ProfilerFrame_TypeDefinitionIndex = 38069;
+
 	struct alignas(4) ProfilerFrame
 	{
 		::System::Double FrameTime; // 0x10

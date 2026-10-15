@@ -16,6 +16,8 @@
 
 namespace RPG::Client::PixAir
 {
+	inline static constexpr unsigned int PixAirGameSession_PixAirPlaneReportInfo_TypeDefinitionIndex = 79352;
+
 	struct alignas(4) PixAirGameSession_PixAirPlaneReportInfo
 	{
 		::System::Int32 _PlaneID_k__BackingField; // 0x10

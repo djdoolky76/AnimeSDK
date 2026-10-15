@@ -7,6 +7,8 @@ namespace RPG::GameCore { class DiceCombatTaskConfig_StrikeBackDamage; }
 #define LMMHCLOIFEB_CTOR_OFFSET UNITYSDK_OFFSET(0x1C740C10)
 #define LMMHCLOIFEB_MLKLPMJEHPF_OFFSET UNITYSDK_OFFSET(0x1C740C20)
 
+inline static constexpr unsigned int LMMHCLOIFEB_TypeDefinitionIndex = 36315;
+
 	class LMMHCLOIFEB : public ::AJBKGPOEBFG
 	{
 	public:

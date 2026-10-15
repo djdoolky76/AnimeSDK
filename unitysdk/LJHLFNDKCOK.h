@@ -12,6 +12,8 @@ namespace System { class Object; }
 #define LJHLFNDKCOK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1C73CAE0)
 #define LJHLFNDKCOK_INVOKE_OFFSET UNITYSDK_OFFSET(0x1C73CA90)
 
+inline static constexpr unsigned int LJHLFNDKCOK_TypeDefinitionIndex = 36242;
+
 	class LJHLFNDKCOK : public ::System::MulticastDelegate
 	{
 	public:

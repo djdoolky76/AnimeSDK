@@ -27,6 +27,8 @@ namespace System { class String; }
 #define PIJDFMAJMFD_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DF698E0)
 #define PIJDFMAJMFD_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DF69940)
 
+inline static constexpr unsigned int PIJDFMAJMFD_TypeDefinitionIndex = 33053;
+
 	class PIJDFMAJMFD : public ::System::Object
 	{
 	public:

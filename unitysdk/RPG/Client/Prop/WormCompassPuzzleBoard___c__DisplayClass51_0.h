@@ -12,6 +12,8 @@ namespace System { class Action; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int WormCompassPuzzleBoard___c__DisplayClass51_0_TypeDefinitionIndex = 78928;
+
 	class WormCompassPuzzleBoard___c__DisplayClass51_0 : public ::System::Object
 	{
 	public:

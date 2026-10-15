@@ -13,6 +13,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int CakeRaceUI3DUtils_TypeDefinitionIndex = 63014;
+
 	class CakeRaceUI3DUtils : public ::System::Object
 	{
 	public:

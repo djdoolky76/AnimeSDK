@@ -13,6 +13,8 @@ namespace System::Threading { class Thread; }
 
 namespace System::Threading
 {
+	inline static constexpr unsigned int AsyncFlowControl_TypeDefinitionIndex = 830;
+
 	struct alignas(8) AsyncFlowControl
 	{
 		::System::Boolean useEC; // 0x10

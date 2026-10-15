@@ -32,6 +32,8 @@ namespace System { class String; }
 #define PNCNGIAMLCA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DFB3110)
 #define PNCNGIAMLCA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DFB3170)
 
+inline static constexpr unsigned int PNCNGIAMLCA_TypeDefinitionIndex = 27651;
+
 	class PNCNGIAMLCA : public ::System::Object
 	{
 	public:

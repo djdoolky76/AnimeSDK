@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ChimeraDuelGameRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChimeraDuelGameRow_TypeDefinitionIndex = 11135;
+
 	class ChimeraDuelGameRow : public ::System::Object
 	{
 	public:

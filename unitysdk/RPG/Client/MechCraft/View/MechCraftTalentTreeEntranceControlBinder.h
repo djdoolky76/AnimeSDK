@@ -10,6 +10,8 @@ namespace UnityEngine { class RectTransform; }
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftTalentTreeEntranceControlBinder_TypeDefinitionIndex = 80010;
+
 	class MechCraftTalentTreeEntranceControlBinder : public ::RPG::Client::MechCraft::View::MechCraftBinderBase
 	{
 	public:

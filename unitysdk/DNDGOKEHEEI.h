@@ -89,6 +89,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define DNDGOKEHEEI_SET_MAPROTATIONINFO_OFFSET UNITYSDK_OFFSET(0x1194AB90)
 #define DNDGOKEHEEI_SET_NAVMAPCONFIG_OFFSET UNITYSDK_OFFSET(0x1194AB30)
 
+inline static constexpr unsigned int DNDGOKEHEEI_TypeDefinitionIndex = 74613;
+
 	class DNDGOKEHEEI : public ::System::Object
 	{
 	public:

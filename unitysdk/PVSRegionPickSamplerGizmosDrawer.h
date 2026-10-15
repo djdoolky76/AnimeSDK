@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define PVSREGIONPICKSAMPLERGIZMOSDRAWER_DRAWGIZMOS_OFFSET UNITYSDK_OFFSET(0xC399880)
 #define PVSREGIONPICKSAMPLERGIZMOSDRAWER_ONDRAWGIZMOS_OFFSET UNITYSDK_OFFSET(0xC399A70)
 
+inline static constexpr unsigned int PVSRegionPickSamplerGizmosDrawer_TypeDefinitionIndex = 47301;
+
 	class PVSRegionPickSamplerGizmosDrawer : public ::UnityEngine::MonoBehaviour
 	{
 	public:

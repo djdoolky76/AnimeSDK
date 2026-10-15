@@ -8,6 +8,8 @@
 #define NEHPKBDBMKB_LHAGPJMHADB_OFFSET UNITYSDK_OFFSET(0xBB5E5D0)
 #define NEHPKBDBMKB_MIFJNPKACOB_OFFSET UNITYSDK_OFFSET(0xBB5E4F0)
 
+inline static constexpr unsigned int NEHPKBDBMKB_TypeDefinitionIndex = 72936;
+
 	class NEHPKBDBMKB : public ::System::Object
 	{
 	public:

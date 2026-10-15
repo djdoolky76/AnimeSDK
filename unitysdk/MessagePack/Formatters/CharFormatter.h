@@ -13,6 +13,8 @@ namespace MessagePack::Formatters { class CharFormatter; }
 
 namespace MessagePack::Formatters
 {
+	inline static constexpr unsigned int CharFormatter_TypeDefinitionIndex = 7476;
+
 	class CharFormatter : public ::System::Object
 	{
 	public:

@@ -5,6 +5,8 @@ namespace System { class Object; }
 
 namespace Cysharp::Threading::Tasks::CompilerServices
 {
+	inline static constexpr unsigned int AsyncUniTask_1___c_TypeDefinitionIndex = 38713;
+
 	template <typename T>
 	class AsyncUniTask_1___c : public ::System::Object
 	{

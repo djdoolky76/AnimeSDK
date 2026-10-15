@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int SDKDelegate_WebViewAnimationEnable_TypeDefinitionIndex = 7802;
+
 	class SDKDelegate_WebViewAnimationEnable : public ::System::MulticastDelegate
 	{
 	public:

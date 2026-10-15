@@ -9,6 +9,8 @@ namespace RPG::GameCore { class RogueModifierSetCountByOtherModifiersEntryConfig
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueModifierSetCountByOtherModifiersEntryConfig_TypeDefinitionIndex = 17722;
+
 	class RogueModifierSetCountByOtherModifiersEntryConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TriggerEntityEvent; }
 #define NALDLCODHOG_CTOR_OFFSET UNITYSDK_OFFSET(0xBAA38F0)
 #define NALDLCODHOG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBAA3920)
 
+inline static constexpr unsigned int NALDLCODHOG_TypeDefinitionIndex = 52523;
+
 	class NALDLCODHOG
 	{
 	public:

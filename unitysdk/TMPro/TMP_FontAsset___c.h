@@ -17,6 +17,8 @@ namespace UnityEngine::TextCore { class Glyph; }
 
 namespace TMPro
 {
+	inline static constexpr unsigned int TMP_FontAsset___c_TypeDefinitionIndex = 44569;
+
 	class TMP_FontAsset___c : public ::System::Object
 	{
 	public:

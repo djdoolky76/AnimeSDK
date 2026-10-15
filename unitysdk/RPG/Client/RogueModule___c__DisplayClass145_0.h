@@ -9,6 +9,8 @@ namespace RPG::Client { class RogueAreaData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueModule___c__DisplayClass145_0_TypeDefinitionIndex = 67452;
+
 	class RogueModule___c__DisplayClass145_0 : public ::System::Object
 	{
 	public:

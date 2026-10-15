@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define KDANACKPJIP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E7FD190)
 #define KDANACKPJIP___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1E7FD1A0)
 
+inline static constexpr unsigned int KDANACKPJIP___c_TypeDefinitionIndex = 28434;
+
 	class KDANACKPJIP___c : public ::System::Object
 	{
 	public:

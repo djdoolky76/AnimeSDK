@@ -12,6 +12,8 @@ class PEEDLCHFAFL;
 #define IEJEOJHBDGD_LOFLDNFOCKL_OFFSET UNITYSDK_OFFSET(0x15EFDD30)
 #define IEJEOJHBDGD_TEARDOWN_OFFSET UNITYSDK_OFFSET(0x15EFDC10)
 
+inline static constexpr unsigned int IEJEOJHBDGD_TypeDefinitionIndex = 77132;
+
 	class IEJEOJHBDGD : public ::System::Object
 	{
 	public:

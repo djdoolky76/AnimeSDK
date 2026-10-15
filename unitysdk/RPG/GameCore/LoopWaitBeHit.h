@@ -10,6 +10,8 @@ namespace RPG::GameCore { class LoopWaitBeHit; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LoopWaitBeHit_TypeDefinitionIndex = 22129;
+
 	class LoopWaitBeHit : public ::RPG::GameCore::TaskConfig
 	{
 	public:

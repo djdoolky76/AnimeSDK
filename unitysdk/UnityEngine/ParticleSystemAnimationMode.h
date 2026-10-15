@@ -3,6 +3,8 @@
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int ParticleSystemAnimationMode_TypeDefinitionIndex = 5260;
+
 	enum class ParticleSystemAnimationMode : ::System::Int32
 	{
 		Grid = 0,

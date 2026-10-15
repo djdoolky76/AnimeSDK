@@ -11,6 +11,8 @@ namespace RPG::GameCore { class MiActionConfigBase; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ActionTriggerActionListConfig_TypeDefinitionIndex = 17052;
+
 	class ActionTriggerActionListConfig : public ::RPG::GameCore::MiActionConfigBase
 	{
 	public:

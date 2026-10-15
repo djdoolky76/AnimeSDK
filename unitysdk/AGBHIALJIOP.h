@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TrainPartyGameplayShowMaskBG; }
 #define AGBHIALJIOP_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xCF25A50)
 #define AGBHIALJIOP_TICK_OFFSET UNITYSDK_OFFSET(0xCF25AA0)
 
+inline static constexpr unsigned int AGBHIALJIOP_TypeDefinitionIndex = 53425;
+
 	class AGBHIALJIOP : public ::GELIALJDFBL
 	{
 	public:

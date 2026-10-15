@@ -13,6 +13,8 @@ namespace UnityEngine::Timeline { class TimelineClip; }
 #define NPJJJGPOIKG_ONGRAPHSTART_OFFSET UNITYSDK_OFFSET(0xBCFEFF0)
 #define NPJJJGPOIKG_ONGRAPHSTOP_OFFSET UNITYSDK_OFFSET(0xBCFF220)
 
+inline static constexpr unsigned int NPJJJGPOIKG_TypeDefinitionIndex = 48069;
+
 	class NPJJJGPOIKG : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

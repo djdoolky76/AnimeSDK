@@ -11,6 +11,8 @@ namespace UnityEngine { class RuntimeAnimatorController; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AnimatorControllerLoadMeta_TypeDefinitionIndex = 72483;
+
 	class AnimatorControllerLoadMeta : public ::UnityEngine::MonoBehaviour
 	{
 	public:

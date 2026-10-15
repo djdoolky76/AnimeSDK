@@ -7,6 +7,8 @@
 
 namespace System::Net
 {
+	inline static constexpr unsigned int MonoChunkStream_Chunk_TypeDefinitionIndex = 2869;
+
 	class MonoChunkStream_Chunk : public ::System::Object
 	{
 	public:

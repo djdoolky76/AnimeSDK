@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace Cinemachine
 {
+	inline static constexpr unsigned int CinemachineInputAxisDriver_TypeDefinitionIndex = 39818;
+
 	struct alignas(8) CinemachineInputAxisDriver
 	{
 		::System::Single multiplier; // 0x10

@@ -65,6 +65,8 @@ namespace UnityEngine { class Transform; }
 #define PKIGJIJEJEG__ONBIND_OFFSET UNITYSDK_OFFSET(0xC2BCDD0)
 #define PKIGJIJEJEG__ONTICK_OFFSET UNITYSDK_OFFSET(0xC2BD8C0)
 
+inline static constexpr unsigned int PKIGJIJEJEG_TypeDefinitionIndex = 71574;
+
 	class PKIGJIJEJEG : public ::FMPCODLIOLG
 	{
 	public:

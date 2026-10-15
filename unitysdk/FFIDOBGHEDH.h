@@ -6,6 +6,8 @@ namespace System { class String; }
 
 #define FFIDOBGHEDH_CTOR_OFFSET UNITYSDK_OFFSET(0x1573F620)
 
+inline static constexpr unsigned int FFIDOBGHEDH_TypeDefinitionIndex = 54924;
+
 	class FFIDOBGHEDH : public ::System::Object
 	{
 	public:

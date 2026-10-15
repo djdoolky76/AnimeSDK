@@ -89,6 +89,8 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 
 namespace InControl
 {
+	inline static constexpr unsigned int InputDeviceProfile_TypeDefinitionIndex = 40844;
+
 	class InputDeviceProfile : public ::System::Object
 	{
 	public:

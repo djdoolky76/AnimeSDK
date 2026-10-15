@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int DDLHODCINBI_LBFGOFIIOKP_TypeDefinitionIndex = 28311;
+
 	enum class DDLHODCINBI_LBFGOFIIOKP : ::System::Int32
 	{
 		NLCDGIPGFDJ = 0,

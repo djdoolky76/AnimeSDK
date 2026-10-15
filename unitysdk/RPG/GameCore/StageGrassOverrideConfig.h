@@ -11,6 +11,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int StageGrassOverrideConfig_TypeDefinitionIndex = 19130;
+
 	class StageGrassOverrideConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

@@ -7,6 +7,8 @@
 
 namespace System::Runtime::Versioning
 {
+	inline static constexpr unsigned int BinaryCompatibility_TypeDefinitionIndex = 1093;
+
 	class BinaryCompatibility : public ::System::Object
 	{
 	public:

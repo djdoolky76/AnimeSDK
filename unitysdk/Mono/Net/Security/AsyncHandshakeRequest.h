@@ -9,6 +9,8 @@ namespace Mono::Net::Security { class MobileAuthenticatedStream; }
 
 namespace Mono::Net::Security
 {
+	inline static constexpr unsigned int AsyncHandshakeRequest_TypeDefinitionIndex = 2430;
+
 	class AsyncHandshakeRequest : public ::Mono::Net::Security::AsyncProtocolRequest
 	{
 	public:

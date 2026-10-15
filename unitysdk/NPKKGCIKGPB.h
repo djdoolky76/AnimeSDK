@@ -4,6 +4,8 @@
 
 #define NPKKGCIKGPB_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC3AED0)
 
+inline static constexpr unsigned int NPKKGCIKGPB_TypeDefinitionIndex = 35337;
+
 	class NPKKGCIKGPB : public ::System::Object
 	{
 	public:

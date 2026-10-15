@@ -6,6 +6,8 @@
 
 namespace RPG::Client::LittleGame
 {
+	inline static constexpr unsigned int FeverTimeConfig_TypeDefinitionIndex = 42320;
+
 	class FeverTimeConfig : public ::System::Object
 	{
 	public:

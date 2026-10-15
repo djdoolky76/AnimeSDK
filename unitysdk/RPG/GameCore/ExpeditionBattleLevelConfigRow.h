@@ -9,6 +9,8 @@ namespace RPG::GameCore { class ExpeditionBattleLevelConfigRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ExpeditionBattleLevelConfigRow_TypeDefinitionIndex = 11446;
+
 	class ExpeditionBattleLevelConfigRow : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace RPG::GameCore { class MunicipalChatActionFreeStyleGraph; }
 #define DIEFAFIINDJ_LJOLGCNKIEH_OFFSET UNITYSDK_OFFSET(0xEBF2980)
 #define DIEFAFIINDJ_MGFLFCHMGPA_OFFSET UNITYSDK_OFFSET(0xEBF2850)
 
+inline static constexpr unsigned int DIEFAFIINDJ_TypeDefinitionIndex = 69195;
+
 	class DIEFAFIINDJ : public ::MAGCBFJCKLE
 	{
 	public:

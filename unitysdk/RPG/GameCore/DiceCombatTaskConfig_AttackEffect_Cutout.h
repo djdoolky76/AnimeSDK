@@ -10,6 +10,8 @@ namespace RPG::GameCore { class DiceCombatTaskConfig_AttackEffect_Cutout; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DiceCombatTaskConfig_AttackEffect_Cutout_TypeDefinitionIndex = 16053;
+
 	class DiceCombatTaskConfig_AttackEffect_Cutout : public ::RPG::GameCore::DiceCombatTaskConfig
 	{
 	public:

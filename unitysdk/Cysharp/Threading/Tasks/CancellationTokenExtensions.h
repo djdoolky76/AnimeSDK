@@ -26,6 +26,8 @@ namespace System::Threading { class CancellationTokenSource; }
 
 namespace Cysharp::Threading::Tasks
 {
+	inline static constexpr unsigned int CancellationTokenExtensions_TypeDefinitionIndex = 38134;
+
 	class CancellationTokenExtensions : public ::System::Object
 	{
 	public:

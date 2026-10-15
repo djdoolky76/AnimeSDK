@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GroupFilterCategoryExpression; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GroupFilterCategoryExpression_TypeDefinitionIndex = 17397;
+
 	class GroupFilterCategoryExpression : public ::RPG::GameCore::GroupFilterExpression
 	{
 	public:

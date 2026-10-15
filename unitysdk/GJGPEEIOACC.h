@@ -5,6 +5,8 @@
 
 #define GJGPEEIOACC_CTOR_OFFSET UNITYSDK_OFFSET(0x15A694B0)
 
+inline static constexpr unsigned int GJGPEEIOACC_TypeDefinitionIndex = 81282;
+
 	class GJGPEEIOACC : public ::System::Object
 	{
 	public:

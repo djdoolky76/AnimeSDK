@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LockActionDelayChange_TypeDefinitionIndex = 23277;
+
 	class LockActionDelayChange : public ::RPG::GameCore::TaskConfig
 	{
 	public:

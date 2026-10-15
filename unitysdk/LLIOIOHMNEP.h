@@ -30,6 +30,8 @@ namespace UnityEngine::UI { class Text; }
 #define LLIOIOHMNEP_OMHAOIEPNCB_OFFSET UNITYSDK_OFFSET(0xB773040)
 #define LLIOIOHMNEP__ONBIND_OFFSET UNITYSDK_OFFSET(0xB7712B0)
 
+inline static constexpr unsigned int LLIOIOHMNEP_TypeDefinitionIndex = 72104;
+
 	class LLIOIOHMNEP : public ::FMPCODLIOLG
 	{
 	public:

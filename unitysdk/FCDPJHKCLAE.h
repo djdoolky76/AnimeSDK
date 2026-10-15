@@ -8,6 +8,8 @@ class MPGDJAAKBFA;
 #define FCDPJHKCLAE_ONALLOC_OFFSET UNITYSDK_OFFSET(0x1CA66480)
 #define FCDPJHKCLAE_ONRECYCLE_OFFSET UNITYSDK_OFFSET(0x1CA664C0)
 
+inline static constexpr unsigned int FCDPJHKCLAE_TypeDefinitionIndex = 43494;
+
 	class FCDPJHKCLAE : public ::System::Object
 	{
 	public:

@@ -23,6 +23,8 @@ namespace System { class String; }
 #define GIHHAHEAIHD_PLPGKAKPEED_OFFSET UNITYSDK_OFFSET(0x15A38260)
 #define GIHHAHEAIHD__ONBIND_OFFSET UNITYSDK_OFFSET(0x15A37A90)
 
+inline static constexpr unsigned int GIHHAHEAIHD_TypeDefinitionIndex = 72212;
+
 	class GIHHAHEAIHD : public ::FMPCODLIOLG
 	{
 	public:

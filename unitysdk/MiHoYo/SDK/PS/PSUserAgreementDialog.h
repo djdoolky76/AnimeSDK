@@ -16,6 +16,8 @@ namespace System { class Action; }
 
 namespace MiHoYo::SDK::PS
 {
+	inline static constexpr unsigned int PSUserAgreementDialog_TypeDefinitionIndex = 8947;
+
 	class PSUserAgreementDialog : public ::MiHoYo::SDK::PS::PSDialogBase
 	{
 	public:

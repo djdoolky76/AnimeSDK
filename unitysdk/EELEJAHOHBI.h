@@ -2,6 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
+inline static constexpr unsigned int EELEJAHOHBI_TypeDefinitionIndex = 73939;
+
 	class EELEJAHOHBI : public ::System::Object
 	{
 	public:

@@ -9,6 +9,8 @@ namespace RPG::Client { class GridFightRole; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightGameTrait___c__DisplayClass10_0_TypeDefinitionIndex = 65411;
+
 	class GridFightGameTrait___c__DisplayClass10_0 : public ::System::Object
 	{
 	public:

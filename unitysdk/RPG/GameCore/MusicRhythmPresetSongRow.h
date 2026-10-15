@@ -10,6 +10,8 @@ namespace RPG::GameCore { class MusicRhythmPresetSongRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MusicRhythmPresetSongRow_TypeDefinitionIndex = 14275;
+
 	class MusicRhythmPresetSongRow : public ::System::Object
 	{
 	public:

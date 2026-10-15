@@ -24,6 +24,8 @@ namespace UnityEngine { class Sprite; }
 
 namespace Spine::Unity::AttachmentTools
 {
+	inline static constexpr unsigned int AttachmentRegionExtensions_TypeDefinitionIndex = 45115;
+
 	class AttachmentRegionExtensions : public ::System::Object
 	{
 	public:

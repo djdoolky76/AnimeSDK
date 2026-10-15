@@ -6,6 +6,8 @@ class LBJLBMOOJGM;
 #define IIPBPKGGICB_CTOR_OFFSET UNITYSDK_OFFSET(0x16455880)
 #define IIPBPKGGICB_KDPCHKAGJMK_OFFSET UNITYSDK_OFFSET(0x164557F0)
 
+inline static constexpr unsigned int IIPBPKGGICB_TypeDefinitionIndex = 66703;
+
 	class IIPBPKGGICB : public ::System::Object
 	{
 	public:

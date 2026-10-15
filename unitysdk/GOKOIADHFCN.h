@@ -31,6 +31,8 @@ namespace System { class String; }
 #define GOKOIADHFCN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E4F0FB0)
 #define GOKOIADHFCN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E4F1010)
 
+inline static constexpr unsigned int GOKOIADHFCN_TypeDefinitionIndex = 34794;
+
 	class GOKOIADHFCN : public ::System::Object
 	{
 	public:

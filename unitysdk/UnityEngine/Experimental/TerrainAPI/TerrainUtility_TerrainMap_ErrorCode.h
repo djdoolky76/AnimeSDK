@@ -3,6 +3,8 @@
 
 namespace UnityEngine::Experimental::TerrainAPI
 {
+	inline static constexpr unsigned int TerrainUtility_TerrainMap_ErrorCode_TypeDefinitionIndex = 5344;
+
 	enum class TerrainUtility_TerrainMap_ErrorCode : ::System::Int32
 	{
 		OK = 0,

@@ -7,6 +7,8 @@ namespace MiHoYo::SDK::PC::OS { class XboxAchievementEntry; }
 
 namespace MiHoYo::SDK::PC::OS
 {
+	inline static constexpr unsigned int XboxAchievementsExtension_TypeDefinitionIndex = 8678;
+
 	class XboxAchievementsExtension : public ::System::Object
 	{
 	public:

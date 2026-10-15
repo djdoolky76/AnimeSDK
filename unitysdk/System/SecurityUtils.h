@@ -14,6 +14,8 @@ namespace System { class Type; }
 
 namespace System
 {
+	inline static constexpr unsigned int SecurityUtils_TypeDefinitionIndex = 2458;
+
 	class SecurityUtils : public ::System::Object
 	{
 	public:

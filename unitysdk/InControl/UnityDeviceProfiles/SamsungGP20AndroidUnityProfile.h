@@ -7,6 +7,8 @@
 
 namespace InControl::UnityDeviceProfiles
 {
+	inline static constexpr unsigned int SamsungGP20AndroidUnityProfile_TypeDefinitionIndex = 40987;
+
 	class SamsungGP20AndroidUnityProfile : public ::InControl::InputDeviceProfile
 	{
 	public:

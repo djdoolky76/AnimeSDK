@@ -8,6 +8,8 @@
 #define JJLHJLBOFON_EXECUTE_OFFSET UNITYSDK_OFFSET(0x10E30)
 #define JJLHJLBOFON_PBPMJBMJPPL_OFFSET UNITYSDK_OFFSET(0xB207F00)
 
+inline static constexpr unsigned int JJLHJLBOFON_TypeDefinitionIndex = 70471;
+
 	struct alignas(8) JJLHJLBOFON
 	{
 		::Unity::Collections::NativeArray_1<::UnityEngine::Matrix4x4> MBBBHFDGJPN; // 0x10

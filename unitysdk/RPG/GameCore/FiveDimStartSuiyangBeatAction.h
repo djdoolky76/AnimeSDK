@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FiveDimStartSuiyangBeatAction; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimStartSuiyangBeatAction_TypeDefinitionIndex = 18710;
+
 	class FiveDimStartSuiyangBeatAction : public ::RPG::GameCore::FiveDimBaseEventAction
 	{
 	public:

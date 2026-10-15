@@ -14,6 +14,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define BLEKFPKOEOF_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0x1EBF4F20)
 #define BLEKFPKOEOF_LJJBPKAMKHA_OFFSET UNITYSDK_OFFSET(0x1EBF51D0)
 
+inline static constexpr unsigned int BLEKFPKOEOF_TypeDefinitionIndex = 35271;
+
 	class BLEKFPKOEOF : public ::System::Object
 	{
 	public:

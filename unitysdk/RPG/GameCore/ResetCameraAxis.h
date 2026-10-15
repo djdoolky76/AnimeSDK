@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ResetCameraAxis; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ResetCameraAxis_TypeDefinitionIndex = 20282;
+
 	class ResetCameraAxis : public ::RPG::GameCore::TaskConfig
 	{
 	public:

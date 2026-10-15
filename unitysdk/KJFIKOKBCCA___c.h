@@ -9,6 +9,8 @@ namespace System { class Object; }
 #define KJFIKOKBCCA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DD6C520)
 #define KJFIKOKBCCA___C__CREATE_B__6_0_OFFSET UNITYSDK_OFFSET(0x1DD6C530)
 
+inline static constexpr unsigned int KJFIKOKBCCA___c_TypeDefinitionIndex = 6440;
+
 	class KJFIKOKBCCA___c : public ::System::Object
 	{
 	public:

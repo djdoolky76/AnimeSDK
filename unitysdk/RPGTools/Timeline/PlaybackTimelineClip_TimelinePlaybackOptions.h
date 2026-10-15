@@ -3,6 +3,8 @@
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int PlaybackTimelineClip_TimelinePlaybackOptions_TypeDefinitionIndex = 48458;
+
 	enum class PlaybackTimelineClip_TimelinePlaybackOptions : ::System::Int32
 	{
 		None = 0,

@@ -17,6 +17,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define CIGNGMNGCKI_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0xCF72960)
 #define CIGNGMNGCKI_OLKPOLHAIFM_OFFSET UNITYSDK_OFFSET(0xCF74900)
 
+inline static constexpr unsigned int CIGNGMNGCKI_TypeDefinitionIndex = 47298;
+
 	class CIGNGMNGCKI : public ::System::Object
 	{
 	public:

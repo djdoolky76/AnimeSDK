@@ -22,6 +22,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonopolyBuffInfo_TypeDefinitionIndex = 66218;
+
 	class MonopolyBuffInfo : public ::System::Object
 	{
 	public:

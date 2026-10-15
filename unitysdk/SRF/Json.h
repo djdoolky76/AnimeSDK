@@ -9,6 +9,8 @@ namespace System { class String; }
 
 namespace SRF
 {
+	inline static constexpr unsigned int Json_TypeDefinitionIndex = 35355;
+
 	class Json : public ::System::Object
 	{
 	public:

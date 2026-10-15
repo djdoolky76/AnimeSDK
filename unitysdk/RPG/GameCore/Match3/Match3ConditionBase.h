@@ -10,6 +10,8 @@ namespace RPG::GameCore::Match3 { class Match3ConditionBase; }
 
 namespace RPG::GameCore::Match3
 {
+	inline static constexpr unsigned int Match3ConditionBase_TypeDefinitionIndex = 24882;
+
 	class Match3ConditionBase : public ::RPG::GameCore::MiConditionConfigBase
 	{
 	public:

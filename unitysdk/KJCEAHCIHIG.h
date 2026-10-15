@@ -10,6 +10,8 @@ namespace System { class String; }
 #define KJCEAHCIHIG_SET_DESC_OFFSET UNITYSDK_OFFSET(0xB43C960)
 #define KJCEAHCIHIG_SET_NAME_OFFSET UNITYSDK_OFFSET(0xB43C940)
 
+inline static constexpr unsigned int KJCEAHCIHIG_TypeDefinitionIndex = 80611;
+
 	class KJCEAHCIHIG : public ::System::Object
 	{
 	public:

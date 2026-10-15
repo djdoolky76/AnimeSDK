@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define GMPPHDOGCAM_CTOR_OFFSET UNITYSDK_OFFSET(0x15ADE2F0)
 #define GMPPHDOGCAM_EVALUATE_OFFSET UNITYSDK_OFFSET(0x15ADE360)
 
+inline static constexpr unsigned int GMPPHDOGCAM_TypeDefinitionIndex = 59236;
+
 	class GMPPHDOGCAM
 	{
 	public:

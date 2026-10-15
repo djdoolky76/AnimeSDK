@@ -4,6 +4,8 @@
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int VoxelIrradianceCacheData_TypeDefinitionIndex = 4267;
+
 	class VoxelIrradianceCacheData : public ::UnityEngine::Object
 	{
 	public:

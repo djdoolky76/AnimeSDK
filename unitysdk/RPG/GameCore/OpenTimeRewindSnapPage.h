@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int OpenTimeRewindSnapPage_TypeDefinitionIndex = 20650;
+
 	class OpenTimeRewindSnapPage : public ::RPG::GameCore::TaskConfig
 	{
 	public:

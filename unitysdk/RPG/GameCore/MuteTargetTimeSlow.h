@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MuteTargetTimeSlow_TypeDefinitionIndex = 23829;
+
 	class MuteTargetTimeSlow : public ::RPG::GameCore::TaskConfig
 	{
 	public:

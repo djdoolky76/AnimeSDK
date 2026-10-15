@@ -14,6 +14,8 @@ namespace System { class Object; }
 #define OEHCEHBLPON__MAINASYNC_D__0_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0xBE2D9B0)
 #define OEHCEHBLPON__MAINASYNC_D__0_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBE2D900)
 
+inline static constexpr unsigned int OEHCEHBLPON__MainAsync_d__0_TypeDefinitionIndex = 48914;
+
 	class OEHCEHBLPON__MainAsync_d__0 : public ::System::Object
 	{
 	public:

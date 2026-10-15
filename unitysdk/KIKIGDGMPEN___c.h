@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define KIKIGDGMPEN___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E862770)
 #define KIKIGDGMPEN___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E862780)
 
+inline static constexpr unsigned int KIKIGDGMPEN___c_TypeDefinitionIndex = 29004;
+
 	class KIKIGDGMPEN___c : public ::System::Object
 	{
 	public:

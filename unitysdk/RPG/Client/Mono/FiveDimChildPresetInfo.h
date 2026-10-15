@@ -7,6 +7,8 @@ namespace RPG::Client::Mono { class FiveDimChildPresetItem; }
 
 namespace RPG::Client::Mono
 {
+	inline static constexpr unsigned int FiveDimChildPresetInfo_TypeDefinitionIndex = 76023;
+
 	class FiveDimChildPresetInfo : public ::UnityEngine::MonoBehaviour
 	{
 	public:

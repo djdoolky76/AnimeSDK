@@ -27,6 +27,8 @@ namespace System { class String; }
 #define JDMLEOGCCCA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E70F030)
 #define JDMLEOGCCCA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E70F090)
 
+inline static constexpr unsigned int JDMLEOGCCCA_TypeDefinitionIndex = 26145;
+
 	class JDMLEOGCCCA : public ::System::Object
 	{
 	public:

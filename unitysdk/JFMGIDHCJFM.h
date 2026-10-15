@@ -9,6 +9,8 @@ namespace UnityEngine { class MaterialPropertyBlock; }
 #define JFMGIDHCJFM_SETPROPERTY_1_OFFSET UNITYSDK_OFFSET(0x166574A0)
 #define JFMGIDHCJFM_SETPROPERTY_OFFSET UNITYSDK_OFFSET(0x16657420)
 
+inline static constexpr unsigned int JFMGIDHCJFM_TypeDefinitionIndex = 69830;
+
 	class JFMGIDHCJFM : public ::System::Object
 	{
 	public:

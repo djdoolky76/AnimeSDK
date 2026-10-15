@@ -5,6 +5,8 @@
 #define HAILIPBNAJL___C__DISPLAYCLASS37_1_CTOR_OFFSET UNITYSDK_OFFSET(0x1C65B0E0)
 #define HAILIPBNAJL___C__DISPLAYCLASS37_1___CALCDICESCOREBYAILEVEL_B__2_OFFSET UNITYSDK_OFFSET(0x1C65B0F0)
 
+inline static constexpr unsigned int HAILIPBNAJL___c__DisplayClass37_1_TypeDefinitionIndex = 36416;
+
 	template <typename T>
 	class HAILIPBNAJL___c__DisplayClass37_1 : public ::System::Object
 	{

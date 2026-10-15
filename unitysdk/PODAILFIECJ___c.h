@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define PODAILFIECJ___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DFC8170)
 #define PODAILFIECJ___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1DFC8180)
 
+inline static constexpr unsigned int PODAILFIECJ___c_TypeDefinitionIndex = 30561;
+
 	class PODAILFIECJ___c : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class DiceCombatAIEffectEvaluatorConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DiceCombatAIEffectEvaluatorConfig_TypeDefinitionIndex = 16164;
+
 	class DiceCombatAIEffectEvaluatorConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class AdventurePauseTeamDataRefresh; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdventurePauseTeamDataRefresh_TypeDefinitionIndex = 20402;
+
 	class AdventurePauseTeamDataRefresh : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -2,6 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/B51RacingTREventType.h"
 
+inline static constexpr unsigned int GHMJNBPDMKL_TypeDefinitionIndex = 42938;
+
 	struct alignas(4) GHMJNBPDMKL
 	{
 		::System::UInt32 ICGACGKHFEO; // 0x10

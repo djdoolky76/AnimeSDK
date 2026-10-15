@@ -32,6 +32,8 @@ namespace System { class String; }
 #define JDKJBGGHDBM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E70CD40)
 #define JDKJBGGHDBM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E70CDA0)
 
+inline static constexpr unsigned int JDKJBGGHDBM_TypeDefinitionIndex = 27373;
+
 	class JDKJBGGHDBM : public ::System::Object
 	{
 	public:

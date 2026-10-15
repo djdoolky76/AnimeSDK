@@ -28,6 +28,8 @@ namespace System::Text::RegularExpressions { class Regex; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueTournBuildRefShareCodeHelper_TypeDefinitionIndex = 67552;
+
 	class RogueTournBuildRefShareCodeHelper : public ::System::Object
 	{
 	public:

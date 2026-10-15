@@ -15,6 +15,8 @@ namespace UnityEngine { class RectTransform; }
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftCraftEditTutorialDragTargetControl_TypeDefinitionIndex = 79884;
+
 	class MechCraftCraftEditTutorialDragTargetControl : public ::UnityEngine::MonoBehaviour
 	{
 	public:

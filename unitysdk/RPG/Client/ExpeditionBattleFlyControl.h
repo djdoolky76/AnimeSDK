@@ -10,6 +10,8 @@ namespace UnityEngine { class RectTransform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ExpeditionBattleFlyControl_TypeDefinitionIndex = 63960;
+
 	class ExpeditionBattleFlyControl : public ::UnityEngine::MonoBehaviour
 	{
 	public:

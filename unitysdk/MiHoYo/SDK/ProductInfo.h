@@ -6,6 +6,8 @@
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int ProductInfo_TypeDefinitionIndex = 7590;
+
 	class ProductInfo : public ::System::Object
 	{
 	public:

@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::ActivityFinalityBattle::RedDot
 {
+	inline static constexpr unsigned int FinalityBattleEntranceRedDotFilter_TypeDefinitionIndex = 82085;
+
 	class FinalityBattleEntranceRedDotFilter : public ::System::Object
 	{
 	public:

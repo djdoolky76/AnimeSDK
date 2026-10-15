@@ -30,6 +30,8 @@ namespace UnityEngine::UI { class Toggle; }
 
 namespace SRDebugger::UI::Controls
 {
+	inline static constexpr unsigned int PinEntryControl_TypeDefinitionIndex = 38028;
+
 	class PinEntryControl : public ::SRF::SRMonoBehaviourEx
 	{
 	public:

@@ -8,6 +8,8 @@ class DPLLFKALLIN;
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int InsertionPuzzleItem___c__DisplayClass23_0_TypeDefinitionIndex = 78635;
+
 	class InsertionPuzzleItem___c__DisplayClass23_0 : public ::System::Object
 	{
 	public:

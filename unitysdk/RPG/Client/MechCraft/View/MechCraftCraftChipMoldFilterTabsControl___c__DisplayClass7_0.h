@@ -9,6 +9,8 @@ class PKJHLEOADGL;
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftCraftChipMoldFilterTabsControl___c__DisplayClass7_0_TypeDefinitionIndex = 79864;
+
 	class MechCraftCraftChipMoldFilterTabsControl___c__DisplayClass7_0 : public ::System::Object
 	{
 	public:

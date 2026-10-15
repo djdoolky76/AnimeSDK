@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 
 #define CGGFJMLHDBC_CTOR_OFFSET UNITYSDK_OFFSET(0x1C8E1340)
 
+inline static constexpr unsigned int CGGFJMLHDBC_TypeDefinitionIndex = 43682;
+
 	class CGGFJMLHDBC : public ::System::Object
 	{
 	public:

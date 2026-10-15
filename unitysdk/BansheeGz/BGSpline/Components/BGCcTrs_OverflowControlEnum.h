@@ -3,6 +3,8 @@
 
 namespace BansheeGz::BGSpline::Components
 {
+	inline static constexpr unsigned int BGCcTrs_OverflowControlEnum_TypeDefinitionIndex = 36056;
+
 	enum class BGCcTrs_OverflowControlEnum : ::System::Int32
 	{
 		Cycle = 0,

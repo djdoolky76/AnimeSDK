@@ -39,6 +39,8 @@ namespace System { class String; }
 #define PJIKKAKAIHK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DF7A900)
 #define PJIKKAKAIHK_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DF7A960)
 
+inline static constexpr unsigned int PJIKKAKAIHK_TypeDefinitionIndex = 26456;
+
 	class PJIKKAKAIHK : public ::System::Object
 	{
 	public:

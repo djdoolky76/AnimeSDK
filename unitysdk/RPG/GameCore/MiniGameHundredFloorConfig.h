@@ -12,6 +12,8 @@ namespace RPG::GameCore { class MiniGameHundredFloorWaveConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MiniGameHundredFloorConfig_TypeDefinitionIndex = 18812;
+
 	class MiniGameHundredFloorConfig : public ::RPG::GameCore::BaseScrollGameConfig
 	{
 	public:

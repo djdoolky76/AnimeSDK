@@ -11,6 +11,8 @@ namespace UnityEngine::Timeline { class SignalAsset; }
 
 namespace UnityEngine::Timeline
 {
+	inline static constexpr unsigned int SignalAsset_TypeDefinitionIndex = 38833;
+
 	class SignalAsset : public ::UnityEngine::ScriptableObject
 	{
 	public:

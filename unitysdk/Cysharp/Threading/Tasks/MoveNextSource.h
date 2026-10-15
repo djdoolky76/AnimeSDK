@@ -17,6 +17,8 @@ namespace System { class Object; }
 
 namespace Cysharp::Threading::Tasks
 {
+	inline static constexpr unsigned int MoveNextSource_TypeDefinitionIndex = 38174;
+
 	class MoveNextSource : public ::System::Object
 	{
 	public:

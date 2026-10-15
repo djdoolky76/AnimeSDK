@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int EBJBACDPFOF_SuperEventState_TypeDefinitionIndex = 77259;
+
 	enum class EBJBACDPFOF_SuperEventState : ::System::Int32
 	{
 		Unknown = 0,

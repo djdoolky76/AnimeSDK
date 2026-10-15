@@ -4,6 +4,8 @@
 
 namespace Mono
 {
+	inline static constexpr unsigned int RuntimeStructs_TypeDefinitionIndex = 12;
+
 	class RuntimeStructs : public ::System::Object
 	{
 	public:

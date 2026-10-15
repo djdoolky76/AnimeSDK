@@ -3,6 +3,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoUIPrefabLODLoader_Quality_TypeDefinitionIndex = 68982;
+
 	enum class MonoUIPrefabLODLoader_Quality : ::System::Int32
 	{
 		Low = 0,

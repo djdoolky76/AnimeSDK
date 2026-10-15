@@ -6,6 +6,8 @@ namespace RPG::GameCore { class BattleGridFightEquipData; }
 #define DFCPDPJHNGM_CTOR_OFFSET UNITYSDK_OFFSET(0xE824880)
 #define DFCPDPJHNGM_DJKCKOEBPLF_OFFSET UNITYSDK_OFFSET(0xE824890)
 
+inline static constexpr unsigned int DFCPDPJHNGM_TypeDefinitionIndex = 64971;
+
 	class DFCPDPJHNGM : public ::System::Object
 	{
 	public:

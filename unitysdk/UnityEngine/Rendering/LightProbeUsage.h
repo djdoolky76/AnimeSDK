@@ -3,6 +3,8 @@
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int LightProbeUsage_TypeDefinitionIndex = 4722;
+
 	enum class LightProbeUsage : ::System::Int32
 	{
 		Off = 0,

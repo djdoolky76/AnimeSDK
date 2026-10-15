@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int HEU_ShelfToolData_TypeDefinitionIndex = 40661;
+
 	class HEU_ShelfToolData : public ::System::Object
 	{
 	public:

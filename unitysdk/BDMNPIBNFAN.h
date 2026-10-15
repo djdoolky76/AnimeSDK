@@ -14,6 +14,8 @@ namespace System { class String; }
 #define BDMNPIBNFAN_LLMHKCANOAI_OFFSET UNITYSDK_OFFSET(0x16303C60)
 #define BDMNPIBNFAN_PLNCKLJOJME_OFFSET UNITYSDK_OFFSET(0x16304180)
 
+inline static constexpr unsigned int BDMNPIBNFAN_TypeDefinitionIndex = 64372;
+
 	class BDMNPIBNFAN : public ::System::Object
 	{
 	public:

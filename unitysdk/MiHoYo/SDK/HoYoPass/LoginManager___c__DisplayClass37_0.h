@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace MiHoYo::SDK::HoYoPass
 {
+	inline static constexpr unsigned int LoginManager___c__DisplayClass37_0_TypeDefinitionIndex = 8309;
+
 	class LoginManager___c__DisplayClass37_0 : public ::System::Object
 	{
 	public:

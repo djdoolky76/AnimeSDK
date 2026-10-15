@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TaskConfig; }
 #define NGAIPAPNNNH_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D204C50)
 #define NGAIPAPNNNH_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D204BB0)
 
+inline static constexpr unsigned int NGAIPAPNNNH_TypeDefinitionIndex = 23203;
+
 	class NGAIPAPNNNH : public ::RPG::GameCore::TaskConfig
 	{
 	public:

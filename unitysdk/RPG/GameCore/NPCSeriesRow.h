@@ -9,6 +9,8 @@ namespace RPG::GameCore { class NPCSeriesRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int NPCSeriesRow_TypeDefinitionIndex = 14282;
+
 	class NPCSeriesRow : public ::System::Object
 	{
 	public:

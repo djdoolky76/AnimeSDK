@@ -9,6 +9,8 @@ namespace RPG::GameCore { class CharacterInputData; }
 #define FEIBCGELFAJ_CTOR_OFFSET UNITYSDK_OFFSET(0x156F2B80)
 #define FEIBCGELFAJ_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0x156F2B10)
 
+inline static constexpr unsigned int FEIBCGELFAJ_TypeDefinitionIndex = 57100;
+
 	class FEIBCGELFAJ : public ::System::Object
 	{
 	public:

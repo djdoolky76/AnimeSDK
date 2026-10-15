@@ -12,6 +12,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ElfCell_TypeDefinitionIndex = 68663;
+
 	class ElfCell : public ::System::Object
 	{
 	public:

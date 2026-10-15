@@ -31,6 +31,8 @@ namespace System { class String; }
 #define BANELIGFLCO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E7BC730)
 #define BANELIGFLCO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E7BC790)
 
+inline static constexpr unsigned int BANELIGFLCO_TypeDefinitionIndex = 31167;
+
 	class BANELIGFLCO : public ::System::Object
 	{
 	public:

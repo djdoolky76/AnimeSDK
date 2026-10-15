@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueParamPersonaRoomCardReDrawCountConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueParamPersonaRoomCardReDrawCountConfig_TypeDefinitionIndex = 19864;
+
 	class RogueParamPersonaRoomCardReDrawCountConfig : public ::RPG::GameCore::RogueParameterConfigBase
 	{
 	public:

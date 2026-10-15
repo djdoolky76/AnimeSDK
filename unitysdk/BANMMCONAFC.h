@@ -30,6 +30,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define BANMMCONAFC_OIEKONJEHMJ_OFFSET UNITYSDK_OFFSET(0x15E7BE40)
 #define BANMMCONAFC_PFLPCNPMKBD_OFFSET UNITYSDK_OFFSET(0x15E7DA50)
 
+inline static constexpr unsigned int BANMMCONAFC_TypeDefinitionIndex = 77897;
+
 	class BANMMCONAFC : public ::JNALBIEDNLH
 	{
 	public:

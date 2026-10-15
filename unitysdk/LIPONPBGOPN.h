@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int LIPONPBGOPN_TypeDefinitionIndex = 31432;
+
 	enum class LIPONPBGOPN : ::System::Int32
 	{
 		NLCDGIPGFDJ = 0,

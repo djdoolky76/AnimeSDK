@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define IDDNILEJNID_JIAFJMICIGF_OFFSET UNITYSDK_OFFSET(0x15EB5E30)
 #define IDDNILEJNID_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0x15EB5940)
 
+inline static constexpr unsigned int IDDNILEJNID_TypeDefinitionIndex = 82249;
+
 	class IDDNILEJNID : public ::JICKEGCLBMC
 	{
 	public:

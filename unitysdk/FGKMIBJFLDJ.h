@@ -5,6 +5,8 @@
 
 #define FGKMIBJFLDJ_CTOR_OFFSET UNITYSDK_OFFSET(0x15767300)
 
+inline static constexpr unsigned int FGKMIBJFLDJ_TypeDefinitionIndex = 77950;
+
 	class FGKMIBJFLDJ : public ::System::Object
 	{
 	public:

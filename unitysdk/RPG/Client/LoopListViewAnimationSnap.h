@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int LoopListViewAnimationSnap_TypeDefinitionIndex = 69016;
+
 	class LoopListViewAnimationSnap : public ::UnityEngine::MonoBehaviour
 	{
 	public:

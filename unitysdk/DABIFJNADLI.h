@@ -25,6 +25,8 @@ namespace System { class String; }
 #define DABIFJNADLI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E149D20)
 #define DABIFJNADLI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E149D80)
 
+inline static constexpr unsigned int DABIFJNADLI_TypeDefinitionIndex = 32030;
+
 	class DABIFJNADLI : public ::System::Object
 	{
 	public:

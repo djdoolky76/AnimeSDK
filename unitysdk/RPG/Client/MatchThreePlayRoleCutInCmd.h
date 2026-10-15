@@ -16,6 +16,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MatchThreePlayRoleCutInCmd_TypeDefinitionIndex = 65869;
+
 	class MatchThreePlayRoleCutInCmd : public ::FNIDIOCNBBI
 	{
 	public:

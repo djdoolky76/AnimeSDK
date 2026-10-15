@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 #define JKDHBPADIGB_DGBMKOOLGID_OFFSET UNITYSDK_OFFSET(0xB215DE0)
 #define JKDHBPADIGB_KILEPBKMIHE_OFFSET UNITYSDK_OFFSET(0xB215E70)
 
+inline static constexpr unsigned int JKDHBPADIGB_TypeDefinitionIndex = 62785;
+
 	class JKDHBPADIGB : public ::System::Object
 	{
 	public:

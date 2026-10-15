@@ -4,6 +4,8 @@
 
 #define DBECCIJEBLI_CTOR_OFFSET UNITYSDK_OFFSET(0xDFDD180)
 
+inline static constexpr unsigned int DBECCIJEBLI_TypeDefinitionIndex = 48105;
+
 	class DBECCIJEBLI : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

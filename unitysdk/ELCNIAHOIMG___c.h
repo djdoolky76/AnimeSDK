@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define ELCNIAHOIMG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E2CB830)
 #define ELCNIAHOIMG___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E2CB840)
 
+inline static constexpr unsigned int ELCNIAHOIMG___c_TypeDefinitionIndex = 32125;
+
 	class ELCNIAHOIMG___c : public ::System::Object
 	{
 	public:

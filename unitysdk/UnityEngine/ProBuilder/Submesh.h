@@ -24,6 +24,8 @@ namespace UnityEngine::ProBuilder { class Submesh; }
 
 namespace UnityEngine::ProBuilder
 {
+	inline static constexpr unsigned int Submesh_TypeDefinitionIndex = 44440;
+
 	class Submesh : public ::System::Object
 	{
 	public:

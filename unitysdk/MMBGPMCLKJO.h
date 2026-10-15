@@ -32,6 +32,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define MMBGPMCLKJO_PGPIPEFDBLO_OFFSET UNITYSDK_OFFSET(0xB9BE420)
 #define MMBGPMCLKJO_TICK_OFFSET UNITYSDK_OFFSET(0xB9BD5E0)
 
+inline static constexpr unsigned int MMBGPMCLKJO_TypeDefinitionIndex = 53063;
+
 	class MMBGPMCLKJO : public ::GELIALJDFBL
 	{
 	public:

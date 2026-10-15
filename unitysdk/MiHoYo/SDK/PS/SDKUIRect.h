@@ -19,6 +19,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace MiHoYo::SDK::PS
 {
+	inline static constexpr unsigned int SDKUIRect_TypeDefinitionIndex = 8930;
+
 	struct alignas(4) SDKUIRect
 	{
 		::System::Single X; // 0x10

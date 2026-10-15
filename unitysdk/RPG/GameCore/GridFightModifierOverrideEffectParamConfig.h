@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GridFightModifierOverrideEffectParamConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightModifierOverrideEffectParamConfig_TypeDefinitionIndex = 19458;
+
 	class GridFightModifierOverrideEffectParamConfig : public ::RPG::GameCore::GridFightModifierConfigBase
 	{
 	public:

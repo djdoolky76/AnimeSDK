@@ -17,6 +17,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdventureByIsPropertyValueMinOrMax_TypeDefinitionIndex = 20248;
+
 	class AdventureByIsPropertyValueMinOrMax : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

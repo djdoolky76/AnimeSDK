@@ -12,6 +12,8 @@ class MFKLCJHKNBK;
 #define HPLLFKGEKAP_MNAEABGDHIH_OFFSET UNITYSDK_OFFSET(0x15DD3BA0)
 #define HPLLFKGEKAP_OPKIJMMMNHK_OFFSET UNITYSDK_OFFSET(0x15DD42D0)
 
+inline static constexpr unsigned int HPLLFKGEKAP_TypeDefinitionIndex = 75754;
+
 	class HPLLFKGEKAP : public ::System::Object
 	{
 	public:

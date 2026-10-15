@@ -12,6 +12,8 @@ namespace System { class Type; }
 
 namespace System::Reflection
 {
+	inline static constexpr unsigned int CustomAttributeTypedArgument_TypeDefinitionIndex = 603;
+
 	struct alignas(8) CustomAttributeTypedArgument
 	{
 		::System::Type* argumentType; // 0x10

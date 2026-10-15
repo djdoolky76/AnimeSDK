@@ -10,6 +10,8 @@ namespace System { class String; }
 #define DOBGLENDOMB_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CD52980)
 #define DOBGLENDOMB_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CD52930)
 
+inline static constexpr unsigned int DOBGLENDOMB_TypeDefinitionIndex = 21481;
+
 	class DOBGLENDOMB : public ::RPG::GameCore::TaskConfig
 	{
 	public:

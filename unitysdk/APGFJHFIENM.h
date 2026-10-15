@@ -30,6 +30,8 @@ namespace UnityEngine::Rendering { class BatchAnimationInstance; }
 #define APGFJHFIENM_NOEOCLGLPGA_OFFSET UNITYSDK_OFFSET(0x15BAA2E0)
 #define APGFJHFIENM_POHPNAHLAEC_OFFSET UNITYSDK_OFFSET(0x15BAA450)
 
+inline static constexpr unsigned int APGFJHFIENM_TypeDefinitionIndex = 82215;
+
 	class APGFJHFIENM : public ::System::Object
 	{
 	public:

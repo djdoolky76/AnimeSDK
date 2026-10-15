@@ -24,6 +24,8 @@ namespace RPG::GameCore { class TurnBasedAbilityComponent; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int BattleGridFightRolePropertyProvider_TypeDefinitionIndex = 65195;
+
 	class BattleGridFightRolePropertyProvider : public ::System::Object
 	{
 	public:

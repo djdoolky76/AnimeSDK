@@ -22,6 +22,8 @@ namespace UnityEngine { class Transform; }
 #define DKCDIEEKMBP_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0xF256050)
 #define DKCDIEEKMBP_SET_TYPE_OFFSET UNITYSDK_OFFSET(0xF2561B0)
 
+inline static constexpr unsigned int DKCDIEEKMBP_TypeDefinitionIndex = 57054;
+
 	class DKCDIEEKMBP : public ::System::Object
 	{
 	public:

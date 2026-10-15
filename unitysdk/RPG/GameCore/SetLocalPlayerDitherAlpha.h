@@ -10,6 +10,8 @@ namespace RPG::GameCore { class SetLocalPlayerDitherAlpha; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetLocalPlayerDitherAlpha_TypeDefinitionIndex = 20514;
+
 	class SetLocalPlayerDitherAlpha : public ::RPG::GameCore::TaskConfig
 	{
 	public:

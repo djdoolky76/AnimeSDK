@@ -19,6 +19,8 @@ namespace System { class String; }
 
 namespace RPG::Client::BlindBox::Trade
 {
+	inline static constexpr unsigned int BlindBoxTradeAnonymousPlayerInfo_TypeDefinitionIndex = 74880;
+
 	class BlindBoxTradeAnonymousPlayerInfo : public ::System::Object
 	{
 	public:

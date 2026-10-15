@@ -7,6 +7,8 @@ namespace UnityEngine { class Mesh; }
 #define IAPNMHAMBNP_IGGNLLFCMBN_OFFSET UNITYSDK_OFFSET(0x15E26620)
 #define IAPNMHAMBNP_RESETSIMULATIONSTATE_OFFSET UNITYSDK_OFFSET(0x15E26770)
 
+inline static constexpr unsigned int IAPNMHAMBNP_TypeDefinitionIndex = 47596;
+
 	class IAPNMHAMBNP : public ::UnityEngine::AstraFXRendererDelegate
 	{
 	public:

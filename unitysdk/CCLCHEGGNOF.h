@@ -5,6 +5,8 @@ namespace RPG::GameCore { class ICharacterRowData; }
 
 #define CCLCHEGGNOF_CTOR_OFFSET UNITYSDK_OFFSET(0xC74EAF0)
 
+inline static constexpr unsigned int CCLCHEGGNOF_TypeDefinitionIndex = 57662;
+
 	class CCLCHEGGNOF : public ::HLHIKGINAHB
 	{
 	public:

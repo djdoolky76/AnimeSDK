@@ -45,6 +45,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::QA
 {
+	inline static constexpr unsigned int QAManager_TypeDefinitionIndex = 51814;
+
 	class QAManager : public ::System::Object
 	{
 	public:

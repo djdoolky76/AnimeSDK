@@ -15,6 +15,8 @@
 #define PAIJKCEOIJP_SET_POSITIONX_OFFSET UNITYSDK_OFFSET(0xBFCA220)
 #define PAIJKCEOIJP_SET_POSITIONY_OFFSET UNITYSDK_OFFSET(0xBFCA240)
 
+inline static constexpr unsigned int PAIJKCEOIJP_TypeDefinitionIndex = 78558;
+
 	class PAIJKCEOIJP : public ::System::Object
 	{
 	public:

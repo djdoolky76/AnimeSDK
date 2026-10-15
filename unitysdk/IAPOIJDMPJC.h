@@ -25,6 +25,8 @@ namespace UnityEngine { class GameObject; }
 #define IAPOIJDMPJC_POKDNMNPKME_OFFSET UNITYSDK_OFFSET(0x15E272F0)
 #define IAPOIJDMPJC_SET_ISINFADE_OFFSET UNITYSDK_OFFSET(0x15E269A0)
 
+inline static constexpr unsigned int IAPOIJDMPJC_TypeDefinitionIndex = 57349;
+
 	class IAPOIJDMPJC : public ::System::Object
 	{
 	public:

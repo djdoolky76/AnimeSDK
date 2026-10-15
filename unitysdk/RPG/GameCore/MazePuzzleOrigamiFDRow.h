@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MazePuzzleOrigamiFDRow_TypeDefinitionIndex = 14078;
+
 	class MazePuzzleOrigamiFDRow : public ::System::Object
 	{
 	public:

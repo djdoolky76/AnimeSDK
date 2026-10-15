@@ -13,6 +13,8 @@ namespace UnityEngine { class Texture2D; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int EasyFog_TypeDefinitionIndex = 70783;
+
 	class EasyFog
 	{
 	public:

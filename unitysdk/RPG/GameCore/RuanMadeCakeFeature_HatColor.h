@@ -11,6 +11,8 @@ namespace RPG::GameCore { class RuanMadeCakeFeature_HatColor; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RuanMadeCakeFeature_HatColor_TypeDefinitionIndex = 17464;
+
 	class RuanMadeCakeFeature_HatColor : public ::RPG::GameCore::RuanMadeCakeFeatureConfig
 	{
 	public:

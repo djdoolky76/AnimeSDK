@@ -15,6 +15,8 @@ namespace UnityEngine::UI { class InputField; }
 
 namespace MiHoYo::SDK::Win
 {
+	inline static constexpr unsigned int PasswordInputIMEGuard_TypeDefinitionIndex = 9262;
+
 	class PasswordInputIMEGuard : public ::UnityEngine::MonoBehaviour
 	{
 	public:

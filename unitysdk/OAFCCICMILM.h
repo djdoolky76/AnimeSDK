@@ -35,6 +35,8 @@ namespace RPG::Client::LittleGame { class MovieGameLevelConfig; }
 #define OAFCCICMILM_OINBDMGFFJL_OFFSET UNITYSDK_OFFSET(0x1C977EA0)
 #define OAFCCICMILM_OLEMOCLOILG_OFFSET UNITYSDK_OFFSET(0x1C978070)
 
+inline static constexpr unsigned int OAFCCICMILM_TypeDefinitionIndex = 42387;
+
 	class OAFCCICMILM : public ::GIFNELLKBFE
 	{
 	public:

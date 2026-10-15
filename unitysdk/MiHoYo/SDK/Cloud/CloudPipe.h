@@ -19,6 +19,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::Cloud
 {
+	inline static constexpr unsigned int CloudPipe_TypeDefinitionIndex = 8883;
+
 	class CloudPipe : public ::System::Object
 	{
 	public:

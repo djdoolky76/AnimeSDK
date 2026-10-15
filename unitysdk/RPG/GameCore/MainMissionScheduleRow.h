@@ -9,6 +9,8 @@ namespace RPG::GameCore { class MainMissionScheduleRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MainMissionScheduleRow_TypeDefinitionIndex = 14156;
+
 	class MainMissionScheduleRow : public ::System::Object
 	{
 	public:

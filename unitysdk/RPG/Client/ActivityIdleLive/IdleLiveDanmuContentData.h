@@ -12,6 +12,8 @@
 
 namespace RPG::Client::ActivityIdleLive
 {
+	inline static constexpr unsigned int IdleLiveDanmuContentData_TypeDefinitionIndex = 75347;
+
 	class IdleLiveDanmuContentData : public ::System::Object
 	{
 	public:

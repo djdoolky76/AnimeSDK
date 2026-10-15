@@ -39,6 +39,8 @@ namespace System { class String; }
 #define FCOENPKOEBP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E34FB60)
 #define FCOENPKOEBP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E34FBC0)
 
+inline static constexpr unsigned int FCOENPKOEBP_TypeDefinitionIndex = 28580;
+
 	class FCOENPKOEBP : public ::System::Object
 	{
 	public:

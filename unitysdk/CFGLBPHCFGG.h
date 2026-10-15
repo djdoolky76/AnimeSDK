@@ -28,6 +28,8 @@ namespace UnityEngine { class Transform; }
 #define CFGLBPHCFGG_OKBPNPLFDLB_OFFSET UNITYSDK_OFFSET(0xCC4A340)
 #define CFGLBPHCFGG_PFEOCHOCJFI_OFFSET UNITYSDK_OFFSET(0xCC4A840)
 
+inline static constexpr unsigned int CFGLBPHCFGG_TypeDefinitionIndex = 69275;
+
 	class CFGLBPHCFGG : public ::System::Object
 	{
 	public:

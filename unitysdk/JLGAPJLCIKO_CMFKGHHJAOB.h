@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define JLGAPJLCIKO_CMFKGHHJAOB_EQUALS_OFFSET UNITYSDK_OFFSET(0xB249F20)
 #define JLGAPJLCIKO_CMFKGHHJAOB_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0xB24A030)
 
+inline static constexpr unsigned int JLGAPJLCIKO_CMFKGHHJAOB_TypeDefinitionIndex = 70683;
+
 	class JLGAPJLCIKO_CMFKGHHJAOB : public ::System::Object
 	{
 	public:

@@ -6,6 +6,8 @@
 
 namespace RPG::Client::SkinnedGPUParticles
 {
+	inline static constexpr unsigned int SkinnedGPUParticlesBehavior_CustomVertexStreams_TypeDefinitionIndex = 73703;
+
 	struct alignas(4) SkinnedGPUParticlesBehavior_CustomVertexStreams
 	{
 		::System::Int32 Normal; // 0x10

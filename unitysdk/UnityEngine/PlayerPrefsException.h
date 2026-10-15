@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int PlayerPrefsException_TypeDefinitionIndex = 4235;
+
 	class PlayerPrefsException : public ::System::Exception
 	{
 	public:

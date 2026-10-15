@@ -10,6 +10,8 @@ namespace System::Collections { class LowLevelComparer; }
 
 namespace System::Collections
 {
+	inline static constexpr unsigned int LowLevelComparer_TypeDefinitionIndex = 1457;
+
 	class LowLevelComparer : public ::System::Object
 	{
 	public:

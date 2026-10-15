@@ -11,6 +11,8 @@ namespace RPG::GameCore { class RogueNPCDialogueConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueNPCConfig_TypeDefinitionIndex = 18002;
+
 	class RogueNPCConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

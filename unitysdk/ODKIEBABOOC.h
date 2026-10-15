@@ -29,6 +29,8 @@ namespace System { class String; }
 #define ODKIEBABOOC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DE1EE80)
 #define ODKIEBABOOC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DE1EEE0)
 
+inline static constexpr unsigned int ODKIEBABOOC_TypeDefinitionIndex = 31161;
+
 	class ODKIEBABOOC : public ::System::Object
 	{
 	public:

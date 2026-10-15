@@ -5,6 +5,8 @@
 
 #define GCHKMEONAHE_CTOR_OFFSET UNITYSDK_OFFSET(0x15971150)
 
+inline static constexpr unsigned int GCHKMEONAHE_TypeDefinitionIndex = 55930;
+
 	class GCHKMEONAHE : public ::System::Object
 	{
 	public:

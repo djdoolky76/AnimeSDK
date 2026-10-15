@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ActivityGuessTheSilhouetteRedDotFilter___c__DisplayClass6_0_TypeDefinitionIndex = 66824;
+
 	class ActivityGuessTheSilhouetteRedDotFilter___c__DisplayClass6_0 : public ::System::Object
 	{
 	public:

@@ -7,6 +7,8 @@ namespace UnityEngine { class Renderer; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MaterialSwitchMonoPlugin_MaterialBlock_TypeDefinitionIndex = 70725;
+
 	class MaterialSwitchMonoPlugin_MaterialBlock : public ::System::Object
 	{
 	public:

@@ -4,6 +4,8 @@
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int MHYSDKC_AdjustEventResultInfo_TypeDefinitionIndex = 46210;
+
 	class MHYSDKC_AdjustEventResultInfo : public ::System::Object
 	{
 	public:

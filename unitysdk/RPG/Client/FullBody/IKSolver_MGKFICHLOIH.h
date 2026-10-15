@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace RPG::Client::FullBody
 {
+	inline static constexpr unsigned int IKSolver_MGKFICHLOIH_TypeDefinitionIndex = 74260;
+
 	class IKSolver_MGKFICHLOIH : public ::System::MulticastDelegate
 	{
 	public:

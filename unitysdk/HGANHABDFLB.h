@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define HGANHABDFLB_GET_MAINITEM_OFFSET UNITYSDK_OFFSET(0x15C8F080)
 #define HGANHABDFLB_GET_SUBITEM_OFFSET UNITYSDK_OFFSET(0x15C8F090)
 
+inline static constexpr unsigned int HGANHABDFLB_TypeDefinitionIndex = 67207;
+
 	class HGANHABDFLB : public ::System::Object
 	{
 	public:

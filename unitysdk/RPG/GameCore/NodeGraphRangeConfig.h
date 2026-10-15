@@ -9,6 +9,8 @@ namespace RPG::GameCore { class NodeGraphRangeConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int NodeGraphRangeConfig_TypeDefinitionIndex = 16449;
+
 	class NodeGraphRangeConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

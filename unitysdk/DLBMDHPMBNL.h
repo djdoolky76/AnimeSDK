@@ -13,6 +13,8 @@ namespace RPG::GameCore { class DiceCombatAbilityConfig; }
 #define DLBMDHPMBNL_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0x1C5F7240)
 #define DLBMDHPMBNL_MGFLFCHMGPA_OFFSET UNITYSDK_OFFSET(0x1C5F6CE0)
 
+inline static constexpr unsigned int DLBMDHPMBNL_TypeDefinitionIndex = 36464;
+
 	class DLBMDHPMBNL : public ::System::Object
 	{
 	public:

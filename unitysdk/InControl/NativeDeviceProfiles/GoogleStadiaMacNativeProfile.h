@@ -7,6 +7,8 @@
 
 namespace InControl::NativeDeviceProfiles
 {
+	inline static constexpr unsigned int GoogleStadiaMacNativeProfile_TypeDefinitionIndex = 41258;
+
 	class GoogleStadiaMacNativeProfile : public ::InControl::InputDeviceProfile
 	{
 	public:

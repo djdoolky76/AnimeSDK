@@ -9,6 +9,8 @@ class LLHBHGLDBCB;
 #define LLHBHGLDBCB_CTOR_OFFSET UNITYSDK_OFFSET(0xB76CD40)
 #define LLHBHGLDBCB_JOHPKPGOGHD_OFFSET UNITYSDK_OFFSET(0xB76CCB0)
 
+inline static constexpr unsigned int LLHBHGLDBCB_TypeDefinitionIndex = 78069;
+
 	class LLHBHGLDBCB : public ::BHCEEHPIGFL
 	{
 	public:

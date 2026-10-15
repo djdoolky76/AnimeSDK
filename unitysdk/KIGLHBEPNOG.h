@@ -33,6 +33,8 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyLi
 #define KIGLHBEPNOG_PMIMAILJLAF_OFFSET UNITYSDK_OFFSET(0x1C710E40)
 #define KIGLHBEPNOG_SET_CACHETARGETS_OFFSET UNITYSDK_OFFSET(0x1C710200)
 
+inline static constexpr unsigned int KIGLHBEPNOG_TypeDefinitionIndex = 37359;
+
 	class KIGLHBEPNOG : public ::System::Object
 	{
 	public:

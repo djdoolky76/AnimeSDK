@@ -27,6 +27,8 @@ namespace System { class String; }
 #define LAPHOALBKBH_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E8D4AE0)
 #define LAPHOALBKBH_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E8D4B40)
 
+inline static constexpr unsigned int LAPHOALBKBH_TypeDefinitionIndex = 27910;
+
 	class LAPHOALBKBH : public ::System::Object
 	{
 	public:

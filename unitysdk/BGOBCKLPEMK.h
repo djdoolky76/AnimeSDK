@@ -104,6 +104,8 @@ namespace UnityEngine { class Transform; }
 #define BGOBCKLPEMK_SET_MOTIONDELTAMODIFYDEL_OFFSET UNITYSDK_OFFSET(0xB4698C0)
 #define BGOBCKLPEMK_SET_SKILLLOGICALYAWOFFSET_OFFSET UNITYSDK_OFFSET(0xB465B70)
 
+inline static constexpr unsigned int BGOBCKLPEMK_TypeDefinitionIndex = 56956;
+
 	class BGOBCKLPEMK : public ::RPG::GameCore::GameComponentBase
 	{
 	public:

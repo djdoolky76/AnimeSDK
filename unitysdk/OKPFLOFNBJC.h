@@ -9,6 +9,8 @@ namespace System { class Nullable; }
 #define OKPFLOFNBJC_CLEAR_OFFSET UNITYSDK_OFFSET(0x1C99DB30)
 #define OKPFLOFNBJC_CTOR_OFFSET UNITYSDK_OFFSET(0x1C99DBB0)
 
+inline static constexpr unsigned int OKPFLOFNBJC_TypeDefinitionIndex = 43530;
+
 	class OKPFLOFNBJC : public ::System::Object
 	{
 	public:

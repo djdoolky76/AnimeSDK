@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueMagicCondScepterFilterBySelectedStyleTypeCo
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueMagicCondScepterFilterBySelectedStyleTypeConfig_TypeDefinitionIndex = 19579;
+
 	class RogueMagicCondScepterFilterBySelectedStyleTypeConfig : public ::RPG::GameCore::RogueMagicConditionConfigBase
 	{
 	public:

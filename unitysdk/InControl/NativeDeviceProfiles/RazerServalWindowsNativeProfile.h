@@ -7,6 +7,8 @@
 
 namespace InControl::NativeDeviceProfiles
 {
+	inline static constexpr unsigned int RazerServalWindowsNativeProfile_TypeDefinitionIndex = 41321;
+
 	class RazerServalWindowsNativeProfile : public ::InControl::InputDeviceProfile
 	{
 	public:

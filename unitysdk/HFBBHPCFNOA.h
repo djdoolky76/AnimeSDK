@@ -31,6 +31,8 @@ namespace System { class Object; }
 #define HFBBHPCFNOA_NHCFLDCDLCP_OFFSET UNITYSDK_OFFSET(0x1CE9CC00)
 #define HFBBHPCFNOA_PHACMMEBHLB_OFFSET UNITYSDK_OFFSET(0x1CE9CE30)
 
+inline static constexpr unsigned int HFBBHPCFNOA_TypeDefinitionIndex = 10648;
+
 	class HFBBHPCFNOA : public ::System::Object
 	{
 	public:

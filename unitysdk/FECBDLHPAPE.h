@@ -10,6 +10,8 @@ namespace RPG::Client::Prop { class DuelChimeraProxy; }
 #define FECBDLHPAPE_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0x156E51A0)
 #define FECBDLHPAPE_MGFLFCHMGPA_OFFSET UNITYSDK_OFFSET(0x156E4910)
 
+inline static constexpr unsigned int FECBDLHPAPE_TypeDefinitionIndex = 78242;
+
 	class FECBDLHPAPE : public ::KNFCEJEJINK
 	{
 	public:

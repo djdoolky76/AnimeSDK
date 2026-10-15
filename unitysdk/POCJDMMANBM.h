@@ -39,6 +39,8 @@ namespace System { class String; }
 #define POCJDMMANBM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DFC52B0)
 #define POCJDMMANBM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DFC5310)
 
+inline static constexpr unsigned int POCJDMMANBM_TypeDefinitionIndex = 29201;
+
 	class POCJDMMANBM : public ::System::Object
 	{
 	public:

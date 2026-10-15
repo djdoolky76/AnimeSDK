@@ -35,6 +35,8 @@ namespace UnityEngine { class Object; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int AnimationEvent_TypeDefinitionIndex = 5735;
+
 	class AnimationEvent : public ::System::Object
 	{
 	public:

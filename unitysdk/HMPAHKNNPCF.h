@@ -25,6 +25,8 @@ namespace UnityEngine::UI { class Text; }
 #define HMPAHKNNPCF__ONBIND_OFFSET UNITYSDK_OFFSET(0x15D89350)
 #define HMPAHKNNPCF___ONBIND_B__0_0_OFFSET UNITYSDK_OFFSET(0x15D89C10)
 
+inline static constexpr unsigned int HMPAHKNNPCF_TypeDefinitionIndex = 72242;
+
 	class HMPAHKNNPCF : public ::FMPCODLIOLG
 	{
 	public:

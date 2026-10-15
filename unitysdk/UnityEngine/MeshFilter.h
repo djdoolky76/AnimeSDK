@@ -12,6 +12,8 @@ namespace UnityEngine { class Mesh; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int MeshFilter_TypeDefinitionIndex = 4148;
+
 	class MeshFilter : public ::UnityEngine::Component
 	{
 	public:

@@ -6,6 +6,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int DateTimePro_DateTimeAmbiguityException_TypeDefinitionIndex = 35260;
+
 	class DateTimePro_DateTimeAmbiguityException : public ::System::Exception
 	{
 	public:

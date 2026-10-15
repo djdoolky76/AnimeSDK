@@ -29,6 +29,8 @@ namespace System { class String; }
 #define LAKBGIFBOFA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E8CF170)
 #define LAKBGIFBOFA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E8CF1D0)
 
+inline static constexpr unsigned int LAKBGIFBOFA_TypeDefinitionIndex = 34423;
+
 	class LAKBGIFBOFA : public ::System::Object
 	{
 	public:

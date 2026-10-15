@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int AFPDIFAPAEA_KCBPKIMNJJH_TypeDefinitionIndex = 29546;
+
 	enum class AFPDIFAPAEA_KCBPKIMNJJH : ::System::Int32
 	{
 		NLCDGIPGFDJ = 0,

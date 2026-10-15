@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define LEBDEICAGEP_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1D0E4A50)
 #define LEBDEICAGEP_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1D0E4F00)
 
+inline static constexpr unsigned int LEBDEICAGEP_TypeDefinitionIndex = 15411;
+
 	class LEBDEICAGEP : public ::System::Object
 	{
 	public:

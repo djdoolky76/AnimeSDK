@@ -8,6 +8,8 @@
 
 namespace MiHoYo::SDK::HttpDns
 {
+	inline static constexpr unsigned int HoYoSDKServicePoint_TypeDefinitionIndex = 46702;
+
 	class HoYoSDKServicePoint : public ::System::Object
 	{
 	public:

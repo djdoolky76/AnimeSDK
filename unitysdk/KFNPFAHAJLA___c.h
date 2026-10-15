@@ -10,6 +10,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 #define KFNPFAHAJLA___C_CTOR_OFFSET UNITYSDK_OFFSET(0xB3C6770)
 #define KFNPFAHAJLA___C__APPLY_B__1_0_OFFSET UNITYSDK_OFFSET(0xB3C6780)
 
+inline static constexpr unsigned int KFNPFAHAJLA___c_TypeDefinitionIndex = 77852;
+
 	class KFNPFAHAJLA___c : public ::System::Object
 	{
 	public:

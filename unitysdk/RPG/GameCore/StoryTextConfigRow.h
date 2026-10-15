@@ -10,6 +10,8 @@ namespace RPG::GameCore { class StoryTextConfigRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int StoryTextConfigRow_TypeDefinitionIndex = 12692;
+
 	class StoryTextConfigRow : public ::System::Object
 	{
 	public:

@@ -13,6 +13,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByCompareRogueDiceRotateImmediately_TypeDefinitionIndex = 22274;
+
 	class ByCompareRogueDiceRotateImmediately : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

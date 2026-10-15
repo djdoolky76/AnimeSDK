@@ -11,6 +11,8 @@
 #define IFAMLCKCBAD_SET_GROUPID_OFFSET UNITYSDK_OFFSET(0xFE80)
 #define IFAMLCKCBAD_SET_PLAYTYPE_OFFSET UNITYSDK_OFFSET(0xAF40)
 
+inline static constexpr unsigned int IFAMLCKCBAD_TypeDefinitionIndex = 74989;
+
 	struct alignas(4) IFAMLCKCBAD
 	{
 		::RPG::GameCore::BadgePlayType _PlayType_k__BackingField; // 0x10

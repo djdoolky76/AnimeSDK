@@ -12,6 +12,8 @@ namespace UnityEngine { class Component; }
 
 namespace UnityEngine::Formats::Alembic::Util
 {
+	inline static constexpr unsigned int AlembicRecorder_CameraCapturer_TypeDefinitionIndex = 45771;
+
 	class AlembicRecorder_CameraCapturer : public ::UnityEngine::Formats::Alembic::Util::ComponentCapturer
 	{
 	public:

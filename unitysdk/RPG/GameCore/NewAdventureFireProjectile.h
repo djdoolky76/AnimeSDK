@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int NewAdventureFireProjectile_TypeDefinitionIndex = 20211;
+
 	class NewAdventureFireProjectile : public ::RPG::GameCore::AdventureFireProjectileBase
 	{
 	public:

@@ -25,6 +25,8 @@ namespace System { class String; }
 #define NNOICNIGEBC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EB83E70)
 #define NNOICNIGEBC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EB83ED0)
 
+inline static constexpr unsigned int NNOICNIGEBC_TypeDefinitionIndex = 34742;
+
 	class NNOICNIGEBC : public ::System::Object
 	{
 	public:

@@ -32,6 +32,8 @@ namespace System { class String; }
 #define OHLGEHNPAAL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DE65240)
 #define OHLGEHNPAAL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DE652A0)
 
+inline static constexpr unsigned int OHLGEHNPAAL_TypeDefinitionIndex = 25865;
+
 	class OHLGEHNPAAL : public ::System::Object
 	{
 	public:

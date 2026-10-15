@@ -11,6 +11,8 @@ namespace System::Xml { class XmlNode; }
 
 namespace System::Xml
 {
+	inline static constexpr unsigned int XmlLinkedNode_TypeDefinitionIndex = 1907;
+
 	class XmlLinkedNode : public ::System::Xml::XmlNode
 	{
 	public:

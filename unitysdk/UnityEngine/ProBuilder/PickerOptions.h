@@ -17,6 +17,8 @@ namespace System { class Object; }
 
 namespace UnityEngine::ProBuilder
 {
+	inline static constexpr unsigned int PickerOptions_TypeDefinitionIndex = 44419;
+
 	struct alignas(4) PickerOptions
 	{
 		::System::Boolean _depthTest_k__BackingField; // 0x10

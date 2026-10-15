@@ -9,6 +9,8 @@ namespace RPG::AvatarSystem { class IAvatar; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int UpgradeHelper_TypeDefinitionIndex = 62653;
+
 	class UpgradeHelper : public ::System::Object
 	{
 	public:

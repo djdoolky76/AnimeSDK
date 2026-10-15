@@ -25,6 +25,8 @@ namespace System { class String; }
 #define DGILDLDMGEI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E1AE520)
 #define DGILDLDMGEI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E1AE580)
 
+inline static constexpr unsigned int DGILDLDMGEI_TypeDefinitionIndex = 29515;
+
 	class DGILDLDMGEI : public ::System::Object
 	{
 	public:

@@ -7,6 +7,8 @@
 
 namespace RPG::Client::B51Racing
 {
+	inline static constexpr unsigned int B51RacingCarStatDescDialogViewModel_TypeDefinitionIndex = 82017;
+
 	class B51RacingCarStatDescDialogViewModel : public ::System::Object
 	{
 	public:

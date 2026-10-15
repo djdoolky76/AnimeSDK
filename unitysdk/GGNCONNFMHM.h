@@ -28,6 +28,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define GGNCONNFMHM_PNFEMLPEKEP_OFFSET UNITYSDK_OFFSET(0x15A0FDE0)
 #define GGNCONNFMHM_SET_DELTATIMEMS_OFFSET UNITYSDK_OFFSET(0x15A10200)
 
+inline static constexpr unsigned int GGNCONNFMHM_TypeDefinitionIndex = 78010;
+
 	class GGNCONNFMHM : public ::System::Object
 	{
 	public:

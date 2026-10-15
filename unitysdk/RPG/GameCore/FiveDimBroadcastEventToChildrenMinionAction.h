@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimBroadcastEventToChildrenMinionAction_TypeDefinitionIndex = 18785;
+
 	class FiveDimBroadcastEventToChildrenMinionAction : public ::RPG::GameCore::FiveDimBaseEventAction
 	{
 	public:

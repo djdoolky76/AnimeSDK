@@ -12,6 +12,8 @@ namespace System { template <typename T> class Comparison_1; }
 #define GCJKKPABMDK___C__GETRANKENTRIES_B__27_0_OFFSET UNITYSDK_OFFSET(0x159812F0)
 #define GCJKKPABMDK___C___GETDRIVERPANELICONSTATE_B__20_0_OFFSET UNITYSDK_OFFSET(0x159812D0)
 
+inline static constexpr unsigned int GCJKKPABMDK___c_TypeDefinitionIndex = 81956;
+
 	class GCJKKPABMDK___c : public ::System::Object
 	{
 	public:

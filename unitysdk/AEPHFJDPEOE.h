@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define AEPHFJDPEOE_CTOR_OFFSET UNITYSDK_OFFSET(0xCF04A00)
 #define AEPHFJDPEOE_HJMLOLJBBPH_OFFSET UNITYSDK_OFFSET(0xCF04960)
 
+inline static constexpr unsigned int AEPHFJDPEOE_TypeDefinitionIndex = 77693;
+
 	class AEPHFJDPEOE : public ::HBLDGJCDJPF
 	{
 	public:

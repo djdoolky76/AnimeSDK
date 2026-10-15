@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define MGBFLIFOKOD_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1D163C90)
 #define MGBFLIFOKOD_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1D164140)
 
+inline static constexpr unsigned int MGBFLIFOKOD_TypeDefinitionIndex = 15154;
+
 	class MGBFLIFOKOD : public ::System::Object
 	{
 	public:

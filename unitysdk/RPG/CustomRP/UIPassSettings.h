@@ -14,6 +14,8 @@ namespace UnityEngine { class RenderTexture; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int UIPassSettings_TypeDefinitionIndex = 37575;
+
 	class UIPassSettings : public ::System::Object
 	{
 	public:

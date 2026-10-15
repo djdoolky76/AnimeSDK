@@ -14,6 +14,8 @@ namespace RPG::Client::Prop { class PorterTargetGroup; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int PorterTargetGroup_TypeDefinitionIndex = 78776;
+
 	class PorterTargetGroup : public ::System::Object
 	{
 	public:

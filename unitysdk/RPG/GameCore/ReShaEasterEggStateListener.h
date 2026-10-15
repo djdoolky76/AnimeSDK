@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ReShaEasterEggStateListener_TypeDefinitionIndex = 22032;
+
 	class ReShaEasterEggStateListener : public ::RPG::GameCore::TaskConfig
 	{
 	public:

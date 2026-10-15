@@ -7,6 +7,8 @@ namespace UnityEngine { class AnimationCurve; }
 #define GODEIAMOIKE_CTOR_OFFSET UNITYSDK_OFFSET(0x15B2A700)
 #define GODEIAMOIKE_JAILHGGFLDH_OFFSET UNITYSDK_OFFSET(0x15B2A710)
 
+inline static constexpr unsigned int GODEIAMOIKE_TypeDefinitionIndex = 76617;
+
 	class GODEIAMOIKE : public ::HLFHMKMJNPK
 	{
 	public:

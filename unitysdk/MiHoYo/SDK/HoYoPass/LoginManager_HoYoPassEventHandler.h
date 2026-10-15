@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::HoYoPass
 {
+	inline static constexpr unsigned int LoginManager_HoYoPassEventHandler_TypeDefinitionIndex = 8303;
+
 	class LoginManager_HoYoPassEventHandler : public ::System::MulticastDelegate
 	{
 	public:

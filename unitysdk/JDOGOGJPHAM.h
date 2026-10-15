@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define JDOGOGJPHAM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x16611210)
 #define JDOGOGJPHAM_TRIGGERACTION_OFFSET UNITYSDK_OFFSET(0x166112A0)
 
+inline static constexpr unsigned int JDOGOGJPHAM_TypeDefinitionIndex = 67046;
+
 	class JDOGOGJPHAM : public ::System::Object
 	{
 	public:

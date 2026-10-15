@@ -7,6 +7,8 @@ class IDBNLIKLDKJ;
 #define IDBNLIKLDKJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1CEE4F80)
 #define IDBNLIKLDKJ_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CEE4E70)
 
+inline static constexpr unsigned int IDBNLIKLDKJ_TypeDefinitionIndex = 15158;
+
 	class IDBNLIKLDKJ : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FourRotateVoxelTriggerAll2DBrickUpgradeFinishAct
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FourRotateVoxelTriggerAll2DBrickUpgradeFinishAction_TypeDefinitionIndex = 16773;
+
 	class FourRotateVoxelTriggerAll2DBrickUpgradeFinishAction : public ::RPG::GameCore::FiveDimBaseEventAction
 	{
 	public:

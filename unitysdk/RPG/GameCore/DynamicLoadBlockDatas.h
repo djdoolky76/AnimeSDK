@@ -10,6 +10,8 @@ namespace RPG::GameCore { class DynamicLoadBlockDatas; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DynamicLoadBlockDatas_TypeDefinitionIndex = 19160;
+
 	class DynamicLoadBlockDatas : public ::RPG::GameCore::JsonConfig
 	{
 	public:

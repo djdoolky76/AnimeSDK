@@ -35,6 +35,8 @@ namespace System { class String; }
 #define EHDNPMEKPCA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E29CA50)
 #define EHDNPMEKPCA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E29CAB0)
 
+inline static constexpr unsigned int EHDNPMEKPCA_TypeDefinitionIndex = 31511;
+
 	class EHDNPMEKPCA : public ::System::Object
 	{
 	public:

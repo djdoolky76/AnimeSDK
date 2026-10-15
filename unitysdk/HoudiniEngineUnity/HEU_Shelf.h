@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int HEU_Shelf_TypeDefinitionIndex = 40663;
+
 	class HEU_Shelf : public ::System::Object
 	{
 	public:

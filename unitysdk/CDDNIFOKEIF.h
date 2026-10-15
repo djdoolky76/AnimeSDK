@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define CDDNIFOKEIF_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1DA0F780)
 #define CDDNIFOKEIF_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1DA0F0D0)
 
+inline static constexpr unsigned int CDDNIFOKEIF_TypeDefinitionIndex = 14988;
+
 	class CDDNIFOKEIF : public ::System::Object
 	{
 	public:

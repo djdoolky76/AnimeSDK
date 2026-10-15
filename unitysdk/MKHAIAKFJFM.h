@@ -8,6 +8,8 @@ namespace RPG::GameCore { class TriggerHitVibration; }
 #define MKHAIAKFJFM_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB997BC0)
 #define MKHAIAKFJFM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB997C00)
 
+inline static constexpr unsigned int MKHAIAKFJFM_TypeDefinitionIndex = 56467;
+
 	class MKHAIAKFJFM
 	{
 	public:

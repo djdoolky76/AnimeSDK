@@ -10,6 +10,8 @@ namespace RPG::Client::LittleGameShare { class ST_Side_CakeRaceStableScopeGuarde
 
 namespace RPG::Client::LittleGameShare
 {
+	inline static constexpr unsigned int ST_Side_CakeRaceStableScopeGuarder_TypeDefinitionIndex = 10336;
+
 	class ST_Side_CakeRaceStableScopeGuarder : public ::RPG::Client::LittleGameShare::LittleGameSTTaskConfig
 	{
 	public:

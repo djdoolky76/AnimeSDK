@@ -4,6 +4,8 @@
 
 #define DLLGGCJODDJ_CTOR_OFFSET UNITYSDK_OFFSET(0xF8AB780)
 
+inline static constexpr unsigned int DLLGGCJODDJ_TypeDefinitionIndex = 48383;
+
 	class DLLGGCJODDJ : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

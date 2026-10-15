@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define CPODOPANHBE_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1DCC4840)
 #define CPODOPANHBE_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1DCC4160)
 
+inline static constexpr unsigned int CPODOPANHBE_TypeDefinitionIndex = 11355;
+
 	class CPODOPANHBE : public ::System::Object
 	{
 	public:

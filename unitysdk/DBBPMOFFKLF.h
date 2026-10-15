@@ -29,6 +29,8 @@ namespace UnityEngine::UI { class Image; }
 #define DBBPMOFFKLF_LCBKJLFIEFJ_OFFSET UNITYSDK_OFFSET(0x1C458C10)
 #define DBBPMOFFKLF_OGKLMKDPALF_OFFSET UNITYSDK_OFFSET(0x1C458CA0)
 
+inline static constexpr unsigned int DBBPMOFFKLF_TypeDefinitionIndex = 41578;
+
 	class DBBPMOFFKLF : public ::System::Object
 	{
 	public:

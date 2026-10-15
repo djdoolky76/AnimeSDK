@@ -37,6 +37,8 @@ namespace UnityEngine { class Coroutine; }
 
 namespace MiHoYo::SDK::Win
 {
+	inline static constexpr unsigned int SteamManager_TypeDefinitionIndex = 9366;
+
 	class SteamManager : public ::System::Object
 	{
 	public:

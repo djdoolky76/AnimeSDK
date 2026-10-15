@@ -17,6 +17,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoEffectPluginMiniEmotion_TypeDefinitionIndex = 70078;
+
 	class MonoEffectPluginMiniEmotion : public ::RPG::Client::MonoEffectPluginBase
 	{
 	public:

@@ -9,6 +9,8 @@ namespace ObservableCollections { template <typename T> class ObservableList_1; 
 #define HCMGIHLBFOF_NPJCMFALGEH_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x15C28320)
 #define HCMGIHLBFOF_NPJCMFALGEH_CTOR_OFFSET UNITYSDK_OFFSET(0x15C283C0)
 
+inline static constexpr unsigned int HCMGIHLBFOF_NPJCMFALGEH_TypeDefinitionIndex = 79723;
+
 	class HCMGIHLBFOF_NPJCMFALGEH : public ::System::Object
 	{
 	public:

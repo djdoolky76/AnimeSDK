@@ -28,6 +28,8 @@ namespace System { class String; }
 #define PEGDBKDLJDJ_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DF181A0)
 #define PEGDBKDLJDJ_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DF18200)
 
+inline static constexpr unsigned int PEGDBKDLJDJ_TypeDefinitionIndex = 27717;
+
 	class PEGDBKDLJDJ : public ::System::Object
 	{
 	public:

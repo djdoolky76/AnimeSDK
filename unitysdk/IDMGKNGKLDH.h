@@ -6,6 +6,8 @@ namespace System { class Nullable; }
 
 #define IDMGKNGKLDH_KDPEDNKCMEB_OFFSET UNITYSDK_OFFSET(0x2E802B0)
 
+inline static constexpr unsigned int IDMGKNGKLDH_TypeDefinitionIndex = 56920;
+
 	struct alignas(8) IDMGKNGKLDH
 	{
 		::System::Nullable* BIFBJDKMKDL; // 0x10

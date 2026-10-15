@@ -10,6 +10,8 @@ namespace System { class Action; }
 #define JLLEGKDHCIE_ONALLOC_OFFSET UNITYSDK_OFFSET(0x1CBA3170)
 #define JLLEGKDHCIE_ONRECYCLE_OFFSET UNITYSDK_OFFSET(0x1CBA3250)
 
+inline static constexpr unsigned int JLLEGKDHCIE_TypeDefinitionIndex = 43497;
+
 	class JLLEGKDHCIE : public ::System::Object
 	{
 	public:

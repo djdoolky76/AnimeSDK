@@ -45,6 +45,8 @@ namespace System { class String; }
 #define JMKIJLCFJMF_OONGLIEGHGC_OFFSET UNITYSDK_OFFSET(0xB26A1E0)
 #define JMKIJLCFJMF_TICK_OFFSET UNITYSDK_OFFSET(0xB26AE90)
 
+inline static constexpr unsigned int JMKIJLCFJMF_TypeDefinitionIndex = 58421;
+
 	class JMKIJLCFJMF : public ::GELIALJDFBL
 	{
 	public:

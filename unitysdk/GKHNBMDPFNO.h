@@ -5,6 +5,8 @@ namespace System { class Object; }
 
 #define GKHNBMDPFNO_CTOR_OFFSET UNITYSDK_OFFSET(0x15A97DD0)
 
+inline static constexpr unsigned int GKHNBMDPFNO_TypeDefinitionIndex = 54334;
+
 	class GKHNBMDPFNO : public ::RPG::GameCore::AIVariable
 	{
 	public:

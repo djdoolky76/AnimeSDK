@@ -51,6 +51,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int DestroyRootPuzzleChess_TypeDefinitionIndex = 78546;
+
 	class DestroyRootPuzzleChess : public ::UnityEngine::MonoBehaviour
 	{
 	public:

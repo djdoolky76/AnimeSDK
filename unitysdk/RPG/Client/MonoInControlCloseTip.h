@@ -12,6 +12,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoInControlCloseTip_TypeDefinitionIndex = 61342;
+
 	class MonoInControlCloseTip : public ::UnityEngine::MonoBehaviour
 	{
 	public:

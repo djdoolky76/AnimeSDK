@@ -31,6 +31,8 @@ namespace System { class String; }
 #define DPOGMNFCMNN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E21F660)
 #define DPOGMNFCMNN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E21F6C0)
 
+inline static constexpr unsigned int DPOGMNFCMNN_TypeDefinitionIndex = 26667;
+
 	class DPOGMNFCMNN : public ::System::Object
 	{
 	public:

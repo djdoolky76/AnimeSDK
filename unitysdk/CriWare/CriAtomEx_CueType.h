@@ -3,6 +3,8 @@
 
 namespace CriWare
 {
+	inline static constexpr unsigned int CriAtomEx_CueType_TypeDefinitionIndex = 39972;
+
 	enum class CriAtomEx_CueType : ::System::Int32
 	{
 		Polyphonic = 0,

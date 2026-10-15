@@ -3,6 +3,8 @@
 
 #define CFIOKBIAOEC_CTOR_OFFSET UNITYSDK_OFFSET(0xCC4F2D0)
 
+inline static constexpr unsigned int CFIOKBIAOEC_TypeDefinitionIndex = 59029;
+
 	class CFIOKBIAOEC
 	{
 	public:

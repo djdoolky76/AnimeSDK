@@ -14,6 +14,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByDeployPuzzleBasePointIsAnswer_TypeDefinitionIndex = 21981;
+
 	class ByDeployPuzzleBasePointIsAnswer : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

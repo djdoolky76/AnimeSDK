@@ -12,6 +12,8 @@ namespace RPG::GameCore { class WaitGetMuseumExhibit; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int WaitGetMuseumExhibit_TypeDefinitionIndex = 22198;
+
 	class WaitGetMuseumExhibit : public ::RPG::GameCore::TaskConfig
 	{
 	public:

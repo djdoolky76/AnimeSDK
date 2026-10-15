@@ -11,6 +11,8 @@ namespace System { class String; }
 #define HPBFDMEFOPI_MNJOCIFNCFK_OFFSET UNITYSDK_OFFSET(0x1EC4C3F0)
 #define HPBFDMEFOPI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EC4C410)
 
+inline static constexpr unsigned int HPBFDMEFOPI_TypeDefinitionIndex = 44035;
+
 	class HPBFDMEFOPI : public ::System::Object
 	{
 	public:

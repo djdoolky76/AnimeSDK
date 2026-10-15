@@ -9,6 +9,8 @@ namespace System { class Object; }
 
 namespace MessagePack
 {
+	inline static constexpr unsigned int MonoProtection_TypeDefinitionIndex = 7233;
+
 	struct alignas(4) MonoProtection
 	{
 		static ::System::Object** StaticGet_RefEmitLock()

@@ -5,6 +5,8 @@ namespace System { class Action; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PrefHashSet_1_TypeDefinitionIndex = 35320;
+
 	template <typename T>
 	class PrefHashSet_1
 	{

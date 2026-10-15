@@ -27,6 +27,8 @@ namespace System { class String; }
 #define LMOAEPFPCAP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E9ACE40)
 #define LMOAEPFPCAP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E9ACEA0)
 
+inline static constexpr unsigned int LMOAEPFPCAP_TypeDefinitionIndex = 27659;
+
 	class LMOAEPFPCAP : public ::System::Object
 	{
 	public:

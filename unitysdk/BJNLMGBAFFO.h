@@ -29,6 +29,8 @@ namespace System { class String; }
 #define BJNLMGBAFFO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DF4B690)
 #define BJNLMGBAFFO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DF4B6F0)
 
+inline static constexpr unsigned int BJNLMGBAFFO_TypeDefinitionIndex = 33766;
+
 	class BJNLMGBAFFO : public ::System::Object
 	{
 	public:

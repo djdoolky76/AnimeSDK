@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueDLC1Dot3PictureFrame; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueDLC1Dot3PictureFrame_TypeDefinitionIndex = 22286;
+
 	class RogueDLC1Dot3PictureFrame : public ::RPG::GameCore::TaskConfig
 	{
 	public:

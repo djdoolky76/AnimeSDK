@@ -9,6 +9,8 @@ namespace System { class Object; }
 
 namespace Cysharp::Threading::Tasks
 {
+	inline static constexpr unsigned int UniTaskCompletionSourceCoreShared_TypeDefinitionIndex = 38394;
+
 	class UniTaskCompletionSourceCoreShared : public ::System::Object
 	{
 	public:

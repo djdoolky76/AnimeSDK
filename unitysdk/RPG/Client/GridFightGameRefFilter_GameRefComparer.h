@@ -11,6 +11,8 @@ namespace System { template <typename T1, typename T2, typename T3> class Func_3
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightGameRefFilter_GameRefComparer_TypeDefinitionIndex = 64758;
+
 	class GridFightGameRefFilter_GameRefComparer : public ::System::Object
 	{
 	public:

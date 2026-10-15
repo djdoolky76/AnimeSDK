@@ -16,6 +16,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PerformanceReplayLogicOverrideRow_TypeDefinitionIndex = 14343;
+
 	class PerformanceReplayLogicOverrideRow : public ::System::Object
 	{
 	public:

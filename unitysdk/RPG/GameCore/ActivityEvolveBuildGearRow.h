@@ -14,6 +14,8 @@ namespace RPG::GameCore { class MazeBuffRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ActivityEvolveBuildGearRow_TypeDefinitionIndex = 11400;
+
 	class ActivityEvolveBuildGearRow : public ::System::Object
 	{
 	public:

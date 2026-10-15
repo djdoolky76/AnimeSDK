@@ -7,6 +7,8 @@ namespace RPG::GameCore { class MarbleTriggerEffect; }
 #define DGDBFMBPLJE_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA28D50)
 #define DGDBFMBPLJE_KDNAAOHECPD_OFFSET UNITYSDK_OFFSET(0x1CA28D60)
 
+inline static constexpr unsigned int DGDBFMBPLJE_TypeDefinitionIndex = 43102;
+
 	class DGDBFMBPLJE : public ::BKABEBEPPJK
 	{
 	public:

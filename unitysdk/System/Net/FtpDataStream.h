@@ -34,6 +34,8 @@ namespace System::Net { class FtpWebRequest; }
 
 namespace System::Net
 {
+	inline static constexpr unsigned int FtpDataStream_TypeDefinitionIndex = 2838;
+
 	class FtpDataStream : public ::System::IO::Stream
 	{
 	public:

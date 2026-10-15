@@ -10,6 +10,8 @@ namespace RPG::Client::Promises { class Promise; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ChimeraWorkRoundInfo___c__DisplayClass33_0_TypeDefinitionIndex = 63508;
+
 	class ChimeraWorkRoundInfo___c__DisplayClass33_0 : public ::System::Object
 	{
 	public:

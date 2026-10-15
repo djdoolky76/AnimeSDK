@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TimeRewindEffConfig_TypeDefinitionIndex = 16604;
+
 	class TimeRewindEffConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

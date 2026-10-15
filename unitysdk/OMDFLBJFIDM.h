@@ -30,6 +30,8 @@ namespace System { class String; }
 #define OMDFLBJFIDM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DEB0DE0)
 #define OMDFLBJFIDM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DEB0E40)
 
+inline static constexpr unsigned int OMDFLBJFIDM_TypeDefinitionIndex = 31243;
+
 	class OMDFLBJFIDM : public ::System::Object
 	{
 	public:

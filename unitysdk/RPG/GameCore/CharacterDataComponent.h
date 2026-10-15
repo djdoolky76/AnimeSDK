@@ -144,6 +144,8 @@ namespace System::Text::RegularExpressions { class Regex; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CharacterDataComponent_TypeDefinitionIndex = 56916;
+
 	class CharacterDataComponent : public ::RPG::GameCore::GameComponentBase
 	{
 	public:

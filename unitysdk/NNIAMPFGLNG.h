@@ -4,6 +4,8 @@
 
 #define NNIAMPFGLNG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D23B780)
 
+inline static constexpr unsigned int NNIAMPFGLNG_TypeDefinitionIndex = 25026;
+
 	class NNIAMPFGLNG : public ::System::Attribute
 	{
 	public:

@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPGTools::Timeline::BattlePerform
 {
+	inline static constexpr unsigned int BPCameraBlendConfig_TypeDefinitionIndex = 48792;
+
 	class BPCameraBlendConfig : public ::System::Object
 	{
 	public:

@@ -31,6 +31,8 @@ namespace System { class String; }
 #define LOHLENBEIEB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E9BF990)
 #define LOHLENBEIEB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E9BF9F0)
 
+inline static constexpr unsigned int LOHLENBEIEB_TypeDefinitionIndex = 32692;
+
 	class LOHLENBEIEB : public ::System::Object
 	{
 	public:

@@ -27,6 +27,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace SuperScrollView
 {
+	inline static constexpr unsigned int GridPosMgr_TypeDefinitionIndex = 47636;
+
 	class GridPosMgr : public ::System::Object
 	{
 	public:

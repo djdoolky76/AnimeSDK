@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GridFightModifierForceShopRefreshRoleCostConfig;
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightModifierForceShopRefreshRoleCostConfig_TypeDefinitionIndex = 19349;
+
 	class GridFightModifierForceShopRefreshRoleCostConfig : public ::RPG::GameCore::GridFightModifierConfigBase
 	{
 	public:

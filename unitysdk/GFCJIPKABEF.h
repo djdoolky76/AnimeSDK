@@ -37,6 +37,8 @@ namespace System { class String; }
 #define GFCJIPKABEF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E460EE0)
 #define GFCJIPKABEF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E460F40)
 
+inline static constexpr unsigned int GFCJIPKABEF_TypeDefinitionIndex = 34672;
+
 	class GFCJIPKABEF : public ::System::Object
 	{
 	public:

@@ -70,6 +70,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int FateGameData_TypeDefinitionIndex = 64031;
+
 	class FateGameData : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelPedestrianV2MemberConfig_TypeDefinitionIndex = 17315;
+
 	class LevelPedestrianV2MemberConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

@@ -54,6 +54,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace InControl
 {
+	inline static constexpr unsigned int Utility_TypeDefinitionIndex = 40917;
+
 	class Utility : public ::System::Object
 	{
 	public:

@@ -83,6 +83,8 @@ namespace UnityEngine { class Canvas; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightUtils_TypeDefinitionIndex = 64884;
+
 	class GridFightUtils : public ::System::Object
 	{
 	public:

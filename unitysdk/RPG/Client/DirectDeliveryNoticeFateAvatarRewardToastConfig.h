@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int DirectDeliveryNoticeFateAvatarRewardToastConfig_TypeDefinitionIndex = 63584;
+
 	class DirectDeliveryNoticeFateAvatarRewardToastConfig : public ::RPG::Client::DirectDeliveryNoticeToastConfig
 	{
 	public:

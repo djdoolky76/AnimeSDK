@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Editor
 {
+	inline static constexpr unsigned int BGCurvePCG_MultSubMesh_GeometrySetting_TypeDefinitionIndex = 52033;
+
 	struct alignas(8) BGCurvePCG_MultSubMesh_GeometrySetting
 	{
 		::System::Boolean IfAdaptiveDivide; // 0x10

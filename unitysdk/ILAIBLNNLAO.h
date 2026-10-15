@@ -39,6 +39,8 @@ namespace UnityEngine { class GameObject; }
 #define ILAIBLNNLAO_PBHCOGMEFJK_OFFSET UNITYSDK_OFFSET(0x164A2F90)
 #define ILAIBLNNLAO_PNBCCHFNDAG_OFFSET UNITYSDK_OFFSET(0x164A5870)
 
+inline static constexpr unsigned int ILAIBLNNLAO_TypeDefinitionIndex = 60620;
+
 	class ILAIBLNNLAO : public ::NPEBLEKDAGI
 	{
 	public:

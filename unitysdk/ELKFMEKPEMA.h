@@ -7,6 +7,8 @@
 
 #define ELKFMEKPEMA_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA61520)
 
+inline static constexpr unsigned int ELKFMEKPEMA_TypeDefinitionIndex = 42435;
+
 	class ELKFMEKPEMA : public ::System::Object
 	{
 	public:

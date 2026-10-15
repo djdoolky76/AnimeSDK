@@ -12,6 +12,8 @@ namespace RPG::GameCore { class ActivityExpeditionRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ActivityExpeditionRow_TypeDefinitionIndex = 11459;
+
 	class ActivityExpeditionRow : public ::System::Object
 	{
 	public:

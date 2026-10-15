@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace System::Net::Http::Headers
 {
+	inline static constexpr unsigned int Parser_Long_TypeDefinitionIndex = 3815;
+
 	class Parser_Long : public ::System::Object
 	{
 	public:

@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PredicateToMakeFail_TypeDefinitionIndex = 23764;
+
 	class PredicateToMakeFail : public ::RPG::GameCore::TaskConfig
 	{
 	public:

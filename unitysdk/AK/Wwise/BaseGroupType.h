@@ -12,6 +12,8 @@ class WwiseObjectReference;
 
 namespace AK::Wwise
 {
+	inline static constexpr unsigned int BaseGroupType_TypeDefinitionIndex = 44978;
+
 	class BaseGroupType : public ::AK::Wwise::BaseType
 	{
 	public:

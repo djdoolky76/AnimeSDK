@@ -6,6 +6,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 #define KKILJMLMGEB_CTOR_OFFSET UNITYSDK_OFFSET(0x1C906DD0)
 
+inline static constexpr unsigned int KKILJMLMGEB_TypeDefinitionIndex = 41951;
+
 	class KKILJMLMGEB : public ::System::Object
 	{
 	public:

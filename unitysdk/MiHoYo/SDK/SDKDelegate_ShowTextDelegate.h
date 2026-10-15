@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int SDKDelegate_ShowTextDelegate_TypeDefinitionIndex = 7775;
+
 	class SDKDelegate_ShowTextDelegate : public ::System::MulticastDelegate
 	{
 	public:

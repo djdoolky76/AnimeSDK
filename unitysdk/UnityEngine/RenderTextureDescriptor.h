@@ -48,6 +48,8 @@
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int RenderTextureDescriptor_TypeDefinitionIndex = 4203;
+
 	struct alignas(4) RenderTextureDescriptor
 	{
 		::System::Int32 _width_k__BackingField; // 0x10

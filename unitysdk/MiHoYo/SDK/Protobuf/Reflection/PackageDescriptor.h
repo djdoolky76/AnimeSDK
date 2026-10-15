@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::Protobuf::Reflection
 {
+	inline static constexpr unsigned int PackageDescriptor_TypeDefinitionIndex = 35846;
+
 	class PackageDescriptor : public ::System::Object
 	{
 	public:

@@ -26,6 +26,8 @@ namespace System::Reflection { class MethodInfo; }
 
 namespace Google::Protobuf::Reflection
 {
+	inline static constexpr unsigned int ReflectionUtil_TypeDefinitionIndex = 5559;
+
 	class ReflectionUtil : public ::System::Object
 	{
 	public:

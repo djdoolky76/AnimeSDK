@@ -12,6 +12,8 @@ class LBPCONKMBIK;
 #define CIFFEJCJFDJ_HAHAIDJJHON_OFFSET UNITYSDK_OFFSET(0xCF6DDF0)
 #define CIFFEJCJFDJ_NHBFINIANHN_OFFSET UNITYSDK_OFFSET(0xCF6DCD0)
 
+inline static constexpr unsigned int CIFFEJCJFDJ_TypeDefinitionIndex = 63867;
+
 	class CIFFEJCJFDJ : public ::System::Object
 	{
 	public:

@@ -9,6 +9,8 @@ namespace RPG::Client { class AvatarGrowUpBeforeData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AvatarGrowUpBeforeData_TypeDefinitionIndex = 62465;
+
 	class AvatarGrowUpBeforeData : public ::System::Object
 	{
 	public:

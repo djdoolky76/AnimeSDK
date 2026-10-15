@@ -14,6 +14,8 @@ namespace RPG::GameCore { class GameEntity; }
 #define ECALCJPOKPC_HADOHLNHHGB_OFFSET UNITYSDK_OFFSET(0x12D05C00)
 #define ECALCJPOKPC_LICLBMEDGJM_OFFSET UNITYSDK_OFFSET(0x12D05CD0)
 
+inline static constexpr unsigned int ECALCJPOKPC_TypeDefinitionIndex = 57023;
+
 	class ECALCJPOKPC : public ::BDENDNDOFLF
 	{
 	public:

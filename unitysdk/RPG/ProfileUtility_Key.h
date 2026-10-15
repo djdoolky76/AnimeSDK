@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG
 {
+	inline static constexpr unsigned int ProfileUtility_Key_TypeDefinitionIndex = 35150;
+
 	struct alignas(8) ProfileUtility_Key
 	{
 		::System::String* m_SampleName; // 0x10

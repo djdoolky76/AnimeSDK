@@ -11,6 +11,8 @@ namespace UnityEngine { class Texture; }
 #define OJCEMHDNLDE_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0xBEABEA0)
 #define OJCEMHDNLDE_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0xBEABE20)
 
+inline static constexpr unsigned int OJCEMHDNLDE_TypeDefinitionIndex = 49426;
+
 	class OJCEMHDNLDE
 	{
 	public:

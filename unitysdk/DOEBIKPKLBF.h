@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define DOEBIKPKLBF_CTOR_OFFSET UNITYSDK_OFFSET(0x11FE14D0)
 #define DOEBIKPKLBF_EVALUATE_OFFSET UNITYSDK_OFFSET(0x11FE1500)
 
+inline static constexpr unsigned int DOEBIKPKLBF_TypeDefinitionIndex = 52598;
+
 	class DOEBIKPKLBF
 	{
 	public:

@@ -9,6 +9,8 @@
 
 namespace System::Security::Cryptography
 {
+	inline static constexpr unsigned int KeyedHashAlgorithm_TypeDefinitionIndex = 1032;
+
 	class KeyedHashAlgorithm : public ::System::Security::Cryptography::HashAlgorithm
 	{
 	public:

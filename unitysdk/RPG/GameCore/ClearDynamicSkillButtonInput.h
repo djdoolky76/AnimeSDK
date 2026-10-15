@@ -11,6 +11,8 @@ namespace RPG::GameCore { class ClearDynamicSkillButtonInput; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ClearDynamicSkillButtonInput_TypeDefinitionIndex = 22847;
+
 	class ClearDynamicSkillButtonInput : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -8,6 +8,8 @@ namespace RPG::Client { class CakeCatchModule; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int CakeCatchStatic___c__DisplayClass52_0_TypeDefinitionIndex = 62973;
+
 	class CakeCatchStatic___c__DisplayClass52_0 : public ::System::Object
 	{
 	public:

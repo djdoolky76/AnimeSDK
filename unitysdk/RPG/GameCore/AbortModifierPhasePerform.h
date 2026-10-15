@@ -10,6 +10,8 @@ namespace RPG::GameCore { class AbortModifierPhasePerform; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AbortModifierPhasePerform_TypeDefinitionIndex = 23627;
+
 	class AbortModifierPhasePerform : public ::RPG::GameCore::TaskConfig
 	{
 	public:

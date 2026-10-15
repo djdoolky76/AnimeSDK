@@ -7,6 +7,8 @@ namespace RPG::GameCore { class LittleGameEntityVarConfig; }
 #define LNFBDONBEOG_CLEAR_OFFSET UNITYSDK_OFFSET(0x1C91C0B0)
 #define LNFBDONBEOG_CTOR_OFFSET UNITYSDK_OFFSET(0x1C91C110)
 
+inline static constexpr unsigned int LNFBDONBEOG_TypeDefinitionIndex = 43340;
+
 	class LNFBDONBEOG : public ::System::Object
 	{
 	public:

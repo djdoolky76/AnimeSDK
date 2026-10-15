@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int DFIJIBKBEJL_TypeDefinitionIndex = 29119;
+
 	enum class DFIJIBKBEJL : ::System::Int32
 	{
 		IHNDJOLCKDI = 0,

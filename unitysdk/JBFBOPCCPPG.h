@@ -19,6 +19,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define JBFBOPCCPPG_PBNOCMEKDDI_OFFSET UNITYSDK_OFFSET(0x1656A610)
 #define JBFBOPCCPPG_TICK_OFFSET UNITYSDK_OFFSET(0x1656A0C0)
 
+inline static constexpr unsigned int JBFBOPCCPPG_TypeDefinitionIndex = 58275;
+
 	class JBFBOPCCPPG : public ::GELIALJDFBL
 	{
 	public:

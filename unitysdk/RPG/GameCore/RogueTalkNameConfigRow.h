@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueTalkNameConfigRow_TypeDefinitionIndex = 14809;
+
 	class RogueTalkNameConfigRow : public ::System::Object
 	{
 	public:

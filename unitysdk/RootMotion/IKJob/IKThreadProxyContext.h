@@ -33,6 +33,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RootMotion::IKJob
 {
+	inline static constexpr unsigned int IKThreadProxyContext_TypeDefinitionIndex = 45984;
+
 	class IKThreadProxyContext : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace System { class Action; }
 
 namespace RPG::Client::ActivityMarble
 {
+	inline static constexpr unsigned int MarblePlayerProgressInfo___c__DisplayClass6_0_TypeDefinitionIndex = 75994;
+
 	class MarblePlayerProgressInfo___c__DisplayClass6_0 : public ::System::Object
 	{
 	public:

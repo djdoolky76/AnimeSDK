@@ -10,6 +10,8 @@ namespace RPG::GameCore { class MenuItemNameRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MenuItemNameRow_TypeDefinitionIndex = 13132;
+
 	class MenuItemNameRow : public ::System::Object
 	{
 	public:

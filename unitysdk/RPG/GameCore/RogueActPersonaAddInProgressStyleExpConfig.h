@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueActPersonaAddInProgressStyleExpConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueActPersonaAddInProgressStyleExpConfig_TypeDefinitionIndex = 19711;
+
 	class RogueActPersonaAddInProgressStyleExpConfig : public ::RPG::GameCore::RogueActionConfigBase
 	{
 	public:

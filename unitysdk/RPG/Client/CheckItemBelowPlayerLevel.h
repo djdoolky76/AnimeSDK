@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int CheckItemBelowPlayerLevel_TypeDefinitionIndex = 59872;
+
 	class CheckItemBelowPlayerLevel : public ::RPG::Client::SyncCheckItemBase
 	{
 	public:

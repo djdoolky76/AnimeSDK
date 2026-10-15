@@ -10,6 +10,8 @@ namespace RPG::GameCore { class LittleGameRadialBlurEffect; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LittleGameRadialBlurEffect_TypeDefinitionIndex = 21491;
+
 	class LittleGameRadialBlurEffect : public ::RPG::GameCore::TaskConfig
 	{
 	public:

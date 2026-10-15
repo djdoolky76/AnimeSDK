@@ -14,6 +14,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoLoopedRotaion_TypeDefinitionIndex = 70742;
+
 	class MonoLoopedRotaion : public ::UnityEngine::MonoBehaviour
 	{
 	public:

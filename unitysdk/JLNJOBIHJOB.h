@@ -12,6 +12,8 @@ class JLNJOBIHJOB;
 #define JLNJOBIHJOB_JJNFOPNOPBF_OFFSET UNITYSDK_OFFSET(0xB2511B0)
 #define JLNJOBIHJOB_PBNOONBDOKB_OFFSET UNITYSDK_OFFSET(0xB251510)
 
+inline static constexpr unsigned int JLNJOBIHJOB_TypeDefinitionIndex = 77299;
+
 	class JLNJOBIHJOB : public ::System::Object
 	{
 	public:

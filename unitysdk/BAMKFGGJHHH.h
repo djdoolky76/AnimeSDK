@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define BAMKFGGJHHH_LOCK_OFFSET UNITYSDK_OFFSET(0x15E74680)
 #define BAMKFGGJHHH_UNLOCK_OFFSET UNITYSDK_OFFSET(0x15E74810)
 
+inline static constexpr unsigned int BAMKFGGJHHH_TypeDefinitionIndex = 74766;
+
 	class BAMKFGGJHHH : public ::RPG::Client::GamePlayLockTargetFunc
 	{
 	public:

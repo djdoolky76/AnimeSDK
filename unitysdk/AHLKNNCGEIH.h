@@ -10,6 +10,8 @@ class PLAJONHLDJN;
 #define AHLKNNCGEIH_CTOR_OFFSET UNITYSDK_OFFSET(0x1C588E60)
 #define AHLKNNCGEIH_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x1C589100)
 
+inline static constexpr unsigned int AHLKNNCGEIH_TypeDefinitionIndex = 36494;
+
 	class AHLKNNCGEIH : public ::GNEGKIBNHLD
 	{
 	public:

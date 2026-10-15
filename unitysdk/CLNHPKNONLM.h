@@ -18,6 +18,8 @@ namespace UnityEngine { class Transform; }
 #define CLNHPKNONLM_PRELOAD_OFFSET UNITYSDK_OFFSET(0xDA1BFF0)
 #define CLNHPKNONLM_RETURN_OFFSET UNITYSDK_OFFSET(0xDA1C2B0)
 
+inline static constexpr unsigned int CLNHPKNONLM_TypeDefinitionIndex = 62320;
+
 	class CLNHPKNONLM : public ::System::Object
 	{
 	public:

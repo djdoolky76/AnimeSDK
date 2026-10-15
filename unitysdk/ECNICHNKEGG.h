@@ -28,6 +28,8 @@ namespace System { class String; }
 #define ECNICHNKEGG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E256570)
 #define ECNICHNKEGG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E2565D0)
 
+inline static constexpr unsigned int ECNICHNKEGG_TypeDefinitionIndex = 27387;
+
 	class ECNICHNKEGG : public ::System::Object
 	{
 	public:

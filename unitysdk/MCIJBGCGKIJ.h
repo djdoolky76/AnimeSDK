@@ -8,6 +8,8 @@ namespace RPG::GameCore { class PropertyAdsorptionConfig; }
 #define MCIJBGCGKIJ_FKIHEOAFGLE_OFFSET UNITYSDK_OFFSET(0x1D13E140)
 #define MCIJBGCGKIJ_NLDJECBDCOL_OFFSET UNITYSDK_OFFSET(0x1D13E1A0)
 
+inline static constexpr unsigned int MCIJBGCGKIJ_TypeDefinitionIndex = 10837;
+
 	class MCIJBGCGKIJ : public ::System::Object
 	{
 	public:

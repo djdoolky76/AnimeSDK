@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace RPGTools::Story
 {
+	inline static constexpr unsigned int CaptureAnchorConfig_TypeDefinitionIndex = 48966;
+
 	class CaptureAnchorConfig : public ::System::Object
 	{
 	public:

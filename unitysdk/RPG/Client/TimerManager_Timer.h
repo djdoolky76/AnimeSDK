@@ -25,6 +25,8 @@ namespace System { class Action; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TimerManager_Timer_TypeDefinitionIndex = 68312;
+
 	class TimerManager_Timer : public ::System::Object
 	{
 	public:

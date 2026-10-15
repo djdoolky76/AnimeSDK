@@ -39,6 +39,8 @@ namespace System { class String; }
 #define DFJOGNHINFE_PDAKNCHLMCG_OFFSET UNITYSDK_OFFSET(0xE830310)
 #define DFJOGNHINFE_PFCMNCNFEBK_OFFSET UNITYSDK_OFFSET(0xE830280)
 
+inline static constexpr unsigned int DFJOGNHINFE_TypeDefinitionIndex = 70149;
+
 	class DFJOGNHINFE : public ::System::Object
 	{
 	public:

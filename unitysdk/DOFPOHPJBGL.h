@@ -8,6 +8,8 @@
 #define DOFPOHPJBGL_IKNBGBFGMCD_OFFSET UNITYSDK_OFFSET(0x11FE8020)
 #define DOFPOHPJBGL_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0x11FE7EE0)
 
+inline static constexpr unsigned int DOFPOHPJBGL_TypeDefinitionIndex = 76535;
+
 	class DOFPOHPJBGL : public ::System::Object
 	{
 	public:

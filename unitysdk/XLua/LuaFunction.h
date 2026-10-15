@@ -16,6 +16,8 @@ namespace XLua { class LuaTable; }
 
 namespace XLua
 {
+	inline static constexpr unsigned int LuaFunction_TypeDefinitionIndex = 50210;
+
 	class LuaFunction : public ::XLua::LuaBase
 	{
 	public:

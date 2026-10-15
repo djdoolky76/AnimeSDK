@@ -26,6 +26,8 @@ namespace UnityEngine { class Gradient; }
 #define CDIAEAMFDIB_PGBBIFBLLNH_OFFSET UNITYSDK_OFFSET(0xC768E50)
 #define CDIAEAMFDIB_TOSTRING_OFFSET UNITYSDK_OFFSET(0xC768E60)
 
+inline static constexpr unsigned int CDIAEAMFDIB_TypeDefinitionIndex = 49508;
+
 	class CDIAEAMFDIB : public ::NLBIEMILEDE
 	{
 	public:

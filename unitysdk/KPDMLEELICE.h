@@ -29,6 +29,8 @@ namespace System { class String; }
 #define KPDMLEELICE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E8BB200)
 #define KPDMLEELICE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E8BB260)
 
+inline static constexpr unsigned int KPDMLEELICE_TypeDefinitionIndex = 33284;
+
 	class KPDMLEELICE : public ::System::Object
 	{
 	public:

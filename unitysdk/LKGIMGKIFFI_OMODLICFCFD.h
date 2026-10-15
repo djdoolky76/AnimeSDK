@@ -3,6 +3,8 @@
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
+inline static constexpr unsigned int LKGIMGKIFFI_OMODLICFCFD_TypeDefinitionIndex = 76759;
+
 	struct alignas(4) LKGIMGKIFFI_OMODLICFCFD
 	{
 		::System::Boolean NLDLLPECLCH; // 0x10

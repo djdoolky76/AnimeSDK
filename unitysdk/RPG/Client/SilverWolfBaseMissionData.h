@@ -11,6 +11,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int SilverWolfBaseMissionData_TypeDefinitionIndex = 67958;
+
 	class SilverWolfBaseMissionData : public ::System::Object
 	{
 	public:

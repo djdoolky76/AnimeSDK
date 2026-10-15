@@ -7,6 +7,8 @@ namespace UnityEngine { class Transform; }
 #define ICIMFKPDDMD_CEHBLMGKHHN_CTOR_1_OFFSET UNITYSDK_OFFSET(0x15E4EA40)
 #define ICIMFKPDDMD_CEHBLMGKHHN_CTOR_OFFSET UNITYSDK_OFFSET(0x15E4EA30)
 
+inline static constexpr unsigned int ICIMFKPDDMD_CEHBLMGKHHN_TypeDefinitionIndex = 71178;
+
 	class ICIMFKPDDMD_CEHBLMGKHHN : public ::System::Object
 	{
 	public:

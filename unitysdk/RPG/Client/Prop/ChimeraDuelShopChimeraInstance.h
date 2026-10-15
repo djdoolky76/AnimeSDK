@@ -19,6 +19,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int ChimeraDuelShopChimeraInstance_TypeDefinitionIndex = 78341;
+
 	class ChimeraDuelShopChimeraInstance : public ::System::Object
 	{
 	public:

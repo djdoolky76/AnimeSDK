@@ -5,6 +5,8 @@ namespace System { class Action; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int UI3DUtilities___O_TypeDefinitionIndex = 73015;
+
 	class UI3DUtilities___O : public ::System::Object
 	{
 	public:

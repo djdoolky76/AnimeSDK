@@ -9,6 +9,8 @@ namespace System { template <typename T> class Predicate_1; }
 #define OMCKLMNLANM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1C7D8A50)
 #define OMCKLMNLANM___C__UPDATEREMOVABLETASKS_B__5_0_OFFSET UNITYSDK_OFFSET(0x1C7D8A60)
 
+inline static constexpr unsigned int OMCKLMNLANM___c_TypeDefinitionIndex = 37313;
+
 	class OMCKLMNLANM___c : public ::System::Object
 	{
 	public:

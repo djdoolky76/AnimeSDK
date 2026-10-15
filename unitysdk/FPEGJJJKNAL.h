@@ -34,6 +34,8 @@ namespace System { class String; }
 #define FPEGJJJKNAL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E407870)
 #define FPEGJJJKNAL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E4078D0)
 
+inline static constexpr unsigned int FPEGJJJKNAL_TypeDefinitionIndex = 30445;
+
 	class FPEGJJJKNAL : public ::System::Object
 	{
 	public:

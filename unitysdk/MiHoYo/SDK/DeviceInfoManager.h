@@ -22,6 +22,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int DeviceInfoManager_TypeDefinitionIndex = 46469;
+
 	class DeviceInfoManager : public ::System::Object
 	{
 	public:

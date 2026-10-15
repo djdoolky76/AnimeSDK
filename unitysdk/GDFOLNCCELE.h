@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define GDFOLNCCELE_CTOR_OFFSET UNITYSDK_OFFSET(0x1599B8A0)
 #define GDFOLNCCELE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1599B8D0)
 
+inline static constexpr unsigned int GDFOLNCCELE_TypeDefinitionIndex = 55548;
+
 	class GDFOLNCCELE
 	{
 	public:

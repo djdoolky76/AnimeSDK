@@ -25,6 +25,8 @@ namespace System { class String; }
 #define AKLIBAHPAKM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E3D0640)
 #define AKLIBAHPAKM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E3D06A0)
 
+inline static constexpr unsigned int AKLIBAHPAKM_TypeDefinitionIndex = 35044;
+
 	class AKLIBAHPAKM : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace System { class Uri; }
 
 namespace System::Net
 {
+	inline static constexpr unsigned int ServicePointManager_SPKey_TypeDefinitionIndex = 2875;
+
 	class ServicePointManager_SPKey : public ::System::Object
 	{
 	public:

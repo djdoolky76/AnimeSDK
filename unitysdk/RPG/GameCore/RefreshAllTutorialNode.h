@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RefreshAllTutorialNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RefreshAllTutorialNode_TypeDefinitionIndex = 24331;
+
 	class RefreshAllTutorialNode : public ::RPG::GameCore::TaskConfig
 	{
 	public:

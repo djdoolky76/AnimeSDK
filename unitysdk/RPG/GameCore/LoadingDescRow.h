@@ -12,6 +12,8 @@ namespace RPG::GameCore { class LoadingDescRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LoadingDescRow_TypeDefinitionIndex = 13983;
+
 	class LoadingDescRow : public ::System::Object
 	{
 	public:

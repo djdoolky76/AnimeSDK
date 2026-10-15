@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ClearEntityFollowAttachPoint_TypeDefinitionIndex = 23642;
+
 	class ClearEntityFollowAttachPoint : public ::RPG::GameCore::TaskConfig
 	{
 	public:

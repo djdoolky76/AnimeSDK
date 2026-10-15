@@ -11,6 +11,8 @@ namespace UnityEngine { class Collider; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int ContactPoint_TypeDefinitionIndex = 5323;
+
 	struct alignas(4) ContactPoint
 	{
 		::UnityEngine::Vector3 m_Point; // 0x10

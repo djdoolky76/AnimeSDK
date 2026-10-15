@@ -10,6 +10,8 @@ namespace UnityEngine::UI { class Text; }
 #define CEPJAMMBEFC_GET_TEXTDESC_OFFSET UNITYSDK_OFFSET(0xC9F8350)
 #define CEPJAMMBEFC_SET_TEXTDESC_OFFSET UNITYSDK_OFFSET(0xC9F8360)
 
+inline static constexpr unsigned int CEPJAMMBEFC_TypeDefinitionIndex = 71182;
+
 	class CEPJAMMBEFC : public ::System::Object
 	{
 	public:

@@ -21,6 +21,8 @@ namespace UnityEngine::Playables { class PlayableDirector; }
 #define EBMMGODFEEO_MEBCCPMCFMF_OFFSET UNITYSDK_OFFSET(0x12D032E0)
 #define EBMMGODFEEO_OHMHJFANEIF_OFFSET UNITYSDK_OFFSET(0x12D037D0)
 
+inline static constexpr unsigned int EBMMGODFEEO_TypeDefinitionIndex = 48492;
+
 	class EBMMGODFEEO : public ::System::Object
 	{
 	public:

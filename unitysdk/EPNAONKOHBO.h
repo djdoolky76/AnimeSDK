@@ -31,6 +31,8 @@ namespace System { class String; }
 #define EPNAONKOHBO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E318CC0)
 #define EPNAONKOHBO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E318D20)
 
+inline static constexpr unsigned int EPNAONKOHBO_TypeDefinitionIndex = 25453;
+
 	class EPNAONKOHBO : public ::System::Object
 	{
 	public:

@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace RPG::Client::LittleGame::PixAir
 {
+	inline static constexpr unsigned int PixAirEquipView___c_TypeDefinitionIndex = 77320;
+
 	class PixAirEquipView___c : public ::System::Object
 	{
 	public:

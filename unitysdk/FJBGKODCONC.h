@@ -48,6 +48,8 @@ namespace UnityEngine { class Collider; }
 #define FJBGKODCONC_TEARDOWN_OFFSET UNITYSDK_OFFSET(0x157B8F20)
 #define FJBGKODCONC__GET__ONPLAYERFALLCLOSURE_B__37_0_OFFSET UNITYSDK_OFFSET(0x157BC6F0)
 
+inline static constexpr unsigned int FJBGKODCONC_TypeDefinitionIndex = 77076;
+
 	class FJBGKODCONC : public ::System::Object
 	{
 	public:

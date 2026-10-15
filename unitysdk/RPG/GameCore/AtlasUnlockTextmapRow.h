@@ -10,6 +10,8 @@ namespace RPG::GameCore { class AtlasUnlockTextmapRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AtlasUnlockTextmapRow_TypeDefinitionIndex = 12690;
+
 	class AtlasUnlockTextmapRow : public ::System::Object
 	{
 	public:

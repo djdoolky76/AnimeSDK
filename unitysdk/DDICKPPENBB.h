@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define DDICKPPENBB_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1CD0E320)
 #define DDICKPPENBB_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1CD0DC40)
 
+inline static constexpr unsigned int DDICKPPENBB_TypeDefinitionIndex = 11520;
+
 	class DDICKPPENBB : public ::System::Object
 	{
 	public:

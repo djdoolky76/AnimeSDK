@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define BPMMPIFCIJM_CTOR_OFFSET UNITYSDK_OFFSET(0xC1AACD0)
 #define BPMMPIFCIJM_TOSTRING_OFFSET UNITYSDK_OFFSET(0xC1AAC20)
 
+inline static constexpr unsigned int BPMMPIFCIJM_TypeDefinitionIndex = 52010;
+
 	class BPMMPIFCIJM : public ::System::Object
 	{
 	public:

@@ -14,6 +14,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ST_Parkour_ByCompareDistanceToPlayer_TypeDefinitionIndex = 10262;
+
 	class ST_Parkour_ByCompareDistanceToPlayer : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

@@ -14,6 +14,8 @@ namespace UnityEngine { class ParticleSystemRenderer; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ParticleSystemChildGroup_TypeDefinitionIndex = 69010;
+
 	class ParticleSystemChildGroup : public ::UnityEngine::MonoBehaviour
 	{
 	public:

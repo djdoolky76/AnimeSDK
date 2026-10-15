@@ -12,6 +12,8 @@
 
 namespace RPG::Client::LittleGame::PixAir
 {
+	inline static constexpr unsigned int PixAirHPChangedNotifyData_TypeDefinitionIndex = 77307;
+
 	class PixAirHPChangedNotifyData : public ::System::Object
 	{
 	public:

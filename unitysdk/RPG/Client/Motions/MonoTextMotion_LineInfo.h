@@ -6,6 +6,8 @@
 
 namespace RPG::Client::Motions
 {
+	inline static constexpr unsigned int MonoTextMotion_LineInfo_TypeDefinitionIndex = 73544;
+
 	class MonoTextMotion_LineInfo : public ::System::Object
 	{
 	public:

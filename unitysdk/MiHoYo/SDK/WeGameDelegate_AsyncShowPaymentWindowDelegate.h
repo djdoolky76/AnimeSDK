@@ -15,6 +15,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int WeGameDelegate_AsyncShowPaymentWindowDelegate_TypeDefinitionIndex = 7714;
+
 	class WeGameDelegate_AsyncShowPaymentWindowDelegate : public ::System::MulticastDelegate
 	{
 	public:

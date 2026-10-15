@@ -28,6 +28,8 @@ namespace UnityEngine { class Texture; }
 
 namespace Cinemachine
 {
+	inline static constexpr unsigned int CinemachineStoryboard_TypeDefinitionIndex = 39754;
+
 	class CinemachineStoryboard : public ::Cinemachine::CinemachineExtension
 	{
 	public:

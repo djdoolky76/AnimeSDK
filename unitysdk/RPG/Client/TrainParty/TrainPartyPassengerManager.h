@@ -70,6 +70,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::TrainParty
 {
+	inline static constexpr unsigned int TrainPartyPassengerManager_TypeDefinitionIndex = 74346;
+
 	class TrainPartyPassengerManager : public ::System::Object
 	{
 	public:

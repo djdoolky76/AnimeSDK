@@ -29,6 +29,8 @@ namespace System { class String; }
 #define JOCIDFPEBGM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E79DFD0)
 #define JOCIDFPEBGM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E79E030)
 
+inline static constexpr unsigned int JOCIDFPEBGM_TypeDefinitionIndex = 30014;
+
 	class JOCIDFPEBGM : public ::System::Object
 	{
 	public:

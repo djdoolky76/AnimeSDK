@@ -21,6 +21,8 @@ namespace UnityEngine::UI { class SmoothMask; }
 #define LKMBOENPIKK_NKPPGDENJAE_OFFSET UNITYSDK_OFFSET(0xB758380)
 #define LKMBOENPIKK__ONBIND_OFFSET UNITYSDK_OFFSET(0xB757E80)
 
+inline static constexpr unsigned int LKMBOENPIKK_TypeDefinitionIndex = 71974;
+
 	class LKMBOENPIKK : public ::FMPCODLIOLG
 	{
 	public:

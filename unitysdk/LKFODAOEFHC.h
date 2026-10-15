@@ -11,6 +11,8 @@ namespace RPG::GameCore { class GameEntity; }
 #define LKFODAOEFHC_SET_ISPROPAGATEATTACK_OFFSET UNITYSDK_OFFSET(0xB7339F0)
 #define LKFODAOEFHC_SET_LOCKDAMAGEZERO_OFFSET UNITYSDK_OFFSET(0xB7339D0)
 
+inline static constexpr unsigned int LKFODAOEFHC_TypeDefinitionIndex = 54979;
+
 	class LKFODAOEFHC : public ::System::Object
 	{
 	public:

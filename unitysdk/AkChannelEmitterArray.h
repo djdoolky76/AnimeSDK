@@ -11,6 +11,8 @@
 #define AKCHANNELEMITTERARRAY_RESET_OFFSET UNITYSDK_OFFSET(0x1F584040)
 #define AKCHANNELEMITTERARRAY_SET_COUNT_OFFSET UNITYSDK_OFFSET(0x1F583F20)
 
+inline static constexpr unsigned int AkChannelEmitterArray_TypeDefinitionIndex = 44863;
+
 	class AkChannelEmitterArray : public ::System::Object
 	{
 	public:

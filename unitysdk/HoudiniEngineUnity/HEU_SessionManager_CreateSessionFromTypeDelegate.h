@@ -14,6 +14,8 @@ namespace System { class Type; }
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int HEU_SessionManager_CreateSessionFromTypeDelegate_TypeDefinitionIndex = 40588;
+
 	class HEU_SessionManager_CreateSessionFromTypeDelegate : public ::System::MulticastDelegate
 	{
 	public:

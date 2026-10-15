@@ -42,6 +42,8 @@ namespace UnityEngine::UI { class Image; }
 #define HIODCENCLGP__ONBIND_OFFSET UNITYSDK_OFFSET(0x15CF97B0)
 #define HIODCENCLGP__ONTICK_OFFSET UNITYSDK_OFFSET(0x15CFB490)
 
+inline static constexpr unsigned int HIODCENCLGP_TypeDefinitionIndex = 71375;
+
 	class HIODCENCLGP : public ::FMPCODLIOLG
 	{
 	public:

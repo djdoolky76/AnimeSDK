@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FourRotateVoxelLevelTargetProgressConfig_TypeDefinitionIndex = 16748;
+
 	class FourRotateVoxelLevelTargetProgressConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int DronesDynamicCollider_TypeDefinitionIndex = 78562;
+
 	class DronesDynamicCollider : public ::UnityEngine::MonoBehaviour
 	{
 	public:

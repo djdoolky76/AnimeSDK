@@ -32,6 +32,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TrainVisitorConfigExcelTable_TypeDefinitionIndex = 15368;
+
 	class TrainVisitorConfigExcelTable : public ::System::Object
 	{
 	public:

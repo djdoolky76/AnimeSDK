@@ -7,6 +7,8 @@ namespace MiHoYo::SDK::PC::OS { class PurchaseData; }
 
 namespace MiHoYo::SDK::PC::OS
 {
+	inline static constexpr unsigned int GoogleEntitlementsExtension_TypeDefinitionIndex = 8537;
+
 	class GoogleEntitlementsExtension : public ::System::Object
 	{
 	public:

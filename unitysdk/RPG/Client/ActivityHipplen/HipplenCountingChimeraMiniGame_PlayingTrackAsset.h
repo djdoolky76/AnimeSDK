@@ -9,6 +9,8 @@ namespace UnityEngine::Timeline { class TrackAsset; }
 
 namespace RPG::Client::ActivityHipplen
 {
+	inline static constexpr unsigned int HipplenCountingChimeraMiniGame_PlayingTrackAsset_TypeDefinitionIndex = 75587;
+
 	class HipplenCountingChimeraMiniGame_PlayingTrackAsset : public ::System::Object
 	{
 	public:

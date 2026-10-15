@@ -10,6 +10,8 @@ namespace System::Linq::Expressions::Interpreter { class LocalVariables_Variable
 
 namespace System::Linq::Expressions::Interpreter
 {
+	inline static constexpr unsigned int LocalVariables_VariableScope_TypeDefinitionIndex = 3522;
+
 	class LocalVariables_VariableScope : public ::System::Object
 	{
 	public:

@@ -27,6 +27,8 @@ class OMNJCDDMLHI;
 #define AFKIFKPCHKD_OEDKBGOBDIP_OFFSET UNITYSDK_OFFSET(0xCF0FA20)
 #define AFKIFKPCHKD_OPDOEDPAJDE_OFFSET UNITYSDK_OFFSET(0xCF10030)
 
+inline static constexpr unsigned int AFKIFKPCHKD_TypeDefinitionIndex = 77802;
+
 	class AFKIFKPCHKD : public ::System::Object
 	{
 	public:

@@ -14,6 +14,8 @@ namespace RPGTools::Timeline::BattlePerform { class BPCharacterHeadLookAtClip; }
 
 namespace RPGTools::Timeline::BattlePerform
 {
+	inline static constexpr unsigned int BPCharacterHeadLookAtBehaviour_TypeDefinitionIndex = 48812;
+
 	class BPCharacterHeadLookAtBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

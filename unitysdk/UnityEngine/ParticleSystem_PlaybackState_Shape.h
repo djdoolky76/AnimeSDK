@@ -4,6 +4,8 @@
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int ParticleSystem_PlaybackState_Shape_TypeDefinitionIndex = 5223;
+
 	struct alignas(4) ParticleSystem_PlaybackState_Shape
 	{
 		::UnityEngine::ParticleSystem_PlaybackState_Seed4 m_Random; // 0x10

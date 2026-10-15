@@ -9,6 +9,8 @@ namespace EnviromentSystem { class EnviromentProfile; }
 
 namespace EnviromentSystem
 {
+	inline static constexpr unsigned int EnviroPointLightProperty_TypeDefinitionIndex = 49610;
+
 	class EnviroPointLightProperty : public ::EnviromentSystem::EnviroProperty
 	{
 	public:

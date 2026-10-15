@@ -25,6 +25,8 @@ namespace System { class String; }
 #define CJMNHDLJKLE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E0E41C0)
 #define CJMNHDLJKLE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E0E4220)
 
+inline static constexpr unsigned int CJMNHDLJKLE_TypeDefinitionIndex = 29011;
+
 	class CJMNHDLJKLE : public ::System::Object
 	{
 	public:

@@ -7,6 +7,8 @@
 
 namespace System::Buffers
 {
+	inline static constexpr unsigned int Utilities_TypeDefinitionIndex = 3753;
+
 	class Utilities : public ::System::Object
 	{
 	public:

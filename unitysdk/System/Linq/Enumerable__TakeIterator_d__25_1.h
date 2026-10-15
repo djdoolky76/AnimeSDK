@@ -6,6 +6,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 
 namespace System::Linq
 {
+	inline static constexpr unsigned int Enumerable__TakeIterator_d__25_1_TypeDefinitionIndex = 3147;
+
 	template <typename T>
 	class Enumerable__TakeIterator_d__25_1 : public ::System::Object
 	{

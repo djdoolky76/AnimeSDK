@@ -19,6 +19,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int ChatContextManager_TypeDefinitionIndex = 46579;
+
 	class ChatContextManager : public ::System::Object
 	{
 	public:

@@ -4,6 +4,8 @@
 class JJNNBBAINJI;
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 
+inline static constexpr unsigned int IJOGFHLLLCG_TypeDefinitionIndex = 44129;
+
 	class IJOGFHLLLCG : public ::System::Object
 	{
 	public:

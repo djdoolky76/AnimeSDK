@@ -32,6 +32,8 @@ namespace UnityEngine { class Renderer; }
 #define DJPBHBEFMOB_NJOBMENFBFJ_OFFSET UNITYSDK_OFFSET(0xF24FAC0)
 #define DJPBHBEFMOB_PAFCMAMJENB_OFFSET UNITYSDK_OFFSET(0xF24F2D0)
 
+inline static constexpr unsigned int DJPBHBEFMOB_TypeDefinitionIndex = 76549;
+
 	class DJPBHBEFMOB : public ::System::Object
 	{
 	public:

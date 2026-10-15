@@ -33,6 +33,8 @@ namespace System { class String; }
 #define AJNJDDFGFJL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E3C5550)
 #define AJNJDDFGFJL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E3C55B0)
 
+inline static constexpr unsigned int AJNJDDFGFJL_TypeDefinitionIndex = 27172;
+
 	class AJNJDDFGFJL : public ::System::Object
 	{
 	public:

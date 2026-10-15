@@ -27,6 +27,8 @@ namespace System { class String; }
 #define NKBBEOEGBAO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EB55B40)
 #define NKBBEOEGBAO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EB55BA0)
 
+inline static constexpr unsigned int NKBBEOEGBAO_TypeDefinitionIndex = 32026;
+
 	class NKBBEOEGBAO : public ::System::Object
 	{
 	public:

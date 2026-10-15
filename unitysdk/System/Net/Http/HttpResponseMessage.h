@@ -24,6 +24,8 @@ namespace System::Net::Http::Headers { class HttpResponseHeaders; }
 
 namespace System::Net::Http
 {
+	inline static constexpr unsigned int HttpResponseMessage_TypeDefinitionIndex = 3774;
+
 	class HttpResponseMessage : public ::System::Object
 	{
 	public:

@@ -16,6 +16,8 @@ namespace UnityEngine::Playables { class PlayableBinding_CreateOutputMethod; }
 
 namespace UnityEngine::Playables
 {
+	inline static constexpr unsigned int PlayableBinding_TypeDefinitionIndex = 4915;
+
 	struct alignas(8) PlayableBinding
 	{
 		::System::String* m_StreamName; // 0x10

@@ -19,6 +19,8 @@ namespace UnityEngine::UI { class Text; }
 #define EBCNJEFOMCG_ODKDBHMADCD_OFFSET UNITYSDK_OFFSET(0x12CEC040)
 #define EBCNJEFOMCG__ONBIND_OFFSET UNITYSDK_OFFSET(0x12CEB070)
 
+inline static constexpr unsigned int EBCNJEFOMCG_TypeDefinitionIndex = 71281;
+
 	class EBCNJEFOMCG : public ::FMPCODLIOLG
 	{
 	public:

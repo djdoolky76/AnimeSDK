@@ -11,6 +11,8 @@ namespace System { template <typename T> class Predicate_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int LightConeGrowthGuide___c_TypeDefinitionIndex = 65551;
+
 	class LightConeGrowthGuide___c : public ::System::Object
 	{
 	public:

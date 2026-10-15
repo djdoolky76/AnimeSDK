@@ -8,6 +8,8 @@ namespace UnityEngine { class Transform; }
 
 #define CKHFKFPPANI_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA12EC0)
 
+inline static constexpr unsigned int CKHFKFPPANI_TypeDefinitionIndex = 42940;
+
 	class CKHFKFPPANI : public ::System::Object
 	{
 	public:

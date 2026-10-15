@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MazePuzzleSwitchMascotRow_TypeDefinitionIndex = 14094;
+
 	class MazePuzzleSwitchMascotRow : public ::System::Object
 	{
 	public:

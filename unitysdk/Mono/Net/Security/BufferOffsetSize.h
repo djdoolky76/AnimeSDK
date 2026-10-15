@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace Mono::Net::Security
 {
+	inline static constexpr unsigned int BufferOffsetSize_TypeDefinitionIndex = 2422;
+
 	class BufferOffsetSize : public ::System::Object
 	{
 	public:

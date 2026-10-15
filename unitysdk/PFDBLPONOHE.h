@@ -31,6 +31,8 @@ namespace System { class String; }
 #define PFDBLPONOHE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DF23700)
 #define PFDBLPONOHE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DF23760)
 
+inline static constexpr unsigned int PFDBLPONOHE_TypeDefinitionIndex = 25222;
+
 	class PFDBLPONOHE : public ::System::Object
 	{
 	public:

@@ -21,6 +21,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::Motions
 {
+	inline static constexpr unsigned int MonoUIMarquee_TypeDefinitionIndex = 73545;
+
 	class MonoUIMarquee : public ::UnityEngine::MonoBehaviour
 	{
 	public:

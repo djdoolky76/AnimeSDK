@@ -10,6 +10,8 @@ namespace RPG::GameCore { class LittleGameAbilityPixAirExcelValueGetterConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LittleGameAbilityPixAirExcelValueGetterConfig_TypeDefinitionIndex = 21391;
+
 	class LittleGameAbilityPixAirExcelValueGetterConfig : public ::RPG::GameCore::BaseLittleGameAbilityValueGetterConfig
 	{
 	public:

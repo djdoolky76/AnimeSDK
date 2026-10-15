@@ -30,6 +30,8 @@ namespace System { class String; }
 #define MEAJJFGMAPG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EA07740)
 #define MEAJJFGMAPG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EA077A0)
 
+inline static constexpr unsigned int MEAJJFGMAPG_TypeDefinitionIndex = 27676;
+
 	class MEAJJFGMAPG : public ::System::Object
 	{
 	public:

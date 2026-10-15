@@ -36,6 +36,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define MFMOKFNLNNB_SET_RESTARTCOUNT_OFFSET UNITYSDK_OFFSET(0xB90C5A0)
 #define MFMOKFNLNNB_SET_TOTALTIME_OFFSET UNITYSDK_OFFSET(0xB90C5C0)
 
+inline static constexpr unsigned int MFMOKFNLNNB_TypeDefinitionIndex = 61849;
+
 	class MFMOKFNLNNB : public ::System::Object
 	{
 	public:

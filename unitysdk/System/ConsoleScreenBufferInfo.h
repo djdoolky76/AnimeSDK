@@ -5,6 +5,8 @@
 
 namespace System
 {
+	inline static constexpr unsigned int ConsoleScreenBufferInfo_TypeDefinitionIndex = 460;
+
 	struct alignas(4) ConsoleScreenBufferInfo
 	{
 		::System::Coord Size; // 0x10

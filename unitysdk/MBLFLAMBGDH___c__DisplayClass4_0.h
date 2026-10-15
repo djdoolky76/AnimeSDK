@@ -7,6 +7,8 @@ class MBLFLAMBGDH;
 #define MBLFLAMBGDH___C__DISPLAYCLASS4_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB861260)
 #define MBLFLAMBGDH___C__DISPLAYCLASS4_0__SETANCHORPOS_B__0_OFFSET UNITYSDK_OFFSET(0xB8627A0)
 
+inline static constexpr unsigned int MBLFLAMBGDH___c__DisplayClass4_0_TypeDefinitionIndex = 71537;
+
 	class MBLFLAMBGDH___c__DisplayClass4_0 : public ::System::Object
 	{
 	public:

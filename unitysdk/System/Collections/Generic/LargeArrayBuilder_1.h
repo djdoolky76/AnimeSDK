@@ -4,6 +4,8 @@
 
 namespace System::Collections::Generic
 {
+	inline static constexpr unsigned int LargeArrayBuilder_1_TypeDefinitionIndex = 3692;
+
 	template <typename T>
 	struct alignas(8) LargeArrayBuilder_1
 	{

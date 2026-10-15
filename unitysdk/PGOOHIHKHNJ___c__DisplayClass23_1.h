@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define PGOOHIHKHNJ___C__DISPLAYCLASS23_1_CTOR_OFFSET UNITYSDK_OFFSET(0xC234BE0)
 #define PGOOHIHKHNJ___C__DISPLAYCLASS23_1___PLAYDAMAGEHITEFFECT_B__0_OFFSET UNITYSDK_OFFSET(0xC235000)
 
+inline static constexpr unsigned int PGOOHIHKHNJ___c__DisplayClass23_1_TypeDefinitionIndex = 54984;
+
 	template <typename T>
 	class PGOOHIHKHNJ___c__DisplayClass23_1 : public ::System::Object
 	{

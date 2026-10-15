@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define AAPFCILMCPK_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1CC9A280)
 #define AAPFCILMCPK_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1CC99BE0)
 
+inline static constexpr unsigned int AAPFCILMCPK_TypeDefinitionIndex = 13112;
+
 	class AAPFCILMCPK : public ::System::Object
 	{
 	public:

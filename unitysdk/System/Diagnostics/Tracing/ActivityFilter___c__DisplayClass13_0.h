@@ -9,6 +9,8 @@ namespace System::Collections::Generic { class KeyValuePair; }
 
 namespace System::Diagnostics::Tracing
 {
+	inline static constexpr unsigned int ActivityFilter___c__DisplayClass13_0_TypeDefinitionIndex = 1699;
+
 	class ActivityFilter___c__DisplayClass13_0 : public ::System::Object
 	{
 	public:

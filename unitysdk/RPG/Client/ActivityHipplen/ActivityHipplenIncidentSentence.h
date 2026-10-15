@@ -13,6 +13,8 @@ namespace RPG::GameCore { class ActivityHipplenSentenceRow; }
 
 namespace RPG::Client::ActivityHipplen
 {
+	inline static constexpr unsigned int ActivityHipplenIncidentSentence_TypeDefinitionIndex = 75546;
+
 	class ActivityHipplenIncidentSentence : public ::System::Object
 	{
 	public:

@@ -39,6 +39,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int CakeRaceCatDataItem_TypeDefinitionIndex = 63015;
+
 	class CakeRaceCatDataItem : public ::System::Object
 	{
 	public:

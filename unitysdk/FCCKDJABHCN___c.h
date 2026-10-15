@@ -10,6 +10,8 @@ namespace System { class Object; }
 #define FCCKDJABHCN___C__GET__FIXEDUPDATEACTION_B__21_0_OFFSET UNITYSDK_OFFSET(0x156B4050)
 #define FCCKDJABHCN___C__GET__LATEFIXEDUPDATEACTION_B__23_0_OFFSET UNITYSDK_OFFSET(0x156B4070)
 
+inline static constexpr unsigned int FCCKDJABHCN___c_TypeDefinitionIndex = 77149;
+
 	class FCCKDJABHCN___c : public ::System::Object
 	{
 	public:

@@ -13,6 +13,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int SpecialVisionOnClip_TypeDefinitionIndex = 48312;
+
 	class SpecialVisionOnClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:

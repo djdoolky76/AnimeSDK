@@ -38,6 +38,8 @@ namespace System { class String; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int VortexBoxPuzzleBoard_TypeDefinitionIndex = 78857;
+
 	class VortexBoxPuzzleBoard : public ::RPG::Client::Prop::ScenePuzzleBoardBase
 	{
 	public:

@@ -6,6 +6,8 @@
 
 namespace CriWare
 {
+	inline static constexpr unsigned int CriAtomExCategory_ReactAisacModulationParameter_TypeDefinitionIndex = 39992;
+
 	struct alignas(4) CriAtomExCategory_ReactAisacModulationParameter
 	{
 		::System::Int32 _enableDecrementAisacModulationKey; // 0x10

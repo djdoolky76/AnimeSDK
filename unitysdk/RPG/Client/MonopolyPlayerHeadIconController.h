@@ -19,6 +19,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonopolyPlayerHeadIconController_TypeDefinitionIndex = 72845;
+
 	class MonopolyPlayerHeadIconController : public ::UnityEngine::MonoBehaviour
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueActTriggerDialogueEffectRandomConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueActTriggerDialogueEffectRandomConfig_TypeDefinitionIndex = 19634;
+
 	class RogueActTriggerDialogueEffectRandomConfig : public ::RPG::GameCore::RogueActionConfigBase
 	{
 	public:

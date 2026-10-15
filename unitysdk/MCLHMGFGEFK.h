@@ -11,6 +11,8 @@ namespace System { class String; }
 #define MCLHMGFGEFK_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1C620)
 #define MCLHMGFGEFK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1C770)
 
+inline static constexpr unsigned int MCLHMGFGEFK_TypeDefinitionIndex = 73864;
+
 	struct alignas(8) MCLHMGFGEFK
 	{
 		::System::UInt32 FJDOOKALCBI; // 0x10

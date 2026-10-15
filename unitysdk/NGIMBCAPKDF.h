@@ -6,6 +6,8 @@ namespace System { class Type; }
 #define NGIMBCAPKDF_CTOR_OFFSET UNITYSDK_OFFSET(0xBBA9E30)
 #define NGIMBCAPKDF_GET_CONFIGTYPE_OFFSET UNITYSDK_OFFSET(0xBBA9E40)
 
+inline static constexpr unsigned int NGIMBCAPKDF_TypeDefinitionIndex = 82156;
+
 	class NGIMBCAPKDF : public ::System::Attribute
 	{
 	public:

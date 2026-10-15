@@ -12,6 +12,8 @@ namespace RPG::Client { class IGamePhase; }
 #define KGANDEKHHCN__PHASEEXIT_B__3_0_OFFSET UNITYSDK_OFFSET(0xB3CDB60)
 #define KGANDEKHHCN__PHASEEXIT_B__3_1_OFFSET UNITYSDK_OFFSET(0xB3CDC00)
 
+inline static constexpr unsigned int KGANDEKHHCN_TypeDefinitionIndex = 61182;
+
 	class KGANDEKHHCN : public ::HDJIGMBHENE
 	{
 	public:

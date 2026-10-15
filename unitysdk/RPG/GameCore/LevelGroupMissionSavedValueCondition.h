@@ -12,6 +12,8 @@ namespace RPG::GameCore { class MissionCustomValue; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelGroupMissionSavedValueCondition_TypeDefinitionIndex = 17214;
+
 	class LevelGroupMissionSavedValueCondition : public ::RPG::GameCore::LevelGroupAtmosphereLoadCondition
 	{
 	public:

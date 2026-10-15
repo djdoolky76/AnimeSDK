@@ -13,6 +13,8 @@ namespace System::Threading { class WaitCallback; }
 
 namespace MiHoYo::SDK::KCP
 {
+	inline static constexpr unsigned int KCPManager___c__DisplayClass14_0_TypeDefinitionIndex = 46695;
+
 	class KCPManager___c__DisplayClass14_0 : public ::System::Object
 	{
 	public:

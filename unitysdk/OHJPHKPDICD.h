@@ -314,6 +314,8 @@ namespace RPG::GameCore { class MiActionConfigBase; }
 #define OHJPHKPDICD_POMEKLECEMK_OFFSET UNITYSDK_OFFSET(0x1D279AB0)
 #define OHJPHKPDICD_PPNLCGIJONG_OFFSET UNITYSDK_OFFSET(0x1D27E2C0)
 
+inline static constexpr unsigned int OHJPHKPDICD_TypeDefinitionIndex = 19075;
+
 	class OHJPHKPDICD : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define BEMEKKKMHLO_CTOR_OFFSET UNITYSDK_OFFSET(0xB157980)
 #define BEMEKKKMHLO_GETMARBLEBYIDINTERFACE_OFFSET UNITYSDK_OFFSET(0xB157A10)
 
+inline static constexpr unsigned int BEMEKKKMHLO_TypeDefinitionIndex = 74736;
+
 	class BEMEKKKMHLO : public ::System::Object
 	{
 	public:

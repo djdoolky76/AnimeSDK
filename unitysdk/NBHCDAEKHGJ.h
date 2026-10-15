@@ -16,6 +16,8 @@ namespace RPG::GameCore { class TurnBasedModifierInstance; }
 #define NBHCDAEKHGJ_NBCLBPDOMOG_OFFSET UNITYSDK_OFFSET(0xBAC21C0)
 #define NBHCDAEKHGJ_PEMBEFJJFKE_OFFSET UNITYSDK_OFFSET(0xBAC2270)
 
+inline static constexpr unsigned int NBHCDAEKHGJ_TypeDefinitionIndex = 57700;
+
 	class NBHCDAEKHGJ : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@ class DMDPOFBLBIE;
 #define HHNBPEEGNCL_LNGKNPJIOML_OFFSET UNITYSDK_OFFSET(0x15CD4650)
 #define HHNBPEEGNCL_SET_ISLIVE_OFFSET UNITYSDK_OFFSET(0x15CD4640)
 
+inline static constexpr unsigned int HHNBPEEGNCL_TypeDefinitionIndex = 72436;
+
 	class HHNBPEEGNCL : public ::System::Object
 	{
 	public:

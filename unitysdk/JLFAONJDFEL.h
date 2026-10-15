@@ -6,6 +6,8 @@ class OOCCBMLAELL;
 
 #define JLFAONJDFEL_CTOR_OFFSET UNITYSDK_OFFSET(0xB23EFF0)
 
+inline static constexpr unsigned int JLFAONJDFEL_TypeDefinitionIndex = 80574;
+
 	class JLFAONJDFEL : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FiveDimSetJumpEnergyVisibleAction; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimSetJumpEnergyVisibleAction_TypeDefinitionIndex = 18684;
+
 	class FiveDimSetJumpEnergyVisibleAction : public ::RPG::GameCore::FiveDimBaseEventAction
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int ChimeraDuelBattleBuffChangeEvent_TypeDefinitionIndex = 78270;
+
 	class ChimeraDuelBattleBuffChangeEvent : public ::System::Object
 	{
 	public:

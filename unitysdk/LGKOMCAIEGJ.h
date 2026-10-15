@@ -34,6 +34,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define LGKOMCAIEGJ_ONRETURN_OFFSET UNITYSDK_OFFSET(0xB69B280)
 #define LGKOMCAIEGJ__ONBIND_OFFSET UNITYSDK_OFFSET(0xB69ADF0)
 
+inline static constexpr unsigned int LGKOMCAIEGJ_TypeDefinitionIndex = 71772;
+
 	class LGKOMCAIEGJ : public ::FMPCODLIOLG
 	{
 	public:

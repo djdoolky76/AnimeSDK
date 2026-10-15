@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int HEU_AttributeData_TypeDefinitionIndex = 40422;
+
 	class HEU_AttributeData : public ::System::Object
 	{
 	public:

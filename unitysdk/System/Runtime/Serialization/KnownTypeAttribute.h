@@ -7,6 +7,8 @@ namespace System { class Type; }
 
 namespace System::Runtime::Serialization
 {
+	inline static constexpr unsigned int KnownTypeAttribute_TypeDefinitionIndex = 3710;
+
 	class KnownTypeAttribute : public ::System::Attribute
 	{
 	public:

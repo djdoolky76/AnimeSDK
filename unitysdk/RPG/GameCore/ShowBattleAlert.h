@@ -15,6 +15,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ShowBattleAlert_TypeDefinitionIndex = 22929;
+
 	class ShowBattleAlert : public ::RPG::GameCore::TaskConfig
 	{
 	public:

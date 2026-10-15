@@ -31,6 +31,8 @@ namespace System { class String; }
 #define NPPLIGADGDF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EBA3090)
 #define NPPLIGADGDF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EBA30F0)
 
+inline static constexpr unsigned int NPPLIGADGDF_TypeDefinitionIndex = 28857;
+
 	class NPPLIGADGDF : public ::System::Object
 	{
 	public:

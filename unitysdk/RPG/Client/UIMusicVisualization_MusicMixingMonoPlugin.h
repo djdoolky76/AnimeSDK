@@ -9,6 +9,8 @@ namespace UnityEngine::UI { class Graphic; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int UIMusicVisualization_MusicMixingMonoPlugin_TypeDefinitionIndex = 70831;
+
 	class UIMusicVisualization_MusicMixingMonoPlugin
 	{
 	public:

@@ -37,6 +37,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define GIPKHEMODAD_SET_CURRENTSTATEELAPSED_OFFSET UNITYSDK_OFFSET(0x15A54600)
 #define GIPKHEMODAD_SET_MUTATOR_OFFSET UNITYSDK_OFFSET(0x15A545D0)
 
+inline static constexpr unsigned int GIPKHEMODAD_TypeDefinitionIndex = 55941;
+
 	class GIPKHEMODAD : public ::System::Object
 	{
 	public:

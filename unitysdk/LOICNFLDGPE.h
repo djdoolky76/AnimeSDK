@@ -6,6 +6,8 @@
 #define LOICNFLDGPE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB805320)
 #define LOICNFLDGPE__ONINITOWNERREF_OFFSET UNITYSDK_OFFSET(0xB805130)
 
+inline static constexpr unsigned int LOICNFLDGPE_TypeDefinitionIndex = 57250;
+
 	class LOICNFLDGPE : public ::PDFGGJMMGIO
 	{
 	public:

@@ -18,6 +18,8 @@ namespace UnityEngine { class Animation; }
 
 namespace RPG::Client::ChenLingFes
 {
+	inline static constexpr unsigned int ChenLingFesFeverToastControl_TypeDefinitionIndex = 81306;
+
 	class ChenLingFesFeverToastControl : public ::Sofa::BaseSofaControl
 	{
 	public:

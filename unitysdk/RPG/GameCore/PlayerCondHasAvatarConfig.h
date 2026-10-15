@@ -10,6 +10,8 @@ namespace RPG::GameCore { class PlayerCondHasAvatarConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PlayerCondHasAvatarConfig_TypeDefinitionIndex = 19561;
+
 	class PlayerCondHasAvatarConfig : public ::RPG::GameCore::PlayerCondConfigBase
 	{
 	public:

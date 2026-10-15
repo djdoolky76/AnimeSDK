@@ -13,6 +13,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TargetFetchCurrentDamageAttacker_TypeDefinitionIndex = 24009;
+
 	class TargetFetchCurrentDamageAttacker : public ::RPG::GameCore::TargetEvaluator
 	{
 	public:

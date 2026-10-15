@@ -4,6 +4,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace System::Linq
 {
+	inline static constexpr unsigned int Enumerable_WhereSelectArrayIterator_2_TypeDefinitionIndex = 3139;
+
 	template <typename T1, typename T2>
 	class Enumerable_WhereSelectArrayIterator_2
 	{

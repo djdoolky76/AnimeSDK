@@ -6,6 +6,8 @@
 
 namespace CriWare
 {
+	inline static constexpr unsigned int CriAtomConfig_StandardVoicePoolConfig_TypeDefinitionIndex = 40153;
+
 	class CriAtomConfig_StandardVoicePoolConfig : public ::System::Object
 	{
 	public:

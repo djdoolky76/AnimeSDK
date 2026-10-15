@@ -10,6 +10,8 @@ namespace RPG::GameCore { class PassiveUnitEffectTypeMatchFactorConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PassiveUnitEffectTypeMatchFactorConfig_TypeDefinitionIndex = 17924;
+
 	class PassiveUnitEffectTypeMatchFactorConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

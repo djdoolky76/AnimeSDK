@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace EnviromentSystemV2Space
 {
+	inline static constexpr unsigned int LLGKeyValuePairsScAsset_TypeDefinitionIndex = 49190;
+
 	class LLGKeyValuePairsScAsset : public ::UnityEngine::ScriptableObject
 	{
 	public:

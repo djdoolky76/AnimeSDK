@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RA_SetStimulusInfo; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RA_SetStimulusInfo_TypeDefinitionIndex = 20044;
+
 	class RA_SetStimulusInfo : public ::RPG::GameCore::ReactionTaskConfig
 	{
 	public:

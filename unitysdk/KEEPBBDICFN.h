@@ -29,6 +29,8 @@ namespace System { class String; }
 #define KEEPBBDICFN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E809AA0)
 #define KEEPBBDICFN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E809B00)
 
+inline static constexpr unsigned int KEEPBBDICFN_TypeDefinitionIndex = 29222;
+
 	class KEEPBBDICFN : public ::System::Object
 	{
 	public:

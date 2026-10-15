@@ -10,6 +10,8 @@ namespace RPG::GameCore { class SaveMessage; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SaveMessage_TypeDefinitionIndex = 20840;
+
 	class SaveMessage : public ::RPG::GameCore::TaskConfig
 	{
 	public:

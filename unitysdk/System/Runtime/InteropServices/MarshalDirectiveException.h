@@ -11,6 +11,8 @@ namespace System::Runtime::Serialization { class SerializationInfo; }
 
 namespace System::Runtime::InteropServices
 {
+	inline static constexpr unsigned int MarshalDirectiveException_TypeDefinitionIndex = 1433;
+
 	class MarshalDirectiveException : public ::System::SystemException
 	{
 	public:

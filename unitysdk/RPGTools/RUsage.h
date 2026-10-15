@@ -4,6 +4,8 @@
 
 namespace RPGTools
 {
+	inline static constexpr unsigned int RUsage_TypeDefinitionIndex = 46930;
+
 	struct alignas(4) RUsage
 	{
 		::RPGTools::TimeVal ru_utime; // 0x10

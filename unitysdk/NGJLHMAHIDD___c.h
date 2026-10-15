@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define NGJLHMAHIDD___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB14170)
 #define NGJLHMAHIDD___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1EB14180)
 
+inline static constexpr unsigned int NGJLHMAHIDD___c_TypeDefinitionIndex = 28567;
+
 	class NGJLHMAHIDD___c : public ::System::Object
 	{
 	public:

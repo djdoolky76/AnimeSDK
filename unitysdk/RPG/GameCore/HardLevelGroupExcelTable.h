@@ -25,6 +25,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int HardLevelGroupExcelTable_TypeDefinitionIndex = 14183;
+
 	class HardLevelGroupExcelTable : public ::System::Object
 	{
 	public:

@@ -17,6 +17,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 #define IAJGGEMFOMB___C___GETBUFFAFFECTINGCELLS_B__63_0_OFFSET UNITYSDK_OFFSET(0x15E134D0)
 #define IAJGGEMFOMB___C___GETBUFFAFFECTINGCELLS_B__63_1_OFFSET UNITYSDK_OFFSET(0x15E13540)
 
+inline static constexpr unsigned int IAJGGEMFOMB___c_TypeDefinitionIndex = 79481;
+
 	class IAJGGEMFOMB___c : public ::System::Object
 	{
 	public:

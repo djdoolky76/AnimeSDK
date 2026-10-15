@@ -4,6 +4,8 @@
 
 #define KKJMAOMDCAE_OPIGALIJPOP_CTOR_OFFSET UNITYSDK_OFFSET(0xB4CEE00)
 
+inline static constexpr unsigned int KKJMAOMDCAE_OPIGALIJPOP_TypeDefinitionIndex = 64770;
+
 	class KKJMAOMDCAE_OPIGALIJPOP : public ::System::Object
 	{
 	public:

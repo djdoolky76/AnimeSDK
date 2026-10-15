@@ -10,6 +10,8 @@ namespace System { class Type; }
 #define EJPKCFDEDCC_FNAAJGAHIAI_OFFSET UNITYSDK_OFFSET(0x154F8370)
 #define EJPKCFDEDCC_IHPAKOMCHGP_OFFSET UNITYSDK_OFFSET(0x154F8670)
 
+inline static constexpr unsigned int EJPKCFDEDCC_TypeDefinitionIndex = 62589;
+
 	class EJPKCFDEDCC : public ::System::Object
 	{
 	public:

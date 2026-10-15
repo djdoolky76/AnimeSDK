@@ -15,6 +15,8 @@ namespace UnityEngine { class RenderTexture; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int CRPLensFlarePlugin_TypeDefinitionIndex = 70166;
+
 	class CRPLensFlarePlugin : public ::UnityEngine::MonoBehaviour
 	{
 	public:

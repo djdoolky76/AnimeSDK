@@ -9,6 +9,8 @@ namespace UnityEngine::UI { class Image; }
 
 namespace RPG::Client::LimaoNews
 {
+	inline static constexpr unsigned int LimaoNewsInterviewImgControl_TypeDefinitionIndex = 80377;
+
 	class LimaoNewsInterviewImgControl : public ::Sofa::BaseSofaControl
 	{
 	public:

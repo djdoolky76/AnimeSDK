@@ -13,6 +13,8 @@ namespace System { class Object; }
 #define JPEHDDNLAMI_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB2BBD90)
 #define JPEHDDNLAMI_TICK_OFFSET UNITYSDK_OFFSET(0xB2BBAF0)
 
+inline static constexpr unsigned int JPEHDDNLAMI_TypeDefinitionIndex = 58468;
+
 	class JPEHDDNLAMI : public ::GELIALJDFBL
 	{
 	public:

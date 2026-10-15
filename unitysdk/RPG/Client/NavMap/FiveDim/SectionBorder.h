@@ -17,6 +17,8 @@ namespace UnityEngine::UI { class VertexHelper; }
 
 namespace RPG::Client::NavMap::FiveDim
 {
+	inline static constexpr unsigned int SectionBorder_TypeDefinitionIndex = 74681;
+
 	class SectionBorder : public ::UnityEngine::UI::MaskableGraphic
 	{
 	public:

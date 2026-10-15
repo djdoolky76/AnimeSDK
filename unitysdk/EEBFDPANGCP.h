@@ -35,6 +35,8 @@ namespace System { class String; }
 #define EEBFDPANGCP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E265930)
 #define EEBFDPANGCP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E265990)
 
+inline static constexpr unsigned int EEBFDPANGCP_TypeDefinitionIndex = 26771;
+
 	class EEBFDPANGCP : public ::System::Object
 	{
 	public:

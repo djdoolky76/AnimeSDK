@@ -117,6 +117,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace MiHoYo::SDK::HoYoPass
 {
+	inline static constexpr unsigned int LoginManager_TypeDefinitionIndex = 8302;
+
 	class LoginManager : public ::System::Object
 	{
 	public:

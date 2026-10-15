@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 #define MMBPCMGMMIH_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D1CF7B0)
 #define MMBPCMGMMIH_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D1CF770)
 
+inline static constexpr unsigned int MMBPCMGMMIH_TypeDefinitionIndex = 23751;
+
 	class MMBPCMGMMIH : public ::RPG::GameCore::TaskConfig
 	{
 	public:

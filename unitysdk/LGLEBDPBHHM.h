@@ -4,6 +4,8 @@
 
 #define LGLEBDPBHHM_CTOR_OFFSET UNITYSDK_OFFSET(0x1C90EB20)
 
+inline static constexpr unsigned int LGLEBDPBHHM_TypeDefinitionIndex = 42332;
+
 	class LGLEBDPBHHM : public ::System::Object
 	{
 	public:

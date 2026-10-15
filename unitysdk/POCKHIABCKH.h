@@ -25,6 +25,8 @@ namespace System { class String; }
 #define POCKHIABCKH_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DFC75E0)
 #define POCKHIABCKH_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DFC7640)
 
+inline static constexpr unsigned int POCKHIABCKH_TypeDefinitionIndex = 25988;
+
 	class POCKHIABCKH : public ::System::Object
 	{
 	public:

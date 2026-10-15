@@ -11,6 +11,8 @@ namespace RPG::GameCore { class WaitSelectWheelItem; }
 #define OKLAAMDOEBL_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xBEEA3F0)
 #define OKLAAMDOEBL_TICK_OFFSET UNITYSDK_OFFSET(0xBEEA440)
 
+inline static constexpr unsigned int OKLAAMDOEBL_TypeDefinitionIndex = 53492;
+
 	class OKLAAMDOEBL : public ::GELIALJDFBL
 	{
 	public:

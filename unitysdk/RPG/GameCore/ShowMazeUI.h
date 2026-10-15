@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ShowMazeUI; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ShowMazeUI_TypeDefinitionIndex = 20620;
+
 	class ShowMazeUI : public ::RPG::GameCore::TaskConfig
 	{
 	public:

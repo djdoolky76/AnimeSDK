@@ -11,6 +11,8 @@ namespace System { class Object; }
 #define LKGIMGKIFFI___C__DISPLAYCLASS38_2_CTOR_OFFSET UNITYSDK_OFFSET(0xB7474B0)
 #define LKGIMGKIFFI___C__DISPLAYCLASS38_2__EXECUTE_B__4_OFFSET UNITYSDK_OFFSET(0xB7474C0)
 
+inline static constexpr unsigned int LKGIMGKIFFI___c__DisplayClass38_2_TypeDefinitionIndex = 76764;
+
 	template <typename T1, typename T2>
 	class LKGIMGKIFFI___c__DisplayClass38_2 : public ::System::Object
 	{

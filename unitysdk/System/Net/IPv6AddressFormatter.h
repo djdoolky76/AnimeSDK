@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace System::Net
 {
+	inline static constexpr unsigned int IPv6AddressFormatter_TypeDefinitionIndex = 2863;
+
 	struct alignas(8) IPv6AddressFormatter
 	{
 		::Il2CppArray<::System::UInt16>* address; // 0x10

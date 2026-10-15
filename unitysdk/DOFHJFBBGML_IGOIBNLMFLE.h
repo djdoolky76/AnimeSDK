@@ -8,6 +8,8 @@ namespace UnityEngine { class Shader; }
 #define DOFHJFBBGML_IGOIBNLMFLE_CTOR_OFFSET UNITYSDK_OFFSET(0x11FE44C0)
 #define DOFHJFBBGML_IGOIBNLMFLE_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0x11FE6AF0)
 
+inline static constexpr unsigned int DOFHJFBBGML_IGOIBNLMFLE_TypeDefinitionIndex = 47424;
+
 	class DOFHJFBBGML_IGOIBNLMFLE : public ::System::Object
 	{
 	public:

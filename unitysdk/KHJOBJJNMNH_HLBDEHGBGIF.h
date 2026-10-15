@@ -13,6 +13,8 @@ namespace System { class Object; }
 #define KHJOBJJNMNH_HLBDEHGBGIF_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xB40BA70)
 #define KHJOBJJNMNH_HLBDEHGBGIF_INVOKE_OFFSET UNITYSDK_OFFSET(0xB40B420)
 
+inline static constexpr unsigned int KHJOBJJNMNH_HLBDEHGBGIF_TypeDefinitionIndex = 54329;
+
 	class KHJOBJJNMNH_HLBDEHGBGIF : public ::System::MulticastDelegate
 	{
 	public:

@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ShowSpaceZooMainPage_TypeDefinitionIndex = 20907;
+
 	class ShowSpaceZooMainPage : public ::RPG::GameCore::TaskConfig
 	{
 	public:

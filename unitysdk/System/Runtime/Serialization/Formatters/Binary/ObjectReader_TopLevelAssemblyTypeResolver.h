@@ -10,6 +10,8 @@ namespace System::Reflection { class Assembly; }
 
 namespace System::Runtime::Serialization::Formatters::Binary
 {
+	inline static constexpr unsigned int ObjectReader_TopLevelAssemblyTypeResolver_TypeDefinitionIndex = 1189;
+
 	class ObjectReader_TopLevelAssemblyTypeResolver : public ::System::Object
 	{
 	public:

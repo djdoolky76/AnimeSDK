@@ -9,6 +9,8 @@ namespace System::Text { class Encoding; }
 
 namespace System::Net::Http
 {
+	inline static constexpr unsigned int StringContent_TypeDefinitionIndex = 3776;
+
 	class StringContent : public ::System::Net::Http::ByteArrayContent
 	{
 	public:

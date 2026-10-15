@@ -3,6 +3,8 @@
 #include "unitysdk/UnityEngine/Vector3.h"
 namespace System { class Action; }
 
+inline static constexpr unsigned int MLFEHGAFNBE_TypeDefinitionIndex = 73967;
+
 	struct alignas(8) MLFEHGAFNBE
 	{
 		::System::Boolean NLDLLPECLCH; // 0x10

@@ -10,6 +10,8 @@ namespace RPG::Client::MechCraft::View { class MechCraftTalentPathUnlockDisplayD
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftTalentPathUnlockDisplayDataProvider_TypeDefinitionIndex = 79982;
+
 	class MechCraftTalentPathUnlockDisplayDataProvider : public ::System::Object
 	{
 	public:

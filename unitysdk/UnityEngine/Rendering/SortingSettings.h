@@ -16,6 +16,8 @@ namespace UnityEngine { class Camera; }
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int SortingSettings_TypeDefinitionIndex = 4773;
+
 	struct alignas(4) SortingSettings
 	{
 		::UnityEngine::Matrix4x4 m_WorldToCameraMatrix; // 0x10

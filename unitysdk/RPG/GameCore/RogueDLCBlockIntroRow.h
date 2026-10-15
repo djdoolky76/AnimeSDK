@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueDLCBlockIntroRow_TypeDefinitionIndex = 14783;
+
 	class RogueDLCBlockIntroRow : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RtBattleStageCellConfig_TypeDefinitionIndex = 18051;
+
 	class RtBattleStageCellConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

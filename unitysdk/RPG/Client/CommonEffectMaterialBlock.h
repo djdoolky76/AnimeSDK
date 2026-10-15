@@ -32,6 +32,8 @@ namespace UnityEngine { class Renderer; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int CommonEffectMaterialBlock_TypeDefinitionIndex = 70394;
+
 	class CommonEffectMaterialBlock : public ::UnityEngine::MonoBehaviour
 	{
 	public:

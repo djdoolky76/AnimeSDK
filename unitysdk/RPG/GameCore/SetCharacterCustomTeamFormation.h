@@ -15,6 +15,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetCharacterCustomTeamFormation_TypeDefinitionIndex = 22646;
+
 	class SetCharacterCustomTeamFormation : public ::RPG::GameCore::TaskConfig
 	{
 	public:

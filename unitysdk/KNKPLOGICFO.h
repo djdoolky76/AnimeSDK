@@ -22,6 +22,8 @@ namespace System { class Action; }
 #define KNKPLOGICFO_OHGHKKHLCPD_OFFSET UNITYSDK_OFFSET(0x1EC32320)
 #define KNKPLOGICFO_OIGLFKLNHDJ_OFFSET UNITYSDK_OFFSET(0x1EC323E0)
 
+inline static constexpr unsigned int KNKPLOGICFO_TypeDefinitionIndex = 35325;
+
 	class KNKPLOGICFO : public ::System::Object
 	{
 	public:

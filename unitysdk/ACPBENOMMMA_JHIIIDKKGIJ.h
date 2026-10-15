@@ -9,6 +9,8 @@ namespace UnityEngine { class Transform; }
 
 #define ACPBENOMMMA_JHIIIDKKGIJ_CTOR_OFFSET UNITYSDK_OFFSET(0xB12FD60)
 
+inline static constexpr unsigned int ACPBENOMMMA_JHIIIDKKGIJ_TypeDefinitionIndex = 58444;
+
 	class ACPBENOMMMA_JHIIIDKKGIJ : public ::System::Object
 	{
 	public:

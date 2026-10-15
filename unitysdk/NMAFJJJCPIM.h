@@ -8,6 +8,8 @@ class NMAFJJJCPIM;
 #define NMAFJJJCPIM_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D234F50)
 #define NMAFJJJCPIM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D234F10)
 
+inline static constexpr unsigned int NMAFJJJCPIM_TypeDefinitionIndex = 22388;
+
 	class NMAFJJJCPIM : public ::RPG::GameCore::TaskConfig
 	{
 	public:

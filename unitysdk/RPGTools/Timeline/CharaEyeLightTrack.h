@@ -11,6 +11,8 @@ namespace UnityEngine::Timeline { class TimelineClip; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int CharaEyeLightTrack_TypeDefinitionIndex = 47931;
+
 	class CharaEyeLightTrack : public ::RPGTools::Timeline::CharacterTrack
 	{
 	public:

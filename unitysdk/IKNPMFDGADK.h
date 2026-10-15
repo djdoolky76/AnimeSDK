@@ -40,6 +40,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 #define IKNPMFDGADK__GET_SUBMITCOMMAND_B__10_0_OFFSET UNITYSDK_OFFSET(0x1649F080)
 #define IKNPMFDGADK___SUBMIT_B__33_0_OFFSET UNITYSDK_OFFSET(0x1649F210)
 
+inline static constexpr unsigned int IKNPMFDGADK_TypeDefinitionIndex = 79588;
+
 	class IKNPMFDGADK : public ::System::Object
 	{
 	public:

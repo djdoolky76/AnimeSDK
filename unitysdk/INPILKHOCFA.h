@@ -22,6 +22,8 @@ namespace System { class String; }
 #define INPILKHOCFA_MFCOINKALKA_OFFSET UNITYSDK_OFFSET(0x164F9390)
 #define INPILKHOCFA_MGKOFHJGLKP_OFFSET UNITYSDK_OFFSET(0x164F9810)
 
+inline static constexpr unsigned int INPILKHOCFA_TypeDefinitionIndex = 70162;
+
 	class INPILKHOCFA : public ::BEAIJJCDJHO
 	{
 	public:

@@ -10,6 +10,8 @@ namespace UnityEngine { class ComputeShader; }
 #define IOLIAAFBFON_PIIIIACJBAI_NFFAELNJGMK_OFFSET UNITYSDK_OFFSET(0x16512070)
 #define IOLIAAFBFON_PIIIIACJBAI_PCKEJOJIOOM_OFFSET UNITYSDK_OFFSET(0x16512040)
 
+inline static constexpr unsigned int IOLIAAFBFON_PIIIIACJBAI_TypeDefinitionIndex = 47497;
+
 	class IOLIAAFBFON_PIIIIACJBAI : public ::System::Object
 	{
 	public:

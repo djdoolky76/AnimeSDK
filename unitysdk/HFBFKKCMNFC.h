@@ -12,6 +12,8 @@
 #define HFBFKKCMNFC_SET_NEEDRANDOMSTARTINDEX_OFFSET UNITYSDK_OFFSET(0xF61D0)
 #define HFBFKKCMNFC_SET_REPEATCOUNT_OFFSET UNITYSDK_OFFSET(0xACF0)
 
+inline static constexpr unsigned int HFBFKKCMNFC_TypeDefinitionIndex = 68934;
+
 	struct alignas(4) HFBFKKCMNFC
 	{
 		::System::Single _Interval_k__BackingField; // 0x10

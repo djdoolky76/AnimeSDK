@@ -60,6 +60,8 @@ namespace System { class String; }
 #define OJHHACMHFKA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DE83930)
 #define OJHHACMHFKA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DE83990)
 
+inline static constexpr unsigned int OJHHACMHFKA_TypeDefinitionIndex = 31879;
+
 	class OJHHACMHFKA : public ::System::Object
 	{
 	public:

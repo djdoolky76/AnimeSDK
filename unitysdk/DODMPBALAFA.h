@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define DODMPBALAFA_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1CD535B0)
 #define DODMPBALAFA_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1CD52ED0)
 
+inline static constexpr unsigned int DODMPBALAFA_TypeDefinitionIndex = 14196;
+
 	class DODMPBALAFA : public ::System::Object
 	{
 	public:

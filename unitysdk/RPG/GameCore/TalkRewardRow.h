@@ -9,6 +9,8 @@ namespace RPG::GameCore { class TalkRewardRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TalkRewardRow_TypeDefinitionIndex = 15215;
+
 	class TalkRewardRow : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace System::Diagnostics { class TraceListenerCollection; }
 
 namespace System::Diagnostics
 {
+	inline static constexpr unsigned int Trace_TypeDefinitionIndex = 2536;
+
 	class Trace : public ::System::Object
 	{
 	public:

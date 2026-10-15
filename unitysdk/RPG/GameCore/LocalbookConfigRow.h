@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LocalbookConfigRow_TypeDefinitionIndex = 12907;
+
 	class LocalbookConfigRow : public ::System::Object
 	{
 	public:

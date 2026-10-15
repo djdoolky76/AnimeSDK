@@ -15,6 +15,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int MonoEffectFollowTimelinePlugin_TypeDefinitionIndex = 48461;
+
 	class MonoEffectFollowTimelinePlugin : public ::UnityEngine::MonoBehaviour
 	{
 	public:

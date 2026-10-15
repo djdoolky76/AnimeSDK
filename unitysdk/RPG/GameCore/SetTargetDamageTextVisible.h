@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetTargetDamageTextVisible_TypeDefinitionIndex = 23215;
+
 	class SetTargetDamageTextVisible : public ::RPG::GameCore::TaskConfig
 	{
 	public:

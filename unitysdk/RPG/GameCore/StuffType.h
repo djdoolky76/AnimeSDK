@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int StuffType_TypeDefinitionIndex = 14224;
+
 	enum class StuffType : ::System::Int32
 	{
 		Unknown = 0,

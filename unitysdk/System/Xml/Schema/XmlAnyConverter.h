@@ -36,6 +36,8 @@ namespace System::Xml::XPath { class XPathNavigator; }
 
 namespace System::Xml::Schema
 {
+	inline static constexpr unsigned int XmlAnyConverter_TypeDefinitionIndex = 2230;
+
 	class XmlAnyConverter : public ::System::Xml::Schema::XmlBaseConverter
 	{
 	public:

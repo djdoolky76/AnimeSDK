@@ -9,6 +9,8 @@ namespace UnityEngine::UIElements { class IVisualTreeUpdater; }
 
 namespace UnityEngine::UIElements
 {
+	inline static constexpr unsigned int VisualTreeUpdater_UpdaterArray_TypeDefinitionIndex = 5908;
+
 	class VisualTreeUpdater_UpdaterArray : public ::System::Object
 	{
 	public:

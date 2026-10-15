@@ -30,6 +30,8 @@ namespace UnityEngine { class Coroutine; }
 #define ODCFEGFDIMM___INITAUDIOPCK_B__12_0_OFFSET UNITYSDK_OFFSET(0xBD88740)
 #define ODCFEGFDIMM___INITGAME_B__13_0_OFFSET UNITYSDK_OFFSET(0xBD88890)
 
+inline static constexpr unsigned int ODCFEGFDIMM_TypeDefinitionIndex = 61150;
+
 	class ODCFEGFDIMM : public ::RPG::Client::LoginPhase
 	{
 	public:

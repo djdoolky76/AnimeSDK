@@ -10,6 +10,8 @@ namespace RPG::Client { class OnAssetOperationDelegate; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int CRPLensFlarePlugin___c__DisplayClass1_0_TypeDefinitionIndex = 70167;
+
 	class CRPLensFlarePlugin___c__DisplayClass1_0 : public ::System::Object
 	{
 	public:

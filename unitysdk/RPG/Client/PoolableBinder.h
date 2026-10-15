@@ -26,6 +26,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PoolableBinder_TypeDefinitionIndex = 72631;
+
 	class PoolableBinder : public ::UnityEngine::MonoBehaviour
 	{
 	public:

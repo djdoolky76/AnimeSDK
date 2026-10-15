@@ -11,6 +11,8 @@ namespace RPG::GameCore { class DebateShowToast; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DebateShowToast_TypeDefinitionIndex = 21933;
+
 	class DebateShowToast : public ::RPG::GameCore::TaskConfig
 	{
 	public:

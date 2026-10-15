@@ -21,6 +21,8 @@ namespace RPG::GameCore { class GridFightDragOpgConsumableSelector; }
 #define MJKAAFGONCL_MDJBPLKFAKP_OFFSET UNITYSDK_OFFSET(0xB96E190)
 #define MJKAAFGONCL_OJOFNANIKLC_OFFSET UNITYSDK_OFFSET(0xB96DE90)
 
+inline static constexpr unsigned int MJKAAFGONCL_TypeDefinitionIndex = 65502;
+
 	class MJKAAFGONCL : public ::System::Object
 	{
 	public:

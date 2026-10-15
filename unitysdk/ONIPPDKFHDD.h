@@ -18,6 +18,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define ONIPPDKFHDD_SET_ACHIEVEMENTID_OFFSET UNITYSDK_OFFSET(0xBF57DB0)
 #define ONIPPDKFHDD_SET_DISPOSED_OFFSET UNITYSDK_OFFSET(0xBF57D90)
 
+inline static constexpr unsigned int ONIPPDKFHDD_TypeDefinitionIndex = 61369;
+
 	class ONIPPDKFHDD : public ::System::Object
 	{
 	public:

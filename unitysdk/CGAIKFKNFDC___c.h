@@ -9,6 +9,8 @@ namespace System { template <typename T> class Comparison_1; }
 #define CGAIKFKNFDC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DD16BB0)
 #define CGAIKFKNFDC___C__CREATE_B__1_0_OFFSET UNITYSDK_OFFSET(0x1DD16BC0)
 
+inline static constexpr unsigned int CGAIKFKNFDC___c_TypeDefinitionIndex = 6189;
+
 	class CGAIKFKNFDC___c : public ::System::Object
 	{
 	public:

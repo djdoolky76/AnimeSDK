@@ -10,6 +10,8 @@ namespace UnityEngine { class Transform; }
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int Test_Transform_TypeDefinitionIndex = 40713;
+
 	class Test_Transform : public ::System::Object
 	{
 	public:

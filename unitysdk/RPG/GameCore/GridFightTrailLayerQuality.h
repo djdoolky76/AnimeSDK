@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightTrailLayerQuality_TypeDefinitionIndex = 13657;
+
 	enum class GridFightTrailLayerQuality : ::System::Int32
 	{
 		Copper = 0,

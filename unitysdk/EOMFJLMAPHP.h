@@ -5,6 +5,8 @@
 
 #define EOMFJLMAPHP_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA61C50)
 
+inline static constexpr unsigned int EOMFJLMAPHP_TypeDefinitionIndex = 43768;
+
 	class EOMFJLMAPHP : public ::System::Object
 	{
 	public:

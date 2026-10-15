@@ -5,6 +5,8 @@
 
 namespace HedgehogTeam::EasyTouch
 {
+	inline static constexpr unsigned int QuickEnterOverExist_OnTouchOver_TypeDefinitionIndex = 40260;
+
 	class QuickEnterOverExist_OnTouchOver
 	{
 	public:

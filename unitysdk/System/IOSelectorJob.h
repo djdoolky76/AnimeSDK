@@ -13,6 +13,8 @@ namespace System::Threading { class ThreadAbortException; }
 
 namespace System
 {
+	inline static constexpr unsigned int IOSelectorJob_TypeDefinitionIndex = 2489;
+
 	class IOSelectorJob : public ::System::Object
 	{
 	public:

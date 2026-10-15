@@ -6,6 +6,8 @@
 
 namespace UnityEngine::Scripting
 {
+	inline static constexpr unsigned int GeneratedByOldBindingsGeneratorAttribute_TypeDefinitionIndex = 3740;
+
 	class GeneratedByOldBindingsGeneratorAttribute : public ::System::Attribute
 	{
 	public:

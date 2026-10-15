@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ShowMissionInfo; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ShowMissionInfo_TypeDefinitionIndex = 24064;
+
 	class ShowMissionInfo : public ::RPG::GameCore::TaskConfig
 	{
 	public:

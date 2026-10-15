@@ -33,6 +33,8 @@ namespace System { class String; }
 #define KIAGIOBGGNK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E8512D0)
 #define KIAGIOBGGNK_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E851330)
 
+inline static constexpr unsigned int KIAGIOBGGNK_TypeDefinitionIndex = 31483;
+
 	class KIAGIOBGGNK : public ::System::Object
 	{
 	public:

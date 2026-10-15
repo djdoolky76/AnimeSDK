@@ -9,6 +9,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 #define OMBOPIEDEJG___C_CTOR_OFFSET UNITYSDK_OFFSET(0xBF1F1C0)
 #define OMBOPIEDEJG___C__GETLEVELGROUPSORDERED_B__4_0_OFFSET UNITYSDK_OFFSET(0xBF1F1D0)
 
+inline static constexpr unsigned int OMBOPIEDEJG___c_TypeDefinitionIndex = 82088;
+
 	class OMBOPIEDEJG___c : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace RPG::GameCore { class ShowFrameCaptureUI; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ShowFrameCaptureUI_TypeDefinitionIndex = 23230;
+
 	class ShowFrameCaptureUI : public ::RPG::GameCore::TaskConfig
 	{
 	public:

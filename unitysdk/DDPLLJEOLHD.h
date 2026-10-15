@@ -4,6 +4,8 @@
 
 #define DDPLLJEOLHD_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA25770)
 
+inline static constexpr unsigned int DDPLLJEOLHD_TypeDefinitionIndex = 43693;
+
 	class DDPLLJEOLHD : public ::System::Object
 	{
 	public:

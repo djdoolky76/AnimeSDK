@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TrainPartyGridMove; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TrainPartyGridMove_TypeDefinitionIndex = 22363;
+
 	class TrainPartyGridMove : public ::RPG::GameCore::TaskConfig
 	{
 	public:

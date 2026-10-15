@@ -9,6 +9,8 @@ namespace System { class String; }
 
 namespace System::Net
 {
+	inline static constexpr unsigned int CookieTokenizer_RecognizedAttribute_TypeDefinitionIndex = 2797;
+
 	struct alignas(8) CookieTokenizer_RecognizedAttribute
 	{
 		::System::String* m_name; // 0x10

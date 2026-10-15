@@ -36,6 +36,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define CHARACTERLINELIGHTGROUP_UPDATELIGHTINFO_OFFSET UNITYSDK_OFFSET(0xDCE8280)
 #define CHARACTERLINELIGHTGROUP_UPDATE_OFFSET UNITYSDK_OFFSET(0xDCE87C0)
 
+inline static constexpr unsigned int CharacterLineLightGroup_TypeDefinitionIndex = 47461;
+
 	class CharacterLineLightGroup : public ::ScenenLightManager::SceneManagedLightComponent1
 	{
 	public:

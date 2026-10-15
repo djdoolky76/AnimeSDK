@@ -10,6 +10,8 @@ namespace System { class String; }
 #define DCGAKLDFEKM_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DCD7930)
 #define DCGAKLDFEKM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DCD78F0)
 
+inline static constexpr unsigned int DCGAKLDFEKM_TypeDefinitionIndex = 21513;
+
 	class DCGAKLDFEKM : public ::RPG::GameCore::TaskConfig
 	{
 	public:

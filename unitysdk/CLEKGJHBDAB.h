@@ -9,6 +9,8 @@ namespace RPG::Client { class Freelook3rdRigParams; }
 #define CLEKGJHBDAB_CTOR_OFFSET UNITYSDK_OFFSET(0xD77BCE0)
 #define CLEKGJHBDAB_IIGINGICOLL_OFFSET UNITYSDK_OFFSET(0xD77BBD0)
 
+inline static constexpr unsigned int CLEKGJHBDAB_TypeDefinitionIndex = 69678;
+
 	class CLEKGJHBDAB : public ::System::Object
 	{
 	public:

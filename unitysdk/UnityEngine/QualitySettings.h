@@ -23,6 +23,8 @@ namespace System { class String; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int QualitySettings_TypeDefinitionIndex = 4133;
+
 	class QualitySettings : public ::UnityEngine::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace RPG::GameCore { class PropRewardPreview; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PropRewardPreview_TypeDefinitionIndex = 22068;
+
 	class PropRewardPreview : public ::RPG::GameCore::TaskConfig
 	{
 	public:

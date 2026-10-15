@@ -15,6 +15,8 @@ namespace System { class String; }
 
 namespace System::Buffers
 {
+	inline static constexpr unsigned int StandardFormat_TypeDefinitionIndex = 5003;
+
 	struct alignas(4) StandardFormat
 	{
 		::System::Byte _format; // 0x10

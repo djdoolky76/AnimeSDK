@@ -6,6 +6,8 @@ namespace System { class String; }
 #define ECCCMPOJNJE_CTOR_OFFSET UNITYSDK_OFFSET(0x12D08490)
 #define ECCCMPOJNJE_ISVALUEEQUALSTO_OFFSET UNITYSDK_OFFSET(0x12D084C0)
 
+inline static constexpr unsigned int ECCCMPOJNJE_TypeDefinitionIndex = 62087;
+
 	class ECCCMPOJNJE
 	{
 	public:

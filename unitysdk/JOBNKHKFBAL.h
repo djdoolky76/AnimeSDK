@@ -4,6 +4,8 @@
 
 #define JOBNKHKFBAL_CTOR_OFFSET UNITYSDK_OFFSET(0xB29EEE0)
 
+inline static constexpr unsigned int JOBNKHKFBAL_TypeDefinitionIndex = 47849;
+
 	class JOBNKHKFBAL : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

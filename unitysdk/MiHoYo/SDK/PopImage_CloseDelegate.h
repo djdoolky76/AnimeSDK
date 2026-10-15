@@ -13,6 +13,8 @@ namespace System { class Object; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int PopImage_CloseDelegate_TypeDefinitionIndex = 8256;
+
 	class PopImage_CloseDelegate : public ::System::MulticastDelegate
 	{
 	public:

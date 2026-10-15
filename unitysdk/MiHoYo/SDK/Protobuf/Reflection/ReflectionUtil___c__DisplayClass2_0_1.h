@@ -5,6 +5,8 @@ namespace System::Reflection { class MethodInfo; }
 
 namespace MiHoYo::SDK::Protobuf::Reflection
 {
+	inline static constexpr unsigned int ReflectionUtil___c__DisplayClass2_0_1_TypeDefinitionIndex = 35849;
+
 	template <typename T>
 	class ReflectionUtil___c__DisplayClass2_0_1 : public ::System::Object
 	{

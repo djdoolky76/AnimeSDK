@@ -43,6 +43,8 @@ namespace System { class String; }
 #define PJMGBLIFDFP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DF801F0)
 #define PJMGBLIFDFP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DF80250)
 
+inline static constexpr unsigned int PJMGBLIFDFP_TypeDefinitionIndex = 25795;
+
 	class PJMGBLIFDFP : public ::System::Object
 	{
 	public:

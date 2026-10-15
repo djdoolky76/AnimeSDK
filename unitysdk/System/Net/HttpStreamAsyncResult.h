@@ -17,6 +17,8 @@ namespace System::Threading { class WaitHandle; }
 
 namespace System::Net
 {
+	inline static constexpr unsigned int HttpStreamAsyncResult_TypeDefinitionIndex = 2856;
+
 	class HttpStreamAsyncResult : public ::System::Object
 	{
 	public:

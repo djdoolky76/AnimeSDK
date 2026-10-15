@@ -7,6 +7,8 @@ namespace UnityEngine::Rendering { class BatchAnimationBoneMask; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int BatchAnimationGraphMaskLayerConfig_BatchAnimationMaskBoneMaskConfig_TypeDefinitionIndex = 60013;
+
 	class BatchAnimationGraphMaskLayerConfig_BatchAnimationMaskBoneMaskConfig : public ::System::Object
 	{
 	public:

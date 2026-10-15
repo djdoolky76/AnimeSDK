@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int GPPKIMDCPBM_CJCLIBCCOIJ_TypeDefinitionIndex = 31100;
+
 	enum class GPPKIMDCPBM_CJCLIBCCOIJ : ::System::Int32
 	{
 		NLCDGIPGFDJ = 0,

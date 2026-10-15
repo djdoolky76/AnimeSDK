@@ -6,6 +6,8 @@ namespace RPG::Client { class ShowAttackTimeParam; }
 #define MADHNHEMBOJ___C__DISPLAYCLASS35_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB847740)
 #define MADHNHEMBOJ___C__DISPLAYCLASS35_0___ONUPDATEATTACKTIME_B__0_OFFSET UNITYSDK_OFFSET(0xB84B4A0)
 
+inline static constexpr unsigned int MADHNHEMBOJ___c__DisplayClass35_0_TypeDefinitionIndex = 71208;
+
 	class MADHNHEMBOJ___c__DisplayClass35_0 : public ::System::Object
 	{
 	public:

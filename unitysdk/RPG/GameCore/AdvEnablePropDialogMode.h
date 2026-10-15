@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdvEnablePropDialogMode_TypeDefinitionIndex = 20339;
+
 	class AdvEnablePropDialogMode : public ::RPG::GameCore::TaskConfig
 	{
 	public:

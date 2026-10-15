@@ -68,6 +68,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::LittleGame::ChimeraDuel
 {
+	inline static constexpr unsigned int ChimeraDuelGameInstance_TypeDefinitionIndex = 77411;
+
 	class ChimeraDuelGameInstance : public ::HCLPKMIIANI
 	{
 	public:

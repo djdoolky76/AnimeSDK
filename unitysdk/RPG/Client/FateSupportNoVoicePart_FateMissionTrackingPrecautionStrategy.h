@@ -8,6 +8,8 @@ namespace System { class Action; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int FateSupportNoVoicePart_FateMissionTrackingPrecautionStrategy_TypeDefinitionIndex = 64162;
+
 	class FateSupportNoVoicePart_FateMissionTrackingPrecautionStrategy : public ::System::Object
 	{
 	public:

@@ -30,6 +30,8 @@ namespace System { class String; }
 #define EGOBMOAGCFL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E29B730)
 #define EGOBMOAGCFL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E29B790)
 
+inline static constexpr unsigned int EGOBMOAGCFL_TypeDefinitionIndex = 33910;
+
 	class EGOBMOAGCFL : public ::System::Object
 	{
 	public:

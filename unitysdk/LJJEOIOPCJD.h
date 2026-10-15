@@ -38,6 +38,8 @@ namespace RPG::GameCore::Match3 { class Match3ActionBase; }
 #define LJJEOIOPCJD_PLMPBNAEIGN_OFFSET UNITYSDK_OFFSET(0x1D102B90)
 #define LJJEOIOPCJD_POMEKLECEMK_OFFSET UNITYSDK_OFFSET(0x1D102DC0)
 
+inline static constexpr unsigned int LJJEOIOPCJD_TypeDefinitionIndex = 24954;
+
 	class LJJEOIOPCJD : public ::System::Object
 	{
 	public:

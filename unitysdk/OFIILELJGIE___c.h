@@ -11,6 +11,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 #define OFIILELJGIE___C__GET_ISALLREQUIREDMET_B__5_0_OFFSET UNITYSDK_OFFSET(0x1C5795D0)
 #define OFIILELJGIE___C___ITERATEOPTIONALTRACKERS_B__36_0_OFFSET UNITYSDK_OFFSET(0x1C579630)
 
+inline static constexpr unsigned int OFIILELJGIE___c_TypeDefinitionIndex = 41825;
+
 	class OFIILELJGIE___c : public ::System::Object
 	{
 	public:

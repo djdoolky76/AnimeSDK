@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::Win
 {
+	inline static constexpr unsigned int BiliBiliManager___c__DisplayClass27_0_TypeDefinitionIndex = 9325;
+
 	class BiliBiliManager___c__DisplayClass27_0 : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace RPG::Client { class BaseGachaPoolData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GachaGroupData_TypeDefinitionIndex = 64318;
+
 	class GachaGroupData : public ::RPG::Client::BaseGachaGroupData
 	{
 	public:

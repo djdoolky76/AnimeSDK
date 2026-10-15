@@ -15,6 +15,8 @@ namespace UnityEngine { class RenderTexture; }
 #define ASTRAFX_DEMOCOMPONENT_REFRESHASTRAFXRENDERER_OFFSET UNITYSDK_OFFSET(0x15BCBFF0)
 #define ASTRAFX_DEMOCOMPONENT_RESETSIMULATIONSTATE_OFFSET UNITYSDK_OFFSET(0x15BCBCF0)
 
+inline static constexpr unsigned int AstraFX_DemoComponent_TypeDefinitionIndex = 47595;
+
 	class AstraFX_DemoComponent : public ::UnityEngine::MonoBehaviour
 	{
 	public:

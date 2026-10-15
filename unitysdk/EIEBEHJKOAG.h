@@ -20,6 +20,8 @@ namespace System::Net { class WebException; }
 #define EIEBEHJKOAG_MGMPKMBFILH_OFFSET UNITYSDK_OFFSET(0x154BF7C0)
 #define EIEBEHJKOAG_PGIBIIAJNKJ_OFFSET UNITYSDK_OFFSET(0x154BF6A0)
 
+inline static constexpr unsigned int EIEBEHJKOAG_TypeDefinitionIndex = 47405;
+
 	class EIEBEHJKOAG : public ::System::Object
 	{
 	public:

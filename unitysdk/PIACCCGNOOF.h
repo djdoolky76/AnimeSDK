@@ -27,6 +27,8 @@ namespace System { class String; }
 #define PIACCCGNOOF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DF3FE90)
 #define PIACCCGNOOF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DF3FEF0)
 
+inline static constexpr unsigned int PIACCCGNOOF_TypeDefinitionIndex = 33269;
+
 	class PIACCCGNOOF : public ::System::Object
 	{
 	public:

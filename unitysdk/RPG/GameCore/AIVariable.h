@@ -17,6 +17,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AIVariable_TypeDefinitionIndex = 15605;
+
 	class AIVariable : public ::RPG::GameCore::JsonConfig
 	{
 	public:

@@ -11,6 +11,8 @@ namespace RPG::GameCore { class CakeRaceActionChangeCurSectionNormalCell; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CakeRaceActionChangeCurSectionNormalCell_TypeDefinitionIndex = 18338;
+
 	class CakeRaceActionChangeCurSectionNormalCell : public ::RPG::GameCore::CakeRaceActionBase
 	{
 	public:

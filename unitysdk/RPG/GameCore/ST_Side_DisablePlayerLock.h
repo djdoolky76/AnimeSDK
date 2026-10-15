@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ST_Side_DisablePlayerLock; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ST_Side_DisablePlayerLock_TypeDefinitionIndex = 20141;
+
 	class ST_Side_DisablePlayerLock : public ::RPG::GameCore::STTaskConfig
 	{
 	public:

@@ -26,6 +26,8 @@ namespace RPG::GameCore { class RestaurantShopItemRow; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ElfShopItemData_TypeDefinitionIndex = 63759;
+
 	class ElfShopItemData : public ::System::Object
 	{
 	public:

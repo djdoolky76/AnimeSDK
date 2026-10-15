@@ -64,6 +64,8 @@ namespace UnityEngine { class Animator; }
 
 namespace RPG::Client::FateRin::Battle
 {
+	inline static constexpr unsigned int FateRinBattleEnemyEnergyBarViewModel_TypeDefinitionIndex = 80859;
+
 	class FateRinBattleEnemyEnergyBarViewModel : public ::RPG::Client::FateRin::BaseViewModel
 	{
 	public:

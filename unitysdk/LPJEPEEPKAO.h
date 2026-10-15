@@ -9,6 +9,8 @@ namespace RPG::Client { class IRogueMiracleInGame; }
 #define LPJEPEEPKAO_NOOOLDAKHIM_1_OFFSET UNITYSDK_OFFSET(0xB822110)
 #define LPJEPEEPKAO_NOOOLDAKHIM_OFFSET UNITYSDK_OFFSET(0xB821F80)
 
+inline static constexpr unsigned int LPJEPEEPKAO_TypeDefinitionIndex = 67279;
+
 	class LPJEPEEPKAO : public ::System::Object
 	{
 	public:

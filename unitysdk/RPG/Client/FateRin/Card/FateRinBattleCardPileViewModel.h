@@ -23,6 +23,8 @@ namespace System::Collections::ObjectModel { template <typename T> class ReadOnl
 
 namespace RPG::Client::FateRin::Card
 {
+	inline static constexpr unsigned int FateRinBattleCardPileViewModel_TypeDefinitionIndex = 81124;
+
 	class FateRinBattleCardPileViewModel : public ::RPG::Client::FateRin::BaseViewModel
 	{
 	public:

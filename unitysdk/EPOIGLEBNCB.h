@@ -10,6 +10,8 @@ namespace System { class String; }
 #define EPOIGLEBNCB_CTOR_OFFSET UNITYSDK_OFFSET(0x1CDC16B0)
 #define EPOIGLEBNCB_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CDC1460)
 
+inline static constexpr unsigned int EPOIGLEBNCB_TypeDefinitionIndex = 13915;
+
 	class EPOIGLEBNCB : public ::System::Object
 	{
 	public:

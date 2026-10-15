@@ -12,6 +12,8 @@ namespace UnityEngine::Timeline { class TimelineClip; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int SpecialVisionTrack_TypeDefinitionIndex = 48314;
+
 	class SpecialVisionTrack : public ::UnityEngine::Timeline::TrackAsset
 	{
 	public:

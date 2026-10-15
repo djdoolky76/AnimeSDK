@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int IDCOKMGFCGJ_ForceEntityLodReason_TypeDefinitionIndex = 57253;
+
 	enum class IDCOKMGFCGJ_ForceEntityLodReason : ::System::Int32
 	{
 		Default = 0,

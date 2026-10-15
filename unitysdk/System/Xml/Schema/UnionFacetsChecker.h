@@ -12,6 +12,8 @@ namespace System::Xml::Schema { class XmlSchemaDatatype; }
 
 namespace System::Xml::Schema
 {
+	inline static constexpr unsigned int UnionFacetsChecker_TypeDefinitionIndex = 2165;
+
 	class UnionFacetsChecker : public ::System::Xml::Schema::FacetsChecker
 	{
 	public:

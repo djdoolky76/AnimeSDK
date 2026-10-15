@@ -4,6 +4,8 @@
 
 #define NNLOPBCELBL_CTOR_OFFSET UNITYSDK_OFFSET(0x1C974760)
 
+inline static constexpr unsigned int NNLOPBCELBL_TypeDefinitionIndex = 42333;
+
 	class NNLOPBCELBL : public ::System::Object
 	{
 	public:

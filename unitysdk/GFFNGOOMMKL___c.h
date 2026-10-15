@@ -9,6 +9,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 #define GFFNGOOMMKL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x159F7000)
 #define GFFNGOOMMKL___C___GATHERBATTLEITEMDATA_B__11_0_OFFSET UNITYSDK_OFFSET(0x159F7010)
 
+inline static constexpr unsigned int GFFNGOOMMKL___c_TypeDefinitionIndex = 76597;
+
 	class GFFNGOOMMKL___c : public ::System::Object
 	{
 	public:

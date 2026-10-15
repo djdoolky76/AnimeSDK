@@ -9,6 +9,8 @@ namespace RPG::GameCore { class PlayerReturnQuestRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PlayerReturnQuestRow_TypeDefinitionIndex = 14527;
+
 	class PlayerReturnQuestRow : public ::System::Object
 	{
 	public:

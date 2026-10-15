@@ -4,6 +4,8 @@
 
 #define ONDHPCOOMID_CTOR_OFFSET UNITYSDK_OFFSET(0x1C99F4C0)
 
+inline static constexpr unsigned int ONDHPCOOMID_TypeDefinitionIndex = 43709;
+
 	class ONDHPCOOMID : public ::System::Object
 	{
 	public:

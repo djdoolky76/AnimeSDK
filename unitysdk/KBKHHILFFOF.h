@@ -35,6 +35,8 @@ namespace System { class String; }
 #define KBKHHILFFOF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E7EFFE0)
 #define KBKHHILFFOF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E7F0040)
 
+inline static constexpr unsigned int KBKHHILFFOF_TypeDefinitionIndex = 26242;
+
 	class KBKHHILFFOF : public ::System::Object
 	{
 	public:

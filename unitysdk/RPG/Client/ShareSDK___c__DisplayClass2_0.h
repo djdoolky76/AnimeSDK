@@ -10,6 +10,8 @@ namespace RPG::Client { class ShareSDK; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ShareSDK___c__DisplayClass2_0_TypeDefinitionIndex = 61096;
+
 	class ShareSDK___c__DisplayClass2_0 : public ::System::Object
 	{
 	public:

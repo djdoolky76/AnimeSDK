@@ -89,6 +89,8 @@ namespace System { class String; }
 #define GGDIMKDOIGA_PAFKJAHJMCE_OFFSET UNITYSDK_OFFSET(0x1C63C9B0)
 #define GGDIMKDOIGA_PFFIABKBCLL_OFFSET UNITYSDK_OFFSET(0x1C63C820)
 
+inline static constexpr unsigned int GGDIMKDOIGA_TypeDefinitionIndex = 36263;
+
 	class GGDIMKDOIGA : public ::HNNHKPKCMJD
 	{
 	public:

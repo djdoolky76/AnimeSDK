@@ -19,6 +19,8 @@ namespace UnityEngine::Rendering { class BatchAnimationInstance; }
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int BAGraphAsset_TypeDefinitionIndex = 4801;
+
 	class BAGraphAsset : public ::UnityEngine::Object
 	{
 	public:

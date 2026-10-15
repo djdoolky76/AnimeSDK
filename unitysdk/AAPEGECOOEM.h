@@ -18,6 +18,8 @@ namespace System { class Nullable; }
 #define AAPEGECOOEM_NHEDINBLOIH_OFFSET UNITYSDK_OFFSET(0xB0E1280)
 #define AAPEGECOOEM_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0xB0E1230)
 
+inline static constexpr unsigned int AAPEGECOOEM_TypeDefinitionIndex = 69642;
+
 	class AAPEGECOOEM : public ::MDILEMALGNC
 	{
 	public:

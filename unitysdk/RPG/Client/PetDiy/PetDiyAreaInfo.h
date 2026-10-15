@@ -33,6 +33,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::PetDiy
 {
+	inline static constexpr unsigned int PetDiyAreaInfo_TypeDefinitionIndex = 74480;
+
 	class PetDiyAreaInfo : public ::System::Object
 	{
 	public:

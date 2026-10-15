@@ -15,6 +15,8 @@ namespace System { class Nullable; }
 
 namespace RPG::Client::DiceCombat
 {
+	inline static constexpr unsigned int DiceCombatNPCEntrancePageParam_TypeDefinitionIndex = 76125;
+
 	class DiceCombatNPCEntrancePageParam : public ::System::Object
 	{
 	public:

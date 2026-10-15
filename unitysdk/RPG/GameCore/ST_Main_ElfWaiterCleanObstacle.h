@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ST_Main_ElfWaiterCleanObstacle; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ST_Main_ElfWaiterCleanObstacle_TypeDefinitionIndex = 21522;
+
 	class ST_Main_ElfWaiterCleanObstacle : public ::RPG::GameCore::STTaskConfig
 	{
 	public:

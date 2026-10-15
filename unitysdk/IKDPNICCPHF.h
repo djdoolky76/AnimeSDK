@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define IKDPNICCPHF_CTOR_OFFSET UNITYSDK_OFFSET(0x16484A80)
 #define IKDPNICCPHF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16484AB0)
 
+inline static constexpr unsigned int IKDPNICCPHF_TypeDefinitionIndex = 58027;
+
 	class IKDPNICCPHF
 	{
 	public:

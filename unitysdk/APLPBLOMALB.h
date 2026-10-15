@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int APLPBLOMALB_TypeDefinitionIndex = 26495;
+
 	enum class APLPBLOMALB : ::System::Int32
 	{
 		NLCDGIPGFDJ = 0,

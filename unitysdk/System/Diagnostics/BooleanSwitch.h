@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace System::Diagnostics
 {
+	inline static constexpr unsigned int BooleanSwitch_TypeDefinitionIndex = 2531;
+
 	class BooleanSwitch : public ::System::Diagnostics::Switch
 	{
 	public:

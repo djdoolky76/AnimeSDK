@@ -23,6 +23,8 @@ namespace Mono::Math { class BigInteger; }
 
 namespace Mono::Math
 {
+	inline static constexpr unsigned int BigInteger_Kernel_TypeDefinitionIndex = 84;
+
 	class BigInteger_Kernel : public ::System::Object
 	{
 	public:

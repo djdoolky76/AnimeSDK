@@ -7,6 +7,8 @@
 #define CLOFAEJGMPI_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC667F0)
 #define CLOFAEJGMPI_IGGPJHJPMPJ_OFFSET UNITYSDK_OFFSET(0x1EC66810)
 
+inline static constexpr unsigned int CLOFAEJGMPI_TypeDefinitionIndex = 44190;
+
 	class CLOFAEJGMPI
 	{
 	public:

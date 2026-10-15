@@ -14,6 +14,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::Challenge::Tierce
 {
+	inline static constexpr unsigned int ChallengeTierceStageSelectTabsControl_TypeDefinitionIndex = 81558;
+
 	class ChallengeTierceStageSelectTabsControl : public ::Sofa::BaseSofaControl
 	{
 	public:

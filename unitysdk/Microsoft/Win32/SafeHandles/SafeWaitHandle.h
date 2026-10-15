@@ -7,6 +7,8 @@
 
 namespace Microsoft::Win32::SafeHandles
 {
+	inline static constexpr unsigned int SafeWaitHandle_TypeDefinitionIndex = 117;
+
 	class SafeWaitHandle : public ::Microsoft::Win32::SafeHandles::SafeHandleZeroOrMinusOneIsInvalid
 	{
 	public:

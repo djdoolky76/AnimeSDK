@@ -18,6 +18,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define PLLADJPGMCG_PAHMOAMEBNP_OFFSET UNITYSDK_OFFSET(0xC30A460)
 #define PLLADJPGMCG_TOSTRING_OFFSET UNITYSDK_OFFSET(0xC30AF80)
 
+inline static constexpr unsigned int PLLADJPGMCG_TypeDefinitionIndex = 52011;
+
 	class PLLADJPGMCG : public ::System::Object
 	{
 	public:

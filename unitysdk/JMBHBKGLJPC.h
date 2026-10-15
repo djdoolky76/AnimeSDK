@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define JMBHBKGLJPC_ONNBKHMNJOF_OFFSET UNITYSDK_OFFSET(0xB25A740)
 #define JMBHBKGLJPC_OOGIEEMADLL_OFFSET UNITYSDK_OFFSET(0xB25D230)
 
+inline static constexpr unsigned int JMBHBKGLJPC_TypeDefinitionIndex = 59315;
+
 	class JMBHBKGLJPC : public ::System::Object
 	{
 	public:

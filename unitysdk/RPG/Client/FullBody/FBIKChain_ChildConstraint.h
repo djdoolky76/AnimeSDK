@@ -15,6 +15,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::FullBody
 {
+	inline static constexpr unsigned int FBIKChain_ChildConstraint_TypeDefinitionIndex = 74228;
+
 	class FBIKChain_ChildConstraint : public ::System::Object
 	{
 	public:

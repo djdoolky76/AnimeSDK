@@ -30,6 +30,8 @@ namespace System { class String; }
 #define GELEDBJOGNM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E45D4F0)
 #define GELEDBJOGNM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E45D550)
 
+inline static constexpr unsigned int GELEDBJOGNM_TypeDefinitionIndex = 27643;
+
 	class GELEDBJOGNM : public ::System::Object
 	{
 	public:

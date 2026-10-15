@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ElfRestaurantWhiteBoxData_TypeDefinitionIndex = 72743;
+
 	class ElfRestaurantWhiteBoxData : public ::System::Object
 	{
 	public:

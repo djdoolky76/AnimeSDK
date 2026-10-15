@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimCrystalConfig_TypeDefinitionIndex = 18600;
+
 	class FiveDimCrystalConfig : public ::RPG::GameCore::LittleGameComponentConfig
 	{
 	public:

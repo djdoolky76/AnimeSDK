@@ -13,6 +13,8 @@ namespace ZXing::Common { class CharacterSetECI; }
 
 namespace ZXing::Common
 {
+	inline static constexpr unsigned int CharacterSetECI_TypeDefinitionIndex = 6969;
+
 	class CharacterSetECI : public ::ZXing::Common::ECI
 	{
 	public:

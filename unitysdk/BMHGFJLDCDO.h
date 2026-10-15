@@ -22,6 +22,8 @@ namespace System { class String; }
 #define BMHGFJLDCDO_NENLPBDFKJA_OFFSET UNITYSDK_OFFSET(0xBDAE770)
 #define BMHGFJLDCDO_PCHAMOCLBBD_OFFSET UNITYSDK_OFFSET(0xBDAE940)
 
+inline static constexpr unsigned int BMHGFJLDCDO_TypeDefinitionIndex = 53637;
+
 	class BMHGFJLDCDO : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FiveDimCustomLoadConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimCustomLoadConfig_TypeDefinitionIndex = 18608;
+
 	class FiveDimCustomLoadConfig : public ::RPG::GameCore::LittleGameCustomLoadConfig
 	{
 	public:

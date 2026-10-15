@@ -13,6 +13,8 @@ namespace UnityEngine { class Animator; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int StateTiltMove_TypeDefinitionIndex = 68846;
+
 	class StateTiltMove : public ::UnityEngine::StateMachineBehaviour
 	{
 	public:

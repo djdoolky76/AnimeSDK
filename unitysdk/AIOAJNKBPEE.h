@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define AIOAJNKBPEE_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1CCCA2B0)
 #define AIOAJNKBPEE_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1CCC9C10)
 
+inline static constexpr unsigned int AIOAJNKBPEE_TypeDefinitionIndex = 13719;
+
 	class AIOAJNKBPEE : public ::System::Object
 	{
 	public:

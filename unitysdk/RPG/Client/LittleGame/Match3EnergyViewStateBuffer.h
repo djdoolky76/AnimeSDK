@@ -11,6 +11,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace RPG::Client::LittleGame
 {
+	inline static constexpr unsigned int Match3EnergyViewStateBuffer_TypeDefinitionIndex = 76570;
+
 	class Match3EnergyViewStateBuffer : public ::System::Object
 	{
 	public:

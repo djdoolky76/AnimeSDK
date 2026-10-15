@@ -26,6 +26,8 @@ namespace ZLinq { class ValueEnumerable; }
 #define MELINFOHNMP_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1D153C00)
 #define MELINFOHNMP_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1D1534A0)
 
+inline static constexpr unsigned int MELINFOHNMP_TypeDefinitionIndex = 12898;
+
 	class MELINFOHNMP : public ::System::Object
 	{
 	public:

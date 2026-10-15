@@ -8,6 +8,8 @@ namespace RPG::Client { class GridFightShopSpecialGood; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightCyreneBonusEvent_TypeDefinitionIndex = 65222;
+
 	class GridFightCyreneBonusEvent : public ::System::Object
 	{
 	public:

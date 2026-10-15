@@ -9,6 +9,8 @@ namespace System { class Uri; }
 
 namespace System::Net
 {
+	inline static constexpr unsigned int AutoWebProxyScriptEngine_TypeDefinitionIndex = 2814;
+
 	class AutoWebProxyScriptEngine : public ::System::Object
 	{
 	public:

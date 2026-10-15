@@ -13,6 +13,8 @@ namespace System::ComponentModel { class AddingNewEventArgs; }
 
 namespace System::ComponentModel
 {
+	inline static constexpr unsigned int AddingNewEventHandler_TypeDefinitionIndex = 9570;
+
 	class AddingNewEventHandler : public ::System::MulticastDelegate
 	{
 	public:

@@ -9,6 +9,8 @@ namespace Entitas { class IEntity; }
 #define GDNOIPPPGEO_ONREMOVE_OFFSET UNITYSDK_OFFSET(0x159BE2C0)
 #define GDNOIPPPGEO_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x159BDDB0)
 
+inline static constexpr unsigned int GDNOIPPPGEO_TypeDefinitionIndex = 79126;
+
 	class GDNOIPPPGEO
 	{
 	public:

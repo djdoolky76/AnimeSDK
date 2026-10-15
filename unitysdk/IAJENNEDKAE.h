@@ -8,6 +8,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define IAJENNEDKAE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15E10D70)
 #define IAJENNEDKAE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15E106C0)
 
+inline static constexpr unsigned int IAJENNEDKAE_TypeDefinitionIndex = 52373;
+
 	class IAJENNEDKAE
 	{
 	public:

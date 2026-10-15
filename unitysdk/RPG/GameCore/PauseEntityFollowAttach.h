@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PauseEntityFollowAttach_TypeDefinitionIndex = 22724;
+
 	class PauseEntityFollowAttach : public ::RPG::GameCore::TaskConfig
 	{
 	public:

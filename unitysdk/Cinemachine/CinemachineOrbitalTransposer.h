@@ -38,6 +38,8 @@ namespace UnityEngine { class Transform; }
 
 namespace Cinemachine
 {
+	inline static constexpr unsigned int CinemachineOrbitalTransposer_TypeDefinitionIndex = 39781;
+
 	class CinemachineOrbitalTransposer : public ::Cinemachine::CinemachineTransposer
 	{
 	public:

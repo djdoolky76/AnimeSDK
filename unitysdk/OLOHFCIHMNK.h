@@ -32,6 +32,8 @@ namespace System::Collections::Generic { template <typename T> class Queue_1; }
 #define OLOHFCIHMNK_OLBKOJMNGEE_OFFSET UNITYSDK_OFFSET(0xBF15970)
 #define OLOHFCIHMNK_PGOCOMAKHEL_OFFSET UNITYSDK_OFFSET(0xBF16220)
 
+inline static constexpr unsigned int OLOHFCIHMNK_TypeDefinitionIndex = 77300;
+
 	class OLOHFCIHMNK : public ::System::Object
 	{
 	public:

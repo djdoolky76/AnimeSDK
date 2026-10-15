@@ -15,6 +15,8 @@ class AkMIDIEvent_tGen;
 #define AKMIDIEVENT_TGEN_SET_BYPARAM1_OFFSET UNITYSDK_OFFSET(0x1F5A0D60)
 #define AKMIDIEVENT_TGEN_SET_BYPARAM2_OFFSET UNITYSDK_OFFSET(0x1F5A0ED0)
 
+inline static constexpr unsigned int AkMIDIEvent_tGen_TypeDefinitionIndex = 44751;
+
 	class AkMIDIEvent_tGen : public ::System::Object
 	{
 	public:

@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TrainPartyShowEventFadeIn_TypeDefinitionIndex = 22370;
+
 	class TrainPartyShowEventFadeIn : public ::RPG::GameCore::TaskConfig
 	{
 	public:

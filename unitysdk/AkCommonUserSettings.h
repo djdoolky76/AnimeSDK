@@ -24,6 +24,8 @@ namespace System { class String; }
 #define AKCOMMONUSERSETTINGS_SETSAMPLERATE_OFFSET UNITYSDK_OFFSET(0x1F588EE0)
 #define AKCOMMONUSERSETTINGS_VALIDATE_OFFSET UNITYSDK_OFFSET(0x1F589990)
 
+inline static constexpr unsigned int AkCommonUserSettings_TypeDefinitionIndex = 44837;
+
 	class AkCommonUserSettings : public ::System::Object
 	{
 	public:

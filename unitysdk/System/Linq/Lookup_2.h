@@ -6,6 +6,8 @@ namespace System::Collections::Generic { template <typename T> class IEqualityCo
 
 namespace System::Linq
 {
+	inline static constexpr unsigned int Lookup_2_TypeDefinitionIndex = 3170;
+
 	template <typename T1, typename T2>
 	class Lookup_2 : public ::System::Object
 	{

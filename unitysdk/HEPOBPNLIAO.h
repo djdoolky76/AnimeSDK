@@ -31,6 +31,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 #define HEPOBPNLIAO_PEDMOABIHNI_OFFSET UNITYSDK_OFFSET(0x15C65FE0)
 #define HEPOBPNLIAO_PGGNAKNBEOB_OFFSET UNITYSDK_OFFSET(0x15C5B8B0)
 
+inline static constexpr unsigned int HEPOBPNLIAO_TypeDefinitionIndex = 62700;
+
 	class HEPOBPNLIAO : public ::System::Object
 	{
 	public:

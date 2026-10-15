@@ -11,6 +11,8 @@ namespace System { class String; }
 #define GMAIMADMDPF_SET_SEARCHDIRECTORY_OFFSET UNITYSDK_OFFSET(0x15ACA0B0)
 #define GMAIMADMDPF_SET_SHOWEMPTYOPTION_OFFSET UNITYSDK_OFFSET(0x15ACA0F0)
 
+inline static constexpr unsigned int GMAIMADMDPF_TypeDefinitionIndex = 48100;
+
 	class GMAIMADMDPF : public ::System::Attribute
 	{
 	public:

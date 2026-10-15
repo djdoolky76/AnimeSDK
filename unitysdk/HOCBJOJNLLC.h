@@ -22,6 +22,8 @@ class NFAHODNHEKK;
 #define HOCBJOJNLLC_SET_STATESTARTTIMESTAMP_OFFSET UNITYSDK_OFFSET(0x1C688020)
 #define HOCBJOJNLLC_TICK_OFFSET UNITYSDK_OFFSET(0x1C687DE0)
 
+inline static constexpr unsigned int HOCBJOJNLLC_TypeDefinitionIndex = 37341;
+
 	class HOCBJOJNLLC : public ::System::Object
 	{
 	public:

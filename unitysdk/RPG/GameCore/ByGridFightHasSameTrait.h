@@ -14,6 +14,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByGridFightHasSameTrait_TypeDefinitionIndex = 22524;
+
 	class ByGridFightHasSameTrait : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

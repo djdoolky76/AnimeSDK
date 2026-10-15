@@ -5,6 +5,8 @@
 
 namespace RPG::Client::LittleGame::FiveDim
 {
+	inline static constexpr unsigned int FiveDimFluteGamePadInput_InputInfo_TypeDefinitionIndex = 77223;
+
 	struct alignas(4) FiveDimFluteGamePadInput_InputInfo
 	{
 		::System::UInt32 ID; // 0x10

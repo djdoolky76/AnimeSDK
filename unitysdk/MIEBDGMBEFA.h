@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define MIEBDGMBEFA_JIGJDOFEJMI_OFFSET UNITYSDK_OFFSET(0xB952580)
 #define MIEBDGMBEFA_TRANSFORM_OFFSET UNITYSDK_OFFSET(0xB9525D0)
 
+inline static constexpr unsigned int MIEBDGMBEFA_TypeDefinitionIndex = 59169;
+
 	class MIEBDGMBEFA
 	{
 	public:

@@ -12,6 +12,8 @@ namespace UnityEngine { class Object; }
 
 namespace UnityEngine::Animations
 {
+	inline static constexpr unsigned int AnimationPlayableBinding_TypeDefinitionIndex = 5745;
+
 	class AnimationPlayableBinding : public ::System::Object
 	{
 	public:

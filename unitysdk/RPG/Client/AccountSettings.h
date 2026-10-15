@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AccountSettings_TypeDefinitionIndex = 59362;
+
 	class AccountSettings : public ::RPG::Client::PrefGroup
 	{
 	public:

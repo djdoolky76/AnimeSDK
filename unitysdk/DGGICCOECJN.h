@@ -20,6 +20,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 #define DGGICCOECJN_OLFCBKHEBJH_OFFSET UNITYSDK_OFFSET(0xE847C50)
 #define DGGICCOECJN_PJKNMPOCDDC_OFFSET UNITYSDK_OFFSET(0xE848000)
 
+inline static constexpr unsigned int DGGICCOECJN_TypeDefinitionIndex = 63126;
+
 	class DGGICCOECJN : public ::System::Object
 	{
 	public:

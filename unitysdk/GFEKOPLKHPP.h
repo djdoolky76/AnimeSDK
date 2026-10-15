@@ -46,6 +46,8 @@ namespace UnityEngine::UI { class Image; }
 #define GFEKOPLKHPP__ONBIND_OFFSET UNITYSDK_OFFSET(0x159ED6F0)
 #define GFEKOPLKHPP__ONTICK_OFFSET UNITYSDK_OFFSET(0x159EDA10)
 
+inline static constexpr unsigned int GFEKOPLKHPP_TypeDefinitionIndex = 72358;
+
 	class GFEKOPLKHPP : public ::FMPCODLIOLG
 	{
 	public:

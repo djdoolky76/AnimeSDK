@@ -8,6 +8,8 @@ namespace System { class String; }
 #define JHMOAHLLCED_KFGJEKJHIMB_OFFSET UNITYSDK_OFFSET(0xB1BF950)
 #define JHMOAHLLCED_TOSTRING_OFFSET UNITYSDK_OFFSET(0xB1BFAA0)
 
+inline static constexpr unsigned int JHMOAHLLCED_TypeDefinitionIndex = 82144;
+
 	class JHMOAHLLCED : public ::FAJHHDCPLHD
 	{
 	public:

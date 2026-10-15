@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ChenLingSoldierLevelRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChenLingSoldierLevelRow_TypeDefinitionIndex = 11057;
+
 	class ChenLingSoldierLevelRow : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TestHotUpdateJson_TypeDefinitionIndex = 24401;
+
 	class TestHotUpdateJson : public ::RPG::GameCore::JsonConfig
 	{
 	public:

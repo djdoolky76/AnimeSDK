@@ -4,6 +4,8 @@
 
 #define HBABFFIKDCB_CTOR_OFFSET UNITYSDK_OFFSET(0x15B9E730)
 
+inline static constexpr unsigned int HBABFFIKDCB_TypeDefinitionIndex = 58521;
+
 	class HBABFFIKDCB : public ::System::Object
 	{
 	public:

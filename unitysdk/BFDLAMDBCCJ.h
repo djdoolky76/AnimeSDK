@@ -13,6 +13,8 @@ namespace RPG::GameCore { class LittleGameAbilityValueGetterAttributeConfig; }
 #define BFDLAMDBCCJ_GJNKFBEGBNF_OFFSET UNITYSDK_OFFSET(0xB160D90)
 #define BFDLAMDBCCJ_LFOLHIFMLEN_OFFSET UNITYSDK_OFFSET(0xB160CD0)
 
+inline static constexpr unsigned int BFDLAMDBCCJ_TypeDefinitionIndex = 77396;
+
 	class BFDLAMDBCCJ : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace UnityEngine { class MonoBehaviour; }
 #define AKBMGIHOKLB_KLIOBGEPFEH_OFFSET UNITYSDK_OFFSET(0x12CCA120)
 #define AKBMGIHOKLB_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0x12CCA040)
 
+inline static constexpr unsigned int AKBMGIHOKLB_TypeDefinitionIndex = 69872;
+
 	class AKBMGIHOKLB : public ::RPG::Client::BehaviorBase
 	{
 	public:

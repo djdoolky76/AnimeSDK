@@ -13,6 +13,8 @@ namespace System::Runtime::Serialization { class SerializationEventHandler; }
 
 namespace System::Runtime::Serialization
 {
+	inline static constexpr unsigned int SerializationObjectManager_TypeDefinitionIndex = 1133;
+
 	class SerializationObjectManager : public ::System::Object
 	{
 	public:

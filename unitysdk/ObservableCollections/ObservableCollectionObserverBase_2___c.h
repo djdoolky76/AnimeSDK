@@ -6,6 +6,8 @@ namespace System { class Object; }
 
 namespace ObservableCollections
 {
+	inline static constexpr unsigned int ObservableCollectionObserverBase_2___c_TypeDefinitionIndex = 41368;
+
 	template <typename T1, typename T2>
 	class ObservableCollectionObserverBase_2___c : public ::System::Object
 	{

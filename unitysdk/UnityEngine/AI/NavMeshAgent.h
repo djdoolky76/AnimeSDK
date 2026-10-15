@@ -111,6 +111,8 @@ namespace UnityEngine::AI { class NavMeshPath; }
 
 namespace UnityEngine::AI
 {
+	inline static constexpr unsigned int NavMeshAgent_TypeDefinitionIndex = 5646;
+
 	class NavMeshAgent : public ::UnityEngine::Behaviour
 	{
 	public:

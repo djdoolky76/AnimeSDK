@@ -34,6 +34,8 @@ namespace System { class String; }
 #define HLBKIAFNLOE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E5B9C10)
 #define HLBKIAFNLOE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E5B9C70)
 
+inline static constexpr unsigned int HLBKIAFNLOE_TypeDefinitionIndex = 25744;
+
 	class HLBKIAFNLOE : public ::System::Object
 	{
 	public:

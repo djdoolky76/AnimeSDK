@@ -1,6 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
+inline static constexpr unsigned int OOKOJKPGDDP_TypeDefinitionIndex = 43554;
+
 	struct alignas(4) OOKOJKPGDDP
 	{
 		::System::Single FDFHEDMFPCI; // 0x10

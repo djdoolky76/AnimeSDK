@@ -11,6 +11,8 @@ namespace UnityEngine::Timeline { class TimelineAsset; }
 
 namespace UnityEngine::Timeline
 {
+	inline static constexpr unsigned int TimelineUndo_TypeDefinitionIndex = 38883;
+
 	class TimelineUndo : public ::System::Object
 	{
 	public:

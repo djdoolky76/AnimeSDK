@@ -20,6 +20,8 @@ namespace System::Security { class SecurityElement; }
 
 namespace Mono::Xml
 {
+	inline static constexpr unsigned int SecurityParser_TypeDefinitionIndex = 23;
+
 	class SecurityParser : public ::Mono::Xml::SmallXmlParser
 	{
 	public:

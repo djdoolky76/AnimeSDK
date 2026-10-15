@@ -12,6 +12,8 @@ namespace RPG::GameCore { class ChimeraDuelEntityPredicateBase; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChimeraDuelEntityBranchValueGetter_TypeDefinitionIndex = 15922;
+
 	class ChimeraDuelEntityBranchValueGetter : public ::RPG::GameCore::ChimeraDuelEntityValueGetterBase
 	{
 	public:

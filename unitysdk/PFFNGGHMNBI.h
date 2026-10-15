@@ -13,6 +13,8 @@ namespace System { class Object; }
 #define PFFNGGHMNBI_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xC20D9F0)
 #define PFFNGGHMNBI_TICK_OFFSET UNITYSDK_OFFSET(0xC20DB50)
 
+inline static constexpr unsigned int PFFNGGHMNBI_TypeDefinitionIndex = 58700;
+
 	class PFFNGGHMNBI : public ::GELIALJDFBL
 	{
 	public:

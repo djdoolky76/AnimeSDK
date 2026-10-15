@@ -30,6 +30,8 @@ namespace System { class String; }
 #define LOINLLCCNBD_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E9C1000)
 #define LOINLLCCNBD_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E9C1060)
 
+inline static constexpr unsigned int LOINLLCCNBD_TypeDefinitionIndex = 27379;
+
 	class LOINLLCCNBD : public ::System::Object
 	{
 	public:

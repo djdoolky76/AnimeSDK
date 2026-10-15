@@ -8,6 +8,8 @@ namespace RPG::LittleGameShare::HoyoPhysics::Box2D { class B2IslandSim; }
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
+	inline static constexpr unsigned int B2IslandSim_TypeDefinitionIndex = 36691;
+
 	class B2IslandSim : public ::System::Object
 	{
 	public:

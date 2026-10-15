@@ -18,6 +18,8 @@ namespace UnityEngine::Timeline { class TimelineClip; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int DebateClip_TypeDefinitionIndex = 48066;
+
 	class DebateClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:

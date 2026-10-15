@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define AJGFHIIBNGP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E3C1950)
 #define AJGFHIIBNGP___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1E3C1960)
 
+inline static constexpr unsigned int AJGFHIIBNGP___c_TypeDefinitionIndex = 34908;
+
 	class AJGFHIIBNGP___c : public ::System::Object
 	{
 	public:

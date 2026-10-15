@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace UnityEngine::ProBuilder
 {
+	inline static constexpr unsigned int Transform2D_TypeDefinitionIndex = 44441;
+
 	class Transform2D : public ::System::Object
 	{
 	public:

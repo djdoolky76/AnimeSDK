@@ -48,6 +48,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ChallengePeakBossFriendLineupRecommendation_TypeDefinitionIndex = 63207;
+
 	class ChallengePeakBossFriendLineupRecommendation : public ::System::Object
 	{
 	public:

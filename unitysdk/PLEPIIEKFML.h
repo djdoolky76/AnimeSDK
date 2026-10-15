@@ -51,6 +51,8 @@ namespace UnityEngine { class Transform; }
 #define PLEPIIEKFML_SET_LASTDIRECTIONFLAG_OFFSET UNITYSDK_OFFSET(0xC305220)
 #define PLEPIIEKFML_TICK_OFFSET UNITYSDK_OFFSET(0xC301C90)
 
+inline static constexpr unsigned int PLEPIIEKFML_TypeDefinitionIndex = 57643;
+
 	class PLEPIIEKFML : public ::RPG::GameCore::GameComponentBase
 	{
 	public:

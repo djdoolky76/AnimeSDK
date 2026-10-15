@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DynamicValueRangeCallback_TypeDefinitionIndex = 18228;
+
 	class DynamicValueRangeCallback : public ::RPG::GameCore::JsonConfig
 	{
 	public:

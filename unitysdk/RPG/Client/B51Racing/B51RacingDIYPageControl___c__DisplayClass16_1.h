@@ -10,6 +10,8 @@ namespace RPG::Client::Promises { class IPromise; }
 
 namespace RPG::Client::B51Racing
 {
+	inline static constexpr unsigned int B51RacingDIYPageControl___c__DisplayClass16_1_TypeDefinitionIndex = 81780;
+
 	template <typename T>
 	class B51RacingDIYPageControl___c__DisplayClass16_1 : public ::System::Object
 	{

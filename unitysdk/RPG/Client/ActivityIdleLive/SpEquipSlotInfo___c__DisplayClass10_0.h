@@ -8,6 +8,8 @@ namespace RPG::Client::ActivityIdleLive { class SpEquipSlotData; }
 
 namespace RPG::Client::ActivityIdleLive
 {
+	inline static constexpr unsigned int SpEquipSlotInfo___c__DisplayClass10_0_TypeDefinitionIndex = 75239;
+
 	class SpEquipSlotInfo___c__DisplayClass10_0 : public ::System::Object
 	{
 	public:

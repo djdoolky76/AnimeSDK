@@ -11,6 +11,8 @@ class LKFPICOFNDF;
 #define EDJFJFMNFJE_JOLMCAGPKOC_OFFSET UNITYSDK_OFFSET(0x13321BA0)
 #define EDJFJFMNFJE_MFBMHCAMAEI_OFFSET UNITYSDK_OFFSET(0x13321C50)
 
+inline static constexpr unsigned int EDJFJFMNFJE_TypeDefinitionIndex = 77857;
+
 	class EDJFJFMNFJE : public ::System::Object
 	{
 	public:

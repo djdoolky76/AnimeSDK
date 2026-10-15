@@ -7,6 +7,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int CameraSomatoDynamicOffsetScale_TypeDefinitionIndex = 69727;
+
 	class CameraSomatoDynamicOffsetScale : public ::System::Object
 	{
 	public:

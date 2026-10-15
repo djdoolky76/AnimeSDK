@@ -38,6 +38,8 @@ namespace System { class String; }
 #define EOGAEHKDCJE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E2FABD0)
 #define EOGAEHKDCJE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E2FAC30)
 
+inline static constexpr unsigned int EOGAEHKDCJE_TypeDefinitionIndex = 26610;
+
 	class EOGAEHKDCJE : public ::System::Object
 	{
 	public:

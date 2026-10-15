@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GridFightModifierReplaceEquipParamConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightModifierReplaceEquipParamConfig_TypeDefinitionIndex = 19384;
+
 	class GridFightModifierReplaceEquipParamConfig : public ::RPG::GameCore::GridFightModifierConfigBase
 	{
 	public:

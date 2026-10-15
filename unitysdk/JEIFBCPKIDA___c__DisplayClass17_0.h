@@ -7,6 +7,8 @@ class JEIFBCPKIDA;
 #define JEIFBCPKIDA___C__DISPLAYCLASS17_0_CTOR_OFFSET UNITYSDK_OFFSET(0x166296F0)
 #define JEIFBCPKIDA___C__DISPLAYCLASS17_0___TRYPROCESSMESSAGE_B__0_OFFSET UNITYSDK_OFFSET(0x16629F60)
 
+inline static constexpr unsigned int JEIFBCPKIDA___c__DisplayClass17_0_TypeDefinitionIndex = 78064;
+
 	class JEIFBCPKIDA___c__DisplayClass17_0 : public ::System::Object
 	{
 	public:

@@ -31,6 +31,8 @@ namespace System::Text { class StringBuilder; }
 
 namespace System::Net
 {
+	inline static constexpr unsigned int HttpListenerRequestUriBuilder_TypeDefinitionIndex = 2734;
+
 	class HttpListenerRequestUriBuilder : public ::System::Object
 	{
 	public:

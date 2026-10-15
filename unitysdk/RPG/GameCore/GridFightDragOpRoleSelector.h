@@ -11,6 +11,8 @@ namespace RPG::GameCore { class GridFightDragOpRoleSelector; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightDragOpRoleSelector_TypeDefinitionIndex = 19957;
+
 	class GridFightDragOpRoleSelector : public ::RPG::GameCore::GridFightDragOpParamBase
 	{
 	public:

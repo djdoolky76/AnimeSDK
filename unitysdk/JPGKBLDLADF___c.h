@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define JPGKBLDLADF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E7D4780)
 #define JPGKBLDLADF___C___CCTOR_B__36_0_OFFSET UNITYSDK_OFFSET(0x1E7D4790)
 
+inline static constexpr unsigned int JPGKBLDLADF___c_TypeDefinitionIndex = 29386;
+
 	class JPGKBLDLADF___c : public ::System::Object
 	{
 	public:

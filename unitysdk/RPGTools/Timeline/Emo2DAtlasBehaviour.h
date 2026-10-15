@@ -12,6 +12,8 @@ namespace RPGTools::Timeline { class Emo2DAtlasClip; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int Emo2DAtlasBehaviour_TypeDefinitionIndex = 48087;
+
 	class Emo2DAtlasBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

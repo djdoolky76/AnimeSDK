@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int MiHoYoSDKUserDataModel_TypeDefinitionIndex = 46370;
+
 	class MiHoYoSDKUserDataModel : public ::System::Object
 	{
 	public:

@@ -4,6 +4,8 @@
 class AGKHOGNMPMO;
 namespace System { class Action; }
 
+inline static constexpr unsigned int LFMPNPBFIOH_TypeDefinitionIndex = 49255;
+
 	class LFMPNPBFIOH : public ::System::Object
 	{
 	public:

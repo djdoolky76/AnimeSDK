@@ -48,6 +48,8 @@ namespace System::Security::Cryptography { class SymmetricAlgorithm; }
 
 namespace Mono::Security::X509
 {
+	inline static constexpr unsigned int PKCS12_TypeDefinitionIndex = 55;
+
 	class PKCS12 : public ::System::Object
 	{
 	public:

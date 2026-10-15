@@ -10,6 +10,8 @@ namespace System { class Object; }
 
 namespace Proto
 {
+	inline static constexpr unsigned int DisplayAvatarDetailInfo___c_TypeDefinitionIndex = 28886;
+
 	class DisplayAvatarDetailInfo___c : public ::System::Object
 	{
 	public:

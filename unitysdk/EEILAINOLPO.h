@@ -34,6 +34,8 @@ namespace System { class String; }
 #define EEILAINOLPO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E286AD0)
 #define EEILAINOLPO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E286B30)
 
+inline static constexpr unsigned int EEILAINOLPO_TypeDefinitionIndex = 33479;
+
 	class EEILAINOLPO : public ::System::Object
 	{
 	public:

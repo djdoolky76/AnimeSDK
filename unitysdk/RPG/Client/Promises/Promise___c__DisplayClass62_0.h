@@ -12,6 +12,8 @@ namespace System { class Exception; }
 
 namespace RPG::Client::Promises
 {
+	inline static constexpr unsigned int Promise___c__DisplayClass62_0_TypeDefinitionIndex = 9921;
+
 	class Promise___c__DisplayClass62_0 : public ::System::Object
 	{
 	public:

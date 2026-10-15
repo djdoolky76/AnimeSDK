@@ -29,6 +29,8 @@ namespace System { class String; }
 #define DFMGCEABBAD_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E1A6E10)
 #define DFMGCEABBAD_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E1A6E70)
 
+inline static constexpr unsigned int DFMGCEABBAD_TypeDefinitionIndex = 25417;
+
 	class DFMGCEABBAD : public ::System::Object
 	{
 	public:

@@ -30,6 +30,8 @@ namespace System { class String; }
 #define NKAEOPAAJLG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EB55020)
 #define NKAEOPAAJLG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EB55080)
 
+inline static constexpr unsigned int NKAEOPAAJLG_TypeDefinitionIndex = 25524;
+
 	class NKAEOPAAJLG : public ::System::Object
 	{
 	public:

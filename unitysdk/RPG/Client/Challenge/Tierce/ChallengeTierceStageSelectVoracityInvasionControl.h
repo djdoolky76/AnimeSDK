@@ -19,6 +19,8 @@ namespace RPG::Client::Challenge::Tierce { class ChallengeTierceStageSelectVorac
 
 namespace RPG::Client::Challenge::Tierce
 {
+	inline static constexpr unsigned int ChallengeTierceStageSelectVoracityInvasionControl_TypeDefinitionIndex = 81560;
+
 	class ChallengeTierceStageSelectVoracityInvasionControl : public ::Sofa::BaseSofaControl
 	{
 	public:

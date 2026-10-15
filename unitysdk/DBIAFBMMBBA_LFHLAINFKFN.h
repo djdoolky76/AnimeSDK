@@ -13,6 +13,8 @@ namespace RPG::Client::MechCraft::ViewModel { class MechCraftCraftProgressAttrRa
 #define DBIAFBMMBBA_LFHLAINFKFN_SET_RADARFACTORY_OFFSET UNITYSDK_OFFSET(0xDFE3530)
 #define DBIAFBMMBBA_LFHLAINFKFN_SET_TARGETFACTORY_OFFSET UNITYSDK_OFFSET(0xDFE3510)
 
+inline static constexpr unsigned int DBIAFBMMBBA_LFHLAINFKFN_TypeDefinitionIndex = 79554;
+
 	class DBIAFBMMBBA_LFHLAINFKFN : public ::System::Object
 	{
 	public:

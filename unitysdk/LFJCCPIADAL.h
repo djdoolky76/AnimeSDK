@@ -11,6 +11,8 @@ class KFMGKJPDLNB;
 #define LFJCCPIADAL_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xB66F150)
 #define LFJCCPIADAL_CTOR_OFFSET UNITYSDK_OFFSET(0xB66F4A0)
 
+inline static constexpr unsigned int LFJCCPIADAL_TypeDefinitionIndex = 62612;
+
 	class LFJCCPIADAL : public ::System::Object
 	{
 	public:

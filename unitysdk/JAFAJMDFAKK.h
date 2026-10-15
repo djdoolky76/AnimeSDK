@@ -9,6 +9,8 @@ class JAFAJMDFAKK;
 #define JAFAJMDFAKK_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CF33E20)
 #define JAFAJMDFAKK_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CF33DE0)
 
+inline static constexpr unsigned int JAFAJMDFAKK_TypeDefinitionIndex = 10211;
+
 	class JAFAJMDFAKK : public ::RPG::GameCore::TaskConfig
 	{
 	public:

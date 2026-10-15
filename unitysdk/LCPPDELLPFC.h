@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int LCPPDELLPFC_TypeDefinitionIndex = 30913;
+
 	enum class LCPPDELLPFC : ::System::Int32
 	{
 		NLCDGIPGFDJ = 0,

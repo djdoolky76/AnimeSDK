@@ -15,6 +15,8 @@ namespace UnityEngine { class SkinnedMeshRenderer; }
 
 namespace RPG::Client::SkinnedGPUParticles
 {
+	inline static constexpr unsigned int MonoEffectPluginSkinnedGPUParticles_TypeDefinitionIndex = 73698;
+
 	class MonoEffectPluginSkinnedGPUParticles : public ::RPG::Client::MonoEffectPluginCharaEffectBase
 	{
 	public:

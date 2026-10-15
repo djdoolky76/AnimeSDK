@@ -20,6 +20,8 @@ namespace RPG::Client { class EvolveBuildTag; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int EvolveBuildDamageTagWithConnect_TypeDefinitionIndex = 63811;
+
 	class EvolveBuildDamageTagWithConnect : public ::System::Object
 	{
 	public:

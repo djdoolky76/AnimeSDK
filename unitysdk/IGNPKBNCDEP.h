@@ -4,6 +4,8 @@
 namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class Stack_1; }
 
+inline static constexpr unsigned int IGNPKBNCDEP_TypeDefinitionIndex = 49254;
+
 	class IGNPKBNCDEP : public ::System::Object
 	{
 	public:

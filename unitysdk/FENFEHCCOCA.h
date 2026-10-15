@@ -25,6 +25,8 @@ namespace System { class String; }
 #define FENFEHCCOCA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E3693C0)
 #define FENFEHCCOCA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E369420)
 
+inline static constexpr unsigned int FENFEHCCOCA_TypeDefinitionIndex = 32930;
+
 	class FENFEHCCOCA : public ::System::Object
 	{
 	public:

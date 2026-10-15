@@ -13,6 +13,8 @@ namespace System { class Action; }
 #define GJJLJFICILH_NACGPOHONAI_OFFSET UNITYSDK_OFFSET(0x15A6A340)
 #define GJJLJFICILH_OINKMAFDLGF_OFFSET UNITYSDK_OFFSET(0x15A6A2E0)
 
+inline static constexpr unsigned int GJJLJFICILH_TypeDefinitionIndex = 74743;
+
 	class GJJLJFICILH : public ::System::Object
 	{
 	public:

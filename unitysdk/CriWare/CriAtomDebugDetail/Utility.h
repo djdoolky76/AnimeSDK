@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace CriWare::CriAtomDebugDetail
 {
+	inline static constexpr unsigned int Utility_TypeDefinitionIndex = 40204;
+
 	class Utility : public ::System::Object
 	{
 	public:

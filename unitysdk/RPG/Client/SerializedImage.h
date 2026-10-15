@@ -12,6 +12,8 @@ namespace UnityEngine { class Mesh; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int SerializedImage_TypeDefinitionIndex = 72643;
+
 	class SerializedImage : public ::UnityEngine::UI::Image
 	{
 	public:

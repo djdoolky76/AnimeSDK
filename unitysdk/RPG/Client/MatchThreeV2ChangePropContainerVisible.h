@@ -10,6 +10,8 @@ namespace RPG::Client { class MatchThreeV2ChangePropContainerVisible; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MatchThreeV2ChangePropContainerVisible_TypeDefinitionIndex = 10256;
+
 	class MatchThreeV2ChangePropContainerVisible : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetMonsterStanceVulnerable_TypeDefinitionIndex = 22941;
+
 	class SetMonsterStanceVulnerable : public ::RPG::GameCore::TaskConfig
 	{
 	public:

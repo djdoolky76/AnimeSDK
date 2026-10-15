@@ -32,6 +32,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define CAAFCOGHNMC_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1D9FC9E0)
 #define CAAFCOGHNMC_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1D9FC010)
 
+inline static constexpr unsigned int CAAFCOGHNMC_TypeDefinitionIndex = 14375;
+
 	class CAAFCOGHNMC : public ::System::Object
 	{
 	public:

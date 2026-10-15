@@ -9,6 +9,8 @@ namespace System { class Action; }
 
 namespace MiHoYo::SDK::HoYoPass
 {
+	inline static constexpr unsigned int AgeGateManager___c__DisplayClass30_0_TypeDefinitionIndex = 8265;
+
 	class AgeGateManager___c__DisplayClass30_0 : public ::System::Object
 	{
 	public:

@@ -42,6 +42,8 @@ namespace System { class String; }
 #define FDFOELGFBCA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E3576D0)
 #define FDFOELGFBCA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E357730)
 
+inline static constexpr unsigned int FDFOELGFBCA_TypeDefinitionIndex = 28019;
+
 	class FDFOELGFBCA : public ::System::Object
 	{
 	public:

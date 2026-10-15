@@ -9,6 +9,8 @@ class HGCEOEHGPPE;
 #define CALNKFFMFOL___C__DISPLAYCLASS26_0___CHECKSTARTPATCH_B__0_OFFSET UNITYSDK_OFFSET(0xC48C4D0)
 #define CALNKFFMFOL___C__DISPLAYCLASS26_0___CHECKSTARTPATCH_B__1_OFFSET UNITYSDK_OFFSET(0xC48C5D0)
 
+inline static constexpr unsigned int CALNKFFMFOL___c__DisplayClass26_0_TypeDefinitionIndex = 61167;
+
 	class CALNKFFMFOL___c__DisplayClass26_0 : public ::System::Object
 	{
 	public:

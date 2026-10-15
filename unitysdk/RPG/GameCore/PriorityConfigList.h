@@ -40,6 +40,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PriorityConfigList_TypeDefinitionIndex = 17126;
+
 	class PriorityConfigList : public ::RPG::GameCore::JsonConfig
 	{
 	public:

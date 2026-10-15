@@ -9,6 +9,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define LIFCDBLDNMD_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB6C9A60)
 #define LIFCDBLDNMD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB6C9C60)
 
+inline static constexpr unsigned int LIFCDBLDNMD_TypeDefinitionIndex = 53899;
+
 	class LIFCDBLDNMD
 	{
 	public:

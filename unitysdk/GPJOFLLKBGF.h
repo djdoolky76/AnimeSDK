@@ -46,6 +46,8 @@ namespace UnityEngine { class Transform; }
 #define GPJOFLLKBGF__UNSERIALIZEASYNC_B__21_0_OFFSET UNITYSDK_OFFSET(0x15B5C3A0)
 #define GPJOFLLKBGF__UNSERIALIZEASYNC_B__21_1_OFFSET UNITYSDK_OFFSET(0x15B5C400)
 
+inline static constexpr unsigned int GPJOFLLKBGF_TypeDefinitionIndex = 49077;
+
 	class GPJOFLLKBGF : public ::System::Object
 	{
 	public:

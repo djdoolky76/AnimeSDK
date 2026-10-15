@@ -3,6 +3,8 @@
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int BatchVisibility_TypeDefinitionIndex = 4734;
+
 	struct alignas(4) BatchVisibility
 	{
 		::System::Int32 offset; // 0x10

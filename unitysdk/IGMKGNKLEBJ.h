@@ -25,6 +25,8 @@ namespace UnityEngine { class GameObject; }
 #define IGMKGNKLEBJ_NAMPHMJPHJP_OFFSET UNITYSDK_OFFSET(0x16412A00)
 #define IGMKGNKLEBJ_OJPIMDMEHCI_OFFSET UNITYSDK_OFFSET(0x164137E0)
 
+inline static constexpr unsigned int IGMKGNKLEBJ_TypeDefinitionIndex = 76699;
+
 	class IGMKGNKLEBJ : public ::System::Object
 	{
 	public:

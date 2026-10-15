@@ -35,6 +35,8 @@ namespace System { class String; }
 
 namespace Google::Protobuf::Reflection
 {
+	inline static constexpr unsigned int ServiceOptions_TypeDefinitionIndex = 5505;
+
 	class ServiceOptions : public ::System::Object
 	{
 	public:

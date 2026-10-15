@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DecoupleParentTransform_TypeDefinitionIndex = 22848;
+
 	class DecoupleParentTransform : public ::RPG::GameCore::TaskConfig
 	{
 	public:

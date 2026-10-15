@@ -5,6 +5,8 @@ namespace System { class String; }
 
 #define IOJNKNFOCLB_IDDNNHDDIPI_EDFDIKELADA_OFFSET UNITYSDK_OFFSET(0x1CC85410)
 
+inline static constexpr unsigned int IOJNKNFOCLB_IDDNNHDDIPI_TypeDefinitionIndex = 43851;
+
 	class IOJNKNFOCLB_IDDNNHDDIPI : public ::System::Object
 	{
 	public:

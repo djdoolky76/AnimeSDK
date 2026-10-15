@@ -10,6 +10,8 @@ namespace RPG::GameCore::Match3 { class BeforeInputTrigger; }
 
 namespace RPG::GameCore::Match3
 {
+	inline static constexpr unsigned int BeforeInputTrigger_TypeDefinitionIndex = 24873;
+
 	class BeforeInputTrigger : public ::RPG::GameCore::Match3::Match3TriggerBase
 	{
 	public:

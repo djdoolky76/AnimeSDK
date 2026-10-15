@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TeamFormationTemplateSingleConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TeamFormationTemplateConfig_TypeDefinitionIndex = 16582;
+
 	class TeamFormationTemplateConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

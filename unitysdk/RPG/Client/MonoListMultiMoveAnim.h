@@ -25,6 +25,8 @@ namespace XLua { class LuaTable; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoListMultiMoveAnim_TypeDefinitionIndex = 72582;
+
 	class MonoListMultiMoveAnim : public ::UnityEngine::MonoBehaviour
 	{
 	public:

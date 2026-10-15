@@ -9,6 +9,8 @@ namespace RPG::GameCore { class DamageTextTeamPoolConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DamageTextTeamPoolConfig_TypeDefinitionIndex = 17144;
+
 	class DamageTextTeamPoolConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

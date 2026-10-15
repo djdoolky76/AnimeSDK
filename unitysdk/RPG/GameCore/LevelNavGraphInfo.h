@@ -22,6 +22,8 @@ namespace System { class Object; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelNavGraphInfo_TypeDefinitionIndex = 10716;
+
 	struct alignas(8) LevelNavGraphInfo
 	{
 		::LELCKJPOPAO* _Pool; // 0x10

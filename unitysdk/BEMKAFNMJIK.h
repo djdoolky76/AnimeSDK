@@ -3962,6 +3962,8 @@ namespace RPG::GameCore { class TaskConfig; }
 #define BEMKAFNMJIK_PPMONHFDHJE_OFFSET UNITYSDK_OFFSET(0x1D449F70)
 #define BEMKAFNMJIK_PPNLCGIJONG_OFFSET UNITYSDK_OFFSET(0x1CEFEE60)
 
+inline static constexpr unsigned int BEMKAFNMJIK_TypeDefinitionIndex = 23737;
+
 	class BEMKAFNMJIK : public ::System::Object
 	{
 	public:

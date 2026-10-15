@@ -41,6 +41,8 @@ namespace System { class String; }
 #define DKFNBJOGFME_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E1D5BE0)
 #define DKFNBJOGFME_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E1D5C40)
 
+inline static constexpr unsigned int DKFNBJOGFME_TypeDefinitionIndex = 34111;
+
 	class DKFNBJOGFME : public ::System::Object
 	{
 	public:

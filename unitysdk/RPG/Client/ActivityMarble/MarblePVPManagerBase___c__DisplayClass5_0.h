@@ -9,6 +9,8 @@ namespace RPG::Client::ActivityMarble { class MarblePVPMatchContext; }
 
 namespace RPG::Client::ActivityMarble
 {
+	inline static constexpr unsigned int MarblePVPManagerBase___c__DisplayClass5_0_TypeDefinitionIndex = 76013;
+
 	class MarblePVPManagerBase___c__DisplayClass5_0 : public ::System::Object
 	{
 	public:

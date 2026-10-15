@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define DMGMDAFEFAP_CTOR_OFFSET UNITYSDK_OFFSET(0x1C5F72E0)
 
+inline static constexpr unsigned int DMGMDAFEFAP_TypeDefinitionIndex = 36402;
+
 	class DMGMDAFEFAP : public ::System::Object
 	{
 	public:

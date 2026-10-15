@@ -6,6 +6,8 @@
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int SerializableDictionaryBase_GFGJDIOEEGL_TypeDefinitionIndex = 51872;
+
 	class SerializableDictionaryBase_GFGJDIOEEGL : public ::System::Object
 	{
 	public:

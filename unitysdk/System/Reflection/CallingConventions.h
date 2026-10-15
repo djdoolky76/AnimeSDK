@@ -3,6 +3,8 @@
 
 namespace System::Reflection
 {
+	inline static constexpr unsigned int CallingConventions_TypeDefinitionIndex = 558;
+
 	enum class CallingConventions : ::System::Int32
 	{
 		Standard = 1,

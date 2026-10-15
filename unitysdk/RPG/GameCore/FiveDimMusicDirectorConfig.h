@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FiveDimMusicInfo; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimMusicDirectorConfig_TypeDefinitionIndex = 18820;
+
 	class FiveDimMusicDirectorConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

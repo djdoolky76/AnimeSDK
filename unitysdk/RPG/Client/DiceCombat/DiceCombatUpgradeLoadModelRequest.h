@@ -7,6 +7,8 @@
 
 namespace RPG::Client::DiceCombat
 {
+	inline static constexpr unsigned int DiceCombatUpgradeLoadModelRequest_TypeDefinitionIndex = 76043;
+
 	class DiceCombatUpgradeLoadModelRequest : public ::System::Object
 	{
 	public:

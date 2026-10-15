@@ -3,6 +3,8 @@
 
 namespace Spine
 {
+	inline static constexpr unsigned int TextureFilter_TypeDefinitionIndex = 39644;
+
 	enum class TextureFilter : ::System::Int32
 	{
 		Nearest = 0,

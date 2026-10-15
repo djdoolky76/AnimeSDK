@@ -10,6 +10,8 @@ namespace UnityEngine::EventSystems { class PhysicsRaycaster_RaycastHitComparer;
 
 namespace UnityEngine::EventSystems
 {
+	inline static constexpr unsigned int PhysicsRaycaster_RaycastHitComparer_TypeDefinitionIndex = 6953;
+
 	class PhysicsRaycaster_RaycastHitComparer : public ::System::Object
 	{
 	public:

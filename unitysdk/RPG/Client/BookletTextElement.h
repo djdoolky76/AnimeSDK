@@ -7,6 +7,8 @@ namespace UnityEngine::UI { class Text; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int BookletTextElement_TypeDefinitionIndex = 72394;
+
 	class BookletTextElement
 	{
 	public:

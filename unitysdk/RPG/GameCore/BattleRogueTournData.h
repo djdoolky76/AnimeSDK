@@ -11,6 +11,8 @@ namespace RPG::GameCore { class BattleRogueTournData; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int BattleRogueTournData_TypeDefinitionIndex = 56318;
+
 	class BattleRogueTournData : public ::System::Object
 	{
 	public:

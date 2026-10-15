@@ -23,6 +23,8 @@ class IDPIIKPHFJP;
 #define GIKOGDBPCLO_NPJJJGIAGON_OFFSET UNITYSDK_OFFSET(0x15A45D10)
 #define GIKOGDBPCLO_TICK_OFFSET UNITYSDK_OFFSET(0x15A45580)
 
+inline static constexpr unsigned int GIKOGDBPCLO_TypeDefinitionIndex = 77774;
+
 	class GIKOGDBPCLO : public ::System::Object
 	{
 	public:

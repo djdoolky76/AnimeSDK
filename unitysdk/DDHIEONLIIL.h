@@ -31,6 +31,8 @@ namespace System { class String; }
 #define DDHIEONLIIL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E17CE00)
 #define DDHIEONLIIL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E17CE60)
 
+inline static constexpr unsigned int DDHIEONLIIL_TypeDefinitionIndex = 31002;
+
 	class DDHIEONLIIL : public ::System::Object
 	{
 	public:

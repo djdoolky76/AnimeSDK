@@ -3,6 +3,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AvatarMaterialIndex_TypeDefinitionIndex = 60095;
+
 	enum class AvatarMaterialIndex : ::System::Int32
 	{
 		None = -1,

@@ -7,6 +7,8 @@
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
+	inline static constexpr unsigned int BrowserCursor_CursorInfo_TypeDefinitionIndex = 39367;
+
 	class BrowserCursor_CursorInfo : public ::System::Object
 	{
 	public:

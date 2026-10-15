@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int OverrideLightDeviceFollowColliderMode_TypeDefinitionIndex = 22344;
+
 	class OverrideLightDeviceFollowColliderMode : public ::RPG::GameCore::TaskConfig
 	{
 	public:

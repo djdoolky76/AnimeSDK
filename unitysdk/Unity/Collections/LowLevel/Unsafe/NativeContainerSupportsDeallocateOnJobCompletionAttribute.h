@@ -6,6 +6,8 @@
 
 namespace Unity::Collections::LowLevel::Unsafe
 {
+	inline static constexpr unsigned int NativeContainerSupportsDeallocateOnJobCompletionAttribute_TypeDefinitionIndex = 3996;
+
 	class NativeContainerSupportsDeallocateOnJobCompletionAttribute : public ::System::Attribute
 	{
 	public:

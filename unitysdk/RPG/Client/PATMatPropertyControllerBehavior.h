@@ -16,6 +16,8 @@ namespace UnityEngine { class MaterialPropertyBlock; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PATMatPropertyControllerBehavior_TypeDefinitionIndex = 70691;
+
 	class PATMatPropertyControllerBehavior : public ::RPG::Client::TABehaviorBase
 	{
 	public:

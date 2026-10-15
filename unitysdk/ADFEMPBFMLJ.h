@@ -17,6 +17,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define ADFEMPBFMLJ_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB136D90)
 #define ADFEMPBFMLJ_TICK_OFFSET UNITYSDK_OFFSET(0xB1372F0)
 
+inline static constexpr unsigned int ADFEMPBFMLJ_TypeDefinitionIndex = 56463;
+
 	class ADFEMPBFMLJ : public ::GELIALJDFBL
 	{
 	public:

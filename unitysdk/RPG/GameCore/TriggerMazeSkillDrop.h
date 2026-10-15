@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TriggerMazeSkillDrop; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TriggerMazeSkillDrop_TypeDefinitionIndex = 21756;
+
 	class TriggerMazeSkillDrop : public ::RPG::GameCore::TaskConfig
 	{
 	public:

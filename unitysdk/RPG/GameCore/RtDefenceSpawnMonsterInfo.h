@@ -11,6 +11,8 @@ namespace RPG::GameCore { class RtDefenceSpawnMonsterInfo; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RtDefenceSpawnMonsterInfo_TypeDefinitionIndex = 18066;
+
 	class RtDefenceSpawnMonsterInfo : public ::RPG::GameCore::JsonConfig
 	{
 	public:

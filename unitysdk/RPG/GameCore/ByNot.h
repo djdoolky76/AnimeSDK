@@ -14,6 +14,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByNot_TypeDefinitionIndex = 23797;
+
 	class ByNot : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

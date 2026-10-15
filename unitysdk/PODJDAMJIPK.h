@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define PODJDAMJIPK_CTOR_OFFSET UNITYSDK_OFFSET(0x1C9F9400)
 #define PODJDAMJIPK_PHEMNJKGMDD_OFFSET UNITYSDK_OFFSET(0x1C9F9340)
 
+inline static constexpr unsigned int PODJDAMJIPK_TypeDefinitionIndex = 42096;
+
 	class PODJDAMJIPK : public ::System::Object
 	{
 	public:

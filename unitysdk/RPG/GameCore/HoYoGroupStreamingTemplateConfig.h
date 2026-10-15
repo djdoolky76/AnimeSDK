@@ -10,6 +10,8 @@ namespace RPG::GameCore { class HoYoGroupStreamingTemplateItem; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int HoYoGroupStreamingTemplateConfig_TypeDefinitionIndex = 17354;
+
 	class HoYoGroupStreamingTemplateConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

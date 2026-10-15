@@ -12,6 +12,8 @@ namespace SRDebugger::Services::Implementation { class OptionsServiceImpl; }
 
 namespace SRDebugger::Services::Implementation
 {
+	inline static constexpr unsigned int OptionsServiceImpl_OptionContainerEventHandler_TypeDefinitionIndex = 38083;
+
 	class OptionsServiceImpl_OptionContainerEventHandler : public ::System::Object
 	{
 	public:

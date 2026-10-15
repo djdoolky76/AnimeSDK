@@ -22,6 +22,8 @@ namespace UnityEngine { class Object; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int CRPPipelineBase_TypeDefinitionIndex = 37549;
+
 	class CRPPipelineBase : public ::UnityEngine::Rendering::RenderPipeline
 	{
 	public:

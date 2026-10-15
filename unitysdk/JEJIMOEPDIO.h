@@ -12,6 +12,8 @@ class PMCOCABFEPG;
 #define JEJIMOEPDIO_IEKLHHEOKLC_OFFSET UNITYSDK_OFFSET(0x1662DEA0)
 #define JEJIMOEPDIO_KABAPEPIGGI_OFFSET UNITYSDK_OFFSET(0x1662DD00)
 
+inline static constexpr unsigned int JEJIMOEPDIO_TypeDefinitionIndex = 79415;
+
 	class JEJIMOEPDIO : public ::System::Object
 	{
 	public:

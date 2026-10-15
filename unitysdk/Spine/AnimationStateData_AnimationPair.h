@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace Spine
 {
+	inline static constexpr unsigned int AnimationStateData_AnimationPair_TypeDefinitionIndex = 39639;
+
 	struct alignas(8) AnimationStateData_AnimationPair
 	{
 		::Spine::Animation* a1; // 0x10

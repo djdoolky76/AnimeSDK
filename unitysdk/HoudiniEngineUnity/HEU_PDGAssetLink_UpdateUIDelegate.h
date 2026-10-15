@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int HEU_PDGAssetLink_UpdateUIDelegate_TypeDefinitionIndex = 40534;
+
 	class HEU_PDGAssetLink_UpdateUIDelegate : public ::System::MulticastDelegate
 	{
 	public:

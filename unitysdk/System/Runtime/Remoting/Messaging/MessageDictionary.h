@@ -38,6 +38,8 @@ namespace System::Runtime::Remoting::Messaging { class IMethodMessage; }
 
 namespace System::Runtime::Remoting::Messaging
 {
+	inline static constexpr unsigned int MessageDictionary_TypeDefinitionIndex = 1323;
+
 	class MessageDictionary : public ::System::Object
 	{
 	public:

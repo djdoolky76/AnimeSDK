@@ -32,6 +32,8 @@ namespace System { class String; }
 #define CEKIFBMPEFH_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E0975E0)
 #define CEKIFBMPEFH_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E097640)
 
+inline static constexpr unsigned int CEKIFBMPEFH_TypeDefinitionIndex = 26244;
+
 	class CEKIFBMPEFH : public ::System::Object
 	{
 	public:

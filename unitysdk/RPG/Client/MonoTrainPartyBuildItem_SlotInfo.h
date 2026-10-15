@@ -9,6 +9,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoTrainPartyBuildItem_SlotInfo_TypeDefinitionIndex = 68875;
+
 	class MonoTrainPartyBuildItem_SlotInfo : public ::System::Object
 	{
 	public:

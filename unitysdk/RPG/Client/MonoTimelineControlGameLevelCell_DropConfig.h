@@ -6,6 +6,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoTimelineControlGameLevelCell_DropConfig_TypeDefinitionIndex = 60440;
+
 	class MonoTimelineControlGameLevelCell_DropConfig : public ::System::Object
 	{
 	public:

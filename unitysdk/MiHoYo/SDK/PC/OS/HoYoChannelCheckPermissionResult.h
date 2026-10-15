@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::PC::OS
 {
+	inline static constexpr unsigned int HoYoChannelCheckPermissionResult_TypeDefinitionIndex = 8609;
+
 	class HoYoChannelCheckPermissionResult : public ::MiHoYo::SDK::PC::OS::HoYoChannelBaseResult
 	{
 	public:

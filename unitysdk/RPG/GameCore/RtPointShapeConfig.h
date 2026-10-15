@@ -13,6 +13,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RtPointShapeConfig_TypeDefinitionIndex = 17654;
+
 	class RtPointShapeConfig : public ::RPG::GameCore::RtCollision2DShapeConfig
 	{
 	public:

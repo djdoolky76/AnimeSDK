@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RemoveVideoSequence_TypeDefinitionIndex = 21924;
+
 	class RemoveVideoSequence : public ::RPG::GameCore::TaskConfig
 	{
 	public:

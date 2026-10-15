@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T> class ICollection
 #define DCLLIBDLMKG_ILAPNHCEMJF_OFFSET UNITYSDK_OFFSET(0xE250A80)
 #define DCLLIBDLMKG_LMNPPAMFNEJ_OFFSET UNITYSDK_OFFSET(0xE2508B0)
 
+inline static constexpr unsigned int DCLLIBDLMKG_TypeDefinitionIndex = 66112;
+
 	class DCLLIBDLMKG : public ::System::Object
 	{
 	public:

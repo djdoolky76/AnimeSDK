@@ -17,6 +17,8 @@ namespace System { class Object; }
 #define BNLGDHOABKF_LKNGGPFIMKM_OFFSET UNITYSDK_OFFSET(0xBDDD7A0)
 #define BNLGDHOABKF_MEPEGLNJFGK_OFFSET UNITYSDK_OFFSET(0xBDDDB00)
 
+inline static constexpr unsigned int BNLGDHOABKF_TypeDefinitionIndex = 71590;
+
 	class BNLGDHOABKF : public ::FMPCODLIOLG
 	{
 	public:

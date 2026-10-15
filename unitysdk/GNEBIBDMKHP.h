@@ -31,6 +31,8 @@ namespace System { class String; }
 #define GNEBIBDMKHP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E4DC2E0)
 #define GNEBIBDMKHP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E4DC340)
 
+inline static constexpr unsigned int GNEBIBDMKHP_TypeDefinitionIndex = 32272;
+
 	class GNEBIBDMKHP : public ::System::Object
 	{
 	public:

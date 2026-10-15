@@ -10,6 +10,8 @@ namespace System { class String; }
 #define FENHNPHBIBA_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CDE2790)
 #define FENHNPHBIBA_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CDE2730)
 
+inline static constexpr unsigned int FENHNPHBIBA_TypeDefinitionIndex = 16834;
+
 	class FENHNPHBIBA : public ::RPG::GameCore::MarbleTaskConfig
 	{
 	public:

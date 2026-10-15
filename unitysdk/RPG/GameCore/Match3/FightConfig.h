@@ -9,6 +9,8 @@ namespace RPG::GameCore::Match3 { class FightConfig; }
 
 namespace RPG::GameCore::Match3
 {
+	inline static constexpr unsigned int FightConfig_TypeDefinitionIndex = 24870;
+
 	class FightConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

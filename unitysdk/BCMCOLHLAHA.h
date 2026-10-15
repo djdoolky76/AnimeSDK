@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define BCMCOLHLAHA_CTOR_OFFSET UNITYSDK_OFFSET(0x162E3C70)
 #define BCMCOLHLAHA_EVALUATE_OFFSET UNITYSDK_OFFSET(0x162E3CA0)
 
+inline static constexpr unsigned int BCMCOLHLAHA_TypeDefinitionIndex = 54571;
+
 	class BCMCOLHLAHA
 	{
 	public:

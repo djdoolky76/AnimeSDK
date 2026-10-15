@@ -10,6 +10,8 @@ namespace System { class String; }
 #define LNAAGIHIKDJ_GET_SENDERICON_OFFSET UNITYSDK_OFFSET(0xB7D4E90)
 #define LNAAGIHIKDJ_GET_SENDERNAME_OFFSET UNITYSDK_OFFSET(0xB7D4E80)
 
+inline static constexpr unsigned int LNAAGIHIKDJ_TypeDefinitionIndex = 68928;
+
 	class LNAAGIHIKDJ : public ::MFLJIEBFMOF
 	{
 	public:

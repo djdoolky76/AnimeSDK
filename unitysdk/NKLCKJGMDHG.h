@@ -31,6 +31,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define NKLCKJGMDHG_OPPBLMGBPIG_OFFSET UNITYSDK_OFFSET(0xBC3AA70)
 #define NKLCKJGMDHG__ONBIND_OFFSET UNITYSDK_OFFSET(0xBC39EE0)
 
+inline static constexpr unsigned int NKLCKJGMDHG_TypeDefinitionIndex = 71799;
+
 	class NKLCKJGMDHG : public ::FMPCODLIOLG
 	{
 	public:

@@ -59,6 +59,8 @@ namespace System { class String; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int Rect_TypeDefinitionIndex = 4081;
+
 	struct alignas(4) Rect
 	{
 		::System::Single m_XMin; // 0x10

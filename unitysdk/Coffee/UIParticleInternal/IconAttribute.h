@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace Coffee::UIParticleInternal
 {
+	inline static constexpr unsigned int IconAttribute_TypeDefinitionIndex = 45137;
+
 	class IconAttribute : public ::System::Attribute
 	{
 	public:

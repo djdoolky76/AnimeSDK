@@ -33,6 +33,8 @@ namespace System { class String; }
 #define LFCHHMGGMPC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E93A7D0)
 #define LFCHHMGGMPC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E93A830)
 
+inline static constexpr unsigned int LFCHHMGGMPC_TypeDefinitionIndex = 32136;
+
 	class LFCHHMGGMPC : public ::System::Object
 	{
 	public:

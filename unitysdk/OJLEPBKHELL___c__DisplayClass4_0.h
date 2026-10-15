@@ -10,6 +10,8 @@ namespace System { class Exception; }
 #define OJLEPBKHELL___C__DISPLAYCLASS4_0___DOENTERGAMEFLOW_B__0_OFFSET UNITYSDK_OFFSET(0xBEBE510)
 #define OJLEPBKHELL___C__DISPLAYCLASS4_0___DOENTERGAMEFLOW_B__1_OFFSET UNITYSDK_OFFSET(0xBEBE600)
 
+inline static constexpr unsigned int OJLEPBKHELL___c__DisplayClass4_0_TypeDefinitionIndex = 75286;
+
 	class OJLEPBKHELL___c__DisplayClass4_0 : public ::System::Object
 	{
 	public:

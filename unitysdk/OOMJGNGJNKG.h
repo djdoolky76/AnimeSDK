@@ -29,6 +29,8 @@ namespace System::Collections::Generic { template <typename T> class Queue_1; }
 #define OOMJGNGJNKG_OEEJKKMDDCG_OFFSET UNITYSDK_OFFSET(0xBF8EAC0)
 #define OOMJGNGJNKG__ONTICK_OFFSET UNITYSDK_OFFSET(0xBF8E640)
 
+inline static constexpr unsigned int OOMJGNGJNKG_TypeDefinitionIndex = 71553;
+
 	class OOMJGNGJNKG : public ::FMPCODLIOLG
 	{
 	public:

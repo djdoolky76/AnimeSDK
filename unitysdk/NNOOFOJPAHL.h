@@ -24,6 +24,8 @@ namespace UnityEngine { class Collider; }
 #define NNOOFOJPAHL_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0xBCDBE90)
 #define NNOOFOJPAHL_PHHOAIBGJFP_OFFSET UNITYSDK_OFFSET(0xBCDC180)
 
+inline static constexpr unsigned int NNOOFOJPAHL_TypeDefinitionIndex = 77064;
+
 	class NNOOFOJPAHL : public ::CCHDOBAEGCN
 	{
 	public:

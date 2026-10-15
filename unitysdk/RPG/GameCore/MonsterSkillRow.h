@@ -18,6 +18,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MonsterSkillRow_TypeDefinitionIndex = 14186;
+
 	class MonsterSkillRow : public ::System::Object
 	{
 	public:

@@ -16,6 +16,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AudienceMoodMapConfig_TypeDefinitionIndex = 69154;
+
 	class AudienceMoodMapConfig : public ::UnityEngine::ScriptableObject
 	{
 	public:

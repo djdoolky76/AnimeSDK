@@ -7,6 +7,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define DLFJBEDDLGH_DISPOSE_OFFSET UNITYSDK_OFFSET(0xF89EF00)
 #define DLFJBEDDLGH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xF89EF40)
 
+inline static constexpr unsigned int DLFJBEDDLGH_TypeDefinitionIndex = 58086;
+
 	class DLFJBEDDLGH
 	{
 	public:

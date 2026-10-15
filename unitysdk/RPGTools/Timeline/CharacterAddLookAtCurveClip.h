@@ -13,6 +13,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int CharacterAddLookAtCurveClip_TypeDefinitionIndex = 47970;
+
 	class CharacterAddLookAtCurveClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:

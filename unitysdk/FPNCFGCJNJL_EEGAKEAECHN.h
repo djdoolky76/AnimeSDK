@@ -12,6 +12,8 @@ namespace UnityEngine { class Component; }
 #define FPNCFGCJNJL_EEGAKEAECHN_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x15921A20)
 #define FPNCFGCJNJL_EEGAKEAECHN_INVOKE_OFFSET UNITYSDK_OFFSET(0x159219E0)
 
+inline static constexpr unsigned int FPNCFGCJNJL_EEGAKEAECHN_TypeDefinitionIndex = 49083;
+
 	class FPNCFGCJNJL_EEGAKEAECHN : public ::System::MulticastDelegate
 	{
 	public:

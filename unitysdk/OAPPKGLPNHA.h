@@ -47,6 +47,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define OAPPKGLPNHA_SET_SUBINDEX_OFFSET UNITYSDK_OFFSET(0xBD30650)
 #define OAPPKGLPNHA_SET_TARGETTIMESTAMP_OFFSET UNITYSDK_OFFSET(0xBD30510)
 
+inline static constexpr unsigned int OAPPKGLPNHA_TypeDefinitionIndex = 55758;
+
 	class OAPPKGLPNHA : public ::System::Object
 	{
 	public:

@@ -37,6 +37,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define BIGECLNFJPJ_MJKMPANKMLO_OFFSET UNITYSDK_OFFSET(0xB4A5860)
 #define BIGECLNFJPJ_OIBKPJEGPOK_OFFSET UNITYSDK_OFFSET(0xB4A5F30)
 
+inline static constexpr unsigned int BIGECLNFJPJ_TypeDefinitionIndex = 49200;
+
 	class BIGECLNFJPJ : public ::System::Object
 	{
 	public:

@@ -9,6 +9,8 @@
 
 namespace Mirrorment
 {
+	inline static constexpr unsigned int MirrormentTool_BEDKPFLOAFJ_TypeDefinitionIndex = 47769;
+
 	class MirrormentTool_BEDKPFLOAFJ : public ::System::Object
 	{
 	public:

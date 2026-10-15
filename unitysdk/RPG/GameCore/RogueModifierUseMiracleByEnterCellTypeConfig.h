@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueModifierUseMiracleByEnterCellTypeConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueModifierUseMiracleByEnterCellTypeConfig_TypeDefinitionIndex = 17936;
+
 	class RogueModifierUseMiracleByEnterCellTypeConfig : public ::RPG::GameCore::RogueModifierConfig
 	{
 	public:

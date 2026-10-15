@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int ConsoleDelegate_GetCheckPermissionDelegate_TypeDefinitionIndex = 7683;
+
 	class ConsoleDelegate_GetCheckPermissionDelegate : public ::System::MulticastDelegate
 	{
 	public:

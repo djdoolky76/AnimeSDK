@@ -4,6 +4,8 @@
 
 #define IRI_BASEWALLCUSTOMDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x16533370)
 
+inline static constexpr unsigned int IRI_BaseWallCustomData_TypeDefinitionIndex = 47164;
+
 	class IRI_BaseWallCustomData : public ::UnityEngine::MonoBehaviour
 	{
 	public:

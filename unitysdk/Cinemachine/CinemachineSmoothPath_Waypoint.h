@@ -8,6 +8,8 @@
 
 namespace Cinemachine
 {
+	inline static constexpr unsigned int CinemachineSmoothPath_Waypoint_TypeDefinitionIndex = 39749;
+
 	struct alignas(4) CinemachineSmoothPath_Waypoint
 	{
 		::UnityEngine::Vector3 position; // 0x10

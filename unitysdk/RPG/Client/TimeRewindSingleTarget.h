@@ -60,6 +60,8 @@ class DHAEANMEFLE;
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TimeRewindSingleTarget_TypeDefinitionIndex = 60820;
+
 	class TimeRewindSingleTarget : public ::System::Object
 	{
 	public:

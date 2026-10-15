@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TutorialNotify_TypeDefinitionIndex = 24350;
+
 	class TutorialNotify : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int CachedAssetLoader___c__DisplayClass21_0_TypeDefinitionIndex = 59438;
+
 	class CachedAssetLoader___c__DisplayClass21_0 : public ::System::Object
 	{
 	public:

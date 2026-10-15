@@ -9,6 +9,8 @@ namespace UnityEngine { class MaterialPropertyBlock; }
 #define IBIJMMCBLFB_SETPROPERTY_1_OFFSET UNITYSDK_OFFSET(0x15E3A770)
 #define IBIJMMCBLFB_SETPROPERTY_OFFSET UNITYSDK_OFFSET(0x15E3A6F0)
 
+inline static constexpr unsigned int IBIJMMCBLFB_TypeDefinitionIndex = 69829;
+
 	class IBIJMMCBLFB : public ::System::Object
 	{
 	public:

@@ -29,6 +29,8 @@ namespace System { class String; }
 #define HCKADDLIGEB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E541A80)
 #define HCKADDLIGEB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E541AE0)
 
+inline static constexpr unsigned int HCKADDLIGEB_TypeDefinitionIndex = 25251;
+
 	class HCKADDLIGEB : public ::System::Object
 	{
 	public:

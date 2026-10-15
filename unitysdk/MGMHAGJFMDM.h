@@ -8,6 +8,8 @@ namespace RPG::GameCore { class CheckCurrentAIPhaseAxis; }
 #define MGMHAGJFMDM_CTOR_OFFSET UNITYSDK_OFFSET(0xB928AF0)
 #define MGMHAGJFMDM_MNAKIEOGPDK_OFFSET UNITYSDK_OFFSET(0xB928B00)
 
+inline static constexpr unsigned int MGMHAGJFMDM_TypeDefinitionIndex = 54366;
+
 	class MGMHAGJFMDM : public ::BEMKNPIFMBI
 	{
 	public:

@@ -14,6 +14,8 @@ namespace UnityEngine::Events { class UnityEventBase; }
 #define FLPBCEFLDGH_JFPIDHPFDCD_OFFSET UNITYSDK_OFFSET(0x1EC6C0D0)
 #define FLPBCEFLDGH_JNBFOGKPGPC_OFFSET UNITYSDK_OFFSET(0x1EC6BDA0)
 
+inline static constexpr unsigned int FLPBCEFLDGH_TypeDefinitionIndex = 44076;
+
 	class FLPBCEFLDGH : public ::System::Object
 	{
 	public:

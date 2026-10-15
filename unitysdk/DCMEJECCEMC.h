@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define DCMEJECCEMC_KLBFBHOPMDH_OFFSET UNITYSDK_OFFSET(0xE251310)
 #define DCMEJECCEMC_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0xE251050)
 
+inline static constexpr unsigned int DCMEJECCEMC_TypeDefinitionIndex = 60352;
+
 	class DCMEJECCEMC : public ::EFNJLACKEDH
 	{
 	public:

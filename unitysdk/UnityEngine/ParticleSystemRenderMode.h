@@ -3,6 +3,8 @@
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int ParticleSystemRenderMode_TypeDefinitionIndex = 5250;
+
 	enum class ParticleSystemRenderMode : ::System::Int32
 	{
 		Billboard = 0,

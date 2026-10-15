@@ -4,6 +4,8 @@
 
 #define PIOFNHHMCNJ_GFDPOGNEHLF_CCTOR_OFFSET UNITYSDK_OFFSET(0xC274DA0)
 
+inline static constexpr unsigned int PIOFNHHMCNJ_GFDPOGNEHLF_TypeDefinitionIndex = 69870;
+
 	class PIOFNHHMCNJ_GFDPOGNEHLF : public ::System::Object
 	{
 	public:

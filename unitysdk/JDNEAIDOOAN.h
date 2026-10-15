@@ -278,6 +278,8 @@ namespace UnityEngine { class Transform; }
 #define JDNEAIDOOAN_PNEBCEJJIMD_OFFSET UNITYSDK_OFFSET(0x165FDE40)
 #define JDNEAIDOOAN_PNOMCKCAELF_OFFSET UNITYSDK_OFFSET(0x165F91B0)
 
+inline static constexpr unsigned int JDNEAIDOOAN_TypeDefinitionIndex = 48937;
+
 	class JDNEAIDOOAN : public ::System::Object
 	{
 	public:

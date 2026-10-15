@@ -10,6 +10,8 @@ namespace UnityEngine::UI { class Graphic; }
 #define CHKNHIKBFDM_JDAGFHEPMHF_OFFSET UNITYSDK_OFFSET(0xCF58CB0)
 #define CHKNHIKBFDM_JFNDMGPKLOJ_OFFSET UNITYSDK_OFFSET(0xCF58EB0)
 
+inline static constexpr unsigned int CHKNHIKBFDM_TypeDefinitionIndex = 49763;
+
 	class CHKNHIKBFDM : public ::System::Object
 	{
 	public:

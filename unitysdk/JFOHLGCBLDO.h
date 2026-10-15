@@ -9,6 +9,8 @@
 #define JFOHLGCBLDO_ONGRAPHSTOP_OFFSET UNITYSDK_OFFSET(0x1665B200)
 #define JFOHLGCBLDO_SET_USEUI3DCAMERA_OFFSET UNITYSDK_OFFSET(0x1665AF30)
 
+inline static constexpr unsigned int JFOHLGCBLDO_TypeDefinitionIndex = 48060;
+
 	class JFOHLGCBLDO : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

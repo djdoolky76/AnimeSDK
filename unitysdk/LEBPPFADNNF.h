@@ -9,6 +9,8 @@ namespace RPG::GameCore { class ChimeraDuelNpcLeaveNode; }
 #define LEBPPFADNNF_CTOR_OFFSET UNITYSDK_OFFSET(0xB64BC00)
 #define LEBPPFADNNF_HJMLOLJBBPH_OFFSET UNITYSDK_OFFSET(0xB64BB20)
 
+inline static constexpr unsigned int LEBPPFADNNF_TypeDefinitionIndex = 77690;
+
 	class LEBPPFADNNF : public ::HBLDGJCDJPF
 	{
 	public:

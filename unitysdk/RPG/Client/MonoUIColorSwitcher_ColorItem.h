@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoUIColorSwitcher_ColorItem_TypeDefinitionIndex = 68976;
+
 	class MonoUIColorSwitcher_ColorItem : public ::System::Object
 	{
 	public:

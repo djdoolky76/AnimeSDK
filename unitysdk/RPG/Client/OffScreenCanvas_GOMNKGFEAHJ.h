@@ -24,6 +24,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int OffScreenCanvas_GOMNKGFEAHJ_TypeDefinitionIndex = 72621;
+
 	class OffScreenCanvas_GOMNKGFEAHJ : public ::System::Object
 	{
 	public:

@@ -34,6 +34,8 @@ namespace System { class String; }
 #define JGAMMPGMCNI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E735A80)
 #define JGAMMPGMCNI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E735AE0)
 
+inline static constexpr unsigned int JGAMMPGMCNI_TypeDefinitionIndex = 33415;
+
 	class JGAMMPGMCNI : public ::System::Object
 	{
 	public:

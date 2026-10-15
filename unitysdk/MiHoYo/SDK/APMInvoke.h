@@ -22,6 +22,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int APMInvoke_TypeDefinitionIndex = 46491;
+
 	class APMInvoke : public ::System::Object
 	{
 	public:

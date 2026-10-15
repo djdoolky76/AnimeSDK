@@ -4,6 +4,8 @@
 
 #define FAFFMDBPCGJ_EIGPLIGCGJE_CTOR_OFFSET UNITYSDK_OFFSET(0x15679F70)
 
+inline static constexpr unsigned int FAFFMDBPCGJ_EIGPLIGCGJE_TypeDefinitionIndex = 76732;
+
 	class FAFFMDBPCGJ_EIGPLIGCGJE : public ::System::Object
 	{
 	public:

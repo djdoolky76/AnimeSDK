@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PropOverrideAnimLayerConfig_TypeDefinitionIndex = 17584;
+
 	class PropOverrideAnimLayerConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

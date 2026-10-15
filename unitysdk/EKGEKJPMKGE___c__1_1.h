@@ -5,6 +5,8 @@ namespace RPG::Client::UI3D { class UI3DCameraBrain; }
 namespace System { class Action; }
 namespace System { class Object; }
 
+inline static constexpr unsigned int EKGEKJPMKGE___c__1_1_TypeDefinitionIndex = 49788;
+
 	template <typename T>
 	class EKGEKJPMKGE___c__1_1 : public ::System::Object
 	{

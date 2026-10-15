@@ -11,6 +11,8 @@ namespace RPG::Client { class RoadRashGameModifier_TimedState; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RoadRashGameModifier_TimedState_TypeDefinitionIndex = 10308;
+
 	class RoadRashGameModifier_TimedState : public ::RPG::GameCore::BaseLittleGameAbilityTaskConfig
 	{
 	public:

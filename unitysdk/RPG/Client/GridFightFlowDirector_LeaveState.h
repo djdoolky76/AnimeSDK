@@ -11,6 +11,8 @@ namespace RPG::Client { class GridFightFlowDirector_IFlowStateEvent; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightFlowDirector_LeaveState_TypeDefinitionIndex = 64605;
+
 	class GridFightFlowDirector_LeaveState : public ::System::Object
 	{
 	public:

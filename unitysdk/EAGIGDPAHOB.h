@@ -1,6 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
+inline static constexpr unsigned int EAGIGDPAHOB_TypeDefinitionIndex = 66297;
+
 	struct alignas(4) EAGIGDPAHOB
 	{
 		::System::UInt32 JCLIFKACIJD; // 0x10

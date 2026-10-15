@@ -42,6 +42,8 @@ namespace System::ComponentModel { class PropertyChangedEventHandler; }
 #define BLOHPFEHNPK_REMOVE_ONROLECOLLECTIONCHANGED_OFFSET UNITYSDK_OFFSET(0xBA80270)
 #define BLOHPFEHNPK_REMOVE_ONROLEPROPERTYCHANGED_OFFSET UNITYSDK_OFFSET(0xBA801B0)
 
+inline static constexpr unsigned int BLOHPFEHNPK_TypeDefinitionIndex = 64684;
+
 	class BLOHPFEHNPK : public ::System::Object
 	{
 	public:

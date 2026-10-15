@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::Client::LimaoNews
 {
+	inline static constexpr unsigned int LimaoNewsPostInfoRowControl___c__DisplayClass7_0_TypeDefinitionIndex = 80396;
+
 	class LimaoNewsPostInfoRowControl___c__DisplayClass7_0 : public ::System::Object
 	{
 	public:

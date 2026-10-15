@@ -7,6 +7,8 @@ class MFIMCKDKDKG;
 #define GMAGAHGCOFD___C__DISPLAYCLASS30_0_CTOR_OFFSET UNITYSDK_OFFSET(0x15AC5CA0)
 #define GMAGAHGCOFD___C__DISPLAYCLASS30_0__REFRESHFIRETARGETS_B__0_OFFSET UNITYSDK_OFFSET(0x15AC94A0)
 
+inline static constexpr unsigned int GMAGAHGCOFD___c__DisplayClass30_0_TypeDefinitionIndex = 75913;
+
 	class GMAGAHGCOFD___c__DisplayClass30_0 : public ::System::Object
 	{
 	public:

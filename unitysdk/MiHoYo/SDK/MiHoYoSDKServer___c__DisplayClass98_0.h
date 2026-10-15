@@ -8,6 +8,8 @@ namespace MiHoYo::SDK { class MiHoYoSDKServer; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int MiHoYoSDKServer___c__DisplayClass98_0_TypeDefinitionIndex = 46328;
+
 	class MiHoYoSDKServer___c__DisplayClass98_0 : public ::System::Object
 	{
 	public:

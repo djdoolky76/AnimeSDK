@@ -15,6 +15,8 @@ namespace System::Xml::Schema { class XmlSchemaDatatype; }
 
 namespace System::Xml::Schema
 {
+	inline static constexpr unsigned int DateTimeFacetsChecker_TypeDefinitionIndex = 2159;
+
 	class DateTimeFacetsChecker : public ::System::Xml::Schema::FacetsChecker
 	{
 	public:

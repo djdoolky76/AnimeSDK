@@ -8,6 +8,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace IRIClusterBuilder
 {
+	inline static constexpr unsigned int IRI2VolumeTemplate_TypeDefinitionIndex = 47740;
+
 	class IRI2VolumeTemplate : public ::UnityEngine::ScriptableObject
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define ONNIDPKMOPB___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DED2010)
 #define ONNIDPKMOPB___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1DED2020)
 
+inline static constexpr unsigned int ONNIDPKMOPB___c_TypeDefinitionIndex = 32263;
+
 	class ONNIDPKMOPB___c : public ::System::Object
 	{
 	public:

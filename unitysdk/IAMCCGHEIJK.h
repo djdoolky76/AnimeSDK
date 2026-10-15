@@ -60,6 +60,8 @@ namespace UnityEngine { class Transform; }
 #define IAMCCGHEIJK_PPGNPELCKLD_OFFSET UNITYSDK_OFFSET(0x15E1BFD0)
 #define IAMCCGHEIJK_SET_CURRENTMAP_OFFSET UNITYSDK_OFFSET(0x15E1AA10)
 
+inline static constexpr unsigned int IAMCCGHEIJK_TypeDefinitionIndex = 62284;
+
 	class IAMCCGHEIJK : public ::System::Object
 	{
 	public:

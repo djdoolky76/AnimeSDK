@@ -27,6 +27,8 @@ namespace System { class String; }
 #define CKCPEGPJGLD_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E0E8F20)
 #define CKCPEGPJGLD_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E0E8F80)
 
+inline static constexpr unsigned int CKCPEGPJGLD_TypeDefinitionIndex = 32454;
+
 	class CKCPEGPJGLD : public ::System::Object
 	{
 	public:

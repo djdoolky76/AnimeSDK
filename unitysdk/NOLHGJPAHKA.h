@@ -10,6 +10,8 @@ namespace System { class String; }
 #define NOLHGJPAHKA_GET_TYPE_OFFSET UNITYSDK_OFFSET(0xBCF34E0)
 #define NOLHGJPAHKA_JAILHGGFLDH_OFFSET UNITYSDK_OFFSET(0xBCF34F0)
 
+inline static constexpr unsigned int NOLHGJPAHKA_TypeDefinitionIndex = 56136;
+
 	class NOLHGJPAHKA : public ::DBGDNLLDPFI
 	{
 	public:

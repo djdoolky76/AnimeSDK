@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define JDLOMLFOIPK_IECFILHPBEF_OFFSET UNITYSDK_OFFSET(0x165D7E40)
 #define JDLOMLFOIPK_JMBCNNMEGAE_OFFSET UNITYSDK_OFFSET(0x165D7CF0)
 
+inline static constexpr unsigned int JDLOMLFOIPK_TypeDefinitionIndex = 64258;
+
 	class JDLOMLFOIPK : public ::System::Object
 	{
 	public:

@@ -42,6 +42,8 @@ namespace System::Resources { class ResourceSet; }
 
 namespace System::Resources
 {
+	inline static constexpr unsigned int ResourceManager_TypeDefinitionIndex = 526;
+
 	class ResourceManager : public ::System::Object
 	{
 	public:

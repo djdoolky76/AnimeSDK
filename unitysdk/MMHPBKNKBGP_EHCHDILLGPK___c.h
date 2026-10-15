@@ -11,6 +11,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 #define MMHPBKNKBGP_EHCHDILLGPK___C__BUTTONS_B__27_0_OFFSET UNITYSDK_OFFSET(0xB9CDB50)
 #define MMHPBKNKBGP_EHCHDILLGPK___C__GETALLACTIVEBUTTONS_B__45_0_OFFSET UNITYSDK_OFFSET(0xB9CDB70)
 
+inline static constexpr unsigned int MMHPBKNKBGP_EHCHDILLGPK___c_TypeDefinitionIndex = 71902;
+
 	class MMHPBKNKBGP_EHCHDILLGPK___c : public ::System::Object
 	{
 	public:

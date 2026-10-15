@@ -12,6 +12,8 @@ namespace System { class WeakReference; }
 #define IEKJLPDEGMM_NLCDGIPGFDJ_OFFSET UNITYSDK_OFFSET(0x15F012E0)
 #define IEKJLPDEGMM_OADDJIHHFLD_OFFSET UNITYSDK_OFFSET(0x15F015F0)
 
+inline static constexpr unsigned int IEKJLPDEGMM_TypeDefinitionIndex = 75709;
+
 	class IEKJLPDEGMM : public ::System::Object
 	{
 	public:

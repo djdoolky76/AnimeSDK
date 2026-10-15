@@ -9,6 +9,8 @@ namespace UnityEngine::Formats::Alembic::Util { class AlembicRecorderSettings; }
 
 namespace UnityEngine::Formats::Alembic::Exporter
 {
+	inline static constexpr unsigned int AlembicExporterAnalytics_TypeDefinitionIndex = 45890;
+
 	class AlembicExporterAnalytics : public ::System::Object
 	{
 	public:

@@ -27,6 +27,8 @@ namespace System { class String; }
 #define DLGCDMBGIEB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E1E6EA0)
 #define DLGCDMBGIEB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E1E6F00)
 
+inline static constexpr unsigned int DLGCDMBGIEB_TypeDefinitionIndex = 27104;
+
 	class DLGCDMBGIEB : public ::System::Object
 	{
 	public:

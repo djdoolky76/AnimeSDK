@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace Nerdbank::Streams
 {
+	inline static constexpr unsigned int Verify_TypeDefinitionIndex = 7158;
+
 	class Verify : public ::System::Object
 	{
 	public:

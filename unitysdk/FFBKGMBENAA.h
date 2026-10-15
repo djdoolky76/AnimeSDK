@@ -11,6 +11,8 @@ namespace UnityEngine { class GameObject; }
 #define FFBKGMBENAA_INHBJHGKPGP_OFFSET UNITYSDK_OFFSET(0x1572FD60)
 #define FFBKGMBENAA_LPANHDEIMPH_OFFSET UNITYSDK_OFFSET(0x1572FC90)
 
+inline static constexpr unsigned int FFBKGMBENAA_TypeDefinitionIndex = 76225;
+
 	class FFBKGMBENAA : public ::System::Object
 	{
 	public:

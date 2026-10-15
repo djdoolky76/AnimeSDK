@@ -103,6 +103,8 @@ namespace System::Threading { class Thread; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AppUtils_TypeDefinitionIndex = 59277;
+
 	class AppUtils : public ::System::Object
 	{
 	public:

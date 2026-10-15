@@ -9,6 +9,8 @@ namespace System { class Object; }
 
 namespace System::Xml
 {
+	inline static constexpr unsigned int XmlWellFormedWriter_AttributeValueCache_Item_TypeDefinitionIndex = 1882;
+
 	class XmlWellFormedWriter_AttributeValueCache_Item : public ::System::Object
 	{
 	public:

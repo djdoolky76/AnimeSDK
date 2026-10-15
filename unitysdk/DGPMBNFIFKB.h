@@ -13,6 +13,8 @@ namespace System { class Object; }
 #define DGPMBNFIFKB_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xE85C280)
 #define DGPMBNFIFKB_TICK_OFFSET UNITYSDK_OFFSET(0xE85C6B0)
 
+inline static constexpr unsigned int DGPMBNFIFKB_TypeDefinitionIndex = 53203;
+
 	class DGPMBNFIFKB : public ::GELIALJDFBL
 	{
 	public:

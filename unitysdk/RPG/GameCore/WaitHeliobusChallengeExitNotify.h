@@ -12,6 +12,8 @@ namespace RPG::GameCore { class WaitHeliobusChallengeExitNotify; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int WaitHeliobusChallengeExitNotify_TypeDefinitionIndex = 21711;
+
 	class WaitHeliobusChallengeExitNotify : public ::RPG::GameCore::TaskConfig
 	{
 	public:

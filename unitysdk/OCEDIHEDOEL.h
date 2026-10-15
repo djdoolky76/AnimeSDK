@@ -41,6 +41,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define OCEDIHEDOEL_OBKJNOOKOGM_OFFSET UNITYSDK_OFFSET(0xBD5C970)
 #define OCEDIHEDOEL_PEMLKOLMIMK_OFFSET UNITYSDK_OFFSET(0xBD5C000)
 
+inline static constexpr unsigned int OCEDIHEDOEL_TypeDefinitionIndex = 78940;
+
 	class OCEDIHEDOEL : public ::System::Object
 	{
 	public:

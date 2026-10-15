@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PlayerRoomSubAreaConfigRow_TypeDefinitionIndex = 14549;
+
 	class PlayerRoomSubAreaConfigRow : public ::System::Object
 	{
 	public:

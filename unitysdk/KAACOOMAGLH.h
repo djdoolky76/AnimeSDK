@@ -14,6 +14,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define KAACOOMAGLH_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xB2CFD60)
 #define KAACOOMAGLH_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xB2CFCB0)
 
+inline static constexpr unsigned int KAACOOMAGLH_TypeDefinitionIndex = 54081;
+
 	class KAACOOMAGLH : public ::CMPGEAFHHDC
 	{
 	public:

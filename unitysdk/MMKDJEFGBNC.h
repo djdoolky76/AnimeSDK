@@ -29,6 +29,8 @@ namespace System { class String; }
 #define MMKDJEFGBNC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EA8E0E0)
 #define MMKDJEFGBNC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EA8E140)
 
+inline static constexpr unsigned int MMKDJEFGBNC_TypeDefinitionIndex = 33742;
+
 	class MMKDJEFGBNC : public ::System::Object
 	{
 	public:

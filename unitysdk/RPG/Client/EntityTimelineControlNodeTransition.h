@@ -7,6 +7,8 @@ namespace RPG::Client { class EntityTimelineControlNodeSingleTransitionInfo; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int EntityTimelineControlNodeTransition_TypeDefinitionIndex = 63770;
+
 	class EntityTimelineControlNodeTransition : public ::System::Object
 	{
 	public:

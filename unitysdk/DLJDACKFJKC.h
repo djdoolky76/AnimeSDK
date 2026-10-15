@@ -10,6 +10,8 @@ namespace System { class String; }
 #define DLJDACKFJKC_CTOR_OFFSET UNITYSDK_OFFSET(0xF8A11E0)
 #define DLJDACKFJKC_FPKLDCGAJGP_OFFSET UNITYSDK_OFFSET(0xF8A0E20)
 
+inline static constexpr unsigned int DLJDACKFJKC_TypeDefinitionIndex = 63276;
+
 	class DLJDACKFJKC : public ::System::Object
 	{
 	public:

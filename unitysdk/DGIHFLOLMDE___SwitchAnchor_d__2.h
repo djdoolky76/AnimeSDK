@@ -14,6 +14,8 @@ namespace System { class Object; }
 #define DGIHFLOLMDE___SWITCHANCHOR_D__2_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0xE84BA90)
 #define DGIHFLOLMDE___SWITCHANCHOR_D__2_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xE84B420)
 
+inline static constexpr unsigned int DGIHFLOLMDE___SwitchAnchor_d__2_TypeDefinitionIndex = 60780;
+
 	template <typename T1, typename T2>
 	class DGIHFLOLMDE___SwitchAnchor_d__2 : public ::System::Object
 	{

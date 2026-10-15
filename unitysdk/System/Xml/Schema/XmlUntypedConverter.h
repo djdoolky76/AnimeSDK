@@ -54,6 +54,8 @@ namespace System::Xml::Schema { class XmlValueConverter; }
 
 namespace System::Xml::Schema
 {
+	inline static constexpr unsigned int XmlUntypedConverter_TypeDefinitionIndex = 2229;
+
 	class XmlUntypedConverter : public ::System::Xml::Schema::XmlListConverter
 	{
 	public:

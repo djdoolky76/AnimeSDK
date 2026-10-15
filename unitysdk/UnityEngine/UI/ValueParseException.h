@@ -16,6 +16,8 @@ namespace System { class String; }
 
 namespace UnityEngine::UI
 {
+	inline static constexpr unsigned int ValueParseException_TypeDefinitionIndex = 6760;
+
 	class ValueParseException : public ::System::Exception
 	{
 	public:

@@ -11,6 +11,8 @@ namespace RPG::GameCore { class SwitchOverrideController; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SwitchOverrideController_TypeDefinitionIndex = 22763;
+
 	class SwitchOverrideController : public ::RPG::GameCore::TaskConfig
 	{
 	public:

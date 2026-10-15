@@ -24,6 +24,8 @@ namespace System::Threading { class WaitHandle; }
 
 namespace System::Net
 {
+	inline static constexpr unsigned int ListenerAsyncResult_TypeDefinitionIndex = 2865;
+
 	class ListenerAsyncResult : public ::System::Object
 	{
 	public:

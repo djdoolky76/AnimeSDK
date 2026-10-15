@@ -11,6 +11,8 @@ namespace UnityEngine { class Material; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int UIFramePostProcessParam_TypeDefinitionIndex = 73068;
+
 	class UIFramePostProcessParam : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define GKNOCNDPAJA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E4BCD50)
 #define GKNOCNDPAJA___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1E4BCD60)
 
+inline static constexpr unsigned int GKNOCNDPAJA___c_TypeDefinitionIndex = 27049;
+
 	class GKNOCNDPAJA___c : public ::System::Object
 	{
 	public:

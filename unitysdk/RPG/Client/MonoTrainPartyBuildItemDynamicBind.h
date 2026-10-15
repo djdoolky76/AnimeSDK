@@ -7,6 +7,8 @@ namespace System { class Object; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoTrainPartyBuildItemDynamicBind_TypeDefinitionIndex = 68882;
+
 	class MonoTrainPartyBuildItemDynamicBind : public ::UnityEngine::MonoBehaviour
 	{
 	public:

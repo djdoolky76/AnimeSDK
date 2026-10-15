@@ -18,6 +18,8 @@ namespace UnityEngine { class Transform; }
 #define HOPHJGEMBEJ_REVERSE_OFFSET UNITYSDK_OFFSET(0x15DBF430)
 #define HOPHJGEMBEJ_STARTWITHTARGET_OFFSET UNITYSDK_OFFSET(0x15DBF0A0)
 
+inline static constexpr unsigned int HOPHJGEMBEJ_TypeDefinitionIndex = 73522;
+
 	class HOPHJGEMBEJ : public ::MOGBNBGMIHF
 	{
 	public:

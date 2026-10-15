@@ -7,6 +7,8 @@ class APMODOLNKPH;
 #define APMODOLNKPH_CLEAR_OFFSET UNITYSDK_OFFSET(0x1CCEEBD0)
 #define APMODOLNKPH_CTOR_OFFSET UNITYSDK_OFFSET(0x1CCEECF0)
 
+inline static constexpr unsigned int APMODOLNKPH_TypeDefinitionIndex = 24852;
+
 	class APMODOLNKPH : public ::RPG::GameCore::FiveDimSplineMoveConfig
 	{
 	public:

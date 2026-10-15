@@ -37,6 +37,8 @@ namespace System { class String; }
 #define GIKKAAEPGHA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E49DE20)
 #define GIKKAAEPGHA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E49DE80)
 
+inline static constexpr unsigned int GIKKAAEPGHA_TypeDefinitionIndex = 26874;
+
 	class GIKKAAEPGHA : public ::System::Object
 	{
 	public:

@@ -6,6 +6,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 #define ADLHEPFKAGE_CTOR_OFFSET UNITYSDK_OFFSET(0x1C877F70)
 
+inline static constexpr unsigned int ADLHEPFKAGE_TypeDefinitionIndex = 43781;
+
 	class ADLHEPFKAGE : public ::System::Object
 	{
 	public:

@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace System::Reflection
 {
+	inline static constexpr unsigned int AssemblyDescriptionAttribute_TypeDefinitionIndex = 544;
+
 	class AssemblyDescriptionAttribute : public ::System::Attribute
 	{
 	public:

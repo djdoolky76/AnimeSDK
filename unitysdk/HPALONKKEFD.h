@@ -6,6 +6,8 @@
 #define HPALONKKEFD_GET_ISMAINTYPE_OFFSET UNITYSDK_OFFSET(0x1CED08A0)
 #define HPALONKKEFD_GET_ISSTRUCTHANDLE_OFFSET UNITYSDK_OFFSET(0x1CED08B0)
 
+inline static constexpr unsigned int HPALONKKEFD_TypeDefinitionIndex = 10740;
+
 	class HPALONKKEFD : public ::System::Attribute
 	{
 	public:

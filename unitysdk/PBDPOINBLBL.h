@@ -5,6 +5,8 @@ namespace System { class Type; }
 
 #define PBDPOINBLBL_CTOR_OFFSET UNITYSDK_OFFSET(0xBFEA460)
 
+inline static constexpr unsigned int PBDPOINBLBL_TypeDefinitionIndex = 49329;
+
 	class PBDPOINBLBL : public ::System::Attribute
 	{
 	public:

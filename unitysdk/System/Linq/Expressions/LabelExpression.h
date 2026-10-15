@@ -18,6 +18,8 @@ namespace System::Linq::Expressions { class LabelTarget; }
 
 namespace System::Linq::Expressions
 {
+	inline static constexpr unsigned int LabelExpression_TypeDefinitionIndex = 3228;
+
 	class LabelExpression : public ::System::Linq::Expressions::Expression
 	{
 	public:

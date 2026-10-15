@@ -24,6 +24,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::Tutorial
 {
+	inline static constexpr unsigned int TutorialSubGuideCollectionData_TypeDefinitionIndex = 79001;
+
 	class TutorialSubGuideCollectionData : public ::System::Object
 	{
 	public:

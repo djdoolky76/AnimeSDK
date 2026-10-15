@@ -21,6 +21,8 @@ namespace UnityEngine::UI { class Text; }
 #define HHINDILGODF_SET_INDEX_OFFSET UNITYSDK_OFFSET(0x15CCDAE0)
 #define HHINDILGODF__ONBIND_OFFSET UNITYSDK_OFFSET(0x15CCD9E0)
 
+inline static constexpr unsigned int HHINDILGODF_TypeDefinitionIndex = 71835;
+
 	class HHINDILGODF : public ::FMPCODLIOLG
 	{
 	public:

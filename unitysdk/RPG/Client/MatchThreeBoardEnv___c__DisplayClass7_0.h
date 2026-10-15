@@ -9,6 +9,8 @@ namespace RPG::Client { class MatchThreeBoardEnv; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MatchThreeBoardEnv___c__DisplayClass7_0_TypeDefinitionIndex = 65928;
+
 	class MatchThreeBoardEnv___c__DisplayClass7_0 : public ::System::Object
 	{
 	public:

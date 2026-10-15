@@ -5,6 +5,8 @@ namespace System { class Nullable; }
 
 #define BJICAHJPKEC_FENOMPCEFII_OFFSET UNITYSDK_OFFSET(0x1AB90)
 
+inline static constexpr unsigned int BJICAHJPKEC_TypeDefinitionIndex = 57680;
+
 	struct alignas(8) BJICAHJPKEC
 	{
 		::RPG::GameCore::FixPoint PMJKDMDOEDE; // 0x10

@@ -1,6 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
+inline static constexpr unsigned int CNFOICAMEPN_TypeDefinitionIndex = 60973;
+
 	struct alignas(4) CNFOICAMEPN
 	{
 		::System::UInt32 NJIOMOHBILM; // 0x10

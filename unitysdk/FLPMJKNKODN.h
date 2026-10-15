@@ -4,6 +4,8 @@
 
 #define FLPMJKNKODN_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA712C0)
 
+inline static constexpr unsigned int FLPMJKNKODN_TypeDefinitionIndex = 42824;
+
 	class FLPMJKNKODN : public ::Entitas::CodeGeneration::Attributes::ContextAttribute
 	{
 	public:

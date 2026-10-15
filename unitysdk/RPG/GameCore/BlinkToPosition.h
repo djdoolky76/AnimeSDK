@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int BlinkToPosition_TypeDefinitionIndex = 23134;
+
 	class BlinkToPosition : public ::RPG::GameCore::TaskConfig
 	{
 	public:

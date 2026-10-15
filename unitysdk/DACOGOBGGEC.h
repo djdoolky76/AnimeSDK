@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define DACOGOBGGEC_CTOR_OFFSET UNITYSDK_OFFSET(0xDFBE950)
 #define DACOGOBGGEC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xDFBE980)
 
+inline static constexpr unsigned int DACOGOBGGEC_TypeDefinitionIndex = 53295;
+
 	class DACOGOBGGEC
 	{
 	public:

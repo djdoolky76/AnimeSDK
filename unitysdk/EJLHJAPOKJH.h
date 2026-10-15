@@ -18,6 +18,8 @@ namespace Entitas { class IGroup; }
 #define EJLHJAPOKJH__ONENTITYREMOVING_OFFSET UNITYSDK_OFFSET(0x154E1D70)
 #define EJLHJAPOKJH__ONTEARDOWN_OFFSET UNITYSDK_OFFSET(0x154E2330)
 
+inline static constexpr unsigned int EJLHJAPOKJH_TypeDefinitionIndex = 76920;
+
 	class EJLHJAPOKJH
 	{
 	public:

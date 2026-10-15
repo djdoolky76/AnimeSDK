@@ -8,6 +8,8 @@ namespace Google::Protobuf::Reflection { class FileDescriptor; }
 
 namespace Google::Protobuf::WellKnownTypes
 {
+	inline static constexpr unsigned int TypeReflection_TypeDefinitionIndex = 5441;
+
 	class TypeReflection : public ::System::Object
 	{
 	public:

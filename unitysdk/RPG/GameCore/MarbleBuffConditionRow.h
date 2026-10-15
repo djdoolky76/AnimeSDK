@@ -11,6 +11,8 @@ namespace RPG::GameCore { class MarbleBuffConditionRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MarbleBuffConditionRow_TypeDefinitionIndex = 11884;
+
 	class MarbleBuffConditionRow : public ::System::Object
 	{
 	public:

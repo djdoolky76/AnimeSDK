@@ -8,6 +8,8 @@ namespace UnityEngine::Events { class UnityAction; }
 #define FKDOJIKMFLG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x157EE800)
 #define FKDOJIKMFLG___C___ONBINDHANDLERS_B__6_0_OFFSET UNITYSDK_OFFSET(0x157EE810)
 
+inline static constexpr unsigned int FKDOJIKMFLG___c_TypeDefinitionIndex = 72352;
+
 	class FKDOJIKMFLG___c : public ::System::Object
 	{
 	public:

@@ -6,6 +6,8 @@
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int HideB51RacingPerformanceDialogBehaviour_TypeDefinitionIndex = 48282;
+
 	class HideB51RacingPerformanceDialogBehaviour : public ::RPGTools::Timeline::BaseHideDialogBehaviour
 	{
 	public:

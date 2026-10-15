@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TurnInsertAssistantAbility; }
 #define HKNDJIOLKCG_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x15D50370)
 #define HKNDJIOLKCG_TICK_OFFSET UNITYSDK_OFFSET(0x15D503C0)
 
+inline static constexpr unsigned int HKNDJIOLKCG_TypeDefinitionIndex = 55779;
+
 	class HKNDJIOLKCG : public ::GELIALJDFBL
 	{
 	public:

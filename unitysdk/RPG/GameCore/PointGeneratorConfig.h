@@ -10,6 +10,8 @@ namespace RPG::GameCore { class PointGeneratorConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PointGeneratorConfig_TypeDefinitionIndex = 15625;
+
 	class PointGeneratorConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

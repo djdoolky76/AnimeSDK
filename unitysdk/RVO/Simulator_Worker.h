@@ -12,6 +12,8 @@ namespace System::Threading { class ManualResetEvent; }
 
 namespace RVO
 {
+	inline static constexpr unsigned int Simulator_Worker_TypeDefinitionIndex = 46041;
+
 	class Simulator_Worker : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace RPG::GameCore { class DiceCombatPredicateConfig_IsBoss; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DiceCombatPredicateConfig_IsBoss_TypeDefinitionIndex = 16108;
+
 	class DiceCombatPredicateConfig_IsBoss : public ::RPG::GameCore::DiceCombatPredicateConfig
 	{
 	public:

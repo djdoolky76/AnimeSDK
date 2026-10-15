@@ -11,6 +11,8 @@ namespace RPG::GameCore { class RefreshFormationCenter; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RefreshFormationCenter_TypeDefinitionIndex = 22914;
+
 	class RefreshFormationCenter : public ::RPG::GameCore::TaskConfig
 	{
 	public:

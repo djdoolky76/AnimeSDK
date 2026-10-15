@@ -6,6 +6,8 @@
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int CRPGraphicsSettingsData_VolumetricFogSettings_TypeDefinitionIndex = 37665;
+
 	class CRPGraphicsSettingsData_VolumetricFogSettings : public ::System::Object
 	{
 	public:

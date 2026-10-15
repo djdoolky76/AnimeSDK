@@ -50,6 +50,8 @@ namespace UnityEngine::AI { class NavMesh_OnNavMeshPreUpdate; }
 
 namespace UnityEngine::AI
 {
+	inline static constexpr unsigned int NavMesh_TypeDefinitionIndex = 5657;
+
 	class NavMesh : public ::System::Object
 	{
 	public:

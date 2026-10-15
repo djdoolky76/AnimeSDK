@@ -10,6 +10,8 @@ namespace System { template <typename T> class Comparison_1; }
 #define PJJKDGFODDL___C_CTOR_OFFSET UNITYSDK_OFFSET(0xC295DC0)
 #define PJJKDGFODDL___C___RECONCILESELFPARTY_B__28_0_OFFSET UNITYSDK_OFFSET(0xC295DD0)
 
+inline static constexpr unsigned int PJJKDGFODDL___c_TypeDefinitionIndex = 75638;
+
 	class PJJKDGFODDL___c : public ::System::Object
 	{
 	public:

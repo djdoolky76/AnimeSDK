@@ -15,6 +15,8 @@ namespace MiHoYo::SDK::PluginUI { class HoYoSDKRealPerson; }
 
 namespace MiHoYo::SDK::PluginUI
 {
+	inline static constexpr unsigned int HoYoSDKRealPerson_TypeDefinitionIndex = 46774;
+
 	class HoYoSDKRealPerson : public ::MiHoYo::SDK::PluginUI::MiHoYoSDKUIContainer
 	{
 	public:

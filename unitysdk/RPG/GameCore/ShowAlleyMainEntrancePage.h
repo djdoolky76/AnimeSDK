@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ShowAlleyMainEntrancePage_TypeDefinitionIndex = 21138;
+
 	class ShowAlleyMainEntrancePage : public ::RPG::GameCore::TaskConfig
 	{
 	public:

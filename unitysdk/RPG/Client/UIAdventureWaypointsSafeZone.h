@@ -21,6 +21,8 @@ namespace UnityEngine { class RectTransform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int UIAdventureWaypointsSafeZone_TypeDefinitionIndex = 69078;
+
 	class UIAdventureWaypointsSafeZone : public ::System::Object
 	{
 	public:

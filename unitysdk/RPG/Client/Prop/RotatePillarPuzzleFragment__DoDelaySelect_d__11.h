@@ -13,6 +13,8 @@ namespace System { class Object; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int RotatePillarPuzzleFragment__DoDelaySelect_d__11_TypeDefinitionIndex = 78807;
+
 	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename T8, typename T9, typename T10, typename T11>
 	class RotatePillarPuzzleFragment__DoDelaySelect_d__11 : public ::System::Object
 	{

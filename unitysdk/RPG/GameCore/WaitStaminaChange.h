@@ -11,6 +11,8 @@ namespace RPG::GameCore { class WaitStaminaChange; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int WaitStaminaChange_TypeDefinitionIndex = 20493;
+
 	class WaitStaminaChange : public ::RPG::GameCore::TaskConfig
 	{
 	public:

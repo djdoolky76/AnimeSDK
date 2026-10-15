@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::UI::External::OS
 {
+	inline static constexpr unsigned int AccountListPluginUI___c__DisplayClass40_0_TypeDefinitionIndex = 8411;
+
 	class AccountListPluginUI___c__DisplayClass40_0 : public ::System::Object
 	{
 	public:

@@ -14,6 +14,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByMuseumProjectorThemeNum_TypeDefinitionIndex = 20552;
+
 	class ByMuseumProjectorThemeNum : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

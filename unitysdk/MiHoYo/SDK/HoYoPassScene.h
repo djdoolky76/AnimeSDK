@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int HoYoPassScene_TypeDefinitionIndex = 7897;
+
 	class HoYoPassScene : public ::System::Object
 	{
 	public:

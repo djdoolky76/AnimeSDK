@@ -7,6 +7,8 @@ namespace System { class String; }
 #define INLLHDNHJMA_CABAPJJIEFK_OFFSET UNITYSDK_OFFSET(0x164F7050)
 #define INLLHDNHJMA_CTOR_OFFSET UNITYSDK_OFFSET(0x164F7130)
 
+inline static constexpr unsigned int INLLHDNHJMA_TypeDefinitionIndex = 48456;
+
 	class INLLHDNHJMA : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

@@ -11,6 +11,8 @@ namespace RPG::GameCore { class ChimeraDuelBackToEndOfTeamNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChimeraDuelBackToEndOfTeamNode_TypeDefinitionIndex = 16019;
+
 	class ChimeraDuelBackToEndOfTeamNode : public ::RPG::GameCore::BaseChimeraDuelNode
 	{
 	public:

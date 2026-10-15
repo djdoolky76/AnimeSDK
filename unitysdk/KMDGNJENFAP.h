@@ -15,6 +15,8 @@ namespace System { class String; }
 #define KMDGNJENFAP_OADNJCJGKHD_1_OFFSET UNITYSDK_OFFSET(0xB5437B0)
 #define KMDGNJENFAP_OADNJCJGKHD_OFFSET UNITYSDK_OFFSET(0xB543750)
 
+inline static constexpr unsigned int KMDGNJENFAP_TypeDefinitionIndex = 79007;
+
 	class KMDGNJENFAP : public ::System::Object
 	{
 	public:

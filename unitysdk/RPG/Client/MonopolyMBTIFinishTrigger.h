@@ -8,6 +8,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonopolyMBTIFinishTrigger_TypeDefinitionIndex = 66238;
+
 	class MonopolyMBTIFinishTrigger : public ::System::Object
 	{
 	public:

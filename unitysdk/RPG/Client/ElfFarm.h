@@ -18,6 +18,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ElfFarm_TypeDefinitionIndex = 68659;
+
 	class ElfFarm : public ::UnityEngine::MonoBehaviour
 	{
 	public:

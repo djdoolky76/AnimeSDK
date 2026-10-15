@@ -14,6 +14,8 @@ namespace RPG::Client { class BaseGameFlow; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int BaseGameFlowContext_TypeDefinitionIndex = 64325;
+
 	class BaseGameFlowContext : public ::System::Object
 	{
 	public:

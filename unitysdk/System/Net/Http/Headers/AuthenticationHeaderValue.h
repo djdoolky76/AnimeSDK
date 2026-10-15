@@ -22,6 +22,8 @@ namespace System::Net::Http::Headers { class Lexer; }
 
 namespace System::Net::Http::Headers
 {
+	inline static constexpr unsigned int AuthenticationHeaderValue_TypeDefinitionIndex = 3777;
+
 	class AuthenticationHeaderValue : public ::System::Object
 	{
 	public:

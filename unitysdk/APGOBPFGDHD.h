@@ -17,6 +17,8 @@ namespace RPG::GameCore { class WaitTurnCount; }
 #define APGOBPFGDHD_POCHEADDAOC_OFFSET UNITYSDK_OFFSET(0x15BAAC30)
 #define APGOBPFGDHD_TICK_OFFSET UNITYSDK_OFFSET(0x15BAAE50)
 
+inline static constexpr unsigned int APGOBPFGDHD_TypeDefinitionIndex = 58934;
+
 	class APGOBPFGDHD : public ::GELIALJDFBL
 	{
 	public:

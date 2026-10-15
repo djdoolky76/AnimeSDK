@@ -15,6 +15,8 @@ namespace System::Globalization { class CultureInfo; }
 
 namespace System::ComponentModel
 {
+	inline static constexpr unsigned int CollectionConverter_TypeDefinitionIndex = 2569;
+
 	class CollectionConverter : public ::System::ComponentModel::TypeConverter
 	{
 	public:

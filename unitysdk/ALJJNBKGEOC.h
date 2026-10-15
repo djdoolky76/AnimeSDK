@@ -28,6 +28,8 @@ namespace System { class String; }
 #define ALJJNBKGEOC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E510BC0)
 #define ALJJNBKGEOC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E510C20)
 
+inline static constexpr unsigned int ALJJNBKGEOC_TypeDefinitionIndex = 33354;
+
 	class ALJJNBKGEOC : public ::System::Object
 	{
 	public:

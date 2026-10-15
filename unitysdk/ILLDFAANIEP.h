@@ -34,6 +34,8 @@ namespace System { class String; }
 #define ILLDFAANIEP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E6B0DC0)
 #define ILLDFAANIEP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E6B0E20)
 
+inline static constexpr unsigned int ILLDFAANIEP_TypeDefinitionIndex = 29756;
+
 	class ILLDFAANIEP : public ::System::Object
 	{
 	public:

@@ -9,6 +9,8 @@ namespace System { class Action; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int HoYoChannelGameplayServices___c__DisplayClass41_2_TypeDefinitionIndex = 46516;
+
 	template <typename T1, typename T2>
 	class HoYoChannelGameplayServices___c__DisplayClass41_2 : public ::System::Object
 	{

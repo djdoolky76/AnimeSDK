@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FiveDimSetPlayerSkillUpgradeAction; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimSetPlayerSkillUpgradeAction_TypeDefinitionIndex = 18753;
+
 	class FiveDimSetPlayerSkillUpgradeAction : public ::RPG::GameCore::FiveDimBaseEventAction
 	{
 	public:

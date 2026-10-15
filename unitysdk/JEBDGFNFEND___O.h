@@ -3,6 +3,8 @@
 #include "unitysdk/System/Object.h"
 namespace System { class Object; }
 
+inline static constexpr unsigned int JEBDGFNFEND___O_TypeDefinitionIndex = 24178;
+
 	class JEBDGFNFEND___O : public ::System::Object
 	{
 	public:

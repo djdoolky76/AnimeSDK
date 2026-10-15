@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TransitionLoadingType_TypeDefinitionIndex = 17637;
+
 	enum class TransitionLoadingType : ::System::Int32
 	{
 		Default = 0,

@@ -9,6 +9,8 @@ namespace System { class String; }
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int HEU_ShelfTools___c__DisplayClass19_0_TypeDefinitionIndex = 40665;
+
 	class HEU_ShelfTools___c__DisplayClass19_0 : public ::System::Object
 	{
 	public:

@@ -23,6 +23,8 @@ namespace UnityEngine { class Transform; }
 #define MGPPJECNIOL_PNMONIDIDMP_OFFSET UNITYSDK_OFFSET(0xB92E470)
 #define MGPPJECNIOL_POCADFCNNBM_OFFSET UNITYSDK_OFFSET(0xB92DB80)
 
+inline static constexpr unsigned int MGPPJECNIOL_TypeDefinitionIndex = 57482;
+
 	class MGPPJECNIOL : public ::System::Object
 	{
 	public:

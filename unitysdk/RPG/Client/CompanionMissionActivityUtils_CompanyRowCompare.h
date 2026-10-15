@@ -8,6 +8,8 @@ namespace RPG::GameCore { class ActivityBannerCompanyMissionRow; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int CompanionMissionActivityUtils_CompanyRowCompare_TypeDefinitionIndex = 63535;
+
 	class CompanionMissionActivityUtils_CompanyRowCompare : public ::System::Object
 	{
 	public:

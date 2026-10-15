@@ -8,6 +8,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoTrainPartyBuildItemDebug_TypeDefinitionIndex = 68877;
+
 	class MonoTrainPartyBuildItemDebug : public ::UnityEngine::MonoBehaviour
 	{
 	public:

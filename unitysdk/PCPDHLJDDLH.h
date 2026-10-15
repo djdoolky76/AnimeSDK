@@ -5,6 +5,8 @@ namespace RPG::GameCore { class ElfBuff; }
 
 #define PCPDHLJDDLH_CTOR_OFFSET UNITYSDK_OFFSET(0x1C9A4F70)
 
+inline static constexpr unsigned int PCPDHLJDDLH_TypeDefinitionIndex = 43645;
+
 	class PCPDHLJDDLH : public ::System::Object
 	{
 	public:

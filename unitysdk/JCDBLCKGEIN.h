@@ -9,6 +9,8 @@ namespace Entitas { class IGroup; }
 #define JCDBLCKGEIN_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1C6F3390)
 #define JCDBLCKGEIN_IDJIPABFBCC_OFFSET UNITYSDK_OFFSET(0x1C6F35B0)
 
+inline static constexpr unsigned int JCDBLCKGEIN_TypeDefinitionIndex = 37144;
+
 	class JCDBLCKGEIN : public ::System::Object
 	{
 	public:

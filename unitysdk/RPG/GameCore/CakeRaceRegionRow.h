@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CakeRaceRegionRow_TypeDefinitionIndex = 10997;
+
 	class CakeRaceRegionRow : public ::System::Object
 	{
 	public:

@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace RPG::Editor
 {
+	inline static constexpr unsigned int SkillLineAssetConfig_ActiveState_TypeDefinitionIndex = 52039;
+
 	class SkillLineAssetConfig_ActiveState : public ::System::Object
 	{
 	public:

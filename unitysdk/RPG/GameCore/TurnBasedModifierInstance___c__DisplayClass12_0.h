@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TurnBasedModifierInstance; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TurnBasedModifierInstance___c__DisplayClass12_0_TypeDefinitionIndex = 54846;
+
 	class TurnBasedModifierInstance___c__DisplayClass12_0 : public ::System::Object
 	{
 	public:

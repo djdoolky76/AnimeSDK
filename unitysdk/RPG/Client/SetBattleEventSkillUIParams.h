@@ -7,6 +7,8 @@ namespace RPG::GameCore { class GameEntity; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int SetBattleEventSkillUIParams_TypeDefinitionIndex = 71635;
+
 	class SetBattleEventSkillUIParams : public ::System::Object
 	{
 	public:

@@ -6,6 +6,8 @@ class ADHGIJPHLEB;
 #define CEOJKPJCJCL___C__DISPLAYCLASS31_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC9F2130)
 #define CEOJKPJCJCL___C__DISPLAYCLASS31_0__TOPROTO_B__0_OFFSET UNITYSDK_OFFSET(0xC9F62C0)
 
+inline static constexpr unsigned int CEOJKPJCJCL___c__DisplayClass31_0_TypeDefinitionIndex = 57614;
+
 	class CEOJKPJCJCL___c__DisplayClass31_0 : public ::System::Object
 	{
 	public:

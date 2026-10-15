@@ -28,6 +28,8 @@ namespace System { class String; }
 #define LJEFFBCJJEM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E9799E0)
 #define LJEFFBCJJEM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E979A40)
 
+inline static constexpr unsigned int LJEFFBCJJEM_TypeDefinitionIndex = 35119;
+
 	class LJEFFBCJJEM : public ::System::Object
 	{
 	public:

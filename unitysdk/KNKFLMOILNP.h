@@ -7,6 +7,8 @@ class KNKFLMOILNP;
 #define KNKFLMOILNP_GGBLHEHJBDO_OFFSET UNITYSDK_OFFSET(0xB587A10)
 #define KNKFLMOILNP_NHNKBKHNDKA_OFFSET UNITYSDK_OFFSET(0xB587A80)
 
+inline static constexpr unsigned int KNKFLMOILNP_TypeDefinitionIndex = 51793;
+
 	class KNKFLMOILNP : public ::System::Object
 	{
 	public:

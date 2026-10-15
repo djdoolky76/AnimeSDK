@@ -29,6 +29,8 @@ namespace InControl { class Touch; }
 
 namespace InControl
 {
+	inline static constexpr unsigned int TouchSwipeControl_TypeDefinitionIndex = 40879;
+
 	class TouchSwipeControl : public ::InControl::TouchControl
 	{
 	public:

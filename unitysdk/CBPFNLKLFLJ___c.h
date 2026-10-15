@@ -10,6 +10,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 #define CBPFNLKLFLJ___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DD150D0)
 #define CBPFNLKLFLJ___C__CREATE_B__11_0_OFFSET UNITYSDK_OFFSET(0x1DD150E0)
 
+inline static constexpr unsigned int CBPFNLKLFLJ___c_TypeDefinitionIndex = 6498;
+
 	class CBPFNLKLFLJ___c : public ::System::Object
 	{
 	public:

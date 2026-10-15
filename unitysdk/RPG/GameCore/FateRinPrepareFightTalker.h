@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FateRinPrepareFightTalker_TypeDefinitionIndex = 11565;
+
 	enum class FateRinPrepareFightTalker : ::System::Int32
 	{
 		None = 0,

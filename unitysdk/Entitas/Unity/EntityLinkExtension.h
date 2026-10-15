@@ -11,6 +11,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace Entitas::Unity
 {
+	inline static constexpr unsigned int EntityLinkExtension_TypeDefinitionIndex = 10068;
+
 	class EntityLinkExtension : public ::System::Object
 	{
 	public:

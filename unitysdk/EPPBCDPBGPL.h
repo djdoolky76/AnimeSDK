@@ -30,6 +30,8 @@ namespace Entitas { template <typename T> class IMatcher_1; }
 #define EPPBCDPBGPL_OHEKNLBOIMB_OFFSET UNITYSDK_OFFSET(0x1CA623E0)
 #define EPPBCDPBGPL_PMNBFBCANAP_OFFSET UNITYSDK_OFFSET(0x1CA620B0)
 
+inline static constexpr unsigned int EPPBCDPBGPL_TypeDefinitionIndex = 42597;
+
 	class EPPBCDPBGPL : public ::System::Object
 	{
 	public:

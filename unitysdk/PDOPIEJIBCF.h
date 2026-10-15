@@ -12,6 +12,8 @@ namespace Entitas { class IGroup; }
 #define PDOPIEJIBCF_JOKEJDCCNMM_OFFSET UNITYSDK_OFFSET(0xC022F00)
 #define PDOPIEJIBCF_KHHBMDMCHIP_OFFSET UNITYSDK_OFFSET(0xC022DB0)
 
+inline static constexpr unsigned int PDOPIEJIBCF_TypeDefinitionIndex = 76714;
+
 	class PDOPIEJIBCF : public ::System::Object
 	{
 	public:

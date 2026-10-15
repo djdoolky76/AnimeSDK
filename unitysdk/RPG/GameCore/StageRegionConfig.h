@@ -19,6 +19,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int StageRegionConfig_TypeDefinitionIndex = 19194;
+
 	class StageRegionConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

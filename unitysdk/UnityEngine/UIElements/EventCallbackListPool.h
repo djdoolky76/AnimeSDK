@@ -10,6 +10,8 @@ namespace UnityEngine::UIElements { class EventCallbackList; }
 
 namespace UnityEngine::UIElements
 {
+	inline static constexpr unsigned int EventCallbackListPool_TypeDefinitionIndex = 5935;
+
 	class EventCallbackListPool : public ::System::Object
 	{
 	public:

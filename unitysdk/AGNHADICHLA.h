@@ -32,6 +32,8 @@ namespace UnityEngine { class Object; }
 #define AGNHADICHLA_PKCKPFHCODN_OFFSET UNITYSDK_OFFSET(0xCF45040)
 #define AGNHADICHLA_PPEGOIODAKI_OFFSET UNITYSDK_OFFSET(0xCF45E40)
 
+inline static constexpr unsigned int AGNHADICHLA_TypeDefinitionIndex = 49510;
+
 	class AGNHADICHLA
 	{
 	public:

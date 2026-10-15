@@ -11,6 +11,8 @@ namespace RPG::Client { template <typename T> class DataActionProgress_1; }
 #define EJLIOMPMHHI___C__DISPLAYCLASS10_0__ADDPREVERIFY_B__0_OFFSET UNITYSDK_OFFSET(0x154EA880)
 #define EJLIOMPMHHI___C__DISPLAYCLASS10_0__ADDPREVERIFY_B__1_OFFSET UNITYSDK_OFFSET(0x154EA810)
 
+inline static constexpr unsigned int EJLIOMPMHHI___c__DisplayClass10_0_TypeDefinitionIndex = 59564;
+
 	class EJLIOMPMHHI___c__DisplayClass10_0 : public ::System::Object
 	{
 	public:

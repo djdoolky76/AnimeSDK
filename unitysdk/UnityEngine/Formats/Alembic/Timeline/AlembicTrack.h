@@ -6,6 +6,8 @@
 
 namespace UnityEngine::Formats::Alembic::Timeline
 {
+	inline static constexpr unsigned int AlembicTrack_TypeDefinitionIndex = 45754;
+
 	class AlembicTrack : public ::UnityEngine::Timeline::TrackAsset
 	{
 	public:

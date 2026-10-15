@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define OBINJKCBALC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EBB0FE0)
 #define OBINJKCBALC___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1EBB0FF0)
 
+inline static constexpr unsigned int OBINJKCBALC___c_TypeDefinitionIndex = 27737;
+
 	class OBINJKCBALC___c : public ::System::Object
 	{
 	public:

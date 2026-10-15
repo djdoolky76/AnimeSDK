@@ -11,6 +11,8 @@ namespace UnityEngine::Rendering { class Vector2Parameter; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int RPGVignette_TypeDefinitionIndex = 37850;
+
 	class RPGVignette : public ::RPG::CustomRP::CustomVolumeComponent
 	{
 	public:

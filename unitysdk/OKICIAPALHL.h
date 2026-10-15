@@ -5,6 +5,8 @@
 
 #define OKICIAPALHL_CTOR_OFFSET UNITYSDK_OFFSET(0xBEDBAF0)
 
+inline static constexpr unsigned int OKICIAPALHL_TypeDefinitionIndex = 70239;
+
 	class OKICIAPALHL : public ::System::Attribute
 	{
 	public:

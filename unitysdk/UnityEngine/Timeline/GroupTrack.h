@@ -13,6 +13,8 @@ namespace UnityEngine::Timeline { class CustomGroupTrackDataBase; }
 
 namespace UnityEngine::Timeline
 {
+	inline static constexpr unsigned int GroupTrack_TypeDefinitionIndex = 38838;
+
 	class GroupTrack : public ::UnityEngine::Timeline::TrackAsset
 	{
 	public:

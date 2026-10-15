@@ -12,6 +12,8 @@ namespace RPG::GameCore { class CakeRaceAbilityConfig; }
 #define ABMBKFBHJDN_JDBBDLNMBCA_OFFSET UNITYSDK_OFFSET(0x1C581140)
 #define ABMBKFBHJDN_JJJJGFJDKOJ_OFFSET UNITYSDK_OFFSET(0x1C581030)
 
+inline static constexpr unsigned int ABMBKFBHJDN_TypeDefinitionIndex = 37364;
+
 	class ABMBKFBHJDN : public ::KIGLHBEPNOG
 	{
 	public:

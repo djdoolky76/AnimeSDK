@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int ConsoleDelegate_UnregisterReceiveInviteDelegate_TypeDefinitionIndex = 7637;
+
 	class ConsoleDelegate_UnregisterReceiveInviteDelegate : public ::System::MulticastDelegate
 	{
 	public:

@@ -24,6 +24,8 @@ namespace XLua { class LuaTable; }
 
 namespace RPG::Client::DiceCombat
 {
+	inline static constexpr unsigned int DiceCombatTeamEditDialogMsgParam_TypeDefinitionIndex = 76131;
+
 	class DiceCombatTeamEditDialogMsgParam : public ::System::Object
 	{
 	public:

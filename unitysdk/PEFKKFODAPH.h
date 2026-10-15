@@ -39,6 +39,8 @@ namespace System::Collections { class IList; }
 #define PEFKKFODAPH_SET_MULTIPOWER_OFFSET UNITYSDK_OFFSET(0xC038870)
 #define PEFKKFODAPH_SET_SHIELDPOWER_OFFSET UNITYSDK_OFFSET(0xC038830)
 
+inline static constexpr unsigned int PEFKKFODAPH_TypeDefinitionIndex = 79381;
+
 	class PEFKKFODAPH : public ::System::Object
 	{
 	public:

@@ -9,6 +9,8 @@ namespace System { class String; }
 
 namespace System::Net::NetworkInformation
 {
+	inline static constexpr unsigned int MacOsNetworkInterface_TypeDefinitionIndex = 2961;
+
 	class MacOsNetworkInterface : public ::System::Net::NetworkInformation::UnixNetworkInterface
 	{
 	public:

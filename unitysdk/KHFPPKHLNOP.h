@@ -13,6 +13,8 @@ namespace RPG::GameCore { class TimeRelayFlameEventListener; }
 #define KHFPPKHLNOP_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB407330)
 #define KHFPPKHLNOP_TICK_OFFSET UNITYSDK_OFFSET(0xB408120)
 
+inline static constexpr unsigned int KHFPPKHLNOP_TypeDefinitionIndex = 53356;
+
 	class KHFPPKHLNOP : public ::GELIALJDFBL
 	{
 	public:

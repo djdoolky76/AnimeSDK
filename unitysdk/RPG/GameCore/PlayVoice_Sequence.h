@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PlayVoice_Sequence_TypeDefinitionIndex = 20617;
+
 	class PlayVoice_Sequence : public ::RPG::GameCore::TaskConfig
 	{
 	public:

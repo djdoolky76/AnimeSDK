@@ -8,6 +8,8 @@ namespace System::IO { class BinaryWriter; }
 
 namespace Hdg
 {
+	inline static constexpr unsigned int rdtTcpMessageGetComponents_TypeDefinitionIndex = 46984;
+
 	struct alignas(4) rdtTcpMessageGetComponents
 	{
 		::System::Int32 m_instanceId; // 0x10

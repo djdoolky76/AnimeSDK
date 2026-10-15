@@ -31,6 +31,8 @@ namespace System { class String; }
 #define JFDAMIHLMLF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E726C60)
 #define JFDAMIHLMLF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E726CC0)
 
+inline static constexpr unsigned int JFDAMIHLMLF_TypeDefinitionIndex = 33844;
+
 	class JFDAMIHLMLF : public ::System::Object
 	{
 	public:

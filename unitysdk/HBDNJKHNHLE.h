@@ -33,6 +33,8 @@ namespace System::Reflection { class MethodInfo; }
 #define HBDNJKHNHLE_NOGKFMAFCCE_OFFSET UNITYSDK_OFFSET(0x15BEA7A0)
 #define HBDNJKHNHLE_OOAAKMPPGDI_OFFSET UNITYSDK_OFFSET(0x15BE8CC0)
 
+inline static constexpr unsigned int HBDNJKHNHLE_TypeDefinitionIndex = 73138;
+
 	class HBDNJKHNHLE : public ::System::Object
 	{
 	public:

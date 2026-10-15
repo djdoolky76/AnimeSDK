@@ -11,6 +11,8 @@ namespace Entitas { class IGroup; }
 #define PCGHKFAFCOL_EXECUTE_OFFSET UNITYSDK_OFFSET(0xBFFF770)
 #define PCGHKFAFCOL_INITIALIZE_OFFSET UNITYSDK_OFFSET(0xBFFF670)
 
+inline static constexpr unsigned int PCGHKFAFCOL_TypeDefinitionIndex = 76670;
+
 	class PCGHKFAFCOL : public ::System::Object
 	{
 	public:

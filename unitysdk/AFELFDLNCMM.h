@@ -29,6 +29,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define AFELFDLNCMM__ADDNOTIFYHANDLERS_OFFSET UNITYSDK_OFFSET(0xCF07650)
 #define AFELFDLNCMM___ONADVENTUREPHASEENTERED_B__7_0_OFFSET UNITYSDK_OFFSET(0xCF08A30)
 
+inline static constexpr unsigned int AFELFDLNCMM_TypeDefinitionIndex = 65789;
+
 	class AFELFDLNCMM : public ::RPG::Client::BaseModule
 	{
 	public:

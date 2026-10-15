@@ -14,6 +14,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ChallengeBossIntroViewModel_TypeDefinitionIndex = 63076;
+
 	class ChallengeBossIntroViewModel : public ::System::Object
 	{
 	public:

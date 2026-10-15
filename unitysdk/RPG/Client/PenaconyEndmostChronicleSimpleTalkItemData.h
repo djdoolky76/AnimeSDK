@@ -6,6 +6,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PenaconyEndmostChronicleSimpleTalkItemData_TypeDefinitionIndex = 66105;
+
 	class PenaconyEndmostChronicleSimpleTalkItemData : public ::System::Object
 	{
 	public:

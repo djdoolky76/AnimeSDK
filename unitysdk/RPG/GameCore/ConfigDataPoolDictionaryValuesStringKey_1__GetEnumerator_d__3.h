@@ -6,6 +6,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ConfigDataPoolDictionaryValuesStringKey_1__GetEnumerator_d__3_TypeDefinitionIndex = 10759;
+
 	template <typename T1, typename T2, typename T3>
 	class ConfigDataPoolDictionaryValuesStringKey_1__GetEnumerator_d__3 : public ::System::Object
 	{

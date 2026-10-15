@@ -33,6 +33,8 @@ namespace UnityEngine::UI { class Text; }
 
 namespace UnityEngine::Rendering::UI
 {
+	inline static constexpr unsigned int DebugUIHandlerVector4_TypeDefinitionIndex = 35702;
+
 	class DebugUIHandlerVector4 : public ::UnityEngine::Rendering::UI::DebugUIHandlerWidget
 	{
 	public:

@@ -7,6 +7,8 @@
 
 namespace InControl::NativeDeviceProfiles
 {
+	inline static constexpr unsigned int Xbox360WiredWindowsNativeProfile_TypeDefinitionIndex = 41326;
+
 	class Xbox360WiredWindowsNativeProfile : public ::InControl::InputDeviceProfile
 	{
 	public:

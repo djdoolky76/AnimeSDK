@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define IPDNEAAEBGN_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1CF2CFD0)
 #define IPDNEAAEBGN_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1CF2C930)
 
+inline static constexpr unsigned int IPDNEAAEBGN_TypeDefinitionIndex = 14627;
+
 	class IPDNEAAEBGN : public ::System::Object
 	{
 	public:

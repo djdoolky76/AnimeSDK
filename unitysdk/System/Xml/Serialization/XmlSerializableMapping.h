@@ -12,6 +12,8 @@ namespace System::Xml::Serialization { class XmlRootAttribute; }
 
 namespace System::Xml::Serialization
 {
+	inline static constexpr unsigned int XmlSerializableMapping_TypeDefinitionIndex = 2057;
+
 	class XmlSerializableMapping : public ::System::Xml::Serialization::XmlTypeMapping
 	{
 	public:

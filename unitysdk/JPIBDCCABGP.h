@@ -41,6 +41,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define JPIBDCCABGP__ONSTART_OFFSET UNITYSDK_OFFSET(0xB2C0F80)
 #define JPIBDCCABGP__ONTICK_OFFSET UNITYSDK_OFFSET(0xB2C11B0)
 
+inline static constexpr unsigned int JPIBDCCABGP_TypeDefinitionIndex = 60569;
+
 	class JPIBDCCABGP : public ::HCLPKMIIANI
 	{
 	public:

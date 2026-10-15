@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define HDCJCABMEIG_FILTER_OFFSET UNITYSDK_OFFSET(0x15C30C40)
 #define HDCJCABMEIG_GETTRIGGER_OFFSET UNITYSDK_OFFSET(0x15C30B20)
 
+inline static constexpr unsigned int HDCJCABMEIG_TypeDefinitionIndex = 75782;
+
 	class HDCJCABMEIG
 	{
 	public:

@@ -4,6 +4,8 @@
 namespace R3 { template <typename T> class ReactiveProperty_1; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
+inline static constexpr unsigned int DFCEDECMONI_TypeDefinitionIndex = 49803;
+
 	class DFCEDECMONI : public ::System::Object
 	{
 	public:

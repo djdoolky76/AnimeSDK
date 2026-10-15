@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define ICOKMIDKFIK_KFPBMCEOMNH_OFFSET UNITYSDK_OFFSET(0x15E625F0)
 #define ICOKMIDKFIK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15E62450)
 
+inline static constexpr unsigned int ICOKMIDKFIK_TypeDefinitionIndex = 58575;
+
 	class ICOKMIDKFIK
 	{
 	public:

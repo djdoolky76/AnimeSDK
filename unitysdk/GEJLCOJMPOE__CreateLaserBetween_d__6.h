@@ -13,6 +13,8 @@ namespace UnityEngine { class GameObject; }
 #define GEJLCOJMPOE__CREATELASERBETWEEN_D__6_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x159DE200)
 #define GEJLCOJMPOE__CREATELASERBETWEEN_D__6_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x159DDB40)
 
+inline static constexpr unsigned int GEJLCOJMPOE__CreateLaserBetween_d__6_TypeDefinitionIndex = 78541;
+
 	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6>
 	class GEJLCOJMPOE__CreateLaserBetween_d__6 : public ::System::Object
 	{

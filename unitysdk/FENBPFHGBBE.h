@@ -14,6 +14,8 @@ namespace RPG::GameCore { class TriggerConfirmDialog; }
 #define FENBPFHGBBE_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x15728A20)
 #define FENBPFHGBBE_TICK_OFFSET UNITYSDK_OFFSET(0x15728A70)
 
+inline static constexpr unsigned int FENBPFHGBBE_TypeDefinitionIndex = 53444;
+
 	class FENBPFHGBBE : public ::GELIALJDFBL
 	{
 	public:

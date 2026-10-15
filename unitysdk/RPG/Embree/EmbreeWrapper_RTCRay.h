@@ -3,6 +3,8 @@
 
 namespace RPG::Embree
 {
+	inline static constexpr unsigned int EmbreeWrapper_RTCRay_TypeDefinitionIndex = 47020;
+
 	struct alignas(4) EmbreeWrapper_RTCRay
 	{
 		::System::Single org_x; // 0x10

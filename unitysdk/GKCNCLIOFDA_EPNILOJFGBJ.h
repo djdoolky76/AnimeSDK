@@ -9,6 +9,8 @@ namespace System { class Object; }
 #define GKCNCLIOFDA_EPNILOJFGBJ_GET_PARTICIPANTS_OFFSET UNITYSDK_OFFSET(0x15A90540)
 #define GKCNCLIOFDA_EPNILOJFGBJ_GET_SINGLEMEMBER_OFFSET UNITYSDK_OFFSET(0x15A90530)
 
+inline static constexpr unsigned int GKCNCLIOFDA_EPNILOJFGBJ_TypeDefinitionIndex = 53528;
+
 	class GKCNCLIOFDA_EPNILOJFGBJ : public ::System::Object
 	{
 	public:

@@ -4,6 +4,8 @@
 
 #define HOIGPAEEAHD_CTOR_OFFSET UNITYSDK_OFFSET(0x15DB8F60)
 
+inline static constexpr unsigned int HOIGPAEEAHD_TypeDefinitionIndex = 56310;
+
 	class HOIGPAEEAHD : public ::System::Object
 	{
 	public:

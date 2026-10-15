@@ -10,6 +10,8 @@ namespace System { class Action; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightEffectController___c__DisplayClass22_0_TypeDefinitionIndex = 64481;
+
 	class GridFightEffectController___c__DisplayClass22_0 : public ::System::Object
 	{
 	public:

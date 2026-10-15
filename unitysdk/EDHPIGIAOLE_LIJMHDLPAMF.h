@@ -11,6 +11,8 @@ namespace UnityEngine { class Transform; }
 #define EDHPIGIAOLE_LIJMHDLPAMF_CLEAR_OFFSET UNITYSDK_OFFSET(0x1331E8E0)
 #define EDHPIGIAOLE_LIJMHDLPAMF_CTOR_OFFSET UNITYSDK_OFFSET(0x1331E990)
 
+inline static constexpr unsigned int EDHPIGIAOLE_LIJMHDLPAMF_TypeDefinitionIndex = 57406;
+
 	class EDHPIGIAOLE_LIJMHDLPAMF : public ::System::Object
 	{
 	public:

@@ -29,6 +29,8 @@ namespace System { class Object; }
 #define CMCLACPDCJN_NFINIHKKLPK_OFFSET UNITYSDK_OFFSET(0xDA27620)
 #define CMCLACPDCJN_NGEKEENAGNO_OFFSET UNITYSDK_OFFSET(0xDA27700)
 
+inline static constexpr unsigned int CMCLACPDCJN_TypeDefinitionIndex = 62728;
+
 	class CMCLACPDCJN : public ::System::Object
 	{
 	public:

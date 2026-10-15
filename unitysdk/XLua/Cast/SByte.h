@@ -5,6 +5,8 @@
 
 namespace XLua::Cast
 {
+	inline static constexpr unsigned int SByte_TypeDefinitionIndex = 50293;
+
 	class SByte
 	{
 	public:

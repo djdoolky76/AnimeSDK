@@ -29,6 +29,8 @@ namespace System { class String; }
 #define BDLBEEMAABE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E91A0D0)
 #define BDLBEEMAABE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E91A130)
 
+inline static constexpr unsigned int BDLBEEMAABE_TypeDefinitionIndex = 31928;
+
 	class BDLBEEMAABE : public ::System::Object
 	{
 	public:

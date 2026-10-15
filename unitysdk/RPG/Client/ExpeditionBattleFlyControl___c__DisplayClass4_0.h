@@ -9,6 +9,8 @@ namespace System { class Action; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ExpeditionBattleFlyControl___c__DisplayClass4_0_TypeDefinitionIndex = 63961;
+
 	class ExpeditionBattleFlyControl___c__DisplayClass4_0 : public ::System::Object
 	{
 	public:

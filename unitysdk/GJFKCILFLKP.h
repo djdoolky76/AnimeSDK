@@ -26,6 +26,8 @@ namespace UnityEngine::UI { class Button; }
 #define GJFKCILFLKP__ONDISPOSE_OFFSET UNITYSDK_OFFSET(0x15A65CD0)
 #define GJFKCILFLKP__ONTICK_OFFSET UNITYSDK_OFFSET(0x15A65B50)
 
+inline static constexpr unsigned int GJFKCILFLKP_TypeDefinitionIndex = 71651;
+
 	class GJFKCILFLKP : public ::FMPCODLIOLG
 	{
 	public:

@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChimeraBattleShowNPCDither_TypeDefinitionIndex = 15875;
+
 	class ChimeraBattleShowNPCDither : public ::RPG::GameCore::ChimeraAbilityProgressBase
 	{
 	public:

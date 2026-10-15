@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define GAEBCDPICNH___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E418220)
 #define GAEBCDPICNH___C___CCTOR_B__43_0_OFFSET UNITYSDK_OFFSET(0x1E418230)
 
+inline static constexpr unsigned int GAEBCDPICNH___c_TypeDefinitionIndex = 26153;
+
 	class GAEBCDPICNH___c : public ::System::Object
 	{
 	public:

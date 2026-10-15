@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define EBHOLFALEDL_CTOR_OFFSET UNITYSDK_OFFSET(0x12CF8940)
 #define EBHOLFALEDL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x12CF8970)
 
+inline static constexpr unsigned int EBHOLFALEDL_TypeDefinitionIndex = 52913;
+
 	class EBHOLFALEDL
 	{
 	public:

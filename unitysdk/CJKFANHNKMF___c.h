@@ -1508,6 +1508,8 @@ namespace System { class Object; }
 #define CJKFANHNKMF___C___CCTOR_B__2_99_OFFSET UNITYSDK_OFFSET(0xD24F110)
 #define CJKFANHNKMF___C___CCTOR_B__2_9_OFFSET UNITYSDK_OFFSET(0xD24C890)
 
+inline static constexpr unsigned int CJKFANHNKMF___c_TypeDefinitionIndex = 59296;
+
 	class CJKFANHNKMF___c : public ::System::Object
 	{
 	public:

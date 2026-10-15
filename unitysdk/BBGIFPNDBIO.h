@@ -27,6 +27,8 @@ namespace System { class String; }
 #define BBGIFPNDBIO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E7C3330)
 #define BBGIFPNDBIO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E7C3390)
 
+inline static constexpr unsigned int BBGIFPNDBIO_TypeDefinitionIndex = 27224;
+
 	class BBGIFPNDBIO : public ::System::Object
 	{
 	public:

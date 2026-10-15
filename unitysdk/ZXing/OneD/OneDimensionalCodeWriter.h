@@ -16,6 +16,8 @@ namespace ZXing::Common { class BitMatrix; }
 
 namespace ZXing::OneD
 {
+	inline static constexpr unsigned int OneDimensionalCodeWriter_TypeDefinitionIndex = 6974;
+
 	class OneDimensionalCodeWriter : public ::System::Object
 	{
 	public:

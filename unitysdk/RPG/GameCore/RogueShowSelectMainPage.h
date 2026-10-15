@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueShowSelectMainPage; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueShowSelectMainPage_TypeDefinitionIndex = 20807;
+
 	class RogueShowSelectMainPage : public ::RPG::GameCore::TaskConfig
 	{
 	public:

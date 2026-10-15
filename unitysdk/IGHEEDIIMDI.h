@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define IGHEEDIIMDI_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1640DED0)
 #define IGHEEDIIMDI_TICK_OFFSET UNITYSDK_OFFSET(0x1640DF20)
 
+inline static constexpr unsigned int IGHEEDIIMDI_TypeDefinitionIndex = 56459;
+
 	class IGHEEDIIMDI : public ::GELIALJDFBL
 	{
 	public:

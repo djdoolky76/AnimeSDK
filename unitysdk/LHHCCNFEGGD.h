@@ -10,6 +10,8 @@ namespace System { class String; }
 #define LHHCCNFEGGD_CTOR_OFFSET UNITYSDK_OFFSET(0x1D0F1E10)
 #define LHHCCNFEGGD_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D0F1B30)
 
+inline static constexpr unsigned int LHHCCNFEGGD_TypeDefinitionIndex = 14443;
+
 	class LHHCCNFEGGD : public ::System::Object
 	{
 	public:

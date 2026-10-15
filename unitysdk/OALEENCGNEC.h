@@ -8,6 +8,8 @@ class OALEENCGNEC;
 #define OALEENCGNEC_CTOR_OFFSET UNITYSDK_OFFSET(0x1D24C850)
 #define OALEENCGNEC_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D24C6D0)
 
+inline static constexpr unsigned int OALEENCGNEC_TypeDefinitionIndex = 11511;
+
 	class OALEENCGNEC : public ::System::Object
 	{
 	public:

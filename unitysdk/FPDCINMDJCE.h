@@ -51,6 +51,8 @@ namespace System { class String; }
 #define FPDCINMDJCE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E405830)
 #define FPDCINMDJCE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E405890)
 
+inline static constexpr unsigned int FPDCINMDJCE_TypeDefinitionIndex = 29057;
+
 	class FPDCINMDJCE : public ::System::Object
 	{
 	public:

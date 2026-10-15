@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TimeRewindAudioConfig_TypeDefinitionIndex = 16605;
+
 	class TimeRewindAudioConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

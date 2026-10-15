@@ -24,6 +24,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightTalent_TypeDefinitionIndex = 65268;
+
 	class GridFightTalent : public ::System::Object
 	{
 	public:

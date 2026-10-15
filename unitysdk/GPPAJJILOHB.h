@@ -17,6 +17,8 @@ namespace UnityEngine { class GameObject; }
 #define GPPAJJILOHB_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0x15B66550)
 #define GPPAJJILOHB_PLNCKDADELF_OFFSET UNITYSDK_OFFSET(0x15B66CC0)
 
+inline static constexpr unsigned int GPPAJJILOHB_TypeDefinitionIndex = 60839;
+
 	class GPPAJJILOHB : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class WaitPropPuzzleLoadingFinish; }
 #define AHEJECGCHGD_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xEB7E060)
 #define AHEJECGCHGD_TICK_OFFSET UNITYSDK_OFFSET(0xEB7DEF0)
 
+inline static constexpr unsigned int AHEJECGCHGD_TypeDefinitionIndex = 58917;
+
 	class AHEJECGCHGD : public ::GELIALJDFBL
 	{
 	public:

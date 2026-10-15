@@ -10,6 +10,8 @@ class ABFALGOPMPL;
 #define ABFALGOPMPL_HMAONENFGHD_OFFSET UNITYSDK_OFFSET(0xB0F2230)
 #define ABFALGOPMPL_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xB0F2250)
 
+inline static constexpr unsigned int ABFALGOPMPL_TypeDefinitionIndex = 53696;
+
 	class ABFALGOPMPL : public ::System::Object
 	{
 	public:

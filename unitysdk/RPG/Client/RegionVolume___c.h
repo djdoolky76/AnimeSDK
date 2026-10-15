@@ -12,6 +12,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RegionVolume___c_TypeDefinitionIndex = 62192;
+
 	class RegionVolume___c : public ::System::Object
 	{
 	public:

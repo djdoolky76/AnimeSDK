@@ -6,6 +6,8 @@ namespace System { class String; }
 
 #define DONKELCPIAN_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CA2FE50)
 
+inline static constexpr unsigned int DONKELCPIAN_TypeDefinitionIndex = 42780;
+
 	class DONKELCPIAN : public ::System::Object
 	{
 	public:

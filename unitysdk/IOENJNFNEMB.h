@@ -4,6 +4,8 @@
 
 #define IOENJNFNEMB_CTOR_OFFSET UNITYSDK_OFFSET(0x1CB8A400)
 
+inline static constexpr unsigned int IOENJNFNEMB_TypeDefinitionIndex = 43801;
+
 	class IOENJNFNEMB : public ::System::Object
 	{
 	public:

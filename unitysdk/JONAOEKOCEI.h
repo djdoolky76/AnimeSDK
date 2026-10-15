@@ -27,6 +27,8 @@ namespace UnityEngine { class Transform; }
 #define JONAOEKOCEI_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0xB2A9DD0)
 #define JONAOEKOCEI_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0xB2ABA00)
 
+inline static constexpr unsigned int JONAOEKOCEI_TypeDefinitionIndex = 60181;
+
 	class JONAOEKOCEI : public ::System::Object
 	{
 	public:

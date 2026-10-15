@@ -59,6 +59,8 @@ namespace UnityEngine { class AnimationCurve; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MovieGameController_TypeDefinitionIndex = 60428;
+
 	class MovieGameController : public ::RPG::Client::Prop::PuzzleBoardBase
 	{
 	public:

@@ -2,6 +2,8 @@
 #include "unitysdk/unitysdk.h"
 namespace System { class String; }
 
+inline static constexpr unsigned int BIIDCBCCAHE_TypeDefinitionIndex = 57393;
+
 	struct alignas(8) BIIDCBCCAHE
 	{
 		::System::String* AOFHKOFDKDP; // 0x10

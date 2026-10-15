@@ -39,6 +39,8 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyLi
 #define OJOHBFMIDJD___LOADTRAITS_B__32_1_OFFSET UNITYSDK_OFFSET(0xBECD3C0)
 #define OJOHBFMIDJD___LOADTRAITS_B__32_3_OFFSET UNITYSDK_OFFSET(0xBECD460)
 
+inline static constexpr unsigned int OJOHBFMIDJD_TypeDefinitionIndex = 79557;
+
 	class OJOHBFMIDJD : public ::System::Object
 	{
 	public:

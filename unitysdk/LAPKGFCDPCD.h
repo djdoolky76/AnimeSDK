@@ -8,6 +8,8 @@ class LAPKGFCDPCD;
 #define LAPKGFCDPCD_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D0D4320)
 #define LAPKGFCDPCD_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D0D42E0)
 
+inline static constexpr unsigned int LAPKGFCDPCD_TypeDefinitionIndex = 23283;
+
 	class LAPKGFCDPCD : public ::RPG::GameCore::TaskConfig
 	{
 	public:

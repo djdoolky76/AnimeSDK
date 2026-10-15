@@ -11,6 +11,8 @@ namespace RPG::GameCore { class FloatCurveWithYMultiplier; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimScrollConfig_TypeDefinitionIndex = 16670;
+
 	class FiveDimScrollConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

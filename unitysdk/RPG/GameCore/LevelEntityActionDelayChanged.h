@@ -16,6 +16,8 @@ namespace RPG::GameCore { class LevelEntityActionDelayChanged; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelEntityActionDelayChanged_TypeDefinitionIndex = 56782;
+
 	class LevelEntityActionDelayChanged : public ::CMPGEAFHHDC
 	{
 	public:

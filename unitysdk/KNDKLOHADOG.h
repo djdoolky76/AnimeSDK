@@ -8,6 +8,8 @@ namespace System { class String; }
 #define KNDKLOHADOG_CTOR_2_OFFSET UNITYSDK_OFFSET(0x1D0BA400)
 #define KNDKLOHADOG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D0BA3E0)
 
+inline static constexpr unsigned int KNDKLOHADOG_TypeDefinitionIndex = 24996;
+
 	class KNDKLOHADOG : public ::System::Attribute
 	{
 	public:

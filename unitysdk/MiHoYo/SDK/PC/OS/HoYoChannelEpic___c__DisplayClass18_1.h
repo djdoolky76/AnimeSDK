@@ -10,6 +10,8 @@ namespace System { class Object; }
 
 namespace MiHoYo::SDK::PC::OS
 {
+	inline static constexpr unsigned int HoYoChannelEpic___c__DisplayClass18_1_TypeDefinitionIndex = 8522;
+
 	template <typename T>
 	class HoYoChannelEpic___c__DisplayClass18_1 : public ::System::Object
 	{

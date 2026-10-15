@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define KMCIALDOECA_CTOR_OFFSET UNITYSDK_OFFSET(0xB53D3C0)
 #define KMCIALDOECA_PDAKILNLHNA_OFFSET UNITYSDK_OFFSET(0xB53CCD0)
 
+inline static constexpr unsigned int KMCIALDOECA_TypeDefinitionIndex = 59830;
+
 	class KMCIALDOECA : public ::System::Object
 	{
 	public:

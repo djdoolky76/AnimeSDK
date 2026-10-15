@@ -35,6 +35,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define ALDLKGCNIAD_SET_SIZE_OFFSET UNITYSDK_OFFSET(0x15563B90)
 #define ALDLKGCNIAD_SET_SURFACELIST_OFFSET UNITYSDK_OFFSET(0x15563C30)
 
+inline static constexpr unsigned int ALDLKGCNIAD_TypeDefinitionIndex = 74664;
+
 	class ALDLKGCNIAD : public ::System::Object
 	{
 	public:

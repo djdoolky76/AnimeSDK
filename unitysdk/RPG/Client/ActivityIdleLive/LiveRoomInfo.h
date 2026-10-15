@@ -26,6 +26,8 @@ namespace System { class String; }
 
 namespace RPG::Client::ActivityIdleLive
 {
+	inline static constexpr unsigned int LiveRoomInfo_TypeDefinitionIndex = 75363;
+
 	class LiveRoomInfo : public ::System::Object
 	{
 	public:

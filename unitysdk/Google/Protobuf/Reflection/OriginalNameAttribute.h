@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace Google::Protobuf::Reflection
 {
+	inline static constexpr unsigned int OriginalNameAttribute_TypeDefinitionIndex = 5557;
+
 	class OriginalNameAttribute : public ::System::Attribute
 	{
 	public:

@@ -9,6 +9,8 @@ namespace RPG::AvatarSystem::Property { template <typename T> class IPropertyMod
 #define PDFBCKCLDGL_CTOR_OFFSET UNITYSDK_OFFSET(0xC010D90)
 #define PDFBCKCLDGL_GETMODIFIER_OFFSET UNITYSDK_OFFSET(0xC010DA0)
 
+inline static constexpr unsigned int PDFBCKCLDGL_TypeDefinitionIndex = 62716;
+
 	class PDFBCKCLDGL : public ::System::Object
 	{
 	public:

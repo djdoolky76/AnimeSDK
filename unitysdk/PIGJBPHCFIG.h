@@ -8,6 +8,8 @@ class PIGJBPHCFIG;
 #define PIGJBPHCFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D2EF7C0)
 #define PIGJBPHCFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D2EF590)
 
+inline static constexpr unsigned int PIGJBPHCFIG_TypeDefinitionIndex = 11563;
+
 	class PIGJBPHCFIG : public ::System::Object
 	{
 	public:

@@ -31,6 +31,8 @@ namespace System { class String; }
 #define EEOMNBBJDOG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E2898E0)
 #define EEOMNBBJDOG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E289940)
 
+inline static constexpr unsigned int EEOMNBBJDOG_TypeDefinitionIndex = 28217;
+
 	class EEOMNBBJDOG : public ::System::Object
 	{
 	public:

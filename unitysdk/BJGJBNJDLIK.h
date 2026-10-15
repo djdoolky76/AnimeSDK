@@ -44,6 +44,8 @@ namespace System { class String; }
 #define BJGJBNJDLIK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DE09E00)
 #define BJGJBNJDLIK_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DE09E60)
 
+inline static constexpr unsigned int BJGJBNJDLIK_TypeDefinitionIndex = 25529;
+
 	class BJGJBNJDLIK : public ::System::Object
 	{
 	public:

@@ -7,6 +7,8 @@ namespace RPG::GameCore { class MiParameterConfigBase; }
 #define CADIPFIINMF_BEJAJNEFHIB_OFFSET UNITYSDK_OFFSET(0xC1BE070)
 #define CADIPFIINMF_CTOR_OFFSET UNITYSDK_OFFSET(0xC1BE130)
 
+inline static constexpr unsigned int CADIPFIINMF_TypeDefinitionIndex = 64138;
+
 	class CADIPFIINMF : public ::System::Object
 	{
 	public:

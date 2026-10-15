@@ -10,6 +10,8 @@ namespace RPG::GameCore { class WolfBroStunTargetArchive; }
 #define NGJHGAIOPGP_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xBBAA430)
 #define NGJHGAIOPGP_TICK_OFFSET UNITYSDK_OFFSET(0xBBAA480)
 
+inline static constexpr unsigned int NGJHGAIOPGP_TypeDefinitionIndex = 58965;
+
 	class NGJHGAIOPGP : public ::GELIALJDFBL
 	{
 	public:

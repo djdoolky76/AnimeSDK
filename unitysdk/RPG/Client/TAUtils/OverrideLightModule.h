@@ -16,6 +16,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::TAUtils
 {
+	inline static constexpr unsigned int OverrideLightModule_TypeDefinitionIndex = 73609;
+
 	struct alignas(8) OverrideLightModule
 	{
 		::RPG::Client::TAUtils::OverrideLightType OverrideLightType; // 0x10

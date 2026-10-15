@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define BIHOMINNDLB_CTOR_OFFSET UNITYSDK_OFFSET(0xB4A89A0)
 #define BIHOMINNDLB_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB4A89D0)
 
+inline static constexpr unsigned int BIHOMINNDLB_TypeDefinitionIndex = 54452;
+
 	class BIHOMINNDLB
 	{
 	public:

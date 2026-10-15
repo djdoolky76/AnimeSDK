@@ -8,6 +8,8 @@ namespace RPG::Client::BlindBox::Pool { class BlindBoxPoolModule; }
 
 namespace RPG::Client::BlindBox::Pool
 {
+	inline static constexpr unsigned int BlindBoxPoolModule___c__DisplayClass18_0_TypeDefinitionIndex = 74914;
+
 	class BlindBoxPoolModule___c__DisplayClass18_0 : public ::System::Object
 	{
 	public:

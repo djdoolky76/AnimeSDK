@@ -8,6 +8,8 @@ namespace System { class Object; }
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int ReverseCompare_TypeDefinitionIndex = 40633;
+
 	class ReverseCompare : public ::System::Object
 	{
 	public:

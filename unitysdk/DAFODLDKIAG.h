@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T> class IList_1; }
 #define DAFODLDKIAG_MAEMPJIHOHC_OFFSET UNITYSDK_OFFSET(0xDFC22D0)
 #define DAFODLDKIAG_MHEFLBIEELJ_OFFSET UNITYSDK_OFFSET(0xDFC22C0)
 
+inline static constexpr unsigned int DAFODLDKIAG_TypeDefinitionIndex = 78070;
+
 	class DAFODLDKIAG
 	{
 	public:

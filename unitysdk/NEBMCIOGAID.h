@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define NEBMCIOGAID_DEACTIVATE_OFFSET UNITYSDK_OFFSET(0xBB584C0)
 #define NEBMCIOGAID_ONENTITYCREATED_OFFSET UNITYSDK_OFFSET(0xBB58660)
 
+inline static constexpr unsigned int NEBMCIOGAID_TypeDefinitionIndex = 77717;
+
 	class NEBMCIOGAID : public ::Entitas::VisualDebugging::Unity::ContextObserver
 	{
 	public:

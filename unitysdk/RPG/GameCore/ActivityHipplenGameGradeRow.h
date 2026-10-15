@@ -11,6 +11,8 @@ namespace RPG::GameCore { class ActivityHipplenGameGradeRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ActivityHipplenGameGradeRow_TypeDefinitionIndex = 11645;
+
 	class ActivityHipplenGameGradeRow : public ::System::Object
 	{
 	public:

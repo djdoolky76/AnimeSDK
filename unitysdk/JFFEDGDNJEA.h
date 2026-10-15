@@ -28,6 +28,8 @@ namespace System { class String; }
 #define JFFEDGDNJEA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E729F70)
 #define JFFEDGDNJEA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E729FD0)
 
+inline static constexpr unsigned int JFFEDGDNJEA_TypeDefinitionIndex = 30247;
+
 	class JFFEDGDNJEA : public ::System::Object
 	{
 	public:

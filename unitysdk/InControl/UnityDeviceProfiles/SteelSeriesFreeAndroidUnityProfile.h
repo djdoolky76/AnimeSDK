@@ -7,6 +7,8 @@
 
 namespace InControl::UnityDeviceProfiles
 {
+	inline static constexpr unsigned int SteelSeriesFreeAndroidUnityProfile_TypeDefinitionIndex = 40988;
+
 	class SteelSeriesFreeAndroidUnityProfile : public ::InControl::InputDeviceProfile
 	{
 	public:

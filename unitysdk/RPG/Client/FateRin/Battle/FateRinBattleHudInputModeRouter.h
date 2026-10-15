@@ -19,6 +19,8 @@ namespace System { class Nullable; }
 
 namespace RPG::Client::FateRin::Battle
 {
+	inline static constexpr unsigned int FateRinBattleHudInputModeRouter_TypeDefinitionIndex = 80929;
+
 	class FateRinBattleHudInputModeRouter : public ::RPG::Client::FateRin::Battle::FateRinBattleHudInputBrainBase
 	{
 	public:

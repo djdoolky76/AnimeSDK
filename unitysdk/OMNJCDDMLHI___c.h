@@ -13,6 +13,8 @@ namespace System { template <typename T> class Func_1; }
 #define OMNJCDDMLHI___C___CTOR_B__43_0_OFFSET UNITYSDK_OFFSET(0x1C99F3E0)
 #define OMNJCDDMLHI___C___CTOR_B__43_1_OFFSET UNITYSDK_OFFSET(0x1C99F410)
 
+inline static constexpr unsigned int OMNJCDDMLHI___c_TypeDefinitionIndex = 42564;
+
 	class OMNJCDDMLHI___c : public ::System::Object
 	{
 	public:

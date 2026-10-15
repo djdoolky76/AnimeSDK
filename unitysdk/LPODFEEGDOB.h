@@ -29,6 +29,8 @@ namespace System { class String; }
 #define LPODFEEGDOB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E9D46A0)
 #define LPODFEEGDOB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E9D4700)
 
+inline static constexpr unsigned int LPODFEEGDOB_TypeDefinitionIndex = 33331;
+
 	class LPODFEEGDOB : public ::System::Object
 	{
 	public:

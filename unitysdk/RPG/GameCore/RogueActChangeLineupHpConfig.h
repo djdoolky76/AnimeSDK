@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueActChangeLineupHpConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueActChangeLineupHpConfig_TypeDefinitionIndex = 19625;
+
 	class RogueActChangeLineupHpConfig : public ::RPG::GameCore::RogueActionConfigBase
 	{
 	public:

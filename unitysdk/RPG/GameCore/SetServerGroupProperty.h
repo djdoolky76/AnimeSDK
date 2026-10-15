@@ -10,6 +10,8 @@ namespace RPG::GameCore { class SetServerGroupProperty; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetServerGroupProperty_TypeDefinitionIndex = 20728;
+
 	class SetServerGroupProperty : public ::RPG::GameCore::TaskConfig
 	{
 	public:

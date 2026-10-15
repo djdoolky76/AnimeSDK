@@ -10,6 +10,8 @@ namespace RPG::GameCore { class MatchThreeCreateLevel; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MatchThreeCreateLevel_TypeDefinitionIndex = 20985;
+
 	class MatchThreeCreateLevel : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore::Match3 { class GemPouchExistsCondition; }
 
 namespace RPG::GameCore::Match3
 {
+	inline static constexpr unsigned int GemPouchExistsCondition_TypeDefinitionIndex = 24888;
+
 	class GemPouchExistsCondition : public ::RPG::GameCore::Match3::Match3ConditionBase
 	{
 	public:

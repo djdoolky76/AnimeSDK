@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace System::Resources
 {
+	inline static constexpr unsigned int SatelliteContractVersionAttribute_TypeDefinitionIndex = 535;
+
 	class SatelliteContractVersionAttribute : public ::System::Attribute
 	{
 	public:

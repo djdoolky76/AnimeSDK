@@ -30,6 +30,8 @@ namespace UnityEngine::Rendering { class CommandBuffer; }
 
 namespace UnityEngine::Formats::Alembic::Importer
 {
+	inline static constexpr unsigned int AlembicPointsRenderer_TypeDefinitionIndex = 45884;
+
 	class AlembicPointsRenderer : public ::UnityEngine::MonoBehaviour
 	{
 	public:

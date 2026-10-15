@@ -29,6 +29,8 @@ namespace System::Security::Cryptography { class SymmetricAlgorithm; }
 
 namespace Mono::Security::Cryptography
 {
+	inline static constexpr unsigned int SymmetricTransform_TypeDefinitionIndex = 78;
+
 	class SymmetricTransform : public ::System::Object
 	{
 	public:

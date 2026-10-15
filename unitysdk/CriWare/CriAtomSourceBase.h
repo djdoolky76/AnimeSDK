@@ -84,6 +84,8 @@ namespace System { class String; }
 
 namespace CriWare
 {
+	inline static constexpr unsigned int CriAtomSourceBase_TypeDefinitionIndex = 39943;
+
 	class CriAtomSourceBase : public ::CriWare::CriMonoBehaviour
 	{
 	public:

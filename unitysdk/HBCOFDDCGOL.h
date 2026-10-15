@@ -30,6 +30,8 @@ namespace System { class String; }
 #define HBCOFDDCGOL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E50CAB0)
 #define HBCOFDDCGOL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E50CB10)
 
+inline static constexpr unsigned int HBCOFDDCGOL_TypeDefinitionIndex = 33569;
+
 	class HBCOFDDCGOL : public ::System::Object
 	{
 	public:

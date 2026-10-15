@@ -9,6 +9,8 @@ namespace System { class Object; }
 #define EMPLDFPJCMJ_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x155A6550)
 #define EMPLDFPJCMJ_PJAHIPJDDBC_OFFSET UNITYSDK_OFFSET(0x155A66C0)
 
+inline static constexpr unsigned int EMPLDFPJCMJ_TypeDefinitionIndex = 58898;
+
 	class EMPLDFPJCMJ
 	{
 	public:

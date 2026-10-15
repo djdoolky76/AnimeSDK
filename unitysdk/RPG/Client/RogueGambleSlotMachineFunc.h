@@ -19,6 +19,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueGambleSlotMachineFunc_TypeDefinitionIndex = 67234;
+
 	class RogueGambleSlotMachineFunc : public ::RPG::Client::RogueGambleBaseFunc
 	{
 	public:

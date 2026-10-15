@@ -6,6 +6,8 @@
 
 namespace SRDebugger
 {
+	inline static constexpr unsigned int LayoutAttribute_TypeDefinitionIndex = 37963;
+
 	class LayoutAttribute : public ::System::Attribute
 	{
 	public:

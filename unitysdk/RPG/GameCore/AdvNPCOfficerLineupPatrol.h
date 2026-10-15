@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdvNPCOfficerLineupPatrol_TypeDefinitionIndex = 20001;
+
 	class AdvNPCOfficerLineupPatrol : public ::RPG::GameCore::TaskConfig
 	{
 	public:

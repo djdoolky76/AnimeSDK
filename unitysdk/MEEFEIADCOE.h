@@ -10,6 +10,8 @@ namespace System { class String; }
 #define MEEFEIADCOE_FEIIDFFOICL_OFFSET UNITYSDK_OFFSET(0x1C925050)
 #define MEEFEIADCOE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x3C2FDB0)
 
+inline static constexpr unsigned int MEEFEIADCOE_TypeDefinitionIndex = 42018;
+
 	struct alignas(8) MEEFEIADCOE
 	{
 		::System::Int32 BCNJOLIFEEF; // 0x10

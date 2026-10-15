@@ -19,6 +19,8 @@ namespace UnityEngine::Pooled { template <typename T> class PooledList_1; }
 #define LNCKJIOBNDO_MDFPGKLLNAD_OFFSET UNITYSDK_OFFSET(0xB7D6E20)
 #define LNCKJIOBNDO_PCIOHNIEDEM_OFFSET UNITYSDK_OFFSET(0xB7D7020)
 
+inline static constexpr unsigned int LNCKJIOBNDO_TypeDefinitionIndex = 68293;
+
 	class LNCKJIOBNDO : public ::System::Object
 	{
 	public:

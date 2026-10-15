@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define CAMLFNCBFHI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E05EA00)
 #define CAMLFNCBFHI___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E05EA10)
 
+inline static constexpr unsigned int CAMLFNCBFHI___c_TypeDefinitionIndex = 27747;
+
 	class CAMLFNCBFHI___c : public ::System::Object
 	{
 	public:

@@ -9,6 +9,8 @@
 #define BELLDGMBJKK_ICNEKGBHIHP_OFFSET UNITYSDK_OFFSET(0xB156700)
 #define BELLDGMBJKK_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0xB1567F0)
 
+inline static constexpr unsigned int BELLDGMBJKK_TypeDefinitionIndex = 77051;
+
 	class BELLDGMBJKK : public ::GKIPJBKNCNB
 	{
 	public:

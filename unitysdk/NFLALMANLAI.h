@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define NFLALMANLAI_CTOR_OFFSET UNITYSDK_OFFSET(0xBB996A0)
 #define NFLALMANLAI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBB996D0)
 
+inline static constexpr unsigned int NFLALMANLAI_TypeDefinitionIndex = 58177;
+
 	class NFLALMANLAI
 	{
 	public:

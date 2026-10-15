@@ -11,6 +11,8 @@ namespace RPG::GameCore { class ClockParkCardTipsTypeRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ClockParkCardTipsTypeRow_TypeDefinitionIndex = 11174;
+
 	class ClockParkCardTipsTypeRow : public ::System::Object
 	{
 	public:

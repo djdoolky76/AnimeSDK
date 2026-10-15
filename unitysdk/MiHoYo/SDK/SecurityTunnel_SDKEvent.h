@@ -3,6 +3,8 @@
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int SecurityTunnel_SDKEvent_TypeDefinitionIndex = 46390;
+
 	enum class SecurityTunnel_SDKEvent : ::System::Int32
 	{
 		File = 45057,

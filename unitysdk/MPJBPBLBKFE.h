@@ -9,6 +9,8 @@ namespace System { class Action; }
 #define MPJBPBLBKFE_IPMNNGIJMMA_OFFSET UNITYSDK_OFFSET(0xBA3F5C0)
 #define MPJBPBLBKFE_MEGNJCHOGEE_OFFSET UNITYSDK_OFFSET(0xBA3F4C0)
 
+inline static constexpr unsigned int MPJBPBLBKFE_TypeDefinitionIndex = 57563;
+
 	class MPJBPBLBKFE : public ::RPG::GameCore::GameComponentBase
 	{
 	public:

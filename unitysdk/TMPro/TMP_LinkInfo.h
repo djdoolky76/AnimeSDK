@@ -9,6 +9,8 @@ namespace TMPro { class TMP_Text; }
 
 namespace TMPro
 {
+	inline static constexpr unsigned int TMP_LinkInfo_TypeDefinitionIndex = 44683;
+
 	struct alignas(8) TMP_LinkInfo
 	{
 		::TMPro::TMP_Text* textComponent; // 0x10

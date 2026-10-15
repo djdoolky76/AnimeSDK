@@ -27,6 +27,8 @@ namespace UnityEngine { class GPUParticlesRenderer; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int Effect_InstanceDataGPUParticlesBehavior_TypeDefinitionIndex = 70640;
+
 	class Effect_InstanceDataGPUParticlesBehavior : public ::RPG::Client::TABehaviorBase
 	{
 	public:

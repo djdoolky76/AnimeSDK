@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define MFFPHMCGEOJ_JFPLCOMCDBN_OFFSET UNITYSDK_OFFSET(0xB8F49D0)
 #define MFFPHMCGEOJ_JINOCNPJLFC_OFFSET UNITYSDK_OFFSET(0xB8F5420)
 
+inline static constexpr unsigned int MFFPHMCGEOJ_TypeDefinitionIndex = 80246;
+
 	class MFFPHMCGEOJ : public ::System::Object
 	{
 	public:

@@ -7,6 +7,8 @@ namespace RPG::GameCore { class MiConditionConfigBase; }
 #define PJCDACCENIO_BEJAJNEFHIB_OFFSET UNITYSDK_OFFSET(0xC27BA80)
 #define PJCDACCENIO_CTOR_OFFSET UNITYSDK_OFFSET(0xC27BB70)
 
+inline static constexpr unsigned int PJCDACCENIO_TypeDefinitionIndex = 59958;
+
 	class PJCDACCENIO : public ::System::Object
 	{
 	public:

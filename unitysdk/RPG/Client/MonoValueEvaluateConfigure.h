@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoValueEvaluateConfigure_TypeDefinitionIndex = 68623;
+
 	class MonoValueEvaluateConfigure : public ::UnityEngine::MonoBehaviour
 	{
 	public:

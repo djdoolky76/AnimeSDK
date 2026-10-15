@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define PHLECNJHFOM_CTOR_OFFSET UNITYSDK_OFFSET(0xC254EF0)
 #define PHLECNJHFOM_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0xC254F00)
 
+inline static constexpr unsigned int PHLECNJHFOM_TypeDefinitionIndex = 62558;
+
 	class PHLECNJHFOM : public ::System::Object
 	{
 	public:

@@ -9,6 +9,8 @@ namespace System { class String; }
 
 namespace RPG::Client::ActivityAlley
 {
+	inline static constexpr unsigned int AlleyPackGoodDef_TypeDefinitionIndex = 74104;
+
 	class AlleyPackGoodDef : public ::System::Object
 	{
 	public:

@@ -41,6 +41,8 @@ namespace UnityEngine { class BoxCollider; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int IsometricViewModule_TypeDefinitionIndex = 60157;
+
 	class IsometricViewModule : public ::HBCMHADMLOP
 	{
 	public:

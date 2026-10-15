@@ -19,6 +19,8 @@ namespace System { class String; }
 #define JDFPIPINHPH_KFABBJDMHCC_NPDPDCOEHGL_OFFSET UNITYSDK_OFFSET(0x165C5AA0)
 #define JDFPIPINHPH_KFABBJDMHCC_PMEOOCCGIFH_OFFSET UNITYSDK_OFFSET(0x165C59E0)
 
+inline static constexpr unsigned int JDFPIPINHPH_KFABBJDMHCC_TypeDefinitionIndex = 72799;
+
 	class JDFPIPINHPH_KFABBJDMHCC : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@ namespace RPG::Client { class RogueBuffData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueBuffInfo___c__DisplayClass11_0_TypeDefinitionIndex = 67198;
+
 	class RogueBuffInfo___c__DisplayClass11_0 : public ::System::Object
 	{
 	public:

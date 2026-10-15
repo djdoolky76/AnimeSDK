@@ -32,6 +32,8 @@ namespace System { class String; }
 #define GMBECKPIIHH_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E4C9200)
 #define GMBECKPIIHH_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E4C9260)
 
+inline static constexpr unsigned int GMBECKPIIHH_TypeDefinitionIndex = 34921;
+
 	class GMBECKPIIHH : public ::System::Object
 	{
 	public:

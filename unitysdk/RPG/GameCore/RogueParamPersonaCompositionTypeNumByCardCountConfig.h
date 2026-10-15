@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueParamPersonaCompositionTypeNumByCardCountCo
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueParamPersonaCompositionTypeNumByCardCountConfig_TypeDefinitionIndex = 19862;
+
 	class RogueParamPersonaCompositionTypeNumByCardCountConfig : public ::RPG::GameCore::RogueParameterConfigBase
 	{
 	public:

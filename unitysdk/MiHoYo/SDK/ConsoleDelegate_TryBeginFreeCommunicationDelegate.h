@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int ConsoleDelegate_TryBeginFreeCommunicationDelegate_TypeDefinitionIndex = 7691;
+
 	class ConsoleDelegate_TryBeginFreeCommunicationDelegate : public ::System::MulticastDelegate
 	{
 	public:

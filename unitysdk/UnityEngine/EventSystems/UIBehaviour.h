@@ -20,6 +20,8 @@
 
 namespace UnityEngine::EventSystems
 {
+	inline static constexpr unsigned int UIBehaviour_TypeDefinitionIndex = 6954;
+
 	class UIBehaviour : public ::UnityEngine::MonoBehaviour
 	{
 	public:

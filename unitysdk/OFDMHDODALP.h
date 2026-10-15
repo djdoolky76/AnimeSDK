@@ -29,6 +29,8 @@ namespace System { class String; }
 #define OFDMHDODALP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DE37320)
 #define OFDMHDODALP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DE37380)
 
+inline static constexpr unsigned int OFDMHDODALP_TypeDefinitionIndex = 30299;
+
 	class OFDMHDODALP : public ::System::Object
 	{
 	public:

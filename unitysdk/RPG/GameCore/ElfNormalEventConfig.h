@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ElfNormalEventConfig_TypeDefinitionIndex = 18474;
+
 	class ElfNormalEventConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

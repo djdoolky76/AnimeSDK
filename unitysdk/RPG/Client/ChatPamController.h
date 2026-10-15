@@ -27,6 +27,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ChatPamController_TypeDefinitionIndex = 72465;
+
 	class ChatPamController : public ::UnityEngine::MonoBehaviour
 	{
 	public:

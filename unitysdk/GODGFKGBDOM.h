@@ -4,6 +4,8 @@
 
 #define GODGFKGBDOM_CTOR_OFFSET UNITYSDK_OFFSET(0x1C6483B0)
 
+inline static constexpr unsigned int GODGFKGBDOM_TypeDefinitionIndex = 36451;
+
 	class GODGFKGBDOM : public ::System::Object
 	{
 	public:

@@ -9,6 +9,8 @@ namespace RPG::GameCore { class RogueActionWeightConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueActionWeightConfig_TypeDefinitionIndex = 19700;
+
 	class RogueActionWeightConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

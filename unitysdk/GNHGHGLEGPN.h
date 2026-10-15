@@ -10,6 +10,8 @@ namespace UnityEngine { class MonoBehaviour; }
 #define GNHGHGLEGPN_HPNDIIPEFLJ_OFFSET UNITYSDK_OFFSET(0x15B0A9D0)
 #define GNHGHGLEGPN_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0x15B0A5B0)
 
+inline static constexpr unsigned int GNHGHGLEGPN_TypeDefinitionIndex = 69903;
+
 	class GNHGHGLEGPN : public ::RPG::Client::BehaviorBase
 	{
 	public:

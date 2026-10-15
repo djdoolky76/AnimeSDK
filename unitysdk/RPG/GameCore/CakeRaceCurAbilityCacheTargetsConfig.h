@@ -10,6 +10,8 @@ namespace RPG::GameCore { class CakeRaceCurAbilityCacheTargetsConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CakeRaceCurAbilityCacheTargetsConfig_TypeDefinitionIndex = 18394;
+
 	class CakeRaceCurAbilityCacheTargetsConfig : public ::RPG::GameCore::CakeRaceBaseTargetSelectorConfig
 	{
 	public:

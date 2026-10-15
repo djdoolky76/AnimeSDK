@@ -6,6 +6,8 @@ namespace ZLinq::Internal { template <typename T> class HashSetSlim_1; }
 
 namespace ZLinq::Linq
 {
+	inline static constexpr unsigned int Except_3_TypeDefinitionIndex = 6119;
+
 	template <typename T1, typename T2, typename T3>
 	struct alignas(8) Except_3
 	{

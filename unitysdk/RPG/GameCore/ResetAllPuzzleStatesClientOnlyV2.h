@@ -12,6 +12,8 @@ namespace RPG::GameCore { class ResetAllPuzzleStatesClientOnlyV2; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ResetAllPuzzleStatesClientOnlyV2_TypeDefinitionIndex = 21207;
+
 	class ResetAllPuzzleStatesClientOnlyV2 : public ::RPG::GameCore::TaskConfig
 	{
 	public:

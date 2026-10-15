@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GameEntity; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoCurveTriggerManager___c__DisplayClass4_0_TypeDefinitionIndex = 68560;
+
 	class MonoCurveTriggerManager___c__DisplayClass4_0 : public ::System::Object
 	{
 	public:

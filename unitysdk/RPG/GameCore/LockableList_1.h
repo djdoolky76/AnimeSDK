@@ -4,6 +4,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LockableList_1_TypeDefinitionIndex = 53705;
+
 	template <typename T>
 	class LockableList_1 : public ::System::Object
 	{

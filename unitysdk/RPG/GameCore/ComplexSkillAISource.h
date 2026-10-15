@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ComplexSkillAISource; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ComplexSkillAISource_TypeDefinitionIndex = 15517;
+
 	class ComplexSkillAISource : public ::RPG::GameCore::JsonConfig
 	{
 	public:

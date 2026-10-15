@@ -16,6 +16,8 @@ namespace System { class Action; }
 
 namespace MiHoYo::SDK::UI::Internal::OS
 {
+	inline static constexpr unsigned int AccountListLogoutConfirmDialog_TypeDefinitionIndex = 8427;
+
 	class AccountListLogoutConfirmDialog : public ::System::Object
 	{
 	public:

@@ -21,6 +21,8 @@ namespace System::IO { class BinaryWriter; }
 #define BPCEIGOMHBG_NIBCDPDJJBP_OFFSET UNITYSDK_OFFSET(0x1C44B0C0)
 #define BPCEIGOMHBG_OHCJOIANPFG_OFFSET UNITYSDK_OFFSET(0x1C44C310)
 
+inline static constexpr unsigned int BPCEIGOMHBG_TypeDefinitionIndex = 41562;
+
 	class BPCEIGOMHBG : public ::System::Object
 	{
 	public:

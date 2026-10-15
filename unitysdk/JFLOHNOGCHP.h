@@ -19,6 +19,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define JFLOHNOGCHP_SET_ABILITYID_OFFSET UNITYSDK_OFFSET(0x16657250)
 #define JFLOHNOGCHP_SET_CONFIG_OFFSET UNITYSDK_OFFSET(0x16657230)
 
+inline static constexpr unsigned int JFLOHNOGCHP_TypeDefinitionIndex = 77713;
+
 	class JFLOHNOGCHP : public ::AGIFDHGNHIP
 	{
 	public:

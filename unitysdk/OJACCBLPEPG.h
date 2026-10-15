@@ -60,6 +60,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define OJACCBLPEPG_PKLAMDFAPJC_OFFSET UNITYSDK_OFFSET(0xBEA9810)
 #define OJACCBLPEPG_PPIJFNFOBNE_OFFSET UNITYSDK_OFFSET(0xBEA9780)
 
+inline static constexpr unsigned int OJACCBLPEPG_TypeDefinitionIndex = 59820;
+
 	class OJACCBLPEPG : public ::System::Object
 	{
 	public:

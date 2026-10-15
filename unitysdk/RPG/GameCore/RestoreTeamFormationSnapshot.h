@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RestoreTeamFormationSnapshot_TypeDefinitionIndex = 22487;
+
 	class RestoreTeamFormationSnapshot : public ::RPG::GameCore::TaskConfig
 	{
 	public:

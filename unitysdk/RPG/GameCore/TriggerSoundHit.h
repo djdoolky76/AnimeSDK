@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TriggerSoundHit; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TriggerSoundHit_TypeDefinitionIndex = 22381;
+
 	class TriggerSoundHit : public ::RPG::GameCore::TaskConfig
 	{
 	public:

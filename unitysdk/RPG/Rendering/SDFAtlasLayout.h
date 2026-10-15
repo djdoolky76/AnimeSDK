@@ -12,6 +12,8 @@
 
 namespace RPG::Rendering
 {
+	inline static constexpr unsigned int SDFAtlasLayout_TypeDefinitionIndex = 51794;
+
 	struct alignas(4) SDFAtlasLayout
 	{
 		::System::Int32 sliceWidth; // 0x10

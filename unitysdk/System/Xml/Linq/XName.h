@@ -25,6 +25,8 @@ namespace System::Xml::Linq { class XNamespace; }
 
 namespace System::Xml::Linq
 {
+	inline static constexpr unsigned int XName_TypeDefinitionIndex = 3875;
+
 	class XName : public ::System::Object
 	{
 	public:

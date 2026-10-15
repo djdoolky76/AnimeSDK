@@ -11,6 +11,8 @@ namespace System { class Object; }
 #define AKAUDIOINPUTMANAGER_AUDIOFORMATDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1F574E20)
 #define AKAUDIOINPUTMANAGER_AUDIOFORMATDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1F5747B0)
 
+inline static constexpr unsigned int AkAudioInputManager_AudioFormatDelegate_TypeDefinitionIndex = 44811;
+
 	class AkAudioInputManager_AudioFormatDelegate : public ::System::MulticastDelegate
 	{
 	public:

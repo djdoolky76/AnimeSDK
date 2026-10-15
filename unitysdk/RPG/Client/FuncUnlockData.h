@@ -14,6 +14,8 @@ namespace RPG::GameCore { class FuncUnlockConfigRow; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int FuncUnlockData_TypeDefinitionIndex = 68015;
+
 	class FuncUnlockData : public ::System::Object
 	{
 	public:

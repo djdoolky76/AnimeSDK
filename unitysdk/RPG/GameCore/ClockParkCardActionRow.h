@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ClockParkCardActionRow_TypeDefinitionIndex = 11176;
+
 	class ClockParkCardActionRow : public ::System::Object
 	{
 	public:

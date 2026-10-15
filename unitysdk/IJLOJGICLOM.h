@@ -21,6 +21,8 @@ class NGLFOJKOKBH;
 #define IJLOJGICLOM_PAKJOMGBLNA_OFFSET UNITYSDK_OFFSET(0x1646CC80)
 #define IJLOJGICLOM_PFHDNGHOACI_OFFSET UNITYSDK_OFFSET(0x1646CCF0)
 
+inline static constexpr unsigned int IJLOJGICLOM_TypeDefinitionIndex = 48882;
+
 	class IJLOJGICLOM : public ::System::Object
 	{
 	public:

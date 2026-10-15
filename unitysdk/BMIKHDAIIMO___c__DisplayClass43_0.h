@@ -8,6 +8,8 @@ namespace UnityEngine { class Object; }
 #define BMIKHDAIIMO___C__DISPLAYCLASS43_0_CTOR_OFFSET UNITYSDK_OFFSET(0xBDB82A0)
 #define BMIKHDAIIMO___C__DISPLAYCLASS43_0___PERSISTENTASYNCLOAD_B__0_OFFSET UNITYSDK_OFFSET(0xBDBC790)
 
+inline static constexpr unsigned int BMIKHDAIIMO___c__DisplayClass43_0_TypeDefinitionIndex = 73880;
+
 	class BMIKHDAIIMO___c__DisplayClass43_0 : public ::System::Object
 	{
 	public:

@@ -31,6 +31,8 @@ namespace System { class Object; }
 
 namespace RPG::Client::B51Racing
 {
+	inline static constexpr unsigned int MonoB51RacingGameplayPauseDialog_TypeDefinitionIndex = 81935;
+
 	class MonoB51RacingGameplayPauseDialog : public ::Sofa::BaseSofaControl
 	{
 	public:

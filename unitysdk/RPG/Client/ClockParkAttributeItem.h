@@ -17,6 +17,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ClockParkAttributeItem_TypeDefinitionIndex = 61482;
+
 	class ClockParkAttributeItem : public ::System::Object
 	{
 	public:

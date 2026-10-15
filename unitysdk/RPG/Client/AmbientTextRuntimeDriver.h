@@ -11,6 +11,8 @@ namespace RPG::Client { class LocalizedTextSDF; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AmbientTextRuntimeDriver_TypeDefinitionIndex = 72940;
+
 	class AmbientTextRuntimeDriver : public ::System::Object
 	{
 	public:

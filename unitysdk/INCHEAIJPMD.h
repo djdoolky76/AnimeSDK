@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define INCHEAIJPMD_CTOR_OFFSET UNITYSDK_OFFSET(0x164E7470)
 #define INCHEAIJPMD_FLNKDEPJMBF_OFFSET UNITYSDK_OFFSET(0x164E72D0)
 
+inline static constexpr unsigned int INCHEAIJPMD_TypeDefinitionIndex = 73835;
+
 	class INCHEAIJPMD : public ::System::Object
 	{
 	public:

@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TreasureDungeonItemConfigRow; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TreasureDungeonItem_TypeDefinitionIndex = 68193;
+
 	class TreasureDungeonItem : public ::System::Object
 	{
 	public:

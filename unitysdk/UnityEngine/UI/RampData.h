@@ -7,6 +7,8 @@
 
 namespace UnityEngine::UI
 {
+	inline static constexpr unsigned int RampData_TypeDefinitionIndex = 6803;
+
 	class RampData : public ::System::Object
 	{
 	public:

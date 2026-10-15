@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ListenPropInAnimState_TypeDefinitionIndex = 20685;
+
 	class ListenPropInAnimState : public ::RPG::GameCore::TaskConfig
 	{
 	public:

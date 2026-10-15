@@ -49,6 +49,8 @@ namespace UnityEngine { class Material; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int SpaceZooUtils_TypeDefinitionIndex = 67975;
+
 	class SpaceZooUtils : public ::System::Object
 	{
 	public:

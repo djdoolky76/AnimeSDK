@@ -32,6 +32,8 @@ namespace System { class String; }
 #define LDBOCEIMACL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E8F21D0)
 #define LDBOCEIMACL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E8F2230)
 
+inline static constexpr unsigned int LDBOCEIMACL_TypeDefinitionIndex = 27238;
+
 	class LDBOCEIMACL : public ::System::Object
 	{
 	public:

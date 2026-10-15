@@ -8,6 +8,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define HOMEENCLPPN_CTOR_OFFSET UNITYSDK_OFFSET(0x15DBBBD0)
 #define HOMEENCLPPN_EVALUATE_OFFSET UNITYSDK_OFFSET(0x15DBBD40)
 
+inline static constexpr unsigned int HOMEENCLPPN_TypeDefinitionIndex = 54451;
+
 	class HOMEENCLPPN
 	{
 	public:

@@ -29,6 +29,8 @@ namespace System { class String; }
 #define NOMBOPLGJJC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EB8ED10)
 #define NOMBOPLGJJC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EB8ED70)
 
+inline static constexpr unsigned int NOMBOPLGJJC_TypeDefinitionIndex = 27969;
+
 	class NOMBOPLGJJC : public ::System::Object
 	{
 	public:

@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T> class IList_1; }
 
 namespace RVO
 {
+	inline static constexpr unsigned int KdTree_TypeDefinitionIndex = 46027;
+
 	class KdTree : public ::System::Object
 	{
 	public:

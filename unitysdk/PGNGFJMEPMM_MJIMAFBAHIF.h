@@ -6,6 +6,8 @@ class KANKEPCJION_JNLBIIDFHMK;
 
 #define PGNGFJMEPMM_MJIMAFBAHIF_CTOR_OFFSET UNITYSDK_OFFSET(0xC22B560)
 
+inline static constexpr unsigned int PGNGFJMEPMM_MJIMAFBAHIF_TypeDefinitionIndex = 71981;
+
 	class PGNGFJMEPMM_MJIMAFBAHIF : public ::System::Object
 	{
 	public:

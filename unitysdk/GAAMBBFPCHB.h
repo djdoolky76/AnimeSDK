@@ -34,6 +34,8 @@ namespace System { class String; }
 #define GAAMBBFPCHB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E411820)
 #define GAAMBBFPCHB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E411880)
 
+inline static constexpr unsigned int GAAMBBFPCHB_TypeDefinitionIndex = 30891;
+
 	class GAAMBBFPCHB : public ::System::Object
 	{
 	public:

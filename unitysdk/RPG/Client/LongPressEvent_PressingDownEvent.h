@@ -5,6 +5,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int LongPressEvent_PressingDownEvent_TypeDefinitionIndex = 72568;
+
 	class LongPressEvent_PressingDownEvent
 	{
 	public:

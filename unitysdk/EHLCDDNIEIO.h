@@ -11,6 +11,8 @@ namespace RPG::Client::ActivityHipplen { class ActivityHipplenEffectResultData; 
 #define EHLCDDNIEIO_CTOR_OFFSET UNITYSDK_OFFSET(0x154AE470)
 #define EHLCDDNIEIO_OLMFDADHOMP_OFFSET UNITYSDK_OFFSET(0x154AE420)
 
+inline static constexpr unsigned int EHLCDDNIEIO_TypeDefinitionIndex = 75487;
+
 	class EHLCDDNIEIO : public ::LOKFDBENEKJ
 	{
 	public:

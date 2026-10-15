@@ -6,6 +6,8 @@
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int MeshColliderEx_TypeDefinitionIndex = 5317;
+
 	class MeshColliderEx : public ::UnityEngine::MeshCollider
 	{
 	public:

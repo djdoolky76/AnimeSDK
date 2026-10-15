@@ -39,6 +39,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelPreDamageEntity_TypeDefinitionIndex = 56737;
+
 	class LevelPreDamageEntity : public ::CMPGEAFHHDC
 	{
 	public:

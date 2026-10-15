@@ -7,6 +7,8 @@
 #define BOPJMOFIHOK_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xC19AC90)
 #define BOPJMOFIHOK_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xC19AC40)
 
+inline static constexpr unsigned int BOPJMOFIHOK_TypeDefinitionIndex = 56843;
+
 	class BOPJMOFIHOK : public ::System::Object
 	{
 	public:

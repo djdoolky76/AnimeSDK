@@ -36,6 +36,8 @@ namespace System { class String; }
 #define IBJJCCDDFLE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E617450)
 #define IBJJCCDDFLE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E6174B0)
 
+inline static constexpr unsigned int IBJJCCDDFLE_TypeDefinitionIndex = 27357;
+
 	class IBJJCCDDFLE : public ::System::Object
 	{
 	public:

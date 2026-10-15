@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TutorialClose; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TutorialClose_TypeDefinitionIndex = 24357;
+
 	class TutorialClose : public ::RPG::GameCore::TaskConfig
 	{
 	public:

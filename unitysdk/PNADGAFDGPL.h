@@ -9,6 +9,8 @@ class DNBDPIOLLHH;
 #define PNADGAFDGPL_CTOR_2_OFFSET UNITYSDK_OFFSET(0xC330E10)
 #define PNADGAFDGPL_CTOR_OFFSET UNITYSDK_OFFSET(0xC330DF0)
 
+inline static constexpr unsigned int PNADGAFDGPL_TypeDefinitionIndex = 71212;
+
 	class PNADGAFDGPL : public ::System::Object
 	{
 	public:

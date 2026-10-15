@@ -8,6 +8,8 @@ namespace System { class Type; }
 #define IPKGHGJPNKB_BHLGOFHCJLA_OFFSET UNITYSDK_OFFSET(0x1C4A4EB0)
 #define IPKGHGJPNKB_JFOJDKCCMNB_OFFSET UNITYSDK_OFFSET(0x1C4A4E40)
 
+inline static constexpr unsigned int IPKGHGJPNKB_TypeDefinitionIndex = 41387;
+
 	struct alignas(8) IPKGHGJPNKB
 	{
 		::System::String* GKHIHPGCLIK; // 0x10

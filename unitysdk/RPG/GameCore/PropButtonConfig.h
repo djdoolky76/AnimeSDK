@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PropButtonConfig_TypeDefinitionIndex = 17563;
+
 	class PropButtonConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

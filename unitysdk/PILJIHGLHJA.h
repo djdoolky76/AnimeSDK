@@ -27,6 +27,8 @@ namespace System { class String; }
 #define PILJIHGLHJA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DF6C5B0)
 #define PILJIHGLHJA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DF6C610)
 
+inline static constexpr unsigned int PILJIHGLHJA_TypeDefinitionIndex = 31119;
+
 	class PILJIHGLHJA : public ::System::Object
 	{
 	public:

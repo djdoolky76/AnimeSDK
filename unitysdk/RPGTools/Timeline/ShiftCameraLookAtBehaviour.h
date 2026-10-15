@@ -17,6 +17,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int ShiftCameraLookAtBehaviour_TypeDefinitionIndex = 47823;
+
 	class ShiftCameraLookAtBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

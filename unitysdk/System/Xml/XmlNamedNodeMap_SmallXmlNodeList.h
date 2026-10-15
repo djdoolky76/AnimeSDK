@@ -12,6 +12,8 @@ namespace System::Collections { class IEnumerator; }
 
 namespace System::Xml
 {
+	inline static constexpr unsigned int XmlNamedNodeMap_SmallXmlNodeList_TypeDefinitionIndex = 1912;
+
 	struct alignas(8) XmlNamedNodeMap_SmallXmlNodeList
 	{
 		::System::Object* field; // 0x10

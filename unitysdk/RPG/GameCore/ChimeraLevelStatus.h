@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ChimeraLevelStatus; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChimeraLevelStatus_TypeDefinitionIndex = 15848;
+
 	class ChimeraLevelStatus : public ::RPG::GameCore::JsonConfig
 	{
 	public:

@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdventureTriggerMove_TypeDefinitionIndex = 20184;
+
 	class AdventureTriggerMove : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -25,6 +25,8 @@ namespace UnityEngine { class Collision; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoDiceCombatDice_TypeDefinitionIndex = 63565;
+
 	class MonoDiceCombatDice : public ::UnityEngine::MonoBehaviour
 	{
 	public:

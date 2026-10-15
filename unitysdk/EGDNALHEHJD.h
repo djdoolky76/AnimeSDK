@@ -5,6 +5,8 @@ namespace System { class String; }
 
 #define EGDNALHEHJD_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA50320)
 
+inline static constexpr unsigned int EGDNALHEHJD_TypeDefinitionIndex = 42882;
+
 	class EGDNALHEHJD : public ::System::Object
 	{
 	public:

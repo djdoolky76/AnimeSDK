@@ -17,6 +17,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace Sofa::Runtime
 {
+	inline static constexpr unsigned int TabHeaderImageWithStatusControl___c_TypeDefinitionIndex = 49735;
+
 	class TabHeaderImageWithStatusControl___c : public ::System::Object
 	{
 	public:

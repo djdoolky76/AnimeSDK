@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int ABTestInfo_TypeDefinitionIndex = 7900;
+
 	class ABTestInfo : public ::System::Object
 	{
 	public:

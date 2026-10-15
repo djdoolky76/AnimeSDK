@@ -10,6 +10,8 @@ namespace RPG::GameCore { class WaitConditionStringBattleClientOnly; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int WaitConditionStringBattleClientOnly_TypeDefinitionIndex = 24067;
+
 	class WaitConditionStringBattleClientOnly : public ::RPG::GameCore::WaitConditionString
 	{
 	public:

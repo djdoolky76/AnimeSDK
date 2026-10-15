@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ResetFloorDefaultEmotion; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ResetFloorDefaultEmotion_TypeDefinitionIndex = 21276;
+
 	class ResetFloorDefaultEmotion : public ::RPG::GameCore::TaskConfig
 	{
 	public:

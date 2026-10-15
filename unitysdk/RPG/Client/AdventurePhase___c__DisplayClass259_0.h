@@ -8,6 +8,8 @@ namespace RPG::GameCore { class ToastPile; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AdventurePhase___c__DisplayClass259_0_TypeDefinitionIndex = 60123;
+
 	class AdventurePhase___c__DisplayClass259_0 : public ::System::Object
 	{
 	public:

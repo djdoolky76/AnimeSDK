@@ -10,6 +10,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int CharacterArtModelEffectBehavior_SelfRotator_TypeDefinitionIndex = 70256;
+
 	struct alignas(8) CharacterArtModelEffectBehavior_SelfRotator
 	{
 		::UnityEngine::GameObject* Target; // 0x10

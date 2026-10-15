@@ -4,6 +4,8 @@
 
 #define IRI_MODULEOPERATEHELPER_CTOR_OFFSET UNITYSDK_OFFSET(0x16537950)
 
+inline static constexpr unsigned int IRI_ModuleOperateHelper_TypeDefinitionIndex = 47555;
+
 	class IRI_ModuleOperateHelper : public ::UnityEngine::MonoBehaviour
 	{
 	public:

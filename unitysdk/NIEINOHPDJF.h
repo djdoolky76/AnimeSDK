@@ -35,6 +35,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define NIEINOHPDJF_PFDNCIICFHL_OFFSET UNITYSDK_OFFSET(0xBBE1080)
 #define NIEINOHPDJF_TICK_OFFSET UNITYSDK_OFFSET(0xBBE2F80)
 
+inline static constexpr unsigned int NIEINOHPDJF_TypeDefinitionIndex = 52384;
+
 	class NIEINOHPDJF : public ::GELIALJDFBL
 	{
 	public:

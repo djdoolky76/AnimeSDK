@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TriggerAnimState_TypeDefinitionIndex = 22873;
+
 	class TriggerAnimState : public ::RPG::GameCore::TaskConfig
 	{
 	public:

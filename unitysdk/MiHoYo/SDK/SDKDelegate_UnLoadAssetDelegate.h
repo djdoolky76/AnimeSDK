@@ -13,6 +13,8 @@ namespace UnityEngine { class Object; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int SDKDelegate_UnLoadAssetDelegate_TypeDefinitionIndex = 7783;
+
 	class SDKDelegate_UnLoadAssetDelegate : public ::System::MulticastDelegate
 	{
 	public:

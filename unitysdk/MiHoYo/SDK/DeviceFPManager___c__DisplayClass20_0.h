@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int DeviceFPManager___c__DisplayClass20_0_TypeDefinitionIndex = 46287;
+
 	class DeviceFPManager___c__DisplayClass20_0 : public ::System::Object
 	{
 	public:

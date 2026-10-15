@@ -11,6 +11,8 @@ namespace RPG::GameCore { class SmellPropConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SmellPropConfig_TypeDefinitionIndex = 20512;
+
 	class SmellPropConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

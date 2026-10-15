@@ -13,6 +13,8 @@ namespace RPG::GameCore { class DynamicFloat; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DiceCombatTaskConfig_DirectDamage_TypeDefinitionIndex = 16050;
+
 	class DiceCombatTaskConfig_DirectDamage : public ::RPG::GameCore::DiceCombatTaskConfig
 	{
 	public:

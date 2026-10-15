@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TurnBasedGameMode; }
 #define BGNEPDNLIFF_KIGBILLGNOH_OFFSET UNITYSDK_OFFSET(0xB190580)
 #define BGNEPDNLIFF_TICK_OFFSET UNITYSDK_OFFSET(0xB190740)
 
+inline static constexpr unsigned int BGNEPDNLIFF_TypeDefinitionIndex = 56266;
+
 	class BGNEPDNLIFF : public ::HBPNHCICJGF
 	{
 	public:

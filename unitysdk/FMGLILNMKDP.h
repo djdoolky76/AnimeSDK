@@ -24,6 +24,8 @@ namespace UnityEngine { class Collider; }
 #define FMGLILNMKDP_PNIEFOONFOP_OFFSET UNITYSDK_OFFSET(0x15854230)
 #define FMGLILNMKDP_TICK_OFFSET UNITYSDK_OFFSET(0x15854560)
 
+inline static constexpr unsigned int FMGLILNMKDP_TypeDefinitionIndex = 70331;
+
 	class FMGLILNMKDP : public ::RPG::Client::TABehaviorBase
 	{
 	public:

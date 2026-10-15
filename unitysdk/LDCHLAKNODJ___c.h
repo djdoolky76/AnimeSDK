@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define LDCHLAKNODJ___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E8F4A20)
 #define LDCHLAKNODJ___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1E8F4A30)
 
+inline static constexpr unsigned int LDCHLAKNODJ___c_TypeDefinitionIndex = 30050;
+
 	class LDCHLAKNODJ___c : public ::System::Object
 	{
 	public:

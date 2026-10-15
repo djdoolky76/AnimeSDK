@@ -8,6 +8,8 @@
 
 namespace RPG
 {
+	inline static constexpr unsigned int FloatCurveFrame_TypeDefinitionIndex = 6338;
+
 	struct alignas(4) FloatCurveFrame
 	{
 		::System::Single TimePoint; // 0x10

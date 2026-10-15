@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int B51RacingPartType_TypeDefinitionIndex = 10946;
+
 	enum class B51RacingPartType : ::System::Int32
 	{
 		None = 0,

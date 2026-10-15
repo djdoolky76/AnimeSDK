@@ -8,6 +8,8 @@ class LAKLECNFDGB;
 #define LAKLECNFDGB_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D0D3570)
 #define LAKLECNFDGB_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D0D34A0)
 
+inline static constexpr unsigned int LAKLECNFDGB_TypeDefinitionIndex = 10216;
+
 	class LAKLECNFDGB : public ::RPG::GameCore::TaskConfig
 	{
 	public:

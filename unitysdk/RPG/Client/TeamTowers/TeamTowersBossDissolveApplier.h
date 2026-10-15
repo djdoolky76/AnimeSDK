@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace RPG::Client::TeamTowers
 {
+	inline static constexpr unsigned int TeamTowersBossDissolveApplier_TypeDefinitionIndex = 79130;
+
 	class TeamTowersBossDissolveApplier : public ::UnityEngine::MonoBehaviour
 	{
 	public:

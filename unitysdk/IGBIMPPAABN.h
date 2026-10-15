@@ -32,6 +32,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define IGBIMPPAABN_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1CEF7660)
 #define IGBIMPPAABN_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1CEF6C90)
 
+inline static constexpr unsigned int IGBIMPPAABN_TypeDefinitionIndex = 14378;
+
 	class IGBIMPPAABN : public ::System::Object
 	{
 	public:

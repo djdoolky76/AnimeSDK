@@ -7,6 +7,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define DKFOGCDDCEF_CTOR_OFFSET UNITYSDK_OFFSET(0x1C5F5A20)
 
+inline static constexpr unsigned int DKFOGCDDCEF_TypeDefinitionIndex = 36933;
+
 	class DKFOGCDDCEF : public ::System::Object
 	{
 	public:

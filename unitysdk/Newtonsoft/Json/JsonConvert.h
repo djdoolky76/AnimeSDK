@@ -39,6 +39,8 @@ namespace System { template <typename T> class Func_1; }
 
 namespace Newtonsoft::Json
 {
+	inline static constexpr unsigned int JsonConvert_TypeDefinitionIndex = 9618;
+
 	class JsonConvert : public ::System::Object
 	{
 	public:

@@ -9,6 +9,8 @@ namespace System { class Object; }
 
 namespace System::Xml::XPath
 {
+	inline static constexpr unsigned int XPathNavigatorKeyComparer_TypeDefinitionIndex = 1977;
+
 	class XPathNavigatorKeyComparer : public ::System::Object
 	{
 	public:

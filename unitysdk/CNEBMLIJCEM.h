@@ -31,6 +31,8 @@ namespace System { class String; }
 #define CNEBMLIJCEM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E108060)
 #define CNEBMLIJCEM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E1080C0)
 
+inline static constexpr unsigned int CNEBMLIJCEM_TypeDefinitionIndex = 34084;
+
 	class CNEBMLIJCEM : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@ class JKHPCAILNPD;
 #define JKHPCAILNPD___C__DISPLAYCLASS16_0___CREATEPIECEEFFECT_B__0_OFFSET UNITYSDK_OFFSET(0x1C569860)
 #define JKHPCAILNPD___C__DISPLAYCLASS16_0___CREATEPIECEEFFECT_B__1_OFFSET UNITYSDK_OFFSET(0x1C569960)
 
+inline static constexpr unsigned int JKHPCAILNPD___c__DisplayClass16_0_TypeDefinitionIndex = 41755;
+
 	class JKHPCAILNPD___c__DisplayClass16_0 : public ::System::Object
 	{
 	public:

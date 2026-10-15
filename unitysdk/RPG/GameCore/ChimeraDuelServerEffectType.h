@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChimeraDuelServerEffectType_TypeDefinitionIndex = 11123;
+
 	enum class ChimeraDuelServerEffectType : ::System::Int32
 	{
 		None = 0,

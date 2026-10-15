@@ -5,6 +5,8 @@
 #define KCABIJMIEPD_CTOR_OFFSET UNITYSDK_OFFSET(0x1C421530)
 #define KCABIJMIEPD_GET_RETURNVALUE_OFFSET UNITYSDK_OFFSET(0x1C421540)
 
+inline static constexpr unsigned int KCABIJMIEPD_TypeDefinitionIndex = 5080;
+
 	class KCABIJMIEPD : public ::System::Attribute
 	{
 	public:

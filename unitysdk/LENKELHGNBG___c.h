@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define LENKELHGNBG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E937DC0)
 #define LENKELHGNBG___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E937DD0)
 
+inline static constexpr unsigned int LENKELHGNBG___c_TypeDefinitionIndex = 27704;
+
 	class LENKELHGNBG___c : public ::System::Object
 	{
 	public:

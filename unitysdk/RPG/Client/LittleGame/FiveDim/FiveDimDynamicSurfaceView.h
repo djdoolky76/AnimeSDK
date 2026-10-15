@@ -15,6 +15,8 @@ namespace UnityEngine { class BoxCollider; }
 
 namespace RPG::Client::LittleGame::FiveDim
 {
+	inline static constexpr unsigned int FiveDimDynamicSurfaceView_TypeDefinitionIndex = 77173;
+
 	class FiveDimDynamicSurfaceView : public ::RPG::Client::LittleGame::FiveDim::FiveDimView
 	{
 	public:

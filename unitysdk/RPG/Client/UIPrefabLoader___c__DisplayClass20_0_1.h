@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int UIPrefabLoader___c__DisplayClass20_0_1_TypeDefinitionIndex = 73100;
+
 	template <typename T>
 	class UIPrefabLoader___c__DisplayClass20_0_1 : public ::System::Object
 	{

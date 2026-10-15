@@ -35,6 +35,8 @@ namespace System { class String; }
 #define BMOIPALHBJN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E02E0D0)
 #define BMOIPALHBJN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E02E130)
 
+inline static constexpr unsigned int BMOIPALHBJN_TypeDefinitionIndex = 31623;
+
 	class BMOIPALHBJN : public ::System::Object
 	{
 	public:

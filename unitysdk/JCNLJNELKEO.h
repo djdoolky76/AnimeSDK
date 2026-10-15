@@ -27,6 +27,8 @@ namespace System { class String; }
 #define JCNLJNELKEO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E704FD0)
 #define JCNLJNELKEO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E705030)
 
+inline static constexpr unsigned int JCNLJNELKEO_TypeDefinitionIndex = 31284;
+
 	class JCNLJNELKEO : public ::System::Object
 	{
 	public:

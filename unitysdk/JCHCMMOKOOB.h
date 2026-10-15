@@ -82,6 +82,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define JCHCMMOKOOB_SET_DRAGPOINTDELTA_OFFSET UNITYSDK_OFFSET(0x165929D0)
 #define JCHCMMOKOOB_SET_ISSCREENPOINTERDOWN_OFFSET UNITYSDK_OFFSET(0x165929B0)
 
+inline static constexpr unsigned int JCHCMMOKOOB_TypeDefinitionIndex = 72215;
+
 	class JCHCMMOKOOB : public ::System::Object
 	{
 	public:

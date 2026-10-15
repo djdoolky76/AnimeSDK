@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GridFightParamGetLastGamePlayChapterConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightParamGetLastGamePlayChapterConfig_TypeDefinitionIndex = 19542;
+
 	class GridFightParamGetLastGamePlayChapterConfig : public ::RPG::GameCore::GridFightParameterConfigBase
 	{
 	public:

@@ -29,6 +29,8 @@ namespace System { class String; }
 #define FEHHKDIIENA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E366420)
 #define FEHHKDIIENA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E366480)
 
+inline static constexpr unsigned int FEHHKDIIENA_TypeDefinitionIndex = 31340;
+
 	class FEHHKDIIENA : public ::System::Object
 	{
 	public:

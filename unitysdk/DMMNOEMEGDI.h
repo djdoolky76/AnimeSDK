@@ -13,6 +13,8 @@ namespace RPG::AvatarSystem { class IAvatar; }
 #define DMMNOEMEGDI_GET_UPGRADEAVATARSERVICE_OFFSET UNITYSDK_OFFSET(0xFEC7970)
 #define DMMNOEMEGDI_SET_UPGRADEAVATARSERVICE_OFFSET UNITYSDK_OFFSET(0xFEC7980)
 
+inline static constexpr unsigned int DMMNOEMEGDI_TypeDefinitionIndex = 62869;
+
 	class DMMNOEMEGDI : public ::System::Object
 	{
 	public:

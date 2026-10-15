@@ -5,6 +5,8 @@ class OODEOHIDMEG;
 
 #define KFPILPKOELE_CTOR_OFFSET UNITYSDK_OFFSET(0x1CBB80C0)
 
+inline static constexpr unsigned int KFPILPKOELE_TypeDefinitionIndex = 43798;
+
 	class KFPILPKOELE : public ::System::Object
 	{
 	public:

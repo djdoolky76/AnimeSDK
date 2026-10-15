@@ -39,6 +39,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int CachedAssetLoader_CachedAssetGroup_TypeDefinitionIndex = 59432;
+
 	class CachedAssetLoader_CachedAssetGroup : public ::System::Object
 	{
 	public:

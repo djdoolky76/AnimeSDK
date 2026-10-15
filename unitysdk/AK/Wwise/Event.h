@@ -29,6 +29,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace AK::Wwise
 {
+	inline static constexpr unsigned int Event_TypeDefinitionIndex = 44981;
+
 	class Event : public ::AK::Wwise::BaseType
 	{
 	public:

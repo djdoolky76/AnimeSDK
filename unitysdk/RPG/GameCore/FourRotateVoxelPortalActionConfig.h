@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FourRotateVoxelPortalActionConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FourRotateVoxelPortalActionConfig_TypeDefinitionIndex = 16765;
+
 	class FourRotateVoxelPortalActionConfig : public ::RPG::GameCore::FiveDimBaseEventAction
 	{
 	public:

@@ -5,6 +5,8 @@
 
 #define GHGLHLNCMBC_CTOR_OFFSET UNITYSDK_OFFSET(0x1CE46770)
 
+inline static constexpr unsigned int GHGLHLNCMBC_TypeDefinitionIndex = 25037;
+
 	class GHGLHLNCMBC : public ::System::Attribute
 	{
 	public:

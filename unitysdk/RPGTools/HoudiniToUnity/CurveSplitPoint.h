@@ -9,6 +9,8 @@ namespace RPGTools::HoudiniToUnity { class CurveSplitPoint; }
 
 namespace RPGTools::HoudiniToUnity
 {
+	inline static constexpr unsigned int CurveSplitPoint_TypeDefinitionIndex = 46932;
+
 	class CurveSplitPoint : public ::System::Object
 	{
 	public:

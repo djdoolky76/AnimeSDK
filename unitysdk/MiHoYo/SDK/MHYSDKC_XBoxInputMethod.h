@@ -4,6 +4,8 @@
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int MHYSDKC_XBoxInputMethod_TypeDefinitionIndex = 46239;
+
 	class MHYSDKC_XBoxInputMethod : public ::System::Object
 	{
 	public:

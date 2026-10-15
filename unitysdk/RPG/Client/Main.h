@@ -16,6 +16,8 @@ namespace RPG::Client { class RPGProfilerMarker; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int Main_TypeDefinitionIndex = 68283;
+
 	class Main : public ::UnityEngine::MonoBehaviour
 	{
 	public:

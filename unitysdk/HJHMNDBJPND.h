@@ -34,6 +34,8 @@ namespace System { class String; }
 #define HJHMNDBJPND_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E5A9300)
 #define HJHMNDBJPND_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E5A9360)
 
+inline static constexpr unsigned int HJHMNDBJPND_TypeDefinitionIndex = 28374;
+
 	class HJHMNDBJPND : public ::System::Object
 	{
 	public:

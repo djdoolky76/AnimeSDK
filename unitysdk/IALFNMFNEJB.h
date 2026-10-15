@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 #define IALFNMFNEJB_FJDONKCCMCM_OFFSET UNITYSDK_OFFSET(0x15E1A700)
 #define IALFNMFNEJB_IFHBHIHHFBM_OFFSET UNITYSDK_OFFSET(0x15E19DF0)
 
+inline static constexpr unsigned int IALFNMFNEJB_TypeDefinitionIndex = 74905;
+
 	class IALFNMFNEJB : public ::System::Object
 	{
 	public:

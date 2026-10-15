@@ -14,6 +14,8 @@
 
 namespace UnityEngine::Audio
 {
+	inline static constexpr unsigned int AudioMixerPlayable_TypeDefinitionIndex = 5151;
+
 	struct alignas(4) AudioMixerPlayable
 	{
 		::UnityEngine::Playables::PlayableHandle m_Handle; // 0x10

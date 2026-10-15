@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int ConfigManager_ABTestOSConfig_TypeDefinitionIndex = 8208;
+
 	class ConfigManager_ABTestOSConfig : public ::System::Object
 	{
 	public:

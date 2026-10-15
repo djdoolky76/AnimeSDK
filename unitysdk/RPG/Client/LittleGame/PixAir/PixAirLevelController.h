@@ -30,6 +30,8 @@ namespace UnityEngine::Playables { class PlayableDirector; }
 
 namespace RPG::Client::LittleGame::PixAir
 {
+	inline static constexpr unsigned int PixAirLevelController_TypeDefinitionIndex = 77323;
+
 	class PixAirLevelController : public ::UnityEngine::MonoBehaviour
 	{
 	public:

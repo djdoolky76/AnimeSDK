@@ -12,6 +12,8 @@ namespace UnityEngine::Networking { class UnityWebRequest; }
 #define PACKAGENAMERECORD__UPLOADFILE_D__3_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0xC39A610)
 #define PACKAGENAMERECORD__UPLOADFILE_D__3_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC39A1C0)
 
+inline static constexpr unsigned int PackageNameRecord__UploadFile_d__3_TypeDefinitionIndex = 47581;
+
 	template <typename T1, typename T2, typename T3>
 	class PackageNameRecord__UploadFile_d__3 : public ::System::Object
 	{

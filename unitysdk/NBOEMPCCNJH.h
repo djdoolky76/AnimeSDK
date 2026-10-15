@@ -14,6 +14,8 @@ class NBOEMPCCNJH;
 #define NBOEMPCCNJH_SET_SOURCETYPE_OFFSET UNITYSDK_OFFSET(0xBAF4B10)
 #define NBOEMPCCNJH_UPDATE_OFFSET UNITYSDK_OFFSET(0xBAF4A60)
 
+inline static constexpr unsigned int NBOEMPCCNJH_TypeDefinitionIndex = 67697;
+
 	class NBOEMPCCNJH : public ::System::Object
 	{
 	public:

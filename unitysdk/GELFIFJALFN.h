@@ -33,6 +33,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define GELFIFJALFN_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1CE37A10)
 #define GELFIFJALFN_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1CE36F80)
 
+inline static constexpr unsigned int GELFIFJALFN_TypeDefinitionIndex = 14347;
+
 	class GELFIFJALFN : public ::System::Object
 	{
 	public:

@@ -14,6 +14,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define KMJGLFDGPCG_MCIJCNJKGAK_OFFSET UNITYSDK_OFFSET(0xB55C990)
 #define KMJGLFDGPCG_MOKNCFJICIC_OFFSET UNITYSDK_OFFSET(0xB55C520)
 
+inline static constexpr unsigned int KMJGLFDGPCG_TypeDefinitionIndex = 49563;
+
 	class KMJGLFDGPCG
 	{
 	public:

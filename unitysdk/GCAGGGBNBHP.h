@@ -2,6 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/GameObjectPoolUsage.h"
 
+inline static constexpr unsigned int GCAGGGBNBHP_TypeDefinitionIndex = 59389;
+
 	struct alignas(4) GCAGGGBNBHP
 	{
 		::RPG::Client::GameObjectPoolUsage KFJFGFBMIJP; // 0x10

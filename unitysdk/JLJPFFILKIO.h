@@ -29,6 +29,8 @@ namespace System { class String; }
 #define JLJPFFILKIO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E77E4B0)
 #define JLJPFFILKIO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E77E510)
 
+inline static constexpr unsigned int JLJPFFILKIO_TypeDefinitionIndex = 32328;
+
 	class JLJPFFILKIO : public ::System::Object
 	{
 	public:

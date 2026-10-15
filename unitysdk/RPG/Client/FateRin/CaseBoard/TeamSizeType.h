@@ -3,6 +3,8 @@
 
 namespace RPG::Client::FateRin::CaseBoard
 {
+	inline static constexpr unsigned int TeamSizeType_TypeDefinitionIndex = 80815;
+
 	enum class TeamSizeType : ::System::Int32
 	{
 		Single = 0,

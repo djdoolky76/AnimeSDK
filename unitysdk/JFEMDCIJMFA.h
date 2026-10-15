@@ -34,6 +34,8 @@ namespace System { class String; }
 #define JFEMDCIJMFA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E728A50)
 #define JFEMDCIJMFA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E728AB0)
 
+inline static constexpr unsigned int JFEMDCIJMFA_TypeDefinitionIndex = 32427;
+
 	class JFEMDCIJMFA : public ::System::Object
 	{
 	public:

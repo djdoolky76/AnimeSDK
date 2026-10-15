@@ -10,6 +10,8 @@ namespace RPG::GameCore { class SetDynamicValueParamBase; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetDynamicValueParamBase_TypeDefinitionIndex = 21766;
+
 	class SetDynamicValueParamBase : public ::RPG::GameCore::TaskConfig
 	{
 	public:

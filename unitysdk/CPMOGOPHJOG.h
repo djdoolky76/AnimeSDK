@@ -30,6 +30,8 @@ namespace System { class String; }
 #define CPMOGOPHJOG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E1455D0)
 #define CPMOGOPHJOG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E145630)
 
+inline static constexpr unsigned int CPMOGOPHJOG_TypeDefinitionIndex = 27088;
+
 	class CPMOGOPHJOG : public ::System::Object
 	{
 	public:

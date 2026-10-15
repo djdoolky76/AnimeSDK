@@ -3,6 +3,8 @@
 
 namespace UnityEngine::Experimental::Rendering
 {
+	inline static constexpr unsigned int TextureCreationFlags_TypeDefinitionIndex = 4941;
+
 	enum class TextureCreationFlags : ::System::Int32
 	{
 		None = 0,

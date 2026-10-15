@@ -8,6 +8,8 @@ class NICNKBOBDHP;
 #define NICNKBOBDHP_CTOR_OFFSET UNITYSDK_OFFSET(0xBBDFC40)
 #define NICNKBOBDHP_JOHPKPGOGHD_OFFSET UNITYSDK_OFFSET(0xBBDFB80)
 
+inline static constexpr unsigned int NICNKBOBDHP_TypeDefinitionIndex = 78078;
+
 	class NICNKBOBDHP
 	{
 	public:

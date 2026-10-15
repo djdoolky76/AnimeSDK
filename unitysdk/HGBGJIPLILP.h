@@ -5,6 +5,8 @@
 
 #define HGBGJIPLILP_CTOR_OFFSET UNITYSDK_OFFSET(0x15C8F7D0)
 
+inline static constexpr unsigned int HGBGJIPLILP_TypeDefinitionIndex = 54280;
+
 	class HGBGJIPLILP : public ::System::Object
 	{
 	public:

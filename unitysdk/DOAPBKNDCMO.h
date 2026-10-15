@@ -18,6 +18,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 #define DOAPBKNDCMO_HGAEIMNNEHI_OFFSET UNITYSDK_OFFSET(0x11FDD710)
 #define DOAPBKNDCMO_KILEPBKMIHE_OFFSET UNITYSDK_OFFSET(0x11FDCCF0)
 
+inline static constexpr unsigned int DOAPBKNDCMO_TypeDefinitionIndex = 62787;
+
 	class DOAPBKNDCMO : public ::System::Object
 	{
 	public:

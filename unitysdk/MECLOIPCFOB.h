@@ -20,6 +20,8 @@ namespace System { class Object; }
 #define MECLOIPCFOB_KIMPCNIGPHL_OFFSET UNITYSDK_OFFSET(0x3C3CDD0)
 #define MECLOIPCFOB_NHCFLDCDLCP_OFFSET UNITYSDK_OFFSET(0x1D14F470)
 
+inline static constexpr unsigned int MECLOIPCFOB_TypeDefinitionIndex = 10643;
+
 	struct alignas(8) MECLOIPCFOB
 	{
 		::LELCKJPOPAO* BEHHICMOFIE; // 0x10

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class CakeRacePathFindFrontNearestCatSelectorConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CakeRacePathFindFrontNearestCatSelectorConfig_TypeDefinitionIndex = 18391;
+
 	class CakeRacePathFindFrontNearestCatSelectorConfig : public ::RPG::GameCore::CakeRaceBaseTargetSelectorConfig
 	{
 	public:

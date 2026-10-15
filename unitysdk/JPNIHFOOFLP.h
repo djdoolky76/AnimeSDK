@@ -23,6 +23,8 @@ namespace RPG::Client { class MonoExUICamera; }
 #define JPNIHFOOFLP_OHACOKFAPBI_OFFSET UNITYSDK_OFFSET(0xB2CD240)
 #define JPNIHFOOFLP_OKKLIMOHCBL_OFFSET UNITYSDK_OFFSET(0xB2CDDE0)
 
+inline static constexpr unsigned int JPNIHFOOFLP_TypeDefinitionIndex = 62310;
+
 	class JPNIHFOOFLP : public ::System::Object
 	{
 	public:

@@ -7,6 +7,8 @@
 #define IALHECNHCCM_AACLJANIILC_OFFSET UNITYSDK_OFFSET(0x15E1A740)
 #define IALHECNHCCM_CTOR_OFFSET UNITYSDK_OFFSET(0x15E1A7C0)
 
+inline static constexpr unsigned int IALHECNHCCM_TypeDefinitionIndex = 74763;
+
 	class IALHECNHCCM : public ::HKHAKEGOLDK
 	{
 	public:

@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::PC::OS
 {
+	inline static constexpr unsigned int EpicPurchaseExtension_TypeDefinitionIndex = 8526;
+
 	class EpicPurchaseExtension : public ::System::Object
 	{
 	public:

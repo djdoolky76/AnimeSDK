@@ -10,6 +10,8 @@ namespace RPG::GameCore { class CharacterEyeCtrlConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CharacterEyeCtrlConfig_TypeDefinitionIndex = 17448;
+
 	class CharacterEyeCtrlConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

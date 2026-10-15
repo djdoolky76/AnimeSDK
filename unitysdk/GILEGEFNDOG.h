@@ -10,6 +10,8 @@ namespace System { class String; }
 #define GILEGEFNDOG_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x15A460E0)
 #define GILEGEFNDOG_JAILHGGFLDH_OFFSET UNITYSDK_OFFSET(0x15A460F0)
 
+inline static constexpr unsigned int GILEGEFNDOG_TypeDefinitionIndex = 56167;
+
 	class GILEGEFNDOG : public ::DBGDNLLDPFI
 	{
 	public:

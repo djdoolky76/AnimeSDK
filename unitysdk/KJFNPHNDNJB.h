@@ -9,6 +9,8 @@ namespace System { class Object; }
 #define KJFNPHNDNJB_FKIACCHIBFN_OFFSET UNITYSDK_OFFSET(0x1DD6C730)
 #define KJFNPHNDNJB_PBNCKDHDCAE_OFFSET UNITYSDK_OFFSET(0x1DD6C5A0)
 
+inline static constexpr unsigned int KJFNPHNDNJB_TypeDefinitionIndex = 6183;
+
 	class KJFNPHNDNJB : public ::System::Object
 	{
 	public:

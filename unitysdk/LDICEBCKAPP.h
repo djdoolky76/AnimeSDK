@@ -21,6 +21,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define LDICEBCKAPP_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xB623F00)
 #define LDICEBCKAPP_PNFPLDEENKP_OFFSET UNITYSDK_OFFSET(0xB624090)
 
+inline static constexpr unsigned int LDICEBCKAPP_TypeDefinitionIndex = 53724;
+
 	class LDICEBCKAPP : public ::System::Object
 	{
 	public:

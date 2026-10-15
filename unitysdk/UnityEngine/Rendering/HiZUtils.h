@@ -8,6 +8,8 @@
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int HiZUtils_TypeDefinitionIndex = 4809;
+
 	class HiZUtils : public ::System::Object
 	{
 	public:

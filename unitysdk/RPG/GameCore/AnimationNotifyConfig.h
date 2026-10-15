@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AnimationNotifyConfig_TypeDefinitionIndex = 16957;
+
 	class AnimationNotifyConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

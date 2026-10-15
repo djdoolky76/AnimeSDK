@@ -9,6 +9,8 @@ namespace RPG::GameCore { class PingPongMPSkillInfo; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PingPongMPSkillInfo_TypeDefinitionIndex = 16983;
+
 	class PingPongMPSkillInfo : public ::RPG::GameCore::JsonConfig
 	{
 	public:

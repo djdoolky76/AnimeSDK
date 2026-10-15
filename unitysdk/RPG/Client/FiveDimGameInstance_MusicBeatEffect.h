@@ -21,6 +21,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int FiveDimGameInstance_MusicBeatEffect_TypeDefinitionIndex = 60391;
+
 	class FiveDimGameInstance_MusicBeatEffect : public ::System::Object
 	{
 	public:

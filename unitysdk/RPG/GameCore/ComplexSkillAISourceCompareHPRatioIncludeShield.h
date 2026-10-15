@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ComplexSkillAISourceCompareHPRatioIncludeShield;
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ComplexSkillAISourceCompareHPRatioIncludeShield_TypeDefinitionIndex = 15553;
+
 	class ComplexSkillAISourceCompareHPRatioIncludeShield : public ::RPG::GameCore::ComplexSkillAISource
 	{
 	public:

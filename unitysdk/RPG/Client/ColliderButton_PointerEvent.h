@@ -5,6 +5,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ColliderButton_PointerEvent_TypeDefinitionIndex = 72518;
+
 	class ColliderButton_PointerEvent
 	{
 	public:

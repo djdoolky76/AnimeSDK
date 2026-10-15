@@ -14,6 +14,8 @@ namespace UnityEngine { class Animator; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int StateEnterTriggerBlockBehaviour_TypeDefinitionIndex = 69032;
+
 	class StateEnterTriggerBlockBehaviour : public ::UnityEngine::StateMachineBehaviour
 	{
 	public:

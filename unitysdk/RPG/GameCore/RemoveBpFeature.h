@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RemoveBpFeature_TypeDefinitionIndex = 23224;
+
 	class RemoveBpFeature : public ::RPG::GameCore::TaskConfig
 	{
 	public:

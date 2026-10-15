@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace SRDebugger
 {
+	inline static constexpr unsigned int OptionDefinitionInitParams_TypeDefinitionIndex = 37954;
+
 	class OptionDefinitionInitParams : public ::System::Object
 	{
 	public:

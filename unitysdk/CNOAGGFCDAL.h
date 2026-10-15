@@ -25,6 +25,8 @@ namespace System { class String; }
 #define CNOAGGFCDAL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E10D520)
 #define CNOAGGFCDAL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E10D580)
 
+inline static constexpr unsigned int CNOAGGFCDAL_TypeDefinitionIndex = 27711;
+
 	class CNOAGGFCDAL : public ::System::Object
 	{
 	public:

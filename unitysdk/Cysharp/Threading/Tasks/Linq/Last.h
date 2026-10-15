@@ -4,6 +4,8 @@
 
 namespace Cysharp::Threading::Tasks::Linq
 {
+	inline static constexpr unsigned int Last_TypeDefinitionIndex = 45410;
+
 	class Last : public ::System::Object
 	{
 	public:

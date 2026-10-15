@@ -9,6 +9,8 @@ namespace RPG::Client::PixAir { class PixAirEquipInstance; }
 
 namespace RPG::Client::PixAir
 {
+	inline static constexpr unsigned int PixAirModule___c__DisplayClass8_0_TypeDefinitionIndex = 79366;
+
 	class PixAirModule___c__DisplayClass8_0 : public ::System::Object
 	{
 	public:

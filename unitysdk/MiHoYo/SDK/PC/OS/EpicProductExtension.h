@@ -6,6 +6,8 @@
 
 namespace MiHoYo::SDK::PC::OS
 {
+	inline static constexpr unsigned int EpicProductExtension_TypeDefinitionIndex = 8529;
+
 	class EpicProductExtension : public ::System::Object
 	{
 	public:

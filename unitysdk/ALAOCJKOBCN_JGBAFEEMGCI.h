@@ -10,6 +10,8 @@ namespace System { class String; }
 #define ALAOCJKOBCN_JGBAFEEMGCI_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x12CE16D0)
 #define ALAOCJKOBCN_JGBAFEEMGCI_CTOR_OFFSET UNITYSDK_OFFSET(0x12CE16C0)
 
+inline static constexpr unsigned int ALAOCJKOBCN_JGBAFEEMGCI_TypeDefinitionIndex = 79421;
+
 	class ALAOCJKOBCN_JGBAFEEMGCI : public ::System::Object
 	{
 	public:

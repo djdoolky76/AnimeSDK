@@ -27,6 +27,8 @@ namespace System { class String; }
 #define NJBNBKMNBOP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EB3B0F0)
 #define NJBNBKMNBOP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EB3B150)
 
+inline static constexpr unsigned int NJBNBKMNBOP_TypeDefinitionIndex = 27449;
+
 	class NJBNBKMNBOP : public ::System::Object
 	{
 	public:

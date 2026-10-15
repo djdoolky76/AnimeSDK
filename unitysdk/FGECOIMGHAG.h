@@ -16,6 +16,8 @@ class FGECOIMGHAG;
 #define FGECOIMGHAG_SET_STARTPOS_OFFSET UNITYSDK_OFFSET(0x15758CE0)
 #define FGECOIMGHAG_SET_V0_OFFSET UNITYSDK_OFFSET(0x15758D40)
 
+inline static constexpr unsigned int FGECOIMGHAG_TypeDefinitionIndex = 77991;
+
 	class FGECOIMGHAG : public ::BLLEONBDOMJ
 	{
 	public:

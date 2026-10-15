@@ -22,6 +22,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace EnviromentSystem
 {
+	inline static constexpr unsigned int EnviroReflectionProbeProperty_TypeDefinitionIndex = 49624;
+
 	class EnviroReflectionProbeProperty : public ::EnviromentSystem::EnviroAssetProperty
 	{
 	public:

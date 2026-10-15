@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SpecialNPCDataRow_TypeDefinitionIndex = 15128;
+
 	class SpecialNPCDataRow : public ::System::Object
 	{
 	public:

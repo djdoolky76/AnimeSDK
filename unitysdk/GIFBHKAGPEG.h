@@ -10,6 +10,8 @@ namespace System { class String; }
 #define GIFBHKAGPEG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CE4F1D0)
 #define GIFBHKAGPEG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CE4F190)
 
+inline static constexpr unsigned int GIFBHKAGPEG_TypeDefinitionIndex = 22839;
+
 	class GIFBHKAGPEG : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -8,6 +8,8 @@ namespace RPG::GameCore { class CakeRaceActionGenCurSectionBubbleCell; }
 #define KMAOCONLMFL_CTOR_OFFSET UNITYSDK_OFFSET(0x1C71BFC0)
 #define KMAOCONLMFL_GAILDDCMCHP_OFFSET UNITYSDK_OFFSET(0x1C71BFD0)
 
+inline static constexpr unsigned int KMAOCONLMFL_TypeDefinitionIndex = 37365;
+
 	class KMAOCONLMFL : public ::GPLOFONGBGI
 	{
 	public:

@@ -69,6 +69,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ChallengePeakBoss_TypeDefinitionIndex = 63157;
+
 	class ChallengePeakBoss : public ::System::Object
 	{
 	public:

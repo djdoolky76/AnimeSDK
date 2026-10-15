@@ -33,6 +33,8 @@ namespace System { class String; }
 #define PICHIFNMBNO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DF42C80)
 #define PICHIFNMBNO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DF42CE0)
 
+inline static constexpr unsigned int PICHIFNMBNO_TypeDefinitionIndex = 27152;
+
 	class PICHIFNMBNO : public ::System::Object
 	{
 	public:

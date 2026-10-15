@@ -9,6 +9,8 @@ namespace RPG::GameCore { class StageExportGlobalData; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int StageExportGlobalData_TypeDefinitionIndex = 19143;
+
 	class StageExportGlobalData : public ::RPG::GameCore::JsonConfig
 	{
 	public:

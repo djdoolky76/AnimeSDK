@@ -14,6 +14,8 @@ namespace RPG::GameCore { class TaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RtGridMoveToTarget_TypeDefinitionIndex = 24115;
+
 	class RtGridMoveToTarget : public ::RPG::GameCore::TaskConfig
 	{
 	public:

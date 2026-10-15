@@ -8,6 +8,8 @@ namespace UnityEngine { class ITerrainLayer; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int TerrainAdditionalComponent_TypeDefinitionIndex = 5328;
+
 	class TerrainAdditionalComponent : public ::UnityEngine::MonoBehaviour
 	{
 	public:

@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int EffectAudioItem_TypeDefinitionIndex = 70034;
+
 	class EffectAudioItem : public ::System::Object
 	{
 	public:

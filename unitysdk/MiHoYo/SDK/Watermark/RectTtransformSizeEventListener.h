@@ -9,6 +9,8 @@ namespace System { class Action; }
 
 namespace MiHoYo::SDK::Watermark
 {
+	inline static constexpr unsigned int RectTtransformSizeEventListener_TypeDefinitionIndex = 8864;
+
 	class RectTtransformSizeEventListener : public ::UnityEngine::EventSystems::UIBehaviour
 	{
 	public:

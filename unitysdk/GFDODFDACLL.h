@@ -8,6 +8,8 @@ class GFDODFDACLL;
 #define GFDODFDACLL_CTOR_OFFSET UNITYSDK_OFFSET(0x1CE3B990)
 #define GFDODFDACLL_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CE3B830)
 
+inline static constexpr unsigned int GFDODFDACLL_TypeDefinitionIndex = 11412;
+
 	class GFDODFDACLL : public ::System::Object
 	{
 	public:

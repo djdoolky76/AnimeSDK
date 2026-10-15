@@ -25,6 +25,8 @@ namespace System { class String; }
 #define NCLFFAFGEFA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EAE0750)
 #define NCLFFAFGEFA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EAE07B0)
 
+inline static constexpr unsigned int NCLFFAFGEFA_TypeDefinitionIndex = 33583;
+
 	class NCLFFAFGEFA : public ::System::Object
 	{
 	public:

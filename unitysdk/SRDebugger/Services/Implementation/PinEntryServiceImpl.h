@@ -17,6 +17,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace SRDebugger::Services::Implementation
 {
+	inline static constexpr unsigned int PinEntryServiceImpl_TypeDefinitionIndex = 38084;
+
 	class PinEntryServiceImpl
 	{
 	public:

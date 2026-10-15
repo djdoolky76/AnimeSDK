@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimBubbleTalkAction_TypeDefinitionIndex = 18772;
+
 	class FiveDimBubbleTalkAction : public ::RPG::GameCore::FiveDimBaseEventAction
 	{
 	public:

@@ -25,6 +25,8 @@ namespace System { class String; }
 #define HEMHDLMIKKA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E55BC70)
 #define HEMHDLMIKKA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E55BCD0)
 
+inline static constexpr unsigned int HEMHDLMIKKA_TypeDefinitionIndex = 32496;
+
 	class HEMHDLMIKKA : public ::System::Object
 	{
 	public:

@@ -4,6 +4,8 @@
 
 namespace RPG
 {
+	inline static constexpr unsigned int GCFreeLazy_1_Boxed_TypeDefinitionIndex = 6368;
+
 	template <typename T>
 	class GCFreeLazy_1_Boxed : public ::System::Object
 	{

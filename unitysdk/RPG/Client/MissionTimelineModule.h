@@ -9,6 +9,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MissionTimelineModule_TypeDefinitionIndex = 66169;
+
 	class MissionTimelineModule : public ::RPG::Client::BaseModule
 	{
 	public:

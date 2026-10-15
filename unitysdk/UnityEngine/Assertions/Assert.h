@@ -11,6 +11,8 @@ namespace UnityEngine { class Object; }
 
 namespace UnityEngine::Assertions
 {
+	inline static constexpr unsigned int Assert_TypeDefinitionIndex = 4954;
+
 	class Assert : public ::System::Object
 	{
 	public:

@@ -12,6 +12,8 @@ class OFBCFGNNDJP;
 #define OFBCFGNNDJP_OHJPCAPBGLJ_OFFSET UNITYSDK_OFFSET(0xBE3BF80)
 #define OFBCFGNNDJP_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0xBE3BE40)
 
+inline static constexpr unsigned int OFBCFGNNDJP_TypeDefinitionIndex = 73746;
+
 	class OFBCFGNNDJP : public ::System::Object
 	{
 	public:

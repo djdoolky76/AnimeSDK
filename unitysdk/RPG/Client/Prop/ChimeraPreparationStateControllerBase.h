@@ -21,6 +21,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int ChimeraPreparationStateControllerBase_TypeDefinitionIndex = 78479;
+
 	class ChimeraPreparationStateControllerBase : public ::UnityEngine::MonoBehaviour
 	{
 	public:

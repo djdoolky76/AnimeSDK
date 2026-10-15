@@ -28,6 +28,8 @@ namespace System { class String; }
 #define KHODCLCAIIP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E84DA60)
 #define KHODCLCAIIP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E84DAC0)
 
+inline static constexpr unsigned int KHODCLCAIIP_TypeDefinitionIndex = 29815;
+
 	class KHODCLCAIIP : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::PC::OS
 {
+	inline static constexpr unsigned int HoYoChannelFriendListResult_TypeDefinitionIndex = 8621;
+
 	class HoYoChannelFriendListResult : public ::MiHoYo::SDK::PC::OS::HoYoChannelBaseResult
 	{
 	public:

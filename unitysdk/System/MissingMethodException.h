@@ -14,6 +14,8 @@ namespace System::Runtime::Serialization { class SerializationInfo; }
 
 namespace System
 {
+	inline static constexpr unsigned int MissingMethodException_TypeDefinitionIndex = 301;
+
 	class MissingMethodException : public ::System::MissingMemberException
 	{
 	public:

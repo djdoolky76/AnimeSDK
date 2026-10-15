@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define ODGCMOMJABL_EXECUTE_OFFSET UNITYSDK_OFFSET(0xBD92760)
 #define ODGCMOMJABL_MAHOMOKIJID_OFFSET UNITYSDK_OFFSET(0xBD929D0)
 
+inline static constexpr unsigned int ODGCMOMJABL_TypeDefinitionIndex = 77314;
+
 	class ODGCMOMJABL : public ::System::Object
 	{
 	public:

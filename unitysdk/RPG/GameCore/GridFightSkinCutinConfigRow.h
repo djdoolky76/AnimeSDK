@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightSkinCutinConfigRow_TypeDefinitionIndex = 13562;
+
 	class GridFightSkinCutinConfigRow : public ::System::Object
 	{
 	public:

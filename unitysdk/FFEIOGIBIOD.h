@@ -9,6 +9,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define FFEIOGIBIOD_ONSKIP_OFFSET UNITYSDK_OFFSET(0x15733ED0)
 #define FFEIOGIBIOD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x157339E0)
 
+inline static constexpr unsigned int FFEIOGIBIOD_TypeDefinitionIndex = 57850;
+
 	class FFEIOGIBIOD
 	{
 	public:

@@ -33,6 +33,8 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ActivityEvolveGearForgeMaterialExcelTable_TypeDefinitionIndex = 11407;
+
 	class ActivityEvolveGearForgeMaterialExcelTable : public ::System::Object
 	{
 	public:

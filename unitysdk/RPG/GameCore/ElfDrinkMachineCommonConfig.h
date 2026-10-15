@@ -9,6 +9,8 @@ namespace RPG::GameCore { class ElfDrinkMachineCommonConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ElfDrinkMachineCommonConfig_TypeDefinitionIndex = 18473;
+
 	class ElfDrinkMachineCommonConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

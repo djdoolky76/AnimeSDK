@@ -29,6 +29,8 @@ namespace System { class String; }
 #define PLHPNBIMIOK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DFA1420)
 #define PLHPNBIMIOK_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DFA1480)
 
+inline static constexpr unsigned int PLHPNBIMIOK_TypeDefinitionIndex = 25696;
+
 	class PLHPNBIMIOK : public ::System::Object
 	{
 	public:

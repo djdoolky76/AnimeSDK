@@ -9,6 +9,8 @@ namespace RPG::GameCore { class RogueTournBuildRefMatchHexMiracleRateConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueTournBuildRefMatchHexMiracleRateConfig_TypeDefinitionIndex = 17679;
+
 	class RogueTournBuildRefMatchHexMiracleRateConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

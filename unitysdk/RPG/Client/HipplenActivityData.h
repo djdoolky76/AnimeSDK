@@ -12,6 +12,8 @@ namespace RPG::Client { class ActivityHipplenModule; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int HipplenActivityData_TypeDefinitionIndex = 61530;
+
 	class HipplenActivityData : public ::RPG::Client::ActivityPanelData
 	{
 	public:

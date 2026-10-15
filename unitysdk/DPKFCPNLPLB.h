@@ -12,6 +12,8 @@ namespace System { class String; }
 #define DPKFCPNLPLB_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x126580D0)
 #define DPKFCPNLPLB_TICK_OFFSET UNITYSDK_OFFSET(0x12658210)
 
+inline static constexpr unsigned int DPKFCPNLPLB_TypeDefinitionIndex = 52226;
+
 	class DPKFCPNLPLB
 	{
 	public:

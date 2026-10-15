@@ -10,6 +10,8 @@ namespace System { class String; }
 #define NFBGIFIPOOK_NFMMIGNFNFE_OFFSET UNITYSDK_OFFSET(0xBB77A10)
 #define NFBGIFIPOOK_OFLDFAAPKHK_OFFSET UNITYSDK_OFFSET(0xBB77B40)
 
+inline static constexpr unsigned int NFBGIFIPOOK_TypeDefinitionIndex = 61081;
+
 	class NFBGIFIPOOK : public ::PEBDAPFKGKP
 	{
 	public:

@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RebuildTimeRewindEntity_TypeDefinitionIndex = 20642;
+
 	class RebuildTimeRewindEntity : public ::RPG::GameCore::TaskConfig
 	{
 	public:

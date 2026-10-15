@@ -37,6 +37,8 @@ namespace System { class String; }
 
 namespace RPG::Client::NavMap
 {
+	inline static constexpr unsigned int SingleTabData_TypeDefinitionIndex = 74627;
+
 	class SingleTabData : public ::System::Object
 	{
 	public:

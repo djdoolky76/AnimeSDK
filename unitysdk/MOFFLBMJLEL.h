@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 
 #define MOFFLBMJLEL_CTOR_OFFSET UNITYSDK_OFFSET(0xBA29CD0)
 
+inline static constexpr unsigned int MOFFLBMJLEL_TypeDefinitionIndex = 54580;
+
 	class MOFFLBMJLEL : public ::BIHNGLPOMOG
 	{
 	public:

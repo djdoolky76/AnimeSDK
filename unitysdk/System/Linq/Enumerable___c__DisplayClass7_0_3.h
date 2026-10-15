@@ -5,6 +5,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace System::Linq
 {
+	inline static constexpr unsigned int Enumerable___c__DisplayClass7_0_3_TypeDefinitionIndex = 3144;
+
 	template <typename T1, typename T2, typename T3>
 	class Enumerable___c__DisplayClass7_0_3 : public ::System::Object
 	{

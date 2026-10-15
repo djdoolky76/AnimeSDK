@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int BAPartVariantArray_TypeDefinitionIndex = 69519;
+
 	class BAPartVariantArray : public ::System::Object
 	{
 	public:

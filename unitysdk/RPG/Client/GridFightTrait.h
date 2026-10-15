@@ -93,6 +93,8 @@ namespace System::ComponentModel { class PropertyChangedEventArgs; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightTrait_TypeDefinitionIndex = 65426;
+
 	class GridFightTrait : public ::Sofa::Core::ObservableObject
 	{
 	public:

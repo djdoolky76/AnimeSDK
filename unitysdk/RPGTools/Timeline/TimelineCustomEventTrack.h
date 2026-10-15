@@ -12,6 +12,8 @@ namespace UnityEngine::Timeline { class TimelineClip; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int TimelineCustomEventTrack_TypeDefinitionIndex = 48410;
+
 	class TimelineCustomEventTrack : public ::UnityEngine::Timeline::TrackAsset
 	{
 	public:

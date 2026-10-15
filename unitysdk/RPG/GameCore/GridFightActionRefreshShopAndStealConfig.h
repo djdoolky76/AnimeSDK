@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GridFightActionRefreshShopAndStealConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightActionRefreshShopAndStealConfig_TypeDefinitionIndex = 19306;
+
 	class GridFightActionRefreshShopAndStealConfig : public ::RPG::GameCore::GridFightActionConfigBase
 	{
 	public:

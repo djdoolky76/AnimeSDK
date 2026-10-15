@@ -12,6 +12,8 @@ namespace UnityEngine { class Transform; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int MiHoYoSDKBrowserManager_TypeDefinitionIndex = 46462;
+
 	class MiHoYoSDKBrowserManager : public ::System::Object
 	{
 	public:

@@ -5,6 +5,8 @@ namespace RPG::GameCore { class FloorCustomBoolConfig; }
 #define PJBDLDHBMOA_CTOR_OFFSET UNITYSDK_OFFSET(0xC27B6E0)
 #define PJBDLDHBMOA_ISVALUEEQUALSTO_OFFSET UNITYSDK_OFFSET(0xC27B710)
 
+inline static constexpr unsigned int PJBDLDHBMOA_TypeDefinitionIndex = 62086;
+
 	class PJBDLDHBMOA
 	{
 	public:

@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define DAFGDOMFADO_CTOR_OFFSET UNITYSDK_OFFSET(0xDFC1C20)
 #define DAFGDOMFADO_EVALUATE_OFFSET UNITYSDK_OFFSET(0xDFC1C50)
 
+inline static constexpr unsigned int DAFGDOMFADO_TypeDefinitionIndex = 53145;
+
 	class DAFGDOMFADO
 	{
 	public:

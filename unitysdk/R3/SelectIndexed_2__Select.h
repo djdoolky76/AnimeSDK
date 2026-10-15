@@ -5,6 +5,8 @@ namespace System { template <typename T1, typename T2, typename T3> class Func_3
 
 namespace R3
 {
+	inline static constexpr unsigned int SelectIndexed_2__Select_TypeDefinitionIndex = 35950;
+
 	template <typename T1, typename T2>
 	class SelectIndexed_2__Select
 	{

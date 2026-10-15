@@ -20,6 +20,8 @@ namespace System { class String; }
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int HEU_Logger_TypeDefinitionIndex = 40655;
+
 	class HEU_Logger : public ::System::Object
 	{
 	public:

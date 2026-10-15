@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define GHNIDOJKJMP_ECGJFNEJOGM_OFFSET UNITYSDK_OFFSET(0x15A2B1A0)
 #define GHNIDOJKJMP_KPOEEGOOEPO_OFFSET UNITYSDK_OFFSET(0x15A2AD70)
 
+inline static constexpr unsigned int GHNIDOJKJMP_TypeDefinitionIndex = 71577;
+
 	class GHNIDOJKJMP : public ::System::Object
 	{
 	public:

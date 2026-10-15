@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ReactionTaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ReactionTaskConfig_TypeDefinitionIndex = 20041;
+
 	class ReactionTaskConfig : public ::RPG::GameCore::TaskConfig
 	{
 	public:

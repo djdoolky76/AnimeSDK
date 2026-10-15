@@ -12,6 +12,8 @@ namespace UnityEngine { class AnimationClip; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ActionBarAnimation_TypeDefinitionIndex = 72821;
+
 	class ActionBarAnimation : public ::UnityEngine::MonoBehaviour
 	{
 	public:

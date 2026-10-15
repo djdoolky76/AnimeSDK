@@ -6,6 +6,8 @@ namespace System { class String; }
 
 #define JHFDPHILOOP_CTOR_OFFSET UNITYSDK_OFFSET(0xB1AFE00)
 
+inline static constexpr unsigned int JHFDPHILOOP_TypeDefinitionIndex = 64792;
+
 	class JHFDPHILOOP : public ::System::Object
 	{
 	public:

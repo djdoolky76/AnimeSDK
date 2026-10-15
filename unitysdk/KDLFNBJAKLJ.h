@@ -44,6 +44,8 @@ namespace System::Collections::Generic { template <typename T> class Queue_1; }
 #define KDLFNBJAKLJ_OGJBIFHABPI_OFFSET UNITYSDK_OFFSET(0x1CBB66A0)
 #define KDLFNBJAKLJ_OLDICHILPJL_OFFSET UNITYSDK_OFFSET(0x1CBB62D0)
 
+inline static constexpr unsigned int KDLFNBJAKLJ_TypeDefinitionIndex = 42612;
+
 	class KDLFNBJAKLJ
 	{
 	public:

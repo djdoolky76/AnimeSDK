@@ -8,6 +8,8 @@ namespace System { template <typename T> class Predicate_1; }
 #define PAIKIFFPMNH___C__DISPLAYCLASS8_0_CTOR_OFFSET UNITYSDK_OFFSET(0xBFCAEB0)
 #define PAIKIFFPMNH___C__DISPLAYCLASS8_0__UNREGISTEREVENTS_B__0_OFFSET UNITYSDK_OFFSET(0xBFCB3D0)
 
+inline static constexpr unsigned int PAIKIFFPMNH___c__DisplayClass8_0_TypeDefinitionIndex = 78040;
+
 	class PAIKIFFPMNH___c__DisplayClass8_0 : public ::System::Object
 	{
 	public:

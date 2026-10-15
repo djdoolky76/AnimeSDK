@@ -5,6 +5,8 @@ namespace System { class String; }
 #define AIOKAIODPOL_CTOR_OFFSET UNITYSDK_OFFSET(0xAF40)
 #define AIOKAIODPOL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x2305D30)
 
+inline static constexpr unsigned int AIOKAIODPOL_TypeDefinitionIndex = 67860;
+
 	struct alignas(4) AIOKAIODPOL
 	{
 		::System::UInt32 JOIFBHNAAFP; // 0x10

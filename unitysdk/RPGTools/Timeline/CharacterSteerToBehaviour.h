@@ -20,6 +20,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int CharacterSteerToBehaviour_TypeDefinitionIndex = 47992;
+
 	class CharacterSteerToBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

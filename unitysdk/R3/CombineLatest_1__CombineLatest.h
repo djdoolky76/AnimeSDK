@@ -7,6 +7,8 @@ namespace System { class Object; }
 
 namespace R3
 {
+	inline static constexpr unsigned int CombineLatest_1__CombineLatest_TypeDefinitionIndex = 35908;
+
 	template <typename T>
 	class CombineLatest_1__CombineLatest : public ::System::Object
 	{

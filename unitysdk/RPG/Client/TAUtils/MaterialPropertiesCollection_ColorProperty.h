@@ -7,6 +7,8 @@ namespace UnityEngine { class Material; }
 
 namespace RPG::Client::TAUtils
 {
+	inline static constexpr unsigned int MaterialPropertiesCollection_ColorProperty_TypeDefinitionIndex = 73620;
+
 	class MaterialPropertiesCollection_ColorProperty
 	{
 	public:

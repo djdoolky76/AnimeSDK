@@ -7,6 +7,8 @@ namespace System { class String; }
 
 #define LLMJAMGEAHE_CTOR_OFFSET UNITYSDK_OFFSET(0xB7749B0)
 
+inline static constexpr unsigned int LLMJAMGEAHE_TypeDefinitionIndex = 73923;
+
 	class LLMJAMGEAHE : public ::System::Object
 	{
 	public:

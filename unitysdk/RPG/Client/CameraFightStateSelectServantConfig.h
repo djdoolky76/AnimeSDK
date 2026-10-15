@@ -7,6 +7,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int CameraFightStateSelectServantConfig_TypeDefinitionIndex = 69586;
+
 	class CameraFightStateSelectServantConfig : public ::RPG::Client::CameraFightStateCommonConfig
 	{
 	public:

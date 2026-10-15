@@ -28,6 +28,8 @@ namespace System { class String; }
 #define CDBKODALCAO_PGPEJKILMLE_OFFSET UNITYSDK_OFFSET(0xC75F170)
 #define CDBKODALCAO_POBBLJGIING_OFFSET UNITYSDK_OFFSET(0xC75EFF0)
 
+inline static constexpr unsigned int CDBKODALCAO_TypeDefinitionIndex = 56240;
+
 	class CDBKODALCAO
 	{
 	public:

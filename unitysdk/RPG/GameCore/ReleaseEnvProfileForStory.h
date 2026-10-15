@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ReleaseEnvProfileForStory; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ReleaseEnvProfileForStory_TypeDefinitionIndex = 21902;
+
 	class ReleaseEnvProfileForStory : public ::RPG::GameCore::TaskConfig
 	{
 	public:

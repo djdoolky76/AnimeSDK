@@ -14,6 +14,8 @@
 
 namespace MessagePack::Internal
 {
+	inline static constexpr unsigned int GuidBits_TypeDefinitionIndex = 7294;
+
 	struct alignas(4) GuidBits
 	{
 		::System::Guid Value; // 0x10

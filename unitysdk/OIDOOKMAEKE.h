@@ -34,6 +34,8 @@ namespace System { class String; }
 #define OIDOOKMAEKE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DE6A0A0)
 #define OIDOOKMAEKE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DE6A100)
 
+inline static constexpr unsigned int OIDOOKMAEKE_TypeDefinitionIndex = 26291;
+
 	class OIDOOKMAEKE : public ::System::Object
 	{
 	public:

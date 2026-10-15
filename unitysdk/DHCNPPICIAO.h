@@ -32,6 +32,8 @@ namespace UnityEngine { class GameObject; }
 #define DHCNPPICIAO_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0xEBC97B0)
 #define DHCNPPICIAO_PMPAODACFCE_OFFSET UNITYSDK_OFFSET(0xEBCACA0)
 
+inline static constexpr unsigned int DHCNPPICIAO_TypeDefinitionIndex = 59745;
+
 	class DHCNPPICIAO : public ::System::Object
 	{
 	public:

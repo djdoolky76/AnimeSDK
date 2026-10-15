@@ -8,6 +8,8 @@ namespace RPG::Client::Pet::BlindBox { class IBlindBoxPetRepository; }
 #define FHKIHEIDKMJ_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x15781380)
 #define FHKIHEIDKMJ_CTOR_OFFSET UNITYSDK_OFFSET(0x15781320)
 
+inline static constexpr unsigned int FHKIHEIDKMJ_TypeDefinitionIndex = 74939;
+
 	class FHKIHEIDKMJ : public ::System::Object
 	{
 	public:

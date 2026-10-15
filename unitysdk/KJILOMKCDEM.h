@@ -13,6 +13,8 @@ class LLMNADLMHPJ;
 #define KJILOMKCDEM_HMLBFAGEFNK_OFFSET UNITYSDK_OFFSET(0xB458FD0)
 #define KJILOMKCDEM_NKNINKCDLGL_OFFSET UNITYSDK_OFFSET(0xB459140)
 
+inline static constexpr unsigned int KJILOMKCDEM_TypeDefinitionIndex = 66728;
+
 	class KJILOMKCDEM : public ::System::Object
 	{
 	public:

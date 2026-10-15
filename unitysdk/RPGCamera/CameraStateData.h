@@ -5,6 +5,8 @@
 
 namespace RPGCamera
 {
+	inline static constexpr unsigned int CameraStateData_TypeDefinitionIndex = 45941;
+
 	struct alignas(4) CameraStateData
 	{
 		::System::Single Fov; // 0x10

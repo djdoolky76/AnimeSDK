@@ -63,6 +63,8 @@ namespace System { class String; }
 #define IHLLOOIAFFG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E680D80)
 #define IHLLOOIAFFG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E680DE0)
 
+inline static constexpr unsigned int IHLLOOIAFFG_TypeDefinitionIndex = 31008;
+
 	class IHLLOOIAFFG : public ::System::Object
 	{
 	public:

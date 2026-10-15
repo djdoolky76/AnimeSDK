@@ -16,6 +16,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define ELJDJAOHEAD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15525580)
 #define ELJDJAOHEAD_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x15525AD0)
 
+inline static constexpr unsigned int ELJDJAOHEAD_TypeDefinitionIndex = 58412;
+
 	class ELJDJAOHEAD
 	{
 	public:

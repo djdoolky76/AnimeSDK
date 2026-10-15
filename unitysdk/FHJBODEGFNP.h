@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define FHJBODEGFNP_GET_ISNEWBESTRECORD_OFFSET UNITYSDK_OFFSET(0x15780540)
 #define FHJBODEGFNP_KHNFOMHIKGK_OFFSET UNITYSDK_OFFSET(0x15780560)
 
+inline static constexpr unsigned int FHJBODEGFNP_TypeDefinitionIndex = 81453;
+
 	class FHJBODEGFNP : public ::System::Object
 	{
 	public:

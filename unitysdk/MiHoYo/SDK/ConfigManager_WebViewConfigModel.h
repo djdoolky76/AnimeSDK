@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int ConfigManager_WebViewConfigModel_TypeDefinitionIndex = 8206;
+
 	class ConfigManager_WebViewConfigModel : public ::System::Object
 	{
 	public:

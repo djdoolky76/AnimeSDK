@@ -27,6 +27,8 @@ namespace System { class String; }
 #define GBMAHPJPGLM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E430B80)
 #define GBMAHPJPGLM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E430BE0)
 
+inline static constexpr unsigned int GBMAHPJPGLM_TypeDefinitionIndex = 31716;
+
 	class GBMAHPJPGLM : public ::System::Object
 	{
 	public:

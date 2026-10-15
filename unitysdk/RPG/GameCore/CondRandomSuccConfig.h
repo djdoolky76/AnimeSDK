@@ -11,6 +11,8 @@ namespace RPG::GameCore { class MiParameterConfigBase; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CondRandomSuccConfig_TypeDefinitionIndex = 17078;
+
 	class CondRandomSuccConfig : public ::RPG::GameCore::MiConditionConfigBase
 	{
 	public:

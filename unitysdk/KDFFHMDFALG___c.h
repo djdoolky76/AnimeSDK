@@ -9,6 +9,8 @@ namespace System { template <typename T> class Predicate_1; }
 #define KDFFHMDFALG___C_CTOR_OFFSET UNITYSDK_OFFSET(0xB35C5A0)
 #define KDFFHMDFALG___C___UPDATECHARACTERVISIBILITYBYGROUP_B__81_0_OFFSET UNITYSDK_OFFSET(0xB35C5B0)
 
+inline static constexpr unsigned int KDFFHMDFALG___c_TypeDefinitionIndex = 60585;
+
 	class KDFFHMDFALG___c : public ::System::Object
 	{
 	public:

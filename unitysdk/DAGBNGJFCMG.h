@@ -34,6 +34,8 @@ namespace System { class String; }
 #define DAGBNGJFCMG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E150430)
 #define DAGBNGJFCMG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E150490)
 
+inline static constexpr unsigned int DAGBNGJFCMG_TypeDefinitionIndex = 33956;
+
 	class DAGBNGJFCMG : public ::System::Object
 	{
 	public:

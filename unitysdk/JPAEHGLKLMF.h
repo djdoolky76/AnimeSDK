@@ -13,6 +13,8 @@ namespace System { class Action; }
 #define JPAEHGLKLMF_NNAGLJCMMGD_OFFSET UNITYSDK_OFFSET(0xB2AF5F0)
 #define JPAEHGLKLMF_NONJDKKDDLE_OFFSET UNITYSDK_OFFSET(0xB2AF4D0)
 
+inline static constexpr unsigned int JPAEHGLKLMF_TypeDefinitionIndex = 60484;
+
 	class JPAEHGLKLMF : public ::System::Object
 	{
 	public:

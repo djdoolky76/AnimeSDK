@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define JOKOBANBMCF_CTOR_OFFSET UNITYSDK_OFFSET(0xB2A75F0)
 #define JOKOBANBMCF_ECNNDACGNBF_OFFSET UNITYSDK_OFFSET(0xB2A7490)
 
+inline static constexpr unsigned int JOKOBANBMCF_TypeDefinitionIndex = 57715;
+
 	class JOKOBANBMCF : public ::System::Object
 	{
 	public:

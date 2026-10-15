@@ -24,6 +24,8 @@ namespace UnityEngine { class Object; }
 
 namespace TMPro
 {
+	inline static constexpr unsigned int TMPro_EventManager_TypeDefinitionIndex = 44676;
+
 	class TMPro_EventManager : public ::System::Object
 	{
 	public:

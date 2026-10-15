@@ -15,6 +15,8 @@ class OIKDEOMMOAM;
 #define JEBFGDPAHDO_OIDHKHJENJE_OFFSET UNITYSDK_OFFSET(0x166188B0)
 #define JEBFGDPAHDO_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0x16618840)
 
+inline static constexpr unsigned int JEBFGDPAHDO_TypeDefinitionIndex = 54016;
+
 	class JEBFGDPAHDO : public ::System::Object
 	{
 	public:

@@ -6,6 +6,8 @@
 #define CLNELDIKFKF_OGNPCDBAEJP_OFFSET UNITYSDK_OFFSET(0xDA1BA90)
 #define CLNELDIKFKF_PFGBMCPMDCP_OFFSET UNITYSDK_OFFSET(0xDA1BC80)
 
+inline static constexpr unsigned int CLNELDIKFKF_TypeDefinitionIndex = 62389;
+
 	class CLNELDIKFKF : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int CachedAssetLoader_CachedLogicTypeGetter_TypeDefinitionIndex = 59436;
+
 	class CachedAssetLoader_CachedLogicTypeGetter : public ::System::Object
 	{
 	public:

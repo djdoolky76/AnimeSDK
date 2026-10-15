@@ -14,6 +14,8 @@ namespace System { class String; }
 #define BEAIJJCDJHO_IICAABCDHPM_OFFSET UNITYSDK_OFFSET(0x163093C0)
 #define BEAIJJCDJHO_MFCOINKALKA_OFFSET UNITYSDK_OFFSET(0x16309380)
 
+inline static constexpr unsigned int BEAIJJCDJHO_TypeDefinitionIndex = 70160;
+
 	class BEAIJJCDJHO : public ::System::Object
 	{
 	public:

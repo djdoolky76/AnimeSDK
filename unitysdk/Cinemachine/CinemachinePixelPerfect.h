@@ -6,6 +6,8 @@
 
 namespace Cinemachine
 {
+	inline static constexpr unsigned int CinemachinePixelPerfect_TypeDefinitionIndex = 39747;
+
 	class CinemachinePixelPerfect : public ::UnityEngine::MonoBehaviour
 	{
 	public:

@@ -17,6 +17,8 @@ namespace System { class Object; }
 #define MGBJMJODKIE_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB915D20)
 #define MGBJMJODKIE_TICK_OFFSET UNITYSDK_OFFSET(0xB915C50)
 
+inline static constexpr unsigned int MGBJMJODKIE_TypeDefinitionIndex = 52329;
+
 	class MGBJMJODKIE : public ::GELIALJDFBL
 	{
 	public:

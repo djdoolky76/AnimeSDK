@@ -14,6 +14,8 @@ namespace UnityEngine { class Camera; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoEffectScreenCrackPlugin_TypeDefinitionIndex = 70137;
+
 	class MonoEffectScreenCrackPlugin : public ::RPG::Client::MonoEffectPluginBase
 	{
 	public:

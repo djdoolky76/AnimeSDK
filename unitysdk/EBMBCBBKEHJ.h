@@ -25,6 +25,8 @@ namespace RPG::AvatarSystem::Property { template <typename T> class IPropertyMod
 #define EBMBCBBKEHJ_SET_SKILLLEVELPROVIDER_OFFSET UNITYSDK_OFFSET(0x12D02E00)
 #define EBMBCBBKEHJ_SET_VERSION_OFFSET UNITYSDK_OFFSET(0x12D02E20)
 
+inline static constexpr unsigned int EBMBCBBKEHJ_TypeDefinitionIndex = 51948;
+
 	class EBMBCBBKEHJ : public ::System::Object
 	{
 	public:

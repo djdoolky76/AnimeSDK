@@ -18,6 +18,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define AHEFENOJHLH_SET_AVATAR_OFFSET UNITYSDK_OFFSET(0xEB7D3A0)
 #define AHEFENOJHLH_SET_IDENTIFIER_OFFSET UNITYSDK_OFFSET(0xEB7D380)
 
+inline static constexpr unsigned int AHEFENOJHLH_TypeDefinitionIndex = 62582;
+
 	class AHEFENOJHLH : public ::System::Object
 	{
 	public:

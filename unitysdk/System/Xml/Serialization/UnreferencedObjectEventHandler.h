@@ -13,6 +13,8 @@ namespace System::Xml::Serialization { class UnreferencedObjectEventArgs; }
 
 namespace System::Xml::Serialization
 {
+	inline static constexpr unsigned int UnreferencedObjectEventHandler_TypeDefinitionIndex = 1987;
+
 	class UnreferencedObjectEventHandler : public ::System::MulticastDelegate
 	{
 	public:

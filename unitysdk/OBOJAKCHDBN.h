@@ -29,6 +29,8 @@ namespace UnityEngine { class Transform; }
 #define OBOJAKCHDBN_SET_ROUTEVIEW_OFFSET UNITYSDK_OFFSET(0xBD51120)
 #define OBOJAKCHDBN_SPAWNED_OFFSET UNITYSDK_OFFSET(0xBD51790)
 
+inline static constexpr unsigned int OBOJAKCHDBN_TypeDefinitionIndex = 62319;
+
 	class OBOJAKCHDBN : public ::System::Object
 	{
 	public:

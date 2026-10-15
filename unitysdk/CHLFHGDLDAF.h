@@ -7,6 +7,8 @@ namespace System { class String; }
 #define CHLFHGDLDAF_CBOJKGGGMBL_OFFSET UNITYSDK_OFFSET(0xCF595E0)
 #define CHLFHGDLDAF_CTOR_OFFSET UNITYSDK_OFFSET(0xCF59680)
 
+inline static constexpr unsigned int CHLFHGDLDAF_TypeDefinitionIndex = 81045;
+
 	class CHLFHGDLDAF : public ::System::Object
 	{
 	public:

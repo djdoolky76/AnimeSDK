@@ -3,6 +3,8 @@
 
 namespace ObservableCollections
 {
+	inline static constexpr unsigned int IObservableCollection_1_TypeDefinitionIndex = 35879;
+
 	template <typename T>
 	class IObservableCollection_1
 	{

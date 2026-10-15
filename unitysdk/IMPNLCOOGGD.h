@@ -31,6 +31,8 @@ namespace System { class String; }
 #define IMPNLCOOGGD_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E6BBEA0)
 #define IMPNLCOOGGD_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E6BBF00)
 
+inline static constexpr unsigned int IMPNLCOOGGD_TypeDefinitionIndex = 31840;
+
 	class IMPNLCOOGGD : public ::System::Object
 	{
 	public:

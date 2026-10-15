@@ -4,6 +4,8 @@ class BDFIKMEMFJF;
 
 #define KOFIMLBOMIG_DFBLEFCCCJO_CTOR_OFFSET UNITYSDK_OFFSET(0xE590)
 
+inline static constexpr unsigned int KOFIMLBOMIG_DFBLEFCCCJO_TypeDefinitionIndex = 55956;
+
 	struct alignas(8) KOFIMLBOMIG_DFBLEFCCCJO
 	{
 		::System::UInt32 KHBBNDBJAFK; // 0x10

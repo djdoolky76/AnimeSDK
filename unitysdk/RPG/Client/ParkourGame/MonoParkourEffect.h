@@ -7,6 +7,8 @@
 
 namespace RPG::Client::ParkourGame
 {
+	inline static constexpr unsigned int MonoParkourEffect_TypeDefinitionIndex = 74138;
+
 	class MonoParkourEffect : public ::UnityEngine::MonoBehaviour
 	{
 	public:

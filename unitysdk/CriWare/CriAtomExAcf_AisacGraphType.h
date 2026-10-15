@@ -3,6 +3,8 @@
 
 namespace CriWare
 {
+	inline static constexpr unsigned int CriAtomExAcf_AisacGraphType_TypeDefinitionIndex = 40033;
+
 	enum class CriAtomExAcf_AisacGraphType : ::System::Int32
 	{
 		none = 0,

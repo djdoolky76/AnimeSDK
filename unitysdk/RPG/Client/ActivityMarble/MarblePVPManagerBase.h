@@ -97,6 +97,8 @@ namespace System { class String; }
 
 namespace RPG::Client::ActivityMarble
 {
+	inline static constexpr unsigned int MarblePVPManagerBase_TypeDefinitionIndex = 76008;
+
 	class MarblePVPManagerBase : public ::System::Object
 	{
 	public:

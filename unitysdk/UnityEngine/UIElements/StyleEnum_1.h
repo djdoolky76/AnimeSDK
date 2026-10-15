@@ -4,6 +4,8 @@
 
 namespace UnityEngine::UIElements
 {
+	inline static constexpr unsigned int StyleEnum_1_TypeDefinitionIndex = 6000;
+
 	template <typename T>
 	struct alignas(8) StyleEnum_1
 	{

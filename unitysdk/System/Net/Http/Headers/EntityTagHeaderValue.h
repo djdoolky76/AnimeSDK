@@ -23,6 +23,8 @@ namespace System::Net::Http::Headers { class Lexer; }
 
 namespace System::Net::Http::Headers
 {
+	inline static constexpr unsigned int EntityTagHeaderValue_TypeDefinitionIndex = 3784;
+
 	class EntityTagHeaderValue : public ::System::Object
 	{
 	public:

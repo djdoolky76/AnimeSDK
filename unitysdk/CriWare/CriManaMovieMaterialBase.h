@@ -54,6 +54,8 @@ namespace UnityEngine { class WaitForEndOfFrame; }
 
 namespace CriWare
 {
+	inline static constexpr unsigned int CriManaMovieMaterialBase_TypeDefinitionIndex = 40130;
+
 	class CriManaMovieMaterialBase : public ::CriWare::CriMonoBehaviour
 	{
 	public:

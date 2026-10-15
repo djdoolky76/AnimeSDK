@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int MLNOEMIDHME_JFANBCKIJKL_TypeDefinitionIndex = 34201;
+
 	enum class MLNOEMIDHME_JFANBCKIJKL : ::System::Int32
 	{
 		NLCDGIPGFDJ = 0,

@@ -13,6 +13,8 @@ namespace System { class Object; }
 
 namespace Lumi::GeometryLibrary::Scripts
 {
+	inline static constexpr unsigned int DynamicMeshComponent_PJOJCENMEOJ_TypeDefinitionIndex = 47702;
+
 	class DynamicMeshComponent_PJOJCENMEOJ : public ::System::MulticastDelegate
 	{
 	public:

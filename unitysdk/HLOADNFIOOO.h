@@ -32,6 +32,8 @@ namespace System { class String; }
 #define HLOADNFIOOO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E5C5AC0)
 #define HLOADNFIOOO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E5C5B20)
 
+inline static constexpr unsigned int HLOADNFIOOO_TypeDefinitionIndex = 28139;
+
 	class HLOADNFIOOO : public ::System::Object
 	{
 	public:

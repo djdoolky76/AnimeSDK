@@ -28,6 +28,8 @@ namespace System::Net { class HttpWebResponse; }
 
 namespace System::Net
 {
+	inline static constexpr unsigned int WebAsyncResult_TypeDefinitionIndex = 2880;
+
 	class WebAsyncResult : public ::System::Net::SimpleAsyncResult
 	{
 	public:

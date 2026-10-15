@@ -6,6 +6,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PingPongModule_PingPongAddPointUIInfo_TypeDefinitionIndex = 66464;
+
 	class PingPongModule_PingPongAddPointUIInfo : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace UnityEngine { class RectTransform; }
 #define JAABBDCGHFF_EPFNMBNMOJJ_OFFSET UNITYSDK_OFFSET(0x16538E90)
 #define JAABBDCGHFF_OEFNECLNDEC_OFFSET UNITYSDK_OFFSET(0x16538CE0)
 
+inline static constexpr unsigned int JAABBDCGHFF_TypeDefinitionIndex = 68991;
+
 	class JAABBDCGHFF : public ::System::Object
 	{
 	public:

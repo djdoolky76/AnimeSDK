@@ -16,6 +16,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int EmojiBubbleClip_TypeDefinitionIndex = 48096;
+
 	class EmojiBubbleClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:

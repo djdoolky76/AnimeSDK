@@ -14,6 +14,8 @@ namespace UnityEngine::Rendering { class BatchAnimationInstance; }
 #define BADEFAULTGRAPH_PLAYCLIPS_OFFSET UNITYSDK_OFFSET(0x1CBE5050)
 #define BADEFAULTGRAPH_PLAYCLIP_OFFSET UNITYSDK_OFFSET(0x1CBE50A0)
 
+inline static constexpr unsigned int BADefaultGraph_TypeDefinitionIndex = 37465;
+
 	class BADefaultGraph : public ::System::Object
 	{
 	public:

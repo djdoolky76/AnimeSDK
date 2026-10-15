@@ -5,6 +5,8 @@
 
 #define PBHDNKMHKLG_CTOR_OFFSET UNITYSDK_OFFSET(0xBFED8E0)
 
+inline static constexpr unsigned int PBHDNKMHKLG_TypeDefinitionIndex = 49330;
+
 	class PBHDNKMHKLG : public ::System::Attribute
 	{
 	public:

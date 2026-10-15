@@ -25,6 +25,8 @@ namespace UnityEngine::Playables { class PlayableDirector; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int PlayScreenTransferMixer_TypeDefinitionIndex = 48216;
+
 	class PlayScreenTransferMixer : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

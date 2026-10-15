@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace System::ComponentModel
 {
+	inline static constexpr unsigned int ReferenceConverter_TypeDefinitionIndex = 2620;
+
 	class ReferenceConverter : public ::System::ComponentModel::TypeConverter
 	{
 	public:

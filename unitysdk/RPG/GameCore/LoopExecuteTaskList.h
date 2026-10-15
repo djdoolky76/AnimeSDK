@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LoopExecuteTaskList_TypeDefinitionIndex = 22896;
+
 	class LoopExecuteTaskList : public ::RPG::GameCore::TaskConfig
 	{
 	public:

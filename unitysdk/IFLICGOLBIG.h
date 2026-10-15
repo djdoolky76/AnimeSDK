@@ -68,6 +68,8 @@ namespace UnityEngine { class Transform; }
 #define IFLICGOLBIG_SET_ISSPECIAL_OFFSET UNITYSDK_OFFSET(0x15F23170)
 #define IFLICGOLBIG_SET_ORIGINSCALE_OFFSET UNITYSDK_OFFSET(0x15F231C0)
 
+inline static constexpr unsigned int IFLICGOLBIG_TypeDefinitionIndex = 60315;
+
 	class IFLICGOLBIG : public ::System::Object
 	{
 	public:

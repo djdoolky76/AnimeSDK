@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AddReShaEasterEggMatchRule_TypeDefinitionIndex = 22035;
+
 	class AddReShaEasterEggMatchRule : public ::RPG::GameCore::TaskConfig
 	{
 	public:

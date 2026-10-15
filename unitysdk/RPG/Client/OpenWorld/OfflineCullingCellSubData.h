@@ -15,6 +15,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::OpenWorld
 {
+	inline static constexpr unsigned int OfflineCullingCellSubData_TypeDefinitionIndex = 73756;
+
 	class OfflineCullingCellSubData : public ::System::Object
 	{
 	public:

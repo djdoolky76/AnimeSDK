@@ -15,6 +15,8 @@ namespace System { class Object; }
 
 namespace RPGTools::Timeline::PostProcessing
 {
+	inline static constexpr unsigned int PPFilterTimelineBehaviourMixer_TypeDefinitionIndex = 48590;
+
 	class PPFilterTimelineBehaviourMixer : public ::RPGTools::Timeline::PostProcessing::BasePlayableBehaviour
 	{
 	public:

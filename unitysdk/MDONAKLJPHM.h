@@ -20,6 +20,8 @@ namespace System { class String; }
 #define MDONAKLJPHM_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB8B4690)
 #define MDONAKLJPHM_TICK_OFFSET UNITYSDK_OFFSET(0xB8B4700)
 
+inline static constexpr unsigned int MDONAKLJPHM_TypeDefinitionIndex = 52876;
+
 	class MDONAKLJPHM : public ::GELIALJDFBL
 	{
 	public:

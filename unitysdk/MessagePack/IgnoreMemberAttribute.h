@@ -6,6 +6,8 @@
 
 namespace MessagePack
 {
+	inline static constexpr unsigned int IgnoreMemberAttribute_TypeDefinitionIndex = 6168;
+
 	class IgnoreMemberAttribute : public ::System::Attribute
 	{
 	public:

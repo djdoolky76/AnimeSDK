@@ -20,6 +20,8 @@ namespace RPG::GameCore { class GameEntity; }
 #define POIDGGOOMHO_HJKDEOBFGCG_SET_POSITION_OFFSET UNITYSDK_OFFSET(0xC36B780)
 #define POIDGGOOMHO_HJKDEOBFGCG_SET_ROTATION_OFFSET UNITYSDK_OFFSET(0xC36B7A0)
 
+inline static constexpr unsigned int POIDGGOOMHO_HJKDEOBFGCG_TypeDefinitionIndex = 80236;
+
 	class POIDGGOOMHO_HJKDEOBFGCG : public ::System::Object
 	{
 	public:

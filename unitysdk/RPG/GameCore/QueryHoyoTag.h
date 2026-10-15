@@ -16,6 +16,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int QueryHoyoTag_TypeDefinitionIndex = 20746;
+
 	class QueryHoyoTag : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

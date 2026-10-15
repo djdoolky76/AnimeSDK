@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define BEKKPBIKINI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA63D60)
 #define BEKKPBIKINI___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1EA63D70)
 
+inline static constexpr unsigned int BEKKPBIKINI___c_TypeDefinitionIndex = 27149;
+
 	class BEKKPBIKINI___c : public ::System::Object
 	{
 	public:

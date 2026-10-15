@@ -7,6 +7,8 @@ namespace RPG::Client { class MainMissionData; }
 #define MHKKDBFIBCF_HDILBJHMBMF_OFFSET UNITYSDK_OFFSET(0xB944DF0)
 #define MHKKDBFIBCF_JCFLHOGOBAP_OFFSET UNITYSDK_OFFSET(0xB945170)
 
+inline static constexpr unsigned int MHKKDBFIBCF_TypeDefinitionIndex = 66182;
+
 	class MHKKDBFIBCF : public ::System::Object
 	{
 	public:

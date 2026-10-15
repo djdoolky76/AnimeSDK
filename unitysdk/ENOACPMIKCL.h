@@ -12,6 +12,8 @@ namespace System { class Object; }
 #define ENOACPMIKCL_PFFCCGKGLKF_OFFSET UNITYSDK_OFFSET(0x155B47F0)
 #define ENOACPMIKCL_TICK_OFFSET UNITYSDK_OFFSET(0x155B4480)
 
+inline static constexpr unsigned int ENOACPMIKCL_TypeDefinitionIndex = 58447;
+
 	class ENOACPMIKCL : public ::GELIALJDFBL
 	{
 	public:

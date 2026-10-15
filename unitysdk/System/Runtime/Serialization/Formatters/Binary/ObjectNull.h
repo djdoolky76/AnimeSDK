@@ -13,6 +13,8 @@ namespace System::Runtime::Serialization::Formatters::Binary { class __BinaryWri
 
 namespace System::Runtime::Serialization::Formatters::Binary
 {
+	inline static constexpr unsigned int ObjectNull_TypeDefinitionIndex = 1161;
+
 	class ObjectNull : public ::System::Object
 	{
 	public:

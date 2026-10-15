@@ -81,6 +81,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define CONFLICT__UPDATEOTHERFLOORGROUPUNITS_OFFSET UNITYSDK_OFFSET(0xDFA2430)
 #define CONFLICT__WILLCONFLICTCHANGE_OFFSET UNITYSDK_OFFSET(0xDFA98B0)
 
+inline static constexpr unsigned int Conflict_TypeDefinitionIndex = 47149;
+
 	class Conflict : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TriggerGroupEventOnDialogEnd; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TriggerGroupEventOnDialogEnd_TypeDefinitionIndex = 21107;
+
 	class TriggerGroupEventOnDialogEnd : public ::RPG::GameCore::TriggerGroupEvent
 	{
 	public:

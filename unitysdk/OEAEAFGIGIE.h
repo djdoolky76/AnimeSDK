@@ -6,6 +6,8 @@ namespace System { class Action; }
 #define OEAEAFGIGIE_CTOR_OFFSET UNITYSDK_OFFSET(0xBDF27C0)
 #define OEAEAFGIGIE_HPHMJMIANDK_OFFSET UNITYSDK_OFFSET(0xBDF2660)
 
+inline static constexpr unsigned int OEAEAFGIGIE_TypeDefinitionIndex = 79367;
+
 	class OEAEAFGIGIE : public ::BHPMNMMGLHI
 	{
 	public:

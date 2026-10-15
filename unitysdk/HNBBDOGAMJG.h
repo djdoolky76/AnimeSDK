@@ -7,6 +7,8 @@ class PMNODEHAEDC;
 #define HNBBDOGAMJG_CTOR_OFFSET UNITYSDK_OFFSET(0x15D8C270)
 #define HNBBDOGAMJG_KPKCFMCJBCF_OFFSET UNITYSDK_OFFSET(0x15D8C280)
 
+inline static constexpr unsigned int HNBBDOGAMJG_TypeDefinitionIndex = 62307;
+
 	class HNBBDOGAMJG : public ::System::Object
 	{
 	public:

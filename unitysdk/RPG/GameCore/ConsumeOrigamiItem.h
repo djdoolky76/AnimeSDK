@@ -14,6 +14,8 @@ namespace RPG::GameCore { class TaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ConsumeOrigamiItem_TypeDefinitionIndex = 21866;
+
 	class ConsumeOrigamiItem : public ::RPG::GameCore::TaskConfig
 	{
 	public:

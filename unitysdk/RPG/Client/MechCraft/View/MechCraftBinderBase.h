@@ -13,6 +13,8 @@ namespace UnityEngine { class Component; }
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftBinderBase_TypeDefinitionIndex = 79977;
+
 	class MechCraftBinderBase : public ::System::Object
 	{
 	public:

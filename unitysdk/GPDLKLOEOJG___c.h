@@ -9,6 +9,8 @@ namespace System { template <typename T> class Comparison_1; }
 #define GPDLKLOEOJG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x15B4E420)
 #define GPDLKLOEOJG___C__SORTHOLDEDDICES_B__83_0_OFFSET UNITYSDK_OFFSET(0x15B4E430)
 
+inline static constexpr unsigned int GPDLKLOEOJG___c_TypeDefinitionIndex = 60319;
+
 	class GPDLKLOEOJG___c : public ::System::Object
 	{
 	public:

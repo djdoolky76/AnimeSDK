@@ -13,6 +13,8 @@ namespace UnityEngine { class SubsystemDescriptor; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int Internal_SubsystemDescriptors_TypeDefinitionIndex = 5829;
+
 	class Internal_SubsystemDescriptors : public ::System::Object
 	{
 	public:

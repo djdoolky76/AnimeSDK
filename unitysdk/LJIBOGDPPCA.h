@@ -8,6 +8,8 @@ namespace System { class String; }
 #define LJIBOGDPPCA_CTOR_OFFSET UNITYSDK_OFFSET(0x1D101910)
 #define LJIBOGDPPCA_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D1017A0)
 
+inline static constexpr unsigned int LJIBOGDPPCA_TypeDefinitionIndex = 12010;
+
 	class LJIBOGDPPCA : public ::System::Object
 	{
 	public:

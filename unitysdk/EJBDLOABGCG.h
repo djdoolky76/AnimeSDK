@@ -7,6 +7,8 @@
 #define EJBDLOABGCG_IBEAICJFMFF_OFFSET UNITYSDK_OFFSET(0x154D78F0)
 #define EJBDLOABGCG_KJMPHKAIKEP_OFFSET UNITYSDK_OFFSET(0x154D7930)
 
+inline static constexpr unsigned int EJBDLOABGCG_TypeDefinitionIndex = 71171;
+
 	class EJBDLOABGCG : public ::System::Object
 	{
 	public:

@@ -52,6 +52,8 @@ namespace UnityEngine { class AnimatorOverrideController; }
 #define IKKAFGPNEGO_SET_RIBBONCLIP0NAMEHASH_OFFSET UNITYSDK_OFFSET(0x16490C30)
 #define IKKAFGPNEGO_SET_RIBBONCLIP1NAMEHASH_OFFSET UNITYSDK_OFFSET(0x16490C50)
 
+inline static constexpr unsigned int IKKAFGPNEGO_TypeDefinitionIndex = 57295;
+
 	class IKKAFGPNEGO : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class WorldLevelRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int WorldLevelRow_TypeDefinitionIndex = 14502;
+
 	class WorldLevelRow : public ::System::Object
 	{
 	public:

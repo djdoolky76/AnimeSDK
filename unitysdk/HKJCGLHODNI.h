@@ -5,6 +5,8 @@ class HALHKJLBIKJ;
 
 #define HKJCGLHODNI_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x15D48220)
 
+inline static constexpr unsigned int HKJCGLHODNI_TypeDefinitionIndex = 76425;
+
 	class HKJCGLHODNI : public ::System::Object
 	{
 	public:

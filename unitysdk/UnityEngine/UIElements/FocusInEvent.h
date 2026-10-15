@@ -7,6 +7,8 @@
 
 namespace UnityEngine::UIElements
 {
+	inline static constexpr unsigned int FocusInEvent_TypeDefinitionIndex = 5943;
+
 	class FocusInEvent
 	{
 	public:

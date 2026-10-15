@@ -22,6 +22,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ElfRestaurantViewModel_TypeDefinitionIndex = 63757;
+
 	class ElfRestaurantViewModel : public ::System::Object
 	{
 	public:

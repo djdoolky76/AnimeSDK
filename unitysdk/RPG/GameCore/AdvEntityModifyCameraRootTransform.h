@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdvEntityModifyCameraRootTransform_TypeDefinitionIndex = 21041;
+
 	class AdvEntityModifyCameraRootTransform : public ::RPG::GameCore::TaskConfig
 	{
 	public:

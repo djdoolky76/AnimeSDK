@@ -44,6 +44,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int UITransitionManager_TypeDefinitionIndex = 73129;
+
 	class UITransitionManager : public ::System::Object
 	{
 	public:

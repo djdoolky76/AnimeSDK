@@ -9,6 +9,8 @@ namespace Entitas { class IEntity; }
 #define OIHEAFLJAJN_ONREMOVE_OFFSET UNITYSDK_OFFSET(0xBE94950)
 #define OIHEAFLJAJN_ONUPDATE_OFFSET UNITYSDK_OFFSET(0xBE948F0)
 
+inline static constexpr unsigned int OIHEAFLJAJN_TypeDefinitionIndex = 75954;
+
 	class OIHEAFLJAJN
 	{
 	public:

@@ -17,6 +17,8 @@ namespace System { class String; }
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
+	inline static constexpr unsigned int OpenVRInterop_TypeDefinitionIndex = 39213;
+
 	class OpenVRInterop : public ::System::Object
 	{
 	public:

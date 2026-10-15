@@ -18,6 +18,8 @@ namespace RPG::GameCore { class OfferingUIPageConfigRow; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int OfferingUIData_TypeDefinitionIndex = 66385;
+
 	class OfferingUIData : public ::System::Object
 	{
 	public:

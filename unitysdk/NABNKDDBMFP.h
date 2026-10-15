@@ -57,6 +57,8 @@ namespace System { class String; }
 #define NABNKDDBMFP_SET_WAYPOINTSHOWRANGEMIN_OFFSET UNITYSDK_OFFSET(0xBA54CA0)
 #define NABNKDDBMFP_TOSTRING_OFFSET UNITYSDK_OFFSET(0xBA558A0)
 
+inline static constexpr unsigned int NABNKDDBMFP_TypeDefinitionIndex = 60648;
+
 	class NABNKDDBMFP : public ::System::Object
 	{
 	public:

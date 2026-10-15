@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define AHBLKPAJDPI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E26C9A0)
 #define AHBLKPAJDPI___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1E26C9B0)
 
+inline static constexpr unsigned int AHBLKPAJDPI___c_TypeDefinitionIndex = 26609;
+
 	class AHBLKPAJDPI___c : public ::System::Object
 	{
 	public:

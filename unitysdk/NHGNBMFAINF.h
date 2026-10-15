@@ -11,6 +11,8 @@
 #define NHGNBMFAINF_GPDOEHKMLOK_OFFSET UNITYSDK_OFFSET(0xBBC2290)
 #define NHGNBMFAINF_MJDEFKGACDG_OFFSET UNITYSDK_OFFSET(0xBBC23F0)
 
+inline static constexpr unsigned int NHGNBMFAINF_TypeDefinitionIndex = 78793;
+
 	class NHGNBMFAINF : public ::System::Object
 	{
 	public:

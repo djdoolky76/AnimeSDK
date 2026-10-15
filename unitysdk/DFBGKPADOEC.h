@@ -25,6 +25,8 @@ namespace System { class String; }
 #define DFBGKPADOEC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E19A120)
 #define DFBGKPADOEC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E19A180)
 
+inline static constexpr unsigned int DFBGKPADOEC_TypeDefinitionIndex = 26099;
+
 	class DFBGKPADOEC : public ::System::Object
 	{
 	public:

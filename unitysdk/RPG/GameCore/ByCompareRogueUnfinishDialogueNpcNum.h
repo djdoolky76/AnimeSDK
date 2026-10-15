@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ByCompareRogueUnfinishDialogueNpcNum; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByCompareRogueUnfinishDialogueNpcNum_TypeDefinitionIndex = 20800;
+
 	class ByCompareRogueUnfinishDialogueNpcNum : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

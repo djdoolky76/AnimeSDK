@@ -32,6 +32,8 @@ namespace UnityEngine::UI { class RawImage; }
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
+	inline static constexpr unsigned int PointerUIGUI_TypeDefinitionIndex = 39484;
+
 	class PointerUIGUI : public ::ZenFulcrum::EmbeddedBrowser::PointerUIBase
 	{
 	public:

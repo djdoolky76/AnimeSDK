@@ -7,6 +7,8 @@ namespace System::Threading::Tasks { class Task; }
 
 namespace Cysharp::Threading::Tasks
 {
+	inline static constexpr unsigned int UniTaskExtensions___c__32_1_TypeDefinitionIndex = 38411;
+
 	template <typename T>
 	class UniTaskExtensions___c__32_1 : public ::System::Object
 	{

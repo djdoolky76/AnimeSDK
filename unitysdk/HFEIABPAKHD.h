@@ -5,6 +5,8 @@ namespace System { class String; }
 
 #define HFEIABPAKHD_OMMHMHNHOOM_OFFSET UNITYSDK_OFFSET(0x1CE9F620)
 
+inline static constexpr unsigned int HFEIABPAKHD_TypeDefinitionIndex = 24846;
+
 	class HFEIABPAKHD : public ::System::Object
 	{
 	public:

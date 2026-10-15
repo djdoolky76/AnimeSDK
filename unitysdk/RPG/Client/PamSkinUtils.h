@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PamSkinUtils_TypeDefinitionIndex = 66433;
+
 	class PamSkinUtils : public ::System::Object
 	{
 	public:

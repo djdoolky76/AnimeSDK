@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ShowFuncBtnEffect; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ShowFuncBtnEffect_TypeDefinitionIndex = 20498;
+
 	class ShowFuncBtnEffect : public ::RPG::GameCore::TaskConfig
 	{
 	public:

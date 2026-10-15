@@ -8,6 +8,8 @@
 
 namespace Cinemachine
 {
+	inline static constexpr unsigned int CinemachineComposer_FovCache_TypeDefinitionIndex = 39772;
+
 	struct alignas(4) CinemachineComposer_FovCache
 	{
 		::UnityEngine::Rect mFovSoftGuideRect; // 0x10

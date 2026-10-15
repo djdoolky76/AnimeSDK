@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TriggerEvolveBuildFeature; }
 #define DADIBNPCOCJ_CTOR_OFFSET UNITYSDK_OFFSET(0xDFC1030)
 #define DADIBNPCOCJ_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xDFC1060)
 
+inline static constexpr unsigned int DADIBNPCOCJ_TypeDefinitionIndex = 58783;
+
 	class DADIBNPCOCJ
 	{
 	public:

@@ -3,6 +3,8 @@
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int TextClipping_TypeDefinitionIndex = 5185;
+
 	enum class TextClipping : ::System::Int32
 	{
 		Overflow = 0,

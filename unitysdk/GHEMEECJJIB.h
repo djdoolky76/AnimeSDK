@@ -29,6 +29,8 @@ namespace System { class String; }
 #define GHEMEECJJIB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E486890)
 #define GHEMEECJJIB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E4868F0)
 
+inline static constexpr unsigned int GHEMEECJJIB_TypeDefinitionIndex = 32284;
+
 	class GHEMEECJJIB : public ::System::Object
 	{
 	public:

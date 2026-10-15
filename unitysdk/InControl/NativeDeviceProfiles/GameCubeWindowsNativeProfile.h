@@ -7,6 +7,8 @@
 
 namespace InControl::NativeDeviceProfiles
 {
+	inline static constexpr unsigned int GameCubeWindowsNativeProfile_TypeDefinitionIndex = 41304;
+
 	class GameCubeWindowsNativeProfile : public ::InControl::InputDeviceProfile
 	{
 	public:

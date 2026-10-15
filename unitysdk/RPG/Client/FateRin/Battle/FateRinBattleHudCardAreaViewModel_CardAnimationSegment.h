@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::FateRin::Battle
 {
+	inline static constexpr unsigned int FateRinBattleHudCardAreaViewModel_CardAnimationSegment_TypeDefinitionIndex = 80891;
+
 	class FateRinBattleHudCardAreaViewModel_CardAnimationSegment : public ::System::Object
 	{
 	public:

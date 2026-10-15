@@ -13,6 +13,8 @@ namespace RPG::GameCore { class TaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetLoopRewindSnapSection_TypeDefinitionIndex = 20640;
+
 	class SetLoopRewindSnapSection : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -8,6 +8,8 @@ namespace RPG::Client { class PipelineCameraGlobalConfig; }
 
 #define MEJAGBFOBCA_CTOR_OFFSET UNITYSDK_OFFSET(0xB8D90A0)
 
+inline static constexpr unsigned int MEJAGBFOBCA_TypeDefinitionIndex = 69735;
+
 	class MEJAGBFOBCA : public ::ELALAHMNKGK
 	{
 	public:

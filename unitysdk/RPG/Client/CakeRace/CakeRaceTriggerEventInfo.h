@@ -15,6 +15,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::CakeRace
 {
+	inline static constexpr unsigned int CakeRaceTriggerEventInfo_TypeDefinitionIndex = 76476;
+
 	class CakeRaceTriggerEventInfo : public ::System::Object
 	{
 	public:

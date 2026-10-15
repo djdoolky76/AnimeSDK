@@ -9,6 +9,8 @@ class FCOEMCEDLNL;
 #define BKMGMFCJMFP_CTOR_OFFSET UNITYSDK_OFFSET(0x1D821190)
 #define BKMGMFCJMFP_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D820F30)
 
+inline static constexpr unsigned int BKMGMFCJMFP_TypeDefinitionIndex = 12481;
+
 	class BKMGMFCJMFP : public ::System::Object
 	{
 	public:

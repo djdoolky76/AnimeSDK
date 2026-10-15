@@ -10,6 +10,8 @@ namespace RPG::GameCore { class MeshBound; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MeshBound_TypeDefinitionIndex = 19115;
+
 	class MeshBound : public ::RPG::GameCore::JsonConfig
 	{
 	public:

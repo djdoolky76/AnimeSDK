@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int PKKCLCNFPLE_TypeDefinitionIndex = 27846;
+
 	enum class PKKCLCNFPLE : ::System::Int32
 	{
 		NLCDGIPGFDJ = 0,

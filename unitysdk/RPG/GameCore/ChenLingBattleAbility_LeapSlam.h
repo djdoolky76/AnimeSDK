@@ -13,6 +13,8 @@ namespace RPG::GameCore { class ChenLingBattleEffectConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChenLingBattleAbility_LeapSlam_TypeDefinitionIndex = 15738;
+
 	class ChenLingBattleAbility_LeapSlam : public ::RPG::GameCore::BaseChenLingBattleAbilityNodeConfig
 	{
 	public:

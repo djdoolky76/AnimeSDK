@@ -11,6 +11,8 @@ namespace RPG::GameCore { class PerceiveValueTriggerConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PerceiveValueTriggerConfig_TypeDefinitionIndex = 22183;
+
 	class PerceiveValueTriggerConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

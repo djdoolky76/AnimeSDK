@@ -14,6 +14,8 @@ namespace System::Runtime::Serialization { class EnumMemberAttribute; }
 
 namespace Newtonsoft::Json::Utilities
 {
+	inline static constexpr unsigned int EnumUtils___c_TypeDefinitionIndex = 9669;
+
 	class EnumUtils___c : public ::System::Object
 	{
 	public:

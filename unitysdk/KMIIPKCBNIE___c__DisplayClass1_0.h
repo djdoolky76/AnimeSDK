@@ -6,6 +6,8 @@ class KMIIPKCBNIE;
 #define KMIIPKCBNIE___C__DISPLAYCLASS1_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB55B670)
 #define KMIIPKCBNIE___C__DISPLAYCLASS1_0__ONTASKBEGIN_B__0_OFFSET UNITYSDK_OFFSET(0xB55BAD0)
 
+inline static constexpr unsigned int KMIIPKCBNIE___c__DisplayClass1_0_TypeDefinitionIndex = 52724;
+
 	class KMIIPKCBNIE___c__DisplayClass1_0 : public ::System::Object
 	{
 	public:

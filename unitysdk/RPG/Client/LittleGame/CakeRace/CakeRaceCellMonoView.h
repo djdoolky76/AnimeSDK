@@ -10,6 +10,8 @@ namespace RPG::Client::LittleGame::CakeRace { class CakeRaceCellWrapperMonoView;
 
 namespace RPG::Client::LittleGame::CakeRace
 {
+	inline static constexpr unsigned int CakeRaceCellMonoView_TypeDefinitionIndex = 78151;
+
 	class CakeRaceCellMonoView : public ::RPG::Client::LittleGame::CakeRace::CakeRaceMonoView
 	{
 	public:

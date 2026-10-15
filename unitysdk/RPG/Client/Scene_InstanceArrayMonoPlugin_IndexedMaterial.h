@@ -8,6 +8,8 @@ namespace UnityEngine { class Material; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int Scene_InstanceArrayMonoPlugin_IndexedMaterial_TypeDefinitionIndex = 70860;
+
 	class Scene_InstanceArrayMonoPlugin_IndexedMaterial : public ::System::Object
 	{
 	public:

@@ -5,6 +5,8 @@
 
 #define GKEBHCOECHI_CTOR_OFFSET UNITYSDK_OFFSET(0x1CAB0510)
 
+inline static constexpr unsigned int GKEBHCOECHI_TypeDefinitionIndex = 43279;
+
 	class GKEBHCOECHI : public ::System::Object
 	{
 	public:

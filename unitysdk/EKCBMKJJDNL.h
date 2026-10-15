@@ -33,6 +33,8 @@ namespace UnityEngine { class Transform; }
 #define EKCBMKJJDNL__ONBIND_OFFSET UNITYSDK_OFFSET(0x154FD090)
 #define EKCBMKJJDNL__ONTICK_OFFSET UNITYSDK_OFFSET(0x154FD250)
 
+inline static constexpr unsigned int EKCBMKJJDNL_TypeDefinitionIndex = 72070;
+
 	class EKCBMKJJDNL : public ::FMPCODLIOLG
 	{
 	public:

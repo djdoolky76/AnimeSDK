@@ -43,6 +43,8 @@ namespace System { class String; }
 #define GLMGJFEEJHD_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E4C5EE0)
 #define GLMGJFEEJHD_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E4C5F40)
 
+inline static constexpr unsigned int GLMGJFEEJHD_TypeDefinitionIndex = 31110;
+
 	class GLMGJFEEJHD : public ::System::Object
 	{
 	public:

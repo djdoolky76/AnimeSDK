@@ -18,6 +18,8 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyCo
 #define FIEFFCJOMLK_PCOKFGHFJJF_OFFSET UNITYSDK_OFFSET(0x157A4840)
 #define FIEFFCJOMLK_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0x157A4990)
 
+inline static constexpr unsigned int FIEFFCJOMLK_TypeDefinitionIndex = 62795;
+
 	class FIEFFCJOMLK : public ::System::Object
 	{
 	public:

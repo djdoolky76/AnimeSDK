@@ -9,6 +9,8 @@ namespace UnityEngine::UI { class SmoothMask; }
 
 namespace RPG::Client::UI::UIStateCtrl
 {
+	inline static constexpr unsigned int LoadSpriteToSmoothMaskAction___c__DisplayClass1_0_TypeDefinitionIndex = 74051;
+
 	class LoadSpriteToSmoothMaskAction___c__DisplayClass1_0 : public ::System::Object
 	{
 	public:

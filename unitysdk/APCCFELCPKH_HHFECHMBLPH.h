@@ -15,6 +15,8 @@ namespace UnityEngine { class Material; }
 #define APCCFELCPKH_HHFECHMBLPH_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15BA1920)
 #define APCCFELCPKH_HHFECHMBLPH_NJAJMEMGLGH_OFFSET UNITYSDK_OFFSET(0x15BA1FB0)
 
+inline static constexpr unsigned int APCCFELCPKH_HHFECHMBLPH_TypeDefinitionIndex = 60240;
+
 	class APCCFELCPKH_HHFECHMBLPH : public ::System::Object
 	{
 	public:

@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TurnBasedModifierInstance; }
 #define MMGEGACPBNF_PDILJIFEFKB_1_OFFSET UNITYSDK_OFFSET(0xB9C4970)
 #define MMGEGACPBNF_PDILJIFEFKB_OFFSET UNITYSDK_OFFSET(0xB9C4800)
 
+inline static constexpr unsigned int MMGEGACPBNF_TypeDefinitionIndex = 71552;
+
 	class MMGEGACPBNF : public ::System::Object
 	{
 	public:

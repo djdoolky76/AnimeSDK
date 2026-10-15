@@ -10,6 +10,8 @@ namespace UnityEngine::UIElements { class IPanel; }
 
 namespace UnityEngine::UIElements
 {
+	inline static constexpr unsigned int DefaultDispatchingStrategy_TypeDefinitionIndex = 5921;
+
 	class DefaultDispatchingStrategy : public ::System::Object
 	{
 	public:

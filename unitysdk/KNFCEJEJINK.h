@@ -9,6 +9,8 @@
 #define KNFCEJEJINK_LCKCABJFHEA_OFFSET UNITYSDK_OFFSET(0xB582680)
 #define KNFCEJEJINK_MGFLFCHMGPA_OFFSET UNITYSDK_OFFSET(0xB582640)
 
+inline static constexpr unsigned int KNFCEJEJINK_TypeDefinitionIndex = 78251;
+
 	class KNFCEJEJINK : public ::System::Object
 	{
 	public:

@@ -13,6 +13,8 @@ namespace System { class Object; }
 
 namespace Mono::Unity
 {
+	inline static constexpr unsigned int UnityTls_unitytls_interface_struct_unitytls_errorstate_raise_error_t_TypeDefinitionIndex = 2372;
+
 	class UnityTls_unitytls_interface_struct_unitytls_errorstate_raise_error_t : public ::System::MulticastDelegate
 	{
 	public:

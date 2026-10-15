@@ -6,6 +6,8 @@
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int FlareLayer_TypeDefinitionIndex = 4051;
+
 	class FlareLayer : public ::UnityEngine::Behaviour
 	{
 	public:

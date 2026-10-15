@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int LightConeQuickGrowCalculator_ExpItemPlan_TypeDefinitionIndex = 65722;
+
 	class LightConeQuickGrowCalculator_ExpItemPlan : public ::System::Object
 	{
 	public:

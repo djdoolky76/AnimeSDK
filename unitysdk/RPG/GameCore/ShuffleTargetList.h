@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ShuffleTargetList; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ShuffleTargetList_TypeDefinitionIndex = 22469;
+
 	class ShuffleTargetList : public ::RPG::GameCore::TaskConfig
 	{
 	public:

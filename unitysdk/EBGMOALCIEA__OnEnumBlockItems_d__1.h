@@ -17,6 +17,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 #define EBGMOALCIEA__ONENUMBLOCKITEMS_D__1_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x12CEFF90)
 #define EBGMOALCIEA__ONENUMBLOCKITEMS_D__1___M__FINALLY1_OFFSET UNITYSDK_OFFSET(0x12CEFFD0)
 
+inline static constexpr unsigned int EBGMOALCIEA__OnEnumBlockItems_d__1_TypeDefinitionIndex = 59493;
+
 	template <typename T>
 	class EBGMOALCIEA__OnEnumBlockItems_d__1 : public ::System::Object
 	{

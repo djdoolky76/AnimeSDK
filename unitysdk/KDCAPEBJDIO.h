@@ -27,6 +27,8 @@ namespace System { class Object; }
 #define KDCAPEBJDIO_SET_OWNERBODY_OFFSET UNITYSDK_OFFSET(0x1C70E6A0)
 #define KDCAPEBJDIO_SET_SHAPEID_OFFSET UNITYSDK_OFFSET(0x1C70E680)
 
+inline static constexpr unsigned int KDCAPEBJDIO_TypeDefinitionIndex = 36544;
+
 	class KDCAPEBJDIO : public ::System::Object
 	{
 	public:

@@ -39,6 +39,8 @@ namespace System { class String; }
 #define ODHFCEALPFN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DE1CA70)
 #define ODHFCEALPFN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DE1CAD0)
 
+inline static constexpr unsigned int ODHFCEALPFN_TypeDefinitionIndex = 31562;
+
 	class ODHFCEALPFN : public ::System::Object
 	{
 	public:

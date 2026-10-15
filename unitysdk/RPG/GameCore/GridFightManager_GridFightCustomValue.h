@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightManager_GridFightCustomValue_TypeDefinitionIndex = 56173;
+
 	class GridFightManager_GridFightCustomValue : public ::System::Object
 	{
 	public:

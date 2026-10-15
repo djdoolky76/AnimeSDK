@@ -14,6 +14,8 @@ namespace UnityEngine::EventSystems { class PointerEventData; }
 
 namespace SRF::UI
 {
+	inline static constexpr unsigned int SRNumberSpinner_TypeDefinitionIndex = 35391;
+
 	class SRNumberSpinner : public ::UnityEngine::UI::InputField
 	{
 	public:

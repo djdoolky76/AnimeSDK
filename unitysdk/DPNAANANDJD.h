@@ -18,6 +18,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define DPNAANANDJD_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1265CC40)
 #define DPNAANANDJD_TICK_OFFSET UNITYSDK_OFFSET(0x1265CF60)
 
+inline static constexpr unsigned int DPNAANANDJD_TypeDefinitionIndex = 54765;
+
 	class DPNAANANDJD : public ::BNBOAMEBAOE
 	{
 	public:

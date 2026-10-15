@@ -18,6 +18,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define NGGJOHCMFNN_LGDLFMGDHLH_OFFSET UNITYSDK_OFFSET(0xBBA60E0)
 #define NGGJOHCMFNN_LMCEDCHJKFF_OFFSET UNITYSDK_OFFSET(0xBBA5D80)
 
+inline static constexpr unsigned int NGGJOHCMFNN_TypeDefinitionIndex = 57177;
+
 	class NGGJOHCMFNN : public ::RPG::GameCore::GameComponentBase
 	{
 	public:

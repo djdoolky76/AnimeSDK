@@ -5,6 +5,8 @@ class IBEJMEEEJMB;
 
 #define IBLINEKDDKE_IGLFJBCPILA_OFFSET UNITYSDK_OFFSET(0x15E3D0D0)
 
+inline static constexpr unsigned int IBLINEKDDKE_TypeDefinitionIndex = 57581;
+
 	class IBLINEKDDKE : public ::System::Object
 	{
 	public:

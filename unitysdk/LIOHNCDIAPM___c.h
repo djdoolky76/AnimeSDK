@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define LIOHNCDIAPM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E9737B0)
 #define LIOHNCDIAPM___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E9737C0)
 
+inline static constexpr unsigned int LIOHNCDIAPM___c_TypeDefinitionIndex = 33385;
+
 	class LIOHNCDIAPM___c : public ::System::Object
 	{
 	public:

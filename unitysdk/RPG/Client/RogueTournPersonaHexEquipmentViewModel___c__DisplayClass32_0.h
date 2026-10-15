@@ -9,6 +9,8 @@ namespace RPG::Client { class RogueTournHexData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueTournPersonaHexEquipmentViewModel___c__DisplayClass32_0_TypeDefinitionIndex = 72895;
+
 	class RogueTournPersonaHexEquipmentViewModel___c__DisplayClass32_0 : public ::System::Object
 	{
 	public:

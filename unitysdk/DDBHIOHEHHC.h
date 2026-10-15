@@ -31,6 +31,8 @@ namespace System { class String; }
 #define DDBHIOHEHHC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E17AE00)
 #define DDBHIOHEHHC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E17AE60)
 
+inline static constexpr unsigned int DDBHIOHEHHC_TypeDefinitionIndex = 28203;
+
 	class DDBHIOHEHHC : public ::System::Object
 	{
 	public:

@@ -4,6 +4,8 @@
 
 #define LCLMCNIIOKL_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0x1EC852C0)
 
+inline static constexpr unsigned int LCLMCNIIOKL_TypeDefinitionIndex = 44077;
+
 	class LCLMCNIIOKL : public ::System::Object
 	{
 	public:

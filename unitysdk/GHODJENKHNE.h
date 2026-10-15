@@ -16,6 +16,8 @@ namespace RPG::Client { class UIController; }
 #define GHODJENKHNE_MLNGKFAGCJK_OFFSET UNITYSDK_OFFSET(0x15A2D1F0)
 #define GHODJENKHNE_PDPOELEAFEM_OFFSET UNITYSDK_OFFSET(0x15A2D2A0)
 
+inline static constexpr unsigned int GHODJENKHNE_TypeDefinitionIndex = 73127;
+
 	class GHODJENKHNE : public ::System::Object
 	{
 	public:

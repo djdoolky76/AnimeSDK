@@ -10,6 +10,8 @@ namespace RPG::GameCore::Match3 { class StartRoundTrigger; }
 
 namespace RPG::GameCore::Match3
 {
+	inline static constexpr unsigned int StartRoundTrigger_TypeDefinitionIndex = 24877;
+
 	class StartRoundTrigger : public ::RPG::GameCore::Match3::Match3TriggerBase
 	{
 	public:

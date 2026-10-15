@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define DIAANFGKLDC_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1CD23EE0)
 #define DIAANFGKLDC_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1CD23800)
 
+inline static constexpr unsigned int DIAANFGKLDC_TypeDefinitionIndex = 11825;
+
 	class DIAANFGKLDC : public ::System::Object
 	{
 	public:

@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DataPoolType_TypeDefinitionIndex = 10738;
+
 	enum class DataPoolType : ::System::Byte
 	{
 		SingleObject = 0,

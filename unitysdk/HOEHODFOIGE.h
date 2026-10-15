@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define HOEHODFOIGE_EVALUATE_OFFSET UNITYSDK_OFFSET(0x15DB26B0)
 #define HOEHODFOIGE_TRANSFORM_OFFSET UNITYSDK_OFFSET(0x15DB2620)
 
+inline static constexpr unsigned int HOEHODFOIGE_TypeDefinitionIndex = 59073;
+
 	class HOEHODFOIGE : public ::System::Object
 	{
 	public:

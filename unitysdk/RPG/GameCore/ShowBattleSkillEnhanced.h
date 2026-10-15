@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ShowBattleSkillEnhanced_TypeDefinitionIndex = 22927;
+
 	class ShowBattleSkillEnhanced : public ::RPG::GameCore::TaskConfig
 	{
 	public:

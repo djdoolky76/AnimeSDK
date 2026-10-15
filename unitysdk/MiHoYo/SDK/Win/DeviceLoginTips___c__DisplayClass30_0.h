@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace MiHoYo::SDK::Win
 {
+	inline static constexpr unsigned int DeviceLoginTips___c__DisplayClass30_0_TypeDefinitionIndex = 9517;
+
 	class DeviceLoginTips___c__DisplayClass30_0 : public ::System::Object
 	{
 	public:

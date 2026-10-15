@@ -6,6 +6,8 @@
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int ChimeraDuelEffectBridge_TypeDefinitionIndex = 78298;
+
 	class ChimeraDuelEffectBridge : public ::UnityEngine::MonoBehaviour
 	{
 	public:

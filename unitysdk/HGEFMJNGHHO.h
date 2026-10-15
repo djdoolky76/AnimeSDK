@@ -11,6 +11,8 @@ namespace RPG::Client::LittleGameShare { class ST_Main_CakeRaceTurn; }
 #define HGEFMJNGHHO_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1C666AD0)
 #define HGEFMJNGHHO_TICK_OFFSET UNITYSDK_OFFSET(0x1C666600)
 
+inline static constexpr unsigned int HGEFMJNGHHO_TypeDefinitionIndex = 36993;
+
 	class HGEFMJNGHHO
 	{
 	public:

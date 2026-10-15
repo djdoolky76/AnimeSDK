@@ -8,6 +8,8 @@ namespace System { class Type; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int GUITargetAttribute_TypeDefinitionIndex = 5186;
+
 	class GUITargetAttribute : public ::System::Attribute
 	{
 	public:

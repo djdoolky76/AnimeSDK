@@ -9,6 +9,8 @@ class MIDAKCNMMPF;
 #define DIDMPBAABII_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA2A890)
 #define DIDMPBAABII_NCPODAMBBHK_OFFSET UNITYSDK_OFFSET(0x1CA2A840)
 
+inline static constexpr unsigned int DIDMPBAABII_TypeDefinitionIndex = 43400;
+
 	class DIDMPBAABII : public ::System::Object
 	{
 	public:

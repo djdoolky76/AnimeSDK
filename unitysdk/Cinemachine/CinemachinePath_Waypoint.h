@@ -4,6 +4,8 @@
 
 namespace Cinemachine
 {
+	inline static constexpr unsigned int CinemachinePath_Waypoint_TypeDefinitionIndex = 39745;
+
 	struct alignas(4) CinemachinePath_Waypoint
 	{
 		::UnityEngine::Vector3 position; // 0x10

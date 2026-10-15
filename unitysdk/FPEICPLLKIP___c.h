@@ -18,6 +18,8 @@ namespace UnityEngine { class Transform; }
 #define FPEICPLLKIP___C__TRYCREATESUMMONCHENLINGENTITYANDVIEW_B__27_0_OFFSET UNITYSDK_OFFSET(0x15917BE0)
 #define FPEICPLLKIP___C__UNLOCKCELL_B__22_0_OFFSET UNITYSDK_OFFSET(0x15917B80)
 
+inline static constexpr unsigned int FPEICPLLKIP___c_TypeDefinitionIndex = 77765;
+
 	class FPEICPLLKIP___c : public ::System::Object
 	{
 	public:

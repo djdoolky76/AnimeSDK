@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueDLC1Dot3AdventureRoomProcess_TypeDefinitionIndex = 22277;
+
 	class RogueDLC1Dot3AdventureRoomProcess : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -15,6 +15,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define JHOLJJOHPDN_KCECPFHECDA_OFFSET UNITYSDK_OFFSET(0xB1C8C10)
 #define JHOLJJOHPDN_PCLBMKDPCON_OFFSET UNITYSDK_OFFSET(0xB1C8C60)
 
+inline static constexpr unsigned int JHOLJJOHPDN_TypeDefinitionIndex = 54040;
+
 	class JHOLJJOHPDN : public ::RPG::GameCore::GameComponentBase
 	{
 	public:

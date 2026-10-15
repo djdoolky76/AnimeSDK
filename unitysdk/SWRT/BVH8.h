@@ -16,6 +16,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace SWRT
 {
+	inline static constexpr unsigned int BVH8_TypeDefinitionIndex = 37498;
+
 	class BVH8 : public ::System::Object
 	{
 	public:

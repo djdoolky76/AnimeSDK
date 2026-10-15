@@ -10,6 +10,8 @@ namespace RPG::GameCore { class DisableLoopTowerShake; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DisableLoopTowerShake_TypeDefinitionIndex = 22905;
+
 	class DisableLoopTowerShake : public ::RPG::GameCore::TaskConfig
 	{
 	public:

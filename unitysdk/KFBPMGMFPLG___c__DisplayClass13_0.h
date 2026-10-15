@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define KFBPMGMFPLG___C__DISPLAYCLASS13_0__BUILDDISPLAYOPTIONS_B__1_OFFSET UNITYSDK_OFFSET(0xB38EFB0)
 #define KFBPMGMFPLG___C__DISPLAYCLASS13_0__BUILDDISPLAYOPTIONS_G__ISELIGIBLE_0_OFFSET UNITYSDK_OFFSET(0xB38BA30)
 
+inline static constexpr unsigned int KFBPMGMFPLG___c__DisplayClass13_0_TypeDefinitionIndex = 80314;
+
 	class KFBPMGMFPLG___c__DisplayClass13_0 : public ::System::Object
 	{
 	public:

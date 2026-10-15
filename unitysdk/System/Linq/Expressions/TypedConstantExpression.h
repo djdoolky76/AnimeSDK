@@ -9,6 +9,8 @@ namespace System { class Type; }
 
 namespace System::Linq::Expressions
 {
+	inline static constexpr unsigned int TypedConstantExpression_TypeDefinitionIndex = 3213;
+
 	class TypedConstantExpression : public ::System::Linq::Expressions::ConstantExpression
 	{
 	public:

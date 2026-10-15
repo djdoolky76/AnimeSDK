@@ -13,6 +13,8 @@ namespace System::Runtime::Serialization::Formatters::Binary { class __BinaryWri
 
 namespace System::Runtime::Serialization::Formatters::Binary
 {
+	inline static constexpr unsigned int BinaryObjectString_TypeDefinitionIndex = 1152;
+
 	class BinaryObjectString : public ::System::Object
 	{
 	public:

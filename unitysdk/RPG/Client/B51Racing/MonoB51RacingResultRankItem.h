@@ -18,6 +18,8 @@ namespace UnityEngine::UI { class Image; }
 
 namespace RPG::Client::B51Racing
 {
+	inline static constexpr unsigned int MonoB51RacingResultRankItem_TypeDefinitionIndex = 81950;
+
 	class MonoB51RacingResultRankItem : public ::Sofa::BaseSofaControl
 	{
 	public:

@@ -7,6 +7,8 @@ class PPNBJAPBFHI;
 #define AFFNHEDMJDB_CTOR_OFFSET UNITYSDK_OFFSET(0xCF0B1A0)
 #define AFFNHEDMJDB_MGFLFCHMGPA_OFFSET UNITYSDK_OFFSET(0xCF0B1B0)
 
+inline static constexpr unsigned int AFFNHEDMJDB_TypeDefinitionIndex = 78253;
+
 	class AFFNHEDMJDB : public ::KNFCEJEJINK
 	{
 	public:

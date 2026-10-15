@@ -29,6 +29,8 @@
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int Gyroscope_TypeDefinitionIndex = 5784;
+
 	class Gyroscope : public ::System::Object
 	{
 	public:

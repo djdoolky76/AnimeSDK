@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int HideEffectAutoLayout_TypeDefinitionIndex = 22433;
+
 	class HideEffectAutoLayout : public ::RPG::GameCore::TaskConfig
 	{
 	public:

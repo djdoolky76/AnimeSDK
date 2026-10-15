@@ -16,6 +16,8 @@ namespace System { class Object; }
 #define EOIJLIIHGJD___C__CREATEPLAYERSETTING_B__0_6_OFFSET UNITYSDK_OFFSET(0x155C40B0)
 #define EOIJLIIHGJD___C__CREATEPLAYERSETTING_B__0_7_OFFSET UNITYSDK_OFFSET(0x155C4160)
 
+inline static constexpr unsigned int EOIJLIIHGJD___c_TypeDefinitionIndex = 66696;
+
 	class EOIJLIIHGJD___c : public ::System::Object
 	{
 	public:

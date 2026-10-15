@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
+	inline static constexpr unsigned int Browser_OnDestroyFun_TypeDefinitionIndex = 39334;
+
 	class Browser_OnDestroyFun : public ::System::MulticastDelegate
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define LJFHKAJPFNE___C_CTOR_OFFSET UNITYSDK_OFFSET(0xB711B60)
 #define LJFHKAJPFNE___C__ENABLEENVPROFILE_B__77_0_OFFSET UNITYSDK_OFFSET(0xB711B70)
 
+inline static constexpr unsigned int LJFHKAJPFNE___c_TypeDefinitionIndex = 73860;
+
 	class LJFHKAJPFNE___c : public ::System::Object
 	{
 	public:

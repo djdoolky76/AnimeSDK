@@ -13,6 +13,8 @@ namespace System { class Object; }
 
 namespace IRI2
 {
+	inline static constexpr unsigned int PackVertexType_TypeDefinitionIndex = 49662;
+
 	struct alignas(4) PackVertexType
 	{
 		::UnityEngine::Vector3 Position; // 0x10

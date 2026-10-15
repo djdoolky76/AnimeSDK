@@ -10,6 +10,8 @@
 
 namespace System::Numerics
 {
+	inline static constexpr unsigned int BitOperations_TypeDefinitionIndex = 6087;
+
 	class BitOperations : public ::System::Object
 	{
 	public:

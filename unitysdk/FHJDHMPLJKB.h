@@ -9,6 +9,8 @@
 #define FHJDHMPLJKB_NAVIGATIONFAILPROCESS_OFFSET UNITYSDK_OFFSET(0x15780810)
 #define FHJDHMPLJKB_PLAYNAVIGATIONAUDIO_OFFSET UNITYSDK_OFFSET(0x157806F0)
 
+inline static constexpr unsigned int FHJDHMPLJKB_TypeDefinitionIndex = 61302;
+
 	class FHJDHMPLJKB : public ::System::Object
 	{
 	public:

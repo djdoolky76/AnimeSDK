@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 #define BIMHOGHOCKP_CTOR_OFFSET UNITYSDK_OFFSET(0xB787090)
 
+inline static constexpr unsigned int BIMHOGHOCKP_TypeDefinitionIndex = 57624;
+
 	class BIMHOGHOCKP : public ::OMAHHACEANO
 	{
 	public:

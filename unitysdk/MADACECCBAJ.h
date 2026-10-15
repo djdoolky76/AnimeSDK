@@ -10,6 +10,8 @@ namespace System { class String; }
 #define MADACECCBAJ_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D130630)
 #define MADACECCBAJ_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D1305E0)
 
+inline static constexpr unsigned int MADACECCBAJ_TypeDefinitionIndex = 24127;
+
 	class MADACECCBAJ : public ::RPG::GameCore::TaskConfig
 	{
 	public:

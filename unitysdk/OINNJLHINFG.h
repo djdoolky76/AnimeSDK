@@ -6,6 +6,8 @@ class NCDOCGFHEEL;
 
 #define OINNJLHINFG_NCJLIOPPOJB_OFFSET UNITYSDK_OFFSET(0xBEA2880)
 
+inline static constexpr unsigned int OINNJLHINFG_TypeDefinitionIndex = 62440;
+
 	class OINNJLHINFG : public ::System::Object
 	{
 	public:

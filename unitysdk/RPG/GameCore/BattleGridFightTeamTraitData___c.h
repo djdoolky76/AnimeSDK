@@ -11,6 +11,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int BattleGridFightTeamTraitData___c_TypeDefinitionIndex = 56286;
+
 	class BattleGridFightTeamTraitData___c : public ::System::Object
 	{
 	public:

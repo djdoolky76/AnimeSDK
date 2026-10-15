@@ -16,6 +16,8 @@ namespace RPG::Client::Introduce { class IntroduceViewModel; }
 
 namespace RPG::Client::Challenge::Tierce
 {
+	inline static constexpr unsigned int ChallengeTierceEntranceNoticeViewModel_TypeDefinitionIndex = 81586;
+
 	class ChallengeTierceEntranceNoticeViewModel : public ::System::Object
 	{
 	public:

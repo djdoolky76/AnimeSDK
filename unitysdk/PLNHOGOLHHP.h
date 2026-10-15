@@ -21,6 +21,8 @@ namespace System { class String; }
 #define PLNHOGOLHHP_NKMJINBCHDB_OFFSET UNITYSDK_OFFSET(0xC30CBA0)
 #define PLNHOGOLHHP_OGLGPNHMIOD_OFFSET UNITYSDK_OFFSET(0xC30CA20)
 
+inline static constexpr unsigned int PLNHOGOLHHP_TypeDefinitionIndex = 73334;
+
 	class PLNHOGOLHHP : public ::System::Object
 	{
 	public:

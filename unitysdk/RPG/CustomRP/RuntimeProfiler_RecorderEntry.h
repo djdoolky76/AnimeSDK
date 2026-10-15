@@ -10,6 +10,8 @@ namespace UnityEngine::Profiling { class Recorder; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int RuntimeProfiler_RecorderEntry_TypeDefinitionIndex = 37927;
+
 	class RuntimeProfiler_RecorderEntry : public ::System::Object
 	{
 	public:

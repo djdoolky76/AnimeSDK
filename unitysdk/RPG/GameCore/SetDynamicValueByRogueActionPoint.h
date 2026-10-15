@@ -10,6 +10,8 @@ namespace RPG::GameCore { class SetDynamicValueByRogueActionPoint; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetDynamicValueByRogueActionPoint_TypeDefinitionIndex = 21783;
+
 	class SetDynamicValueByRogueActionPoint : public ::RPG::GameCore::TaskConfig
 	{
 	public:

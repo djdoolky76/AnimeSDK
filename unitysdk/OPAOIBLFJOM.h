@@ -31,6 +31,8 @@ namespace System { class String; }
 #define OPAOIBLFJOM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DEDD2B0)
 #define OPAOIBLFJOM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DEDD310)
 
+inline static constexpr unsigned int OPAOIBLFJOM_TypeDefinitionIndex = 28794;
+
 	class OPAOIBLFJOM : public ::System::Object
 	{
 	public:

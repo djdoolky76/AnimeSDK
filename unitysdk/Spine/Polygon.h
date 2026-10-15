@@ -10,6 +10,8 @@
 
 namespace Spine
 {
+	inline static constexpr unsigned int Polygon_TypeDefinitionIndex = 39690;
+
 	class Polygon : public ::System::Object
 	{
 	public:

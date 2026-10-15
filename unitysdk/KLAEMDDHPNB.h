@@ -30,6 +30,8 @@ namespace System { class String; }
 #define KLAEMDDHPNB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E880D70)
 #define KLAEMDDHPNB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E880DD0)
 
+inline static constexpr unsigned int KLAEMDDHPNB_TypeDefinitionIndex = 32780;
+
 	class KLAEMDDHPNB : public ::System::Object
 	{
 	public:

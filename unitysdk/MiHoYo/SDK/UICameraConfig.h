@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int UICameraConfig_TypeDefinitionIndex = 7931;
+
 	class UICameraConfig : public ::System::Object
 	{
 	public:

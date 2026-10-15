@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define HFGLNNFOPON___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E569290)
 #define HFGLNNFOPON___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1E5692A0)
 
+inline static constexpr unsigned int HFGLNNFOPON___c_TypeDefinitionIndex = 31975;
+
 	class HFGLNNFOPON___c : public ::System::Object
 	{
 	public:

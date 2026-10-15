@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ResetCharLightFromEntityDir; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ResetCharLightFromEntityDir_TypeDefinitionIndex = 21875;
+
 	class ResetCharLightFromEntityDir : public ::RPG::GameCore::TaskConfig
 	{
 	public:

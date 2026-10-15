@@ -7,6 +7,8 @@ class EKAFJOGBCFA;
 #define HPPNAAGGAMP___C__DISPLAYCLASS9_1_CTOR_OFFSET UNITYSDK_OFFSET(0x15DE1990)
 #define HPPNAAGGAMP___C__DISPLAYCLASS9_1__PLAYTIMELINE_B__1_OFFSET UNITYSDK_OFFSET(0x15DE19A0)
 
+inline static constexpr unsigned int HPPNAAGGAMP___c__DisplayClass9_1_TypeDefinitionIndex = 48489;
+
 	template <typename T>
 	class HPPNAAGGAMP___c__DisplayClass9_1 : public ::System::Object
 	{

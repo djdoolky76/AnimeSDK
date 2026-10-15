@@ -13,6 +13,8 @@ namespace System::Text { class StringBuilder; }
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
+	inline static constexpr unsigned int IVRDriverManager__GetDriverName_TypeDefinitionIndex = 39188;
+
 	class IVRDriverManager__GetDriverName : public ::System::MulticastDelegate
 	{
 	public:

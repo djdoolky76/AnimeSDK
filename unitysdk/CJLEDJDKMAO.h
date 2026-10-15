@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define CJLEDJDKMAO_CTOR_OFFSET UNITYSDK_OFFSET(0xD4CF900)
 #define CJLEDJDKMAO_EVALUATE_OFFSET UNITYSDK_OFFSET(0xD4CF930)
 
+inline static constexpr unsigned int CJLEDJDKMAO_TypeDefinitionIndex = 52576;
+
 	class CJLEDJDKMAO
 	{
 	public:

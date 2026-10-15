@@ -20,6 +20,8 @@ namespace System { class Object; }
 #define DJOCDDCPEPF_HJOHDFKLIDK_OFFSET UNITYSDK_OFFSET(0xF24E0D0)
 #define DJOCDDCPEPF_IEOGLIENPMN_OFFSET UNITYSDK_OFFSET(0xF24DE70)
 
+inline static constexpr unsigned int DJOCDDCPEPF_TypeDefinitionIndex = 72135;
+
 	class DJOCDDCPEPF : public ::System::Object
 	{
 	public:

@@ -31,6 +31,8 @@ namespace System { class String; }
 #define NFKCMMEAIDN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EB03340)
 #define NFKCMMEAIDN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EB033A0)
 
+inline static constexpr unsigned int NFKCMMEAIDN_TypeDefinitionIndex = 26933;
+
 	class NFKCMMEAIDN : public ::System::Object
 	{
 	public:

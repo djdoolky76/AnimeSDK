@@ -4,6 +4,8 @@
 
 #define KOPCPKCPPIF_CTOR_OFFSET UNITYSDK_OFFSET(0x1C71D9A0)
 
+inline static constexpr unsigned int KOPCPKCPPIF_TypeDefinitionIndex = 37255;
+
 	class KOPCPKCPPIF : public ::System::Object
 	{
 	public:

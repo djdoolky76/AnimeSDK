@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdvRoguePhotoEntityFaceToPlayer_TypeDefinitionIndex = 20567;
+
 	class AdvRoguePhotoEntityFaceToPlayer : public ::RPG::GameCore::TaskConfig
 	{
 	public:

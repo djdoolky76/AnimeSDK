@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ComplexSkillAIGetStrengthLevel; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ComplexSkillAIGetStrengthLevel_TypeDefinitionIndex = 15571;
+
 	class ComplexSkillAIGetStrengthLevel : public ::RPG::GameCore::ComplexSkillAISource
 	{
 	public:

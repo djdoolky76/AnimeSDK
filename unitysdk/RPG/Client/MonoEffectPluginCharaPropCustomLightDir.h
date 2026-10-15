@@ -17,6 +17,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoEffectPluginCharaPropCustomLightDir_TypeDefinitionIndex = 69952;
+
 	class MonoEffectPluginCharaPropCustomLightDir : public ::RPG::Client::MonoEffectPluginCharaPropBase
 	{
 	public:

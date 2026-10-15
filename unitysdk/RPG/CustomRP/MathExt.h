@@ -9,6 +9,8 @@
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int MathExt_TypeDefinitionIndex = 37631;
+
 	class MathExt : public ::System::Object
 	{
 	public:

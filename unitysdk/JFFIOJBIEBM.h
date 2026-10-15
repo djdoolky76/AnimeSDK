@@ -15,6 +15,8 @@ namespace System { class Nullable; }
 #define JFFIOJBIEBM_MENMHDNIBLA_OFFSET UNITYSDK_OFFSET(0x1664C250)
 #define JFFIOJBIEBM_MOCPCLHLAHK_OFFSET UNITYSDK_OFFSET(0x1664BA20)
 
+inline static constexpr unsigned int JFFIOJBIEBM_TypeDefinitionIndex = 68795;
+
 	class JFFIOJBIEBM : public ::GPGDJDKKHNE
 	{
 	public:

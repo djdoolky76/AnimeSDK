@@ -7,6 +7,8 @@ class DMOJAEDFBID;
 #define DMOJAEDFBID___C__DISPLAYCLASS46_0_CTOR_OFFSET UNITYSDK_OFFSET(0xFEC9450)
 #define DMOJAEDFBID___C__DISPLAYCLASS46_0___TRYHIGHTLIGHTBUFFPANEL_B__0_OFFSET UNITYSDK_OFFSET(0xFECD7F0)
 
+inline static constexpr unsigned int DMOJAEDFBID___c__DisplayClass46_0_TypeDefinitionIndex = 71318;
+
 	class DMOJAEDFBID___c__DisplayClass46_0 : public ::System::Object
 	{
 	public:

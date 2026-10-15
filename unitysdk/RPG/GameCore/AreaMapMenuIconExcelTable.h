@@ -25,6 +25,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AreaMapMenuIconExcelTable_TypeDefinitionIndex = 14007;
+
 	class AreaMapMenuIconExcelTable : public ::System::Object
 	{
 	public:

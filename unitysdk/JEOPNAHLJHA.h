@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int JEOPNAHLJHA_TypeDefinitionIndex = 25264;
+
 	enum class JEOPNAHLJHA : ::System::Int32
 	{
 		ODPOCEOLEKE = 0,

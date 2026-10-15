@@ -11,6 +11,8 @@ namespace Google::Protobuf::Reflection { class FileDescriptor; }
 
 namespace Google::Protobuf::Reflection
 {
+	inline static constexpr unsigned int ExtensionCollection___c__DisplayClass2_0_TypeDefinitionIndex = 5538;
+
 	class ExtensionCollection___c__DisplayClass2_0 : public ::System::Object
 	{
 	public:

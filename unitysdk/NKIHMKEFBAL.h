@@ -6,6 +6,8 @@ namespace Cinemachine { class CinemachineVirtualCameraBase; }
 #define NKIHMKEFBAL_HECAPMIIOBE_OFFSET UNITYSDK_OFFSET(0xBC35840)
 #define NKIHMKEFBAL_KGNOLLBFAAH_OFFSET UNITYSDK_OFFSET(0xBC355A0)
 
+inline static constexpr unsigned int NKIHMKEFBAL_TypeDefinitionIndex = 78454;
+
 	class NKIHMKEFBAL : public ::System::Object
 	{
 	public:

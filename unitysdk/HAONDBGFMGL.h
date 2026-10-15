@@ -7,6 +7,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define HAONDBGFMGL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15B9E5B0)
 #define HAONDBGFMGL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15B9E5F0)
 
+inline static constexpr unsigned int HAONDBGFMGL_TypeDefinitionIndex = 52980;
+
 	class HAONDBGFMGL
 	{
 	public:

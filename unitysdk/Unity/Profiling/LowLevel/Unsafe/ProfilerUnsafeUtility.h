@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace Unity::Profiling::LowLevel::Unsafe
 {
+	inline static constexpr unsigned int ProfilerUnsafeUtility_TypeDefinitionIndex = 3953;
+
 	class ProfilerUnsafeUtility : public ::System::Object
 	{
 	public:

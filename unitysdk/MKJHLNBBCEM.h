@@ -10,6 +10,8 @@ namespace RPG::AvatarSystem::Property { template <typename T> class IPropertyCon
 #define MKJHLNBBCEM_GET_BASIC_OFFSET UNITYSDK_OFFSET(0xB998A40)
 #define MKJHLNBBCEM_SET_BASIC_OFFSET UNITYSDK_OFFSET(0xB998A50)
 
+inline static constexpr unsigned int MKJHLNBBCEM_TypeDefinitionIndex = 62712;
+
 	class MKJHLNBBCEM : public ::System::Object
 	{
 	public:

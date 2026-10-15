@@ -27,6 +27,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PersonalizeCardData_TypeDefinitionIndex = 66450;
+
 	class PersonalizeCardData : public ::System::Object
 	{
 	public:

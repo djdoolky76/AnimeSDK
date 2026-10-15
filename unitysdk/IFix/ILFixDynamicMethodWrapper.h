@@ -288,6 +288,8 @@ namespace System::IO { class FileInfo; }
 
 namespace IFix
 {
+	inline static constexpr unsigned int ILFixDynamicMethodWrapper_TypeDefinitionIndex = 35341;
+
 	class ILFixDynamicMethodWrapper : public ::System::Object
 	{
 	public:

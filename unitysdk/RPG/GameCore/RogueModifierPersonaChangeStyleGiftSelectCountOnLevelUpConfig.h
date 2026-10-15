@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueModifierPersonaChangeStyleGiftSelectCountOn
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueModifierPersonaChangeStyleGiftSelectCountOnLevelUpConfig_TypeDefinitionIndex = 17832;
+
 	class RogueModifierPersonaChangeStyleGiftSelectCountOnLevelUpConfig : public ::RPG::GameCore::RogueModifierConfig
 	{
 	public:

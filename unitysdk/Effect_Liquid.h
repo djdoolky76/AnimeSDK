@@ -17,6 +17,8 @@ namespace UnityEngine { class Renderer; }
 #define EFFECT_LIQUID_START_OFFSET UNITYSDK_OFFSET(0x155E17F0)
 #define EFFECT_LIQUID_UPDATE_OFFSET UNITYSDK_OFFSET(0x155E1C80)
 
+inline static constexpr unsigned int Effect_Liquid_TypeDefinitionIndex = 47453;
+
 	class Effect_Liquid : public ::UnityEngine::MonoBehaviour
 	{
 	public:

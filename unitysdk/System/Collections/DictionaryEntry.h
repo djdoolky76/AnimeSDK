@@ -8,6 +8,8 @@ namespace System { class Object; }
 
 namespace System::Collections
 {
+	inline static constexpr unsigned int DictionaryEntry_TypeDefinitionIndex = 1456;
+
 	struct alignas(8) DictionaryEntry
 	{
 		::System::Object* _key; // 0x10

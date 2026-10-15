@@ -32,6 +32,8 @@ namespace System { class String; }
 #define NEGJACBFGHB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EAF4300)
 #define NEGJACBFGHB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EAF4360)
 
+inline static constexpr unsigned int NEGJACBFGHB_TypeDefinitionIndex = 34925;
+
 	class NEGJACBFGHB : public ::System::Object
 	{
 	public:

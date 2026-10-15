@@ -7,6 +7,8 @@ class BNGCBENBDPA;
 #define NGPDCHNFHKK_CLEAR_OFFSET UNITYSDK_OFFSET(0x1C960D30)
 #define NGPDCHNFHKK_CTOR_OFFSET UNITYSDK_OFFSET(0x1C960DE0)
 
+inline static constexpr unsigned int NGPDCHNFHKK_TypeDefinitionIndex = 42029;
+
 	class NGPDCHNFHKK : public ::System::Object
 	{
 	public:

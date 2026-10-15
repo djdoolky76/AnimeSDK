@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace System::Runtime::CompilerServices
 {
+	inline static constexpr unsigned int TypeDependencyAttribute_TypeDefinitionIndex = 1394;
+
 	class TypeDependencyAttribute : public ::System::Attribute
 	{
 	public:

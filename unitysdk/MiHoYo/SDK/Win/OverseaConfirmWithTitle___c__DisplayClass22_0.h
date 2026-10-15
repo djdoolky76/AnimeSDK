@@ -9,6 +9,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::Win
 {
+	inline static constexpr unsigned int OverseaConfirmWithTitle___c__DisplayClass22_0_TypeDefinitionIndex = 9311;
+
 	class OverseaConfirmWithTitle___c__DisplayClass22_0 : public ::System::Object
 	{
 	public:

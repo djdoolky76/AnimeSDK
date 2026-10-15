@@ -12,6 +12,8 @@ namespace RPG::Client { class RogueTournPersonaMapTabLineItem; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueTournPersonaMapTabLineItem_TypeDefinitionIndex = 72911;
+
 	class RogueTournPersonaMapTabLineItem : public ::System::Object
 	{
 	public:

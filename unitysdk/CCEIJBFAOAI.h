@@ -59,6 +59,8 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyLi
 #define CCEIJBFAOAI_REMOVE_ONSINGLEPIECEDESTROYED_OFFSET UNITYSDK_OFFSET(0x1C546FF0)
 #define CCEIJBFAOAI_SET_PROGRESS_OFFSET UNITYSDK_OFFSET(0x1C546C80)
 
+inline static constexpr unsigned int CCEIJBFAOAI_TypeDefinitionIndex = 41790;
+
 	class CCEIJBFAOAI : public ::System::Object
 	{
 	public:

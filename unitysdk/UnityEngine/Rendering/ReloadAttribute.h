@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int ReloadAttribute_TypeDefinitionIndex = 35607;
+
 	class ReloadAttribute : public ::System::Attribute
 	{
 	public:

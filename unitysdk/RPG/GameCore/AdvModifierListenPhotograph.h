@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdvModifierListenPhotograph_TypeDefinitionIndex = 21747;
+
 	class AdvModifierListenPhotograph : public ::RPG::GameCore::TaskConfig
 	{
 	public:

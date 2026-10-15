@@ -12,6 +12,8 @@ namespace System { class Object; }
 #define CLPEDLAFEEB__PROCESSHOUGUMAPSETTLE_D__1_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0xDA23170)
 #define CLPEDLAFEEB__PROCESSHOUGUMAPSETTLE_D__1_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xDA22E00)
 
+inline static constexpr unsigned int CLPEDLAFEEB__ProcessHouguMapSettle_d__1_TypeDefinitionIndex = 80757;
+
 	template <typename T>
 	class CLPEDLAFEEB__ProcessHouguMapSettle_d__1 : public ::System::Object
 	{

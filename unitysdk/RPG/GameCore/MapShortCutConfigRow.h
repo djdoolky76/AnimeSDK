@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MapShortCutConfigRow_TypeDefinitionIndex = 12572;
+
 	class MapShortCutConfigRow : public ::System::Object
 	{
 	public:

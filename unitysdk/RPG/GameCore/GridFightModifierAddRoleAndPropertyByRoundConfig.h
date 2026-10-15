@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GridFightModifierAddRoleAndPropertyByRoundConfig
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightModifierAddRoleAndPropertyByRoundConfig_TypeDefinitionIndex = 19386;
+
 	class GridFightModifierAddRoleAndPropertyByRoundConfig : public ::RPG::GameCore::GridFightModifierConfigBase
 	{
 	public:

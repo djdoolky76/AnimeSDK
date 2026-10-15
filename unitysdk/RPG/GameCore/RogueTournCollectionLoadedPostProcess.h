@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueTournCollectionLoadedPostProcess; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueTournCollectionLoadedPostProcess_TypeDefinitionIndex = 22115;
+
 	class RogueTournCollectionLoadedPostProcess : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -7,6 +7,8 @@ namespace SimpleJSON { class JSONNode; }
 #define FPBPHFDOEOM_CTOR_OFFSET UNITYSDK_OFFSET(0x1590D680)
 #define FPBPHFDOEOM_FKBBJOOEBEF_OFFSET UNITYSDK_OFFSET(0x1590D6A0)
 
+inline static constexpr unsigned int FPBPHFDOEOM_TypeDefinitionIndex = 59008;
+
 	class FPBPHFDOEOM : public ::System::Object
 	{
 	public:

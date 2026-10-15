@@ -17,6 +17,8 @@ namespace System::Runtime::Serialization { class SerializationInfo; }
 
 namespace System::Collections
 {
+	inline static constexpr unsigned int Comparer_TypeDefinitionIndex = 1468;
+
 	class Comparer : public ::System::Object
 	{
 	public:

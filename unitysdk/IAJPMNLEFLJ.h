@@ -25,6 +25,8 @@ namespace System { class Object; }
 #define IAJPMNLEFLJ_OINEMIDPLAN_OFFSET UNITYSDK_OFFSET(0x3C39EB0)
 #define IAJPMNLEFLJ_PMOBHLFDNPH_OFFSET UNITYSDK_OFFSET(0x3C39E60)
 
+inline static constexpr unsigned int IAJPMNLEFLJ_TypeDefinitionIndex = 10704;
+
 	struct alignas(8) IAJPMNLEFLJ
 	{
 		::LELCKJPOPAO* BEHHICMOFIE; // 0x10

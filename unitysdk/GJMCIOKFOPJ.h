@@ -12,6 +12,8 @@ namespace RPG::GameCore { class ChenLingBattleAbility_Branch; }
 #define GJMCIOKFOPJ_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0x15A6FAB0)
 #define GJMCIOKFOPJ_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0x15A6FB80)
 
+inline static constexpr unsigned int GJMCIOKFOPJ_TypeDefinitionIndex = 77894;
+
 	class GJMCIOKFOPJ : public ::JNALBIEDNLH
 	{
 	public:

@@ -29,6 +29,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightTraitConfigBase_TypeDefinitionIndex = 65447;
+
 	class GridFightTraitConfigBase : public ::System::Object
 	{
 	public:

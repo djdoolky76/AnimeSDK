@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace RPG::Client::B51Racing
 {
+	inline static constexpr unsigned int B51RacingNewDevelopTargetStatItemViewModel_TypeDefinitionIndex = 82028;
+
 	class B51RacingNewDevelopTargetStatItemViewModel : public ::System::Object
 	{
 	public:

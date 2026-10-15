@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace MessagePack::Resolvers
 {
+	inline static constexpr unsigned int MessagePackDynamicUnionResolverException_TypeDefinitionIndex = 7268;
+
 	class MessagePackDynamicUnionResolverException : public ::MessagePack::MessagePackSerializationException
 	{
 	public:

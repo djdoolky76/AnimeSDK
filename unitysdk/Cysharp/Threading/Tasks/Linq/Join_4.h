@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T> class IEqualityCo
 
 namespace Cysharp::Threading::Tasks::Linq
 {
+	inline static constexpr unsigned int Join_4_TypeDefinitionIndex = 45401;
+
 	template <typename T1, typename T2, typename T3, typename T4>
 	class Join_4 : public ::System::Object
 	{

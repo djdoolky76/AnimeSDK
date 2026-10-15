@@ -13,6 +13,8 @@ namespace UnityEngine::Timeline { class TimelineClip; }
 
 namespace RPGTools::Timeline::BattlePerform
 {
+	inline static constexpr unsigned int BPCharacterHeadLookAtTrack_TypeDefinitionIndex = 48813;
+
 	class BPCharacterHeadLookAtTrack : public ::RPGTools::Timeline::CharacterTrack
 	{
 	public:

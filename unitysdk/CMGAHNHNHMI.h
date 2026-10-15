@@ -15,6 +15,8 @@ namespace UnityEngine { class Transform; }
 #define CMGAHNHNHMI_LJOLGCNKIEH_OFFSET UNITYSDK_OFFSET(0xDA30E50)
 #define CMGAHNHNHMI_OMJCIPOOJNF_OFFSET UNITYSDK_OFFSET(0xDA31000)
 
+inline static constexpr unsigned int CMGAHNHNHMI_TypeDefinitionIndex = 78024;
+
 	class CMGAHNHNHMI : public ::EFENAEKOKBI
 	{
 	public:

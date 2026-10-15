@@ -4,6 +4,8 @@
 
 #define MHKDMEIDFBC_CTOR_OFFSET UNITYSDK_OFFSET(0xB944DE0)
 
+inline static constexpr unsigned int MHKDMEIDFBC_TypeDefinitionIndex = 81270;
+
 	class MHKDMEIDFBC : public ::System::Object
 	{
 	public:

@@ -39,6 +39,8 @@ namespace UnityEngine { class Transform; }
 #define DINBDFEFOFH_PPBADNLGBJD_OFFSET UNITYSDK_OFFSET(0xF223510)
 #define DINBDFEFOFH__ONBIND_OFFSET UNITYSDK_OFFSET(0xF222A20)
 
+inline static constexpr unsigned int DINBDFEFOFH_TypeDefinitionIndex = 71830;
+
 	class DINBDFEFOFH : public ::FMPCODLIOLG
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueModifierModifyShopRefreshCountConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueModifierModifyShopRefreshCountConfig_TypeDefinitionIndex = 17749;
+
 	class RogueModifierModifyShopRefreshCountConfig : public ::RPG::GameCore::RogueModifierConfig
 	{
 	public:

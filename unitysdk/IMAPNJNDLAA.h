@@ -4,6 +4,8 @@
 
 #define IMAPNJNDLAA_CTOR_OFFSET UNITYSDK_OFFSET(0x1CF21270)
 
+inline static constexpr unsigned int IMAPNJNDLAA_TypeDefinitionIndex = 25024;
+
 	class IMAPNJNDLAA : public ::PJPHDHBAADE
 	{
 	public:

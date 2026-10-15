@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define LAKFMPLNEID_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB5E65E0)
 #define LAKFMPLNEID_TICK_OFFSET UNITYSDK_OFFSET(0xB5E6350)
 
+inline static constexpr unsigned int LAKFMPLNEID_TypeDefinitionIndex = 53081;
+
 	class LAKFMPLNEID
 	{
 	public:

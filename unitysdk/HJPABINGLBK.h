@@ -27,6 +27,8 @@
 #define HJPABINGLBK_SET_STATEBEFOREPAUSE_OFFSET UNITYSDK_OFFSET(0x15D36080)
 #define HJPABINGLBK_SET_STATE_OFFSET UNITYSDK_OFFSET(0x15D36060)
 
+inline static constexpr unsigned int HJPABINGLBK_TypeDefinitionIndex = 81869;
+
 	class HJPABINGLBK : public ::System::Object
 	{
 	public:

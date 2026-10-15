@@ -15,6 +15,8 @@ namespace System::Security::Cryptography::X509Certificates { class X509Chain; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int Thunder___c_TypeDefinitionIndex = 46298;
+
 	class Thunder___c : public ::System::Object
 	{
 	public:

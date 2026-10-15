@@ -50,6 +50,8 @@ namespace System { class String; }
 #define MCHAMBDHPEN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E9F6230)
 #define MCHAMBDHPEN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E9F6290)
 
+inline static constexpr unsigned int MCHAMBDHPEN_TypeDefinitionIndex = 25130;
+
 	class MCHAMBDHPEN : public ::System::Object
 	{
 	public:

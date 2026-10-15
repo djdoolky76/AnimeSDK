@@ -31,6 +31,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ChenLingBattleSoldierConfig_TypeDefinitionIndex = 61451;
+
 	class ChenLingBattleSoldierConfig : public ::System::Object
 	{
 	public:

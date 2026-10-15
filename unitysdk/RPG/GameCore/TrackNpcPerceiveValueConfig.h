@@ -9,6 +9,8 @@ namespace RPG::GameCore { class TrackNpcPerceiveValueConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TrackNpcPerceiveValueConfig_TypeDefinitionIndex = 22177;
+
 	class TrackNpcPerceiveValueConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

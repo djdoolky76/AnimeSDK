@@ -8,6 +8,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define HOMGDGGFIBJ_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x15DBBF30)
 #define HOMGDGGFIBJ_TICK_OFFSET UNITYSDK_OFFSET(0x15DBBF80)
 
+inline static constexpr unsigned int HOMGDGGFIBJ_TypeDefinitionIndex = 52254;
+
 	class HOMGDGGFIBJ
 	{
 	public:

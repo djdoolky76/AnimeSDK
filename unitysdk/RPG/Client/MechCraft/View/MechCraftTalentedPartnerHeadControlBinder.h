@@ -12,6 +12,8 @@ namespace UnityEngine::UI { class Image; }
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftTalentedPartnerHeadControlBinder_TypeDefinitionIndex = 79833;
+
 	class MechCraftTalentedPartnerHeadControlBinder : public ::RPG::Client::MechCraft::View::MechCraftBinderBase
 	{
 	public:

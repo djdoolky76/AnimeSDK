@@ -96,6 +96,8 @@ namespace UnityEngine { class RectTransform; }
 
 namespace RPG::Client::FateRin::View::Battle
 {
+	inline static constexpr unsigned int FateRinBattleHudInputHandler_TypeDefinitionIndex = 80671;
+
 	class FateRinBattleHudInputHandler : public ::UnityEngine::MonoBehaviour
 	{
 	public:

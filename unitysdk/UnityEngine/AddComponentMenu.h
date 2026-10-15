@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int AddComponentMenu_TypeDefinitionIndex = 4304;
+
 	class AddComponentMenu : public ::System::Attribute
 	{
 	public:

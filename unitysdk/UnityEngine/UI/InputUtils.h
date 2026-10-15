@@ -14,6 +14,8 @@ namespace UnityEngine::UI { class IInputGetter; }
 
 namespace UnityEngine::UI
 {
+	inline static constexpr unsigned int InputUtils_TypeDefinitionIndex = 6875;
+
 	class InputUtils : public ::System::Object
 	{
 	public:

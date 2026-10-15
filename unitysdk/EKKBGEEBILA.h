@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define EKKBGEEBILA_CTOR_OFFSET UNITYSDK_OFFSET(0x1550C730)
 #define EKKBGEEBILA_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1550C760)
 
+inline static constexpr unsigned int EKKBGEEBILA_TypeDefinitionIndex = 55411;
+
 	class EKKBGEEBILA
 	{
 	public:

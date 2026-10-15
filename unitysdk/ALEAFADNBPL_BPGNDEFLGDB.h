@@ -7,6 +7,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define ALEAFADNBPL_BPGNDEFLGDB_BEMHFPJIJME_OFFSET UNITYSDK_OFFSET(0x15565090)
 #define ALEAFADNBPL_BPGNDEFLGDB_CTOR_OFFSET UNITYSDK_OFFSET(0x155650D0)
 
+inline static constexpr unsigned int ALEAFADNBPL_BPGNDEFLGDB_TypeDefinitionIndex = 49210;
+
 	class ALEAFADNBPL_BPGNDEFLGDB : public ::JHPHMGHKGEN
 	{
 	public:

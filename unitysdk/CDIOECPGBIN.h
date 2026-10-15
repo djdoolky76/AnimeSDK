@@ -6,6 +6,8 @@ namespace RPG::GameCore { class ToastLockFunction; }
 #define CDIOECPGBIN_CTOR_OFFSET UNITYSDK_OFFSET(0xC76AC10)
 #define CDIOECPGBIN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC76AC40)
 
+inline static constexpr unsigned int CDIOECPGBIN_TypeDefinitionIndex = 53406;
+
 	class CDIOECPGBIN
 	{
 	public:

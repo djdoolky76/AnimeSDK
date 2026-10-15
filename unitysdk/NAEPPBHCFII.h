@@ -11,6 +11,8 @@ namespace System { class String; }
 #define NAEPPBHCFII_CTOR_OFFSET UNITYSDK_OFFSET(0x1D1E6900)
 #define NAEPPBHCFII_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D1E6400)
 
+inline static constexpr unsigned int NAEPPBHCFII_TypeDefinitionIndex = 15067;
+
 	class NAEPPBHCFII : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyLi
 #define HCPNPACKLGI_CTOR_OFFSET UNITYSDK_OFFSET(0x1C664820)
 #define HCPNPACKLGI_IMBNGHDBDLJ_OFFSET UNITYSDK_OFFSET(0x1C664850)
 
+inline static constexpr unsigned int HCPNPACKLGI_TypeDefinitionIndex = 37435;
+
 	class HCPNPACKLGI
 	{
 	public:

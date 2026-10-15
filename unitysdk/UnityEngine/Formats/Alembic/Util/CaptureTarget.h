@@ -9,6 +9,8 @@ namespace System { class Type; }
 
 namespace UnityEngine::Formats::Alembic::Util
 {
+	inline static constexpr unsigned int CaptureTarget_TypeDefinitionIndex = 45759;
+
 	class CaptureTarget : public ::System::Attribute
 	{
 	public:

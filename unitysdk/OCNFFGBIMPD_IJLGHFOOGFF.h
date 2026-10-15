@@ -6,6 +6,8 @@ namespace RPG::GameCore { class BattleGridFightTeamTraitData; }
 
 #define OCNFFGBIMPD_IJLGHFOOGFF_CTOR_OFFSET UNITYSDK_OFFSET(0xBD72EC0)
 
+inline static constexpr unsigned int OCNFFGBIMPD_IJLGHFOOGFF_TypeDefinitionIndex = 72294;
+
 	class OCNFFGBIMPD_IJLGHFOOGFF : public ::System::Object
 	{
 	public:

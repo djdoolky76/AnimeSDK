@@ -14,6 +14,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AssetsPathConfig_TypeDefinitionIndex = 60011;
+
 	class AssetsPathConfig : public ::UnityEngine::ScriptableObject
 	{
 	public:

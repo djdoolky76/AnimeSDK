@@ -25,6 +25,8 @@ namespace System { class String; }
 #define CHENLCDDMGN_PKBLMLKLHAO_OFFSET UNITYSDK_OFFSET(0xCC94420)
 #define CHENLCDDMGN_TEARDOWN_OFFSET UNITYSDK_OFFSET(0xCC93E90)
 
+inline static constexpr unsigned int CHENLCDDMGN_TypeDefinitionIndex = 76815;
+
 	class CHENLCDDMGN : public ::System::Object
 	{
 	public:

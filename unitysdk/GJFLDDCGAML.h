@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TriggerAdditiveAnimState; }
 #define GJFLDDCGAML_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x15A66BF0)
 #define GJFLDDCGAML_TICK_OFFSET UNITYSDK_OFFSET(0x15A66C40)
 
+inline static constexpr unsigned int GJFLDDCGAML_TypeDefinitionIndex = 55713;
+
 	class GJFLDDCGAML : public ::GELIALJDFBL
 	{
 	public:

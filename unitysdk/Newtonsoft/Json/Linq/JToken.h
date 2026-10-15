@@ -111,6 +111,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 
 namespace Newtonsoft::Json::Linq
 {
+	inline static constexpr unsigned int JToken_TypeDefinitionIndex = 9780;
+
 	class JToken : public ::System::Object
 	{
 	public:

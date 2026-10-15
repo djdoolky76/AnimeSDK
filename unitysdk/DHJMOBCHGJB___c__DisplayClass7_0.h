@@ -11,6 +11,8 @@ namespace System { class String; }
 #define DHJMOBCHGJB___C__DISPLAYCLASS7_0_CTOR_OFFSET UNITYSDK_OFFSET(0xEBE1540)
 #define DHJMOBCHGJB___C__DISPLAYCLASS7_0__CREATEPIXAIRMISSILEENTITY_B__0_OFFSET UNITYSDK_OFFSET(0xEBE3050)
 
+inline static constexpr unsigned int DHJMOBCHGJB___c__DisplayClass7_0_TypeDefinitionIndex = 77305;
+
 	class DHJMOBCHGJB___c__DisplayClass7_0 : public ::System::Object
 	{
 	public:

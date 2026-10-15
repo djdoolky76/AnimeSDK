@@ -6,6 +6,8 @@
 
 namespace RPG::Client::SwordTraining
 {
+	inline static constexpr unsigned int SwordTrainingStartStoryData_TypeDefinitionIndex = 75051;
+
 	class SwordTrainingStartStoryData : public ::System::Object
 	{
 	public:

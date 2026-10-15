@@ -8,6 +8,8 @@
 
 namespace System::Xml
 {
+	inline static constexpr unsigned int XmlNodeList_TypeDefinitionIndex = 1917;
+
 	class XmlNodeList : public ::System::Object
 	{
 	public:

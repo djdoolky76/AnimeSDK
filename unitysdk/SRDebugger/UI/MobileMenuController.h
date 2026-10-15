@@ -21,6 +21,8 @@ namespace UnityEngine::UI { class Button; }
 
 namespace SRDebugger::UI
 {
+	inline static constexpr unsigned int MobileMenuController_TypeDefinitionIndex = 37984;
+
 	class MobileMenuController : public ::SRF::SRMonoBehaviourEx
 	{
 	public:

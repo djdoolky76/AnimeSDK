@@ -11,6 +11,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client::Billboard
 {
+	inline static constexpr unsigned int BubbleBillboardData_TypeDefinitionIndex = 74984;
+
 	class BubbleBillboardData : public ::System::Object
 	{
 	public:

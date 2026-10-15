@@ -10,6 +10,8 @@ namespace System::ComponentModel { class TypeDescriptor_MemberDescriptorComparer
 
 namespace System::ComponentModel
 {
+	inline static constexpr unsigned int TypeDescriptor_MemberDescriptorComparer_TypeDefinitionIndex = 2640;
+
 	class TypeDescriptor_MemberDescriptorComparer : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define JGHHFLKCEDA_KGCLCONPPNF_OFFSET UNITYSDK_OFFSET(0xB19A750)
 #define JGHHFLKCEDA__ADDPACKETHANDLERS_OFFSET UNITYSDK_OFFSET(0xB19A710)
 
+inline static constexpr unsigned int JGHHFLKCEDA_TypeDefinitionIndex = 64361;
+
 	class JGHHFLKCEDA : public ::RPG::Client::BaseModule
 	{
 	public:

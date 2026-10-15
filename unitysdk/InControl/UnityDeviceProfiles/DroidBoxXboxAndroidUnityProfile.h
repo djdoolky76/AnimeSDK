@@ -7,6 +7,8 @@
 
 namespace InControl::UnityDeviceProfiles
 {
+	inline static constexpr unsigned int DroidBoxXboxAndroidUnityProfile_TypeDefinitionIndex = 40944;
+
 	class DroidBoxXboxAndroidUnityProfile : public ::InControl::InputDeviceProfile
 	{
 	public:

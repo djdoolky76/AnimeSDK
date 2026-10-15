@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AirshipBirdAudio_TypeDefinitionIndex = 59800;
+
 	class AirshipBirdAudio : public ::UnityEngine::MonoBehaviour
 	{
 	public:

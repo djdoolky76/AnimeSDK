@@ -11,6 +11,8 @@ namespace UnityEngine { class Animator; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoAnimatorStateSimpleEvent_TimedEvent_TypeDefinitionIndex = 68519;
+
 	class MonoAnimatorStateSimpleEvent_TimedEvent : public ::RPG::Client::MonoAnimatorStateSimpleEvent_StateEvent
 	{
 	public:

@@ -14,6 +14,8 @@ namespace RPG::GameCore { class WaitLittleGameCustomEvent; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int WaitLittleGameCustomEvent_TypeDefinitionIndex = 21421;
+
 	class WaitLittleGameCustomEvent : public ::RPG::GameCore::AdvWaitingEventBase
 	{
 	public:

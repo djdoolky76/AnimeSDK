@@ -32,6 +32,8 @@ namespace System { class String; }
 #define OAAKAIBPENC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EBA3BC0)
 #define OAAKAIBPENC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EBA3C20)
 
+inline static constexpr unsigned int OAAKAIBPENC_TypeDefinitionIndex = 25766;
+
 	class OAAKAIBPENC : public ::System::Object
 	{
 	public:

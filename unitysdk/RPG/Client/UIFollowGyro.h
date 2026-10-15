@@ -25,6 +25,8 @@ namespace UnityEngine { class RectTransform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int UIFollowGyro_TypeDefinitionIndex = 69100;
+
 	class UIFollowGyro : public ::UnityEngine::MonoBehaviour
 	{
 	public:

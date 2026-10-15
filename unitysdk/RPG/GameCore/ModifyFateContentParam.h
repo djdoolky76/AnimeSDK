@@ -13,6 +13,8 @@ namespace RPG::GameCore { class ModifyFateContentParam; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ModifyFateContentParam_TypeDefinitionIndex = 23285;
+
 	class ModifyFateContentParam : public ::RPG::GameCore::TaskConfig
 	{
 	public:

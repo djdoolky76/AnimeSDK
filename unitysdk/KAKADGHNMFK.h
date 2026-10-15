@@ -251,6 +251,8 @@ namespace System::Collections::Generic { template <typename T> class Stack_1; }
 #define KAKADGHNMFK_PPKPKBDDBBN_OFFSET UNITYSDK_OFFSET(0x1CBABD30)
 #define KAKADGHNMFK_PPPAJGDDFOK_OFFSET UNITYSDK_OFFSET(0x1CBADF30)
 
+inline static constexpr unsigned int KAKADGHNMFK_TypeDefinitionIndex = 42573;
+
 	class KAKADGHNMFK : public ::Entitas::Entity
 	{
 	public:

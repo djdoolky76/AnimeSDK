@@ -6,6 +6,8 @@ namespace UnityEngine { class Transform; }
 
 #define NKLCKJGMDHG_DEHNPNEAMBN_CTOR_OFFSET UNITYSDK_OFFSET(0xBC3A9F0)
 
+inline static constexpr unsigned int NKLCKJGMDHG_DEHNPNEAMBN_TypeDefinitionIndex = 71800;
+
 	class NKLCKJGMDHG_DEHNPNEAMBN : public ::System::Object
 	{
 	public:

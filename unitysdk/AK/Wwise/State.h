@@ -14,6 +14,8 @@ class WwiseStateReference;
 
 namespace AK::Wwise
 {
+	inline static constexpr unsigned int State_TypeDefinitionIndex = 44983;
+
 	class State : public ::AK::Wwise::BaseGroupType
 	{
 	public:

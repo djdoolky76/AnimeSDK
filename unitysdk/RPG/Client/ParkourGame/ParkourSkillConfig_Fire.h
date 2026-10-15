@@ -7,6 +7,8 @@ namespace RPG::Client::ParkourGame { class MonoParkourProjectile; }
 
 namespace RPG::Client::ParkourGame
 {
+	inline static constexpr unsigned int ParkourSkillConfig_Fire_TypeDefinitionIndex = 74126;
+
 	class ParkourSkillConfig_Fire : public ::RPG::Client::ParkourGame::ParkourSkillConfig
 	{
 	public:

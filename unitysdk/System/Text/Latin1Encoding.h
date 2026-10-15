@@ -23,6 +23,8 @@ namespace System::Text { class EncoderNLS; }
 
 namespace System::Text
 {
+	inline static constexpr unsigned int Latin1Encoding_TypeDefinitionIndex = 497;
+
 	class Latin1Encoding : public ::System::Text::EncodingNLS
 	{
 	public:

@@ -31,6 +31,8 @@ namespace System { class String; }
 #define JHECCCANFGP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E743780)
 #define JHECCCANFGP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E7437E0)
 
+inline static constexpr unsigned int JHECCCANFGP_TypeDefinitionIndex = 33666;
+
 	class JHECCCANFGP : public ::System::Object
 	{
 	public:

@@ -15,6 +15,8 @@
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int BoxCollider2D_TypeDefinitionIndex = 5815;
+
 	class BoxCollider2D : public ::UnityEngine::Collider2D
 	{
 	public:

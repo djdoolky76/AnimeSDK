@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TravelShipHideUI; }
 #define ILCMHGINGKN_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x164A84B0)
 #define ILCMHGINGKN_TICK_OFFSET UNITYSDK_OFFSET(0x164A8320)
 
+inline static constexpr unsigned int ILCMHGINGKN_TypeDefinitionIndex = 53438;
+
 	class ILCMHGINGKN : public ::GELIALJDFBL
 	{
 	public:

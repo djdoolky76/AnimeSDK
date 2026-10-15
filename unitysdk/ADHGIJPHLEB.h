@@ -35,6 +35,8 @@ namespace System { class String; }
 #define ADHGIJPHLEB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DDE19A0)
 #define ADHGIJPHLEB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DDE1A00)
 
+inline static constexpr unsigned int ADHGIJPHLEB_TypeDefinitionIndex = 25633;
+
 	class ADHGIJPHLEB : public ::System::Object
 	{
 	public:

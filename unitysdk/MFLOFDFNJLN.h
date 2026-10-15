@@ -38,6 +38,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define MFLOFDFNJLN_ONPLUGININIT_OFFSET UNITYSDK_OFFSET(0xB906BE0)
 #define MFLOFDFNJLN_ONPLUGINUNINIT_OFFSET UNITYSDK_OFFSET(0xB907240)
 
+inline static constexpr unsigned int MFLOFDFNJLN_TypeDefinitionIndex = 54254;
+
 	class MFLOFDFNJLN : public ::System::Object
 	{
 	public:

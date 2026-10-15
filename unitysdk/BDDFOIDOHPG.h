@@ -8,6 +8,8 @@ namespace RPG::Client { class FateRoundInfoItem; }
 #define BDDFOIDOHPG_CEJDFOKPHKC_OFFSET UNITYSDK_OFFSET(0x162F1EE0)
 #define BDDFOIDOHPG_CTOR_OFFSET UNITYSDK_OFFSET(0x162F1E30)
 
+inline static constexpr unsigned int BDDFOIDOHPG_TypeDefinitionIndex = 64113;
+
 	class BDDFOIDOHPG : public ::System::Object
 	{
 	public:

@@ -15,6 +15,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByCompareScepterMainUnitEffectTag_TypeDefinitionIndex = 23109;
+
 	class ByCompareScepterMainUnitEffectTag : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

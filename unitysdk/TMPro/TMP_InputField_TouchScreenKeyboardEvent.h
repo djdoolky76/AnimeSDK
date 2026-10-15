@@ -5,6 +5,8 @@
 
 namespace TMPro
 {
+	inline static constexpr unsigned int TMP_InputField_TouchScreenKeyboardEvent_TypeDefinitionIndex = 44603;
+
 	class TMP_InputField_TouchScreenKeyboardEvent
 	{
 	public:

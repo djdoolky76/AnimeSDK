@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 #define MECGILEMLDK_CHAKABNICEL_OFFSET UNITYSDK_OFFSET(0xB8BB180)
 #define MECGILEMLDK_CTOR_OFFSET UNITYSDK_OFFSET(0xB8BB240)
 
+inline static constexpr unsigned int MECGILEMLDK_TypeDefinitionIndex = 77512;
+
 	class MECGILEMLDK : public ::System::Object
 	{
 	public:

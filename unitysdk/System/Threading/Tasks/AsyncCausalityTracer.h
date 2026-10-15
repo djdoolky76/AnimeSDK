@@ -16,6 +16,8 @@ namespace System { class String; }
 
 namespace System::Threading::Tasks
 {
+	inline static constexpr unsigned int AsyncCausalityTracer_TypeDefinitionIndex = 888;
+
 	class AsyncCausalityTracer : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TriggerEnterSafeUI; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TriggerEnterSafeUI_TypeDefinitionIndex = 22080;
+
 	class TriggerEnterSafeUI : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -18,6 +18,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TrialObjectiveData_TypeDefinitionIndex = 72361;
+
 	class TrialObjectiveData : public ::System::Object
 	{
 	public:

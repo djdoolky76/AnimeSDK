@@ -13,6 +13,8 @@
 #define KLJGNBBMJCM_SET_DELTATIME_OFFSET UNITYSDK_OFFSET(0xB52B650)
 #define KLJGNBBMJCM_SET_TIMESCALE_OFFSET UNITYSDK_OFFSET(0xB52B670)
 
+inline static constexpr unsigned int KLJGNBBMJCM_TypeDefinitionIndex = 77309;
+
 	class KLJGNBBMJCM : public ::System::Object
 	{
 	public:

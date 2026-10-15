@@ -75,6 +75,8 @@ namespace System { class String; }
 #define HGJGNMPOIKN_REMOVE_ONSERVERDISCONNECTED_OFFSET UNITYSDK_OFFSET(0x15CA4250)
 #define HGJGNMPOIKN_REMOVE_ONSERVERSTOPPED_OFFSET UNITYSDK_OFFSET(0x15CA43D0)
 
+inline static constexpr unsigned int HGJGNMPOIKN_TypeDefinitionIndex = 69364;
+
 	class HGJGNMPOIKN : public ::System::Object
 	{
 	public:

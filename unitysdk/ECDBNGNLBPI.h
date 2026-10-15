@@ -9,6 +9,8 @@
 #define ECDBNGNLBPI_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x12D0A750)
 #define ECDBNGNLBPI_JAILHGGFLDH_OFFSET UNITYSDK_OFFSET(0x12D0A760)
 
+inline static constexpr unsigned int ECDBNGNLBPI_TypeDefinitionIndex = 56160;
+
 	class ECDBNGNLBPI : public ::DBGDNLLDPFI
 	{
 	public:

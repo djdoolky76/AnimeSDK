@@ -5,6 +5,8 @@ namespace System { class String; }
 
 #define MBBNJLBLEOL_CTOR_OFFSET UNITYSDK_OFFSET(0x1C924B20)
 
+inline static constexpr unsigned int MBBNJLBLEOL_TypeDefinitionIndex = 43273;
+
 	class MBBNJLBLEOL : public ::System::Object
 	{
 	public:

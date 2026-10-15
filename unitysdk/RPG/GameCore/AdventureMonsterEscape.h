@@ -10,6 +10,8 @@ namespace RPG::GameCore { class AdventureMonsterEscape; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdventureMonsterEscape_TypeDefinitionIndex = 20220;
+
 	class AdventureMonsterEscape : public ::RPG::GameCore::TaskConfig
 	{
 	public:

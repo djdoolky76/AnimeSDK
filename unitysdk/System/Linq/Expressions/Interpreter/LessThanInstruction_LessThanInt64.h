@@ -9,6 +9,8 @@ namespace System::Linq::Expressions::Interpreter { class InterpretedFrame; }
 
 namespace System::Linq::Expressions::Interpreter
 {
+	inline static constexpr unsigned int LessThanInstruction_LessThanInt64_TypeDefinitionIndex = 3458;
+
 	class LessThanInstruction_LessThanInt64 : public ::System::Linq::Expressions::Interpreter::LessThanInstruction
 	{
 	public:

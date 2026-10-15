@@ -31,6 +31,8 @@ namespace UnityEngine::UI { class Text; }
 #define GONKCHICAAL__ONBIND_OFFSET UNITYSDK_OFFSET(0x15B3AA60)
 #define GONKCHICAAL__ONTICK_OFFSET UNITYSDK_OFFSET(0x15B3AF00)
 
+inline static constexpr unsigned int GONKCHICAAL_TypeDefinitionIndex = 71453;
+
 	class GONKCHICAAL : public ::FMPCODLIOLG
 	{
 	public:

@@ -13,6 +13,8 @@ namespace UnityEngine::UI { class Image; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoUIMaterialTextureLoader_TypeDefinitionIndex = 68980;
+
 	class MonoUIMaterialTextureLoader : public ::UnityEngine::MonoBehaviour
 	{
 	public:

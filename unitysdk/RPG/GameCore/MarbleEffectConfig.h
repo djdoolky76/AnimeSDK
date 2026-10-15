@@ -10,6 +10,8 @@ namespace RPG::GameCore { class MarbleEffectConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MarbleEffectConfig_TypeDefinitionIndex = 16909;
+
 	class MarbleEffectConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

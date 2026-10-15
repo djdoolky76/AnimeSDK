@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define FABJPIKENNK_EVALUATE_OFFSET UNITYSDK_OFFSET(0x156642A0)
 #define FABJPIKENNK_TRANSFORM_OFFSET UNITYSDK_OFFSET(0x15664210)
 
+inline static constexpr unsigned int FABJPIKENNK_TypeDefinitionIndex = 59075;
+
 	class FABJPIKENNK : public ::System::Object
 	{
 	public:

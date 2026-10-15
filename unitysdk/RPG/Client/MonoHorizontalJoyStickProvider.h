@@ -12,6 +12,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoHorizontalJoyStickProvider_TypeDefinitionIndex = 61315;
+
 	class MonoHorizontalJoyStickProvider : public ::RPG::Client::MonoJoyStickProvider
 	{
 	public:

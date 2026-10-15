@@ -4,6 +4,8 @@
 
 #define CIADJCABOFD_CTOR_OFFSET UNITYSDK_OFFSET(0xCF63C50)
 
+inline static constexpr unsigned int CIADJCABOFD_TypeDefinitionIndex = 65098;
+
 	class CIADJCABOFD : public ::ILEMEHDHELP
 	{
 	public:

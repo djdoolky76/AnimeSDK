@@ -10,6 +10,8 @@ namespace XLua { class ObjectTranslator; }
 
 namespace XLua
 {
+	inline static constexpr unsigned int ObjectTranslator_IniterAdder_TableOptimize_TypeDefinitionIndex = 50068;
+
 	class ObjectTranslator_IniterAdder_TableOptimize : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AetherDivideConstCommonRow_TypeDefinitionIndex = 10922;
+
 	class AetherDivideConstCommonRow : public ::System::Object
 	{
 	public:

@@ -16,6 +16,8 @@ namespace System { class Type; }
 #define AIHGALMCGPA_GET_MEMBERNAME_OFFSET UNITYSDK_OFFSET(0xEBA4CA0)
 #define AIHGALMCGPA_GET_PATH_OFFSET UNITYSDK_OFFSET(0xEBA4C80)
 
+inline static constexpr unsigned int AIHGALMCGPA_TypeDefinitionIndex = 49034;
+
 	class AIHGALMCGPA : public ::System::Attribute
 	{
 	public:

@@ -29,6 +29,8 @@ namespace System::Text { class StringBuilder; }
 
 namespace IniParserEx
 {
+	inline static constexpr unsigned int Token_TypeDefinitionIndex = 3924;
+
 	class Token : public ::System::Object
 	{
 	public:

@@ -141,6 +141,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightSettleRecord_TypeDefinitionIndex = 65208;
+
 	class GridFightSettleRecord : public ::System::Object
 	{
 	public:

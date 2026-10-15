@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace StageBudgetTool
 {
+	inline static constexpr unsigned int Passage_TypeDefinitionIndex = 47723;
+
 	class Passage : public ::System::Object
 	{
 	public:

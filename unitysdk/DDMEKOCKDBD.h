@@ -33,6 +33,8 @@ namespace System { class String; }
 #define DDMEKOCKDBD_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E188920)
 #define DDMEKOCKDBD_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E188980)
 
+inline static constexpr unsigned int DDMEKOCKDBD_TypeDefinitionIndex = 30511;
+
 	class DDMEKOCKDBD : public ::System::Object
 	{
 	public:

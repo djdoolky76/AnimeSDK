@@ -8,6 +8,8 @@
 #define KHPIHFGEONC_IFMDIELKPGL_OFFSET UNITYSDK_OFFSET(0xB416340)
 #define KHPIHFGEONC_OODEPOBHJLO_OFFSET UNITYSDK_OFFSET(0xB4162F0)
 
+inline static constexpr unsigned int KHPIHFGEONC_TypeDefinitionIndex = 54421;
+
 	class KHPIHFGEONC : public ::System::Object
 	{
 	public:

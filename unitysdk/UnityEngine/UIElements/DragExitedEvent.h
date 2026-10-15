@@ -12,6 +12,8 @@ namespace UnityEngine::UIElements { class IPanel; }
 
 namespace UnityEngine::UIElements
 {
+	inline static constexpr unsigned int DragExitedEvent_TypeDefinitionIndex = 5923;
+
 	class DragExitedEvent
 	{
 	public:

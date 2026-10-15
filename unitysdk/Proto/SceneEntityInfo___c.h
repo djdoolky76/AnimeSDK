@@ -10,6 +10,8 @@ namespace System { class Object; }
 
 namespace Proto
 {
+	inline static constexpr unsigned int SceneEntityInfo___c_TypeDefinitionIndex = 33941;
+
 	class SceneEntityInfo___c : public ::System::Object
 	{
 	public:

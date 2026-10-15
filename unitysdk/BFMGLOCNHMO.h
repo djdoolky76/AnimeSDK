@@ -25,6 +25,8 @@ namespace System { class String; }
 #define BFMGLOCNHMO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EA6F010)
 #define BFMGLOCNHMO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EA6F070)
 
+inline static constexpr unsigned int BFMGLOCNHMO_TypeDefinitionIndex = 31648;
+
 	class BFMGLOCNHMO : public ::System::Object
 	{
 	public:

@@ -17,6 +17,8 @@ namespace UnityEngine { class Animator; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PropEffect_TypeDefinitionIndex = 70705;
+
 	class PropEffect : public ::RPG::Client::MaterialBlockEffectBase
 	{
 	public:

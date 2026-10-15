@@ -11,6 +11,8 @@ namespace RPG::Client { class AttachmentSolver; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AdditiveHitWeaponAttachmentHandler_TypeDefinitionIndex = 68353;
+
 	class AdditiveHitWeaponAttachmentHandler : public ::UnityEngine::MonoBehaviour
 	{
 	public:

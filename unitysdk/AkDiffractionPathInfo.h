@@ -29,6 +29,8 @@ class AkTransform;
 #define AKDIFFRACTIONPATHINFO_SET_TOTLENGTH_OFFSET UNITYSDK_OFFSET(0x1F58D090)
 #define AKDIFFRACTIONPATHINFO_SET_VIRTUALPOS_OFFSET UNITYSDK_OFFSET(0x1F58CB80)
 
+inline static constexpr unsigned int AkDiffractionPathInfo_TypeDefinitionIndex = 44735;
+
 	class AkDiffractionPathInfo : public ::System::Object
 	{
 	public:

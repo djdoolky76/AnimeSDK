@@ -10,6 +10,8 @@ namespace RPG::GameCore { class OpenTarotBookletPageForCharater; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int OpenTarotBookletPageForCharater_TypeDefinitionIndex = 22353;
+
 	class OpenTarotBookletPageForCharater : public ::RPG::GameCore::TaskConfig
 	{
 	public:

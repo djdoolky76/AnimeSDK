@@ -9,6 +9,8 @@ namespace System { class Object; }
 #define PNBBCFAFDHB_CTOR_OFFSET UNITYSDK_OFFSET(0xC332BE0)
 #define PNBBCFAFDHB_KFPIIOKMALE_OFFSET UNITYSDK_OFFSET(0xC332D20)
 
+inline static constexpr unsigned int PNBBCFAFDHB_TypeDefinitionIndex = 73551;
+
 	class PNBBCFAFDHB : public ::GHJDEAEBHGA
 	{
 	public:

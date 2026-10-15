@@ -11,6 +11,8 @@ namespace System { class String; }
 #define OKOHOMMEHIH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBEFA000)
 #define OKOHOMMEHIH_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xBEFA780)
 
+inline static constexpr unsigned int OKOHOMMEHIH_TypeDefinitionIndex = 58065;
+
 	class OKOHOMMEHIH
 	{
 	public:

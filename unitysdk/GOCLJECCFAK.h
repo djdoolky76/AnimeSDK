@@ -13,6 +13,8 @@ namespace System { class String; }
 #define GOCLJECCFAK_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CE717A0)
 #define GOCLJECCFAK_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CE71760)
 
+inline static constexpr unsigned int GOCLJECCFAK_TypeDefinitionIndex = 23609;
+
 	class GOCLJECCFAK : public ::RPG::GameCore::TaskConfig
 	{
 	public:

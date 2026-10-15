@@ -16,6 +16,8 @@ namespace Unity::IL2CPP::CompilerServices { class Il2CppIntrinsics_6138A94ECB4B0
 
 namespace Unity::IL2CPP::CompilerServices
 {
+	inline static constexpr unsigned int Il2CppIntrinsics_6138A94ECB4B0862_TypeDefinitionIndex = 7126;
+
 	class Il2CppIntrinsics_6138A94ECB4B0862 : public ::System::Object
 	{
 	public:

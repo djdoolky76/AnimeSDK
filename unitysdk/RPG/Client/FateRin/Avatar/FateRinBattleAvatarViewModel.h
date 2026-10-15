@@ -67,6 +67,8 @@ namespace System { class String; }
 
 namespace RPG::Client::FateRin::Avatar
 {
+	inline static constexpr unsigned int FateRinBattleAvatarViewModel_TypeDefinitionIndex = 81236;
+
 	class FateRinBattleAvatarViewModel : public ::RPG::Client::FateRin::BaseViewModel
 	{
 	public:

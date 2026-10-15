@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define BJFPLGBNDLL_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB799780)
 #define BJFPLGBNDLL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB799820)
 
+inline static constexpr unsigned int BJFPLGBNDLL_TypeDefinitionIndex = 56378;
+
 	class BJFPLGBNDLL
 	{
 	public:

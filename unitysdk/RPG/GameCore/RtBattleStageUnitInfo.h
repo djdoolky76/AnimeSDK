@@ -12,6 +12,8 @@ namespace RPG::GameCore { class RtBattleStageUnitInfo; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RtBattleStageUnitInfo_TypeDefinitionIndex = 18053;
+
 	class RtBattleStageUnitInfo : public ::RPG::GameCore::JsonConfig
 	{
 	public:

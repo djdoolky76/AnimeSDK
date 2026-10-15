@@ -6,6 +6,8 @@
 
 namespace XLua
 {
+	inline static constexpr unsigned int ReflectionUseAttribute_TypeDefinitionIndex = 5609;
+
 	class ReflectionUseAttribute : public ::System::Attribute
 	{
 	public:

@@ -11,6 +11,8 @@ namespace RPG::GameCore { class WaitInfiniteWaveRefresh; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int WaitInfiniteWaveRefresh_TypeDefinitionIndex = 23461;
+
 	class WaitInfiniteWaveRefresh : public ::RPG::GameCore::TaskConfig
 	{
 	public:

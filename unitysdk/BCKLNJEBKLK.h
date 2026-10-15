@@ -21,6 +21,8 @@ namespace RPG::GameCore { class ThreadTaskConfig; }
 #define BCKLNJEBKLK_ONENABLE_OFFSET UNITYSDK_OFFSET(0x162E2250)
 #define BCKLNJEBKLK_SET_CONFIG_OFFSET UNITYSDK_OFFSET(0x162E25A0)
 
+inline static constexpr unsigned int BCKLNJEBKLK_TypeDefinitionIndex = 71084;
+
 	class BCKLNJEBKLK
 	{
 	public:

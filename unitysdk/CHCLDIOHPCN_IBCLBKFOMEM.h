@@ -13,6 +13,8 @@ namespace System { class Object; }
 #define CHCLDIOHPCN_IBCLBKFOMEM_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xCC92990)
 #define CHCLDIOHPCN_IBCLBKFOMEM_INVOKE_OFFSET UNITYSDK_OFFSET(0xCC920B0)
 
+inline static constexpr unsigned int CHCLDIOHPCN_IBCLBKFOMEM_TypeDefinitionIndex = 54352;
+
 	class CHCLDIOHPCN_IBCLBKFOMEM : public ::System::MulticastDelegate
 	{
 	public:

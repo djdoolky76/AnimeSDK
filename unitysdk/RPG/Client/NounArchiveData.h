@@ -25,6 +25,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int NounArchiveData_TypeDefinitionIndex = 62434;
+
 	class NounArchiveData : public ::RPG::Client::ArchiveData
 	{
 	public:

@@ -34,6 +34,8 @@ namespace UnityEngine { class RectTransform; }
 
 namespace UnityEngine::UI
 {
+	inline static constexpr unsigned int GridLayoutGroup_TypeDefinitionIndex = 6768;
+
 	class GridLayoutGroup : public ::UnityEngine::UI::LayoutGroup
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define OMLBEGNKAOE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DEB9C30)
 #define OMLBEGNKAOE___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1DEB9C40)
 
+inline static constexpr unsigned int OMLBEGNKAOE___c_TypeDefinitionIndex = 30038;
+
 	class OMLBEGNKAOE___c : public ::System::Object
 	{
 	public:

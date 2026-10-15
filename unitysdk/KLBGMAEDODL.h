@@ -28,6 +28,8 @@ namespace System { class String; }
 #define KLBGMAEDODL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E882F80)
 #define KLBGMAEDODL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E882FE0)
 
+inline static constexpr unsigned int KLBGMAEDODL_TypeDefinitionIndex = 33573;
+
 	class KLBGMAEDODL : public ::System::Object
 	{
 	public:

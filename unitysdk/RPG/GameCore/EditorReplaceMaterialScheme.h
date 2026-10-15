@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int EditorReplaceMaterialScheme_TypeDefinitionIndex = 17432;
+
 	class EditorReplaceMaterialScheme : public ::RPG::GameCore::JsonConfig
 	{
 	public:

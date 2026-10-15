@@ -11,6 +11,8 @@ namespace RPG::GameCore { class AvatarPropertyValue; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AvatarPropertyValue_TypeDefinitionIndex = 12707;
+
 	class AvatarPropertyValue : public ::System::Object
 	{
 	public:

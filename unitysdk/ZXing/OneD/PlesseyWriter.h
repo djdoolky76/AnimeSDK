@@ -15,6 +15,8 @@ namespace ZXing::Common { class BitMatrix; }
 
 namespace ZXing::OneD
 {
+	inline static constexpr unsigned int PlesseyWriter_TypeDefinitionIndex = 6992;
+
 	class PlesseyWriter : public ::ZXing::OneD::OneDimensionalCodeWriter
 	{
 	public:

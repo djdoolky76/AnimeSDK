@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CharacterSteerTo_TypeDefinitionIndex = 20869;
+
 	class CharacterSteerTo : public ::RPG::GameCore::TaskConfig
 	{
 	public:

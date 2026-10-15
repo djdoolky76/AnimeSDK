@@ -10,6 +10,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int UIController___c__DisplayClass214_0_TypeDefinitionIndex = 73039;
+
 	class UIController___c__DisplayClass214_0 : public ::System::Object
 	{
 	public:

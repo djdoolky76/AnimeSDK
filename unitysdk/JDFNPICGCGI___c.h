@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define JDFNPICGCGI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E70AC80)
 #define JDFNPICGCGI___C___CCTOR_B__68_0_OFFSET UNITYSDK_OFFSET(0x1E70AC90)
 
+inline static constexpr unsigned int JDFNPICGCGI___c_TypeDefinitionIndex = 33124;
+
 	class JDFNPICGCGI___c : public ::System::Object
 	{
 	public:

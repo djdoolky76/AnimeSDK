@@ -9,6 +9,8 @@ namespace RPG::GameCore { class MarbleSampleConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MarbleSampleConfig_TypeDefinitionIndex = 16911;
+
 	class MarbleSampleConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

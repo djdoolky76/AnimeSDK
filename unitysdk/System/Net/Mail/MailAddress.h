@@ -19,6 +19,8 @@ namespace System::Text { class Encoding; }
 
 namespace System::Net::Mail
 {
+	inline static constexpr unsigned int MailAddress_TypeDefinitionIndex = 2892;
+
 	class MailAddress : public ::System::Object
 	{
 	public:

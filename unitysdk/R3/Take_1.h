@@ -4,6 +4,8 @@ namespace R3 { class Observable; }
 
 namespace R3
 {
+	inline static constexpr unsigned int Take_1_TypeDefinitionIndex = 35956;
+
 	template <typename T>
 	class Take_1
 	{

@@ -18,6 +18,8 @@ namespace TMPro { class TMP_Style; }
 
 namespace TMPro
 {
+	inline static constexpr unsigned int TMP_Style_TypeDefinitionIndex = 44639;
+
 	class TMP_Style : public ::System::Object
 	{
 	public:

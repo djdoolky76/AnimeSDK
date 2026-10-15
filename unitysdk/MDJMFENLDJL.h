@@ -4,6 +4,8 @@
 
 #define MDJMFENLDJL_CTOR_OFFSET UNITYSDK_OFFSET(0x1C748B70)
 
+inline static constexpr unsigned int MDJMFENLDJL_TypeDefinitionIndex = 37176;
+
 	class MDJMFENLDJL : public ::System::Object
 	{
 	public:

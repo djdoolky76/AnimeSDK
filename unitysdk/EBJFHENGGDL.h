@@ -12,6 +12,8 @@ namespace System { class String; }
 #define EBJFHENGGDL_JDBEGLPAPBE_OFFSET UNITYSDK_OFFSET(0x12CFFD20)
 #define EBJFHENGGDL_NDMBDGKAJEK_OFFSET UNITYSDK_OFFSET(0x12CFF910)
 
+inline static constexpr unsigned int EBJFHENGGDL_TypeDefinitionIndex = 65277;
+
 	class EBJFHENGGDL : public ::HEOLKMLMPML
 	{
 	public:

@@ -79,6 +79,8 @@ namespace UnityEngine::UI { class Image; }
 #define OIDEBLCILOL__ONDISPOSE_OFFSET UNITYSDK_OFFSET(0xBE77CC0)
 #define OIDEBLCILOL__ONTICK_OFFSET UNITYSDK_OFFSET(0xBE77D20)
 
+inline static constexpr unsigned int OIDEBLCILOL_TypeDefinitionIndex = 72106;
+
 	class OIDEBLCILOL : public ::FMPCODLIOLG
 	{
 	public:

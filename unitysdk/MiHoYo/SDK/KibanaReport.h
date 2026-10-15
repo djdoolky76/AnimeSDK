@@ -39,6 +39,8 @@ namespace UnityEngine::Networking { class UnityWebRequest; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int KibanaReport_TypeDefinitionIndex = 7971;
+
 	class KibanaReport : public ::System::Object
 	{
 	public:

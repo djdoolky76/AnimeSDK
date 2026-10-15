@@ -10,6 +10,8 @@ namespace System { class Nullable; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightRoleDamageStatisticInfo_TypeDefinitionIndex = 64415;
+
 	class GridFightRoleDamageStatisticInfo : public ::RPG::Client::GridFightDamageStatisticInfo
 	{
 	public:

@@ -9,6 +9,8 @@ namespace System { class Action; }
 
 namespace MiHoYo::SDK::Win
 {
+	inline static constexpr unsigned int AutoTestLoginManager___c__DisplayClass6_0_TypeDefinitionIndex = 9269;
+
 	class AutoTestLoginManager___c__DisplayClass6_0 : public ::System::Object
 	{
 	public:

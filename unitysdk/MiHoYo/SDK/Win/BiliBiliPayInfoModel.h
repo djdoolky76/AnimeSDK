@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::Win
 {
+	inline static constexpr unsigned int BiliBiliPayInfoModel_TypeDefinitionIndex = 9329;
+
 	class BiliBiliPayInfoModel : public ::System::Object
 	{
 	public:

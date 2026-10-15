@@ -18,6 +18,8 @@ namespace System::Collections::ObjectModel { template <typename T> class ReadOnl
 
 namespace UnityEngine::ProBuilder
 {
+	inline static constexpr unsigned int ColorPalette_TypeDefinitionIndex = 44346;
+
 	class ColorPalette : public ::UnityEngine::ScriptableObject
 	{
 	public:

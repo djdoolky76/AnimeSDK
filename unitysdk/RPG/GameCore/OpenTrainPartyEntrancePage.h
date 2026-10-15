@@ -10,6 +10,8 @@ namespace RPG::GameCore { class OpenTrainPartyEntrancePage; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int OpenTrainPartyEntrancePage_TypeDefinitionIndex = 22356;
+
 	class OpenTrainPartyEntrancePage : public ::RPG::GameCore::TaskConfig
 	{
 	public:

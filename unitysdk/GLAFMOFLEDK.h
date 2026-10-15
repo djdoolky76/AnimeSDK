@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define GLAFMOFLEDK_CTOR_OFFSET UNITYSDK_OFFSET(0x15AA9780)
 #define GLAFMOFLEDK_EVALUATE_OFFSET UNITYSDK_OFFSET(0x15AA97D0)
 
+inline static constexpr unsigned int GLAFMOFLEDK_TypeDefinitionIndex = 59215;
+
 	class GLAFMOFLEDK
 	{
 	public:

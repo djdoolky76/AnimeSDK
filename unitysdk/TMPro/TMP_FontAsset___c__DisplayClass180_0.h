@@ -7,6 +7,8 @@
 
 namespace TMPro
 {
+	inline static constexpr unsigned int TMP_FontAsset___c__DisplayClass180_0_TypeDefinitionIndex = 44571;
+
 	class TMP_FontAsset___c__DisplayClass180_0 : public ::System::Object
 	{
 	public:

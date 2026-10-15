@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int BuildTimelineEntityState_TypeDefinitionIndex = 20638;
+
 	class BuildTimelineEntityState : public ::RPG::GameCore::TaskConfig
 	{
 	public:

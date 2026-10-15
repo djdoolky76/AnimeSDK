@@ -1,6 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
+inline static constexpr unsigned int OEOFKECAJEB_TypeDefinitionIndex = 37172;
+
 	struct alignas(4) OEOFKECAJEB
 	{
 		::System::UInt32 BOKJJKFCFME; // 0x10

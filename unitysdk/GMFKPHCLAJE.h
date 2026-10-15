@@ -28,6 +28,8 @@ namespace System { class String; }
 #define GMFKPHCLAJE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E4D1A50)
 #define GMFKPHCLAJE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E4D1AB0)
 
+inline static constexpr unsigned int GMFKPHCLAJE_TypeDefinitionIndex = 30492;
+
 	class GMFKPHCLAJE : public ::System::Object
 	{
 	public:

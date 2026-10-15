@@ -11,6 +11,8 @@ namespace RPG::GameCore { class PlanetFesSummaryRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PlanetFesSummaryRow_TypeDefinitionIndex = 12278;
+
 	class PlanetFesSummaryRow : public ::System::Object
 	{
 	public:

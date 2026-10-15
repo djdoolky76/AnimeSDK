@@ -8,6 +8,8 @@ namespace System { class String; }
 #define OCNCABENFIK_LMCKHGLOOMP_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x3C36280)
 #define OCNCABENFIK_LMCKHGLOOMP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x3C3D6D0)
 
+inline static constexpr unsigned int OCNCABENFIK_LMCKHGLOOMP_TypeDefinitionIndex = 14360;
+
 	struct alignas(4) OCNCABENFIK_LMCKHGLOOMP
 	{
 		::RPG::GameCore::ELevelPerformanceType DNGFHOEACBI; // 0x10

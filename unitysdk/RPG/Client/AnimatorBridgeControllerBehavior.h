@@ -23,6 +23,8 @@ namespace UnityEngine { class Animator; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AnimatorBridgeControllerBehavior_TypeDefinitionIndex = 70278;
+
 	class AnimatorBridgeControllerBehavior : public ::RPG::Client::TABehaviorBase
 	{
 	public:

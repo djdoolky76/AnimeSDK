@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define PBDJKHDICCI_ICBPOKHOLOE_OFFSET UNITYSDK_OFFSET(0xBFE4D60)
 #define PBDJKHDICCI_IDOFFOMIPIC_OFFSET UNITYSDK_OFFSET(0xBFE4DB0)
 
+inline static constexpr unsigned int PBDJKHDICCI_TypeDefinitionIndex = 79213;
+
 	class PBDJKHDICCI : public ::System::Object
 	{
 	public:

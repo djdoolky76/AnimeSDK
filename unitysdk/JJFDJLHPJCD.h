@@ -8,6 +8,8 @@ class JJFDJLHPJCD;
 #define JJFDJLHPJCD_CTOR_OFFSET UNITYSDK_OFFSET(0x1D0391D0)
 #define JJFDJLHPJCD_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D039050)
 
+inline static constexpr unsigned int JJFDJLHPJCD_TypeDefinitionIndex = 12897;
+
 	class JJFDJLHPJCD : public ::System::Object
 	{
 	public:

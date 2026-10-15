@@ -30,6 +30,8 @@ namespace System { class String; }
 #define IDNIEAKJMCF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E6310C0)
 #define IDNIEAKJMCF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E631120)
 
+inline static constexpr unsigned int IDNIEAKJMCF_TypeDefinitionIndex = 34954;
+
 	class IDNIEAKJMCF : public ::System::Object
 	{
 	public:

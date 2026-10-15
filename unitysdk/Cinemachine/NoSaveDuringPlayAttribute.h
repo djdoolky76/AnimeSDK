@@ -6,6 +6,8 @@
 
 namespace Cinemachine
 {
+	inline static constexpr unsigned int NoSaveDuringPlayAttribute_TypeDefinitionIndex = 39828;
+
 	class NoSaveDuringPlayAttribute : public ::UnityEngine::PropertyAttribute
 	{
 	public:

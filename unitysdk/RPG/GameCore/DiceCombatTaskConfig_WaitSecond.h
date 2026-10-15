@@ -10,6 +10,8 @@ namespace RPG::GameCore { class DiceCombatTaskConfig_WaitSecond; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DiceCombatTaskConfig_WaitSecond_TypeDefinitionIndex = 16034;
+
 	class DiceCombatTaskConfig_WaitSecond : public ::RPG::GameCore::DiceCombatTaskConfig
 	{
 	public:

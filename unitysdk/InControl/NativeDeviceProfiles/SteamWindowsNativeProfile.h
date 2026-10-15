@@ -7,6 +7,8 @@
 
 namespace InControl::NativeDeviceProfiles
 {
+	inline static constexpr unsigned int SteamWindowsNativeProfile_TypeDefinitionIndex = 41322;
+
 	class SteamWindowsNativeProfile : public ::InControl::InputDeviceProfile
 	{
 	public:

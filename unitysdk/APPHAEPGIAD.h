@@ -16,6 +16,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define APPHAEPGIAD_LIMOIKOOHNP_OFFSET UNITYSDK_OFFSET(0x15BC0ED0)
 #define APPHAEPGIAD_PIMCHDILMMJ_OFFSET UNITYSDK_OFFSET(0x15BC0C80)
 
+inline static constexpr unsigned int APPHAEPGIAD_TypeDefinitionIndex = 80779;
+
 	class APPHAEPGIAD : public ::System::Object
 	{
 	public:

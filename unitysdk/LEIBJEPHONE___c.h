@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define LEIBJEPHONE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E931E90)
 #define LEIBJEPHONE___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E931EA0)
 
+inline static constexpr unsigned int LEIBJEPHONE___c_TypeDefinitionIndex = 31931;
+
 	class LEIBJEPHONE___c : public ::System::Object
 	{
 	public:

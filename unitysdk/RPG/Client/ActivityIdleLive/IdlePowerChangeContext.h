@@ -19,6 +19,8 @@
 
 namespace RPG::Client::ActivityIdleLive
 {
+	inline static constexpr unsigned int IdlePowerChangeContext_TypeDefinitionIndex = 75338;
+
 	class IdlePowerChangeContext : public ::System::Object
 	{
 	public:

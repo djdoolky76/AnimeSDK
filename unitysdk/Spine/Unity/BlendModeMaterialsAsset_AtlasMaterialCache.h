@@ -14,6 +14,8 @@ namespace UnityEngine { class Material; }
 
 namespace Spine::Unity
 {
+	inline static constexpr unsigned int BlendModeMaterialsAsset_AtlasMaterialCache_TypeDefinitionIndex = 45089;
+
 	class BlendModeMaterialsAsset_AtlasMaterialCache : public ::System::Object
 	{
 	public:

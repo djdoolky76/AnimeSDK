@@ -6,6 +6,8 @@
 
 namespace RPGCamera
 {
+	inline static constexpr unsigned int CameraBlendState_TypeDefinitionIndex = 45939;
+
 	class CameraBlendState : public ::RPGCamera::BaseCameraState
 	{
 	public:

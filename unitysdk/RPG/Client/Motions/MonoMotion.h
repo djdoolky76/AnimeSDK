@@ -9,6 +9,8 @@ class ODCPCHEIMKK;
 
 namespace RPG::Client::Motions
 {
+	inline static constexpr unsigned int MonoMotion_TypeDefinitionIndex = 73532;
+
 	class MonoMotion : public ::UnityEngine::MonoBehaviour
 	{
 	public:

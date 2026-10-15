@@ -28,6 +28,8 @@ namespace System { class String; }
 #define PHDFGLFGPOL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DF38150)
 #define PHDFGLFGPOL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DF381B0)
 
+inline static constexpr unsigned int PHDFGLFGPOL_TypeDefinitionIndex = 31560;
+
 	class PHDFGLFGPOL : public ::System::Object
 	{
 	public:

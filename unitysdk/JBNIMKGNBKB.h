@@ -5,6 +5,8 @@ namespace System { class String; }
 
 #define JBNIMKGNBKB_CTOR_OFFSET UNITYSDK_OFFSET(0x16576350)
 
+inline static constexpr unsigned int JBNIMKGNBKB_TypeDefinitionIndex = 52270;
+
 	class JBNIMKGNBKB : public ::System::Object
 	{
 	public:

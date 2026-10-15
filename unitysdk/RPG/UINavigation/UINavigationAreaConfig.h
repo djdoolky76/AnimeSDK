@@ -9,6 +9,8 @@
 
 namespace RPG::UINavigation
 {
+	inline static constexpr unsigned int UINavigationAreaConfig_TypeDefinitionIndex = 51736;
+
 	class UINavigationAreaConfig : public ::System::Object
 	{
 	public:

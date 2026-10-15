@@ -10,6 +10,8 @@ namespace RPG::GameCore { class SetFloorCustomValueExtraInfo; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetFloorCustomValueExtraInfo_TypeDefinitionIndex = 20689;
+
 	class SetFloorCustomValueExtraInfo : public ::RPG::GameCore::JsonConfig
 	{
 	public:

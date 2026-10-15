@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ConstValueFantasticStoryRow_TypeDefinitionIndex = 11471;
+
 	class ConstValueFantasticStoryRow : public ::System::Object
 	{
 	public:

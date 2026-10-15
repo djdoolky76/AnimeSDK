@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GetRuanMadeCakePerformanceID_TypeDefinitionIndex = 21104;
+
 	class GetRuanMadeCakePerformanceID : public ::RPG::GameCore::TaskConfig
 	{
 	public:

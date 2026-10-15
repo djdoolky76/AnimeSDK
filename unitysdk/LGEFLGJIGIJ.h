@@ -34,6 +34,8 @@ namespace System { class String; }
 #define LGEFLGJIGIJ_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E94EFD0)
 #define LGEFLGJIGIJ_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E94F030)
 
+inline static constexpr unsigned int LGEFLGJIGIJ_TypeDefinitionIndex = 33392;
+
 	class LGEFLGJIGIJ : public ::System::Object
 	{
 	public:

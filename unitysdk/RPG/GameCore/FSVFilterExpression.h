@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FSVFilterExpression; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FSVFilterExpression_TypeDefinitionIndex = 17403;
+
 	class FSVFilterExpression : public ::RPG::GameCore::JsonConfig
 	{
 	public:

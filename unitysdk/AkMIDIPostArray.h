@@ -14,6 +14,8 @@ namespace UnityEngine { class GameObject; }
 #define AKMIDIPOSTARRAY_POSTONEVENT_OFFSET UNITYSDK_OFFSET(0x1F5A4CE0)
 #define AKMIDIPOSTARRAY_SET_ITEM_OFFSET UNITYSDK_OFFSET(0x1F5A4A80)
 
+inline static constexpr unsigned int AkMIDIPostArray_TypeDefinitionIndex = 44867;
+
 	class AkMIDIPostArray : public ::System::Object
 	{
 	public:

@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimFluteConfigRow_TypeDefinitionIndex = 14116;
+
 	class FiveDimFluteConfigRow : public ::System::Object
 	{
 	public:

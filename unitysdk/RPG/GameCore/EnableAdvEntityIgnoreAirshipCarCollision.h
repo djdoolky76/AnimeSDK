@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int EnableAdvEntityIgnoreAirshipCarCollision_TypeDefinitionIndex = 20951;
+
 	class EnableAdvEntityIgnoreAirshipCarCollision : public ::RPG::GameCore::TaskConfig
 	{
 	public:

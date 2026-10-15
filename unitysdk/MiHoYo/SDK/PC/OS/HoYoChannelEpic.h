@@ -42,6 +42,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace MiHoYo::SDK::PC::OS
 {
+	inline static constexpr unsigned int HoYoChannelEpic_TypeDefinitionIndex = 8519;
+
 	class HoYoChannelEpic : public ::MiHoYo::SDK::PC::OS::HoYoChannel
 	{
 	public:

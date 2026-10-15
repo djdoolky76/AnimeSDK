@@ -84,6 +84,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int BoxingClubLevelInstance_TypeDefinitionIndex = 62951;
+
 	class BoxingClubLevelInstance : public ::System::Object
 	{
 	public:

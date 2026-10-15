@@ -12,6 +12,8 @@ namespace System { class Object; }
 #define IJAMFECBIHN_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x16458840)
 #define IJAMFECBIHN_TICK_OFFSET UNITYSDK_OFFSET(0x16458980)
 
+inline static constexpr unsigned int IJAMFECBIHN_TypeDefinitionIndex = 58330;
+
 	class IJAMFECBIHN : public ::GELIALJDFBL
 	{
 	public:

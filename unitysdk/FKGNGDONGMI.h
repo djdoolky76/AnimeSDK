@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TravelShipHideLandOnBtn; }
 #define FKGNGDONGMI_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x157F3D20)
 #define FKGNGDONGMI_TICK_OFFSET UNITYSDK_OFFSET(0x157F3960)
 
+inline static constexpr unsigned int FKGNGDONGMI_TypeDefinitionIndex = 53437;
+
 	class FKGNGDONGMI : public ::GELIALJDFBL
 	{
 	public:

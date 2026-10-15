@@ -21,6 +21,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::ActivityHipplen
 {
+	inline static constexpr unsigned int UI3DHipplenView_TypeDefinitionIndex = 75616;
+
 	class UI3DHipplenView : public ::System::Object
 	{
 	public:

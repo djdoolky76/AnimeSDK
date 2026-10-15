@@ -8,6 +8,8 @@
 
 namespace Newtonsoft::Json
 {
+	inline static constexpr unsigned int JsonConverter_TypeDefinitionIndex = 9614;
+
 	class JsonConverter : public ::System::Object
 	{
 	public:

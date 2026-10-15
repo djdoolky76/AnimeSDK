@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimBorderPlatConfig_TypeDefinitionIndex = 18593;
+
 	class FiveDimBorderPlatConfig : public ::RPG::GameCore::LittleGameComponentConfig
 	{
 	public:

@@ -28,6 +28,8 @@ namespace UnityEngine { class GameObject; }
 #define FIPNAGLNNBL_PDKJDCDKLBC_OFFSET UNITYSDK_OFFSET(0x157B21A0)
 #define FIPNAGLNNBL_TEARDOWN_OFFSET UNITYSDK_OFFSET(0x157B42A0)
 
+inline static constexpr unsigned int FIPNAGLNNBL_TypeDefinitionIndex = 78126;
+
 	class FIPNAGLNNBL : public ::System::Object
 	{
 	public:

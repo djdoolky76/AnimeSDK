@@ -8,6 +8,8 @@ class NCOOOFILFOE;
 #define NCOOOFILFOE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D1F6B50)
 #define NCOOOFILFOE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D1F6980)
 
+inline static constexpr unsigned int NCOOOFILFOE_TypeDefinitionIndex = 16813;
+
 	class NCOOOFILFOE : public ::RPG::GameCore::JsonConfig
 	{
 	public:

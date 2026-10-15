@@ -28,6 +28,8 @@ namespace UnityEngine::UI { class Text; }
 
 namespace MiHoYo::SDK::Win
 {
+	inline static constexpr unsigned int GuestBindPhone_TypeDefinitionIndex = 9499;
+
 	class GuestBindPhone : public ::MiHoYo::SDK::UIElement
 	{
 	public:

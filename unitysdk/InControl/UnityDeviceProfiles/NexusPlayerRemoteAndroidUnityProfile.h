@@ -7,6 +7,8 @@
 
 namespace InControl::UnityDeviceProfiles
 {
+	inline static constexpr unsigned int NexusPlayerRemoteAndroidUnityProfile_TypeDefinitionIndex = 40978;
+
 	class NexusPlayerRemoteAndroidUnityProfile : public ::InControl::InputDeviceProfile
 	{
 	public:

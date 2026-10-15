@@ -10,6 +10,8 @@ namespace MessagePack { class MessagePackSerializerOptions; }
 #define GELOKMAINFB_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1C63AF90)
 #define GELOKMAINFB_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1C63AC80)
 
+inline static constexpr unsigned int GELOKMAINFB_TypeDefinitionIndex = 37202;
+
 	class GELOKMAINFB : public ::System::Object
 	{
 	public:

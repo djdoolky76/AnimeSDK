@@ -9,6 +9,8 @@ namespace System { class Action; }
 
 namespace RPG::Client::MechCraft::ViewModel
 {
+	inline static constexpr unsigned int MechCraftDiySignal___c__DisplayClass2_0_TypeDefinitionIndex = 79620;
+
 	class MechCraftDiySignal___c__DisplayClass2_0 : public ::System::Object
 	{
 	public:

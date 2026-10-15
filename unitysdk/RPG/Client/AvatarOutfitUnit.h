@@ -46,6 +46,8 @@ namespace System::Collections::Generic { template <typename T> class ICollection
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AvatarOutfitUnit_TypeDefinitionIndex = 62503;
+
 	class AvatarOutfitUnit : public ::System::Object
 	{
 	public:

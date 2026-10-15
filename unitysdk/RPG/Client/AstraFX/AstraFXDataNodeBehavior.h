@@ -17,6 +17,8 @@ namespace RPG::Client::AstraFX { class AstraFXDataNode; }
 
 namespace RPG::Client::AstraFX
 {
+	inline static constexpr unsigned int AstraFXDataNodeBehavior_TypeDefinitionIndex = 73687;
+
 	class AstraFXDataNodeBehavior : public ::RPG::Client::TABehaviorBase
 	{
 	public:

@@ -12,6 +12,8 @@ namespace CriWare::CriMana { class Player; }
 
 namespace CriWare
 {
+	inline static constexpr unsigned int CriManaMoviePlayerHolder_TypeDefinitionIndex = 40135;
+
 	class CriManaMoviePlayerHolder : public ::CriWare::CriMonoBehaviour
 	{
 	public:

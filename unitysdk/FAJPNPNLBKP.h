@@ -7,6 +7,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 #define FAJPNPNLBKP_CTOR_OFFSET UNITYSDK_OFFSET(0x15682940)
 #define FAJPNPNLBKP__COMPAREIMPL_OFFSET UNITYSDK_OFFSET(0x15682950)
 
+inline static constexpr unsigned int FAJPNPNLBKP_TypeDefinitionIndex = 62815;
+
 	class FAJPNPNLBKP : public ::RPG::Client::AvatarComparerBase
 	{
 	public:

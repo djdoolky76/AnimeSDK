@@ -23,6 +23,8 @@ namespace System { class Object; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int WaitMissionTalkFinishTask_TypeDefinitionIndex = 58903;
+
 	class WaitMissionTalkFinishTask : public ::GELIALJDFBL
 	{
 	public:

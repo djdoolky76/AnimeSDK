@@ -33,6 +33,8 @@ namespace UnityEngine::UI { class Text; }
 
 namespace MiHoYo::SDK::Win
 {
+	inline static constexpr unsigned int LoginByAccountOversea_TypeDefinitionIndex = 9533;
+
 	class LoginByAccountOversea : public ::MiHoYo::SDK::UIElement
 	{
 	public:

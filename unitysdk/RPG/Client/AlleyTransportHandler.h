@@ -50,6 +50,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AlleyTransportHandler_TypeDefinitionIndex = 62283;
+
 	class AlleyTransportHandler : public ::UnityEngine::MonoBehaviour
 	{
 	public:

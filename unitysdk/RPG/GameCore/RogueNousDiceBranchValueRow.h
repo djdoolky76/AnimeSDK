@@ -11,6 +11,8 @@ namespace RPG::GameCore { class RogueNousDiceBranchValueRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueNousDiceBranchValueRow_TypeDefinitionIndex = 14901;
+
 	class RogueNousDiceBranchValueRow : public ::System::Object
 	{
 	public:

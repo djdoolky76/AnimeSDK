@@ -38,6 +38,8 @@ namespace System::Xml::Schema { class SyntaxTreeNode; }
 
 namespace System::Xml::Schema
 {
+	inline static constexpr unsigned int ParticleContentValidator_TypeDefinitionIndex = 2080;
+
 	class ParticleContentValidator : public ::System::Xml::Schema::ContentValidator
 	{
 	public:

@@ -13,6 +13,8 @@ namespace ObservableCollections { template <typename T> class ObservableList_1; 
 #define HCMGIHLBFOF_SET_TOTALAMOUNT_OFFSET UNITYSDK_OFFSET(0x15C282E0)
 #define HCMGIHLBFOF_SET_TOTALCURRENCY_OFFSET UNITYSDK_OFFSET(0x15C282C0)
 
+inline static constexpr unsigned int HCMGIHLBFOF_TypeDefinitionIndex = 79722;
+
 	class HCMGIHLBFOF : public ::System::Object
 	{
 	public:

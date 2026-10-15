@@ -3,6 +3,8 @@
 
 namespace RPGTools::LDWhiteBox
 {
+	inline static constexpr unsigned int RouteNodeConnectivity_TypeDefinitionIndex = 48961;
+
 	enum class RouteNodeConnectivity : ::System::Int32
 	{
 		Invalid = 0,

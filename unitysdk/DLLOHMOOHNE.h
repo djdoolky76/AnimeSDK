@@ -75,6 +75,8 @@ namespace UnityEngine { class Transform; }
 #define DLLOHMOOHNE_SET_WATERCOLOR_OFFSET UNITYSDK_OFFSET(0xF8B2770)
 #define DLLOHMOOHNE_TICK_OFFSET UNITYSDK_OFFSET(0xF8AF440)
 
+inline static constexpr unsigned int DLLOHMOOHNE_TypeDefinitionIndex = 57068;
+
 	class DLLOHMOOHNE : public ::RPG::GameCore::GameComponentBase
 	{
 	public:

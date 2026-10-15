@@ -34,6 +34,8 @@ namespace System { class String; }
 #define FLDKOELBPGA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E3B8230)
 #define FLDKOELBPGA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E3B8290)
 
+inline static constexpr unsigned int FLDKOELBPGA_TypeDefinitionIndex = 27898;
+
 	class FLDKOELBPGA : public ::System::Object
 	{
 	public:

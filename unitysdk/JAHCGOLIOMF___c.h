@@ -12,6 +12,8 @@ namespace System { template <typename T1, typename T2, typename T3> class Func_3
 #define JAHCGOLIOMF___C___APPLYCYRENESKILLPARAMSMODIFICATIONSFORSERVANTSKILL_B__59_0_OFFSET UNITYSDK_OFFSET(0x1654BCF0)
 #define JAHCGOLIOMF___C___APPLYRANKSKILLPARAMSMODIFICATIONSFORBATTLEEVENTSKILL_B__60_0_OFFSET UNITYSDK_OFFSET(0x1654BD30)
 
+inline static constexpr unsigned int JAHCGOLIOMF___c_TypeDefinitionIndex = 59061;
+
 	class JAHCGOLIOMF___c : public ::System::Object
 	{
 	public:

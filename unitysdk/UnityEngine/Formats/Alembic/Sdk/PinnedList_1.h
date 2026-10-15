@@ -6,6 +6,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace UnityEngine::Formats::Alembic::Sdk
 {
+	inline static constexpr unsigned int PinnedList_1_TypeDefinitionIndex = 45847;
+
 	template <typename T>
 	class PinnedList_1 : public ::System::Object
 	{

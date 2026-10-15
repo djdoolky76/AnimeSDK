@@ -17,6 +17,8 @@ namespace UnityEngine { class Transform; }
 #define EJMABIKGGMD_JBEHEILLOEG_OFFSET UNITYSDK_OFFSET(0x154ED050)
 #define EJMABIKGGMD_NAJOPNMPHPF_OFFSET UNITYSDK_OFFSET(0x154ED0E0)
 
+inline static constexpr unsigned int EJMABIKGGMD_TypeDefinitionIndex = 49757;
+
 	class EJMABIKGGMD
 	{
 	public:

@@ -32,6 +32,8 @@ namespace System { class String; }
 #define MOOKMKEKMKC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EAB2F10)
 #define MOOKMKEKMKC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EAB2F70)
 
+inline static constexpr unsigned int MOOKMKEKMKC_TypeDefinitionIndex = 27471;
+
 	class MOOKMKEKMKC : public ::System::Object
 	{
 	public:

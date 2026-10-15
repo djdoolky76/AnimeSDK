@@ -3,6 +3,8 @@
 
 namespace System::Xml
 {
+	inline static constexpr unsigned int XmlTextReaderImpl_IncrementalReadState_TypeDefinitionIndex = 1851;
+
 	enum class XmlTextReaderImpl_IncrementalReadState : ::System::Int32
 	{
 		Text = 0,

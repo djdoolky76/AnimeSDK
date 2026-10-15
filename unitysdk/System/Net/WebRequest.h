@@ -74,6 +74,8 @@ namespace System::Threading::Tasks { class Task; }
 
 namespace System::Net
 {
+	inline static constexpr unsigned int WebRequest_TypeDefinitionIndex = 2766;
+
 	class WebRequest : public ::System::MarshalByRefObject
 	{
 	public:

@@ -12,6 +12,8 @@ namespace System::Text { class StringBuilder; }
 
 namespace System::Globalization
 {
+	inline static constexpr unsigned int FormatProvider_TypeDefinitionIndex = 3845;
+
 	class FormatProvider : public ::System::Object
 	{
 	public:

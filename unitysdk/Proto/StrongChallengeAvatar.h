@@ -32,6 +32,8 @@ namespace System { class String; }
 
 namespace Proto
 {
+	inline static constexpr unsigned int StrongChallengeAvatar_TypeDefinitionIndex = 34294;
+
 	class StrongChallengeAvatar : public ::System::Object
 	{
 	public:

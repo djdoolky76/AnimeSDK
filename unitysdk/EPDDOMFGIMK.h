@@ -27,6 +27,8 @@ namespace System { class String; }
 #define EPDDOMFGIMK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E3090F0)
 #define EPDDOMFGIMK_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E309150)
 
+inline static constexpr unsigned int EPDDOMFGIMK_TypeDefinitionIndex = 27317;
+
 	class EPDDOMFGIMK : public ::System::Object
 	{
 	public:

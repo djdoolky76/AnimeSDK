@@ -81,6 +81,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int BattleEventDataComponent_TypeDefinitionIndex = 56888;
+
 	class BattleEventDataComponent : public ::RPG::GameCore::CharacterDataComponent
 	{
 	public:

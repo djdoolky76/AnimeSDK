@@ -7,6 +7,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridBasedEventData_TypeDefinitionIndex = 72534;
+
 	class GridBasedEventData : public ::System::Object
 	{
 	public:

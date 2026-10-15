@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define EMDKLICDPKK___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E2DF270)
 #define EMDKLICDPKK___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E2DF280)
 
+inline static constexpr unsigned int EMDKLICDPKK___c_TypeDefinitionIndex = 30668;
+
 	class EMDKLICDPKK___c : public ::System::Object
 	{
 	public:

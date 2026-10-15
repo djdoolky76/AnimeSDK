@@ -10,6 +10,8 @@ namespace System { class String; }
 #define LHCEDDIGGIK_NCGEIJFFHFH_OFFSET UNITYSDK_OFFSET(0xB6A9130)
 #define LHCEDDIGGIK_TOSTRING_OFFSET UNITYSDK_OFFSET(0xB6A9180)
 
+inline static constexpr unsigned int LHCEDDIGGIK_TypeDefinitionIndex = 64141;
+
 	class LHCEDDIGGIK : public ::HGMMFJHJECA
 	{
 	public:

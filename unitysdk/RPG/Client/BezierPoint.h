@@ -27,6 +27,8 @@ namespace RPG::Client { class BezierCurve; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int BezierPoint_TypeDefinitionIndex = 36082;
+
 	class BezierPoint : public ::UnityEngine::MonoBehaviour
 	{
 	public:

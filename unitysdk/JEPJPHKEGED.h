@@ -8,6 +8,8 @@ namespace System { class String; }
 #define JEPJPHKEGED_CTOR_OFFSET UNITYSDK_OFFSET(0x16643260)
 #define JEPJPHKEGED_TOSTRING_OFFSET UNITYSDK_OFFSET(0x16643300)
 
+inline static constexpr unsigned int JEPJPHKEGED_TypeDefinitionIndex = 62025;
+
 	class JEPJPHKEGED : public ::MAOPBKPKCEK
 	{
 	public:

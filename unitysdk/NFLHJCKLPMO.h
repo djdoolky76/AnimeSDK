@@ -42,6 +42,8 @@ namespace System { class String; }
 #define NFLHJCKLPMO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EB05490)
 #define NFLHJCKLPMO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EB054F0)
 
+inline static constexpr unsigned int NFLHJCKLPMO_TypeDefinitionIndex = 26779;
+
 	class NFLHJCKLPMO : public ::System::Object
 	{
 	public:

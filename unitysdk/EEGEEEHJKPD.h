@@ -7,6 +7,8 @@ namespace RPG::GameCore { class DiceCombatAIEffectEvaluatorConfig_DiceRerollCoun
 #define EEGEEEHJKPD_CTOR_OFFSET UNITYSDK_OFFSET(0x1C5FB430)
 #define EEGEEEHJKPD_KFGJEKJHIMB_OFFSET UNITYSDK_OFFSET(0x1C5FB440)
 
+inline static constexpr unsigned int EEGEEEHJKPD_TypeDefinitionIndex = 36219;
+
 	class EEGEEEHJKPD : public ::PNECKGBKMEL
 	{
 	public:

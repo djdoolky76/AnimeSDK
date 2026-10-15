@@ -7,6 +7,8 @@ namespace RPG::GameCore { class HoyoTagContainer; }
 #define ABFAAKFMJIO_CTOR_OFFSET UNITYSDK_OFFSET(0x1C8779E0)
 #define ABFAAKFMJIO_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0x1C877870)
 
+inline static constexpr unsigned int ABFAAKFMJIO_TypeDefinitionIndex = 42037;
+
 	class ABFAAKFMJIO : public ::RPG::GameCore::HoyoTagContainer
 	{
 	public:

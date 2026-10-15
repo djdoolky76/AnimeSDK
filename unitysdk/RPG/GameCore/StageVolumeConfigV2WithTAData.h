@@ -13,6 +13,8 @@ namespace RPG::GameCore { class StreamingSceneObjLodScaleVolumeComponentData; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int StageVolumeConfigV2WithTAData_TypeDefinitionIndex = 19152;
+
 	class StageVolumeConfigV2WithTAData : public ::RPG::GameCore::StageVolumeConfigV2
 	{
 	public:

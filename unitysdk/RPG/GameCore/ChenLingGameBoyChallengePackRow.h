@@ -9,6 +9,8 @@ namespace RPG::GameCore { class ChenLingGameBoyChallengePackRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChenLingGameBoyChallengePackRow_TypeDefinitionIndex = 14103;
+
 	class ChenLingGameBoyChallengePackRow : public ::System::Object
 	{
 	public:

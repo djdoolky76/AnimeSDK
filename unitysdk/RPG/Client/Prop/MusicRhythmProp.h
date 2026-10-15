@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int MusicRhythmProp_TypeDefinitionIndex = 78182;
+
 	class MusicRhythmProp : public ::UnityEngine::MonoBehaviour
 	{
 	public:

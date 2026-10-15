@@ -12,6 +12,8 @@ namespace RPG::GameCore { class LittleGameBillboardConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LittleGameBillboardConfig_TypeDefinitionIndex = 18834;
+
 	class LittleGameBillboardConfig : public ::RPG::GameCore::LittleGameComponentConfig
 	{
 	public:

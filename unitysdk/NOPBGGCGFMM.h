@@ -7,6 +7,8 @@ namespace System { class String; }
 
 #define NOPBGGCGFMM_CTOR_OFFSET UNITYSDK_OFFSET(0xBCF7FC0)
 
+inline static constexpr unsigned int NOPBGGCGFMM_TypeDefinitionIndex = 68008;
+
 	class NOPBGGCGFMM : public ::System::Object
 	{
 	public:

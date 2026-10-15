@@ -16,6 +16,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ElfPrepareModelManager_TypeDefinitionIndex = 63710;
+
 	class ElfPrepareModelManager : public ::System::Object
 	{
 	public:

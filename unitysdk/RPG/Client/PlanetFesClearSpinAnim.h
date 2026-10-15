@@ -10,6 +10,8 @@ namespace RPG::Client { class PlanetFesClearSpinAnim; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PlanetFesClearSpinAnim_TypeDefinitionIndex = 10280;
+
 	class PlanetFesClearSpinAnim : public ::RPG::GameCore::TaskConfig
 	{
 	public:

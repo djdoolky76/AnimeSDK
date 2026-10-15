@@ -25,6 +25,8 @@ namespace System { class Object; }
 #define MKAMENDMKIM_ONRETURN_OFFSET UNITYSDK_OFFSET(0xB981F60)
 #define MKAMENDMKIM__ONBIND_OFFSET UNITYSDK_OFFSET(0xB981A60)
 
+inline static constexpr unsigned int MKAMENDMKIM_TypeDefinitionIndex = 71505;
+
 	class MKAMENDMKIM : public ::FMPCODLIOLG
 	{
 	public:

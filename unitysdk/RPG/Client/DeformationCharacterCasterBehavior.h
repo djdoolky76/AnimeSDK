@@ -37,6 +37,8 @@ namespace UnityEngine { class Renderer; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int DeformationCharacterCasterBehavior_TypeDefinitionIndex = 70268;
+
 	class DeformationCharacterCasterBehavior : public ::RPG::Client::TABehaviorBase
 	{
 	public:

@@ -13,6 +13,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TrainPartyTimeLimitActivityData_TypeDefinitionIndex = 68162;
+
 	class TrainPartyTimeLimitActivityData : public ::RPG::Client::ActivityPanelData
 	{
 	public:

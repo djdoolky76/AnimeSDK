@@ -8,6 +8,8 @@ class MFKLCJHKNBK;
 #define KBLELMJDBEA_CTOR_OFFSET UNITYSDK_OFFSET(0xB312290)
 #define KBLELMJDBEA_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB312420)
 
+inline static constexpr unsigned int KBLELMJDBEA_TypeDefinitionIndex = 75753;
+
 	class KBLELMJDBEA
 	{
 	public:

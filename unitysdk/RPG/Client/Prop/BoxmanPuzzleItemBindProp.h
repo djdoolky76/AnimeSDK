@@ -15,6 +15,8 @@ namespace RPG::GameCore { class PropComponent; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int BoxmanPuzzleItemBindProp_TypeDefinitionIndex = 78846;
+
 	class BoxmanPuzzleItemBindProp : public ::System::Object
 	{
 	public:

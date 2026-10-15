@@ -23,6 +23,8 @@ namespace UnityEngine::UI { class Toggle; }
 
 namespace SRDebugger::UI::Controls
 {
+	inline static constexpr unsigned int OptionsControlBase_TypeDefinitionIndex = 38024;
+
 	class OptionsControlBase : public ::SRF::SRMonoBehaviourEx
 	{
 	public:

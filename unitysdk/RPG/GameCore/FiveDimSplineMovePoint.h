@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimSplineMovePoint_TypeDefinitionIndex = 18563;
+
 	class FiveDimSplineMovePoint : public ::RPG::GameCore::JsonConfig
 	{
 	public:

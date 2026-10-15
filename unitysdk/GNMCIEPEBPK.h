@@ -34,6 +34,8 @@ namespace System { class String; }
 #define GNMCIEPEBPK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E4E5600)
 #define GNMCIEPEBPK_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E4E5660)
 
+inline static constexpr unsigned int GNMCIEPEBPK_TypeDefinitionIndex = 31863;
+
 	class GNMCIEPEBPK : public ::System::Object
 	{
 	public:

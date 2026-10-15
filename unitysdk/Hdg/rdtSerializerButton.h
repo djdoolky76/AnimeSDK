@@ -18,6 +18,8 @@ namespace System::IO { class BinaryWriter; }
 
 namespace Hdg
 {
+	inline static constexpr unsigned int rdtSerializerButton_TypeDefinitionIndex = 46954;
+
 	class rdtSerializerButton : public ::System::Object
 	{
 	public:

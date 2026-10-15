@@ -5,6 +5,8 @@
 
 namespace UnityEngine::UI
 {
+	inline static constexpr unsigned int InputField_OnChangeEvent_TypeDefinitionIndex = 6746;
+
 	class InputField_OnChangeEvent
 	{
 	public:

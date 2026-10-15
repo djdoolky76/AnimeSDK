@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T> class IList_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightRoleShop_ShopRoleReplaceSummarizer_TypeDefinitionIndex = 65228;
+
 	class GridFightRoleShop_ShopRoleReplaceSummarizer : public ::AMCOEFHHBPO
 	{
 	public:

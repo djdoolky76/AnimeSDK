@@ -8,6 +8,8 @@ namespace RPG::GameCore { class ActivityPanelRow; }
 #define ILKGGEOBKEH_CTOR_OFFSET UNITYSDK_OFFSET(0x164C3E80)
 #define ILKGGEOBKEH_OPOLKCHBODB_OFFSET UNITYSDK_OFFSET(0x164C3BB0)
 
+inline static constexpr unsigned int ILKGGEOBKEH_TypeDefinitionIndex = 61701;
+
 	class ILKGGEOBKEH : public ::System::Object
 	{
 	public:

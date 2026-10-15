@@ -26,6 +26,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define JSONOBJECT_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1C36CE80)
 #define JSONOBJECT_SET_ITEM_OFFSET UNITYSDK_OFFSET(0x1C36CD70)
 
+inline static constexpr unsigned int JsonObject_TypeDefinitionIndex = 41338;
+
 	class JsonObject : public ::UnityEngine::Object
 	{
 	public:

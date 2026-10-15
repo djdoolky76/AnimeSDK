@@ -10,6 +10,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int VoracityInvasionFightEntranceData_TypeDefinitionIndex = 68261;
+
 	class VoracityInvasionFightEntranceData : public ::System::Object
 	{
 	public:

@@ -7,6 +7,8 @@ class KGPCBBIOGLB;
 #define DHAFGMHPMHG___C__DISPLAYCLASS7_0_CTOR_OFFSET UNITYSDK_OFFSET(0xEBB5940)
 #define DHAFGMHPMHG___C__DISPLAYCLASS7_0___ONDATASUCCEEDBYTHREAD_B__0_OFFSET UNITYSDK_OFFSET(0xEBB5950)
 
+inline static constexpr unsigned int DHAFGMHPMHG___c__DisplayClass7_0_TypeDefinitionIndex = 59587;
+
 	class DHAFGMHPMHG___c__DisplayClass7_0 : public ::System::Object
 	{
 	public:

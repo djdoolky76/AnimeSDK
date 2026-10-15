@@ -9,6 +9,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int WolfBroGunPlayTarget_Boom_TypeDefinitionIndex = 68722;
+
 	class WolfBroGunPlayTarget_Boom : public ::RPG::Client::WolfBroGunPlayTarget
 	{
 	public:

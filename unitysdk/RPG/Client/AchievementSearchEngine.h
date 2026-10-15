@@ -17,6 +17,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AchievementSearchEngine_TypeDefinitionIndex = 61362;
+
 	class AchievementSearchEngine : public ::System::Object
 	{
 	public:

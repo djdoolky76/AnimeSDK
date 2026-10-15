@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 #define PGOGEBKKJPI_ABHMCPCPPPP_OFFSET UNITYSDK_OFFSET(0xC22B690)
 #define PGOGEBKKJPI_CTOR_OFFSET UNITYSDK_OFFSET(0xC22BB70)
 
+inline static constexpr unsigned int PGOGEBKKJPI_TypeDefinitionIndex = 77378;
+
 	class PGOGEBKKJPI : public ::System::Object
 	{
 	public:

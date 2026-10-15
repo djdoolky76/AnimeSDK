@@ -6,6 +6,8 @@ class HHLOEMDFFMG;
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftLoadingWindow_TypeDefinitionIndex = 79976;
+
 	class MechCraftLoadingWindow
 	{
 	public:

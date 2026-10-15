@@ -34,6 +34,8 @@ namespace System { class String; }
 #define DGEPOBDMLDJ_PJJPHNLBJEB___C___CCTOR_B__0_8_OFFSET UNITYSDK_OFFSET(0x1DD32BF0)
 #define DGEPOBDMLDJ_PJJPHNLBJEB___C___CCTOR_B__0_9_OFFSET UNITYSDK_OFFSET(0x1DD32C30)
 
+inline static constexpr unsigned int DGEPOBDMLDJ_PJJPHNLBJEB___c_TypeDefinitionIndex = 6541;
+
 	class DGEPOBDMLDJ_PJJPHNLBJEB___c : public ::System::Object
 	{
 	public:

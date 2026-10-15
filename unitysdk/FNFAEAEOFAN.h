@@ -46,6 +46,8 @@ namespace UnityEngine { class Transform; }
 #define FNFAEAEOFAN_PCPBCOPEIED_OFFSET UNITYSDK_OFFSET(0x1586D3E0)
 #define FNFAEAEOFAN_PHIKFFJDKNH_OFFSET UNITYSDK_OFFSET(0x1586DA40)
 
+inline static constexpr unsigned int FNFAEAEOFAN_TypeDefinitionIndex = 60609;
+
 	class FNFAEAEOFAN : public ::NPEBLEKDAGI
 	{
 	public:

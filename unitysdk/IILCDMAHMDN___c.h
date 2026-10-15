@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define IILCDMAHMDN___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E68B270)
 #define IILCDMAHMDN___C___CCTOR_B__43_0_OFFSET UNITYSDK_OFFSET(0x1E68B280)
 
+inline static constexpr unsigned int IILCDMAHMDN___c_TypeDefinitionIndex = 29040;
+
 	class IILCDMAHMDN___c : public ::System::Object
 	{
 	public:

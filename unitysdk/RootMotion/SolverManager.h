@@ -25,6 +25,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RootMotion
 {
+	inline static constexpr unsigned int SolverManager_TypeDefinitionIndex = 45979;
+
 	class SolverManager : public ::UnityEngine::MonoBehaviour
 	{
 	public:

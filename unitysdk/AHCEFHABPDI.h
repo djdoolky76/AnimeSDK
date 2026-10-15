@@ -13,6 +13,8 @@ namespace System { class Object; }
 #define AHCEFHABPDI_JJKIIDALBBJ_OFFSET UNITYSDK_OFFSET(0xEB7A450)
 #define AHCEFHABPDI_SET_ITEMCOUNT_OFFSET UNITYSDK_OFFSET(0xEB7A4B0)
 
+inline static constexpr unsigned int AHCEFHABPDI_TypeDefinitionIndex = 81426;
+
 	class AHCEFHABPDI : public ::System::Object
 	{
 	public:

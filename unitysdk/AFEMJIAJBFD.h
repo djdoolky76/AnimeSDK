@@ -16,6 +16,8 @@ namespace System { class String; }
 #define AFEMJIAJBFD_MHFNJCLKNMG_OFFSET UNITYSDK_OFFSET(0xCF08BE0)
 #define AFEMJIAJBFD_NMBMEBMCJGE_OFFSET UNITYSDK_OFFSET(0xCF08D80)
 
+inline static constexpr unsigned int AFEMJIAJBFD_TypeDefinitionIndex = 69265;
+
 	class AFEMJIAJBFD : public ::FCFLKPABIOM
 	{
 	public:

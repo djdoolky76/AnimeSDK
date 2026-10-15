@@ -71,6 +71,8 @@ namespace System::Reflection::Emit { class MethodBuilder; }
 
 namespace System::Reflection::Emit
 {
+	inline static constexpr unsigned int TypeBuilder_TypeDefinitionIndex = 659;
+
 	class TypeBuilder : public ::System::Reflection::TypeInfo
 	{
 	public:

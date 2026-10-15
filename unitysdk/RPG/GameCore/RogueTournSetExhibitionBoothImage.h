@@ -11,6 +11,8 @@ namespace RPG::GameCore { class RogueTournSetExhibitionBoothImage; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueTournSetExhibitionBoothImage_TypeDefinitionIndex = 22117;
+
 	class RogueTournSetExhibitionBoothImage : public ::RPG::GameCore::TaskConfig
 	{
 	public:

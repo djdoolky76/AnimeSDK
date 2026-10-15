@@ -20,6 +20,8 @@ namespace RPG::GameCore { class TarotBookStoryRow; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TarotBookStory_TypeDefinitionIndex = 68074;
+
 	class TarotBookStory : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@ namespace RPG::Client { class ActivityRewardCountItemData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ActivityRewardCountDataExt_TypeDefinitionIndex = 61787;
+
 	class ActivityRewardCountDataExt : public ::System::Object
 	{
 	public:

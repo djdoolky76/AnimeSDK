@@ -15,6 +15,8 @@ namespace System::Reflection { class MethodBase; }
 
 namespace RPG::Client::FateRin::Logging
 {
+	inline static constexpr unsigned int ILoggerFactoryExtensions___c_TypeDefinitionIndex = 81038;
+
 	class ILoggerFactoryExtensions___c : public ::System::Object
 	{
 	public:

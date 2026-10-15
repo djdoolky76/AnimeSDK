@@ -45,6 +45,8 @@ namespace System { class String; }
 #define CGCHNIIJMMD_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E0AD650)
 #define CGCHNIIJMMD_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E0AD6B0)
 
+inline static constexpr unsigned int CGCHNIIJMMD_TypeDefinitionIndex = 30630;
+
 	class CGCHNIIJMMD : public ::System::Object
 	{
 	public:

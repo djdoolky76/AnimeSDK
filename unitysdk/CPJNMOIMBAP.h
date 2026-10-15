@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GameEntity; }
 #define CPJNMOIMBAP_GOHDHIMMDNG_OFFSET UNITYSDK_OFFSET(0xDCD87B0)
 #define CPJNMOIMBAP_OPCKNBHNBOA_OFFSET UNITYSDK_OFFSET(0xDCD8800)
 
+inline static constexpr unsigned int CPJNMOIMBAP_TypeDefinitionIndex = 55847;
+
 	class CPJNMOIMBAP : public ::JGKIPOLPACC
 	{
 	public:

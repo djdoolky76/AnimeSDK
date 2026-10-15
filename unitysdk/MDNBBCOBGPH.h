@@ -68,6 +68,8 @@ namespace System::Collections::Generic { template <typename T> class Stack_1; }
 #define MDNBBCOBGPH_SET_TEAMBUILDRECIPE_OFFSET UNITYSDK_OFFSET(0xB8AD9F0)
 #define MDNBBCOBGPH___GETSORTEDAVATARIDSBYPARTIALAVATARIDS_B__80_0_OFFSET UNITYSDK_OFFSET(0xB8B1C30)
 
+inline static constexpr unsigned int MDNBBCOBGPH_TypeDefinitionIndex = 68098;
+
 	class MDNBBCOBGPH : public ::System::Object
 	{
 	public:

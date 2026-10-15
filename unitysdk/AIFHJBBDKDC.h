@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define AIFHJBBDKDC_CTOR_OFFSET UNITYSDK_OFFSET(0xEBA32B0)
 
+inline static constexpr unsigned int AIFHJBBDKDC_TypeDefinitionIndex = 62038;
+
 	class AIFHJBBDKDC : public ::System::Object
 	{
 	public:

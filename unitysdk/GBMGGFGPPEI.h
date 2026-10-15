@@ -20,6 +20,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define GBMGGFGPPEI_PFODMMLHBGP_OFFSET UNITYSDK_OFFSET(0x159531D0)
 #define GBMGGFGPPEI_PIMEABNLPGE_OFFSET UNITYSDK_OFFSET(0x15953670)
 
+inline static constexpr unsigned int GBMGGFGPPEI_TypeDefinitionIndex = 61370;
+
 	class GBMGGFGPPEI : public ::System::Object
 	{
 	public:

@@ -6,6 +6,8 @@ namespace RPG::Client::ChenLingBattle { class ChenLingBattleGameContext; }
 #define KNOBILGOMNE_CTOR_OFFSET UNITYSDK_OFFSET(0xB58A4E0)
 #define KNOBILGOMNE_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0xB58A470)
 
+inline static constexpr unsigned int KNOBILGOMNE_TypeDefinitionIndex = 76250;
+
 	class KNOBILGOMNE : public ::MLKDDLHNNHH
 	{
 	public:

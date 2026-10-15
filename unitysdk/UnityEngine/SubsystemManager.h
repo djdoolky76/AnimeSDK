@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int SubsystemManager_TypeDefinitionIndex = 5830;
+
 	class SubsystemManager : public ::System::Object
 	{
 	public:

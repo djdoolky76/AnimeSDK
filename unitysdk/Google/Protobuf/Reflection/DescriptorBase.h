@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyLi
 
 namespace Google::Protobuf::Reflection
 {
+	inline static constexpr unsigned int DescriptorBase_TypeDefinitionIndex = 5526;
+
 	class DescriptorBase : public ::System::Object
 	{
 	public:

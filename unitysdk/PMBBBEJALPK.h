@@ -27,6 +27,8 @@ namespace UnityEngine { class Transform; }
 #define PMBBBEJALPK_PHPIBKOJKHI_OFFSET UNITYSDK_OFFSET(0xC314060)
 #define PMBBBEJALPK_SET_UIADAPTOPERATIONS_OFFSET UNITYSDK_OFFSET(0xC3147E0)
 
+inline static constexpr unsigned int PMBBBEJALPK_TypeDefinitionIndex = 73033;
+
 	class PMBBBEJALPK : public ::System::Object
 	{
 	public:

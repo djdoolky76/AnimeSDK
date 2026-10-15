@@ -10,6 +10,8 @@ namespace RPG::GameCore { class VirtualCameraModeDynamicParam; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int VirtualCameraModeDynamicParam_TypeDefinitionIndex = 20829;
+
 	class VirtualCameraModeDynamicParam : public ::RPG::GameCore::JsonConfig
 	{
 	public:

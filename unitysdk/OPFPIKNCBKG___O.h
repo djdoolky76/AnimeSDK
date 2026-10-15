@@ -5,6 +5,8 @@ class LHHEGNEBMLN;
 class PIOFKDHFGIF;
 namespace System { template <typename T1, typename T2> class Func_2; }
 
+inline static constexpr unsigned int OPFPIKNCBKG___O_TypeDefinitionIndex = 61033;
+
 	class OPFPIKNCBKG___O : public ::System::Object
 	{
 	public:

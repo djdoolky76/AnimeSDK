@@ -8,6 +8,8 @@ namespace UnityEngine { class Renderer; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int Effect_ScreenCrack_MatTexItem_TypeDefinitionIndex = 70551;
+
 	class Effect_ScreenCrack_MatTexItem : public ::System::Object
 	{
 	public:

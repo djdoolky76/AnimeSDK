@@ -46,6 +46,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::DiceCombat
 {
+	inline static constexpr unsigned int DiceCombatV2Lobby_TypeDefinitionIndex = 76201;
+
 	class DiceCombatV2Lobby : public ::RPG::Client::BaseLobby
 	{
 	public:

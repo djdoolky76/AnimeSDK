@@ -6,6 +6,8 @@ namespace Entitas { template <typename T> class IMatcher_1; }
 #define GMIFBFGDGJK_CTOR_OFFSET UNITYSDK_OFFSET(0x1C6479A0)
 #define GMIFBFGDGJK_GETCORESTATETREEMATCHER_OFFSET UNITYSDK_OFFSET(0x1C647900)
 
+inline static constexpr unsigned int GMIFBFGDGJK_TypeDefinitionIndex = 37048;
+
 	class GMIFBFGDGJK
 	{
 	public:

@@ -11,6 +11,8 @@ namespace System { class Object; }
 #define EFOENCDAODI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x13A5DA40)
 #define EFOENCDAODI_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x13A5E200)
 
+inline static constexpr unsigned int EFOENCDAODI_TypeDefinitionIndex = 52203;
+
 	class EFOENCDAODI
 	{
 	public:

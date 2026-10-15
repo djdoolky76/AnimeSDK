@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueAeonLevelConfigRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueAeonLevelConfigRow_TypeDefinitionIndex = 14839;
+
 	class RogueAeonLevelConfigRow : public ::System::Object
 	{
 	public:

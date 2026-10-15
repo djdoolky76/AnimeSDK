@@ -13,6 +13,8 @@ namespace System { class Object; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int ConsoleDelegate_CommerceCheckoutCallback_TypeDefinitionIndex = 7648;
+
 	class ConsoleDelegate_CommerceCheckoutCallback : public ::System::MulticastDelegate
 	{
 	public:

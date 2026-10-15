@@ -6,6 +6,8 @@ namespace RPG::Client { class ActivityData; }
 #define ACONFLKJFEM_CTOR_OFFSET UNITYSDK_OFFSET(0xB12CD00)
 #define ACONFLKJFEM_KKKIONIDKFA_OFFSET UNITYSDK_OFFSET(0xB12CC80)
 
+inline static constexpr unsigned int ACONFLKJFEM_TypeDefinitionIndex = 61722;
+
 	class ACONFLKJFEM : public ::System::Object
 	{
 	public:

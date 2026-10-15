@@ -33,6 +33,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PVEGameStatistics_TypeDefinitionIndex = 57631;
+
 	class PVEGameStatistics : public ::System::Object
 	{
 	public:

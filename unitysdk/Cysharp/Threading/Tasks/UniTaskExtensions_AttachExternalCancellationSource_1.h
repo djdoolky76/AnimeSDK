@@ -9,6 +9,8 @@ namespace System { class Object; }
 
 namespace Cysharp::Threading::Tasks
 {
+	inline static constexpr unsigned int UniTaskExtensions_AttachExternalCancellationSource_1_TypeDefinitionIndex = 38404;
+
 	template <typename T>
 	class UniTaskExtensions_AttachExternalCancellationSource_1 : public ::System::Object
 	{

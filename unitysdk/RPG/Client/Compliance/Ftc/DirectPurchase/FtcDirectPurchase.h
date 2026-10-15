@@ -16,6 +16,8 @@ namespace System::Collections::ObjectModel { template <typename T> class ReadOnl
 
 namespace RPG::Client::Compliance::Ftc::DirectPurchase
 {
+	inline static constexpr unsigned int FtcDirectPurchase_TypeDefinitionIndex = 74831;
+
 	class FtcDirectPurchase : public ::System::Object
 	{
 	public:

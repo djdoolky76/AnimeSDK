@@ -17,6 +17,8 @@ namespace UnityEngine { class Coroutine; }
 #define OIHNHGCDONL__START_B__2_0_OFFSET UNITYSDK_OFFSET(0xBE955B0)
 #define OIHNHGCDONL__STOP_B__3_0_OFFSET UNITYSDK_OFFSET(0xBE955C0)
 
+inline static constexpr unsigned int OIHNHGCDONL_TypeDefinitionIndex = 78698;
+
 	class OIHNHGCDONL : public ::System::Object
 	{
 	public:

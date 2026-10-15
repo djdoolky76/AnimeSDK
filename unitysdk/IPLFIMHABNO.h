@@ -13,6 +13,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 #define IPLFIMHABNO_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CF32990)
 #define IPLFIMHABNO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CF32870)
 
+inline static constexpr unsigned int IPLFIMHABNO_TypeDefinitionIndex = 24165;
+
 	class IPLFIMHABNO : public ::RPG::GameCore::TaskConfig
 	{
 	public:

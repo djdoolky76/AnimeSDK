@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int LDGDAAOFGNA_CheckSkillResult_TypeDefinitionIndex = 77013;
+
 	enum class LDGDAAOFGNA_CheckSkillResult : ::System::Int32
 	{
 		OK = 0,

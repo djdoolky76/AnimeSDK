@@ -26,6 +26,8 @@ namespace System::Text::RegularExpressions { class Regex; }
 
 namespace System::Text::RegularExpressions
 {
+	inline static constexpr unsigned int Match_TypeDefinitionIndex = 2518;
+
 	class Match : public ::System::Text::RegularExpressions::Group
 	{
 	public:

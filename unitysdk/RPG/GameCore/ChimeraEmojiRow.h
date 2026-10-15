@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChimeraEmojiRow_TypeDefinitionIndex = 13046;
+
 	class ChimeraEmojiRow : public ::System::Object
 	{
 	public:

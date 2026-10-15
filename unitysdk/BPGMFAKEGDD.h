@@ -8,6 +8,8 @@ namespace UnityEngine { class Transform; }
 
 #define BPGMFAKEGDD_CTOR_OFFSET UNITYSDK_OFFSET(0x1C8DBA90)
 
+inline static constexpr unsigned int BPGMFAKEGDD_TypeDefinitionIndex = 43221;
+
 	class BPGMFAKEGDD : public ::System::Object
 	{
 	public:

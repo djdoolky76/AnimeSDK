@@ -10,6 +10,8 @@ namespace RPG::GameCore { class PamChatQuickFunctionConfigRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PamChatQuickFunctionConfigRow_TypeDefinitionIndex = 14312;
+
 	class PamChatQuickFunctionConfigRow : public ::System::Object
 	{
 	public:

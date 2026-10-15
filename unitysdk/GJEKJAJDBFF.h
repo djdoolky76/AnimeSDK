@@ -4,6 +4,8 @@ namespace System { class String; }
 
 #define GJEKJAJDBFF_CTOR_OFFSET UNITYSDK_OFFSET(0x2E7C140)
 
+inline static constexpr unsigned int GJEKJAJDBFF_TypeDefinitionIndex = 73561;
+
 	struct alignas(8) GJEKJAJDBFF
 	{
 		::System::String* NJLNMFAINJE; // 0x10

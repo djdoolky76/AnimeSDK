@@ -10,6 +10,8 @@ namespace System { class String; }
 #define LPMNNIMECJD_MNGGAOFNGIP_OFFSET UNITYSDK_OFFSET(0x1EC33CF0)
 #define LPMNNIMECJD_SET_OFFSET UNITYSDK_OFFSET(0x1EC34FE0)
 
+inline static constexpr unsigned int LPMNNIMECJD_TypeDefinitionIndex = 35219;
+
 	class LPMNNIMECJD : public ::System::Object
 	{
 	public:

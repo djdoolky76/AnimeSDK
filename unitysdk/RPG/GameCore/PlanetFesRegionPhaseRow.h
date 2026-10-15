@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PlanetFesRegionPhaseRow_TypeDefinitionIndex = 12255;
+
 	class PlanetFesRegionPhaseRow : public ::System::Object
 	{
 	public:

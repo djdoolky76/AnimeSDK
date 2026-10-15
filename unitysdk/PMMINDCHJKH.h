@@ -26,6 +26,8 @@ namespace Entitas { template <typename T> class IMatcher_1; }
 #define PMMINDCHJKH_MCNHEINPBCC_OFFSET UNITYSDK_OFFSET(0x1C7F63E0)
 #define PMMINDCHJKH_OBLEOLNFIGN_OFFSET UNITYSDK_OFFSET(0x1C7F66E0)
 
+inline static constexpr unsigned int PMMINDCHJKH_TypeDefinitionIndex = 37020;
+
 	class PMMINDCHJKH : public ::System::Object
 	{
 	public:

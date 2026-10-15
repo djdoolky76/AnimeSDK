@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace CriWare
 {
+	inline static constexpr unsigned int CriAtomCueSheet_TypeDefinitionIndex = 39933;
+
 	class CriAtomCueSheet : public ::System::Object
 	{
 	public:

@@ -23,6 +23,8 @@ namespace System::Security::Cryptography { class ICryptoTransform; }
 
 namespace Mono::Security::Cryptography
 {
+	inline static constexpr unsigned int ARC4Managed_3296B585F1DE4882_TypeDefinitionIndex = 2299;
+
 	class ARC4Managed_3296B585F1DE4882 : public ::Mono::Security::Cryptography::RC4_BBE2E2AECC964004
 	{
 	public:

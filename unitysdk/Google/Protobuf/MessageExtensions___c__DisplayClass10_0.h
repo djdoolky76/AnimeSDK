@@ -9,6 +9,8 @@ namespace Google::Protobuf::Reflection { class FieldDescriptor; }
 
 namespace Google::Protobuf
 {
+	inline static constexpr unsigned int MessageExtensions___c__DisplayClass10_0_TypeDefinitionIndex = 5407;
+
 	class MessageExtensions___c__DisplayClass10_0 : public ::System::Object
 	{
 	public:

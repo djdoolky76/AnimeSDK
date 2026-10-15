@@ -10,6 +10,8 @@ namespace RPG::GameCore { class SwipeRotationCameraParam; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SwipeRotationCameraParam_TypeDefinitionIndex = 20830;
+
 	class SwipeRotationCameraParam : public ::RPG::GameCore::JsonConfig
 	{
 	public:

@@ -7,6 +7,8 @@ class NIAKMMKHBJI;
 #define JBBCEHNKLCB_CTOR_OFFSET UNITYSDK_OFFSET(0x16560840)
 #define JBBCEHNKLCB_PGLNBEBCFMA_OFFSET UNITYSDK_OFFSET(0x16560730)
 
+inline static constexpr unsigned int JBBCEHNKLCB_TypeDefinitionIndex = 62368;
+
 	class JBBCEHNKLCB : public ::System::Object
 	{
 	public:

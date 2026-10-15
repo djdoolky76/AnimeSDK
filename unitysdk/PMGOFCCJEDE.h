@@ -5,6 +5,8 @@
 
 #define PMGOFCCJEDE_CTOR_OFFSET UNITYSDK_OFFSET(0xC31C910)
 
+inline static constexpr unsigned int PMGOFCCJEDE_TypeDefinitionIndex = 55359;
+
 	class PMGOFCCJEDE : public ::System::Object
 	{
 	public:

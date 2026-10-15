@@ -15,6 +15,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ExpeditionBattleMapFunViewModel_TypeDefinitionIndex = 63943;
+
 	class ExpeditionBattleMapFunViewModel : public ::System::Object
 	{
 	public:

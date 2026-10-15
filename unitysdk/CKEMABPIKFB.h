@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define CKEMABPIKFB_CTOR_OFFSET UNITYSDK_OFFSET(0xD758DD0)
 #define CKEMABPIKFB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xD758E00)
 
+inline static constexpr unsigned int CKEMABPIKFB_TypeDefinitionIndex = 58074;
+
 	class CKEMABPIKFB
 	{
 	public:

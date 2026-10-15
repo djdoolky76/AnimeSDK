@@ -34,6 +34,8 @@ namespace System { class String; }
 #define AHIEHELEMMN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E271320)
 #define AHIEHELEMMN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E271380)
 
+inline static constexpr unsigned int AHIEHELEMMN_TypeDefinitionIndex = 32120;
+
 	class AHIEHELEMMN : public ::System::Object
 	{
 	public:

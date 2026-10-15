@@ -11,6 +11,8 @@ namespace RPG::GameCore { class IdleLivePowerByTagRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int IdleLivePowerByTagRow_TypeDefinitionIndex = 11714;
+
 	class IdleLivePowerByTagRow : public ::System::Object
 	{
 	public:

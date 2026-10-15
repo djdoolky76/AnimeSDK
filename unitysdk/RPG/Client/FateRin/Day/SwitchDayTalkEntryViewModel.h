@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::Client::FateRin::Day
 {
+	inline static constexpr unsigned int SwitchDayTalkEntryViewModel_TypeDefinitionIndex = 81071;
+
 	class SwitchDayTalkEntryViewModel : public ::RPG::Client::FateRin::BaseViewModel
 	{
 	public:

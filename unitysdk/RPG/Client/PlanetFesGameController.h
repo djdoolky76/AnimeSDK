@@ -13,6 +13,8 @@ namespace System { class Object; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PlanetFesGameController_TypeDefinitionIndex = 66500;
+
 	class PlanetFesGameController : public ::UnityEngine::MonoBehaviour
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define CAEFBGAFKHD___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E057880)
 #define CAEFBGAFKHD___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E057890)
 
+inline static constexpr unsigned int CAEFBGAFKHD___c_TypeDefinitionIndex = 33459;
+
 	class CAEFBGAFKHD___c : public ::System::Object
 	{
 	public:

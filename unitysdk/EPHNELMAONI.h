@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define EPHNELMAONI_CTOR_OFFSET UNITYSDK_OFFSET(0x155D4EA0)
 #define EPHNELMAONI_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0x155D4EB0)
 
+inline static constexpr unsigned int EPHNELMAONI_TypeDefinitionIndex = 62555;
+
 	class EPHNELMAONI : public ::System::Object
 	{
 	public:

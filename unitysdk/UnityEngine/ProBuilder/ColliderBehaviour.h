@@ -11,6 +11,8 @@
 
 namespace UnityEngine::ProBuilder
 {
+	inline static constexpr unsigned int ColliderBehaviour_TypeDefinitionIndex = 44345;
+
 	class ColliderBehaviour : public ::UnityEngine::ProBuilder::EntityBehaviour
 	{
 	public:

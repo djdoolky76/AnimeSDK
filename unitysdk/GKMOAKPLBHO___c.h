@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define GKMOAKPLBHO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E4BA800)
 #define GKMOAKPLBHO___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1E4BA810)
 
+inline static constexpr unsigned int GKMOAKPLBHO___c_TypeDefinitionIndex = 33556;
+
 	class GKMOAKPLBHO___c : public ::System::Object
 	{
 	public:

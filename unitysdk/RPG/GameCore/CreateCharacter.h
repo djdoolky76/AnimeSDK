@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CreateCharacter_TypeDefinitionIndex = 20819;
+
 	class CreateCharacter : public ::RPG::GameCore::TaskConfig
 	{
 	public:

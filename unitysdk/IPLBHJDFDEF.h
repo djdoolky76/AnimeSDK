@@ -8,6 +8,8 @@ class JEFCCHAPOLA;
 #define IPLBHJDFDEF_CTOR_OFFSET UNITYSDK_OFFSET(0x16524E30)
 #define IPLBHJDFDEF_EXECUTE_OFFSET UNITYSDK_OFFSET(0x16524D80)
 
+inline static constexpr unsigned int IPLBHJDFDEF_TypeDefinitionIndex = 54266;
+
 	class IPLBHJDFDEF : public ::BHDAFDOMINP
 	{
 	public:

@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int ThreadPoolTask_TypeDefinitionIndex = 46488;
+
 	class ThreadPoolTask : public ::System::MulticastDelegate
 	{
 	public:

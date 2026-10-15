@@ -10,6 +10,8 @@ class PKHHHKPOCDC;
 #define PKHHHKPOCDC_EXECUTE_OFFSET UNITYSDK_OFFSET(0xC2BB090)
 #define PKHHHKPOCDC_INITIALIZE_OFFSET UNITYSDK_OFFSET(0xC2BAFA0)
 
+inline static constexpr unsigned int PKHHHKPOCDC_TypeDefinitionIndex = 75757;
+
 	class PKHHHKPOCDC : public ::System::Object
 	{
 	public:

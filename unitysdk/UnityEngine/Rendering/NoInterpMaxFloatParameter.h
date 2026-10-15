@@ -7,6 +7,8 @@
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int NoInterpMaxFloatParameter_TypeDefinitionIndex = 35638;
+
 	class NoInterpMaxFloatParameter
 	{
 	public:

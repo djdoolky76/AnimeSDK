@@ -81,6 +81,8 @@ namespace UnityEngine::Pooled { template <typename T> class PooledList_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int SimpleText_TypeDefinitionIndex = 72644;
+
 	class SimpleText : public ::UnityEngine::MonoBehaviour
 	{
 	public:

@@ -16,6 +16,8 @@ namespace System { class IDisposable; }
 #define NBKNHOHKDJI_EMGHGCGDEOL_OFFSET UNITYSDK_OFFSET(0x1EC87BB0)
 #define NBKNHOHKDJI_SUBSCRIBECORE_OFFSET UNITYSDK_OFFSET(0x1EC87CD0)
 
+inline static constexpr unsigned int NBKNHOHKDJI_TypeDefinitionIndex = 44241;
+
 	class NBKNHOHKDJI
 	{
 	public:

@@ -10,6 +10,8 @@
 #define BBIDOJKIKCD_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x15E8D590)
 #define BBIDOJKIKCD_JAILHGGFLDH_OFFSET UNITYSDK_OFFSET(0x15E8D5A0)
 
+inline static constexpr unsigned int BBIDOJKIKCD_TypeDefinitionIndex = 56109;
+
 	class BBIDOJKIKCD : public ::DBGDNLLDPFI
 	{
 	public:

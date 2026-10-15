@@ -31,6 +31,8 @@ namespace System { class String; }
 #define CIGLIFFIIDC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E0D32E0)
 #define CIGLIFFIIDC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E0D3340)
 
+inline static constexpr unsigned int CIGLIFFIIDC_TypeDefinitionIndex = 25732;
+
 	class CIGLIFFIIDC : public ::System::Object
 	{
 	public:

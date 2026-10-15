@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PuzzleBoxmanInBoard_TypeDefinitionIndex = 22015;
+
 	class PuzzleBoxmanInBoard : public ::RPG::GameCore::TaskConfig
 	{
 	public:

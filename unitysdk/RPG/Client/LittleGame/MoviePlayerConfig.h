@@ -6,6 +6,8 @@
 
 namespace RPG::Client::LittleGame
 {
+	inline static constexpr unsigned int MoviePlayerConfig_TypeDefinitionIndex = 42317;
+
 	class MoviePlayerConfig : public ::RPG::Client::LittleGame::PlacementConfig
 	{
 	public:

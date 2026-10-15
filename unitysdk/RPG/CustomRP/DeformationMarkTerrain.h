@@ -9,6 +9,8 @@
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int DeformationMarkTerrain_TypeDefinitionIndex = 37716;
+
 	class DeformationMarkTerrain : public ::UnityEngine::MonoBehaviour
 	{
 	public:

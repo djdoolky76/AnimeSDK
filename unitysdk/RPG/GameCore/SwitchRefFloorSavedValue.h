@@ -11,6 +11,8 @@ namespace RPG::GameCore { class SwitchRefFloorSavedValue; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SwitchRefFloorSavedValue_TypeDefinitionIndex = 17525;
+
 	class SwitchRefFloorSavedValue : public ::RPG::GameCore::SwitchRefBase
 	{
 	public:

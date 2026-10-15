@@ -24,6 +24,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define AOKDLPNDMMO_JENAHNOOGLC_OFFSET UNITYSDK_OFFSET(0x1C89F880)
 #define AOKDLPNDMMO_NHMHJEEKCEL_OFFSET UNITYSDK_OFFSET(0x1C8A16D0)
 
+inline static constexpr unsigned int AOKDLPNDMMO_TypeDefinitionIndex = 43077;
+
 	class AOKDLPNDMMO : public ::KHLDHMFKOCP
 	{
 	public:

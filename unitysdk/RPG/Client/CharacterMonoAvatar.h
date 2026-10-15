@@ -139,6 +139,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int CharacterMonoAvatar_TypeDefinitionIndex = 68385;
+
 	class CharacterMonoAvatar : public ::UnityEngine::MonoBehaviour
 	{
 	public:

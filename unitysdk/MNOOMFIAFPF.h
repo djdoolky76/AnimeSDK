@@ -30,6 +30,8 @@ namespace System { class String; }
 #define MNOOMFIAFPF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EAA30A0)
 #define MNOOMFIAFPF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EAA3100)
 
+inline static constexpr unsigned int MNOOMFIAFPF_TypeDefinitionIndex = 28770;
+
 	class MNOOMFIAFPF : public ::System::Object
 	{
 	public:

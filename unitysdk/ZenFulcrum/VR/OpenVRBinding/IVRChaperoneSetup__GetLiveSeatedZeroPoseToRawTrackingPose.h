@@ -13,6 +13,8 @@ namespace System { class Object; }
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
+	inline static constexpr unsigned int IVRChaperoneSetup__GetLiveSeatedZeroPoseToRawTrackingPose_TypeDefinitionIndex = 39007;
+
 	class IVRChaperoneSetup__GetLiveSeatedZeroPoseToRawTrackingPose : public ::System::MulticastDelegate
 	{
 	public:

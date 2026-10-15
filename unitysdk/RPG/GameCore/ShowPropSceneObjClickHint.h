@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ShowPropSceneObjClickHint_TypeDefinitionIndex = 22240;
+
 	class ShowPropSceneObjClickHint : public ::RPG::GameCore::TaskConfig
 	{
 	public:

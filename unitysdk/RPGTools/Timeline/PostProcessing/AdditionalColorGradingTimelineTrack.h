@@ -11,6 +11,8 @@ namespace UnityEngine::Timeline { class TimelineClip; }
 
 namespace RPGTools::Timeline::PostProcessing
 {
+	inline static constexpr unsigned int AdditionalColorGradingTimelineTrack_TypeDefinitionIndex = 48531;
+
 	class AdditionalColorGradingTimelineTrack : public ::UnityEngine::Timeline::TrackAsset
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ShowEvolveBuildCardSelectInBattle; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ShowEvolveBuildCardSelectInBattle_TypeDefinitionIndex = 22513;
+
 	class ShowEvolveBuildCardSelectInBattle : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FiveDimPlayUsePropAnimAction; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimPlayUsePropAnimAction_TypeDefinitionIndex = 18729;
+
 	class FiveDimPlayUsePropAnimAction : public ::RPG::GameCore::FiveDimBaseEventAction
 	{
 	public:

@@ -9,6 +9,8 @@ class PBGNKMMDBGD;
 #define FPCPBBLJDKI_CTOR_OFFSET UNITYSDK_OFFSET(0x1C6275A0)
 #define FPCPBBLJDKI_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1C6275B0)
 
+inline static constexpr unsigned int FPCPBBLJDKI_TypeDefinitionIndex = 37447;
+
 	class FPCPBBLJDKI : public ::System::Object
 	{
 	public:

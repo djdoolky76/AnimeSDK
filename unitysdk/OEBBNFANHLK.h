@@ -29,6 +29,8 @@ namespace System { class String; }
 #define OEBBNFANHLK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DE22FB0)
 #define OEBBNFANHLK_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DE23010)
 
+inline static constexpr unsigned int OEBBNFANHLK_TypeDefinitionIndex = 25580;
+
 	class OEBBNFANHLK : public ::System::Object
 	{
 	public:

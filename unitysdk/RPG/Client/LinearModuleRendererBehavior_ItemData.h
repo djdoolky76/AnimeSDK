@@ -6,6 +6,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int LinearModuleRendererBehavior_ItemData_TypeDefinitionIndex = 70902;
+
 	struct alignas(4) LinearModuleRendererBehavior_ItemData
 	{
 		::System::Int32 GroupID; // 0x10

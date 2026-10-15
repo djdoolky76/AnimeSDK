@@ -12,6 +12,8 @@ namespace RPG::Client::ActivityIdleLive { class MockInteractionProvider; }
 
 namespace RPG::Client::ActivityIdleLive
 {
+	inline static constexpr unsigned int MockInteractionProvider_TypeDefinitionIndex = 75329;
+
 	class MockInteractionProvider : public ::System::Object
 	{
 	public:

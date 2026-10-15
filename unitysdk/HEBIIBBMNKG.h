@@ -29,6 +29,8 @@ namespace System { class String; }
 #define HEBIIBBMNKG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E556D70)
 #define HEBIIBBMNKG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E556DD0)
 
+inline static constexpr unsigned int HEBIIBBMNKG_TypeDefinitionIndex = 26420;
+
 	class HEBIIBBMNKG : public ::System::Object
 	{
 	public:

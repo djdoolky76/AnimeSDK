@@ -38,6 +38,8 @@ namespace UnityEngine::UI { template <typename T> class ObjectPool_1; }
 
 namespace UnityEngine::UI
 {
+	inline static constexpr unsigned int HorizontalOrVerticalLayoutGroup_TypeDefinitionIndex = 6775;
+
 	class HorizontalOrVerticalLayoutGroup : public ::UnityEngine::UI::LayoutGroup
 	{
 	public:

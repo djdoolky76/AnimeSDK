@@ -18,6 +18,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::LittleGame::FourRotateVoxel
 {
+	inline static constexpr unsigned int FourRotateVoxelAnimalAttachBillboardData_TypeDefinitionIndex = 76831;
+
 	class FourRotateVoxelAnimalAttachBillboardData : public ::System::Object
 	{
 	public:

@@ -3,6 +3,8 @@
 
 namespace InControl::NativeDeviceProfiles
 {
+	inline static constexpr unsigned int SDLXboxOneNativeProfile_ProductId_TypeDefinitionIndex = 41292;
+
 	enum class SDLXboxOneNativeProfile_ProductId : ::System::UInt16
 	{
 		XBOX_ONE_S = 746,

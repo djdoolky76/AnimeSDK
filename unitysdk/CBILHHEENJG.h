@@ -37,6 +37,8 @@ namespace System { class String; }
 #define CBILHHEENJG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E06B180)
 #define CBILHHEENJG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E06B1E0)
 
+inline static constexpr unsigned int CBILHHEENJG_TypeDefinitionIndex = 33786;
+
 	class CBILHHEENJG : public ::System::Object
 	{
 	public:

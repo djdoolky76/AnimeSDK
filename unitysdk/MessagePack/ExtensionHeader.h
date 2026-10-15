@@ -11,6 +11,8 @@
 
 namespace MessagePack
 {
+	inline static constexpr unsigned int ExtensionHeader_TypeDefinitionIndex = 7160;
+
 	struct alignas(4) ExtensionHeader
 	{
 		::System::SByte _TypeCode_k__BackingField; // 0x10

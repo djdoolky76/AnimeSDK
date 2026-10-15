@@ -33,6 +33,8 @@ namespace System { class Object; }
 #define CJHBMJPLFFI_ONKPNLPCJFF_OFFSET UNITYSDK_OFFSET(0x3C40770)
 #define CJHBMJPLFFI_OOIACBFILCL_OFFSET UNITYSDK_OFFSET(0x3C407C0)
 
+inline static constexpr unsigned int CJHBMJPLFFI_TypeDefinitionIndex = 10702;
+
 	struct alignas(8) CJHBMJPLFFI
 	{
 		::LELCKJPOPAO* BEHHICMOFIE; // 0x10

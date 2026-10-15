@@ -11,6 +11,8 @@ namespace System { class Object; }
 
 namespace RPG::Client::Mono
 {
+	inline static constexpr unsigned int FiveDimTriggerRegionPlugin___c_TypeDefinitionIndex = 76028;
+
 	class FiveDimTriggerRegionPlugin___c : public ::System::Object
 	{
 	public:

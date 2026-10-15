@@ -72,6 +72,8 @@ namespace UnityEngine::UI { class TouchFilter; }
 
 namespace UnityEngine::UI
 {
+	inline static constexpr unsigned int Slider_TypeDefinitionIndex = 6843;
+
 	class Slider : public ::UnityEngine::UI::Selectable
 	{
 	public:

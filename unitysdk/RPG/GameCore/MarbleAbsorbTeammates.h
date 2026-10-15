@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MarbleAbsorbTeammates_TypeDefinitionIndex = 16849;
+
 	class MarbleAbsorbTeammates : public ::RPG::GameCore::MarbleTaskConfig
 	{
 	public:

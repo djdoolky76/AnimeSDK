@@ -27,6 +27,8 @@ namespace System { class String; }
 #define INFDOMFEGML_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E6C0D10)
 #define INFDOMFEGML_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E6C0D70)
 
+inline static constexpr unsigned int INFDOMFEGML_TypeDefinitionIndex = 29889;
+
 	class INFDOMFEGML : public ::System::Object
 	{
 	public:

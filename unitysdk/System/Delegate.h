@@ -55,6 +55,8 @@ namespace System::Runtime::Serialization { class SerializationInfo; }
 
 namespace System
 {
+	inline static constexpr unsigned int Delegate_TypeDefinitionIndex = 388;
+
 	class Delegate : public ::System::Object
 	{
 	public:

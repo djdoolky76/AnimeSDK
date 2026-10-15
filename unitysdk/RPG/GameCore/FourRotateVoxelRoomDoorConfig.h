@@ -12,6 +12,8 @@ namespace RPG::GameCore { class PropButtonConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FourRotateVoxelRoomDoorConfig_TypeDefinitionIndex = 16755;
+
 	class FourRotateVoxelRoomDoorConfig : public ::RPG::GameCore::LittleGameComponentConfig
 	{
 	public:

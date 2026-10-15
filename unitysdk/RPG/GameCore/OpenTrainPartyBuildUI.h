@@ -10,6 +10,8 @@ namespace RPG::GameCore { class OpenTrainPartyBuildUI; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int OpenTrainPartyBuildUI_TypeDefinitionIndex = 22357;
+
 	class OpenTrainPartyBuildUI : public ::RPG::GameCore::TaskConfig
 	{
 	public:

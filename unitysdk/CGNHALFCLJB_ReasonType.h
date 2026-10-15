@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int CGNHALFCLJB_ReasonType_TypeDefinitionIndex = 79517;
+
 	enum class CGNHALFCLJB_ReasonType : ::System::Int32
 	{
 		ManualSelect = 0,

@@ -7,6 +7,8 @@ namespace RPG::Client { class BaseShaderPropertyTransition; }
 #define LHPDLBPKCDK___C__DISPLAYCLASS15_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB6C1830)
 #define LHPDLBPKCDK___C__DISPLAYCLASS15_0___BEGINFADEOUT_DITHERMODE_B__0_OFFSET UNITYSDK_OFFSET(0xB6C1BD0)
 
+inline static constexpr unsigned int LHPDLBPKCDK___c__DisplayClass15_0_TypeDefinitionIndex = 57357;
+
 	class LHPDLBPKCDK___c__DisplayClass15_0 : public ::System::Object
 	{
 	public:

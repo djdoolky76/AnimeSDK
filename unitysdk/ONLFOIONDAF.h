@@ -35,6 +35,8 @@ namespace System { class String; }
 #define ONLFOIONDAF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DECDCC0)
 #define ONLFOIONDAF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DECDD20)
 
+inline static constexpr unsigned int ONLFOIONDAF_TypeDefinitionIndex = 29260;
+
 	class ONLFOIONDAF : public ::System::Object
 	{
 	public:

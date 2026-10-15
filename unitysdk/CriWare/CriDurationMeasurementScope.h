@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace CriWare
 {
+	inline static constexpr unsigned int CriDurationMeasurementScope_TypeDefinitionIndex = 40136;
+
 	struct alignas(4) CriDurationMeasurementScope
 	{
 		::System::Void _ctor(::System::String* a1)

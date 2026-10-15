@@ -11,6 +11,8 @@ namespace UnityEngine { class Animator; }
 
 namespace RPG::Client::B51Racing
 {
+	inline static constexpr unsigned int MonoB51RacingReadyTargetItem_TypeDefinitionIndex = 81961;
+
 	class MonoB51RacingReadyTargetItem : public ::Sofa::BaseSofaControl
 	{
 	public:

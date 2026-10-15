@@ -35,6 +35,8 @@ namespace UnityEngine::UI { class Text; }
 #define INJHLPEBAJL__ONBIND_OFFSET UNITYSDK_OFFSET(0x164F0190)
 #define INJHLPEBAJL__ONDISPOSE_OFFSET UNITYSDK_OFFSET(0x164F0680)
 
+inline static constexpr unsigned int INJHLPEBAJL_TypeDefinitionIndex = 71269;
+
 	class INJHLPEBAJL : public ::CAOEEDDAPIK
 	{
 	public:

@@ -10,6 +10,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int PerformanceSignificanceCallbacks_TypeDefinitionIndex = 4401;
+
 	class PerformanceSignificanceCallbacks : public ::System::Object
 	{
 	public:

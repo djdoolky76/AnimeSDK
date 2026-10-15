@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int WeGameDelegate_SetNotifyWindowEnableDelegate_TypeDefinitionIndex = 7713;
+
 	class WeGameDelegate_SetNotifyWindowEnableDelegate : public ::System::MulticastDelegate
 	{
 	public:

@@ -9,6 +9,8 @@ namespace RPG::GameCore { class CityShopRewardListRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CityShopRewardListRow_TypeDefinitionIndex = 13062;
+
 	class CityShopRewardListRow : public ::System::Object
 	{
 	public:

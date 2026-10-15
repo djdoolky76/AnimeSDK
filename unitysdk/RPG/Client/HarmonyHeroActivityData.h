@@ -8,6 +8,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int HarmonyHeroActivityData_TypeDefinitionIndex = 61632;
+
 	class HarmonyHeroActivityData : public ::RPG::Client::ActivityPanelData
 	{
 	public:

@@ -13,6 +13,8 @@ class EINCCFAGAHO;
 #define ENIPLAOIEHM_LEAVE_OFFSET UNITYSDK_OFFSET(0x155B0670)
 #define ENIPLAOIEHM_TICK_OFFSET UNITYSDK_OFFSET(0x155B05B0)
 
+inline static constexpr unsigned int ENIPLAOIEHM_TypeDefinitionIndex = 61121;
+
 	class ENIPLAOIEHM : public ::System::Object
 	{
 	public:

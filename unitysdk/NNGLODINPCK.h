@@ -4,6 +4,8 @@
 
 #define NNGLODINPCK_CTOR_OFFSET UNITYSDK_OFFSET(0xBCA8C50)
 
+inline static constexpr unsigned int NNGLODINPCK_TypeDefinitionIndex = 73836;
+
 	class NNGLODINPCK : public ::System::Object
 	{
 	public:

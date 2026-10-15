@@ -5,6 +5,8 @@
 
 #define MOOEMCFGGNM_JDCBLLJKBKC_CTOR_OFFSET UNITYSDK_OFFSET(0xBA367E0)
 
+inline static constexpr unsigned int MOOEMCFGGNM_JDCBLLJKBKC_TypeDefinitionIndex = 56082;
+
 	class MOOEMCFGGNM_JDCBLLJKBKC : public ::System::Object
 	{
 	public:

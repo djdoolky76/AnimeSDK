@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int WebDelegate_GetWebCookiesDelegate_TypeDefinitionIndex = 7859;
+
 	class WebDelegate_GetWebCookiesDelegate : public ::System::MulticastDelegate
 	{
 	public:

@@ -13,6 +13,8 @@
 #define LEFAHIJNFKL_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x1DD6DF80)
 #define LEFAHIJNFKL_PAMDKBMJCEJ_OFFSET UNITYSDK_OFFSET(0x1DD6EFB0)
 
+inline static constexpr unsigned int LEFAHIJNFKL_TypeDefinitionIndex = 6381;
+
 	class LEFAHIJNFKL : public ::System::Security::Cryptography::MD5
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ST_Main_ElfWaiterProcessEvent; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ST_Main_ElfWaiterProcessEvent_TypeDefinitionIndex = 21523;
+
 	class ST_Main_ElfWaiterProcessEvent : public ::RPG::GameCore::STTaskConfig
 	{
 	public:

@@ -36,6 +36,8 @@ namespace System::Net::Sockets { class Socket; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int KCPClient_TypeDefinitionIndex = 46129;
+
 	class KCPClient : public ::MiHoYo::SDK::IKCPClient
 	{
 	public:

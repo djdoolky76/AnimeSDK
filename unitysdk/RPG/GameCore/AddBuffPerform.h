@@ -13,6 +13,8 @@ namespace RPG::GameCore { class TaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AddBuffPerform_TypeDefinitionIndex = 23551;
+
 	class AddBuffPerform : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -9,6 +9,8 @@ namespace UnityEngine { class Texture2D; }
 #define KOAIMAGDCOH___C__DISPLAYCLASS25_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB58E340)
 #define KOAIMAGDCOH___C__DISPLAYCLASS25_0___LOADSCENETVTEXTURE_B__0_OFFSET UNITYSDK_OFFSET(0xB58F400)
 
+inline static constexpr unsigned int KOAIMAGDCOH___c__DisplayClass25_0_TypeDefinitionIndex = 68808;
+
 	class KOAIMAGDCOH___c__DisplayClass25_0 : public ::System::Object
 	{
 	public:

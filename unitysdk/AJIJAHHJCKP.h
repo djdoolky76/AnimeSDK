@@ -10,6 +10,8 @@ namespace System { class String; }
 #define AJIJAHHJCKP_SET_DAMAGECOUNTER_OFFSET UNITYSDK_OFFSET(0x12CBE8E0)
 #define AJIJAHHJCKP_SET_ISACTIVE_OFFSET UNITYSDK_OFFSET(0x12CBE900)
 
+inline static constexpr unsigned int AJIJAHHJCKP_TypeDefinitionIndex = 58997;
+
 	class AJIJAHHJCKP : public ::JENIFGNJEPE
 	{
 	public:

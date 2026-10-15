@@ -13,6 +13,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPGTools::Timeline::VFX
 {
+	inline static constexpr unsigned int VFXAnimatorCrossFadeClip_TypeDefinitionIndex = 48662;
+
 	class VFXAnimatorCrossFadeClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:

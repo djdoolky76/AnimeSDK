@@ -4,6 +4,8 @@
 
 #define NBICPOLGBJP_CTOR_OFFSET UNITYSDK_OFFSET(0x1C943810)
 
+inline static constexpr unsigned int NBICPOLGBJP_TypeDefinitionIndex = 42942;
+
 	class NBICPOLGBJP : public ::System::Object
 	{
 	public:

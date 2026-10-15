@@ -10,6 +10,8 @@ namespace System::Net::NetworkInformation { class IPGlobalProperties; }
 
 namespace System::Net::NetworkInformation
 {
+	inline static constexpr unsigned int IPGlobalProperties_TypeDefinitionIndex = 2928;
+
 	class IPGlobalProperties : public ::System::Object
 	{
 	public:

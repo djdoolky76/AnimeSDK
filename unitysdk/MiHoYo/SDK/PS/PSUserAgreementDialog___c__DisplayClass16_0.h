@@ -9,6 +9,8 @@ namespace MiHoYo::SDK::PS { class PSUserAgreementDialog; }
 
 namespace MiHoYo::SDK::PS
 {
+	inline static constexpr unsigned int PSUserAgreementDialog___c__DisplayClass16_0_TypeDefinitionIndex = 8949;
+
 	class PSUserAgreementDialog___c__DisplayClass16_0 : public ::System::Object
 	{
 	public:

@@ -7,6 +7,8 @@ class HEOLKMLMPML;
 #define NCFDMBOBAGN___C__DISPLAYCLASS3_0_CTOR_OFFSET UNITYSDK_OFFSET(0xBB0C130)
 #define NCFDMBOBAGN___C__DISPLAYCLASS3_0__COMPILEENTRY_B__0_OFFSET UNITYSDK_OFFSET(0xBB0C450)
 
+inline static constexpr unsigned int NCFDMBOBAGN___c__DisplayClass3_0_TypeDefinitionIndex = 65314;
+
 	class NCFDMBOBAGN___c__DisplayClass3_0 : public ::System::Object
 	{
 	public:

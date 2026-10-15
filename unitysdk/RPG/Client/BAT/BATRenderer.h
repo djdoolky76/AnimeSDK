@@ -14,6 +14,8 @@ namespace UnityEngine { class Camera; }
 
 namespace RPG::Client::BAT
 {
+	inline static constexpr unsigned int BATRenderer_TypeDefinitionIndex = 73673;
+
 	class BATRenderer
 	{
 	public:

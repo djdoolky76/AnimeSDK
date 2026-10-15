@@ -10,6 +10,8 @@ namespace RPG::GameCore::Booklet { class FadeInStepConfig; }
 
 namespace RPG::GameCore::Booklet
 {
+	inline static constexpr unsigned int FadeInStepConfig_TypeDefinitionIndex = 24979;
+
 	class FadeInStepConfig : public ::RPG::GameCore::Booklet::StepConfig
 	{
 	public:

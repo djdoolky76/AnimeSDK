@@ -6,6 +6,8 @@
 
 #define JMEAKCMLLJE_CTOR_OFFSET UNITYSDK_OFFSET(0xB262890)
 
+inline static constexpr unsigned int JMEAKCMLLJE_TypeDefinitionIndex = 70219;
+
 	class JMEAKCMLLJE : public ::System::Object
 	{
 	public:

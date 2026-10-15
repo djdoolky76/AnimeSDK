@@ -19,6 +19,8 @@ namespace UnityEngine::Events { class UnityAction; }
 
 namespace RPG::Client::LittleGame::FiveDim
 {
+	inline static constexpr unsigned int FiveDimDynamicJoyStickBridge_TypeDefinitionIndex = 77227;
+
 	class FiveDimDynamicJoyStickBridge : public ::System::Object
 	{
 	public:

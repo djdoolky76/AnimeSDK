@@ -236,6 +236,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define NBIBOKEFKIH_SET_WAITONFIELD_OFFSET UNITYSDK_OFFSET(0x1C93F300)
 #define NBIBOKEFKIH_SET_WHITEATTACK_OFFSET UNITYSDK_OFFSET(0x1C93F360)
 
+inline static constexpr unsigned int NBIBOKEFKIH_TypeDefinitionIndex = 43082;
+
 	class NBIBOKEFKIH : public ::System::Object
 	{
 	public:

@@ -13,6 +13,8 @@ namespace System { class Object; }
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
+	inline static constexpr unsigned int IVRChaperone__GetBoundsColor_TypeDefinitionIndex = 38990;
+
 	class IVRChaperone__GetBoundsColor : public ::System::MulticastDelegate
 	{
 	public:

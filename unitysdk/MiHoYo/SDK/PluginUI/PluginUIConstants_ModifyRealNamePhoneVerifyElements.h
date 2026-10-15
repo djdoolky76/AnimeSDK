@@ -4,6 +4,8 @@
 
 namespace MiHoYo::SDK::PluginUI
 {
+	inline static constexpr unsigned int PluginUIConstants_ModifyRealNamePhoneVerifyElements_TypeDefinitionIndex = 9211;
+
 	class PluginUIConstants_ModifyRealNamePhoneVerifyElements : public ::System::Object
 	{
 	public:

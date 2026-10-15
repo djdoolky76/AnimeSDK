@@ -22,6 +22,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int FiveDimWaypointTarget_TypeDefinitionIndex = 69074;
+
 	class FiveDimWaypointTarget : public ::System::Object
 	{
 	public:

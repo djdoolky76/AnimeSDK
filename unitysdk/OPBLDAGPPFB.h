@@ -6,6 +6,8 @@ namespace RPG::Client { class ExpeditionBattleMap; }
 #define OPBLDAGPPFB_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xBFA09B0)
 #define OPBLDAGPPFB_CTOR_OFFSET UNITYSDK_OFFSET(0xBFA0B90)
 
+inline static constexpr unsigned int OPBLDAGPPFB_TypeDefinitionIndex = 63866;
+
 	class OPBLDAGPPFB : public ::System::Object
 	{
 	public:

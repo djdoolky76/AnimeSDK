@@ -7,6 +7,8 @@ namespace System { class String; }
 #define EABAKHCJHKG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DD382B0)
 #define EABAKHCJHKG_GET_ARGUMENTS_OFFSET UNITYSDK_OFFSET(0x1DD38310)
 
+inline static constexpr unsigned int EABAKHCJHKG_TypeDefinitionIndex = 6315;
+
 	class EABAKHCJHKG : public ::System::Attribute
 	{
 	public:

@@ -11,6 +11,8 @@ namespace System { class Action; }
 #define EFPPMIHCBAA_JGGINLAAKEM_OFFSET UNITYSDK_OFFSET(0x1EC06230)
 #define EFPPMIHCBAA_LDAMHBBILAD_OFFSET UNITYSDK_OFFSET(0x1EC061D0)
 
+inline static constexpr unsigned int EFPPMIHCBAA_TypeDefinitionIndex = 35297;
+
 	class EFPPMIHCBAA : public ::System::Object
 	{
 	public:

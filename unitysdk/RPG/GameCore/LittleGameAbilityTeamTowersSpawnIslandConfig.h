@@ -11,6 +11,8 @@ namespace RPG::GameCore { class LittleGameAbilityTeamTowersSpawnIslandConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LittleGameAbilityTeamTowersSpawnIslandConfig_TypeDefinitionIndex = 21416;
+
 	class LittleGameAbilityTeamTowersSpawnIslandConfig : public ::RPG::GameCore::BaseLittleGameAbilityEffectConfig
 	{
 	public:

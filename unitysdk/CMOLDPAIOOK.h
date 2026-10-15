@@ -20,6 +20,8 @@ namespace System { class String; }
 #define CMOLDPAIOOK_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xDA41AD0)
 #define CMOLDPAIOOK_LFIFIEGFMOM_OFFSET UNITYSDK_OFFSET(0xDA42D60)
 
+inline static constexpr unsigned int CMOLDPAIOOK_TypeDefinitionIndex = 77016;
+
 	class CMOLDPAIOOK : public ::KKHEJKOOOKG
 	{
 	public:

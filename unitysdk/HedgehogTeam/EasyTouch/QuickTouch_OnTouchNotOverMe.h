@@ -5,6 +5,8 @@
 
 namespace HedgehogTeam::EasyTouch
 {
+	inline static constexpr unsigned int QuickTouch_OnTouchNotOverMe_TypeDefinitionIndex = 40278;
+
 	class QuickTouch_OnTouchNotOverMe
 	{
 	public:

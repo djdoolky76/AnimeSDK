@@ -16,6 +16,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int DrinkMakerModule___c_TypeDefinitionIndex = 63631;
+
 	class DrinkMakerModule___c : public ::System::Object
 	{
 	public:

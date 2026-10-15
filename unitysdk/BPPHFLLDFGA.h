@@ -18,6 +18,8 @@ namespace Entitas { class IGroup; }
 #define BPPHFLLDFGA_OGBJLFEKPCH_OFFSET UNITYSDK_OFFSET(0xC1AFD40)
 #define BPPHFLLDFGA_TEARDOWN_OFFSET UNITYSDK_OFFSET(0xC1B0100)
 
+inline static constexpr unsigned int BPPHFLLDFGA_TypeDefinitionIndex = 76950;
+
 	class BPPHFLLDFGA : public ::System::Object
 	{
 	public:

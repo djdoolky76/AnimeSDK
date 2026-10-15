@@ -7,6 +7,8 @@ class FKPKLHICPFO;
 #define EAKMNIMFGGK___C__DISPLAYCLASS5_0_CTOR_OFFSET UNITYSDK_OFFSET(0x12682E50)
 #define EAKMNIMFGGK___C__DISPLAYCLASS5_0__ACTIVATETALENTPOINT_B__0_OFFSET UNITYSDK_OFFSET(0x12682F50)
 
+inline static constexpr unsigned int EAKMNIMFGGK___c__DisplayClass5_0_TypeDefinitionIndex = 80213;
+
 	class EAKMNIMFGGK___c__DisplayClass5_0 : public ::System::Object
 	{
 	public:

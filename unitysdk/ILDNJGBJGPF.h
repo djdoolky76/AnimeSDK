@@ -48,6 +48,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define ILDNJGBJGPF__RESTARTFROMCURRENTSTAGE_B__30_0_OFFSET UNITYSDK_OFFSET(0x164AC960)
 #define ILDNJGBJGPF___HANDLESESSIONSETTLE_B__36_0_OFFSET UNITYSDK_OFFSET(0x164AC9B0)
 
+inline static constexpr unsigned int ILDNJGBJGPF_TypeDefinitionIndex = 81449;
+
 	class ILDNJGBJGPF : public ::System::Object
 	{
 	public:

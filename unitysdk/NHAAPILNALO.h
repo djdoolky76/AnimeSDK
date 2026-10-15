@@ -27,6 +27,8 @@ namespace System { class String; }
 #define NHAAPILNALO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EB18750)
 #define NHAAPILNALO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EB187B0)
 
+inline static constexpr unsigned int NHAAPILNALO_TypeDefinitionIndex = 28947;
+
 	class NHAAPILNALO : public ::System::Object
 	{
 	public:

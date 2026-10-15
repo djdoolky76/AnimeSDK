@@ -51,6 +51,8 @@ namespace System::Text { class StringBuilder; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightExcelTableExt_TypeDefinitionIndex = 15471;
+
 	class GridFightExcelTableExt : public ::System::Object
 	{
 	public:

@@ -9,6 +9,8 @@ namespace System { class String; }
 
 #define JLOBJGBDCOD_CTOR_OFFSET UNITYSDK_OFFSET(0xB251CB0)
 
+inline static constexpr unsigned int JLOBJGBDCOD_TypeDefinitionIndex = 49684;
+
 	class JLOBJGBDCOD : public ::System::Object
 	{
 	public:

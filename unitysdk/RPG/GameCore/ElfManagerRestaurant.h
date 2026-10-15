@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ElfManagerRestaurant; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ElfManagerRestaurant_TypeDefinitionIndex = 21735;
+
 	class ElfManagerRestaurant : public ::RPG::GameCore::TaskConfig
 	{
 	public:

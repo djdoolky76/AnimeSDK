@@ -99,6 +99,8 @@ namespace UnityEngine::Rendering { class CommandBuffer; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int Graphics_TypeDefinitionIndex = 4122;
+
 	class Graphics : public ::System::Object
 	{
 	public:

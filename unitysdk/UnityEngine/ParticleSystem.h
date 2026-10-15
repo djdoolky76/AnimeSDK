@@ -215,6 +215,8 @@ namespace UnityEngine { class ParticleSystem_OnParticleEmissionBeginEvent; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int ParticleSystem_TypeDefinitionIndex = 5207;
+
 	class ParticleSystem : public ::UnityEngine::Component
 	{
 	public:

@@ -29,6 +29,8 @@ namespace System { class String; }
 #define PBPDPNPJHLE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DEFF3F0)
 #define PBPDPNPJHLE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DEFF450)
 
+inline static constexpr unsigned int PBPDPNPJHLE_TypeDefinitionIndex = 31151;
+
 	class PBPDPNPJHLE : public ::System::Object
 	{
 	public:

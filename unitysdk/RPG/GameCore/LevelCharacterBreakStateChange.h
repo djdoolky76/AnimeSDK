@@ -15,6 +15,8 @@ namespace RPG::GameCore { class LevelCharacterBreakStateChange; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelCharacterBreakStateChange_TypeDefinitionIndex = 56800;
+
 	class LevelCharacterBreakStateChange : public ::CMPGEAFHHDC
 	{
 	public:

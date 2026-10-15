@@ -14,6 +14,8 @@
 #define ALEAKDBNMKC_SET_POSE_OFFSET UNITYSDK_OFFSET(0x15565610)
 #define ALEAKDBNMKC_SET_SLOT_OFFSET UNITYSDK_OFFSET(0x155655F0)
 
+inline static constexpr unsigned int ALEAKDBNMKC_TypeDefinitionIndex = 62991;
+
 	class ALEAKDBNMKC : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace UnityEngine { class Transform; }
 
 #define FICDBGIBEOA_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA6E5D0)
 
+inline static constexpr unsigned int FICDBGIBEOA_TypeDefinitionIndex = 42492;
+
 	class FICDBGIBEOA : public ::System::Object
 	{
 	public:

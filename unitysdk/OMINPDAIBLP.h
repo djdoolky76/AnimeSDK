@@ -28,6 +28,8 @@ namespace System { class String; }
 #define OMINPDAIBLP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DEB6860)
 #define OMINPDAIBLP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DEB68C0)
 
+inline static constexpr unsigned int OMINPDAIBLP_TypeDefinitionIndex = 29338;
+
 	class OMINPDAIBLP : public ::System::Object
 	{
 	public:

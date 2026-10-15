@@ -31,6 +31,8 @@ namespace System { class String; }
 #define HANMCLKOCBO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E50A310)
 #define HANMCLKOCBO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E50A370)
 
+inline static constexpr unsigned int HANMCLKOCBO_TypeDefinitionIndex = 31477;
+
 	class HANMCLKOCBO : public ::System::Object
 	{
 	public:

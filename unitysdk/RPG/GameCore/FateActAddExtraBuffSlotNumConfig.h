@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FateActAddExtraBuffSlotNumConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FateActAddExtraBuffSlotNumConfig_TypeDefinitionIndex = 19240;
+
 	class FateActAddExtraBuffSlotNumConfig : public ::RPG::GameCore::FateActionConfigBase
 	{
 	public:

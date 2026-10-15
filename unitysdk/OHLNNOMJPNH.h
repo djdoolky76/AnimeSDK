@@ -28,6 +28,8 @@ namespace System { class String; }
 #define OHLNNOMJPNH_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DE65EA0)
 #define OHLNNOMJPNH_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DE65F00)
 
+inline static constexpr unsigned int OHLNNOMJPNH_TypeDefinitionIndex = 25148;
+
 	class OHLNNOMJPNH : public ::System::Object
 	{
 	public:

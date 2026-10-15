@@ -36,6 +36,8 @@ namespace UnityEngine { class Texture2D; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int DetailPrototype_TypeDefinitionIndex = 5331;
+
 	class DetailPrototype : public ::System::Object
 	{
 	public:

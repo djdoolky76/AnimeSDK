@@ -27,6 +27,8 @@ namespace System { class String; }
 #define KEJANPDMOIL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E80C200)
 #define KEJANPDMOIL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E80C260)
 
+inline static constexpr unsigned int KEJANPDMOIL_TypeDefinitionIndex = 34145;
+
 	class KEJANPDMOIL : public ::System::Object
 	{
 	public:

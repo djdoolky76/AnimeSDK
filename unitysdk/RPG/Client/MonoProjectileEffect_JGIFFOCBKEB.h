@@ -13,6 +13,8 @@ namespace UnityEngine { class Collider; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoProjectileEffect_JGIFFOCBKEB_TypeDefinitionIndex = 70146;
+
 	class MonoProjectileEffect_JGIFFOCBKEB : public ::System::MulticastDelegate
 	{
 	public:

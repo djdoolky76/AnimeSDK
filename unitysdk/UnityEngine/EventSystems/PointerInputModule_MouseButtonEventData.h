@@ -10,6 +10,8 @@ namespace UnityEngine::EventSystems { class PointerEventData; }
 
 namespace UnityEngine::EventSystems
 {
+	inline static constexpr unsigned int PointerInputModule_MouseButtonEventData_TypeDefinitionIndex = 6943;
+
 	class PointerInputModule_MouseButtonEventData : public ::System::Object
 	{
 	public:

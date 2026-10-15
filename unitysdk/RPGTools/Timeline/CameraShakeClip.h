@@ -14,6 +14,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int CameraShakeClip_TypeDefinitionIndex = 47809;
+
 	class CameraShakeClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:

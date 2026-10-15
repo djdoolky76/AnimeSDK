@@ -32,6 +32,8 @@ namespace UnityEngine::UI { class Text; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int ProtocolWithJoypad_TypeDefinitionIndex = 8027;
+
 	class ProtocolWithJoypad : public ::MiHoYo::SDK::UIElement
 	{
 	public:

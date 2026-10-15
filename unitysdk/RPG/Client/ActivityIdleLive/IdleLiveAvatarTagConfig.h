@@ -19,6 +19,8 @@ namespace System { class String; }
 
 namespace RPG::Client::ActivityIdleLive
 {
+	inline static constexpr unsigned int IdleLiveAvatarTagConfig_TypeDefinitionIndex = 75082;
+
 	class IdleLiveAvatarTagConfig : public ::System::Object
 	{
 	public:

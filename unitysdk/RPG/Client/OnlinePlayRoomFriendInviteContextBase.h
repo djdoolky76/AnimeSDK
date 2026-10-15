@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T> class IList_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int OnlinePlayRoomFriendInviteContextBase_TypeDefinitionIndex = 66392;
+
 	class OnlinePlayRoomFriendInviteContextBase : public ::System::Object
 	{
 	public:

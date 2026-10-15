@@ -34,6 +34,8 @@ namespace System { class String; }
 #define DJODDECFHMC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E1D28F0)
 #define DJODDECFHMC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E1D2950)
 
+inline static constexpr unsigned int DJODDECFHMC_TypeDefinitionIndex = 33028;
+
 	class DJODDECFHMC : public ::System::Object
 	{
 	public:

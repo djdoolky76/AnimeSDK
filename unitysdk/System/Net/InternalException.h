@@ -6,6 +6,8 @@
 
 namespace System::Net
 {
+	inline static constexpr unsigned int InternalException_TypeDefinitionIndex = 2747;
+
 	class InternalException : public ::System::SystemException
 	{
 	public:

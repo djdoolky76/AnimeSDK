@@ -6,6 +6,8 @@
 #define CLASS_360_A0C5B3439114EA2A_METHOD_2_OFFSET UNITYSDK_OFFSET(0x148E46A0)
 #define CLASS_360_A0C5B3439114EA2A_METHOD_OFFSET UNITYSDK_OFFSET(0x148E4CF0)
 
+inline static constexpr unsigned int Class_360_A0C5B3439114EA2A_TypeDefinitionIndex = 50689;
+
 	class Class_360_A0C5B3439114EA2A : public ::System::Object
 	{
 	public:

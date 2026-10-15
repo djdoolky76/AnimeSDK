@@ -9,6 +9,8 @@ namespace RPG::GameCore { class PassiveUnitEffectTypeMatchFactorConfig; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueMagicUtils___c__DisplayClass26_0_TypeDefinitionIndex = 67413;
+
 	class RogueMagicUtils___c__DisplayClass26_0 : public ::System::Object
 	{
 	public:

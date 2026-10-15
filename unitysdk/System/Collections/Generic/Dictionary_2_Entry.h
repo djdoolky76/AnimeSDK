@@ -3,6 +3,8 @@
 
 namespace System::Collections::Generic
 {
+	inline static constexpr unsigned int Dictionary_2_Entry_TypeDefinitionIndex = 1536;
+
 	template <typename T1, typename T2>
 	struct alignas(8) Dictionary_2_Entry
 	{

@@ -18,6 +18,8 @@ namespace UnityEngine { class Texture2D; }
 
 namespace RPG::Client::CrowdAnimator
 {
+	inline static constexpr unsigned int CrowdPrototype_TypeDefinitionIndex = 73719;
+
 	class CrowdPrototype : public ::UnityEngine::ScriptableObject
 	{
 	public:

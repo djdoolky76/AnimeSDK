@@ -10,6 +10,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 #define KPNBOEKLHBN___C__TRYTRACKINGNEXTMISSION_B__0_0_OFFSET UNITYSDK_OFFSET(0xB5C2C00)
 #define KPNBOEKLHBN___C__TRYTRACKINGNEXTMISSION_B__0_2_OFFSET UNITYSDK_OFFSET(0xB5C2C30)
 
+inline static constexpr unsigned int KPNBOEKLHBN___c_TypeDefinitionIndex = 66177;
+
 	class KPNBOEKLHBN___c : public ::System::Object
 	{
 	public:

@@ -30,6 +30,8 @@ namespace System { class String; }
 #define KNEJEHOOFGI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E8A21C0)
 #define KNEJEHOOFGI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E8A2220)
 
+inline static constexpr unsigned int KNEJEHOOFGI_TypeDefinitionIndex = 32916;
+
 	class KNEJEHOOFGI : public ::System::Object
 	{
 	public:

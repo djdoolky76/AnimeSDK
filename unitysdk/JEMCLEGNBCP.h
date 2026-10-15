@@ -6,6 +6,8 @@ namespace UnityEngine { class Transform; }
 
 #define JEMCLEGNBCP_CTOR_OFFSET UNITYSDK_OFFSET(0x1CB8FFB0)
 
+inline static constexpr unsigned int JEMCLEGNBCP_TypeDefinitionIndex = 43737;
+
 	class JEMCLEGNBCP : public ::System::Object
 	{
 	public:

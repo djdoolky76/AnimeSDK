@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TeamTowersSkillConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TeamTowersSkillConfig_TypeDefinitionIndex = 21406;
+
 	class TeamTowersSkillConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

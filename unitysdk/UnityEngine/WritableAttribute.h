@@ -6,6 +6,8 @@
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int WritableAttribute_TypeDefinitionIndex = 3714;
+
 	class WritableAttribute : public ::System::Attribute
 	{
 	public:

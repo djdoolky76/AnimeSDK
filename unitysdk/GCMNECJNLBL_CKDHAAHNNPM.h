@@ -9,6 +9,8 @@ namespace System { class Object; }
 #define GCMNECJNLBL_CKDHAAHNNPM_KAOLPGACCID_OFFSET UNITYSDK_OFFSET(0x15985470)
 #define GCMNECJNLBL_CKDHAAHNNPM_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0x15985340)
 
+inline static constexpr unsigned int GCMNECJNLBL_CKDHAAHNNPM_TypeDefinitionIndex = 49216;
+
 	class GCMNECJNLBL_CKDHAAHNNPM : public ::System::Object
 	{
 	public:

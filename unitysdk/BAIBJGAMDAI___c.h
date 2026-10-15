@@ -10,6 +10,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 #define BAIBJGAMDAI___C__GETTEAMMEMBERCOUNTMAP_B__35_0_OFFSET UNITYSDK_OFFSET(0x15E6C470)
 #define BAIBJGAMDAI___C__GETTEAMMEMBERCOUNTMAP_B__35_1_OFFSET UNITYSDK_OFFSET(0x15E6C490)
 
+inline static constexpr unsigned int BAIBJGAMDAI___c_TypeDefinitionIndex = 63880;
+
 	class BAIBJGAMDAI___c : public ::System::Object
 	{
 	public:

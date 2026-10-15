@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int HipplenGameCharacterAttachToMini_TypeDefinitionIndex = 21318;
+
 	class HipplenGameCharacterAttachToMini : public ::RPG::GameCore::TaskConfig
 	{
 	public:

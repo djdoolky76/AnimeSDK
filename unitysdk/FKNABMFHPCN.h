@@ -13,6 +13,8 @@ namespace System { class String; }
 #define FKNABMFHPCN_SET_MODEL_OFFSET UNITYSDK_OFFSET(0x15810D40)
 #define FKNABMFHPCN_SET_STATE_OFFSET UNITYSDK_OFFSET(0x15810D60)
 
+inline static constexpr unsigned int FKNABMFHPCN_TypeDefinitionIndex = 79643;
+
 	class FKNABMFHPCN : public ::System::Object
 	{
 	public:

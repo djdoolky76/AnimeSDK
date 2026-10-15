@@ -12,6 +12,8 @@ namespace UnityEngine { class RenderTexture; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int LensFlareTarget_TypeDefinitionIndex = 37822;
+
 	class LensFlareTarget : public ::System::Object
 	{
 	public:

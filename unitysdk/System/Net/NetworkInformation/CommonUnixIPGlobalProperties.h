@@ -9,6 +9,8 @@ namespace System { class String; }
 
 namespace System::Net::NetworkInformation
 {
+	inline static constexpr unsigned int CommonUnixIPGlobalProperties_TypeDefinitionIndex = 2938;
+
 	class CommonUnixIPGlobalProperties : public ::System::Net::NetworkInformation::IPGlobalProperties
 	{
 	public:

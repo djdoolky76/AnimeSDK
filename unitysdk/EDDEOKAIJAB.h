@@ -27,6 +27,8 @@ namespace System { class String; }
 #define EDDEOKAIJAB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E25B5B0)
 #define EDDEOKAIJAB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E25B610)
 
+inline static constexpr unsigned int EDDEOKAIJAB_TypeDefinitionIndex = 33044;
+
 	class EDDEOKAIJAB : public ::System::Object
 	{
 	public:

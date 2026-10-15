@@ -18,6 +18,8 @@ namespace RPG::Client { class CameraFightStateDarkAttackConfig; }
 #define BBLLCJMCAHN_RESET_OFFSET UNITYSDK_OFFSET(0x15E91210)
 #define BBLLCJMCAHN_SET_STATECONFIGWHENRANGEATK_OFFSET UNITYSDK_OFFSET(0x15E923D0)
 
+inline static constexpr unsigned int BBLLCJMCAHN_TypeDefinitionIndex = 69594;
+
 	class BBLLCJMCAHN : public ::System::Object
 	{
 	public:

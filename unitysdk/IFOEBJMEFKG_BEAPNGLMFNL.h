@@ -4,6 +4,8 @@
 
 #define IFOEBJMEFKG_BEAPNGLMFNL_CTOR_OFFSET UNITYSDK_OFFSET(0x15F30430)
 
+inline static constexpr unsigned int IFOEBJMEFKG_BEAPNGLMFNL_TypeDefinitionIndex = 79445;
+
 	class IFOEBJMEFKG_BEAPNGLMFNL : public ::System::Object
 	{
 	public:

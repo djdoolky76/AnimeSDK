@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdvNavigationFailReason_TypeDefinitionIndex = 57113;
+
 	enum class AdvNavigationFailReason : ::System::Int32
 	{
 		None = 0,

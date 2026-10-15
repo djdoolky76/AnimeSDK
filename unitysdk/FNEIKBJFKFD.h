@@ -4,6 +4,8 @@
 
 #define FNEIKBJFKFD_CTOR_OFFSET UNITYSDK_OFFSET(0x1586BCF0)
 
+inline static constexpr unsigned int FNEIKBJFKFD_TypeDefinitionIndex = 64062;
+
 	class FNEIKBJFKFD : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace RPG::GameCore { class FourRotateVoxelRoomConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FourRotateVoxelRoomConfig_TypeDefinitionIndex = 16756;
+
 	class FourRotateVoxelRoomConfig : public ::RPG::GameCore::LittleGameComponentConfig
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace RPGTools::Timeline::Audio
 {
+	inline static constexpr unsigned int WwiseExternalAudioConfig_TypeDefinitionIndex = 48843;
+
 	class WwiseExternalAudioConfig : public ::System::Object
 	{
 	public:

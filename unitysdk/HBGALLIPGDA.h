@@ -6,6 +6,8 @@
 
 #define HBGALLIPGDA_ELEDFHBCLDO_OFFSET UNITYSDK_OFFSET(0x1C553090)
 
+inline static constexpr unsigned int HBGALLIPGDA_TypeDefinitionIndex = 41646;
+
 	class HBGALLIPGDA : public ::System::Object
 	{
 	public:

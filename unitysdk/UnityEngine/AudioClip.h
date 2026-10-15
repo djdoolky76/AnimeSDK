@@ -12,6 +12,8 @@ namespace UnityEngine { class AudioClip_PCMSetPositionCallback; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int AudioClip_TypeDefinitionIndex = 5144;
+
 	class AudioClip : public ::UnityEngine::Object
 	{
 	public:

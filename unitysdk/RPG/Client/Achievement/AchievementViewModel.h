@@ -27,6 +27,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::Achievement
 {
+	inline static constexpr unsigned int AchievementViewModel_TypeDefinitionIndex = 82117;
+
 	class AchievementViewModel : public ::System::Object
 	{
 	public:

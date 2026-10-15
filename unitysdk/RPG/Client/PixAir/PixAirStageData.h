@@ -28,6 +28,8 @@ namespace System { class String; }
 
 namespace RPG::Client::PixAir
 {
+	inline static constexpr unsigned int PixAirStageData_TypeDefinitionIndex = 79375;
+
 	class PixAirStageData : public ::System::Object
 	{
 	public:

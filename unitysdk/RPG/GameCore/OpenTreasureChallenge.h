@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int OpenTreasureChallenge_TypeDefinitionIndex = 20471;
+
 	class OpenTreasureChallenge : public ::RPG::GameCore::TaskConfig
 	{
 	public:

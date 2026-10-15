@@ -3,6 +3,8 @@
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
+	inline static constexpr unsigned int B2AtomicInt_TypeDefinitionIndex = 36583;
+
 	struct alignas(4) B2AtomicInt
 	{
 		::System::Int32 value; // 0x10

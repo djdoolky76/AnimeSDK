@@ -27,6 +27,8 @@ namespace System::Xml::Schema { class XmlSchemaType; }
 
 namespace System::Xml
 {
+	inline static constexpr unsigned int XmlNameEx_TypeDefinitionIndex = 1910;
+
 	class XmlNameEx : public ::System::Xml::XmlName
 	{
 	public:

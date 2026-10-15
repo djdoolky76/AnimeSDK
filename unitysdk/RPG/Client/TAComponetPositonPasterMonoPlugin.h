@@ -9,6 +9,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TAComponetPositonPasterMonoPlugin_TypeDefinitionIndex = 70764;
+
 	class TAComponetPositonPasterMonoPlugin
 	{
 	public:

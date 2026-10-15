@@ -5,6 +5,8 @@
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int VoxelIrradianceCacheSettings_TypeDefinitionIndex = 4863;
+
 	struct alignas(4) VoxelIrradianceCacheSettings
 	{
 		::System::Boolean HalfRes; // 0x10

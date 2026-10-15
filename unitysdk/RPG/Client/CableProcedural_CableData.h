@@ -7,6 +7,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int CableProcedural_CableData_TypeDefinitionIndex = 70389;
+
 	struct alignas(8) CableProcedural_CableData
 	{
 		::UnityEngine::Transform* startPoint; // 0x10

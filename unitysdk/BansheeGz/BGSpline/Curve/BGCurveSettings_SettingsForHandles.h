@@ -7,6 +7,8 @@
 
 namespace BansheeGz::BGSpline::Curve
 {
+	inline static constexpr unsigned int BGCurveSettings_SettingsForHandles_TypeDefinitionIndex = 36029;
+
 	class BGCurveSettings_SettingsForHandles : public ::System::Object
 	{
 	public:

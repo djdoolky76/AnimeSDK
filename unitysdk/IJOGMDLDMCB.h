@@ -6,6 +6,8 @@ namespace RPG::GameCore { class GameEntity; }
 #define IJOGMDLDMCB_CLEAR_OFFSET UNITYSDK_OFFSET(0x16472870)
 #define IJOGMDLDMCB_CTOR_OFFSET UNITYSDK_OFFSET(0x164728D0)
 
+inline static constexpr unsigned int IJOGMDLDMCB_TypeDefinitionIndex = 55516;
+
 	class IJOGMDLDMCB : public ::System::Object
 	{
 	public:

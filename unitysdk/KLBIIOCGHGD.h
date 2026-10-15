@@ -29,6 +29,8 @@ namespace System::IO { class StreamReader; }
 #define KLBIIOCGHGD_NGCFPFALCGD_OFFSET UNITYSDK_OFFSET(0xB4DD8C0)
 #define KLBIIOCGHGD_OBBFOCGNJCJ_OFFSET UNITYSDK_OFFSET(0xB4DFA50)
 
+inline static constexpr unsigned int KLBIIOCGHGD_TypeDefinitionIndex = 61216;
+
 	class KLBIIOCGHGD : public ::System::Object
 	{
 	public:

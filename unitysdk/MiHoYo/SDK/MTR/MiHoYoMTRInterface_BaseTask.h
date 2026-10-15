@@ -6,6 +6,8 @@
 
 namespace MiHoYo::SDK::MTR
 {
+	inline static constexpr unsigned int MiHoYoMTRInterface_BaseTask_TypeDefinitionIndex = 46681;
+
 	class MiHoYoMTRInterface_BaseTask : public ::System::Object
 	{
 	public:

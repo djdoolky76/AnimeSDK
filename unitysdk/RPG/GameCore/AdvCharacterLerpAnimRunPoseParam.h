@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdvCharacterLerpAnimRunPoseParam_TypeDefinitionIndex = 20608;
+
 	class AdvCharacterLerpAnimRunPoseParam : public ::RPG::GameCore::TaskConfig
 	{
 	public:

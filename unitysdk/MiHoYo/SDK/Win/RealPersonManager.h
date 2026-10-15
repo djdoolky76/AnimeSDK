@@ -27,6 +27,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::Win
 {
+	inline static constexpr unsigned int RealPersonManager_TypeDefinitionIndex = 9361;
+
 	class RealPersonManager : public ::System::Object
 	{
 	public:

@@ -6,6 +6,8 @@
 
 namespace ZXing::OneD
 {
+	inline static constexpr unsigned int OneDReader_TypeDefinitionIndex = 6962;
+
 	class OneDReader : public ::System::Object
 	{
 	public:

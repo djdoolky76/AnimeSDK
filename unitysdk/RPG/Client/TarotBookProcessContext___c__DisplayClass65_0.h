@@ -8,6 +8,8 @@ namespace RPG::Client { class TarotBookStory; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TarotBookProcessContext___c__DisplayClass65_0_TypeDefinitionIndex = 68071;
+
 	class TarotBookProcessContext___c__DisplayClass65_0 : public ::System::Object
 	{
 	public:

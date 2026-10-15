@@ -10,6 +10,8 @@ namespace UnityEngine { class AnimationCurve; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int CharacterBodyControlData_TypeDefinitionIndex = 47939;
+
 	class CharacterBodyControlData : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace RPG::GameCore { class PerformanceBackupConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PerformanceBackupConfig_TypeDefinitionIndex = 19034;
+
 	class PerformanceBackupConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

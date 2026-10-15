@@ -10,6 +10,8 @@ namespace RPG::GameCore { class BattleChangeAvatar_End; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int BattleChangeAvatar_End_TypeDefinitionIndex = 22779;
+
 	class BattleChangeAvatar_End : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define LBJLBMOOJGM___C___CTOR_B__9_0_OFFSET UNITYSDK_OFFSET(0x1EC84A60)
 #define LBJLBMOOJGM___C___CTOR_B__9_1_OFFSET UNITYSDK_OFFSET(0x1EC84AC0)
 
+inline static constexpr unsigned int LBJLBMOOJGM___c_TypeDefinitionIndex = 44296;
+
 	class LBJLBMOOJGM___c : public ::System::Object
 	{
 	public:

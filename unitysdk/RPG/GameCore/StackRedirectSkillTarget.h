@@ -14,6 +14,8 @@ namespace RPG::GameCore { class TaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int StackRedirectSkillTarget_TypeDefinitionIndex = 23626;
+
 	class StackRedirectSkillTarget : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -11,6 +11,8 @@ namespace RPG::GameCore { class WolfBroConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int WolfBroConfig_TypeDefinitionIndex = 17021;
+
 	class WolfBroConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

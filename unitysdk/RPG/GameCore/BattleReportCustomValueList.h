@@ -10,6 +10,8 @@ namespace RPG::GameCore { class BattleReportCustomValueList; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int BattleReportCustomValueList_TypeDefinitionIndex = 17117;
+
 	class BattleReportCustomValueList : public ::RPG::GameCore::JsonConfig
 	{
 	public:

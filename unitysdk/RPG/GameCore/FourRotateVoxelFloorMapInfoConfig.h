@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FourRotateVoxelMapInfoConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FourRotateVoxelFloorMapInfoConfig_TypeDefinitionIndex = 16745;
+
 	class FourRotateVoxelFloorMapInfoConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

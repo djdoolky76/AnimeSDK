@@ -3,6 +3,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueHandbookModule_NPCProgressPair_TypeDefinitionIndex = 67375;
+
 	struct alignas(4) RogueHandbookModule_NPCProgressPair
 	{
 		::System::UInt32 NPCID; // 0x10

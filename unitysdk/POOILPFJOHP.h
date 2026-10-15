@@ -16,6 +16,8 @@ namespace RPG::Client { class PipelineCameraGlobalConfig; }
 #define POOILPFJOHP_NHEDINBLOIH_OFFSET UNITYSDK_OFFSET(0xC375450)
 #define POOILPFJOHP_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0xC375D20)
 
+inline static constexpr unsigned int POOILPFJOHP_TypeDefinitionIndex = 69626;
+
 	class POOILPFJOHP : public ::MDILEMALGNC
 	{
 	public:

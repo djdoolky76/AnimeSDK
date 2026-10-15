@@ -7,6 +7,8 @@
 
 namespace InControl::UnityDeviceProfiles
 {
+	inline static constexpr unsigned int GenericAndroidUnityProfile_TypeDefinitionIndex = 40960;
+
 	class GenericAndroidUnityProfile : public ::InControl::InputDeviceProfile
 	{
 	public:

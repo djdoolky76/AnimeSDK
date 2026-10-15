@@ -10,6 +10,8 @@ namespace RPG::GameCore { class OfflineCullingData; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int OfflineCullingData_TypeDefinitionIndex = 19169;
+
 	class OfflineCullingData : public ::RPG::GameCore::JsonConfig
 	{
 	public:

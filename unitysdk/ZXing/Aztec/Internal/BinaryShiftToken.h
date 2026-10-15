@@ -11,6 +11,8 @@ namespace ZXing::Common { class BitArray; }
 
 namespace ZXing::Aztec::Internal
 {
+	inline static constexpr unsigned int BinaryShiftToken_TypeDefinitionIndex = 7052;
+
 	class BinaryShiftToken : public ::ZXing::Aztec::Internal::Token
 	{
 	public:

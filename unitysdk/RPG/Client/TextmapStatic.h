@@ -55,6 +55,8 @@ namespace UnityEngine::UI { class Text; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TextmapStatic_TypeDefinitionIndex = 72946;
+
 	class TextmapStatic : public ::System::Object
 	{
 	public:

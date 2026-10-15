@@ -15,6 +15,8 @@ namespace Google::Protobuf::Reflection { class TypeRegistry; }
 
 namespace Google::Protobuf
 {
+	inline static constexpr unsigned int JsonFormatter_Settings_TypeDefinitionIndex = 5403;
+
 	class JsonFormatter_Settings : public ::System::Object
 	{
 	public:

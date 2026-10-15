@@ -16,6 +16,8 @@ namespace System { class String; }
 #define KANAGLAENIO_ONALLOC_OFFSET UNITYSDK_OFFSET(0x1CBB0C00)
 #define KANAGLAENIO_ONRECYCLE_OFFSET UNITYSDK_OFFSET(0x1CBB0DF0)
 
+inline static constexpr unsigned int KANAGLAENIO_TypeDefinitionIndex = 43566;
+
 	class KANAGLAENIO : public ::System::Object
 	{
 	public:

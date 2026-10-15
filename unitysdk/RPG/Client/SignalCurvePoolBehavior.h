@@ -35,6 +35,8 @@ namespace UnityEngine { class AnimationCurve; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int SignalCurvePoolBehavior_TypeDefinitionIndex = 70960;
+
 	class SignalCurvePoolBehavior : public ::RPG::Client::TABehaviorBase
 	{
 	public:

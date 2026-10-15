@@ -17,6 +17,8 @@ namespace UnityEngine::Networking { class UnityWebRequest; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int UGCNetwork__PerformHttpRequestBinary_d__6_TypeDefinitionIndex = 46455;
+
 	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6>
 	class UGCNetwork__PerformHttpRequestBinary_d__6 : public ::System::Object
 	{

@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPGTools::Timeline::VFX
 {
+	inline static constexpr unsigned int VolumeLightBloomConfig_TypeDefinitionIndex = 48692;
+
 	class VolumeLightBloomConfig : public ::System::Object
 	{
 	public:

@@ -7,6 +7,8 @@ namespace UnityEngine { class Mesh; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int CoastinfoWaveMonoPlugin_TileMeshCacheEntry_TypeDefinitionIndex = 70931;
+
 	class CoastinfoWaveMonoPlugin_TileMeshCacheEntry : public ::System::Object
 	{
 	public:

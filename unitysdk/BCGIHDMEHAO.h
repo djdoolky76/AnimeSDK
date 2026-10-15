@@ -10,6 +10,8 @@ namespace RPG::Client::FateRin::Card { class IFateRinCardOwnerViewModel; }
 #define BCGIHDMEHAO_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x15EA6ED0)
 #define BCGIHDMEHAO_CTOR_OFFSET UNITYSDK_OFFSET(0x15EA6EC0)
 
+inline static constexpr unsigned int BCGIHDMEHAO_TypeDefinitionIndex = 81151;
+
 	class BCGIHDMEHAO : public ::System::Object
 	{
 	public:

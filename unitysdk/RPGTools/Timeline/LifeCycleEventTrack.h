@@ -6,6 +6,8 @@
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int LifeCycleEventTrack_TypeDefinitionIndex = 48155;
+
 	class LifeCycleEventTrack : public ::UnityEngine::Timeline::TrackAsset
 	{
 	public:

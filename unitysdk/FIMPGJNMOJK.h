@@ -8,6 +8,8 @@ class FIMPGJNMOJK;
 #define FIMPGJNMOJK_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CDF7C30)
 #define FIMPGJNMOJK_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CDF7BF0)
 
+inline static constexpr unsigned int FIMPGJNMOJK_TypeDefinitionIndex = 24316;
+
 	class FIMPGJNMOJK : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class SwitchRefGroupState; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SwitchRefGroupState_TypeDefinitionIndex = 17526;
+
 	class SwitchRefGroupState : public ::RPG::GameCore::SwitchRefBase
 	{
 	public:

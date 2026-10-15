@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPGTools::Story
 {
+	inline static constexpr unsigned int SetBlockVisible_TypeDefinitionIndex = 48969;
+
 	class SetBlockVisible : public ::System::Object
 	{
 	public:

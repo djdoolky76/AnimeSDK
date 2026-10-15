@@ -17,6 +17,8 @@ namespace UnityEngine::UI { class Text; }
 
 namespace MiHoYo::SDK::Win
 {
+	inline static constexpr unsigned int InternalAccountListDropdownItemHandler_TypeDefinitionIndex = 9299;
+
 	class InternalAccountListDropdownItemHandler : public ::UnityEngine::MonoBehaviour
 	{
 	public:

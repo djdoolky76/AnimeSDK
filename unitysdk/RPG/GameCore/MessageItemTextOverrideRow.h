@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MessageItemTextOverrideRow_TypeDefinitionIndex = 14485;
+
 	class MessageItemTextOverrideRow : public ::System::Object
 	{
 	public:

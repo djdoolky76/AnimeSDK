@@ -3,6 +3,8 @@
 #include "unitysdk/UnityEngine/Vector3.h"
 #include "unitysdk/UnityEngine/Vector4.h"
 
+inline static constexpr unsigned int KBPPKMAJGCG_InstanceRelativeData_TypeDefinitionIndex = 70326;
+
 	struct alignas(4) KBPPKMAJGCG_InstanceRelativeData
 	{
 		::UnityEngine::Vector3 position; // 0x10

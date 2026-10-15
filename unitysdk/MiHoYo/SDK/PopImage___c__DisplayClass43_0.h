@@ -8,6 +8,8 @@ namespace MiHoYo::SDK { class PopImage; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int PopImage___c__DisplayClass43_0_TypeDefinitionIndex = 8258;
+
 	class PopImage___c__DisplayClass43_0 : public ::System::Object
 	{
 	public:

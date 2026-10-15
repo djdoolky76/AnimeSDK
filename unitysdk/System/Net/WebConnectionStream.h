@@ -65,6 +65,8 @@ namespace System::Threading { class ManualResetEvent; }
 
 namespace System::Net
 {
+	inline static constexpr unsigned int WebConnectionStream_TypeDefinitionIndex = 2888;
+
 	class WebConnectionStream : public ::System::IO::Stream
 	{
 	public:

@@ -11,6 +11,8 @@
 #define OOADCLKADJC_SET_FUNTITLENAME_OFFSET UNITYSDK_OFFSET(0xBF619E0)
 #define OOADCLKADJC_SET_ID_OFFSET UNITYSDK_OFFSET(0xBF619C0)
 
+inline static constexpr unsigned int OOADCLKADJC_TypeDefinitionIndex = 63841;
+
 	class OOADCLKADJC : public ::System::Object
 	{
 	public:

@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MuseumDeskTalkConfigRow_TypeDefinitionIndex = 14254;
+
 	class MuseumDeskTalkConfigRow : public ::System::Object
 	{
 	public:

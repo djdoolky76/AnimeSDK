@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define KIFEKPPKGEL_CTOR_OFFSET UNITYSDK_OFFSET(0xB41E190)
 #define KIFEKPPKGEL_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB41E1C0)
 
+inline static constexpr unsigned int KIFEKPPKGEL_TypeDefinitionIndex = 52592;
+
 	class KIFEKPPKGEL
 	{
 	public:

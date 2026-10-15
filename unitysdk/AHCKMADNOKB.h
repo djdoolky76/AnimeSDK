@@ -5,6 +5,8 @@ namespace RPG::GameCore { class DialogueConditionRow; }
 
 #define AHCKMADNOKB_JONOPHJFBDI_OFFSET UNITYSDK_OFFSET(0xEB7AAB0)
 
+inline static constexpr unsigned int AHCKMADNOKB_TypeDefinitionIndex = 56498;
+
 	class AHCKMADNOKB : public ::System::Object
 	{
 	public:

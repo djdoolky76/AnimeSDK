@@ -4,6 +4,8 @@ namespace System { class String; }
 
 #define DPJMOAGICOB_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CA30730)
 
+inline static constexpr unsigned int DPJMOAGICOB_TypeDefinitionIndex = 42011;
+
 	struct alignas(8) DPJMOAGICOB
 	{
 		::System::Boolean BIGBOOLBPEE; // 0x10

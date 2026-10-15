@@ -7,6 +7,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int CameraFightStateDarkAttackConfig_TypeDefinitionIndex = 69579;
+
 	class CameraFightStateDarkAttackConfig : public ::RPG::Client::CameraFightStateCommonConfig
 	{
 	public:

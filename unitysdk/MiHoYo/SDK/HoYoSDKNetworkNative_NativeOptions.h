@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int HoYoSDKNetworkNative_NativeOptions_TypeDefinitionIndex = 46122;
+
 	class HoYoSDKNetworkNative_NativeOptions : public ::System::Object
 	{
 	public:

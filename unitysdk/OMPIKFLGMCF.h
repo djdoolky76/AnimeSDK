@@ -30,6 +30,8 @@ namespace System { class String; }
 #define OMPIKFLGMCF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DEBF570)
 #define OMPIKFLGMCF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DEBF5D0)
 
+inline static constexpr unsigned int OMPIKFLGMCF_TypeDefinitionIndex = 27705;
+
 	class OMPIKFLGMCF : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace MiHoYoSDKJSON { class JSONNode; }
 #define JFPHDLOILGG_MJHEKFEAOPE_OFFSET UNITYSDK_OFFSET(0x1665CF90)
 #define JFPHDLOILGG_OKFGOAFJEHL_OFFSET UNITYSDK_OFFSET(0x1665CF50)
 
+inline static constexpr unsigned int JFPHDLOILGG_TypeDefinitionIndex = 61099;
+
 	class JFPHDLOILGG : public ::BFHEHDNBJLL
 	{
 	public:

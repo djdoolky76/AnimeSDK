@@ -25,6 +25,8 @@ namespace System { class String; }
 #define FKONEIIILGP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E3B3790)
 #define FKONEIIILGP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E3B37F0)
 
+inline static constexpr unsigned int FKONEIIILGP_TypeDefinitionIndex = 31309;
+
 	class FKONEIIILGP : public ::System::Object
 	{
 	public:

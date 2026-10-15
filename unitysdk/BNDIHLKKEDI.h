@@ -25,6 +25,8 @@ namespace RPG::GameCore { class FiveDimMiniGameCollectCoinWave; }
 #define BNDIHLKKEDI_OBIMMEKPHHH_OFFSET UNITYSDK_OFFSET(0xBDC9B30)
 #define BNDIHLKKEDI_PIADKMMIODO_OFFSET UNITYSDK_OFFSET(0xBDC9280)
 
+inline static constexpr unsigned int BNDIHLKKEDI_TypeDefinitionIndex = 76936;
+
 	class BNDIHLKKEDI : public ::System::Object
 	{
 	public:

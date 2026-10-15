@@ -17,6 +17,8 @@ namespace System { class String; }
 
 namespace OdinExt
 {
+	inline static constexpr unsigned int SubclassPathAttribute_TypeDefinitionIndex = 45168;
+
 	class SubclassPathAttribute : public ::System::Attribute
 	{
 	public:

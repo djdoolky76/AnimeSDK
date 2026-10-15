@@ -16,6 +16,8 @@ namespace UnityEngine { class GameObject; }
 #define DCFLCLGCHJH_PODDBBPOCKH_OFFSET UNITYSDK_OFFSET(0xE241760)
 #define DCFLCLGCHJH_POIBMEEMCFD_OFFSET UNITYSDK_OFFSET(0xE2416C0)
 
+inline static constexpr unsigned int DCFLCLGCHJH_TypeDefinitionIndex = 81256;
+
 	class DCFLCLGCHJH : public ::System::Object
 	{
 	public:

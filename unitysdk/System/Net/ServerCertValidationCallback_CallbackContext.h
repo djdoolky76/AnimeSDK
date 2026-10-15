@@ -10,6 +10,8 @@ namespace System::Security::Cryptography::X509Certificates { class X509Chain; }
 
 namespace System::Net
 {
+	inline static constexpr unsigned int ServerCertValidationCallback_CallbackContext_TypeDefinitionIndex = 2821;
+
 	class ServerCertValidationCallback_CallbackContext : public ::System::Object
 	{
 	public:

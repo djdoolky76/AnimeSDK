@@ -24,6 +24,8 @@ namespace XLua { class ObjectTranslator; }
 
 namespace XLua
 {
+	inline static constexpr unsigned int ObjectCheckers_TypeDefinitionIndex = 50232;
+
 	class ObjectCheckers : public ::System::Object
 	{
 	public:

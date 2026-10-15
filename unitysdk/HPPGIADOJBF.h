@@ -24,6 +24,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define HPPGIADOJBF_SET_SUBPACKID_OFFSET UNITYSDK_OFFSET(0x1C48B1C0)
 #define HPPGIADOJBF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1C48B780)
 
+inline static constexpr unsigned int HPPGIADOJBF_TypeDefinitionIndex = 41530;
+
 	class HPPGIADOJBF : public ::System::Object
 	{
 	public:

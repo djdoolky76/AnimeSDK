@@ -7,6 +7,8 @@ namespace RPG::GameCore { class TurnBasedModifierInstance; }
 #define BAHMMEEMJOB_KKKIONIDKFA_OFFSET UNITYSDK_OFFSET(0x2E7FD30)
 #define BAHMMEEMJOB_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0x2E7FD80)
 
+inline static constexpr unsigned int BAHMMEEMJOB_TypeDefinitionIndex = 71314;
+
 	struct alignas(8) BAHMMEEMJOB
 	{
 		::GEDMHFPPBHN* BGFPGNDIOII; // 0x10

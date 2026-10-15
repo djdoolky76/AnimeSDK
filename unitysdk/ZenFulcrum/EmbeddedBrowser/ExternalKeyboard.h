@@ -24,6 +24,8 @@ namespace ZenFulcrum::EmbeddedBrowser { class PointerUIBase; }
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
+	inline static constexpr unsigned int ExternalKeyboard_TypeDefinitionIndex = 39501;
+
 	class ExternalKeyboard : public ::UnityEngine::MonoBehaviour
 	{
 	public:

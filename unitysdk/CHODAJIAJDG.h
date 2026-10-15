@@ -4,6 +4,8 @@
 
 #define CHODAJIAJDG_CTOR_OFFSET UNITYSDK_OFFSET(0x1C434360)
 
+inline static constexpr unsigned int CHODAJIAJDG_TypeDefinitionIndex = 41436;
+
 	class CHODAJIAJDG : public ::IPHMMEIDKHM
 	{
 	public:

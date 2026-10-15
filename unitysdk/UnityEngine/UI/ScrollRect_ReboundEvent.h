@@ -5,6 +5,8 @@
 
 namespace UnityEngine::UI
 {
+	inline static constexpr unsigned int ScrollRect_ReboundEvent_TypeDefinitionIndex = 6831;
+
 	class ScrollRect_ReboundEvent
 	{
 	public:

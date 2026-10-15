@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PhotoGraphUtils_CachedImageSaveData_TypeDefinitionIndex = 69462;
+
 	class PhotoGraphUtils_CachedImageSaveData : public ::System::Object
 	{
 	public:

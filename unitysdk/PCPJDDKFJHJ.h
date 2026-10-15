@@ -4,6 +4,8 @@ class ENEIHJJPNPI;
 namespace RPG::GameCore { class GameEntity; }
 namespace System { class String; }
 
+inline static constexpr unsigned int PCPJDDKFJHJ_TypeDefinitionIndex = 56970;
+
 	struct alignas(8) PCPJDDKFJHJ
 	{
 		::System::UInt32 OHBADLACAJP; // 0x10

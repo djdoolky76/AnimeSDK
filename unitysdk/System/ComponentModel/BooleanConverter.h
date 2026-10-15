@@ -16,6 +16,8 @@ namespace System::Globalization { class CultureInfo; }
 
 namespace System::ComponentModel
 {
+	inline static constexpr unsigned int BooleanConverter_TypeDefinitionIndex = 2564;
+
 	class BooleanConverter : public ::System::ComponentModel::TypeConverter
 	{
 	public:

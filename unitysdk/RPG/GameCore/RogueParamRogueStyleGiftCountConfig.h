@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueParamRogueStyleGiftCountConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueParamRogueStyleGiftCountConfig_TypeDefinitionIndex = 19855;
+
 	class RogueParamRogueStyleGiftCountConfig : public ::RPG::GameCore::RogueParameterConfigBase
 	{
 	public:

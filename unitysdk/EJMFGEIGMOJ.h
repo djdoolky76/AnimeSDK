@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 #define EJMFGEIGMOJ_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x154EEC70)
 #define EJMFGEIGMOJ_TEARDOWN_OFFSET UNITYSDK_OFFSET(0x154EF020)
 
+inline static constexpr unsigned int EJMFGEIGMOJ_TypeDefinitionIndex = 78128;
+
 	class EJMFGEIGMOJ : public ::System::Object
 	{
 	public:

@@ -18,6 +18,8 @@ namespace UnityEngine { class Renderer; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int UI3DRectMask2D_TypeDefinitionIndex = 71053;
+
 	class UI3DRectMask2D : public ::UnityEngine::MonoBehaviour
 	{
 	public:

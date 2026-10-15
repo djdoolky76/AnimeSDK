@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LockCurrentSceneTransferAction_TypeDefinitionIndex = 21675;
+
 	class LockCurrentSceneTransferAction : public ::RPG::GameCore::TaskConfig
 	{
 	public:

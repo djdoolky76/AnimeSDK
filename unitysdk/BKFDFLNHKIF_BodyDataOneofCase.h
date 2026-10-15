@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int BKFDFLNHKIF_BodyDataOneofCase_TypeDefinitionIndex = 25052;
+
 	enum class BKFDFLNHKIF_BodyDataOneofCase : ::System::Int32
 	{
 		None = 0,

@@ -9,6 +9,8 @@ namespace System::Reflection { class MethodInfo; }
 #define MHBFAJJCDBO_CREATE_OFFSET UNITYSDK_OFFSET(0xB92F6F0)
 #define MHBFAJJCDBO_CTOR_OFFSET UNITYSDK_OFFSET(0xB92F7E0)
 
+inline static constexpr unsigned int MHBFAJJCDBO_TypeDefinitionIndex = 73152;
+
 	class MHBFAJJCDBO : public ::System::Object
 	{
 	public:

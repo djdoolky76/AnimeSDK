@@ -13,6 +13,8 @@ namespace System { class Object; }
 
 namespace MiHoYo::SDK::Console
 {
+	inline static constexpr unsigned int SDKUIDialog___UpdateDropdown_g__DeFocused_27_0_d_TypeDefinitionIndex = 8976;
+
 	class SDKUIDialog___UpdateDropdown_g__DeFocused_27_0_d : public ::System::Object
 	{
 	public:

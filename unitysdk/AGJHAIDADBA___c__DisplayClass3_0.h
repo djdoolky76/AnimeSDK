@@ -8,6 +8,8 @@ class OFBJPFPNFBP;
 #define AGJHAIDADBA___C__DISPLAYCLASS3_0_CTOR_OFFSET UNITYSDK_OFFSET(0xCF35B50)
 #define AGJHAIDADBA___C__DISPLAYCLASS3_0__MAINASYNC_B__0_OFFSET UNITYSDK_OFFSET(0xCF35B60)
 
+inline static constexpr unsigned int AGJHAIDADBA___c__DisplayClass3_0_TypeDefinitionIndex = 48911;
+
 	class AGJHAIDADBA___c__DisplayClass3_0 : public ::System::Object
 	{
 	public:

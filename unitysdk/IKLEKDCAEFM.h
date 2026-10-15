@@ -7,6 +7,8 @@ namespace RPG::GameCore { class DiceCombatAIEffectEvaluatorConfig_DiceAllDiff; }
 #define IKLEKDCAEFM_CTOR_OFFSET UNITYSDK_OFFSET(0x1C6E1900)
 #define IKLEKDCAEFM_KFGJEKJHIMB_OFFSET UNITYSDK_OFFSET(0x1C6E1910)
 
+inline static constexpr unsigned int IKLEKDCAEFM_TypeDefinitionIndex = 36221;
+
 	class IKLEKDCAEFM : public ::PNECKGBKMEL
 	{
 	public:

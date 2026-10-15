@@ -145,6 +145,8 @@ namespace System::Xml::Schema { class XmlSchemaType; }
 
 namespace System::Xml::Schema
 {
+	inline static constexpr unsigned int XmlBaseConverter_TypeDefinitionIndex = 2222;
+
 	class XmlBaseConverter : public ::System::Xml::Schema::XmlValueConverter
 	{
 	public:

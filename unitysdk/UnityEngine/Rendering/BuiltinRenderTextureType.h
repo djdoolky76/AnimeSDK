@@ -3,6 +3,8 @@
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int BuiltinRenderTextureType_TypeDefinitionIndex = 4705;
+
 	enum class BuiltinRenderTextureType : ::System::Int32
 	{
 		PropertyName = -4,

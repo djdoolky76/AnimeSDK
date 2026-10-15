@@ -17,6 +17,8 @@ namespace UnityEngine::EventSystems { class BaseRaycaster; }
 
 namespace UnityEngine::EventSystems
 {
+	inline static constexpr unsigned int BaseRaycaster_TypeDefinitionIndex = 6950;
+
 	class BaseRaycaster : public ::UnityEngine::EventSystems::UIBehaviour
 	{
 	public:

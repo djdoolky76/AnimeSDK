@@ -33,6 +33,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueNousDiceData_TypeDefinitionIndex = 66952;
+
 	class RogueNousDiceData : public ::System::Object
 	{
 	public:

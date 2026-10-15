@@ -9,6 +9,8 @@ namespace MiHoYo::SDK::Win { class ThirdpartyOAuthWaiting; }
 
 namespace MiHoYo::SDK::Win
 {
+	inline static constexpr unsigned int ThirdpartyOAuthWaiting___c__DisplayClass25_0_TypeDefinitionIndex = 9313;
+
 	class ThirdpartyOAuthWaiting___c__DisplayClass25_0 : public ::System::Object
 	{
 	public:

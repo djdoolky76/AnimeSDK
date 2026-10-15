@@ -151,6 +151,8 @@ namespace System::Collections::ObjectModel { template <typename T> class ReadOnl
 
 namespace InControl
 {
+	inline static constexpr unsigned int InputDevice_TypeDefinitionIndex = 40835;
+
 	class InputDevice : public ::System::Object
 	{
 	public:

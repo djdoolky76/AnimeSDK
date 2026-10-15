@@ -11,6 +11,8 @@ namespace System { class Object; }
 #define HOMPEKMJFEE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1C688990)
 #define HOMPEKMJFEE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1C688950)
 
+inline static constexpr unsigned int HOMPEKMJFEE_TypeDefinitionIndex = 36252;
+
 	class HOMPEKMJFEE : public ::System::MulticastDelegate
 	{
 	public:

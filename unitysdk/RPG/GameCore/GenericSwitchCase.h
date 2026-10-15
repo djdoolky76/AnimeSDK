@@ -13,6 +13,8 @@ namespace RPG::GameCore { class TaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GenericSwitchCase_TypeDefinitionIndex = 23770;
+
 	class GenericSwitchCase : public ::RPG::GameCore::TaskConfig
 	{
 	public:

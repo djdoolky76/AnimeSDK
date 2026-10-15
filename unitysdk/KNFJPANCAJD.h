@@ -4,6 +4,8 @@
 
 #define KNFJPANCAJD_CTOR_OFFSET UNITYSDK_OFFSET(0x1C421550)
 
+inline static constexpr unsigned int KNFJPANCAJD_TypeDefinitionIndex = 5079;
+
 	class KNFJPANCAJD : public ::System::Attribute
 	{
 	public:

@@ -9,6 +9,8 @@ namespace System { class Action; }
 #define OBKPOLLKKEM_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0x1C7CB010)
 #define OBKPOLLKKEM_REMOVE_ACTIONS_OFFSET UNITYSDK_OFFSET(0x1C7CB160)
 
+inline static constexpr unsigned int OBKPOLLKKEM_TypeDefinitionIndex = 36963;
+
 	class OBKPOLLKKEM : public ::System::Object
 	{
 	public:

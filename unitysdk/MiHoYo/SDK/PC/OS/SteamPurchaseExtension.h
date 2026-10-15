@@ -6,6 +6,8 @@
 
 namespace MiHoYo::SDK::PC::OS
 {
+	inline static constexpr unsigned int SteamPurchaseExtension_TypeDefinitionIndex = 8703;
+
 	class SteamPurchaseExtension : public ::System::Object
 	{
 	public:

@@ -14,6 +14,8 @@
 
 namespace UnityEngine::Formats::Alembic::Sdk
 {
+	inline static constexpr unsigned int aiCurves_TypeDefinitionIndex = 45832;
+
 	struct alignas(4) aiCurves
 	{
 		::System::IntPtr self; // 0x10

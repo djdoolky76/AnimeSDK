@@ -6,6 +6,8 @@ class ODGPPIHLOFF;
 #define GNFCHILBJDD_ACMKLFOMPFC_OFFSET UNITYSDK_OFFSET(0x15B00E80)
 #define GNFCHILBJDD_CTOR_OFFSET UNITYSDK_OFFSET(0x15B00E70)
 
+inline static constexpr unsigned int GNFCHILBJDD_TypeDefinitionIndex = 49205;
+
 	class GNFCHILBJDD
 	{
 	public:

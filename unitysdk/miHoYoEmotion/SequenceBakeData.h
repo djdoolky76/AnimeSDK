@@ -11,6 +11,8 @@ namespace miHoYoEmotion { class SequenceBakeData_BakeData; }
 
 namespace miHoYoEmotion
 {
+	inline static constexpr unsigned int SequenceBakeData_TypeDefinitionIndex = 45966;
+
 	class SequenceBakeData : public ::UnityEngine::ScriptableObject
 	{
 	public:

@@ -13,6 +13,8 @@ namespace ZenFulcrum::EmbeddedBrowser { class JSONNode; }
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
+	inline static constexpr unsigned int Browser_JSCallback_TypeDefinitionIndex = 39332;
+
 	class Browser_JSCallback : public ::System::MulticastDelegate
 	{
 	public:

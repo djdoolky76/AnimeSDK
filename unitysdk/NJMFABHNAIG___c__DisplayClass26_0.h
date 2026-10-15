@@ -9,6 +9,8 @@ namespace System { class Exception; }
 #define NJMFABHNAIG___C__DISPLAYCLASS26_0___ENTERNODE_B__0_OFFSET UNITYSDK_OFFSET(0xBC1F330)
 #define NJMFABHNAIG___C__DISPLAYCLASS26_0___ENTERNODE_B__1_OFFSET UNITYSDK_OFFSET(0xBC1F4C0)
 
+inline static constexpr unsigned int NJMFABHNAIG___c__DisplayClass26_0_TypeDefinitionIndex = 75156;
+
 	class NJMFABHNAIG___c__DisplayClass26_0 : public ::System::Object
 	{
 	public:

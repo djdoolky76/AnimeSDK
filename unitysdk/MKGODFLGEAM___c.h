@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define MKGODFLGEAM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA59FF0)
 #define MKGODFLGEAM___C___CCTOR_B__43_0_OFFSET UNITYSDK_OFFSET(0x1EA5A000)
 
+inline static constexpr unsigned int MKGODFLGEAM___c_TypeDefinitionIndex = 26634;
+
 	class MKGODFLGEAM___c : public ::System::Object
 	{
 	public:

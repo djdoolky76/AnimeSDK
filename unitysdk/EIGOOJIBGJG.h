@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define EIGOOJIBGJG_INIT_OFFSET UNITYSDK_OFFSET(0x154C6690)
 #define EIGOOJIBGJG_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x154C6730)
 
+inline static constexpr unsigned int EIGOOJIBGJG_TypeDefinitionIndex = 62882;
+
 	class EIGOOJIBGJG : public ::RPG::Client::BaseModule
 	{
 	public:

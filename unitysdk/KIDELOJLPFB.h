@@ -27,6 +27,8 @@ namespace System { class String; }
 #define KIDELOJLPFB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E856A00)
 #define KIDELOJLPFB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E856A60)
 
+inline static constexpr unsigned int KIDELOJLPFB_TypeDefinitionIndex = 30082;
+
 	class KIDELOJLPFB : public ::System::Object
 	{
 	public:

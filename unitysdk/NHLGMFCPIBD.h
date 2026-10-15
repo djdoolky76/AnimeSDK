@@ -28,6 +28,8 @@ namespace System { class String; }
 #define NHLGMFCPIBD_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EB22850)
 #define NHLGMFCPIBD_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EB228B0)
 
+inline static constexpr unsigned int NHLGMFCPIBD_TypeDefinitionIndex = 30533;
+
 	class NHLGMFCPIBD : public ::System::Object
 	{
 	public:

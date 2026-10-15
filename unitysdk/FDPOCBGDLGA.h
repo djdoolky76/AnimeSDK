@@ -7,6 +7,8 @@ class FDPOCBGDLGA;
 #define FDPOCBGDLGA_CTOR_OFFSET UNITYSDK_OFFSET(0x1CDDEB80)
 #define FDPOCBGDLGA_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CDDEA60)
 
+inline static constexpr unsigned int FDPOCBGDLGA_TypeDefinitionIndex = 12934;
+
 	class FDPOCBGDLGA : public ::System::Object
 	{
 	public:

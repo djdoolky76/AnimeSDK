@@ -9,6 +9,8 @@ namespace RPG::GameCore { class SpecialAvatarRow; }
 #define MAAJJELPJGK_SET_ISPLAYERRETURN_OFFSET UNITYSDK_OFFSET(0xB83D740)
 #define MAAJJELPJGK_SET_TRIALAVATARCONFIG_OFFSET UNITYSDK_OFFSET(0xB83D720)
 
+inline static constexpr unsigned int MAAJJELPJGK_TypeDefinitionIndex = 62820;
+
 	class MAAJJELPJGK : public ::System::Object
 	{
 	public:

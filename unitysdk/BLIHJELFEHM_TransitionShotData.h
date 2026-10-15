@@ -15,6 +15,8 @@ namespace UnityEngine { class AnimationCurve; }
 #define BLIHJELFEHM_TRANSITIONSHOTDATA_SET_SHOTAIMCENTERPOS_OFFSET UNITYSDK_OFFSET(0xBA77830)
 #define BLIHJELFEHM_TRANSITIONSHOTDATA_SET_SHOTINITCENTERPOS_OFFSET UNITYSDK_OFFSET(0xBA77870)
 
+inline static constexpr unsigned int BLIHJELFEHM_TransitionShotData_TypeDefinitionIndex = 69631;
+
 	class BLIHJELFEHM_TransitionShotData : public ::System::Object
 	{
 	public:

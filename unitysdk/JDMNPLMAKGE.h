@@ -21,6 +21,8 @@ namespace System { class String; }
 #define JDMNPLMAKGE_HNFKDENOAJK_OFFSET UNITYSDK_OFFSET(0x2E85130)
 #define JDMNPLMAKGE_LOEOILGHEEP_OFFSET UNITYSDK_OFFSET(0x2E850D0)
 
+inline static constexpr unsigned int JDMNPLMAKGE_TypeDefinitionIndex = 54425;
+
 	struct alignas(8) JDMNPLMAKGE
 	{
 		::RPG::GameCore::AttackType HIFKEKCELFB; // 0x10

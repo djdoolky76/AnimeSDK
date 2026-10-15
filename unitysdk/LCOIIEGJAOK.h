@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int LCOIIEGJAOK_TypeDefinitionIndex = 27205;
+
 	enum class LCOIIEGJAOK : ::System::Int32
 	{
 		NLCDGIPGFDJ = 0,

@@ -7,6 +7,8 @@ class OMNJCDDMLHI;
 #define MMMJBDHBAKI_CTOR_OFFSET UNITYSDK_OFFSET(0xB9D9E30)
 #define MMMJBDHBAKI_EXECUTE_OFFSET UNITYSDK_OFFSET(0xB9D9E40)
 
+inline static constexpr unsigned int MMMJBDHBAKI_TypeDefinitionIndex = 77946;
+
 	class MMMJBDHBAKI : public ::System::Object
 	{
 	public:

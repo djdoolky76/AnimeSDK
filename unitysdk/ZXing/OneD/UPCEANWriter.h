@@ -7,6 +7,8 @@
 
 namespace ZXing::OneD
 {
+	inline static constexpr unsigned int UPCEANWriter_TypeDefinitionIndex = 6985;
+
 	class UPCEANWriter : public ::ZXing::OneD::OneDimensionalCodeWriter
 	{
 	public:

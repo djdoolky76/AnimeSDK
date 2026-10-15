@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define DIMIFJPAHCC_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1CD27AA0)
 #define DIMIFJPAHCC_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1CD27F50)
 
+inline static constexpr unsigned int DIMIFJPAHCC_TypeDefinitionIndex = 15410;
+
 	class DIMIFJPAHCC : public ::System::Object
 	{
 	public:

@@ -29,6 +29,8 @@ namespace System { class String; }
 #define PLAFIBPGBKK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DF9BE10)
 #define PLAFIBPGBKK_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DF9BE70)
 
+inline static constexpr unsigned int PLAFIBPGBKK_TypeDefinitionIndex = 26111;
+
 	class PLAFIBPGBKK : public ::System::Object
 	{
 	public:

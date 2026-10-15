@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 #define NCMJPMNKHGI_CTOR_OFFSET UNITYSDK_OFFSET(0xBB16B20)
 #define NCMJPMNKHGI_FEOIFJONLCH_OFFSET UNITYSDK_OFFSET(0xBB169B0)
 
+inline static constexpr unsigned int NCMJPMNKHGI_TypeDefinitionIndex = 77523;
+
 	class NCMJPMNKHGI : public ::System::Object
 	{
 	public:

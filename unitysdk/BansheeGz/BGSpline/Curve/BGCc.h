@@ -52,6 +52,8 @@ namespace UnityEngine { class HelpURLAttribute; }
 
 namespace BansheeGz::BGSpline::Curve
 {
+	inline static constexpr unsigned int BGCc_TypeDefinitionIndex = 35982;
+
 	class BGCc : public ::UnityEngine::MonoBehaviour
 	{
 	public:

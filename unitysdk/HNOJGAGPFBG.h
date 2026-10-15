@@ -36,6 +36,8 @@ namespace System { class String; }
 #define HNOJGAGPFBG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E5E3460)
 #define HNOJGAGPFBG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E5E34C0)
 
+inline static constexpr unsigned int HNOJGAGPFBG_TypeDefinitionIndex = 28652;
+
 	class HNOJGAGPFBG : public ::System::Object
 	{
 	public:

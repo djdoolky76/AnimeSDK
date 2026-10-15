@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ChenLingBattleEffect_AddBounsAttackResource; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChenLingBattleEffect_AddBounsAttackResource_TypeDefinitionIndex = 15785;
+
 	class ChenLingBattleEffect_AddBounsAttackResource : public ::RPG::GameCore::BaseChenLingBattleEffect
 	{
 	public:

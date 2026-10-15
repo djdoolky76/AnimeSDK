@@ -9,6 +9,8 @@ namespace RPG::Client { class EquipmentGrowUpBeforeData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int EquipmentGrowUpBeforeData_TypeDefinitionIndex = 65678;
+
 	class EquipmentGrowUpBeforeData : public ::System::Object
 	{
 	public:

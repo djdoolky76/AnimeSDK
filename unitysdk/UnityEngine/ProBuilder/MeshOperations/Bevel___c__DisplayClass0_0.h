@@ -13,6 +13,8 @@ namespace UnityEngine::ProBuilder { class SharedVertex; }
 
 namespace UnityEngine::ProBuilder::MeshOperations
 {
+	inline static constexpr unsigned int Bevel___c__DisplayClass0_0_TypeDefinitionIndex = 44479;
+
 	class Bevel___c__DisplayClass0_0 : public ::System::Object
 	{
 	public:

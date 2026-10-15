@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ReplaceTrialPlayer; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ReplaceTrialPlayer_TypeDefinitionIndex = 21604;
+
 	class ReplaceTrialPlayer : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -14,6 +14,8 @@ namespace System { class Uri; }
 
 namespace MessagePack::Formatters
 {
+	inline static constexpr unsigned int UriFormatter_TypeDefinitionIndex = 7490;
+
 	class UriFormatter : public ::System::Object
 	{
 	public:

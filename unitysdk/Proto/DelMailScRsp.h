@@ -32,6 +32,8 @@ namespace System { class String; }
 
 namespace Proto
 {
+	inline static constexpr unsigned int DelMailScRsp_TypeDefinitionIndex = 30494;
+
 	class DelMailScRsp : public ::System::Object
 	{
 	public:

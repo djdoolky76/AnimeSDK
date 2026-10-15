@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueCondPickAvatarConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueCondPickAvatarConfig_TypeDefinitionIndex = 19802;
+
 	class RogueCondPickAvatarConfig : public ::RPG::GameCore::RogueConditionConfigBase
 	{
 	public:

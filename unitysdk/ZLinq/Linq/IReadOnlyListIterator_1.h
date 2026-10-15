@@ -4,6 +4,8 @@ namespace ZLinq::Linq { template <typename T> class IReadOnlyListIterator_1; }
 
 namespace ZLinq::Linq
 {
+	inline static constexpr unsigned int IReadOnlyListIterator_1_TypeDefinitionIndex = 6102;
+
 	template <typename T>
 	class IReadOnlyListIterator_1
 	{

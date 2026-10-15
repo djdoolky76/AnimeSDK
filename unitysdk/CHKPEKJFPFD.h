@@ -32,6 +32,8 @@ namespace System { class String; }
 #define CHKPEKJFPFD_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E0CACF0)
 #define CHKPEKJFPFD_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E0CAD50)
 
+inline static constexpr unsigned int CHKPEKJFPFD_TypeDefinitionIndex = 26538;
+
 	class CHKPEKJFPFD : public ::System::Object
 	{
 	public:

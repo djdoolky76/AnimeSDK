@@ -36,6 +36,8 @@ namespace System { class String; }
 #define JEIAEAEGEBJ_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E71C820)
 #define JEIAEAEGEBJ_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E71C880)
 
+inline static constexpr unsigned int JEIAEAEGEBJ_TypeDefinitionIndex = 32266;
+
 	class JEIAEAEGEBJ : public ::System::Object
 	{
 	public:

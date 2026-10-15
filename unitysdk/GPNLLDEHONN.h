@@ -16,6 +16,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define GPNLLDEHONN_GICABFLDIPA_OFFSET UNITYSDK_OFFSET(0x15B61FD0)
 #define GPNLLDEHONN_JKAJCDHLOPO_OFFSET UNITYSDK_OFFSET(0x15B61F70)
 
+inline static constexpr unsigned int GPNLLDEHONN_TypeDefinitionIndex = 77480;
+
 	class GPNLLDEHONN : public ::FJNNEOKOCJD
 	{
 	public:

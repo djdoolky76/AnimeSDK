@@ -13,6 +13,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define AKEDINAGOCA_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x12CCD700)
 #define AKEDINAGOCA_TICK_OFFSET UNITYSDK_OFFSET(0x12CCD820)
 
+inline static constexpr unsigned int AKEDINAGOCA_TypeDefinitionIndex = 47101;
+
 	class AKEDINAGOCA : public ::GELIALJDFBL
 	{
 	public:

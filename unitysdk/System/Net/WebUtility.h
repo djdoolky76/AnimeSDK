@@ -20,6 +20,8 @@ namespace System::Text { class Encoding; }
 
 namespace System::Net
 {
+	inline static constexpr unsigned int WebUtility_TypeDefinitionIndex = 2773;
+
 	class WebUtility : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@ namespace RPG::GameCore { class GameEntity; }
 #define LBGNELKODEM_LCMJOHKAAAC_OFFSET UNITYSDK_OFFSET(0xB5FAE90)
 #define LBGNELKODEM_MPIBNJBBOKM_OFFSET UNITYSDK_OFFSET(0xB5FAF90)
 
+inline static constexpr unsigned int LBGNELKODEM_TypeDefinitionIndex = 78564;
+
 	class LBGNELKODEM : public ::System::Object
 	{
 	public:

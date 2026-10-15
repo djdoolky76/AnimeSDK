@@ -63,6 +63,8 @@ namespace UnityEngine::UI { class Selectable; }
 
 namespace UnityEngine::UI
 {
+	inline static constexpr unsigned int Scrollbar_TypeDefinitionIndex = 6833;
+
 	class Scrollbar : public ::UnityEngine::UI::Selectable
 	{
 	public:

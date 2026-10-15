@@ -24,6 +24,8 @@ namespace UnityEngine::UI { class Toggle; }
 
 namespace MiHoYo::SDK::Console
 {
+	inline static constexpr unsigned int SDKUIDropdownControl_TypeDefinitionIndex = 8955;
+
 	class SDKUIDropdownControl : public ::System::Object
 	{
 	public:

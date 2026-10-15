@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdvEntityStopTurnInPlace_TypeDefinitionIndex = 20547;
+
 	class AdvEntityStopTurnInPlace : public ::RPG::GameCore::TaskConfig
 	{
 	public:

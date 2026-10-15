@@ -10,6 +10,8 @@ namespace RPG::GameCore { class EntityLodTemplate; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int EntityLodTemplate_TypeDefinitionIndex = 19210;
+
 	class EntityLodTemplate : public ::RPG::GameCore::LodTemplate
 	{
 	public:

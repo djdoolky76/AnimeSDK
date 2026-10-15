@@ -25,6 +25,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace MiHoYo::SDK::Console
 {
+	inline static constexpr unsigned int ConsoleDialogBase_TypeDefinitionIndex = 9004;
+
 	class ConsoleDialogBase : public ::MiHoYo::SDK::UIElement
 	{
 	public:

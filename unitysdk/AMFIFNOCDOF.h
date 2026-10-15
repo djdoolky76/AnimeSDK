@@ -27,6 +27,8 @@ namespace System { class String; }
 #define AMFIFNOCDOF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E520F70)
 #define AMFIFNOCDOF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E520FD0)
 
+inline static constexpr unsigned int AMFIFNOCDOF_TypeDefinitionIndex = 29423;
+
 	class AMFIFNOCDOF : public ::System::Object
 	{
 	public:

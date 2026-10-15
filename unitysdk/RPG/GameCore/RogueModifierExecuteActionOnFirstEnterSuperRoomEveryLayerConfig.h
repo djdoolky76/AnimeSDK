@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueModifierExecuteActionOnFirstEnterSuperRoomE
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueModifierExecuteActionOnFirstEnterSuperRoomEveryLayerConfig_TypeDefinitionIndex = 17864;
+
 	class RogueModifierExecuteActionOnFirstEnterSuperRoomEveryLayerConfig : public ::RPG::GameCore::RogueModifierConfig
 	{
 	public:

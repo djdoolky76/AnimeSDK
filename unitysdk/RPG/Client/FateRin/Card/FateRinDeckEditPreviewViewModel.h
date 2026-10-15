@@ -28,6 +28,8 @@ namespace System { class Object; }
 
 namespace RPG::Client::FateRin::Card
 {
+	inline static constexpr unsigned int FateRinDeckEditPreviewViewModel_TypeDefinitionIndex = 81159;
+
 	class FateRinDeckEditPreviewViewModel : public ::RPG::Client::FateRin::BaseViewModel
 	{
 	public:

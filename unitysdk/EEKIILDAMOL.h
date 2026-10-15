@@ -7,6 +7,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define EEKIILDAMOL_ALJIOCDBMKO_OFFSET UNITYSDK_OFFSET(0x1C5FB4C0)
 #define EEKIILDAMOL_CTOR_OFFSET UNITYSDK_OFFSET(0x1C5FB530)
 
+inline static constexpr unsigned int EEKIILDAMOL_TypeDefinitionIndex = 36205;
+
 	class EEKIILDAMOL : public ::System::Object
 	{
 	public:

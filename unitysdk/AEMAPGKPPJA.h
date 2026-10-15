@@ -38,6 +38,8 @@ namespace System { class String; }
 #define AEMAPGKPPJA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E10E670)
 #define AEMAPGKPPJA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E10E6D0)
 
+inline static constexpr unsigned int AEMAPGKPPJA_TypeDefinitionIndex = 27309;
+
 	class AEMAPGKPPJA : public ::System::Object
 	{
 	public:

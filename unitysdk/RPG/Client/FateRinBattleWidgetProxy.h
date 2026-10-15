@@ -10,6 +10,8 @@ class MDDJMLCHDIK;
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int FateRinBattleWidgetProxy_TypeDefinitionIndex = 72211;
+
 	class FateRinBattleWidgetProxy : public ::System::Object
 	{
 	public:

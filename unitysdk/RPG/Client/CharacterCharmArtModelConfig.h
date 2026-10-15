@@ -8,6 +8,8 @@ namespace UnityEngine { class Renderer; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int CharacterCharmArtModelConfig_TypeDefinitionIndex = 69756;
+
 	class CharacterCharmArtModelConfig : public ::UnityEngine::MonoBehaviour
 	{
 	public:

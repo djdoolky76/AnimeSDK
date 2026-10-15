@@ -6,6 +6,8 @@ class DFGLKHAAGJB;
 #define KGPMLJCDNJK___C__DISPLAYCLASS5_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB3FB6C0)
 #define KGPMLJCDNJK___C__DISPLAYCLASS5_0___ONTEAMTOWERSNEWPLAYERSKILLMESSAGE_B__0_OFFSET UNITYSDK_OFFSET(0xB3FB9C0)
 
+inline static constexpr unsigned int KGPMLJCDNJK___c__DisplayClass5_0_TypeDefinitionIndex = 79041;
+
 	class KGPMLJCDNJK___c__DisplayClass5_0 : public ::System::Object
 	{
 	public:

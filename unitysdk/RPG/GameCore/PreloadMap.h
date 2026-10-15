@@ -11,6 +11,8 @@ namespace RPG::GameCore { class PreloadMap; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PreloadMap_TypeDefinitionIndex = 21873;
+
 	class PreloadMap : public ::RPG::GameCore::TaskConfig
 	{
 	public:

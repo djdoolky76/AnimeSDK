@@ -6,6 +6,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::B51Racing
 {
+	inline static constexpr unsigned int B51RacingFireProjectileTargetSnapshot_TypeDefinitionIndex = 81675;
+
 	struct alignas(8) B51RacingFireProjectileTargetSnapshot
 	{
 		::System::Int32 TargetEntityId; // 0x10

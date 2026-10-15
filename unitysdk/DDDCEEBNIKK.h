@@ -20,6 +20,8 @@ namespace UnityEngine::Timeline { class TimelineClip; }
 #define DDDCEEBNIKK_ONGRAPHSTOP_OFFSET UNITYSDK_OFFSET(0xE25DE20)
 #define DDDCEEBNIKK_OOGBIKEGJPH_OFFSET UNITYSDK_OFFSET(0xE25E3A0)
 
+inline static constexpr unsigned int DDDCEEBNIKK_TypeDefinitionIndex = 47817;
+
 	class DDDCEEBNIKK : public ::ONEGHOPELAC
 	{
 	public:

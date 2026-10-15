@@ -7,6 +7,8 @@ class NAIMBODMJNH;
 #define PIPJHDOKNEE_CTOR_OFFSET UNITYSDK_OFFSET(0xC276160)
 #define PIPJHDOKNEE__ONBIND_OFFSET UNITYSDK_OFFSET(0xC2760E0)
 
+inline static constexpr unsigned int PIPJHDOKNEE_TypeDefinitionIndex = 71855;
+
 	class PIPJHDOKNEE : public ::FMPCODLIOLG
 	{
 	public:

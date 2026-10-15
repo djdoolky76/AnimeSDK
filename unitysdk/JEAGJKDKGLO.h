@@ -12,6 +12,8 @@ namespace System { class String; }
 #define JEAGJKDKGLO_SET_ISACTIVE_OFFSET UNITYSDK_OFFSET(0x16613A50)
 #define JEAGJKDKGLO_SET_RATIO_OFFSET UNITYSDK_OFFSET(0x16613A70)
 
+inline static constexpr unsigned int JEAGJKDKGLO_TypeDefinitionIndex = 58995;
+
 	class JEAGJKDKGLO : public ::JENIFGNJEPE
 	{
 	public:

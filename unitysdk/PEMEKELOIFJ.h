@@ -4,6 +4,8 @@
 
 #define PEMEKELOIFJ_CTOR_OFFSET UNITYSDK_OFFSET(0xC1F38D0)
 
+inline static constexpr unsigned int PEMEKELOIFJ_TypeDefinitionIndex = 54321;
+
 	class PEMEKELOIFJ : public ::BFINOGCFBMJ
 	{
 	public:

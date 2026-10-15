@@ -7,6 +7,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PropComponent___O_TypeDefinitionIndex = 57369;
+
 	class PropComponent___O : public ::System::Object
 	{
 	public:

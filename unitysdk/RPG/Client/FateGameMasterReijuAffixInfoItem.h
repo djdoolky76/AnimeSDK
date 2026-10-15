@@ -26,6 +26,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int FateGameMasterReijuAffixInfoItem_TypeDefinitionIndex = 64095;
+
 	class FateGameMasterReijuAffixInfoItem : public ::System::Object
 	{
 	public:

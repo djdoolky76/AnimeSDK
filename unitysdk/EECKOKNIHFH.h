@@ -15,6 +15,8 @@ namespace System { class Object; }
 #define EECKOKNIHFH_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0x1334F6B0)
 #define EECKOKNIHFH_POAACIDJOKM_OFFSET UNITYSDK_OFFSET(0x1334F570)
 
+inline static constexpr unsigned int EECKOKNIHFH_TypeDefinitionIndex = 72962;
+
 	class EECKOKNIHFH : public ::GNGPLDGOEAI
 	{
 	public:

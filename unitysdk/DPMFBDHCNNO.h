@@ -158,6 +158,8 @@ namespace System { class String; }
 #define DPMFBDHCNNO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E217B50)
 #define DPMFBDHCNNO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E217BB0)
 
+inline static constexpr unsigned int DPMFBDHCNNO_TypeDefinitionIndex = 25461;
+
 	class DPMFBDHCNNO : public ::System::Object
 	{
 	public:

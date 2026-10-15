@@ -8,6 +8,8 @@ namespace System { class TypeIdentifier; }
 
 namespace System
 {
+	inline static constexpr unsigned int TypeIdentifiers_TypeDefinitionIndex = 442;
+
 	class TypeIdentifiers : public ::System::Object
 	{
 	public:

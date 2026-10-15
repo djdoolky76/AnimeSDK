@@ -50,6 +50,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace MiHoYo::SDK::UI::External::OS
 {
+	inline static constexpr unsigned int AccountListPluginUI_TypeDefinitionIndex = 8410;
+
 	class AccountListPluginUI : public ::System::Object
 	{
 	public:

@@ -6,6 +6,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ShowHimekoNovaSkillHudPanelParam_TypeDefinitionIndex = 58665;
+
 	class ShowHimekoNovaSkillHudPanelParam : public ::System::Object
 	{
 	public:

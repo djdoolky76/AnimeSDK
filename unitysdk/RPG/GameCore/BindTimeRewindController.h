@@ -11,6 +11,8 @@ namespace RPG::GameCore { class DynamicFloat; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int BindTimeRewindController_TypeDefinitionIndex = 20648;
+
 	class BindTimeRewindController : public ::RPG::GameCore::TaskConfig
 	{
 	public:

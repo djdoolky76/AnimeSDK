@@ -22,6 +22,8 @@ namespace System { template <typename T> class Func_1; }
 #define GCBOJGNGLGO_GMNBIIJHALP_OFFSET UNITYSDK_OFFSET(0x159603D0)
 #define GCBOJGNGLGO_SET_ISWAITINGADVPHASE_OFFSET UNITYSDK_OFFSET(0x15960640)
 
+inline static constexpr unsigned int GCBOJGNGLGO_TypeDefinitionIndex = 66958;
+
 	class GCBOJGNGLGO : public ::System::Object
 	{
 	public:

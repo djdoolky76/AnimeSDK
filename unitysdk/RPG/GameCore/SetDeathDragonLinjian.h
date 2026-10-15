@@ -11,6 +11,8 @@ namespace RPG::GameCore { class SetDeathDragonLinjian; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetDeathDragonLinjian_TypeDefinitionIndex = 22851;
+
 	class SetDeathDragonLinjian : public ::RPG::GameCore::TaskConfig
 	{
 	public:

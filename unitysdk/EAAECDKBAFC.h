@@ -30,6 +30,8 @@ namespace System { class String; }
 #define EAAECDKBAFC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E220260)
 #define EAAECDKBAFC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E2202C0)
 
+inline static constexpr unsigned int EAAECDKBAFC_TypeDefinitionIndex = 29105;
+
 	class EAAECDKBAFC : public ::System::Object
 	{
 	public:

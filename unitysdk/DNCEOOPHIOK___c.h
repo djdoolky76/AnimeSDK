@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define DNCEOOPHIOK___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E1F4170)
 #define DNCEOOPHIOK___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E1F4180)
 
+inline static constexpr unsigned int DNCEOOPHIOK___c_TypeDefinitionIndex = 33805;
+
 	class DNCEOOPHIOK___c : public ::System::Object
 	{
 	public:

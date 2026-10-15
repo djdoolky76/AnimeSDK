@@ -11,6 +11,8 @@ namespace RPG::GameCore { class DynamicFloat; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int BoomRobotGameplayControllerInitialize_TypeDefinitionIndex = 21187;
+
 	class BoomRobotGameplayControllerInitialize : public ::RPG::GameCore::TaskConfig
 	{
 	public:

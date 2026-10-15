@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define DKICKECEHAO_CTOR_OFFSET UNITYSDK_OFFSET(0xF880A50)
 #define DKICKECEHAO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xF880A80)
 
+inline static constexpr unsigned int DKICKECEHAO_TypeDefinitionIndex = 53253;
+
 	class DKICKECEHAO
 	{
 	public:

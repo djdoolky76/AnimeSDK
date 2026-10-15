@@ -33,6 +33,8 @@ namespace System { class String; }
 #define OCLIPJHEAGJ_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DE17F60)
 #define OCLIPJHEAGJ_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DE17FC0)
 
+inline static constexpr unsigned int OCLIPJHEAGJ_TypeDefinitionIndex = 31235;
+
 	class OCLIPJHEAGJ : public ::System::Object
 	{
 	public:

@@ -56,6 +56,8 @@ namespace RPG::GameCore { class MappingInfoRow; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TempShowBigMapEntityIcon_TypeDefinitionIndex = 62938;
+
 	class TempShowBigMapEntityIcon : public ::System::Object
 	{
 	public:

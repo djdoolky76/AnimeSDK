@@ -28,6 +28,8 @@ namespace System { class String; }
 #define NNAHGDGNOEK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EB7E030)
 #define NNAHGDGNOEK_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EB7E090)
 
+inline static constexpr unsigned int NNAHGDGNOEK_TypeDefinitionIndex = 34927;
+
 	class NNAHGDGNOEK : public ::System::Object
 	{
 	public:

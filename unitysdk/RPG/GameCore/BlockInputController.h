@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int BlockInputController_TypeDefinitionIndex = 20469;
+
 	class BlockInputController : public ::RPG::GameCore::TaskConfig
 	{
 	public:

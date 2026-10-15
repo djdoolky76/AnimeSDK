@@ -12,6 +12,8 @@ namespace UnityEngine { class GameObject; }
 #define IKLIHOEDGBE_EKIKCHBFDHL_JJCONIFJPHO_OFFSET UNITYSDK_OFFSET(0x16499B70)
 #define IKLIHOEDGBE_EKIKCHBFDHL_SET_FADEPROGRESS_OFFSET UNITYSDK_OFFSET(0x16499B60)
 
+inline static constexpr unsigned int IKLIHOEDGBE_EKIKCHBFDHL_TypeDefinitionIndex = 60712;
+
 	class IKLIHOEDGBE_EKIKCHBFDHL : public ::System::Object
 	{
 	public:

@@ -29,6 +29,8 @@ namespace System { class String; }
 #define JKGILKGILAI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E768810)
 #define JKGILKGILAI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E768870)
 
+inline static constexpr unsigned int JKGILKGILAI_TypeDefinitionIndex = 29726;
+
 	class JKGILKGILAI : public ::System::Object
 	{
 	public:

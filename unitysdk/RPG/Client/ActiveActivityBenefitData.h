@@ -17,6 +17,8 @@ namespace RPG::Client { class ActiveActivityData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ActiveActivityBenefitData_TypeDefinitionIndex = 61376;
+
 	class ActiveActivityBenefitData : public ::System::Object
 	{
 	public:

@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int HideCharacterFilteredEffect_TypeDefinitionIndex = 23123;
+
 	class HideCharacterFilteredEffect : public ::RPG::GameCore::TaskConfig
 	{
 	public:

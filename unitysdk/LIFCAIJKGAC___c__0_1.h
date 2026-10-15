@@ -6,6 +6,8 @@ namespace System { class Action; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2, typename T3> class Func_3; }
 
+inline static constexpr unsigned int LIFCAIJKGAC___c__0_1_TypeDefinitionIndex = 49843;
+
 	template <typename T>
 	class LIFCAIJKGAC___c__0_1 : public ::System::Object
 	{

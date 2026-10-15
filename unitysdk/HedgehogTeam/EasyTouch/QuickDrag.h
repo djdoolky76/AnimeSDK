@@ -24,6 +24,8 @@ namespace HedgehogTeam::EasyTouch { class QuickDrag_OnDragStart; }
 
 namespace HedgehogTeam::EasyTouch
 {
+	inline static constexpr unsigned int QuickDrag_TypeDefinitionIndex = 40254;
+
 	class QuickDrag : public ::HedgehogTeam::EasyTouch::QuickBase
 	{
 	public:

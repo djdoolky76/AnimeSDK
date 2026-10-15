@@ -37,6 +37,8 @@ namespace System { class String; }
 #define FFFCJNFIDLO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E36DE90)
 #define FFFCJNFIDLO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E36DEF0)
 
+inline static constexpr unsigned int FFFCJNFIDLO_TypeDefinitionIndex = 33207;
+
 	class FFFCJNFIDLO : public ::System::Object
 	{
 	public:

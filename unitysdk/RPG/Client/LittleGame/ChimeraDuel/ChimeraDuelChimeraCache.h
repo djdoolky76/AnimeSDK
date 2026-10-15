@@ -40,6 +40,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::LittleGame::ChimeraDuel
 {
+	inline static constexpr unsigned int ChimeraDuelChimeraCache_TypeDefinitionIndex = 77649;
+
 	class ChimeraDuelChimeraCache : public ::System::Object
 	{
 	public:

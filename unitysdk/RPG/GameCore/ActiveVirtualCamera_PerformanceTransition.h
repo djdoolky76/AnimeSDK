@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ActiveVirtualCamera_PerformanceTransition_TypeDefinitionIndex = 21860;
+
 	class ActiveVirtualCamera_PerformanceTransition : public ::RPG::GameCore::TaskConfig
 	{
 	public:

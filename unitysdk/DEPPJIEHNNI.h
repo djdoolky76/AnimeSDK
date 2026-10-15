@@ -4,6 +4,8 @@
 
 #define DEPPJIEHNNI_AFKMOKOLLPC_OFFSET UNITYSDK_OFFSET(0x1CD13A40)
 
+inline static constexpr unsigned int DEPPJIEHNNI_TypeDefinitionIndex = 10688;
+
 	class DEPPJIEHNNI : public ::System::Object
 	{
 	public:

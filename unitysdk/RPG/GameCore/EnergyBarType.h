@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int EnergyBarType_TypeDefinitionIndex = 16549;
+
 	enum class EnergyBarType : ::System::Int32
 	{
 		Invalid = 0,

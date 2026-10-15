@@ -154,6 +154,8 @@ namespace System::Collections::Generic { template <typename T> class Queue_1; }
 #define KDKHADGLIPJ_REPLACEGENERICVIEWLOADCALLBACK_OFFSET UNITYSDK_OFFSET(0x1CBB4510)
 #define KDKHADGLIPJ_REPLACEGENERICVIEWUNLOADCALLBACK_OFFSET UNITYSDK_OFFSET(0x1CBB47F0)
 
+inline static constexpr unsigned int KDKHADGLIPJ_TypeDefinitionIndex = 42575;
+
 	class KDKHADGLIPJ : public ::Entitas::Entity
 	{
 	public:

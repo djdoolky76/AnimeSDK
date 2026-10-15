@@ -12,6 +12,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueTournPersonaRoomCardPileViewModel___c_TypeDefinitionIndex = 72883;
+
 	class RogueTournPersonaRoomCardPileViewModel___c : public ::System::Object
 	{
 	public:

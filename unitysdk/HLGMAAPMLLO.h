@@ -6,6 +6,8 @@ class ECONLFPJNAA;
 #define HLGMAAPMLLO_CTOR_OFFSET UNITYSDK_OFFSET(0x15D5FAD0)
 #define HLGMAAPMLLO_HEPPBBLLBPN_OFFSET UNITYSDK_OFFSET(0x15D5FA70)
 
+inline static constexpr unsigned int HLGMAAPMLLO_TypeDefinitionIndex = 56303;
+
 	class HLGMAAPMLLO : public ::System::Object
 	{
 	public:

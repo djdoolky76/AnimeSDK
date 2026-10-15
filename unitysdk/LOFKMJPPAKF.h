@@ -30,6 +30,8 @@ namespace System { class String; }
 #define LOFKMJPPAKF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E9BC820)
 #define LOFKMJPPAKF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E9BC880)
 
+inline static constexpr unsigned int LOFKMJPPAKF_TypeDefinitionIndex = 27013;
+
 	class LOFKMJPPAKF : public ::System::Object
 	{
 	public:

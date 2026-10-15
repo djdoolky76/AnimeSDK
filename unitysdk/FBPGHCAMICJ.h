@@ -4,6 +4,8 @@
 
 #define FBPGHCAMICJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA662E0)
 
+inline static constexpr unsigned int FBPGHCAMICJ_TypeDefinitionIndex = 43257;
+
 	class FBPGHCAMICJ : public ::System::Object
 	{
 	public:

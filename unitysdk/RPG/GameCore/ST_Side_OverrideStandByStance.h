@@ -11,6 +11,8 @@ namespace RPG::GameCore { class ST_Side_OverrideStandByStance; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ST_Side_OverrideStandByStance_TypeDefinitionIndex = 20118;
+
 	class ST_Side_OverrideStandByStance : public ::RPG::GameCore::STTaskConfig
 	{
 	public:

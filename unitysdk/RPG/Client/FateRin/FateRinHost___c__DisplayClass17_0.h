@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T> class Queue_1; }
 
 namespace RPG::Client::FateRin
 {
+	inline static constexpr unsigned int FateRinHost___c__DisplayClass17_0_TypeDefinitionIndex = 80525;
+
 	class FateRinHost___c__DisplayClass17_0 : public ::System::Object
 	{
 	public:

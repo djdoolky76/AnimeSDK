@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TrackPhotoTrashCanConfigRow_TypeDefinitionIndex = 12511;
+
 	class TrackPhotoTrashCanConfigRow : public ::System::Object
 	{
 	public:

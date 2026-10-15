@@ -29,6 +29,8 @@ namespace System::Collections::Immutable { template <typename T> class IImmutabl
 #define PDMBLCALNPD_SET_HINTCANSUBMIT_OFFSET UNITYSDK_OFFSET(0xC01F6D0)
 #define PDMBLCALNPD___CTOR_B__23_1_OFFSET UNITYSDK_OFFSET(0xC021360)
 
+inline static constexpr unsigned int PDMBLCALNPD_TypeDefinitionIndex = 79574;
+
 	class PDMBLCALNPD : public ::System::Object
 	{
 	public:

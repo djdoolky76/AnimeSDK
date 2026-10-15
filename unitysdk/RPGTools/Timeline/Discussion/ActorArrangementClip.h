@@ -18,6 +18,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPGTools::Timeline::Discussion
 {
+	inline static constexpr unsigned int ActorArrangementClip_TypeDefinitionIndex = 48782;
+
 	class ActorArrangementClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:

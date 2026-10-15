@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ByCompareChessRogueExistAeonRoom; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByCompareChessRogueExistAeonRoom_TypeDefinitionIndex = 20799;
+
 	class ByCompareChessRogueExistAeonRoom : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

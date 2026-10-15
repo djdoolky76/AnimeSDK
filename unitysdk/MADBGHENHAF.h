@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 #define MADBGHENHAF_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB842F50)
 #define MADBGHENHAF_MOKNCFJICIC_OFFSET UNITYSDK_OFFSET(0xB842BD0)
 
+inline static constexpr unsigned int MADBGHENHAF_TypeDefinitionIndex = 60650;
+
 	class MADBGHENHAF : public ::System::Object
 	{
 	public:

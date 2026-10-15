@@ -10,6 +10,8 @@ namespace RPG::GameCore { class LittleGameLevelCurveInfo; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LittleGameLevelCurveInfo_TypeDefinitionIndex = 18850;
+
 	class LittleGameLevelCurveInfo : public ::RPG::GameCore::JsonConfig
 	{
 	public:

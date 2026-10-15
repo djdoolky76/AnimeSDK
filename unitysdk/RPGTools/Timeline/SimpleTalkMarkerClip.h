@@ -15,6 +15,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int SimpleTalkMarkerClip_TypeDefinitionIndex = 48232;
+
 	class SimpleTalkMarkerClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:

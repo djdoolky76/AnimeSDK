@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define DOPHNDHILPA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E2082E0)
 #define DOPHNDHILPA___C___CCTOR_B__44_0_OFFSET UNITYSDK_OFFSET(0x1E2082F0)
 
+inline static constexpr unsigned int DOPHNDHILPA___c_TypeDefinitionIndex = 26971;
+
 	class DOPHNDHILPA___c : public ::System::Object
 	{
 	public:

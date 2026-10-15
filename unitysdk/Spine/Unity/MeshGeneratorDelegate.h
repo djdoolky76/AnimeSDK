@@ -13,6 +13,8 @@ namespace System { class Object; }
 
 namespace Spine::Unity
 {
+	inline static constexpr unsigned int MeshGeneratorDelegate_TypeDefinitionIndex = 45079;
+
 	class MeshGeneratorDelegate : public ::System::MulticastDelegate
 	{
 	public:

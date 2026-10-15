@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AssemNPCConfig___c__DisplayClass8_0_TypeDefinitionIndex = 60007;
+
 	class AssemNPCConfig___c__DisplayClass8_0 : public ::System::Object
 	{
 	public:

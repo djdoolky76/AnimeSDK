@@ -6,6 +6,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int BGCurvePCGStageMonoPlugin_TypeDefinitionIndex = 68769;
+
 	class BGCurvePCGStageMonoPlugin : public ::UnityEngine::MonoBehaviour
 	{
 	public:

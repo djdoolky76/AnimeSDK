@@ -7,6 +7,8 @@ namespace RPG::Client { class MonoValueEvaluateConfigure_FloatEvaluator; }
 #define JEALAGIGPFB_DGFBKMJFPFO_GET_CURRENTVALUE_OFFSET UNITYSDK_OFFSET(0x16615530)
 #define JEALAGIGPFB_DGFBKMJFPFO_LKIFDCACLOK_OFFSET UNITYSDK_OFFSET(0x16615380)
 
+inline static constexpr unsigned int JEALAGIGPFB_DGFBKMJFPFO_TypeDefinitionIndex = 57429;
+
 	class JEALAGIGPFB_DGFBKMJFPFO
 	{
 	public:

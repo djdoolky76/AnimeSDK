@@ -9,6 +9,8 @@ namespace UnityEngine { class Collider; }
 
 namespace RootMotion::FinalIK
 {
+	inline static constexpr unsigned int GroundRaycastHit_TypeDefinitionIndex = 45986;
+
 	struct alignas(4) GroundRaycastHit
 	{
 		::System::Boolean hit; // 0x10

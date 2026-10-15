@@ -4,6 +4,8 @@ namespace System { class String; }
 
 namespace RPG::Client::LittleGame
 {
+	inline static constexpr unsigned int PackedConsistencyCheckData_TypeDefinitionIndex = 76562;
+
 	struct alignas(8) PackedConsistencyCheckData
 	{
 		::System::String* GameData; // 0x10

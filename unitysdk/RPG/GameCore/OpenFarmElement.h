@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int OpenFarmElement_TypeDefinitionIndex = 22085;
+
 	class OpenFarmElement : public ::RPG::GameCore::TaskConfig
 	{
 	public:

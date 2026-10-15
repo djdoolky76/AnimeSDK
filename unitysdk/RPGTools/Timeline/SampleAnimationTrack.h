@@ -6,6 +6,8 @@
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int SampleAnimationTrack_TypeDefinitionIndex = 47859;
+
 	class SampleAnimationTrack : public ::UnityEngine::Timeline::TrackAsset
 	{
 	public:

@@ -8,6 +8,8 @@
 
 namespace RPG::SceneOptimizer::PVSSceneBudgetStatTool
 {
+	inline static constexpr unsigned int PVSSceneBudgetStatToolWindowVisualizeHelper_OJEGBJLMMFA_TypeDefinitionIndex = 51789;
+
 	class PVSSceneBudgetStatToolWindowVisualizeHelper_OJEGBJLMMFA : public ::System::Object
 	{
 	public:

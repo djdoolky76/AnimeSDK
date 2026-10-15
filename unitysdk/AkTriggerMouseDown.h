@@ -4,6 +4,8 @@
 
 #define AKTRIGGERMOUSEDOWN_CTOR_OFFSET UNITYSDK_OFFSET(0x1F619730)
 
+inline static constexpr unsigned int AkTriggerMouseDown_TypeDefinitionIndex = 44969;
+
 	class AkTriggerMouseDown : public ::AkTriggerBase
 	{
 	public:

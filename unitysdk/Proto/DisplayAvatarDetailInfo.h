@@ -54,6 +54,8 @@ namespace System { class String; }
 
 namespace Proto
 {
+	inline static constexpr unsigned int DisplayAvatarDetailInfo_TypeDefinitionIndex = 28885;
+
 	class DisplayAvatarDetailInfo : public ::System::Object
 	{
 	public:

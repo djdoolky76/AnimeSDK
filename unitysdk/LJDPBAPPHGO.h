@@ -38,6 +38,8 @@ namespace System { class String; }
 #define LJDPBAPPHGO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E978910)
 #define LJDPBAPPHGO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E978970)
 
+inline static constexpr unsigned int LJDPBAPPHGO_TypeDefinitionIndex = 27699;
+
 	class LJDPBAPPHGO : public ::System::Object
 	{
 	public:

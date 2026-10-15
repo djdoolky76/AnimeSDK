@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TimeRewindCustomPathNode_TypeDefinitionIndex = 63765;
+
 	class TimeRewindCustomPathNode : public ::System::Object
 	{
 	public:

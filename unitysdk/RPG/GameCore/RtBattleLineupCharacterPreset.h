@@ -9,6 +9,8 @@ namespace RPG::GameCore { class RtBattleLineupCharacterPreset; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RtBattleLineupCharacterPreset_TypeDefinitionIndex = 18048;
+
 	class RtBattleLineupCharacterPreset : public ::RPG::GameCore::JsonConfig
 	{
 	public:

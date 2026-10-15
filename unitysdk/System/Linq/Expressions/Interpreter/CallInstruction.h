@@ -23,6 +23,8 @@ namespace System::Reflection { class ParameterInfo; }
 
 namespace System::Linq::Expressions::Interpreter
 {
+	inline static constexpr unsigned int CallInstruction_TypeDefinitionIndex = 3318;
+
 	class CallInstruction : public ::System::Linq::Expressions::Interpreter::Instruction
 	{
 	public:

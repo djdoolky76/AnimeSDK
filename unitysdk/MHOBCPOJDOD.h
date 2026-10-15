@@ -7,6 +7,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define MHOBCPOJDOD_CTOR_OFFSET UNITYSDK_OFFSET(0xB9484A0)
 #define MHOBCPOJDOD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB948580)
 
+inline static constexpr unsigned int MHOBCPOJDOD_TypeDefinitionIndex = 58537;
+
 	class MHOBCPOJDOD
 	{
 	public:

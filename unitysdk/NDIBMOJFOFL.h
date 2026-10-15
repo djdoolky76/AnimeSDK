@@ -20,6 +20,8 @@
 #define NDIBMOJFOFL_SET_TIMESCALE_OFFSET UNITYSDK_OFFSET(0xBB4A280)
 #define NDIBMOJFOFL_SET_UNSCALEDDELTATIME_OFFSET UNITYSDK_OFFSET(0xBB4A2A0)
 
+inline static constexpr unsigned int NDIBMOJFOFL_TypeDefinitionIndex = 75928;
+
 	class NDIBMOJFOFL : public ::System::Object
 	{
 	public:

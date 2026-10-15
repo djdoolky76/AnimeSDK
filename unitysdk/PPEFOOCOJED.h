@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define PPEFOOCOJED_PEKGFIAPADN_OFFSET UNITYSDK_OFFSET(0xC37D840)
 #define PPEFOOCOJED__ADDNOTIFYHANDLERS_OFFSET UNITYSDK_OFFSET(0xC37DDE0)
 
+inline static constexpr unsigned int PPEFOOCOJED_TypeDefinitionIndex = 62899;
+
 	class PPEFOOCOJED : public ::RPG::Client::BaseModule
 	{
 	public:

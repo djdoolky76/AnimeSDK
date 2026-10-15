@@ -9,6 +9,8 @@ namespace MiHoYo::SDK { class JSONNode; }
 
 namespace MiHoYo::SDK::Base::GoodsPlatform
 {
+	inline static constexpr unsigned int CDNDataSource___c__DisplayClass5_0_TypeDefinitionIndex = 8840;
+
 	class CDNDataSource___c__DisplayClass5_0 : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::Client::ParkourGame { class MonoParkourCharacter; }
 
 namespace RPG::Client::ParkourGame
 {
+	inline static constexpr unsigned int MonoParkourItemSpeedUp_TypeDefinitionIndex = 74146;
+
 	class MonoParkourItemSpeedUp : public ::RPG::Client::ParkourGame::MonoParkourItem
 	{
 	public:

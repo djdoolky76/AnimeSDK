@@ -10,6 +10,8 @@ namespace RPG::GameCore { class PingPongEnemyGroupEventBase; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PingPongEnemyGroupEventBase_TypeDefinitionIndex = 16996;
+
 	class PingPongEnemyGroupEventBase : public ::RPG::GameCore::JsonConfig
 	{
 	public:

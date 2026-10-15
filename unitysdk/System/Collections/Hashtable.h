@@ -59,6 +59,8 @@ namespace System::Runtime::Serialization { class SerializationInfo; }
 
 namespace System::Collections
 {
+	inline static constexpr unsigned int Hashtable_TypeDefinitionIndex = 1472;
+
 	class Hashtable : public ::System::Object
 	{
 	public:

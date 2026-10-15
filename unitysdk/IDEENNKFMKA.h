@@ -20,6 +20,8 @@ namespace System { class Object; }
 #define IDEENNKFMKA_MFBJFOANHMB_OFFSET UNITYSDK_OFFSET(0x15EC0E50)
 #define IDEENNKFMKA_ONAOHDOJFCM_OFFSET UNITYSDK_OFFSET(0x15EC0EC0)
 
+inline static constexpr unsigned int IDEENNKFMKA_TypeDefinitionIndex = 59711;
+
 	class IDEENNKFMKA : public ::LJKHPOHKIIF
 	{
 	public:

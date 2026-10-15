@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::Win
 {
+	inline static constexpr unsigned int SteamManager___c__DisplayClass15_0_TypeDefinitionIndex = 9367;
+
 	class SteamManager___c__DisplayClass15_0 : public ::System::Object
 	{
 	public:

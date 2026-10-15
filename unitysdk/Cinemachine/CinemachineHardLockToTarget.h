@@ -13,6 +13,8 @@
 
 namespace Cinemachine
 {
+	inline static constexpr unsigned int CinemachineHardLockToTarget_TypeDefinitionIndex = 39779;
+
 	class CinemachineHardLockToTarget : public ::Cinemachine::CinemachineComponentBase
 	{
 	public:

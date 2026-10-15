@@ -16,6 +16,8 @@
 #define LIGGHLAHFNH_NILAKMDBBGP_OFFSET UNITYSDK_OFFSET(0xB6CB0C0)
 #define LIGGHLAHFNH_OOOMNCCPIJL_OFFSET UNITYSDK_OFFSET(0xB6CB1B0)
 
+inline static constexpr unsigned int LIGGHLAHFNH_TypeDefinitionIndex = 62408;
+
 	class LIGGHLAHFNH : public ::System::Object
 	{
 	public:

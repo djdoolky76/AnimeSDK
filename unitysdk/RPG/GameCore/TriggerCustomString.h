@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TriggerCustomString; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TriggerCustomString_TypeDefinitionIndex = 23789;
+
 	class TriggerCustomString : public ::RPG::GameCore::TaskConfig
 	{
 	public:

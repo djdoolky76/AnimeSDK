@@ -10,6 +10,8 @@ namespace RPG::GameCore { class DiceCombatTaskConfig_ExchangeHP; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DiceCombatTaskConfig_ExchangeHP_TypeDefinitionIndex = 16093;
+
 	class DiceCombatTaskConfig_ExchangeHP : public ::RPG::GameCore::DiceCombatTaskConfig
 	{
 	public:

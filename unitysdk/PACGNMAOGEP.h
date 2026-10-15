@@ -4,6 +4,8 @@
 
 #define PACGNMAOGEP_CTOR_OFFSET UNITYSDK_OFFSET(0x1C7E6070)
 
+inline static constexpr unsigned int PACGNMAOGEP_TypeDefinitionIndex = 36437;
+
 	class PACGNMAOGEP : public ::System::Object
 	{
 	public:

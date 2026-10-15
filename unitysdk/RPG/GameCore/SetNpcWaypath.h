@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetNpcWaypath_TypeDefinitionIndex = 20341;
+
 	class SetNpcWaypath : public ::RPG::GameCore::TaskConfig
 	{
 	public:

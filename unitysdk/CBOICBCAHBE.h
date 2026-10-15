@@ -63,6 +63,8 @@ namespace UnityEngine::Rendering { class BatchAnimationInstance; }
 #define CBOICBCAHBE_SET_BATCHANIMATION_OFFSET UNITYSDK_OFFSET(0xC4B5730)
 #define CBOICBCAHBE_SET_VARIANTASSET_OFFSET UNITYSDK_OFFSET(0xC4B5750)
 
+inline static constexpr unsigned int CBOICBCAHBE_TypeDefinitionIndex = 69269;
+
 	class CBOICBCAHBE : public ::System::Object
 	{
 	public:

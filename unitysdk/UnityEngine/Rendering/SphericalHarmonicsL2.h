@@ -9,6 +9,8 @@ namespace System { class Object; }
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int SphericalHarmonicsL2_TypeDefinitionIndex = 4733;
+
 	struct alignas(4) SphericalHarmonicsL2
 	{
 		::System::Single shr0; // 0x10

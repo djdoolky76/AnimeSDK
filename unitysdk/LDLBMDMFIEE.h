@@ -13,6 +13,8 @@ namespace UnityEngine { class Collision; }
 #define LDLBMDMFIEE_FBNDHBBKGCJ_OFFSET UNITYSDK_OFFSET(0x1C90D060)
 #define LDLBMDMFIEE_ONALLOC_OFFSET UNITYSDK_OFFSET(0x1C90CE00)
 
+inline static constexpr unsigned int LDLBMDMFIEE_TypeDefinitionIndex = 43534;
+
 	class LDLBMDMFIEE : public ::NOOHPODHIAA
 	{
 	public:

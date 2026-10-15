@@ -22,6 +22,8 @@ namespace UnityEngine { class Transform; }
 #define AALIJOOJDPO_IPJNFIDONHF_OFFSET UNITYSDK_OFFSET(0xB0CF6F0)
 #define AALIJOOJDPO_PDIHPGIGMKG_OFFSET UNITYSDK_OFFSET(0xB0CF930)
 
+inline static constexpr unsigned int AALIJOOJDPO_TypeDefinitionIndex = 47839;
+
 	class AALIJOOJDPO : public ::System::Object
 	{
 	public:

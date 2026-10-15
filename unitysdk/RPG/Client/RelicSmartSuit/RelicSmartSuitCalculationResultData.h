@@ -39,6 +39,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::RelicSmartSuit
 {
+	inline static constexpr unsigned int RelicSmartSuitCalculationResultData_TypeDefinitionIndex = 74418;
+
 	class RelicSmartSuitCalculationResultData : public ::System::Object
 	{
 	public:

@@ -18,6 +18,8 @@ namespace System::Net::Sockets { class NetworkStream; }
 
 namespace Mono::Net::Security
 {
+	inline static constexpr unsigned int MonoTlsStream_TypeDefinitionIndex = 2445;
+
 	class MonoTlsStream : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ArchiveWolfBroPuzzle_TypeDefinitionIndex = 21995;
+
 	class ArchiveWolfBroPuzzle : public ::RPG::GameCore::TaskConfig
 	{
 	public:

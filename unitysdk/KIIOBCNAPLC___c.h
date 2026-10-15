@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define KIIOBCNAPLC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E85C270)
 #define KIIOBCNAPLC___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E85C280)
 
+inline static constexpr unsigned int KIIOBCNAPLC___c_TypeDefinitionIndex = 33761;
+
 	class KIIOBCNAPLC___c : public ::System::Object
 	{
 	public:

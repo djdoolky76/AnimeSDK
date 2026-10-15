@@ -14,6 +14,8 @@ namespace RPG::GameCore { class ScreenTransferFullDuration; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PlayScreenTransfer_TypeDefinitionIndex = 23813;
+
 	class PlayScreenTransfer : public ::RPG::GameCore::TaskConfig
 	{
 	public:

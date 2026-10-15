@@ -10,6 +10,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 #define FNKIAFBAMEE___C__BUILDGAMESETTLECONTEXT_B__19_0_OFFSET UNITYSDK_OFFSET(0x15877920)
 #define FNKIAFBAMEE___C___BUILDOFFLINELEVELDATA_B__20_0_OFFSET UNITYSDK_OFFSET(0x15877930)
 
+inline static constexpr unsigned int FNKIAFBAMEE___c_TypeDefinitionIndex = 81292;
+
 	class FNKIAFBAMEE___c : public ::System::Object
 	{
 	public:

@@ -32,6 +32,8 @@ namespace System { class String; }
 #define PCAFMOHEDGK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DF00050)
 #define PCAFMOHEDGK_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DF000B0)
 
+inline static constexpr unsigned int PCAFMOHEDGK_TypeDefinitionIndex = 32535;
+
 	class PCAFMOHEDGK : public ::System::Object
 	{
 	public:

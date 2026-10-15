@@ -12,6 +12,8 @@ namespace UnityEngine { class Sprite; }
 
 namespace UnityEngine::Sprites
 {
+	inline static constexpr unsigned int DataUtility_TypeDefinitionIndex = 4422;
+
 	class DataUtility : public ::System::Object
 	{
 	public:

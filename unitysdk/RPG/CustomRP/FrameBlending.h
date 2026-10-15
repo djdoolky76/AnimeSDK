@@ -9,6 +9,8 @@ namespace UnityEngine { class RenderTexture; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int FrameBlending_TypeDefinitionIndex = 37607;
+
 	class FrameBlending : public ::System::Object
 	{
 	public:

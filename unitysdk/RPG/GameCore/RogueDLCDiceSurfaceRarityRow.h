@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueDLCDiceSurfaceRarityRow_TypeDefinitionIndex = 14745;
+
 	class RogueDLCDiceSurfaceRarityRow : public ::System::Object
 	{
 	public:

@@ -17,6 +17,8 @@ namespace System { class Object; }
 #define FFAOGKGJGPO_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0x1572F0F0)
 #define FFAOGKGJGPO_SET_ISENTERED_OFFSET UNITYSDK_OFFSET(0x1572EF50)
 
+inline static constexpr unsigned int FFAOGKGJGPO_TypeDefinitionIndex = 66683;
+
 	class FFAOGKGJGPO : public ::System::Object
 	{
 	public:

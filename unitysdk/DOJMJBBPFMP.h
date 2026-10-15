@@ -23,6 +23,8 @@ namespace RPGTools::Timeline::Emotion { class EmoBakedPoseData; }
 #define DOJMJBBPFMP_NGLAGCAIMDF_OFFSET UNITYSDK_OFFSET(0x11FEB980)
 #define DOJMJBBPFMP_OJCOENFILOM_OFFSET UNITYSDK_OFFSET(0x11FEB750)
 
+inline static constexpr unsigned int DOJMJBBPFMP_TypeDefinitionIndex = 71131;
+
 	class DOJMJBBPFMP : public ::System::Object
 	{
 	public:

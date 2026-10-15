@@ -10,6 +10,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RootMotion
 {
+	inline static constexpr unsigned int Warning_TypeDefinitionIndex = 45981;
+
 	class Warning : public ::System::Object
 	{
 	public:

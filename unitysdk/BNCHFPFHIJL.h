@@ -9,6 +9,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 #define BNCHFPFHIJL_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D9E8D80)
 #define BNCHFPFHIJL_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D9E8BC0)
 
+inline static constexpr unsigned int BNCHFPFHIJL_TypeDefinitionIndex = 23331;
+
 	class BNCHFPFHIJL : public ::RPG::GameCore::JsonConfig
 	{
 	public:

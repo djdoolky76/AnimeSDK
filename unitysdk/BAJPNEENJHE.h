@@ -5,6 +5,8 @@ namespace System { class String; }
 
 #define BAJPNEENJHE_CTOR_OFFSET UNITYSDK_OFFSET(0x15E71070)
 
+inline static constexpr unsigned int BAJPNEENJHE_TypeDefinitionIndex = 52065;
+
 	class BAJPNEENJHE : public ::System::Attribute
 	{
 	public:

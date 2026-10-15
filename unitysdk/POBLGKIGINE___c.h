@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define POBLGKIGINE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DFC4BB0)
 #define POBLGKIGINE___C___CCTOR_B__47_0_OFFSET UNITYSDK_OFFSET(0x1DFC4BC0)
 
+inline static constexpr unsigned int POBLGKIGINE___c_TypeDefinitionIndex = 25926;
+
 	class POBLGKIGINE___c : public ::System::Object
 	{
 	public:

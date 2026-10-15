@@ -79,6 +79,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TeamDataComponent_TypeDefinitionIndex = 57698;
+
 	class TeamDataComponent : public ::RPG::GameCore::GameComponentBase
 	{
 	public:

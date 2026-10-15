@@ -13,6 +13,8 @@ namespace RPG::GameCore { class GameEntity; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdventureOnBeStrikeByTimeRewindEntity_TypeDefinitionIndex = 56650;
+
 	class AdventureOnBeStrikeByTimeRewindEntity : public ::CMPGEAFHHDC
 	{
 	public:

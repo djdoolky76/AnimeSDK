@@ -14,6 +14,8 @@ namespace RPG::GameCore { class LevelSpatialIntVec2; }
 #define AHMDKMBDJKJ_INIT_OFFSET UNITYSDK_OFFSET(0x14160)
 #define AHMDKMBDJKJ_NFCMLNOIFDH_OFFSET UNITYSDK_OFFSET(0x3C363E0)
 
+inline static constexpr unsigned int AHMDKMBDJKJ_TypeDefinitionIndex = 10732;
+
 	struct alignas(8) AHMDKMBDJKJ
 	{
 		::LELCKJPOPAO* BEHHICMOFIE; // 0x10

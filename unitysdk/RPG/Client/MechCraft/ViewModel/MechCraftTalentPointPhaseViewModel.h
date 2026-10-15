@@ -10,6 +10,8 @@
 
 namespace RPG::Client::MechCraft::ViewModel
 {
+	inline static constexpr unsigned int MechCraftTalentPointPhaseViewModel_TypeDefinitionIndex = 79765;
+
 	class MechCraftTalentPointPhaseViewModel : public ::Sofa::Core::ObservableObject
 	{
 	public:

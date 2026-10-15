@@ -15,6 +15,8 @@ namespace System { class String; }
 
 namespace System
 {
+	inline static constexpr unsigned int CharEnumerator_TypeDefinitionIndex = 210;
+
 	class CharEnumerator : public ::System::Object
 	{
 	public:

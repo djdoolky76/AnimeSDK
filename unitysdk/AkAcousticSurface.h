@@ -22,6 +22,8 @@ namespace System { class String; }
 #define AKACOUSTICSURFACE_SET_STRNAME_OFFSET UNITYSDK_OFFSET(0x1F56FCD0)
 #define AKACOUSTICSURFACE_SET_TEXTUREID_OFFSET UNITYSDK_OFFSET(0x1F56F9F0)
 
+inline static constexpr unsigned int AkAcousticSurface_TypeDefinitionIndex = 44712;
+
 	class AkAcousticSurface : public ::System::Object
 	{
 	public:

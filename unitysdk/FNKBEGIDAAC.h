@@ -33,6 +33,8 @@ namespace System { class String; }
 #define FNKBEGIDAAC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E3F1D50)
 #define FNKBEGIDAAC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E3F1DB0)
 
+inline static constexpr unsigned int FNKBEGIDAAC_TypeDefinitionIndex = 30047;
+
 	class FNKBEGIDAAC : public ::System::Object
 	{
 	public:

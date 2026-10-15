@@ -30,6 +30,8 @@ namespace System { class String; }
 #define HDKJPKPEJFO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E550310)
 #define HDKJPKPEJFO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E550370)
 
+inline static constexpr unsigned int HDKJPKPEJFO_TypeDefinitionIndex = 30616;
+
 	class HDKJPKPEJFO : public ::System::Object
 	{
 	public:

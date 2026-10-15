@@ -8,6 +8,8 @@
 
 namespace CriWare
 {
+	inline static constexpr unsigned int CriAtomOutputDeviceObserver_UnsafeNativeMethods_TypeDefinitionIndex = 39938;
+
 	class CriAtomOutputDeviceObserver_UnsafeNativeMethods : public ::System::Object
 	{
 	public:

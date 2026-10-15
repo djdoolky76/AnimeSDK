@@ -11,6 +11,8 @@ namespace RPG::GameCore { class LittleGameAbilityTargetSelectorExcludeConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LittleGameAbilityTargetSelectorExcludeConfig_TypeDefinitionIndex = 21370;
+
 	class LittleGameAbilityTargetSelectorExcludeConfig : public ::RPG::GameCore::BaseLittleGameAbilityTargetSelectorConfig
 	{
 	public:

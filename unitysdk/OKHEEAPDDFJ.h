@@ -6,6 +6,8 @@
 
 #define OKHEEAPDDFJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1C99DAC0)
 
+inline static constexpr unsigned int OKHEEAPDDFJ_TypeDefinitionIndex = 43695;
+
 	class OKHEEAPDDFJ : public ::System::Object
 	{
 	public:

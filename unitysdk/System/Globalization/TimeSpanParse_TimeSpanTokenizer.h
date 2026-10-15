@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace System::Globalization
 {
+	inline static constexpr unsigned int TimeSpanParse_TimeSpanTokenizer_TypeDefinitionIndex = 777;
+
 	struct alignas(8) TimeSpanParse_TimeSpanTokenizer
 	{
 		::System::Int32 m_pos; // 0x10

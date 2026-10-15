@@ -7,6 +7,8 @@ class LOHBCIPAIPI;
 #define GGDFGFCEOGA_CTOR_OFFSET UNITYSDK_OFFSET(0x15A03040)
 #define GGDFGFCEOGA_HBAHPOFEDDI_OFFSET UNITYSDK_OFFSET(0x15A03030)
 
+inline static constexpr unsigned int GGDFGFCEOGA_TypeDefinitionIndex = 57628;
+
 	class GGDFGFCEOGA : public ::OMAHHACEANO
 	{
 	public:

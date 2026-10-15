@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define JEKGAINCPNH___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E71F6C0)
 #define JEKGAINCPNH___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E71F6D0)
 
+inline static constexpr unsigned int JEKGAINCPNH___c_TypeDefinitionIndex = 32893;
+
 	class JEKGAINCPNH___c : public ::System::Object
 	{
 	public:

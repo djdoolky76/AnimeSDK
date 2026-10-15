@@ -38,6 +38,8 @@ namespace System::Xml { class XmlTextReaderImpl_NodeData; }
 
 namespace System::Xml
 {
+	inline static constexpr unsigned int XmlTextReaderImpl_NodeData_TypeDefinitionIndex = 1858;
+
 	class XmlTextReaderImpl_NodeData : public ::System::Object
 	{
 	public:

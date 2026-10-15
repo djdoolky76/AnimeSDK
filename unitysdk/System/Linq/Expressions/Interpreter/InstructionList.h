@@ -138,6 +138,8 @@ namespace System::Runtime::CompilerServices { template <typename T> class Strong
 
 namespace System::Linq::Expressions::Interpreter
 {
+	inline static constexpr unsigned int InstructionList_TypeDefinitionIndex = 3436;
+
 	class InstructionList : public ::System::Object
 	{
 	public:

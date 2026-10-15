@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int FMIHMGNLBPN_State_TypeDefinitionIndex = 66509;
+
 	enum class FMIHMGNLBPN_State : ::System::Int32
 	{
 		Idle = 0,

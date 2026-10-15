@@ -20,6 +20,8 @@ namespace System::Threading::Tasks { class TaskScheduler; }
 
 namespace System::Threading::Tasks
 {
+	inline static constexpr unsigned int TaskFactory_TypeDefinitionIndex = 928;
+
 	class TaskFactory : public ::System::Object
 	{
 	public:

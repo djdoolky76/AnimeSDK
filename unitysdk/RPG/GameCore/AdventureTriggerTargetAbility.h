@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdventureTriggerTargetAbility_TypeDefinitionIndex = 20205;
+
 	class AdventureTriggerTargetAbility : public ::RPG::GameCore::TaskConfig
 	{
 	public:

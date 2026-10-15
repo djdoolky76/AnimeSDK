@@ -37,6 +37,8 @@ namespace System { class String; }
 #define HDDJBPIOCMC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E548A50)
 #define HDDJBPIOCMC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E548AB0)
 
+inline static constexpr unsigned int HDDJBPIOCMC_TypeDefinitionIndex = 33286;
+
 	class HDDJBPIOCMC : public ::System::Object
 	{
 	public:

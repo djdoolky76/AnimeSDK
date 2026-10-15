@@ -10,6 +10,8 @@ namespace UnityEngine::Playables { class PlayableDirector; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int BindInfo_TypeDefinitionIndex = 48507;
+
 	struct alignas(8) BindInfo
 	{
 		::RPGTools::Timeline::BindInfo_BindReference Referene; // 0x10

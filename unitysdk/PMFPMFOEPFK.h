@@ -10,6 +10,8 @@ namespace System { class String; }
 #define PMFPMFOEPFK_FGOMMMPIELH_OFFSET UNITYSDK_OFFSET(0xC31C700)
 #define PMFPMFOEPFK_OBCIPGOBABE_OFFSET UNITYSDK_OFFSET(0xC31C4F0)
 
+inline static constexpr unsigned int PMFPMFOEPFK_TypeDefinitionIndex = 82254;
+
 	class PMFPMFOEPFK : public ::System::Object
 	{
 	public:

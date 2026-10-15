@@ -9,6 +9,8 @@ namespace RPG::GameCore { class ChenLingGridOffset; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChenLingGridOffset_TypeDefinitionIndex = 11044;
+
 	class ChenLingGridOffset : public ::System::Object
 	{
 	public:

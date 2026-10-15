@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ElfProgressAttributesCluster_TypeDefinitionIndex = 63717;
+
 	class ElfProgressAttributesCluster : public ::System::Object
 	{
 	public:

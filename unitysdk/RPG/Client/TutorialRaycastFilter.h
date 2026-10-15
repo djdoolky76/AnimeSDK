@@ -9,6 +9,8 @@ namespace UnityEngine { class Camera; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TutorialRaycastFilter_TypeDefinitionIndex = 69035;
+
 	class TutorialRaycastFilter : public ::UnityEngine::MonoBehaviour
 	{
 	public:

@@ -10,6 +10,8 @@
 
 namespace UnityEngine::Playables
 {
+	inline static constexpr unsigned int PlayableOutput_TypeDefinitionIndex = 4923;
+
 	struct alignas(4) PlayableOutput
 	{
 		::UnityEngine::Playables::PlayableOutputHandle m_Handle; // 0x10

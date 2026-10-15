@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define OLNIMIPEKAB___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DEAB6D0)
 #define OLNIMIPEKAB___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1DEAB6E0)
 
+inline static constexpr unsigned int OLNIMIPEKAB___c_TypeDefinitionIndex = 26165;
+
 	class OLNIMIPEKAB___c : public ::System::Object
 	{
 	public:

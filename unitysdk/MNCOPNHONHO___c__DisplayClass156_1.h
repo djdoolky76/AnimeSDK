@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define MNCOPNHONHO___C__DISPLAYCLASS156_1__SETCAMERAACTIVEWITHWORLDALIGN_B__1_OFFSET UNITYSDK_OFFSET(0xBA03AA0)
 #define MNCOPNHONHO___C__DISPLAYCLASS156_1__SETCAMERAACTIVEWITHWORLDALIGN_B__2_OFFSET UNITYSDK_OFFSET(0xBA03C50)
 
+inline static constexpr unsigned int MNCOPNHONHO___c__DisplayClass156_1_TypeDefinitionIndex = 76692;
+
 	template <typename T>
 	class MNCOPNHONHO___c__DisplayClass156_1 : public ::System::Object
 	{

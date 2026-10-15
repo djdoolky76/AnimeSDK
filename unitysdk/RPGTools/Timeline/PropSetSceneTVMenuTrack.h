@@ -8,6 +8,8 @@ namespace UnityEngine::Timeline { class TimelineClip; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int PropSetSceneTVMenuTrack_TypeDefinitionIndex = 48254;
+
 	class PropSetSceneTVMenuTrack : public ::RPGTools::Timeline::CharacterTrack
 	{
 	public:

@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
+	inline static constexpr unsigned int BrowserNative_Calltype_zfb_setOverlay_TypeDefinitionIndex = 39429;
+
 	class BrowserNative_Calltype_zfb_setOverlay : public ::System::MulticastDelegate
 	{
 	public:

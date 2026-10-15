@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define KGGFDDBCLNE_LOCK_OFFSET UNITYSDK_OFFSET(0xB3DE1A0)
 #define KGGFDDBCLNE_UNLOCK_OFFSET UNITYSDK_OFFSET(0xB3DE2F0)
 
+inline static constexpr unsigned int KGGFDDBCLNE_TypeDefinitionIndex = 74783;
+
 	class KGGFDDBCLNE : public ::RPG::Client::GamePlayLockTargetFunc
 	{
 	public:

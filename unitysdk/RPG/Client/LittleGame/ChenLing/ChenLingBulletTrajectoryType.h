@@ -3,6 +3,8 @@
 
 namespace RPG::Client::LittleGame::ChenLing
 {
+	inline static constexpr unsigned int ChenLingBulletTrajectoryType_TypeDefinitionIndex = 43735;
+
 	enum class ChenLingBulletTrajectoryType : ::System::Int32
 	{
 		Parabolic = 0,

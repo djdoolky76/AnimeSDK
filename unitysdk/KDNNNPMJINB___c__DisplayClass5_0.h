@@ -6,6 +6,8 @@ class KDNNNPMJINB;
 #define KDNNNPMJINB___C__DISPLAYCLASS5_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1C56B700)
 #define KDNNNPMJINB___C__DISPLAYCLASS5_0__ITERATEAFFECTEDCELLS_B__0_OFFSET UNITYSDK_OFFSET(0x1C56B710)
 
+inline static constexpr unsigned int KDNNNPMJINB___c__DisplayClass5_0_TypeDefinitionIndex = 41782;
+
 	class KDNNNPMJINB___c__DisplayClass5_0 : public ::System::Object
 	{
 	public:

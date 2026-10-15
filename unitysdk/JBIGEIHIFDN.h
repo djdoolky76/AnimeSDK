@@ -6,6 +6,8 @@ namespace System { class String; }
 
 #define JBIGEIHIFDN_CTOR_OFFSET UNITYSDK_OFFSET(0x16570DE0)
 
+inline static constexpr unsigned int JBIGEIHIFDN_TypeDefinitionIndex = 62083;
+
 	class JBIGEIHIFDN : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace System { class Object; }
 #define KBJOBKGAHOP___DELAYDESTROYANIMATOR_D__16_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0xB308390)
 #define KBJOBKGAHOP___DELAYDESTROYANIMATOR_D__16_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB307DA0)
 
+inline static constexpr unsigned int KBJOBKGAHOP___DelayDestroyAnimator_d__16_TypeDefinitionIndex = 70049;
+
 	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename T8, typename T9, typename T10, typename T11, typename T12, typename T13, typename T14, typename T15, typename T16>
 	class KBJOBKGAHOP___DelayDestroyAnimator_d__16 : public ::System::Object
 	{

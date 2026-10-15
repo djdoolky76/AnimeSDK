@@ -4,6 +4,8 @@
 
 #define EIDKOHNDEJC_CTOR_OFFSET UNITYSDK_OFFSET(0x154BF330)
 
+inline static constexpr unsigned int EIDKOHNDEJC_TypeDefinitionIndex = 48697;
+
 	class EIDKOHNDEJC : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

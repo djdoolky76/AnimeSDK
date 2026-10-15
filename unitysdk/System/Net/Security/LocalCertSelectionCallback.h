@@ -15,6 +15,8 @@ namespace System::Security::Cryptography::X509Certificates { class X509Certifica
 
 namespace System::Net::Security
 {
+	inline static constexpr unsigned int LocalCertSelectionCallback_TypeDefinitionIndex = 2926;
+
 	class LocalCertSelectionCallback : public ::System::MulticastDelegate
 	{
 	public:

@@ -20,6 +20,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define DKNFHBOHMAF_NFDHENMGIBA_OFFSET UNITYSDK_OFFSET(0xF88A920)
 #define DKNFHBOHMAF_TICK_OFFSET UNITYSDK_OFFSET(0xF88A870)
 
+inline static constexpr unsigned int DKNFHBOHMAF_TypeDefinitionIndex = 77654;
+
 	class DKNFHBOHMAF : public ::System::Object
 	{
 	public:

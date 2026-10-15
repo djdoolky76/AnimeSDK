@@ -11,6 +11,8 @@ namespace System::Diagnostics::Tracing { class EventSource; }
 
 namespace System::Diagnostics::Tracing
 {
+	inline static constexpr unsigned int EventSource_OverideEventProvider_TypeDefinitionIndex = 1665;
+
 	class EventSource_OverideEventProvider : public ::System::Diagnostics::Tracing::EventProvider
 	{
 	public:

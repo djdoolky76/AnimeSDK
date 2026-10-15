@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define KOMLODJGOMI_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB5A2AE0)
 #define KOMLODJGOMI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB5A2640)
 
+inline static constexpr unsigned int KOMLODJGOMI_TypeDefinitionIndex = 53818;
+
 	class KOMLODJGOMI
 	{
 	public:

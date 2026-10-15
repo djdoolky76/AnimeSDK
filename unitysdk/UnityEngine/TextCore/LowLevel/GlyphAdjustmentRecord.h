@@ -7,6 +7,8 @@
 
 namespace UnityEngine::TextCore::LowLevel
 {
+	inline static constexpr unsigned int GlyphAdjustmentRecord_TypeDefinitionIndex = 5844;
+
 	struct alignas(4) GlyphAdjustmentRecord
 	{
 		::System::UInt32 m_GlyphIndex; // 0x10

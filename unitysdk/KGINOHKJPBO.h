@@ -9,6 +9,8 @@ namespace UnityEngine { class Transform; }
 #define KGINOHKJPBO_NLIHNCFLIGN_1_OFFSET UNITYSDK_OFFSET(0xB3EDF10)
 #define KGINOHKJPBO_NLIHNCFLIGN_OFFSET UNITYSDK_OFFSET(0xB3EDD70)
 
+inline static constexpr unsigned int KGINOHKJPBO_TypeDefinitionIndex = 59369;
+
 	class KGINOHKJPBO : public ::System::Object
 	{
 	public:

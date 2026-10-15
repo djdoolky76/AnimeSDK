@@ -9,6 +9,8 @@ namespace System { class Type; }
 
 namespace Cysharp::Threading::Tasks
 {
+	inline static constexpr unsigned int PlayerLoopHelper___c__DisplayClass20_0_TypeDefinitionIndex = 38210;
+
 	class PlayerLoopHelper___c__DisplayClass20_0 : public ::System::Object
 	{
 	public:

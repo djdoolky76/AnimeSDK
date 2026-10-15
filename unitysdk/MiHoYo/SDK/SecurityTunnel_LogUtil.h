@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int SecurityTunnel_LogUtil_TypeDefinitionIndex = 46407;
+
 	class SecurityTunnel_LogUtil : public ::System::Object
 	{
 	public:

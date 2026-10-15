@@ -9,6 +9,8 @@ namespace RPG::Client { class IRogueTournPersonaModifier; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueTournPersonaModifierInfo___c__DisplayClass4_0_TypeDefinitionIndex = 67700;
+
 	class RogueTournPersonaModifierInfo___c__DisplayClass4_0 : public ::System::Object
 	{
 	public:

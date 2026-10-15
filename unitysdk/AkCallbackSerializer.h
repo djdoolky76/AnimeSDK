@@ -20,6 +20,8 @@ namespace System { class Object; }
 #define AKCALLBACKSERIALIZER_TERM_OFFSET UNITYSDK_OFFSET(0x1F57EEC0)
 #define AKCALLBACKSERIALIZER_UNLOCK_OFFSET UNITYSDK_OFFSET(0x1F580D20)
 
+inline static constexpr unsigned int AkCallbackSerializer_TypeDefinitionIndex = 44724;
+
 	class AkCallbackSerializer : public ::System::Object
 	{
 	public:

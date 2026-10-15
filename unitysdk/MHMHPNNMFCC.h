@@ -25,6 +25,8 @@ namespace System { class String; }
 #define MHMHPNNMFCC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EA36E30)
 #define MHMHPNNMFCC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EA36E90)
 
+inline static constexpr unsigned int MHMHPNNMFCC_TypeDefinitionIndex = 29799;
+
 	class MHMHPNNMFCC : public ::System::Object
 	{
 	public:

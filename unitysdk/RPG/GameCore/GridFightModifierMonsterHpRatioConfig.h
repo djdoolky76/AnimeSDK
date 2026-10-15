@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GridFightModifierMonsterHpRatioConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightModifierMonsterHpRatioConfig_TypeDefinitionIndex = 19484;
+
 	class GridFightModifierMonsterHpRatioConfig : public ::RPG::GameCore::GridFightModifierConfigBase
 	{
 	public:

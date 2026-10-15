@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define EKLDIMDGNBJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1550CE60)
 #define EKLDIMDGNBJ_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1550CE90)
 
+inline static constexpr unsigned int EKLDIMDGNBJ_TypeDefinitionIndex = 54646;
+
 	class EKLDIMDGNBJ
 	{
 	public:

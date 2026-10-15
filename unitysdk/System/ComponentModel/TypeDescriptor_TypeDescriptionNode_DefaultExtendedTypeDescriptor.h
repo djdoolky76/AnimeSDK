@@ -11,6 +11,8 @@ namespace System::ComponentModel { class TypeDescriptor_TypeDescriptionNode; }
 
 namespace System::ComponentModel
 {
+	inline static constexpr unsigned int TypeDescriptor_TypeDescriptionNode_DefaultExtendedTypeDescriptor_TypeDefinitionIndex = 2643;
+
 	struct alignas(8) TypeDescriptor_TypeDescriptionNode_DefaultExtendedTypeDescriptor
 	{
 		::System::ComponentModel::TypeDescriptor_TypeDescriptionNode* _node; // 0x10

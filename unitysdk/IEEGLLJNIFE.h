@@ -5,6 +5,8 @@ class CJFGDKCJIJL;
 
 #define IEEGLLJNIFE_CTOR_OFFSET UNITYSDK_OFFSET(0x1CB08220)
 
+inline static constexpr unsigned int IEEGLLJNIFE_TypeDefinitionIndex = 42538;
+
 	class IEEGLLJNIFE : public ::System::Object
 	{
 	public:

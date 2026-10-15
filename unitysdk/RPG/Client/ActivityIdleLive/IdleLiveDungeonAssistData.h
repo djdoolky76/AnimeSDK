@@ -12,6 +12,8 @@ namespace RPG::Client::ActivityIdleLive { class IdleLiveDungeonAssistData; }
 
 namespace RPG::Client::ActivityIdleLive
 {
+	inline static constexpr unsigned int IdleLiveDungeonAssistData_TypeDefinitionIndex = 75195;
+
 	class IdleLiveDungeonAssistData : public ::System::Object
 	{
 	public:

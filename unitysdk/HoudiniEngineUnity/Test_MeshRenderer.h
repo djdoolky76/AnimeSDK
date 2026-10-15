@@ -10,6 +10,8 @@ namespace UnityEngine { class MeshRenderer; }
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int Test_MeshRenderer_TypeDefinitionIndex = 40737;
+
 	class Test_MeshRenderer : public ::System::Object
 	{
 	public:

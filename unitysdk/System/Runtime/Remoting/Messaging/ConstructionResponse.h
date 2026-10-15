@@ -16,6 +16,8 @@ namespace System::Runtime::Serialization { class SerializationInfo; }
 
 namespace System::Runtime::Remoting::Messaging
 {
+	inline static constexpr unsigned int ConstructionResponse_TypeDefinitionIndex = 1309;
+
 	class ConstructionResponse : public ::System::Runtime::Remoting::Messaging::MethodResponse
 	{
 	public:

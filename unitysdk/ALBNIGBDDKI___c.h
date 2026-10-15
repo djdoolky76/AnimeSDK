@@ -13,6 +13,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 #define ALBNIGBDDKI___C___CREATEFORSTORY_B__3_6_OFFSET UNITYSDK_OFFSET(0x15560F90)
 #define ALBNIGBDDKI___C___CREATEFORSTORY_B__3_7_OFFSET UNITYSDK_OFFSET(0x15561090)
 
+inline static constexpr unsigned int ALBNIGBDDKI___c_TypeDefinitionIndex = 81566;
+
 	class ALBNIGBDDKI___c : public ::System::Object
 	{
 	public:

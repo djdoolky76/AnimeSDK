@@ -10,6 +10,8 @@ namespace RPG::GameCore { class MiddleSinglePackMissionConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MiddleMissionPackConfig_TypeDefinitionIndex = 18981;
+
 	class MiddleMissionPackConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

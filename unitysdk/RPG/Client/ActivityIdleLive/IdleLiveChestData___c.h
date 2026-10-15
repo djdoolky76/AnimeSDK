@@ -12,6 +12,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace RPG::Client::ActivityIdleLive
 {
+	inline static constexpr unsigned int IdleLiveChestData___c_TypeDefinitionIndex = 75169;
+
 	class IdleLiveChestData___c : public ::System::Object
 	{
 	public:

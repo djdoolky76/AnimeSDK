@@ -18,6 +18,8 @@ namespace Google::Protobuf::Collections { template <typename T> class RepeatedFi
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ExpeditionBattleLineupRouteInfo_TypeDefinitionIndex = 63949;
+
 	class ExpeditionBattleLineupRouteInfo : public ::System::Object
 	{
 	public:

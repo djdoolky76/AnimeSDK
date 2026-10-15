@@ -21,6 +21,8 @@ namespace UnityEngine::Rendering { class BatchAnimationInstance; }
 #define BATCHANIMATIONINSTPROPMANAGER_JMOFOKBNGED_MGFEMJDBLLD_OFFSET UNITYSDK_OFFSET(0xC1B4D30)
 #define BATCHANIMATIONINSTPROPMANAGER_JMOFOKBNGED_NBIEBGEOAMC_OFFSET UNITYSDK_OFFSET(0xC1B4180)
 
+inline static constexpr unsigned int BatchAnimationInstPropManager_JMOFOKBNGED_TypeDefinitionIndex = 47291;
+
 	class BatchAnimationInstPropManager_JMOFOKBNGED : public ::System::Object
 	{
 	public:

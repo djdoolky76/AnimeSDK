@@ -38,6 +38,8 @@ namespace UnityEngine::UI { class Text; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ToastHintItem_TypeDefinitionIndex = 72952;
+
 	class ToastHintItem : public ::UnityEngine::MonoBehaviour
 	{
 	public:

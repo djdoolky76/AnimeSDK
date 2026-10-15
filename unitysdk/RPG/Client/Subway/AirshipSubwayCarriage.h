@@ -30,6 +30,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::Subway
 {
+	inline static constexpr unsigned int AirshipSubwayCarriage_TypeDefinitionIndex = 82201;
+
 	class AirshipSubwayCarriage : public ::UnityEngine::MonoBehaviour
 	{
 	public:

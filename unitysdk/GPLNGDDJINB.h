@@ -9,6 +9,8 @@ namespace UnityEngine::UI { class Text; }
 #define GPLNGDDJINB_IAMCNOAAALI_OFFSET UNITYSDK_OFFSET(0x15B60370)
 #define GPLNGDDJINB_JCKGONAAIPB_OFFSET UNITYSDK_OFFSET(0x15B603E0)
 
+inline static constexpr unsigned int GPLNGDDJINB_TypeDefinitionIndex = 72134;
+
 	class GPLNGDDJINB : public ::LBAMBIMMJKB
 	{
 	public:

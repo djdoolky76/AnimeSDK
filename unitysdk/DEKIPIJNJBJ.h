@@ -4,6 +4,8 @@
 
 #define DEKIPIJNJBJ_CTOR_OFFSET UNITYSDK_OFFSET(0xE517620)
 
+inline static constexpr unsigned int DEKIPIJNJBJ_TypeDefinitionIndex = 71195;
+
 	class DEKIPIJNJBJ : public ::System::Object
 	{
 	public:

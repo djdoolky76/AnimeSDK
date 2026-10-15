@@ -13,6 +13,8 @@ namespace System { class Object; }
 #define PPLFBBKDIBA_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xC38D300)
 #define PPLFBBKDIBA_TICK_OFFSET UNITYSDK_OFFSET(0xC38D390)
 
+inline static constexpr unsigned int PPLFBBKDIBA_TypeDefinitionIndex = 52897;
+
 	class PPLFBBKDIBA : public ::GELIALJDFBL
 	{
 	public:

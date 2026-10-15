@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GridFightModifierLimitTraitLayerConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightModifierLimitTraitLayerConfig_TypeDefinitionIndex = 19360;
+
 	class GridFightModifierLimitTraitLayerConfig : public ::RPG::GameCore::GridFightModifierConfigBase
 	{
 	public:

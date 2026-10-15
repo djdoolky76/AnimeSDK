@@ -76,6 +76,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define NFAHODNHEKK__ISALLPLAYERBETFINISHED_B__9_0_OFFSET UNITYSDK_OFFSET(0x1C792C90)
 #define NFAHODNHEKK___TRYADDSPECIALEFFECTFORVOTE_B__15_1_OFFSET UNITYSDK_OFFSET(0x1C792D00)
 
+inline static constexpr unsigned int NFAHODNHEKK_TypeDefinitionIndex = 37316;
+
 	class NFAHODNHEKK : public ::System::Object
 	{
 	public:

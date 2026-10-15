@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GameEntity; }
 #define FAHBNPMKDKG_DOONENTER_OFFSET UNITYSDK_OFFSET(0x1567BA80)
 #define FAHBNPMKDKG_DOONEXIT_OFFSET UNITYSDK_OFFSET(0x1567BAE0)
 
+inline static constexpr unsigned int FAHBNPMKDKG_TypeDefinitionIndex = 69453;
+
 	class FAHBNPMKDKG : public ::EDLDHDMLJDH
 	{
 	public:

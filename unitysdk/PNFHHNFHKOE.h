@@ -18,6 +18,8 @@ class WaterInteractor;
 #define PNFHHNFHKOE_PCNAKDOLCCD_OFFSET UNITYSDK_OFFSET(0xC336C20)
 #define PNFHHNFHKOE_TICK_OFFSET UNITYSDK_OFFSET(0xC3370E0)
 
+inline static constexpr unsigned int PNFHHNFHKOE_TypeDefinitionIndex = 47486;
+
 	class PNFHHNFHKOE : public ::RPG::Client::TABehaviorBase
 	{
 	public:

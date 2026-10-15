@@ -6,6 +6,8 @@
 
 namespace IFix::Core
 {
+	inline static constexpr unsigned int IDTagAttribute_TypeDefinitionIndex = 7100;
+
 	class IDTagAttribute : public ::System::Attribute
 	{
 	public:

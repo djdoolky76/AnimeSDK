@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetDynamicValueByWaitUltraCount_TypeDefinitionIndex = 23701;
+
 	class SetDynamicValueByWaitUltraCount : public ::RPG::GameCore::SetDynamicValueBase
 	{
 	public:

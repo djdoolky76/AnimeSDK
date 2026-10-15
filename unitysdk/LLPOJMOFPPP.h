@@ -13,6 +13,8 @@ namespace System { class String; }
 #define LLPOJMOFPPP_SET_ANCHORKEY_OFFSET UNITYSDK_OFFSET(0xB779400)
 #define LLPOJMOFPPP_SET_EVENTID_OFFSET UNITYSDK_OFFSET(0xB7793E0)
 
+inline static constexpr unsigned int LLPOJMOFPPP_TypeDefinitionIndex = 56642;
+
 	class LLPOJMOFPPP : public ::HMFOPIJNNDI
 	{
 	public:

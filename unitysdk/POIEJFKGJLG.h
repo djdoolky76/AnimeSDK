@@ -21,6 +21,8 @@ namespace System { class String; }
 #define POIEJFKGJLG_OOENBABOOMK_OFFSET UNITYSDK_OFFSET(0xC36BED0)
 #define POIEJFKGJLG_PFOLABPJNGB_OFFSET UNITYSDK_OFFSET(0xC36C170)
 
+inline static constexpr unsigned int POIEJFKGJLG_TypeDefinitionIndex = 69191;
+
 	class POIEJFKGJLG : public ::MAGCBFJCKLE
 	{
 	public:

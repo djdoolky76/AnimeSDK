@@ -24,6 +24,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define FKALAKKAJGE_ONLNHEOMEMF_OFFSET UNITYSDK_OFFSET(0x157E4770)
 #define FKALAKKAJGE_TICK_OFFSET UNITYSDK_OFFSET(0x157E5090)
 
+inline static constexpr unsigned int FKALAKKAJGE_TypeDefinitionIndex = 77651;
+
 	class FKALAKKAJGE : public ::System::Object
 	{
 	public:

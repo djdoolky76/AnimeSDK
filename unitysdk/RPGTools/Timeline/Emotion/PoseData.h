@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPGTools::Timeline::Emotion
 {
+	inline static constexpr unsigned int PoseData_TypeDefinitionIndex = 48741;
+
 	class PoseData : public ::System::Object
 	{
 	public:

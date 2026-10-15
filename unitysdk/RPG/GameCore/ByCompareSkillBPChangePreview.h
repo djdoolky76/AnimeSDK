@@ -17,6 +17,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByCompareSkillBPChangePreview_TypeDefinitionIndex = 23508;
+
 	class ByCompareSkillBPChangePreview : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

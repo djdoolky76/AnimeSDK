@@ -18,6 +18,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace Mono::Net::Security
 {
+	inline static constexpr unsigned int MonoTlsProviderFactory_TypeDefinitionIndex = 2444;
+
 	class MonoTlsProviderFactory : public ::System::Object
 	{
 	public:

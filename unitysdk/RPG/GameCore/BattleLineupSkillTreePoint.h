@@ -9,6 +9,8 @@ namespace RPG::GameCore { class BattleLineupSkillTreePoint; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int BattleLineupSkillTreePoint_TypeDefinitionIndex = 18121;
+
 	class BattleLineupSkillTreePoint : public ::RPG::GameCore::JsonConfig
 	{
 	public:

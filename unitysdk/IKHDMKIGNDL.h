@@ -16,6 +16,8 @@ namespace System { class String; }
 #define IKHDMKIGNDL_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0x1C6DD320)
 #define IKHDMKIGNDL_PAFKJAHJMCE_OFFSET UNITYSDK_OFFSET(0x1C6DD410)
 
+inline static constexpr unsigned int IKHDMKIGNDL_TypeDefinitionIndex = 37184;
+
 	class IKHDMKIGNDL : public ::HNNHKPKCMJD
 	{
 	public:

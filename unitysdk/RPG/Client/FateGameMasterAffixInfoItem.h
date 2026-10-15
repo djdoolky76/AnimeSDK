@@ -34,6 +34,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int FateGameMasterAffixInfoItem_TypeDefinitionIndex = 64086;
+
 	class FateGameMasterAffixInfoItem : public ::System::Object
 	{
 	public:

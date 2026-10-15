@@ -15,6 +15,8 @@ namespace RPGTools::Timeline { class QTEMixer; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int QTEBehaviour_TypeDefinitionIndex = 48258;
+
 	class QTEBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

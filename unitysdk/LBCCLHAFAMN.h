@@ -24,6 +24,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define LBCCLHAFAMN___COUNTALLYALIVE_B__3_0_OFFSET UNITYSDK_OFFSET(0xB5F18D0)
 #define LBCCLHAFAMN___COUNTENEMYALIVE_B__2_0_OFFSET UNITYSDK_OFFSET(0xB5F1830)
 
+inline static constexpr unsigned int LBCCLHAFAMN_TypeDefinitionIndex = 77966;
+
 	class LBCCLHAFAMN : public ::System::Object
 	{
 	public:

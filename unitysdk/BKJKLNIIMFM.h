@@ -19,6 +19,8 @@ namespace System::Text { class StringBuilder; }
 #define BKJKLNIIMFM_TOSTRING_OFFSET UNITYSDK_OFFSET(0xBA59B70)
 #define BKJKLNIIMFM__CLONE___OFFSET UNITYSDK_OFFSET(0xBA5A250)
 
+inline static constexpr unsigned int BKJKLNIIMFM_TypeDefinitionIndex = 49723;
+
 	class BKJKLNIIMFM : public ::System::Object
 	{
 	public:

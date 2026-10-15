@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TrainPartyModifierGetCardOnInitialConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TrainPartyModifierGetCardOnInitialConfig_TypeDefinitionIndex = 18103;
+
 	class TrainPartyModifierGetCardOnInitialConfig : public ::RPG::GameCore::TrainPartyModifierConfigBase
 	{
 	public:

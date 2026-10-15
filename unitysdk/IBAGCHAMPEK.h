@@ -27,6 +27,8 @@ namespace System { class String; }
 #define IBAGCHAMPEK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E60F010)
 #define IBAGCHAMPEK_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E60F070)
 
+inline static constexpr unsigned int IBAGCHAMPEK_TypeDefinitionIndex = 32188;
+
 	class IBAGCHAMPEK : public ::System::Object
 	{
 	public:

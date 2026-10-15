@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define NHKIADBINML___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB1FB60)
 #define NHKIADBINML___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1EB1FB70)
 
+inline static constexpr unsigned int NHKIADBINML___c_TypeDefinitionIndex = 31122;
+
 	class NHKIADBINML___c : public ::System::Object
 	{
 	public:

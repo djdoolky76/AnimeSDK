@@ -27,6 +27,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftCraftChipPieceCollectionControl_TypeDefinitionIndex = 79866;
+
 	class MechCraftCraftChipPieceCollectionControl : public ::UnityEngine::MonoBehaviour
 	{
 	public:

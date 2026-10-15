@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int EffectPreloadLinkConfig_TypeDefinitionIndex = 16348;
+
 	class EffectPreloadLinkConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

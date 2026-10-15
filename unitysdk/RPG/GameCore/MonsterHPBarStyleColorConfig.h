@@ -10,6 +10,8 @@ namespace RPG::GameCore { class MonsterHPBarStyleColorSetting; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MonsterHPBarStyleColorConfig_TypeDefinitionIndex = 17155;
+
 	class MonsterHPBarStyleColorConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

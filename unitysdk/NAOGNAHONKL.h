@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define NAOGNAHONKL_CTOR_OFFSET UNITYSDK_OFFSET(0xBAA96F0)
 #define NAOGNAHONKL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBAA9720)
 
+inline static constexpr unsigned int NAOGNAHONKL_TypeDefinitionIndex = 52366;
+
 	class NAOGNAHONKL
 	{
 	public:

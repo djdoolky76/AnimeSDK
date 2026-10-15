@@ -33,6 +33,8 @@ namespace System { class String; }
 #define NHLGEDLKOKI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EB21AF0)
 #define NHLGEDLKOKI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EB21B50)
 
+inline static constexpr unsigned int NHLGEDLKOKI_TypeDefinitionIndex = 35099;
+
 	class NHLGEDLKOKI : public ::System::Object
 	{
 	public:

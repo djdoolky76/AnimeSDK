@@ -23,6 +23,8 @@ namespace System::Globalization { class NumberFormatInfo; }
 
 namespace System::Numerics
 {
+	inline static constexpr unsigned int BigNumber_TypeDefinitionIndex = 3840;
+
 	class BigNumber : public ::System::Object
 	{
 	public:

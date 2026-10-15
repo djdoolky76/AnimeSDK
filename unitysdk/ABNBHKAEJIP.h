@@ -17,6 +17,8 @@ namespace System { class Object; }
 #define ABNBHKAEJIP_LICEAJDINOM_OFFSET UNITYSDK_OFFSET(0x1C52FB50)
 #define ABNBHKAEJIP_OMKFNPGBODJ_OFFSET UNITYSDK_OFFSET(0x1C52FB70)
 
+inline static constexpr unsigned int ABNBHKAEJIP_TypeDefinitionIndex = 41617;
+
 	class ABNBHKAEJIP : public ::IPADOJLOLPH
 	{
 	public:

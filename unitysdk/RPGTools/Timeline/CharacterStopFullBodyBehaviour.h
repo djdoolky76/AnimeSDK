@@ -9,6 +9,8 @@ namespace RPGTools::Timeline { class CharacterStopFullBodyData; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int CharacterStopFullBodyBehaviour_TypeDefinitionIndex = 47965;
+
 	class CharacterStopFullBodyBehaviour : public ::RPGTools::Timeline::CustomEventBehaviour
 	{
 	public:

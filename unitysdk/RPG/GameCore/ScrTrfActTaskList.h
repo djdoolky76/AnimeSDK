@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ScrTrfActTaskList_TypeDefinitionIndex = 20861;
+
 	class ScrTrfActTaskList : public ::RPG::GameCore::ScreenTransferBaseAction
 	{
 	public:

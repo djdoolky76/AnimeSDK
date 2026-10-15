@@ -12,6 +12,8 @@ namespace RPG::GameCore { class ChenLingBattleResource_Frozen; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChenLingBattleResource_Frozen_TypeDefinitionIndex = 15781;
+
 	class ChenLingBattleResource_Frozen : public ::RPG::GameCore::BaseChenLingBattleResource
 	{
 	public:

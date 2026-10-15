@@ -9,6 +9,8 @@ namespace System { class String; }
 #define HAOGAENOKFH_CTOR_OFFSET UNITYSDK_OFFSET(0x1CE80D40)
 #define HAOGAENOKFH_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CE809E0)
 
+inline static constexpr unsigned int HAOGAENOKFH_TypeDefinitionIndex = 15405;
+
 	class HAOGAENOKFH : public ::System::Object
 	{
 	public:

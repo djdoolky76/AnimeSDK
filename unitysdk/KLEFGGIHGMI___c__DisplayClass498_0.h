@@ -6,6 +6,8 @@ class LPBNBKGHOGA;
 
 #define KLEFGGIHGMI___C__DISPLAYCLASS498_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB523830)
 
+inline static constexpr unsigned int KLEFGGIHGMI___c__DisplayClass498_0_TypeDefinitionIndex = 73911;
+
 	class KLEFGGIHGMI___c__DisplayClass498_0 : public ::System::Object
 	{
 	public:

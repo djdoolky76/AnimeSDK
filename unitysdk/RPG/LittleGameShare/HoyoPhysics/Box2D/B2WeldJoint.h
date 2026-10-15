@@ -6,6 +6,8 @@
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
+	inline static constexpr unsigned int B2WeldJoint_TypeDefinitionIndex = 36807;
+
 	struct alignas(4) B2WeldJoint
 	{
 		::System::Single linearHertz; // 0x10

@@ -27,6 +27,8 @@ namespace System { class String; }
 #define BNLAMHMALIC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E037D80)
 #define BNLAMHMALIC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E037DE0)
 
+inline static constexpr unsigned int BNLAMHMALIC_TypeDefinitionIndex = 33996;
+
 	class BNLAMHMALIC : public ::System::Object
 	{
 	public:

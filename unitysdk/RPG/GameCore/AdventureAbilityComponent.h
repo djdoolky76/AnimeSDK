@@ -146,6 +146,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdventureAbilityComponent_TypeDefinitionIndex = 56995;
+
 	class AdventureAbilityComponent : public ::RPG::GameCore::GameComponentBase
 	{
 	public:

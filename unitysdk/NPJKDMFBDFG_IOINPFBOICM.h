@@ -5,6 +5,8 @@ namespace System { class Type; }
 
 #define NPJKDMFBDFG_IOINPFBOICM_CTOR_OFFSET UNITYSDK_OFFSET(0x10480)
 
+inline static constexpr unsigned int NPJKDMFBDFG_IOINPFBOICM_TypeDefinitionIndex = 49428;
+
 	struct alignas(8) NPJKDMFBDFG_IOINPFBOICM
 	{
 		::System::String* DJNKMHHLKHM; // 0x10

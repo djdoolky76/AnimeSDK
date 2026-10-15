@@ -25,6 +25,8 @@ namespace RPG::GameCore { class PropertyAdsorptionConfig; }
 #define ENEIHJJPNPI_FJNIFLCNGIK_SET_READINFO_OFFSET UNITYSDK_OFFSET(0x1CDAF710)
 #define ENEIHJJPNPI_FJNIFLCNGIK_SET_VAL_OFFSET UNITYSDK_OFFSET(0x1CDAF580)
 
+inline static constexpr unsigned int ENEIHJJPNPI_FJNIFLCNGIK_TypeDefinitionIndex = 10853;
+
 	class ENEIHJJPNPI_FJNIFLCNGIK : public ::System::Object
 	{
 	public:

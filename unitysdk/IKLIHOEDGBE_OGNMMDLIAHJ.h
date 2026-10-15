@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define IKLIHOEDGBE_OGNMMDLIAHJ_JJCONIFJPHO_OFFSET UNITYSDK_OFFSET(0x1649A0D0)
 #define IKLIHOEDGBE_OGNMMDLIAHJ_SET_FADEPROGRESS_OFFSET UNITYSDK_OFFSET(0x1649A0C0)
 
+inline static constexpr unsigned int IKLIHOEDGBE_OGNMMDLIAHJ_TypeDefinitionIndex = 60711;
+
 	class IKLIHOEDGBE_OGNMMDLIAHJ : public ::System::Object
 	{
 	public:

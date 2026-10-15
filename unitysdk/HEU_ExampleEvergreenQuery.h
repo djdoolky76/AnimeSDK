@@ -21,6 +21,8 @@ namespace UnityEngine { class GameObject; }
 #define HEU_EXAMPLEEVERGREENQUERY_QUERYPARTATTRIBUTEBYOWNER_OFFSET UNITYSDK_OFFSET(0x1B8BC7E0)
 #define HEU_EXAMPLEEVERGREENQUERY_STARTQUERY_OFFSET UNITYSDK_OFFSET(0x1B8B9F70)
 
+inline static constexpr unsigned int HEU_ExampleEvergreenQuery_TypeDefinitionIndex = 40348;
+
 	class HEU_ExampleEvergreenQuery : public ::System::Object
 	{
 	public:

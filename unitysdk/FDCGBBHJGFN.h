@@ -17,6 +17,8 @@ namespace UnityEngine { class Texture; }
 #define FDCGBBHJGFN_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x156D2810)
 #define FDCGBBHJGFN_TICK_OFFSET UNITYSDK_OFFSET(0x156D2190)
 
+inline static constexpr unsigned int FDCGBBHJGFN_TypeDefinitionIndex = 58459;
+
 	class FDCGBBHJGFN : public ::GELIALJDFBL
 	{
 	public:

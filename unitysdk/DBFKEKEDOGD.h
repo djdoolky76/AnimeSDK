@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define DBFKEKEDOGD_CCTOR_OFFSET UNITYSDK_OFFSET(0xDFE0A00)
 #define DBFKEKEDOGD_JCIHMJGKNGG_OFFSET UNITYSDK_OFFSET(0xDFE0910)
 
+inline static constexpr unsigned int DBFKEKEDOGD_TypeDefinitionIndex = 49480;
+
 	class DBFKEKEDOGD : public ::System::Object
 	{
 	public:

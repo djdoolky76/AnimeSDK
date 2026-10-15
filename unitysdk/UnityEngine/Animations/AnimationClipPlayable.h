@@ -24,6 +24,8 @@ namespace UnityEngine { class AnimationClip; }
 
 namespace UnityEngine::Animations
 {
+	inline static constexpr unsigned int AnimationClipPlayable_TypeDefinitionIndex = 5747;
+
 	struct alignas(4) AnimationClipPlayable
 	{
 		::UnityEngine::Playables::PlayableHandle m_Handle; // 0x10

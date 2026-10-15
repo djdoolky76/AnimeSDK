@@ -13,6 +13,8 @@ namespace System { class Object; }
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
+	inline static constexpr unsigned int IVRSettings__Sync_TypeDefinitionIndex = 39164;
+
 	class IVRSettings__Sync : public ::System::MulticastDelegate
 	{
 	public:

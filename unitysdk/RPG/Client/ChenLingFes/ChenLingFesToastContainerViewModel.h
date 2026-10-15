@@ -55,6 +55,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::Client::ChenLingFes
 {
+	inline static constexpr unsigned int ChenLingFesToastContainerViewModel_TypeDefinitionIndex = 81410;
+
 	class ChenLingFesToastContainerViewModel : public ::Sofa::BaseViewModel
 	{
 	public:

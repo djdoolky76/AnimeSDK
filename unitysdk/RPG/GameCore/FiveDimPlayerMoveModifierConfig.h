@@ -11,6 +11,8 @@ namespace RPG::GameCore { class FiveDimPlayerMoveModifierConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimPlayerMoveModifierConfig_TypeDefinitionIndex = 18552;
+
 	class FiveDimPlayerMoveModifierConfig : public ::RPG::GameCore::LittleGameComponentConfig
 	{
 	public:

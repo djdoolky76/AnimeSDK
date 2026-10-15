@@ -10,6 +10,8 @@ namespace RPG::GameCore { class LoopWaitTeleportByAnchor; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LoopWaitTeleportByAnchor_TypeDefinitionIndex = 20568;
+
 	class LoopWaitTeleportByAnchor : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -3,6 +3,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoEffectPluginCharaPropRimLight_FilterType_TypeDefinitionIndex = 69977;
+
 	enum class MonoEffectPluginCharaPropRimLight_FilterType : ::System::Int32
 	{
 		None = 0,

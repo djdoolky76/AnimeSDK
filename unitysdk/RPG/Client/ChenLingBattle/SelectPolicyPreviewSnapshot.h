@@ -11,6 +11,8 @@ namespace RPG::Client::ChenLingBattle { class SelectPolicyPreviewSnapshot; }
 
 namespace RPG::Client::ChenLingBattle
 {
+	inline static constexpr unsigned int SelectPolicyPreviewSnapshot_TypeDefinitionIndex = 76296;
+
 	class SelectPolicyPreviewSnapshot : public ::RPG::Client::ChenLingBattle::PreviewSnapshot
 	{
 	public:

@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int BattleItemProgressPrefabType_TypeDefinitionIndex = 24726;
+
 	enum class BattleItemProgressPrefabType : ::System::Int32
 	{
 		RogueFormula = 0,

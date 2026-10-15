@@ -13,6 +13,8 @@ namespace System { class Object; }
 
 namespace TMPro
 {
+	inline static constexpr unsigned int HighlightState_TypeDefinitionIndex = 44544;
+
 	struct alignas(4) HighlightState
 	{
 		::UnityEngine::Color32 color; // 0x10

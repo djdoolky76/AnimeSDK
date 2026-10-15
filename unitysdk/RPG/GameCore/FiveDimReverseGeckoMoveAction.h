@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FiveDimReverseGeckoMoveAction; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimReverseGeckoMoveAction_TypeDefinitionIndex = 18733;
+
 	class FiveDimReverseGeckoMoveAction : public ::RPG::GameCore::FiveDimBaseEventAction
 	{
 	public:

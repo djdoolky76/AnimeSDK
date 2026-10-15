@@ -1,6 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
+inline static constexpr unsigned int ODGFEPHPFLD_TypeDefinitionIndex = 57691;
+
 	struct alignas(4) ODGFEPHPFLD
 	{
 		::System::Int32 KBAPBCNJHDB; // 0x10

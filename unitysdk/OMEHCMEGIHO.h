@@ -24,6 +24,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define OMEHCMEGIHO_NLALIJFGABG_OFFSET UNITYSDK_OFFSET(0xBF22560)
 #define OMEHCMEGIHO_PGCPOKIOMMH_OFFSET UNITYSDK_OFFSET(0xBF23E20)
 
+inline static constexpr unsigned int OMEHCMEGIHO_TypeDefinitionIndex = 62354;
+
 	class OMEHCMEGIHO : public ::System::Object
 	{
 	public:

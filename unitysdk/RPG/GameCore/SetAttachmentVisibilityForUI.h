@@ -10,6 +10,8 @@ namespace RPG::GameCore { class SetAttachmentVisibilityForUI; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetAttachmentVisibilityForUI_TypeDefinitionIndex = 22376;
+
 	class SetAttachmentVisibilityForUI : public ::RPG::GameCore::SetAttachmentVisibility
 	{
 	public:

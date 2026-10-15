@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore::Match3
 {
+	inline static constexpr unsigned int ShowSideDialogAction_TypeDefinitionIndex = 24903;
+
 	class ShowSideDialogAction : public ::RPG::GameCore::Match3::Match3ActionBase
 	{
 	public:

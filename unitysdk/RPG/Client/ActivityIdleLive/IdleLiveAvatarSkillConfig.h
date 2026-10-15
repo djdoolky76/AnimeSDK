@@ -24,6 +24,8 @@ namespace System { class String; }
 
 namespace RPG::Client::ActivityIdleLive
 {
+	inline static constexpr unsigned int IdleLiveAvatarSkillConfig_TypeDefinitionIndex = 75081;
+
 	class IdleLiveAvatarSkillConfig : public ::System::Object
 	{
 	public:

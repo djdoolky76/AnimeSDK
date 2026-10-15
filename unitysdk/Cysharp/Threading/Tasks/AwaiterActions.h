@@ -9,6 +9,8 @@ namespace System { class Object; }
 
 namespace Cysharp::Threading::Tasks
 {
+	inline static constexpr unsigned int AwaiterActions_TypeDefinitionIndex = 38381;
+
 	class AwaiterActions : public ::System::Object
 	{
 	public:

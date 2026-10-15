@@ -3,6 +3,8 @@
 
 namespace CriWare
 {
+	inline static constexpr unsigned int CriAtomExPlayerOutputAnalyzer_Type_TypeDefinitionIndex = 40062;
+
 	enum class CriAtomExPlayerOutputAnalyzer_Type : ::System::Int32
 	{
 		LevelMeter = 0,

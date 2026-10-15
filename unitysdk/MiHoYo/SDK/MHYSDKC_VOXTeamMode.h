@@ -4,6 +4,8 @@
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int MHYSDKC_VOXTeamMode_TypeDefinitionIndex = 46243;
+
 	class MHYSDKC_VOXTeamMode : public ::System::Object
 	{
 	public:

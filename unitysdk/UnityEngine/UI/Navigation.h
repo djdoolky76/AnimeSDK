@@ -18,6 +18,8 @@ namespace UnityEngine::UI { class Selectable; }
 
 namespace UnityEngine::UI
 {
+	inline static constexpr unsigned int Navigation_TypeDefinitionIndex = 6799;
+
 	struct alignas(8) Navigation
 	{
 		::UnityEngine::UI::Navigation_Mode m_Mode; // 0x10

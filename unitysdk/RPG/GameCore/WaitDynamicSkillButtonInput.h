@@ -14,6 +14,8 @@ namespace RPG::GameCore { class WaitDynamicSkillButtonInput; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int WaitDynamicSkillButtonInput_TypeDefinitionIndex = 22845;
+
 	class WaitDynamicSkillButtonInput : public ::RPG::GameCore::TaskConfig
 	{
 	public:

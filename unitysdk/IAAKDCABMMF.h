@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define IAAKDCABMMF_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1CED7E20)
 #define IAAKDCABMMF_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1CED7740)
 
+inline static constexpr unsigned int IAAKDCABMMF_TypeDefinitionIndex = 11528;
+
 	class IAAKDCABMMF : public ::System::Object
 	{
 	public:

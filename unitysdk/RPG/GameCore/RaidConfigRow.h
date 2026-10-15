@@ -18,6 +18,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RaidConfigRow_TypeDefinitionIndex = 14592;
+
 	class RaidConfigRow : public ::System::Object
 	{
 	public:

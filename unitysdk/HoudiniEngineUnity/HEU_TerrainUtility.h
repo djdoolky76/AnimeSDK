@@ -45,6 +45,8 @@ namespace UnityEngine { class TerrainLayer; }
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int HEU_TerrainUtility_TypeDefinitionIndex = 40688;
+
 	class HEU_TerrainUtility : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ class FDPALAEIHPB;
 #define CAMJEEDLLJP_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1C8DC130)
 #define CAMJEEDLLJP_KINJMINKEEI_OFFSET UNITYSDK_OFFSET(0x1C8DCB90)
 
+inline static constexpr unsigned int CAMJEEDLLJP_TypeDefinitionIndex = 42309;
+
 	class CAMJEEDLLJP : public ::System::Object
 	{
 	public:

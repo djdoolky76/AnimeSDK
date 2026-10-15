@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define PLKIFOPLIAB_CTOR_OFFSET UNITYSDK_OFFSET(0x1C7F4830)
 #define PLKIFOPLIAB_MLKLPMJEHPF_OFFSET UNITYSDK_OFFSET(0x1C7F4A20)
 
+inline static constexpr unsigned int PLKIFOPLIAB_TypeDefinitionIndex = 36291;
+
 	class PLKIFOPLIAB : public ::AJBKGPOEBFG
 	{
 	public:

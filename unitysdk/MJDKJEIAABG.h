@@ -29,6 +29,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define MJDKJEIAABG_SET_RANKSCORELIST_OFFSET UNITYSDK_OFFSET(0xB969AA0)
 #define MJDKJEIAABG_SET_RESULTSTATE_OFFSET UNITYSDK_OFFSET(0xB969B00)
 
+inline static constexpr unsigned int MJDKJEIAABG_TypeDefinitionIndex = 81938;
+
 	class MJDKJEIAABG : public ::System::Object
 	{
 	public:

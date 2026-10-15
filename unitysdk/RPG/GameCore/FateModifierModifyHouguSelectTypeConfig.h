@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FateModifierModifyHouguSelectTypeConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FateModifierModifyHouguSelectTypeConfig_TypeDefinitionIndex = 19268;
+
 	class FateModifierModifyHouguSelectTypeConfig : public ::RPG::GameCore::FateModifierConfigBase
 	{
 	public:

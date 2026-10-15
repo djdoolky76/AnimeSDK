@@ -3,6 +3,8 @@
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int CharacterModelShadowCmd_BodySizeShadow_TypeDefinitionIndex = 37605;
+
 	enum class CharacterModelShadowCmd_BodySizeShadow : ::System::Int32
 	{
 		Other = 0,

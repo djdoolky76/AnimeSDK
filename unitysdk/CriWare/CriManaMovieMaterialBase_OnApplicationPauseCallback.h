@@ -13,6 +13,8 @@ namespace System { class Object; }
 
 namespace CriWare
 {
+	inline static constexpr unsigned int CriManaMovieMaterialBase_OnApplicationPauseCallback_TypeDefinitionIndex = 40133;
+
 	class CriManaMovieMaterialBase_OnApplicationPauseCallback : public ::System::MulticastDelegate
 	{
 	public:

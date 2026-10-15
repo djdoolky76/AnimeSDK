@@ -7,6 +7,8 @@ namespace UnityEngine { class SkinnedMeshRenderer; }
 
 namespace RPG::Client::AstraFX
 {
+	inline static constexpr unsigned int AstraFX_SkinnedMesh_SkinnedMeshBinder_TypeDefinitionIndex = 73692;
+
 	struct alignas(8) AstraFX_SkinnedMesh_SkinnedMeshBinder
 	{
 		::UnityEngine::SkinnedMeshRenderer* SkinnedMesh; // 0x10

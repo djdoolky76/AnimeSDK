@@ -11,6 +11,8 @@ namespace System { class String; }
 #define LPMEAGPFNHE_NOICODFGEIE_OFFSET UNITYSDK_OFFSET(0xB824400)
 #define LPMEAGPFNHE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB824100)
 
+inline static constexpr unsigned int LPMEAGPFNHE_TypeDefinitionIndex = 55453;
+
 	class LPMEAGPFNHE
 	{
 	public:

@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PlanetFesAvatarEventOptionData_TypeDefinitionIndex = 66549;
+
 	class PlanetFesAvatarEventOptionData : public ::System::Object
 	{
 	public:

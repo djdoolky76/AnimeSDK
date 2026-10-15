@@ -13,6 +13,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByIsInfiniteBattle_TypeDefinitionIndex = 23063;
+
 	class ByIsInfiniteBattle : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

@@ -10,6 +10,8 @@ namespace UnityEngine { class Transform; }
 #define HNIJBNICJFI_DPAPFOHEDMG_NGIIIPMKPND_OFFSET UNITYSDK_OFFSET(0x15D9B5F0)
 #define HNIJBNICJFI_DPAPFOHEDMG_PNFAHABNEMH_OFFSET UNITYSDK_OFFSET(0x15D9A6B0)
 
+inline static constexpr unsigned int HNIJBNICJFI_DPAPFOHEDMG_TypeDefinitionIndex = 60737;
+
 	class HNIJBNICJFI_DPAPFOHEDMG : public ::System::Object
 	{
 	public:

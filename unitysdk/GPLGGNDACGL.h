@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define GPLGGNDACGL_GCKADCMDNJG_OFFSET UNITYSDK_OFFSET(0x15B5D7C0)
 #define GPLGGNDACGL_JIBKHDGAEEP_OFFSET UNITYSDK_OFFSET(0x15B5D840)
 
+inline static constexpr unsigned int GPLGGNDACGL_TypeDefinitionIndex = 74609;
+
 	class GPLGGNDACGL : public ::System::Object
 	{
 	public:

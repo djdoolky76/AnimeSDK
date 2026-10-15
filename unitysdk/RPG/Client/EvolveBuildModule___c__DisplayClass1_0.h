@@ -8,6 +8,8 @@ namespace RPG::Client { class EvolveBuildStage; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int EvolveBuildModule___c__DisplayClass1_0_TypeDefinitionIndex = 63801;
+
 	class EvolveBuildModule___c__DisplayClass1_0 : public ::System::Object
 	{
 	public:

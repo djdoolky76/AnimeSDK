@@ -4,6 +4,8 @@
 
 #define NNMCPNJFPJE_CTOR_OFFSET UNITYSDK_OFFSET(0xBCCC290)
 
+inline static constexpr unsigned int NNMCPNJFPJE_TypeDefinitionIndex = 60955;
+
 	class NNMCPNJFPJE : public ::System::Object
 	{
 	public:

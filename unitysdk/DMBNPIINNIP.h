@@ -19,6 +19,8 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyLi
 #define DMBNPIINNIP_GET_PREVIEWIMAGE_OFFSET UNITYSDK_OFFSET(0xFEB8550)
 #define DMBNPIINNIP_GET_UNLOCKCONDITIONID_OFFSET UNITYSDK_OFFSET(0xFEB8520)
 
+inline static constexpr unsigned int DMBNPIINNIP_TypeDefinitionIndex = 80120;
+
 	class DMBNPIINNIP : public ::System::Object
 	{
 	public:

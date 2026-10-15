@@ -19,6 +19,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 #define DDBIKAEOHKB___C___CCTOR_B__17_6_OFFSET UNITYSDK_OFFSET(0xE25BC40)
 #define DDBIKAEOHKB___C___CCTOR_B__17_7_OFFSET UNITYSDK_OFFSET(0xE25BD00)
 
+inline static constexpr unsigned int DDBIKAEOHKB___c_TypeDefinitionIndex = 55989;
+
 	class DDBIKAEOHKB___c : public ::System::Object
 	{
 	public:

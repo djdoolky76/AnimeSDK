@@ -43,6 +43,8 @@ namespace System { template <typename T> class Func_1; }
 #define PAMFILOLBCJ_NPDJFLJPMKO_OFFSET UNITYSDK_OFFSET(0xBFD6C40)
 #define PAMFILOLBCJ_OFKHHGFFNPB_OFFSET UNITYSDK_OFFSET(0xBFD6750)
 
+inline static constexpr unsigned int PAMFILOLBCJ_TypeDefinitionIndex = 77579;
+
 	class PAMFILOLBCJ : public ::System::Object
 	{
 	public:

@@ -13,6 +13,8 @@ namespace RPG::GameCore { class ModifyTeamBoostPointMax; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ModifyTeamBoostPointMax_TypeDefinitionIndex = 22607;
+
 	class ModifyTeamBoostPointMax : public ::RPG::GameCore::TaskConfig
 	{
 	public:

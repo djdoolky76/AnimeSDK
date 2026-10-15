@@ -6,6 +6,8 @@
 
 #define CELESTIALBODYDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xDCE6EE0)
 
+inline static constexpr unsigned int CelestialBodyData_TypeDefinitionIndex = 47306;
+
 	class CelestialBodyData : public ::System::Object
 	{
 	public:

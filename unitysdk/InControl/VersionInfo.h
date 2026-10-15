@@ -24,6 +24,8 @@ namespace System { class String; }
 
 namespace InControl
 {
+	inline static constexpr unsigned int VersionInfo_TypeDefinitionIndex = 40918;
+
 	struct alignas(4) VersionInfo
 	{
 		::System::Int32 major; // 0x10

@@ -9,6 +9,8 @@ namespace RPG::GameCore { class RenderTestCameraConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RenderTestCameraConfig_TypeDefinitionIndex = 24400;
+
 	class RenderTestCameraConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

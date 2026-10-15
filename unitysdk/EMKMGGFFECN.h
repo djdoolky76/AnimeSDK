@@ -19,6 +19,8 @@ namespace UnityEngine { class Animator; }
 #define EMKMGGFFECN_PHGGAJIPFPM_OFFSET UNITYSDK_OFFSET(0x15546960)
 #define EMKMGGFFECN_SET_OVERRIDELOCKED_OFFSET UNITYSDK_OFFSET(0x15546DA0)
 
+inline static constexpr unsigned int EMKMGGFFECN_TypeDefinitionIndex = 68666;
+
 	class EMKMGGFFECN : public ::System::Object
 	{
 	public:

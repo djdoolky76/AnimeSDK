@@ -7,6 +7,8 @@ class LCJIAMCDDFL;
 #define CFIHNPKOEMD_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xCC4EBF0)
 #define CFIHNPKOEMD_CTOR_OFFSET UNITYSDK_OFFSET(0xCC4ED80)
 
+inline static constexpr unsigned int CFIHNPKOEMD_TypeDefinitionIndex = 62629;
+
 	class CFIHNPKOEMD : public ::System::Object
 	{
 	public:

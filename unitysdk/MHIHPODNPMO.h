@@ -69,6 +69,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define MHIHPODNPMO_TEARDOWN_OFFSET UNITYSDK_OFFSET(0xB940CF0)
 #define MHIHPODNPMO___TRYFINISHGAMEAFTERREWARD_B__15_0_OFFSET UNITYSDK_OFFSET(0xB942FC0)
 
+inline static constexpr unsigned int MHIHPODNPMO_TypeDefinitionIndex = 76776;
+
 	class MHIHPODNPMO : public ::System::Object
 	{
 	public:

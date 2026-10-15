@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define HINIBHOKFMO_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1CEB4B90)
 #define HINIBHOKFMO_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1CEB44E0)
 
+inline static constexpr unsigned int HINIBHOKFMO_TypeDefinitionIndex = 11329;
+
 	class HINIBHOKFMO : public ::System::Object
 	{
 	public:

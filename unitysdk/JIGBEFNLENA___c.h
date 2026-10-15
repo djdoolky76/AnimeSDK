@@ -26,6 +26,8 @@ namespace System { template <typename T> class Comparison_1; }
 #define JIGBEFNLENA___C__SYNC_B__9_2_OFFSET UNITYSDK_OFFSET(0xB1F9C60)
 #define JIGBEFNLENA___C___FLITERINVALIDITEM_B__42_0_OFFSET UNITYSDK_OFFSET(0xB1FA120)
 
+inline static constexpr unsigned int JIGBEFNLENA___c_TypeDefinitionIndex = 66589;
+
 	class JIGBEFNLENA___c : public ::System::Object
 	{
 	public:

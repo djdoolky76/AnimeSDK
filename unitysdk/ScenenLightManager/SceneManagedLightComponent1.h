@@ -23,6 +23,8 @@ namespace UnityEngine { class Transform; }
 
 namespace ScenenLightManager
 {
+	inline static constexpr unsigned int SceneManagedLightComponent1_TypeDefinitionIndex = 49072;
+
 	class SceneManagedLightComponent1 : public ::UnityEngine::MonoBehaviour
 	{
 	public:

@@ -3,6 +3,8 @@
 
 namespace RPG::Client::MechCraft::ViewModel
 {
+	inline static constexpr unsigned int IMechCraftDiyMechatronColorItemViewModel_TypeDefinitionIndex = 79602;
+
 	class IMechCraftDiyMechatronColorItemViewModel
 	{
 	public:

@@ -15,6 +15,8 @@ class LIKNJLCIAGI;
 #define KAJJEJMHCGD_NFLEIHFFHPB_OFFSET UNITYSDK_OFFSET(0x1C70A4A0)
 #define KAJJEJMHCGD_PPEGOIODAKI_OFFSET UNITYSDK_OFFSET(0x1C70A370)
 
+inline static constexpr unsigned int KAJJEJMHCGD_TypeDefinitionIndex = 37251;
+
 	class KAJJEJMHCGD : public ::System::Object
 	{
 	public:

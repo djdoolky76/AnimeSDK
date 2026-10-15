@@ -7,6 +7,8 @@ class JCDIFIAMNEA;
 #define JCDIFIAMNEA___C__DISPLAYCLASS13_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1657BD90)
 #define JCDIFIAMNEA___C__DISPLAYCLASS13_0__ONDETAILCHANGE_B__0_OFFSET UNITYSDK_OFFSET(0x1657D8D0)
 
+inline static constexpr unsigned int JCDIFIAMNEA___c__DisplayClass13_0_TypeDefinitionIndex = 71366;
+
 	class JCDIFIAMNEA___c__DisplayClass13_0 : public ::System::Object
 	{
 	public:

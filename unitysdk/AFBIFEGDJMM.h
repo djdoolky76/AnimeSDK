@@ -9,6 +9,8 @@ class PHOJHPMLBCJ;
 #define AFBIFEGDJMM_JAFGAIMLKGL_OFFSET UNITYSDK_OFFSET(0xCF060F0)
 #define AFBIFEGDJMM_LMCKAHPJAEE_OFFSET UNITYSDK_OFFSET(0xCF06040)
 
+inline static constexpr unsigned int AFBIFEGDJMM_TypeDefinitionIndex = 80724;
+
 	class AFBIFEGDJMM : public ::System::Object
 	{
 	public:

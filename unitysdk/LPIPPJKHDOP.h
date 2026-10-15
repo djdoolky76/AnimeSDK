@@ -23,6 +23,8 @@ class LPIPPJKHDOP;
 #define LPIPPJKHDOP_SET_STARTPOS_OFFSET UNITYSDK_OFFSET(0xB820890)
 #define LPIPPJKHDOP_SET_V0_OFFSET UNITYSDK_OFFSET(0xB8208F0)
 
+inline static constexpr unsigned int LPIPPJKHDOP_TypeDefinitionIndex = 78115;
+
 	class LPIPPJKHDOP : public ::DEHLMHKDEKC
 	{
 	public:

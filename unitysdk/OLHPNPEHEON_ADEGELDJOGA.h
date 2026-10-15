@@ -8,6 +8,8 @@ namespace System { class String; }
 #define OLHPNPEHEON_ADEGELDJOGA_CTOR_OFFSET UNITYSDK_OFFSET(0xBF0CA50)
 #define OLHPNPEHEON_ADEGELDJOGA_MNGGAOFNGIP_OFFSET UNITYSDK_OFFSET(0xBF0CB20)
 
+inline static constexpr unsigned int OLHPNPEHEON_ADEGELDJOGA_TypeDefinitionIndex = 65274;
+
 	class OLHPNPEHEON_ADEGELDJOGA : public ::System::Object
 	{
 	public:

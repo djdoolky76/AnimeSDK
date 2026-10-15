@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimMoneyConfig_TypeDefinitionIndex = 18557;
+
 	class FiveDimMoneyConfig : public ::RPG::GameCore::LittleGameComponentConfig
 	{
 	public:

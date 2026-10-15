@@ -12,6 +12,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int SetStoryDanmuEnableClip_TypeDefinitionIndex = 48064;
+
 	class SetStoryDanmuEnableClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:

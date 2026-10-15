@@ -12,6 +12,8 @@ namespace RPG::GameCore { class ST_Main_LittleGame_MoveToPosition; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ST_Main_LittleGame_MoveToPosition_TypeDefinitionIndex = 21327;
+
 	class ST_Main_LittleGame_MoveToPosition : public ::RPG::GameCore::STTaskConfig
 	{
 	public:

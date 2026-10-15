@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define HHHINNEPJIJ_UPDATEDONE_OFFSET UNITYSDK_OFFSET(0x15CCD790)
 #define HHHINNEPJIJ_UPDATESTART_OFFSET UNITYSDK_OFFSET(0x15CCD690)
 
+inline static constexpr unsigned int HHHINNEPJIJ_TypeDefinitionIndex = 64377;
+
 	class HHHINNEPJIJ : public ::AMCOEFHHBPO
 	{
 	public:

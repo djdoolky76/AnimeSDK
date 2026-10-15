@@ -13,6 +13,8 @@ namespace RPG::GameCore { class TaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PropStateExecute_TypeDefinitionIndex = 20434;
+
 	class PropStateExecute : public ::RPG::GameCore::TaskConfig
 	{
 	public:

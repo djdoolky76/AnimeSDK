@@ -10,6 +10,8 @@ namespace System { class Object; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AnimatorClipOverride_TypeDefinitionIndex = 70354;
+
 	class AnimatorClipOverride : public ::UnityEngine::MonoBehaviour
 	{
 	public:

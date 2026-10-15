@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define KELFJFLNAFI_CTOR_OFFSET UNITYSDK_OFFSET(0xB37D4A0)
 #define KELFJFLNAFI_DIOEAJEHHND_OFFSET UNITYSDK_OFFSET(0xB37D4B0)
 
+inline static constexpr unsigned int KELFJFLNAFI_TypeDefinitionIndex = 66029;
+
 	class KELFJFLNAFI : public ::System::Object
 	{
 	public:

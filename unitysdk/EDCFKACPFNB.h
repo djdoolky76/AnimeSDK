@@ -27,6 +27,8 @@ namespace System { class String; }
 #define EDCFKACPFNB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E25AE00)
 #define EDCFKACPFNB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E25AE60)
 
+inline static constexpr unsigned int EDCFKACPFNB_TypeDefinitionIndex = 25413;
+
 	class EDCFKACPFNB : public ::System::Object
 	{
 	public:

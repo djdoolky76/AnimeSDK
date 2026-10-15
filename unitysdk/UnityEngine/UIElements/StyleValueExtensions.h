@@ -10,6 +10,8 @@
 
 namespace UnityEngine::UIElements
 {
+	inline static constexpr unsigned int StyleValueExtensions_TypeDefinitionIndex = 6007;
+
 	class StyleValueExtensions : public ::System::Object
 	{
 	public:

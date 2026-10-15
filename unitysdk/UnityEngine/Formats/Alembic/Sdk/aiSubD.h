@@ -11,6 +11,8 @@
 
 namespace UnityEngine::Formats::Alembic::Sdk
 {
+	inline static constexpr unsigned int aiSubD_TypeDefinitionIndex = 45830;
+
 	struct alignas(4) aiSubD
 	{
 		::System::IntPtr self; // 0x10

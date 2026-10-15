@@ -27,6 +27,8 @@ namespace System { class Object; }
 
 namespace RPG::Client::MissionReplayData
 {
+	inline static constexpr unsigned int ChronicleMissionReplayContext_TypeDefinitionIndex = 74683;
+
 	class ChronicleMissionReplayContext : public ::System::Object
 	{
 	public:

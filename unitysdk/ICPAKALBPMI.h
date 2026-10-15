@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define ICPAKALBPMI_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1CEE47F0)
 #define ICPAKALBPMI_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1CEE40D0)
 
+inline static constexpr unsigned int ICPAKALBPMI_TypeDefinitionIndex = 13506;
+
 	class ICPAKALBPMI : public ::System::Object
 	{
 	public:

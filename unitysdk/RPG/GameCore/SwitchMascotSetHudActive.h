@@ -10,6 +10,8 @@ namespace RPG::GameCore { class SwitchMascotSetHudActive; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SwitchMascotSetHudActive_TypeDefinitionIndex = 22005;
+
 	class SwitchMascotSetHudActive : public ::RPG::GameCore::TaskConfig
 	{
 	public:

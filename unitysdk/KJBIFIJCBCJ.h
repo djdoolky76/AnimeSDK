@@ -4,6 +4,8 @@
 
 #define KJBIFIJCBCJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1C714DF0)
 
+inline static constexpr unsigned int KJBIFIJCBCJ_TypeDefinitionIndex = 37353;
+
 	class KJBIFIJCBCJ : public ::System::Object
 	{
 	public:

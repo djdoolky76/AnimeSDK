@@ -33,6 +33,8 @@ namespace System { class String; }
 #define CNLAOMCKFKD_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E10A2A0)
 #define CNLAOMCKFKD_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E10A300)
 
+inline static constexpr unsigned int CNLAOMCKFKD_TypeDefinitionIndex = 34708;
+
 	class CNLAOMCKFKD : public ::System::Object
 	{
 	public:

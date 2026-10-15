@@ -7,6 +7,8 @@ class FACKCCJFLKM;
 #define DEOOCBMMENB_CTOR_OFFSET UNITYSDK_OFFSET(0xE51F500)
 #define DEOOCBMMENB_NABPOPAJGOP_OFFSET UNITYSDK_OFFSET(0xE51F490)
 
+inline static constexpr unsigned int DEOOCBMMENB_TypeDefinitionIndex = 62031;
+
 	class DEOOCBMMENB : public ::System::Object
 	{
 	public:

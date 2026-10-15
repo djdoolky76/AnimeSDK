@@ -10,6 +10,8 @@ namespace RPG::Client::PetMarble::Level { class PetMarbleLevelModeRepository; }
 
 namespace RPG::Client::PetMarble::Level
 {
+	inline static constexpr unsigned int PetMarbleLevelModeRepository___c__DisplayClass0_0_TypeDefinitionIndex = 74746;
+
 	class PetMarbleLevelModeRepository___c__DisplayClass0_0 : public ::System::Object
 	{
 	public:

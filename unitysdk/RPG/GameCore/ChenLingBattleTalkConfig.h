@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ChenLingBattleTalkConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChenLingBattleTalkConfig_TypeDefinitionIndex = 15814;
+
 	class ChenLingBattleTalkConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

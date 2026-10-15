@@ -3,6 +3,8 @@
 #include "unitysdk/RPG/MVector3.h"
 class HNLKNLJBHDD;
 
+inline static constexpr unsigned int FHIFNHALHPI_HPOPMNLOLJE_TypeDefinitionIndex = 37152;
+
 	struct alignas(8) FHIFNHALHPI_HPOPMNLOLJE
 	{
 		::HNLKNLJBHDD* MKBKKGBGLHC; // 0x10

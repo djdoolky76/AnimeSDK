@@ -8,6 +8,8 @@ namespace RPG::Client::Promises { class IPromise; }
 #define KMDEHNNGIDD___C__DISPLAYCLASS27_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB542D30)
 #define KMDEHNNGIDD___C__DISPLAYCLASS27_0__TRYJOINLOBBY_B__0_OFFSET UNITYSDK_OFFSET(0xB5432F0)
 
+inline static constexpr unsigned int KMDEHNNGIDD___c__DisplayClass27_0_TypeDefinitionIndex = 63057;
+
 	class KMDEHNNGIDD___c__DisplayClass27_0 : public ::System::Object
 	{
 	public:

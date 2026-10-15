@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ConditionParam_TypeDefinitionIndex = 13078;
+
 	class ConditionParam : public ::System::Object
 	{
 	public:

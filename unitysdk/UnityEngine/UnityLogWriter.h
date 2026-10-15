@@ -15,6 +15,8 @@ namespace System::Text { class Encoding; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int UnityLogWriter_TypeDefinitionIndex = 4217;
+
 	class UnityLogWriter : public ::System::IO::TextWriter
 	{
 	public:

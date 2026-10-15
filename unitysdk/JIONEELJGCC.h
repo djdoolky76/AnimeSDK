@@ -28,6 +28,8 @@ namespace System { class String; }
 #define JIONEELJGCC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E756870)
 #define JIONEELJGCC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E7568D0)
 
+inline static constexpr unsigned int JIONEELJGCC_TypeDefinitionIndex = 25600;
+
 	class JIONEELJGCC : public ::System::Object
 	{
 	public:

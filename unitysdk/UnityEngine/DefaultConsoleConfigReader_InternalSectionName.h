@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int DefaultConsoleConfigReader_InternalSectionName_TypeDefinitionIndex = 4064;
+
 	class DefaultConsoleConfigReader_InternalSectionName : public ::System::Object
 	{
 	public:

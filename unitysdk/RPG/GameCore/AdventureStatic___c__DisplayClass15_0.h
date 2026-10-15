@@ -8,6 +8,8 @@ namespace RPG::GameCore { class LevelCurveInfo; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdventureStatic___c__DisplayClass15_0_TypeDefinitionIndex = 59026;
+
 	class AdventureStatic___c__DisplayClass15_0 : public ::System::Object
 	{
 	public:

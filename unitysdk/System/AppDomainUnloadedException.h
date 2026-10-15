@@ -9,6 +9,8 @@ namespace System::Runtime::Serialization { class SerializationInfo; }
 
 namespace System
 {
+	inline static constexpr unsigned int AppDomainUnloadedException_TypeDefinitionIndex = 190;
+
 	class AppDomainUnloadedException : public ::System::SystemException
 	{
 	public:

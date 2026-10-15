@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int QteCatchGhostRewindListener_TypeDefinitionIndex = 22047;
+
 	class QteCatchGhostRewindListener : public ::RPG::GameCore::TaskConfig
 	{
 	public:

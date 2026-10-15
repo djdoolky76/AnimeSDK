@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace System
 {
+	inline static constexpr unsigned int Array_ArrayEnumerator_TypeDefinitionIndex = 137;
+
 	class Array_ArrayEnumerator : public ::System::Object
 	{
 	public:

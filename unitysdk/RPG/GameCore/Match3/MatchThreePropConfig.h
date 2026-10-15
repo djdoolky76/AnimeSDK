@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore::Match3
 {
+	inline static constexpr unsigned int MatchThreePropConfig_TypeDefinitionIndex = 24943;
+
 	class MatchThreePropConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

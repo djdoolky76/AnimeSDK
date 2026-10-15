@@ -12,6 +12,8 @@ namespace UnityEngine { class MonoBehaviour; }
 #define BBGGEMHCPHD_HPNDIIPEFLJ_OFFSET UNITYSDK_OFFSET(0x15E887B0)
 #define BBGGEMHCPHD_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0x15E88470)
 
+inline static constexpr unsigned int BBGGEMHCPHD_TypeDefinitionIndex = 70374;
+
 	class BBGGEMHCPHD : public ::RPG::Client::BehaviorBase
 	{
 	public:

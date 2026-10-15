@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
+	inline static constexpr unsigned int BrowserNative_WindowCallbackFunc_TypeDefinitionIndex = 39384;
+
 	class BrowserNative_WindowCallbackFunc : public ::System::MulticastDelegate
 	{
 	public:

@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int BaseModifierInstance_ModifierMutexEffectData_TypeDefinitionIndex = 54432;
+
 	class BaseModifierInstance_ModifierMutexEffectData : public ::System::Object
 	{
 	public:

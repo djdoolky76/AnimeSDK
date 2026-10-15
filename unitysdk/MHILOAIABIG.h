@@ -10,6 +10,8 @@ namespace System { class String; }
 #define MHILOAIABIG_GET_TYPE_OFFSET UNITYSDK_OFFSET(0xB9434B0)
 #define MHILOAIABIG_JAILHGGFLDH_OFFSET UNITYSDK_OFFSET(0xB9434C0)
 
+inline static constexpr unsigned int MHILOAIABIG_TypeDefinitionIndex = 56128;
+
 	class MHILOAIABIG : public ::DBGDNLLDPFI
 	{
 	public:

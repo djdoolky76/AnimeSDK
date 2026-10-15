@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define BLFCELFLAHN_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xBA6C040)
 #define BLFCELFLAHN_TICK_OFFSET UNITYSDK_OFFSET(0xBA6BED0)
 
+inline static constexpr unsigned int BLFCELFLAHN_TypeDefinitionIndex = 52290;
+
 	class BLFCELFLAHN
 	{
 	public:

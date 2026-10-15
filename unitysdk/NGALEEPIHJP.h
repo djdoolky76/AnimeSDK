@@ -5,6 +5,8 @@ namespace System { class String; }
 
 #define NGALEEPIHJP_CTOR_OFFSET UNITYSDK_OFFSET(0xBBA0FD0)
 
+inline static constexpr unsigned int NGALEEPIHJP_TypeDefinitionIndex = 81013;
+
 	class NGALEEPIHJP : public ::System::Object
 	{
 	public:

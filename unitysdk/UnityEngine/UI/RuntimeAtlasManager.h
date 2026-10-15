@@ -40,6 +40,8 @@ namespace UnityEngine::UI { class RuntimeAtlasManager; }
 
 namespace UnityEngine::UI
 {
+	inline static constexpr unsigned int RuntimeAtlasManager_TypeDefinitionIndex = 6812;
+
 	class RuntimeAtlasManager : public ::System::Object
 	{
 	public:

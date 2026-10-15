@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int MaterialParams_TypeDefinitionIndex = 37931;
+
 	struct alignas(8) MaterialParams
 	{
 		::RPG::CustomRP::ParamTable param; // 0x10

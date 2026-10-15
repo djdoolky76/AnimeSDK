@@ -28,6 +28,8 @@ namespace UnityEngine { class WaitForEndOfFrame; }
 
 namespace Cysharp::Threading::Tasks
 {
+	inline static constexpr unsigned int UniTask_WaitForEndOfFramePromise_TypeDefinitionIndex = 38232;
+
 	class UniTask_WaitForEndOfFramePromise : public ::System::Object
 	{
 	public:

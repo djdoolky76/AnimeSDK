@@ -8,6 +8,8 @@ namespace System::Security::Cryptography { class MD5; }
 
 namespace System::Security::Cryptography
 {
+	inline static constexpr unsigned int MD5_TypeDefinitionIndex = 1036;
+
 	class MD5 : public ::System::Security::Cryptography::HashAlgorithm
 	{
 	public:

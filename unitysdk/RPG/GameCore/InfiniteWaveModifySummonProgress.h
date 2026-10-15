@@ -11,6 +11,8 @@ namespace RPG::GameCore { class InfiniteWaveModifySummonProgress; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int InfiniteWaveModifySummonProgress_TypeDefinitionIndex = 23262;
+
 	class InfiniteWaveModifySummonProgress : public ::RPG::GameCore::TaskConfig
 	{
 	public:

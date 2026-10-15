@@ -28,6 +28,8 @@ namespace System { class String; }
 #define LBDGBAALOOJ_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E8D9EB0)
 #define LBDGBAALOOJ_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E8D9F10)
 
+inline static constexpr unsigned int LBDGBAALOOJ_TypeDefinitionIndex = 31047;
+
 	class LBDGBAALOOJ : public ::System::Object
 	{
 	public:

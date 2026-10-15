@@ -29,6 +29,8 @@ namespace System { class String; }
 #define PDPKFDOJOFK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DF14350)
 #define PDPKFDOJOFK_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DF143B0)
 
+inline static constexpr unsigned int PDPKFDOJOFK_TypeDefinitionIndex = 30344;
+
 	class PDPKFDOJOFK : public ::System::Object
 	{
 	public:

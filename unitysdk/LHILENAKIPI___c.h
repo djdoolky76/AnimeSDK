@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define LHILENAKIPI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E9623B0)
 #define LHILENAKIPI___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E9623C0)
 
+inline static constexpr unsigned int LHILENAKIPI___c_TypeDefinitionIndex = 30175;
+
 	class LHILENAKIPI___c : public ::System::Object
 	{
 	public:

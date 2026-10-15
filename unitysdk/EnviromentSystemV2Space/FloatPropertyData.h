@@ -7,6 +7,8 @@ class GGJFAFONDHN;
 
 namespace EnviromentSystemV2Space
 {
+	inline static constexpr unsigned int FloatPropertyData_TypeDefinitionIndex = 49385;
+
 	class FloatPropertyData
 	{
 	public:

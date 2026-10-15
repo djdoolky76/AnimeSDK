@@ -4,6 +4,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PlaneSlice_DLCJEAJGLFB_TypeDefinitionIndex = 70700;
+
 	struct alignas(8) PlaneSlice_DLCJEAJGLFB
 	{
 		::System::Int32 ELBDFOOMPON; // 0x10

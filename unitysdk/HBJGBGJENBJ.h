@@ -89,6 +89,8 @@ namespace System { class Object; }
 #define HBJGBGJENBJ__ONBIND_OFFSET UNITYSDK_OFFSET(0x15C0AE20)
 #define HBJGBGJENBJ__ONTICK_OFFSET UNITYSDK_OFFSET(0x15C0B3B0)
 
+inline static constexpr unsigned int HBJGBGJENBJ_TypeDefinitionIndex = 71631;
+
 	class HBJGBGJENBJ : public ::FMPCODLIOLG
 	{
 	public:

@@ -9,6 +9,8 @@ namespace RPG::GameCore { class PetPartySingleCombinationStartPattern; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PetPartySingleCombinationStartPattern_TypeDefinitionIndex = 17547;
+
 	class PetPartySingleCombinationStartPattern : public ::RPG::GameCore::JsonConfig
 	{
 	public:

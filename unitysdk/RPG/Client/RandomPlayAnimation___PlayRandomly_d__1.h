@@ -13,6 +13,8 @@ namespace System { class Object; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RandomPlayAnimation___PlayRandomly_d__1_TypeDefinitionIndex = 68813;
+
 	template <typename T>
 	class RandomPlayAnimation___PlayRandomly_d__1 : public ::System::Object
 	{

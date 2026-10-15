@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define KPNFCKLHLIP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E8C1670)
 #define KPNFCKLHLIP___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E8C1680)
 
+inline static constexpr unsigned int KPNFCKLHLIP___c_TypeDefinitionIndex = 26088;
+
 	class KPNFCKLHLIP___c : public ::System::Object
 	{
 	public:

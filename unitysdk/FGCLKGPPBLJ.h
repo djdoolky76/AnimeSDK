@@ -18,6 +18,8 @@ namespace XLua { class LuaTable; }
 #define FGCLKGPPBLJ_OHCAPGGOAGE_OFFSET UNITYSDK_OFFSET(0x15752CF0)
 #define FGCLKGPPBLJ___INIT_B__3_0_OFFSET UNITYSDK_OFFSET(0x15752D30)
 
+inline static constexpr unsigned int FGCLKGPPBLJ_TypeDefinitionIndex = 73049;
+
 	class FGCLKGPPBLJ : public ::System::Object
 	{
 	public:

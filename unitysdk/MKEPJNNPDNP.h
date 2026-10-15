@@ -5,6 +5,8 @@ class AEHGMMGLPAB;
 #define MKEPJNNPDNP_CAIMHGNFNOF_OFFSET UNITYSDK_OFFSET(0xB993790)
 #define MKEPJNNPDNP_CTOR_OFFSET UNITYSDK_OFFSET(0xB993830)
 
+inline static constexpr unsigned int MKEPJNNPDNP_TypeDefinitionIndex = 78883;
+
 	class MKEPJNNPDNP
 	{
 	public:

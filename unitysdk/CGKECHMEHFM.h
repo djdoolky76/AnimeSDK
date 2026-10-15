@@ -17,6 +17,8 @@ namespace System { class IDisposable; }
 #define CGKECHMEHFM_OELHENBKOPL_OFFSET UNITYSDK_OFFSET(0xCC8ABB0)
 #define CGKECHMEHFM_OLKJCIDEFJJ_OFFSET UNITYSDK_OFFSET(0xCC8AE50)
 
+inline static constexpr unsigned int CGKECHMEHFM_TypeDefinitionIndex = 80173;
+
 	class CGKECHMEHFM : public ::System::Object
 	{
 	public:

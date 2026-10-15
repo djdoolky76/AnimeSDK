@@ -68,6 +68,8 @@ namespace UnityEngine::Rendering { class CommandBufferExt; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int ShaderParamRecorder_TypeDefinitionIndex = 37932;
+
 	class ShaderParamRecorder : public ::System::Object
 	{
 	public:

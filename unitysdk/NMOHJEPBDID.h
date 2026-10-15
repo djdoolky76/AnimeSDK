@@ -14,6 +14,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define NMOHJEPBDID_MIDAFFJBEJA_OFFSET UNITYSDK_OFFSET(0x1C972DB0)
 #define NMOHJEPBDID_MNKBDLLKLKB_OFFSET UNITYSDK_OFFSET(0x1C972EF0)
 
+inline static constexpr unsigned int NMOHJEPBDID_TypeDefinitionIndex = 42640;
+
 	class NMOHJEPBDID
 	{
 	public:

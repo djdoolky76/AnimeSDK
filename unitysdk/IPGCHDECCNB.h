@@ -31,6 +31,8 @@ namespace System { class String; }
 #define IPGCHDECCNB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E6DFC90)
 #define IPGCHDECCNB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E6DFCF0)
 
+inline static constexpr unsigned int IPGCHDECCNB_TypeDefinitionIndex = 29266;
+
 	class IPGCHDECCNB : public ::System::Object
 	{
 	public:

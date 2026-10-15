@@ -13,6 +13,8 @@ namespace UnityEngine::UI { class Image; }
 
 namespace RPG::Client::ResBar
 {
+	inline static constexpr unsigned int ResBarItemControl_TypeDefinitionIndex = 79142;
+
 	class ResBarItemControl
 	{
 	public:

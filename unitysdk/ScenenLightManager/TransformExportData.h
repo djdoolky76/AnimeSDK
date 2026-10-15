@@ -10,6 +10,8 @@ namespace UnityEngine { class Transform; }
 
 namespace ScenenLightManager
 {
+	inline static constexpr unsigned int TransformExportData_TypeDefinitionIndex = 49145;
+
 	class TransformExportData : public ::System::Object
 	{
 	public:

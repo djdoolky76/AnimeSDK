@@ -10,6 +10,8 @@ namespace RPG::Client::LittleGame::RoadRash { class RoadRashAbilityValueModifer;
 
 namespace RPG::Client::LittleGame::RoadRash
 {
+	inline static constexpr unsigned int RoadRashAbilityValueModifer_TypeDefinitionIndex = 42885;
+
 	class RoadRashAbilityValueModifer : public ::System::Object
 	{
 	public:

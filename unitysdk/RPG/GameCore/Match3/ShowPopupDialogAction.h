@@ -10,6 +10,8 @@ namespace RPG::GameCore::Match3 { class ShowPopupDialogAction; }
 
 namespace RPG::GameCore::Match3
 {
+	inline static constexpr unsigned int ShowPopupDialogAction_TypeDefinitionIndex = 24902;
+
 	class ShowPopupDialogAction : public ::RPG::GameCore::Match3::Match3ActionBase
 	{
 	public:

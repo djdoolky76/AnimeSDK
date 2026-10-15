@@ -21,6 +21,8 @@ namespace UnityEngine::UI { class SmoothMaskMaterial_MatEntry; }
 
 namespace UnityEngine::UI
 {
+	inline static constexpr unsigned int SmoothMaskMaterial_TypeDefinitionIndex = 6855;
+
 	class SmoothMaskMaterial : public ::System::Object
 	{
 	public:

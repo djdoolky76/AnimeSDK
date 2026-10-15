@@ -6,6 +6,8 @@ namespace System { class String; }
 
 namespace System::Runtime::Remoting::Messaging
 {
+	inline static constexpr unsigned int Header_TypeDefinitionIndex = 1312;
+
 	class Header : public ::System::Object
 	{
 	public:

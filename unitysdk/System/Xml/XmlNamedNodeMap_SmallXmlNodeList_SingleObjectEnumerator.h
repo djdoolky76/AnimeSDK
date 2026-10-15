@@ -10,6 +10,8 @@ namespace System { class Object; }
 
 namespace System::Xml
 {
+	inline static constexpr unsigned int XmlNamedNodeMap_SmallXmlNodeList_SingleObjectEnumerator_TypeDefinitionIndex = 1913;
+
 	class XmlNamedNodeMap_SmallXmlNodeList_SingleObjectEnumerator : public ::System::Object
 	{
 	public:

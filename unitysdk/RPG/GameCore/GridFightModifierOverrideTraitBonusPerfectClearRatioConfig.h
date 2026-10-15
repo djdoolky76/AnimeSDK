@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GridFightModifierOverrideTraitBonusPerfectClearR
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightModifierOverrideTraitBonusPerfectClearRatioConfig_TypeDefinitionIndex = 19456;
+
 	class GridFightModifierOverrideTraitBonusPerfectClearRatioConfig : public ::RPG::GameCore::GridFightModifierConfigBase
 	{
 	public:

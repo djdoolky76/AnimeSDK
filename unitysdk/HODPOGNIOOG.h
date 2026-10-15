@@ -25,6 +25,8 @@ namespace System { class String; }
 #define HODPOGNIOOG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E5E75D0)
 #define HODPOGNIOOG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E5E7630)
 
+inline static constexpr unsigned int HODPOGNIOOG_TypeDefinitionIndex = 27347;
+
 	class HODPOGNIOOG : public ::System::Object
 	{
 	public:

@@ -6,6 +6,8 @@
 
 #define EFEPGAKGNBM_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA33A40)
 
+inline static constexpr unsigned int EFEPGAKGNBM_TypeDefinitionIndex = 43770;
+
 	class EFEPGAKGNBM : public ::System::Object
 	{
 	public:

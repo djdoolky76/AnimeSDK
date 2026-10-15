@@ -19,6 +19,8 @@ class LNHACPACCKH;
 #define CNEBPCHAGNN_NOJIPMKAGON_OFFSET UNITYSDK_OFFSET(0x1C5D7970)
 #define CNEBPCHAGNN_PNJODACLLPH_OFFSET UNITYSDK_OFFSET(0x1C5D7960)
 
+inline static constexpr unsigned int CNEBPCHAGNN_TypeDefinitionIndex = 37178;
+
 	class CNEBPCHAGNN : public ::System::Object
 	{
 	public:

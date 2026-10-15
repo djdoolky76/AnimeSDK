@@ -4,6 +4,8 @@
 
 #define HPLEGFOGGAL_CTOR_OFFSET UNITYSDK_OFFSET(0x15DD1EB0)
 
+inline static constexpr unsigned int HPLEGFOGGAL_TypeDefinitionIndex = 80196;
+
 	class HPLEGFOGGAL : public ::System::Object
 	{
 	public:

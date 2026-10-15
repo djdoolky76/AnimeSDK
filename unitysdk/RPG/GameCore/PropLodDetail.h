@@ -10,6 +10,8 @@ namespace RPG::GameCore { class PropLodDetail; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PropLodDetail_TypeDefinitionIndex = 19113;
+
 	class PropLodDetail : public ::RPG::GameCore::LodDetail
 	{
 	public:

@@ -9,6 +9,8 @@
 
 namespace Cysharp::Threading::Tasks::Internal
 {
+	inline static constexpr unsigned int UnityEqualityComparer_QuaternionEqualityComparer_TypeDefinitionIndex = 38682;
+
 	class UnityEqualityComparer_QuaternionEqualityComparer : public ::System::Object
 	{
 	public:

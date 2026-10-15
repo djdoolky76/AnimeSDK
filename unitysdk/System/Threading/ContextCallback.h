@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace System::Threading
 {
+	inline static constexpr unsigned int ContextCallback_TypeDefinitionIndex = 828;
+
 	class ContextCallback : public ::System::MulticastDelegate
 	{
 	public:

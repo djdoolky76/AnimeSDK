@@ -13,6 +13,8 @@ namespace System { template <typename T> class Func_1; }
 #define JODKLIHDNEO___C___CTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1CBA7670)
 #define JODKLIHDNEO___C___CTOR_B__18_1_OFFSET UNITYSDK_OFFSET(0x1CBA76A0)
 
+inline static constexpr unsigned int JODKLIHDNEO___c_TypeDefinitionIndex = 42606;
+
 	class JODKLIHDNEO___c : public ::System::Object
 	{
 	public:

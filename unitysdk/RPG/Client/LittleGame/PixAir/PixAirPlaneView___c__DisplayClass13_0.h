@@ -11,6 +11,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::LittleGame::PixAir
 {
+	inline static constexpr unsigned int PixAirPlaneView___c__DisplayClass13_0_TypeDefinitionIndex = 77325;
+
 	class PixAirPlaneView___c__DisplayClass13_0 : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@ namespace RPG::Client { class TalkOptionData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TalkModule___c__DisplayClass134_0_TypeDefinitionIndex = 68037;
+
 	class TalkModule___c__DisplayClass134_0 : public ::System::Object
 	{
 	public:

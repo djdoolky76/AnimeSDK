@@ -9,6 +9,8 @@ class ODGPPIHLOFF;
 #define HFJJCHKBGCC___C__DISPLAYCLASS146_0__RELEASEPRIORITY_B__0_OFFSET UNITYSDK_OFFSET(0x15C87230)
 #define HFJJCHKBGCC___C__DISPLAYCLASS146_0__RELEASEPRIORITY_B__1_OFFSET UNITYSDK_OFFSET(0x15C87250)
 
+inline static constexpr unsigned int HFJJCHKBGCC___c__DisplayClass146_0_TypeDefinitionIndex = 49282;
+
 	class HFJJCHKBGCC___c__DisplayClass146_0 : public ::System::Object
 	{
 	public:

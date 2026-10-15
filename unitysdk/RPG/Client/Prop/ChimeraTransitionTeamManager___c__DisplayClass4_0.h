@@ -9,6 +9,8 @@ namespace System { class Action; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int ChimeraTransitionTeamManager___c__DisplayClass4_0_TypeDefinitionIndex = 78436;
+
 	class ChimeraTransitionTeamManager___c__DisplayClass4_0 : public ::System::Object
 	{
 	public:

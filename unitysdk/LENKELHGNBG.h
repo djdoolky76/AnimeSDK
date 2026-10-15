@@ -29,6 +29,8 @@ namespace System { class String; }
 #define LENKELHGNBG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E937830)
 #define LENKELHGNBG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E937890)
 
+inline static constexpr unsigned int LENKELHGNBG_TypeDefinitionIndex = 27703;
+
 	class LENKELHGNBG : public ::System::Object
 	{
 	public:

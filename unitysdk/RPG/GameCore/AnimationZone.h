@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AnimationZone_TypeDefinitionIndex = 16326;
+
 	class AnimationZone : public ::RPG::GameCore::JsonConfig
 	{
 	public:

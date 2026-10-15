@@ -19,6 +19,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int UIMap3DContainer_EraFlipperPoseTransformProvider_TypeDefinitionIndex = 69057;
+
 	class UIMap3DContainer_EraFlipperPoseTransformProvider : public ::System::Object
 	{
 	public:

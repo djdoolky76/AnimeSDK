@@ -16,6 +16,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define NIBCAANJHIL_HOIEBKJPPFN_OFFSET UNITYSDK_OFFSET(0xBBDD590)
 #define NIBCAANJHIL_KFKNDLIIOIB_OFFSET UNITYSDK_OFFSET(0xBBDD680)
 
+inline static constexpr unsigned int NIBCAANJHIL_TypeDefinitionIndex = 73977;
+
 	class NIBCAANJHIL : public ::System::Object
 	{
 	public:

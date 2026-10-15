@@ -6,6 +6,8 @@ namespace Entitas { class IEntity; }
 #define AGAEEKDKGBN_CTOR_OFFSET UNITYSDK_OFFSET(0x1C584C40)
 #define AGAEEKDKGBN_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0x1C584BF0)
 
+inline static constexpr unsigned int AGAEEKDKGBN_TypeDefinitionIndex = 36925;
+
 	class AGAEEKDKGBN : public ::System::Object
 	{
 	public:

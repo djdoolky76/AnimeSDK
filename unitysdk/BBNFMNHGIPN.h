@@ -40,6 +40,8 @@ namespace System { class String; }
 #define BBNFMNHGIPN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E7C9300)
 #define BBNFMNHGIPN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E7C9360)
 
+inline static constexpr unsigned int BBNFMNHGIPN_TypeDefinitionIndex = 28895;
+
 	class BBNFMNHGIPN : public ::System::Object
 	{
 	public:

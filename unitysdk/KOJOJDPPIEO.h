@@ -7,6 +7,8 @@ class KOJOJDPPIEO;
 #define KOJOJDPPIEO_CTOR_OFFSET UNITYSDK_OFFSET(0x1D0C1CF0)
 #define KOJOJDPPIEO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D0C1B70)
 
+inline static constexpr unsigned int KOJOJDPPIEO_TypeDefinitionIndex = 14092;
+
 	class KOJOJDPPIEO : public ::System::Object
 	{
 	public:

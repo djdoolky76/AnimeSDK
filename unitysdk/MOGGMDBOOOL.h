@@ -11,6 +11,8 @@ namespace System { class String; }
 #define MOGGMDBOOOL_GET_TYPE_OFFSET UNITYSDK_OFFSET(0xBA2BA40)
 #define MOGGMDBOOOL_JAILHGGFLDH_OFFSET UNITYSDK_OFFSET(0xBA2BA50)
 
+inline static constexpr unsigned int MOGGMDBOOOL_TypeDefinitionIndex = 56145;
+
 	class MOGGMDBOOOL : public ::DBGDNLLDPFI
 	{
 	public:

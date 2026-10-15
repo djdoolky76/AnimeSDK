@@ -2,6 +2,8 @@
 #include "unitysdk/unitysdk.h"
 namespace System { class Type; }
 
+inline static constexpr unsigned int OBJANKHLNGO_JGIDMPHIPAL_TypeDefinitionIndex = 44268;
+
 	class OBJANKHLNGO_JGIDMPHIPAL
 	{
 	public:

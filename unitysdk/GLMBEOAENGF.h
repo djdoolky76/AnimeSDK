@@ -31,6 +31,8 @@ namespace System { class String; }
 #define GLMBEOAENGF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E4C4F00)
 #define GLMBEOAENGF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E4C4F60)
 
+inline static constexpr unsigned int GLMBEOAENGF_TypeDefinitionIndex = 26928;
+
 	class GLMBEOAENGF : public ::System::Object
 	{
 	public:

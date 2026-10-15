@@ -9,6 +9,8 @@ namespace System { class Object; }
 #define FGHDJHDIJCD_IJOONKNIDKI_OFFSET UNITYSDK_OFFSET(0x157625D0)
 #define FGHDJHDIJCD_JKDLNCIIMMF_OFFSET UNITYSDK_OFFSET(0x15762660)
 
+inline static constexpr unsigned int FGHDJHDIJCD_TypeDefinitionIndex = 67256;
+
 	class FGHDJHDIJCD : public ::System::Object
 	{
 	public:

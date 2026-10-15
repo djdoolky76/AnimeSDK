@@ -4,6 +4,8 @@
 
 #define HBEEAFNPPEB_CTOR_OFFSET UNITYSDK_OFFSET(0x1CAB5D90)
 
+inline static constexpr unsigned int HBEEAFNPPEB_TypeDefinitionIndex = 42142;
+
 	class HBEEAFNPPEB : public ::System::Object
 	{
 	public:

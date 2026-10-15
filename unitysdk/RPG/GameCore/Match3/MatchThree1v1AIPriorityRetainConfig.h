@@ -9,6 +9,8 @@ namespace RPG::GameCore::Match3 { class MatchThree1v1AIPriorityRetainConfig; }
 
 namespace RPG::GameCore::Match3
 {
+	inline static constexpr unsigned int MatchThree1v1AIPriorityRetainConfig_TypeDefinitionIndex = 24946;
+
 	class MatchThree1v1AIPriorityRetainConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

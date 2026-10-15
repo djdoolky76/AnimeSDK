@@ -32,6 +32,8 @@ namespace UnityEngine::Rendering { class SupportedRenderingFeatures; }
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int SupportedRenderingFeatures_TypeDefinitionIndex = 4775;
+
 	class SupportedRenderingFeatures : public ::System::Object
 	{
 	public:

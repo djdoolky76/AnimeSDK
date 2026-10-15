@@ -3,6 +3,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PlayerStaminaData_TypeDefinitionIndex = 66678;
+
 	struct alignas(4) PlayerStaminaData
 	{
 		::System::UInt32 Stamina; // 0x10

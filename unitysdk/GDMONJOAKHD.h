@@ -161,6 +161,8 @@ namespace UnityEngine { class GameObject; }
 #define GDMONJOAKHD__SOLVEINSTANCELODCALC_OFFSET UNITYSDK_OFFSET(0x159AA440)
 #define GDMONJOAKHD__UNREGISTERINSTANCEFROMCULLINGSYSTEM_OFFSET UNITYSDK_OFFSET(0x159B1950)
 
+inline static constexpr unsigned int GDMONJOAKHD_TypeDefinitionIndex = 73832;
+
 	class GDMONJOAKHD : public ::System::Object
 	{
 	public:

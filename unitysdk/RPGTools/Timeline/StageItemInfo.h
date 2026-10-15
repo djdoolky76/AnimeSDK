@@ -4,6 +4,8 @@ namespace System { class String; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int StageItemInfo_TypeDefinitionIndex = 48405;
+
 	struct alignas(8) StageItemInfo
 	{
 		::System::String* BlockAlias; // 0x10

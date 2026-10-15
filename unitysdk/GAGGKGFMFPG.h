@@ -11,6 +11,8 @@ namespace UnityEngine { class Transform; }
 #define GAGGKGFMFPG_NHPDCPKMNAM_OFFSET UNITYSDK_OFFSET(0x1593ADD0)
 #define GAGGKGFMFPG__ONBIND_OFFSET UNITYSDK_OFFSET(0x1593AD20)
 
+inline static constexpr unsigned int GAGGKGFMFPG_TypeDefinitionIndex = 71806;
+
 	class GAGGKGFMFPG : public ::FMPCODLIOLG
 	{
 	public:

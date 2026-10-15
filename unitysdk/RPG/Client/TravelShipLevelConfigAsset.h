@@ -8,6 +8,8 @@ class NGLFOJKOKBH;
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TravelShipLevelConfigAsset_TypeDefinitionIndex = 68800;
+
 	class TravelShipLevelConfigAsset : public ::RPGTools::Octree::Generation::OctreeAsset
 	{
 	public:

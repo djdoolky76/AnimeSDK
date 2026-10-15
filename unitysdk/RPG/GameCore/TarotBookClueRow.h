@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TarotBookClueRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TarotBookClueRow_TypeDefinitionIndex = 15228;
+
 	class TarotBookClueRow : public ::System::Object
 	{
 	public:

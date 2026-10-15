@@ -12,6 +12,8 @@ namespace Entitas { template <typename T> class IMatcher_1; }
 #define KJIEPBGLJKM_KCKGCBPHGBD_1_OFFSET UNITYSDK_OFFSET(0x1C905350)
 #define KJIEPBGLJKM_KCKGCBPHGBD_OFFSET UNITYSDK_OFFSET(0x1C9052C0)
 
+inline static constexpr unsigned int KJIEPBGLJKM_TypeDefinitionIndex = 42829;
+
 	class KJIEPBGLJKM : public ::System::Object
 	{
 	public:

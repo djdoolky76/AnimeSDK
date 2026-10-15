@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ActivityDiceCombatV2TitleType_TypeDefinitionIndex = 11297;
+
 	enum class ActivityDiceCombatV2TitleType : ::System::Int32
 	{
 		None = 0,

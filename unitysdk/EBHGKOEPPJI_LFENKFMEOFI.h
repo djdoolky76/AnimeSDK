@@ -13,6 +13,8 @@ namespace System { class Action; }
 #define EBHGKOEPPJI_LFENKFMEOFI_SET_REMAININGTIME_OFFSET UNITYSDK_OFFSET(0x12CF52A0)
 #define EBHGKOEPPJI_LFENKFMEOFI_SET_UNIT_OFFSET UNITYSDK_OFFSET(0x12CF5280)
 
+inline static constexpr unsigned int EBHGKOEPPJI_LFENKFMEOFI_TypeDefinitionIndex = 79788;
+
 	class EBHGKOEPPJI_LFENKFMEOFI : public ::System::Object
 	{
 	public:

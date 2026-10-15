@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define GLELAIMEKLN_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1CE632F0)
 #define GLELAIMEKLN_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1CE62C50)
 
+inline static constexpr unsigned int GLELAIMEKLN_TypeDefinitionIndex = 11228;
+
 	class GLELAIMEKLN : public ::System::Object
 	{
 	public:

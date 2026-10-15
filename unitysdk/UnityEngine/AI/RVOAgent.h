@@ -24,6 +24,8 @@ namespace UnityEngine::AI { class RVOAgent; }
 
 namespace UnityEngine::AI
 {
+	inline static constexpr unsigned int RVOAgent_TypeDefinitionIndex = 5673;
+
 	class RVOAgent : public ::UnityEngine::Object
 	{
 	public:

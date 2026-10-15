@@ -10,6 +10,8 @@ namespace System::Runtime::Serialization { class SerializationInfo; }
 
 namespace System::Collections::Generic
 {
+	inline static constexpr unsigned int DictionaryHashHelpers_TypeDefinitionIndex = 1542;
+
 	class DictionaryHashHelpers : public ::System::Object
 	{
 	public:

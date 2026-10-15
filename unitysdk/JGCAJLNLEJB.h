@@ -5,6 +5,8 @@ namespace RPG::GameCore { class AIDecisionGroup; }
 
 #define JGCAJLNLEJB_NBHCPBBGAKA_OFFSET UNITYSDK_OFFSET(0xB1957B0)
 
+inline static constexpr unsigned int JGCAJLNLEJB_TypeDefinitionIndex = 57761;
+
 	class JGCAJLNLEJB : public ::System::Object
 	{
 	public:

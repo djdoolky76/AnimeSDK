@@ -8,6 +8,8 @@ namespace System::Configuration { class ConfigurationPropertyCollection; }
 
 namespace System::Net::Configuration
 {
+	inline static constexpr unsigned int WebProxyScriptElement_TypeDefinitionIndex = 3087;
+
 	class WebProxyScriptElement : public ::System::Configuration::ConfigurationElement
 	{
 	public:

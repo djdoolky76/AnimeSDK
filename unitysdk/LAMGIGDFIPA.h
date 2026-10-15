@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define LAMGIGDFIPA_AKCIMDNCGDO_OFFSET UNITYSDK_OFFSET(0xB5E7B40)
 #define LAMGIGDFIPA_JLGNNDPPHNC_OFFSET UNITYSDK_OFFSET(0xB5E75B0)
 
+inline static constexpr unsigned int LAMGIGDFIPA_TypeDefinitionIndex = 81039;
+
 	class LAMGIGDFIPA : public ::System::Object
 	{
 	public:

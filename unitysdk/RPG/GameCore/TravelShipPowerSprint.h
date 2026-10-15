@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TravelShipPowerSprint; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TravelShipPowerSprint_TypeDefinitionIndex = 20972;
+
 	class TravelShipPowerSprint : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class LevelPedestrianV2IntersectionChenLingFactoryStat
 #define FCFPLEDCJKF_OJMPPKDLNFG_DISPOSE_OFFSET UNITYSDK_OFFSET(0x156BAE80)
 #define FCFPLEDCJKF_OJMPPKDLNFG_PKADDEPKJFN_OFFSET UNITYSDK_OFFSET(0x156BAEF0)
 
+inline static constexpr unsigned int FCFPLEDCJKF_OJMPPKDLNFG_TypeDefinitionIndex = 69310;
+
 	class FCFPLEDCJKF_OJMPPKDLNFG : public ::FCFPLEDCJKF_ANJIEBKBMKG
 	{
 	public:

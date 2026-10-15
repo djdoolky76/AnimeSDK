@@ -6,6 +6,8 @@
 
 namespace RPG::Client::FateRin::CaseBoard
 {
+	inline static constexpr unsigned int CaseBoardDetailItemBaseViewModel_TypeDefinitionIndex = 80796;
+
 	class CaseBoardDetailItemBaseViewModel : public ::System::Object
 	{
 	public:

@@ -23,6 +23,8 @@ namespace UnityEngine { class ResourceRequest; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int Resources_TypeDefinitionIndex = 4277;
+
 	class Resources : public ::System::Object
 	{
 	public:

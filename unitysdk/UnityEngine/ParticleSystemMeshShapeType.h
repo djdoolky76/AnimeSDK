@@ -3,6 +3,8 @@
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int ParticleSystemMeshShapeType_TypeDefinitionIndex = 5258;
+
 	enum class ParticleSystemMeshShapeType : ::System::Int32
 	{
 		Vertex = 0,

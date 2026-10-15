@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define PIIGDBJFNCP_PDIJKMHNMNP_GETREDIRECTINFO_OFFSET UNITYSDK_OFFSET(0xC268FA0)
 #define PIIGDBJFNCP_PDIJKMHNMNP_IKKHEEOPKKL_OFFSET UNITYSDK_OFFSET(0xC268DC0)
 
+inline static constexpr unsigned int PIIGDBJFNCP_PDIJKMHNMNP_TypeDefinitionIndex = 55959;
+
 	class PIIGDBJFNCP_PDIJKMHNMNP : public ::System::Object
 	{
 	public:

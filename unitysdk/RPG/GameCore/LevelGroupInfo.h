@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelGroupInfo_TypeDefinitionIndex = 17350;
+
 	class LevelGroupInfo : public ::RPG::GameCore::RtLevelGroupInfoBase
 	{
 	public:

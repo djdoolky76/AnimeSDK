@@ -18,6 +18,8 @@ namespace UnityEngine { class Collision; }
 
 namespace RPG::Client::LittleGame::FiveDim
 {
+	inline static constexpr unsigned int FiveDimFloatingSpiritPhysicsProxyView_TypeDefinitionIndex = 77200;
+
 	class FiveDimFloatingSpiritPhysicsProxyView : public ::RPG::Client::LittleGame::FiveDim::FiveDimPropPhysicsProxyView
 	{
 	public:

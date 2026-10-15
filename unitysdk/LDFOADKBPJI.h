@@ -29,6 +29,8 @@ namespace System { class String; }
 #define LDFOADKBPJI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E8F7510)
 #define LDFOADKBPJI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E8F7570)
 
+inline static constexpr unsigned int LDFOADKBPJI_TypeDefinitionIndex = 32186;
+
 	class LDFOADKBPJI : public ::System::Object
 	{
 	public:

@@ -22,6 +22,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int FourRotateVoxelUtils_TypeDefinitionIndex = 60405;
+
 	class FourRotateVoxelUtils : public ::System::Object
 	{
 	public:

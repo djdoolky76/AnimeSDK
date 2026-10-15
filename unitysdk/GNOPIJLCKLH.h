@@ -13,6 +13,8 @@ namespace UnityEngine::EventSystems { class PointerEventData; }
 #define GNOPIJLCKLH_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0x15B1F590)
 #define GNOPIJLCKLH_OINBDMGFFJL_OFFSET UNITYSDK_OFFSET(0x15B1F2F0)
 
+inline static constexpr unsigned int GNOPIJLCKLH_TypeDefinitionIndex = 80706;
+
 	class GNOPIJLCKLH : public ::System::Object
 	{
 	public:

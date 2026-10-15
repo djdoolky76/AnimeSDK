@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int DKOPGDPKJHB_TypeDefinitionIndex = 25195;
+
 	enum class DKOPGDPKJHB : ::System::Int32
 	{
 		CGBIKOCDABB = 0,

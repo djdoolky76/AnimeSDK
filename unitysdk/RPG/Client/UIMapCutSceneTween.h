@@ -17,6 +17,8 @@ namespace UnityEngine::Rendering { class VolumeProxy; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int UIMapCutSceneTween_TypeDefinitionIndex = 73086;
+
 	class UIMapCutSceneTween : public ::UnityEngine::MonoBehaviour
 	{
 	public:

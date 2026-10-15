@@ -10,6 +10,8 @@ namespace System::Collections { class IEnumerator; }
 
 namespace Mono::Security::X509
 {
+	inline static constexpr unsigned int X509ExtensionCollection_7807EDDE70A24655_TypeDefinitionIndex = 2271;
+
 	class X509ExtensionCollection_7807EDDE70A24655 : public ::System::Collections::CollectionBase
 	{
 	public:

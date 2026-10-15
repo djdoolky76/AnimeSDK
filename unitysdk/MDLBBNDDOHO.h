@@ -8,6 +8,8 @@ class IGACELAIJCM;
 #define MDLBBNDDOHO_CTOR_OFFSET UNITYSDK_OFFSET(0xB8AD680)
 #define MDLBBNDDOHO_OPBFNDKICAC_OFFSET UNITYSDK_OFFSET(0xB8AD6D0)
 
+inline static constexpr unsigned int MDLBBNDDOHO_TypeDefinitionIndex = 67187;
+
 	class MDLBBNDDOHO : public ::DFLONJKEAKP
 	{
 	public:

@@ -9,6 +9,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 #define JNIJALGPGDD___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1C708830)
 #define JNIJALGPGDD___C__DOCOLORDICESKILLCONDITIONCHECK_B__8_0_OFFSET UNITYSDK_OFFSET(0x1C708840)
 
+inline static constexpr unsigned int JNIJALGPGDD___c_TypeDefinitionIndex = 36421;
+
 	class JNIJALGPGDD___c : public ::System::Object
 	{
 	public:

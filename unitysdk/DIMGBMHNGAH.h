@@ -35,6 +35,8 @@ namespace System { class String; }
 #define DIMGBMHNGAH_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E1C2080)
 #define DIMGBMHNGAH_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E1C20E0)
 
+inline static constexpr unsigned int DIMGBMHNGAH_TypeDefinitionIndex = 30039;
+
 	class DIMGBMHNGAH : public ::System::Object
 	{
 	public:

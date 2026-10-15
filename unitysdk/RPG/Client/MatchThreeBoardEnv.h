@@ -17,6 +17,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MatchThreeBoardEnv_TypeDefinitionIndex = 65927;
+
 	class MatchThreeBoardEnv : public ::UnityEngine::MonoBehaviour
 	{
 	public:

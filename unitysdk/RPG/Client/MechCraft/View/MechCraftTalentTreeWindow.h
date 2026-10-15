@@ -15,6 +15,8 @@ namespace UnityEngine { class Coroutine; }
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftTalentTreeWindow_TypeDefinitionIndex = 80059;
+
 	class MechCraftTalentTreeWindow : public ::Sofa::BaseSofaWindow
 	{
 	public:

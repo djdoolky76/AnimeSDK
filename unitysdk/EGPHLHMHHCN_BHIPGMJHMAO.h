@@ -13,6 +13,8 @@ namespace System { class Object; }
 #define EGPHLHMHHCN_BHIPGMJHMAO_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1549B770)
 #define EGPHLHMHHCN_BHIPGMJHMAO_INVOKE_OFFSET UNITYSDK_OFFSET(0x1549B720)
 
+inline static constexpr unsigned int EGPHLHMHHCN_BHIPGMJHMAO_TypeDefinitionIndex = 55821;
+
 	class EGPHLHMHHCN_BHIPGMJHMAO : public ::System::MulticastDelegate
 	{
 	public:

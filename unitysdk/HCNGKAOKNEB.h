@@ -6,6 +6,8 @@ namespace RPG::GameCore { class VCameraConfig; }
 
 #define HCNGKAOKNEB_MCNGJFOADFK_OFFSET UNITYSDK_OFFSET(0x15C29B90)
 
+inline static constexpr unsigned int HCNGKAOKNEB_TypeDefinitionIndex = 73252;
+
 	class HCNGKAOKNEB : public ::System::Object
 	{
 	public:

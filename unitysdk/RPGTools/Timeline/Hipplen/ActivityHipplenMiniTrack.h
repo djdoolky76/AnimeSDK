@@ -11,6 +11,8 @@ namespace UnityEngine::Timeline { class TimelineClip; }
 
 namespace RPGTools::Timeline::Hipplen
 {
+	inline static constexpr unsigned int ActivityHipplenMiniTrack_TypeDefinitionIndex = 48647;
+
 	class ActivityHipplenMiniTrack : public ::RPGTools::Timeline::CustomUniqueNameTrack
 	{
 	public:

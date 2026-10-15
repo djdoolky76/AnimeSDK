@@ -8,6 +8,8 @@ class HIAMBDKHMIJ;
 #define DHAFGMHPMHG___C__DISPLAYCLASS4_0___ONITEMFAILEDBYTHREAD_B__0_OFFSET UNITYSDK_OFFSET(0xEBB53E0)
 #define DHAFGMHPMHG___C__DISPLAYCLASS4_0___ONITEMFAILEDBYTHREAD_B__1_OFFSET UNITYSDK_OFFSET(0xEBB5530)
 
+inline static constexpr unsigned int DHAFGMHPMHG___c__DisplayClass4_0_TypeDefinitionIndex = 59584;
+
 	class DHAFGMHPMHG___c__DisplayClass4_0 : public ::System::Object
 	{
 	public:

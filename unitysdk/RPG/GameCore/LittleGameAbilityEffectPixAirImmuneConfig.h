@@ -10,6 +10,8 @@ namespace RPG::GameCore { class LittleGameAbilityEffectPixAirImmuneConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LittleGameAbilityEffectPixAirImmuneConfig_TypeDefinitionIndex = 21345;
+
 	class LittleGameAbilityEffectPixAirImmuneConfig : public ::RPG::GameCore::BaseLittleGameAbilityEffectConfig
 	{
 	public:

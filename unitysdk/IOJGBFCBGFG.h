@@ -7,6 +7,8 @@ namespace RPG::Client::LittleGameShare { class ST_CakeRaceByPropertyCompare; }
 #define IOJGBFCBGFG_CTOR_OFFSET UNITYSDK_OFFSET(0x1C6E4140)
 #define IOJGBFCBGFG_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1C6E41C0)
 
+inline static constexpr unsigned int IOJGBFCBGFG_TypeDefinitionIndex = 36986;
+
 	class IOJGBFCBGFG
 	{
 	public:

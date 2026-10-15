@@ -4,6 +4,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ArtPrefabPreview_MeshPartLodInfo_TypeDefinitionIndex = 68358;
+
 	struct alignas(8) ArtPrefabPreview_MeshPartLodInfo
 	{
 		::System::String* Name; // 0x10

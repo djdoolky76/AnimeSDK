@@ -4,6 +4,8 @@
 
 #define MONOSTAIRGENERATOR_CTOR_OFFSET UNITYSDK_OFFSET(0xBA4F050)
 
+inline static constexpr unsigned int MonoStairGenerator_TypeDefinitionIndex = 47507;
+
 	class MonoStairGenerator : public ::UnityEngine::MonoBehaviour
 	{
 	public:

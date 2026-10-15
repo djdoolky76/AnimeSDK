@@ -9,6 +9,8 @@ namespace RPG::Client { class MatchThreePropPanel; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MatchThreePropPanel___c__DisplayClass24_0_TypeDefinitionIndex = 65971;
+
 	class MatchThreePropPanel___c__DisplayClass24_0 : public ::System::Object
 	{
 	public:

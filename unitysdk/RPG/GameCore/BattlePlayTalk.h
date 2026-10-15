@@ -11,6 +11,8 @@ namespace RPG::GameCore { class BattlePlayTalk; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int BattlePlayTalk_TypeDefinitionIndex = 23383;
+
 	class BattlePlayTalk : public ::RPG::GameCore::TaskConfig
 	{
 	public:

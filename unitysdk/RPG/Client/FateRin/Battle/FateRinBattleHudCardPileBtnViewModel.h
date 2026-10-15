@@ -32,6 +32,8 @@ class PGKHIKFLKLM;
 
 namespace RPG::Client::FateRin::Battle
 {
+	inline static constexpr unsigned int FateRinBattleHudCardPileBtnViewModel_TypeDefinitionIndex = 80896;
+
 	class FateRinBattleHudCardPileBtnViewModel : public ::RPG::Client::FateRin::BaseViewModel
 	{
 	public:

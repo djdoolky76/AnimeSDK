@@ -10,6 +10,8 @@ namespace System { class Exception; }
 #define OJHMEHAHDNI___C__DISPLAYCLASS37_0___REQUESTANDAPPLYACTIVITYDATAASYNC_B__0_OFFSET UNITYSDK_OFFSET(0xBEBA060)
 #define OJHMEHAHDNI___C__DISPLAYCLASS37_0___REQUESTANDAPPLYACTIVITYDATAASYNC_B__1_OFFSET UNITYSDK_OFFSET(0xBEBA0F0)
 
+inline static constexpr unsigned int OJHMEHAHDNI___c__DisplayClass37_0_TypeDefinitionIndex = 81733;
+
 	class OJHMEHAHDNI___c__DisplayClass37_0 : public ::System::Object
 	{
 	public:

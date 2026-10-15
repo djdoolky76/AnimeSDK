@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define DPIFGEONFPI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E211460)
 #define DPIFGEONFPI___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E211470)
 
+inline static constexpr unsigned int DPIFGEONFPI___c_TypeDefinitionIndex = 25227;
+
 	class DPIFGEONFPI___c : public ::System::Object
 	{
 	public:

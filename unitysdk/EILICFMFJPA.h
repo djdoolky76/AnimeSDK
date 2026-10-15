@@ -11,6 +11,8 @@ namespace System { class Object; }
 #define EILICFMFJPA_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1C6010B0)
 #define EILICFMFJPA_INVOKE_OFFSET UNITYSDK_OFFSET(0x1C601070)
 
+inline static constexpr unsigned int EILICFMFJPA_TypeDefinitionIndex = 36230;
+
 	class EILICFMFJPA : public ::System::MulticastDelegate
 	{
 	public:

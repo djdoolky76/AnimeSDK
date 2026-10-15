@@ -8,6 +8,8 @@ namespace RPG::Client { class PlanetFesFloatingController; }
 #define EHKJANGLDLP_CTOR_OFFSET UNITYSDK_OFFSET(0x154AE2B0)
 #define EHKJANGLDLP_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x154AE250)
 
+inline static constexpr unsigned int EHKJANGLDLP_TypeDefinitionIndex = 74464;
+
 	class EHKJANGLDLP : public ::MFDDEJCPLON
 	{
 	public:

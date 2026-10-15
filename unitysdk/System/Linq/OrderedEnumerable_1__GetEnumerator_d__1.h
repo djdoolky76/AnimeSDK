@@ -6,6 +6,8 @@ namespace System::Linq { template <typename T> class OrderedEnumerable_1; }
 
 namespace System::Linq
 {
+	inline static constexpr unsigned int OrderedEnumerable_1__GetEnumerator_d__1_TypeDefinitionIndex = 3178;
+
 	template <typename T>
 	class OrderedEnumerable_1__GetEnumerator_d__1 : public ::System::Object
 	{

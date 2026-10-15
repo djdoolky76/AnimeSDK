@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define FAJEJCBILIA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E3273A0)
 #define FAJEJCBILIA___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E3273B0)
 
+inline static constexpr unsigned int FAJEJCBILIA___c_TypeDefinitionIndex = 29961;
+
 	class FAJEJCBILIA___c : public ::System::Object
 	{
 	public:

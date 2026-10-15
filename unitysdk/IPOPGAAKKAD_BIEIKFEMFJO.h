@@ -4,6 +4,8 @@
 
 #define IPOPGAAKKAD_BIEIKFEMFJO_CTOR_OFFSET UNITYSDK_OFFSET(0x1C6E8200)
 
+inline static constexpr unsigned int IPOPGAAKKAD_BIEIKFEMFJO_TypeDefinitionIndex = 37306;
+
 	class IPOPGAAKKAD_BIEIKFEMFJO : public ::System::Object
 	{
 	public:

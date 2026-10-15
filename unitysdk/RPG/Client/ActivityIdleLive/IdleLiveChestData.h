@@ -34,6 +34,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::ActivityIdleLive
 {
+	inline static constexpr unsigned int IdleLiveChestData_TypeDefinitionIndex = 75168;
+
 	class IdleLiveChestData : public ::System::Object
 	{
 	public:

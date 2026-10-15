@@ -14,6 +14,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int MultiPlayerArcadeScreenNode_TypeDefinitionIndex = 78186;
+
 	class MultiPlayerArcadeScreenNode : public ::UnityEngine::MonoBehaviour
 	{
 	public:

@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 
 #define AENODHBJCLA_CTOR_OFFSET UNITYSDK_OFFSET(0xCF03B10)
 
+inline static constexpr unsigned int AENODHBJCLA_TypeDefinitionIndex = 55485;
+
 	class AENODHBJCLA : public ::GAIJNANMMHK
 	{
 	public:

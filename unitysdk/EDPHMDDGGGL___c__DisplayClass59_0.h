@@ -7,6 +7,8 @@ namespace RPG::GameCore { class PerformanceDynamicLoadCharacter; }
 #define EDPHMDDGGGL___C__DISPLAYCLASS59_0_CTOR_OFFSET UNITYSDK_OFFSET(0x13334C20)
 #define EDPHMDDGGGL___C__DISPLAYCLASS59_0___ONDYNAMICLOADSTORYCHARACTER_B__0_OFFSET UNITYSDK_OFFSET(0x1334C430)
 
+inline static constexpr unsigned int EDPHMDDGGGL___c__DisplayClass59_0_TypeDefinitionIndex = 60724;
+
 	class EDPHMDDGGGL___c__DisplayClass59_0 : public ::System::Object
 	{
 	public:

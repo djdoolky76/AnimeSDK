@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define BLFMKDAGCFO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DF60580)
 #define BLFMKDAGCFO___C___CCTOR_B__68_0_OFFSET UNITYSDK_OFFSET(0x1DF60590)
 
+inline static constexpr unsigned int BLFMKDAGCFO___c_TypeDefinitionIndex = 31498;
+
 	class BLFMKDAGCFO___c : public ::System::Object
 	{
 	public:

@@ -7,6 +7,8 @@ namespace RPGTools::Timeline { class EyeBloomData; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int EmoEyeBloomTimelineBehaviour_TypeDefinitionIndex = 48114;
+
 	class EmoEyeBloomTimelineBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

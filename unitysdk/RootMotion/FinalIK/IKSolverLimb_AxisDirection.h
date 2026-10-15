@@ -6,6 +6,8 @@
 
 namespace RootMotion::FinalIK
 {
+	inline static constexpr unsigned int IKSolverLimb_AxisDirection_TypeDefinitionIndex = 46022;
+
 	struct alignas(4) IKSolverLimb_AxisDirection
 	{
 		::UnityEngine::Vector3 direction; // 0x10

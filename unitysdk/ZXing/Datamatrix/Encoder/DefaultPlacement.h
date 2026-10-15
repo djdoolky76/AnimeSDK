@@ -17,6 +17,8 @@ namespace System { class String; }
 
 namespace ZXing::Datamatrix::Encoder
 {
+	inline static constexpr unsigned int DefaultPlacement_TypeDefinitionIndex = 7016;
+
 	class DefaultPlacement : public ::System::Object
 	{
 	public:

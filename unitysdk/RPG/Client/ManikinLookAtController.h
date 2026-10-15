@@ -31,6 +31,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ManikinLookAtController_TypeDefinitionIndex = 68505;
+
 	class ManikinLookAtController : public ::UnityEngine::MonoBehaviour
 	{
 	public:

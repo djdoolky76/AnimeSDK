@@ -5,6 +5,8 @@
 
 #define LBGDIMPFAKE_CTOR_OFFSET UNITYSDK_OFFSET(0x1C7200D0)
 
+inline static constexpr unsigned int LBGDIMPFAKE_TypeDefinitionIndex = 37231;
+
 	class LBGDIMPFAKE : public ::System::Object
 	{
 	public:

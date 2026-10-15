@@ -13,6 +13,8 @@ namespace RPG::Client::FateRin::Logging { class ILoggerFactory; }
 #define LFACJHHPEEF_FOIEPBGNABP_OFFSET UNITYSDK_OFFSET(0xB65E830)
 #define LFACJHHPEEF_HKKPPEKIIEJ_OFFSET UNITYSDK_OFFSET(0xB65E7B0)
 
+inline static constexpr unsigned int LFACJHHPEEF_TypeDefinitionIndex = 81225;
+
 	class LFACJHHPEEF : public ::System::Object
 	{
 	public:

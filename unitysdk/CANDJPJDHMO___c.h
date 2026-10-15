@@ -17,6 +17,8 @@ namespace UnityEngine { class Collider; }
 #define CANDJPJDHMO___C___DEPLOYGRAVITYSWITCHMODIFYMAXFALLSPEEDTRIGGER_B__13_1_OFFSET UNITYSDK_OFFSET(0xC4930D0)
 #define CANDJPJDHMO___C___LISTENLEVELVAR_B__29_0_OFFSET UNITYSDK_OFFSET(0xC493100)
 
+inline static constexpr unsigned int CANDJPJDHMO___c_TypeDefinitionIndex = 77120;
+
 	class CANDJPJDHMO___c : public ::System::Object
 	{
 	public:

@@ -13,6 +13,8 @@ class PLAJONHLDJN;
 #define FFOMBAHCGLE_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1C616370)
 #define FFOMBAHCGLE_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x1C616000)
 
+inline static constexpr unsigned int FFOMBAHCGLE_TypeDefinitionIndex = 36524;
+
 	class FFOMBAHCGLE : public ::System::Object
 	{
 	public:

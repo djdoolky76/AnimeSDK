@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define GDLCKAFPJCI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E44E2A0)
 #define GDLCKAFPJCI___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1E44E2B0)
 
+inline static constexpr unsigned int GDLCKAFPJCI___c_TypeDefinitionIndex = 33373;
+
 	class GDLCKAFPJCI___c : public ::System::Object
 	{
 	public:

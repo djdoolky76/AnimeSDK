@@ -31,6 +31,8 @@ namespace UnityEngine { class Transform; }
 #define AANPEENHCMK__ONBIND_OFFSET UNITYSDK_OFFSET(0xB0D6540)
 #define AANPEENHCMK__ONTICK_OFFSET UNITYSDK_OFFSET(0xB0D7150)
 
+inline static constexpr unsigned int AANPEENHCMK_TypeDefinitionIndex = 72122;
+
 	class AANPEENHCMK : public ::FMPCODLIOLG
 	{
 	public:

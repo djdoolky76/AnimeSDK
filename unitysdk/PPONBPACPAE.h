@@ -25,6 +25,8 @@ namespace System { class String; }
 #define PPONBPACPAE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DFE1E10)
 #define PPONBPACPAE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DFE1E70)
 
+inline static constexpr unsigned int PPONBPACPAE_TypeDefinitionIndex = 32290;
+
 	class PPONBPACPAE : public ::System::Object
 	{
 	public:

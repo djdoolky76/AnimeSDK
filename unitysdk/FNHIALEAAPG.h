@@ -14,6 +14,8 @@
 #define FNHIALEAAPG_GET_USESSOURCEPROFILE_OFFSET UNITYSDK_OFFSET(0x26270)
 #define FNHIALEAAPG_GET_VISUALSTATE_OFFSET UNITYSDK_OFFSET(0xE620)
 
+inline static constexpr unsigned int FNHIALEAAPG_TypeDefinitionIndex = 62147;
+
 	struct alignas(4) FNHIALEAAPG
 	{
 		::RPG::GameCore::StageRegionVisualState _VisualState_k__BackingField; // 0x10

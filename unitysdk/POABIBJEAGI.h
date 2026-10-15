@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int POABIBJEAGI_TypeDefinitionIndex = 25267;
+
 	enum class POABIBJEAGI : ::System::Int32
 	{
 		AKFGIEKMPND = 0,

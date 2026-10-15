@@ -15,6 +15,8 @@ namespace UnityEngine { class Transform; }
 #define JENCIPCOCGL_EBHNJMPEILL_OFFSET UNITYSDK_OFFSET(0x16641B10)
 #define JENCIPCOCGL_GGBLHEHJBDO_OFFSET UNITYSDK_OFFSET(0x16641100)
 
+inline static constexpr unsigned int JENCIPCOCGL_TypeDefinitionIndex = 59796;
+
 	class JENCIPCOCGL : public ::System::Object
 	{
 	public:

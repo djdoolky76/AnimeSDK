@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace Google::Protobuf::Reflection
 {
+	inline static constexpr unsigned int DescriptorValidationException_TypeDefinitionIndex = 5531;
+
 	class DescriptorValidationException : public ::System::Exception
 	{
 	public:

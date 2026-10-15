@@ -10,6 +10,8 @@ namespace RPG::GameCore { class PlayPenaconyEndmostScale; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PlayPenaconyEndmostScale_TypeDefinitionIndex = 21827;
+
 	class PlayPenaconyEndmostScale : public ::RPG::GameCore::TaskConfig
 	{
 	public:

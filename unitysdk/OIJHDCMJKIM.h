@@ -10,6 +10,8 @@
 #define OIJHDCMJKIM_MOMGDJKPKLE_OFFSET UNITYSDK_OFFSET(0xBE9D930)
 #define OIJHDCMJKIM_NBANDBJAJBK_OFFSET UNITYSDK_OFFSET(0xBE9D820)
 
+inline static constexpr unsigned int OIJHDCMJKIM_TypeDefinitionIndex = 64109;
+
 	class OIJHDCMJKIM : public ::System::Object
 	{
 	public:

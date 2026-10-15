@@ -5,6 +5,8 @@
 
 #define EPPDPBEBKBO_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA62FF0)
 
+inline static constexpr unsigned int EPPDPBEBKBO_TypeDefinitionIndex = 42292;
+
 	class EPPDPBEBKBO : public ::System::Object
 	{
 	public:

@@ -14,6 +14,8 @@ namespace MessagePack::Formatters { class IMessagePackFormatter; }
 
 namespace MessagePack::Formatters
 {
+	inline static constexpr unsigned int BigIntegerFormatter_TypeDefinitionIndex = 7495;
+
 	class BigIntegerFormatter : public ::System::Object
 	{
 	public:

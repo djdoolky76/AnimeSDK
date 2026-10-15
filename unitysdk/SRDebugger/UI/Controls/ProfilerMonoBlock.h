@@ -13,6 +13,8 @@ namespace UnityEngine::UI { class Text; }
 
 namespace SRDebugger::UI::Controls
 {
+	inline static constexpr unsigned int ProfilerMonoBlock_TypeDefinitionIndex = 38032;
+
 	class ProfilerMonoBlock : public ::SRF::SRMonoBehaviourEx
 	{
 	public:

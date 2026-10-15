@@ -13,6 +13,8 @@ namespace System { class String; }
 
 #define CKAGOCDOLOM_CTOR_OFFSET UNITYSDK_OFFSET(0xD752C70)
 
+inline static constexpr unsigned int CKAGOCDOLOM_TypeDefinitionIndex = 54419;
+
 	class CKAGOCDOLOM : public ::System::Object
 	{
 	public:

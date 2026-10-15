@@ -26,6 +26,8 @@ namespace System::Text { class StringBuilder; }
 
 namespace RPG::Client::BlindBox::Pool
 {
+	inline static constexpr unsigned int BlindBoxCostCalculateResult_TypeDefinitionIndex = 74941;
+
 	struct alignas(4) BlindBoxCostCalculateResult
 	{
 		::System::UInt32 _OpenNum_k__BackingField; // 0x10

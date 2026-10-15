@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int QuestProgressChangeListener_TypeDefinitionIndex = 21213;
+
 	class QuestProgressChangeListener : public ::RPG::GameCore::TaskConfig
 	{
 	public:

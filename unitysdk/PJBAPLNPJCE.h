@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T> class IList_1; }
 #define PJBAPLNPJCE_FFALMOPIEND_OFFSET UNITYSDK_OFFSET(0xC27AC80)
 #define PJBAPLNPJCE_LAPPCCOFMPL_OFFSET UNITYSDK_OFFSET(0xC27B300)
 
+inline static constexpr unsigned int PJBAPLNPJCE_TypeDefinitionIndex = 66691;
+
 	class PJBAPLNPJCE : public ::System::Object
 	{
 	public:

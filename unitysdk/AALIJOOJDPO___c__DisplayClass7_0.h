@@ -7,6 +7,8 @@ namespace UnityEngine { class Component; }
 #define AALIJOOJDPO___C__DISPLAYCLASS7_0__PLAYSHOWDEFERRED_B__0_OFFSET UNITYSDK_OFFSET(0xB0CFB70)
 #define AALIJOOJDPO___C__DISPLAYCLASS7_0__PLAYSHOWDEFERRED_B__1_OFFSET UNITYSDK_OFFSET(0xB0CFB80)
 
+inline static constexpr unsigned int AALIJOOJDPO___c__DisplayClass7_0_TypeDefinitionIndex = 47841;
+
 	class AALIJOOJDPO___c__DisplayClass7_0 : public ::System::Object
 	{
 	public:

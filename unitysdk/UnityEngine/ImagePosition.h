@@ -3,6 +3,8 @@
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int ImagePosition_TypeDefinitionIndex = 5184;
+
 	enum class ImagePosition : ::System::Int32
 	{
 		ImageLeft = 0,

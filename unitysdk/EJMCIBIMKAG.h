@@ -7,6 +7,8 @@ namespace RPG::GameCore { class AnchorInfo; }
 #define EJMCIBIMKAG_CTOR_OFFSET UNITYSDK_OFFSET(0x154ED660)
 #define EJMCIBIMKAG_MGPLPPLEMPK_OFFSET UNITYSDK_OFFSET(0x154ED510)
 
+inline static constexpr unsigned int EJMCIBIMKAG_TypeDefinitionIndex = 57317;
+
 	class EJMCIBIMKAG : public ::FHKIKPOPLPJ
 	{
 	public:

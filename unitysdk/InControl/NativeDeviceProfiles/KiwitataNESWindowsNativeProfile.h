@@ -7,6 +7,8 @@
 
 namespace InControl::NativeDeviceProfiles
 {
+	inline static constexpr unsigned int KiwitataNESWindowsNativeProfile_TypeDefinitionIndex = 41306;
+
 	class KiwitataNESWindowsNativeProfile : public ::InControl::InputDeviceProfile
 	{
 	public:

@@ -5,6 +5,8 @@
 
 #define DJMHCEKLKEO_CTOR_OFFSET UNITYSDK_OFFSET(0xF23E180)
 
+inline static constexpr unsigned int DJMHCEKLKEO_TypeDefinitionIndex = 57512;
+
 	class DJMHCEKLKEO : public ::System::Object
 	{
 	public:

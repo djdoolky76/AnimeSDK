@@ -20,6 +20,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define LKKHOCGBNCE_NMBINJBMFCA_OFFSET UNITYSDK_OFFSET(0xB753C50)
 #define LKKHOCGBNCE_OMIBCMMNJDG_OFFSET UNITYSDK_OFFSET(0xB753430)
 
+inline static constexpr unsigned int LKKHOCGBNCE_TypeDefinitionIndex = 59720;
+
 	class LKKHOCGBNCE : public ::LJKHPOHKIIF
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FiveDimActionRandomBubbleTalkInfoGroup; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimActionRandomBubbleTalkInfoGroup_TypeDefinitionIndex = 18775;
+
 	class FiveDimActionRandomBubbleTalkInfoGroup : public ::RPG::GameCore::JsonConfig
 	{
 	public:

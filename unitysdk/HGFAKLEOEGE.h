@@ -11,6 +11,8 @@ class PIINMLJJIAF;
 #define HGFAKLEOEGE_GET_Y_OFFSET UNITYSDK_OFFSET(0x1D10)
 #define HGFAKLEOEGE_LCJMKJPECAP_OFFSET UNITYSDK_OFFSET(0x2E7E640)
 
+inline static constexpr unsigned int HGFAKLEOEGE_TypeDefinitionIndex = 70234;
+
 	struct alignas(4) HGFAKLEOEGE
 	{
 		::System::Single _X_k__BackingField; // 0x10

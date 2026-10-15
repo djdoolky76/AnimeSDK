@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define JLNOOBFAACC_CTOR_OFFSET UNITYSDK_OFFSET(0x1CBA3360)
 #define JLNOOBFAACC_DFDDDDBAHOC_OFFSET UNITYSDK_OFFSET(0x1CBA32B0)
 
+inline static constexpr unsigned int JLNOOBFAACC_TypeDefinitionIndex = 42111;
+
 	class JLNOOBFAACC : public ::System::Object
 	{
 	public:

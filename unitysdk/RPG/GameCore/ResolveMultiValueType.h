@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ResolveMultiValueType_TypeDefinitionIndex = 18258;
+
 	enum class ResolveMultiValueType : ::System::Int32
 	{
 		GetMax = 0,

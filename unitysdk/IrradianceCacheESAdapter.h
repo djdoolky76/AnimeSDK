@@ -38,6 +38,8 @@ namespace UnityEngine { class VoxelIrradianceCacheData; }
 #define IRRADIANCECACHEESADAPTER_SETHOSTMANAGEDLIGHT_OFFSET UNITYSDK_OFFSET(0x16537E60)
 #define IRRADIANCECACHEESADAPTER_UNSERIALIZEASYNC_OFFSET UNITYSDK_OFFSET(0x16537B40)
 
+inline static constexpr unsigned int IrradianceCacheESAdapter_TypeDefinitionIndex = 47317;
+
 	class IrradianceCacheESAdapter : public ::ScenenLightManager::SceneManagedLightComponent1
 	{
 	public:

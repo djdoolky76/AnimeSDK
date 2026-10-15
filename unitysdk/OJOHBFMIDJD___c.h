@@ -13,6 +13,8 @@ namespace System::Collections::Generic { class KeyValuePair; }
 #define OJOHBFMIDJD___C___LOADTRAITS_B__32_0_OFFSET UNITYSDK_OFFSET(0xBECD5D0)
 #define OJOHBFMIDJD___C___LOADTRAITS_B__32_2_OFFSET UNITYSDK_OFFSET(0xBECD5E0)
 
+inline static constexpr unsigned int OJOHBFMIDJD___c_TypeDefinitionIndex = 79561;
+
 	class OJOHBFMIDJD___c : public ::System::Object
 	{
 	public:

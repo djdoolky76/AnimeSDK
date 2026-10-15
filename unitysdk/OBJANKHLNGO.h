@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 #define OBJANKHLNGO_JFIAEFHJCEP_OFFSET UNITYSDK_OFFSET(0x1EC89E10)
 #define OBJANKHLNGO_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0x1EC8A620)
 
+inline static constexpr unsigned int OBJANKHLNGO_TypeDefinitionIndex = 44264;
+
 	class OBJANKHLNGO : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace R3 { template <typename T> class ReactiveProperty_1; }
 #define HPNFJGOCNLC_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15DD5300)
 #define HPNFJGOCNLC_IOMICCIPFAC_OFFSET UNITYSDK_OFFSET(0x15DD5400)
 
+inline static constexpr unsigned int HPNFJGOCNLC_TypeDefinitionIndex = 79562;
+
 	class HPNFJGOCNLC : public ::System::Object
 	{
 	public:

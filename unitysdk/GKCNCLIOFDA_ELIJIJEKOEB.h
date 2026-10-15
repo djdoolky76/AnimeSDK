@@ -7,6 +7,8 @@ namespace System { class String; }
 #define GKCNCLIOFDA_ELIJIJEKOEB_GET_MEMBER_OFFSET UNITYSDK_OFFSET(0x2E7C340)
 #define GKCNCLIOFDA_ELIJIJEKOEB_GET_ROLENAME_OFFSET UNITYSDK_OFFSET(0x1D30)
 
+inline static constexpr unsigned int GKCNCLIOFDA_ELIJIJEKOEB_TypeDefinitionIndex = 53522;
+
 	struct alignas(8) GKCNCLIOFDA_ELIJIJEKOEB
 	{
 		::System::String* _RoleName_k__BackingField; // 0x10

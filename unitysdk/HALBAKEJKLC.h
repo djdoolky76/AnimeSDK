@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define HALBAKEJKLC_CTOR_OFFSET UNITYSDK_OFFSET(0x15B856E0)
 #define HALBAKEJKLC_LBJLDANOLNN_OFFSET UNITYSDK_OFFSET(0x15B850D0)
 
+inline static constexpr unsigned int HALBAKEJKLC_TypeDefinitionIndex = 66658;
+
 	class HALBAKEJKLC : public ::System::Object
 	{
 	public:

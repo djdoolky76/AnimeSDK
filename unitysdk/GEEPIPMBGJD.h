@@ -36,6 +36,8 @@ namespace System { class String; }
 #define GEEPIPMBGJD_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E455BB0)
 #define GEEPIPMBGJD_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E455C10)
 
+inline static constexpr unsigned int GEEPIPMBGJD_TypeDefinitionIndex = 27067;
+
 	class GEEPIPMBGJD : public ::System::Object
 	{
 	public:

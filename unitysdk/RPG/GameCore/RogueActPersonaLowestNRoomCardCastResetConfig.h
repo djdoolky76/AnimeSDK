@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueActPersonaLowestNRoomCardCastResetConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueActPersonaLowestNRoomCardCastResetConfig_TypeDefinitionIndex = 19777;
+
 	class RogueActPersonaLowestNRoomCardCastResetConfig : public ::RPG::GameCore::RogueActionConfigBase
 	{
 	public:

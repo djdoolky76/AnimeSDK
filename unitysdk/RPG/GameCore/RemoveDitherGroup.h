@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RemoveDitherGroup_TypeDefinitionIndex = 22912;
+
 	class RemoveDitherGroup : public ::RPG::GameCore::TaskConfig
 	{
 	public:

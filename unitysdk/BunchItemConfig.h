@@ -6,6 +6,8 @@ namespace System { class String; }
 #define BUNCHITEMCONFIG_AWAKE_OFFSET UNITYSDK_OFFSET(0xC1B9DB0)
 #define BUNCHITEMCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0xC1B9FC0)
 
+inline static constexpr unsigned int BunchItemConfig_TypeDefinitionIndex = 47322;
+
 	class BunchItemConfig : public ::UnityEngine::MonoBehaviour
 	{
 	public:

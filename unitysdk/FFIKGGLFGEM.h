@@ -22,6 +22,8 @@ class PPFDALKOLHC;
 #define FFIKGGLFGEM_NBJEPPDOJGC_OFFSET UNITYSDK_OFFSET(0x15744370)
 #define FFIKGGLFGEM_PPCAHALOJNK_OFFSET UNITYSDK_OFFSET(0x15742BA0)
 
+inline static constexpr unsigned int FFIKGGLFGEM_TypeDefinitionIndex = 77612;
+
 	class FFIKGGLFGEM : public ::System::Object
 	{
 	public:

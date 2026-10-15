@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AvatarVORow_TypeDefinitionIndex = 10808;
+
 	class AvatarVORow : public ::System::Object
 	{
 	public:

@@ -6,6 +6,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int BattleAssetPreload_AssetPreloadGroupCreateParam_TypeDefinitionIndex = 59643;
+
 	class BattleAssetPreload_AssetPreloadGroupCreateParam : public ::System::Object
 	{
 	public:

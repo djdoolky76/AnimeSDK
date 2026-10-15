@@ -77,6 +77,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PlanetFesAvatarData_TypeDefinitionIndex = 66525;
+
 	class PlanetFesAvatarData : public ::System::Object
 	{
 	public:

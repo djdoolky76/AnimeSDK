@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define CNLMHHKBJAM_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1DCB60F0)
 #define CNLMHHKBJAM_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1DCB59D0)
 
+inline static constexpr unsigned int CNLMHHKBJAM_TypeDefinitionIndex = 13927;
+
 	class CNLMHHKBJAM : public ::System::Object
 	{
 	public:

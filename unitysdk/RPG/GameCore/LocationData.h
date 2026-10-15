@@ -11,6 +11,8 @@ namespace RPG::GameCore { class LocationData; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LocationData_TypeDefinitionIndex = 17132;
+
 	class LocationData : public ::RPG::GameCore::JsonConfig
 	{
 	public:

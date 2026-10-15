@@ -23,6 +23,8 @@ namespace System { class Object; }
 #define ACGIANIGDFB_PHKMKFJLCCI_OFFSET UNITYSDK_OFFSET(0xB11E130)
 #define ACGIANIGDFB_TICK_OFFSET UNITYSDK_OFFSET(0xB11E310)
 
+inline static constexpr unsigned int ACGIANIGDFB_TypeDefinitionIndex = 52321;
+
 	class ACGIANIGDFB : public ::GELIALJDFBL
 	{
 	public:

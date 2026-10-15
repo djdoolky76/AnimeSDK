@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define JEFKGJDOMOI_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1D01DA40)
 #define JEFKGJDOMOI_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1D01D620)
 
+inline static constexpr unsigned int JEFKGJDOMOI_TypeDefinitionIndex = 12086;
+
 	class JEFKGJDOMOI : public ::System::Object
 	{
 	public:

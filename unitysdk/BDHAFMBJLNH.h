@@ -10,6 +10,8 @@ namespace System { class Object; }
 #define BDHAFMBJLNH_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x162FA230)
 #define BDHAFMBJLNH_INVOKE_OFFSET UNITYSDK_OFFSET(0x162FA1F0)
 
+inline static constexpr unsigned int BDHAFMBJLNH_TypeDefinitionIndex = 57375;
+
 	class BDHAFMBJLNH : public ::System::MulticastDelegate
 	{
 	public:

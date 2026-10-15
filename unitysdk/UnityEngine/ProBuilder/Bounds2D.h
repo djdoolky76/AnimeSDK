@@ -35,6 +35,8 @@ namespace UnityEngine::ProBuilder { class Bounds2D; }
 
 namespace UnityEngine::ProBuilder
 {
+	inline static constexpr unsigned int Bounds2D_TypeDefinitionIndex = 44339;
+
 	class Bounds2D : public ::System::Object
 	{
 	public:

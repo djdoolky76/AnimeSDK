@@ -14,6 +14,8 @@ namespace UnityEngine::Timeline { class TimeNotificationBehaviour; }
 
 namespace UnityEngine::Timeline
 {
+	inline static constexpr unsigned int NotificationUtilities_TypeDefinitionIndex = 38877;
+
 	class NotificationUtilities : public ::System::Object
 	{
 	public:

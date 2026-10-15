@@ -9,6 +9,8 @@ namespace UnityEngine { class Transform; }
 #define JLMJPNBAOCK_CTOR_OFFSET UNITYSDK_OFFSET(0xB2508E0)
 #define JLMJPNBAOCK_DJMAKDCNPDA_OFFSET UNITYSDK_OFFSET(0xB2508F0)
 
+inline static constexpr unsigned int JLMJPNBAOCK_TypeDefinitionIndex = 79099;
+
 	class JLMJPNBAOCK : public ::System::Object
 	{
 	public:

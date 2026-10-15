@@ -12,6 +12,8 @@ class KAHKFFDIHNN;
 #define BKLKPCOJLAB_NLGABPIHBEB_OFFSET UNITYSDK_OFFSET(0xBA5D8C0)
 #define BKLKPCOJLAB_SET_BATTLERESULTENCRYPTKEY_OFFSET UNITYSDK_OFFSET(0xBA5D910)
 
+inline static constexpr unsigned int BKLKPCOJLAB_TypeDefinitionIndex = 66692;
+
 	class BKLKPCOJLAB : public ::System::Object
 	{
 	public:

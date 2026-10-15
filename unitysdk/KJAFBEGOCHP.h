@@ -38,6 +38,8 @@ namespace System { class String; }
 #define KJAFBEGOCHP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E8657F0)
 #define KJAFBEGOCHP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E865850)
 
+inline static constexpr unsigned int KJAFBEGOCHP_TypeDefinitionIndex = 32018;
+
 	class KJAFBEGOCHP : public ::System::Object
 	{
 	public:

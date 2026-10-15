@@ -45,6 +45,8 @@ namespace System { template <typename T> class Func_1; }
 
 namespace RPG::Client::FateRin
 {
+	inline static constexpr unsigned int FateRinServiceProvider_TypeDefinitionIndex = 80532;
+
 	class FateRinServiceProvider : public ::System::Object
 	{
 	public:

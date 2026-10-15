@@ -9,6 +9,8 @@ namespace System { class Object; }
 #define GLOCAENEKMK___C___CLOSEBGM_B__36_0_OFFSET UNITYSDK_OFFSET(0x15AC1C90)
 #define GLOCAENEKMK___C___HANDLEADVENTUREPHASEENTEREDEVENT_B__32_0_OFFSET UNITYSDK_OFFSET(0x15AC1C80)
 
+inline static constexpr unsigned int GLOCAENEKMK___c_TypeDefinitionIndex = 77722;
+
 	class GLOCAENEKMK___c : public ::System::Object
 	{
 	public:

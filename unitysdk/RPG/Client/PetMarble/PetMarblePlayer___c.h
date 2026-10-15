@@ -11,6 +11,8 @@ namespace System { template <typename T> class Predicate_1; }
 
 namespace RPG::Client::PetMarble
 {
+	inline static constexpr unsigned int PetMarblePlayer___c_TypeDefinitionIndex = 74701;
+
 	class PetMarblePlayer___c : public ::System::Object
 	{
 	public:

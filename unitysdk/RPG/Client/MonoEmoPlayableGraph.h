@@ -101,6 +101,8 @@ namespace UnityEngine { class SkinnedMeshRenderer; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoEmoPlayableGraph_TypeDefinitionIndex = 71154;
+
 	class MonoEmoPlayableGraph : public ::UnityEngine::MonoBehaviour
 	{
 	public:

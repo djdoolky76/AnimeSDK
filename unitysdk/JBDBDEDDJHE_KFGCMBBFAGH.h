@@ -5,6 +5,8 @@ namespace R3 { class Observable; }
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
+inline static constexpr unsigned int JBDBDEDDJHE_KFGCMBBFAGH_TypeDefinitionIndex = 49927;
+
 	class JBDBDEDDJHE_KFGCMBBFAGH : public ::System::Object
 	{
 	public:

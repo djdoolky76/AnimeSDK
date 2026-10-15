@@ -13,6 +13,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 #define PIMCPBPFGMB___C___CTOR_B__53_0_OFFSET UNITYSDK_OFFSET(0xC2701A0)
 #define PIMCPBPFGMB___C___CTOR_B__53_2_OFFSET UNITYSDK_OFFSET(0xC270200)
 
+inline static constexpr unsigned int PIMCPBPFGMB___c_TypeDefinitionIndex = 81613;
+
 	class PIMCPBPFGMB___c : public ::System::Object
 	{
 	public:

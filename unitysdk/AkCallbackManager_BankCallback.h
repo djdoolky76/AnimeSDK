@@ -11,6 +11,8 @@ namespace System { class Object; }
 #define AKCALLBACKMANAGER_BANKCALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1F581970)
 #define AKCALLBACKMANAGER_BANKCALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0x1F57C090)
 
+inline static constexpr unsigned int AkCallbackManager_BankCallback_TypeDefinitionIndex = 44825;
+
 	class AkCallbackManager_BankCallback : public ::System::MulticastDelegate
 	{
 	public:

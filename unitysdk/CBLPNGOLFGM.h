@@ -9,6 +9,8 @@ namespace RPG::GameCore { class GameEntity; }
 #define CBLPNGOLFGM_CLEAR_OFFSET UNITYSDK_OFFSET(0xC4AF770)
 #define CBLPNGOLFGM_CTOR_OFFSET UNITYSDK_OFFSET(0xC4AF7C0)
 
+inline static constexpr unsigned int CBLPNGOLFGM_TypeDefinitionIndex = 53737;
+
 	class CBLPNGOLFGM : public ::System::Object
 	{
 	public:

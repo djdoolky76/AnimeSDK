@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define KEEPHLBBDCG_CTOR_OFFSET UNITYSDK_OFFSET(0xB375430)
 #define KEEPHLBBDCG_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB375460)
 
+inline static constexpr unsigned int KEEPHLBBDCG_TypeDefinitionIndex = 54906;
+
 	class KEEPHLBBDCG
 	{
 	public:

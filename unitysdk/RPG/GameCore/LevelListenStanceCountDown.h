@@ -13,6 +13,8 @@ namespace RPG::GameCore { class LevelListenStanceCountDown; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelListenStanceCountDown_TypeDefinitionIndex = 56784;
+
 	class LevelListenStanceCountDown : public ::CMPGEAFHHDC
 	{
 	public:

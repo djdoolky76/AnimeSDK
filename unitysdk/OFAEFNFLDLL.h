@@ -7,6 +7,8 @@ class NDPFOOJIAIJ;
 
 #define OFAEFNFLDLL_CIBJNMNLKMJ_OFFSET UNITYSDK_OFFSET(0xBE392E0)
 
+inline static constexpr unsigned int OFAEFNFLDLL_TypeDefinitionIndex = 64394;
+
 	class OFAEFNFLDLL : public ::System::Object
 	{
 	public:

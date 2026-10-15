@@ -9,6 +9,8 @@ namespace UnityEngine::Timeline { class AnimationTrack; }
 
 namespace UnityEngine::Timeline
 {
+	inline static constexpr unsigned int AnimationTrack_AnimationTrackUpgrade_TypeDefinitionIndex = 38781;
+
 	class AnimationTrack_AnimationTrackUpgrade : public ::System::Object
 	{
 	public:

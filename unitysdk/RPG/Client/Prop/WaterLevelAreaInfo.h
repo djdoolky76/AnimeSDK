@@ -5,6 +5,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int WaterLevelAreaInfo_TypeDefinitionIndex = 78914;
+
 	struct alignas(8) WaterLevelAreaInfo
 	{
 		::RPG::Client::Prop::BoxmanCoord StartCoord; // 0x10

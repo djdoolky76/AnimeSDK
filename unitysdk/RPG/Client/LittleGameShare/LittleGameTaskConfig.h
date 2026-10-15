@@ -10,6 +10,8 @@ namespace RPG::Client::LittleGameShare { class LittleGameTaskConfig; }
 
 namespace RPG::Client::LittleGameShare
 {
+	inline static constexpr unsigned int LittleGameTaskConfig_TypeDefinitionIndex = 10354;
+
 	class LittleGameTaskConfig : public ::RPG::GameCore::TaskConfig
 	{
 	public:

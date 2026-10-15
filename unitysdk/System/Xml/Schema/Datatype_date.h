@@ -8,6 +8,8 @@
 
 namespace System::Xml::Schema
 {
+	inline static constexpr unsigned int Datatype_date_TypeDefinitionIndex = 2111;
+
 	class Datatype_date : public ::System::Xml::Schema::Datatype_dateTimeBase
 	{
 	public:

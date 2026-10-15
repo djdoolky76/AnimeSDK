@@ -8,6 +8,8 @@
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftPoseAdjuster___c__DisplayClass2_0_TypeDefinitionIndex = 79974;
+
 	class MechCraftPoseAdjuster___c__DisplayClass2_0 : public ::System::Object
 	{
 	public:

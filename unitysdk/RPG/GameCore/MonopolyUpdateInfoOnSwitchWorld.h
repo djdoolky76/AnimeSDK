@@ -10,6 +10,8 @@ namespace RPG::GameCore { class MonopolyUpdateInfoOnSwitchWorld; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MonopolyUpdateInfoOnSwitchWorld_TypeDefinitionIndex = 20936;
+
 	class MonopolyUpdateInfoOnSwitchWorld : public ::RPG::GameCore::TaskConfig
 	{
 	public:

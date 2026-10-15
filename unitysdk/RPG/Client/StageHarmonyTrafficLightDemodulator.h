@@ -10,6 +10,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int StageHarmonyTrafficLightDemodulator_TypeDefinitionIndex = 70963;
+
 	class StageHarmonyTrafficLightDemodulator
 	{
 	public:

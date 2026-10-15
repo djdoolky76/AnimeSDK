@@ -36,6 +36,8 @@ namespace System { class String; }
 #define JHICHKBDMIC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E745B10)
 #define JHICHKBDMIC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E745B70)
 
+inline static constexpr unsigned int JHICHKBDMIC_TypeDefinitionIndex = 27540;
+
 	class JHICHKBDMIC : public ::System::Object
 	{
 	public:

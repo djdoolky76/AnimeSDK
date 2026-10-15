@@ -16,6 +16,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 #define LCHDCIDBJAG___C__USETACTICSCARD_B__74_2_OFFSET UNITYSDK_OFFSET(0x1C7385A0)
 #define LCHDCIDBJAG___C___APPLYTACTICSCARDMODIFIER_B__73_0_OFFSET UNITYSDK_OFFSET(0x1C738560)
 
+inline static constexpr unsigned int LCHDCIDBJAG___c_TypeDefinitionIndex = 36480;
+
 	class LCHDCIDBJAG___c : public ::System::Object
 	{
 	public:

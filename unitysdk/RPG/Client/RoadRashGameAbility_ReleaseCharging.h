@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RoadRashGameAbility_ReleaseCharging_TypeDefinitionIndex = 10286;
+
 	class RoadRashGameAbility_ReleaseCharging : public ::RPG::GameCore::BaseLittleGameAbilityTaskConfig
 	{
 	public:

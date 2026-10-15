@@ -18,6 +18,8 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyLi
 #define FIBMOMPEOLA_KIGBILLGNOH_OFFSET UNITYSDK_OFFSET(0x1579B5A0)
 #define FIBMOMPEOLA_LPCKIOGKPNI_OFFSET UNITYSDK_OFFSET(0x1579B5F0)
 
+inline static constexpr unsigned int FIBMOMPEOLA_TypeDefinitionIndex = 63898;
+
 	class FIBMOMPEOLA : public ::System::Object
 	{
 	public:

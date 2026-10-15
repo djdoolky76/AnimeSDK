@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DebateSpecialItem_TypeDefinitionIndex = 21928;
+
 	class DebateSpecialItem : public ::RPG::GameCore::JsonConfig
 	{
 	public:

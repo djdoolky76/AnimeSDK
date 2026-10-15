@@ -31,6 +31,8 @@ namespace UnityEngine { class Transform; }
 #define BIIJADGFFLF_PEFLJDOKOIL_OFFSET UNITYSDK_OFFSET(0xB4ADAD0)
 #define BIIJADGFFLF_SET_LASTVIEWLAPCOUNT_OFFSET UNITYSDK_OFFSET(0xB4ADCE0)
 
+inline static constexpr unsigned int BIIJADGFFLF_TypeDefinitionIndex = 74212;
+
 	class BIIJADGFFLF : public ::ABDOMMLHNBC
 	{
 	public:

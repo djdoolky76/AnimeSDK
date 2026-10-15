@@ -8,6 +8,8 @@ class NKHAEEAHIGB;
 #define NKHAEEAHIGB_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D22F600)
 #define NKHAEEAHIGB_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D22F5C0)
 
+inline static constexpr unsigned int NKHAEEAHIGB_TypeDefinitionIndex = 10213;
+
 	class NKHAEEAHIGB : public ::RPG::GameCore::TaskConfig
 	{
 	public:

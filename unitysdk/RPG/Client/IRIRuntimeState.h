@@ -13,6 +13,8 @@ namespace RPG::Client::OpenWorld { class StreamingItemData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int IRIRuntimeState_TypeDefinitionIndex = 68892;
+
 	class IRIRuntimeState : public ::UnityEngine::MonoBehaviour
 	{
 	public:

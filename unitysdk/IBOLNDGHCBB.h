@@ -42,6 +42,8 @@ namespace System::Collections { class IEnumerator; }
 #define IBOLNDGHCBB_PKPCCNAMHPP_OFFSET UNITYSDK_OFFSET(0x15E45CD0)
 #define IBOLNDGHCBB_PNHGPNFCMLO_OFFSET UNITYSDK_OFFSET(0x15E46910)
 
+inline static constexpr unsigned int IBOLNDGHCBB_TypeDefinitionIndex = 60991;
+
 	class IBOLNDGHCBB : public ::System::Object
 	{
 	public:

@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PixAirContentRarity_TypeDefinitionIndex = 12125;
+
 	enum class PixAirContentRarity : ::System::Int32
 	{
 		Common = 0,

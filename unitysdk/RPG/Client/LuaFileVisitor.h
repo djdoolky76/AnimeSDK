@@ -21,6 +21,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int LuaFileVisitor_TypeDefinitionIndex = 59419;
+
 	class LuaFileVisitor : public ::System::Object
 	{
 	public:

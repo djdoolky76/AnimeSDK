@@ -23,6 +23,8 @@ namespace UnityEngine { class GameObject; }
 #define MEIGMBOLDOF_LKPHHHLDJHB_PAJABFJALIM_OFFSET UNITYSDK_OFFSET(0xB8D8700)
 #define MEIGMBOLDOF_LKPHHHLDJHB_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0xB8D5130)
 
+inline static constexpr unsigned int MEIGMBOLDOF_LKPHHHLDJHB_TypeDefinitionIndex = 49116;
+
 	class MEIGMBOLDOF_LKPHHHLDJHB : public ::System::Object
 	{
 	public:

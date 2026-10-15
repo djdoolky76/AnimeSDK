@@ -11,6 +11,8 @@ namespace System::Collections::Generic { class KeyValuePair; }
 #define GOOPPKCFNLM_HMIJPMHKIME___C__DEBUGSTRING_B__6_0_OFFSET UNITYSDK_OFFSET(0x1C64BE60)
 #define GOOPPKCFNLM_HMIJPMHKIME___C__DEBUGSTRING_B__6_1_OFFSET UNITYSDK_OFFSET(0x1C64BF00)
 
+inline static constexpr unsigned int GOOPPKCFNLM_HMIJPMHKIME___c_TypeDefinitionIndex = 37331;
+
 	class GOOPPKCFNLM_HMIJPMHKIME___c : public ::System::Object
 	{
 	public:

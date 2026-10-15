@@ -32,6 +32,8 @@ namespace System { class String; }
 #define NCPEJLBJCLO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EAE2410)
 #define NCPEJLBJCLO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EAE2470)
 
+inline static constexpr unsigned int NCPEJLBJCLO_TypeDefinitionIndex = 34194;
+
 	class NCPEJLBJCLO : public ::System::Object
 	{
 	public:

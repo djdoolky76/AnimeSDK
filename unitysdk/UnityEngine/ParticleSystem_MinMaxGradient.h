@@ -28,6 +28,8 @@ namespace UnityEngine { class Gradient; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int ParticleSystem_MinMaxGradient_TypeDefinitionIndex = 5216;
+
 	struct alignas(8) ParticleSystem_MinMaxGradient
 	{
 		::UnityEngine::ParticleSystemGradientMode m_Mode; // 0x10

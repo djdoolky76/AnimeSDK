@@ -20,6 +20,8 @@ namespace RPG::GameCore { class LevelCharacterRemoveShield; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelCharacterRemoveShield_TypeDefinitionIndex = 56792;
+
 	class LevelCharacterRemoveShield : public ::CMPGEAFHHDC
 	{
 	public:

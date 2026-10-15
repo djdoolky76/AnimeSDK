@@ -14,6 +14,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ChallengePeakGroup___c_TypeDefinitionIndex = 63179;
+
 	class ChallengePeakGroup___c : public ::System::Object
 	{
 	public:

@@ -12,6 +12,8 @@ namespace RPG::GameCore { class LittleGameAbilityTargetSelectorTakeByCountConfig
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LittleGameAbilityTargetSelectorTakeByCountConfig_TypeDefinitionIndex = 21382;
+
 	class LittleGameAbilityTargetSelectorTakeByCountConfig : public ::RPG::GameCore::BaseLittleGameAbilityTargetSelectorConfig
 	{
 	public:

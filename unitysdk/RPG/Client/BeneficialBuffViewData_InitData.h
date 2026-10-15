@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int BeneficialBuffViewData_InitData_TypeDefinitionIndex = 71188;
+
 	class BeneficialBuffViewData_InitData : public ::System::Object
 	{
 	public:

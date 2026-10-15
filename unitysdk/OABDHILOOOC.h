@@ -8,6 +8,8 @@ class OABDHILOOOC;
 #define OABDHILOOOC_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D2492F0)
 #define OABDHILOOOC_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D2492B0)
 
+inline static constexpr unsigned int OABDHILOOOC_TypeDefinitionIndex = 10202;
+
 	class OABDHILOOOC : public ::RPG::GameCore::TaskConfig
 	{
 	public:

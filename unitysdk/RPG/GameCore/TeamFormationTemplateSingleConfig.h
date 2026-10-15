@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TeamFormationTemplateSingleConfig_TypeDefinitionIndex = 16581;
+
 	class TeamFormationTemplateSingleConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

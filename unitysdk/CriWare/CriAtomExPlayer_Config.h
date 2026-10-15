@@ -6,6 +6,8 @@
 
 namespace CriWare
 {
+	inline static constexpr unsigned int CriAtomExPlayer_Config_TypeDefinitionIndex = 40058;
+
 	struct alignas(4) CriAtomExPlayer_Config
 	{
 		::CriWare::CriAtomEx_VoiceAllocationMethod voiceAllocationMethod; // 0x10

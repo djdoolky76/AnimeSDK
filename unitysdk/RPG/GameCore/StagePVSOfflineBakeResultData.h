@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int StagePVSOfflineBakeResultData_TypeDefinitionIndex = 19187;
+
 	class StagePVSOfflineBakeResultData : public ::RPG::GameCore::JsonConfig
 	{
 	public:

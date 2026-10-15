@@ -6,6 +6,8 @@
 #define JGNANLCCPNN_CLEAR_OFFSET UNITYSDK_OFFSET(0x1CB94A50)
 #define JGNANLCCPNN_CTOR_OFFSET UNITYSDK_OFFSET(0x1CB94AA0)
 
+inline static constexpr unsigned int JGNANLCCPNN_TypeDefinitionIndex = 43491;
+
 	class JGNANLCCPNN : public ::System::Object
 	{
 	public:

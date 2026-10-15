@@ -29,6 +29,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int IFixGlobalExtendMemberManager_TypeDefinitionIndex = 61293;
+
 	class IFixGlobalExtendMemberManager : public ::System::Object
 	{
 	public:

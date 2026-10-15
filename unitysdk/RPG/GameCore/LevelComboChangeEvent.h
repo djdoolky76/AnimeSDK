@@ -9,6 +9,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelComboChangeEvent_TypeDefinitionIndex = 56812;
+
 	class LevelComboChangeEvent : public ::System::Object
 	{
 	public:

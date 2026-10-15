@@ -10,6 +10,8 @@ namespace System::Collections::Generic { class KeyValuePair; }
 #define DMEFINKOHGF___C_CTOR_OFFSET UNITYSDK_OFFSET(0xFEBD470)
 #define DMEFINKOHGF___C__FINDBOTTOMPOINT_B__3_0_OFFSET UNITYSDK_OFFSET(0xFEBD480)
 
+inline static constexpr unsigned int DMEFINKOHGF___c_TypeDefinitionIndex = 70361;
+
 	class DMEFINKOHGF___c : public ::System::Object
 	{
 	public:

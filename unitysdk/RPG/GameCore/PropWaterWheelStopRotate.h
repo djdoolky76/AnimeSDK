@@ -13,6 +13,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PropWaterWheelStopRotate_TypeDefinitionIndex = 22154;
+
 	class PropWaterWheelStopRotate : public ::RPG::GameCore::TaskConfig
 	{
 	public:

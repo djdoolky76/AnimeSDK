@@ -94,6 +94,8 @@ namespace System::IO { class EndOfStreamException; }
 
 namespace MessagePack
 {
+	inline static constexpr unsigned int MessagePackReader_TypeDefinitionIndex = 7199;
+
 	struct alignas(8) MessagePackReader
 	{
 		::MessagePack::SequenceReader_1<::System::Byte> reader; // 0x10

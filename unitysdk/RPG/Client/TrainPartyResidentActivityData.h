@@ -8,6 +8,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TrainPartyResidentActivityData_TypeDefinitionIndex = 68161;
+
 	class TrainPartyResidentActivityData : public ::RPG::Client::ActivityPanelData
 	{
 	public:

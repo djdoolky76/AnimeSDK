@@ -41,6 +41,8 @@ namespace System { class String; }
 #define BNAILMNNGIF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E02F770)
 #define BNAILMNNGIF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E02F7D0)
 
+inline static constexpr unsigned int BNAILMNNGIF_TypeDefinitionIndex = 25345;
+
 	class BNAILMNNGIF : public ::System::Object
 	{
 	public:

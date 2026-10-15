@@ -17,6 +17,8 @@ namespace System::Text { class Encoding; }
 
 namespace System::Security::Util
 {
+	inline static constexpr unsigned int Tokenizer_TypeDefinitionIndex = 975;
+
 	class Tokenizer : public ::System::Object
 	{
 	public:

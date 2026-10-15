@@ -13,6 +13,8 @@ namespace System { class Action; }
 #define CFCKFKJFKLO___C__DISPLAYCLASS17_0___CTOR_B__5_OFFSET UNITYSDK_OFFSET(0xCA097E0)
 #define CFCKFKJFKLO___C__DISPLAYCLASS17_0___CTOR_B__6_OFFSET UNITYSDK_OFFSET(0xCA09850)
 
+inline static constexpr unsigned int CFCKFKJFKLO___c__DisplayClass17_0_TypeDefinitionIndex = 79567;
+
 	class CFCKFKJFKLO___c__DisplayClass17_0 : public ::System::Object
 	{
 	public:

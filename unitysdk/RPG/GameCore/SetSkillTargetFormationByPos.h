@@ -15,6 +15,8 @@ namespace RPG::GameCore { class TargetFormationPosConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetSkillTargetFormationByPos_TypeDefinitionIndex = 22497;
+
 	class SetSkillTargetFormationByPos : public ::RPG::GameCore::TaskConfig
 	{
 	public:

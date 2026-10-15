@@ -7,6 +7,8 @@ namespace RPG::Client { class RogueTournBuildRefShareCodeDataItem; }
 #define GMPEFHMBKMD_CTOR_OFFSET UNITYSDK_OFFSET(0x15ADCA30)
 #define GMPEFHMBKMD_FNCNMCEOALF_OFFSET UNITYSDK_OFFSET(0x15ADC850)
 
+inline static constexpr unsigned int GMPEFHMBKMD_TypeDefinitionIndex = 67559;
+
 	class GMPEFHMBKMD : public ::System::Object
 	{
 	public:

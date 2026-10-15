@@ -11,6 +11,8 @@ namespace RPG::GameCore { class LevelSmartObjectPointInfo; }
 #define MIIMLLDIGNL_HHMFILFAMNA_OFFSET UNITYSDK_OFFSET(0xB95A290)
 #define MIIMLLDIGNL_PLIKPNPEJLJ_OFFSET UNITYSDK_OFFSET(0xB95A280)
 
+inline static constexpr unsigned int MIIMLLDIGNL_TypeDefinitionIndex = 52114;
+
 	class MIIMLLDIGNL : public ::System::Object
 	{
 	public:

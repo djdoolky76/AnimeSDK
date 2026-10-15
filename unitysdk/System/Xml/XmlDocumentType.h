@@ -28,6 +28,8 @@ namespace System::Xml::Schema { class SchemaInfo; }
 
 namespace System::Xml
 {
+	inline static constexpr unsigned int XmlDocumentType_TypeDefinitionIndex = 1901;
+
 	class XmlDocumentType : public ::System::Xml::XmlLinkedNode
 	{
 	public:

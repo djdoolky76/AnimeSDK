@@ -13,6 +13,8 @@ namespace System { class String; }
 #define NONAIBLAJKA_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D242AA0)
 #define NONAIBLAJKA_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D242A50)
 
+inline static constexpr unsigned int NONAIBLAJKA_TypeDefinitionIndex = 20302;
+
 	class NONAIBLAJKA : public ::RPG::GameCore::AdvWaitingEventBase
 	{
 	public:

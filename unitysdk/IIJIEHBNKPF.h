@@ -4,6 +4,8 @@
 
 #define IIJIEHBNKPF_CTOR_OFFSET UNITYSDK_OFFSET(0x1643DE80)
 
+inline static constexpr unsigned int IIJIEHBNKPF_TypeDefinitionIndex = 81271;
+
 	class IIJIEHBNKPF : public ::System::Object
 	{
 	public:

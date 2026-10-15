@@ -6,6 +6,8 @@ class ILJDILDNADJ;
 #define ILJDILDNADJ___C__DISPLAYCLASS25_0_CTOR_OFFSET UNITYSDK_OFFSET(0x164BD1C0)
 #define ILJDILDNADJ___C__DISPLAYCLASS25_0___PLAYROGUETOURNFADE_B__0_OFFSET UNITYSDK_OFFSET(0x164BE180)
 
+inline static constexpr unsigned int ILJDILDNADJ___c__DisplayClass25_0_TypeDefinitionIndex = 72240;
+
 	class ILJDILDNADJ___c__DisplayClass25_0 : public ::System::Object
 	{
 	public:

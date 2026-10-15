@@ -5,6 +5,8 @@
 
 namespace CriWare
 {
+	inline static constexpr unsigned int CriFsWebInstaller_StatusInfo_TypeDefinitionIndex = 40122;
+
 	struct alignas(4) CriFsWebInstaller_StatusInfo
 	{
 		::CriWare::CriFsWebInstaller_Status status; // 0x10

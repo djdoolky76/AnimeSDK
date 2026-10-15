@@ -30,6 +30,8 @@ namespace System { class String; }
 #define EOEBBIDAKJD_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E2F8EC0)
 #define EOEBBIDAKJD_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E2F8F20)
 
+inline static constexpr unsigned int EOEBBIDAKJD_TypeDefinitionIndex = 30984;
+
 	class EOEBBIDAKJD : public ::System::Object
 	{
 	public:

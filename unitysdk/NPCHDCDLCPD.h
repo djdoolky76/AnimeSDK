@@ -9,6 +9,8 @@ namespace System { class String; }
 #define NPCHDCDLCPD_CTOR_OFFSET UNITYSDK_OFFSET(0xBCFA2C0)
 #define NPCHDCDLCPD_FPKLDCGAJGP_OFFSET UNITYSDK_OFFSET(0xBCFA2D0)
 
+inline static constexpr unsigned int NPCHDCDLCPD_TypeDefinitionIndex = 79702;
+
 	class NPCHDCDLCPD : public ::System::Object
 	{
 	public:

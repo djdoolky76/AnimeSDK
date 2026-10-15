@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int PuzzleItemBase_TypeDefinitionIndex = 78790;
+
 	class PuzzleItemBase : public ::UnityEngine::MonoBehaviour
 	{
 	public:

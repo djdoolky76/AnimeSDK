@@ -9,6 +9,8 @@ namespace RPG::GameCore { class MessageSectionRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MessageSectionRow_TypeDefinitionIndex = 14461;
+
 	class MessageSectionRow : public ::System::Object
 	{
 	public:

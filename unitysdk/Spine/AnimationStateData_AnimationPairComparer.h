@@ -11,6 +11,8 @@ namespace Spine { class AnimationStateData_AnimationPairComparer; }
 
 namespace Spine
 {
+	inline static constexpr unsigned int AnimationStateData_AnimationPairComparer_TypeDefinitionIndex = 39640;
+
 	class AnimationStateData_AnimationPairComparer : public ::System::Object
 	{
 	public:

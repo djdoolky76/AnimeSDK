@@ -266,6 +266,8 @@ namespace UnityEngine { class Transform; }
 #define BKHHFIJCHEP__SETPOSTPROCESSONINIT_OFFSET UNITYSDK_OFFSET(0xB7C7530)
 #define BKHHFIJCHEP___INITDICECONTROLLERS_B__167_0_OFFSET UNITYSDK_OFFSET(0xB7C7FB0)
 
+inline static constexpr unsigned int BKHHFIJCHEP_TypeDefinitionIndex = 60379;
+
 	class BKHHFIJCHEP : public ::JPIBDCCABGP
 	{
 	public:

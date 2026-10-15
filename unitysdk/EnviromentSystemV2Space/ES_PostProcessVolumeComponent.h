@@ -7,6 +7,8 @@ namespace UnityEngine::Rendering { class VolumeProfile; }
 
 namespace EnviromentSystemV2Space
 {
+	inline static constexpr unsigned int ES_PostProcessVolumeComponent_TypeDefinitionIndex = 49304;
+
 	class ES_PostProcessVolumeComponent : public ::EnviromentSystemV2Space::PrefabPropertyComponent
 	{
 	public:

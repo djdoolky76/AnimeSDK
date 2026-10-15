@@ -7,6 +7,8 @@ namespace RPG::GameCore { class FiveDimCrystalConfig; }
 #define MNJFHFEFFGF_CLEAR_OFFSET UNITYSDK_OFFSET(0x1C92DCF0)
 #define MNJFHFEFFGF_CTOR_OFFSET UNITYSDK_OFFSET(0x1C92DD40)
 
+inline static constexpr unsigned int MNJFHFEFFGF_TypeDefinitionIndex = 43515;
+
 	class MNJFHFEFFGF : public ::System::Object
 	{
 	public:

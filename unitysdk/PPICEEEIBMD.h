@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define PPICEEEIBMD_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1D31B050)
 #define PPICEEEIBMD_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1D31A9B0)
 
+inline static constexpr unsigned int PPICEEEIBMD_TypeDefinitionIndex = 11486;
+
 	class PPICEEEIBMD : public ::System::Object
 	{
 	public:

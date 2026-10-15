@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetDynamicAttachPointEffectAdaptionConfig_TypeDefinitionIndex = 20273;
+
 	class SetDynamicAttachPointEffectAdaptionConfig : public ::RPG::GameCore::TaskConfig
 	{
 	public:

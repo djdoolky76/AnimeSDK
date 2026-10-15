@@ -10,6 +10,8 @@ namespace System { class Object; }
 #define JBBLONHLCFC_GLKDGMKKAIL_OFFSET UNITYSDK_OFFSET(0x1EC765E0)
 #define JBBLONHLCFC_PCAEFEEJIEP_OFFSET UNITYSDK_OFFSET(0x1EC76680)
 
+inline static constexpr unsigned int JBBLONHLCFC_TypeDefinitionIndex = 44285;
+
 	class JBBLONHLCFC : public ::NLJMEMAMJLC
 	{
 	public:

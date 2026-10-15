@@ -13,6 +13,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TargetFetchCurrentInsertTurnSource_TypeDefinitionIndex = 24032;
+
 	class TargetFetchCurrentInsertTurnSource : public ::RPG::GameCore::TargetEvaluator
 	{
 	public:

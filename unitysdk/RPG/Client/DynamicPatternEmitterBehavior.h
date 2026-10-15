@@ -42,6 +42,8 @@ namespace UnityEngine { class MaterialPropertyBlock; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int DynamicPatternEmitterBehavior_TypeDefinitionIndex = 70894;
+
 	class DynamicPatternEmitterBehavior : public ::RPG::Client::TABehaviorBase
 	{
 	public:

@@ -15,6 +15,8 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 #define MDILEMALGNC_JBIKAAECIEL_OFFSET UNITYSDK_OFFSET(0xB8AC540)
 #define MDILEMALGNC_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xB8AC4B0)
 
+inline static constexpr unsigned int MDILEMALGNC_TypeDefinitionIndex = 69610;
+
 	class MDILEMALGNC : public ::System::Object
 	{
 	public:

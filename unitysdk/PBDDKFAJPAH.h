@@ -7,6 +7,8 @@ class NJKFOJJDGGG;
 #define PBDDKFAJPAH_JHHANIFBDPM_OFFSET UNITYSDK_OFFSET(0xBFE2DC0)
 #define PBDDKFAJPAH_UPDATE_OFFSET UNITYSDK_OFFSET(0xBFE2E60)
 
+inline static constexpr unsigned int PBDDKFAJPAH_TypeDefinitionIndex = 65021;
+
 	class PBDDKFAJPAH : public ::RPG::Client::GridFightGameModifier
 	{
 	public:

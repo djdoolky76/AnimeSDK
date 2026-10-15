@@ -5,6 +5,8 @@ namespace System { class Type; }
 
 #define MFIAGMDJIBP_CTOR_OFFSET UNITYSDK_OFFSET(0x1C74AF50)
 
+inline static constexpr unsigned int MFIAGMDJIBP_TypeDefinitionIndex = 36854;
+
 	class MFIAGMDJIBP : public ::System::Attribute
 	{
 	public:

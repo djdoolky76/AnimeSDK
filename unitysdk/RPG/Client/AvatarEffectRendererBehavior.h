@@ -24,6 +24,8 @@ namespace UnityEngine { class Renderer; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AvatarEffectRendererBehavior_TypeDefinitionIndex = 70247;
+
 	class AvatarEffectRendererBehavior : public ::RPG::Client::TABehaviorBase
 	{
 	public:

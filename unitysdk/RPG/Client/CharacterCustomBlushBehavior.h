@@ -23,6 +23,8 @@ namespace System { class Object; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int CharacterCustomBlushBehavior_TypeDefinitionIndex = 70259;
+
 	class CharacterCustomBlushBehavior : public ::RPG::Client::TABehaviorBase
 	{
 	public:

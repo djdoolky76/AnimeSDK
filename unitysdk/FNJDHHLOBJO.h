@@ -6,6 +6,8 @@ namespace System { class String; }
 
 #define FNJDHHLOBJO_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CA71540)
 
+inline static constexpr unsigned int FNJDHHLOBJO_TypeDefinitionIndex = 42781;
+
 	class FNJDHHLOBJO : public ::System::Object
 	{
 	public:

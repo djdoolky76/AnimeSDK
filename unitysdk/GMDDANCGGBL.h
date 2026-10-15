@@ -29,6 +29,8 @@ namespace System { class String; }
 #define GMDDANCGGBL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E4CFF20)
 #define GMDDANCGGBL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E4CFF80)
 
+inline static constexpr unsigned int GMDDANCGGBL_TypeDefinitionIndex = 28394;
+
 	class GMDDANCGGBL : public ::System::Object
 	{
 	public:

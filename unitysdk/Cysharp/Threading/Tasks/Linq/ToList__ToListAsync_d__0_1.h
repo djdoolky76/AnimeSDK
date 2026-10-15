@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace Cysharp::Threading::Tasks::Linq
 {
+	inline static constexpr unsigned int ToList__ToListAsync_d__0_1_TypeDefinitionIndex = 45685;
+
 	template <typename T>
 	struct alignas(8) ToList__ToListAsync_d__0_1
 	{

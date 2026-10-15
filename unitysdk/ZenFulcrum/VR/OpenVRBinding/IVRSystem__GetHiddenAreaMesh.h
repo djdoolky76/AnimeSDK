@@ -15,6 +15,8 @@ namespace System { class Object; }
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
+	inline static constexpr unsigned int IVRSystem__GetHiddenAreaMesh_TypeDefinitionIndex = 38922;
+
 	class IVRSystem__GetHiddenAreaMesh : public ::System::MulticastDelegate
 	{
 	public:

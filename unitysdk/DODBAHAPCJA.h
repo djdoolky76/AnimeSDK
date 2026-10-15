@@ -22,6 +22,8 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 #define DODBAHAPCJA_ODFIOHMGBLO_OFFSET UNITYSDK_OFFSET(0x11FE0060)
 #define DODBAHAPCJA_OFEBJBHCCKF_OFFSET UNITYSDK_OFFSET(0x11FDFE40)
 
+inline static constexpr unsigned int DODBAHAPCJA_TypeDefinitionIndex = 77762;
+
 	class DODBAHAPCJA : public ::System::Object
 	{
 	public:

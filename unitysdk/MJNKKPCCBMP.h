@@ -25,6 +25,8 @@ namespace System { class String; }
 #define MJNKKPCCBMP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EA4F5B0)
 #define MJNKKPCCBMP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EA4F610)
 
+inline static constexpr unsigned int MJNKKPCCBMP_TypeDefinitionIndex = 33203;
+
 	class MJNKKPCCBMP : public ::System::Object
 	{
 	public:

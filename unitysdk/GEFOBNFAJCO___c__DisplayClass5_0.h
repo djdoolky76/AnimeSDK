@@ -6,6 +6,8 @@ class EDNECKFHLEM;
 #define GEFOBNFAJCO___C__DISPLAYCLASS5_0_CTOR_OFFSET UNITYSDK_OFFSET(0x159D4360)
 #define GEFOBNFAJCO___C__DISPLAYCLASS5_0___HOOK_B__0_OFFSET UNITYSDK_OFFSET(0x159D49D0)
 
+inline static constexpr unsigned int GEFOBNFAJCO___c__DisplayClass5_0_TypeDefinitionIndex = 49822;
+
 	class GEFOBNFAJCO___c__DisplayClass5_0 : public ::System::Object
 	{
 	public:

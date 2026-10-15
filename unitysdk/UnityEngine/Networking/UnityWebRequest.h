@@ -92,6 +92,8 @@ namespace UnityEngine::Networking { class UploadHandler; }
 
 namespace UnityEngine::Networking
 {
+	inline static constexpr unsigned int UnityWebRequest_TypeDefinitionIndex = 5356;
+
 	class UnityWebRequest : public ::System::Object
 	{
 	public:

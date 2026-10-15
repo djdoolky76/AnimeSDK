@@ -14,6 +14,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int StoryPropAnimatorParamClip_TypeDefinitionIndex = 48234;
+
 	class StoryPropAnimatorParamClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:

@@ -148,6 +148,8 @@ namespace System { class Type; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FixPoint_TypeDefinitionIndex = 9939;
+
 	struct alignas(4) FixPoint
 	{
 		::System::Int64 m_rawValue; // 0x10

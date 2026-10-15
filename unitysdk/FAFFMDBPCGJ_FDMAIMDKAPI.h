@@ -28,6 +28,8 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 #define FAFFMDBPCGJ_FDMAIMDKAPI_SET_FORCEREWRITEFORCURRENTUPDATE_OFFSET UNITYSDK_OFFSET(0x1567A020)
 #define FAFFMDBPCGJ_FDMAIMDKAPI_SET_ISREFRESHREQUESTED_OFFSET UNITYSDK_OFFSET(0x1567A000)
 
+inline static constexpr unsigned int FAFFMDBPCGJ_FDMAIMDKAPI_TypeDefinitionIndex = 76733;
+
 	class FAFFMDBPCGJ_FDMAIMDKAPI : public ::System::Object
 	{
 	public:

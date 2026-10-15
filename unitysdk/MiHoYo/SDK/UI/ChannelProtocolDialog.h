@@ -22,6 +22,8 @@ namespace UnityEngine::UI { class Text; }
 
 namespace MiHoYo::SDK::UI
 {
+	inline static constexpr unsigned int ChannelProtocolDialog_TypeDefinitionIndex = 8392;
+
 	class ChannelProtocolDialog : public ::MiHoYo::SDK::UIElement
 	{
 	public:

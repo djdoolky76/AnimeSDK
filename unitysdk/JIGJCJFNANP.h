@@ -9,6 +9,8 @@ namespace RPG::GameCore { class DiceCombatPredicateConfig_ChallengerHasSameConfi
 #define JIGJCJFNANP_KFGJEKJHIMB_OFFSET UNITYSDK_OFFSET(0x1C6F6CF0)
 #define JIGJCJFNANP_NMKCIBDLHJE_OFFSET UNITYSDK_OFFSET(0x1C6F6F00)
 
+inline static constexpr unsigned int JIGJCJFNANP_TypeDefinitionIndex = 36352;
+
 	class JIGJCJFNANP : public ::HHOHBHGLHHF
 	{
 	public:

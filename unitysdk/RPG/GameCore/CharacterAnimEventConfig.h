@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CharacterAnimEventConfig_TypeDefinitionIndex = 16298;
+
 	class CharacterAnimEventConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

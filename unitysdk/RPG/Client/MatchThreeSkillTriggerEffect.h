@@ -15,6 +15,8 @@ namespace System { class Object; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MatchThreeSkillTriggerEffect_TypeDefinitionIndex = 65965;
+
 	class MatchThreeSkillTriggerEffect : public ::UnityEngine::MonoBehaviour
 	{
 	public:

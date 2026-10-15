@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PropAnimTriggerRandomPlay_TypeDefinitionIndex = 22244;
+
 	class PropAnimTriggerRandomPlay : public ::RPG::GameCore::TaskConfig
 	{
 	public:

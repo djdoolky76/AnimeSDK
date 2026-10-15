@@ -14,6 +14,8 @@ namespace System { class Object; }
 #define CPJNHBCIMGA___C__DISPLAYCLASS10_0___EXECUTESWITCH_B__3_OFFSET UNITYSDK_OFFSET(0xDCD8730)
 #define CPJNHBCIMGA___C__DISPLAYCLASS10_0___EXECUTESWITCH_B__5_OFFSET UNITYSDK_OFFSET(0xDCD8750)
 
+inline static constexpr unsigned int CPJNHBCIMGA___c__DisplayClass10_0_TypeDefinitionIndex = 77727;
+
 	class CPJNHBCIMGA___c__DisplayClass10_0 : public ::System::Object
 	{
 	public:

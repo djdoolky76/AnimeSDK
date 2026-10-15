@@ -10,6 +10,8 @@ namespace System { class String; }
 #define EODHEKNHOLC_CTOR_OFFSET UNITYSDK_OFFSET(0x1CDB2BF0)
 #define EODHEKNHOLC_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CDB2950)
 
+inline static constexpr unsigned int EODHEKNHOLC_TypeDefinitionIndex = 13934;
+
 	class EODHEKNHOLC : public ::System::Object
 	{
 	public:

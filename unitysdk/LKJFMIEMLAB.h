@@ -9,6 +9,8 @@ class MJNGFEGNCOA;
 #define LKJFMIEMLAB_TICK_OFFSET UNITYSDK_OFFSET(0xB7521E0)
 #define LKJFMIEMLAB__ONINITOWNERREF_OFFSET UNITYSDK_OFFSET(0xB752050)
 
+inline static constexpr unsigned int LKJFMIEMLAB_TypeDefinitionIndex = 54034;
+
 	class LKJFMIEMLAB : public ::RPG::GameCore::LevelGraphComponent
 	{
 	public:

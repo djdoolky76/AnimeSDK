@@ -9,6 +9,8 @@ namespace System { class String; }
 
 namespace ZXing::OneD
 {
+	inline static constexpr unsigned int CodaBarWriter_TypeDefinitionIndex = 6977;
+
 	class CodaBarWriter : public ::ZXing::OneD::OneDimensionalCodeWriter
 	{
 	public:

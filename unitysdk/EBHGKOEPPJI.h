@@ -24,6 +24,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define EBHGKOEPPJI__TRYCANCEL_G__PREPAREREMOVEONGOINGUNITS_9_1_OFFSET UNITYSDK_OFFSET(0x12CF4850)
 #define EBHGKOEPPJI__TRYCANCEL_G__PREPAREREMOVEPENDINGUNITS_9_0_OFFSET UNITYSDK_OFFSET(0x12CF4930)
 
+inline static constexpr unsigned int EBHGKOEPPJI_TypeDefinitionIndex = 79786;
+
 	class EBHGKOEPPJI : public ::System::Object
 	{
 	public:

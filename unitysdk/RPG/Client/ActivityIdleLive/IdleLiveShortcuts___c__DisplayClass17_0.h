@@ -9,6 +9,8 @@ namespace RPG::Client { class BaseGameFlow; }
 
 namespace RPG::Client::ActivityIdleLive
 {
+	inline static constexpr unsigned int IdleLiveShortcuts___c__DisplayClass17_0_TypeDefinitionIndex = 75319;
+
 	class IdleLiveShortcuts___c__DisplayClass17_0 : public ::System::Object
 	{
 	public:

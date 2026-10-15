@@ -7,6 +7,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RelicRecommendSubPropertyData_TypeDefinitionIndex = 66818;
+
 	class RelicRecommendSubPropertyData : public ::System::Object
 	{
 	public:

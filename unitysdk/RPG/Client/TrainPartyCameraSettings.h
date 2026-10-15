@@ -9,6 +9,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TrainPartyCameraSettings_TypeDefinitionIndex = 60245;
+
 	class TrainPartyCameraSettings : public ::UnityEngine::MonoBehaviour
 	{
 	public:

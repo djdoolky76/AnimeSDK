@@ -27,6 +27,8 @@ namespace System { class String; }
 #define GELEHDAJMED_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E45DF00)
 #define GELEHDAJMED_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E45DF60)
 
+inline static constexpr unsigned int GELEHDAJMED_TypeDefinitionIndex = 34396;
+
 	class GELEHDAJMED : public ::System::Object
 	{
 	public:

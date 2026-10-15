@@ -15,6 +15,8 @@ namespace System { class Object; }
 
 namespace Mono::Unity
 {
+	inline static constexpr unsigned int UnityTls_unitytls_interface_struct_unitytls_x509verify_explicit_ca_t_TypeDefinitionIndex = 2385;
+
 	class UnityTls_unitytls_interface_struct_unitytls_x509verify_explicit_ca_t : public ::System::MulticastDelegate
 	{
 	public:

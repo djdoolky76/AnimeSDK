@@ -13,6 +13,8 @@ namespace RPG::GameCore { class GameEntity; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdventureOnTimeRewindParentEntityPropStateChangeEnd_TypeDefinitionIndex = 56651;
+
 	class AdventureOnTimeRewindParentEntityPropStateChangeEnd : public ::CMPGEAFHHDC
 	{
 	public:

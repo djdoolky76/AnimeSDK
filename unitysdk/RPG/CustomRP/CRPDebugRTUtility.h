@@ -14,6 +14,8 @@ namespace System { class Object; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int CRPDebugRTUtility_TypeDefinitionIndex = 37880;
+
 	class CRPDebugRTUtility : public ::System::Object
 	{
 	public:

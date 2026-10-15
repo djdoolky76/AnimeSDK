@@ -34,6 +34,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define CNBCPFJOGIE_SET_SKIPDAMAGESTANCEEVENTONBREAK_OFFSET UNITYSDK_OFFSET(0xDA47120)
 #define CNBCPFJOGIE_SET_STRICTLIMBOENTITYDIECHECK_OFFSET UNITYSDK_OFFSET(0xDA470E0)
 
+inline static constexpr unsigned int CNBCPFJOGIE_TypeDefinitionIndex = 56502;
+
 	class CNBCPFJOGIE : public ::System::Object
 	{
 	public:

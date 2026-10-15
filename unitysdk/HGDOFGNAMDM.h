@@ -8,6 +8,8 @@ class HGDOFGNAMDM;
 #define HGDOFGNAMDM_CTOR_OFFSET UNITYSDK_OFFSET(0x1CEA41D0)
 #define HGDOFGNAMDM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CEA40A0)
 
+inline static constexpr unsigned int HGDOFGNAMDM_TypeDefinitionIndex = 15139;
+
 	class HGDOFGNAMDM : public ::System::Object
 	{
 	public:

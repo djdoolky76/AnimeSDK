@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define PMEANPGBPIN___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DFA9E50)
 #define PMEANPGBPIN___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1DFA9E60)
 
+inline static constexpr unsigned int PMEANPGBPIN___c_TypeDefinitionIndex = 34159;
+
 	class PMEANPGBPIN___c : public ::System::Object
 	{
 	public:

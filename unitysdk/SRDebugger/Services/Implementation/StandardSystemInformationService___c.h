@@ -18,6 +18,8 @@ namespace System { template <typename T> class Func_1; }
 
 namespace SRDebugger::Services::Implementation
 {
+	inline static constexpr unsigned int StandardSystemInformationService___c_TypeDefinitionIndex = 38090;
+
 	class StandardSystemInformationService___c : public ::System::Object
 	{
 	public:

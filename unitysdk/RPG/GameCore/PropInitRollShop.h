@@ -10,6 +10,8 @@ namespace RPG::GameCore { class PropInitRollShop; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PropInitRollShop_TypeDefinitionIndex = 21216;
+
 	class PropInitRollShop : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -8,6 +8,8 @@ namespace RPG::Client::CakeRace { class CakeRacePerformanceDataItem; }
 #define JIPBOGKHKBE_CTOR_OFFSET UNITYSDK_OFFSET(0xB1FFB40)
 #define JIPBOGKHKBE_FANJEMOGFGH_OFFSET UNITYSDK_OFFSET(0xB1FFB50)
 
+inline static constexpr unsigned int JIPBOGKHKBE_TypeDefinitionIndex = 78098;
+
 	class JIPBOGKHKBE : public ::System::Object
 	{
 	public:

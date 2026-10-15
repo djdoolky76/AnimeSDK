@@ -14,6 +14,8 @@ namespace Entitas { template <typename T> class IMatcher_1; }
 #define BBEDOPPLIOI_KCKGCBPHGBD_1_OFFSET UNITYSDK_OFFSET(0x1C8B0BA0)
 #define BBEDOPPLIOI_KCKGCBPHGBD_OFFSET UNITYSDK_OFFSET(0x1C8B0B10)
 
+inline static constexpr unsigned int BBEDOPPLIOI_TypeDefinitionIndex = 42639;
+
 	class BBEDOPPLIOI : public ::System::Object
 	{
 	public:

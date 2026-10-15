@@ -14,6 +14,8 @@ namespace RPG::GameCore { class DialogueConditionRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DialogueConditionRow_TypeDefinitionIndex = 13134;
+
 	class DialogueConditionRow : public ::System::Object
 	{
 	public:

@@ -3,6 +3,8 @@
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int RTReflectionSettings_TypeDefinitionIndex = 4829;
+
 	struct alignas(4) RTReflectionSettings
 	{
 		::System::Boolean Enabled; // 0x10

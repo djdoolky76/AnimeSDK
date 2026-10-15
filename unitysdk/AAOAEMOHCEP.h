@@ -29,6 +29,8 @@ namespace System { class String; }
 #define AAOAEMOHCEP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DDC3FA0)
 #define AAOAEMOHCEP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DDC4000)
 
+inline static constexpr unsigned int AAOAEMOHCEP_TypeDefinitionIndex = 26013;
+
 	class AAOAEMOHCEP : public ::System::Object
 	{
 	public:

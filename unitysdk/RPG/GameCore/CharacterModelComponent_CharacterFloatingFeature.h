@@ -23,6 +23,8 @@ namespace UnityEngine { class AnimationCurve; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CharacterModelComponent_CharacterFloatingFeature_TypeDefinitionIndex = 57182;
+
 	class CharacterModelComponent_CharacterFloatingFeature : public ::MDAMCBDNMKL
 	{
 	public:

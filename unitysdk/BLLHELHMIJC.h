@@ -10,6 +10,8 @@
 #define BLLHELHMIJC_SET_INSTANCEID_OFFSET UNITYSDK_OFFSET(0xBA78E50)
 #define BLLHELHMIJC_SET_LITTLEGAMEENTITYID_OFFSET UNITYSDK_OFFSET(0xBA78E70)
 
+inline static constexpr unsigned int BLLHELHMIJC_TypeDefinitionIndex = 74593;
+
 	class BLLHELHMIJC : public ::System::Object
 	{
 	public:

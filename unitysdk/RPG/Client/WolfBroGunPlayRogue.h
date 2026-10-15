@@ -35,6 +35,8 @@ namespace System { class Object; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int WolfBroGunPlayRogue_TypeDefinitionIndex = 68757;
+
 	class WolfBroGunPlayRogue : public ::UnityEngine::MonoBehaviour
 	{
 	public:

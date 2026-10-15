@@ -4,6 +4,8 @@
 
 #define BEGMNKOKFGK_CTOR_OFFSET UNITYSDK_OFFSET(0x1631B980)
 
+inline static constexpr unsigned int BEGMNKOKFGK_TypeDefinitionIndex = 73579;
+
 	class BEGMNKOKFGK : public ::RPG::Client::TABehaviorBase
 	{
 	public:

@@ -6,6 +6,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int VortexParticlesBehavior_ENNIKBKPIHP_TypeDefinitionIndex = 70386;
+
 	class VortexParticlesBehavior_ENNIKBKPIHP : public ::System::Object
 	{
 	public:

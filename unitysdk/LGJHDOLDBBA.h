@@ -7,6 +7,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define LGJHDOLDBBA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB699930)
 #define LGJHDOLDBBA_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB699A80)
 
+inline static constexpr unsigned int LGJHDOLDBBA_TypeDefinitionIndex = 53716;
+
 	class LGJHDOLDBBA
 	{
 	public:

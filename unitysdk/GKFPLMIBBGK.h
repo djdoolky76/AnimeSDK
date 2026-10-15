@@ -4,6 +4,8 @@
 
 #define GKFPLMIBBGK_CTOR_OFFSET UNITYSDK_OFFSET(0x15A96960)
 
+inline static constexpr unsigned int GKFPLMIBBGK_TypeDefinitionIndex = 48362;
+
 	class GKFPLMIBBGK : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

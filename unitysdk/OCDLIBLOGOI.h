@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define OCDLIBLOGOI_CTOR_OFFSET UNITYSDK_OFFSET(0xBD5A660)
 #define OCDLIBLOGOI_TRANSFORM_OFFSET UNITYSDK_OFFSET(0xBD5A680)
 
+inline static constexpr unsigned int OCDLIBLOGOI_TypeDefinitionIndex = 53802;
+
 	class OCDLIBLOGOI
 	{
 	public:

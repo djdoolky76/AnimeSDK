@@ -12,6 +12,8 @@ namespace RPG::GameCore { class CheckTurnStateAxis; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CheckTurnStateAxis_TypeDefinitionIndex = 15508;
+
 	class CheckTurnStateAxis : public ::RPG::GameCore::ConsiderationAxisConfig
 	{
 	public:

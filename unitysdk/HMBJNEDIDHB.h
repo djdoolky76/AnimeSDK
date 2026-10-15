@@ -15,6 +15,8 @@ namespace UnityEngine { class Collider; }
 #define HMBJNEDIDHB_ONALLOC_OFFSET UNITYSDK_OFFSET(0x1CAECFE0)
 #define HMBJNEDIDHB_ONRECYCLE_OFFSET UNITYSDK_OFFSET(0x1CAED030)
 
+inline static constexpr unsigned int HMBJNEDIDHB_TypeDefinitionIndex = 43651;
+
 	class HMBJNEDIDHB : public ::System::Object
 	{
 	public:

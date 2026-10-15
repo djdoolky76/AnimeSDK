@@ -29,6 +29,8 @@ namespace System { class Object; }
 #define CKKMKFFFCAA_SET_CONTEXT_OFFSET UNITYSDK_OFFSET(0xD7610A0)
 #define CKKMKFFFCAA_SET_SOURCE_OFFSET UNITYSDK_OFFSET(0xD7610C0)
 
+inline static constexpr unsigned int CKKMKFFFCAA_TypeDefinitionIndex = 79511;
+
 	class CKKMKFFFCAA : public ::JEOCDNBFEBF
 	{
 	public:

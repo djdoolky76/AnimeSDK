@@ -7,6 +7,8 @@
 
 namespace UnityEngine::SceneManagement
 {
+	inline static constexpr unsigned int LoadSceneParameters_TypeDefinitionIndex = 4513;
+
 	struct alignas(4) LoadSceneParameters
 	{
 		::UnityEngine::SceneManagement::LoadSceneMode m_LoadSceneMode; // 0x10

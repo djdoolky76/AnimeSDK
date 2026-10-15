@@ -6,6 +6,8 @@
 
 namespace System::Runtime::Remoting::Metadata
 {
+	inline static constexpr unsigned int SoapParameterAttribute_TypeDefinitionIndex = 1288;
+
 	class SoapParameterAttribute : public ::System::Runtime::Remoting::Metadata::SoapAttribute
 	{
 	public:

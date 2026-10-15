@@ -32,6 +32,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelEntityUseSkill_TypeDefinitionIndex = 56750;
+
 	class LevelEntityUseSkill : public ::CMPGEAFHHDC
 	{
 	public:

@@ -22,6 +22,8 @@ namespace System { class Object; }
 #define BLMGKNOOOJD_PAENJEBEHPP_OFFSET UNITYSDK_OFFSET(0xBA7A870)
 #define BLMGKNOOOJD_TICK_OFFSET UNITYSDK_OFFSET(0xBA79C70)
 
+inline static constexpr unsigned int BLMGKNOOOJD_TypeDefinitionIndex = 53376;
+
 	class BLMGKNOOOJD : public ::GELIALJDFBL
 	{
 	public:

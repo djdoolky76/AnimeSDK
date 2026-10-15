@@ -13,6 +13,8 @@ namespace System { class Object; }
 #define MFDCACCBBHI_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB8EED30)
 #define MFDCACCBBHI_TICK_OFFSET UNITYSDK_OFFSET(0xB8EEFC0)
 
+inline static constexpr unsigned int MFDCACCBBHI_TypeDefinitionIndex = 53481;
+
 	class MFDCACCBBHI : public ::GELIALJDFBL
 	{
 	public:

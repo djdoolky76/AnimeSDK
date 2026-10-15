@@ -14,6 +14,8 @@ namespace System::Security::Cryptography { class ICryptoTransform; }
 
 namespace System::Security::Cryptography
 {
+	inline static constexpr unsigned int RijndaelManaged_TypeDefinitionIndex = 1043;
+
 	class RijndaelManaged : public ::System::Security::Cryptography::Rijndael
 	{
 	public:

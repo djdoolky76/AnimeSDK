@@ -20,6 +20,8 @@ namespace System { class Object; }
 #define LHDOFEMLLNP_LIINPKFOMGP_OFFSET UNITYSDK_OFFSET(0xB6AB340)
 #define LHDOFEMLLNP_NENGOPMIGMH_OFFSET UNITYSDK_OFFSET(0xB6AAFD0)
 
+inline static constexpr unsigned int LHDOFEMLLNP_TypeDefinitionIndex = 53518;
+
 	class LHDOFEMLLNP : public ::System::Object
 	{
 	public:

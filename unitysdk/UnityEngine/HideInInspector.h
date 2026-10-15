@@ -6,6 +6,8 @@
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int HideInInspector_TypeDefinitionIndex = 4309;
+
 	class HideInInspector : public ::System::Attribute
 	{
 	public:

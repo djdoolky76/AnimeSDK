@@ -5,6 +5,8 @@
 #define CNLEEFGEKFB_CTOR_OFFSET UNITYSDK_OFFSET(0x3C29DD0)
 #define CNLEEFGEKFB_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0x3C29DF0)
 
+inline static constexpr unsigned int CNLEEFGEKFB_TypeDefinitionIndex = 37274;
+
 	struct alignas(4) CNLEEFGEKFB
 	{
 		::System::Boolean HPGAOBONHOK; // 0x10

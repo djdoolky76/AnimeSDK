@@ -33,6 +33,8 @@ namespace UnityEngine { class Renderer; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoEffectPluginDialogRenderer_TypeDefinitionIndex = 69993;
+
 	class MonoEffectPluginDialogRenderer : public ::RPG::Client::MonoEffectPluginCharaReplaceMatBase
 	{
 	public:

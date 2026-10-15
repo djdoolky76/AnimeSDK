@@ -7,6 +7,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define HPCOGBMGFFC_JDPGFIBLFOP_OFFSET UNITYSDK_OFFSET(0x15DC1B80)
 #define HPCOGBMGFFC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15DC1A60)
 
+inline static constexpr unsigned int HPCOGBMGFFC_TypeDefinitionIndex = 53068;
+
 	class HPCOGBMGFFC
 	{
 	public:

@@ -15,6 +15,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdvByInCustomZone_TypeDefinitionIndex = 20022;
+
 	class AdvByInCustomZone : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::Client::Pet
 {
+	inline static constexpr unsigned int IPetInstanceRepositoryExtensions_TypeDefinitionIndex = 75651;
+
 	class IPetInstanceRepositoryExtensions : public ::System::Object
 	{
 	public:

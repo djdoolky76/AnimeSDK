@@ -32,6 +32,8 @@ namespace System { class String; }
 #define JGAMLCKCIKB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E734B20)
 #define JGAMLCKCIKB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E734B80)
 
+inline static constexpr unsigned int JGAMLCKCIKB_TypeDefinitionIndex = 32348;
+
 	class JGAMLCKCIKB : public ::System::Object
 	{
 	public:

@@ -7,6 +7,8 @@ class KIGLHBEPNOG;
 #define DBBPHCIBIBI___C__DISPLAYCLASS5_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1C5D8FF0)
 #define DBBPHCIBIBI___C__DISPLAYCLASS5_0__GETCAKERACECORECYCLEABILITY_B__0_OFFSET UNITYSDK_OFFSET(0x1C5DB910)
 
+inline static constexpr unsigned int DBBPHCIBIBI___c__DisplayClass5_0_TypeDefinitionIndex = 37286;
+
 	class DBBPHCIBIBI___c__DisplayClass5_0 : public ::System::Object
 	{
 	public:

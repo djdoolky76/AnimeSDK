@@ -6,6 +6,8 @@
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int HEU_HARCImports_TypeDefinitionIndex = 40524;
+
 	class HEU_HARCImports : public ::System::Object
 	{
 	public:

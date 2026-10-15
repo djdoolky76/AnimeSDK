@@ -18,6 +18,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define OCEHGBFCHMC__PRELOADVFSDATAINTERNAL_OFFSET UNITYSDK_OFFSET(0xBD5DBC0)
 #define OCEHGBFCHMC__SOLVEVFSDATAINTERNAL_OFFSET UNITYSDK_OFFSET(0xBD5DD70)
 
+inline static constexpr unsigned int OCEHGBFCHMC_TypeDefinitionIndex = 73980;
+
 	class OCEHGBFCHMC
 	{
 	public:

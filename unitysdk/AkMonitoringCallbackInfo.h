@@ -19,6 +19,8 @@ namespace System { class String; }
 #define AKMONITORINGCALLBACKINFO_GET_PLAYINGID_OFFSET UNITYSDK_OFFSET(0x1F5A6D90)
 #define AKMONITORINGCALLBACKINFO_SETCPTR_OFFSET UNITYSDK_OFFSET(0x1F5A6800)
 
+inline static constexpr unsigned int AkMonitoringCallbackInfo_TypeDefinitionIndex = 44765;
+
 	class AkMonitoringCallbackInfo : public ::System::Object
 	{
 	public:

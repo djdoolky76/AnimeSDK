@@ -14,6 +14,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByHasBillboard_TypeDefinitionIndex = 22425;
+
 	class ByHasBillboard : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

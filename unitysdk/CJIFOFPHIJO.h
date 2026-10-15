@@ -11,6 +11,8 @@ namespace RPG::Client::Pet { class IPetInstanceRepository; }
 #define CJIFOFPHIJO_CTOR_OFFSET UNITYSDK_OFFSET(0xD212EC0)
 #define CJIFOFPHIJO_JPNENBMFGJI_OFFSET UNITYSDK_OFFSET(0xD213950)
 
+inline static constexpr unsigned int CJIFOFPHIJO_TypeDefinitionIndex = 74954;
+
 	class CJIFOFPHIJO : public ::System::Object
 	{
 	public:

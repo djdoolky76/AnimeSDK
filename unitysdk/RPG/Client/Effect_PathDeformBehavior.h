@@ -22,6 +22,8 @@ namespace UnityEngine { class MaterialPropertyBlock; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int Effect_PathDeformBehavior_TypeDefinitionIndex = 70527;
+
 	class Effect_PathDeformBehavior : public ::RPG::Client::TABehaviorBase
 	{
 	public:

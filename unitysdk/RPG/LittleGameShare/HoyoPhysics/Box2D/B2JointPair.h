@@ -7,6 +7,8 @@ namespace RPG::LittleGameShare::HoyoPhysics::Box2D { class B2JointSim; }
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
+	inline static constexpr unsigned int B2JointPair_TypeDefinitionIndex = 36699;
+
 	struct alignas(8) B2JointPair
 	{
 		::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Joint* joint; // 0x10

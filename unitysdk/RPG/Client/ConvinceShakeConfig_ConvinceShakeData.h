@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ConvinceShakeConfig_ConvinceShakeData_TypeDefinitionIndex = 60676;
+
 	class ConvinceShakeConfig_ConvinceShakeData : public ::System::Object
 	{
 	public:

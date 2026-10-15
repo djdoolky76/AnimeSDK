@@ -17,6 +17,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int BookletPageView_TypeDefinitionIndex = 72392;
+
 	class BookletPageView : public ::UnityEngine::MonoBehaviour
 	{
 	public:

@@ -25,6 +25,8 @@ namespace UnityEngine { class Collider; }
 #define OPDEHKNDOEG_MEJCFHEHEDP_OFFSET UNITYSDK_OFFSET(0xBFA5E40)
 #define OPDEHKNDOEG_TEARDOWN_OFFSET UNITYSDK_OFFSET(0xBFA6ED0)
 
+inline static constexpr unsigned int OPDEHKNDOEG_TypeDefinitionIndex = 77065;
+
 	class OPDEHKNDOEG : public ::System::Object
 	{
 	public:

@@ -19,6 +19,8 @@ namespace UnityEngine::ProBuilder { class WingedEdge; }
 
 namespace UnityEngine::ProBuilder
 {
+	inline static constexpr unsigned int Smoothing_TypeDefinitionIndex = 44437;
+
 	class Smoothing : public ::System::Object
 	{
 	public:

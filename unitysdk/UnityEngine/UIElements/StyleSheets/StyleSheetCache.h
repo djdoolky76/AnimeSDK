@@ -13,6 +13,8 @@ namespace UnityEngine::UIElements::StyleSheets { class StyleSheetCache_SheetHand
 
 namespace UnityEngine::UIElements::StyleSheets
 {
+	inline static constexpr unsigned int StyleSheetCache_TypeDefinitionIndex = 6012;
+
 	class StyleSheetCache : public ::System::Object
 	{
 	public:

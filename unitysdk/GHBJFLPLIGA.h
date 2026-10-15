@@ -31,6 +31,8 @@ namespace System { class String; }
 #define GHBJFLPLIGA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E4838B0)
 #define GHBJFLPLIGA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E483910)
 
+inline static constexpr unsigned int GHBJFLPLIGA_TypeDefinitionIndex = 25956;
+
 	class GHBJFLPLIGA : public ::System::Object
 	{
 	public:

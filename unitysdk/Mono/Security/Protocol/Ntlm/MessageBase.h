@@ -14,6 +14,8 @@
 
 namespace Mono::Security::Protocol::Ntlm
 {
+	inline static constexpr unsigned int MessageBase_TypeDefinitionIndex = 2274;
+
 	class MessageBase : public ::System::Object
 	{
 	public:

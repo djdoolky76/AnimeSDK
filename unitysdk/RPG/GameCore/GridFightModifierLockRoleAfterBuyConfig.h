@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GridFightModifierLockRoleAfterBuyConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightModifierLockRoleAfterBuyConfig_TypeDefinitionIndex = 19352;
+
 	class GridFightModifierLockRoleAfterBuyConfig : public ::RPG::GameCore::GridFightModifierConfigBase
 	{
 	public:

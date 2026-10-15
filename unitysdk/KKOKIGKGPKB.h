@@ -20,6 +20,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define KKOKIGKGPKB_MPLPBCAHCIB_OFFSET UNITYSDK_OFFSET(0xB4D8AA0)
 #define KKOKIGKGPKB_OMFIMHOFLMN_OFFSET UNITYSDK_OFFSET(0xB4D9800)
 
+inline static constexpr unsigned int KKOKIGKGPKB_TypeDefinitionIndex = 49153;
+
 	class KKOKIGKGPKB : public ::System::Object
 	{
 	public:

@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TutorialWaitCustomString; }
 
 #define AOCBNIHNBLG_CTOR_OFFSET UNITYSDK_OFFSET(0x158A6700)
 
+inline static constexpr unsigned int AOCBNIHNBLG_TypeDefinitionIndex = 58833;
+
 	class AOCBNIHNBLG : public ::MPLFJICIMNH
 	{
 	public:

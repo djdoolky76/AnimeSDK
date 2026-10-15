@@ -15,6 +15,8 @@ namespace System { class Object; }
 
 namespace MessagePack::Formatters
 {
+	inline static constexpr unsigned int DynamicObjectTypeFallbackFormatter_TypeDefinitionIndex = 7427;
+
 	class DynamicObjectTypeFallbackFormatter : public ::System::Object
 	{
 	public:

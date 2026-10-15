@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ChimeraEvaluationConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChimeraEvaluationConfig_TypeDefinitionIndex = 15855;
+
 	class ChimeraEvaluationConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

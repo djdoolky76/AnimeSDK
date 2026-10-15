@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define GNPIEPGLNPC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E4E8800)
 #define GNPIEPGLNPC___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E4E8810)
 
+inline static constexpr unsigned int GNPIEPGLNPC___c_TypeDefinitionIndex = 30351;
+
 	class GNPIEPGLNPC___c : public ::System::Object
 	{
 	public:

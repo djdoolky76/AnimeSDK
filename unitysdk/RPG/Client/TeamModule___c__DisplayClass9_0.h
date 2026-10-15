@@ -8,6 +8,8 @@ namespace RPG::Client { class TeamData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TeamModule___c__DisplayClass9_0_TypeDefinitionIndex = 68134;
+
 	class TeamModule___c__DisplayClass9_0 : public ::System::Object
 	{
 	public:

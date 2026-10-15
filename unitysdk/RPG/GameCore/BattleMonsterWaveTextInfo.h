@@ -13,6 +13,8 @@ namespace System { class Nullable; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int BattleMonsterWaveTextInfo_TypeDefinitionIndex = 56226;
+
 	class BattleMonsterWaveTextInfo : public ::System::Object
 	{
 	public:

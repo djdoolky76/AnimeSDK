@@ -47,6 +47,8 @@ namespace UnityEngine { class RectTransform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MapRotationUtils_TypeDefinitionIndex = 60592;
+
 	class MapRotationUtils : public ::System::Object
 	{
 	public:

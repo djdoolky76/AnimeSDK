@@ -19,6 +19,8 @@ namespace Spine { template <typename T> class ExposedList_1; }
 
 namespace Spine
 {
+	inline static constexpr unsigned int DeformTimeline_TypeDefinitionIndex = 39619;
+
 	class DeformTimeline : public ::Spine::CurveTimeline
 	{
 	public:

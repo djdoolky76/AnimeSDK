@@ -18,6 +18,8 @@ namespace System::ComponentModel { class TypeConverter; }
 
 namespace System::ComponentModel
 {
+	inline static constexpr unsigned int ReflectTypeDescriptionProvider_ReflectedTypeData_TypeDefinitionIndex = 2622;
+
 	class ReflectTypeDescriptionProvider_ReflectedTypeData : public ::System::Object
 	{
 	public:

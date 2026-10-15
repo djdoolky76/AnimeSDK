@@ -13,6 +13,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByIsHitAllCallBackStack_TypeDefinitionIndex = 23498;
+
 	class ByIsHitAllCallBackStack : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueTalkColorType_TypeDefinitionIndex = 14806;
+
 	enum class RogueTalkColorType : ::System::Int32
 	{
 		None = 0,

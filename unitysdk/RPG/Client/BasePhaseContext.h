@@ -27,6 +27,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int BasePhaseContext_TypeDefinitionIndex = 61113;
+
 	class BasePhaseContext : public ::System::Object
 	{
 	public:

@@ -7,6 +7,8 @@ namespace RPG::GameCore { class DiceCombatPredicateConfig_CurrentHPCompare; }
 #define EBNODINBEOD_CTOR_OFFSET UNITYSDK_OFFSET(0x1C5E0E40)
 #define EBNODINBEOD_KFGJEKJHIMB_OFFSET UNITYSDK_OFFSET(0x1C5FAE10)
 
+inline static constexpr unsigned int EBNODINBEOD_TypeDefinitionIndex = 36355;
+
 	class EBNODINBEOD : public ::HHOHBHGLHHF
 	{
 	public:

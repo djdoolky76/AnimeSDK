@@ -9,6 +9,8 @@ namespace System::Xml::Linq { class XObjectChangeEventArgs; }
 
 namespace System::Xml::Linq
 {
+	inline static constexpr unsigned int XObjectChangeEventArgs_TypeDefinitionIndex = 3889;
+
 	class XObjectChangeEventArgs : public ::System::EventArgs
 	{
 	public:

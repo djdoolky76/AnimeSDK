@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define OAAOEKMCCNG_TOSTRING_OFFSET UNITYSDK_OFFSET(0xBD187B0)
 #define OAAOEKMCCNG_TRIGGERACTION_OFFSET UNITYSDK_OFFSET(0xBD18840)
 
+inline static constexpr unsigned int OAAOEKMCCNG_TypeDefinitionIndex = 66995;
+
 	class OAAOEKMCCNG : public ::System::Object
 	{
 	public:

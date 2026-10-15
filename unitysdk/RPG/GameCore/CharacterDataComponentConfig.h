@@ -10,6 +10,8 @@ namespace RPG::GameCore { class CharacterDataComponentConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CharacterDataComponentConfig_TypeDefinitionIndex = 16566;
+
 	class CharacterDataComponentConfig : public ::RPG::GameCore::ComponentConfig
 	{
 	public:

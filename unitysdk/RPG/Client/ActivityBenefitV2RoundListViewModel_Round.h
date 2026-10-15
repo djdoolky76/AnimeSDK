@@ -35,6 +35,8 @@ namespace System::ComponentModel { class PropertyChangedEventArgs; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ActivityBenefitV2RoundListViewModel_Round_TypeDefinitionIndex = 61419;
+
 	class ActivityBenefitV2RoundListViewModel_Round : public ::System::Object
 	{
 	public:

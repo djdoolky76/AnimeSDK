@@ -10,6 +10,8 @@ namespace System { class Action; }
 #define JMBIAHMDHLL_CLEAR_OFFSET UNITYSDK_OFFSET(0xB25E480)
 #define JMBIAHMDHLL_CTOR_OFFSET UNITYSDK_OFFSET(0xB25E4E0)
 
+inline static constexpr unsigned int JMBIAHMDHLL_TypeDefinitionIndex = 57693;
+
 	class JMBIAHMDHLL : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class CreateVirtualTeam; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CreateVirtualTeam_TypeDefinitionIndex = 21609;
+
 	class CreateVirtualTeam : public ::RPG::GameCore::TaskConfig
 	{
 	public:

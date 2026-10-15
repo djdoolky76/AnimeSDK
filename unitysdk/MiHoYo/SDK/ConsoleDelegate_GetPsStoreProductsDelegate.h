@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int ConsoleDelegate_GetPsStoreProductsDelegate_TypeDefinitionIndex = 7647;
+
 	class ConsoleDelegate_GetPsStoreProductsDelegate : public ::System::MulticastDelegate
 	{
 	public:

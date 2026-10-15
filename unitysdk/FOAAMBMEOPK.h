@@ -29,6 +29,8 @@ namespace System { class String; }
 #define FOAAMBMEOPK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E3F62D0)
 #define FOAAMBMEOPK_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E3F6330)
 
+inline static constexpr unsigned int FOAAMBMEOPK_TypeDefinitionIndex = 32202;
+
 	class FOAAMBMEOPK : public ::System::Object
 	{
 	public:

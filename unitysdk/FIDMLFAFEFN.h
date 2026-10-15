@@ -5,6 +5,8 @@ namespace System { class String; }
 
 #define FIDMLFAFEFN_CTOR_OFFSET UNITYSDK_OFFSET(0x157A3390)
 
+inline static constexpr unsigned int FIDMLFAFEFN_TypeDefinitionIndex = 73661;
+
 	class FIDMLFAFEFN : public ::System::Attribute
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FateActReplaceAllBuffByRarityConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FateActReplaceAllBuffByRarityConfig_TypeDefinitionIndex = 19244;
+
 	class FateActReplaceAllBuffByRarityConfig : public ::RPG::GameCore::FateActionConfigBase
 	{
 	public:

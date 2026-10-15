@@ -18,6 +18,8 @@ namespace RPG::GameCore { class WaitForTurnEnd; }
 #define DIKIDOJBFJK_PDFBFNFBMLF_OFFSET UNITYSDK_OFFSET(0xF211590)
 #define DIKIDOJBFJK_TICK_OFFSET UNITYSDK_OFFSET(0xF2116C0)
 
+inline static constexpr unsigned int DIKIDOJBFJK_TypeDefinitionIndex = 58894;
+
 	class DIKIDOJBFJK : public ::GELIALJDFBL
 	{
 	public:

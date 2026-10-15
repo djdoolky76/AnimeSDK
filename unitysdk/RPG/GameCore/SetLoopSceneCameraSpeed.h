@@ -10,6 +10,8 @@ namespace RPG::GameCore { class SetLoopSceneCameraSpeed; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetLoopSceneCameraSpeed_TypeDefinitionIndex = 20432;
+
 	class SetLoopSceneCameraSpeed : public ::RPG::GameCore::TaskConfig
 	{
 	public:

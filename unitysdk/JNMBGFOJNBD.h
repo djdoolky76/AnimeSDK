@@ -29,6 +29,8 @@ namespace System { class String; }
 #define JNMBGFOJNBD_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E799F80)
 #define JNMBGFOJNBD_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E799FE0)
 
+inline static constexpr unsigned int JNMBGFOJNBD_TypeDefinitionIndex = 29781;
+
 	class JNMBGFOJNBD : public ::System::Object
 	{
 	public:

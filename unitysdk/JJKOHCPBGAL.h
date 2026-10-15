@@ -44,6 +44,8 @@ namespace System { class String; }
 #define JJKOHCPBGAL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E75F7A0)
 #define JJKOHCPBGAL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E75F800)
 
+inline static constexpr unsigned int JJKOHCPBGAL_TypeDefinitionIndex = 27627;
+
 	class JJKOHCPBGAL : public ::System::Object
 	{
 	public:

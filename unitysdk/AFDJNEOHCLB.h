@@ -32,6 +32,8 @@ namespace System { class String; }
 #define AFDJNEOHCLB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E1151A0)
 #define AFDJNEOHCLB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E115200)
 
+inline static constexpr unsigned int AFDJNEOHCLB_TypeDefinitionIndex = 27040;
+
 	class AFDJNEOHCLB : public ::System::Object
 	{
 	public:

@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int ConsoleDelegate_OpenURLWithCookiesDelegate_TypeDefinitionIndex = 7663;
+
 	class ConsoleDelegate_OpenURLWithCookiesDelegate : public ::System::MulticastDelegate
 	{
 	public:

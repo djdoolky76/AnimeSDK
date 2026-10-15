@@ -8,6 +8,8 @@ namespace RPG::Client { class IRogueTournPersonaRoomCardInGame; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueTournUtils___c__DisplayClass28_0_TypeDefinitionIndex = 67816;
+
 	class RogueTournUtils___c__DisplayClass28_0 : public ::System::Object
 	{
 	public:

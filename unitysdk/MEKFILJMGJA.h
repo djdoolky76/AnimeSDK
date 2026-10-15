@@ -6,6 +6,8 @@ namespace RPG::GameCore { class GameEntity; }
 
 #define MEKFILJMGJA_CTOR_OFFSET UNITYSDK_OFFSET(0xB8DC3C0)
 
+inline static constexpr unsigned int MEKFILJMGJA_TypeDefinitionIndex = 55611;
+
 	class MEKFILJMGJA : public ::System::Object
 	{
 	public:

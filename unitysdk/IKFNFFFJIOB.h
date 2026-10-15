@@ -7,6 +7,8 @@ namespace RPG::GameCore { class MarbleRemoveSkill; }
 #define IKFNFFFJIOB_CTOR_OFFSET UNITYSDK_OFFSET(0x1CB77EF0)
 #define IKFNFFFJIOB_KDNAAOHECPD_OFFSET UNITYSDK_OFFSET(0x1CB77F00)
 
+inline static constexpr unsigned int IKFNFFFJIOB_TypeDefinitionIndex = 43127;
+
 	class IKFNFFFJIOB : public ::BKABEBEPPJK
 	{
 	public:

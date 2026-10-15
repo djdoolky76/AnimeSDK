@@ -9,6 +9,8 @@ namespace System { class Object; }
 
 namespace Microsoft::Win32
 {
+	inline static constexpr unsigned int RegistryKeyComparer_TypeDefinitionIndex = 108;
+
 	class RegistryKeyComparer : public ::System::Object
 	{
 	public:

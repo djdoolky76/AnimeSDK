@@ -8,6 +8,8 @@ namespace RPG::Client { class RogueTournPersonaStyleInfo; }
 #define DJCGPDMACHO_CTOR_OFFSET UNITYSDK_OFFSET(0xF22C750)
 #define DJCGPDMACHO_JAGMPHPNAHM_OFFSET UNITYSDK_OFFSET(0xF22C760)
 
+inline static constexpr unsigned int DJCGPDMACHO_TypeDefinitionIndex = 67102;
+
 	class DJCGPDMACHO : public ::LIJALNGMHPK
 	{
 	public:

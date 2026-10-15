@@ -16,6 +16,8 @@ namespace System::ComponentModel { class TypeDescriptor_TypeDescriptionNode; }
 
 namespace System::ComponentModel
 {
+	inline static constexpr unsigned int TypeDescriptor_TypeDescriptionNode_TypeDefinitionIndex = 2642;
+
 	class TypeDescriptor_TypeDescriptionNode : public ::System::ComponentModel::TypeDescriptionProvider
 	{
 	public:

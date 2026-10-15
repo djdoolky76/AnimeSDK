@@ -42,6 +42,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define LMIJAJFKPJB_PBNLICIJJJI_OFFSET UNITYSDK_OFFSET(0x1C913220)
 #define LMIJAJFKPJB_PINADMKCIPG_OFFSET UNITYSDK_OFFSET(0x1C913870)
 
+inline static constexpr unsigned int LMIJAJFKPJB_TypeDefinitionIndex = 43053;
+
 	class LMIJAJFKPJB : public ::System::Object
 	{
 	public:

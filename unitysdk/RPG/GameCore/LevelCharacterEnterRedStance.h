@@ -13,6 +13,8 @@ namespace RPG::GameCore { class LevelCharacterEnterRedStance; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelCharacterEnterRedStance_TypeDefinitionIndex = 56801;
+
 	class LevelCharacterEnterRedStance : public ::CMPGEAFHHDC
 	{
 	public:

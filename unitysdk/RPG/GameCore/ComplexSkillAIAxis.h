@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ComplexSkillAIAxis; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ComplexSkillAIAxis_TypeDefinitionIndex = 15516;
+
 	class ComplexSkillAIAxis : public ::RPG::GameCore::ConsiderationAxisConfig
 	{
 	public:

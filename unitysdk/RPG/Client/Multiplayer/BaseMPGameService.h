@@ -45,6 +45,8 @@ namespace System { class String; }
 
 namespace RPG::Client::Multiplayer
 {
+	inline static constexpr unsigned int BaseMPGameService_TypeDefinitionIndex = 80252;
+
 	class BaseMPGameService : public ::System::Object
 	{
 	public:

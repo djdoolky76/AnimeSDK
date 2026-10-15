@@ -11,6 +11,8 @@ namespace RPG::GameCore { class MarbleChooseTarget; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MarbleChooseTarget_TypeDefinitionIndex = 16844;
+
 	class MarbleChooseTarget : public ::RPG::GameCore::MarbleTaskConfig
 	{
 	public:

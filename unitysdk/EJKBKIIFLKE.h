@@ -3,6 +3,8 @@
 #include "unitysdk/RPG/GameCore/PetDiySlotType.h"
 namespace System { class String; }
 
+inline static constexpr unsigned int EJKBKIIFLKE_TypeDefinitionIndex = 60187;
+
 	struct alignas(8) EJKBKIIFLKE
 	{
 		::System::UInt32 BEOFPCAACEP; // 0x10

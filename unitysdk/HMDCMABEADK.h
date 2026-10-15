@@ -7,6 +7,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define HMDCMABEADK_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15D7A120)
 #define HMDCMABEADK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15D7A160)
 
+inline static constexpr unsigned int HMDCMABEADK_TypeDefinitionIndex = 53597;
+
 	class HMDCMABEADK
 	{
 	public:

@@ -9,6 +9,8 @@ namespace System { class String; }
 #define FOHEFBNGLIC_SET_ISDIRTY_OFFSET UNITYSDK_OFFSET(0x158EB950)
 #define FOHEFBNGLIC_SET_URL_OFFSET UNITYSDK_OFFSET(0x158EB930)
 
+inline static constexpr unsigned int FOHEFBNGLIC_TypeDefinitionIndex = 48973;
+
 	class FOHEFBNGLIC : public ::UnityEngine::PropertyAttribute
 	{
 	public:

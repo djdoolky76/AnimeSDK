@@ -11,6 +11,8 @@ namespace RPG::GameCore { class AdventureModifierInstance; }
 #define ENIKHLELFFI_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0x155B0160)
 #define ENIKHLELFFI_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0x155B00A0)
 
+inline static constexpr unsigned int ENIKHLELFFI_TypeDefinitionIndex = 56622;
+
 	class ENIKHLELFFI : public ::CMPGEAFHHDC
 	{
 	public:

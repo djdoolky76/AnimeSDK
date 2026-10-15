@@ -6,6 +6,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoSpineStoryController_Dialog_TypeDefinitionIndex = 60291;
+
 	struct alignas(8) MonoSpineStoryController_Dialog
 	{
 		::System::String* uniqueName; // 0x10

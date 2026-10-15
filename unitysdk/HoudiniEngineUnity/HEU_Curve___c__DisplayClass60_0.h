@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int HEU_Curve___c__DisplayClass60_0_TypeDefinitionIndex = 40384;
+
 	class HEU_Curve___c__DisplayClass60_0 : public ::System::Object
 	{
 	public:

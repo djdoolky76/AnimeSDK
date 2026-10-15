@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define GBMDILMLHCI_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1CE26E20)
 #define GBMDILMLHCI_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1CE26740)
 
+inline static constexpr unsigned int GBMDILMLHCI_TypeDefinitionIndex = 13122;
+
 	class GBMDILMLHCI : public ::System::Object
 	{
 	public:

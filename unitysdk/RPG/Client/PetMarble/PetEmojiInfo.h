@@ -4,6 +4,8 @@ namespace System { class String; }
 
 namespace RPG::Client::PetMarble
 {
+	inline static constexpr unsigned int PetEmojiInfo_TypeDefinitionIndex = 74691;
+
 	struct alignas(8) PetEmojiInfo
 	{
 		::System::UInt32 EmojiID; // 0x10

@@ -9,6 +9,8 @@ namespace System { class Action; }
 #define KFDIDIMCGPE_CTOR_OFFSET UNITYSDK_OFFSET(0xB3911A0)
 #define KFDIDIMCGPE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB3914B0)
 
+inline static constexpr unsigned int KFDIDIMCGPE_TypeDefinitionIndex = 49856;
+
 	class KFDIDIMCGPE : public ::System::Object
 	{
 	public:

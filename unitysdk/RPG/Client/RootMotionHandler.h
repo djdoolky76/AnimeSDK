@@ -17,6 +17,8 @@ namespace UnityEngine { class RuntimeAnimatorController; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RootMotionHandler_TypeDefinitionIndex = 68822;
+
 	class RootMotionHandler : public ::UnityEngine::MonoBehaviour
 	{
 	public:

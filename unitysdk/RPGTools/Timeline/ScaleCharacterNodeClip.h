@@ -14,6 +14,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int ScaleCharacterNodeClip_TypeDefinitionIndex = 48267;
+
 	class ScaleCharacterNodeClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:

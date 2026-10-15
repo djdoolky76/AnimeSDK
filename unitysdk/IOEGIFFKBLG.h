@@ -11,6 +11,8 @@ namespace System { class String; }
 #define IOEGIFFKBLG_DOONENTER_OFFSET UNITYSDK_OFFSET(0x16500A10)
 #define IOEGIFFKBLG_DOONEXIT_OFFSET UNITYSDK_OFFSET(0x16500A90)
 
+inline static constexpr unsigned int IOEGIFFKBLG_TypeDefinitionIndex = 60593;
+
 	class IOEGIFFKBLG : public ::EDLDHDMLJDH
 	{
 	public:

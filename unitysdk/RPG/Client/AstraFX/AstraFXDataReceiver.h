@@ -8,6 +8,8 @@
 
 namespace RPG::Client::AstraFX
 {
+	inline static constexpr unsigned int AstraFXDataReceiver_TypeDefinitionIndex = 73689;
+
 	class AstraFXDataReceiver : public ::RPG::Client::AstraFX::AstraFXDataNode
 	{
 	public:

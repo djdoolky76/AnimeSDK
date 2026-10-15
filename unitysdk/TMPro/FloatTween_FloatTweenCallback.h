@@ -5,6 +5,8 @@
 
 namespace TMPro
 {
+	inline static constexpr unsigned int FloatTween_FloatTweenCallback_TypeDefinitionIndex = 44555;
+
 	class FloatTween_FloatTweenCallback
 	{
 	public:

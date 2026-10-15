@@ -9,6 +9,8 @@ namespace System::Net { class WebResponse; }
 
 #define IOOIEOKJKMM_HNHOHKNKOKM_CTOR_OFFSET UNITYSDK_OFFSET(0x1651A990)
 
+inline static constexpr unsigned int IOOIEOKJKMM_HNHOHKNKOKM_TypeDefinitionIndex = 60980;
+
 	class IOOIEOKJKMM_HNHOHKNKOKM : public ::System::Object
 	{
 	public:

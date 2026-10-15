@@ -39,6 +39,8 @@ namespace UnityEngine { class MonoBehaviour; }
 
 namespace MiHoYo::SDK::PC::OS::CXHandheld
 {
+	inline static constexpr unsigned int BindManagerBase_TypeDefinitionIndex = 8734;
+
 	class BindManagerBase : public ::System::Object
 	{
 	public:

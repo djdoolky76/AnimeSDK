@@ -14,6 +14,8 @@ namespace UnityEngine { class Transform; }
 #define DGAPILJDBON_LNGDBLEKGHG_OFFSET UNITYSDK_OFFSET(0xE8424F0)
 #define DGAPILJDBON_NIOPOKCOKKB_OFFSET UNITYSDK_OFFSET(0xE8422E0)
 
+inline static constexpr unsigned int DGAPILJDBON_TypeDefinitionIndex = 74190;
+
 	class DGAPILJDBON : public ::System::Object
 	{
 	public:

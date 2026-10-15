@@ -11,6 +11,8 @@ namespace RPG::GameCore { class PetMarbleBuffText; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PetMarbleBuffText_TypeDefinitionIndex = 16841;
+
 	class PetMarbleBuffText : public ::RPG::GameCore::MarbleTaskConfig
 	{
 	public:

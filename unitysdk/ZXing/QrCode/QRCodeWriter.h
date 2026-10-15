@@ -15,6 +15,8 @@ namespace ZXing::QrCode::Internal { class QRCode; }
 
 namespace ZXing::QrCode
 {
+	inline static constexpr unsigned int QRCodeWriter_TypeDefinitionIndex = 7018;
+
 	class QRCodeWriter : public ::System::Object
 	{
 	public:

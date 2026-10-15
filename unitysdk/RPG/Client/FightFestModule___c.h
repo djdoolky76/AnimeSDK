@@ -20,6 +20,8 @@ namespace System { template <typename T> class Comparison_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int FightFestModule___c_TypeDefinitionIndex = 64188;
+
 	class FightFestModule___c : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@ namespace RPG::Client { class MonoEffect; }
 #define JONAOEKOCEI___C__DISPLAYCLASS11_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB2AC620)
 #define JONAOEKOCEI___C__DISPLAYCLASS11_0__UPDATE_B__0_OFFSET UNITYSDK_OFFSET(0xB2AC720)
 
+inline static constexpr unsigned int JONAOEKOCEI___c__DisplayClass11_0_TypeDefinitionIndex = 60186;
+
 	class JONAOEKOCEI___c__DisplayClass11_0 : public ::System::Object
 	{
 	public:

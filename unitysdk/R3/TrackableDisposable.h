@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace R3
 {
+	inline static constexpr unsigned int TrackableDisposable_TypeDefinitionIndex = 35927;
+
 	class TrackableDisposable : public ::System::Object
 	{
 	public:

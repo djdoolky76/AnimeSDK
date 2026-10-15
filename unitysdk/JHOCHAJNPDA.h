@@ -5,6 +5,8 @@ class AOJHHINKJHL;
 
 #define JHOCHAJNPDA_CTOR_OFFSET UNITYSDK_OFFSET(0x1CB95390)
 
+inline static constexpr unsigned int JHOCHAJNPDA_TypeDefinitionIndex = 43171;
+
 	class JHOCHAJNPDA : public ::System::Object
 	{
 	public:

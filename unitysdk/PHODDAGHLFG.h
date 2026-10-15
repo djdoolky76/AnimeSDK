@@ -24,6 +24,8 @@ namespace System::Collections::ObjectModel { template <typename T> class ReadOnl
 #define PHODDAGHLFG_OKIFKFKAKNJ_OFFSET UNITYSDK_OFFSET(0xC257CC0)
 #define PHODDAGHLFG_TOSTRING_OFFSET UNITYSDK_OFFSET(0xC256DF0)
 
+inline static constexpr unsigned int PHODDAGHLFG_TypeDefinitionIndex = 67519;
+
 	class PHODDAGHLFG : public ::System::Object
 	{
 	public:

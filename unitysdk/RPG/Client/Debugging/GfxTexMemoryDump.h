@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::Debugging
 {
+	inline static constexpr unsigned int GfxTexMemoryDump_TypeDefinitionIndex = 82133;
+
 	class GfxTexMemoryDump : public ::System::Object
 	{
 	public:

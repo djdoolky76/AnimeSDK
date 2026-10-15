@@ -11,6 +11,8 @@ namespace System { class Type; }
 
 namespace System::Collections::Generic
 {
+	inline static constexpr unsigned int ComparerHelpers_TypeDefinitionIndex = 1771;
+
 	class ComparerHelpers : public ::System::Object
 	{
 	public:

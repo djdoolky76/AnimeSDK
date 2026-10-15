@@ -4,6 +4,8 @@
 
 #define MCDGJEMFCOA_CTOR_OFFSET UNITYSDK_OFFSET(0x1C924C10)
 
+inline static constexpr unsigned int MCDGJEMFCOA_TypeDefinitionIndex = 41952;
+
 	class MCDGJEMFCOA : public ::System::Object
 	{
 	public:

@@ -20,6 +20,8 @@ namespace RPG::GameCore { class VisitorBehaviorConfigRow; }
 #define NHECDKIDHDB_SET_OVERRIDEINFO_OFFSET UNITYSDK_OFFSET(0xBBBF2A0)
 #define NHECDKIDHDB_SET_VISITORID_OFFSET UNITYSDK_OFFSET(0xBBBF1A0)
 
+inline static constexpr unsigned int NHECDKIDHDB_TypeDefinitionIndex = 68159;
+
 	class NHECDKIDHDB : public ::System::Object
 	{
 	public:

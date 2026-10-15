@@ -9,6 +9,8 @@ namespace RPG::Client { class HandbookGrowthGuideEquipmentDataItem; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int HandbookGrowthGuideData___c__DisplayClass3_0_TypeDefinitionIndex = 65619;
+
 	class HandbookGrowthGuideData___c__DisplayClass3_0 : public ::System::Object
 	{
 	public:

@@ -17,6 +17,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightPositionTagControl_TypeDefinitionIndex = 60101;
+
 	class GridFightPositionTagControl
 	{
 	public:

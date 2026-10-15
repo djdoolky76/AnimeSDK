@@ -11,6 +11,8 @@ namespace System { class String; }
 #define GKIIALDPFID_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x15A986D0)
 #define GKIIALDPFID_JAILHGGFLDH_OFFSET UNITYSDK_OFFSET(0x15A986E0)
 
+inline static constexpr unsigned int GKIIALDPFID_TypeDefinitionIndex = 56151;
+
 	class GKIIALDPFID : public ::DBGDNLLDPFI
 	{
 	public:

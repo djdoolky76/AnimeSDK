@@ -24,6 +24,8 @@ namespace System { class Object; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int WolfBroGunPlayEndLess_TypeDefinitionIndex = 68737;
+
 	class WolfBroGunPlayEndLess : public ::UnityEngine::MonoBehaviour
 	{
 	public:

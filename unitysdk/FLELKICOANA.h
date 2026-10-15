@@ -5,6 +5,8 @@
 #define FLELKICOANA_CTOR_OFFSET UNITYSDK_OFFSET(0x1582F720)
 #define FLELKICOANA_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0x1582F760)
 
+inline static constexpr unsigned int FLELKICOANA_TypeDefinitionIndex = 61338;
+
 	class FLELKICOANA : public ::IIJLENHLAIJ
 	{
 	public:

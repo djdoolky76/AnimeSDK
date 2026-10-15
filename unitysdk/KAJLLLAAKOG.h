@@ -30,6 +30,8 @@ namespace System { class String; }
 #define KAJLLLAAKOG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E7E6590)
 #define KAJLLLAAKOG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E7E65F0)
 
+inline static constexpr unsigned int KAJLLLAAKOG_TypeDefinitionIndex = 28323;
+
 	class KAJLLLAAKOG : public ::System::Object
 	{
 	public:

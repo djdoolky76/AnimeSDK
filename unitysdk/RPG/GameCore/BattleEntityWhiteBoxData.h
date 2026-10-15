@@ -16,6 +16,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int BattleEntityWhiteBoxData_TypeDefinitionIndex = 22753;
+
 	class BattleEntityWhiteBoxData : public ::RPG::GameCore::JsonConfig
 	{
 	public:

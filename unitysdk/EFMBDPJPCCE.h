@@ -17,6 +17,8 @@ namespace RPG::Client::LittleGame { template <typename T> class GraphNavigationS
 #define EFMBDPJPCCE_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x13A5B120)
 #define EFMBDPJPCCE_LLMMGNFJKFP_OFFSET UNITYSDK_OFFSET(0x13A5D180)
 
+inline static constexpr unsigned int EFMBDPJPCCE_TypeDefinitionIndex = 77271;
+
 	class EFMBDPJPCCE : public ::System::Object
 	{
 	public:

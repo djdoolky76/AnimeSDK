@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int StoryEntityAnimatorParam_TypeDefinitionIndex = 48233;
+
 	class StoryEntityAnimatorParam : public ::System::Object
 	{
 	public:

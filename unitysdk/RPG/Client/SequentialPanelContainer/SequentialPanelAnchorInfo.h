@@ -10,6 +10,8 @@ namespace UnityEngine { class RectTransform; }
 
 namespace RPG::Client::SequentialPanelContainer
 {
+	inline static constexpr unsigned int SequentialPanelAnchorInfo_TypeDefinitionIndex = 74756;
+
 	class SequentialPanelAnchorInfo : public ::System::Object
 	{
 	public:

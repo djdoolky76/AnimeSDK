@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::UI::Internal::OS
 {
+	inline static constexpr unsigned int Tipsbar_TypeDefinitionIndex = 8444;
+
 	class Tipsbar : public ::System::Object
 	{
 	public:

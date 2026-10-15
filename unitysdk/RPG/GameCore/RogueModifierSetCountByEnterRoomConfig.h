@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueModifierSetCountByEnterRoomConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueModifierSetCountByEnterRoomConfig_TypeDefinitionIndex = 17721;
+
 	class RogueModifierSetCountByEnterRoomConfig : public ::RPG::GameCore::RogueModifierConfig
 	{
 	public:

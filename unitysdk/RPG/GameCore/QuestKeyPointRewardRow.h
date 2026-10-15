@@ -9,6 +9,8 @@ namespace RPG::GameCore { class QuestKeyPointRewardRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int QuestKeyPointRewardRow_TypeDefinitionIndex = 14531;
+
 	class QuestKeyPointRewardRow : public ::System::Object
 	{
 	public:

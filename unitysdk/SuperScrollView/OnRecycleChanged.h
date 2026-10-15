@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace SuperScrollView
 {
+	inline static constexpr unsigned int OnRecycleChanged_TypeDefinitionIndex = 47670;
+
 	class OnRecycleChanged : public ::System::MulticastDelegate
 	{
 	public:

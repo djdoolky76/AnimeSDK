@@ -6,6 +6,8 @@ namespace RPG::GameCore { class WriteFsvToDynamicValue; }
 #define FHOIJDCMNJD_CTOR_OFFSET UNITYSDK_OFFSET(0x15793500)
 #define FHOIJDCMNJD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15793530)
 
+inline static constexpr unsigned int FHOIJDCMNJD_TypeDefinitionIndex = 53499;
+
 	class FHOIJDCMNJD
 	{
 	public:

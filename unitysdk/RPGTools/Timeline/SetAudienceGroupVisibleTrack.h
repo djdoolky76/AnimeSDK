@@ -12,6 +12,8 @@ namespace UnityEngine::Timeline { class TimelineClip; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int SetAudienceGroupVisibleTrack_TypeDefinitionIndex = 48274;
+
 	class SetAudienceGroupVisibleTrack : public ::UnityEngine::Timeline::TrackAsset
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define PDPKFDOJOFK___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DF148E0)
 #define PDPKFDOJOFK___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1DF148F0)
 
+inline static constexpr unsigned int PDPKFDOJOFK___c_TypeDefinitionIndex = 30345;
+
 	class PDPKFDOJOFK___c : public ::System::Object
 	{
 	public:

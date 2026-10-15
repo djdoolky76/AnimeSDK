@@ -22,6 +22,8 @@ namespace UnityEngine { class Material; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MaterialSwitchBehavior_TypeDefinitionIndex = 70723;
+
 	class MaterialSwitchBehavior : public ::RPG::Client::TABehaviorBase
 	{
 	public:

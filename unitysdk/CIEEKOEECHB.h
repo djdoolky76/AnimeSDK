@@ -45,6 +45,8 @@ namespace System { class String; }
 #define CIEEKOEECHB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E0D0720)
 #define CIEEKOEECHB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E0D0780)
 
+inline static constexpr unsigned int CIEEKOEECHB_TypeDefinitionIndex = 26691;
+
 	class CIEEKOEECHB : public ::System::Object
 	{
 	public:

@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::PluginUI
 {
+	inline static constexpr unsigned int HoYoSDKAccountLogin___c_TypeDefinitionIndex = 46741;
+
 	class HoYoSDKAccountLogin___c : public ::System::Object
 	{
 	public:

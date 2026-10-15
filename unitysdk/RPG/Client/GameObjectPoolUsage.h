@@ -3,6 +3,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GameObjectPoolUsage_TypeDefinitionIndex = 59391;
+
 	enum class GameObjectPoolUsage : ::System::Int32
 	{
 		Default = 0,

@@ -5,6 +5,8 @@
 #define AFAPNIFHDAC_CTOR_OFFSET UNITYSDK_OFFSET(0xCF05270)
 #define AFAPNIFHDAC_JJNFOPNOPBF_OFFSET UNITYSDK_OFFSET(0xCF051D0)
 
+inline static constexpr unsigned int AFAPNIFHDAC_TypeDefinitionIndex = 62452;
+
 	class AFAPNIFHDAC : public ::System::Object
 	{
 	public:

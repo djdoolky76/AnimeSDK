@@ -6,6 +6,8 @@ class KNCMHNDHKMG;
 #define KNCMHNDHKMG___C__DISPLAYCLASS18_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB57DE40)
 #define KNCMHNDHKMG___C__DISPLAYCLASS18_0___SHOWEQUIPORBPERFORM_B__0_OFFSET UNITYSDK_OFFSET(0xB57F1B0)
 
+inline static constexpr unsigned int KNCMHNDHKMG___c__DisplayClass18_0_TypeDefinitionIndex = 75304;
+
 	class KNCMHNDHKMG___c__DisplayClass18_0 : public ::System::Object
 	{
 	public:

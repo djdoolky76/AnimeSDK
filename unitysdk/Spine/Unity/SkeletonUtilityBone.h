@@ -20,6 +20,8 @@ namespace UnityEngine { class Transform; }
 
 namespace Spine::Unity
 {
+	inline static constexpr unsigned int SkeletonUtilityBone_TypeDefinitionIndex = 45062;
+
 	class SkeletonUtilityBone : public ::UnityEngine::MonoBehaviour
 	{
 	public:

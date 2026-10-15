@@ -21,6 +21,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define DHAIADCDCCG_PINBLHOFNPB_OFFSET UNITYSDK_OFFSET(0x1C5ECCD0)
 #define DHAIADCDCCG_PKLFLANJCDG_OFFSET UNITYSDK_OFFSET(0x1C5ECF50)
 
+inline static constexpr unsigned int DHAIADCDCCG_TypeDefinitionIndex = 36538;
+
 	class DHAIADCDCCG : public ::PHFEBIMDLNI
 	{
 	public:

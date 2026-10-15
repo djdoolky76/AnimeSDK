@@ -5,6 +5,8 @@ namespace System { class String; }
 
 namespace StageBudgetTool
 {
+	inline static constexpr unsigned int VolumeToBlock_TypeDefinitionIndex = 47718;
+
 	struct alignas(8) VolumeToBlock
 	{
 		::System::String* BlockAlias; // 0x10

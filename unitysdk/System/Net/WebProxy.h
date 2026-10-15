@@ -39,6 +39,8 @@ namespace System::Text::RegularExpressions { class Regex; }
 
 namespace System::Net
 {
+	inline static constexpr unsigned int WebProxy_TypeDefinitionIndex = 2813;
+
 	class WebProxy : public ::System::Object
 	{
 	public:

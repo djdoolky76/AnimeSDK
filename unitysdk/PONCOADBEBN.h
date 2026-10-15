@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define PONCOADBEBN_CTOR_OFFSET UNITYSDK_OFFSET(0xC371470)
 #define PONCOADBEBN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC3714A0)
 
+inline static constexpr unsigned int PONCOADBEBN_TypeDefinitionIndex = 58083;
+
 	class PONCOADBEBN
 	{
 	public:

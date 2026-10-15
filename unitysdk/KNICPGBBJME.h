@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define KNICPGBBJME_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB5865A0)
 #define KNICPGBBJME_TICK_OFFSET UNITYSDK_OFFSET(0xB5865F0)
 
+inline static constexpr unsigned int KNICPGBBJME_TypeDefinitionIndex = 55520;
+
 	class KNICPGBBJME : public ::GELIALJDFBL
 	{
 	public:

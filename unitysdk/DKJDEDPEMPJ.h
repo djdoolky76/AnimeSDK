@@ -28,6 +28,8 @@ namespace System { class String; }
 #define DKJDEDPEMPJ_SET_JSONPATH_OFFSET UNITYSDK_OFFSET(0xF888110)
 #define DKJDEDPEMPJ_SET_RARITY_OFFSET UNITYSDK_OFFSET(0xF888030)
 
+inline static constexpr unsigned int DKJDEDPEMPJ_TypeDefinitionIndex = 62504;
+
 	class DKJDEDPEMPJ : public ::System::Object
 	{
 	public:

@@ -3,6 +3,8 @@
 
 namespace Newtonsoft::Json
 {
+	inline static constexpr unsigned int DateTimeZoneHandling_TypeDefinitionIndex = 9581;
+
 	enum class DateTimeZoneHandling : ::System::Int32
 	{
 		Local = 0,

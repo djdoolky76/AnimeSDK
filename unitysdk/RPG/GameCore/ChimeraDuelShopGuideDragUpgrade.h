@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ChimeraDuelShopGuideDragUpgrade; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChimeraDuelShopGuideDragUpgrade_TypeDefinitionIndex = 24306;
+
 	class ChimeraDuelShopGuideDragUpgrade : public ::RPG::GameCore::TaskConfig
 	{
 	public:

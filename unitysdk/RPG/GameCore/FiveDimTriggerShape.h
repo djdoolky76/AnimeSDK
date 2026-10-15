@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimTriggerShape_TypeDefinitionIndex = 18533;
+
 	class FiveDimTriggerShape : public ::RPG::GameCore::LittleGameComponentConfig
 	{
 	public:

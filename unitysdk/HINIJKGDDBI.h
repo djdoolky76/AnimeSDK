@@ -28,6 +28,8 @@ namespace System { class String; }
 #define HINIJKGDDBI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E59EC40)
 #define HINIJKGDDBI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E59ECA0)
 
+inline static constexpr unsigned int HINIJKGDDBI_TypeDefinitionIndex = 29833;
+
 	class HINIJKGDDBI : public ::System::Object
 	{
 	public:

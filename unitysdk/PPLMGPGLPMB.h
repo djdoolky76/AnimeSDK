@@ -7,6 +7,8 @@ namespace RPG::Client { class ActivityRaidAlleySpecialOrderData; }
 #define PPLMGPGLPMB_JOLJKLAFHEP_OFFSET UNITYSDK_OFFSET(0xC38D6A0)
 #define PPLMGPGLPMB_OHFNGKOCCIO_OFFSET UNITYSDK_OFFSET(0xC38D720)
 
+inline static constexpr unsigned int PPLMGPGLPMB_TypeDefinitionIndex = 62242;
+
 	class PPLMGPGLPMB : public ::System::Object
 	{
 	public:

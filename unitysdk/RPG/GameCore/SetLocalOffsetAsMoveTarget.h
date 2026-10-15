@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetLocalOffsetAsMoveTarget_TypeDefinitionIndex = 22468;
+
 	class SetLocalOffsetAsMoveTarget : public ::RPG::GameCore::TaskConfig
 	{
 	public:

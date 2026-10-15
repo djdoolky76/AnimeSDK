@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define GGIHCKPGACF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E47DEE0)
 #define GGIHCKPGACF___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1E47DEF0)
 
+inline static constexpr unsigned int GGIHCKPGACF___c_TypeDefinitionIndex = 32172;
+
 	class GGIHCKPGACF___c : public ::System::Object
 	{
 	public:

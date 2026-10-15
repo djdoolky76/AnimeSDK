@@ -10,6 +10,8 @@ namespace System::Text { class Encoding; }
 
 namespace MessagePack
 {
+	inline static constexpr unsigned int StringEncoding_TypeDefinitionIndex = 7246;
+
 	class StringEncoding : public ::System::Object
 	{
 	public:

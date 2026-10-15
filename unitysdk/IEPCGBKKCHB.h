@@ -10,6 +10,8 @@ class IEPCGBKKCHB;
 #define IEPCGBKKCHB_CTOR_OFFSET UNITYSDK_OFFSET(0x1CEEDA40)
 #define IEPCGBKKCHB_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CEED620)
 
+inline static constexpr unsigned int IEPCGBKKCHB_TypeDefinitionIndex = 14447;
+
 	class IEPCGBKKCHB : public ::System::Object
 	{
 	public:

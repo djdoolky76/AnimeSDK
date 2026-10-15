@@ -13,6 +13,8 @@
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int RPExt_TypeDefinitionIndex = 35570;
+
 	class RPExt : public ::System::Object
 	{
 	public:

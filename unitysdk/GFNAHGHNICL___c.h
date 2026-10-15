@@ -9,6 +9,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 #define GFNAHGHNICL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x159FE870)
 #define GFNAHGHNICL___C__ISEMPTY_B__14_0_OFFSET UNITYSDK_OFFSET(0x159FE880)
 
+inline static constexpr unsigned int GFNAHGHNICL___c_TypeDefinitionIndex = 81479;
+
 	class GFNAHGHNICL___c : public ::System::Object
 	{
 	public:

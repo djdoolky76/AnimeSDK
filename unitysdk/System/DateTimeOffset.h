@@ -100,6 +100,8 @@ namespace System::Runtime::Serialization { class SerializationInfo; }
 
 namespace System
 {
+	inline static constexpr unsigned int DateTimeOffset_TypeDefinitionIndex = 225;
+
 	struct alignas(4) DateTimeOffset
 	{
 		::System::DateTime m_dateTime; // 0x10

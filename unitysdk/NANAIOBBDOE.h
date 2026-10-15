@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define NANAIOBBDOE_DLGFMPNEHGO_OFFSET UNITYSDK_OFFSET(0xBAA8610)
 #define NANAIOBBDOE_PKADDEPKJFN_OFFSET UNITYSDK_OFFSET(0xBAA7F30)
 
+inline static constexpr unsigned int NANAIOBBDOE_TypeDefinitionIndex = 77592;
+
 	class NANAIOBBDOE : public ::System::Object
 	{
 	public:

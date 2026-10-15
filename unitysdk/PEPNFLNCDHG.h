@@ -127,6 +127,8 @@ namespace UnityEngine { class SkinnedMeshRenderer; }
 #define PEPNFLNCDHG__ONINITOWNERREF_OFFSET UNITYSDK_OFFSET(0xC1FE7B0)
 #define PEPNFLNCDHG__UNLOADEMOTIONCLIP_B__38_0_OFFSET UNITYSDK_OFFSET(0xC2000A0)
 
+inline static constexpr unsigned int PEPNFLNCDHG_TypeDefinitionIndex = 57243;
+
 	class PEPNFLNCDHG : public ::RPG::GameCore::GameComponentBase
 	{
 	public:

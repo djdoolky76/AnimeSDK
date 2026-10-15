@@ -26,6 +26,8 @@ namespace System { class String; }
 
 namespace RPG::Client::B51Racing
 {
+	inline static constexpr unsigned int B51RacingDailyActionCardItemControl_TypeDefinitionIndex = 81822;
+
 	class B51RacingDailyActionCardItemControl : public ::Sofa::BaseSofaControl
 	{
 	public:

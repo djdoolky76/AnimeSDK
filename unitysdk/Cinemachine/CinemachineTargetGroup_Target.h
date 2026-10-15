@@ -4,6 +4,8 @@ namespace UnityEngine { class Transform; }
 
 namespace Cinemachine
 {
+	inline static constexpr unsigned int CinemachineTargetGroup_Target_TypeDefinitionIndex = 39760;
+
 	struct alignas(8) CinemachineTargetGroup_Target
 	{
 		::UnityEngine::Transform* target; // 0x10

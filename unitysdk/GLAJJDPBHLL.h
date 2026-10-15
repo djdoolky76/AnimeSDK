@@ -17,6 +17,8 @@ namespace System { class String; }
 #define GLAJJDPBHLL_LDAMHBBILAD_OFFSET UNITYSDK_OFFSET(0x2E7C3A0)
 #define GLAJJDPBHLL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x2E7C4F0)
 
+inline static constexpr unsigned int GLAJJDPBHLL_TypeDefinitionIndex = 62188;
+
 	struct alignas(4) GLAJJDPBHLL
 	{
 		::RPG::Client::RegionContentLevel _ContentLevel_k__BackingField; // 0x10

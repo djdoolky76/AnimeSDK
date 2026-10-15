@@ -46,6 +46,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 #define MMHPBKNKBGP_EHCHDILLGPK_OMBMEAGNBNL_OFFSET UNITYSDK_OFFSET(0xB9CC3C0)
 #define MMHPBKNKBGP_EHCHDILLGPK_PNJKFOILFOB_OFFSET UNITYSDK_OFFSET(0xB9C9CB0)
 
+inline static constexpr unsigned int MMHPBKNKBGP_EHCHDILLGPK_TypeDefinitionIndex = 71901;
+
 	class MMHPBKNKBGP_EHCHDILLGPK : public ::System::Object
 	{
 	public:

@@ -12,6 +12,8 @@ namespace UnityEngine { class TrailRenderer; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoEffectTrailRenderer_TypeDefinitionIndex = 70138;
+
 	class MonoEffectTrailRenderer : public ::UnityEngine::MonoBehaviour
 	{
 	public:

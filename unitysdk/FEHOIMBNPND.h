@@ -13,6 +13,8 @@ namespace RPG::GameCore { class CumulativeScoreBoardConfigRow; }
 #define FEHOIMBNPND_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x156F2AD0)
 #define FEHOIMBNPND_PFHECDDMLNK_OFFSET UNITYSDK_OFFSET(0x156F22C0)
 
+inline static constexpr unsigned int FEHOIMBNPND_TypeDefinitionIndex = 52090;
+
 	class FEHOIMBNPND : public ::System::Object
 	{
 	public:

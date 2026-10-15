@@ -28,6 +28,8 @@ namespace System { class String; }
 #define MCCHABOPEFJ_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E9F1300)
 #define MCCHABOPEFJ_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E9F1360)
 
+inline static constexpr unsigned int MCCHABOPEFJ_TypeDefinitionIndex = 31804;
+
 	class MCCHABOPEFJ : public ::System::Object
 	{
 	public:

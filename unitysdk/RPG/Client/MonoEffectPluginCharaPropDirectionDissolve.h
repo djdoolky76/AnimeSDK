@@ -17,6 +17,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoEffectPluginCharaPropDirectionDissolve_TypeDefinitionIndex = 69954;
+
 	class MonoEffectPluginCharaPropDirectionDissolve : public ::RPG::Client::MonoEffectPluginCharaPropBase
 	{
 	public:

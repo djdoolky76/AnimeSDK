@@ -15,6 +15,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int RequestManager___c_TypeDefinitionIndex = 8064;
+
 	class RequestManager___c : public ::System::Object
 	{
 	public:

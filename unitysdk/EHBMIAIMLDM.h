@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int EHBMIAIMLDM_TypeDefinitionIndex = 34155;
+
 	enum class EHBMIAIMLDM : ::System::Int32
 	{
 		NLCDGIPGFDJ = 0,

@@ -11,6 +11,8 @@ class INCOINEIGHJ;
 #define HLFMLCCHMCA_PABMJKIHLHG_OFFSET UNITYSDK_OFFSET(0x1CBDED30)
 #define HLFMLCCHMCA_SET_GRAPH_OFFSET UNITYSDK_OFFSET(0x1CBDF2F0)
 
+inline static constexpr unsigned int HLFMLCCHMCA_TypeDefinitionIndex = 43829;
+
 	class HLFMLCCHMCA : public ::System::Object
 	{
 	public:

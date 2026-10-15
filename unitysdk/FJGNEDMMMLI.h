@@ -6,6 +6,8 @@ namespace System { class String; }
 #define FJGNEDMMMLI_CTOR_OFFSET UNITYSDK_OFFSET(0x157C3F40)
 #define FJGNEDMMMLI_GET_IMAGEPATH_OFFSET UNITYSDK_OFFSET(0x157C3F30)
 
+inline static constexpr unsigned int FJGNEDMMMLI_TypeDefinitionIndex = 68930;
+
 	class FJGNEDMMMLI : public ::MFLJIEBFMOF
 	{
 	public:

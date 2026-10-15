@@ -3,6 +3,8 @@
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int ColorSpace_TypeDefinitionIndex = 4167;
+
 	enum class ColorSpace : ::System::Int32
 	{
 		Uninitialized = -1,

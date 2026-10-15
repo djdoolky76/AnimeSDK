@@ -23,6 +23,8 @@ namespace System { class Object; }
 #define BNCEIPFBBGM__ONBIND_OFFSET UNITYSDK_OFFSET(0xBDC7870)
 #define BNCEIPFBBGM__SETUPVIEW_B__4_0_OFFSET UNITYSDK_OFFSET(0xBDC8170)
 
+inline static constexpr unsigned int BNCEIPFBBGM_TypeDefinitionIndex = 71231;
+
 	class BNCEIPFBBGM : public ::FMPCODLIOLG
 	{
 	public:

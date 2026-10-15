@@ -10,6 +10,8 @@ namespace RPG::GameCore { class IdleLiveChatContentRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int IdleLiveChatContentRow_TypeDefinitionIndex = 11780;
+
 	class IdleLiveChatContentRow : public ::System::Object
 	{
 	public:

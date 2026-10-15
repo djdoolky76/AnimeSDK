@@ -34,6 +34,8 @@ namespace System { class String; }
 #define OPLFDAGPBEI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DEE5560)
 #define OPLFDAGPBEI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DEE55C0)
 
+inline static constexpr unsigned int OPLFDAGPBEI_TypeDefinitionIndex = 25249;
+
 	class OPLFDAGPBEI : public ::System::Object
 	{
 	public:

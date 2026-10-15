@@ -5,6 +5,8 @@ namespace Mono::Unity { class UnityTls_unitytls_tlsctx_write_callback; }
 
 namespace Mono::Unity
 {
+	inline static constexpr unsigned int UnityTls_unitytls_tlsctx_callbacks_TypeDefinitionIndex = 2369;
+
 	struct alignas(8) UnityTls_unitytls_tlsctx_callbacks
 	{
 		::Mono::Unity::UnityTls_unitytls_tlsctx_read_callback* read; // 0x10

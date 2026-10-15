@@ -4,6 +4,8 @@
 
 #define CICMNLHBPMM_AKMKANAIKHN_OFFSET UNITYSDK_OFFSET(0xCF65450)
 
+inline static constexpr unsigned int CICMNLHBPMM_TypeDefinitionIndex = 61294;
+
 	class CICMNLHBPMM : public ::System::Object
 	{
 	public:

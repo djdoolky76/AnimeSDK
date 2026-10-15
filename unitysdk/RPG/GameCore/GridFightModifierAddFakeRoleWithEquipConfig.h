@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GridFightModifierAddFakeRoleWithEquipConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightModifierAddFakeRoleWithEquipConfig_TypeDefinitionIndex = 19371;
+
 	class GridFightModifierAddFakeRoleWithEquipConfig : public ::RPG::GameCore::GridFightModifierConfigBase
 	{
 	public:

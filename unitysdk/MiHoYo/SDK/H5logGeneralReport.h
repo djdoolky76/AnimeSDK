@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int H5logGeneralReport_TypeDefinitionIndex = 46472;
+
 	class H5logGeneralReport : public ::System::Object
 	{
 	public:

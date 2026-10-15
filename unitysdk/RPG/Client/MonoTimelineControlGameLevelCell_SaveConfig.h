@@ -6,6 +6,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoTimelineControlGameLevelCell_SaveConfig_TypeDefinitionIndex = 60442;
+
 	class MonoTimelineControlGameLevelCell_SaveConfig : public ::System::Object
 	{
 	public:

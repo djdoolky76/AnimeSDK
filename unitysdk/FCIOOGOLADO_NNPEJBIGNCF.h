@@ -6,6 +6,8 @@
 
 #define FCIOOGOLADO_NNPEJBIGNCF_CTOR_OFFSET UNITYSDK_OFFSET(0x156C7740)
 
+inline static constexpr unsigned int FCIOOGOLADO_NNPEJBIGNCF_TypeDefinitionIndex = 69601;
+
 	class FCIOOGOLADO_NNPEJBIGNCF : public ::System::Object
 	{
 	public:

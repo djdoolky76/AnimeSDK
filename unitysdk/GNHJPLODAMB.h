@@ -6,6 +6,8 @@ class GKPDKBNFDGM;
 #define GNHJPLODAMB_CTOR_OFFSET UNITYSDK_OFFSET(0x15B0AAB0)
 #define GNHJPLODAMB_MJEGFOMAOFH_OFFSET UNITYSDK_OFFSET(0x15B0AA50)
 
+inline static constexpr unsigned int GNHJPLODAMB_TypeDefinitionIndex = 61954;
+
 	class GNHJPLODAMB : public ::System::Object
 	{
 	public:

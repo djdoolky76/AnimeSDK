@@ -6,6 +6,8 @@
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
+	inline static constexpr unsigned int B2TreeNode_TypeDefinitionIndex = 36796;
+
 	struct alignas(4) B2TreeNode
 	{
 		::RPG::LittleGameShare::HoyoPhysics::Box2D::B2AABB aabb; // 0x10

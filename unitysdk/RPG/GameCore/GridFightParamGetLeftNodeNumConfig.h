@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GridFightParamGetLeftNodeNumConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightParamGetLeftNodeNumConfig_TypeDefinitionIndex = 19541;
+
 	class GridFightParamGetLeftNodeNumConfig : public ::RPG::GameCore::GridFightParameterConfigBase
 	{
 	public:

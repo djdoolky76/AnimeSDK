@@ -5,6 +5,8 @@
 
 #define CNBKPPKILBJ_HMCIPPMJCDK_CTOR_OFFSET UNITYSDK_OFFSET(0xDA482E0)
 
+inline static constexpr unsigned int CNBKPPKILBJ_HMCIPPMJCDK_TypeDefinitionIndex = 60285;
+
 	class CNBKPPKILBJ_HMCIPPMJCDK : public ::System::Object
 	{
 	public:

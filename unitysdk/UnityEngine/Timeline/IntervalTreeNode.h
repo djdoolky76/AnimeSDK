@@ -3,6 +3,8 @@
 
 namespace UnityEngine::Timeline
 {
+	inline static constexpr unsigned int IntervalTreeNode_TypeDefinitionIndex = 38819;
+
 	struct alignas(4) IntervalTreeNode
 	{
 		::System::Int64 center; // 0x10

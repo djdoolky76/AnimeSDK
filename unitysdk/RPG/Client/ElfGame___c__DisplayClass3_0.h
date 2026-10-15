@@ -10,6 +10,8 @@ namespace RPG::Client::Promises { class IPromise; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ElfGame___c__DisplayClass3_0_TypeDefinitionIndex = 63694;
+
 	class ElfGame___c__DisplayClass3_0 : public ::System::Object
 	{
 	public:

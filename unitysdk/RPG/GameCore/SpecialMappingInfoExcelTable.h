@@ -25,6 +25,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SpecialMappingInfoExcelTable_TypeDefinitionIndex = 12561;
+
 	class SpecialMappingInfoExcelTable : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int EntityCollisionBodyParts_CollisionBodyPart_TypeDefinitionIndex = 68415;
+
 	class EntityCollisionBodyParts_CollisionBodyPart : public ::System::Object
 	{
 	public:

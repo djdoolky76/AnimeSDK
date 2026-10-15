@@ -15,6 +15,8 @@ namespace System { class String; }
 
 namespace ZXing::QrCode::Internal
 {
+	inline static constexpr unsigned int ByteMatrix_TypeDefinitionIndex = 7004;
+
 	class ByteMatrix : public ::System::Object
 	{
 	public:

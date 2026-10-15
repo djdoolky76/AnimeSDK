@@ -7,6 +7,8 @@
 
 namespace MiHoYo::SDK::Cloud
 {
+	inline static constexpr unsigned int CloudDataStorage___c__DisplayClass11_0_TypeDefinitionIndex = 8881;
+
 	class CloudDataStorage___c__DisplayClass11_0 : public ::System::Object
 	{
 	public:

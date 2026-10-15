@@ -12,6 +12,8 @@ namespace UnityEngine::ProBuilder { class Vertex; }
 
 namespace UnityEngine::ProBuilder::MeshOperations
 {
+	inline static constexpr unsigned int MeshImporter___c_TypeDefinitionIndex = 44506;
+
 	class MeshImporter___c : public ::System::Object
 	{
 	public:

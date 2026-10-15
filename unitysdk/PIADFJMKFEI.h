@@ -10,6 +10,8 @@
 #define PIADFJMKFEI_GET_TYPE_OFFSET UNITYSDK_OFFSET(0xC25A6F0)
 #define PIADFJMKFEI_JAILHGGFLDH_OFFSET UNITYSDK_OFFSET(0xC25A700)
 
+inline static constexpr unsigned int PIADFJMKFEI_TypeDefinitionIndex = 56149;
+
 	class PIADFJMKFEI : public ::DBGDNLLDPFI
 	{
 	public:

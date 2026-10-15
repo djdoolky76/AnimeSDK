@@ -32,6 +32,8 @@ namespace System { class String; }
 #define BJKPJIBNPHC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DF47D50)
 #define BJKPJIBNPHC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DF47DB0)
 
+inline static constexpr unsigned int BJKPJIBNPHC_TypeDefinitionIndex = 34415;
+
 	class BJKPJIBNPHC : public ::System::Object
 	{
 	public:

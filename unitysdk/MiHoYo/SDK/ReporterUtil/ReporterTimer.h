@@ -17,6 +17,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace MiHoYo::SDK::ReporterUtil
 {
+	inline static constexpr unsigned int ReporterTimer_TypeDefinitionIndex = 46654;
+
 	class ReporterTimer : public ::System::Object
 	{
 	public:

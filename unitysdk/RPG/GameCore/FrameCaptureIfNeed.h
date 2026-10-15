@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FrameCaptureIfNeed; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FrameCaptureIfNeed_TypeDefinitionIndex = 22726;
+
 	class FrameCaptureIfNeed : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -15,6 +15,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ShowHipplenBubbleTalk_TypeDefinitionIndex = 21300;
+
 	class ShowHipplenBubbleTalk : public ::RPG::GameCore::TaskConfig
 	{
 	public:

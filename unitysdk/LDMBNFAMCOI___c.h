@@ -9,6 +9,8 @@ namespace System { template <typename T> class Predicate_1; }
 #define LDMBNFAMCOI___C_CTOR_OFFSET UNITYSDK_OFFSET(0xB63DEE0)
 #define LDMBNFAMCOI___C__GETBOSSENEMY_B__5_0_OFFSET UNITYSDK_OFFSET(0xB63DEF0)
 
+inline static constexpr unsigned int LDMBNFAMCOI___c_TypeDefinitionIndex = 81002;
+
 	class LDMBNFAMCOI___c : public ::System::Object
 	{
 	public:

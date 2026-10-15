@@ -31,6 +31,8 @@ namespace System { class String; }
 #define DFNKGEIEDOA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E1A8850)
 #define DFNKGEIEDOA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E1A88B0)
 
+inline static constexpr unsigned int DFNKGEIEDOA_TypeDefinitionIndex = 31896;
+
 	class DFNKGEIEDOA : public ::System::Object
 	{
 	public:

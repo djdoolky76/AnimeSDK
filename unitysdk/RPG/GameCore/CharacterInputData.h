@@ -19,6 +19,8 @@ namespace System { class Nullable; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CharacterInputData_TypeDefinitionIndex = 57006;
+
 	class CharacterInputData : public ::System::Object
 	{
 	public:

@@ -13,6 +13,8 @@ namespace UnityEngine { class Light; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoLightIntensityAudio_TypeDefinitionIndex = 68608;
+
 	class MonoLightIntensityAudio : public ::UnityEngine::MonoBehaviour
 	{
 	public:

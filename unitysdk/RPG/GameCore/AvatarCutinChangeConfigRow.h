@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AvatarCutinChangeConfigRow_TypeDefinitionIndex = 12728;
+
 	class AvatarCutinChangeConfigRow : public ::System::Object
 	{
 	public:

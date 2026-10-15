@@ -29,6 +29,8 @@ namespace System { class String; }
 #define CFNEMEIDMID_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E0A74E0)
 #define CFNEMEIDMID_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E0A7540)
 
+inline static constexpr unsigned int CFNEMEIDMID_TypeDefinitionIndex = 28928;
+
 	class CFNEMEIDMID : public ::System::Object
 	{
 	public:

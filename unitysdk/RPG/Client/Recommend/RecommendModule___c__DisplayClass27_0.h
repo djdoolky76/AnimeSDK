@@ -10,6 +10,8 @@ namespace RPG::Client::Recommend { class RecommendModule; }
 
 namespace RPG::Client::Recommend
 {
+	inline static constexpr unsigned int RecommendModule___c__DisplayClass27_0_TypeDefinitionIndex = 74462;
+
 	class RecommendModule___c__DisplayClass27_0 : public ::System::Object
 	{
 	public:

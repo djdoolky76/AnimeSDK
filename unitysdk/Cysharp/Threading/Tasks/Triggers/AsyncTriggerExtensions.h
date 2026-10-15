@@ -245,6 +245,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace Cysharp::Threading::Tasks::Triggers
 {
+	inline static constexpr unsigned int AsyncTriggerExtensions_TypeDefinitionIndex = 38493;
+
 	class AsyncTriggerExtensions : public ::System::Object
 	{
 	public:

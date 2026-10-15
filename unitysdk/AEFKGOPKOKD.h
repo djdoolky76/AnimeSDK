@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 #define AEFKGOPKOKD_FILLNOTIFYTYPESTO_OFFSET UNITYSDK_OFFSET(0xB14F650)
 #define AEFKGOPKOKD__DOCHECKIMPL_OFFSET UNITYSDK_OFFSET(0xB14F700)
 
+inline static constexpr unsigned int AEFKGOPKOKD_TypeDefinitionIndex = 59884;
+
 	class AEFKGOPKOKD : public ::RPG::Client::AsyncCheckItemBase
 	{
 	public:

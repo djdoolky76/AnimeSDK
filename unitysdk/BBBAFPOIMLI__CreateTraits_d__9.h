@@ -19,6 +19,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 #define BBBAFPOIMLI__CREATETRAITS_D__9_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15E81760)
 #define BBBAFPOIMLI__CREATETRAITS_D__9___M__FINALLY1_OFFSET UNITYSDK_OFFSET(0x15E817A0)
 
+inline static constexpr unsigned int BBBAFPOIMLI__CreateTraits_d__9_TypeDefinitionIndex = 65116;
+
 	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename T8, typename T9>
 	class BBBAFPOIMLI__CreateTraits_d__9 : public ::System::Object
 	{

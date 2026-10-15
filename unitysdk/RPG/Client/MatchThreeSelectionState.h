@@ -20,6 +20,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MatchThreeSelectionState_TypeDefinitionIndex = 65964;
+
 	class MatchThreeSelectionState : public ::UnityEngine::MonoBehaviour
 	{
 	public:

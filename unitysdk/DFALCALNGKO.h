@@ -8,6 +8,8 @@ namespace RPG::GameCore { class CakeRaceActionTriggerActionOnFight; }
 #define DFALCALNGKO_CTOR_OFFSET UNITYSDK_OFFSET(0x1C5E8A00)
 #define DFALCALNGKO_GAILDDCMCHP_OFFSET UNITYSDK_OFFSET(0x1C5E8A10)
 
+inline static constexpr unsigned int DFALCALNGKO_TypeDefinitionIndex = 37399;
+
 	class DFALCALNGKO : public ::GPLOFONGBGI
 	{
 	public:

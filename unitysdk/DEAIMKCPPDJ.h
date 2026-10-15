@@ -41,6 +41,8 @@ namespace System { class String; }
 #define DEAIMKCPPDJ_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E18E150)
 #define DEAIMKCPPDJ_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E18E1B0)
 
+inline static constexpr unsigned int DEAIMKCPPDJ_TypeDefinitionIndex = 30140;
+
 	class DEAIMKCPPDJ : public ::System::Object
 	{
 	public:

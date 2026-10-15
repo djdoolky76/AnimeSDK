@@ -5,6 +5,8 @@ class GJCBEHDBGMK_IBEAOMDBNFI;
 
 #define GJCBEHDBGMK_IBEAOMDBNFI_CTOR_OFFSET UNITYSDK_OFFSET(0x15A5B9E0)
 
+inline static constexpr unsigned int GJCBEHDBGMK_IBEAOMDBNFI_TypeDefinitionIndex = 47263;
+
 	class GJCBEHDBGMK_IBEAOMDBNFI : public ::System::Object
 	{
 	public:

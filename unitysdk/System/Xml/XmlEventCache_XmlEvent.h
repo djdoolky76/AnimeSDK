@@ -18,6 +18,8 @@ namespace System { class String; }
 
 namespace System::Xml
 {
+	inline static constexpr unsigned int XmlEventCache_XmlEvent_TypeDefinitionIndex = 1838;
+
 	struct alignas(8) XmlEventCache_XmlEvent
 	{
 		::System::Xml::XmlEventCache_XmlEventType eventType; // 0x10

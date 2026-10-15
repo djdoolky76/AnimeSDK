@@ -4,6 +4,8 @@
 
 #define OIEEAAFAOON_CTOR_OFFSET UNITYSDK_OFFSET(0xBE7AEB0)
 
+inline static constexpr unsigned int OIEEAAFAOON_TypeDefinitionIndex = 81445;
+
 	class OIEEAAFAOON : public ::DHCNDENHLGO
 	{
 	public:

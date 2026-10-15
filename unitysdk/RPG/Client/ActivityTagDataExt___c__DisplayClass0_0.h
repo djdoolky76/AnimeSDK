@@ -8,6 +8,8 @@ namespace RPG::Client { class ActivityTagData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ActivityTagDataExt___c__DisplayClass0_0_TypeDefinitionIndex = 61708;
+
 	class ActivityTagDataExt___c__DisplayClass0_0 : public ::System::Object
 	{
 	public:

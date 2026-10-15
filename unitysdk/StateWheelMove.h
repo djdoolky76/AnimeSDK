@@ -9,6 +9,8 @@ namespace UnityEngine { class Animator; }
 #define STATEWHEELMOVE_ONSTATEENTER_OFFSET UNITYSDK_OFFSET(0xE998B30)
 #define STATEWHEELMOVE_ONSTATEUPDATE_OFFSET UNITYSDK_OFFSET(0xE998BA0)
 
+inline static constexpr unsigned int StateWheelMove_TypeDefinitionIndex = 47275;
+
 	class StateWheelMove : public ::UnityEngine::StateMachineBehaviour
 	{
 	public:

@@ -22,6 +22,8 @@ namespace UnityEngine::UI { class Text; }
 
 namespace RPGTools
 {
+	inline static constexpr unsigned int AppDeviceMemBehavior_TypeDefinitionIndex = 46923;
+
 	class AppDeviceMemBehavior : public ::UnityEngine::MonoBehaviour
 	{
 	public:

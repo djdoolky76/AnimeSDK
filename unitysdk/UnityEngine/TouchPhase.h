@@ -3,6 +3,8 @@
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int TouchPhase_TypeDefinitionIndex = 5778;
+
 	enum class TouchPhase : ::System::Int32
 	{
 		Began = 0,

@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyLi
 #define BLDOCGNPGBB_CTOR_OFFSET UNITYSDK_OFFSET(0x1C5BFF20)
 #define BLDOCGNPGBB_IMBNGHDBDLJ_OFFSET UNITYSDK_OFFSET(0x1C5BFF50)
 
+inline static constexpr unsigned int BLDOCGNPGBB_TypeDefinitionIndex = 37432;
+
 	class BLDOCGNPGBB
 	{
 	public:

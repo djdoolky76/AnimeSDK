@@ -9,6 +9,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::Uploader
 {
+	inline static constexpr unsigned int OSSUploader_TypeDefinitionIndex = 46668;
+
 	class OSSUploader : public ::MiHoYo::SDK::Uploader::Uploader
 	{
 	public:

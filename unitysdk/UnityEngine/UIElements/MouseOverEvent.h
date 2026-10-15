@@ -5,6 +5,8 @@
 
 namespace UnityEngine::UIElements
 {
+	inline static constexpr unsigned int MouseOverEvent_TypeDefinitionIndex = 5969;
+
 	class MouseOverEvent
 	{
 	public:

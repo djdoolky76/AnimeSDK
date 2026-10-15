@@ -4,6 +4,8 @@
 
 namespace System::IO
 {
+	inline static constexpr unsigned int MonoIOStat_TypeDefinitionIndex = 724;
+
 	struct alignas(4) MonoIOStat
 	{
 		::System::IO::FileAttributes fileAttributes; // 0x10

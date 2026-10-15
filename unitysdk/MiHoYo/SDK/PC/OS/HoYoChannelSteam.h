@@ -42,6 +42,8 @@ namespace UnityEngine { class Coroutine; }
 
 namespace MiHoYo::SDK::PC::OS
 {
+	inline static constexpr unsigned int HoYoChannelSteam_TypeDefinitionIndex = 8696;
+
 	class HoYoChannelSteam : public ::MiHoYo::SDK::PC::OS::HoYoChannel
 	{
 	public:

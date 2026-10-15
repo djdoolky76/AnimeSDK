@@ -20,6 +20,8 @@ namespace System { class String; }
 #define GECLCODNBPL_KANMCJHEFJJ_OFFSET UNITYSDK_OFFSET(0x159C70F0)
 #define GECLCODNBPL__ONBIND_OFFSET UNITYSDK_OFFSET(0x159C6F80)
 
+inline static constexpr unsigned int GECLCODNBPL_TypeDefinitionIndex = 71404;
+
 	class GECLCODNBPL : public ::FMPCODLIOLG
 	{
 	public:

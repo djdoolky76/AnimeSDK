@@ -13,6 +13,8 @@ namespace System::Net { class WebHeaderCollection; }
 
 namespace System::Net
 {
+	inline static constexpr unsigned int HttpContinueDelegate_TypeDefinitionIndex = 2752;
+
 	class HttpContinueDelegate : public ::System::MulticastDelegate
 	{
 	public:

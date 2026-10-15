@@ -25,6 +25,8 @@ class MAMLJFHHHBN;
 
 namespace RPG::Client::FateRin::BattleSettle
 {
+	inline static constexpr unsigned int FateRinBattleSettleFailViewModel_TypeDefinitionIndex = 80640;
+
 	class FateRinBattleSettleFailViewModel : public ::RPG::Client::FateRin::BaseViewModel
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class LittleGameAbilityTargetSelectorPlaneConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LittleGameAbilityTargetSelectorPlaneConfig_TypeDefinitionIndex = 21374;
+
 	class LittleGameAbilityTargetSelectorPlaneConfig : public ::RPG::GameCore::BaseLittleGameAbilityTargetSelectorConfig
 	{
 	public:

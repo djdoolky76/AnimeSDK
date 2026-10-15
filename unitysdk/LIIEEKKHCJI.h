@@ -6,6 +6,8 @@ namespace RPG::GameCore { class BaseScrollGameConfig; }
 
 #define LIIEEKKHCJI_CTOR_OFFSET UNITYSDK_OFFSET(0x1C90F0A0)
 
+inline static constexpr unsigned int LIIEEKKHCJI_TypeDefinitionIndex = 43386;
+
 	class LIIEEKKHCJI : public ::System::Object
 	{
 	public:

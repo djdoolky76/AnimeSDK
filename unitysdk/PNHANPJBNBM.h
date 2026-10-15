@@ -8,6 +8,8 @@ namespace UnityEngine::Rendering { class CommandBuffer; }
 #define PNHANPJBNBM_CTOR_OFFSET UNITYSDK_OFFSET(0xC3394C0)
 #define PNHANPJBNBM_PKADDEPKJFN_OFFSET UNITYSDK_OFFSET(0xC339460)
 
+inline static constexpr unsigned int PNHANPJBNBM_TypeDefinitionIndex = 49553;
+
 	class PNHANPJBNBM : public ::System::Object
 	{
 	public:

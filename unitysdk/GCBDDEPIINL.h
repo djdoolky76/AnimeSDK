@@ -34,6 +34,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define GCBDDEPIINL_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1CE2AC00)
 #define GCBDDEPIINL_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1CE2A210)
 
+inline static constexpr unsigned int GCBDDEPIINL_TypeDefinitionIndex = 15083;
+
 	class GCBDDEPIINL : public ::System::Object
 	{
 	public:

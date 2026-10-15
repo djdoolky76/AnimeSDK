@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int NormalTeamFormationServantState_TypeDefinitionIndex = 24668;
+
 	enum class NormalTeamFormationServantState : ::System::Int32
 	{
 		Default = 0,

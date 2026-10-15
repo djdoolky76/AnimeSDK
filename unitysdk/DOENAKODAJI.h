@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define DOENAKODAJI_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x11FE1F80)
 #define DOENAKODAJI_TICK_OFFSET UNITYSDK_OFFSET(0x11FE1FD0)
 
+inline static constexpr unsigned int DOENAKODAJI_TypeDefinitionIndex = 58402;
+
 	class DOENAKODAJI : public ::GELIALJDFBL
 	{
 	public:

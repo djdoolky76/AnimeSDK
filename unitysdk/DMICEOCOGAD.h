@@ -30,6 +30,8 @@ namespace System { class String; }
 #define DMICEOCOGAD_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E1EFBE0)
 #define DMICEOCOGAD_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E1EFC40)
 
+inline static constexpr unsigned int DMICEOCOGAD_TypeDefinitionIndex = 28125;
+
 	class DMICEOCOGAD : public ::System::Object
 	{
 	public:

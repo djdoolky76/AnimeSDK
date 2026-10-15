@@ -43,6 +43,8 @@ namespace System { class String; }
 #define ILOOAAOHIIG_SET_TRAIT_OFFSET UNITYSDK_OFFSET(0x164C9900)
 #define ILOOAAOHIIG__GET_CLICKCOMMAND_B__57_0_OFFSET UNITYSDK_OFFSET(0x164CA2A0)
 
+inline static constexpr unsigned int ILOOAAOHIIG_TypeDefinitionIndex = 79473;
+
 	class ILOOAAOHIIG : public ::System::Object
 	{
 	public:

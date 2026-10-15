@@ -53,6 +53,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace Hdg
 {
+	inline static constexpr unsigned int RemoteDebugServer_TypeDefinitionIndex = 46940;
+
 	class RemoteDebugServer : public ::UnityEngine::MonoBehaviour
 	{
 	public:

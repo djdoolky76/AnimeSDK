@@ -34,6 +34,8 @@ namespace System::Collections::Generic { template <typename T> class IList_1; }
 
 namespace MiHoYo::SDK::Protobuf::Reflection
 {
+	inline static constexpr unsigned int MessageDescriptor_TypeDefinitionIndex = 35838;
+
 	class MessageDescriptor : public ::MiHoYo::SDK::Protobuf::Reflection::DescriptorBase
 	{
 	public:

@@ -23,6 +23,8 @@ namespace UnityEngine { class Renderer; }
 #define KGKAHEAENAI_PNIEFOONFOP_OFFSET UNITYSDK_OFFSET(0xB3EF3F0)
 #define KGKAHEAENAI_TICK_OFFSET UNITYSDK_OFFSET(0xB3EED20)
 
+inline static constexpr unsigned int KGKAHEAENAI_TypeDefinitionIndex = 47552;
+
 	class KGKAHEAENAI : public ::RPG::Client::TABehaviorBase
 	{
 	public:

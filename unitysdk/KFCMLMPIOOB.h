@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define KFCMLMPIOOB_CTOR_OFFSET UNITYSDK_OFFSET(0xB38F7C0)
 #define KFCMLMPIOOB_FEOIFJONLCH_OFFSET UNITYSDK_OFFSET(0xB38F670)
 
+inline static constexpr unsigned int KFCMLMPIOOB_TypeDefinitionIndex = 77535;
+
 	class KFCMLMPIOOB : public ::System::Object
 	{
 	public:

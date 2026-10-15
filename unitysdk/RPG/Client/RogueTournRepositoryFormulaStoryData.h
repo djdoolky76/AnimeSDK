@@ -21,6 +21,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueTournRepositoryFormulaStoryData_TypeDefinitionIndex = 67776;
+
 	class RogueTournRepositoryFormulaStoryData : public ::System::Object
 	{
 	public:

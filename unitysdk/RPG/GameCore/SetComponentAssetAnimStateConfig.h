@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetComponentAssetAnimStateConfig_TypeDefinitionIndex = 22812;
+
 	class SetComponentAssetAnimStateConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

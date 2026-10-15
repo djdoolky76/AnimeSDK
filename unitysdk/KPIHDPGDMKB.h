@@ -31,6 +31,8 @@ namespace System { class String; }
 #define KPIHDPGDMKB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E8BBA90)
 #define KPIHDPGDMKB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E8BBAF0)
 
+inline static constexpr unsigned int KPIHDPGDMKB_TypeDefinitionIndex = 33238;
+
 	class KPIHDPGDMKB : public ::System::Object
 	{
 	public:

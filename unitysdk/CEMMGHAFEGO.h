@@ -5,6 +5,8 @@
 #define CEMMGHAFEGO_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC09BC0)
 #define CEMMGHAFEGO_GET_ORDER_OFFSET UNITYSDK_OFFSET(0x1DC09BB0)
 
+inline static constexpr unsigned int CEMMGHAFEGO_TypeDefinitionIndex = 10741;
+
 	class CEMMGHAFEGO : public ::System::Attribute
 	{
 	public:

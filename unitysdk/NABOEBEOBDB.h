@@ -8,6 +8,8 @@ class NABOEBEOBDB;
 #define NABOEBEOBDB_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D1E50A0)
 #define NABOEBEOBDB_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D1E5060)
 
+inline static constexpr unsigned int NABOEBEOBDB_TypeDefinitionIndex = 19975;
+
 	class NABOEBEOBDB : public ::RPG::GameCore::TaskConfig
 	{
 	public:

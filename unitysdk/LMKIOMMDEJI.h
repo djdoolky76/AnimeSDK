@@ -31,6 +31,8 @@ namespace System { class String; }
 #define LMKIOMMDEJI_LDMHDFKJHPA_OFFSET UNITYSDK_OFFSET(0xB7CF720)
 #define LMKIOMMDEJI_LGDLOLIJMIA_OFFSET UNITYSDK_OFFSET(0xB7CF570)
 
+inline static constexpr unsigned int LMKIOMMDEJI_TypeDefinitionIndex = 80783;
+
 	class LMKIOMMDEJI : public ::System::Object
 	{
 	public:

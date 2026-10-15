@@ -28,6 +28,8 @@ namespace System { class String; }
 #define HIEMNHKDOJE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E5938E0)
 #define HIEMNHKDOJE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E593940)
 
+inline static constexpr unsigned int HIEMNHKDOJE_TypeDefinitionIndex = 31380;
+
 	class HIEMNHKDOJE : public ::System::Object
 	{
 	public:

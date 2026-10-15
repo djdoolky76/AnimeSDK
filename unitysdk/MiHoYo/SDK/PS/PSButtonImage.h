@@ -8,6 +8,8 @@ namespace UnityEngine { class Sprite; }
 
 namespace MiHoYo::SDK::PS
 {
+	inline static constexpr unsigned int PSButtonImage_TypeDefinitionIndex = 8937;
+
 	class PSButtonImage : public ::UnityEngine::MonoBehaviour
 	{
 	public:

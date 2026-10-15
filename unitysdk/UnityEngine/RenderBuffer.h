@@ -3,6 +3,8 @@
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int RenderBuffer_TypeDefinitionIndex = 4120;
+
 	struct alignas(4) RenderBuffer
 	{
 		::System::Int32 m_RenderTextureInstanceID; // 0x10

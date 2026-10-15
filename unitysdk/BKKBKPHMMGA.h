@@ -15,6 +15,8 @@ namespace System { class String; }
 #define BKKBKPHMMGA_GBIJDFPIDDK_OFFSET UNITYSDK_OFFSET(0xBA5A350)
 #define BKKBKPHMMGA_OKPLPEELPBC_OFFSET UNITYSDK_OFFSET(0xBA5A430)
 
+inline static constexpr unsigned int BKKBKPHMMGA_TypeDefinitionIndex = 66368;
+
 	class BKKBKPHMMGA : public ::System::Object
 	{
 	public:

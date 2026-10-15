@@ -13,6 +13,8 @@ namespace ZenFulcrum::EmbeddedBrowser { class BrowserNative_ShowContextMenuFunc;
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
+	inline static constexpr unsigned int BrowserNative_Calltype_zfb_registerContextMenuCallback_TypeDefinitionIndex = 39454;
+
 	class BrowserNative_Calltype_zfb_registerContextMenuCallback : public ::System::MulticastDelegate
 	{
 	public:

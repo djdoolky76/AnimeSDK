@@ -13,6 +13,8 @@ namespace System { class Action; }
 #define MKIHACMGGFJ_LHMGOMFKMLB_OFFSET UNITYSDK_OFFSET(0xB998090)
 #define MKIHACMGGFJ_NAOFMBFAHIM_OFFSET UNITYSDK_OFFSET(0xB998190)
 
+inline static constexpr unsigned int MKIHACMGGFJ_TypeDefinitionIndex = 49193;
+
 	class MKIHACMGGFJ : public ::System::Object
 	{
 	public:

@@ -31,6 +31,8 @@ namespace UnityEngine { class Transform; }
 #define DDBHMHFPFJC_PFHLMKLGPOB_OFFSET UNITYSDK_OFFSET(0xE258150)
 #define DDBHMHFPFJC_PIJMNADGBHN_OFFSET UNITYSDK_OFFSET(0xE257F10)
 
+inline static constexpr unsigned int DDBHMHFPFJC_TypeDefinitionIndex = 68811;
+
 	class DDBHMHFPFJC : public ::RPG::Client::BehaviorBase
 	{
 	public:

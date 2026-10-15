@@ -14,6 +14,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define LILADDHJJGI_EXECUTE_OFFSET UNITYSDK_OFFSET(0xB6D68A0)
 #define LILADDHJJGI_TICK_OFFSET UNITYSDK_OFFSET(0xB6D6CE0)
 
+inline static constexpr unsigned int LILADDHJJGI_TypeDefinitionIndex = 77656;
+
 	class LILADDHJJGI : public ::System::Object
 	{
 	public:

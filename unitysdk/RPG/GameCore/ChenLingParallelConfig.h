@@ -11,6 +11,8 @@ namespace RPG::GameCore { class ChenLingParallelConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChenLingParallelConfig_TypeDefinitionIndex = 15815;
+
 	class ChenLingParallelConfig : public ::RPG::GameCore::BaseChenLingBattleAbilityNodeConfig
 	{
 	public:

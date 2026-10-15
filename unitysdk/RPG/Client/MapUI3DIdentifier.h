@@ -8,6 +8,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MapUI3DIdentifier_TypeDefinitionIndex = 62925;
+
 	class MapUI3DIdentifier : public ::UnityEngine::MonoBehaviour
 	{
 	public:

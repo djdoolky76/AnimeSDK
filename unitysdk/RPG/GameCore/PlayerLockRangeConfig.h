@@ -10,6 +10,8 @@ namespace RPG::GameCore { class PlayerLockRangeConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PlayerLockRangeConfig_TypeDefinitionIndex = 17617;
+
 	class PlayerLockRangeConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

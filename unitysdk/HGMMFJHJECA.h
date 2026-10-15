@@ -6,6 +6,8 @@ class KPMHFPMPBBD;
 #define HGMMFJHJECA_CTOR_OFFSET UNITYSDK_OFFSET(0x15CB24D0)
 #define HGMMFJHJECA_GIGJMNCIFMJ_OFFSET UNITYSDK_OFFSET(0x15CB2390)
 
+inline static constexpr unsigned int HGMMFJHJECA_TypeDefinitionIndex = 82163;
+
 	class HGMMFJHJECA : public ::System::Object
 	{
 	public:

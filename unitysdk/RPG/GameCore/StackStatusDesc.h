@@ -11,6 +11,8 @@ namespace RPG::GameCore { class StackStatusDesc; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int StackStatusDesc_TypeDefinitionIndex = 23638;
+
 	class StackStatusDesc : public ::RPG::GameCore::TaskConfig
 	{
 	public:

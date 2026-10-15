@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
+	inline static constexpr unsigned int IVRSystem__IsInputFocusCapturedByAnotherProcess_TypeDefinitionIndex = 38930;
+
 	class IVRSystem__IsInputFocusCapturedByAnotherProcess : public ::System::MulticastDelegate
 	{
 	public:

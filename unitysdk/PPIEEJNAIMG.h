@@ -26,6 +26,8 @@ namespace UnityEngine { class Collider; }
 #define PPIEEJNAIMG_MDJDFNNJMCC_OFFSET UNITYSDK_OFFSET(0xC388B40)
 #define PPIEEJNAIMG_TEARDOWN_OFFSET UNITYSDK_OFFSET(0xC387E30)
 
+inline static constexpr unsigned int PPIEEJNAIMG_TypeDefinitionIndex = 77151;
+
 	class PPIEEJNAIMG : public ::System::Object
 	{
 	public:

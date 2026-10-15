@@ -88,6 +88,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AvatarIconControl___c_TypeDefinitionIndex = 60099;
+
 	class AvatarIconControl___c : public ::System::Object
 	{
 	public:

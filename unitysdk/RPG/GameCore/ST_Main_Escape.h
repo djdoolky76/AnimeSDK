@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ST_Main_Escape; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ST_Main_Escape_TypeDefinitionIndex = 20111;
+
 	class ST_Main_Escape : public ::RPG::GameCore::STTaskConfig
 	{
 	public:

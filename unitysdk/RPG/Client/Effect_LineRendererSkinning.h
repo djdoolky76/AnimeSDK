@@ -35,6 +35,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int Effect_LineRendererSkinning_TypeDefinitionIndex = 70505;
+
 	class Effect_LineRendererSkinning : public ::UnityEngine::MonoBehaviour
 	{
 	public:

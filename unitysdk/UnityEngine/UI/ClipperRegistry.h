@@ -13,6 +13,8 @@ namespace UnityEngine::UI::Collections { template <typename T> class IndexedSet_
 
 namespace UnityEngine::UI
 {
+	inline static constexpr unsigned int ClipperRegistry_TypeDefinitionIndex = 6698;
+
 	class ClipperRegistry : public ::System::Object
 	{
 	public:

@@ -7,6 +7,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::LittleGame
 {
+	inline static constexpr unsigned int MovieGameLayer_TypeDefinitionIndex = 76611;
+
 	class MovieGameLayer : public ::UnityEngine::MonoBehaviour
 	{
 	public:

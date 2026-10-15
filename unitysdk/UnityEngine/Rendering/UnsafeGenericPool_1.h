@@ -5,6 +5,8 @@ namespace UnityEngine::Rendering { template <typename T> class ObjectPool_1; }
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int UnsafeGenericPool_1_TypeDefinitionIndex = 35492;
+
 	template <typename T>
 	class UnsafeGenericPool_1 : public ::System::Object
 	{

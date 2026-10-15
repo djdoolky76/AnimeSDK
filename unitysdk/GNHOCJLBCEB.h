@@ -47,6 +47,8 @@ namespace UnityEngine { class GameObject; }
 #define GNHOCJLBCEB_PEEEGMNCDAF_OFFSET UNITYSDK_OFFSET(0x15B0E3B0)
 #define GNHOCJLBCEB_TICK_OFFSET UNITYSDK_OFFSET(0x15B0D210)
 
+inline static constexpr unsigned int GNHOCJLBCEB_TypeDefinitionIndex = 57341;
+
 	class GNHOCJLBCEB : public ::RPG::GameCore::GameComponentBase
 	{
 	public:

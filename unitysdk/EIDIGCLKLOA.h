@@ -27,6 +27,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define EIDIGCLKLOA_SET_NORMALMODETHRESHOLDCONFIG_OFFSET UNITYSDK_OFFSET(0x154BECF0)
 #define EIDIGCLKLOA_SET_PROGRESSMODE_OFFSET UNITYSDK_OFFSET(0x154BEC70)
 
+inline static constexpr unsigned int EIDIGCLKLOA_TypeDefinitionIndex = 55525;
+
 	class EIDIGCLKLOA : public ::System::Object
 	{
 	public:

@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace MiHoYo::SDK::Win
 {
+	inline static constexpr unsigned int ComboManager___c__DisplayClass21_3_TypeDefinitionIndex = 9420;
+
 	template <typename T1, typename T2, typename T3>
 	class ComboManager___c__DisplayClass21_3 : public ::System::Object
 	{

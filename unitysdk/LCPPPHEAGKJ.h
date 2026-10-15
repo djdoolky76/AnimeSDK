@@ -8,6 +8,8 @@ namespace RPG::GameCore { class GameEntity; }
 #define LCPPPHEAGKJ_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xB61B3D0)
 #define LCPPPHEAGKJ_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xB61B380)
 
+inline static constexpr unsigned int LCPPPHEAGKJ_TypeDefinitionIndex = 56670;
+
 	class LCPPPHEAGKJ : public ::System::Object
 	{
 	public:

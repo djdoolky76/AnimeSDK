@@ -10,6 +10,8 @@ namespace System { class Object; }
 #define LGJDODEHJJG_ONENTER_OFFSET UNITYSDK_OFFSET(0xB6995A0)
 #define LGJDODEHJJG_ONLEAVE_OFFSET UNITYSDK_OFFSET(0xB699820)
 
+inline static constexpr unsigned int LGJDODEHJJG_TypeDefinitionIndex = 76311;
+
 	class LGJDODEHJJG : public ::RPG::Client::ChenLingBattle::GamePhase
 	{
 	public:

@@ -9,6 +9,8 @@ namespace UnityEngine::UI { class Text; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AdvGMSummonNpcItemContext_TypeDefinitionIndex = 72730;
+
 	class AdvGMSummonNpcItemContext : public ::UnityEngine::MonoBehaviour
 	{
 	public:

@@ -30,6 +30,8 @@ namespace System { class String; }
 #define NGEBIKIHIDD_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EB0CB30)
 #define NGEBIKIHIDD_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EB0CB90)
 
+inline static constexpr unsigned int NGEBIKIHIDD_TypeDefinitionIndex = 32902;
+
 	class NGEBIKIHIDD : public ::System::Object
 	{
 	public:

@@ -9,6 +9,8 @@ namespace RPG::GameCore { class DiceCombatPresetTurnActorAddLimitedDiceConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DiceCombatPresetTurnActorAddLimitedDiceConfig_TypeDefinitionIndex = 16131;
+
 	class DiceCombatPresetTurnActorAddLimitedDiceConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

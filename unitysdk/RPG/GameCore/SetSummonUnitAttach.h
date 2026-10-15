@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetSummonUnitAttach_TypeDefinitionIndex = 20162;
+
 	class SetSummonUnitAttach : public ::RPG::GameCore::TaskConfig
 	{
 	public:

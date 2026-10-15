@@ -61,6 +61,8 @@ namespace UnityEngine { class RectTransform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PhotoGraphAimContainer_TypeDefinitionIndex = 69427;
+
 	class PhotoGraphAimContainer : public ::UnityEngine::MonoBehaviour
 	{
 	public:

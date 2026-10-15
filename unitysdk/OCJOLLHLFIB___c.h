@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define OCJOLLHLFIB___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DE15C30)
 #define OCJOLLHLFIB___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1DE15C40)
 
+inline static constexpr unsigned int OCJOLLHLFIB___c_TypeDefinitionIndex = 30782;
+
 	class OCJOLLHLFIB___c : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace System { class String; }
 #define IEICGPPGDAO_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CEEB470)
 #define IEICGPPGDAO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CEEB430)
 
+inline static constexpr unsigned int IEICGPPGDAO_TypeDefinitionIndex = 23724;
+
 	class IEICGPPGDAO : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -23,6 +23,8 @@ namespace System { class Object; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PreDownloadAsset_TypeDefinitionIndex = 61158;
+
 	class PreDownloadAsset : public ::System::Object
 	{
 	public:

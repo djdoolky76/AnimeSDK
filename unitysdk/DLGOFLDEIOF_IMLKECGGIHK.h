@@ -10,6 +10,8 @@ namespace System { class Object; }
 #define DLGOFLDEIOF_IMLKECGGIHK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xF8A0010)
 #define DLGOFLDEIOF_IMLKECGGIHK_INVOKE_OFFSET UNITYSDK_OFFSET(0xF89FFD0)
 
+inline static constexpr unsigned int DLGOFLDEIOF_IMLKECGGIHK_TypeDefinitionIndex = 49413;
+
 	class DLGOFLDEIOF_IMLKECGGIHK : public ::System::MulticastDelegate
 	{
 	public:

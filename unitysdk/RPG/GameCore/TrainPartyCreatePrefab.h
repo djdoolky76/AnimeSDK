@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TrainPartyCreatePrefab_TypeDefinitionIndex = 22365;
+
 	class TrainPartyCreatePrefab : public ::RPG::GameCore::TaskConfig
 	{
 	public:

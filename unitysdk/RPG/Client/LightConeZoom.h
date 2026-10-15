@@ -11,6 +11,8 @@ namespace RPG::Client { class LightConeZoom_UpdateFunc; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int LightConeZoom_TypeDefinitionIndex = 72553;
+
 	class LightConeZoom : public ::UnityEngine::MonoBehaviour
 	{
 	public:

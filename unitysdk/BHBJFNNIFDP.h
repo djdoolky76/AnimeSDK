@@ -16,6 +16,8 @@ namespace RPG::Client::LittleGame::FourRotateVoxel { class FourRotateVoxelGlobal
 #define BHBJFNNIFDP_KDLCJPHHOFI_OFFSET UNITYSDK_OFFSET(0xB472100)
 #define BHBJFNNIFDP_TEARDOWN_OFFSET UNITYSDK_OFFSET(0xB470450)
 
+inline static constexpr unsigned int BHBJFNNIFDP_TypeDefinitionIndex = 76745;
+
 	class BHBJFNNIFDP : public ::System::Object
 	{
 	public:

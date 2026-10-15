@@ -27,6 +27,8 @@ namespace System { class String; }
 #define ALLNMAAOELO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E5121F0)
 #define ALLNMAAOELO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E512250)
 
+inline static constexpr unsigned int ALLNMAAOELO_TypeDefinitionIndex = 28225;
+
 	class ALLNMAAOELO : public ::System::Object
 	{
 	public:

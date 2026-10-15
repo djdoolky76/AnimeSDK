@@ -32,6 +32,8 @@ namespace System { class String; }
 #define KADDGDOKLEF_ONRETURN_OFFSET UNITYSDK_OFFSET(0xB2D1720)
 #define KADDGDOKLEF__ONBIND_OFFSET UNITYSDK_OFFSET(0xB2D1820)
 
+inline static constexpr unsigned int KADDGDOKLEF_TypeDefinitionIndex = 71547;
+
 	class KADDGDOKLEF : public ::FMPCODLIOLG
 	{
 	public:

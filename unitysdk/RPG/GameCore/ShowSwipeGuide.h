@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ShowSwipeGuide_TypeDefinitionIndex = 24341;
+
 	class ShowSwipeGuide : public ::RPG::GameCore::TaskConfig
 	{
 	public:

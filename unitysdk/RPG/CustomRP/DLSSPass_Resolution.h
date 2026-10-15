@@ -9,6 +9,8 @@ namespace System { class Object; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int DLSSPass_Resolution_TypeDefinitionIndex = 37557;
+
 	struct alignas(4) DLSSPass_Resolution
 	{
 		::System::UInt32 width; // 0x10

@@ -13,6 +13,8 @@ namespace System { class Object; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int Map_OnGroupEntitiesCreatedDelegate_TypeDefinitionIndex = 60864;
+
 	class Map_OnGroupEntitiesCreatedDelegate : public ::System::MulticastDelegate
 	{
 	public:

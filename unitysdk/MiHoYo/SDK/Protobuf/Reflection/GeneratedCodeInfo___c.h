@@ -10,6 +10,8 @@ namespace System { class Object; }
 
 namespace MiHoYo::SDK::Protobuf::Reflection
 {
+	inline static constexpr unsigned int GeneratedCodeInfo___c_TypeDefinitionIndex = 35819;
+
 	class GeneratedCodeInfo___c : public ::System::Object
 	{
 	public:

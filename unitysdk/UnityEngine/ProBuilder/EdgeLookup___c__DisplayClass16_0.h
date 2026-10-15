@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace UnityEngine::ProBuilder
 {
+	inline static constexpr unsigned int EdgeLookup___c__DisplayClass16_0_TypeDefinitionIndex = 44353;
+
 	class EdgeLookup___c__DisplayClass16_0 : public ::System::Object
 	{
 	public:

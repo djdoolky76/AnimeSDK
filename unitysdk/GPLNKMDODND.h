@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define GPLNKMDODND_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1CE78430)
 #define GPLNKMDODND_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1CE77D90)
 
+inline static constexpr unsigned int GPLNKMDODND_TypeDefinitionIndex = 14251;
+
 	class GPLNKMDODND : public ::System::Object
 	{
 	public:

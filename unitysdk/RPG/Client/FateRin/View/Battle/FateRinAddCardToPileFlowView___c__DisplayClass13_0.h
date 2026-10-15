@@ -10,6 +10,8 @@ namespace UnityEngine { class Animation; }
 
 namespace RPG::Client::FateRin::View::Battle
 {
+	inline static constexpr unsigned int FateRinAddCardToPileFlowView___c__DisplayClass13_0_TypeDefinitionIndex = 80659;
+
 	class FateRinAddCardToPileFlowView___c__DisplayClass13_0 : public ::System::Object
 	{
 	public:

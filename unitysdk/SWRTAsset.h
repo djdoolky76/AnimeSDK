@@ -13,6 +13,8 @@ namespace UnityEngine { class Texture; }
 #define SWRTASSET_CLEAR_OFFSET UNITYSDK_OFFSET(0x1CC84570)
 #define SWRTASSET_CTOR_OFFSET UNITYSDK_OFFSET(0x1CC84770)
 
+inline static constexpr unsigned int SWRTAsset_TypeDefinitionIndex = 37483;
+
 	class SWRTAsset : public ::UnityEngine::ScriptableObject
 	{
 	public:

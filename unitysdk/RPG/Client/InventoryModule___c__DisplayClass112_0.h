@@ -8,6 +8,8 @@ namespace RPG::GameCore { class ItemComefromRow; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int InventoryModule___c__DisplayClass112_0_TypeDefinitionIndex = 65687;
+
 	class InventoryModule___c__DisplayClass112_0 : public ::System::Object
 	{
 	public:

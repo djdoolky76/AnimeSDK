@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FourRotateVoxelSetEntityTriggerEnableAction; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FourRotateVoxelSetEntityTriggerEnableAction_TypeDefinitionIndex = 16769;
+
 	class FourRotateVoxelSetEntityTriggerEnableAction : public ::RPG::GameCore::FiveDimBaseEventAction
 	{
 	public:

@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FourRotateVoxelCameraComponentConfig_TypeDefinitionIndex = 16751;
+
 	class FourRotateVoxelCameraComponentConfig : public ::RPG::GameCore::LittleGameComponentConfig
 	{
 	public:

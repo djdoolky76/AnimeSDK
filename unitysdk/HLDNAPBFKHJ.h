@@ -18,6 +18,8 @@ namespace RPG::Client::NavMap { class IMapDataSource; }
 #define HLDNAPBFKHJ_SET_LITTLEGAMEENTITYID_OFFSET UNITYSDK_OFFSET(0x15D5CF50)
 #define HLDNAPBFKHJ_SET_POSITION_OFFSET UNITYSDK_OFFSET(0x15D5CEF0)
 
+inline static constexpr unsigned int HLDNAPBFKHJ_TypeDefinitionIndex = 74578;
+
 	class HLDNAPBFKHJ : public ::System::Object
 	{
 	public:

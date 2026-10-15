@@ -12,6 +12,8 @@ namespace RPG::GameCore { class AIAvatarBaseTypeSelector; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AIAvatarBaseTypeSelector_TypeDefinitionIndex = 15600;
+
 	class AIAvatarBaseTypeSelector : public ::RPG::GameCore::AISelector
 	{
 	public:

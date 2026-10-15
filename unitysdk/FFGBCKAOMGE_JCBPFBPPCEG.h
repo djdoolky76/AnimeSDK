@@ -16,6 +16,8 @@ namespace RPG::GameCore { class GameEntity; }
 #define FFGBCKAOMGE_JCBPFBPPCEG_SET_EXRATIO_OFFSET UNITYSDK_OFFSET(0x157374C0)
 #define FFGBCKAOMGE_JCBPFBPPCEG_SET_MAXVALUE_OFFSET UNITYSDK_OFFSET(0x157374A0)
 
+inline static constexpr unsigned int FFGBCKAOMGE_JCBPFBPPCEG_TypeDefinitionIndex = 56282;
+
 	class FFGBCKAOMGE_JCBPFBPPCEG : public ::System::Object
 	{
 	public:

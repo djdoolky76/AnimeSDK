@@ -7,6 +7,8 @@ namespace System { class Type; }
 
 namespace System::ComponentModel
 {
+	inline static constexpr unsigned int ArrayConverter_ArrayPropertyDescriptor_TypeDefinitionIndex = 2560;
+
 	class ArrayConverter_ArrayPropertyDescriptor : public ::System::ComponentModel::TypeConverter_SimplePropertyDescriptor
 	{
 	public:

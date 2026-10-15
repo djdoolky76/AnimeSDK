@@ -3,6 +3,8 @@
 
 #define EPAFNCNFOHG_PEFLJDOKOIL_OFFSET UNITYSDK_OFFSET(0x3C47910)
 
+inline static constexpr unsigned int EPAFNCNFOHG_TypeDefinitionIndex = 6277;
+
 	struct alignas(4) EPAFNCNFOHG
 	{
 		::System::Single DKEJJDHONBA; // 0x10

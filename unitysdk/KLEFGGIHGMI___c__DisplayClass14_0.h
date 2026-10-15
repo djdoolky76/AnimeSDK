@@ -9,6 +9,8 @@ namespace RPG::Client::OpenWorld { class StreamingItemData; }
 #define KLEFGGIHGMI___C__DISPLAYCLASS14_0___IRILOADPREFAB_B__0_OFFSET UNITYSDK_OFFSET(0xB5245B0)
 #define KLEFGGIHGMI___C__DISPLAYCLASS14_0___IRILOADPREFAB_B__1_OFFSET UNITYSDK_OFFSET(0xB524600)
 
+inline static constexpr unsigned int KLEFGGIHGMI___c__DisplayClass14_0_TypeDefinitionIndex = 73910;
+
 	class KLEFGGIHGMI___c__DisplayClass14_0 : public ::System::Object
 	{
 	public:

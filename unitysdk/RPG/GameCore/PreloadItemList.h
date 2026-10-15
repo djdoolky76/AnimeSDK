@@ -10,6 +10,8 @@ namespace RPG::GameCore { class PreloadItemList; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PreloadItemList_TypeDefinitionIndex = 16362;
+
 	class PreloadItemList : public ::RPG::GameCore::JsonConfig
 	{
 	public:

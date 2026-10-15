@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueDialogueEventOptionConfig_TypeDefinitionIndex = 17916;
+
 	class RogueDialogueEventOptionConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

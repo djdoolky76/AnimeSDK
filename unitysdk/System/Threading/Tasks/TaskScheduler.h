@@ -26,6 +26,8 @@ namespace System::Threading::Tasks { class UnobservedTaskExceptionEventArgs; }
 
 namespace System::Threading::Tasks
 {
+	inline static constexpr unsigned int TaskScheduler_TypeDefinitionIndex = 930;
+
 	class TaskScheduler : public ::System::Object
 	{
 	public:

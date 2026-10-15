@@ -9,6 +9,8 @@ namespace System { class String; }
 #define DJDGPBBPACL_TOSTRING_OFFSET UNITYSDK_OFFSET(0xF22E490)
 #define DJDGPBBPACL_TRIGGERACTION_OFFSET UNITYSDK_OFFSET(0xF22E530)
 
+inline static constexpr unsigned int DJDGPBBPACL_TypeDefinitionIndex = 66999;
+
 	class DJDGPBBPACL : public ::System::Object
 	{
 	public:

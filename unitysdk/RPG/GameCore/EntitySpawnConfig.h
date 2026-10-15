@@ -9,6 +9,8 @@ namespace RPG::GameCore { class EntitySpawnConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int EntitySpawnConfig_TypeDefinitionIndex = 19214;
+
 	class EntitySpawnConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

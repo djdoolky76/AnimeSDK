@@ -9,6 +9,8 @@ namespace UnityEngine::UI { class Image; }
 #define MCJNHIKIDMM_IAMCNOAAALI_OFFSET UNITYSDK_OFFSET(0xB882880)
 #define MCJNHIKIDMM_JCKGONAAIPB_OFFSET UNITYSDK_OFFSET(0xB8828D0)
 
+inline static constexpr unsigned int MCJNHIKIDMM_TypeDefinitionIndex = 73104;
+
 	class MCJNHIKIDMM : public ::LBAMBIMMJKB
 	{
 	public:

@@ -8,6 +8,8 @@ class PIOFKDHFGIF;
 #define OPFPIKNCBKG_GOHAJILHKPL_OFFSET UNITYSDK_OFFSET(0xBFAA030)
 #define OPFPIKNCBKG_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xBFA9F80)
 
+inline static constexpr unsigned int OPFPIKNCBKG_TypeDefinitionIndex = 61032;
+
 	class OPFPIKNCBKG : public ::System::Object
 	{
 	public:

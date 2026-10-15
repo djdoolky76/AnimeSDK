@@ -22,6 +22,8 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyLi
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueTournPersonaRoomCardPileSelectInfo_TypeDefinitionIndex = 72885;
+
 	class RogueTournPersonaRoomCardPileSelectInfo : public ::System::Object
 	{
 	public:

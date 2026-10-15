@@ -16,6 +16,8 @@ namespace UnityEngine { class Mesh; }
 #define BLOODFLOWMANAGER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xC1B5E10)
 #define BLOODFLOWMANAGER_UPDATE_OFFSET UNITYSDK_OFFSET(0xC1B5DC0)
 
+inline static constexpr unsigned int BloodFlowManager_TypeDefinitionIndex = 47451;
+
 	class BloodFlowManager : public ::UnityEngine::MonoBehaviour
 	{
 	public:

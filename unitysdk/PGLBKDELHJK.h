@@ -35,6 +35,8 @@ namespace System { class String; }
 #define PGLBKDELHJK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DF33860)
 #define PGLBKDELHJK_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DF338C0)
 
+inline static constexpr unsigned int PGLBKDELHJK_TypeDefinitionIndex = 30735;
+
 	class PGLBKDELHJK : public ::System::Object
 	{
 	public:

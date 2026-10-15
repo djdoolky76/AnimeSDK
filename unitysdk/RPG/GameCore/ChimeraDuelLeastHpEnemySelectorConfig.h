@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ChimeraDuelLeastHpEnemySelectorConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChimeraDuelLeastHpEnemySelectorConfig_TypeDefinitionIndex = 15935;
+
 	class ChimeraDuelLeastHpEnemySelectorConfig : public ::RPG::GameCore::BaseChimeraDuelEntitiesSelectorConfig
 	{
 	public:

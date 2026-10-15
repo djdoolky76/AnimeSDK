@@ -13,6 +13,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::UINavigation
 {
+	inline static constexpr unsigned int UINavigationArea_FirstSelectableDelegate_TypeDefinitionIndex = 51729;
+
 	class UINavigationArea_FirstSelectableDelegate : public ::System::MulticastDelegate
 	{
 	public:

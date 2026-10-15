@@ -18,6 +18,8 @@ namespace UnityEngine { class Camera; }
 
 namespace RPG::SceneOptimizer::PVSSceneBudgetStatTool
 {
+	inline static constexpr unsigned int PVSSceneBudgetStatToolWindowVisualizeHelper_TypeDefinitionIndex = 51788;
+
 	class PVSSceneBudgetStatToolWindowVisualizeHelper : public ::UnityEngine::MonoBehaviour
 	{
 	public:

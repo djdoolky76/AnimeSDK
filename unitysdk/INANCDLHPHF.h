@@ -4,6 +4,8 @@
 
 #define INANCDLHPHF_CTOR_OFFSET UNITYSDK_OFFSET(0x1CB78900)
 
+inline static constexpr unsigned int INANCDLHPHF_TypeDefinitionIndex = 42284;
+
 	class INANCDLHPHF : public ::System::Object
 	{
 	public:

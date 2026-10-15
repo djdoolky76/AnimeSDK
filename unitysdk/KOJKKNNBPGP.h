@@ -9,6 +9,8 @@
 #define KOJKKNNBPGP_GET_TYPE_OFFSET UNITYSDK_OFFSET(0xB599470)
 #define KOJKKNNBPGP_JAILHGGFLDH_OFFSET UNITYSDK_OFFSET(0xB599480)
 
+inline static constexpr unsigned int KOJKKNNBPGP_TypeDefinitionIndex = 56157;
+
 	class KOJKKNNBPGP : public ::DBGDNLLDPFI
 	{
 	public:

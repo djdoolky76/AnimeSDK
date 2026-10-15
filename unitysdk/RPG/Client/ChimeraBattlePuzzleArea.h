@@ -12,6 +12,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ChimeraBattlePuzzleArea_TypeDefinitionIndex = 68646;
+
 	class ChimeraBattlePuzzleArea : public ::UnityEngine::MonoBehaviour
 	{
 	public:

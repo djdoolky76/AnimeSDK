@@ -7,6 +7,8 @@ namespace RPG::GameCore { class MarbleSetNextScoreDelta; }
 #define ACBOOOPNFEC_CTOR_OFFSET UNITYSDK_OFFSET(0x1C877A30)
 #define ACBOOOPNFEC_KDNAAOHECPD_OFFSET UNITYSDK_OFFSET(0x1C877A40)
 
+inline static constexpr unsigned int ACBOOOPNFEC_TypeDefinitionIndex = 43125;
+
 	class ACBOOOPNFEC : public ::BKABEBEPPJK
 	{
 	public:

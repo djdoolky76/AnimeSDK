@@ -63,6 +63,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define PKBOEALAKCM_PGIKJLOHDIM_OFFSET UNITYSDK_OFFSET(0xC2AD870)
 #define PKBOEALAKCM_TICK_OFFSET UNITYSDK_OFFSET(0xC2AC700)
 
+inline static constexpr unsigned int PKBOEALAKCM_TypeDefinitionIndex = 57306;
+
 	class PKBOEALAKCM : public ::RPG::GameCore::GameComponentBase
 	{
 	public:

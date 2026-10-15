@@ -11,6 +11,8 @@
 #define HFBBHIFENPI_SET_SOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0x15C68780)
 #define HFBBHIFENPI_SET_WORLDPOSITION_OFFSET UNITYSDK_OFFSET(0x15C68760)
 
+inline static constexpr unsigned int HFBBHIFENPI_TypeDefinitionIndex = 81275;
+
 	class HFBBHIFENPI : public ::System::Object
 	{
 	public:

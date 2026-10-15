@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdvTrackNpcPlayerHide_TypeDefinitionIndex = 22190;
+
 	class AdvTrackNpcPlayerHide : public ::RPG::GameCore::TaskConfig
 	{
 	public:

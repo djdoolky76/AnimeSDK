@@ -11,6 +11,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int Effect_InstanceArrayBehavior_RotateAround_TypeDefinitionIndex = 70611;
+
 	class Effect_InstanceArrayBehavior_RotateAround : public ::System::Object
 	{
 	public:

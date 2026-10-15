@@ -9,6 +9,8 @@ namespace System::Collections::Generic { class KeyValuePair; }
 #define AKGKDDMPGPA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x12CD1A60)
 #define AKGKDDMPGPA___C___CHOOSENEXTPOINT_B__16_0_OFFSET UNITYSDK_OFFSET(0x12CD1A70)
 
+inline static constexpr unsigned int AKGKDDMPGPA___c_TypeDefinitionIndex = 60154;
+
 	class AKGKDDMPGPA___c : public ::System::Object
 	{
 	public:

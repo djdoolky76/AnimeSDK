@@ -6,6 +6,8 @@ class OPLFIGDDLLD;
 
 #define OPLFIGDDLLD___C__DISPLAYCLASS2_0_CTOR_OFFSET UNITYSDK_OFFSET(0xBFB3BA0)
 
+inline static constexpr unsigned int OPLFIGDDLLD___c__DisplayClass2_0_TypeDefinitionIndex = 77461;
+
 	class OPLFIGDDLLD___c__DisplayClass2_0 : public ::System::Object
 	{
 	public:

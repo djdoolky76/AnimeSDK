@@ -11,6 +11,8 @@ namespace RPG::GameCore { class WaitPropStateChangeV2; }
 #define LHLHHEMLINP__REGISTEREVENTCALLBACK_OFFSET UNITYSDK_OFFSET(0xB6BABD0)
 #define LHLHHEMLINP__UNREGISTEREVENTCALLBACK_OFFSET UNITYSDK_OFFSET(0xB6BACA0)
 
+inline static constexpr unsigned int LHLHHEMLINP_TypeDefinitionIndex = 53490;
+
 	class LHLHHEMLINP
 	{
 	public:

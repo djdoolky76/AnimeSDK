@@ -10,6 +10,8 @@ namespace RPG::GameCore { class MonopolyShowSwitchFromSpeTransition; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MonopolyShowSwitchFromSpeTransition_TypeDefinitionIndex = 20940;
+
 	class MonopolyShowSwitchFromSpeTransition : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DisableSummonUnitGather_TypeDefinitionIndex = 20165;
+
 	class DisableSummonUnitGather : public ::RPG::GameCore::TaskConfig
 	{
 	public:

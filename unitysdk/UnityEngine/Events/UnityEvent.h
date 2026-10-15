@@ -17,6 +17,8 @@ namespace UnityEngine::Events { class UnityAction; }
 
 namespace UnityEngine::Events
 {
+	inline static constexpr unsigned int UnityEvent_TypeDefinitionIndex = 4492;
+
 	class UnityEvent : public ::UnityEngine::Events::UnityEventBase
 	{
 	public:

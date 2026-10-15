@@ -12,6 +12,8 @@ namespace UnityEngine { class Animator; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int AnimatorEnableControlMixer_TypeDefinitionIndex = 48199;
+
 	class AnimatorEnableControlMixer : public ::RPGTools::Timeline::OverrideTransformMixer
 	{
 	public:

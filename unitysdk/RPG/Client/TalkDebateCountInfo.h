@@ -6,6 +6,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TalkDebateCountInfo_TypeDefinitionIndex = 60690;
+
 	class TalkDebateCountInfo : public ::System::Object
 	{
 	public:

@@ -34,6 +34,8 @@ namespace System { class String; }
 #define BPJMEGHIEIN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E049DD0)
 #define BPJMEGHIEIN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E049E30)
 
+inline static constexpr unsigned int BPJMEGHIEIN_TypeDefinitionIndex = 34684;
+
 	class BPJMEGHIEIN : public ::System::Object
 	{
 	public:

@@ -9,6 +9,8 @@ namespace System::Net::Http::Headers { class NameValueHeaderValue; }
 
 namespace System::Net::Http::Headers
 {
+	inline static constexpr unsigned int CollectionExtensions_TypeDefinitionIndex = 3779;
+
 	class CollectionExtensions : public ::System::Object
 	{
 	public:

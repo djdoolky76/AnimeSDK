@@ -16,6 +16,8 @@ namespace TMPro { class TMP_Settings; }
 
 namespace TMPro
 {
+	inline static constexpr unsigned int TMP_ResourceManager_TypeDefinitionIndex = 44622;
+
 	class TMP_ResourceManager : public ::System::Object
 	{
 	public:

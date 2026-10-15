@@ -31,6 +31,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GameplayGuideTabConfigExcelTable_TypeDefinitionIndex = 13380;
+
 	class GameplayGuideTabConfigExcelTable : public ::System::Object
 	{
 	public:

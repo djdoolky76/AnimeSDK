@@ -26,6 +26,8 @@ namespace UnityEngine::UI { class Text; }
 
 namespace MiHoYo::SDK::Win
 {
+	inline static constexpr unsigned int SafeMobileVerifyMail_TypeDefinitionIndex = 9492;
+
 	class SafeMobileVerifyMail : public ::MiHoYo::SDK::UIElement
 	{
 	public:

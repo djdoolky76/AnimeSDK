@@ -11,6 +11,8 @@ namespace RPG::GameCore { class ExitGameFlow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ExitGameFlow_TypeDefinitionIndex = 24063;
+
 	class ExitGameFlow : public ::RPG::GameCore::TaskConfig
 	{
 	public:

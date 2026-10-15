@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
+	inline static constexpr unsigned int BrowserNative_ReportFunc_TypeDefinitionIndex = 39383;
+
 	class BrowserNative_ReportFunc : public ::System::MulticastDelegate
 	{
 	public:

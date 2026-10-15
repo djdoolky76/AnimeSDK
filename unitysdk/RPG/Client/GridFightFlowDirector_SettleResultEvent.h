@@ -6,6 +6,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightFlowDirector_SettleResultEvent_TypeDefinitionIndex = 64588;
+
 	class GridFightFlowDirector_SettleResultEvent
 	{
 	public:

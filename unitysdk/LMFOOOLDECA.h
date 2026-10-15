@@ -61,6 +61,8 @@ namespace UnityEngine { class Transform; }
 #define LMFOOOLDECA_SET_UISERVICE_OFFSET UNITYSDK_OFFSET(0xB77DAE0)
 #define LMFOOOLDECA_SET_VIEWSERVICE_OFFSET UNITYSDK_OFFSET(0xB77D960)
 
+inline static constexpr unsigned int LMFOOOLDECA_TypeDefinitionIndex = 77819;
+
 	class LMFOOOLDECA
 	{
 	public:

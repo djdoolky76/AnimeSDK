@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RedDotGroupConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RedDotGroupConfig_TypeDefinitionIndex = 24414;
+
 	class RedDotGroupConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

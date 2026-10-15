@@ -6,6 +6,8 @@
 #define LNGAKGHOLFK_GET_CARDINDEX_OFFSET UNITYSDK_OFFSET(0xB7DD2F0)
 #define LNGAKGHOLFK_JKEONEEPIHH_OFFSET UNITYSDK_OFFSET(0xB7DD300)
 
+inline static constexpr unsigned int LNGAKGHOLFK_TypeDefinitionIndex = 80715;
+
 	class LNGAKGHOLFK : public ::System::Object
 	{
 	public:

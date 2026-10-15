@@ -1242,6 +1242,8 @@ namespace UnityEngine { class Collider; }
 #define HIOEAKHGILF_REPLACESTATETREE_OFFSET UNITYSDK_OFFSET(0x1CAD6700)
 #define HIOEAKHGILF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1CACC210)
 
+inline static constexpr unsigned int HIOEAKHGILF_TypeDefinitionIndex = 42130;
+
 	class HIOEAKHGILF : public ::Entitas::Entity
 	{
 	public:

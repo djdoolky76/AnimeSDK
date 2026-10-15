@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define IBFCLKMPMAL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E6147D0)
 #define IBFCLKMPMAL___C___CCTOR_B__36_0_OFFSET UNITYSDK_OFFSET(0x1E6147E0)
 
+inline static constexpr unsigned int IBFCLKMPMAL___c_TypeDefinitionIndex = 34108;
+
 	class IBFCLKMPMAL___c : public ::System::Object
 	{
 	public:

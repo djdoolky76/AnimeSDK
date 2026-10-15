@@ -21,6 +21,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int ChatMessage_TypeDefinitionIndex = 46580;
+
 	class ChatMessage : public ::System::Object
 	{
 	public:

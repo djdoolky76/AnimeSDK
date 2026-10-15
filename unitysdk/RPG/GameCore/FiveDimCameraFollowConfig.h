@@ -13,6 +13,8 @@ namespace RPG::GameCore { class FloatCurve; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimCameraFollowConfig_TypeDefinitionIndex = 18621;
+
 	class FiveDimCameraFollowConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

@@ -15,6 +15,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::Challenge::Story
 {
+	inline static constexpr unsigned int ChallengeStoryBuffSelectTeamInfoViewModel_TypeDefinitionIndex = 81639;
+
 	class ChallengeStoryBuffSelectTeamInfoViewModel : public ::System::Object
 	{
 	public:

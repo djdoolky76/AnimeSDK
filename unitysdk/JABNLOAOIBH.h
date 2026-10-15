@@ -21,6 +21,8 @@ namespace UnityEngine::Timeline { class TimelineClip; }
 #define JABNLOAOIBH_MMKEHEJPCDC_OFFSET UNITYSDK_OFFSET(0x1653CD70)
 #define JABNLOAOIBH_NMGEGNECDLA_OFFSET UNITYSDK_OFFSET(0x1653FCE0)
 
+inline static constexpr unsigned int JABNLOAOIBH_TypeDefinitionIndex = 48477;
+
 	class JABNLOAOIBH : public ::System::Object
 	{
 	public:

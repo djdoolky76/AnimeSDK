@@ -3,6 +3,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int IRogueTournGameWithMiracle_TypeDefinitionIndex = 67602;
+
 	class IRogueTournGameWithMiracle
 	{
 	public:

@@ -15,6 +15,8 @@ namespace RPG::Client { class ChenLingFesModule; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ActivityChenLingFesPanelData_TypeDefinitionIndex = 61580;
+
 	class ActivityChenLingFesPanelData : public ::RPG::Client::ActivityPanelData
 	{
 	public:

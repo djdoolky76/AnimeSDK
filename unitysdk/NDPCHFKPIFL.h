@@ -14,6 +14,8 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 #define NDPCHFKPIFL_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBB563D0)
 #define NDPCHFKPIFL_EJCEKMOMLPA_OFFSET UNITYSDK_OFFSET(0xBB56230)
 
+inline static constexpr unsigned int NDPCHFKPIFL_TypeDefinitionIndex = 77369;
+
 	class NDPCHFKPIFL : public ::System::Object
 	{
 	public:

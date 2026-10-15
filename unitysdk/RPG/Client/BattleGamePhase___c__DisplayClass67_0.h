@@ -9,6 +9,8 @@ namespace RPG::Client { class BattleGamePhaseInitParams; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int BattleGamePhase___c__DisplayClass67_0_TypeDefinitionIndex = 60970;
+
 	class BattleGamePhase___c__DisplayClass67_0 : public ::System::Object
 	{
 	public:

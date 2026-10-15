@@ -21,6 +21,8 @@ namespace UnityEngine { class Shader; }
 #define LNAKIEMEDGI_MGPJOMBFFCB_OFFSET UNITYSDK_OFFSET(0xB7D55B0)
 #define LNAKIEMEDGI_PIOGGIODLIL_OFFSET UNITYSDK_OFFSET(0xB7D52A0)
 
+inline static constexpr unsigned int LNAKIEMEDGI_TypeDefinitionIndex = 73657;
+
 	class LNAKIEMEDGI : public ::System::Object
 	{
 	public:

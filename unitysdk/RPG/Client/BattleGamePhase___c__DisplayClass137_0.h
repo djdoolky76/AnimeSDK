@@ -10,6 +10,8 @@ namespace RPG::GameCore { class LevelTurnUltraSkillPrepare; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int BattleGamePhase___c__DisplayClass137_0_TypeDefinitionIndex = 60965;
+
 	class BattleGamePhase___c__DisplayClass137_0 : public ::System::Object
 	{
 	public:

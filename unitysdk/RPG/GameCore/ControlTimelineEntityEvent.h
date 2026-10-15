@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ControlTimelineEntityEvent_TypeDefinitionIndex = 57479;
+
 	enum class ControlTimelineEntityEvent : ::System::Int32
 	{
 		StartControl = 0,

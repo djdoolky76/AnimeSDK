@@ -8,6 +8,8 @@ namespace System::Security::Cryptography { class KeySizes; }
 
 namespace System::Security::Cryptography
 {
+	inline static constexpr unsigned int Aes_TypeDefinitionIndex = 998;
+
 	class Aes : public ::System::Security::Cryptography::SymmetricAlgorithm
 	{
 	public:

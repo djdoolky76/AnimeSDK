@@ -7,6 +7,8 @@ class PIIOAKOEACN;
 #define KHHHOLADJBF_KHFPAMHCCOA_OFFSET UNITYSDK_OFFSET(0x1C546790)
 #define KHHHOLADJBF_MDPCGICJPHK_OFFSET UNITYSDK_OFFSET(0x1C54A5A0)
 
+inline static constexpr unsigned int KHHHOLADJBF_TypeDefinitionIndex = 41691;
+
 	class KHHHOLADJBF : public ::System::Object
 	{
 	public:

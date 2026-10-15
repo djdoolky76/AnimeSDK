@@ -4,6 +4,8 @@
 
 #define LITTLEGAMESHAREMESSAGEPACKINITIALIZER_INIT_OFFSET UNITYSDK_OFFSET(0x1C746320)
 
+inline static constexpr unsigned int LittleGameShareMessagePackInitializer_TypeDefinitionIndex = 36092;
+
 	class LittleGameShareMessagePackInitializer : public ::System::Object
 	{
 	public:

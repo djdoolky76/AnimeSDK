@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int EHitDirectionType_TypeDefinitionIndex = 10471;
+
 	enum class EHitDirectionType : ::System::Int32
 	{
 		Forward = 0,

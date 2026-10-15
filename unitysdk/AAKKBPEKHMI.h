@@ -8,6 +8,8 @@
 #define AAKKBPEKHMI_PHEODABLPGO_OFFSET UNITYSDK_OFFSET(0xEBF0)
 #define AAKKBPEKHMI_PKDCLKNJPBO_OFFSET UNITYSDK_OFFSET(0xECE0)
 
+inline static constexpr unsigned int AAKKBPEKHMI_TypeDefinitionIndex = 57013;
+
 	struct alignas(4) AAKKBPEKHMI
 	{
 		::UnityEngine::RaycastHit NMGFKGDBCKE; // 0x10

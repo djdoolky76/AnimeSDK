@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int BasePhaseContext___c_TypeDefinitionIndex = 61114;
+
 	class BasePhaseContext___c : public ::System::Object
 	{
 	public:

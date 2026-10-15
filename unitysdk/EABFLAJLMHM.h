@@ -15,6 +15,8 @@ class POIDGGOOMHO;
 #define EABFLAJLMHM_MMDKMEFGKNB_OFFSET UNITYSDK_OFFSET(0x1266FA70)
 #define EABFLAJLMHM_OFLJBEOJIGF_OFFSET UNITYSDK_OFFSET(0x1266FAD0)
 
+inline static constexpr unsigned int EABFLAJLMHM_TypeDefinitionIndex = 80226;
+
 	class EABFLAJLMHM : public ::System::Object
 	{
 	public:

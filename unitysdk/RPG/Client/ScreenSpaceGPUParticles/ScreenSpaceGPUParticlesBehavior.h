@@ -30,6 +30,8 @@ namespace UnityEngine { class GPUParticlesRenderer; }
 
 namespace RPG::Client::ScreenSpaceGPUParticles
 {
+	inline static constexpr unsigned int ScreenSpaceGPUParticlesBehavior_TypeDefinitionIndex = 73706;
+
 	class ScreenSpaceGPUParticlesBehavior : public ::RPG::Client::TABehaviorBase
 	{
 	public:

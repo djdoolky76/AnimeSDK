@@ -6,6 +6,8 @@ namespace RPG::GameCore { class MiniGameCollectCoin_CurveConfig; }
 #define DDJGBFMADIB_CLEAR_OFFSET UNITYSDK_OFFSET(0x1CA1BC50)
 #define DDJGBFMADIB_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA1BCB0)
 
+inline static constexpr unsigned int DDJGBFMADIB_TypeDefinitionIndex = 43503;
+
 	class DDJGBFMADIB : public ::System::Object
 	{
 	public:

@@ -26,6 +26,8 @@ namespace System::Threading::Tasks { class Task; }
 
 namespace System::Net
 {
+	inline static constexpr unsigned int Dns_TypeDefinitionIndex = 2832;
+
 	class Dns : public ::System::Object
 	{
 	public:

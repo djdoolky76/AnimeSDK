@@ -6,6 +6,8 @@ namespace System { class String; }
 
 #define LJDINJEOLCC_CTOR_OFFSET UNITYSDK_OFFSET(0xB6E18E0)
 
+inline static constexpr unsigned int LJDINJEOLCC_TypeDefinitionIndex = 64782;
+
 	class LJDINJEOLCC : public ::System::Object
 	{
 	public:

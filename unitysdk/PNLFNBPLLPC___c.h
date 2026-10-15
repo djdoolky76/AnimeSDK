@@ -9,6 +9,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 #define PNLFNBPLLPC___C_CTOR_OFFSET UNITYSDK_OFFSET(0xC34D580)
 #define PNLFNBPLLPC___C___TRYUPDATECACHEDPLANRESULTRELICUID_B__14_0_OFFSET UNITYSDK_OFFSET(0xC34D590)
 
+inline static constexpr unsigned int PNLFNBPLLPC___c_TypeDefinitionIndex = 74395;
+
 	class PNLFNBPLLPC___c : public ::System::Object
 	{
 	public:

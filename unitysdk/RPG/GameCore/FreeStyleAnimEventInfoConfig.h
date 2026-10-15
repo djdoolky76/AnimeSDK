@@ -11,6 +11,8 @@ namespace RPG::GameCore { class FreeStyleAnimGroupEventConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FreeStyleAnimEventInfoConfig_TypeDefinitionIndex = 16303;
+
 	class FreeStyleAnimEventInfoConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

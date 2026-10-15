@@ -13,6 +13,8 @@ namespace RPG::GameCore { class ChenLingBattleAnimEventConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChenLingBattleAbility_Rotation_TypeDefinitionIndex = 15749;
+
 	class ChenLingBattleAbility_Rotation : public ::RPG::GameCore::BaseChenLingBattleAbilityNodeConfig
 	{
 	public:

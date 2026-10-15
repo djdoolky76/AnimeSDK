@@ -6,6 +6,8 @@
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int WaterSettingsData_TypeDefinitionIndex = 37855;
+
 	class WaterSettingsData : public ::System::Object
 	{
 	public:

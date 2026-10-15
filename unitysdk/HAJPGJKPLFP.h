@@ -38,6 +38,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define HAJPGJKPLFP_ONUNINIT_OFFSET UNITYSDK_OFFSET(0x15B7F4A0)
 #define HAJPGJKPLFP_PMHPENCGMGJ_OFFSET UNITYSDK_OFFSET(0x15B80FB0)
 
+inline static constexpr unsigned int HAJPGJKPLFP_TypeDefinitionIndex = 73337;
+
 	class HAJPGJKPLFP : public ::HBCMHADMLOP
 	{
 	public:

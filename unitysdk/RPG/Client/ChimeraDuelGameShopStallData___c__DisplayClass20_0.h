@@ -7,6 +7,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ChimeraDuelGameShopStallData___c__DisplayClass20_0_TypeDefinitionIndex = 63333;
+
 	class ChimeraDuelGameShopStallData___c__DisplayClass20_0 : public ::System::Object
 	{
 	public:

@@ -17,6 +17,8 @@ namespace UnityEngine { class RectTransform; }
 
 namespace RPG::Client::TrainParty
 {
+	inline static constexpr unsigned int TrainPartyMeetingCardController_TypeDefinitionIndex = 74278;
+
 	class TrainPartyMeetingCardController : public ::UnityEngine::MonoBehaviour
 	{
 	public:

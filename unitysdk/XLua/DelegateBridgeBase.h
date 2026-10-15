@@ -13,6 +13,8 @@ namespace XLua { class LuaEnv; }
 
 namespace XLua
 {
+	inline static constexpr unsigned int DelegateBridgeBase_TypeDefinitionIndex = 50092;
+
 	class DelegateBridgeBase : public ::XLua::LuaBase
 	{
 	public:

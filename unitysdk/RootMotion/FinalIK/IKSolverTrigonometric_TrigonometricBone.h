@@ -13,6 +13,8 @@
 
 namespace RootMotion::FinalIK
 {
+	inline static constexpr unsigned int IKSolverTrigonometric_TrigonometricBone_TypeDefinitionIndex = 46024;
+
 	class IKSolverTrigonometric_TrigonometricBone : public ::RootMotion::FinalIK::IKSolver_Bone
 	{
 	public:

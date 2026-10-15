@@ -75,6 +75,8 @@ namespace System::Collections::Immutable { class ImmutableHashSet; }
 #define HAMCAOCNLGB__INIT_B__58_8_OFFSET UNITYSDK_OFFSET(0x15B92CF0)
 #define HAMCAOCNLGB__INIT_B__58_9_OFFSET UNITYSDK_OFFSET(0x15B92D60)
 
+inline static constexpr unsigned int HAMCAOCNLGB_TypeDefinitionIndex = 79538;
+
 	class HAMCAOCNLGB : public ::System::Object
 	{
 	public:

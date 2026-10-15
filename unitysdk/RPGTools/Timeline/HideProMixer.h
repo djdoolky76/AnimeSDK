@@ -10,6 +10,8 @@ namespace System { class Object; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int HideProMixer_TypeDefinitionIndex = 48139;
+
 	class HideProMixer : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

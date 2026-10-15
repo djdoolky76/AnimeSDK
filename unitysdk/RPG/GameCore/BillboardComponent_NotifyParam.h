@@ -16,6 +16,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int BillboardComponent_NotifyParam_TypeDefinitionIndex = 57158;
+
 	class BillboardComponent_NotifyParam : public ::System::Object
 	{
 	public:

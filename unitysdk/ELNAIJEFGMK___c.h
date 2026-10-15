@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define ELNAIJEFGMK___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E2D73F0)
 #define ELNAIJEFGMK___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E2D7400)
 
+inline static constexpr unsigned int ELNAIJEFGMK___c_TypeDefinitionIndex = 30745;
+
 	class ELNAIJEFGMK___c : public ::System::Object
 	{
 	public:

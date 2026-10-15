@@ -12,6 +12,8 @@ class PEEDLCHFAFL;
 #define PDACHCELPMB_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC00BB60)
 #define PDACHCELPMB_IDHNJKHEBMJ_OFFSET UNITYSDK_OFFSET(0xC00BA50)
 
+inline static constexpr unsigned int PDACHCELPMB_TypeDefinitionIndex = 76898;
+
 	class PDACHCELPMB : public ::System::Object
 	{
 	public:

@@ -9,6 +9,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelUIOpenAction_TypeDefinitionIndex = 56713;
+
 	class LevelUIOpenAction : public ::System::Object
 	{
 	public:

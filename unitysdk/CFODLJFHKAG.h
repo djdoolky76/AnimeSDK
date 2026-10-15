@@ -19,6 +19,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define CFODLJFHKAG_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0x1EBFCDD0)
 #define CFODLJFHKAG_NJAEJEJCLAE_OFFSET UNITYSDK_OFFSET(0x1EBFD4A0)
 
+inline static constexpr unsigned int CFODLJFHKAG_TypeDefinitionIndex = 35267;
+
 	class CFODLJFHKAG : public ::System::Object
 	{
 	public:

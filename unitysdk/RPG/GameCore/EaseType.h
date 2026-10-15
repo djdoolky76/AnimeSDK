@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int EaseType_TypeDefinitionIndex = 10511;
+
 	enum class EaseType : ::System::Int32
 	{
 		Linear = 0,

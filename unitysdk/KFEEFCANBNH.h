@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define KFEEFCANBNH_IJOONKNIDKI_OFFSET UNITYSDK_OFFSET(0xB396900)
 #define KFEEFCANBNH_MNGGAOFNGIP_OFFSET UNITYSDK_OFFSET(0xB396960)
 
+inline static constexpr unsigned int KFEEFCANBNH_TypeDefinitionIndex = 67259;
+
 	class KFEEFCANBNH : public ::System::Object
 	{
 	public:

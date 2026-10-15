@@ -35,6 +35,8 @@ namespace System::Collections { class IEnumerator; }
 #define GIPCDLCCMKA_PCFCDMBONPL_OFFSET UNITYSDK_OFFSET(0x1CAAEBF0)
 #define GIPCDLCCMKA_PJFKNNIHMAN_OFFSET UNITYSDK_OFFSET(0x1CAAE7E0)
 
+inline static constexpr unsigned int GIPCDLCCMKA_TypeDefinitionIndex = 43080;
+
 	class GIPCDLCCMKA : public ::KHLDHMFKOCP
 	{
 	public:

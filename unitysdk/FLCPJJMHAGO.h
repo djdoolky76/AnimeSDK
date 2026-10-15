@@ -33,6 +33,8 @@ namespace System { class String; }
 #define FLCPJJMHAGO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E3B6B10)
 #define FLCPJJMHAGO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E3B6B70)
 
+inline static constexpr unsigned int FLCPJJMHAGO_TypeDefinitionIndex = 32690;
+
 	class FLCPJJMHAGO : public ::System::Object
 	{
 	public:

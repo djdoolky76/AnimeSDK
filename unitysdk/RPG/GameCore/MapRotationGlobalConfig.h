@@ -19,6 +19,8 @@ namespace RPG::GameCore { class SpecialNPCEffectConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MapRotationGlobalConfig_TypeDefinitionIndex = 17042;
+
 	class MapRotationGlobalConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

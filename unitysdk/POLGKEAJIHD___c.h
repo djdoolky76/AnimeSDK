@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define POLGKEAJIHD___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DFCD440)
 #define POLGKEAJIHD___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1DFCD450)
 
+inline static constexpr unsigned int POLGKEAJIHD___c_TypeDefinitionIndex = 26341;
+
 	class POLGKEAJIHD___c : public ::System::Object
 	{
 	public:

@@ -3,6 +3,8 @@
 #include "unitysdk/RPG/GameCore/StringHash.h"
 namespace System { class String; }
 
+inline static constexpr unsigned int EHBDCHCIMPG_TypeDefinitionIndex = 57757;
+
 	struct alignas(8) EHBDCHCIMPG
 	{
 		::RPG::GameCore::StringHash KKFABFLPAJG; // 0x10

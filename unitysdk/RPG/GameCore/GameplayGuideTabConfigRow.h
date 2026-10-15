@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GameplayGuideTabConfigRow_TypeDefinitionIndex = 13379;
+
 	class GameplayGuideTabConfigRow : public ::System::Object
 	{
 	public:

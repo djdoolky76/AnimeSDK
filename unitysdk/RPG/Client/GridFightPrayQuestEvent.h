@@ -8,6 +8,8 @@ namespace RPG::Client { class GridFightPrayQuest; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightPrayQuestEvent_TypeDefinitionIndex = 65091;
+
 	class GridFightPrayQuestEvent : public ::System::Object
 	{
 	public:

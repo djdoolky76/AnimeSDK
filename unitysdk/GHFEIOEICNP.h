@@ -28,6 +28,8 @@ namespace System { class String; }
 #define GHFEIOEICNP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E487240)
 #define GHFEIOEICNP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E4872A0)
 
+inline static constexpr unsigned int GHFEIOEICNP_TypeDefinitionIndex = 30952;
+
 	class GHFEIOEICNP : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ParamGetBlackboardValueConfig_TypeDefinitionIndex = 17088;
+
 	class ParamGetBlackboardValueConfig : public ::RPG::GameCore::MiParameterConfigBase
 	{
 	public:

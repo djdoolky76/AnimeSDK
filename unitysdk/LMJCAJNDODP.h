@@ -14,6 +14,8 @@ class DILIKOIGENM;
 #define LMJCAJNDODP_SET_ISPERCENTAGE_OFFSET UNITYSDK_OFFSET(0xB7CA6F0)
 #define LMJCAJNDODP_SET_ISSHOWCURRENCY_OFFSET UNITYSDK_OFFSET(0xB7CA6D0)
 
+inline static constexpr unsigned int LMJCAJNDODP_TypeDefinitionIndex = 79424;
+
 	class LMJCAJNDODP : public ::System::Object
 	{
 	public:

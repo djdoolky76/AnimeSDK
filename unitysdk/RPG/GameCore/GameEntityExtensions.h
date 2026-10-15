@@ -126,6 +126,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GameEntityExtensions_TypeDefinitionIndex = 57793;
+
 	class GameEntityExtensions : public ::System::Object
 	{
 	public:

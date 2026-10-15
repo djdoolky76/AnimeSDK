@@ -30,6 +30,8 @@ namespace System { class String; }
 #define NEAMMJICKGD_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EAEEE60)
 #define NEAMMJICKGD_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EAEEEC0)
 
+inline static constexpr unsigned int NEAMMJICKGD_TypeDefinitionIndex = 27092;
+
 	class NEAMMJICKGD : public ::System::Object
 	{
 	public:

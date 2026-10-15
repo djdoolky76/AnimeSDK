@@ -25,6 +25,8 @@ namespace System { class String; }
 #define CHDPILMCJNP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E0C2BB0)
 #define CHDPILMCJNP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E0C2C10)
 
+inline static constexpr unsigned int CHDPILMCJNP_TypeDefinitionIndex = 33059;
+
 	class CHDPILMCJNP : public ::System::Object
 	{
 	public:

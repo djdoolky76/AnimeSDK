@@ -11,6 +11,8 @@ namespace System { class Object; }
 #define HHPCPPMDALL_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1C667490)
 #define HHPCPPMDALL_INVOKE_OFFSET UNITYSDK_OFFSET(0x1C667450)
 
+inline static constexpr unsigned int HHPCPPMDALL_TypeDefinitionIndex = 36253;
+
 	class HHPCPPMDALL : public ::System::MulticastDelegate
 	{
 	public:

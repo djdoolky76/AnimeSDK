@@ -16,6 +16,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ST_ByDistanceToEnchantTarget_TypeDefinitionIndex = 20078;
+
 	class ST_ByDistanceToEnchantTarget : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

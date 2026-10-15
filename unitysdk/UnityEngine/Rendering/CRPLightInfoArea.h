@@ -4,6 +4,8 @@
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int CRPLightInfoArea_TypeDefinitionIndex = 4880;
+
 	struct alignas(4) CRPLightInfoArea
 	{
 		::System::Byte AreaLightDelegateShape; // 0x10

@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TriggerBranchByActivitySwordTrainingStoryLine; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TriggerBranchByActivitySwordTrainingStoryLine_TypeDefinitionIndex = 20330;
+
 	class TriggerBranchByActivitySwordTrainingStoryLine : public ::RPG::GameCore::TaskConfig
 	{
 	public:

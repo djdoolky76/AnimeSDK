@@ -10,6 +10,8 @@ namespace MiHoYo::SDK { class MiHoYoSDKReportModel_VersionInfo; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int MiHoYoSDKReportModel_UploadContent_TypeDefinitionIndex = 46354;
+
 	class MiHoYoSDKReportModel_UploadContent : public ::System::Object
 	{
 	public:

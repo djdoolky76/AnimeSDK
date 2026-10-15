@@ -52,6 +52,8 @@ namespace System { class String; }
 
 namespace RPG::Client::LittleGame::PixAir
 {
+	inline static constexpr unsigned int PixAirGameInstance_TypeDefinitionIndex = 77290;
+
 	class PixAirGameInstance : public ::HCLPKMIIANI
 	{
 	public:

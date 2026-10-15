@@ -15,6 +15,8 @@ namespace System { class IDisposable; }
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftCraftChipMoldFilterTabControl_TypeDefinitionIndex = 79860;
+
 	class MechCraftCraftChipMoldFilterTabControl : public ::UnityEngine::MonoBehaviour
 	{
 	public:

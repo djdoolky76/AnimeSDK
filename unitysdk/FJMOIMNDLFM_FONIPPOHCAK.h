@@ -6,6 +6,8 @@ class CICNAOMJPGD;
 
 #define FJMOIMNDLFM_FONIPPOHCAK_CTOR_OFFSET UNITYSDK_OFFSET(0x157DA010)
 
+inline static constexpr unsigned int FJMOIMNDLFM_FONIPPOHCAK_TypeDefinitionIndex = 60463;
+
 	class FJMOIMNDLFM_FONIPPOHCAK : public ::System::Object
 	{
 	public:

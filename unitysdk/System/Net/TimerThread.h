@@ -18,6 +18,8 @@ namespace System::Threading { class WaitHandle; }
 
 namespace System::Net
 {
+	inline static constexpr unsigned int TimerThread_TypeDefinitionIndex = 2784;
+
 	class TimerThread : public ::System::Object
 	{
 	public:

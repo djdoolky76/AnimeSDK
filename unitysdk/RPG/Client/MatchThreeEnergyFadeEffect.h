@@ -21,6 +21,8 @@ namespace UnityEngine::UI { class Image; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MatchThreeEnergyFadeEffect_TypeDefinitionIndex = 65931;
+
 	class MatchThreeEnergyFadeEffect : public ::UnityEngine::MonoBehaviour
 	{
 	public:

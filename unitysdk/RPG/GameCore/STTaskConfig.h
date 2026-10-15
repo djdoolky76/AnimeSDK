@@ -10,6 +10,8 @@ namespace RPG::GameCore { class STTaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int STTaskConfig_TypeDefinitionIndex = 20095;
+
 	class STTaskConfig : public ::RPG::GameCore::TaskConfig
 	{
 	public:

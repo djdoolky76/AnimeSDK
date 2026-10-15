@@ -25,6 +25,8 @@ namespace System { class Object; }
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int RenderTargetBlendState_TypeDefinitionIndex = 4767;
+
 	struct alignas(4) RenderTargetBlendState
 	{
 		::System::Byte m_WriteMask; // 0x10

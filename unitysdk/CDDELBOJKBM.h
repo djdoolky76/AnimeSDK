@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define CDDELBOJKBM_CTOR_OFFSET UNITYSDK_OFFSET(0xC762DB0)
 #define CDDELBOJKBM_EXECUTE_OFFSET UNITYSDK_OFFSET(0xC762E20)
 
+inline static constexpr unsigned int CDDELBOJKBM_TypeDefinitionIndex = 77315;
+
 	class CDDELBOJKBM : public ::System::Object
 	{
 	public:

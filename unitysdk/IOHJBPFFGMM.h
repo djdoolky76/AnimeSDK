@@ -11,6 +11,8 @@ namespace System { class String; }
 #define IOHJBPFFGMM_CTOR_OFFSET UNITYSDK_OFFSET(0x1CF292A0)
 #define IOHJBPFFGMM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CF28E80)
 
+inline static constexpr unsigned int IOHJBPFFGMM_TypeDefinitionIndex = 11535;
+
 	class IOHJBPFFGMM : public ::System::Object
 	{
 	public:

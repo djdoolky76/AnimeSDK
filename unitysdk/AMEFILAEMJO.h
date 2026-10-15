@@ -5,6 +5,8 @@ class MFBOKDKKHBJ;
 
 #define AMEFILAEMJO_KKKIONIDKFA_OFFSET UNITYSDK_OFFSET(0x1557C0A0)
 
+inline static constexpr unsigned int AMEFILAEMJO_TypeDefinitionIndex = 74566;
+
 	class AMEFILAEMJO : public ::System::Object
 	{
 	public:

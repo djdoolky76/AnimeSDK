@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T> class Stack_1; }
 #define GEGGBMGKNGC_GGBLHEHJBDO_OFFSET UNITYSDK_OFFSET(0x1DD9F930)
 #define GEGGBMGKNGC_GHPNJOFKEOM_OFFSET UNITYSDK_OFFSET(0x1DD9FA00)
 
+inline static constexpr unsigned int GEGGBMGKNGC_TypeDefinitionIndex = 43959;
+
 	class GEGGBMGKNGC : public ::System::Object
 	{
 	public:

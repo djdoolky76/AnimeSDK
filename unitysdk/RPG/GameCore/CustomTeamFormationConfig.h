@@ -18,6 +18,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CustomTeamFormationConfig_TypeDefinitionIndex = 16587;
+
 	class CustomTeamFormationConfig : public ::RPG::GameCore::CustomTeamFormationParam
 	{
 	public:

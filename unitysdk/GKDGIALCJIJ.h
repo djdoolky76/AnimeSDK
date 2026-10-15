@@ -9,6 +9,8 @@ namespace UnityEngine { class Texture; }
 #define GKDGIALCJIJ_SETPROPERTY_1_OFFSET UNITYSDK_OFFSET(0x15A91CF0)
 #define GKDGIALCJIJ_SETPROPERTY_OFFSET UNITYSDK_OFFSET(0x15A91C70)
 
+inline static constexpr unsigned int GKDGIALCJIJ_TypeDefinitionIndex = 69825;
+
 	class GKDGIALCJIJ : public ::System::Object
 	{
 	public:

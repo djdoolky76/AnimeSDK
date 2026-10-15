@@ -9,6 +9,8 @@ namespace RPG::GameCore { class CurrencyDisplayRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CurrencyDisplayRow_TypeDefinitionIndex = 14652;
+
 	class CurrencyDisplayRow : public ::System::Object
 	{
 	public:

@@ -9,6 +9,8 @@ namespace RPG::GameCore { class EditorPropTagComponentOverrideConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int EditorPropTagComponentOverrideConfig_TypeDefinitionIndex = 17260;
+
 	class EditorPropTagComponentOverrideConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

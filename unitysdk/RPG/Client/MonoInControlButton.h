@@ -44,6 +44,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoInControlButton_TypeDefinitionIndex = 61340;
+
 	class MonoInControlButton : public ::UnityEngine::MonoBehaviour
 	{
 	public:

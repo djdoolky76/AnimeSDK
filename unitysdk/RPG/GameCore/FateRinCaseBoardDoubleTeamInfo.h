@@ -12,6 +12,8 @@ namespace RPG::GameCore { class FateRinCaseBoardHouguInfo; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FateRinCaseBoardDoubleTeamInfo_TypeDefinitionIndex = 16230;
+
 	class FateRinCaseBoardDoubleTeamInfo : public ::RPG::GameCore::FateRinCaseBoardBaseTeamInfo
 	{
 	public:

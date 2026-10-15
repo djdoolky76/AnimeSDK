@@ -23,6 +23,8 @@ namespace RPG::Client { class HPBar; }
 #define PEALGIFBLDO_NEPLDJLAJII_OFFSET UNITYSDK_OFFSET(0xC024490)
 #define PEALGIFBLDO_PKMIIPFIIOF_OFFSET UNITYSDK_OFFSET(0xC0248E0)
 
+inline static constexpr unsigned int PEALGIFBLDO_TypeDefinitionIndex = 71656;
+
 	class PEALGIFBLDO : public ::System::Object
 	{
 	public:

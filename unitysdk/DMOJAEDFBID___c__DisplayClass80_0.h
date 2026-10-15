@@ -6,6 +6,8 @@ class GEDMHFPPBHN;
 #define DMOJAEDFBID___C__DISPLAYCLASS80_0_CTOR_OFFSET UNITYSDK_OFFSET(0xFECD360)
 #define DMOJAEDFBID___C__DISPLAYCLASS80_0___PRUNEITEMS_B__0_OFFSET UNITYSDK_OFFSET(0xFECDB50)
 
+inline static constexpr unsigned int DMOJAEDFBID___c__DisplayClass80_0_TypeDefinitionIndex = 71324;
+
 	class DMOJAEDFBID___c__DisplayClass80_0 : public ::System::Object
 	{
 	public:

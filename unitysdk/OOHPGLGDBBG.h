@@ -4,6 +4,8 @@
 
 #define OOHPGLGDBBG_CTOR_OFFSET UNITYSDK_OFFSET(0xBF848D0)
 
+inline static constexpr unsigned int OOHPGLGDBBG_TypeDefinitionIndex = 57049;
+
 	class OOHPGLGDBBG : public ::System::Object
 	{
 	public:

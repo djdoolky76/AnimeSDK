@@ -11,6 +11,8 @@ namespace System::Linq::Expressions::Interpreter { class InterpretedFrame; }
 
 namespace System::Linq::Expressions::Interpreter
 {
+	inline static constexpr unsigned int LoadLocalFromClosureInstruction_TypeDefinitionIndex = 3501;
+
 	class LoadLocalFromClosureInstruction : public ::System::Linq::Expressions::Interpreter::LocalAccessInstruction
 	{
 	public:

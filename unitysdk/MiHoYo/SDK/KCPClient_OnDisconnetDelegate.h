@@ -13,6 +13,8 @@ namespace System { class Object; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int KCPClient_OnDisconnetDelegate_TypeDefinitionIndex = 46131;
+
 	class KCPClient_OnDisconnetDelegate : public ::System::MulticastDelegate
 	{
 	public:

@@ -14,6 +14,8 @@ namespace UnityEngine::AI { class NavMeshAgent; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int FirstViewCamera_TypeDefinitionIndex = 60066;
+
 	class FirstViewCamera : public ::UnityEngine::MonoBehaviour
 	{
 	public:

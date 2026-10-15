@@ -27,6 +27,8 @@ namespace System { class String; }
 #define JBGHEJOMOAL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E6F5780)
 #define JBGHEJOMOAL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E6F57E0)
 
+inline static constexpr unsigned int JBGHEJOMOAL_TypeDefinitionIndex = 28163;
+
 	class JBGHEJOMOAL : public ::System::Object
 	{
 	public:

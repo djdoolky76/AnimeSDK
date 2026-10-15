@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace Entitas::Unity
 {
+	inline static constexpr unsigned int EntityLink_TypeDefinitionIndex = 10067;
+
 	class EntityLink : public ::UnityEngine::MonoBehaviour
 	{
 	public:

@@ -12,6 +12,8 @@ namespace System::Text { class StringBuilder; }
 
 namespace System
 {
+	inline static constexpr unsigned int ArraySpec_TypeDefinitionIndex = 445;
+
 	class ArraySpec : public ::System::Object
 	{
 	public:

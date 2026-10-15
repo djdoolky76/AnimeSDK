@@ -13,6 +13,8 @@ namespace UnityEngine { class Material; }
 #define JNPKHNPNMFC_DLBEJAHBOBK_OFFSET UNITYSDK_OFFSET(0xB293710)
 #define JNPKHNPNMFC_KNCCKBGHLAC_OFFSET UNITYSDK_OFFSET(0xB2936C0)
 
+inline static constexpr unsigned int JNPKHNPNMFC_TypeDefinitionIndex = 69843;
+
 	class JNPKHNPNMFC : public ::System::Object
 	{
 	public:

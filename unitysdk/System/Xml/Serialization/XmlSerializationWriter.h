@@ -70,6 +70,8 @@ namespace System::Xml::Serialization { class XmlSerializerNamespaces; }
 
 namespace System::Xml::Serialization
 {
+	inline static constexpr unsigned int XmlSerializationWriter_TypeDefinitionIndex = 2036;
+
 	class XmlSerializationWriter : public ::System::Xml::Serialization::XmlSerializationGeneratedCode
 	{
 	public:

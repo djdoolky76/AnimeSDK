@@ -11,6 +11,8 @@ namespace RPG::GameCore { class MonopolyEventEffectRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MonopolyEventEffectRow_TypeDefinitionIndex = 12041;
+
 	class MonopolyEventEffectRow : public ::System::Object
 	{
 	public:

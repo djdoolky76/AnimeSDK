@@ -12,6 +12,8 @@ namespace RPGTools::LDWhiteBox { class WhiteBoxRegion; }
 #define JDNEAIDOOAN_EDPCDBPNADN_GIGJMNCIFMJ_OFFSET UNITYSDK_OFFSET(0x165F6450)
 #define JDNEAIDOOAN_EDPCDBPNADN_SET_ACCEPTEDSIZE_OFFSET UNITYSDK_OFFSET(0x16610A10)
 
+inline static constexpr unsigned int JDNEAIDOOAN_EDPCDBPNADN_TypeDefinitionIndex = 48938;
+
 	class JDNEAIDOOAN_EDPCDBPNADN : public ::System::Object
 	{
 	public:

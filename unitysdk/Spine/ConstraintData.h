@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace Spine
 {
+	inline static constexpr unsigned int ConstraintData_TypeDefinitionIndex = 39667;
+
 	class ConstraintData : public ::System::Object
 	{
 	public:

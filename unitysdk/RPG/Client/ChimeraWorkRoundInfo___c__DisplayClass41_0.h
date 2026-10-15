@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ChimeraWorkRoundInfo___c__DisplayClass41_0_TypeDefinitionIndex = 63512;
+
 	class ChimeraWorkRoundInfo___c__DisplayClass41_0 : public ::System::Object
 	{
 	public:

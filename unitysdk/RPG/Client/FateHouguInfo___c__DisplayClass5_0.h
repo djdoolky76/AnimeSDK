@@ -8,6 +8,8 @@ namespace RPG::Client { class FateHouguDataItem; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int FateHouguInfo___c__DisplayClass5_0_TypeDefinitionIndex = 64081;
+
 	class FateHouguInfo___c__DisplayClass5_0 : public ::System::Object
 	{
 	public:

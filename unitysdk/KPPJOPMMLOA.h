@@ -27,6 +27,8 @@ namespace System { class String; }
 #define KPPJOPMMLOA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E8C3A60)
 #define KPPJOPMMLOA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E8C3AC0)
 
+inline static constexpr unsigned int KPPJOPMMLOA_TypeDefinitionIndex = 25779;
+
 	class KPPJOPMMLOA : public ::System::Object
 	{
 	public:

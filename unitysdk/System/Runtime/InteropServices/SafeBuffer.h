@@ -11,6 +11,8 @@ namespace System { class Object; }
 
 namespace System::Runtime::InteropServices
 {
+	inline static constexpr unsigned int SafeBuffer_TypeDefinitionIndex = 1439;
+
 	class SafeBuffer : public ::Microsoft::Win32::SafeHandles::SafeHandleZeroOrMinusOneIsInvalid
 	{
 	public:

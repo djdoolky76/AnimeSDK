@@ -22,6 +22,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoCurveMovementObject_TypeDefinitionIndex = 68552;
+
 	class MonoCurveMovementObject : public ::UnityEngine::MonoBehaviour
 	{
 	public:

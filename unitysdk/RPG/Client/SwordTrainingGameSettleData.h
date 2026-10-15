@@ -55,6 +55,8 @@ namespace System::Collections::Generic { template <typename T> class Queue_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int SwordTrainingGameSettleData_TypeDefinitionIndex = 61958;
+
 	class SwordTrainingGameSettleData : public ::System::Object
 	{
 	public:

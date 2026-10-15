@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyLi
 #define NBHILJMHPDP_CTOR_OFFSET UNITYSDK_OFFSET(0x1C785680)
 #define NBHILJMHPDP_IMBNGHDBDLJ_OFFSET UNITYSDK_OFFSET(0x1C7856B0)
 
+inline static constexpr unsigned int NBHILJMHPDP_TypeDefinitionIndex = 37426;
+
 	class NBHILJMHPDP
 	{
 	public:

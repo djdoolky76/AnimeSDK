@@ -5,6 +5,8 @@
 #define MPCKAGIBIBD_CTOR_OFFSET UNITYSDK_OFFSET(0xBA395A0)
 #define MPCKAGIBIBD_KFGJEKJHIMB_OFFSET UNITYSDK_OFFSET(0xBA394E0)
 
+inline static constexpr unsigned int MPCKAGIBIBD_TypeDefinitionIndex = 74842;
+
 	class MPCKAGIBIBD : public ::IAJLELNJPEA
 	{
 	public:

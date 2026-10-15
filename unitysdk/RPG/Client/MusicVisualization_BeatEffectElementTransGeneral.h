@@ -12,6 +12,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MusicVisualization_BeatEffectElementTransGeneral_TypeDefinitionIndex = 70821;
+
 	class MusicVisualization_BeatEffectElementTransGeneral : public ::RPG::Client::MusicVisualization_BeatEffectElementVisualBase
 	{
 	public:

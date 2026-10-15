@@ -13,6 +13,8 @@
 #define OBMNAMNDCCK_PABKEMGJJAO_OFFSET UNITYSDK_OFFSET(0xBD4C630)
 #define OBMNAMNDCCK_PKEDBHLJBMJ_OFFSET UNITYSDK_OFFSET(0xBD4C540)
 
+inline static constexpr unsigned int OBMNAMNDCCK_TypeDefinitionIndex = 49409;
+
 	class OBMNAMNDCCK : public ::System::Object
 	{
 	public:

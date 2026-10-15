@@ -7,6 +7,8 @@ namespace RPG::GameCore { class GameEntity; }
 #define PKDDEIOKOKC___C__DISPLAYCLASS14_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC2B2AF0)
 #define PKDDEIOKOKC___C__DISPLAYCLASS14_0___OFFSETMODELWHENREADY_B__0_OFFSET UNITYSDK_OFFSET(0xC2B3430)
 
+inline static constexpr unsigned int PKDDEIOKOKC___c__DisplayClass14_0_TypeDefinitionIndex = 60208;
+
 	class PKDDEIOKOKC___c__DisplayClass14_0 : public ::System::Object
 	{
 	public:

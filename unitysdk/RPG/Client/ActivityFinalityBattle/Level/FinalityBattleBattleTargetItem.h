@@ -23,6 +23,8 @@ namespace System { class String; }
 
 namespace RPG::Client::ActivityFinalityBattle::Level
 {
+	inline static constexpr unsigned int FinalityBattleBattleTargetItem_TypeDefinitionIndex = 82094;
+
 	class FinalityBattleBattleTargetItem : public ::System::Object
 	{
 	public:

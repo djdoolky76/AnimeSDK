@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define NIFNAMDEPIL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB2E420)
 #define NIFNAMDEPIL___C___CCTOR_B__58_0_OFFSET UNITYSDK_OFFSET(0x1EB2E430)
 
+inline static constexpr unsigned int NIFNAMDEPIL___c_TypeDefinitionIndex = 28921;
+
 	class NIFNAMDEPIL___c : public ::System::Object
 	{
 	public:

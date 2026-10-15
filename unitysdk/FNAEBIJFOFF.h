@@ -27,6 +27,8 @@ namespace System { class String; }
 #define FNAEBIJFOFF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E3EBD40)
 #define FNAEBIJFOFF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E3EBDA0)
 
+inline static constexpr unsigned int FNAEBIJFOFF_TypeDefinitionIndex = 31932;
+
 	class FNAEBIJFOFF : public ::System::Object
 	{
 	public:

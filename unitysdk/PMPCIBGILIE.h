@@ -31,6 +31,8 @@ namespace System { class String; }
 #define PMPCIBGILIE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DFB01D0)
 #define PMPCIBGILIE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DFB0230)
 
+inline static constexpr unsigned int PMPCIBGILIE_TypeDefinitionIndex = 25649;
+
 	class PMPCIBGILIE : public ::System::Object
 	{
 	public:

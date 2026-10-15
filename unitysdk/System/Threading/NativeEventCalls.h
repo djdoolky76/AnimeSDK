@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace System::Threading
 {
+	inline static constexpr unsigned int NativeEventCalls_TypeDefinitionIndex = 875;
+
 	class NativeEventCalls : public ::System::Object
 	{
 	public:

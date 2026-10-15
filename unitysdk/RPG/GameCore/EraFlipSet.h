@@ -10,6 +10,8 @@ namespace RPG::GameCore { class EraFlipSet; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int EraFlipSet_TypeDefinitionIndex = 16616;
+
 	class EraFlipSet : public ::RPG::GameCore::JsonConfig
 	{
 	public:

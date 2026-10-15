@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueModifierExecuteActionOnPersonaRoomCardBatch
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueModifierExecuteActionOnPersonaRoomCardBatchCountChangeConfig_TypeDefinitionIndex = 17794;
+
 	class RogueModifierExecuteActionOnPersonaRoomCardBatchCountChangeConfig : public ::RPG::GameCore::RogueModifierConfig
 	{
 	public:

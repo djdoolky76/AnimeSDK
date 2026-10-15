@@ -18,6 +18,8 @@ namespace System::Globalization { class CultureInfo; }
 
 namespace System::ComponentModel
 {
+	inline static constexpr unsigned int BaseNumberConverter_TypeDefinitionIndex = 2651;
+
 	class BaseNumberConverter : public ::System::ComponentModel::TypeConverter
 	{
 	public:

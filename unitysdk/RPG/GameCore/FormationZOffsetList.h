@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FormationZOffsetParams; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FormationZOffsetList_TypeDefinitionIndex = 16575;
+
 	class FormationZOffsetList : public ::RPG::GameCore::JsonConfig
 	{
 	public:

@@ -25,6 +25,8 @@ namespace System { class String; }
 #define HCIOANIMHPE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E541320)
 #define HCIOANIMHPE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E541380)
 
+inline static constexpr unsigned int HCIOANIMHPE_TypeDefinitionIndex = 34477;
+
 	class HCIOANIMHPE : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace UnityEngine { class Texture2D; }
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int Test_Texture2D_Extensions_TypeDefinitionIndex = 40755;
+
 	class Test_Texture2D_Extensions : public ::System::Object
 	{
 	public:

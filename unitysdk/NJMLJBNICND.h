@@ -14,6 +14,8 @@ namespace System::Collections::Generic { template <typename T> class Stack_1; }
 #define NJMLJBNICND_LDLDGFOANJL_OFFSET UNITYSDK_OFFSET(0xBC1FCE0)
 #define NJMLJBNICND_PFKAPCAKMAA_OFFSET UNITYSDK_OFFSET(0xBC20040)
 
+inline static constexpr unsigned int NJMLJBNICND_TypeDefinitionIndex = 78229;
+
 	class NJMLJBNICND : public ::System::Object
 	{
 	public:

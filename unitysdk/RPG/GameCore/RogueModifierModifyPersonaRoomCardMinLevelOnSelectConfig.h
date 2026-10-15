@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueModifierModifyPersonaRoomCardMinLevelOnSele
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueModifierModifyPersonaRoomCardMinLevelOnSelectConfig_TypeDefinitionIndex = 17850;
+
 	class RogueModifierModifyPersonaRoomCardMinLevelOnSelectConfig : public ::RPG::GameCore::RogueModifierConfig
 	{
 	public:

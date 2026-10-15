@@ -12,6 +12,8 @@ namespace RPG::GameCore { class AnimatorZoneConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AnimatorZoneConfig_TypeDefinitionIndex = 16334;
+
 	class AnimatorZoneConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

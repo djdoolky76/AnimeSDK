@@ -12,6 +12,8 @@ namespace RPGTools::Timeline::Emotion { class DiscussionEyeBloomClip; }
 
 namespace RPGTools::Timeline::Emotion
 {
+	inline static constexpr unsigned int DiscussionEyeBloomBehaviour_TypeDefinitionIndex = 48719;
+
 	class DiscussionEyeBloomBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

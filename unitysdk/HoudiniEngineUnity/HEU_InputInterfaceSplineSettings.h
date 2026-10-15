@@ -8,6 +8,8 @@
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int HEU_InputInterfaceSplineSettings_TypeDefinitionIndex = 40650;
+
 	class HEU_InputInterfaceSplineSettings : public ::System::Object
 	{
 	public:

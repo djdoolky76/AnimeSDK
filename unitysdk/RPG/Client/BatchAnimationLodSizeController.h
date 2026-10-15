@@ -9,6 +9,8 @@ namespace UnityEngine::Rendering { class BatchAnimation; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int BatchAnimationLodSizeController_TypeDefinitionIndex = 69516;
+
 	class BatchAnimationLodSizeController : public ::UnityEngine::MonoBehaviour
 	{
 	public:

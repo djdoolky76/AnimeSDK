@@ -8,6 +8,8 @@ namespace System { class Object; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TalkTrigger_ShowTalkBtnParam_TypeDefinitionIndex = 57533;
+
 	class TalkTrigger_ShowTalkBtnParam : public ::System::Object
 	{
 	public:

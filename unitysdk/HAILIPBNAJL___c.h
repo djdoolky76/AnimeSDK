@@ -15,6 +15,8 @@ namespace System { template <typename T> class Comparison_1; }
 #define HAILIPBNAJL___C___CALCSELECTEDDICESCORE_B__38_1_OFFSET UNITYSDK_OFFSET(0x1C65A7A0)
 #define HAILIPBNAJL___C___GETDICECONTENTWEIGHTLISTMAP_B__41_0_OFFSET UNITYSDK_OFFSET(0x1C65A860)
 
+inline static constexpr unsigned int HAILIPBNAJL___c_TypeDefinitionIndex = 36409;
+
 	class HAILIPBNAJL___c : public ::System::Object
 	{
 	public:

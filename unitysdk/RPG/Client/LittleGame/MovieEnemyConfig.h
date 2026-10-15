@@ -7,6 +7,8 @@
 
 namespace RPG::Client::LittleGame
 {
+	inline static constexpr unsigned int MovieEnemyConfig_TypeDefinitionIndex = 42315;
+
 	class MovieEnemyConfig : public ::RPG::Client::LittleGame::PlacementConfig
 	{
 	public:

@@ -8,6 +8,8 @@
 
 namespace RPG::Client::RoadRash
 {
+	inline static constexpr unsigned int MonoRoadRashCarCamera_TypeDefinitionIndex = 75845;
+
 	class MonoRoadRashCarCamera : public ::UnityEngine::MonoBehaviour
 	{
 	public:

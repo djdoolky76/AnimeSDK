@@ -27,6 +27,8 @@ namespace System { class String; }
 #define LMOILOPJKCB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E9AD630)
 #define LMOILOPJKCB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E9AD690)
 
+inline static constexpr unsigned int LMOILOPJKCB_TypeDefinitionIndex = 31558;
+
 	class LMOILOPJKCB : public ::System::Object
 	{
 	public:

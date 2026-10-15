@@ -14,6 +14,8 @@ namespace System::Runtime::Remoting::Lifetime { class ILease; }
 
 namespace System::Runtime::Remoting::Lifetime
 {
+	inline static constexpr unsigned int Lease_RenewalDelegate_TypeDefinitionIndex = 1241;
+
 	class Lease_RenewalDelegate : public ::System::MulticastDelegate
 	{
 	public:

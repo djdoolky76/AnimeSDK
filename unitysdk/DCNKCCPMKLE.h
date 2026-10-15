@@ -32,6 +32,8 @@ namespace System { class String; }
 #define DCNKCCPMKLE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E178230)
 #define DCNKCCPMKLE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E178290)
 
+inline static constexpr unsigned int DCNKCCPMKLE_TypeDefinitionIndex = 30964;
+
 	class DCNKCCPMKLE : public ::System::Object
 	{
 	public:

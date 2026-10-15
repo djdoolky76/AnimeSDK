@@ -13,6 +13,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace System::Net::Http
 {
+	inline static constexpr unsigned int HttpClientHandler___c_TypeDefinitionIndex = 3762;
+
 	class HttpClientHandler___c : public ::System::Object
 	{
 	public:

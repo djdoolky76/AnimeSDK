@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FateActAddMasterAffixByParamConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FateActAddMasterAffixByParamConfig_TypeDefinitionIndex = 19238;
+
 	class FateActAddMasterAffixByParamConfig : public ::RPG::GameCore::FateActionConfigBase
 	{
 	public:

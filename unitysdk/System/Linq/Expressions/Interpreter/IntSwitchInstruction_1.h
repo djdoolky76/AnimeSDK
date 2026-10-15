@@ -5,6 +5,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace System::Linq::Expressions::Interpreter
 {
+	inline static constexpr unsigned int IntSwitchInstruction_1_TypeDefinitionIndex = 3339;
+
 	template <typename T>
 	class IntSwitchInstruction_1 : public ::System::Linq::Expressions::Interpreter::Instruction
 	{

@@ -15,6 +15,8 @@ namespace System::Globalization { class NumberFormatInfo; }
 
 namespace System::ComponentModel
 {
+	inline static constexpr unsigned int DoubleConverter_TypeDefinitionIndex = 2587;
+
 	class DoubleConverter : public ::System::ComponentModel::BaseNumberConverter
 	{
 	public:

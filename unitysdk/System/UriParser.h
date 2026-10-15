@@ -37,6 +37,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace System
 {
+	inline static constexpr unsigned int UriParser_TypeDefinitionIndex = 2477;
+
 	class UriParser : public ::System::Object
 	{
 	public:

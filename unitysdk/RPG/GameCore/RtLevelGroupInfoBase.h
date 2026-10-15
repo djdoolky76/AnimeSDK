@@ -42,6 +42,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RtLevelGroupInfoBase_TypeDefinitionIndex = 17343;
+
 	class RtLevelGroupInfoBase : public ::RPG::GameCore::JsonConfig
 	{
 	public:

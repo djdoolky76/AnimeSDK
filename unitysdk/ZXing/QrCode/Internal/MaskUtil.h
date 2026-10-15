@@ -14,6 +14,8 @@ namespace ZXing::QrCode::Internal { class ByteMatrix; }
 
 namespace ZXing::QrCode::Internal
 {
+	inline static constexpr unsigned int MaskUtil_TypeDefinitionIndex = 6984;
+
 	class MaskUtil : public ::System::Object
 	{
 	public:

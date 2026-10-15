@@ -31,6 +31,8 @@ namespace UnityEngine { class AnimationClip; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PlanetFesToastItem_TypeDefinitionIndex = 66504;
+
 	class PlanetFesToastItem : public ::UnityEngine::MonoBehaviour
 	{
 	public:

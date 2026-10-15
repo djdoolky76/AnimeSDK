@@ -17,6 +17,8 @@ namespace UnityEngine { class Animator; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoEffectPluginSyncTargetNormalizedTime_TypeDefinitionIndex = 70116;
+
 	class MonoEffectPluginSyncTargetNormalizedTime : public ::RPG::Client::MonoEffectPluginBase
 	{
 	public:

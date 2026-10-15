@@ -8,6 +8,8 @@ namespace RPG::Client { class IGamePhase; }
 #define GCMAAOPFGLK_GBNBNCJNLIM_OFFSET UNITYSDK_OFFSET(0x15983980)
 #define GCMAAOPFGLK_NPJGONHMEOD_OFFSET UNITYSDK_OFFSET(0x15983B20)
 
+inline static constexpr unsigned int GCMAAOPFGLK_TypeDefinitionIndex = 61195;
+
 	class GCMAAOPFGLK : public ::HDJIGMBHENE
 	{
 	public:

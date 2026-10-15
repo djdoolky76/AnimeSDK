@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FateModifierShopModifyBuffCountPriceConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FateModifierShopModifyBuffCountPriceConfig_TypeDefinitionIndex = 19265;
+
 	class FateModifierShopModifyBuffCountPriceConfig : public ::RPG::GameCore::FateModifierConfigBase
 	{
 	public:

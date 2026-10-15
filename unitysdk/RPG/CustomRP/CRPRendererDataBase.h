@@ -8,6 +8,8 @@ namespace RPG::CustomRP { class CustomPostProcessData; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int CRPRendererDataBase_TypeDefinitionIndex = 37866;
+
 	class CRPRendererDataBase : public ::RPG::CustomRP::CRPScriptableRenderData
 	{
 	public:

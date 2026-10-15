@@ -12,6 +12,8 @@ namespace UnityEngine { class RectTransform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PerspectiveCameraProxy_TypeDefinitionIndex = 72624;
+
 	class PerspectiveCameraProxy : public ::UnityEngine::MonoBehaviour
 	{
 	public:

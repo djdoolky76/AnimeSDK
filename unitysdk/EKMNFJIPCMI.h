@@ -27,6 +27,8 @@ namespace System { class String; }
 #define EKMNFJIPCMI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E2C5EF0)
 #define EKMNFJIPCMI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E2C5F50)
 
+inline static constexpr unsigned int EKMNFJIPCMI_TypeDefinitionIndex = 31668;
+
 	class EKMNFJIPCMI : public ::System::Object
 	{
 	public:

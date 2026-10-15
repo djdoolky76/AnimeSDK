@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace RPG::Client::CityCarFlow
 {
+	inline static constexpr unsigned int MonoCityCarFlowIntersection_Rule_TypeDefinitionIndex = 82229;
+
 	class MonoCityCarFlowIntersection_Rule : public ::System::Object
 	{
 	public:

@@ -4,6 +4,8 @@
 #include "unitysdk/RPG/GameCore/IVec2.h"
 namespace RPG::GameCore { class GameEntity; }
 
+inline static constexpr unsigned int AAMJLJDBACD_TypeDefinitionIndex = 54230;
+
 	struct alignas(8) AAMJLJDBACD
 	{
 		::RPG::GameCore::GameEntity* GGKGFABFGFE; // 0x10

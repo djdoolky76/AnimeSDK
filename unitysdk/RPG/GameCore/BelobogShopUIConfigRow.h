@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int BelobogShopUIConfigRow_TypeDefinitionIndex = 11965;
+
 	class BelobogShopUIConfigRow : public ::System::Object
 	{
 	public:

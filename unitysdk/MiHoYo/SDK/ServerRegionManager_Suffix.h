@@ -6,6 +6,8 @@
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int ServerRegionManager_Suffix_TypeDefinitionIndex = 7965;
+
 	class ServerRegionManager_Suffix : public ::System::Object
 	{
 	public:

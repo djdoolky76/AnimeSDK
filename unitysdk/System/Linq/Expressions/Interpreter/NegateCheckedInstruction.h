@@ -13,6 +13,8 @@ namespace System::Linq::Expressions::Interpreter { class Instruction; }
 
 namespace System::Linq::Expressions::Interpreter
 {
+	inline static constexpr unsigned int NegateCheckedInstruction_TypeDefinitionIndex = 3554;
+
 	class NegateCheckedInstruction : public ::System::Linq::Expressions::Interpreter::Instruction
 	{
 	public:

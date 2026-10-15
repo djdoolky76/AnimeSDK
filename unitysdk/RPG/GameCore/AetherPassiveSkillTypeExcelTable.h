@@ -26,6 +26,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AetherPassiveSkillTypeExcelTable_TypeDefinitionIndex = 10929;
+
 	class AetherPassiveSkillTypeExcelTable : public ::System::Object
 	{
 	public:

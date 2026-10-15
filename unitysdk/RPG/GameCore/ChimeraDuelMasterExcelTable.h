@@ -28,6 +28,8 @@ namespace ZLinq { class ValueEnumerable; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChimeraDuelMasterExcelTable_TypeDefinitionIndex = 11120;
+
 	class ChimeraDuelMasterExcelTable : public ::System::Object
 	{
 	public:

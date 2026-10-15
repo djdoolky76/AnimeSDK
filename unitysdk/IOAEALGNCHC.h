@@ -7,6 +7,8 @@ namespace System { class String; }
 
 #define IOAEALGNCHC_OCENPMNMNEG_OFFSET UNITYSDK_OFFSET(0x164FB850)
 
+inline static constexpr unsigned int IOAEALGNCHC_TypeDefinitionIndex = 57384;
+
 	class IOAEALGNCHC : public ::System::Object
 	{
 	public:

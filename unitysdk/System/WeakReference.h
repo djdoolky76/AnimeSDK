@@ -20,6 +20,8 @@ namespace System::Runtime::Serialization { class SerializationInfo; }
 
 namespace System
 {
+	inline static constexpr unsigned int WeakReference_TypeDefinitionIndex = 455;
+
 	class WeakReference : public ::System::Object
 	{
 	public:

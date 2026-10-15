@@ -4,6 +4,8 @@
 
 #define AGNDOGOHJDD_CTOR_OFFSET UNITYSDK_OFFSET(0xCF43CF0)
 
+inline static constexpr unsigned int AGNDOGOHJDD_TypeDefinitionIndex = 63657;
+
 	class AGNDOGOHJDD : public ::System::Object
 	{
 	public:

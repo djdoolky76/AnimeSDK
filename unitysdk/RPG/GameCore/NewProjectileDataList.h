@@ -10,6 +10,8 @@ namespace RPG::GameCore { class NewProjectileDataList; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int NewProjectileDataList_TypeDefinitionIndex = 22586;
+
 	class NewProjectileDataList : public ::RPG::GameCore::JsonConfig
 	{
 	public:

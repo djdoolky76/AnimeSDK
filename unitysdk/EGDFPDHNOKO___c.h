@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define EGDFPDHNOKO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E293130)
 #define EGDFPDHNOKO___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E293140)
 
+inline static constexpr unsigned int EGDFPDHNOKO___c_TypeDefinitionIndex = 30258;
+
 	class EGDFPDHNOKO___c : public ::System::Object
 	{
 	public:

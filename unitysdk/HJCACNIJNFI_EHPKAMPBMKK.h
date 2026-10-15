@@ -9,6 +9,8 @@ namespace System { class String; }
 
 #define HJCACNIJNFI_EHPKAMPBMKK_CTOR_OFFSET UNITYSDK_OFFSET(0x15D03050)
 
+inline static constexpr unsigned int HJCACNIJNFI_EHPKAMPBMKK_TypeDefinitionIndex = 69317;
+
 	class HJCACNIJNFI_EHPKAMPBMKK : public ::System::Object
 	{
 	public:

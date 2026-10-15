@@ -13,6 +13,8 @@ namespace System::Globalization { class NumberFormatInfo; }
 
 namespace System::ComponentModel
 {
+	inline static constexpr unsigned int SByteConverter_TypeDefinitionIndex = 2625;
+
 	class SByteConverter : public ::System::ComponentModel::BaseNumberConverter
 	{
 	public:

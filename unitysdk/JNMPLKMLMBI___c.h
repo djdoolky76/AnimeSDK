@@ -9,6 +9,8 @@ namespace System { class Object; }
 #define JNMPLKMLMBI___C___CCTOR_B__2_0_OFFSET UNITYSDK_OFFSET(0xB28E110)
 #define JNMPLKMLMBI___C___CCTOR_B__2_1_OFFSET UNITYSDK_OFFSET(0xB28E310)
 
+inline static constexpr unsigned int JNMPLKMLMBI___c_TypeDefinitionIndex = 49771;
+
 	class JNMPLKMLMBI___c : public ::System::Object
 	{
 	public:

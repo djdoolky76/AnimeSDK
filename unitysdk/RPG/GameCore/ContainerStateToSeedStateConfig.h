@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ContainerStateToSeedStateConfig_TypeDefinitionIndex = 17573;
+
 	class ContainerStateToSeedStateConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

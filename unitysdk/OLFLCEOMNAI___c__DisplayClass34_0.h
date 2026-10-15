@@ -6,6 +6,8 @@ class EDEPICFGMDM;
 #define OLFLCEOMNAI___C__DISPLAYCLASS34_0_CTOR_OFFSET UNITYSDK_OFFSET(0xBF05A50)
 #define OLFLCEOMNAI___C__DISPLAYCLASS34_0__GETINSTANTIATEOPERATION_B__0_OFFSET UNITYSDK_OFFSET(0xBF082D0)
 
+inline static constexpr unsigned int OLFLCEOMNAI___c__DisplayClass34_0_TypeDefinitionIndex = 82261;
+
 	class OLFLCEOMNAI___c__DisplayClass34_0 : public ::System::Object
 	{
 	public:

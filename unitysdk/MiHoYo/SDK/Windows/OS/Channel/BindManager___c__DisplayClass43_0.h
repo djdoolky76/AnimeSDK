@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace MiHoYo::SDK::Windows::OS::Channel
 {
+	inline static constexpr unsigned int BindManager___c__DisplayClass43_0_TypeDefinitionIndex = 8361;
+
 	class BindManager___c__DisplayClass43_0 : public ::System::Object
 	{
 	public:

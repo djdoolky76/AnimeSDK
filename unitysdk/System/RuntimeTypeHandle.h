@@ -51,6 +51,8 @@ namespace System::Runtime::Serialization { class SerializationInfo; }
 
 namespace System
 {
+	inline static constexpr unsigned int RuntimeTypeHandle_TypeDefinitionIndex = 424;
+
 	struct alignas(4) RuntimeTypeHandle
 	{
 		::System::IntPtr value; // 0x10

@@ -14,6 +14,8 @@ namespace UnityEngine { class Transform; }
 #define EDNMLIKIMHK_HABIPGHPLEB_OFFSET UNITYSDK_OFFSET(0x1332D4C0)
 #define EDNMLIKIMHK_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0x1332D120)
 
+inline static constexpr unsigned int EDNMLIKIMHK_TypeDefinitionIndex = 57179;
+
 	class EDNMLIKIMHK : public ::System::Object
 	{
 	public:

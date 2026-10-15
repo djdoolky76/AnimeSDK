@@ -14,6 +14,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int ChimeraDuelMainPuzzleShopState___c_TypeDefinitionIndex = 78387;
+
 	class ChimeraDuelMainPuzzleShopState___c : public ::System::Object
 	{
 	public:

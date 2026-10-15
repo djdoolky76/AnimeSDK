@@ -16,6 +16,8 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 #define DMHHOBAMGFN_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xFEC2510)
 #define DMHHOBAMGFN_TICK_OFFSET UNITYSDK_OFFSET(0xFEC2560)
 
+inline static constexpr unsigned int DMHHOBAMGFN_TypeDefinitionIndex = 58188;
+
 	class DMHHOBAMGFN : public ::GELIALJDFBL
 	{
 	public:

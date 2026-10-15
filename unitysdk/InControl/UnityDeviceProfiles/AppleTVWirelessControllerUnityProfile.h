@@ -7,6 +7,8 @@
 
 namespace InControl::UnityDeviceProfiles
 {
+	inline static constexpr unsigned int AppleTVWirelessControllerUnityProfile_TypeDefinitionIndex = 40994;
+
 	class AppleTVWirelessControllerUnityProfile : public ::InControl::InputDeviceProfile
 	{
 	public:

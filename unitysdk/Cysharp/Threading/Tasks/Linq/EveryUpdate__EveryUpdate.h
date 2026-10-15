@@ -15,6 +15,8 @@
 
 namespace Cysharp::Threading::Tasks::Linq
 {
+	inline static constexpr unsigned int EveryUpdate__EveryUpdate_TypeDefinitionIndex = 45713;
+
 	class EveryUpdate__EveryUpdate : public ::Cysharp::Threading::Tasks::MoveNextSource
 	{
 	public:

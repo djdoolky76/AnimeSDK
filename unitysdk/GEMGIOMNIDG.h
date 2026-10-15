@@ -10,6 +10,8 @@ namespace System { class Type; }
 #define GEMGIOMNIDG_GET_MESSAGETYPE_OFFSET UNITYSDK_OFFSET(0x1EC6DE50)
 #define GEMGIOMNIDG_GET_SUBSCRIBER_OFFSET UNITYSDK_OFFSET(0x1EC6DE40)
 
+inline static constexpr unsigned int GEMGIOMNIDG_TypeDefinitionIndex = 44259;
+
 	class GEMGIOMNIDG : public ::System::Exception
 	{
 	public:

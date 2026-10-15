@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ActivityActiveModule___c__DisplayClass7_0_TypeDefinitionIndex = 61383;
+
 	class ActivityActiveModule___c__DisplayClass7_0 : public ::System::Object
 	{
 	public:

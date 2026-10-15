@@ -13,6 +13,8 @@ namespace System { template <typename T> class Func_1; }
 #define AIMNKMEFBKE___C___CTOR_B__1_0_OFFSET UNITYSDK_OFFSET(0x1C58B800)
 #define AIMNKMEFBKE___C___CTOR_B__1_1_OFFSET UNITYSDK_OFFSET(0x1C58B830)
 
+inline static constexpr unsigned int AIMNKMEFBKE___c_TypeDefinitionIndex = 37046;
+
 	class AIMNKMEFBKE___c : public ::System::Object
 	{
 	public:

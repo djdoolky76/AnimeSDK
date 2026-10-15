@@ -9,6 +9,8 @@
 
 namespace System::Net::Http
 {
+	inline static constexpr unsigned int HttpContent_FixedMemoryStream_TypeDefinitionIndex = 3766;
+
 	class HttpContent_FixedMemoryStream : public ::System::IO::MemoryStream
 	{
 	public:

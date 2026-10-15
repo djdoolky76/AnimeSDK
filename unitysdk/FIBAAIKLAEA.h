@@ -11,6 +11,8 @@ namespace RPG::GameCore { class GameEntity; }
 #define FIBAAIKLAEA_NKMPPIDGFJF_OFFSET UNITYSDK_OFFSET(0x15797330)
 #define FIBAAIKLAEA_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0x15797760)
 
+inline static constexpr unsigned int FIBAAIKLAEA_TypeDefinitionIndex = 60277;
+
 	class FIBAAIKLAEA : public ::System::Object
 	{
 	public:

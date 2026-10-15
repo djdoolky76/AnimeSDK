@@ -12,6 +12,8 @@ namespace UnityEngine { class GameObject; }
 #define PJFNFMIPGFK_ONSPAWNASYNC_OFFSET UNITYSDK_OFFSET(0xC2852B0)
 #define PJFNFMIPGFK_USELIGHTWEIGHTDEACTIVE_OFFSET UNITYSDK_OFFSET(0xC285350)
 
+inline static constexpr unsigned int PJFNFMIPGFK_TypeDefinitionIndex = 68767;
+
 	class PJFNFMIPGFK : public ::System::Object
 	{
 	public:

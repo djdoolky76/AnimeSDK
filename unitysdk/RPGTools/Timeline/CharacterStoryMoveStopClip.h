@@ -13,6 +13,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int CharacterStoryMoveStopClip_TypeDefinitionIndex = 48017;
+
 	class CharacterStoryMoveStopClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:

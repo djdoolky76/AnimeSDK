@@ -20,6 +20,8 @@ namespace UnityEngine { class Transform; }
 #define DMEFINKOHGF_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xFEBADE0)
 #define DMEFINKOHGF_PBHOCKCFLAM_OFFSET UNITYSDK_OFFSET(0xFEBBDD0)
 
+inline static constexpr unsigned int DMEFINKOHGF_TypeDefinitionIndex = 70360;
+
 	class DMEFINKOHGF : public ::RPG::Client::BehaviorBase
 	{
 	public:

@@ -15,6 +15,8 @@ namespace System { class Action; }
 #define OCAMFPAJPDH_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0xBD55EB0)
 #define OCAMFPAJPDH_SET_ISENTERED_OFFSET UNITYSDK_OFFSET(0xBD55EA0)
 
+inline static constexpr unsigned int OCAMFPAJPDH_TypeDefinitionIndex = 78570;
+
 	class OCAMFPAJPDH : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class EnableRogueEnter; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int EnableRogueEnter_TypeDefinitionIndex = 20484;
+
 	class EnableRogueEnter : public ::RPG::GameCore::TaskConfig
 	{
 	public:

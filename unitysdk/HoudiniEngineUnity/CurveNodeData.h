@@ -15,6 +15,8 @@ namespace HoudiniEngineUnity { class CurveNodeData; }
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int CurveNodeData_TypeDefinitionIndex = 40377;
+
 	class CurveNodeData : public ::System::Object
 	{
 	public:

@@ -13,6 +13,8 @@ namespace System { class String; }
 #define GKHOFELMJEF_NDKJPHKDGDP_OFFSET UNITYSDK_OFFSET(0x15A97E60)
 #define GKHOFELMJEF_NDMBDGKAJEK_OFFSET UNITYSDK_OFFSET(0x15A97ED0)
 
+inline static constexpr unsigned int GKHOFELMJEF_TypeDefinitionIndex = 47190;
+
 	class GKHOFELMJEF : public ::HEOLKMLMPML
 	{
 	public:

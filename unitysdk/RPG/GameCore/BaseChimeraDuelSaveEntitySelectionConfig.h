@@ -10,6 +10,8 @@ namespace RPG::GameCore { class BaseChimeraDuelSaveEntitySelectionConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int BaseChimeraDuelSaveEntitySelectionConfig_TypeDefinitionIndex = 15899;
+
 	class BaseChimeraDuelSaveEntitySelectionConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

@@ -32,6 +32,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define PIBJCFPDDGM_OJDADCNGOCG_OFFSET UNITYSDK_OFFSET(0xC25C450)
 #define PIBJCFPDDGM_OPAMJJJMDPD_OFFSET UNITYSDK_OFFSET(0xC25B8C0)
 
+inline static constexpr unsigned int PIBJCFPDDGM_TypeDefinitionIndex = 74723;
+
 	class PIBJCFPDDGM : public ::System::Object
 	{
 	public:

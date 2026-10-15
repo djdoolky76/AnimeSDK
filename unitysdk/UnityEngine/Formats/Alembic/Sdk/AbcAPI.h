@@ -6,6 +6,8 @@
 
 namespace UnityEngine::Formats::Alembic::Sdk
 {
+	inline static constexpr unsigned int AbcAPI_TypeDefinitionIndex = 45792;
+
 	class AbcAPI : public ::System::Object
 	{
 	public:

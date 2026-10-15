@@ -57,6 +57,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int SpaceZooModule_TypeDefinitionIndex = 67973;
+
 	class SpaceZooModule : public ::RPG::Client::BaseModule
 	{
 	public:

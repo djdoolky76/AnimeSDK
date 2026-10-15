@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CallBack_TypeDefinitionIndex = 21688;
+
 	class CallBack : public ::RPG::GameCore::TaskConfig
 	{
 	public:

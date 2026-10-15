@@ -9,6 +9,8 @@ class PBGNKMMDBGD;
 #define GPLOFONGBGI_HKKFFCBJOKM_OFFSET UNITYSDK_OFFSET(0x1C63B8D0)
 #define GPLOFONGBGI_NJNIEPHBGLG_OFFSET UNITYSDK_OFFSET(0x1C64C4A0)
 
+inline static constexpr unsigned int GPLOFONGBGI_TypeDefinitionIndex = 37367;
+
 	class GPLOFONGBGI : public ::System::Object
 	{
 	public:

@@ -26,6 +26,8 @@ namespace System { class Object; }
 
 namespace Cysharp::Threading::Tasks
 {
+	inline static constexpr unsigned int UniTask_DelayIgnoreTimeScalePromise_TypeDefinitionIndex = 38238;
+
 	class UniTask_DelayIgnoreTimeScalePromise : public ::System::Object
 	{
 	public:

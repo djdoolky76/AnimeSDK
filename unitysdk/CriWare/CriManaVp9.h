@@ -15,6 +15,8 @@
 
 namespace CriWare
 {
+	inline static constexpr unsigned int CriManaVp9_TypeDefinitionIndex = 40202;
+
 	class CriManaVp9 : public ::System::Object
 	{
 	public:

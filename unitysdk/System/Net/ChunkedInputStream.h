@@ -17,6 +17,8 @@ namespace System::Net { class MonoChunkStream; }
 
 namespace System::Net
 {
+	inline static constexpr unsigned int ChunkedInputStream_TypeDefinitionIndex = 2825;
+
 	class ChunkedInputStream : public ::System::Net::RequestStream
 	{
 	public:

@@ -35,6 +35,8 @@ namespace UnityEngine::EventSystems { class BaseEventData; }
 #define HJOGEBFAPLE_PIOACOJPKKN_OFFSET UNITYSDK_OFFSET(0x15D35170)
 #define HJOGEBFAPLE_PJKBDJPFLDG_OFFSET UNITYSDK_OFFSET(0x15D33E30)
 
+inline static constexpr unsigned int HJOGEBFAPLE_TypeDefinitionIndex = 51742;
+
 	class HJOGEBFAPLE : public ::System::Object
 	{
 	public:

@@ -39,6 +39,8 @@ namespace System { class String; }
 #define GEKNAKDAMJF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E45C570)
 #define GEKNAKDAMJF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E45C5D0)
 
+inline static constexpr unsigned int GEKNAKDAMJF_TypeDefinitionIndex = 26965;
+
 	class GEKNAKDAMJF : public ::System::Object
 	{
 	public:

@@ -7,6 +7,8 @@
 
 namespace UnityEngine::Formats::Alembic::Importer
 {
+	inline static constexpr unsigned int AlembicMesh_MultiplyByConstant_TypeDefinitionIndex = 45858;
+
 	struct alignas(8) AlembicMesh_MultiplyByConstant
 	{
 		::Unity::Collections::NativeArray_1<::UnityEngine::Vector3> data; // 0x10

@@ -7,6 +7,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace SuperScrollView
 {
+	inline static constexpr unsigned int ItemPrefabConfData_TypeDefinitionIndex = 47661;
+
 	class ItemPrefabConfData : public ::System::Object
 	{
 	public:

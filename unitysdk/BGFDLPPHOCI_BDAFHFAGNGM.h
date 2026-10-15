@@ -7,6 +7,8 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 
 #define BGFDLPPHOCI_BDAFHFAGNGM_CTOR_OFFSET UNITYSDK_OFFSET(0xB183A00)
 
+inline static constexpr unsigned int BGFDLPPHOCI_BDAFHFAGNGM_TypeDefinitionIndex = 75904;
+
 	class BGFDLPPHOCI_BDAFHFAGNGM : public ::System::Object
 	{
 	public:

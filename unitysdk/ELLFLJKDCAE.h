@@ -14,6 +14,8 @@ namespace System { class String; }
 #define ELLFLJKDCAE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CDA41F0)
 #define ELLFLJKDCAE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CDA40B0)
 
+inline static constexpr unsigned int ELLFLJKDCAE_TypeDefinitionIndex = 22610;
+
 	class ELLFLJKDCAE : public ::RPG::GameCore::TaskConfig
 	{
 	public:

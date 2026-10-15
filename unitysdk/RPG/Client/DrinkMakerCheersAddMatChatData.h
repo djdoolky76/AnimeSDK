@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int DrinkMakerCheersAddMatChatData_TypeDefinitionIndex = 63611;
+
 	class DrinkMakerCheersAddMatChatData : public ::System::Object
 	{
 	public:

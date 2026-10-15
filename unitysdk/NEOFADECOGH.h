@@ -14,6 +14,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define NEOFADECOGH_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0xBB74440)
 #define NEOFADECOGH_NAJDKFDDPCC_OFFSET UNITYSDK_OFFSET(0xBB74F60)
 
+inline static constexpr unsigned int NEOFADECOGH_TypeDefinitionIndex = 49288;
+
 	class NEOFADECOGH
 	{
 	public:

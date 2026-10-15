@@ -9,6 +9,8 @@ namespace System { class String; }
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int PackingAttribute_TypeDefinitionIndex = 35577;
+
 	class PackingAttribute : public ::System::Attribute
 	{
 	public:

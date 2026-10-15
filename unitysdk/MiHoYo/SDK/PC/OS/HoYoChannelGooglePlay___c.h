@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace MiHoYo::SDK::PC::OS
 {
+	inline static constexpr unsigned int HoYoChannelGooglePlay___c_TypeDefinitionIndex = 8580;
+
 	class HoYoChannelGooglePlay___c : public ::System::Object
 	{
 	public:

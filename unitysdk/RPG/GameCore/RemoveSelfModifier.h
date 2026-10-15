@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RemoveSelfModifier; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RemoveSelfModifier_TypeDefinitionIndex = 23479;
+
 	class RemoveSelfModifier : public ::RPG::GameCore::TaskConfig
 	{
 	public:

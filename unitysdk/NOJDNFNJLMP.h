@@ -7,6 +7,8 @@ namespace RPG::Client { class ActivitySwordTrainingExamData; }
 
 #define NOJDNFNJLMP_CTOR_OFFSET UNITYSDK_OFFSET(0xBCF2750)
 
+inline static constexpr unsigned int NOJDNFNJLMP_TypeDefinitionIndex = 61939;
+
 	class NOJDNFNJLMP : public ::System::Object
 	{
 	public:

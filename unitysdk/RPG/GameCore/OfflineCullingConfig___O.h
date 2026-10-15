@@ -5,6 +5,8 @@ namespace System { class Object; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int OfflineCullingConfig___O_TypeDefinitionIndex = 19172;
+
 	class OfflineCullingConfig___O : public ::System::Object
 	{
 	public:

@@ -7,6 +7,8 @@ namespace System { class String; }
 
 #define LGBMNAIELIC_KEBIHOIOKKB_OFFSET UNITYSDK_OFFSET(0x1D0EBC80)
 
+inline static constexpr unsigned int LGBMNAIELIC_TypeDefinitionIndex = 10793;
+
 	class LGBMNAIELIC : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GridFightModifierBanRoleInShopBeforeStageNodeCon
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightModifierBanRoleInShopBeforeStageNodeConfig_TypeDefinitionIndex = 19446;
+
 	class GridFightModifierBanRoleInShopBeforeStageNodeConfig : public ::RPG::GameCore::GridFightModifierConfigBase
 	{
 	public:

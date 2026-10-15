@@ -14,6 +14,8 @@ namespace UnityEngine { class Transform; }
 #define SCENEPROP_SPRINGBONE_TICK_OFFSET UNITYSDK_OFFSET(0xE960710)
 #define SCENEPROP_SPRINGBONE_UPDATESPRING_OFFSET UNITYSDK_OFFSET(0xE960770)
 
+inline static constexpr unsigned int SceneProp_SpringBone_TypeDefinitionIndex = 47459;
+
 	class SceneProp_SpringBone : public ::UnityEngine::MonoBehaviour
 	{
 	public:

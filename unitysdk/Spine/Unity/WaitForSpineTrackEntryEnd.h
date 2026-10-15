@@ -15,6 +15,8 @@ namespace System { class Object; }
 
 namespace Spine::Unity
 {
+	inline static constexpr unsigned int WaitForSpineTrackEntryEnd_TypeDefinitionIndex = 45110;
+
 	class WaitForSpineTrackEntryEnd : public ::System::Object
 	{
 	public:

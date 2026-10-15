@@ -9,6 +9,8 @@ namespace UnityEngine::UIElements { class IPanel; }
 
 namespace UnityEngine::UIElements
 {
+	inline static constexpr unsigned int PointerMoveEvent_TypeDefinitionIndex = 5982;
+
 	class PointerMoveEvent
 	{
 	public:

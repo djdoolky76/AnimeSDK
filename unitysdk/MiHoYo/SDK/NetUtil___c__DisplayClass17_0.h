@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int NetUtil___c__DisplayClass17_0_TypeDefinitionIndex = 8193;
+
 	class NetUtil___c__DisplayClass17_0 : public ::System::Object
 	{
 	public:

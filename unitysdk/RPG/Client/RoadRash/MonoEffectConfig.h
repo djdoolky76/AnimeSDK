@@ -5,6 +5,8 @@ namespace System { class String; }
 
 namespace RPG::Client::RoadRash
 {
+	inline static constexpr unsigned int MonoEffectConfig_TypeDefinitionIndex = 75851;
+
 	struct alignas(8) MonoEffectConfig
 	{
 		::System::String* PrefabPath; // 0x10

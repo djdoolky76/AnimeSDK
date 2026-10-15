@@ -17,6 +17,8 @@ namespace RPG::GameCore { class TeamLeaderRunning; }
 #define CEEPMBCCODD_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xC782A00)
 #define CEEPMBCCODD_TICK_OFFSET UNITYSDK_OFFSET(0xC782B70)
 
+inline static constexpr unsigned int CEEPMBCCODD_TypeDefinitionIndex = 53332;
+
 	class CEEPMBCCODD : public ::GELIALJDFBL
 	{
 	public:

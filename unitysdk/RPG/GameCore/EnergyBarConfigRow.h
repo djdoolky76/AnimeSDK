@@ -10,6 +10,8 @@ namespace RPG::GameCore { class EnergyBarConfigRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int EnergyBarConfigRow_TypeDefinitionIndex = 13227;
+
 	class EnergyBarConfigRow : public ::System::Object
 	{
 	public:

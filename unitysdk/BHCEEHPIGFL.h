@@ -7,6 +7,8 @@ class ICKLANINJDB;
 #define BHCEEHPIGFL_CTOR_OFFSET UNITYSDK_OFFSET(0xB472B60)
 #define BHCEEHPIGFL_GET_RETCODE_OFFSET UNITYSDK_OFFSET(0xB472B50)
 
+inline static constexpr unsigned int BHCEEHPIGFL_TypeDefinitionIndex = 78053;
+
 	class BHCEEHPIGFL : public ::FDLCNGPGEFP
 	{
 	public:

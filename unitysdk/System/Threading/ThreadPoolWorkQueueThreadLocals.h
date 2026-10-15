@@ -12,6 +12,8 @@ namespace System::Threading { class ThreadPoolWorkQueue_WorkStealingQueue; }
 
 namespace System::Threading
 {
+	inline static constexpr unsigned int ThreadPoolWorkQueueThreadLocals_TypeDefinitionIndex = 862;
+
 	class ThreadPoolWorkQueueThreadLocals : public ::System::Object
 	{
 	public:

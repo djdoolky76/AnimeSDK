@@ -12,6 +12,8 @@ class BILEBDDBEOK;
 #define BILEBDDBEOK_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0xB785C20)
 #define BILEBDDBEOK_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0xB785F00)
 
+inline static constexpr unsigned int BILEBDDBEOK_TypeDefinitionIndex = 57401;
+
 	class BILEBDDBEOK : public ::System::Object
 	{
 	public:

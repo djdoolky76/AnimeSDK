@@ -35,6 +35,8 @@ namespace System { class String; }
 #define EDLIDAKBKMK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E2622D0)
 #define EDLIDAKBKMK_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E262330)
 
+inline static constexpr unsigned int EDLIDAKBKMK_TypeDefinitionIndex = 27680;
+
 	class EDLIDAKBKMK : public ::System::Object
 	{
 	public:

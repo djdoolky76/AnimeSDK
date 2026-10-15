@@ -21,6 +21,8 @@ namespace System { class String; }
 
 namespace UnityEngine::Formats::Alembic::Sdk
 {
+	inline static constexpr unsigned int aiContext_TypeDefinitionIndex = 45823;
+
 	struct alignas(4) aiContext
 	{
 		::System::IntPtr self; // 0x10

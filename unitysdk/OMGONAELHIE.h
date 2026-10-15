@@ -44,6 +44,8 @@ namespace UnityEngine { class Sprite; }
 #define OMGONAELHIE_TICK_OFFSET UNITYSDK_OFFSET(0xBF28540)
 #define OMGONAELHIE___DICEAPPEAR_B__10_0_OFFSET UNITYSDK_OFFSET(0xBF2B390)
 
+inline static constexpr unsigned int OMGONAELHIE_TypeDefinitionIndex = 58454;
+
 	class OMGONAELHIE : public ::GELIALJDFBL
 	{
 	public:

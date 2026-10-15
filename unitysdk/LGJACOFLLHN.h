@@ -4,6 +4,8 @@
 
 #define LGJACOFLLHN_CTOR_OFFSET UNITYSDK_OFFSET(0x1C90EB10)
 
+inline static constexpr unsigned int LGJACOFLLHN_TypeDefinitionIndex = 42936;
+
 	class LGJACOFLLHN : public ::System::Object
 	{
 	public:

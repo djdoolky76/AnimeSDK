@@ -75,6 +75,8 @@ namespace System::ComponentModel { class PropertyChangedEventArgs; }
 #define NNEIOFDLLMI_SET_GAMEINSTANCEREF_OFFSET UNITYSDK_OFFSET(0xBCA5DE0)
 #define NNEIOFDLLMI_SET_ITEMOFFER_OFFSET UNITYSDK_OFFSET(0xBCA5EE0)
 
+inline static constexpr unsigned int NNEIOFDLLMI_TypeDefinitionIndex = 77739;
+
 	class NNEIOFDLLMI : public ::System::Object
 	{
 	public:

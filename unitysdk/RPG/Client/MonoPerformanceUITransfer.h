@@ -20,6 +20,8 @@ namespace XLua { class LuaTable; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoPerformanceUITransfer_TypeDefinitionIndex = 72592;
+
 	class MonoPerformanceUITransfer : public ::UnityEngine::MonoBehaviour
 	{
 	public:

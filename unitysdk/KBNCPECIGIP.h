@@ -14,6 +14,8 @@ namespace UnityEngine { class Collider; }
 #define KBNCPECIGIP__GETENTITYBYRUNTIMEID_OFFSET UNITYSDK_OFFSET(0xB3226A0)
 #define KBNCPECIGIP__INITDESTRUCTIBLEPROP_OFFSET UNITYSDK_OFFSET(0xB3227A0)
 
+inline static constexpr unsigned int KBNCPECIGIP_TypeDefinitionIndex = 77082;
+
 	class KBNCPECIGIP
 	{
 	public:

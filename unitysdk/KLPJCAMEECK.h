@@ -8,6 +8,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define KLPJCAMEECK_JPNKCHCPOAO_OFFSET UNITYSDK_OFFSET(0xB53B090)
 #define KLPJCAMEECK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB53B140)
 
+inline static constexpr unsigned int KLPJCAMEECK_TypeDefinitionIndex = 52500;
+
 	class KLPJCAMEECK
 	{
 	public:

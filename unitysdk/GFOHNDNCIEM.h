@@ -14,6 +14,8 @@ namespace UnityEngine { class Transform; }
 #define GFOHNDNCIEM_CTOR_OFFSET UNITYSDK_OFFSET(0x159FF430)
 #define GFOHNDNCIEM_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0x159FF2E0)
 
+inline static constexpr unsigned int GFOHNDNCIEM_TypeDefinitionIndex = 68860;
+
 	class GFOHNDNCIEM : public ::System::Object
 	{
 	public:

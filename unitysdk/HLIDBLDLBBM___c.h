@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define HLIDBLDLBBM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E5C1830)
 #define HLIDBLDLBBM___C___CCTOR_B__68_0_OFFSET UNITYSDK_OFFSET(0x1E5C1840)
 
+inline static constexpr unsigned int HLIDBLDLBBM___c_TypeDefinitionIndex = 28644;
+
 	class HLIDBLDLBBM___c : public ::System::Object
 	{
 	public:

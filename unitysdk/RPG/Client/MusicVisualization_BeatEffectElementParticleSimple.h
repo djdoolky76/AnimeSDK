@@ -12,6 +12,8 @@ namespace UnityEngine { class ParticleSystemRenderer; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MusicVisualization_BeatEffectElementParticleSimple_TypeDefinitionIndex = 70817;
+
 	class MusicVisualization_BeatEffectElementParticleSimple : public ::RPG::Client::MusicVisualization_BeatEffectElementVisualBase
 	{
 	public:

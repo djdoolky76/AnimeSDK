@@ -11,6 +11,8 @@
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int ContactFilter2D_TypeDefinitionIndex = 5808;
+
 	struct alignas(4) ContactFilter2D
 	{
 		::System::Boolean useTriggers; // 0x10

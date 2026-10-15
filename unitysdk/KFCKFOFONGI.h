@@ -35,6 +35,8 @@ namespace System { class String; }
 #define KFCKFOFONGI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E8165E0)
 #define KFCKFOFONGI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E816640)
 
+inline static constexpr unsigned int KFCKFOFONGI_TypeDefinitionIndex = 28074;
+
 	class KFCKFOFONGI : public ::System::Object
 	{
 	public:

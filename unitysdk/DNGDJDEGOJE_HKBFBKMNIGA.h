@@ -12,6 +12,8 @@ namespace System { class Object; }
 #define DNGDJDEGOJE_HKBFBKMNIGA_HADOHLNHHGB_OFFSET UNITYSDK_OFFSET(0x1194EA70)
 #define DNGDJDEGOJE_HKBFBKMNIGA_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0x1194EC50)
 
+inline static constexpr unsigned int DNGDJDEGOJE_HKBFBKMNIGA_TypeDefinitionIndex = 58868;
+
 	class DNGDJDEGOJE_HKBFBKMNIGA : public ::System::Object
 	{
 	public:

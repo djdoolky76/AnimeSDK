@@ -9,6 +9,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 #define CARFLOWMANAGER___C_CTOR_OFFSET UNITYSDK_OFFSET(0xDCE6DE0)
 #define CARFLOWMANAGER___C__GETRANDOMCARPREFAB_B__28_0_OFFSET UNITYSDK_OFFSET(0xDCE6DF0)
 
+inline static constexpr unsigned int CarFlowManager___c_TypeDefinitionIndex = 47073;
+
 	class CarFlowManager___c : public ::System::Object
 	{
 	public:

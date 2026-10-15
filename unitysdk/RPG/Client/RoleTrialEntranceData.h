@@ -15,6 +15,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RoleTrialEntranceData_TypeDefinitionIndex = 67883;
+
 	class RoleTrialEntranceData : public ::System::Object
 	{
 	public:

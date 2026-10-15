@@ -13,6 +13,8 @@ namespace System { class Object; }
 #define NDNEGPMIMBH__CUSTOMBINDVIEW_OFFSET UNITYSDK_OFFSET(0xBB53210)
 #define NDNEGPMIMBH__UNBINDVIEW_OFFSET UNITYSDK_OFFSET(0xBB53320)
 
+inline static constexpr unsigned int NDNEGPMIMBH_TypeDefinitionIndex = 71642;
+
 	class NDNEGPMIMBH : public ::RPG::Client::UIController
 	{
 	public:

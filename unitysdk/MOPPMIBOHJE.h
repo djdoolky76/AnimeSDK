@@ -7,6 +7,8 @@ namespace RPG::GameCore { class GameWorld; }
 #define MOPPMIBOHJE_KCPOCEODDCN_1_OFFSET UNITYSDK_OFFSET(0xBA37D00)
 #define MOPPMIBOHJE_KDKAGPALKBM_OFFSET UNITYSDK_OFFSET(0xBA37C70)
 
+inline static constexpr unsigned int MOPPMIBOHJE_TypeDefinitionIndex = 73248;
+
 	class MOPPMIBOHJE : public ::System::Object
 	{
 	public:

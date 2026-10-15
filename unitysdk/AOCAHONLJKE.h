@@ -30,6 +30,8 @@ namespace System { class String; }
 #define AOCAHONLJKE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E669490)
 #define AOCAHONLJKE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E6694F0)
 
+inline static constexpr unsigned int AOCAHONLJKE_TypeDefinitionIndex = 30946;
+
 	class AOCAHONLJKE : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MoveVirtualCameraOnDollyPath_TypeDefinitionIndex = 21909;
+
 	class MoveVirtualCameraOnDollyPath : public ::RPG::GameCore::TaskConfig
 	{
 	public:

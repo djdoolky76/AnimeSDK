@@ -43,6 +43,8 @@ namespace UnityEngine { class GameObject; }
 #define AKROOMPORTAL_UPDATEROOMS_OFFSET UNITYSDK_OFFSET(0x1F5BE060)
 #define AKROOMPORTAL_UPDATESOUNDENGINEROOMIDS_OFFSET UNITYSDK_OFFSET(0x1F5BF1A0)
 
+inline static constexpr unsigned int AkRoomPortal_TypeDefinitionIndex = 44947;
+
 	class AkRoomPortal : public ::AkTriggerHandler
 	{
 	public:

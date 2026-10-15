@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int AndroidJavaRunnable_TypeDefinitionIndex = 5676;
+
 	class AndroidJavaRunnable : public ::System::MulticastDelegate
 	{
 	public:

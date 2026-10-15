@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define CHIIPPKECEF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E0C8F70)
 #define CHIIPPKECEF___C___CCTOR_B__93_0_OFFSET UNITYSDK_OFFSET(0x1E0C8F80)
 
+inline static constexpr unsigned int CHIIPPKECEF___c_TypeDefinitionIndex = 26508;
+
 	class CHIIPPKECEF___c : public ::System::Object
 	{
 	public:

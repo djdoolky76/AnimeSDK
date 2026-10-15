@@ -9,6 +9,8 @@ namespace RPG::GameCore { class ChenLingFesPosition; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChenLingFesPosition_TypeDefinitionIndex = 18437;
+
 	class ChenLingFesPosition : public ::RPG::GameCore::JsonConfig
 	{
 	public:

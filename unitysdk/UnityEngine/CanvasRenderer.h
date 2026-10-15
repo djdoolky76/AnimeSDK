@@ -101,6 +101,8 @@ namespace UnityEngine::Pooled { template <typename T> class PooledList_1; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int CanvasRenderer_TypeDefinitionIndex = 6022;
+
 	class CanvasRenderer : public ::UnityEngine::Component
 	{
 	public:

@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
+	inline static constexpr unsigned int IVRChaperone__ForceBoundsVisible_TypeDefinitionIndex = 38992;
+
 	class IVRChaperone__ForceBoundsVisible : public ::System::MulticastDelegate
 	{
 	public:

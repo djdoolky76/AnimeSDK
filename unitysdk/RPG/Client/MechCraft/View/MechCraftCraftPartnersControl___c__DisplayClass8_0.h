@@ -8,6 +8,8 @@ class DBHGOLFACFL;
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftCraftPartnersControl___c__DisplayClass8_0_TypeDefinitionIndex = 79909;
+
 	class MechCraftCraftPartnersControl___c__DisplayClass8_0 : public ::System::Object
 	{
 	public:

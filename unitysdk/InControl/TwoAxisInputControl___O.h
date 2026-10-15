@@ -5,6 +5,8 @@ namespace InControl { class DeadZoneFunc; }
 
 namespace InControl
 {
+	inline static constexpr unsigned int TwoAxisInputControl___O_TypeDefinitionIndex = 40830;
+
 	class TwoAxisInputControl___O : public ::System::Object
 	{
 	public:

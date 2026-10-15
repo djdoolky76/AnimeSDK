@@ -23,6 +23,8 @@ namespace RPG::Client::RelicBox { class RelicBoxSuitPlanData; }
 
 namespace RPG::Client::RelicBox
 {
+	inline static constexpr unsigned int RelicBoxSuitPlanData_TypeDefinitionIndex = 74454;
+
 	class RelicBoxSuitPlanData : public ::System::Object
 	{
 	public:

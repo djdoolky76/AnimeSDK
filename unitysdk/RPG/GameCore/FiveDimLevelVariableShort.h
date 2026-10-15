@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FiveDimLevelVariableShort; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimLevelVariableShort_TypeDefinitionIndex = 18513;
+
 	class FiveDimLevelVariableShort : public ::RPG::GameCore::LittleGameLevelVariableShort
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ItemDisplaySortNewRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ItemDisplaySortNewRow_TypeDefinitionIndex = 13888;
+
 	class ItemDisplaySortNewRow : public ::System::Object
 	{
 	public:

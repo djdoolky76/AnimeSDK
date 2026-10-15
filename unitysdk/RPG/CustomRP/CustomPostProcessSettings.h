@@ -32,6 +32,8 @@ namespace UnityEngine::Rendering { class VolumeStack; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int CustomPostProcessSettings_TypeDefinitionIndex = 37774;
+
 	class CustomPostProcessSettings : public ::System::Object
 	{
 	public:

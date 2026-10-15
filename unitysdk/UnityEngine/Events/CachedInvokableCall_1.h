@@ -3,6 +3,8 @@
 
 namespace UnityEngine::Events
 {
+	inline static constexpr unsigned int CachedInvokableCall_1_TypeDefinitionIndex = 4485;
+
 	template <typename T>
 	class CachedInvokableCall_1
 	{

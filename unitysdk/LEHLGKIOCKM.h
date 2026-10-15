@@ -8,6 +8,8 @@ namespace RPG::Client { class MonopolyOptionalGroupEventDisplayData; }
 #define LEHLGKIOCKM_CTOR_OFFSET UNITYSDK_OFFSET(0xB653F50)
 #define LEHLGKIOCKM_TRIGGER_OFFSET UNITYSDK_OFFSET(0xB653F70)
 
+inline static constexpr unsigned int LEHLGKIOCKM_TypeDefinitionIndex = 66285;
+
 	class LEHLGKIOCKM : public ::RPG::Client::MonopolyContentTrigger
 	{
 	public:

@@ -11,6 +11,8 @@ namespace System { class Action; }
 
 namespace RPG::Client::PixAir
 {
+	inline static constexpr unsigned int PixAirQuitConfirmDialogViewModel___c__DisplayClass28_1_TypeDefinitionIndex = 79387;
+
 	template <typename T>
 	class PixAirQuitConfirmDialogViewModel___c__DisplayClass28_1 : public ::System::Object
 	{

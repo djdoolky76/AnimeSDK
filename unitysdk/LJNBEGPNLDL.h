@@ -10,6 +10,8 @@ namespace System { class String; }
 #define LJNBEGPNLDL_TOSTRING_OFFSET UNITYSDK_OFFSET(0xB722970)
 #define LJNBEGPNLDL_TRIGGERACTION_OFFSET UNITYSDK_OFFSET(0xB722A30)
 
+inline static constexpr unsigned int LJNBEGPNLDL_TypeDefinitionIndex = 66980;
+
 	class LJNBEGPNLDL : public ::System::Object
 	{
 	public:

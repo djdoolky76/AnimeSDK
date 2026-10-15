@@ -13,6 +13,8 @@ namespace UnityEngine { class Transform; }
 #define GCLLMHLFLFI_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0x15983720)
 #define GCLLMHLFLFI_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0x15983650)
 
+inline static constexpr unsigned int GCLLMHLFLFI_TypeDefinitionIndex = 75538;
+
 	class GCLLMHLFLFI : public ::System::Object
 	{
 	public:

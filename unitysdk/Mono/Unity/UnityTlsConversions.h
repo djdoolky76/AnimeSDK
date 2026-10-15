@@ -16,6 +16,8 @@
 
 namespace Mono::Unity
 {
+	inline static constexpr unsigned int UnityTlsConversions_TypeDefinitionIndex = 2402;
+
 	class UnityTlsConversions : public ::System::Object
 	{
 	public:

@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define LHLJIHEKIOH_ONPLUGINUNINIT_OFFSET UNITYSDK_OFFSET(0xB6BAF90)
 #define LHLJIHEKIOH_PHJFCOIGMLM_2_OFFSET UNITYSDK_OFFSET(0xB6BB290)
 
+inline static constexpr unsigned int LHLJIHEKIOH_TypeDefinitionIndex = 54111;
+
 	class LHLJIHEKIOH : public ::System::Object
 	{
 	public:

@@ -14,6 +14,8 @@ namespace RPG::GameCore { class GameEntity; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelEntityTeamListStateChange_TypeDefinitionIndex = 56798;
+
 	class LevelEntityTeamListStateChange : public ::System::Object
 	{
 	public:

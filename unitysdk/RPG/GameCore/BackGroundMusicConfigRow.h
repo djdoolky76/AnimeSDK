@@ -10,6 +10,8 @@ namespace RPG::GameCore { class BackGroundMusicConfigRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int BackGroundMusicConfigRow_TypeDefinitionIndex = 12818;
+
 	class BackGroundMusicConfigRow : public ::System::Object
 	{
 	public:

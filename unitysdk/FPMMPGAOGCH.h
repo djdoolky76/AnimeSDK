@@ -27,6 +27,8 @@ namespace System { class String; }
 #define FPMMPGAOGCH_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E40DFA0)
 #define FPMMPGAOGCH_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E40E000)
 
+inline static constexpr unsigned int FPMMPGAOGCH_TypeDefinitionIndex = 31828;
+
 	class FPMMPGAOGCH : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace UnityEngine { class AnimationCurve; }
 
 namespace Cinemachine
 {
+	inline static constexpr unsigned int CinemachineImpulseManager_EnvelopeDefinition_TypeDefinitionIndex = 39873;
+
 	struct alignas(8) CinemachineImpulseManager_EnvelopeDefinition
 	{
 		::UnityEngine::AnimationCurve* m_AttackShape; // 0x10

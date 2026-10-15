@@ -34,6 +34,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace MiHoYo::SDK::ReporterUtil
 {
+	inline static constexpr unsigned int PerformanceReporter_TypeDefinitionIndex = 46642;
+
 	class PerformanceReporter : public ::System::Object
 	{
 	public:

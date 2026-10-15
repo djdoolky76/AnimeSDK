@@ -8,6 +8,8 @@ namespace UnityEngine { class AnimationCurve; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoEffectPluginUITrack_GridFightingCoinParam_TypeDefinitionIndex = 70133;
+
 	class MonoEffectPluginUITrack_GridFightingCoinParam : public ::System::Object
 	{
 	public:

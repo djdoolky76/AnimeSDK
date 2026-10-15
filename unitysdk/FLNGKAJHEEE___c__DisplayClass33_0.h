@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define FLNGKAJHEEE___C__DISPLAYCLASS33_0_CTOR_OFFSET UNITYSDK_OFFSET(0x15841DE0)
 #define FLNGKAJHEEE___C__DISPLAYCLASS33_0___ONONLYORDERINGCHANGED_B__0_OFFSET UNITYSDK_OFFSET(0x15841E30)
 
+inline static constexpr unsigned int FLNGKAJHEEE___c__DisplayClass33_0_TypeDefinitionIndex = 79479;
+
 	class FLNGKAJHEEE___c__DisplayClass33_0 : public ::System::Object
 	{
 	public:

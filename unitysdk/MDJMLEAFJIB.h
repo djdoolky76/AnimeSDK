@@ -24,6 +24,8 @@ namespace System { class String; }
 #define MDJMLEAFJIB_PGOLCLMMANO_OFFSET UNITYSDK_OFFSET(0xB8ACB40)
 #define MDJMLEAFJIB_PLMIIKONDEO_OFFSET UNITYSDK_OFFSET(0xB8ACC60)
 
+inline static constexpr unsigned int MDJMLEAFJIB_TypeDefinitionIndex = 47361;
+
 	class MDJMLEAFJIB : public ::System::Object
 	{
 	public:

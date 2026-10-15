@@ -7,6 +7,8 @@
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int PostProcessInitializer_TypeDefinitionIndex = 37776;
+
 	class PostProcessInitializer : public ::System::Object
 	{
 	public:

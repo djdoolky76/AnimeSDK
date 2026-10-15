@@ -17,6 +17,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define GNFKIEAGDHL_SET_PROGRESSPERCENT_OFFSET UNITYSDK_OFFSET(0x15B021B0)
 #define GNFKIEAGDHL_SET_ROUTEID_OFFSET UNITYSDK_OFFSET(0x15B02170)
 
+inline static constexpr unsigned int GNFKIEAGDHL_TypeDefinitionIndex = 63882;
+
 	class GNFKIEAGDHL : public ::System::Object
 	{
 	public:

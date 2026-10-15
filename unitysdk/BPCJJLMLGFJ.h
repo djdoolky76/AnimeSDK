@@ -7,6 +7,8 @@ namespace System { class Action; }
 #define BPCJJLMLGFJ_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC19F8F0)
 #define BPCJJLMLGFJ_IIOIMDJJEDG_OFFSET UNITYSDK_OFFSET(0xC19F930)
 
+inline static constexpr unsigned int BPCJJLMLGFJ_TypeDefinitionIndex = 75456;
+
 	class BPCJJLMLGFJ : public ::System::Object
 	{
 	public:

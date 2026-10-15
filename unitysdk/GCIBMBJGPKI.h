@@ -67,6 +67,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define GCIBMBJGPKI_SET__SERVICES_OFFSET UNITYSDK_OFFSET(0x15971540)
 #define GCIBMBJGPKI_SET__STATEMACHINE_OFFSET UNITYSDK_OFFSET(0x15971580)
 
+inline static constexpr unsigned int GCIBMBJGPKI_TypeDefinitionIndex = 77935;
+
 	class GCIBMBJGPKI : public ::System::Object
 	{
 	public:

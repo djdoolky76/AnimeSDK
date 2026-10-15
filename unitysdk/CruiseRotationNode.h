@@ -18,6 +18,8 @@ namespace UnityEngine { class AnimationCurve; }
 #define CRUISEROTATIONNODE_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0xDFB8220)
 #define CRUISEROTATIONNODE_PPEGOIODAKI_OFFSET UNITYSDK_OFFSET(0xDFB8730)
 
+inline static constexpr unsigned int CruiseRotationNode_TypeDefinitionIndex = 47332;
+
 	class CruiseRotationNode : public ::System::Object
 	{
 	public:

@@ -32,6 +32,8 @@ namespace System { class String; }
 #define MOOKEPFNLPM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EAB22D0)
 #define MOOKEPFNLPM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EAB2330)
 
+inline static constexpr unsigned int MOOKEPFNLPM_TypeDefinitionIndex = 34053;
+
 	class MOOKEPFNLPM : public ::System::Object
 	{
 	public:

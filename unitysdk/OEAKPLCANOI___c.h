@@ -10,6 +10,8 @@ namespace System { class Object; }
 #define OEAKPLCANOI___C___APPLYENVIRONMENTPROFILE_B__26_0_OFFSET UNITYSDK_OFFSET(0xBDFE150)
 #define OEAKPLCANOI___C___ONENTITYASYNCLOADCOMPLETE_B__19_0_OFFSET UNITYSDK_OFFSET(0xBDFE140)
 
+inline static constexpr unsigned int OEAKPLCANOI___c_TypeDefinitionIndex = 60401;
+
 	class OEAKPLCANOI___c : public ::System::Object
 	{
 	public:

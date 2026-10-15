@@ -4,6 +4,8 @@
 
 #define AIGKCGGIFIO_CTOR_OFFSET UNITYSDK_OFFSET(0xEBA3950)
 
+inline static constexpr unsigned int AIGKCGGIFIO_TypeDefinitionIndex = 48056;
+
 	class AIGKCGGIFIO : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

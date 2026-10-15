@@ -11,6 +11,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace RPG::Client::ActivityIdleLive
 {
+	inline static constexpr unsigned int IdleLiveTechTreeNode___c_TypeDefinitionIndex = 75410;
+
 	class IdleLiveTechTreeNode___c : public ::System::Object
 	{
 	public:

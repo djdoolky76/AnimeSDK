@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RoguePersonaRoomCardFilterByLevelRangeConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RoguePersonaRoomCardFilterByLevelRangeConfig_TypeDefinitionIndex = 19869;
+
 	class RoguePersonaRoomCardFilterByLevelRangeConfig : public ::RPG::GameCore::RoguePersonaRoomCardFilterBaseConfig
 	{
 	public:

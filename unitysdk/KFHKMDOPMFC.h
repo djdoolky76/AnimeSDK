@@ -20,6 +20,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define KFHKMDOPMFC_SET_PARTIDLIST_OFFSET UNITYSDK_OFFSET(0xB3A3B20)
 #define KFHKMDOPMFC_SET_TEAMIDLIST_OFFSET UNITYSDK_OFFSET(0xB3A3B40)
 
+inline static constexpr unsigned int KFHKMDOPMFC_TypeDefinitionIndex = 81707;
+
 	class KFHKMDOPMFC : public ::System::Object
 	{
 	public:

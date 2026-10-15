@@ -28,6 +28,8 @@ namespace System { class String; }
 #define OLBKADIKIGL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DEA49D0)
 #define OLBKADIKIGL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DEA4A30)
 
+inline static constexpr unsigned int OLBKADIKIGL_TypeDefinitionIndex = 34792;
+
 	class OLBKADIKIGL : public ::System::Object
 	{
 	public:

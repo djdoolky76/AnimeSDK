@@ -23,6 +23,8 @@ namespace System { class Object; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightCommonDetailData_TypeDefinitionIndex = 64880;
+
 	class GridFightCommonDetailData : public ::System::Object
 	{
 	public:

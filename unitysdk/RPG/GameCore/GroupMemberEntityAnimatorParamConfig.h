@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GroupMemberEntityAnimatorParamConfig_TypeDefinitionIndex = 20738;
+
 	class GroupMemberEntityAnimatorParamConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

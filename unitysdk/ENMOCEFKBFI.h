@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T> class Queue_1; }
 #define ENMOCEFKBFI_NKFKBIGPJDB_OFFSET UNITYSDK_OFFSET(0x155B3300)
 #define ENMOCEFKBFI_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0x155B33F0)
 
+inline static constexpr unsigned int ENMOCEFKBFI_TypeDefinitionIndex = 63872;
+
 	class ENMOCEFKBFI : public ::System::Object
 	{
 	public:

@@ -19,6 +19,8 @@ namespace RPG::Client { class MonoEmoAnimBlinkLayerController; }
 #define JILOCBEEMPO_NPAAEBHLHOM_OFFSET UNITYSDK_OFFSET(0xB1FCDF0)
 #define JILOCBEEMPO_PCNAKDOLCCD_OFFSET UNITYSDK_OFFSET(0xB1FC5D0)
 
+inline static constexpr unsigned int JILOCBEEMPO_TypeDefinitionIndex = 71140;
+
 	class JILOCBEEMPO : public ::RPG::Client::BehaviorBase
 	{
 	public:

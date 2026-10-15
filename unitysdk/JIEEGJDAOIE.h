@@ -13,6 +13,8 @@ namespace System { class Exception; }
 #define JIEEGJDAOIE_KGDLMPEABGG_OFFSET UNITYSDK_OFFSET(0xB1EF1D0)
 #define JIEEGJDAOIE__PLAYTRANSITION_B__1_0_OFFSET UNITYSDK_OFFSET(0xB1EF8C0)
 
+inline static constexpr unsigned int JIEEGJDAOIE_TypeDefinitionIndex = 73113;
+
 	class JIEEGJDAOIE : public ::KNAKIBHJLFN
 	{
 	public:

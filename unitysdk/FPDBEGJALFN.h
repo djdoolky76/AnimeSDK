@@ -9,6 +9,8 @@ namespace RPG::GameCore { class MovieGameConstConfig; }
 #define FPDBEGJALFN_CTOR_OFFSET UNITYSDK_OFFSET(0x1590FEE0)
 #define FPDBEGJALFN_HNKAOPNANBM_OFFSET UNITYSDK_OFFSET(0x15910060)
 
+inline static constexpr unsigned int FPDBEGJALFN_TypeDefinitionIndex = 76601;
+
 	class FPDBEGJALFN : public ::HLFHMKMJNPK
 	{
 	public:

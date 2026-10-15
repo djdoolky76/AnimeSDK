@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define HCFLAPPBPOP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E53A850)
 #define HCFLAPPBPOP___C___CCTOR_B__90_0_OFFSET UNITYSDK_OFFSET(0x1E53A860)
 
+inline static constexpr unsigned int HCFLAPPBPOP___c_TypeDefinitionIndex = 28614;
+
 	class HCFLAPPBPOP___c : public ::System::Object
 	{
 	public:

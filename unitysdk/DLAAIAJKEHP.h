@@ -24,6 +24,8 @@ namespace UnityEngine { class Renderer; }
 #define DLAAIAJKEHP_NFECGOAMEIF_OFFSET UNITYSDK_OFFSET(0xF88FD10)
 #define DLAAIAJKEHP_SET_ENTITY_OFFSET UNITYSDK_OFFSET(0xF890360)
 
+inline static constexpr unsigned int DLAAIAJKEHP_TypeDefinitionIndex = 55183;
+
 	class DLAAIAJKEHP : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class PlayerParameterConfigBase; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PlayerParameterConfigBase_TypeDefinitionIndex = 19565;
+
 	class PlayerParameterConfigBase : public ::RPG::GameCore::MiParameterConfigBase
 	{
 	public:

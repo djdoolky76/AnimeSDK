@@ -10,6 +10,8 @@ namespace RPG::GameCore { class CakeRaceBasePredicateConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CakeRaceBasePredicateConfig_TypeDefinitionIndex = 18373;
+
 	class CakeRaceBasePredicateConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

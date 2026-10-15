@@ -4,6 +4,8 @@
 
 #define NFGJKCFKHPK_CCTOR_OFFSET UNITYSDK_OFFSET(0xBB92890)
 
+inline static constexpr unsigned int NFGJKCFKHPK_TypeDefinitionIndex = 57184;
+
 	class NFGJKCFKHPK : public ::System::Object
 	{
 	public:

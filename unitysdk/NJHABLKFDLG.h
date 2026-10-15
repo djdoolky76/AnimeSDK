@@ -25,6 +25,8 @@ namespace System { class String; }
 #define NJHABLKFDLG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EB3E440)
 #define NJHABLKFDLG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EB3E4A0)
 
+inline static constexpr unsigned int NJHABLKFDLG_TypeDefinitionIndex = 28145;
+
 	class NJHABLKFDLG : public ::System::Object
 	{
 	public:

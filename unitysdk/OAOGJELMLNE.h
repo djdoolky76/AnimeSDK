@@ -15,6 +15,8 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyLi
 #define OAOGJELMLNE_GET_REQUIREDWORKSHOPLEVEL_OFFSET UNITYSDK_OFFSET(0xBD2F230)
 #define OAOGJELMLNE_GET_ROUNDICON_OFFSET UNITYSDK_OFFSET(0xBD2F270)
 
+inline static constexpr unsigned int OAOGJELMLNE_TypeDefinitionIndex = 80154;
+
 	class OAOGJELMLNE : public ::System::Object
 	{
 	public:

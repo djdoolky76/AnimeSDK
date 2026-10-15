@@ -13,6 +13,8 @@ namespace System { class EventHandler; }
 
 namespace BansheeGz::BGSpline::Components
 {
+	inline static constexpr unsigned int BGCcMath_VisibilityCheck_TypeDefinitionIndex = 36045;
+
 	class BGCcMath_VisibilityCheck : public ::UnityEngine::MonoBehaviour
 	{
 	public:

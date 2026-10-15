@@ -10,6 +10,8 @@
 #define DKBCNADLOGN_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xF254A90)
 #define DKBCNADLOGN_MAODDEJIDJP_OFFSET UNITYSDK_OFFSET(0xF254A70)
 
+inline static constexpr unsigned int DKBCNADLOGN_TypeDefinitionIndex = 60549;
+
 	class DKBCNADLOGN : public ::System::Object
 	{
 	public:

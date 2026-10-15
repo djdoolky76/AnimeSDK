@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int OrbitTargetPosType_TypeDefinitionIndex = 24666;
+
 	enum class OrbitTargetPosType : ::System::Int32
 	{
 		BaseOnForward = 0,

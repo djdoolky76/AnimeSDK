@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ActivityResidentPanelRow_TypeDefinitionIndex = 11205;
+
 	class ActivityResidentPanelRow : public ::System::Object
 	{
 	public:

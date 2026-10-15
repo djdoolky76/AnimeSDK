@@ -13,6 +13,8 @@ namespace RPG::GameCore { class GameEntity; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AbilityTriggerLimbo_TypeDefinitionIndex = 56580;
+
 	class AbilityTriggerLimbo : public ::CMPGEAFHHDC
 	{
 	public:

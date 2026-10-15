@@ -20,6 +20,8 @@ namespace UnityEngine { class GameObject; }
 #define AKAUXSENDVALUE_SET_LISTENERID_OFFSET UNITYSDK_OFFSET(0x1F578F60)
 #define AKAUXSENDVALUE_SET_OFFSET UNITYSDK_OFFSET(0x1F5793B0)
 
+inline static constexpr unsigned int AkAuxSendValue_TypeDefinitionIndex = 44719;
+
 	class AkAuxSendValue : public ::System::Object
 	{
 	public:

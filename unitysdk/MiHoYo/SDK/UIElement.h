@@ -20,6 +20,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int UIElement_TypeDefinitionIndex = 8225;
+
 	class UIElement : public ::MiHoYo::SDK::UIBase
 	{
 	public:

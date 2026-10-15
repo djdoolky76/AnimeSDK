@@ -13,6 +13,8 @@ namespace RPG::GameCore { class TrackNpcZoneConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TrackNpcZoneConfig_TypeDefinitionIndex = 22182;
+
 	class TrackNpcZoneConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

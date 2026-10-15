@@ -12,6 +12,8 @@ namespace System::Runtime::Remoting::Messaging { class IMessageSink; }
 
 namespace System::Runtime::Remoting
 {
+	inline static constexpr unsigned int DisposerReplySink_TypeDefinitionIndex = 1224;
+
 	class DisposerReplySink : public ::System::Object
 	{
 	public:

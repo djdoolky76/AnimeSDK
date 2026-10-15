@@ -10,6 +10,8 @@ namespace RPG::GameCore { class OfferingLevelUnlockConfigRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int OfferingLevelUnlockConfigRow_TypeDefinitionIndex = 14295;
+
 	class OfferingLevelUnlockConfigRow : public ::System::Object
 	{
 	public:

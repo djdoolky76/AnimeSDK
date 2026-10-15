@@ -6,6 +6,8 @@
 
 namespace RPG::Client::LittleGame::PixAir
 {
+	inline static constexpr unsigned int PixAirBackgroundView_TypeDefinitionIndex = 77318;
+
 	class PixAirBackgroundView : public ::RPG::Client::LittleGame::PixAir::BasePixAirView
 	{
 	public:

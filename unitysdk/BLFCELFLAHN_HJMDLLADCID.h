@@ -11,6 +11,8 @@ namespace UnityEngine { class Transform; }
 #define BLFCELFLAHN_HJMDLLADCID_GLDLJMHAJJM_OFFSET UNITYSDK_OFFSET(0xBA6C4F0)
 #define BLFCELFLAHN_HJMDLLADCID_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0xBA6CB50)
 
+inline static constexpr unsigned int BLFCELFLAHN_HJMDLLADCID_TypeDefinitionIndex = 52293;
+
 	class BLFCELFLAHN_HJMDLLADCID : public ::System::Object
 	{
 	public:

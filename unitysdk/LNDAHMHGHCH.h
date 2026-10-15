@@ -25,6 +25,8 @@ namespace System::Text { class StringBuilder; }
 #define LNDAHMHGHCH_ODDNNECNACJ_OFFSET UNITYSDK_OFFSET(0xB7D8870)
 #define LNDAHMHGHCH_PMOACBAOHNH_OFFSET UNITYSDK_OFFSET(0xB7DA1A0)
 
+inline static constexpr unsigned int LNDAHMHGHCH_TypeDefinitionIndex = 77289;
+
 	class LNDAHMHGHCH : public ::System::Object
 	{
 	public:

@@ -37,6 +37,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MuseumRandomEventData_TypeDefinitionIndex = 66345;
+
 	class MuseumRandomEventData : public ::System::Object
 	{
 	public:

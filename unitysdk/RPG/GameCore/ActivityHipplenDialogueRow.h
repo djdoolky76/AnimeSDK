@@ -9,6 +9,8 @@ namespace RPG::GameCore { class ActivityHipplenDialogueRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ActivityHipplenDialogueRow_TypeDefinitionIndex = 11651;
+
 	class ActivityHipplenDialogueRow : public ::System::Object
 	{
 	public:

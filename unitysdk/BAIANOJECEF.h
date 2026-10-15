@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define BAIANOJECEF_EKMFCAECLHH_OFFSET UNITYSDK_OFFSET(0x15E6B570)
 #define BAIANOJECEF_FLICCGEBCPG_OFFSET UNITYSDK_OFFSET(0x15E6B950)
 
+inline static constexpr unsigned int BAIANOJECEF_TypeDefinitionIndex = 61810;
+
 	class BAIANOJECEF : public ::System::Object
 	{
 	public:

@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace MiHoYo::SDK::Win
 {
+	inline static constexpr unsigned int WeGameManager_WeGameExitDelegate_TypeDefinitionIndex = 9483;
+
 	class WeGameManager_WeGameExitDelegate : public ::System::MulticastDelegate
 	{
 	public:

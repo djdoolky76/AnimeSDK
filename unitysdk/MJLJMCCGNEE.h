@@ -30,6 +30,8 @@ namespace System { class String; }
 #define MJLJMCCGNEE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EA4A870)
 #define MJLJMCCGNEE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EA4A8D0)
 
+inline static constexpr unsigned int MJLJMCCGNEE_TypeDefinitionIndex = 28269;
+
 	class MJLJMCCGNEE : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@ namespace UnityEngine::Rendering { class BoolParameter; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int RPGFXAA_TypeDefinitionIndex = 37809;
+
 	class RPGFXAA : public ::RPG::CustomRP::CustomVolumeComponent
 	{
 	public:

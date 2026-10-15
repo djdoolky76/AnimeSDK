@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int WeGameDelegate_RailFireEventsDelegate_TypeDefinitionIndex = 7719;
+
 	class WeGameDelegate_RailFireEventsDelegate : public ::System::MulticastDelegate
 	{
 	public:

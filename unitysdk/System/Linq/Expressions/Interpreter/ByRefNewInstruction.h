@@ -12,6 +12,8 @@ namespace System::Reflection { class ConstructorInfo; }
 
 namespace System::Linq::Expressions::Interpreter
 {
+	inline static constexpr unsigned int ByRefNewInstruction_TypeDefinitionIndex = 3559;
+
 	class ByRefNewInstruction : public ::System::Linq::Expressions::Interpreter::NewInstruction
 	{
 	public:

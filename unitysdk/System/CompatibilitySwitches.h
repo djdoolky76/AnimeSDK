@@ -4,6 +4,8 @@
 
 namespace System
 {
+	inline static constexpr unsigned int CompatibilitySwitches_TypeDefinitionIndex = 370;
+
 	class CompatibilitySwitches : public ::System::Object
 	{
 	public:

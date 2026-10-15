@@ -14,6 +14,8 @@ namespace System { class String; }
 #define MICBPNMPEFP_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D1B0EF0)
 #define MICBPNMPEFP_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D1B0E50)
 
+inline static constexpr unsigned int MICBPNMPEFP_TypeDefinitionIndex = 24155;
+
 	class MICBPNMPEFP : public ::RPG::GameCore::SetDynamicValueBase
 	{
 	public:

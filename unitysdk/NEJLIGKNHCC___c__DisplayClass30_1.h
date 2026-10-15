@@ -9,6 +9,8 @@ namespace System { class Object; }
 #define NEJLIGKNHCC___C__DISPLAYCLASS30_1_CTOR_OFFSET UNITYSDK_OFFSET(0xBB65680)
 #define NEJLIGKNHCC___C__DISPLAYCLASS30_1___BUILDPOINTLAYOUT_B__0_OFFSET UNITYSDK_OFFSET(0xBB67110)
 
+inline static constexpr unsigned int NEJLIGKNHCC___c__DisplayClass30_1_TypeDefinitionIndex = 69298;
+
 	template <typename T>
 	class NEJLIGKNHCC___c__DisplayClass30_1 : public ::System::Object
 	{

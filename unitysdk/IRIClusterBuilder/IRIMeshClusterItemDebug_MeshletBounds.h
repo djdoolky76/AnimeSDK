@@ -7,6 +7,8 @@
 
 namespace IRIClusterBuilder
 {
+	inline static constexpr unsigned int IRIMeshClusterItemDebug_MeshletBounds_TypeDefinitionIndex = 47749;
+
 	class IRIMeshClusterItemDebug_MeshletBounds : public ::System::Object
 	{
 	public:

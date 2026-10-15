@@ -12,6 +12,8 @@ class MKNKPLOJJGC;
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoEffectPluginWaterColor_TypeDefinitionIndex = 70134;
+
 	class MonoEffectPluginWaterColor : public ::RPG::Client::MonoEffectPluginBase
 	{
 	public:

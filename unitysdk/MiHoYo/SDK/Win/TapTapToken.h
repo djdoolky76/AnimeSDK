@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::Win
 {
+	inline static constexpr unsigned int TapTapToken_TypeDefinitionIndex = 9372;
+
 	class TapTapToken : public ::System::Object
 	{
 	public:

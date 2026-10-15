@@ -13,6 +13,8 @@ namespace UnityEngine::Timeline { class TimelineClip; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int EnableStandByBreakTrack_TypeDefinitionIndex = 48104;
+
 	class EnableStandByBreakTrack : public ::RPGTools::Timeline::CharacterTrack
 	{
 	public:

@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AvatarEffectsPreloadItem_TypeDefinitionIndex = 16363;
+
 	class AvatarEffectsPreloadItem : public ::RPG::GameCore::JsonConfig
 	{
 	public:

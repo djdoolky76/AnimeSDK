@@ -25,6 +25,8 @@ namespace System { class Object; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PlaySerialBellsTask_TypeDefinitionIndex = 58284;
+
 	class PlaySerialBellsTask : public ::GELIALJDFBL
 	{
 	public:

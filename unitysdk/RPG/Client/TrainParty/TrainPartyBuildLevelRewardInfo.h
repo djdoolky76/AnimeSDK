@@ -21,6 +21,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::TrainParty
 {
+	inline static constexpr unsigned int TrainPartyBuildLevelRewardInfo_TypeDefinitionIndex = 74312;
+
 	class TrainPartyBuildLevelRewardInfo : public ::System::Object
 	{
 	public:

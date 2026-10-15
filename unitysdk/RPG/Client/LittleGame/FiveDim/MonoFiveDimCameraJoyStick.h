@@ -23,6 +23,8 @@ namespace UnityEngine::EventSystems { class PointerEventData; }
 
 namespace RPG::Client::LittleGame::FiveDim
 {
+	inline static constexpr unsigned int MonoFiveDimCameraJoyStick_TypeDefinitionIndex = 77233;
+
 	class MonoFiveDimCameraJoyStick : public ::UnityEngine::MonoBehaviour
 	{
 	public:

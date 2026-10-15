@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ST_Main_ElfTakeOutTakeOrder; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ST_Main_ElfTakeOutTakeOrder_TypeDefinitionIndex = 21537;
+
 	class ST_Main_ElfTakeOutTakeOrder : public ::RPG::GameCore::STTaskConfig
 	{
 	public:

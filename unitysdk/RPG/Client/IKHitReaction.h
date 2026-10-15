@@ -38,6 +38,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int IKHitReaction_TypeDefinitionIndex = 68461;
+
 	class IKHitReaction : public ::System::Object
 	{
 	public:

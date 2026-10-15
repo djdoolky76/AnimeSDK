@@ -6,6 +6,8 @@ namespace RPG::Client { class SwordTrainingGameInstance; }
 #define MKDPKDOJIGB___C__DISPLAYCLASS2_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB98E870)
 #define MKDPKDOJIGB___C__DISPLAYCLASS2_0___ONENTER_B__0_OFFSET UNITYSDK_OFFSET(0xB98E970)
 
+inline static constexpr unsigned int MKDPKDOJIGB___c__DisplayClass2_0_TypeDefinitionIndex = 75037;
+
 	class MKDPKDOJIGB___c__DisplayClass2_0 : public ::System::Object
 	{
 	public:

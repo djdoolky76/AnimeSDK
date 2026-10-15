@@ -32,6 +32,8 @@ namespace UnityEngine::UI { class Text; }
 
 namespace MiHoYo::SDK::PC::OS::CXHandheld
 {
+	inline static constexpr unsigned int HandheldAgeGateAgeAppealOptionDialog_TypeDefinitionIndex = 8780;
+
 	class HandheldAgeGateAgeAppealOptionDialog : public ::MiHoYo::SDK::Console::ConsoleDialogBase
 	{
 	public:

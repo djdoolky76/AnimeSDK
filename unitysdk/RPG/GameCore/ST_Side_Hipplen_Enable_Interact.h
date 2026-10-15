@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ST_Side_Hipplen_Enable_Interact; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ST_Side_Hipplen_Enable_Interact_TypeDefinitionIndex = 21310;
+
 	class ST_Side_Hipplen_Enable_Interact : public ::RPG::GameCore::STTaskConfig
 	{
 	public:

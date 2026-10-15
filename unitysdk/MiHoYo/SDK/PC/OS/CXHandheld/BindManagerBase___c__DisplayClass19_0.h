@@ -8,6 +8,8 @@ namespace MiHoYo::SDK::PC::OS::CXHandheld { class HandheldEmailBindingDialog; }
 
 namespace MiHoYo::SDK::PC::OS::CXHandheld
 {
+	inline static constexpr unsigned int BindManagerBase___c__DisplayClass19_0_TypeDefinitionIndex = 8735;
+
 	class BindManagerBase___c__DisplayClass19_0 : public ::System::Object
 	{
 	public:

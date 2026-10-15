@@ -24,6 +24,8 @@ namespace System { class Object; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MessageBoxDialogContext_TypeDefinitionIndex = 72816;
+
 	class MessageBoxDialogContext : public ::RPG::Client::UIController
 	{
 	public:

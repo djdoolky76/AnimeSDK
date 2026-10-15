@@ -8,6 +8,8 @@ class ODGPPIHLOFF;
 #define AJLEDLIELON___C__DISPLAYCLASS6_0__UPDATEPROPERTYASYNC_B__0_OFFSET UNITYSDK_OFFSET(0x12CC51F0)
 #define AJLEDLIELON___C__DISPLAYCLASS6_0__UPDATEPROPERTYASYNC_B__1_OFFSET UNITYSDK_OFFSET(0x12CC52F0)
 
+inline static constexpr unsigned int AJLEDLIELON___c__DisplayClass6_0_TypeDefinitionIndex = 49459;
+
 	class AJLEDLIELON___c__DisplayClass6_0 : public ::System::Object
 	{
 	public:

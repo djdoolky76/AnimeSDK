@@ -19,6 +19,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DamageByAttackProperty_TypeDefinitionIndex = 22595;
+
 	class DamageByAttackProperty : public ::RPG::GameCore::TaskConfig
 	{
 	public:

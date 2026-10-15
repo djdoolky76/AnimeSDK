@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace System::Security::Cryptography
 {
+	inline static constexpr unsigned int SignatureDescription_TypeDefinitionIndex = 1063;
+
 	class SignatureDescription : public ::System::Object
 	{
 	public:

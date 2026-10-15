@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AvatarPropertyUIData_TypeDefinitionIndex = 62464;
+
 	class AvatarPropertyUIData : public ::System::Object
 	{
 	public:

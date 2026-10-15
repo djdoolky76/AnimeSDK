@@ -88,6 +88,8 @@ namespace System { class String; }
 #define FBAOHOKMKDL_PKNEKNFCPOA_OFFSET UNITYSDK_OFFSET(0x156933D0)
 #define FBAOHOKMKDL_TICK_OFFSET UNITYSDK_OFFSET(0x15690D80)
 
+inline static constexpr unsigned int FBAOHOKMKDL_TypeDefinitionIndex = 58935;
+
 	class FBAOHOKMKDL : public ::GELIALJDFBL
 	{
 	public:

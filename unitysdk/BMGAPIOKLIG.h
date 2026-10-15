@@ -30,6 +30,8 @@ namespace System { class String; }
 #define BMGAPIOKLIG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E0250E0)
 #define BMGAPIOKLIG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E025140)
 
+inline static constexpr unsigned int BMGAPIOKLIG_TypeDefinitionIndex = 26837;
+
 	class BMGAPIOKLIG : public ::System::Object
 	{
 	public:

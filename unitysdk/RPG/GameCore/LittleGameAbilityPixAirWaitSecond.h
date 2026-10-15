@@ -11,6 +11,8 @@ namespace RPG::GameCore { class LittleGameAbilityPixAirWaitSecond; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LittleGameAbilityPixAirWaitSecond_TypeDefinitionIndex = 21401;
+
 	class LittleGameAbilityPixAirWaitSecond : public ::RPG::GameCore::BaseLittleGameAbilityTaskConfig
 	{
 	public:

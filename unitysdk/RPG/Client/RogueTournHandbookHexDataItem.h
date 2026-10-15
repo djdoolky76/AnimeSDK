@@ -19,6 +19,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueTournHandbookHexDataItem_TypeDefinitionIndex = 67665;
+
 	class RogueTournHandbookHexDataItem : public ::System::Object
 	{
 	public:

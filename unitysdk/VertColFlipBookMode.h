@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int VertColFlipBookMode_TypeDefinitionIndex = 47115;
+
 	enum class VertColFlipBookMode : ::System::Int32
 	{
 		SixChannels4Bit = 0,

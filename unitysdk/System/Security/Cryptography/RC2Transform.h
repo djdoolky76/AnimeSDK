@@ -9,6 +9,8 @@ namespace System::Security::Cryptography { class RC2; }
 
 namespace System::Security::Cryptography
 {
+	inline static constexpr unsigned int RC2Transform_TypeDefinitionIndex = 1078;
+
 	class RC2Transform : public ::Mono::Security::Cryptography::SymmetricTransform
 	{
 	public:

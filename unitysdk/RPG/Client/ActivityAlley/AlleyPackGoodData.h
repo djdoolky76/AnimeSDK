@@ -47,6 +47,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::ActivityAlley
 {
+	inline static constexpr unsigned int AlleyPackGoodData_TypeDefinitionIndex = 74105;
+
 	class AlleyPackGoodData : public ::System::Object
 	{
 	public:

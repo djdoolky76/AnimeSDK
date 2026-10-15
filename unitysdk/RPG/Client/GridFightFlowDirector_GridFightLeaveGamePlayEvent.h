@@ -5,6 +5,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightFlowDirector_GridFightLeaveGamePlayEvent_TypeDefinitionIndex = 64589;
+
 	class GridFightFlowDirector_GridFightLeaveGamePlayEvent
 	{
 	public:

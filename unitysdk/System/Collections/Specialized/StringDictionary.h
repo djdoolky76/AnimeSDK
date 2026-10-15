@@ -11,6 +11,8 @@ namespace System::Collections { class IEnumerator; }
 
 namespace System::Collections::Specialized
 {
+	inline static constexpr unsigned int StringDictionary_TypeDefinitionIndex = 3007;
+
 	class StringDictionary : public ::System::Object
 	{
 	public:

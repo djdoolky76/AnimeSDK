@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueMagicSendPacketCmd_TypeDefinitionIndex = 67411;
+
 	class RogueMagicSendPacketCmd : public ::System::Object
 	{
 	public:

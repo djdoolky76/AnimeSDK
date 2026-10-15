@@ -10,6 +10,8 @@ namespace RPG::GameCore { class SkipPopupUIOffset; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SkipPopupUIOffset_TypeDefinitionIndex = 22852;
+
 	class SkipPopupUIOffset : public ::RPG::GameCore::TaskConfig
 	{
 	public:

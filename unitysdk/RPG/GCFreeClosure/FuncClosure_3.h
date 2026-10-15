@@ -6,6 +6,8 @@ namespace RPG::GCFreeClosure { template <typename T1, typename T2, typename T3, 
 
 namespace RPG::GCFreeClosure
 {
+	inline static constexpr unsigned int FuncClosure_3_TypeDefinitionIndex = 6469;
+
 	template <typename T1, typename T2, typename T3>
 	struct alignas(8) FuncClosure_3
 	{

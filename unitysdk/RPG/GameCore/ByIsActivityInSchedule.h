@@ -13,6 +13,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByIsActivityInSchedule_TypeDefinitionIndex = 20953;
+
 	class ByIsActivityInSchedule : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

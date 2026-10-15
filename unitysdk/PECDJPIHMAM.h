@@ -7,6 +7,8 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 
 #define PECDJPIHMAM_CTOR_OFFSET UNITYSDK_OFFSET(0x1C7DB120)
 
+inline static constexpr unsigned int PECDJPIHMAM_TypeDefinitionIndex = 37225;
+
 	class PECDJPIHMAM : public ::System::Object
 	{
 	public:

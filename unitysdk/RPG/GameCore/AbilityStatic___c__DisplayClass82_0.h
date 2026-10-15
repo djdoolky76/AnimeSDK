@@ -10,6 +10,8 @@ namespace RPG::Client { class MonoEffect; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AbilityStatic___c__DisplayClass82_0_TypeDefinitionIndex = 54406;
+
 	class AbilityStatic___c__DisplayClass82_0 : public ::System::Object
 	{
 	public:

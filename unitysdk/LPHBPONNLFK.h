@@ -14,6 +14,8 @@ namespace RPG::GameCore { class IAvatarCommonRowWrap; }
 #define LPHBPONNLFK_LGPLAOGBGLM_OFFSET UNITYSDK_OFFSET(0xB81FAC0)
 #define LPHBPONNLFK_OJBNPHBOJPP_OFFSET UNITYSDK_OFFSET(0xB81FB70)
 
+inline static constexpr unsigned int LPHBPONNLFK_TypeDefinitionIndex = 56877;
+
 	class LPHBPONNLFK : public ::ADILGMDJEJF
 	{
 	public:

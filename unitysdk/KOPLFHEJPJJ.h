@@ -9,6 +9,8 @@ namespace System { class Exception; }
 #define KOPLFHEJPJJ_HGAMLCFBAHL_OFFSET UNITYSDK_OFFSET(0xB5A3F60)
 #define KOPLFHEJPJJ_KGDLMPEABGG_OFFSET UNITYSDK_OFFSET(0xB5A3DF0)
 
+inline static constexpr unsigned int KOPLFHEJPJJ_TypeDefinitionIndex = 73111;
+
 	class KOPLFHEJPJJ : public ::KNAKIBHJLFN
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FourRotateVoxelMapInfoConfig; }
 
 namespace RPG::Client::LittleGame::FourRotateVoxel
 {
+	inline static constexpr unsigned int FourRotateVoxelUIViewContext___c__DisplayClass82_0_TypeDefinitionIndex = 76833;
+
 	class FourRotateVoxelUIViewContext___c__DisplayClass82_0 : public ::System::Object
 	{
 	public:

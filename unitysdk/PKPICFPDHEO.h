@@ -55,6 +55,8 @@ namespace System { class String; }
 #define PKPICFPDHEO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DF99210)
 #define PKPICFPDHEO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DF99270)
 
+inline static constexpr unsigned int PKPICFPDHEO_TypeDefinitionIndex = 30358;
+
 	class PKPICFPDHEO : public ::System::Object
 	{
 	public:

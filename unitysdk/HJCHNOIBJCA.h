@@ -36,6 +36,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define HJCHNOIBJCA_PDIJKIJOCBP_OFFSET UNITYSDK_OFFSET(0x15D05FC0)
 #define HJCHNOIBJCA_PDKEGCMFHIJ_OFFSET UNITYSDK_OFFSET(0x15D04C70)
 
+inline static constexpr unsigned int HJCHNOIBJCA_TypeDefinitionIndex = 66725;
+
 	class HJCHNOIBJCA : public ::System::Object
 	{
 	public:

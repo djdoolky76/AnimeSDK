@@ -7,6 +7,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int DevUIDebugReportDataSpine_TypeDefinitionIndex = 68348;
+
 	class DevUIDebugReportDataSpine : public ::System::Object
 	{
 	public:

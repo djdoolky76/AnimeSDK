@@ -9,6 +9,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AbilityLinearPropertyWithOverride_TypeDefinitionIndex = 54417;
+
 	struct alignas(4) AbilityLinearPropertyWithOverride
 	{
 		::RPG::GameCore::FixPoint Base; // 0x10

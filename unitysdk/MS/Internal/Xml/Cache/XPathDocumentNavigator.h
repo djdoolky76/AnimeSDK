@@ -29,6 +29,8 @@ namespace System::Xml::XPath { class XPathNavigator; }
 
 namespace MS::Internal::Xml::Cache
 {
+	inline static constexpr unsigned int XPathDocumentNavigator_TypeDefinitionIndex = 1779;
+
 	class XPathDocumentNavigator : public ::System::Xml::XPath::XPathNavigator
 	{
 	public:

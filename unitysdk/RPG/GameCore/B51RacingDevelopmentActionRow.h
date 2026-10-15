@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int B51RacingDevelopmentActionRow_TypeDefinitionIndex = 10970;
+
 	class B51RacingDevelopmentActionRow : public ::System::Object
 	{
 	public:

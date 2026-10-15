@@ -20,6 +20,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define IAKMFLMFALK_SET_PARTIDLIST_OFFSET UNITYSDK_OFFSET(0x15E17FA0)
 #define IAKMFLMFALK_SET_SKILLIDLIST_OFFSET UNITYSDK_OFFSET(0x15E17FE0)
 
+inline static constexpr unsigned int IAKMFLMFALK_TypeDefinitionIndex = 81689;
+
 	class IAKMFLMFALK : public ::System::Object
 	{
 	public:

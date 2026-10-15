@@ -27,6 +27,8 @@ namespace InControl { class Touch; }
 
 namespace InControl
 {
+	inline static constexpr unsigned int TouchTrackControl_TypeDefinitionIndex = 40880;
+
 	class TouchTrackControl : public ::InControl::TouchControl
 	{
 	public:

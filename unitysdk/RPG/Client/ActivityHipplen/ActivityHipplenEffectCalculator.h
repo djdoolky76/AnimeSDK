@@ -38,6 +38,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::ActivityHipplen
 {
+	inline static constexpr unsigned int ActivityHipplenEffectCalculator_TypeDefinitionIndex = 75488;
+
 	class ActivityHipplenEffectCalculator : public ::System::Object
 	{
 	public:

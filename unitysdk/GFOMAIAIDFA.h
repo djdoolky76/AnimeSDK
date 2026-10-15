@@ -27,6 +27,8 @@ namespace System { class String; }
 #define GFOMAIAIDFA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E476030)
 #define GFOMAIAIDFA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E476090)
 
+inline static constexpr unsigned int GFOMAIAIDFA_TypeDefinitionIndex = 29320;
+
 	class GFOMAIAIDFA : public ::System::Object
 	{
 	public:

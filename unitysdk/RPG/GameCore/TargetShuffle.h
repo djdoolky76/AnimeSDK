@@ -13,6 +13,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TargetShuffle_TypeDefinitionIndex = 23900;
+
 	class TargetShuffle : public ::RPG::GameCore::TargetSeqOperation
 	{
 	public:

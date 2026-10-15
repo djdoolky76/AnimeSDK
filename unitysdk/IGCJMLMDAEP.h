@@ -111,6 +111,8 @@ namespace UnityEngine { class Transform; }
 #define IGCJMLMDAEP_PPBCPAFKCNB_OFFSET UNITYSDK_OFFSET(0x163F58D0)
 #define IGCJMLMDAEP_SET_SERVICES_OFFSET UNITYSDK_OFFSET(0x164010C0)
 
+inline static constexpr unsigned int IGCJMLMDAEP_TypeDefinitionIndex = 77716;
+
 	class IGCJMLMDAEP : public ::System::Object
 	{
 	public:

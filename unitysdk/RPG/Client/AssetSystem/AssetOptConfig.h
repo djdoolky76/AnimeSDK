@@ -7,6 +7,8 @@
 
 namespace RPG::Client::AssetSystem
 {
+	inline static constexpr unsigned int AssetOptConfig_TypeDefinitionIndex = 41589;
+
 	class AssetOptConfig : public ::System::Object
 	{
 	public:

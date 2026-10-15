@@ -8,6 +8,8 @@ namespace RPG::Client::LittleGameShare { class ST_CakeRaceByCompareSupportCatRan
 #define LCPMNKEGPFH_CTOR_OFFSET UNITYSDK_OFFSET(0x1C7385E0)
 #define LCPMNKEGPFH_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1C7386C0)
 
+inline static constexpr unsigned int LCPMNKEGPFH_TypeDefinitionIndex = 36983;
+
 	class LCPMNKEGPFH
 	{
 	public:

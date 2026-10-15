@@ -3,6 +3,8 @@
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int ReflectionProbeClearFlags_TypeDefinitionIndex = 4716;
+
 	enum class ReflectionProbeClearFlags : ::System::Int32
 	{
 		Skybox = 1,

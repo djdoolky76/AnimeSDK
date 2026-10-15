@@ -15,6 +15,8 @@ namespace System::Runtime::Serialization { class SerializationInfo; }
 
 namespace System::Security
 {
+	inline static constexpr unsigned int XmlSyntaxException_TypeDefinitionIndex = 955;
+
 	class XmlSyntaxException : public ::System::SystemException
 	{
 	public:

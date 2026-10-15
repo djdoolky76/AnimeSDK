@@ -28,6 +28,8 @@ namespace System { class String; }
 #define LOJIKMHLCBL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E9C2500)
 #define LOJIKMHLCBL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E9C2560)
 
+inline static constexpr unsigned int LOJIKMHLCBL_TypeDefinitionIndex = 25179;
+
 	class LOJIKMHLCBL : public ::System::Object
 	{
 	public:

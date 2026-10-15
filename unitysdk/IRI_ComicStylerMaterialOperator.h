@@ -4,6 +4,8 @@
 
 #define IRI_COMICSTYLERMATERIALOPERATOR_CTOR_OFFSET UNITYSDK_OFFSET(0x16533630)
 
+inline static constexpr unsigned int IRI_ComicStylerMaterialOperator_TypeDefinitionIndex = 47554;
+
 	class IRI_ComicStylerMaterialOperator : public ::UnityEngine::MonoBehaviour
 	{
 	public:

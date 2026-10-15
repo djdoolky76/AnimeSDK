@@ -8,6 +8,8 @@ namespace System { class Object; }
 
 namespace RPG::Client::ParkourGame
 {
+	inline static constexpr unsigned int MonoParkourMinimap_TypeDefinitionIndex = 74152;
+
 	class MonoParkourMinimap : public ::UnityEngine::MonoBehaviour
 	{
 	public:

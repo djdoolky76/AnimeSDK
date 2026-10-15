@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define GMLPIDDNOPO_EXECUTE_OFFSET UNITYSDK_OFFSET(0x15AD5A50)
 #define GMLPIDDNOPO_FPJMPMFGMII_OFFSET UNITYSDK_OFFSET(0x15AD5E90)
 
+inline static constexpr unsigned int GMLPIDDNOPO_TypeDefinitionIndex = 77346;
+
 	class GMLPIDDNOPO : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class StageInvasionConfigRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int StageInvasionConfigRow_TypeDefinitionIndex = 15156;
+
 	class StageInvasionConfigRow : public ::System::Object
 	{
 	public:

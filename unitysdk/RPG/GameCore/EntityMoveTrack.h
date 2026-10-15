@@ -10,6 +10,8 @@ namespace RPG::GameCore { class EntityMoveTrack; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int EntityMoveTrack_TypeDefinitionIndex = 20170;
+
 	class EntityMoveTrack : public ::RPG::GameCore::JsonConfig
 	{
 	public:

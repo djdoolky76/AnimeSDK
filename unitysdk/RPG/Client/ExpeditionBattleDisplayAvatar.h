@@ -19,6 +19,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ExpeditionBattleDisplayAvatar_TypeDefinitionIndex = 63948;
+
 	class ExpeditionBattleDisplayAvatar : public ::System::Object
 	{
 	public:

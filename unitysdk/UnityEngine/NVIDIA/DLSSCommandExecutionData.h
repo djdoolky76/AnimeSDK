@@ -18,6 +18,8 @@
 
 namespace UnityEngine::NVIDIA
 {
+	inline static constexpr unsigned int DLSSCommandExecutionData_TypeDefinitionIndex = 5026;
+
 	struct alignas(4) DLSSCommandExecutionData
 	{
 		::System::Int32 m_Reset; // 0x10

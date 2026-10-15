@@ -6,6 +6,8 @@
 
 namespace MiHoYo::SDK::PC::OS
 {
+	inline static constexpr unsigned int XboxPrivilegeExtension_TypeDefinitionIndex = 8691;
+
 	class XboxPrivilegeExtension : public ::System::Object
 	{
 	public:

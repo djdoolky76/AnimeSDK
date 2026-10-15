@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int CycleScoreRewardClaimEvent_TypeDefinitionIndex = 63545;
+
 	class CycleScoreRewardClaimEvent : public ::System::Object
 	{
 	public:

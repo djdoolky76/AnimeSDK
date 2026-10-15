@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PuzzleSetAnimatorParams_TypeDefinitionIndex = 22227;
+
 	class PuzzleSetAnimatorParams : public ::RPG::GameCore::TaskConfig
 	{
 	public:

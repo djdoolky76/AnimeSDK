@@ -31,6 +31,8 @@ namespace System { class String; }
 #define EFAFCCEKOAN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E28B5F0)
 #define EFAFCCEKOAN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E28B650)
 
+inline static constexpr unsigned int EFAFCCEKOAN_TypeDefinitionIndex = 30400;
+
 	class EFAFCCEKOAN : public ::System::Object
 	{
 	public:

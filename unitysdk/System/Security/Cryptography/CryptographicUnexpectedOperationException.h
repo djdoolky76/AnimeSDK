@@ -11,6 +11,8 @@ namespace System::Runtime::Serialization { class SerializationInfo; }
 
 namespace System::Security::Cryptography
 {
+	inline static constexpr unsigned int CryptographicUnexpectedOperationException_TypeDefinitionIndex = 1008;
+
 	class CryptographicUnexpectedOperationException : public ::System::Security::Cryptography::CryptographicException
 	{
 	public:

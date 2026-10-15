@@ -13,6 +13,8 @@ namespace System { template <typename T> class Comparison_1; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int SDKUtil___c_TypeDefinitionIndex = 8180;
+
 	class SDKUtil___c : public ::System::Object
 	{
 	public:

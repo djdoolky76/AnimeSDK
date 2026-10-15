@@ -10,6 +10,8 @@ class AICDMFFGNIH;
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelAidReadyStart_TypeDefinitionIndex = 56805;
+
 	class LevelAidReadyStart : public ::System::Object
 	{
 	public:

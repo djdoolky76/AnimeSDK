@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace DesperateDevs::Utils
 {
+	inline static constexpr unsigned int AttributeInfo_TypeDefinitionIndex = 7096;
+
 	class AttributeInfo : public ::System::Object
 	{
 	public:

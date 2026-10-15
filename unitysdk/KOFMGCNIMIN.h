@@ -31,6 +31,8 @@ namespace System { class String; }
 #define KOFMGCNIMIN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E8B0600)
 #define KOFMGCNIMIN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E8B0660)
 
+inline static constexpr unsigned int KOFMGCNIMIN_TypeDefinitionIndex = 32856;
+
 	class KOFMGCNIMIN : public ::System::Object
 	{
 	public:

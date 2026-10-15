@@ -29,6 +29,8 @@ namespace System { class String; }
 #define POIBJKBDLLI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DFCC160)
 #define POIBJKBDLLI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DFCC1C0)
 
+inline static constexpr unsigned int POIBJKBDLLI_TypeDefinitionIndex = 29605;
+
 	class POIBJKBDLLI : public ::System::Object
 	{
 	public:

@@ -26,6 +26,8 @@ namespace UnityEngine { class Texture2D; }
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int TextureCurve_TypeDefinitionIndex = 35610;
+
 	class TextureCurve : public ::System::Object
 	{
 	public:

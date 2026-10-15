@@ -16,6 +16,8 @@ namespace System::Collections::Generic { template <typename T> class Queue_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int StaticListView___c_TypeDefinitionIndex = 72658;
+
 	class StaticListView___c : public ::System::Object
 	{
 	public:

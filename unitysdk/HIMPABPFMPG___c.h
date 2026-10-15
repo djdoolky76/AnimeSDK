@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define HIMPABPFMPG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E59D700)
 #define HIMPABPFMPG___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1E59D710)
 
+inline static constexpr unsigned int HIMPABPFMPG___c_TypeDefinitionIndex = 25955;
+
 	class HIMPABPFMPG___c : public ::System::Object
 	{
 	public:

@@ -25,6 +25,8 @@ namespace System::Text { class StringBuilder; }
 #define KJCPCOELJAG_TOSTRING_OFFSET UNITYSDK_OFFSET(0xB441330)
 #define KJCPCOELJAG__CLONE___OFFSET UNITYSDK_OFFSET(0xB441AA0)
 
+inline static constexpr unsigned int KJCPCOELJAG_TypeDefinitionIndex = 81096;
+
 	class KJCPCOELJAG : public ::System::Object
 	{
 	public:

@@ -15,6 +15,8 @@ namespace RPG::Client::SocialPlay { class OnlinePlayRoomFriendInviteContext; }
 
 namespace RPG::Client::SocialPlay
 {
+	inline static constexpr unsigned int OnlinePlayRoomFriendInviteContext_TypeDefinitionIndex = 74500;
+
 	class OnlinePlayRoomFriendInviteContext : public ::RPG::Client::OnlinePlayRoomFriendInviteContextBase
 	{
 	public:

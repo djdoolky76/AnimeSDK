@@ -9,6 +9,8 @@ namespace System { class Object; }
 
 namespace Cysharp::Threading::Tasks::Linq
 {
+	inline static constexpr unsigned int AppendPrepend_1__AppendPrepend_TypeDefinitionIndex = 45224;
+
 	template <typename T>
 	class AppendPrepend_1__AppendPrepend : public ::Cysharp::Threading::Tasks::MoveNextSource
 	{

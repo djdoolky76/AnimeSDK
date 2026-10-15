@@ -7,6 +7,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define ODNPHLHNHMC_CTOR_OFFSET UNITYSDK_OFFSET(0xBDF1C00)
 
+inline static constexpr unsigned int ODNPHLHNHMC_TypeDefinitionIndex = 63761;
+
 	class ODNPHLHNHMC : public ::System::Object
 	{
 	public:

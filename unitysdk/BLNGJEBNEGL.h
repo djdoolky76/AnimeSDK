@@ -9,6 +9,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define BLNGJEBNEGL_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBA7E000)
 #define BLNGJEBNEGL_EVALUATE_OFFSET UNITYSDK_OFFSET(0xBA7DC20)
 
+inline static constexpr unsigned int BLNGJEBNEGL_TypeDefinitionIndex = 52187;
+
 	class BLNGJEBNEGL
 	{
 	public:

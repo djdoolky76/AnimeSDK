@@ -30,6 +30,8 @@ namespace RPG::GameCore { class FateRinCaseBoardTripleTeamInfo; }
 
 namespace RPG::Client::FateRin::CaseBoard
 {
+	inline static constexpr unsigned int TripleTeamViewModel_TypeDefinitionIndex = 80818;
+
 	class TripleTeamViewModel : public ::RPG::Client::FateRin::CaseBoard::TeamViewModel
 	{
 	public:

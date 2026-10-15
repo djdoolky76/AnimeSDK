@@ -9,6 +9,8 @@ namespace System { class String; }
 #define HBBDMIIALAI_UNRESOLVE_OFFSET UNITYSDK_OFFSET(0x15BE60C0)
 #define HBBDMIIALAI__RESOLVE_OFFSET UNITYSDK_OFFSET(0x15BE5FA0)
 
+inline static constexpr unsigned int HBBDMIIALAI_TypeDefinitionIndex = 56524;
+
 	class HBBDMIIALAI
 	{
 	public:

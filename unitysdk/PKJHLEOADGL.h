@@ -24,6 +24,8 @@ namespace System::Collections::Immutable { template <typename T> class IImmutabl
 #define PKJHLEOADGL__GET_SWITCHNEXTCOMMAND_B__28_0_OFFSET UNITYSDK_OFFSET(0xC2C37D0)
 #define PKJHLEOADGL__GET_SWITCHPREVCOMMAND_B__25_0_OFFSET UNITYSDK_OFFSET(0xC2C3540)
 
+inline static constexpr unsigned int PKJHLEOADGL_TypeDefinitionIndex = 79470;
+
 	class PKJHLEOADGL : public ::System::Object
 	{
 	public:

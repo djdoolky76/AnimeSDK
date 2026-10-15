@@ -10,6 +10,8 @@ namespace UnityEngine { class Animator; }
 #define MNCGPPIGLID_MNEHHJLGEOO_OFFSET UNITYSDK_OFFSET(0xB9E81C0)
 #define MNCGPPIGLID_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB9E7CF0)
 
+inline static constexpr unsigned int MNCGPPIGLID_TypeDefinitionIndex = 52660;
+
 	class MNCGPPIGLID
 	{
 	public:

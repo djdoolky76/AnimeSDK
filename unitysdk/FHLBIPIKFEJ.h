@@ -47,6 +47,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define FHLBIPIKFEJ_PBDNAIDEIPK_OFFSET UNITYSDK_OFFSET(0x15782FF0)
 #define FHLBIPIKFEJ_PKIGEGFNMDL_OFFSET UNITYSDK_OFFSET(0x15783B10)
 
+inline static constexpr unsigned int FHLBIPIKFEJ_TypeDefinitionIndex = 53638;
+
 	class FHLBIPIKFEJ : public ::System::Object
 	{
 	public:

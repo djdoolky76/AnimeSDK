@@ -36,6 +36,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define FPCIPPHCLGD_SET_HEALTHLOWPLAYED_OFFSET UNITYSDK_OFFSET(0x1590F7E0)
 #define FPCIPPHCLGD_SET_SKILLREADYPLAYED_OFFSET UNITYSDK_OFFSET(0x1590F7C0)
 
+inline static constexpr unsigned int FPCIPPHCLGD_TypeDefinitionIndex = 57214;
+
 	class FPCIPPHCLGD : public ::RPG::GameCore::GameComponentBase
 	{
 	public:

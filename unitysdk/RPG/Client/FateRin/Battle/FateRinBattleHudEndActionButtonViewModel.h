@@ -30,6 +30,8 @@ class OBJANKHLNGO;
 
 namespace RPG::Client::FateRin::Battle
 {
+	inline static constexpr unsigned int FateRinBattleHudEndActionButtonViewModel_TypeDefinitionIndex = 80903;
+
 	class FateRinBattleHudEndActionButtonViewModel : public ::RPG::Client::FateRin::BaseViewModel
 	{
 	public:

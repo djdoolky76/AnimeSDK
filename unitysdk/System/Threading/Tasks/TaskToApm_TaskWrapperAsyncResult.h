@@ -13,6 +13,8 @@ namespace System::Threading::Tasks { class Task; }
 
 namespace System::Threading::Tasks
 {
+	inline static constexpr unsigned int TaskToApm_TaskWrapperAsyncResult_TypeDefinitionIndex = 935;
+
 	class TaskToApm_TaskWrapperAsyncResult : public ::System::Object
 	{
 	public:

@@ -32,6 +32,8 @@ namespace System { class String; }
 #define LJKFPPDFHMH_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E985310)
 #define LJKFPPDFHMH_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E985370)
 
+inline static constexpr unsigned int LJKFPPDFHMH_TypeDefinitionIndex = 30196;
+
 	class LJKFPPDFHMH : public ::System::Object
 	{
 	public:

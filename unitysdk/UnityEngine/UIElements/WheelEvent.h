@@ -12,6 +12,8 @@ namespace UnityEngine::UIElements { class WheelEvent; }
 
 namespace UnityEngine::UIElements
 {
+	inline static constexpr unsigned int WheelEvent_TypeDefinitionIndex = 5964;
+
 	class WheelEvent
 	{
 	public:

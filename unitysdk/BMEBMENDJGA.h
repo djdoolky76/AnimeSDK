@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T> class IList_1; }
 #define BMEBMENDJGA_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xBDA2B60)
 #define BMEBMENDJGA_CTOR_OFFSET UNITYSDK_OFFSET(0xBDA2CA0)
 
+inline static constexpr unsigned int BMEBMENDJGA_TypeDefinitionIndex = 77736;
+
 	class BMEBMENDJGA : public ::System::Object
 	{
 	public:

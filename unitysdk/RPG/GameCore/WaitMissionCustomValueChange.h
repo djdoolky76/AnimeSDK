@@ -13,6 +13,8 @@ namespace RPG::GameCore { class WaitMissionCustomValueChange; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int WaitMissionCustomValueChange_TypeDefinitionIndex = 21681;
+
 	class WaitMissionCustomValueChange : public ::RPG::GameCore::AdvWaitingEventBase
 	{
 	public:

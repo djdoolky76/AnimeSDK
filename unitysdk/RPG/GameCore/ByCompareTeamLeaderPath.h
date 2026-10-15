@@ -14,6 +14,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByCompareTeamLeaderPath_TypeDefinitionIndex = 21865;
+
 	class ByCompareTeamLeaderPath : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

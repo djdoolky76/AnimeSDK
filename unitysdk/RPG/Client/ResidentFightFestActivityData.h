@@ -9,6 +9,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ResidentFightFestActivityData_TypeDefinitionIndex = 64197;
+
 	class ResidentFightFestActivityData : public ::RPG::Client::ActivityPanelData
 	{
 	public:

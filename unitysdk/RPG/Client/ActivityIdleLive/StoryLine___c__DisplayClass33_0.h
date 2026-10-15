@@ -8,6 +8,8 @@ namespace RPG::Client::ActivityIdleLive { class IdleLiveChapter; }
 
 namespace RPG::Client::ActivityIdleLive
 {
+	inline static constexpr unsigned int StoryLine___c__DisplayClass33_0_TypeDefinitionIndex = 75161;
+
 	class StoryLine___c__DisplayClass33_0 : public ::System::Object
 	{
 	public:

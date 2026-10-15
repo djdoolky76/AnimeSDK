@@ -11,6 +11,8 @@ namespace System { class String; }
 #define BCIIIJAPEMN_NIGMOFOLENC_OFFSET UNITYSDK_OFFSET(0x15EAA500)
 #define BCIIIJAPEMN_POCPBOGGOFD_OFFSET UNITYSDK_OFFSET(0x15EAA360)
 
+inline static constexpr unsigned int BCIIIJAPEMN_TypeDefinitionIndex = 69028;
+
 	class BCIIIJAPEMN : public ::System::Object
 	{
 	public:

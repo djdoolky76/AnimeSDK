@@ -6,6 +6,8 @@ namespace RPG::GameCore { class LevelNavNodeConditionInfos; }
 
 #define JPCLJKFJALE_CTOR_OFFSET UNITYSDK_OFFSET(0xB2B3DC0)
 
+inline static constexpr unsigned int JPCLJKFJALE_TypeDefinitionIndex = 64220;
+
 	class JPCLJKFJALE : public ::System::Object
 	{
 	public:

@@ -116,6 +116,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define JAODHHPIKGJ_PLPMMMGJMMM_OFFSET UNITYSDK_OFFSET(0x1CB8AF40)
 #define JAODHHPIKGJ_SET_PROXYCOORD_OFFSET UNITYSDK_OFFSET(0x1CB8AE00)
 
+inline static constexpr unsigned int JAODHHPIKGJ_TypeDefinitionIndex = 43194;
+
 	class JAODHHPIKGJ : public ::System::Object
 	{
 	public:

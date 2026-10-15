@@ -33,6 +33,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AetherSkillCoreItemData_TypeDefinitionIndex = 65676;
+
 	class AetherSkillCoreItemData : public ::RPG::Client::ItemData
 	{
 	public:

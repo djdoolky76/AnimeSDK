@@ -9,6 +9,8 @@ namespace UnityEngine::UI { class Text; }
 #define PIOGONCBKIF_NKPPGDENJAE_OFFSET UNITYSDK_OFFSET(0xC274F70)
 #define PIOGONCBKIF__ONBIND_OFFSET UNITYSDK_OFFSET(0xC274DC0)
 
+inline static constexpr unsigned int PIOGONCBKIF_TypeDefinitionIndex = 71330;
+
 	class PIOGONCBKIF : public ::FMPCODLIOLG
 	{
 	public:

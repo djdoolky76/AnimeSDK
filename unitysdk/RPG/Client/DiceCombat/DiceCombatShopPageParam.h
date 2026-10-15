@@ -10,6 +10,8 @@ namespace RPG::Client::DiceCombat { class DiceCombatShopPageParam; }
 
 namespace RPG::Client::DiceCombat
 {
+	inline static constexpr unsigned int DiceCombatShopPageParam_TypeDefinitionIndex = 76129;
+
 	class DiceCombatShopPageParam : public ::System::Object
 	{
 	public:

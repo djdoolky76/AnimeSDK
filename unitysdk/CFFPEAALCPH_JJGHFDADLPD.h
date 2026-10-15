@@ -32,6 +32,8 @@ namespace System { class Object; }
 #define CFFPEAALCPH_JJGHFDADLPD_SET_ANISTATENORMALIZEDTIME_OFFSET UNITYSDK_OFFSET(0xCA215A0)
 #define CFFPEAALCPH_JJGHFDADLPD_SET_CONFIG_OFFSET UNITYSDK_OFFSET(0xCA21550)
 
+inline static constexpr unsigned int CFFPEAALCPH_JJGHFDADLPD_TypeDefinitionIndex = 56902;
+
 	class CFFPEAALCPH_JJGHFDADLPD : public ::System::Object
 	{
 	public:

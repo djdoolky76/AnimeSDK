@@ -14,6 +14,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int ShiftCameraLookAtClip_TypeDefinitionIndex = 47822;
+
 	class ShiftCameraLookAtClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:

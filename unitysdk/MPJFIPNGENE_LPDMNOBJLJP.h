@@ -4,6 +4,8 @@ class NNDAJDLAHNC;
 
 #define MPJFIPNGENE_LPDMNOBJLJP_CTOR_OFFSET UNITYSDK_OFFSET(0x2EAF450)
 
+inline static constexpr unsigned int MPJFIPNGENE_LPDMNOBJLJP_TypeDefinitionIndex = 44028;
+
 	struct alignas(8) MPJFIPNGENE_LPDMNOBJLJP
 	{
 		::System::Boolean GPCDMHMDIHC; // 0x10

@@ -8,6 +8,8 @@ namespace RPG::Client { class GridFightAugment; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightAugmentInfo___c__DisplayClass17_0_TypeDefinitionIndex = 64382;
+
 	class GridFightAugmentInfo___c__DisplayClass17_0 : public ::System::Object
 	{
 	public:

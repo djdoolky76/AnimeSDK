@@ -30,6 +30,8 @@ namespace UnityEngine::UI { class Text; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ActivityFeverTimeToastHintItem_TypeDefinitionIndex = 71380;
+
 	class ActivityFeverTimeToastHintItem : public ::UnityEngine::MonoBehaviour
 	{
 	public:

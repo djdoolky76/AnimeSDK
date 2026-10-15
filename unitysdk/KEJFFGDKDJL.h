@@ -12,6 +12,8 @@ namespace UnityEngine { class Transform; }
 
 #define KEJFFGDKDJL_CTOR_OFFSET UNITYSDK_OFFSET(0x1CBB7CF0)
 
+inline static constexpr unsigned int KEJFFGDKDJL_TypeDefinitionIndex = 42920;
+
 	class KEJFFGDKDJL : public ::System::Object
 	{
 	public:

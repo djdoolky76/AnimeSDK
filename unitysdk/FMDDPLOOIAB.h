@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define FMDDPLOOIAB_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0x1584E950)
 #define FMDDPLOOIAB_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0x1584EA80)
 
+inline static constexpr unsigned int FMDDPLOOIAB_TypeDefinitionIndex = 82282;
+
 	class FMDDPLOOIAB : public ::KAANKGHDHCB
 	{
 	public:

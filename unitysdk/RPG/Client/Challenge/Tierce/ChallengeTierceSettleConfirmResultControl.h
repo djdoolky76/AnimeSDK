@@ -12,6 +12,8 @@ namespace UnityEngine { class RectTransform; }
 
 namespace RPG::Client::Challenge::Tierce
 {
+	inline static constexpr unsigned int ChallengeTierceSettleConfirmResultControl_TypeDefinitionIndex = 81546;
+
 	class ChallengeTierceSettleConfirmResultControl : public ::UnityEngine::MonoBehaviour
 	{
 	public:

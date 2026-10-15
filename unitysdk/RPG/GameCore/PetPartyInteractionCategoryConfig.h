@@ -13,6 +13,8 @@ namespace RPG::GameCore { class PetPartySingleDoubleCombinationConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PetPartyInteractionCategoryConfig_TypeDefinitionIndex = 17553;
+
 	class PetPartyInteractionCategoryConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

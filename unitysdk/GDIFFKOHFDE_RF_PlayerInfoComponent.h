@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int GDIFFKOHFDE_RF_PlayerInfoComponent_TypeDefinitionIndex = 37088;
+
 	enum class GDIFFKOHFDE_RF_PlayerInfoComponent : ::System::UInt16
 	{
 		PlayerUID = 1,

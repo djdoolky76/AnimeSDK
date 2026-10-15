@@ -72,6 +72,8 @@ namespace System { class String; }
 #define NIEBAAFIPDA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EB28250)
 #define NIEBAAFIPDA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EB282B0)
 
+inline static constexpr unsigned int NIEBAAFIPDA_TypeDefinitionIndex = 34510;
+
 	class NIEBAAFIPDA : public ::System::Object
 	{
 	public:

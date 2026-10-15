@@ -6,6 +6,8 @@ namespace System { class String; }
 #define GIAJHGPBIOA_CTOR_OFFSET UNITYSDK_OFFSET(0x15A2E1F0)
 #define GIAJHGPBIOA_NDOIBJEHDEE_OFFSET UNITYSDK_OFFSET(0x15A2E250)
 
+inline static constexpr unsigned int GIAJHGPBIOA_TypeDefinitionIndex = 69416;
+
 	class GIAJHGPBIOA : public ::System::Exception
 	{
 	public:

@@ -9,6 +9,8 @@ namespace RPG::GameCore { class ExpeditionRewardRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ExpeditionRewardRow_TypeDefinitionIndex = 13263;
+
 	class ExpeditionRewardRow : public ::System::Object
 	{
 	public:

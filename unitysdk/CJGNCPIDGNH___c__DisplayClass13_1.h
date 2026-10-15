@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define CJGNCPIDGNH___C__DISPLAYCLASS13_1_CTOR_OFFSET UNITYSDK_OFFSET(0xD210700)
 #define CJGNCPIDGNH___C__DISPLAYCLASS13_1__CHECKRECONNECTTOFIGHT_B__2_OFFSET UNITYSDK_OFFSET(0xD2107C0)
 
+inline static constexpr unsigned int CJGNCPIDGNH___c__DisplayClass13_1_TypeDefinitionIndex = 80268;
+
 	template <typename T>
 	class CJGNCPIDGNH___c__DisplayClass13_1 : public ::System::Object
 	{

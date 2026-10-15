@@ -10,6 +10,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoExUICamera_CameraOutInfo_TypeDefinitionIndex = 72982;
+
 	class MonoExUICamera_CameraOutInfo : public ::System::Object
 	{
 	public:

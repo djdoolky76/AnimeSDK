@@ -30,6 +30,8 @@ namespace System { class String; }
 #define AKLDICEFCIL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E3CE720)
 #define AKLDICEFCIL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E3CE780)
 
+inline static constexpr unsigned int AKLDICEFCIL_TypeDefinitionIndex = 26697;
+
 	class AKLDICEFCIL : public ::System::Object
 	{
 	public:

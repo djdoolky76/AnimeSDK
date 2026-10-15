@@ -14,6 +14,8 @@ namespace System { class Type; }
 
 namespace System::Runtime::Serialization::Formatters::Binary
 {
+	inline static constexpr unsigned int NameInfo_TypeDefinitionIndex = 1199;
+
 	class NameInfo : public ::System::Object
 	{
 	public:

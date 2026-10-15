@@ -27,6 +27,8 @@ namespace UnityEngine { class Rigidbody; }
 #define JPHCGLNOHHL_SET_KINEMATICVELOCITY_OFFSET UNITYSDK_OFFSET(0xB2BEC60)
 #define JPHCGLNOHHL_SET_OVERRIDEMOVEDELTAVECTOR_OFFSET UNITYSDK_OFFSET(0xB2BEC90)
 
+inline static constexpr unsigned int JPHCGLNOHHL_TypeDefinitionIndex = 57104;
+
 	class JPHCGLNOHHL : public ::NOBBAHKMNDK
 	{
 	public:

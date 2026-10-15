@@ -9,6 +9,8 @@ namespace UnityEngine { class Animator; }
 
 #define NANNAJCENEN_CTOR_OFFSET UNITYSDK_OFFSET(0x1C934D80)
 
+inline static constexpr unsigned int NANNAJCENEN_TypeDefinitionIndex = 43727;
+
 	class NANNAJCENEN : public ::System::Object
 	{
 	public:

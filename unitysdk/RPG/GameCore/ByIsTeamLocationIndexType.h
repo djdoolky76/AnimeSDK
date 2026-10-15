@@ -16,6 +16,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByIsTeamLocationIndexType_TypeDefinitionIndex = 23032;
+
 	class ByIsTeamLocationIndexType : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

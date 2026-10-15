@@ -11,6 +11,8 @@ namespace System { class String; }
 #define IJGKMLEGBGK_MLMGEFIOION_OFFSET UNITYSDK_OFFSET(0x16467C30)
 #define IJGKMLEGBGK_NELBJOFNEOP_OFFSET UNITYSDK_OFFSET(0x16467DC0)
 
+inline static constexpr unsigned int IJGKMLEGBGK_TypeDefinitionIndex = 73363;
+
 	class IJGKMLEGBGK : public ::System::Object
 	{
 	public:

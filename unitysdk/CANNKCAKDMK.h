@@ -36,6 +36,8 @@ namespace RootMotion::FinalIK { class LimbIK; }
 #define CANNKCAKDMK_SET_WEAPONATTACHMENTHANDLER_OFFSET UNITYSDK_OFFSET(0xC494F90)
 #define CANNKCAKDMK_SET_WEAPONCONTROLLER_OFFSET UNITYSDK_OFFSET(0xC494FB0)
 
+inline static constexpr unsigned int CANNKCAKDMK_TypeDefinitionIndex = 53952;
+
 	class CANNKCAKDMK : public ::KKEFMOKEJIF
 	{
 	public:

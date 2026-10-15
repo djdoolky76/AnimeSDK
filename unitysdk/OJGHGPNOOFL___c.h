@@ -10,6 +10,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 #define OJGHGPNOOFL___C_CTOR_OFFSET UNITYSDK_OFFSET(0xBEB7210)
 #define OJGHGPNOOFL___C__REFRESHEFFECTS_B__1_0_OFFSET UNITYSDK_OFFSET(0xBEB7220)
 
+inline static constexpr unsigned int OJGHGPNOOFL___c_TypeDefinitionIndex = 71236;
+
 	class OJGHGPNOOFL___c : public ::System::Object
 	{
 	public:

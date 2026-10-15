@@ -13,6 +13,8 @@ namespace RPG::GameCore { class RandomSelectPropState; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RandomSelectPropState_TypeDefinitionIndex = 22236;
+
 	class RandomSelectPropState : public ::RPG::GameCore::TaskConfig
 	{
 	public:

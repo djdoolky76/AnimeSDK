@@ -32,6 +32,8 @@ namespace System { class String; }
 #define PGGEHFHFACC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DF2F220)
 #define PGGEHFHFACC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DF2F280)
 
+inline static constexpr unsigned int PGGEHFHFACC_TypeDefinitionIndex = 34205;
+
 	class PGGEHFHFACC : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class SetAdvAchievement; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetAdvAchievement_TypeDefinitionIndex = 20563;
+
 	class SetAdvAchievement : public ::RPG::GameCore::TaskConfig
 	{
 	public:

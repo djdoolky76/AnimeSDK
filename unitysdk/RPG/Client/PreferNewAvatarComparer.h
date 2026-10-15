@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PreferNewAvatarComparer_TypeDefinitionIndex = 62814;
+
 	class PreferNewAvatarComparer : public ::RPG::Client::AvatarComparerBase
 	{
 	public:

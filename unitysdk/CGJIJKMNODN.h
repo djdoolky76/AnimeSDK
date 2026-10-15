@@ -28,6 +28,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 #define CGJIJKMNODN_PPGCJBEPDMI_OFFSET UNITYSDK_OFFSET(0x1C8E2B80)
 #define CGJIJKMNODN___CTOR_B__0_0_OFFSET UNITYSDK_OFFSET(0x1C8E46C0)
 
+inline static constexpr unsigned int CGJIJKMNODN_TypeDefinitionIndex = 42301;
+
 	class CGJIJKMNODN : public ::System::Object
 	{
 	public:

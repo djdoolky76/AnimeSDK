@@ -7,6 +7,8 @@ namespace RPG::GameCore { class JsonEnum; }
 #define EIGKOECKKKI_DAENBNOKBKK_1_OFFSET UNITYSDK_OFFSET(0x154C6490)
 #define EIGKOECKKKI_DAENBNOKBKK_OFFSET UNITYSDK_OFFSET(0x154C6380)
 
+inline static constexpr unsigned int EIGKOECKKKI_TypeDefinitionIndex = 53677;
+
 	class EIGKOECKKKI : public ::System::Object
 	{
 	public:

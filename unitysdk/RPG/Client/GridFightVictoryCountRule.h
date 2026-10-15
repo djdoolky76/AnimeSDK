@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightVictoryCountRule_TypeDefinitionIndex = 65076;
+
 	class GridFightVictoryCountRule : public ::System::Object
 	{
 	public:

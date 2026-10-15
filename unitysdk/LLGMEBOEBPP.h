@@ -9,6 +9,8 @@ namespace System { class String; }
 #define LLGMEBOEBPP_CTOR_OFFSET UNITYSDK_OFFSET(0x1D10E7A0)
 #define LLGMEBOEBPP_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D10E590)
 
+inline static constexpr unsigned int LLGMEBOEBPP_TypeDefinitionIndex = 11990;
+
 	class LLGMEBOEBPP : public ::System::Object
 	{
 	public:

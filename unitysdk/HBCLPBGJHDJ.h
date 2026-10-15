@@ -8,6 +8,8 @@ namespace System { class String; }
 
 #define HBCLPBGJHDJ_CTOR_OFFSET UNITYSDK_OFFSET(0x15BE6BF0)
 
+inline static constexpr unsigned int HBCLPBGJHDJ_TypeDefinitionIndex = 62017;
+
 	class HBCLPBGJHDJ : public ::System::Object
 	{
 	public:

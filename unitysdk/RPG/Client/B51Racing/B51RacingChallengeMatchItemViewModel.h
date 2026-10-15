@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace RPG::Client::B51Racing
 {
+	inline static constexpr unsigned int B51RacingChallengeMatchItemViewModel_TypeDefinitionIndex = 82029;
+
 	class B51RacingChallengeMatchItemViewModel : public ::System::Object
 	{
 	public:

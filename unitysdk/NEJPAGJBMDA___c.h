@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define NEJPAGJBMDA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EAF8FC0)
 #define NEJPAGJBMDA___C___CCTOR_B__42_0_OFFSET UNITYSDK_OFFSET(0x1EAF8FD0)
 
+inline static constexpr unsigned int NEJPAGJBMDA___c_TypeDefinitionIndex = 33442;
+
 	class NEJPAGJBMDA___c : public ::System::Object
 	{
 	public:

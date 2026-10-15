@@ -27,6 +27,8 @@ namespace System { class String; }
 #define AEJLPCAIODP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DDED280)
 #define AEJLPCAIODP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DDED2E0)
 
+inline static constexpr unsigned int AEJLPCAIODP_TypeDefinitionIndex = 32848;
+
 	class AEJLPCAIODP : public ::System::Object
 	{
 	public:

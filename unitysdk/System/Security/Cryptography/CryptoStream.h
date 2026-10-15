@@ -32,6 +32,8 @@ namespace System::Threading::Tasks { class Task; }
 
 namespace System::Security::Cryptography
 {
+	inline static constexpr unsigned int CryptoStream_TypeDefinitionIndex = 1012;
+
 	class CryptoStream : public ::System::IO::Stream
 	{
 	public:

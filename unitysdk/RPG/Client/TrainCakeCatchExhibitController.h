@@ -71,6 +71,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TrainCakeCatchExhibitController_TypeDefinitionIndex = 60214;
+
 	class TrainCakeCatchExhibitController : public ::System::Object
 	{
 	public:

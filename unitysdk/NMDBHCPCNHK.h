@@ -9,6 +9,8 @@ namespace System { class String; }
 #define NMDBHCPCNHK_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D235420)
 #define NMDBHCPCNHK_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D2353E0)
 
+inline static constexpr unsigned int NMDBHCPCNHK_TypeDefinitionIndex = 22441;
+
 	class NMDBHCPCNHK : public ::RPG::GameCore::STTaskConfig
 	{
 	public:

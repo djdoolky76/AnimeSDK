@@ -25,6 +25,8 @@ namespace System { class String; }
 #define IJCGOCNMJIN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E6913B0)
 #define IJCGOCNMJIN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E691410)
 
+inline static constexpr unsigned int IJCGOCNMJIN_TypeDefinitionIndex = 31580;
+
 	class IJCGOCNMJIN : public ::System::Object
 	{
 	public:

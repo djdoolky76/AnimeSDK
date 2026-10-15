@@ -29,6 +29,8 @@ namespace System { class Object; }
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int BlendState_TypeDefinitionIndex = 4739;
+
 	struct alignas(4) BlendState
 	{
 		::UnityEngine::Rendering::RenderTargetBlendState m_BlendState0; // 0x10

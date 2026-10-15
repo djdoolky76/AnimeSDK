@@ -8,6 +8,8 @@ namespace RPG::Client { class IFateGameAffixItemPanelData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int FateGameAffixItemPanelDataExt_TypeDefinitionIndex = 64097;
+
 	class FateGameAffixItemPanelDataExt : public ::System::Object
 	{
 	public:

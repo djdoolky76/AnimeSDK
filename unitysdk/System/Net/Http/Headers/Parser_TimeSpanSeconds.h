@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace System::Net::Http::Headers
 {
+	inline static constexpr unsigned int Parser_TimeSpanSeconds_TypeDefinitionIndex = 3818;
+
 	class Parser_TimeSpanSeconds : public ::System::Object
 	{
 	public:

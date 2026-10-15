@@ -4,6 +4,8 @@
 
 namespace System::Diagnostics::Tracing
 {
+	inline static constexpr unsigned int ConcurrentSet_2_TypeDefinitionIndex = 1589;
+
 	template <typename T1, typename T2>
 	struct alignas(8) ConcurrentSet_2
 	{

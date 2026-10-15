@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 #define EOIAAMLLCAK_CTOR_OFFSET UNITYSDK_OFFSET(0x155C2210)
 #define EOIAAMLLCAK_JOMAMPAGIHM_OFFSET UNITYSDK_OFFSET(0x155C2100)
 
+inline static constexpr unsigned int EOIAAMLLCAK_TypeDefinitionIndex = 77514;
+
 	class EOIAAMLLCAK : public ::System::Object
 	{
 	public:

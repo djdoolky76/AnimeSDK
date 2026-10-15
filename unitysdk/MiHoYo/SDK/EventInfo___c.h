@@ -10,6 +10,8 @@ namespace System { class Object; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int EventInfo___c_TypeDefinitionIndex = 46369;
+
 	class EventInfo___c : public ::System::Object
 	{
 	public:

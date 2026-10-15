@@ -8,6 +8,8 @@ namespace System { class String; }
 
 #define MBNKFCKGFCN_CTOR_OFFSET UNITYSDK_OFFSET(0x1C924B40)
 
+inline static constexpr unsigned int MBNKFCKGFCN_TypeDefinitionIndex = 42253;
+
 	class MBNKFCKGFCN : public ::System::Object
 	{
 	public:

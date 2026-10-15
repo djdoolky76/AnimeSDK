@@ -25,6 +25,8 @@ namespace System::Collections::Generic { template <typename T> class IEqualityCo
 
 namespace Newtonsoft::Json::Linq
 {
+	inline static constexpr unsigned int JPropertyKeyedCollection_TypeDefinitionIndex = 9753;
+
 	class JPropertyKeyedCollection
 	{
 	public:

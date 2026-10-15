@@ -5,6 +5,8 @@
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int BVHData_TypeDefinitionIndex = 4101;
+
 	struct alignas(8) BVHData
 	{
 		::System::Boolean bLeaf; // 0x10

@@ -6,6 +6,8 @@ class DFGDEHAHLHC;
 
 #define DLHKOOMNNOK_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA2EAC0)
 
+inline static constexpr unsigned int DLHKOOMNNOK_TypeDefinitionIndex = 42177;
+
 	class DLHKOOMNNOK : public ::System::Object
 	{
 	public:

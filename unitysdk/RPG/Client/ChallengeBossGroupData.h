@@ -11,6 +11,8 @@ namespace RPG::GameCore { class ChallengeBossGroupExtraConfigRow; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ChallengeBossGroupData_TypeDefinitionIndex = 63079;
+
 	class ChallengeBossGroupData : public ::RPG::Client::ChallengeGroupData
 	{
 	public:

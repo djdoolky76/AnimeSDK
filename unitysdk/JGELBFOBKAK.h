@@ -5,6 +5,8 @@
 #define JGELBFOBKAK_CTOR_OFFSET UNITYSDK_OFFSET(0x1C6F4FA0)
 #define JGELBFOBKAK_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x1C6F4F60)
 
+inline static constexpr unsigned int JGELBFOBKAK_TypeDefinitionIndex = 36470;
+
 	class JGELBFOBKAK : public ::System::Object
 	{
 	public:

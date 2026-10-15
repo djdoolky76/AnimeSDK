@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SceneConstValueConfig_TypeDefinitionIndex = 19180;
+
 	class SceneConstValueConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

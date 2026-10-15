@@ -36,6 +36,8 @@ namespace UnityEngine { class Transform; }
 #define NIAKMMKHBJI_SET_ROUTERENDERER_OFFSET UNITYSDK_OFFSET(0xBBDC950)
 #define NIAKMMKHBJI_SET_ROUTEVIEW_OFFSET UNITYSDK_OFFSET(0xBBDC970)
 
+inline static constexpr unsigned int NIAKMMKHBJI_TypeDefinitionIndex = 62367;
+
 	class NIAKMMKHBJI : public ::System::Object
 	{
 	public:

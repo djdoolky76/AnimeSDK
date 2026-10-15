@@ -31,6 +31,8 @@ namespace System { class String; }
 #define HFHGPMCHDGL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E56AD80)
 #define HFHGPMCHDGL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E56ADE0)
 
+inline static constexpr unsigned int HFHGPMCHDGL_TypeDefinitionIndex = 25911;
+
 	class HFHGPMCHDGL : public ::System::Object
 	{
 	public:

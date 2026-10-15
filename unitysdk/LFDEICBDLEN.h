@@ -7,6 +7,8 @@ namespace RPG::GameCore { class MarbleRegisterGhostFire; }
 #define LFDEICBDLEN_CTOR_OFFSET UNITYSDK_OFFSET(0x1C90D3E0)
 #define LFDEICBDLEN_KDNAAOHECPD_OFFSET UNITYSDK_OFFSET(0x1C90D3F0)
 
+inline static constexpr unsigned int LFDEICBDLEN_TypeDefinitionIndex = 43118;
+
 	class LFDEICBDLEN : public ::BKABEBEPPJK
 	{
 	public:

@@ -13,6 +13,8 @@ namespace UnityEngine::Timeline { class TimelineClip; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int Emo2DAtlasTrack_TypeDefinitionIndex = 48088;
+
 	class Emo2DAtlasTrack : public ::RPGTools::Timeline::CharacterTrack
 	{
 	public:

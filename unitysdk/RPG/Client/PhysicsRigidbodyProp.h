@@ -17,6 +17,8 @@ namespace UnityEngine { class Rigidbody; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PhysicsRigidbodyProp_TypeDefinitionIndex = 68643;
+
 	class PhysicsRigidbodyProp : public ::UnityEngine::MonoBehaviour
 	{
 	public:

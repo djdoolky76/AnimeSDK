@@ -31,6 +31,8 @@ namespace System { class String; }
 
 namespace Proto
 {
+	inline static constexpr unsigned int UpdateFeatureSwitchScNotify_TypeDefinitionIndex = 32096;
+
 	class UpdateFeatureSwitchScNotify : public ::System::Object
 	{
 	public:

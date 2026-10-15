@@ -28,6 +28,8 @@ namespace UnityEngine { class Gradient; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int Gradient_TypeDefinitionIndex = 4224;
+
 	class Gradient : public ::System::Object
 	{
 	public:

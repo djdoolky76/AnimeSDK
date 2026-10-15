@@ -13,6 +13,8 @@ class EEJNNOAEEFO;
 #define OEJCFPPFKNE_SET_PREV_OFFSET UNITYSDK_OFFSET(0xBE303D0)
 #define OEJCFPPFKNE_SET_PRIORITY_OFFSET UNITYSDK_OFFSET(0xBE30410)
 
+inline static constexpr unsigned int OEJCFPPFKNE_TypeDefinitionIndex = 56219;
+
 	class OEJCFPPFKNE
 	{
 	public:

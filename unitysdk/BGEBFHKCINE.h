@@ -27,6 +27,8 @@ namespace System { class String; }
 #define BGEBFHKCINE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EA72030)
 #define BGEBFHKCINE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EA72090)
 
+inline static constexpr unsigned int BGEBFHKCINE_TypeDefinitionIndex = 27425;
+
 	class BGEBFHKCINE : public ::System::Object
 	{
 	public:

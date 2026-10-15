@@ -8,6 +8,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define DBLHNIEJILB_ONSKIP_OFFSET UNITYSDK_OFFSET(0xE22FB30)
 #define DBLHNIEJILB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xE22F980)
 
+inline static constexpr unsigned int DBLHNIEJILB_TypeDefinitionIndex = 53240;
+
 	class DBLHNIEJILB
 	{
 	public:

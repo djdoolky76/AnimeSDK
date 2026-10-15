@@ -18,6 +18,8 @@ namespace System::Xml::XPath { class XPathDocument; }
 
 namespace MS::Internal::Xml::Cache
 {
+	inline static constexpr unsigned int XPathNodeInfoAtom_TypeDefinitionIndex = 1784;
+
 	class XPathNodeInfoAtom : public ::System::Object
 	{
 	public:

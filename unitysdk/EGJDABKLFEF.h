@@ -9,6 +9,8 @@ namespace RPG::GameCore { class ChenLingFesPosition; }
 #define EGJDABKLFEF_CDFLBJGENDB_OFFSET UNITYSDK_OFFSET(0x1CA50350)
 #define EGJDABKLFEF_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA503F0)
 
+inline static constexpr unsigned int EGJDABKLFEF_TypeDefinitionIndex = 43708;
+
 	class EGJDABKLFEF : public ::System::Object
 	{
 	public:

@@ -37,6 +37,8 @@ namespace UnityEngine { class Rigidbody; }
 
 namespace RPG::Client::LittleGame::FiveDim
 {
+	inline static constexpr unsigned int FiveDimPropPhysicsProxyView_TypeDefinitionIndex = 77206;
+
 	class FiveDimPropPhysicsProxyView : public ::RPG::Client::LittleGame::FiveDim::FiveDimView
 	{
 	public:

@@ -7,6 +7,8 @@ namespace System::ComponentModel { class IExtenderProvider; }
 
 namespace System::ComponentModel
 {
+	inline static constexpr unsigned int ExtenderProvidedPropertyAttribute_TypeDefinitionIndex = 2597;
+
 	class ExtenderProvidedPropertyAttribute : public ::System::Attribute
 	{
 	public:

@@ -4,6 +4,8 @@
 
 #define MCEIIMHJGAK_CTOR_OFFSET UNITYSDK_OFFSET(0x1C924C20)
 
+inline static constexpr unsigned int MCEIIMHJGAK_TypeDefinitionIndex = 43360;
+
 	class MCEIIMHJGAK : public ::System::Object
 	{
 	public:

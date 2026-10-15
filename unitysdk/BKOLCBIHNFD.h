@@ -37,6 +37,8 @@ namespace RPG::GameCore { class RogueConditionConfigBase; }
 #define BKOLCBIHNFD_PLMPBNAEIGN_OFFSET UNITYSDK_OFFSET(0x1D821860)
 #define BKOLCBIHNFD_POMEKLECEMK_OFFSET UNITYSDK_OFFSET(0x1D821A20)
 
+inline static constexpr unsigned int BKOLCBIHNFD_TypeDefinitionIndex = 19791;
+
 	class BKOLCBIHNFD : public ::System::Object
 	{
 	public:

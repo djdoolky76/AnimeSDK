@@ -28,6 +28,8 @@ namespace System { class String; }
 #define GCIPPFFMEDI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E43EB40)
 #define GCIPPFFMEDI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E43EBA0)
 
+inline static constexpr unsigned int GCIPPFFMEDI_TypeDefinitionIndex = 31575;
+
 	class GCIPPFFMEDI : public ::System::Object
 	{
 	public:

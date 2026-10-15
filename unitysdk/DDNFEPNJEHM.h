@@ -31,6 +31,8 @@ namespace System { class String; }
 #define DDNFEPNJEHM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E189480)
 #define DDNFEPNJEHM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E1894E0)
 
+inline static constexpr unsigned int DDNFEPNJEHM_TypeDefinitionIndex = 33960;
+
 	class DDNFEPNJEHM : public ::System::Object
 	{
 	public:

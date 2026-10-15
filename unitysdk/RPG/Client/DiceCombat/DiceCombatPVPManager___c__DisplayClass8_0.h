@@ -15,6 +15,8 @@ namespace System { template <typename T> class Func_1; }
 
 namespace RPG::Client::DiceCombat
 {
+	inline static constexpr unsigned int DiceCombatPVPManager___c__DisplayClass8_0_TypeDefinitionIndex = 76141;
+
 	class DiceCombatPVPManager___c__DisplayClass8_0 : public ::System::Object
 	{
 	public:

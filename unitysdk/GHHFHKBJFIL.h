@@ -11,6 +11,8 @@ namespace System { class String; }
 #define GHHFHKBJFIL_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CE467D0)
 #define GHHFHKBJFIL_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CE46780)
 
+inline static constexpr unsigned int GHHFHKBJFIL_TypeDefinitionIndex = 22324;
+
 	class GHHFHKBJFIL : public ::RPG::GameCore::AdvWaitingEventBase
 	{
 	public:

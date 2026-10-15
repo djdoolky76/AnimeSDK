@@ -16,6 +16,8 @@ namespace UnityEngine { class Collision; }
 #define DNELLGPEAED_MLJLMOFIJFL_OFFSET UNITYSDK_OFFSET(0x1CA2F300)
 #define DNELLGPEAED_ONALLOC_OFFSET UNITYSDK_OFFSET(0x1CA2EFA0)
 
+inline static constexpr unsigned int DNELLGPEAED_TypeDefinitionIndex = 43542;
+
 	class DNELLGPEAED : public ::NOOHPODHIAA
 	{
 	public:

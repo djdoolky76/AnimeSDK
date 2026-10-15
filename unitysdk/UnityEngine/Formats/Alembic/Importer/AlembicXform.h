@@ -14,6 +14,8 @@
 
 namespace UnityEngine::Formats::Alembic::Importer
 {
+	inline static constexpr unsigned int AlembicXform_TypeDefinitionIndex = 45875;
+
 	class AlembicXform : public ::UnityEngine::Formats::Alembic::Importer::AlembicElement
 	{
 	public:

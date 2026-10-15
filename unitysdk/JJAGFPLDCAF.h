@@ -27,6 +27,8 @@ namespace System { class String; }
 #define JJAGFPLDCAF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E757E90)
 #define JJAGFPLDCAF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E757EF0)
 
+inline static constexpr unsigned int JJAGFPLDCAF_TypeDefinitionIndex = 31264;
+
 	class JJAGFPLDCAF : public ::System::Object
 	{
 	public:

@@ -17,6 +17,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define OKMFNNDDCGA_TICK_OFFSET UNITYSDK_OFFSET(0xBEEE2A0)
 #define OKMFNNDDCGA__ONINITOWNERREF_OFFSET UNITYSDK_OFFSET(0xBEEE590)
 
+inline static constexpr unsigned int OKMFNNDDCGA_TypeDefinitionIndex = 57003;
+
 	class OKMFNNDDCGA : public ::RPG::GameCore::GameComponentBase
 	{
 	public:

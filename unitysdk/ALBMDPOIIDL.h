@@ -28,6 +28,8 @@ namespace System { class String; }
 #define ALBMDPOIIDL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E3D3310)
 #define ALBMDPOIIDL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E3D3370)
 
+inline static constexpr unsigned int ALBMDPOIIDL_TypeDefinitionIndex = 33533;
+
 	class ALBMDPOIIDL : public ::System::Object
 	{
 	public:

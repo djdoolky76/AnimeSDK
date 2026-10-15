@@ -14,6 +14,8 @@ namespace System { class String; }
 #define KLCNPNHFKDI_JJIPEOOFHDN_OFFSET UNITYSDK_OFFSET(0xB4E1B80)
 #define KLCNPNHFKDI_MNLPJLBAJKJ_OFFSET UNITYSDK_OFFSET(0xB4E1BD0)
 
+inline static constexpr unsigned int KLCNPNHFKDI_TypeDefinitionIndex = 71584;
+
 	class KLCNPNHFKDI : public ::System::Object
 	{
 	public:

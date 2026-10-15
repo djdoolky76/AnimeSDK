@@ -13,6 +13,8 @@
 
 namespace InControl
 {
+	inline static constexpr unsigned int InputRange_TypeDefinitionIndex = 40826;
+
 	struct alignas(4) InputRange
 	{
 		::System::Single Value0; // 0x10

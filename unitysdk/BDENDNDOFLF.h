@@ -56,6 +56,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define BDENDNDOFLF_ODBMAOOOGHP_OFFSET UNITYSDK_OFFSET(0x162F57E0)
 #define BDENDNDOFLF_PGNEIMEGPOJ_OFFSET UNITYSDK_OFFSET(0x162F5220)
 
+inline static constexpr unsigned int BDENDNDOFLF_TypeDefinitionIndex = 57038;
+
 	class BDENDNDOFLF : public ::System::Object
 	{
 	public:

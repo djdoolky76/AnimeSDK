@@ -112,6 +112,8 @@ namespace UnityEngine { class Transform; }
 #define LPNIPNDEDDL_PKJKDNHIPHB_OFFSET UNITYSDK_OFFSET(0xB82C3A0)
 #define LPNIPNDEDDL_PMANLNLHICC_OFFSET UNITYSDK_OFFSET(0xB833C40)
 
+inline static constexpr unsigned int LPNIPNDEDDL_TypeDefinitionIndex = 76892;
+
 	class LPNIPNDEDDL : public ::System::Object
 	{
 	public:

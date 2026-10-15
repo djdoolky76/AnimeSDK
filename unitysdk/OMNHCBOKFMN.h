@@ -7,6 +7,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define OMNHCBOKFMN_CCTOR_OFFSET UNITYSDK_OFFSET(0xBF349F0)
 #define OMNHCBOKFMN_CTOR_OFFSET UNITYSDK_OFFSET(0xBF349E0)
 
+inline static constexpr unsigned int OMNHCBOKFMN_TypeDefinitionIndex = 73773;
+
 	class OMNHCBOKFMN : public ::System::Object
 	{
 	public:

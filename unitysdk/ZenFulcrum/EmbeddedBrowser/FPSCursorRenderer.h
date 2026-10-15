@@ -19,6 +19,8 @@ namespace ZenFulcrum::EmbeddedBrowser { class FPSCursorRenderer; }
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
+	inline static constexpr unsigned int FPSCursorRenderer_TypeDefinitionIndex = 39478;
+
 	class FPSCursorRenderer : public ::UnityEngine::MonoBehaviour
 	{
 	public:

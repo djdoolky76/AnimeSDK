@@ -18,6 +18,8 @@ namespace UnityEngine::UI { class LayoutRebuilder; }
 
 namespace UnityEngine::UI
 {
+	inline static constexpr unsigned int LayoutRebuilder___c_TypeDefinitionIndex = 6785;
+
 	class LayoutRebuilder___c : public ::System::Object
 	{
 	public:

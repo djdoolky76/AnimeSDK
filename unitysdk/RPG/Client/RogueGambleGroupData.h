@@ -31,6 +31,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueGambleGroupData_TypeDefinitionIndex = 67230;
+
 	class RogueGambleGroupData : public ::System::Object
 	{
 	public:

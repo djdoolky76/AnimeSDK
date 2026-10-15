@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DisableSelectionProp_TypeDefinitionIndex = 22024;
+
 	class DisableSelectionProp : public ::RPG::GameCore::TaskConfig
 	{
 	public:

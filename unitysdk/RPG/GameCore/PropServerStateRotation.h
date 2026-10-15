@@ -9,6 +9,8 @@ namespace RPG::GameCore { class PropServerStateRotation; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PropServerStateRotation_TypeDefinitionIndex = 20350;
+
 	class PropServerStateRotation : public ::RPG::GameCore::JsonConfig
 	{
 	public:

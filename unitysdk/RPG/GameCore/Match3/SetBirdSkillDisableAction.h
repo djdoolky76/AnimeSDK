@@ -10,6 +10,8 @@ namespace RPG::GameCore::Match3 { class SetBirdSkillDisableAction; }
 
 namespace RPG::GameCore::Match3
 {
+	inline static constexpr unsigned int SetBirdSkillDisableAction_TypeDefinitionIndex = 24909;
+
 	class SetBirdSkillDisableAction : public ::RPG::GameCore::Match3::Match3ActionBase
 	{
 	public:

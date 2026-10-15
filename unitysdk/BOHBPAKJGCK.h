@@ -6,6 +6,8 @@ class BOHBPAKJGCK;
 #define BOHBPAKJGCK_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xC191280)
 #define BOHBPAKJGCK_CTOR_OFFSET UNITYSDK_OFFSET(0xC191330)
 
+inline static constexpr unsigned int BOHBPAKJGCK_TypeDefinitionIndex = 79402;
+
 	class BOHBPAKJGCK : public ::System::Object
 	{
 	public:

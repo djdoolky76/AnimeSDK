@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GridFightModifierAddNpcAndUnDressEquipConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightModifierAddNpcAndUnDressEquipConfig_TypeDefinitionIndex = 19429;
+
 	class GridFightModifierAddNpcAndUnDressEquipConfig : public ::RPG::GameCore::GridFightModifierConfigBase
 	{
 	public:

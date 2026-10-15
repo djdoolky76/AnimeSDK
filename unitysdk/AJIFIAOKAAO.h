@@ -14,6 +14,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define AJIFIAOKAAO_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x12CBE680)
 #define AJIFIAOKAAO_TICK_OFFSET UNITYSDK_OFFSET(0x12CBE6D0)
 
+inline static constexpr unsigned int AJIFIAOKAAO_TypeDefinitionIndex = 58119;
+
 	class AJIFIAOKAAO : public ::GELIALJDFBL
 	{
 	public:

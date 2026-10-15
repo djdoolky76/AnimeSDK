@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightShowRightCutInParam_TypeDefinitionIndex = 58145;
+
 	class GridFightShowRightCutInParam : public ::System::Object
 	{
 	public:

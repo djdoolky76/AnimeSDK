@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T> class IEqualityCo
 
 namespace Cysharp::Threading::Tasks
 {
+	inline static constexpr unsigned int UniTask_WaitUntilValueChangedStandardObjectPromise_2_TypeDefinitionIndex = 38264;
+
 	template <typename T1, typename T2>
 	class UniTask_WaitUntilValueChangedStandardObjectPromise_2 : public ::System::Object
 	{

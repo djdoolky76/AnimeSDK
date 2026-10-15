@@ -29,6 +29,8 @@ namespace System { class Nullable; }
 #define LCJPDOOLBEC_PMJOGEJADNL_OFFSET UNITYSDK_OFFSET(0xB616E10)
 #define LCJPDOOLBEC_SET_ONELATIONPOINTCHANGED_OFFSET UNITYSDK_OFFSET(0xB617EE0)
 
+inline static constexpr unsigned int LCJPDOOLBEC_TypeDefinitionIndex = 56055;
+
 	class LCJPDOOLBEC : public ::System::Object
 	{
 	public:

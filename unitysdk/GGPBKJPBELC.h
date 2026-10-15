@@ -7,6 +7,8 @@ namespace Proto { class MonopolyActionResult; }
 #define GGPBKJPBELC_CTOR_OFFSET UNITYSDK_OFFSET(0x15A12870)
 #define GGPBKJPBELC_TRIGGER_OFFSET UNITYSDK_OFFSET(0x15A12900)
 
+inline static constexpr unsigned int GGPBKJPBELC_TypeDefinitionIndex = 66241;
+
 	class GGPBKJPBELC : public ::System::Object
 	{
 	public:

@@ -148,6 +148,8 @@ namespace UnityEngine { class Transform; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int Transform_TypeDefinitionIndex = 4409;
+
 	class Transform : public ::UnityEngine::Component
 	{
 	public:

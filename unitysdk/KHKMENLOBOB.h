@@ -8,6 +8,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define KHKMENLOBOB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB40BB40)
 #define KHKMENLOBOB_SETNEXTTASK_OFFSET UNITYSDK_OFFSET(0xB40BD10)
 
+inline static constexpr unsigned int KHKMENLOBOB_TypeDefinitionIndex = 52709;
+
 	class KHKMENLOBOB
 	{
 	public:

@@ -4,6 +4,8 @@
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int HAPI_CurveInfo_TypeDefinitionIndex = 40514;
+
 	struct alignas(4) HAPI_CurveInfo
 	{
 		::HoudiniEngineUnity::HAPI_CurveType curveType; // 0x10

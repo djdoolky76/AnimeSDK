@@ -28,6 +28,8 @@ namespace System { class String; }
 #define IMPIBDBDHCA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E6BB680)
 #define IMPIBDBDHCA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E6BB6E0)
 
+inline static constexpr unsigned int IMPIBDBDHCA_TypeDefinitionIndex = 33994;
+
 	class IMPIBDBDHCA : public ::System::Object
 	{
 	public:

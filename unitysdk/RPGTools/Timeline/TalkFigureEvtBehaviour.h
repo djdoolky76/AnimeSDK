@@ -9,6 +9,8 @@ namespace System { class String; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int TalkFigureEvtBehaviour_TypeDefinitionIndex = 48385;
+
 	class TalkFigureEvtBehaviour : public ::RPGTools::Timeline::CustomEventBehaviour
 	{
 	public:

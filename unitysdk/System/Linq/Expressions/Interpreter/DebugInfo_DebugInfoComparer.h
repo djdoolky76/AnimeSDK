@@ -8,6 +8,8 @@ namespace System::Linq::Expressions::Interpreter { class DebugInfo; }
 
 namespace System::Linq::Expressions::Interpreter
 {
+	inline static constexpr unsigned int DebugInfo_DebugInfoComparer_TypeDefinitionIndex = 3483;
+
 	class DebugInfo_DebugInfoComparer : public ::System::Object
 	{
 	public:

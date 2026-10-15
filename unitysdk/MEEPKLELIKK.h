@@ -33,6 +33,8 @@ namespace System { class String; }
 #define MEEPKLELIKK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EA0A910)
 #define MEEPKLELIKK_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EA0A970)
 
+inline static constexpr unsigned int MEEPKLELIKK_TypeDefinitionIndex = 34946;
+
 	class MEEPKLELIKK : public ::System::Object
 	{
 	public:

@@ -19,6 +19,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define BANPFFNEHCP_POBNPMKPBFK_OFFSET UNITYSDK_OFFSET(0x15E7E3F0)
 #define BANPFFNEHCP__ADDPACKETHANDLERS_OFFSET UNITYSDK_OFFSET(0x15E7DC10)
 
+inline static constexpr unsigned int BANPFFNEHCP_TypeDefinitionIndex = 68252;
+
 	class BANPFFNEHCP : public ::RPG::Client::BaseModule
 	{
 	public:

@@ -22,6 +22,8 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyLi
 #define CKHDHADBMCF_RECEIVEMESSAGE_OFFSET UNITYSDK_OFFSET(0xD75B980)
 #define CKHDHADBMCF__ONDESTROYED_OFFSET UNITYSDK_OFFSET(0xD75B9F0)
 
+inline static constexpr unsigned int CKHDHADBMCF_TypeDefinitionIndex = 75278;
+
 	class CKHDHADBMCF : public ::RPG::Client::BaseGameFlowContext
 	{
 	public:

@@ -11,6 +11,8 @@ namespace RPG::GameCore { class ProjectileData; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdventureFireProjectile_TypeDefinitionIndex = 20210;
+
 	class AdventureFireProjectile : public ::RPG::GameCore::AdventureFireProjectileBase
 	{
 	public:

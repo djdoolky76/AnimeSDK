@@ -7,6 +7,8 @@ namespace System { class Object; }
 
 namespace IRIClusterBuilder
 {
+	inline static constexpr unsigned int IRITextureArray_TypeDefinitionIndex = 47751;
+
 	class IRITextureArray : public ::UnityEngine::ScriptableObject
 	{
 	public:

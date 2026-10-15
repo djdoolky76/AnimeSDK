@@ -10,6 +10,8 @@ namespace UnityEngine { class Animator; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int StateNormalizedTime_TypeDefinitionIndex = 68831;
+
 	class StateNormalizedTime : public ::UnityEngine::StateMachineBehaviour
 	{
 	public:

@@ -19,6 +19,8 @@ class IFEGGGECMCG;
 #define IFEGGGECMCG_OPAFKKLJKNC_OFFSET UNITYSDK_OFFSET(0x15F0BC40)
 #define IFEGGGECMCG_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0x15F0BEC0)
 
+inline static constexpr unsigned int IFEGGGECMCG_TypeDefinitionIndex = 72126;
+
 	class IFEGGGECMCG : public ::System::Object
 	{
 	public:

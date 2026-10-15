@@ -6,6 +6,8 @@
 
 namespace System::Reflection::Emit
 {
+	inline static constexpr unsigned int UnmanagedMarshal_TypeDefinitionIndex = 1768;
+
 	class UnmanagedMarshal : public ::System::Object
 	{
 	public:

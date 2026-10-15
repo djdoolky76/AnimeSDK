@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ShowGridFightProgressToWhitebox; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ShowGridFightProgressToWhitebox_TypeDefinitionIndex = 23302;
+
 	class ShowGridFightProgressToWhitebox : public ::RPG::GameCore::TaskConfig
 	{
 	public:

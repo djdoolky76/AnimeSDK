@@ -11,6 +11,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelGridFightWaveProgressChange_TypeDefinitionIndex = 56736;
+
 	class LevelGridFightWaveProgressChange : public ::CMPGEAFHHDC
 	{
 	public:

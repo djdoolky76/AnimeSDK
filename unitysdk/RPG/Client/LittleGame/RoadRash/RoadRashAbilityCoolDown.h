@@ -6,6 +6,8 @@
 
 namespace RPG::Client::LittleGame::RoadRash
 {
+	inline static constexpr unsigned int RoadRashAbilityCoolDown_TypeDefinitionIndex = 42884;
+
 	class RoadRashAbilityCoolDown : public ::System::Object
 	{
 	public:

@@ -18,6 +18,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::TrainParty
 {
+	inline static constexpr unsigned int TrainPartyMeetingPreviewInfo_MeetingPreviewContext_TypeDefinitionIndex = 74336;
+
 	class TrainPartyMeetingPreviewInfo_MeetingPreviewContext : public ::System::Object
 	{
 	public:

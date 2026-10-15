@@ -38,6 +38,8 @@ namespace System { class String; }
 #define ICBOAPKOBOH_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E61EC70)
 #define ICBOAPKOBOH_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E61ECD0)
 
+inline static constexpr unsigned int ICBOAPKOBOH_TypeDefinitionIndex = 32557;
+
 	class ICBOAPKOBOH : public ::System::Object
 	{
 	public:

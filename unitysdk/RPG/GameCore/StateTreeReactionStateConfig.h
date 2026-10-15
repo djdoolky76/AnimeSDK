@@ -12,6 +12,8 @@ namespace RPG::GameCore { class StateTreeTransitionConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int StateTreeReactionStateConfig_TypeDefinitionIndex = 15500;
+
 	class StateTreeReactionStateConfig : public ::RPG::GameCore::StateTreeStateBaseConfig
 	{
 	public:

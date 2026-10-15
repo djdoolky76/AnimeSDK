@@ -14,6 +14,8 @@ namespace System { class Nullable; }
 #define CLDNEBABIDM_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xD77B7A0)
 #define CLDNEBABIDM_TICK_OFFSET UNITYSDK_OFFSET(0xD77B7F0)
 
+inline static constexpr unsigned int CLDNEBABIDM_TypeDefinitionIndex = 55498;
+
 	class CLDNEBABIDM : public ::GELIALJDFBL
 	{
 	public:

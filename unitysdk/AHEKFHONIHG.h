@@ -6,6 +6,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 #define AHEKFHONIHG_EANLBKFHHAP_OFFSET UNITYSDK_OFFSET(0xEB7E0B0)
 
+inline static constexpr unsigned int AHEKFHONIHG_TypeDefinitionIndex = 76871;
+
 	class AHEKFHONIHG : public ::System::Object
 	{
 	public:

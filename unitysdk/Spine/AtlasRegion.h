@@ -16,6 +16,8 @@ namespace System { class String; }
 
 namespace Spine
 {
+	inline static constexpr unsigned int AtlasRegion_TypeDefinitionIndex = 39647;
+
 	class AtlasRegion : public ::Spine::TextureRegion
 	{
 	public:

@@ -31,6 +31,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ButtonListTrigger_TypeDefinitionIndex = 57502;
+
 	class ButtonListTrigger : public ::EDLDHDMLJDH
 	{
 	public:

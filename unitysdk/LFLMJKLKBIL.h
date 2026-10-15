@@ -27,6 +27,8 @@ namespace System { class String; }
 #define LFLMJKLKBIL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E945020)
 #define LFLMJKLKBIL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E945080)
 
+inline static constexpr unsigned int LFLMJKLKBIL_TypeDefinitionIndex = 33032;
+
 	class LFLMJKLKBIL : public ::System::Object
 	{
 	public:

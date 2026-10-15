@@ -16,6 +16,8 @@ namespace RPGTools::Timeline { class EmoEyeCtrlOffsetData; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int EmoEyeCtrlOffsetData_TypeDefinitionIndex = 48110;
+
 	class EmoEyeCtrlOffsetData : public ::System::Object
 	{
 	public:

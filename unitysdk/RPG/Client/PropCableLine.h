@@ -30,6 +30,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PropCableLine_TypeDefinitionIndex = 68768;
+
 	class PropCableLine : public ::UnityEngine::MonoBehaviour
 	{
 	public:

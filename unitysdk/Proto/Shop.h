@@ -43,6 +43,8 @@ namespace System { class String; }
 
 namespace Proto
 {
+	inline static constexpr unsigned int Shop_TypeDefinitionIndex = 34171;
+
 	class Shop : public ::System::Object
 	{
 	public:

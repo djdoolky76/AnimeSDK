@@ -43,6 +43,8 @@ namespace System { class String; }
 #define JMLEGINPCGE___ONFADEOUT_B__14_0_OFFSET UNITYSDK_OFFSET(0xB270200)
 #define JMLEGINPCGE___ONHIDE_B__12_0_OFFSET UNITYSDK_OFFSET(0xB2701F0)
 
+inline static constexpr unsigned int JMLEGINPCGE_TypeDefinitionIndex = 69254;
+
 	class JMLEGINPCGE : public ::LAJCPEFEOPN
 	{
 	public:

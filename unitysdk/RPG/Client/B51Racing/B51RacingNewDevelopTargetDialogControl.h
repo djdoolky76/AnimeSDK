@@ -27,6 +27,8 @@ namespace RPG::UINavigation { class UINavigationZoneManager; }
 
 namespace RPG::Client::B51Racing
 {
+	inline static constexpr unsigned int B51RacingNewDevelopTargetDialogControl_TypeDefinitionIndex = 81827;
+
 	class B51RacingNewDevelopTargetDialogControl : public ::Sofa::BaseSofaControl
 	{
 	public:

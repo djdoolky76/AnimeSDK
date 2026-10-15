@@ -25,6 +25,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 #define EADIJOHAPHK_SET_ISENABLE_OFFSET UNITYSDK_OFFSET(0x12671EF0)
 #define EADIJOHAPHK__LOADINDEXINFO_OFFSET UNITYSDK_OFFSET(0x12671F00)
 
+inline static constexpr unsigned int EADIJOHAPHK_TypeDefinitionIndex = 59460;
+
 	class EADIJOHAPHK
 	{
 	public:

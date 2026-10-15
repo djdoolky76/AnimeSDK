@@ -4,6 +4,8 @@
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int MHYSDKC_AdjustConfigInfo_TypeDefinitionIndex = 46207;
+
 	class MHYSDKC_AdjustConfigInfo : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@ namespace UnityEngine::UI { class Image; }
 
 namespace RPG::Client::UI::UIStateCtrl
 {
+	inline static constexpr unsigned int LoadSpritToImageData_TypeDefinitionIndex = 74049;
+
 	class LoadSpritToImageData : public ::System::Object
 	{
 	public:

@@ -50,6 +50,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ActivityMarbleUtils_TypeDefinitionIndex = 65794;
+
 	class ActivityMarbleUtils : public ::System::Object
 	{
 	public:

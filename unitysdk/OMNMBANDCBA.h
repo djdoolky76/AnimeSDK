@@ -34,6 +34,8 @@ namespace System { class String; }
 #define OMNMBANDCBA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DEBD360)
 #define OMNMBANDCBA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DEBD3C0)
 
+inline static constexpr unsigned int OMNMBANDCBA_TypeDefinitionIndex = 33311;
+
 	class OMNMBANDCBA : public ::System::Object
 	{
 	public:

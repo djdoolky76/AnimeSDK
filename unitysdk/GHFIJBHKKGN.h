@@ -24,6 +24,8 @@ namespace System::Reflection { class PropertyInfo; }
 #define GHFIJBHKKGN_IPCAAJCGJPC_OFFSET UNITYSDK_OFFSET(0x1EC6E8D0)
 #define GHFIJBHKKGN_LMCACFIGFGJ_OFFSET UNITYSDK_OFFSET(0x1EC6E7A0)
 
+inline static constexpr unsigned int GHFIJBHKKGN_TypeDefinitionIndex = 44059;
+
 	class GHFIJBHKKGN : public ::System::Object
 	{
 	public:

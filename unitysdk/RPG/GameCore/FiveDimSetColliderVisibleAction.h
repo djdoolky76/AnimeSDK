@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimSetColliderVisibleAction_TypeDefinitionIndex = 18682;
+
 	class FiveDimSetColliderVisibleAction : public ::RPG::GameCore::FiveDimBaseEventAction
 	{
 	public:

@@ -32,6 +32,8 @@ namespace System { class String; }
 #define ECKAIIJPAON_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E253B20)
 #define ECKAIIJPAON_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E253B80)
 
+inline static constexpr unsigned int ECKAIIJPAON_TypeDefinitionIndex = 31857;
+
 	class ECKAIIJPAON : public ::System::Object
 	{
 	public:

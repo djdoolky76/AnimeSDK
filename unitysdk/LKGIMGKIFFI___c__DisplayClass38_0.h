@@ -11,6 +11,8 @@ namespace RPG::Client::LittleGame::FiveDim { class FiveDimMonoCamera; }
 #define LKGIMGKIFFI___C__DISPLAYCLASS38_0__EXECUTE_B__0_OFFSET UNITYSDK_OFFSET(0xB747180)
 #define LKGIMGKIFFI___C__DISPLAYCLASS38_0__EXECUTE_B__1_OFFSET UNITYSDK_OFFSET(0xB7472A0)
 
+inline static constexpr unsigned int LKGIMGKIFFI___c__DisplayClass38_0_TypeDefinitionIndex = 76762;
+
 	class LKGIMGKIFFI___c__DisplayClass38_0 : public ::System::Object
 	{
 	public:

@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LookAt_TypeDefinitionIndex = 22872;
+
 	class LookAt : public ::RPG::GameCore::TaskConfig
 	{
 	public:

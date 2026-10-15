@@ -3,6 +3,8 @@
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int HEU_HoudiniAsset_AssetCookResult_TypeDefinitionIndex = 40395;
+
 	enum class HEU_HoudiniAsset_AssetCookResult : ::System::Int32
 	{
 		NONE = 0,

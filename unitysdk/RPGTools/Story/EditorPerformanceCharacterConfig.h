@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace RPGTools::Story
 {
+	inline static constexpr unsigned int EditorPerformanceCharacterConfig_TypeDefinitionIndex = 48965;
+
 	class EditorPerformanceCharacterConfig : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace System::Xml::Serialization { class XmlSerializerImplementation; }
 
 namespace System::Xml::Serialization
 {
+	inline static constexpr unsigned int XmlSerializer_SerializerData_TypeDefinitionIndex = 2041;
+
 	class XmlSerializer_SerializerData : public ::System::Object
 	{
 	public:

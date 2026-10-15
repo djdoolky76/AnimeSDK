@@ -26,6 +26,8 @@ namespace System { class Object; }
 #define GJLPOBKPHCO_LECJLFNPCPI_OFFSET UNITYSDK_OFFSET(0x3C39180)
 #define GJLPOBKPHCO_NHCFLDCDLCP_OFFSET UNITYSDK_OFFSET(0x1CE56F60)
 
+inline static constexpr unsigned int GJLPOBKPHCO_TypeDefinitionIndex = 10652;
+
 	struct alignas(8) GJLPOBKPHCO
 	{
 		::LELCKJPOPAO* BEHHICMOFIE; // 0x10

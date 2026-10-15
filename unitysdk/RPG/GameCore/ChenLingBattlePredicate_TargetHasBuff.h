@@ -13,6 +13,8 @@ namespace RPG::GameCore { class ChenLingBattlePredicate_TargetHasBuff; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChenLingBattlePredicate_TargetHasBuff_TypeDefinitionIndex = 15812;
+
 	class ChenLingBattlePredicate_TargetHasBuff : public ::RPG::GameCore::BaseChenLingBattlePredicate
 	{
 	public:

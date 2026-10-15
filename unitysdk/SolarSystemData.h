@@ -25,6 +25,8 @@ class VisibilityConfig;
 #define SOLARSYSTEMDATA_MPMHBLOEHFF_OFFSET UNITYSDK_OFFSET(0xE98A120)
 #define SOLARSYSTEMDATA_NEDDHKOLNAG_OFFSET UNITYSDK_OFFSET(0xE989F90)
 
+inline static constexpr unsigned int SolarSystemData_TypeDefinitionIndex = 47308;
+
 	class SolarSystemData : public ::System::Object
 	{
 	public:

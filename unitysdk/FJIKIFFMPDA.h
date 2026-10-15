@@ -15,6 +15,8 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 #define FJIKIFFMPDA_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x157CFBC0)
 #define FJIKIFFMPDA_TEARDOWN_OFFSET UNITYSDK_OFFSET(0x157CFC00)
 
+inline static constexpr unsigned int FJIKIFFMPDA_TypeDefinitionIndex = 76827;
+
 	class FJIKIFFMPDA : public ::System::Object
 	{
 	public:

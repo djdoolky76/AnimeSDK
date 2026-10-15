@@ -8,6 +8,8 @@ namespace UnityEngine { class Transform; }
 #define MLBIMOIEBGC_CTOR_OFFSET UNITYSDK_OFFSET(0xB9A51E0)
 #define MLBIMOIEBGC_ELINOHABNCJ_OFFSET UNITYSDK_OFFSET(0xB9A51F0)
 
+inline static constexpr unsigned int MLBIMOIEBGC_TypeDefinitionIndex = 68999;
+
 	class MLBIMOIEBGC : public ::AAHOFEAIMFO
 	{
 	public:

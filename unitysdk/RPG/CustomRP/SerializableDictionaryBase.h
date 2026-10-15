@@ -6,6 +6,8 @@
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int SerializableDictionaryBase_TypeDefinitionIndex = 51871;
+
 	class SerializableDictionaryBase : public ::System::Object
 	{
 	public:

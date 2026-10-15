@@ -8,6 +8,8 @@ class LJDKNPLNBOA;
 #define KAGDNGHDNNN_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xB2D64F0)
 #define KAGDNGHDNNN_CTOR_OFFSET UNITYSDK_OFFSET(0xB2D6580)
 
+inline static constexpr unsigned int KAGDNGHDNNN_TypeDefinitionIndex = 79492;
+
 	class KAGDNGHDNNN : public ::System::Object
 	{
 	public:

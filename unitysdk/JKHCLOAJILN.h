@@ -4,6 +4,8 @@
 
 #define JKHCLOAJILN_CTOR_OFFSET UNITYSDK_OFFSET(0xB21C7A0)
 
+inline static constexpr unsigned int JKHCLOAJILN_TypeDefinitionIndex = 61197;
+
 	class JKHCLOAJILN : public ::HDJIGMBHENE
 	{
 	public:

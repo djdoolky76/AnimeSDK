@@ -18,6 +18,8 @@ namespace System { class String; }
 #define HOMDJMMOCJK_OEFNOOMCIIH_OFFSET UNITYSDK_OFFSET(0x15DBBAE0)
 #define HOMDJMMOCJK_SET_CURRENTPHASENAME_OFFSET UNITYSDK_OFFSET(0x15DBBBC0)
 
+inline static constexpr unsigned int HOMDJMMOCJK_TypeDefinitionIndex = 56960;
+
 	class HOMDJMMOCJK : public ::RPG::GameCore::GameComponentBase
 	{
 	public:

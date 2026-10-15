@@ -29,6 +29,8 @@ namespace System { class String; }
 #define PPNADCDDNNP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DFDF220)
 #define PPNADCDDNNP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DFDF280)
 
+inline static constexpr unsigned int PPNADCDDNNP_TypeDefinitionIndex = 31217;
+
 	class PPNADCDDNNP : public ::System::Object
 	{
 	public:

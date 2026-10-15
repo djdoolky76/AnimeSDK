@@ -18,6 +18,8 @@ namespace System { class String; }
 
 namespace RPG::Client::ActivityHipplen
 {
+	inline static constexpr unsigned int ActivityHipplenInteractPropData_TypeDefinitionIndex = 75576;
+
 	class ActivityHipplenInteractPropData : public ::System::Object
 	{
 	public:

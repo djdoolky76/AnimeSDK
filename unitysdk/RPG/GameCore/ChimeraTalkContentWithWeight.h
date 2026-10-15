@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ChimeraTalkContentWithWeight; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChimeraTalkContentWithWeight_TypeDefinitionIndex = 15854;
+
 	class ChimeraTalkContentWithWeight : public ::RPG::GameCore::ChimeraTalkContent
 	{
 	public:

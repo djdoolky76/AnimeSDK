@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int GBJHOMFKNDE_RF_TransformComponent_TypeDefinitionIndex = 36845;
+
 	enum class GBJHOMFKNDE_RF_TransformComponent : ::System::Byte
 	{
 		Position = 1,

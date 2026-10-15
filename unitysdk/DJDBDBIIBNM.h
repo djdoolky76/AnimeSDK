@@ -22,6 +22,8 @@ namespace UnityEngine { class Transform; }
 #define DJDBDBIIBNM_ONENABLE_OFFSET UNITYSDK_OFFSET(0xF22D4B0)
 #define DJDBDBIIBNM_SET_CONFIG_OFFSET UNITYSDK_OFFSET(0xF22D540)
 
+inline static constexpr unsigned int DJDBDBIIBNM_TypeDefinitionIndex = 71088;
+
 	class DJDBDBIIBNM
 	{
 	public:

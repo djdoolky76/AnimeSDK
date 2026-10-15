@@ -12,6 +12,8 @@ namespace UnityEngine::ProBuilder { class ProBuilderMesh; }
 
 namespace UnityEngine::ProBuilder::MeshOperations
 {
+	inline static constexpr unsigned int MeshTransform_TypeDefinitionIndex = 44507;
+
 	class MeshTransform : public ::System::Object
 	{
 	public:

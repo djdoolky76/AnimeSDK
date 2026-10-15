@@ -28,6 +28,8 @@ namespace System { class String; }
 #define LALKCKEAFPE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E8D0820)
 #define LALKCKEAFPE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E8D0880)
 
+inline static constexpr unsigned int LALKCKEAFPE_TypeDefinitionIndex = 26268;
+
 	class LALKCKEAFPE : public ::System::Object
 	{
 	public:

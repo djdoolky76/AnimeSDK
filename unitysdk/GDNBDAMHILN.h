@@ -8,6 +8,8 @@ namespace System { class String; }
 
 #define GDNBDAMHILN_CTOR_OFFSET UNITYSDK_OFFSET(0x159B7450)
 
+inline static constexpr unsigned int GDNBDAMHILN_TypeDefinitionIndex = 57692;
+
 	class GDNBDAMHILN : public ::System::Object
 	{
 	public:

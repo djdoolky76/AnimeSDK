@@ -25,6 +25,8 @@ namespace System { class String; }
 #define JDNHIMDLIHH_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E710F10)
 #define JDNHIMDLIHH_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E710F70)
 
+inline static constexpr unsigned int JDNHIMDLIHH_TypeDefinitionIndex = 26682;
+
 	class JDNHIMDLIHH : public ::System::Object
 	{
 	public:

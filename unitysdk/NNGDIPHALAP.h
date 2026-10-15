@@ -14,6 +14,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define NNGDIPHALAP_PHJJMJHMKJI_OFFSET UNITYSDK_OFFSET(0xBCA8430)
 #define NNGDIPHALAP_TICK_OFFSET UNITYSDK_OFFSET(0xBCA8260)
 
+inline static constexpr unsigned int NNGDIPHALAP_TypeDefinitionIndex = 57855;
+
 	class NNGDIPHALAP : public ::GELIALJDFBL
 	{
 	public:

@@ -27,6 +27,8 @@ namespace System { class String; }
 #define APCDHOBPBHA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E672940)
 #define APCDHOBPBHA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E6729A0)
 
+inline static constexpr unsigned int APCDHOBPBHA_TypeDefinitionIndex = 25802;
+
 	class APCDHOBPBHA : public ::System::Object
 	{
 	public:

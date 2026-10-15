@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int Effect_RendererMatBackwardMonoPlugin_TypeDefinitionIndex = 70547;
+
 	class Effect_RendererMatBackwardMonoPlugin
 	{
 	public:

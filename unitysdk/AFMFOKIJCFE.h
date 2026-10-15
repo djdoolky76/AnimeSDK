@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define AFMFOKIJCFE_CTOR_OFFSET UNITYSDK_OFFSET(0xCF178E0)
 #define AFMFOKIJCFE_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0xCF17840)
 
+inline static constexpr unsigned int AFMFOKIJCFE_TypeDefinitionIndex = 62101;
+
 	class AFMFOKIJCFE : public ::System::Object
 	{
 	public:

@@ -24,6 +24,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define BGNCOOHFMAJ_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1D677650)
 #define BGNCOOHFMAJ_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1D676F70)
 
+inline static constexpr unsigned int BGNCOOHFMAJ_TypeDefinitionIndex = 13425;
+
 	class BGNCOOHFMAJ : public ::System::Object
 	{
 	public:

@@ -6,6 +6,8 @@
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int TimeDurationDefine_TypeDefinitionIndex = 7599;
+
 	class TimeDurationDefine : public ::System::Object
 	{
 	public:

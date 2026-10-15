@@ -7,6 +7,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define BJNABDPANBL_CTOR_OFFSET UNITYSDK_OFFSET(0xB7A9430)
 
+inline static constexpr unsigned int BJNABDPANBL_TypeDefinitionIndex = 56234;
+
 	class BJNABDPANBL : public ::System::Object
 	{
 	public:

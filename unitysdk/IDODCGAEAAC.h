@@ -7,6 +7,8 @@ class IDPIIKPHFJP;
 #define IDODCGAEAAC_CTOR_OFFSET UNITYSDK_OFFSET(0x15EE0260)
 #define IDODCGAEAAC_FFKBFPKEPEN_OFFSET UNITYSDK_OFFSET(0x15EDFD40)
 
+inline static constexpr unsigned int IDODCGAEAAC_TypeDefinitionIndex = 77772;
+
 	class IDODCGAEAAC : public ::GIKOGDBPCLO
 	{
 	public:

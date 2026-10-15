@@ -40,6 +40,8 @@ namespace System { class String; }
 
 namespace Google::Protobuf::WellKnownTypes
 {
+	inline static constexpr unsigned int Enum_TypeDefinitionIndex = 5450;
+
 	class Enum : public ::System::Object
 	{
 	public:

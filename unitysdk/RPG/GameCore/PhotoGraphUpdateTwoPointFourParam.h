@@ -11,6 +11,8 @@ namespace RPG::GameCore { class PhotoGraphUpdateTwoPointFourParam; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PhotoGraphUpdateTwoPointFourParam_TypeDefinitionIndex = 21655;
+
 	class PhotoGraphUpdateTwoPointFourParam : public ::RPG::GameCore::JsonConfig
 	{
 	public:

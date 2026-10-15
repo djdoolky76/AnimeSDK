@@ -17,6 +17,8 @@ namespace System::Xml { class XmlNameTable; }
 
 namespace System::Xml::Schema
 {
+	inline static constexpr unsigned int Datatype_QNameXdr_TypeDefinitionIndex = 2148;
+
 	class Datatype_QNameXdr : public ::System::Xml::Schema::Datatype_anySimpleType
 	{
 	public:

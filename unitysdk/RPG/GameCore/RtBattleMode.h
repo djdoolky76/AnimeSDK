@@ -134,6 +134,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RtBattleMode_TypeDefinitionIndex = 54269;
+
 	class RtBattleMode : public ::ADGFFEDNPPO
 	{
 	public:

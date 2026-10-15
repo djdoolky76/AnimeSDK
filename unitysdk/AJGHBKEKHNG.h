@@ -9,6 +9,8 @@ namespace RPG::GameCore { class ChimeraWorkLeave; }
 #define AJGHBKEKHNG_KMFNKDMEJBC_OFFSET UNITYSDK_OFFSET(0x12CBC060)
 #define AJGHBKEKHNG_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0x12CBC0A0)
 
+inline static constexpr unsigned int AJGHBKEKHNG_TypeDefinitionIndex = 78422;
+
 	class AJGHBKEKHNG : public ::System::Object
 	{
 	public:

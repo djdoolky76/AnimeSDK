@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define NEDHMLJKIOA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EAF1C30)
 #define NEDHMLJKIOA___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1EAF1C40)
 
+inline static constexpr unsigned int NEDHMLJKIOA___c_TypeDefinitionIndex = 29670;
+
 	class NEDHMLJKIOA___c : public ::System::Object
 	{
 	public:

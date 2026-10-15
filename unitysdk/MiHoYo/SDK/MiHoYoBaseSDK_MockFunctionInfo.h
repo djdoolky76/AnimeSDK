@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int MiHoYoBaseSDK_MockFunctionInfo_TypeDefinitionIndex = 46261;
+
 	class MiHoYoBaseSDK_MockFunctionInfo : public ::System::Object
 	{
 	public:

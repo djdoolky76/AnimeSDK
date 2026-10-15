@@ -7,6 +7,8 @@ namespace UnityEngine::Timeline { class AnimationPlayableAsset; }
 
 namespace UnityEngine::Timeline
 {
+	inline static constexpr unsigned int AnimationPlayableAsset_AnimationPlayableAssetUpgrade_TypeDefinitionIndex = 38773;
+
 	class AnimationPlayableAsset_AnimationPlayableAssetUpgrade : public ::System::Object
 	{
 	public:

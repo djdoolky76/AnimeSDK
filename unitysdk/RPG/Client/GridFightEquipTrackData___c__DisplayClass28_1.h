@@ -9,6 +9,8 @@ namespace RPG::Client { class GridFightEquipTrackQuickDressParam; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightEquipTrackData___c__DisplayClass28_1_TypeDefinitionIndex = 65334;
+
 	template <typename T>
 	class GridFightEquipTrackData___c__DisplayClass28_1 : public ::System::Object
 	{

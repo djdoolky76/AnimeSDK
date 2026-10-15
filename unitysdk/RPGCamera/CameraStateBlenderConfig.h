@@ -16,6 +16,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPGCamera
 {
+	inline static constexpr unsigned int CameraStateBlenderConfig_TypeDefinitionIndex = 45935;
+
 	class CameraStateBlenderConfig : public ::System::Object
 	{
 	public:

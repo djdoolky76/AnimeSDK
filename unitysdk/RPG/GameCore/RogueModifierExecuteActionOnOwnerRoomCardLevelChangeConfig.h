@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueModifierExecuteActionOnOwnerRoomCardLevelCh
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueModifierExecuteActionOnOwnerRoomCardLevelChangeConfig_TypeDefinitionIndex = 17690;
+
 	class RogueModifierExecuteActionOnOwnerRoomCardLevelChangeConfig : public ::RPG::GameCore::RogueModifierConfig
 	{
 	public:

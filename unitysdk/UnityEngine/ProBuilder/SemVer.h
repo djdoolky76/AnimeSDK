@@ -36,6 +36,8 @@ namespace UnityEngine::ProBuilder { class SemVer; }
 
 namespace UnityEngine::ProBuilder
 {
+	inline static constexpr unsigned int SemVer_TypeDefinitionIndex = 44428;
+
 	class SemVer : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimMusicCueDesignClipInfo_TypeDefinitionIndex = 18818;
+
 	class FiveDimMusicCueDesignClipInfo : public ::RPG::GameCore::JsonConfig
 	{
 	public:

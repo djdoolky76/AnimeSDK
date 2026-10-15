@@ -23,6 +23,8 @@ namespace UnityEngine::Rendering { class RenderPipelineAsset; }
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int RenderPipelineManager_TypeDefinitionIndex = 4763;
+
 	class RenderPipelineManager : public ::System::Object
 	{
 	public:

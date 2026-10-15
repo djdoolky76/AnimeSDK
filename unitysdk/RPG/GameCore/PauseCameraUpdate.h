@@ -10,6 +10,8 @@ namespace RPG::GameCore { class PauseCameraUpdate; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PauseCameraUpdate_TypeDefinitionIndex = 20822;
+
 	class PauseCameraUpdate : public ::RPG::GameCore::TaskConfig
 	{
 	public:

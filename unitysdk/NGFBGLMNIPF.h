@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define NGFBGLMNIPF_CTOR_OFFSET UNITYSDK_OFFSET(0xBBA4620)
 #define NGFBGLMNIPF_EVALUATE_OFFSET UNITYSDK_OFFSET(0xBBA4690)
 
+inline static constexpr unsigned int NGFBGLMNIPF_TypeDefinitionIndex = 59107;
+
 	class NGFBGLMNIPF
 	{
 	public:

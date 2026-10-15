@@ -15,6 +15,8 @@ namespace System::Reflection { class Binder; }
 
 namespace System
 {
+	inline static constexpr unsigned int Activator_TypeDefinitionIndex = 189;
+
 	class Activator : public ::System::Object
 	{
 	public:

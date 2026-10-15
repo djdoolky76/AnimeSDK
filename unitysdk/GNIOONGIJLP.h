@@ -33,6 +33,8 @@ namespace System { class String; }
 #define GNIOONGIJLP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E4E1F80)
 #define GNIOONGIJLP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E4E1FE0)
 
+inline static constexpr unsigned int GNIOONGIJLP_TypeDefinitionIndex = 30412;
+
 	class GNIOONGIJLP : public ::System::Object
 	{
 	public:

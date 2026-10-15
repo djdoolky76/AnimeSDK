@@ -31,6 +31,8 @@ namespace System { class String; }
 #define KPCBPICOADJ_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E8B74A0)
 #define KPCBPICOADJ_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E8B7500)
 
+inline static constexpr unsigned int KPCBPICOADJ_TypeDefinitionIndex = 30909;
+
 	class KPCBPICOADJ : public ::System::Object
 	{
 	public:

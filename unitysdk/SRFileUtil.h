@@ -6,6 +6,8 @@ namespace System { class String; }
 #define SRFILEUTIL_DELETEDIRECTORY_OFFSET UNITYSDK_OFFSET(0x1ED82F40)
 #define SRFILEUTIL_GETBYTESREADABLE_OFFSET UNITYSDK_OFFSET(0x1ED83000)
 
+inline static constexpr unsigned int SRFileUtil_TypeDefinitionIndex = 35350;
+
 	class SRFileUtil : public ::System::Object
 	{
 	public:

@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int CAAGFEEMPFC_TypeDefinitionIndex = 26418;
+
 	enum class CAAGFEEMPFC : ::System::Int32
 	{
 		NLCDGIPGFDJ = 0,

@@ -5,6 +5,8 @@
 
 #define COBJMJPBMPF_MEBPCCPOMHK_OFFSET UNITYSDK_OFFSET(0xDCB18B0)
 
+inline static constexpr unsigned int COBJMJPBMPF_TypeDefinitionIndex = 53641;
+
 	class COBJMJPBMPF : public ::System::Object
 	{
 	public:

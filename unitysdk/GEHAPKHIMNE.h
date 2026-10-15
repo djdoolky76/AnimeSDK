@@ -15,6 +15,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define GEHAPKHIMNE_KPJGDHLENIP_1_OFFSET UNITYSDK_OFFSET(0x159D67F0)
 #define GEHAPKHIMNE_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0x159D6710)
 
+inline static constexpr unsigned int GEHAPKHIMNE_TypeDefinitionIndex = 56599;
+
 	class GEHAPKHIMNE : public ::CMPGEAFHHDC
 	{
 	public:

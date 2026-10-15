@@ -141,6 +141,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define DAPLNDLJPMP_PLPIGDHGFLG_OFFSET UNITYSDK_OFFSET(0xDFD0790)
 #define DAPLNDLJPMP_POLHAENCGAE_OFFSET UNITYSDK_OFFSET(0xDFCE810)
 
+inline static constexpr unsigned int DAPLNDLJPMP_TypeDefinitionIndex = 59685;
+
 	class DAPLNDLJPMP : public ::System::Object
 	{
 	public:

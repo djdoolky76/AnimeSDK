@@ -6,6 +6,8 @@
 #define JIJDLGOGDPK_CLEAR_OFFSET UNITYSDK_OFFSET(0x1CBA12D0)
 #define JIJDLGOGDPK_CTOR_OFFSET UNITYSDK_OFFSET(0x1CBA1350)
 
+inline static constexpr unsigned int JIJDLGOGDPK_TypeDefinitionIndex = 43541;
+
 	class JIJDLGOGDPK : public ::NOOHPODHIAA
 	{
 	public:

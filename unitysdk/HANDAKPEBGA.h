@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define HANDAKPEBGA_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1CE7E840)
 #define HANDAKPEBGA_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1CE7E120)
 
+inline static constexpr unsigned int HANDAKPEBGA_TypeDefinitionIndex = 14922;
+
 	class HANDAKPEBGA : public ::System::Object
 	{
 	public:

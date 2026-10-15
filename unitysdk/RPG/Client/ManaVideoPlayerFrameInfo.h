@@ -8,6 +8,8 @@ namespace CriWare::CriMana { class FrameInfo; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ManaVideoPlayerFrameInfo_TypeDefinitionIndex = 73200;
+
 	class ManaVideoPlayerFrameInfo : public ::System::Object
 	{
 	public:

@@ -4,6 +4,8 @@
 namespace R3 { class Observable; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
+inline static constexpr unsigned int JFIKBMKKBCD_TypeDefinitionIndex = 49840;
+
 	class JFIKBMKKBCD : public ::System::Object
 	{
 	public:

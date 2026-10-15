@@ -6,6 +6,8 @@ namespace System { class String; }
 #define CBEBCHAFBCE_CFKKENJPLFH_OFFSET UNITYSDK_OFFSET(0xC4A08E0)
 #define CBEBCHAFBCE_CTOR_OFFSET UNITYSDK_OFFSET(0xC4A08D0)
 
+inline static constexpr unsigned int CBEBCHAFBCE_TypeDefinitionIndex = 49149;
+
 	class CBEBCHAFBCE : public ::System::Object
 	{
 	public:

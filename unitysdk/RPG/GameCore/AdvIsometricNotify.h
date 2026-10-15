@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdvIsometricNotify_TypeDefinitionIndex = 22211;
+
 	class AdvIsometricNotify : public ::RPG::GameCore::TaskConfig
 	{
 	public:

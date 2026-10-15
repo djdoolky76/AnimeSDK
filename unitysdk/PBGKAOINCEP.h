@@ -30,6 +30,8 @@ namespace System { class String; }
 #define PBGKAOINCEP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DEF5780)
 #define PBGKAOINCEP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DEF57E0)
 
+inline static constexpr unsigned int PBGKAOINCEP_TypeDefinitionIndex = 26863;
+
 	class PBGKAOINCEP : public ::System::Object
 	{
 	public:

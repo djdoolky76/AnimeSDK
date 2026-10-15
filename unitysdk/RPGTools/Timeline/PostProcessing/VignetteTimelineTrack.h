@@ -12,6 +12,8 @@ namespace UnityEngine::Timeline { class TimelineClip; }
 
 namespace RPGTools::Timeline::PostProcessing
 {
+	inline static constexpr unsigned int VignetteTimelineTrack_TypeDefinitionIndex = 48632;
+
 	class VignetteTimelineTrack : public ::RPGTools::Timeline::PostProcessing::PostProcessTimelineTrack
 	{
 	public:

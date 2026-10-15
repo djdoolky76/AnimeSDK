@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MuseumModule___c__DisplayClass171_0_TypeDefinitionIndex = 66335;
+
 	class MuseumModule___c__DisplayClass171_0 : public ::System::Object
 	{
 	public:

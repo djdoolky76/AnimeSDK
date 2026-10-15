@@ -39,6 +39,8 @@ namespace UnityEngine::ProBuilder { class RaycastHit; }
 
 namespace UnityEngine::ProBuilder
 {
+	inline static constexpr unsigned int HandleUtility_TypeDefinitionIndex = 44362;
+
 	class HandleUtility : public ::System::Object
 	{
 	public:

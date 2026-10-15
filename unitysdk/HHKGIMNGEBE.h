@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define HHKGIMNGEBE_CTOR_OFFSET UNITYSDK_OFFSET(0x15CD02A0)
 #define HHKGIMNGEBE_EVALUATE_OFFSET UNITYSDK_OFFSET(0x15CD02D0)
 
+inline static constexpr unsigned int HHKGIMNGEBE_TypeDefinitionIndex = 54701;
+
 	class HHKGIMNGEBE
 	{
 	public:

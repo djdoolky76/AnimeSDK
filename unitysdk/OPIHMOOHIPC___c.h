@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define OPIHMOOHIPC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DEE3490)
 #define OPIHMOOHIPC___C___CCTOR_B__43_0_OFFSET UNITYSDK_OFFSET(0x1DEE34A0)
 
+inline static constexpr unsigned int OPIHMOOHIPC___c_TypeDefinitionIndex = 28642;
+
 	class OPIHMOOHIPC___c : public ::System::Object
 	{
 	public:

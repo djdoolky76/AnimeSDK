@@ -24,6 +24,8 @@ namespace System { class Object; }
 #define DCPIJECAKDB_PHKMKFJLCCI_OFFSET UNITYSDK_OFFSET(0xE254EB0)
 #define DCPIJECAKDB_TICK_OFFSET UNITYSDK_OFFSET(0xE255130)
 
+inline static constexpr unsigned int DCPIJECAKDB_TypeDefinitionIndex = 53212;
+
 	class DCPIJECAKDB : public ::GELIALJDFBL
 	{
 	public:

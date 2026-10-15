@@ -30,6 +30,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int DecalPuzzleRegion_TypeDefinitionIndex = 68657;
+
 	class DecalPuzzleRegion : public ::System::Object
 	{
 	public:

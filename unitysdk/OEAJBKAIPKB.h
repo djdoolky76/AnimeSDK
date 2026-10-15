@@ -5,6 +5,8 @@ class OADEJAABALE;
 
 #define OEAJBKAIPKB_CTOR_OFFSET UNITYSDK_OFFSET(0x1C98C600)
 
+inline static constexpr unsigned int OEAJBKAIPKB_TypeDefinitionIndex = 42890;
+
 	class OEAJBKAIPKB : public ::System::Object
 	{
 	public:

@@ -20,6 +20,8 @@ namespace System::Text { class StringBuilder; }
 #define APCGKBOPGJL_SET_SPECIFICPATHIDENTIFIER_OFFSET UNITYSDK_OFFSET(0xAF40)
 #define APCGKBOPGJL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x2E7D870)
 
+inline static constexpr unsigned int APCGKBOPGJL_TypeDefinitionIndex = 51968;
+
 	struct alignas(4) APCGKBOPGJL
 	{
 		::OIPMNNAHIFP _SpecificPathIdentifier_k__BackingField; // 0x10

@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
+	inline static constexpr unsigned int IVROverlay__CloseMessageOverlay_TypeDefinitionIndex = 39139;
+
 	class IVROverlay__CloseMessageOverlay : public ::System::MulticastDelegate
 	{
 	public:

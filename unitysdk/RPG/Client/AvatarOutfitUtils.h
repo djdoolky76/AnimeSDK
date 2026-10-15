@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AvatarOutfitUtils_TypeDefinitionIndex = 62506;
+
 	class AvatarOutfitUtils : public ::System::Object
 	{
 	public:

@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FuncUnlockHintRow_TypeDefinitionIndex = 13319;
+
 	class FuncUnlockHintRow : public ::System::Object
 	{
 	public:

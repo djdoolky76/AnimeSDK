@@ -8,6 +8,8 @@ namespace UnityEngine { class ConstantBufferArray; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int ConstantBufferArray_TypeDefinitionIndex = 4255;
+
 	class ConstantBufferArray : public ::UnityEngine::BaseBindlessArray
 	{
 	public:

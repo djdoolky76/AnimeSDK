@@ -3,6 +3,8 @@
 
 namespace System
 {
+	inline static constexpr unsigned int ExceptionArgument_TypeDefinitionIndex = 338;
+
 	enum class ExceptionArgument : ::System::Int32
 	{
 		obj = 0,

@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::BAT
 {
+	inline static constexpr unsigned int BATPrototype_TypeDefinitionIndex = 73671;
+
 	class BATPrototype : public ::RPG::Client::CrowdAnimator::CrowdPrototype
 	{
 	public:

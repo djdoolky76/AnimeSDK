@@ -5,6 +5,8 @@ namespace UnityEngine { class Animator_OnAnimatorDispatchMovementJobFinishDelega
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdventureMovementManager___O_TypeDefinitionIndex = 57097;
+
 	class AdventureMovementManager___O : public ::System::Object
 	{
 	public:

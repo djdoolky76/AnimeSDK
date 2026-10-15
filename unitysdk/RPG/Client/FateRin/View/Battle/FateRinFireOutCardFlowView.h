@@ -17,6 +17,8 @@ namespace System::Collections::Generic { template <typename T> class IList_1; }
 
 namespace RPG::Client::FateRin::View::Battle
 {
+	inline static constexpr unsigned int FateRinFireOutCardFlowView_TypeDefinitionIndex = 80693;
+
 	class FateRinFireOutCardFlowView : public ::UnityEngine::MonoBehaviour
 	{
 	public:

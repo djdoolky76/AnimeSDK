@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
+	inline static constexpr unsigned int IVRCompositor__CanRenderScene_TypeDefinitionIndex = 39039;
+
 	class IVRCompositor__CanRenderScene : public ::System::MulticastDelegate
 	{
 	public:

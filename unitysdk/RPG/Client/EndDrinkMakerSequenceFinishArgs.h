@@ -6,6 +6,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int EndDrinkMakerSequenceFinishArgs_TypeDefinitionIndex = 63639;
+
 	class EndDrinkMakerSequenceFinishArgs : public ::System::Object
 	{
 	public:

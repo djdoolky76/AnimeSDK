@@ -10,6 +10,8 @@ namespace UnityEngine { class Transform; }
 
 namespace Spine::Unity
 {
+	inline static constexpr unsigned int FollowLocationRigidbody_TypeDefinitionIndex = 45057;
+
 	class FollowLocationRigidbody : public ::UnityEngine::MonoBehaviour
 	{
 	public:

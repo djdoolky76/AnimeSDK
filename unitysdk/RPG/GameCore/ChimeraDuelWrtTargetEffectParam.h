@@ -11,6 +11,8 @@ namespace RPG::GameCore { class ChimeraDuelWrtTargetEffectParam; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChimeraDuelWrtTargetEffectParam_TypeDefinitionIndex = 16015;
+
 	class ChimeraDuelWrtTargetEffectParam : public ::RPG::GameCore::BaseChimeraDuelEffectParam
 	{
 	public:

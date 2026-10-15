@@ -11,6 +11,8 @@ namespace System { class String; }
 #define HCLLCONFADM_SET_JSONPATH_OFFSET UNITYSDK_OFFSET(0x15C21860)
 #define HCLLCONFADM_SET_SUBMISSIONID_OFFSET UNITYSDK_OFFSET(0x15C21840)
 
+inline static constexpr unsigned int HCLLCONFADM_TypeDefinitionIndex = 80775;
+
 	class HCLLCONFADM : public ::System::Object
 	{
 	public:

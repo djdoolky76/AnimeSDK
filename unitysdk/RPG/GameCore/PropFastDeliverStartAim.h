@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PropFastDeliverStartAim_TypeDefinitionIndex = 22163;
+
 	class PropFastDeliverStartAim : public ::RPG::GameCore::TaskConfig
 	{
 	public:

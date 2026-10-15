@@ -7,6 +7,8 @@
 #define MHLNIPEJGCJ_KIGBILLGNOH_OFFSET UNITYSDK_OFFSET(0xB945EA0)
 #define MHLNIPEJGCJ_LJOLGCNKIEH_OFFSET UNITYSDK_OFFSET(0xB945EF0)
 
+inline static constexpr unsigned int MHLNIPEJGCJ_TypeDefinitionIndex = 77096;
+
 	class MHLNIPEJGCJ : public ::GJOFNOCMMKL
 	{
 	public:

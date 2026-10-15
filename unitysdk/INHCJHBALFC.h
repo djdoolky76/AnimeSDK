@@ -6,6 +6,8 @@ namespace RPG::GameCore { class RtBattleMode; }
 
 #define INHCJHBALFC_CTOR_OFFSET UNITYSDK_OFFSET(0x164EEF90)
 
+inline static constexpr unsigned int INHCJHBALFC_TypeDefinitionIndex = 54285;
+
 	class INHCJHBALFC : public ::NFFHMOLDPEH
 	{
 	public:

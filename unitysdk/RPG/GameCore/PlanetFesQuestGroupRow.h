@@ -9,6 +9,8 @@ namespace RPG::GameCore { class PlanetFesQuestGroupRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PlanetFesQuestGroupRow_TypeDefinitionIndex = 12225;
+
 	class PlanetFesQuestGroupRow : public ::System::Object
 	{
 	public:

@@ -23,6 +23,8 @@ namespace UnityEngine { class RectTransform; }
 #define CAJBDLAOBPF_NJBDJBHEBAN_OFFSET UNITYSDK_OFFSET(0xC481D80)
 #define CAJBDLAOBPF_ODGLEFLLDPI_OFFSET UNITYSDK_OFFSET(0xC482090)
 
+inline static constexpr unsigned int CAJBDLAOBPF_TypeDefinitionIndex = 71957;
+
 	class CAJBDLAOBPF : public ::System::Object
 	{
 	public:

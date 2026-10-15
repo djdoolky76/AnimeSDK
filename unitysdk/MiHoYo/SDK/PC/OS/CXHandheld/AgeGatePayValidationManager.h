@@ -18,6 +18,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::PC::OS::CXHandheld
 {
+	inline static constexpr unsigned int AgeGatePayValidationManager_TypeDefinitionIndex = 8732;
+
 	class AgeGatePayValidationManager : public ::MiHoYo::SDK::Common::OS::AgeGatePayValidationManager
 	{
 	public:

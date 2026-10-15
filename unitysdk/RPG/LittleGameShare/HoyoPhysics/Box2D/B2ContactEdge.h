@@ -3,6 +3,8 @@
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
+	inline static constexpr unsigned int B2ContactEdge_TypeDefinitionIndex = 36623;
+
 	struct alignas(4) B2ContactEdge
 	{
 		::System::Int32 bodyId; // 0x10

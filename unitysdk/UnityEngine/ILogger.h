@@ -3,6 +3,8 @@
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int ILogger_TypeDefinitionIndex = 4214;
+
 	class ILogger
 	{
 	public:

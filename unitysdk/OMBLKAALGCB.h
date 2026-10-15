@@ -9,6 +9,8 @@ namespace RPG::GameCore { class BaseLittleGameAbilityValueGetterConfig; }
 #define OMBLKAALGCB_CTOR_OFFSET UNITYSDK_OFFSET(0xBF1A190)
 #define OMBLKAALGCB_GETVALUE_OFFSET UNITYSDK_OFFSET(0xBF19F20)
 
+inline static constexpr unsigned int OMBLKAALGCB_TypeDefinitionIndex = 77402;
+
 	class OMBLKAALGCB : public ::System::Object
 	{
 	public:

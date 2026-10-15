@@ -27,6 +27,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MusicVisualization_BeatEffectElementVisualBase_TypeDefinitionIndex = 70822;
+
 	class MusicVisualization_BeatEffectElementVisualBase : public ::System::Object
 	{
 	public:

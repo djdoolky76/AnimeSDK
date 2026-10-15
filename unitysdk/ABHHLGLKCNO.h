@@ -11,6 +11,8 @@ namespace R3 { template <typename T> class ReadOnlyReactiveProperty_1; }
 #define ABHHLGLKCNO_GET_CURRENTPERCENT_OFFSET UNITYSDK_OFFSET(0xB0F91F0)
 #define ABHHLGLKCNO_GET_DIVISIONLEVELUPRULE_OFFSET UNITYSDK_OFFSET(0xB0F91E0)
 
+inline static constexpr unsigned int ABHHLGLKCNO_TypeDefinitionIndex = 79571;
+
 	class ABHHLGLKCNO : public ::System::Object
 	{
 	public:

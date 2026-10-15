@@ -17,6 +17,8 @@ namespace System { class Object; }
 
 namespace RPGTools::Timeline::PostProcessing
 {
+	inline static constexpr unsigned int VignetteTimelineBehaviour_TypeDefinitionIndex = 48630;
+
 	class VignetteTimelineBehaviour
 	{
 	public:

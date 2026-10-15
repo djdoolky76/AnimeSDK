@@ -14,6 +14,8 @@ class FiveDimRenderingItem;
 #define FLIPBOOKOPERATION_LJBCDJNNBJH_OFFSET UNITYSDK_OFFSET(0x15932610)
 #define FLIPBOOKOPERATION_PKADDEPKJFN_OFFSET UNITYSDK_OFFSET(0x159322E0)
 
+inline static constexpr unsigned int FlipBookOperation_TypeDefinitionIndex = 47114;
+
 	class FlipBookOperation : public ::FDRIMatStateOperation
 	{
 	public:

@@ -14,6 +14,8 @@ namespace UnityEngine { class GameObject; }
 #define NDMEMOIGNDG_EHIBKLMKLIH_ONSPAWNASYNC_OFFSET UNITYSDK_OFFSET(0xBB51060)
 #define NDMEMOIGNDG_EHIBKLMKLIH_USELIGHTWEIGHTDEACTIVE_OFFSET UNITYSDK_OFFSET(0xBB51490)
 
+inline static constexpr unsigned int NDMEMOIGNDG_EHIBKLMKLIH_TypeDefinitionIndex = 69268;
+
 	class NDMEMOIGNDG_EHIBKLMKLIH : public ::System::Object
 	{
 	public:

@@ -5,6 +5,8 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 
 namespace Entitas
 {
+	inline static constexpr unsigned int EntityIndex_2_TypeDefinitionIndex = 10019;
+
 	template <typename T1, typename T2>
 	class EntityIndex_2
 	{

@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define HKIAHHEOPLP_CTOR_OFFSET UNITYSDK_OFFSET(0x15D45170)
 #define HKIAHHEOPLP_EVALUATE_OFFSET UNITYSDK_OFFSET(0x15D451E0)
 
+inline static constexpr unsigned int HKIAHHEOPLP_TypeDefinitionIndex = 59217;
+
 	class HKIAHHEOPLP
 	{
 	public:

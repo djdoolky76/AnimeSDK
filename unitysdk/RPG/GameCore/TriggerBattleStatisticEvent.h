@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TriggerBattleStatisticEvent; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TriggerBattleStatisticEvent_TypeDefinitionIndex = 23238;
+
 	class TriggerBattleStatisticEvent : public ::RPG::GameCore::TaskConfig
 	{
 	public:

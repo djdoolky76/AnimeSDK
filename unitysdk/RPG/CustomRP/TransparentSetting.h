@@ -6,6 +6,8 @@
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int TransparentSetting_TypeDefinitionIndex = 37858;
+
 	class TransparentSetting : public ::System::Object
 	{
 	public:

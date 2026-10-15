@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace RPG::Client::FateRin
 {
+	inline static constexpr unsigned int FateRinHost___c_TypeDefinitionIndex = 80524;
+
 	class FateRinHost___c : public ::System::Object
 	{
 	public:

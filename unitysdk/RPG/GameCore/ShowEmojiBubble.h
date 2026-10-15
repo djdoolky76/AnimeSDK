@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ShowEmojiBubble_TypeDefinitionIndex = 20409;
+
 	class ShowEmojiBubble : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -7,6 +7,8 @@
 
 namespace Google::Protobuf
 {
+	inline static constexpr unsigned int FrameworkPortability_TypeDefinitionIndex = 5393;
+
 	class FrameworkPortability : public ::System::Object
 	{
 	public:

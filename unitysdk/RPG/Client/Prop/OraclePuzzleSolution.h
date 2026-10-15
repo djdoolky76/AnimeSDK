@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int OraclePuzzleSolution_TypeDefinitionIndex = 78734;
+
 	class OraclePuzzleSolution : public ::System::Object
 	{
 	public:

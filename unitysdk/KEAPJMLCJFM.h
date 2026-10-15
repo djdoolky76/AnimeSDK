@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int KEAPJMLCJFM_TypeDefinitionIndex = 59290;
+
 	enum class KEAPJMLCJFM : ::System::Int32
 	{
 		KOKCPOPBBCD = 4,

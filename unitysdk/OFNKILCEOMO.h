@@ -5,6 +5,8 @@ namespace System { class String; }
 
 #define OFNKILCEOMO_CTOR_OFFSET UNITYSDK_OFFSET(0xBE49FA0)
 
+inline static constexpr unsigned int OFNKILCEOMO_TypeDefinitionIndex = 67788;
+
 	class OFNKILCEOMO : public ::System::Object
 	{
 	public:

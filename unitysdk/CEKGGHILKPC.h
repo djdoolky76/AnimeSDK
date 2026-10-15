@@ -9,6 +9,8 @@ namespace System { class String; }
 #define CEKGGHILKPC_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB8CDB0)
 #define CEKGGHILKPC_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DB8CA50)
 
+inline static constexpr unsigned int CEKGGHILKPC_TypeDefinitionIndex = 11572;
+
 	class CEKGGHILKPC : public ::System::Object
 	{
 	public:

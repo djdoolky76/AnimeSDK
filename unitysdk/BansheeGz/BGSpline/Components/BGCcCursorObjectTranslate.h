@@ -10,6 +10,8 @@ namespace System { class EventHandler; }
 
 namespace BansheeGz::BGSpline::Components
 {
+	inline static constexpr unsigned int BGCcCursorObjectTranslate_TypeDefinitionIndex = 36041;
+
 	class BGCcCursorObjectTranslate : public ::BansheeGz::BGSpline::Components::BGCcWithCursorObject
 	{
 	public:

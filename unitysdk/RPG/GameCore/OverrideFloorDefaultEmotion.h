@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int OverrideFloorDefaultEmotion_TypeDefinitionIndex = 21275;
+
 	class OverrideFloorDefaultEmotion : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -10,6 +10,8 @@ namespace UnityEngine::Events { class UnityEvent; }
 
 namespace Cysharp::Threading::Tasks
 {
+	inline static constexpr unsigned int TextSelectionEventConverter_TypeDefinitionIndex = 38480;
+
 	class TextSelectionEventConverter
 	{
 	public:

@@ -72,6 +72,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::OpenWorld
 {
+	inline static constexpr unsigned int StreamingItemData_TypeDefinitionIndex = 73925;
+
 	class StreamingItemData : public ::System::Object
 	{
 	public:

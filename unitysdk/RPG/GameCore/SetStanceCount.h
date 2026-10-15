@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetStanceCount_TypeDefinitionIndex = 22685;
+
 	class SetStanceCount : public ::RPG::GameCore::TaskConfig
 	{
 	public:

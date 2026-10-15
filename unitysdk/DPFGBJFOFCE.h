@@ -27,6 +27,8 @@ namespace System { class String; }
 #define DPFGBJFOFCE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E20D8B0)
 #define DPFGBJFOFCE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E20D910)
 
+inline static constexpr unsigned int DPFGBJFOFCE_TypeDefinitionIndex = 26230;
+
 	class DPFGBJFOFCE : public ::System::Object
 	{
 	public:

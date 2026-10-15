@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimWindowControllerComponentConfig_TypeDefinitionIndex = 18830;
+
 	class FiveDimWindowControllerComponentConfig : public ::RPG::GameCore::LittleGameComponentConfig
 	{
 	public:

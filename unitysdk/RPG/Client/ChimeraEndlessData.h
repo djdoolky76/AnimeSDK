@@ -14,6 +14,8 @@ class GBBPAALDNBG;
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ChimeraEndlessData_TypeDefinitionIndex = 63420;
+
 	class ChimeraEndlessData : public ::RPG::Client::ChimeraData
 	{
 	public:

@@ -6,6 +6,8 @@
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
+	inline static constexpr unsigned int B2RevoluteJoint_TypeDefinitionIndex = 36738;
+
 	struct alignas(4) B2RevoluteJoint
 	{
 		::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Vec2 linearImpulse; // 0x10

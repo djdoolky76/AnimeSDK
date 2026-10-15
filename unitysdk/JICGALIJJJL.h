@@ -7,6 +7,8 @@ namespace RPG::GameCore { class DiceCombatPredicateConfig_DicePointCountCompare;
 #define JICGALIJJJL_CTOR_OFFSET UNITYSDK_OFFSET(0x1C6F55A0)
 #define JICGALIJJJL_KFGJEKJHIMB_OFFSET UNITYSDK_OFFSET(0x1C6F55C0)
 
+inline static constexpr unsigned int JICGALIJJJL_TypeDefinitionIndex = 36361;
+
 	class JICGALIJJJL : public ::HHOHBHGLHHF
 	{
 	public:

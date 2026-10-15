@@ -9,6 +9,8 @@ namespace UnityEngine { class Transform; }
 
 #define JLJCPILKAEG_CTOR_OFFSET UNITYSDK_OFFSET(0xB24C470)
 
+inline static constexpr unsigned int JLJCPILKAEG_TypeDefinitionIndex = 78305;
+
 	class JLJCPILKAEG : public ::System::Object
 	{
 	public:

@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define FAGLPPJIPIN_CTOR_OFFSET UNITYSDK_OFFSET(0x1567B5E0)
 #define FAGLPPJIPIN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1567B610)
 
+inline static constexpr unsigned int FAGLPPJIPIN_TypeDefinitionIndex = 55801;
+
 	class FAGLPPJIPIN
 	{
 	public:

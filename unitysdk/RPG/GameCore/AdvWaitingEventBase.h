@@ -10,6 +10,8 @@ namespace RPG::GameCore { class AdvWaitingEventBase; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdvWaitingEventBase_TypeDefinitionIndex = 20688;
+
 	class AdvWaitingEventBase : public ::RPG::GameCore::TaskConfig
 	{
 	public:

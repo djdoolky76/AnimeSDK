@@ -26,6 +26,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::MissionReplayData
 {
+	inline static constexpr unsigned int ChronicleMissionReplayData_TypeDefinitionIndex = 74684;
+
 	class ChronicleMissionReplayData : public ::System::Object
 	{
 	public:

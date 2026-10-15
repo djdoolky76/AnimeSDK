@@ -14,6 +14,8 @@ namespace RPG::GameCore { class WaitMissionTalkFinish; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int BaseLevelTask_TypeDefinitionIndex = 57945;
+
 	class BaseLevelTask : public ::GELIALJDFBL
 	{
 	public:

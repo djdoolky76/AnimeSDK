@@ -8,6 +8,8 @@ namespace RPG::Client::Pet { class IPetLineup; }
 #define DONPAICOHMP_ACMKLFOMPFC_OFFSET UNITYSDK_OFFSET(0x11FF3D40)
 #define DONPAICOHMP_LCJMKJPECAP_OFFSET UNITYSDK_OFFSET(0x11FF3DF0)
 
+inline static constexpr unsigned int DONPAICOHMP_TypeDefinitionIndex = 75656;
+
 	class DONPAICOHMP : public ::System::Object
 	{
 	public:

@@ -65,6 +65,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define BAJEFKOPOPL_SET_SKILLPOINTENTITY_OFFSET UNITYSDK_OFFSET(0x15E70460)
 #define BAJEFKOPOPL__ONINITOWNERREF_OFFSET UNITYSDK_OFFSET(0x15E6D9D0)
 
+inline static constexpr unsigned int BAJEFKOPOPL_TypeDefinitionIndex = 54056;
+
 	class BAJEFKOPOPL : public ::RPG::GameCore::GameComponentBase
 	{
 	public:

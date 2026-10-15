@@ -13,6 +13,8 @@ namespace System { class Object; }
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
+	inline static constexpr unsigned int IVRSystem__GetSortedTrackedDeviceIndicesOfClass_TypeDefinitionIndex = 38905;
+
 	class IVRSystem__GetSortedTrackedDeviceIndicesOfClass : public ::System::MulticastDelegate
 	{
 	public:

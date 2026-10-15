@@ -3,6 +3,8 @@
 #include "unitysdk/System/Object.h"
 class AkLogger_ErrorLoggerInteropDelegate;
 
+inline static constexpr unsigned int AkLogger___O_TypeDefinitionIndex = 44848;
+
 	class AkLogger___O : public ::System::Object
 	{
 	public:

@@ -12,6 +12,8 @@ namespace RPG::GameCore { class WaitPropAnimState; }
 #define EFJKDMPHNGO_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x13A4F200)
 #define EFJKDMPHNGO_TICK_OFFSET UNITYSDK_OFFSET(0x13A4F2D0)
 
+inline static constexpr unsigned int EFJKDMPHNGO_TypeDefinitionIndex = 55812;
+
 	class EFJKDMPHNGO : public ::GELIALJDFBL
 	{
 	public:

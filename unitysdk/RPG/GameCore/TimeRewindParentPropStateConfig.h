@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TimeRewindParentPropStateConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TimeRewindParentPropStateConfig_TypeDefinitionIndex = 20655;
+
 	class TimeRewindParentPropStateConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

@@ -17,6 +17,8 @@ namespace System { class String; }
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftAttributeRadarDimensionControl_TypeDefinitionIndex = 79807;
+
 	class MechCraftAttributeRadarDimensionControl : public ::UnityEngine::MonoBehaviour
 	{
 	public:

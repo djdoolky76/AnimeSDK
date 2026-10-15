@@ -31,6 +31,8 @@ namespace System { class String; }
 #define HHLNMCEJIDN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E58A200)
 #define HHLNMCEJIDN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E58A260)
 
+inline static constexpr unsigned int HHLNMCEJIDN_TypeDefinitionIndex = 31424;
+
 	class HHLNMCEJIDN : public ::System::Object
 	{
 	public:

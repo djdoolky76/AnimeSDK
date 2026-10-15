@@ -15,6 +15,8 @@ namespace RPG::Client { class RelicRecommendData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RelicComposeContext_TypeDefinitionIndex = 65761;
+
 	class RelicComposeContext : public ::System::Object
 	{
 	public:

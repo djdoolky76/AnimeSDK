@@ -11,6 +11,8 @@ namespace System { template <typename T> class Comparison_1; }
 
 namespace SRDebugger::UI::Other
 {
+	inline static constexpr unsigned int SRTabController___c_TypeDefinitionIndex = 38013;
+
 	class SRTabController___c : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace System::Collections::Generic { class KeyValuePair; }
 #define AKROOMPORTALOBSTRUCTION_SETOBSTRUCTIONOCCLUSION_OFFSET UNITYSDK_OFFSET(0x1F5BF660)
 #define AKROOMPORTALOBSTRUCTION_UPDATECURRENTLISTENERLIST_OFFSET UNITYSDK_OFFSET(0x1F5BF580)
 
+inline static constexpr unsigned int AkRoomPortalObstruction_TypeDefinitionIndex = 44949;
+
 	class AkRoomPortalObstruction : public ::AkObstructionOcclusion
 	{
 	public:

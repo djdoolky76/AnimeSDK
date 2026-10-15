@@ -5,6 +5,8 @@
 #define HFLCADOFDMA_CTOR_OFFSET UNITYSDK_OFFSET(0x15C88860)
 #define HFLCADOFDMA_OPMHNOIKBGA_OFFSET UNITYSDK_OFFSET(0x15C88820)
 
+inline static constexpr unsigned int HFLCADOFDMA_TypeDefinitionIndex = 62305;
+
 	class HFLCADOFDMA : public ::ILPPBGLJABD
 	{
 	public:

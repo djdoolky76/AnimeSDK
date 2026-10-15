@@ -12,6 +12,8 @@ namespace RPG::GameCore { class LevelDimensionFilterHoyoTagExpression; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelDimensionFilterHoyoTagExpression_TypeDefinitionIndex = 17198;
+
 	class LevelDimensionFilterHoyoTagExpression : public ::RPG::GameCore::LevelDimensionFilterExpression
 	{
 	public:

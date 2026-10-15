@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace BansheeGz::BGSpline::Curve
 {
+	inline static constexpr unsigned int BGCurveChangedArgs_BeforeChange_TypeDefinitionIndex = 36008;
+
 	class BGCurveChangedArgs_BeforeChange : public ::System::EventArgs
 	{
 	public:

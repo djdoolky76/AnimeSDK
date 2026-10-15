@@ -15,6 +15,8 @@ namespace System { class String; }
 #define NLJFMFEBADO_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0xBC70560)
 #define NLJFMFEBADO_TOSTRING_OFFSET UNITYSDK_OFFSET(0xBC70770)
 
+inline static constexpr unsigned int NLJFMFEBADO_TypeDefinitionIndex = 59612;
+
 	class NLJFMFEBADO : public ::System::Object
 	{
 	public:

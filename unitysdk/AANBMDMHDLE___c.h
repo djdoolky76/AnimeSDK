@@ -10,6 +10,8 @@ namespace System { class Object; }
 #define AANBMDMHDLE___C__POSTINIT_B__6_0_OFFSET UNITYSDK_OFFSET(0xB0D3690)
 #define AANBMDMHDLE___C__POSTINIT_B__6_1_OFFSET UNITYSDK_OFFSET(0xB0D36A0)
 
+inline static constexpr unsigned int AANBMDMHDLE___c_TypeDefinitionIndex = 49363;
+
 	class AANBMDMHDLE___c : public ::System::Object
 	{
 	public:

@@ -3,6 +3,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AssetEventType_TypeDefinitionIndex = 41394;
+
 	enum class AssetEventType : ::System::Int32
 	{
 		BundleLoadSync = 0,

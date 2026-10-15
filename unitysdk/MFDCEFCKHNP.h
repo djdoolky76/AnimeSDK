@@ -9,6 +9,8 @@ namespace RPG::AvatarSystem { class IAvatar; }
 #define MFDCEFCKHNP_CTOR_OFFSET UNITYSDK_OFFSET(0xB8F0E20)
 #define MFDCEFCKHNP_ODEBFADAKFA_OFFSET UNITYSDK_OFFSET(0xB8F0980)
 
+inline static constexpr unsigned int MFDCEFCKHNP_TypeDefinitionIndex = 62859;
+
 	class MFDCEFCKHNP : public ::System::Object
 	{
 	public:

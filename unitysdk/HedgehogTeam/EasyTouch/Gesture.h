@@ -23,6 +23,8 @@ namespace UnityEngine { class RectTransform; }
 
 namespace HedgehogTeam::EasyTouch
 {
+	inline static constexpr unsigned int Gesture_TypeDefinitionIndex = 40340;
+
 	class Gesture : public ::HedgehogTeam::EasyTouch::BaseFinger
 	{
 	public:

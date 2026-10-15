@@ -27,6 +27,8 @@ namespace System { class String; }
 #define CCPCAIGEBCB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E07E930)
 #define CCPCAIGEBCB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E07E990)
 
+inline static constexpr unsigned int CCPCAIGEBCB_TypeDefinitionIndex = 31712;
+
 	class CCPCAIGEBCB : public ::System::Object
 	{
 	public:

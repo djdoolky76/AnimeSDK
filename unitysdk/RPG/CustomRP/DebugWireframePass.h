@@ -21,6 +21,8 @@ namespace UnityEngine::Rendering { class CommandBuffer; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int DebugWireframePass_TypeDefinitionIndex = 37565;
+
 	class DebugWireframePass : public ::System::Object
 	{
 	public:

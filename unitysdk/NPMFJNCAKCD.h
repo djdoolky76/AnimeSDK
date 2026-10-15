@@ -8,6 +8,8 @@ class NPMFJNCAKCD;
 #define NPMFJNCAKCD_GET_FLOORID_OFFSET UNITYSDK_OFFSET(0xBD0F960)
 #define NPMFJNCAKCD_SET_FLOORID_OFFSET UNITYSDK_OFFSET(0xBD0F970)
 
+inline static constexpr unsigned int NPMFJNCAKCD_TypeDefinitionIndex = 64341;
+
 	class NPMFJNCAKCD : public ::System::Object
 	{
 	public:

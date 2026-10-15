@@ -13,6 +13,8 @@ namespace UnityEngine::Rendering { class MousePositionDebug; }
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int MousePositionDebug_TypeDefinitionIndex = 35552;
+
 	class MousePositionDebug : public ::System::Object
 	{
 	public:

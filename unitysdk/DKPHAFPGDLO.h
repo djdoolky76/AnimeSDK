@@ -29,6 +29,8 @@ namespace System { class String; }
 #define DKPHAFPGDLO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E1DB330)
 #define DKPHAFPGDLO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E1DB390)
 
+inline static constexpr unsigned int DKPHAFPGDLO_TypeDefinitionIndex = 25483;
+
 	class DKPHAFPGDLO : public ::System::Object
 	{
 	public:

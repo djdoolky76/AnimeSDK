@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define LGGLHEIALPM_CTOR_OFFSET UNITYSDK_OFFSET(0xB695B00)
 #define LGGLHEIALPM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB695B30)
 
+inline static constexpr unsigned int LGGLHEIALPM_TypeDefinitionIndex = 58542;
+
 	class LGGLHEIALPM
 	{
 	public:

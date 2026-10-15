@@ -20,6 +20,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 #define JICLLEHFPKA___TORELICS_D__2_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB1ED250)
 #define JICLLEHFPKA___TORELICS_D__2___M__FINALLY1_OFFSET UNITYSDK_OFFSET(0xB1ED290)
 
+inline static constexpr unsigned int JICLLEHFPKA___ToRelics_d__2_TypeDefinitionIndex = 62703;
+
 	template <typename T1, typename T2>
 	class JICLLEHFPKA___ToRelics_d__2 : public ::System::Object
 	{

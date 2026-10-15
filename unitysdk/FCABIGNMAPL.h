@@ -27,6 +27,8 @@ namespace System { class String; }
 #define FCABIGNMAPL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E33D0D0)
 #define FCABIGNMAPL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E33D130)
 
+inline static constexpr unsigned int FCABIGNMAPL_TypeDefinitionIndex = 29310;
+
 	class FCABIGNMAPL : public ::System::Object
 	{
 	public:

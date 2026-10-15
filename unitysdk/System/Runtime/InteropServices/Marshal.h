@@ -67,6 +67,8 @@ namespace System::Security { class SecureString; }
 
 namespace System::Runtime::InteropServices
 {
+	inline static constexpr unsigned int Marshal_TypeDefinitionIndex = 1437;
+
 	class Marshal : public ::System::Object
 	{
 	public:

@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int KCPClient_OnTimeoutDelegate_TypeDefinitionIndex = 46132;
+
 	class KCPClient_OnTimeoutDelegate : public ::System::MulticastDelegate
 	{
 	public:

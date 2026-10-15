@@ -12,6 +12,8 @@ namespace RPG::GameCore { class ModifierCustomEventConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ModifierCustomEventConfig_TypeDefinitionIndex = 17101;
+
 	class ModifierCustomEventConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

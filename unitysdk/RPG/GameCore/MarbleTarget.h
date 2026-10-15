@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MarbleTarget_TypeDefinitionIndex = 16821;
+
 	enum class MarbleTarget : ::System::Int32
 	{
 		None = 0,

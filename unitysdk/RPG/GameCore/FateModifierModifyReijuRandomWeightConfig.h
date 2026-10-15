@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FateModifierModifyReijuRandomWeightConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FateModifierModifyReijuRandomWeightConfig_TypeDefinitionIndex = 19281;
+
 	class FateModifierModifyReijuRandomWeightConfig : public ::RPG::GameCore::FateModifierConfigBase
 	{
 	public:

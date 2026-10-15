@@ -13,6 +13,8 @@ namespace System { class Object; }
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
+	inline static constexpr unsigned int IVROverlay__SetOverlayTexelAspect_TypeDefinitionIndex = 39077;
+
 	class IVROverlay__SetOverlayTexelAspect : public ::System::MulticastDelegate
 	{
 	public:

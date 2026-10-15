@@ -38,6 +38,8 @@ namespace UnityEngine::UI { class Text; }
 
 namespace MiHoYo::SDK::Win
 {
+	inline static constexpr unsigned int OverseaAccountList_TypeDefinitionIndex = 9305;
+
 	class OverseaAccountList : public ::MiHoYo::SDK::UIElement
 	{
 	public:

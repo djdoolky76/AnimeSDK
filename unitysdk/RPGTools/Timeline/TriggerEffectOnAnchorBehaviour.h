@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TriggerEffectOnAnchor; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int TriggerEffectOnAnchorBehaviour_TypeDefinitionIndex = 48336;
+
 	class TriggerEffectOnAnchorBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

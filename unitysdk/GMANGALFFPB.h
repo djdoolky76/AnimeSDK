@@ -5,6 +5,8 @@ namespace System { class String; }
 
 #define GMANGALFFPB_CTOR_OFFSET UNITYSDK_OFFSET(0x15ACA110)
 
+inline static constexpr unsigned int GMANGALFFPB_TypeDefinitionIndex = 71487;
+
 	class GMANGALFFPB : public ::System::Object
 	{
 	public:

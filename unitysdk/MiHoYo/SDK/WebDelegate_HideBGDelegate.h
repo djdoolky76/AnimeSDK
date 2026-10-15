@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int WebDelegate_HideBGDelegate_TypeDefinitionIndex = 7843;
+
 	class WebDelegate_HideBGDelegate : public ::System::MulticastDelegate
 	{
 	public:

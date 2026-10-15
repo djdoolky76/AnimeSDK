@@ -9,6 +9,8 @@ namespace RPG::GameCore { class GridFightEquipAdditionalPropertyRule; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightEquipAdditionalPropertyRule_TypeDefinitionIndex = 19382;
+
 	class GridFightEquipAdditionalPropertyRule : public ::RPG::GameCore::JsonConfig
 	{
 	public:

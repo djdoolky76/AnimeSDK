@@ -9,6 +9,8 @@ namespace RPG::GameCore { class BillboardIconConfigRow; }
 #define EFMJOHDIDKK_EKDIGFGDHOO_OFFSET UNITYSDK_OFFSET(0x13A5D4A0)
 #define EFMJOHDIDKK_GGBLHEHJBDO_OFFSET UNITYSDK_OFFSET(0x13A5D540)
 
+inline static constexpr unsigned int EFMJOHDIDKK_TypeDefinitionIndex = 57161;
+
 	class EFMJOHDIDKK
 	{
 	public:

@@ -7,6 +7,8 @@ namespace RPG::GameCore { class GameEntity; }
 #define EKKGJHMHIIB_CTOR_OFFSET UNITYSDK_OFFSET(0x1550CD50)
 #define EKKGJHMHIIB_GLLOCAIDDLJ_OFFSET UNITYSDK_OFFSET(0x1550CC20)
 
+inline static constexpr unsigned int EKKGJHMHIIB_TypeDefinitionIndex = 69570;
+
 	class EKKGJHMHIIB : public ::System::Object
 	{
 	public:

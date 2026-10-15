@@ -10,6 +10,8 @@ namespace System { class Object; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightFlowDirector_StageHintState___c_TypeDefinitionIndex = 64601;
+
 	class GridFightFlowDirector_StageHintState___c : public ::System::Object
 	{
 	public:

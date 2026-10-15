@@ -28,6 +28,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int LookAtAdditiveCurve_TypeDefinitionIndex = 68476;
+
 	class LookAtAdditiveCurve : public ::System::Object
 	{
 	public:

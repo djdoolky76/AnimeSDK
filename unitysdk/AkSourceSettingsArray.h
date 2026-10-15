@@ -8,6 +8,8 @@ class AkSourceSettings;
 #define AKSOURCESETTINGSARRAY_DEFAULTCONSTRUCTATINTPTR_OFFSET UNITYSDK_OFFSET(0x1F607260)
 #define AKSOURCESETTINGSARRAY_GET_STRUCTURESIZE_OFFSET UNITYSDK_OFFSET(0x1F607070)
 
+inline static constexpr unsigned int AkSourceSettingsArray_TypeDefinitionIndex = 44872;
+
 	class AkSourceSettingsArray
 	{
 	public:

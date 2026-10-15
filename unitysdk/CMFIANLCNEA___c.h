@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define CMFIANLCNEA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E1014C0)
 #define CMFIANLCNEA___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1E1014D0)
 
+inline static constexpr unsigned int CMFIANLCNEA___c_TypeDefinitionIndex = 31951;
+
 	class CMFIANLCNEA___c : public ::System::Object
 	{
 	public:

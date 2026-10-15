@@ -15,6 +15,8 @@ namespace System { class String; }
 
 namespace RPG::Client::UI3DGame
 {
+	inline static constexpr unsigned int MonopolyBarrier_TypeDefinitionIndex = 75810;
+
 	class MonopolyBarrier : public ::RPG::Client::UI3DGame::MonoUI3DGameView
 	{
 	public:

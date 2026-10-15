@@ -23,6 +23,8 @@ namespace UnityEngine::Events { class UnityAction; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ColliderButton_TypeDefinitionIndex = 72516;
+
 	class ColliderButton : public ::UnityEngine::MonoBehaviour
 	{
 	public:

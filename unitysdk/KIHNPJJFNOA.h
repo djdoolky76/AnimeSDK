@@ -43,6 +43,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define KIHNPJJFNOA_MKLHJMOLJDF_OFFSET UNITYSDK_OFFSET(0xB422690)
 #define KIHNPJJFNOA_PCBOAJJCEBJ_OFFSET UNITYSDK_OFFSET(0xB424940)
 
+inline static constexpr unsigned int KIHNPJJFNOA_TypeDefinitionIndex = 54179;
+
 	class KIHNPJJFNOA : public ::System::Object
 	{
 	public:

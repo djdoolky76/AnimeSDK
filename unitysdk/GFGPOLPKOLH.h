@@ -29,6 +29,8 @@ namespace System { class String; }
 #define GFGPOLPKOLH_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E46BBC0)
 #define GFGPOLPKOLH_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E46BC20)
 
+inline static constexpr unsigned int GFGPOLPKOLH_TypeDefinitionIndex = 28192;
+
 	class GFGPOLPKOLH : public ::System::Object
 	{
 	public:

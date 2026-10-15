@@ -12,6 +12,8 @@ namespace UnityEngine { class Material; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoEffectPluginCharaEffectBase_CharaEffectMaterialBlockItem_TypeDefinitionIndex = 69939;
+
 	class MonoEffectPluginCharaEffectBase_CharaEffectMaterialBlockItem : public ::System::Object
 	{
 	public:

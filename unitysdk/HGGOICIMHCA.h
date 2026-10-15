@@ -4,6 +4,8 @@
 
 #define HGGOICIMHCA_CTOR_OFFSET UNITYSDK_OFFSET(0x15C9F260)
 
+inline static constexpr unsigned int HGGOICIMHCA_TypeDefinitionIndex = 49778;
+
 	class HGGOICIMHCA : public ::System::Attribute
 	{
 	public:

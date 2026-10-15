@@ -9,6 +9,8 @@ namespace RPG::GameCore { class DistanceToScoreWeight; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DistanceToScoreWeight_TypeDefinitionIndex = 15635;
+
 	class DistanceToScoreWeight : public ::RPG::GameCore::JsonConfig
 	{
 	public:

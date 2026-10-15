@@ -29,6 +29,8 @@ namespace System { class String; }
 #define DFLIHGGNBDB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E1A57F0)
 #define DFLIHGGNBDB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E1A5850)
 
+inline static constexpr unsigned int DFLIHGGNBDB_TypeDefinitionIndex = 28738;
+
 	class DFLIHGGNBDB : public ::System::Object
 	{
 	public:

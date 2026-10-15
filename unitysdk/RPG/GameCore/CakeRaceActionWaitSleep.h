@@ -10,6 +10,8 @@ namespace RPG::GameCore { class CakeRaceActionWaitSleep; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CakeRaceActionWaitSleep_TypeDefinitionIndex = 18350;
+
 	class CakeRaceActionWaitSleep : public ::RPG::GameCore::CakeRaceActionBase
 	{
 	public:

@@ -5,6 +5,8 @@
 
 #define IPOPGAAKKAD_LBNMNKIELEH_CTOR_OFFSET UNITYSDK_OFFSET(0x1C6EB520)
 
+inline static constexpr unsigned int IPOPGAAKKAD_LBNMNKIELEH_TypeDefinitionIndex = 37307;
+
 	class IPOPGAAKKAD_LBNMNKIELEH : public ::System::Object
 	{
 	public:

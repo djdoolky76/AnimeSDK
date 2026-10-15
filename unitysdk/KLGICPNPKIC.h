@@ -26,6 +26,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 #define KLGICPNPKIC_PPAMJNOKPLO_OFFSET UNITYSDK_OFFSET(0x1C539D60)
 #define KLGICPNPKIC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1C539C60)
 
+inline static constexpr unsigned int KLGICPNPKIC_TypeDefinitionIndex = 41625;
+
 	class KLGICPNPKIC : public ::System::Object
 	{
 	public:

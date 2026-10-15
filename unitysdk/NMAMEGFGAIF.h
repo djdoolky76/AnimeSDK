@@ -6,6 +6,8 @@ class OEIKFPLBOMH;
 #define NMAMEGFGAIF_EHIEEGPHKAI_OFFSET UNITYSDK_OFFSET(0x1EC89DC0)
 #define NMAMEGFGAIF_PEMOEMHMHCA_OFFSET UNITYSDK_OFFSET(0x1EC658C0)
 
+inline static constexpr unsigned int NMAMEGFGAIF_TypeDefinitionIndex = 44088;
+
 	class NMAMEGFGAIF : public ::System::Object
 	{
 	public:

@@ -12,6 +12,8 @@ namespace UnityEngine { class RectTransform; }
 
 namespace SRF::UI
 {
+	inline static constexpr unsigned int ResponsiveBase_TypeDefinitionIndex = 35383;
+
 	class ResponsiveBase : public ::SRF::SRMonoBehaviour
 	{
 	public:

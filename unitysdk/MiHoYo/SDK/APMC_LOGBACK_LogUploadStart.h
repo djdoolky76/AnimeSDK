@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int APMC_LOGBACK_LogUploadStart_TypeDefinitionIndex = 46496;
+
 	class APMC_LOGBACK_LogUploadStart : public ::System::MulticastDelegate
 	{
 	public:

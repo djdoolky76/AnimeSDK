@@ -15,6 +15,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace Spine::Unity
 {
+	inline static constexpr unsigned int SkeletonGraphicCustomMaterials_TypeDefinitionIndex = 45050;
+
 	class SkeletonGraphicCustomMaterials : public ::UnityEngine::MonoBehaviour
 	{
 	public:

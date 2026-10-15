@@ -32,6 +32,8 @@ namespace System { class String; }
 #define IBKICHBPNCJ_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E61A570)
 #define IBKICHBPNCJ_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E61A5D0)
 
+inline static constexpr unsigned int IBKICHBPNCJ_TypeDefinitionIndex = 26442;
+
 	class IBKICHBPNCJ : public ::System::Object
 	{
 	public:

@@ -12,6 +12,8 @@
 
 namespace System::Diagnostics::Tracing
 {
+	inline static constexpr unsigned int EventSourceOptions_TypeDefinitionIndex = 1604;
+
 	struct alignas(4) EventSourceOptions
 	{
 		::System::Diagnostics::Tracing::EventKeywords keywords; // 0x10

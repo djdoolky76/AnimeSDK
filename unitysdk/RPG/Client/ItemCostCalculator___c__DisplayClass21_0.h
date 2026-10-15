@@ -8,6 +8,8 @@ namespace RPG::GameCore { class ItemConfig; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ItemCostCalculator___c__DisplayClass21_0_TypeDefinitionIndex = 65699;
+
 	class ItemCostCalculator___c__DisplayClass21_0 : public ::System::Object
 	{
 	public:

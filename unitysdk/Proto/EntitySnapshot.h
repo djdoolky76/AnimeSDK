@@ -43,6 +43,8 @@ namespace System { class String; }
 
 namespace Proto
 {
+	inline static constexpr unsigned int EntitySnapshot_TypeDefinitionIndex = 25823;
+
 	class EntitySnapshot : public ::System::Object
 	{
 	public:

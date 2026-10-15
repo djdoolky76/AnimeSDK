@@ -25,6 +25,8 @@ namespace UnityEngine::UI { class Text; }
 
 namespace MiHoYo::SDK::Console::UI::OS
 {
+	inline static constexpr unsigned int ConsoleAgeGateErrorDialog_TypeDefinitionIndex = 9031;
+
 	class ConsoleAgeGateErrorDialog : public ::MiHoYo::SDK::Console::ConsoleDialogBase
 	{
 	public:

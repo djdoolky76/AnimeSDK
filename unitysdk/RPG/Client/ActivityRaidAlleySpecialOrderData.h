@@ -25,6 +25,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ActivityRaidAlleySpecialOrderData_TypeDefinitionIndex = 62241;
+
 	class ActivityRaidAlleySpecialOrderData : public ::System::Object
 	{
 	public:

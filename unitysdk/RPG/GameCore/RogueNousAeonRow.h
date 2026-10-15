@@ -11,6 +11,8 @@ namespace RPG::GameCore { class RogueNousAeonRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueNousAeonRow_TypeDefinitionIndex = 14919;
+
 	class RogueNousAeonRow : public ::System::Object
 	{
 	public:

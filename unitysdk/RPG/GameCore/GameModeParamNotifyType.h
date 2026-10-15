@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GameModeParamNotifyType_TypeDefinitionIndex = 24776;
+
 	enum class GameModeParamNotifyType : ::System::Int32
 	{
 		RemainDelaySlice = 0,

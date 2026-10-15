@@ -24,6 +24,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AvatarStoryArchiveEntry_TypeDefinitionIndex = 62424;
+
 	class AvatarStoryArchiveEntry : public ::RPG::Client::BaseArchiveEntry
 	{
 	public:

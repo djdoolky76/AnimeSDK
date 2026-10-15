@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PerformTaskSeq_TypeDefinitionIndex = 17638;
+
 	class PerformTaskSeq : public ::RPG::GameCore::JsonConfig
 	{
 	public:

@@ -10,6 +10,8 @@ namespace System { template <typename T> class Predicate_1; }
 #define IFOEBJMEFKG_LBLPGFHMIIF_SET_MATCHES_OFFSET UNITYSDK_OFFSET(0x15F304A0)
 #define IFOEBJMEFKG_LBLPGFHMIIF_SET_MOLD_OFFSET UNITYSDK_OFFSET(0x15F30480)
 
+inline static constexpr unsigned int IFOEBJMEFKG_LBLPGFHMIIF_TypeDefinitionIndex = 79442;
+
 	class IFOEBJMEFKG_LBLPGFHMIIF : public ::IFOEBJMEFKG_BCEIMHGKKCC
 	{
 	public:

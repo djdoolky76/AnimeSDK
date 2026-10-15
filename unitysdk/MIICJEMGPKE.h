@@ -12,6 +12,8 @@ namespace System { class String; }
 #define MIICJEMGPKE_GET_TYPE_OFFSET UNITYSDK_OFFSET(0xB959BC0)
 #define MIICJEMGPKE_JAILHGGFLDH_OFFSET UNITYSDK_OFFSET(0xB959BD0)
 
+inline static constexpr unsigned int MIICJEMGPKE_TypeDefinitionIndex = 56154;
+
 	class MIICJEMGPKE : public ::DBGDNLLDPFI
 	{
 	public:

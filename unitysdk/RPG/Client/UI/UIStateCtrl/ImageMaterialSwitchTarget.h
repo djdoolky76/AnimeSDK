@@ -26,6 +26,8 @@ namespace UnityEngine::UI { class Image; }
 
 namespace RPG::Client::UI::UIStateCtrl
 {
+	inline static constexpr unsigned int ImageMaterialSwitchTarget_TypeDefinitionIndex = 74071;
+
 	class ImageMaterialSwitchTarget : public ::RPG::Client::UI::UIStateCtrl::MaterialSwitchTarget
 	{
 	public:

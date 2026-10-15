@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FateActUpgradeHouguConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FateActUpgradeHouguConfig_TypeDefinitionIndex = 19229;
+
 	class FateActUpgradeHouguConfig : public ::RPG::GameCore::FateActionConfigBase
 	{
 	public:

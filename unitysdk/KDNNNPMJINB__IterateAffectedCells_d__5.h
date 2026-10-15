@@ -20,6 +20,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 #define KDNNNPMJINB__ITERATEAFFECTEDCELLS_D__5_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1C56B750)
 #define KDNNNPMJINB__ITERATEAFFECTEDCELLS_D__5___M__FINALLY1_OFFSET UNITYSDK_OFFSET(0x1C56B770)
 
+inline static constexpr unsigned int KDNNNPMJINB__IterateAffectedCells_d__5_TypeDefinitionIndex = 41783;
+
 	template <typename T1, typename T2, typename T3, typename T4, typename T5>
 	class KDNNNPMJINB__IterateAffectedCells_d__5 : public ::System::Object
 	{

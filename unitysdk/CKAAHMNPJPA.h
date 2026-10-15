@@ -6,6 +6,8 @@ class KCJNGDLDKFG;
 #define CKAAHMNPJPA_CTOR_OFFSET UNITYSDK_OFFSET(0xD751C50)
 #define CKAAHMNPJPA_GET__FLOWCOORDINATOR_OFFSET UNITYSDK_OFFSET(0xD751C40)
 
+inline static constexpr unsigned int CKAAHMNPJPA_TypeDefinitionIndex = 79705;
+
 	class CKAAHMNPJPA : public ::System::Object
 	{
 	public:

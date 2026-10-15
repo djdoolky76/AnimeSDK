@@ -29,6 +29,8 @@ namespace System { class String; }
 
 namespace RPG::Client::TeamTowers
 {
+	inline static constexpr unsigned int TeamTowersPveStageEntrancePanelViewModel_TypeDefinitionIndex = 79071;
+
 	class TeamTowersPveStageEntrancePanelViewModel : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::PluginUI
 {
+	inline static constexpr unsigned int HoYoSDKWebView_CookieInfo_TypeDefinitionIndex = 46776;
+
 	class HoYoSDKWebView_CookieInfo : public ::System::Object
 	{
 	public:

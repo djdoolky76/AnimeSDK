@@ -88,6 +88,8 @@ namespace System::Diagnostics { class Stopwatch; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int ProtocolManager_TypeDefinitionIndex = 8040;
+
 	class ProtocolManager : public ::System::Object
 	{
 	public:

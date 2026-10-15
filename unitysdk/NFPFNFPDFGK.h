@@ -30,6 +30,8 @@ namespace System { class String; }
 #define NFPFNFPDFGK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EB09260)
 #define NFPFNFPDFGK_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EB092C0)
 
+inline static constexpr unsigned int NFPFNFPDFGK_TypeDefinitionIndex = 27604;
+
 	class NFPFNFPDFGK : public ::System::Object
 	{
 	public:

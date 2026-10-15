@@ -13,6 +13,8 @@ namespace System { class Action; }
 #define DHHMOPOLKBF__GET_CURRENTPERCENT_B__5_1_OFFSET UNITYSDK_OFFSET(0x1C54DEC0)
 #define DHHMOPOLKBF__GET_CURRENTPERCENT_B__5_2_OFFSET UNITYSDK_OFFSET(0x1C54DF30)
 
+inline static constexpr unsigned int DHHMOPOLKBF_TypeDefinitionIndex = 41837;
+
 	class DHHMOPOLKBF : public ::System::Object
 	{
 	public:

@@ -63,6 +63,8 @@ namespace System { class Type; }
 
 namespace Newtonsoft::Json::Linq
 {
+	inline static constexpr unsigned int JValue_TypeDefinitionIndex = 9791;
+
 	class JValue : public ::Newtonsoft::Json::Linq::JToken
 	{
 	public:

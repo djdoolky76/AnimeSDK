@@ -5,6 +5,8 @@
 
 #define JKNJBPBDOBE_HJKIEKODDAL_OFFSET UNITYSDK_OFFSET(0xB229470)
 
+inline static constexpr unsigned int JKNJBPBDOBE_TypeDefinitionIndex = 70688;
+
 	class JKNJBPBDOBE : public ::System::Object
 	{
 	public:

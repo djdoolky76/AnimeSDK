@@ -28,6 +28,8 @@ namespace System { class String; }
 #define CJJPGIGPDIA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E0E1C80)
 #define CJJPGIGPDIA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E0E1CE0)
 
+inline static constexpr unsigned int CJJPGIGPDIA_TypeDefinitionIndex = 30168;
+
 	class CJJPGIGPDIA : public ::System::Object
 	{
 	public:

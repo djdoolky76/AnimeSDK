@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define LOIBKAPDBMM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E9C0B70)
 #define LOIBKAPDBMM___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1E9C0B80)
 
+inline static constexpr unsigned int LOIBKAPDBMM___c_TypeDefinitionIndex = 27398;
+
 	class LOIBKAPDBMM___c : public ::System::Object
 	{
 	public:

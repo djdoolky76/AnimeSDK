@@ -22,6 +22,8 @@ namespace System::Collections::Generic { template <typename T> class IList_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AetherDivideTeamData_TypeDefinitionIndex = 62239;
+
 	class AetherDivideTeamData : public ::System::Object
 	{
 	public:

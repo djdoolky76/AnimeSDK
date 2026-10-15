@@ -25,6 +25,8 @@ namespace System { class String; }
 #define MDDJMLCHDIK__CUSTOMBINDVIEW_OFFSET UNITYSDK_OFFSET(0xB89ED80)
 #define MDDJMLCHDIK__UNBINDVIEW_OFFSET UNITYSDK_OFFSET(0xB89F130)
 
+inline static constexpr unsigned int MDDJMLCHDIK_TypeDefinitionIndex = 72210;
+
 	class MDDJMLCHDIK : public ::RPG::Client::UIController
 	{
 	public:

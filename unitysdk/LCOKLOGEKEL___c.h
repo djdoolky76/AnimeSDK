@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define LCOKLOGEKEL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E8EFDB0)
 #define LCOKLOGEKEL___C___CCTOR_B__48_0_OFFSET UNITYSDK_OFFSET(0x1E8EFDC0)
 
+inline static constexpr unsigned int LCOKLOGEKEL___c_TypeDefinitionIndex = 33833;
+
 	class LCOKLOGEKEL___c : public ::System::Object
 	{
 	public:

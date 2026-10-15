@@ -22,6 +22,8 @@ namespace System { template <typename T> class Func_1; }
 #define CJGNCPIDGNH___C__TRYGIVEUP_B__11_2_OFFSET UNITYSDK_OFFSET(0xD210110)
 #define CJGNCPIDGNH___C__TRYGIVEUP_B__11_4_OFFSET UNITYSDK_OFFSET(0xD210180)
 
+inline static constexpr unsigned int CJGNCPIDGNH___c_TypeDefinitionIndex = 80266;
+
 	class CJGNCPIDGNH___c : public ::System::Object
 	{
 	public:

@@ -25,6 +25,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int StageInvasionBuffExcelTable_TypeDefinitionIndex = 15164;
+
 	class StageInvasionBuffExcelTable : public ::System::Object
 	{
 	public:

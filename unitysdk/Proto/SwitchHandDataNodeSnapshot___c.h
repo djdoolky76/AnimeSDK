@@ -10,6 +10,8 @@ namespace System { class Object; }
 
 namespace Proto
 {
+	inline static constexpr unsigned int SwitchHandDataNodeSnapshot___c_TypeDefinitionIndex = 25853;
+
 	class SwitchHandDataNodeSnapshot___c : public ::System::Object
 	{
 	public:

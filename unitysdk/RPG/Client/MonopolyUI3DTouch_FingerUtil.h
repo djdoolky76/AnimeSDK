@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonopolyUI3DTouch_FingerUtil_TypeDefinitionIndex = 72849;
+
 	class MonopolyUI3DTouch_FingerUtil : public ::System::Object
 	{
 	public:

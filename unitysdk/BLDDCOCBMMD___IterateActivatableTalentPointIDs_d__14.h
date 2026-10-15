@@ -19,6 +19,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 #define BLDDCOCBMMD___ITERATEACTIVATABLETALENTPOINTIDS_D__14___M__FINALLY1_OFFSET UNITYSDK_OFFSET(0xBA69970)
 #define BLDDCOCBMMD___ITERATEACTIVATABLETALENTPOINTIDS_D__14___M__FINALLY2_OFFSET UNITYSDK_OFFSET(0xBA69870)
 
+inline static constexpr unsigned int BLDDCOCBMMD___IterateActivatableTalentPointIDs_d__14_TypeDefinitionIndex = 79681;
+
 	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename T8, typename T9, typename T10, typename T11, typename T12, typename T13, typename T14>
 	class BLDDCOCBMMD___IterateActivatableTalentPointIDs_d__14 : public ::System::Object
 	{

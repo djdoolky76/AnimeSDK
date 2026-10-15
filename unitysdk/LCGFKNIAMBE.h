@@ -37,6 +37,8 @@ namespace System { class String; }
 #define LCGFKNIAMBE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E8ECD80)
 #define LCGFKNIAMBE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E8ECDE0)
 
+inline static constexpr unsigned int LCGFKNIAMBE_TypeDefinitionIndex = 28658;
+
 	class LCGFKNIAMBE : public ::System::Object
 	{
 	public:

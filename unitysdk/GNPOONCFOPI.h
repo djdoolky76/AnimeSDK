@@ -9,6 +9,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define GNPOONCFOPI_HEHOEOFNGPG_OFFSET UNITYSDK_OFFSET(0x15B1FD70)
 #define GNPOONCFOPI_KINLCNAJDMC_OFFSET UNITYSDK_OFFSET(0x15B1FE10)
 
+inline static constexpr unsigned int GNPOONCFOPI_TypeDefinitionIndex = 52383;
+
 	class GNPOONCFOPI : public ::System::Object
 	{
 	public:

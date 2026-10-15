@@ -5,6 +5,8 @@
 #define NIMPFIKCPKG_CTOR_OFFSET UNITYSDK_OFFSET(0xBBFE180)
 #define NIMPFIKCPKG_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0xBBFE140)
 
+inline static constexpr unsigned int NIMPFIKCPKG_TypeDefinitionIndex = 57390;
+
 	class NIMPFIKCPKG : public ::System::Object
 	{
 	public:

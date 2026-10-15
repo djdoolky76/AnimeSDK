@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FourRotateVoxelSetEntityDitherAlphaAction; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FourRotateVoxelSetEntityDitherAlphaAction_TypeDefinitionIndex = 16775;
+
 	class FourRotateVoxelSetEntityDitherAlphaAction : public ::RPG::GameCore::FiveDimBaseEventAction
 	{
 	public:

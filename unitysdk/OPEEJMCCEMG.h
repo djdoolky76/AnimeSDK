@@ -5,6 +5,8 @@
 #define OPEEJMCCEMG_CTOR_1_OFFSET UNITYSDK_OFFSET(0xBFA7D20)
 #define OPEEJMCCEMG_CTOR_OFFSET UNITYSDK_OFFSET(0xBFA7CC0)
 
+inline static constexpr unsigned int OPEEJMCCEMG_TypeDefinitionIndex = 74025;
+
 	class OPEEJMCCEMG
 	{
 	public:

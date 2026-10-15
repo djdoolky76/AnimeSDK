@@ -8,6 +8,8 @@ class JIFDLHEIPHD;
 #define JIFDLHEIPHD_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D0346D0)
 #define JIFDLHEIPHD_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D034600)
 
+inline static constexpr unsigned int JIFDLHEIPHD_TypeDefinitionIndex = 22120;
+
 	class JIFDLHEIPHD : public ::RPG::GameCore::TaskConfig
 	{
 	public:

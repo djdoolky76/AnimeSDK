@@ -30,6 +30,8 @@ namespace System { class String; }
 #define MCHIJNKKOAM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E9F79B0)
 #define MCHIJNKKOAM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E9F7A10)
 
+inline static constexpr unsigned int MCHIJNKKOAM_TypeDefinitionIndex = 32950;
+
 	class MCHIJNKKOAM : public ::System::Object
 	{
 	public:

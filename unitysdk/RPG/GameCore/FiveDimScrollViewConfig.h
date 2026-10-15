@@ -13,6 +13,8 @@ namespace RPG::GameCore { class FiveDimScrollViewConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimScrollViewConfig_TypeDefinitionIndex = 18540;
+
 	class FiveDimScrollViewConfig : public ::RPG::GameCore::LittleGameComponentConfig
 	{
 	public:

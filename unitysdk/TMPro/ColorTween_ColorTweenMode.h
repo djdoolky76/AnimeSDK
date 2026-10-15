@@ -3,6 +3,8 @@
 
 namespace TMPro
 {
+	inline static constexpr unsigned int ColorTween_ColorTweenMode_TypeDefinitionIndex = 44552;
+
 	enum class ColorTween_ColorTweenMode : ::System::Int32
 	{
 		All = 0,

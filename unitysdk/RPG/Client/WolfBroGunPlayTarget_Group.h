@@ -15,6 +15,8 @@ namespace System { class Object; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int WolfBroGunPlayTarget_Group_TypeDefinitionIndex = 68727;
+
 	class WolfBroGunPlayTarget_Group : public ::RPG::Client::WolfBroGunPlayTarget
 	{
 	public:

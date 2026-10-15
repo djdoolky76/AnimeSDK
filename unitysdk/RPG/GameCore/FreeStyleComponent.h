@@ -74,6 +74,8 @@ namespace UnityEngine { class Animator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FreeStyleComponent_TypeDefinitionIndex = 57268;
+
 	class FreeStyleComponent : public ::RPG::GameCore::GameComponentBase
 	{
 	public:

@@ -16,6 +16,8 @@ namespace RPG::CustomRP { class CustomAdditionalCameraData; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int CameraHelper_TypeDefinitionIndex = 37699;
+
 	class CameraHelper : public ::System::Object
 	{
 	public:

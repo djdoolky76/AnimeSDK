@@ -10,6 +10,8 @@ namespace RPG::GameCore { class SetWaypointSafeZone; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetWaypointSafeZone_TypeDefinitionIndex = 20872;
+
 	class SetWaypointSafeZone : public ::RPG::GameCore::TaskConfig
 	{
 	public:

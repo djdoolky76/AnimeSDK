@@ -10,6 +10,8 @@
 #define EHMAAAKOAGP_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x154B27D0)
 #define EHMAAAKOAGP_JAILHGGFLDH_OFFSET UNITYSDK_OFFSET(0x154B27E0)
 
+inline static constexpr unsigned int EHMAAAKOAGP_TypeDefinitionIndex = 56148;
+
 	class EHMAAAKOAGP : public ::DBGDNLLDPFI
 	{
 	public:

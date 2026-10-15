@@ -11,6 +11,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 #define HNJJOFBLHCN___C__SELECTDIALOGPERFORMANCETOPLAY_B__17_0_OFFSET UNITYSDK_OFFSET(0x1C6771F0)
 #define HNJJOFBLHCN___C___ISGENDERMATCHED_B__10_0_OFFSET UNITYSDK_OFFSET(0x1C6771B0)
 
+inline static constexpr unsigned int HNJJOFBLHCN___c_TypeDefinitionIndex = 36475;
+
 	class HNJJOFBLHCN___c : public ::System::Object
 	{
 	public:

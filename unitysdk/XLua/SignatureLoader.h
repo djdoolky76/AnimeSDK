@@ -13,6 +13,8 @@ namespace XLua { class SignatureLoader; }
 
 namespace XLua
 {
+	inline static constexpr unsigned int SignatureLoader_TypeDefinitionIndex = 50255;
+
 	class SignatureLoader : public ::System::Object
 	{
 	public:

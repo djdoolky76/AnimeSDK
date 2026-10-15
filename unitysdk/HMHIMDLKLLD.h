@@ -22,6 +22,8 @@ namespace System { class String; }
 #define HMHIMDLKLLD_PAPFOAJAHMD_OFFSET UNITYSDK_OFFSET(0x15D82860)
 #define HMHIMDLKLLD_TICK_OFFSET UNITYSDK_OFFSET(0x15D82740)
 
+inline static constexpr unsigned int HMHIMDLKLLD_TypeDefinitionIndex = 55859;
+
 	class HMHIMDLKLLD : public ::System::Object
 	{
 	public:

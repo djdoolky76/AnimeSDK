@@ -14,6 +14,8 @@ class HipplenBuilderUIMan;
 #define HIPPLENBUILDERUIMAN___C__DISPLAYCLASS35_0__INIT_B__6_OFFSET UNITYSDK_OFFSET(0x15DF5920)
 #define HIPPLENBUILDERUIMAN___C__DISPLAYCLASS35_0__INIT_B__7_OFFSET UNITYSDK_OFFSET(0x15DF59A0)
 
+inline static constexpr unsigned int HipplenBuilderUIMan___c__DisplayClass35_0_TypeDefinitionIndex = 47217;
+
 	class HipplenBuilderUIMan___c__DisplayClass35_0 : public ::System::Object
 	{
 	public:

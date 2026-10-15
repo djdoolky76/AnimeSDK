@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelEntityEndUseSkill_TypeDefinitionIndex = 56751;
+
 	class LevelEntityEndUseSkill : public ::System::Object
 	{
 	public:

@@ -18,6 +18,8 @@ namespace System::Globalization { class SortKey; }
 
 namespace System::Globalization
 {
+	inline static constexpr unsigned int SortKey_TypeDefinitionIndex = 782;
+
 	class SortKey : public ::System::Object
 	{
 	public:

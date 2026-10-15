@@ -8,6 +8,8 @@ class FCOEMCEDLNL;
 #define AMALAKFNFHD_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CCDAD50)
 #define AMALAKFNFHD_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CCDAD00)
 
+inline static constexpr unsigned int AMALAKFNFHD_TypeDefinitionIndex = 21903;
+
 	class AMALAKFNFHD : public ::RPG::GameCore::TransitEnvProfile
 	{
 	public:

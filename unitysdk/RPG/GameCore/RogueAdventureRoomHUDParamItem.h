@@ -11,6 +11,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueAdventureRoomHUDParamItem_TypeDefinitionIndex = 58452;
+
 	class RogueAdventureRoomHUDParamItem : public ::System::Object
 	{
 	public:

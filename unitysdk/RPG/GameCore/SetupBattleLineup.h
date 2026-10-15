@@ -10,6 +10,8 @@ namespace RPG::GameCore { class SetupBattleLineup; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetupBattleLineup_TypeDefinitionIndex = 22956;
+
 	class SetupBattleLineup : public ::RPG::GameCore::TaskConfig
 	{
 	public:

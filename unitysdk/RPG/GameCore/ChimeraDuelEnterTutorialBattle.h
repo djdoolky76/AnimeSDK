@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ChimeraDuelEnterTutorialBattle; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChimeraDuelEnterTutorialBattle_TypeDefinitionIndex = 21741;
+
 	class ChimeraDuelEnterTutorialBattle : public ::RPG::GameCore::TaskConfig
 	{
 	public:

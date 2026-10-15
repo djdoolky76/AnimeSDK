@@ -7,6 +7,8 @@
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
+	inline static constexpr unsigned int B2ContactEndTouchEvent_TypeDefinitionIndex = 36624;
+
 	struct alignas(4) B2ContactEndTouchEvent
 	{
 		::RPG::LittleGameShare::HoyoPhysics::Box2D::B2ShapeId shapeIdA; // 0x10

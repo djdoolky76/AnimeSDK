@@ -15,6 +15,8 @@ namespace UnityEngine { class Transform; }
 #define HDFMNOLOJEA_LPAAKPBFHJF_OFFSET UNITYSDK_OFFSET(0x15C32F40)
 #define HDFMNOLOJEA__ONBIND_OFFSET UNITYSDK_OFFSET(0x15C33120)
 
+inline static constexpr unsigned int HDFMNOLOJEA_TypeDefinitionIndex = 71637;
+
 	class HDFMNOLOJEA : public ::FMPCODLIOLG
 	{
 	public:

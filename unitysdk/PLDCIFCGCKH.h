@@ -17,6 +17,8 @@ namespace System { class String; }
 #define PLDCIFCGCKH_NPIJEDDFMMC_OFFSET UNITYSDK_OFFSET(0xC2ED1D0)
 #define PLDCIFCGCKH_OIENNDOOCCF_OFFSET UNITYSDK_OFFSET(0xC2ED0D0)
 
+inline static constexpr unsigned int PLDCIFCGCKH_TypeDefinitionIndex = 72117;
+
 	class PLDCIFCGCKH : public ::System::Object
 	{
 	public:

@@ -13,6 +13,8 @@ namespace System { class Object; }
 
 namespace RPG::Client::LittleGame::FourRotateVoxel
 {
+	inline static constexpr unsigned int FourRotateVoxelData___LoopLateFixedUpdate_d__5_TypeDefinitionIndex = 76854;
+
 	template <typename T1, typename T2, typename T3, typename T4, typename T5>
 	class FourRotateVoxelData___LoopLateFixedUpdate_d__5 : public ::System::Object
 	{

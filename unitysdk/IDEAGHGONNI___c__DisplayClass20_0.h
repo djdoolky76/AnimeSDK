@@ -7,6 +7,8 @@ class IDEAGHGONNI;
 #define IDEAGHGONNI___C__DISPLAYCLASS20_0_CTOR_OFFSET UNITYSDK_OFFSET(0x15EB7140)
 #define IDEAGHGONNI___C__DISPLAYCLASS20_0___STARTUPDATE_B__0_OFFSET UNITYSDK_OFFSET(0x15EB8B20)
 
+inline static constexpr unsigned int IDEAGHGONNI___c__DisplayClass20_0_TypeDefinitionIndex = 61223;
+
 	class IDEAGHGONNI___c__DisplayClass20_0 : public ::System::Object
 	{
 	public:

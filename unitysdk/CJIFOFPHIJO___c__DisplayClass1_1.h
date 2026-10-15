@@ -6,6 +6,8 @@ namespace System { class Object; }
 
 #define CJIFOFPHIJO___C__DISPLAYCLASS1_1_CTOR_OFFSET UNITYSDK_OFFSET(0xD213930)
 
+inline static constexpr unsigned int CJIFOFPHIJO___c__DisplayClass1_1_TypeDefinitionIndex = 74956;
+
 	template <typename T>
 	class CJIFOFPHIJO___c__DisplayClass1_1 : public ::System::Object
 	{

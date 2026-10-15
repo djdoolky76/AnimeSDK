@@ -59,6 +59,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define HJCOLAEIJFM_PJMABBNHKLK_OFFSET UNITYSDK_OFFSET(0x15D08200)
 #define HJCOLAEIJFM_PKDGHOOBDNJ_OFFSET UNITYSDK_OFFSET(0x15D07B10)
 
+inline static constexpr unsigned int HJCOLAEIJFM_TypeDefinitionIndex = 57340;
+
 	class HJCOLAEIJFM : public ::RPG::GameCore::GameComponentBase
 	{
 	public:

@@ -23,6 +23,8 @@ namespace RPG::Client { class RogueNousStoryInfo; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ChessRogueDimensionData_TypeDefinitionIndex = 66931;
+
 	class ChessRogueDimensionData : public ::System::Object
 	{
 	public:

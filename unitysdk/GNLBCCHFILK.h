@@ -30,6 +30,8 @@ namespace System { class String; }
 #define GNLBCCHFILK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E4E4920)
 #define GNLBCCHFILK_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E4E4980)
 
+inline static constexpr unsigned int GNLBCCHFILK_TypeDefinitionIndex = 33042;
+
 	class GNLBCCHFILK : public ::System::Object
 	{
 	public:

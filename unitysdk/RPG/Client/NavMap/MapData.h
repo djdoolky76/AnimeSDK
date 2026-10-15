@@ -80,6 +80,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::NavMap
 {
+	inline static constexpr unsigned int MapData_TypeDefinitionIndex = 74620;
+
 	class MapData : public ::System::Object
 	{
 	public:

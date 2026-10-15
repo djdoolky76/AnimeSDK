@@ -10,6 +10,8 @@ namespace System { class Object; }
 #define MDNEGNPBHDM_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xB8B1F70)
 #define MDNEGNPBHDM_INVOKE_OFFSET UNITYSDK_OFFSET(0xB8B1F30)
 
+inline static constexpr unsigned int MDNEGNPBHDM_TypeDefinitionIndex = 57374;
+
 	class MDNEGNPBHDM : public ::System::MulticastDelegate
 	{
 	public:

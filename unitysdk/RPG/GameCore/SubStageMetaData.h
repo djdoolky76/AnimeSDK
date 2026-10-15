@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SubStageMetaData_TypeDefinitionIndex = 19142;
+
 	class SubStageMetaData : public ::RPG::GameCore::JsonConfig
 	{
 	public:

@@ -5,6 +5,8 @@
 
 #define DJIGFHMOPIG_CTOR_OFFSET UNITYSDK_OFFSET(0xF2358E0)
 
+inline static constexpr unsigned int DJIGFHMOPIG_TypeDefinitionIndex = 55840;
+
 	class DJIGFHMOPIG : public ::System::Object
 	{
 	public:

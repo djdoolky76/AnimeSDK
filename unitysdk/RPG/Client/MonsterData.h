@@ -30,6 +30,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonsterData_TypeDefinitionIndex = 63139;
+
 	class MonsterData : public ::System::Object
 	{
 	public:

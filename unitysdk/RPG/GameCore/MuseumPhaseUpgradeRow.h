@@ -9,6 +9,8 @@ namespace RPG::GameCore { class MuseumPhaseUpgradeRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MuseumPhaseUpgradeRow_TypeDefinitionIndex = 14216;
+
 	class MuseumPhaseUpgradeRow : public ::System::Object
 	{
 	public:

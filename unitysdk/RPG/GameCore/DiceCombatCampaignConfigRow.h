@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DiceCombatCampaignConfigRow_TypeDefinitionIndex = 11279;
+
 	class DiceCombatCampaignConfigRow : public ::System::Object
 	{
 	public:

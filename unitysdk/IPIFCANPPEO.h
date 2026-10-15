@@ -25,6 +25,8 @@ namespace System { class String; }
 #define IPIFCANPPEO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E6E3F20)
 #define IPIFCANPPEO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E6E3F80)
 
+inline static constexpr unsigned int IPIFCANPPEO_TypeDefinitionIndex = 33539;
+
 	class IPIFCANPPEO : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace RPG::GameCore { class MunicipalChatActionPropAnimation; }
 #define LMABBKNCOAB_LJOLGCNKIEH_OFFSET UNITYSDK_OFFSET(0xB7796E0)
 #define LMABBKNCOAB_MGFLFCHMGPA_OFFSET UNITYSDK_OFFSET(0xB7795B0)
 
+inline static constexpr unsigned int LMABBKNCOAB_TypeDefinitionIndex = 69196;
+
 	class LMABBKNCOAB : public ::MAGCBFJCKLE
 	{
 	public:

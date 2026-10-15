@@ -17,6 +17,8 @@ namespace System::Text { class StringBuilder; }
 
 namespace SRF
 {
+	inline static constexpr unsigned int Json_Serializer_TypeDefinitionIndex = 35358;
+
 	class Json_Serializer : public ::System::Object
 	{
 	public:

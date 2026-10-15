@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FateModifierSeckillConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FateModifierSeckillConfig_TypeDefinitionIndex = 19277;
+
 	class FateModifierSeckillConfig : public ::RPG::GameCore::FateModifierConfigBase
 	{
 	public:

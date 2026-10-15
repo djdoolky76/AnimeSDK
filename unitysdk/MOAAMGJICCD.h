@@ -14,6 +14,8 @@ class NGLFOJKOKBH;
 #define MOAAMGJICCD_EQUALS_OFFSET UNITYSDK_OFFSET(0xBA1A740)
 #define MOAAMGJICCD_HIHJBDCMEIP_OFFSET UNITYSDK_OFFSET(0xBA1A8E0)
 
+inline static constexpr unsigned int MOAAMGJICCD_TypeDefinitionIndex = 48915;
+
 	class MOAAMGJICCD : public ::System::Object
 	{
 	public:

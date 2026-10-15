@@ -7,6 +7,8 @@ class BJLOENPDAHE;
 #define PMELMLOAEDO_ELKFFEIOGDN_OFFSET UNITYSDK_OFFSET(0xC3195E0)
 #define PMELMLOAEDO_MNINMMOJAOL_OFFSET UNITYSDK_OFFSET(0xC319580)
 
+inline static constexpr unsigned int PMELMLOAEDO_TypeDefinitionIndex = 62099;
+
 	class PMELMLOAEDO : public ::System::Object
 	{
 	public:

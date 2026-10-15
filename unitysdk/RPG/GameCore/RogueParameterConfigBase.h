@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueParameterConfigBase; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueParameterConfigBase_TypeDefinitionIndex = 19817;
+
 	class RogueParameterConfigBase : public ::RPG::GameCore::PlayerParameterConfigBase
 	{
 	public:

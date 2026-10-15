@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TrainPartyCondTrueConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TrainPartyCondTrueConfig_TypeDefinitionIndex = 18086;
+
 	class TrainPartyCondTrueConfig : public ::RPG::GameCore::TrainPartyConditionConfigBase
 	{
 	public:

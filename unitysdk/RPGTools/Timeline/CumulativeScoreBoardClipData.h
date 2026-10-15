@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int CumulativeScoreBoardClipData_TypeDefinitionIndex = 48278;
+
 	class CumulativeScoreBoardClipData : public ::System::Object
 	{
 	public:

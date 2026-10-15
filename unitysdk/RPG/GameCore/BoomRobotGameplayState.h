@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int BoomRobotGameplayState_TypeDefinitionIndex = 52543;
+
 	enum class BoomRobotGameplayState : ::System::Int32
 	{
 		None = 0,

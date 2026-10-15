@@ -10,6 +10,8 @@ namespace RPG::GameCore { class LevelPedestrianV2SpawnGroupInfo; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelPedestrianV2SpawnGroupInfo_TypeDefinitionIndex = 17320;
+
 	class LevelPedestrianV2SpawnGroupInfo : public ::RPG::GameCore::NamedLevelObjectInfo
 	{
 	public:

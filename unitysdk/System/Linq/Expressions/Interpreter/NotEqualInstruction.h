@@ -13,6 +13,8 @@ namespace System::Linq::Expressions::Interpreter { class Instruction; }
 
 namespace System::Linq::Expressions::Interpreter
 {
+	inline static constexpr unsigned int NotEqualInstruction_TypeDefinitionIndex = 3560;
+
 	class NotEqualInstruction : public ::System::Linq::Expressions::Interpreter::Instruction
 	{
 	public:

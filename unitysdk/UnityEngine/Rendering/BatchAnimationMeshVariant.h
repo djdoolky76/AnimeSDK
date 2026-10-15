@@ -10,6 +10,8 @@ namespace UnityEngine { class Mesh; }
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int BatchAnimationMeshVariant_TypeDefinitionIndex = 4783;
+
 	class BatchAnimationMeshVariant : public ::UnityEngine::Behaviour
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define MEKPDDBLCGK___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA0FA60)
 #define MEKPDDBLCGK___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1EA0FA70)
 
+inline static constexpr unsigned int MEKPDDBLCGK___c_TypeDefinitionIndex = 26881;
+
 	class MEKPDDBLCGK___c : public ::System::Object
 	{
 	public:

@@ -9,6 +9,8 @@
 #define DBGDNLLDPFI_GET_TYPE_OFFSET UNITYSDK_OFFSET(0xDFE12B0)
 #define DBGDNLLDPFI_JAILHGGFLDH_OFFSET UNITYSDK_OFFSET(0xDFE1180)
 
+inline static constexpr unsigned int DBGDNLLDPFI_TypeDefinitionIndex = 56168;
+
 	class DBGDNLLDPFI : public ::System::Object
 	{
 	public:

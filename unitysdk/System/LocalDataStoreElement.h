@@ -10,6 +10,8 @@ namespace System { class Object; }
 
 namespace System
 {
+	inline static constexpr unsigned int LocalDataStoreElement_TypeDefinitionIndex = 164;
+
 	class LocalDataStoreElement : public ::System::Object
 	{
 	public:

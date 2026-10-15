@@ -7,6 +7,8 @@ class OODEOHIDMEG;
 
 #define BJIHHDAGFOP_CTOR_OFFSET UNITYSDK_OFFSET(0x1C8BB9B0)
 
+inline static constexpr unsigned int BJIHHDAGFOP_TypeDefinitionIndex = 43778;
+
 	class BJIHHDAGFOP : public ::System::Object
 	{
 	public:

@@ -36,6 +36,8 @@ namespace System { class String; }
 #define NLBIEMILEDE_PKCKPFHCODN_OFFSET UNITYSDK_OFFSET(0xBC61A10)
 #define NLBIEMILEDE_PKGBFJFOAHD_OFFSET UNITYSDK_OFFSET(0xBC61D20)
 
+inline static constexpr unsigned int NLBIEMILEDE_TypeDefinitionIndex = 49545;
+
 	class NLBIEMILEDE : public ::GGJFAFONDHN
 	{
 	public:

@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define GFMFCHOFPIK_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1CE3D540)
 #define GFMFCHOFPIK_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1CE3CE90)
 
+inline static constexpr unsigned int GFMFCHOFPIK_TypeDefinitionIndex = 11116;
+
 	class GFMFCHOFPIK : public ::System::Object
 	{
 	public:

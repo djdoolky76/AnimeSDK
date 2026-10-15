@@ -7,6 +7,8 @@ class MOMODPMFIKE;
 #define ALLLIOHNNHJ_HFGLFNLPIPI_OFFSET UNITYSDK_OFFSET(0x1556F850)
 #define ALLLIOHNNHJ_KONHPICIELO_OFFSET UNITYSDK_OFFSET(0x1556F910)
 
+inline static constexpr unsigned int ALLLIOHNNHJ_TypeDefinitionIndex = 54023;
+
 	class ALLLIOHNNHJ : public ::System::Object
 	{
 	public:

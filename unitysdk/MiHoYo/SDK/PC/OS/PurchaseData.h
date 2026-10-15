@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::PC::OS
 {
+	inline static constexpr unsigned int PurchaseData_TypeDefinitionIndex = 8599;
+
 	class PurchaseData : public ::System::Object
 	{
 	public:

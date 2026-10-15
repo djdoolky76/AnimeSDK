@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ST_Main_ElfCustomerWaitEvent; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ST_Main_ElfCustomerWaitEvent_TypeDefinitionIndex = 21533;
+
 	class ST_Main_ElfCustomerWaitEvent : public ::RPG::GameCore::STTaskConfig
 	{
 	public:

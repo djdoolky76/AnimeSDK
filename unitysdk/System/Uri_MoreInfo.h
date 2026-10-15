@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace System
 {
+	inline static constexpr unsigned int Uri_MoreInfo_TypeDefinitionIndex = 2465;
+
 	class Uri_MoreInfo : public ::System::Object
 	{
 	public:

@@ -21,6 +21,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ResidentActivityPanelIndexKey_TypeDefinitionIndex = 61775;
+
 	struct alignas(4) ResidentActivityPanelIndexKey
 	{
 		::RPG::Client::ResidentActivityPanelDataSource DataSource; // 0x10

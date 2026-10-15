@@ -12,6 +12,8 @@ namespace System::Security::Cryptography { class Aes; }
 
 namespace System::Security::Cryptography
 {
+	inline static constexpr unsigned int AesTransform_TypeDefinitionIndex = 3131;
+
 	class AesTransform : public ::Mono::Security::Cryptography::SymmetricTransform
 	{
 	public:

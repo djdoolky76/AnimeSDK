@@ -16,6 +16,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPGTools::Timeline::PostProcessing
 {
+	inline static constexpr unsigned int LipLineFixScaleTimelineClip_TypeDefinitionIndex = 48582;
+
 	class LipLineFixScaleTimelineClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:

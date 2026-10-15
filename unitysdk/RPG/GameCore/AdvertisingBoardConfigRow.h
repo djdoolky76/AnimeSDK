@@ -9,6 +9,8 @@ namespace RPG::GameCore { class AdvertisingBoardConfigRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdvertisingBoardConfigRow_TypeDefinitionIndex = 12591;
+
 	class AdvertisingBoardConfigRow : public ::System::Object
 	{
 	public:

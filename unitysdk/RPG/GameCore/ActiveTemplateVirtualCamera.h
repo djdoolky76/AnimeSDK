@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ActiveTemplateVirtualCamera_TypeDefinitionIndex = 20827;
+
 	class ActiveTemplateVirtualCamera : public ::RPG::GameCore::TaskConfig
 	{
 	public:

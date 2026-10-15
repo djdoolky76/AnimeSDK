@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define NPMAIAEDIHK_GET__EXPRESSION_OFFSET UNITYSDK_OFFSET(0xBD0F630)
 #define NPMAIAEDIHK_KFGJEKJHIMB_OFFSET UNITYSDK_OFFSET(0xBD0F660)
 
+inline static constexpr unsigned int NPMAIAEDIHK_TypeDefinitionIndex = 63274;
+
 	class NPMAIAEDIHK : public ::System::Object
 	{
 	public:

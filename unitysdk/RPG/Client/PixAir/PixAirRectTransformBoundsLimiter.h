@@ -20,6 +20,8 @@ namespace UnityEngine { class RectTransform; }
 
 namespace RPG::Client::PixAir
 {
+	inline static constexpr unsigned int PixAirRectTransformBoundsLimiter_TypeDefinitionIndex = 79392;
+
 	class PixAirRectTransformBoundsLimiter : public ::UnityEngine::MonoBehaviour
 	{
 	public:

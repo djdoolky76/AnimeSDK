@@ -6,6 +6,8 @@
 
 namespace Unity::Profiling
 {
+	inline static constexpr unsigned int ProfilerMarker_AutoScope_TypeDefinitionIndex = 3947;
+
 	struct alignas(4) ProfilerMarker_AutoScope
 	{
 		::System::IntPtr m_Ptr; // 0x10

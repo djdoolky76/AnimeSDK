@@ -30,6 +30,8 @@ namespace UnityEngine { class Transform; }
 #define CLJIJJDILBO_PDDCNNLNKKO_OFFSET UNITYSDK_OFFSET(0xD78E540)
 #define CLJIJJDILBO__ONBIND_OFFSET UNITYSDK_OFFSET(0xD78D020)
 
+inline static constexpr unsigned int CLJIJJDILBO_TypeDefinitionIndex = 71866;
+
 	class CLJIJJDILBO : public ::CLAADCBPCHM
 	{
 	public:

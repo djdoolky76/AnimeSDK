@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ShowMenu; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ShowMenu_TypeDefinitionIndex = 21131;
+
 	class ShowMenu : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class DiceCombatAIEffectEvaluatorConfig_DicePointSameW
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DiceCombatAIEffectEvaluatorConfig_DicePointSameWithEnemy_TypeDefinitionIndex = 16173;
+
 	class DiceCombatAIEffectEvaluatorConfig_DicePointSameWithEnemy : public ::RPG::GameCore::DiceCombatAIEffectEvaluatorConfig
 	{
 	public:

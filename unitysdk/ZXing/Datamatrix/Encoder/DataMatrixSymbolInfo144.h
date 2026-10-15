@@ -8,6 +8,8 @@
 
 namespace ZXing::Datamatrix::Encoder
 {
+	inline static constexpr unsigned int DataMatrixSymbolInfo144_TypeDefinitionIndex = 7044;
+
 	class DataMatrixSymbolInfo144 : public ::ZXing::Datamatrix::Encoder::SymbolInfo
 	{
 	public:

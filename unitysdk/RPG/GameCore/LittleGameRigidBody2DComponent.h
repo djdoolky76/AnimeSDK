@@ -11,6 +11,8 @@ namespace RPG::GameCore { class LittleGameRigidBody2DComponent; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LittleGameRigidBody2DComponent_TypeDefinitionIndex = 18880;
+
 	class LittleGameRigidBody2DComponent : public ::RPG::GameCore::LittleGameComponentConfig
 	{
 	public:

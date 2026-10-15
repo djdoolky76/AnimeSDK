@@ -50,6 +50,8 @@ namespace UnityEngine { class Transform; }
 #define EJLNMFOPGOP__ONBIND_OFFSET UNITYSDK_OFFSET(0x154EAFE0)
 #define EJLNMFOPGOP__ONTICK_OFFSET UNITYSDK_OFFSET(0x154EB5D0)
 
+inline static constexpr unsigned int EJLNMFOPGOP_TypeDefinitionIndex = 71905;
+
 	class EJLNMFOPGOP : public ::FMPCODLIOLG
 	{
 	public:

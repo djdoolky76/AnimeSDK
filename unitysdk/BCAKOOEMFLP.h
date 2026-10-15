@@ -24,6 +24,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define BCAKOOEMFLP_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1CCF73B0)
 #define BCAKOOEMFLP_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1CCF78B0)
 
+inline static constexpr unsigned int BCAKOOEMFLP_TypeDefinitionIndex = 15350;
+
 	class BCAKOOEMFLP : public ::System::Object
 	{
 	public:

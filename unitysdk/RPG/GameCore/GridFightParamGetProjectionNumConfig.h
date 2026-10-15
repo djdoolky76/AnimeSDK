@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GridFightParamGetProjectionNumConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightParamGetProjectionNumConfig_TypeDefinitionIndex = 19519;
+
 	class GridFightParamGetProjectionNumConfig : public ::RPG::GameCore::GridFightParameterConfigBase
 	{
 	public:

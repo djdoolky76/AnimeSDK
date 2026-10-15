@@ -7,6 +7,8 @@ class NAHKJFGBOKD;
 #define NAHKJFGBOKD_CTOR_OFFSET UNITYSDK_OFFSET(0x1D1E7770)
 #define NAHKJFGBOKD_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D1E7630)
 
+inline static constexpr unsigned int NAHKJFGBOKD_TypeDefinitionIndex = 14434;
+
 	class NAHKJFGBOKD : public ::System::Object
 	{
 	public:

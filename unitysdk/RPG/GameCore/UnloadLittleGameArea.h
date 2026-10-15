@@ -11,6 +11,8 @@ namespace RPG::GameCore { class UnloadLittleGameArea; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int UnloadLittleGameArea_TypeDefinitionIndex = 20996;
+
 	class UnloadLittleGameArea : public ::RPG::GameCore::TaskConfig
 	{
 	public:

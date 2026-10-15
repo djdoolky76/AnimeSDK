@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelEntityStageStateChange_TypeDefinitionIndex = 56795;
+
 	class LevelEntityStageStateChange : public ::System::Object
 	{
 	public:

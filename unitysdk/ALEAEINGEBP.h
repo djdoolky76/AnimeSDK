@@ -30,6 +30,8 @@ namespace System { class String; }
 #define ALEAEINGEBP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E3D8410)
 #define ALEAEINGEBP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E3D8470)
 
+inline static constexpr unsigned int ALEAEINGEBP_TypeDefinitionIndex = 29885;
+
 	class ALEAEINGEBP : public ::System::Object
 	{
 	public:

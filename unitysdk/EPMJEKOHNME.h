@@ -28,6 +28,8 @@ namespace System { class String; }
 #define EPMJEKOHNME_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E317880)
 #define EPMJEKOHNME_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E3178E0)
 
+inline static constexpr unsigned int EPMJEKOHNME_TypeDefinitionIndex = 28248;
+
 	class EPMJEKOHNME : public ::System::Object
 	{
 	public:

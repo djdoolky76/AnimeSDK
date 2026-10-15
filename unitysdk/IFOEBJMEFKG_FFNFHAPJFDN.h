@@ -4,6 +4,8 @@
 
 #define IFOEBJMEFKG_FFNFHAPJFDN_CTOR_OFFSET UNITYSDK_OFFSET(0x15F2BCA0)
 
+inline static constexpr unsigned int IFOEBJMEFKG_FFNFHAPJFDN_TypeDefinitionIndex = 79441;
+
 	class IFOEBJMEFKG_FFNFHAPJFDN : public ::IFOEBJMEFKG_BCEIMHGKKCC
 	{
 	public:

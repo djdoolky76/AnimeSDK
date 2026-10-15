@@ -27,6 +27,8 @@ namespace XLua { class ObjectTranslator; }
 
 namespace XLua
 {
+	inline static constexpr unsigned int ObjectTranslator_IniterAdder_Gen_TypeDefinitionIndex = 50078;
+
 	class ObjectTranslator_IniterAdder_Gen : public ::System::Object
 	{
 	public:

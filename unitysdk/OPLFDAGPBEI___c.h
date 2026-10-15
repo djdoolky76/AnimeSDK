@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define OPLFDAGPBEI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DEE5E00)
 #define OPLFDAGPBEI___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1DEE5E10)
 
+inline static constexpr unsigned int OPLFDAGPBEI___c_TypeDefinitionIndex = 25250;
+
 	class OPLFDAGPBEI___c : public ::System::Object
 	{
 	public:

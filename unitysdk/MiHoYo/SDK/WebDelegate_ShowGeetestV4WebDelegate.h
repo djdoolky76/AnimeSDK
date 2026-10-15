@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int WebDelegate_ShowGeetestV4WebDelegate_TypeDefinitionIndex = 7860;
+
 	class WebDelegate_ShowGeetestV4WebDelegate : public ::System::MulticastDelegate
 	{
 	public:

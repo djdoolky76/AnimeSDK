@@ -26,6 +26,8 @@ namespace RPG::GameCore { class ChimeraDuelTalkNode; }
 #define GNNEICCIGFJ_LAIFDNDIGKL_OFFSET UNITYSDK_OFFSET(0x15B1C690)
 #define GNNEICCIGFJ_MIIJDIDNPNC_OFFSET UNITYSDK_OFFSET(0x15B1BC80)
 
+inline static constexpr unsigned int GNNEICCIGFJ_TypeDefinitionIndex = 77622;
+
 	class GNNEICCIGFJ : public ::HMDKMIJLJFH
 	{
 	public:

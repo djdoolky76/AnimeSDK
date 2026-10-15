@@ -11,6 +11,8 @@ namespace RPG::Client::DiceCombat { class IDiceCombatAvatarInfo; }
 
 namespace RPG::Client::DiceCombat
 {
+	inline static constexpr unsigned int DiceCombatCardLevelUpPageParam_TypeDefinitionIndex = 76119;
+
 	class DiceCombatCardLevelUpPageParam : public ::System::Object
 	{
 	public:

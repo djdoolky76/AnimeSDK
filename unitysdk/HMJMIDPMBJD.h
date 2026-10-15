@@ -11,6 +11,8 @@ class OMNJCDDMLHI;
 #define HMJMIDPMBJD_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0x15D85670)
 #define HMJMIDPMBJD_PBDNAIDEIPK_OFFSET UNITYSDK_OFFSET(0x15D856D0)
 
+inline static constexpr unsigned int HMJMIDPMBJD_TypeDefinitionIndex = 77955;
+
 	class HMJMIDPMBJD : public ::System::Object
 	{
 	public:

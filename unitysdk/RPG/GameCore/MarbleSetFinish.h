@@ -10,6 +10,8 @@ namespace RPG::GameCore { class MarbleSetFinish; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MarbleSetFinish_TypeDefinitionIndex = 16845;
+
 	class MarbleSetFinish : public ::RPG::GameCore::MarbleTaskConfig
 	{
 	public:

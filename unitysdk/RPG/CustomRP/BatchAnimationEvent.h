@@ -18,6 +18,8 @@ namespace UnityEngine::Rendering { class BatchAnimation; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int BatchAnimationEvent_TypeDefinitionIndex = 37594;
+
 	class BatchAnimationEvent : public ::UnityEngine::MonoBehaviour
 	{
 	public:

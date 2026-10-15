@@ -13,6 +13,8 @@ namespace RPG::Client::Promises { class IPromise; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ChimeraSettleCommandBase_TypeDefinitionIndex = 63467;
+
 	class ChimeraSettleCommandBase : public ::System::Object
 	{
 	public:

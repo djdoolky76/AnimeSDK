@@ -10,6 +10,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int AutoBlinkTrack_TypeDefinitionIndex = 47867;
+
 	class AutoBlinkTrack : public ::RPGTools::Timeline::CharacterTrack
 	{
 	public:

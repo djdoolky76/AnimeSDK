@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define KAKPEJCNGGF_LOCK_OFFSET UNITYSDK_OFFSET(0xB2DC640)
 #define KAKPEJCNGGF_UNLOCK_OFFSET UNITYSDK_OFFSET(0xB2DC860)
 
+inline static constexpr unsigned int KAKPEJCNGGF_TypeDefinitionIndex = 74775;
+
 	class KAKPEJCNGGF : public ::RPG::Client::GamePlayLockTargetFunc
 	{
 	public:

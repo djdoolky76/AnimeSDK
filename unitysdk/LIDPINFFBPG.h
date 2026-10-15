@@ -9,6 +9,8 @@ namespace System { class String; }
 #define LIDPINFFBPG_CTOR_OFFSET UNITYSDK_OFFSET(0xB6C83F0)
 #define LIDPINFFBPG_FPKLDCGAJGP_OFFSET UNITYSDK_OFFSET(0xB6C8400)
 
+inline static constexpr unsigned int LIDPINFFBPG_TypeDefinitionIndex = 79701;
+
 	class LIDPINFFBPG : public ::System::Object
 	{
 	public:

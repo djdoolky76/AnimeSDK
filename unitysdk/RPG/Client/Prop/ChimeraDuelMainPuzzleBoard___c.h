@@ -14,6 +14,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int ChimeraDuelMainPuzzleBoard___c_TypeDefinitionIndex = 78302;
+
 	class ChimeraDuelMainPuzzleBoard___c : public ::System::Object
 	{
 	public:

@@ -29,6 +29,8 @@ namespace System { class String; }
 #define GFKOAPFOFNL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E470FC0)
 #define GFKOAPFOFNL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E471020)
 
+inline static constexpr unsigned int GFKOAPFOFNL_TypeDefinitionIndex = 30186;
+
 	class GFKOAPFOFNL : public ::System::Object
 	{
 	public:

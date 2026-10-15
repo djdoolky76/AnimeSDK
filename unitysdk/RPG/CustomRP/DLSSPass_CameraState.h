@@ -31,6 +31,8 @@ namespace UnityEngine::Rendering { class PerformDynamicRes; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int DLSSPass_CameraState_TypeDefinitionIndex = 37561;
+
 	class DLSSPass_CameraState : public ::System::Object
 	{
 	public:

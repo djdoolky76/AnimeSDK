@@ -15,6 +15,8 @@ namespace RPG::GameCore { class TriggerRogueDialogue; }
 #define MBODELIGCHC_TICK_OFFSET UNITYSDK_OFFSET(0xB870630)
 #define MBODELIGCHC__ONTASKBEGIN_B__2_0_OFFSET UNITYSDK_OFFSET(0xB8709D0)
 
+inline static constexpr unsigned int MBODELIGCHC_TypeDefinitionIndex = 58795;
+
 	class MBODELIGCHC : public ::GELIALJDFBL
 	{
 	public:

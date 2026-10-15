@@ -9,6 +9,8 @@ namespace RPG::GameCore { class MappingInfoConnectionRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MappingInfoConnectionRow_TypeDefinitionIndex = 12574;
+
 	class MappingInfoConnectionRow : public ::System::Object
 	{
 	public:

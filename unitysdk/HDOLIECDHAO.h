@@ -25,6 +25,8 @@ namespace System { class String; }
 #define HDOLIECDHAO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E553860)
 #define HDOLIECDHAO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E5538C0)
 
+inline static constexpr unsigned int HDOLIECDHAO_TypeDefinitionIndex = 29280;
+
 	class HDOLIECDHAO : public ::System::Object
 	{
 	public:

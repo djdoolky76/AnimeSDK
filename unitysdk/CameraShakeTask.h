@@ -5,6 +5,8 @@
 
 #define CAMERASHAKETASK_CTOR_OFFSET UNITYSDK_OFFSET(0xDCDEE70)
 
+inline static constexpr unsigned int CameraShakeTask_TypeDefinitionIndex = 47243;
+
 	class CameraShakeTask : public ::System::Object
 	{
 	public:

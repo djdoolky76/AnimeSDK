@@ -9,6 +9,8 @@ class JJLACGMBOIH;
 #define JJLACGMBOIH_CTOR_OFFSET UNITYSDK_OFFSET(0xB207EE0)
 #define JJLACGMBOIH_JOHPKPGOGHD_OFFSET UNITYSDK_OFFSET(0xB207E50)
 
+inline static constexpr unsigned int JJLACGMBOIH_TypeDefinitionIndex = 78067;
+
 	class JJLACGMBOIH : public ::BHCEEHPIGFL
 	{
 	public:

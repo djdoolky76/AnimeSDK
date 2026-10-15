@@ -30,6 +30,8 @@ namespace System { class Object; }
 #define KBBPLOAPADA_SETNEXTTASK_OFFSET UNITYSDK_OFFSET(0xB2EDD70)
 #define KBBPLOAPADA_TICK_OFFSET UNITYSDK_OFFSET(0xB2EE3D0)
 
+inline static constexpr unsigned int KBBPLOAPADA_TypeDefinitionIndex = 53106;
+
 	class KBBPLOAPADA : public ::GELIALJDFBL
 	{
 	public:

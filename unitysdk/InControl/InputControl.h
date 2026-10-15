@@ -23,6 +23,8 @@ namespace System { class String; }
 
 namespace InControl
 {
+	inline static constexpr unsigned int InputControl_TypeDefinitionIndex = 40820;
+
 	class InputControl : public ::InControl::OneAxisInputControl
 	{
 	public:

@@ -10,6 +10,8 @@ namespace UnityEngine { class GameObject; }
 #define MUSICVISUALIZATION_SPECTRUMEFFECTELEMENTTRANSGENERAL_KFDMIOANNDO_OFFSET UNITYSDK_OFFSET(0xBA50B60)
 #define MUSICVISUALIZATION_SPECTRUMEFFECTELEMENTTRANSGENERAL_PPGAGOELCBG_OFFSET UNITYSDK_OFFSET(0xBA50C10)
 
+inline static constexpr unsigned int MusicVisualization_SpectrumEffectElementTransGeneral_TypeDefinitionIndex = 47476;
+
 	class MusicVisualization_SpectrumEffectElementTransGeneral : public ::RPG::Client::MusicVisualization_SpectrumEffectElementVisualBase
 	{
 	public:

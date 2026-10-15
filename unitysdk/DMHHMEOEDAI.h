@@ -15,6 +15,8 @@ class OBJANKHLNGO;
 #define DMHHMEOEDAI_START_OFFSET UNITYSDK_OFFSET(0xFEC15F0)
 #define DMHHMEOEDAI_STOP_OFFSET UNITYSDK_OFFSET(0xFEC1680)
 
+inline static constexpr unsigned int DMHHMEOEDAI_TypeDefinitionIndex = 82103;
+
 	class DMHHMEOEDAI : public ::System::Object
 	{
 	public:

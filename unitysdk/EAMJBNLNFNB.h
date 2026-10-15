@@ -6,6 +6,8 @@ namespace System { class String; }
 #define EAMJBNLNFNB_CCTOR_OFFSET UNITYSDK_OFFSET(0x12683750)
 #define EAMJBNLNFNB_CTOR_OFFSET UNITYSDK_OFFSET(0x12683740)
 
+inline static constexpr unsigned int EAMJBNLNFNB_TypeDefinitionIndex = 60022;
+
 	class EAMJBNLNFNB : public ::System::Object
 	{
 	public:

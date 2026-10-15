@@ -14,6 +14,8 @@ namespace ZXing::Common { class BitMatrix; }
 
 namespace ZXing::OneD
 {
+	inline static constexpr unsigned int EAN8Writer_TypeDefinitionIndex = 6986;
+
 	class EAN8Writer : public ::ZXing::OneD::UPCEANWriter
 	{
 	public:

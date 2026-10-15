@@ -7,6 +7,8 @@ namespace System { class Object; }
 #define BKPMJAMKGFN_CCTOR_OFFSET UNITYSDK_OFFSET(0xBA65780)
 #define BKPMJAMKGFN_PMMNBAJPPKG_OFFSET UNITYSDK_OFFSET(0xBA65790)
 
+inline static constexpr unsigned int BKPMJAMKGFN_TypeDefinitionIndex = 73494;
+
 	class BKPMJAMKGFN : public ::System::Object
 	{
 	public:

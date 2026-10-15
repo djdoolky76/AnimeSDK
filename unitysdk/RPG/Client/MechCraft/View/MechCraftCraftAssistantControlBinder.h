@@ -20,6 +20,8 @@ namespace UnityEngine::UI { class Image; }
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftCraftAssistantControlBinder_TypeDefinitionIndex = 79840;
+
 	class MechCraftCraftAssistantControlBinder : public ::RPG::Client::MechCraft::View::MechCraftBinderBase
 	{
 	public:

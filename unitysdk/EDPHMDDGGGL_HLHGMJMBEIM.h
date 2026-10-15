@@ -10,6 +10,8 @@ namespace System { class String; }
 
 #define EDPHMDDGGGL_HLHGMJMBEIM_CTOR_OFFSET UNITYSDK_OFFSET(0x13334A70)
 
+inline static constexpr unsigned int EDPHMDDGGGL_HLHGMJMBEIM_TypeDefinitionIndex = 60719;
+
 	class EDPHMDDGGGL_HLHGMJMBEIM : public ::System::Object
 	{
 	public:

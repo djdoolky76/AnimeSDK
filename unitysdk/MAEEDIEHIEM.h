@@ -8,6 +8,8 @@
 #define MAEEDIEHIEM_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0xB84C070)
 #define MAEEDIEHIEM_KIGBILLGNOH_OFFSET UNITYSDK_OFFSET(0xB84BFF0)
 
+inline static constexpr unsigned int MAEEDIEHIEM_TypeDefinitionIndex = 76940;
+
 	class MAEEDIEHIEM : public ::GGGOOHNIBNN
 	{
 	public:

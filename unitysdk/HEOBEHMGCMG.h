@@ -86,6 +86,8 @@ namespace UnityEngine::UI { class Image; }
 #define HEOBEHMGCMG__ONBIND_OFFSET UNITYSDK_OFFSET(0x15C5EDA0)
 #define HEOBEHMGCMG__ONTICK_OFFSET UNITYSDK_OFFSET(0x15C5F6C0)
 
+inline static constexpr unsigned int HEOBEHMGCMG_TypeDefinitionIndex = 71385;
+
 	class HEOBEHMGCMG : public ::FMPCODLIOLG
 	{
 	public:

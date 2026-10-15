@@ -43,6 +43,8 @@ namespace UnityEngine::Formats::Alembic::Util { class AlembicRecorderSettings_Se
 
 namespace UnityEngine::Formats::Alembic::Util
 {
+	inline static constexpr unsigned int AlembicRecorderSettings_TypeDefinitionIndex = 45756;
+
 	class AlembicRecorderSettings : public ::System::Object
 	{
 	public:

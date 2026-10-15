@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int BattleAudioState_TypeDefinitionIndex = 22964;
+
 	class BattleAudioState : public ::RPG::GameCore::TaskConfig
 	{
 	public:

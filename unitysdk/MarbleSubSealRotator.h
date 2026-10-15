@@ -13,6 +13,8 @@ namespace UnityEngine { class Transform; }
 #define MARBLESUBSEALROTATOR_ONGCOOOIAND_OFFSET UNITYSDK_OFFSET(0xBA46390)
 #define MARBLESUBSEALROTATOR_UPDATE_OFFSET UNITYSDK_OFFSET(0xBA469F0)
 
+inline static constexpr unsigned int MarbleSubSealRotator_TypeDefinitionIndex = 47136;
+
 	class MarbleSubSealRotator : public ::UnityEngine::MonoBehaviour
 	{
 	public:

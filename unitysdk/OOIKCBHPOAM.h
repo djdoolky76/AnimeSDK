@@ -530,6 +530,8 @@ namespace RPG::GameCore { class MiAtomConfigBase; }
 #define OOIKCBHPOAM_PPAGKGOKMCK_OFFSET UNITYSDK_OFFSET(0x1D2B15A0)
 #define OOIKCBHPOAM_PPNLCGIJONG_OFFSET UNITYSDK_OFFSET(0x1D2AF960)
 
+inline static constexpr unsigned int OOIKCBHPOAM_TypeDefinitionIndex = 19074;
+
 	class OOIKCBHPOAM : public ::System::Object
 	{
 	public:

@@ -6,6 +6,8 @@ namespace System { class Object; }
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
+	inline static constexpr unsigned int B2ShapeDef_TypeDefinitionIndex = 36764;
+
 	struct alignas(8) B2ShapeDef
 	{
 		::System::Object* userData; // 0x10

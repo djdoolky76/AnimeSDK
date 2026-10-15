@@ -10,6 +10,8 @@ namespace RPG::GameCore { class MarblePauseGame; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MarblePauseGame_TypeDefinitionIndex = 24294;
+
 	class MarblePauseGame : public ::RPG::GameCore::TaskConfig
 	{
 	public:

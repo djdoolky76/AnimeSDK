@@ -46,6 +46,8 @@ namespace Entitas { template <typename T> class IMatcher_1; }
 #define JCCDFAFBKKI_OLEMPLJIAKB_OFFSET UNITYSDK_OFFSET(0x1CB8E3B0)
 #define JCCDFAFBKKI_PJNCMIAMABC_OFFSET UNITYSDK_OFFSET(0x1CB8DA20)
 
+inline static constexpr unsigned int JCCDFAFBKKI_TypeDefinitionIndex = 42576;
+
 	class JCCDFAFBKKI : public ::System::Object
 	{
 	public:

@@ -7,6 +7,8 @@ class OADLFAMLGPP;
 #define JKCBGFHPBJM_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xB2129B0)
 #define JKCBGFHPBJM_CTOR_OFFSET UNITYSDK_OFFSET(0xB212AC0)
 
+inline static constexpr unsigned int JKCBGFHPBJM_TypeDefinitionIndex = 62567;
+
 	class JKCBGFHPBJM : public ::System::Object
 	{
 	public:

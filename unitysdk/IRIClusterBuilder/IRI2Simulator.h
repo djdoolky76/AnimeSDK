@@ -33,6 +33,8 @@ namespace UnityEngine::Rendering { class CommandBuffer; }
 
 namespace IRIClusterBuilder
 {
+	inline static constexpr unsigned int IRI2Simulator_TypeDefinitionIndex = 47737;
+
 	class IRI2Simulator : public ::UnityEngine::MonoBehaviour
 	{
 	public:

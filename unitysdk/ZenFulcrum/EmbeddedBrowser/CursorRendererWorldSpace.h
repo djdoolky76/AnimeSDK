@@ -12,6 +12,8 @@ namespace ZenFulcrum::EmbeddedBrowser { class PointerUIBase; }
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
+	inline static constexpr unsigned int CursorRendererWorldSpace_TypeDefinitionIndex = 39471;
+
 	class CursorRendererWorldSpace : public ::ZenFulcrum::EmbeddedBrowser::CursorRendererBase
 	{
 	public:

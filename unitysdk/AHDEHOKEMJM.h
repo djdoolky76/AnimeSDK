@@ -11,6 +11,8 @@ namespace System { class Action; }
 #define AHDEHOKEMJM_JAMPAJHFHJN_OFFSET UNITYSDK_OFFSET(0xEB7C780)
 #define AHDEHOKEMJM_KNJHHCMFFHH_OFFSET UNITYSDK_OFFSET(0xEB7C8F0)
 
+inline static constexpr unsigned int AHDEHOKEMJM_TypeDefinitionIndex = 77814;
+
 	class AHDEHOKEMJM : public ::System::Object
 	{
 	public:

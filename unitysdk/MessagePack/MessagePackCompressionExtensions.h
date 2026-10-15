@@ -7,6 +7,8 @@
 
 namespace MessagePack
 {
+	inline static constexpr unsigned int MessagePackCompressionExtensions_TypeDefinitionIndex = 7168;
+
 	class MessagePackCompressionExtensions : public ::System::Object
 	{
 	public:

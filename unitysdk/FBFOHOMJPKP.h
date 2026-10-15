@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define FBFOHOMJPKP_MMECPLBIGIH_OFFSET UNITYSDK_OFFSET(0x15699DD0)
 #define FBFOHOMJPKP_OJOIOGONFOA_OFFSET UNITYSDK_OFFSET(0x15698FB0)
 
+inline static constexpr unsigned int FBFOHOMJPKP_TypeDefinitionIndex = 81925;
+
 	class FBFOHOMJPKP : public ::System::Object
 	{
 	public:

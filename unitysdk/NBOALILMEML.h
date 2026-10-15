@@ -8,6 +8,8 @@ class NBOALILMEML;
 #define NBOALILMEML_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D1F1B50)
 #define NBOALILMEML_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D1F1B10)
 
+inline static constexpr unsigned int NBOALILMEML_TypeDefinitionIndex = 20239;
+
 	class NBOALILMEML : public ::RPG::GameCore::TaskConfig
 	{
 	public:

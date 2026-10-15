@@ -4,6 +4,8 @@
 
 #define LDNLBGAJNBC_CTOR_OFFSET UNITYSDK_OFFSET(0x1C73A450)
 
+inline static constexpr unsigned int LDNLBGAJNBC_TypeDefinitionIndex = 36881;
+
 	class LDNLBGAJNBC : public ::System::Attribute
 	{
 	public:

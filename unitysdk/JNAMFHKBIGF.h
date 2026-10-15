@@ -22,6 +22,8 @@ namespace RPG::GameCore { class MazeDragCameraConfig; }
 #define JNAMFHKBIGF_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0xB274A00)
 #define JNAMFHKBIGF_SET_ENABLE_OFFSET UNITYSDK_OFFSET(0xB275F70)
 
+inline static constexpr unsigned int JNAMFHKBIGF_TypeDefinitionIndex = 69663;
+
 	class JNAMFHKBIGF : public ::System::Object
 	{
 	public:

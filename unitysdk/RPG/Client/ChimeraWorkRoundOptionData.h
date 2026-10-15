@@ -12,6 +12,8 @@ namespace RPG::GameCore { class ChimeraWorkRoundOptionRow; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ChimeraWorkRoundOptionData_TypeDefinitionIndex = 63514;
+
 	class ChimeraWorkRoundOptionData : public ::System::Object
 	{
 	public:

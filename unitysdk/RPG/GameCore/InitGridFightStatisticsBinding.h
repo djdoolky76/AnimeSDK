@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int InitGridFightStatisticsBinding_TypeDefinitionIndex = 22537;
+
 	class InitGridFightStatisticsBinding : public ::RPG::GameCore::TaskConfig
 	{
 	public:

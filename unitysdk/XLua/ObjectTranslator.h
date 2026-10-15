@@ -5931,6 +5931,8 @@ namespace XLua::LuaDLL { class lua_CSFunction; }
 
 namespace XLua
 {
+	inline static constexpr unsigned int ObjectTranslator_TypeDefinitionIndex = 50067;
+
 	class ObjectTranslator : public ::System::Object
 	{
 	public:

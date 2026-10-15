@@ -5,6 +5,8 @@ class GCACIOKADOO;
 
 #define GCBNKFDOJCP_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA7BBD0)
 
+inline static constexpr unsigned int GCBNKFDOJCP_TypeDefinitionIndex = 43237;
+
 	class GCBNKFDOJCP : public ::System::Object
 	{
 	public:

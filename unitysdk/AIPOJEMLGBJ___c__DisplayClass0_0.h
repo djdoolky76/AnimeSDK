@@ -6,6 +6,8 @@ namespace RPG::Client { class FuncUnlockHint; }
 #define AIPOJEMLGBJ___C__DISPLAYCLASS0_0_CTOR_OFFSET UNITYSDK_OFFSET(0x12CAF280)
 #define AIPOJEMLGBJ___C__DISPLAYCLASS0_0__HANDLENOTIFYUNLOCKHINT_B__0_OFFSET UNITYSDK_OFFSET(0x12CAF290)
 
+inline static constexpr unsigned int AIPOJEMLGBJ___c__DisplayClass0_0_TypeDefinitionIndex = 68018;
+
 	class AIPOJEMLGBJ___c__DisplayClass0_0 : public ::System::Object
 	{
 	public:

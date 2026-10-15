@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define AOFPKKAHFIM_DISPOSE_OFFSET UNITYSDK_OFFSET(0x158AA0F0)
 #define AOFPKKAHFIM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x158AA140)
 
+inline static constexpr unsigned int AOFPKKAHFIM_TypeDefinitionIndex = 58057;
+
 	class AOFPKKAHFIM
 	{
 	public:

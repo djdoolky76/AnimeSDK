@@ -12,6 +12,8 @@ namespace RPG::GameCore { class RequestMissionCustomValue; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RequestMissionCustomValue_TypeDefinitionIndex = 20445;
+
 	class RequestMissionCustomValue : public ::RPG::GameCore::TaskConfig
 	{
 	public:

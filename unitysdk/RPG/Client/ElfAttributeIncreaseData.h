@@ -13,6 +13,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ElfAttributeIncreaseData_TypeDefinitionIndex = 63720;
+
 	class ElfAttributeIncreaseData : public ::System::Object
 	{
 	public:

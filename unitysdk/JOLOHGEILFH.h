@@ -20,6 +20,8 @@ namespace UnityEngine { class GameObject; }
 #define JOLOHGEILFH_LOGCHOFEDMC_OFFSET UNITYSDK_OFFSET(0xB2A7B80)
 #define JOLOHGEILFH_MLMGEFIOION_OFFSET UNITYSDK_OFFSET(0xB2A7EC0)
 
+inline static constexpr unsigned int JOLOHGEILFH_TypeDefinitionIndex = 77328;
+
 	class JOLOHGEILFH : public ::System::Object
 	{
 	public:

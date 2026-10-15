@@ -28,6 +28,8 @@ namespace System { class String; }
 #define OOCNBNHOICI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DED7340)
 #define OOCNBNHOICI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DED73A0)
 
+inline static constexpr unsigned int OOCNBNHOICI_TypeDefinitionIndex = 28500;
+
 	class OOCNBNHOICI : public ::System::Object
 	{
 	public:

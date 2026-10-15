@@ -20,6 +20,8 @@ namespace System { class String; }
 
 namespace Cinemachine
 {
+	inline static constexpr unsigned int Cinemachine3rdPersonFollow_TypeDefinitionIndex = 39769;
+
 	class Cinemachine3rdPersonFollow : public ::Cinemachine::CinemachineComponentBase
 	{
 	public:

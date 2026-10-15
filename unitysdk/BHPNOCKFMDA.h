@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define BHPNOCKFMDA_INITIALIZE_OFFSET UNITYSDK_OFFSET(0xB494280)
 #define BHPNOCKFMDA_TEARDOWN_OFFSET UNITYSDK_OFFSET(0xB4944E0)
 
+inline static constexpr unsigned int BHPNOCKFMDA_TypeDefinitionIndex = 77778;
+
 	class BHPNOCKFMDA : public ::System::Object
 	{
 	public:

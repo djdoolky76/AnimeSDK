@@ -14,6 +14,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define HOBEPKMMPHL_LGOJDJBABID_OFFSET UNITYSDK_OFFSET(0x15DAF860)
 #define HOBEPKMMPHL_LMNCCLONKAA_OFFSET UNITYSDK_OFFSET(0x15DAF950)
 
+inline static constexpr unsigned int HOBEPKMMPHL_TypeDefinitionIndex = 53128;
+
 	class HOBEPKMMPHL
 	{
 	public:

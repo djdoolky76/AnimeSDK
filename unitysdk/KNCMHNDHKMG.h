@@ -36,6 +36,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define KNCMHNDHKMG_OPAPKPHHGBJ_OFFSET UNITYSDK_OFFSET(0xB57DF50)
 #define KNCMHNDHKMG___ASYNCREQUESTOPENCHEST_B__24_0_OFFSET UNITYSDK_OFFSET(0xB57EFB0)
 
+inline static constexpr unsigned int KNCMHNDHKMG_TypeDefinitionIndex = 75302;
+
 	class KNCMHNDHKMG : public ::System::Object
 	{
 	public:

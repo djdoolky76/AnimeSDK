@@ -9,6 +9,8 @@ namespace RPG::GameCore { class TransformComponent; }
 #define BMMMMCHEPDI_CTOR_OFFSET UNITYSDK_OFFSET(0xBDBEBC0)
 #define BMMMMCHEPDI_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBDBF050)
 
+inline static constexpr unsigned int BMMMMCHEPDI_TypeDefinitionIndex = 78508;
+
 	class BMMMMCHEPDI : public ::System::Object
 	{
 	public:

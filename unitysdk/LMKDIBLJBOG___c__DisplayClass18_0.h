@@ -6,6 +6,8 @@ namespace RPG::Client::Promises { class Promise; }
 #define LMKDIBLJBOG___C__DISPLAYCLASS18_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB7CDAA0)
 #define LMKDIBLJBOG___C__DISPLAYCLASS18_0___WAITFADEIN_B__0_OFFSET UNITYSDK_OFFSET(0xB7CE100)
 
+inline static constexpr unsigned int LMKDIBLJBOG___c__DisplayClass18_0_TypeDefinitionIndex = 76442;
+
 	class LMKDIBLJBOG___c__DisplayClass18_0 : public ::System::Object
 	{
 	public:

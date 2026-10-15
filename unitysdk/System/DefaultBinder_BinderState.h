@@ -6,6 +6,8 @@
 
 namespace System
 {
+	inline static constexpr unsigned int DefaultBinder_BinderState_TypeDefinitionIndex = 230;
+
 	class DefaultBinder_BinderState : public ::System::Object
 	{
 	public:

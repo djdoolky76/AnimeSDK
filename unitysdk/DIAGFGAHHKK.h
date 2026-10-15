@@ -7,6 +7,8 @@ namespace RPG::GameCore { class GameEntity; }
 #define DIAGFGAHHKK_HDHKGACLMAN_OFFSET UNITYSDK_OFFSET(0xEBEEBB0)
 #define DIAGFGAHHKK_NLLPCNDOFMC_OFFSET UNITYSDK_OFFSET(0xEBEEEE0)
 
+inline static constexpr unsigned int DIAGFGAHHKK_TypeDefinitionIndex = 54122;
+
 	class DIAGFGAHHKK : public ::System::Object
 	{
 	public:

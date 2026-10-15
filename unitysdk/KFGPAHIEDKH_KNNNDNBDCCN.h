@@ -6,6 +6,8 @@ namespace RPG::Client { class ChatMessageData; }
 
 #define KFGPAHIEDKH_KNNNDNBDCCN_CTOR_OFFSET UNITYSDK_OFFSET(0xB3A2550)
 
+inline static constexpr unsigned int KFGPAHIEDKH_KNNNDNBDCCN_TypeDefinitionIndex = 80260;
+
 	class KFGPAHIEDKH_KNNNDNBDCCN : public ::System::Object
 	{
 	public:

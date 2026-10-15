@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define LCNAMEHEKPD_CTOR_OFFSET UNITYSDK_OFFSET(0xB619470)
 #define LCNAMEHEKPD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB6194A0)
 
+inline static constexpr unsigned int LCNAMEHEKPD_TypeDefinitionIndex = 52958;
+
 	class LCNAMEHEKPD
 	{
 	public:

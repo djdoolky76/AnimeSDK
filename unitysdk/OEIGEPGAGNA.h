@@ -9,6 +9,8 @@ namespace System { class String; }
 
 #define OEIGEPGAGNA_CTOR_OFFSET UNITYSDK_OFFSET(0xBE2E790)
 
+inline static constexpr unsigned int OEIGEPGAGNA_TypeDefinitionIndex = 61205;
+
 	class OEIGEPGAGNA : public ::System::Object
 	{
 	public:

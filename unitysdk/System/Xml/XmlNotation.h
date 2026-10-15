@@ -19,6 +19,8 @@ namespace System::Xml { class XmlWriter; }
 
 namespace System::Xml
 {
+	inline static constexpr unsigned int XmlNotation_TypeDefinitionIndex = 1918;
+
 	class XmlNotation : public ::System::Xml::XmlNode
 	{
 	public:

@@ -8,6 +8,8 @@ class MHLHEHALOFL;
 #define MHLHEHALOFL_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D1AD330)
 #define MHLHEHALOFL_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D1AD260)
 
+inline static constexpr unsigned int MHLHEHALOFL_TypeDefinitionIndex = 20810;
+
 	class MHLHEHALOFL : public ::RPG::GameCore::TaskConfig
 	{
 	public:

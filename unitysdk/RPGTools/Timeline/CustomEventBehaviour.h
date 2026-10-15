@@ -8,6 +8,8 @@
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int CustomEventBehaviour_TypeDefinitionIndex = 48398;
+
 	class CustomEventBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

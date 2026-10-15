@@ -20,6 +20,8 @@ namespace System::Collections::Immutable { template <typename T> class IImmutabl
 #define CFGFAHEKNPD_LCAOBLJDNAH_OFFSET UNITYSDK_OFFSET(0x1C549BB0)
 #define CFGFAHEKNPD_REMOVE_ONCHANGED_OFFSET UNITYSDK_OFFSET(0x1C5498B0)
 
+inline static constexpr unsigned int CFGFAHEKNPD_TypeDefinitionIndex = 41769;
+
 	class CFGFAHEKNPD : public ::System::Object
 	{
 	public:

@@ -12,6 +12,8 @@ namespace UnityEngine { class Material; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoEffectPluginCharaPropRimShadow_TypeDefinitionIndex = 69978;
+
 	class MonoEffectPluginCharaPropRimShadow : public ::RPG::Client::MonoEffectPluginCharaPropBase
 	{
 	public:

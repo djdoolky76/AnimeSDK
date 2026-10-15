@@ -17,6 +17,8 @@ namespace UnityEngine { class Transform; }
 #define NJNAOJBGIHE_PBEJLBLLACE_1_OFFSET UNITYSDK_OFFSET(0xBC21DA0)
 #define NJNAOJBGIHE_PBEJLBLLACE_OFFSET UNITYSDK_OFFSET(0xBC20A90)
 
+inline static constexpr unsigned int NJNAOJBGIHE_TypeDefinitionIndex = 68481;
+
 	class NJNAOJBGIHE : public ::System::Object
 	{
 	public:

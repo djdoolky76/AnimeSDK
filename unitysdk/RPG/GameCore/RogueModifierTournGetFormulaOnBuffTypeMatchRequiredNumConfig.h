@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueModifierTournGetFormulaOnBuffTypeMatchRequi
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueModifierTournGetFormulaOnBuffTypeMatchRequiredNumConfig_TypeDefinitionIndex = 17776;
+
 	class RogueModifierTournGetFormulaOnBuffTypeMatchRequiredNumConfig : public ::RPG::GameCore::RogueModifierConfig
 	{
 	public:

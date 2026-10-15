@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueCondChessLayerConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueCondChessLayerConfig_TypeDefinitionIndex = 19804;
+
 	class RogueCondChessLayerConfig : public ::RPG::GameCore::RogueConditionConfigBase
 	{
 	public:

@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoSpineStoryAnimEventListener_TypeDefinitionIndex = 60287;
+
 	class MonoSpineStoryAnimEventListener : public ::UnityEngine::MonoBehaviour
 	{
 	public:

@@ -22,6 +22,8 @@ namespace RPG::GameCore { class ItemConfig; }
 #define CAINPBIGHGM_SET_PROPERTYVALUES_OFFSET UNITYSDK_OFFSET(0xC481B00)
 #define CAINPBIGHGM_SET_WORLDLEVELREQUIRE_OFFSET UNITYSDK_OFFSET(0xC481AB0)
 
+inline static constexpr unsigned int CAINPBIGHGM_TypeDefinitionIndex = 51965;
+
 	class CAINPBIGHGM : public ::System::Object
 	{
 	public:

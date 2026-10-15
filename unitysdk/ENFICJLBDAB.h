@@ -10,6 +10,8 @@ namespace UnityEngine { class Animation; }
 #define ENFICJLBDAB_NKPPGDENJAE_OFFSET UNITYSDK_OFFSET(0x155AB3A0)
 #define ENFICJLBDAB__ONBIND_OFFSET UNITYSDK_OFFSET(0x155AB340)
 
+inline static constexpr unsigned int ENFICJLBDAB_TypeDefinitionIndex = 71930;
+
 	class ENFICJLBDAB : public ::FMPCODLIOLG
 	{
 	public:

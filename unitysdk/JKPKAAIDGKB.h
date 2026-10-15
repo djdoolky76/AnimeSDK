@@ -6,6 +6,8 @@ class IIAJFCNCMEB;
 
 #define JKPKAAIDGKB_CTOR_OFFSET UNITYSDK_OFFSET(0xB22E810)
 
+inline static constexpr unsigned int JKPKAAIDGKB_TypeDefinitionIndex = 80547;
+
 	class JKPKAAIDGKB : public ::System::Object
 	{
 	public:

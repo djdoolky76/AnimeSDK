@@ -13,6 +13,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TriggerEffectForUI_TypeDefinitionIndex = 20154;
+
 	class TriggerEffectForUI : public ::RPG::GameCore::TriggerEffect
 	{
 	public:

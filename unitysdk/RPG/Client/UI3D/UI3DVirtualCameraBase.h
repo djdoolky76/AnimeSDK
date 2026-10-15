@@ -27,6 +27,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::UI3D
 {
+	inline static constexpr unsigned int UI3DVirtualCameraBase_TypeDefinitionIndex = 78991;
+
 	class UI3DVirtualCameraBase : public ::UnityEngine::MonoBehaviour
 	{
 	public:

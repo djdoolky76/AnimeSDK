@@ -10,6 +10,8 @@ namespace System { class String; }
 #define GGADPFPIOGE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CE3E5E0)
 #define GGADPFPIOGE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CE3E5A0)
 
+inline static constexpr unsigned int GGADPFPIOGE_TypeDefinitionIndex = 22712;
+
 	class GGADPFPIOGE : public ::RPG::GameCore::TaskConfig
 	{
 	public:

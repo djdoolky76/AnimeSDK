@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::NavMap
 {
+	inline static constexpr unsigned int IconCollector3DEraFlip_TypeDefinitionIndex = 74525;
+
 	class IconCollector3DEraFlip : public ::RPG::Client::NavMap::IconCollector3DBase
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System { class Action; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ExpeditionBattleConfirmDialogHelper_TypeDefinitionIndex = 63858;
+
 	class ExpeditionBattleConfirmDialogHelper : public ::System::Object
 	{
 	public:

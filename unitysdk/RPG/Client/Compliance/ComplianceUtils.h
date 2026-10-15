@@ -16,6 +16,8 @@ namespace RPG::Client { class BaseGachaPoolData; }
 
 namespace RPG::Client::Compliance
 {
+	inline static constexpr unsigned int ComplianceUtils_TypeDefinitionIndex = 74812;
+
 	class ComplianceUtils : public ::System::Object
 	{
 	public:

@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define CKBMOPLBAHN_CTOR_OFFSET UNITYSDK_OFFSET(0xD754930)
 #define CKBMOPLBAHN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xD754960)
 
+inline static constexpr unsigned int CKBMOPLBAHN_TypeDefinitionIndex = 54805;
+
 	class CKBMOPLBAHN
 	{
 	public:

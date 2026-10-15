@@ -9,6 +9,8 @@ namespace System { class Object; }
 #define AMAHFAIGEIJ_HDNPLMPOEOA_OFFSET UNITYSDK_OFFSET(0x2E737D0)
 #define AMAHFAIGEIJ_MOFKDLANDGM_OFFSET UNITYSDK_OFFSET(0x2E737E0)
 
+inline static constexpr unsigned int AMAHFAIGEIJ_TypeDefinitionIndex = 68450;
+
 	struct alignas(8) AMAHFAIGEIJ
 	{
 		::RootMotion::IKJob::IKTransformRef DHIPFJBEJPI; // 0x10

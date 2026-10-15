@@ -6,6 +6,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace System::Collections::ObjectModel
 {
+	inline static constexpr unsigned int ReadOnlyDictionary_2_TypeDefinitionIndex = 1508;
+
 	template <typename T1, typename T2>
 	class ReadOnlyDictionary_2 : public ::System::Object
 	{

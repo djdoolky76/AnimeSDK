@@ -7,6 +7,8 @@ namespace System { class Nullable; }
 
 #define JHGEIEHKPNG_FLEFHOLLKDK_OFFSET UNITYSDK_OFFSET(0xB1B3130)
 
+inline static constexpr unsigned int JHGEIEHKPNG_TypeDefinitionIndex = 49872;
+
 	class JHGEIEHKPNG : public ::System::Object
 	{
 	public:

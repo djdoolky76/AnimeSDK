@@ -15,6 +15,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightMonsterAffixConfig_TypeDefinitionIndex = 65053;
+
 	class GridFightMonsterAffixConfig : public ::System::Object
 	{
 	public:

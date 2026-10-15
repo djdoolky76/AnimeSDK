@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GridFightShowMonsterCutIn; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightShowMonsterCutIn_TypeDefinitionIndex = 23233;
+
 	class GridFightShowMonsterCutIn : public ::RPG::GameCore::TaskConfig
 	{
 	public:

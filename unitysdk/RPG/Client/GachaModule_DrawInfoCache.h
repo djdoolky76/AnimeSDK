@@ -16,6 +16,8 @@ namespace RPG::Client { class GachaDrawData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GachaModule_DrawInfoCache_TypeDefinitionIndex = 64303;
+
 	class GachaModule_DrawInfoCache : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define OEILDFLHDCK_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBE2E7E0)
 #define OEILDFLHDCK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBE2E820)
 
+inline static constexpr unsigned int OEILDFLHDCK_TypeDefinitionIndex = 53821;
+
 	class OEILDFLHDCK
 	{
 	public:

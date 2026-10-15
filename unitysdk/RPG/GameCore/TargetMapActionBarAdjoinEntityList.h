@@ -15,6 +15,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TargetMapActionBarAdjoinEntityList_TypeDefinitionIndex = 24018;
+
 	class TargetMapActionBarAdjoinEntityList : public ::RPG::GameCore::TargetSeqOperation
 	{
 	public:

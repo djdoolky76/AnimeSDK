@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int HEU_WorkItemTally_TypeDefinitionIndex = 40542;
+
 	class HEU_WorkItemTally : public ::System::Object
 	{
 	public:

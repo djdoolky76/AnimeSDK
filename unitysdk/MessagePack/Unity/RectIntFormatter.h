@@ -12,6 +12,8 @@ namespace MessagePack { class MessagePackSerializerOptions; }
 
 namespace MessagePack::Unity
 {
+	inline static constexpr unsigned int RectIntFormatter_TypeDefinitionIndex = 10139;
+
 	class RectIntFormatter : public ::System::Object
 	{
 	public:

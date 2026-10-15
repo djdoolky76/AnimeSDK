@@ -7,6 +7,8 @@ class CALNKFFMFOL;
 #define CALNKFFMFOL___C__DISPLAYCLASS25_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC48AEB0)
 #define CALNKFFMFOL___C__DISPLAYCLASS25_0___STARTUPDATEPRE_B__0_OFFSET UNITYSDK_OFFSET(0xC48C340)
 
+inline static constexpr unsigned int CALNKFFMFOL___c__DisplayClass25_0_TypeDefinitionIndex = 61166;
+
 	class CALNKFFMFOL___c__DisplayClass25_0 : public ::System::Object
 	{
 	public:

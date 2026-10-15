@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T> class IComparer_1
 
 namespace System::Xml
 {
+	inline static constexpr unsigned int XmlTextReaderImpl_DtdDefaultAttributeInfoToNodeDataComparer_TypeDefinitionIndex = 1859;
+
 	class XmlTextReaderImpl_DtdDefaultAttributeInfoToNodeDataComparer : public ::System::Object
 	{
 	public:

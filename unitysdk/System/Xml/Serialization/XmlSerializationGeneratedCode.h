@@ -6,6 +6,8 @@
 
 namespace System::Xml::Serialization
 {
+	inline static constexpr unsigned int XmlSerializationGeneratedCode_TypeDefinitionIndex = 2025;
+
 	class XmlSerializationGeneratedCode : public ::System::Object
 	{
 	public:

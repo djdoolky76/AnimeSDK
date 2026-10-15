@@ -7,6 +7,8 @@ namespace UnityEngine { class Transform; }
 #define PRESKIRTIK_CTOR_OFFSET UNITYSDK_OFFSET(0xC39B400)
 #define PRESKIRTIK_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0xC39B340)
 
+inline static constexpr unsigned int PreSkirtIk_TypeDefinitionIndex = 47249;
+
 	class PreSkirtIk : public ::UnityEngine::MonoBehaviour
 	{
 	public:

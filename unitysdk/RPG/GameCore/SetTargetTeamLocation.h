@@ -13,6 +13,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetTargetTeamLocation_TypeDefinitionIndex = 22915;
+
 	class SetTargetTeamLocation : public ::RPG::GameCore::TaskConfig
 	{
 	public:

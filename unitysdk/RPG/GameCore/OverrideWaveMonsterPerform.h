@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int OverrideWaveMonsterPerform_TypeDefinitionIndex = 23408;
+
 	class OverrideWaveMonsterPerform : public ::RPG::GameCore::TaskConfig
 	{
 	public:

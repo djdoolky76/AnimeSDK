@@ -10,6 +10,8 @@ namespace RPG::GameCore { class IntroDataRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int IntroDataRow_TypeDefinitionIndex = 13829;
+
 	class IntroDataRow : public ::System::Object
 	{
 	public:

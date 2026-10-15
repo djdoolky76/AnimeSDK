@@ -15,6 +15,8 @@ namespace System { class Object; }
 #define GGELFBGMBGK_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x15A03490)
 #define GGELFBGMBGK_GET_PROPERTYTYPE_OFFSET UNITYSDK_OFFSET(0x15A03250)
 
+inline static constexpr unsigned int GGELFBGMBGK_TypeDefinitionIndex = 75123;
+
 	class GGELFBGMBGK : public ::System::Object
 	{
 	public:

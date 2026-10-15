@@ -33,6 +33,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::ActivityIdleLive
 {
+	inline static constexpr unsigned int SpecialEquip_TypeDefinitionIndex = 75245;
+
 	class SpecialEquip : public ::System::Object
 	{
 	public:

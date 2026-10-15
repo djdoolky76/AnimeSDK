@@ -13,6 +13,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int HEU_ObjectInstanceInfo_TypeDefinitionIndex = 40413;
+
 	class HEU_ObjectInstanceInfo : public ::UnityEngine::ScriptableObject
 	{
 	public:

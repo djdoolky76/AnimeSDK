@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LockAnimatorSpeed_TypeDefinitionIndex = 23237;
+
 	class LockAnimatorSpeed : public ::RPG::GameCore::TaskConfig
 	{
 	public:

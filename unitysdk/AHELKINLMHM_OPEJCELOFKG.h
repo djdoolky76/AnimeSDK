@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 #define AHELKINLMHM_OPEJCELOFKG_DISPOSE_OFFSET UNITYSDK_OFFSET(0xEB7FD80)
 #define AHELKINLMHM_OPEJCELOFKG_GET_PLACEDAVATARBASEIDS_OFFSET UNITYSDK_OFFSET(0xEB7FDF0)
 
+inline static constexpr unsigned int AHELKINLMHM_OPEJCELOFKG_TypeDefinitionIndex = 67544;
+
 	class AHELKINLMHM_OPEJCELOFKG : public ::System::Object
 	{
 	public:

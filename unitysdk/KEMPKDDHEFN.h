@@ -27,6 +27,8 @@ namespace System { class String; }
 #define KEMPKDDHEFN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E810C90)
 #define KEMPKDDHEFN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E810CF0)
 
+inline static constexpr unsigned int KEMPKDDHEFN_TypeDefinitionIndex = 33382;
+
 	class KEMPKDDHEFN : public ::System::Object
 	{
 	public:

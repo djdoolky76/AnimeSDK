@@ -14,6 +14,8 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyLi
 #define JCKKAAAMFBA_CTOR_OFFSET UNITYSDK_OFFSET(0x165972F0)
 #define JCKKAAAMFBA_KLMNJNNIKOK_OFFSET UNITYSDK_OFFSET(0x16597420)
 
+inline static constexpr unsigned int JCKKAAAMFBA_TypeDefinitionIndex = 80982;
+
 	class JCKKAAAMFBA : public ::System::Object
 	{
 	public:

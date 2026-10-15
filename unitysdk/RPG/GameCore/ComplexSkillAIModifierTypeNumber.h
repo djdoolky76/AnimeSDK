@@ -11,6 +11,8 @@ namespace RPG::GameCore { class ComplexSkillAIModifierTypeNumber; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ComplexSkillAIModifierTypeNumber_TypeDefinitionIndex = 15549;
+
 	class ComplexSkillAIModifierTypeNumber : public ::RPG::GameCore::ComplexSkillAISource
 	{
 	public:

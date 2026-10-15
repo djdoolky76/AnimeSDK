@@ -29,6 +29,8 @@ namespace System { class String; }
 #define KGFNICBCMOA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E835FB0)
 #define KGFNICBCMOA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E836010)
 
+inline static constexpr unsigned int KGFNICBCMOA_TypeDefinitionIndex = 29342;
+
 	class KGFNICBCMOA : public ::System::Object
 	{
 	public:

@@ -7,6 +7,8 @@
 
 namespace RPG::Client::DiceCombat
 {
+	inline static constexpr unsigned int DiceCombatRollDiceEffectParameter_TypeDefinitionIndex = 76029;
+
 	class DiceCombatRollDiceEffectParameter : public ::UnityEngine::MonoBehaviour
 	{
 	public:

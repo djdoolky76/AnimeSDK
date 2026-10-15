@@ -4,6 +4,8 @@
 
 #define LHECALLFFNE_CTOR_OFFSET UNITYSDK_OFFSET(0x1C90EBF0)
 
+inline static constexpr unsigned int LHECALLFFNE_TypeDefinitionIndex = 42261;
+
 	class LHECALLFFNE : public ::System::Object
 	{
 	public:

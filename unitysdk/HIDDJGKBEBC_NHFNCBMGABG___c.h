@@ -10,6 +10,8 @@ namespace System::Collections::Generic { class KeyValuePair; }
 #define HIDDJGKBEBC_NHFNCBMGABG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x15CE1630)
 #define HIDDJGKBEBC_NHFNCBMGABG___C__CREATESORTED_B__4_0_OFFSET UNITYSDK_OFFSET(0x15CE1640)
 
+inline static constexpr unsigned int HIDDJGKBEBC_NHFNCBMGABG___c_TypeDefinitionIndex = 79594;
+
 	class HIDDJGKBEBC_NHFNCBMGABG___c : public ::System::Object
 	{
 	public:

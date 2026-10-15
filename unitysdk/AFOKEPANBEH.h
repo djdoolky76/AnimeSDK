@@ -31,6 +31,8 @@ namespace System { class String; }
 #define AFOKEPANBEH_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E11C300)
 #define AFOKEPANBEH_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E11C360)
 
+inline static constexpr unsigned int AFOKEPANBEH_TypeDefinitionIndex = 28046;
+
 	class AFOKEPANBEH : public ::System::Object
 	{
 	public:

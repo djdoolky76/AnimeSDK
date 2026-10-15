@@ -124,6 +124,8 @@ namespace System { class String; }
 
 namespace System::Linq::Expressions
 {
+	inline static constexpr unsigned int Strings_TypeDefinitionIndex = 3275;
+
 	class Strings : public ::System::Object
 	{
 	public:

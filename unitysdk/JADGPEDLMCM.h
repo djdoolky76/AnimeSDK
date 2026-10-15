@@ -10,6 +10,8 @@ namespace System { class String; }
 #define JADGPEDLMCM_PEAAGAPGJEK_OFFSET UNITYSDK_OFFSET(0x1D30)
 #define JADGPEDLMCM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x3C27930)
 
+inline static constexpr unsigned int JADGPEDLMCM_TypeDefinitionIndex = 41478;
+
 	struct alignas(4) JADGPEDLMCM
 	{
 		::System::UInt64 IMCFADGAEIN; // 0x10

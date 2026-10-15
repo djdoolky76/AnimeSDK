@@ -42,6 +42,8 @@ namespace System { class String; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int Bounds_TypeDefinitionIndex = 4075;
+
 	struct alignas(4) Bounds
 	{
 		::UnityEngine::Vector3 m_Center; // 0x10

@@ -15,6 +15,8 @@ namespace System { class String; }
 
 namespace BansheeGz::BGSpline::Curve
 {
+	inline static constexpr unsigned int BGCc_CcDescriptor_TypeDefinitionIndex = 35983;
+
 	class BGCc_CcDescriptor : public ::System::Attribute
 	{
 	public:

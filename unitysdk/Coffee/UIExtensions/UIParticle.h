@@ -98,6 +98,8 @@ namespace UnityEngine { class ParticleSystem; }
 
 namespace Coffee::UIExtensions
 {
+	inline static constexpr unsigned int UIParticle_TypeDefinitionIndex = 45150;
+
 	class UIParticle : public ::UnityEngine::UI::MaskableGraphic
 	{
 	public:

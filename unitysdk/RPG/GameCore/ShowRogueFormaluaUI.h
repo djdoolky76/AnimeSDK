@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ShowRogueFormaluaUI; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ShowRogueFormaluaUI_TypeDefinitionIndex = 20811;
+
 	class ShowRogueFormaluaUI : public ::RPG::GameCore::TaskConfig
 	{
 	public:

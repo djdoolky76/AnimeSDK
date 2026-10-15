@@ -9,6 +9,8 @@
 
 namespace TMPro
 {
+	inline static constexpr unsigned int TMP_Vertex_TypeDefinitionIndex = 44542;
+
 	struct alignas(4) TMP_Vertex
 	{
 		::UnityEngine::Vector3 position; // 0x10

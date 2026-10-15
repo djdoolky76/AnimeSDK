@@ -11,6 +11,8 @@ namespace RPG::Client::ChenLingBattle { class ActionPreviewSnapshot; }
 
 namespace RPG::Client::ChenLingBattle
 {
+	inline static constexpr unsigned int ActionPreviewSnapshot_TypeDefinitionIndex = 76297;
+
 	class ActionPreviewSnapshot : public ::RPG::Client::ChenLingBattle::PreviewSnapshot
 	{
 	public:

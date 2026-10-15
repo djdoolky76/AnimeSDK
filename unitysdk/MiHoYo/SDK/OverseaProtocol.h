@@ -27,6 +27,8 @@ namespace UnityEngine::UI { class Toggle; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int OverseaProtocol_TypeDefinitionIndex = 8251;
+
 	class OverseaProtocol : public ::MiHoYo::SDK::UIElement
 	{
 	public:

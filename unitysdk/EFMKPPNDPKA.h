@@ -13,6 +13,8 @@ namespace XLua { class LuaTable; }
 #define EFMKPPNDPKA_TICK_OFFSET UNITYSDK_OFFSET(0x13A5D620)
 #define EFMKPPNDPKA__ONTASKBEGIN_B__3_0_OFFSET UNITYSDK_OFFSET(0x13A5D7E0)
 
+inline static constexpr unsigned int EFMKPPNDPKA_TypeDefinitionIndex = 58479;
+
 	class EFMKPPNDPKA : public ::GELIALJDFBL
 	{
 	public:

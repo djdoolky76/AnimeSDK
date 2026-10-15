@@ -10,6 +10,8 @@ namespace System::Runtime::Serialization { class MemberHolder; }
 
 namespace System::Runtime::Serialization
 {
+	inline static constexpr unsigned int FormatterServices___c__DisplayClass9_0_TypeDefinitionIndex = 1098;
+
 	class FormatterServices___c__DisplayClass9_0 : public ::System::Object
 	{
 	public:

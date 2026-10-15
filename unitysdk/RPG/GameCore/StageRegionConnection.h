@@ -12,6 +12,8 @@ namespace RPG::GameCore { class StageVolumeConfigV2; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int StageRegionConnection_TypeDefinitionIndex = 19190;
+
 	class StageRegionConnection : public ::RPG::GameCore::JsonConfig
 	{
 	public:

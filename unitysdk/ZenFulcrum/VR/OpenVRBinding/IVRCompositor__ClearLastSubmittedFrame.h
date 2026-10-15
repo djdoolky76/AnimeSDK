@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
+	inline static constexpr unsigned int IVRCompositor__ClearLastSubmittedFrame_TypeDefinitionIndex = 39021;
+
 	class IVRCompositor__ClearLastSubmittedFrame : public ::System::MulticastDelegate
 	{
 	public:

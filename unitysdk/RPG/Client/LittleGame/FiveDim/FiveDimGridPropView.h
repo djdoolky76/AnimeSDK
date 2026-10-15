@@ -55,6 +55,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::LittleGame::FiveDim
 {
+	inline static constexpr unsigned int FiveDimGridPropView_TypeDefinitionIndex = 77179;
+
 	class FiveDimGridPropView : public ::RPG::Client::LittleGame::FiveDim::FiveDimPropView
 	{
 	public:

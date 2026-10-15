@@ -5,6 +5,8 @@
 
 #define LKIGGCKOJGN_INBMMHFFHEC_OFFSET UNITYSDK_OFFSET(0xB74FD60)
 
+inline static constexpr unsigned int LKIGGCKOJGN_TypeDefinitionIndex = 60115;
+
 	class LKIGGCKOJGN : public ::System::Object
 	{
 	public:

@@ -9,6 +9,8 @@ namespace System { class Object; }
 
 namespace Cysharp::Threading::Tasks
 {
+	inline static constexpr unsigned int EnumeratorAsyncExtensions_EnumeratorPromise___c_TypeDefinitionIndex = 38155;
+
 	class EnumeratorAsyncExtensions_EnumeratorPromise___c : public ::System::Object
 	{
 	public:

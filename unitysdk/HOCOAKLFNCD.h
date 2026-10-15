@@ -21,6 +21,8 @@ namespace System { class String; }
 #define HOCOAKLFNCD_PFNDPAILDJP_OFFSET UNITYSDK_OFFSET(0x1C688840)
 #define HOCOAKLFNCD_PHLHELLLGNN_OFFSET UNITYSDK_OFFSET(0x1C6884F0)
 
+inline static constexpr unsigned int HOCOAKLFNCD_TypeDefinitionIndex = 36974;
+
 	class HOCOAKLFNCD : public ::GKDAANCFPGO
 	{
 	public:

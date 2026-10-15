@@ -15,6 +15,8 @@ namespace UnityEngine { class RectTransform; }
 
 namespace RPG::Client::ActivityIdleLive
 {
+	inline static constexpr unsigned int GiftThankScrollAnimator_TypeDefinitionIndex = 75170;
+
 	class GiftThankScrollAnimator : public ::UnityEngine::MonoBehaviour
 	{
 	public:

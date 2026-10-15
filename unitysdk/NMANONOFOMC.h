@@ -8,6 +8,8 @@ class NMANONOFOMC;
 #define NMANONOFOMC_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D2350D0)
 #define NMANONOFOMC_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D235090)
 
+inline static constexpr unsigned int NMANONOFOMC_TypeDefinitionIndex = 19940;
+
 	class NMANONOFOMC : public ::RPG::GameCore::TaskConfig
 	{
 	public:

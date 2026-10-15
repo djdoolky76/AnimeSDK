@@ -51,6 +51,8 @@ namespace UnityEngine { class RectTransform; }
 
 namespace UnityEngine::UI
 {
+	inline static constexpr unsigned int LayoutGroup_TypeDefinitionIndex = 6782;
+
 	class LayoutGroup : public ::UnityEngine::EventSystems::UIBehaviour
 	{
 	public:

@@ -19,6 +19,8 @@ namespace RPG::GameCore { class SkillData; }
 #define PHKFMKDHNBO_SET_OWNER_OFFSET UNITYSDK_OFFSET(0xC253420)
 #define PHKFMKDHNBO_SET_SKILLDATA_OFFSET UNITYSDK_OFFSET(0xC253350)
 
+inline static constexpr unsigned int PHKFMKDHNBO_TypeDefinitionIndex = 57664;
+
 	class PHKFMKDHNBO : public ::System::Object
 	{
 	public:

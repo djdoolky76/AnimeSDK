@@ -17,6 +17,8 @@ namespace RPG::Client::PixAir { class PixAirCurrencyData; }
 
 namespace RPG::Client::PixAir
 {
+	inline static constexpr unsigned int PixAirCurrencyData_TypeDefinitionIndex = 79315;
+
 	class PixAirCurrencyData : public ::System::Object
 	{
 	public:

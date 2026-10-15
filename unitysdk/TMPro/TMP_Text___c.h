@@ -13,6 +13,8 @@ namespace UnityEngine { class Mesh; }
 
 namespace TMPro
 {
+	inline static constexpr unsigned int TMP_Text___c_TypeDefinitionIndex = 44661;
+
 	class TMP_Text___c : public ::System::Object
 	{
 	public:

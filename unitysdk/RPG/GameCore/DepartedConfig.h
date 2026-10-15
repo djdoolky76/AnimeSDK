@@ -9,6 +9,8 @@ namespace RPG::GameCore { class DepartedConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DepartedConfig_TypeDefinitionIndex = 23611;
+
 	class DepartedConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

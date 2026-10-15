@@ -123,6 +123,8 @@ namespace System { class Object; }
 #define MFMJECNLGHH___C___CCTOR_B__2_99_OFFSET UNITYSDK_OFFSET(0x1D1614B0)
 #define MFMJECNLGHH___C___CCTOR_B__2_9_OFFSET UNITYSDK_OFFSET(0x1D160680)
 
+inline static constexpr unsigned int MFMJECNLGHH___c_TypeDefinitionIndex = 23861;
+
 	class MFMJECNLGHH___c : public ::System::Object
 	{
 	public:

@@ -9,6 +9,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightOrbResultData_TypeDefinitionIndex = 64440;
+
 	class GridFightOrbResultData : public ::RPG::Client::GridFightBonusResultData
 	{
 	public:

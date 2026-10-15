@@ -10,6 +10,8 @@ namespace System { class String; }
 #define JFHLNCADDHJ__REGISTEREVENTCALLBACK_OFFSET UNITYSDK_OFFSET(0x1664D9A0)
 #define JFHLNCADDHJ__UNREGISTEREVENTCALLBACK_OFFSET UNITYSDK_OFFSET(0x1664DF50)
 
+inline static constexpr unsigned int JFHLNCADDHJ_TypeDefinitionIndex = 52965;
+
 	class JFHLNCADDHJ
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define BBHANDBNKEJ___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E7C5860)
 #define BBHANDBNKEJ___C___CCTOR_B__108_0_OFFSET UNITYSDK_OFFSET(0x1E7C5870)
 
+inline static constexpr unsigned int BBHANDBNKEJ___c_TypeDefinitionIndex = 27515;
+
 	class BBHANDBNKEJ___c : public ::System::Object
 	{
 	public:

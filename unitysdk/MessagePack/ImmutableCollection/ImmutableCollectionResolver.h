@@ -8,6 +8,8 @@ namespace MessagePack::ImmutableCollection { class ImmutableCollectionResolver; 
 
 namespace MessagePack::ImmutableCollection
 {
+	inline static constexpr unsigned int ImmutableCollectionResolver_TypeDefinitionIndex = 7368;
+
 	class ImmutableCollectionResolver : public ::System::Object
 	{
 	public:

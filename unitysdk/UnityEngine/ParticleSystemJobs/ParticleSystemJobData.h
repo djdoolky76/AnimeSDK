@@ -7,6 +7,8 @@
 
 namespace UnityEngine::ParticleSystemJobs
 {
+	inline static constexpr unsigned int ParticleSystemJobData_TypeDefinitionIndex = 5295;
+
 	struct alignas(8) ParticleSystemJobData
 	{
 		::System::Int32 _count_k__BackingField; // 0x10

@@ -15,6 +15,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AIConfig_TypeDefinitionIndex = 15487;
+
 	class AIConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

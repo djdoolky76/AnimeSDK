@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define FBLLCDHIPIO_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1CDCBFF0)
 #define FBLLCDHIPIO_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1CDCB900)
 
+inline static constexpr unsigned int FBLLCDHIPIO_TypeDefinitionIndex = 14294;
+
 	class FBLLCDHIPIO : public ::System::Object
 	{
 	public:

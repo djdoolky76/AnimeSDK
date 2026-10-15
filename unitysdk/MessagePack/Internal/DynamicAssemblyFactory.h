@@ -13,6 +13,8 @@ namespace System::Reflection { class AssemblyName; }
 
 namespace MessagePack::Internal
 {
+	inline static constexpr unsigned int DynamicAssemblyFactory_TypeDefinitionIndex = 7291;
+
 	class DynamicAssemblyFactory : public ::System::Object
 	{
 	public:

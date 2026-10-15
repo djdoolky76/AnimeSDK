@@ -55,6 +55,8 @@ namespace UnityEngine { class Transform; }
 #define ANOMGJFGFLE__ONDISPOSE_OFFSET UNITYSDK_OFFSET(0x158A2C50)
 #define ANOMGJFGFLE__ONTICK_OFFSET UNITYSDK_OFFSET(0x158A2B80)
 
+inline static constexpr unsigned int ANOMGJFGFLE_TypeDefinitionIndex = 71732;
+
 	class ANOMGJFGFLE : public ::FMPCODLIOLG
 	{
 	public:

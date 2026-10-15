@@ -27,6 +27,8 @@ namespace System { class String; }
 #define KNADOLOOIMP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E89DA10)
 #define KNADOLOOIMP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E89DA70)
 
+inline static constexpr unsigned int KNADOLOOIMP_TypeDefinitionIndex = 26081;
+
 	class KNADOLOOIMP : public ::System::Object
 	{
 	public:

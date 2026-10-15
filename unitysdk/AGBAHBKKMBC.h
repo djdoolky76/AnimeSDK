@@ -7,6 +7,8 @@
 #define AGBAHBKKMBC_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xCF25850)
 #define AGBAHBKKMBC_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xCF25800)
 
+inline static constexpr unsigned int AGBAHBKKMBC_TypeDefinitionIndex = 56661;
+
 	class AGBAHBKKMBC : public ::System::Object
 	{
 	public:

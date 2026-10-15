@@ -12,6 +12,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 #define FAILCGLDICF___C___NOTIFYBUFFEDCELLSMAYBECHANGED_B__17_1_OFFSET UNITYSDK_OFFSET(0x1567F4C0)
 #define FAILCGLDICF___C___NOTIFYBUFFEDCELLSMAYBECHANGED_B__17_2_OFFSET UNITYSDK_OFFSET(0x1567F530)
 
+inline static constexpr unsigned int FAILCGLDICF___c_TypeDefinitionIndex = 79500;
+
 	class FAILCGLDICF___c : public ::System::Object
 	{
 	public:

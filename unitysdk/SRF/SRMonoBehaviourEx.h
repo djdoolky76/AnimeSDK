@@ -22,6 +22,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace SRF
 {
+	inline static constexpr unsigned int SRMonoBehaviourEx_TypeDefinitionIndex = 35364;
+
 	class SRMonoBehaviourEx : public ::SRF::SRMonoBehaviour
 	{
 	public:

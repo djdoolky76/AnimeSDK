@@ -8,6 +8,8 @@ namespace System { class String; }
 #define ABECADANPBO_CTOR_OFFSET UNITYSDK_OFFSET(0x1C877810)
 #define ABECADANPBO_NHPDCPKMNAM_OFFSET UNITYSDK_OFFSET(0x1C877600)
 
+inline static constexpr unsigned int ABECADANPBO_TypeDefinitionIndex = 43294;
+
 	class ABECADANPBO : public ::System::Object
 	{
 	public:

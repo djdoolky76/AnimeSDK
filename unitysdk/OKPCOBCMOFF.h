@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int OKPCOBCMOFF_TypeDefinitionIndex = 28185;
+
 	enum class OKPCOBCMOFF : ::System::Int32
 	{
 		NLCDGIPGFDJ = 0,

@@ -69,6 +69,8 @@ namespace UnityEngine { class Texture; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PhotoGraphDecalContainer_TypeDefinitionIndex = 69444;
+
 	class PhotoGraphDecalContainer : public ::UnityEngine::MonoBehaviour
 	{
 	public:

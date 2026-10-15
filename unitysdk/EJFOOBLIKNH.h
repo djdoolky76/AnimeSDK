@@ -29,6 +29,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define EJFOOBLIKNH_PCAOIHOBAPC_OFFSET UNITYSDK_OFFSET(0x154DA7B0)
 #define EJFOOBLIKNH_PHLMMMLDDDB_OFFSET UNITYSDK_OFFSET(0x154DAF60)
 
+inline static constexpr unsigned int EJFOOBLIKNH_TypeDefinitionIndex = 77749;
+
 	class EJFOOBLIKNH : public ::System::Object
 	{
 	public:

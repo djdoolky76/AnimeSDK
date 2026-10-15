@@ -9,6 +9,8 @@ namespace System { class Action; }
 #define OEALBACEMNP_DOONENTER_OFFSET UNITYSDK_OFFSET(0xBDFEA20)
 #define OEALBACEMNP_DOONEXIT_OFFSET UNITYSDK_OFFSET(0xBDFEA90)
 
+inline static constexpr unsigned int OEALBACEMNP_TypeDefinitionIndex = 57530;
+
 	class OEALBACEMNP : public ::EDLDHDMLJDH
 	{
 	public:

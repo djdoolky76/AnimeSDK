@@ -33,6 +33,8 @@ namespace System { class String; }
 #define COFMKALOLKB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E1326E0)
 #define COFMKALOLKB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E132740)
 
+inline static constexpr unsigned int COFMKALOLKB_TypeDefinitionIndex = 30080;
+
 	class COFMKALOLKB : public ::System::Object
 	{
 	public:

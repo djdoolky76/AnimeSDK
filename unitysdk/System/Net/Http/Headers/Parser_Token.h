@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace System::Net::Http::Headers
 {
+	inline static constexpr unsigned int Parser_Token_TypeDefinitionIndex = 3809;
+
 	class Parser_Token : public ::System::Object
 	{
 	public:

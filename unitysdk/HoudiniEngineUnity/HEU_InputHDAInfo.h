@@ -10,6 +10,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int HEU_InputHDAInfo_TypeDefinitionIndex = 40408;
+
 	class HEU_InputHDAInfo : public ::System::Object
 	{
 	public:

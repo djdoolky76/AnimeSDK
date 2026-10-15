@@ -21,6 +21,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int LoginPhase_TypeDefinitionIndex = 61156;
+
 	class LoginPhase : public ::RPG::Client::BasePhase
 	{
 	public:

@@ -16,6 +16,8 @@
 
 namespace CloudGame::MailBox::GameControl
 {
+	inline static constexpr unsigned int Gyroscope_TypeDefinitionIndex = 7550;
+
 	struct alignas(4) Gyroscope
 	{
 		::UnityEngine::Vector3 _rotationRate_k__BackingField; // 0x10

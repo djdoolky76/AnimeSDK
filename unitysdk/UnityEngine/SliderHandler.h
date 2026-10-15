@@ -37,6 +37,8 @@ namespace UnityEngine { class SliderState; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int SliderHandler_TypeDefinitionIndex = 5197;
+
 	struct alignas(8) SliderHandler
 	{
 		::UnityEngine::Rect position; // 0x10

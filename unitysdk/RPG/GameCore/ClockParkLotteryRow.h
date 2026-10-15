@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ClockParkLotteryRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ClockParkLotteryRow_TypeDefinitionIndex = 11188;
+
 	class ClockParkLotteryRow : public ::System::Object
 	{
 	public:

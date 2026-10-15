@@ -15,6 +15,8 @@ namespace System { class Object; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightStageRoute__GetEnumerator_d__5_TypeDefinitionIndex = 65252;
+
 	template <typename T1, typename T2, typename T3, typename T4, typename T5>
 	class GridFightStageRoute__GetEnumerator_d__5 : public ::System::Object
 	{

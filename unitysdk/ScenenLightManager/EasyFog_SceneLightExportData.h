@@ -9,6 +9,8 @@ namespace ScenenLightManager { class EasyFog_ExportData; }
 
 namespace ScenenLightManager
 {
+	inline static constexpr unsigned int EasyFog_SceneLightExportData_TypeDefinitionIndex = 49061;
+
 	class EasyFog_SceneLightExportData : public ::ScenenLightManager::BaseSceneLightExportData
 	{
 	public:

@@ -11,6 +11,8 @@ namespace UnityEngine::Rendering { class FloatParameter; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int RPGDepthOfField_TypeDefinitionIndex = 37798;
+
 	class RPGDepthOfField : public ::RPG::CustomRP::CustomVolumeComponent
 	{
 	public:

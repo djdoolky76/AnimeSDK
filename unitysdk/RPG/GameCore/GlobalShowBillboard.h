@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GlobalShowBillboard; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GlobalShowBillboard_TypeDefinitionIndex = 20464;
+
 	class GlobalShowBillboard : public ::RPG::GameCore::TaskConfig
 	{
 	public:

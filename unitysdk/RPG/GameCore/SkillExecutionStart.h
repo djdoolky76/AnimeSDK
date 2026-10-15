@@ -10,6 +10,8 @@ namespace RPG::GameCore { class SkillExecutionStart; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SkillExecutionStart_TypeDefinitionIndex = 22719;
+
 	class SkillExecutionStart : public ::RPG::GameCore::TaskConfig
 	{
 	public:

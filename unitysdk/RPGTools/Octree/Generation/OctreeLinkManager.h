@@ -13,6 +13,8 @@ namespace RPGTools::Octree::Generation { class OctreeManager; }
 
 namespace RPGTools::Octree::Generation
 {
+	inline static constexpr unsigned int OctreeLinkManager_TypeDefinitionIndex = 48885;
+
 	class OctreeLinkManager : public ::UnityEngine::MonoBehaviour
 	{
 	public:

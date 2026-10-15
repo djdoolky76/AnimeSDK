@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace System::Xml::Serialization
 {
+	inline static constexpr unsigned int XmlSerializationCollectionFixupCallback_TypeDefinitionIndex = 2023;
+
 	class XmlSerializationCollectionFixupCallback : public ::System::MulticastDelegate
 	{
 	public:

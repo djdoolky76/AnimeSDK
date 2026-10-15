@@ -16,6 +16,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::ActivityIdleLive
 {
+	inline static constexpr unsigned int IdleLiveDungeonAssistRewardData_TypeDefinitionIndex = 75196;
+
 	class IdleLiveDungeonAssistRewardData : public ::System::Object
 	{
 	public:

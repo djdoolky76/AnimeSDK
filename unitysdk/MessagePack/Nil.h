@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace MessagePack
 {
+	inline static constexpr unsigned int Nil_TypeDefinitionIndex = 7235;
+
 	struct alignas(4) Nil
 	{
 		static ::MessagePack::Nil* StaticGet_Default()

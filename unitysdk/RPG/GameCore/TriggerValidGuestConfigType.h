@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TriggerValidGuestConfigType_TypeDefinitionIndex = 24793;
+
 	enum class TriggerValidGuestConfigType : ::System::Int32
 	{
 		ByEntityType = 0,

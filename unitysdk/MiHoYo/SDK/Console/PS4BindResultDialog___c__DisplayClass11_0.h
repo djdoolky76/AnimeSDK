@@ -9,6 +9,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::Console
 {
+	inline static constexpr unsigned int PS4BindResultDialog___c__DisplayClass11_0_TypeDefinitionIndex = 9022;
+
 	class PS4BindResultDialog___c__DisplayClass11_0 : public ::System::Object
 	{
 	public:

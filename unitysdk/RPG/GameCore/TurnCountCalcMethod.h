@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TurnCountCalcMethod_TypeDefinitionIndex = 18293;
+
 	enum class TurnCountCalcMethod : ::System::Int32
 	{
 		Total = 0,

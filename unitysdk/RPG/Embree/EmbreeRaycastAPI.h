@@ -23,6 +23,8 @@ namespace UnityEngine { class Mesh; }
 
 namespace RPG::Embree
 {
+	inline static constexpr unsigned int EmbreeRaycastAPI_TypeDefinitionIndex = 47012;
+
 	class EmbreeRaycastAPI : public ::System::Object
 	{
 	public:

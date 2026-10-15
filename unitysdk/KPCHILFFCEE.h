@@ -31,6 +31,8 @@ namespace System { class String; }
 #define KPCHILFFCEE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E8B80B0)
 #define KPCHILFFCEE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E8B8110)
 
+inline static constexpr unsigned int KPCHILFFCEE_TypeDefinitionIndex = 30580;
+
 	class KPCHILFFCEE : public ::System::Object
 	{
 	public:

@@ -36,6 +36,8 @@ namespace System { class String; }
 #define GEDDNPGHNGP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E453520)
 #define GEDDNPGHNGP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E453580)
 
+inline static constexpr unsigned int GEDDNPGHNGP_TypeDefinitionIndex = 29570;
+
 	class GEDDNPGHNGP : public ::System::Object
 	{
 	public:

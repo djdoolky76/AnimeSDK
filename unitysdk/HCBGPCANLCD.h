@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define HCBGPCANLCD_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x15C16E30)
 #define HCBGPCANLCD_TICK_OFFSET UNITYSDK_OFFSET(0x15C16E80)
 
+inline static constexpr unsigned int HCBGPCANLCD_TypeDefinitionIndex = 54973;
+
 	class HCBGPCANLCD : public ::GELIALJDFBL
 	{
 	public:

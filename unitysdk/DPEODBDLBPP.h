@@ -4,6 +4,8 @@
 
 #define DPEODBDLBPP_CTOR_OFFSET UNITYSDK_OFFSET(0x11FFB190)
 
+inline static constexpr unsigned int DPEODBDLBPP_TypeDefinitionIndex = 80579;
+
 	class DPEODBDLBPP : public ::System::Object
 	{
 	public:

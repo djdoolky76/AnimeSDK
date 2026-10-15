@@ -7,6 +7,8 @@ namespace System { class Action; }
 #define BDDAELGEKFF___C__DISPLAYCLASS29_0_CTOR_OFFSET UNITYSDK_OFFSET(0x162EF160)
 #define BDDAELGEKFF___C__DISPLAYCLASS29_0__DEBUGACTIVELAYER_B__0_OFFSET UNITYSDK_OFFSET(0x162F1830)
 
+inline static constexpr unsigned int BDDAELGEKFF___c__DisplayClass29_0_TypeDefinitionIndex = 49446;
+
 	class BDDAELGEKFF___c__DisplayClass29_0 : public ::System::Object
 	{
 	public:

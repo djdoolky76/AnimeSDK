@@ -22,6 +22,8 @@ namespace System { class String; }
 
 namespace RPG::Embree
 {
+	inline static constexpr unsigned int EmbreeWrapperUnsafe_TypeDefinitionIndex = 47025;
+
 	class EmbreeWrapperUnsafe : public ::System::Object
 	{
 	public:

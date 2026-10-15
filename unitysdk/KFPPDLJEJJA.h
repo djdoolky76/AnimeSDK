@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define KFPPDLJEJJA_PAJNLHNAKFH_OFFSET UNITYSDK_OFFSET(0x14120)
 #define KFPPDLJEJJA_PKELPMDKHCB_OFFSET UNITYSDK_OFFSET(0x14140)
 
+inline static constexpr unsigned int KFPPDLJEJJA_TypeDefinitionIndex = 68438;
+
 	struct alignas(8) KFPPDLJEJJA
 	{
 		::System::Boolean CPMJKEFEHNG; // 0x10

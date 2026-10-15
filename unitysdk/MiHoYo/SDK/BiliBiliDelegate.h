@@ -13,6 +13,8 @@ namespace MiHoYo::SDK { class BiliBiliDelegate_SDKUnInitDelegate; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int BiliBiliDelegate_TypeDefinitionIndex = 7601;
+
 	class BiliBiliDelegate : public ::System::Object
 	{
 	public:

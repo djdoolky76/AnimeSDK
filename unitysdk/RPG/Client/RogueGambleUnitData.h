@@ -39,6 +39,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueGambleUnitData_TypeDefinitionIndex = 67229;
+
 	class RogueGambleUnitData : public ::System::Object
 	{
 	public:

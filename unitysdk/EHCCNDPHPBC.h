@@ -28,6 +28,8 @@ namespace UnityEngine::UI { class RawImage; }
 #define EHCCNDPHPBC_PEPFGJFANIB_OFFSET UNITYSDK_OFFSET(0x154A2D40)
 #define EHCCNDPHPBC_PIPKCDOAMJM_OFFSET UNITYSDK_OFFSET(0x154A37A0)
 
+inline static constexpr unsigned int EHCCNDPHPBC_TypeDefinitionIndex = 72788;
+
 	class EHCCNDPHPBC : public ::System::Object
 	{
 	public:

@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FloorOperationType_TypeDefinitionIndex = 13993;
+
 	enum class FloorOperationType : ::System::Int32
 	{
 		None = 0,

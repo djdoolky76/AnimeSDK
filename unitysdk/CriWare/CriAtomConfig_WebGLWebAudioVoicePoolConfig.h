@@ -6,6 +6,8 @@
 
 namespace CriWare
 {
+	inline static constexpr unsigned int CriAtomConfig_WebGLWebAudioVoicePoolConfig_TypeDefinitionIndex = 40168;
+
 	class CriAtomConfig_WebGLWebAudioVoicePoolConfig : public ::System::Object
 	{
 	public:

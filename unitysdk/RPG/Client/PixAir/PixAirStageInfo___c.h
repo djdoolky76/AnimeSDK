@@ -11,6 +11,8 @@ namespace System { template <typename T> class Comparison_1; }
 
 namespace RPG::Client::PixAir
 {
+	inline static constexpr unsigned int PixAirStageInfo___c_TypeDefinitionIndex = 79377;
+
 	class PixAirStageInfo___c : public ::System::Object
 	{
 	public:

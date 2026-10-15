@@ -16,6 +16,8 @@ namespace RPG::Client::PixAir { class PixAirEquipLevelData; }
 
 namespace RPG::Client::PixAir
 {
+	inline static constexpr unsigned int PixAirEquipDisplayData_TypeDefinitionIndex = 79302;
+
 	class PixAirEquipDisplayData : public ::System::Object
 	{
 	public:

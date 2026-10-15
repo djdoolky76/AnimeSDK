@@ -58,6 +58,8 @@ namespace UnityEngine::EventSystems { class PointerEventData; }
 #define IDPIIKPHFJP_SET_ISDRAGGINGUIITEM_OFFSET UNITYSDK_OFFSET(0x15EE6670)
 #define IDPIIKPHFJP_SET_ISEXPANDSELECT_OFFSET UNITYSDK_OFFSET(0x15EE6690)
 
+inline static constexpr unsigned int IDPIIKPHFJP_TypeDefinitionIndex = 77770;
+
 	class IDPIIKPHFJP : public ::System::Object
 	{
 	public:

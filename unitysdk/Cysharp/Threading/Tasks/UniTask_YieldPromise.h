@@ -25,6 +25,8 @@ namespace System { class Object; }
 
 namespace Cysharp::Threading::Tasks
 {
+	inline static constexpr unsigned int UniTask_YieldPromise_TypeDefinitionIndex = 38228;
+
 	class UniTask_YieldPromise : public ::System::Object
 	{
 	public:

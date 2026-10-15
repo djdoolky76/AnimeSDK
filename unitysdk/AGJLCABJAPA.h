@@ -5,6 +5,8 @@
 
 #define AGJLCABJAPA_CTOR_OFFSET UNITYSDK_OFFSET(0x1C88B4E0)
 
+inline static constexpr unsigned int AGJLCABJAPA_TypeDefinitionIndex = 42126;
+
 	class AGJLCABJAPA : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace System { class String; }
 #define WWISEOBJECTREFERENCE_GET_ID_OFFSET UNITYSDK_OFFSET(0x1F6371E0)
 #define WWISEOBJECTREFERENCE_GET_OBJECTNAME_OFFSET UNITYSDK_OFFSET(0x1F6371C0)
 
+inline static constexpr unsigned int WwiseObjectReference_TypeDefinitionIndex = 44885;
+
 	class WwiseObjectReference : public ::UnityEngine::ScriptableObject
 	{
 	public:

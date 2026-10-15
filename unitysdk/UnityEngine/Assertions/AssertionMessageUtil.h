@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace UnityEngine::Assertions
 {
+	inline static constexpr unsigned int AssertionMessageUtil_TypeDefinitionIndex = 4956;
+
 	class AssertionMessageUtil : public ::System::Object
 	{
 	public:

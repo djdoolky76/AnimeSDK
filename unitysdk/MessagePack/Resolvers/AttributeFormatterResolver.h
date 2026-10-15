@@ -8,6 +8,8 @@ namespace MessagePack::Resolvers { class AttributeFormatterResolver; }
 
 namespace MessagePack::Resolvers
 {
+	inline static constexpr unsigned int AttributeFormatterResolver_TypeDefinitionIndex = 7250;
+
 	class AttributeFormatterResolver : public ::System::Object
 	{
 	public:

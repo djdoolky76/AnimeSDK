@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int HEU_MeshData_TypeDefinitionIndex = 40656;
+
 	class HEU_MeshData : public ::System::Object
 	{
 	public:

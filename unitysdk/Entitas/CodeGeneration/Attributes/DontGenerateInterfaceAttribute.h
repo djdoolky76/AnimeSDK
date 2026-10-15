@@ -6,6 +6,8 @@
 
 namespace Entitas::CodeGeneration::Attributes
 {
+	inline static constexpr unsigned int DontGenerateInterfaceAttribute_TypeDefinitionIndex = 10076;
+
 	class DontGenerateInterfaceAttribute : public ::System::Attribute
 	{
 	public:

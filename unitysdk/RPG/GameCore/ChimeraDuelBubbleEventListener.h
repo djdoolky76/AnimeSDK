@@ -11,6 +11,8 @@ namespace RPG::GameCore { class ChimeraDuelExcelValueGetter; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChimeraDuelBubbleEventListener_TypeDefinitionIndex = 16024;
+
 	class ChimeraDuelBubbleEventListener : public ::RPG::GameCore::JsonConfig
 	{
 	public:

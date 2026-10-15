@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define NOIPELNEFID_CTOR_OFFSET UNITYSDK_OFFSET(0x1C7C9A80)
 #define NOIPELNEFID_MIDKKNAGOFA_OFFSET UNITYSDK_OFFSET(0x1C7C9A90)
 
+inline static constexpr unsigned int NOIPELNEFID_TypeDefinitionIndex = 36388;
+
 	class NOIPELNEFID : public ::IFNMPBPNBIF
 	{
 	public:

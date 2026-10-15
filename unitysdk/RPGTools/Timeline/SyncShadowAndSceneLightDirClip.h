@@ -13,6 +13,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int SyncShadowAndSceneLightDirClip_TypeDefinitionIndex = 48348;
+
 	class SyncShadowAndSceneLightDirClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:

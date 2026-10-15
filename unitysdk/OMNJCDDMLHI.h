@@ -47,6 +47,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define OMNJCDDMLHI_NHEMEJHPOMM_OFFSET UNITYSDK_OFFSET(0x1C99E660)
 #define OMNJCDDMLHI_OICGDPCGNPE_OFFSET UNITYSDK_OFFSET(0x1C99EAB0)
 
+inline static constexpr unsigned int OMNJCDDMLHI_TypeDefinitionIndex = 42563;
+
 	class OMNJCDDMLHI
 	{
 	public:

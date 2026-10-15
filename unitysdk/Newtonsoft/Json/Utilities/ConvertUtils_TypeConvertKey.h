@@ -12,6 +12,8 @@ namespace System { class Type; }
 
 namespace Newtonsoft::Json::Utilities
 {
+	inline static constexpr unsigned int ConvertUtils_TypeConvertKey_TypeDefinitionIndex = 9658;
+
 	struct alignas(8) ConvertUtils_TypeConvertKey
 	{
 		::System::Type* _initialType; // 0x10

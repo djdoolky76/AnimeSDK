@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int OJCIGGAFGPN_TypeDefinitionIndex = 30579;
+
 	enum class OJCIGGAFGPN : ::System::Int32
 	{
 		NLCDGIPGFDJ = 0,

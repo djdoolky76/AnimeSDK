@@ -19,6 +19,8 @@ namespace RPG::GameCore { class TurnBasedAbilityComponent; }
 #define AAOLFLMHBEK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB0D8380)
 #define AAOLFLMHBEK_PBFANKMMAOC_OFFSET UNITYSDK_OFFSET(0xB0D9070)
 
+inline static constexpr unsigned int AAOLFLMHBEK_TypeDefinitionIndex = 55089;
+
 	class AAOLFLMHBEK
 	{
 	public:

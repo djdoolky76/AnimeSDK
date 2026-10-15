@@ -26,6 +26,8 @@ namespace UnityEngine { class Camera; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int CameraGyroFollower_TypeDefinitionIndex = 68917;
+
 	class CameraGyroFollower : public ::UnityEngine::MonoBehaviour
 	{
 	public:

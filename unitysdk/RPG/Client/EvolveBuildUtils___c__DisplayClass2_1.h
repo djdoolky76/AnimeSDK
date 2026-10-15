@@ -9,6 +9,8 @@ namespace RPG::GameCore { class EvolveBuildGearEquipInfo; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int EvolveBuildUtils___c__DisplayClass2_1_TypeDefinitionIndex = 63818;
+
 	template <typename T>
 	class EvolveBuildUtils___c__DisplayClass2_1 : public ::System::Object
 	{

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class DiceCombatV2StageDialogPerformanceConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DiceCombatV2StageDialogPerformanceConfig_TypeDefinitionIndex = 16188;
+
 	class DiceCombatV2StageDialogPerformanceConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

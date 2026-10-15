@@ -178,6 +178,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 
 namespace IFix
 {
+	inline static constexpr unsigned int ILFixDynamicMethodWrapper_125662FD8B14A553_TypeDefinitionIndex = 41915;
+
 	class ILFixDynamicMethodWrapper_125662FD8B14A553 : public ::System::Object
 	{
 	public:

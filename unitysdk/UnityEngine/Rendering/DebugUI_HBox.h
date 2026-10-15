@@ -6,6 +6,8 @@
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int DebugUI_HBox_TypeDefinitionIndex = 35526;
+
 	class DebugUI_HBox : public ::UnityEngine::Rendering::DebugUI_Container
 	{
 	public:

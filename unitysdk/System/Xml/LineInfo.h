@@ -6,6 +6,8 @@
 
 namespace System::Xml
 {
+	inline static constexpr unsigned int LineInfo_TypeDefinitionIndex = 1927;
+
 	struct alignas(4) LineInfo
 	{
 		::System::Int32 lineNo; // 0x10

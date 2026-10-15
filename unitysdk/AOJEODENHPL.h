@@ -35,6 +35,8 @@ namespace System { class String; }
 #define AOJEODENHPL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E66EDD0)
 #define AOJEODENHPL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E66EE30)
 
+inline static constexpr unsigned int AOJEODENHPL_TypeDefinitionIndex = 29908;
+
 	class AOJEODENHPL : public ::System::Object
 	{
 	public:

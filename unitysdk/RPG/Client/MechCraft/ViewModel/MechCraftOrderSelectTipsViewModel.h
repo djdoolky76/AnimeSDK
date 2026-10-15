@@ -16,6 +16,8 @@ namespace RPG::Client::MechCraft::ViewModel { class MechCraftCoinViewModel; }
 
 namespace RPG::Client::MechCraft::ViewModel
 {
+	inline static constexpr unsigned int MechCraftOrderSelectTipsViewModel_TypeDefinitionIndex = 79668;
+
 	class MechCraftOrderSelectTipsViewModel : public ::Sofa::Core::ObservableObject
 	{
 	public:

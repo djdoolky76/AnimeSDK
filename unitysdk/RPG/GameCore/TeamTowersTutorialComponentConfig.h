@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TeamTowersTutorialComponentConfig_TypeDefinitionIndex = 18954;
+
 	class TeamTowersTutorialComponentConfig : public ::RPG::GameCore::LittleGameComponentConfig
 	{
 	public:

@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define BKEBOHAPGOF_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D8114F0)
 #define BKEBOHAPGOF_LJACLBNEEEB_OFFSET UNITYSDK_OFFSET(0x1D811180)
 
+inline static constexpr unsigned int BKEBOHAPGOF_TypeDefinitionIndex = 23858;
+
 	class BKEBOHAPGOF : public ::System::Object
 	{
 	public:

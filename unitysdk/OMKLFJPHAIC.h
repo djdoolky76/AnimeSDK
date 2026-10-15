@@ -9,6 +9,8 @@ namespace System { class String; }
 #define OMKLFJPHAIC_TOSTRING_OFFSET UNITYSDK_OFFSET(0xBF30F10)
 #define OMKLFJPHAIC_TRIGGERACTION_OFFSET UNITYSDK_OFFSET(0xBF30FC0)
 
+inline static constexpr unsigned int OMKLFJPHAIC_TypeDefinitionIndex = 67037;
+
 	class OMKLFJPHAIC : public ::System::Object
 	{
 	public:

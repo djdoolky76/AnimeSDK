@@ -22,6 +22,8 @@ namespace UnityEngine::Rendering { class CommandBuffer; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int RPGLensFlareRenderer_TypeDefinitionIndex = 37823;
+
 	class RPGLensFlareRenderer : public ::RPG::CustomRP::CRPPostprocessSubPass2
 	{
 	public:

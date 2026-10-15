@@ -11,6 +11,8 @@ namespace RPG::GameCore { class HipplenIncidentCommitConfig; }
 #define NOOOONKMGIG_CTOR_OFFSET UNITYSDK_OFFSET(0xBCF7C00)
 #define NOOOONKMGIG_EPJPICKMJLF_OFFSET UNITYSDK_OFFSET(0xBCF7E80)
 
+inline static constexpr unsigned int NOOOONKMGIG_TypeDefinitionIndex = 75544;
+
 	class NOOOONKMGIG : public ::JCHBFEIOIHA
 	{
 	public:

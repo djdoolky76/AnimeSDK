@@ -7,6 +7,8 @@ namespace RPG::GameCore { class DiceCombatPredicateConfig_TotalDamageTakenCompar
 #define MPLBCPOFDKI_CTOR_OFFSET UNITYSDK_OFFSET(0x1C7589A0)
 #define MPLBCPOFDKI_KFGJEKJHIMB_OFFSET UNITYSDK_OFFSET(0x1C7589C0)
 
+inline static constexpr unsigned int MPLBCPOFDKI_TypeDefinitionIndex = 36357;
+
 	class MPLBCPOFDKI : public ::HHOHBHGLHHF
 	{
 	public:

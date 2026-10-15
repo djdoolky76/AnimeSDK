@@ -149,6 +149,8 @@ namespace UnityEngine { class Transform; }
 #define DHBOGGBEMFF_PNIAHOEPPFD_OFFSET UNITYSDK_OFFSET(0xEBB7A20)
 #define DHBOGGBEMFF_POOFMLBIHPC_OFFSET UNITYSDK_OFFSET(0xEBB7750)
 
+inline static constexpr unsigned int DHBOGGBEMFF_TypeDefinitionIndex = 49124;
+
 	class DHBOGGBEMFF : public ::System::Object
 	{
 	public:

@@ -14,6 +14,8 @@ namespace RPG::GameCore { class CocoonRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CocoonRow_TypeDefinitionIndex = 12563;
+
 	class CocoonRow : public ::System::Object
 	{
 	public:

@@ -25,6 +25,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define HIOOOMIBMDA_NFCGOPKCBCP_OFFSET UNITYSDK_OFFSET(0x15D00D00)
 #define HIOOOMIBMDA_PPEGOIODAKI_OFFSET UNITYSDK_OFFSET(0x15CFE310)
 
+inline static constexpr unsigned int HIOOOMIBMDA_TypeDefinitionIndex = 73941;
+
 	class HIOOOMIBMDA : public ::System::Object
 	{
 	public:

@@ -5,6 +5,8 @@ class NGFHCJIAOLH;
 
 #define MPFALBAEABJ_CTOR_OFFSET UNITYSDK_OFFSET(0xBA3D440)
 
+inline static constexpr unsigned int MPFALBAEABJ_TypeDefinitionIndex = 81264;
+
 	class MPFALBAEABJ : public ::System::Object
 	{
 	public:

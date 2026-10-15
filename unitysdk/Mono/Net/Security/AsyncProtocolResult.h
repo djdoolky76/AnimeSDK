@@ -10,6 +10,8 @@ namespace System::Runtime::ExceptionServices { class ExceptionDispatchInfo; }
 
 namespace Mono::Net::Security
 {
+	inline static constexpr unsigned int AsyncProtocolResult_TypeDefinitionIndex = 2425;
+
 	class AsyncProtocolResult : public ::System::Object
 	{
 	public:

@@ -14,6 +14,8 @@ namespace System::Threading::Tasks { class Task; }
 
 namespace System::Xml
 {
+	inline static constexpr unsigned int XmlResolver_TypeDefinitionIndex = 1969;
+
 	class XmlResolver : public ::System::Object
 	{
 	public:

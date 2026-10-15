@@ -13,6 +13,8 @@ namespace System::Collections { class ArrayList; }
 
 namespace System::Collections
 {
+	inline static constexpr unsigned int ArrayList_ArrayListEnumeratorSimple_TypeDefinitionIndex = 1462;
+
 	class ArrayList_ArrayListEnumeratorSimple : public ::System::Object
 	{
 	public:

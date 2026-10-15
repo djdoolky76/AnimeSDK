@@ -22,6 +22,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RelicPresetEditViewModel_TypeDefinitionIndex = 66863;
+
 	class RelicPresetEditViewModel : public ::System::Object
 	{
 	public:

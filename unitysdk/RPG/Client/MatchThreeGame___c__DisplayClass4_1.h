@@ -9,6 +9,8 @@ class LMLNNHKJEIP;
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MatchThreeGame___c__DisplayClass4_1_TypeDefinitionIndex = 65943;
+
 	template <typename T>
 	class MatchThreeGame___c__DisplayClass4_1 : public ::System::Object
 	{

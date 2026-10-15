@@ -5,6 +5,8 @@
 
 #define BATCHANIMATIONPLAYABLE_CTOR_OFFSET UNITYSDK_OFFSET(0x1CBE7820)
 
+inline static constexpr unsigned int BatchAnimationPlayable_TypeDefinitionIndex = 37469;
+
 	class BatchAnimationPlayable : public ::System::Object
 	{
 	public:

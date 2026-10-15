@@ -28,6 +28,8 @@ namespace System { class String; }
 #define LLKIFBFCMLK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E99D310)
 #define LLKIFBFCMLK_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E99D370)
 
+inline static constexpr unsigned int LLKIFBFCMLK_TypeDefinitionIndex = 25915;
+
 	class LLKIFBFCMLK : public ::System::Object
 	{
 	public:

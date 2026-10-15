@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RechargeConfigRow_TypeDefinitionIndex = 14612;
+
 	class RechargeConfigRow : public ::System::Object
 	{
 	public:

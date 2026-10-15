@@ -10,6 +10,8 @@ namespace RPG::GameCore { class WaitAutoTriggerRogueEntrancePropInteract; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int WaitAutoTriggerRogueEntrancePropInteract_TypeDefinitionIndex = 22081;
+
 	class WaitAutoTriggerRogueEntrancePropInteract : public ::RPG::GameCore::TaskConfig
 	{
 	public:

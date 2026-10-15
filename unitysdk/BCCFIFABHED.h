@@ -4,6 +4,8 @@
 namespace R3 { template <typename T> class ReactiveProperty_1; }
 namespace System { class Action; }
 
+inline static constexpr unsigned int BCCFIFABHED_TypeDefinitionIndex = 49834;
+
 	class BCCFIFABHED : public ::System::Object
 	{
 	public:

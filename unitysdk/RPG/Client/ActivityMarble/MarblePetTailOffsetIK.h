@@ -16,6 +16,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::ActivityMarble
 {
+	inline static constexpr unsigned int MarblePetTailOffsetIK_TypeDefinitionIndex = 75958;
+
 	class MarblePetTailOffsetIK : public ::UnityEngine::MonoBehaviour
 	{
 	public:

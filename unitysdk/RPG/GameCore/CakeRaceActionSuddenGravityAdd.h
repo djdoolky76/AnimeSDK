@@ -10,6 +10,8 @@ namespace RPG::GameCore { class CakeRaceActionSuddenGravityAdd; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CakeRaceActionSuddenGravityAdd_TypeDefinitionIndex = 18362;
+
 	class CakeRaceActionSuddenGravityAdd : public ::RPG::GameCore::CakeRaceActionBase
 	{
 	public:

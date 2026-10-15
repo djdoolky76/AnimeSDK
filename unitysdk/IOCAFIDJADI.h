@@ -5,6 +5,8 @@
 
 #define IOCAFIDJADI_CTOR_OFFSET UNITYSDK_OFFSET(0x1CB8A3F0)
 
+inline static constexpr unsigned int IOCAFIDJADI_TypeDefinitionIndex = 43065;
+
 	class IOCAFIDJADI : public ::System::Object
 	{
 	public:

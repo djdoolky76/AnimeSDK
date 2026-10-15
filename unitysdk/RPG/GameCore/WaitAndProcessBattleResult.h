@@ -10,6 +10,8 @@ namespace RPG::GameCore { class WaitAndProcessBattleResult; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int WaitAndProcessBattleResult_TypeDefinitionIndex = 23411;
+
 	class WaitAndProcessBattleResult : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -20,6 +20,8 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 #define HJHMDGBLPMK_SET_LASTCYCLEID_OFFSET UNITYSDK_OFFSET(0x15D21DC0)
 #define HJHMDGBLPMK_SET_UNLOCKEDDRIVERIDS_OFFSET UNITYSDK_OFFSET(0x15D21DE0)
 
+inline static constexpr unsigned int HJHMDGBLPMK_TypeDefinitionIndex = 81658;
+
 	class HJHMDGBLPMK : public ::System::Object
 	{
 	public:

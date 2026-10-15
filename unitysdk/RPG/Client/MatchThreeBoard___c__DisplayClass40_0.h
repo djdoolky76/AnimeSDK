@@ -9,6 +9,8 @@ namespace RPG::Client { class MatchThreePowerCounter; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MatchThreeBoard___c__DisplayClass40_0_TypeDefinitionIndex = 65919;
+
 	class MatchThreeBoard___c__DisplayClass40_0 : public ::System::Object
 	{
 	public:

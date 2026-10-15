@@ -4,6 +4,8 @@
 
 #define HNLOAGNKKIC_CTOR_OFFSET UNITYSDK_OFFSET(0x15DA01E0)
 
+inline static constexpr unsigned int HNLOAGNKKIC_TypeDefinitionIndex = 81266;
+
 	class HNLOAGNKKIC : public ::System::Object
 	{
 	public:

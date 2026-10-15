@@ -20,6 +20,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define EAHJDBNGBEN_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1267A2A0)
 #define EAHJDBNGBEN_TICK_OFFSET UNITYSDK_OFFSET(0x12678E50)
 
+inline static constexpr unsigned int EAHJDBNGBEN_TypeDefinitionIndex = 53187;
+
 	class EAHJDBNGBEN : public ::GELIALJDFBL
 	{
 	public:

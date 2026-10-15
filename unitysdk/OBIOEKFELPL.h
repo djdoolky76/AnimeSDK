@@ -29,6 +29,8 @@ namespace System { class String; }
 #define OBIOEKFELPL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EBB1360)
 #define OBIOEKFELPL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EBB13C0)
 
+inline static constexpr unsigned int OBIOEKFELPL_TypeDefinitionIndex = 26121;
+
 	class OBIOEKFELPL : public ::System::Object
 	{
 	public:

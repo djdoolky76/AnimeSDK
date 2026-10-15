@@ -6,6 +6,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define GHPBAINEAHB_CTOR_OFFSET UNITYSDK_OFFSET(0x15A2DDE0)
 
+inline static constexpr unsigned int GHPBAINEAHB_TypeDefinitionIndex = 55174;
+
 	class GHPBAINEAHB : public ::System::Object
 	{
 	public:

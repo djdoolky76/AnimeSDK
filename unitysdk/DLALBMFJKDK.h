@@ -6,6 +6,8 @@ class ECNEEKNHIOE;
 
 #define DLALBMFJKDK_CTOR_OFFSET UNITYSDK_OFFSET(0xF8908B0)
 
+inline static constexpr unsigned int DLALBMFJKDK_TypeDefinitionIndex = 80557;
+
 	class DLALBMFJKDK : public ::System::Object
 	{
 	public:

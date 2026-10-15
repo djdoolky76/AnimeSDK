@@ -25,6 +25,8 @@ namespace System { class String; }
 #define KIKINEEIMFM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E862AB0)
 #define KIKINEEIMFM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E862B10)
 
+inline static constexpr unsigned int KIKINEEIMFM_TypeDefinitionIndex = 32225;
+
 	class KIKINEEIMFM : public ::System::Object
 	{
 	public:

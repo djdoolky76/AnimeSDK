@@ -15,6 +15,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define JNDOIKECILI_TICK_OFFSET UNITYSDK_OFFSET(0xB27BBD0)
 #define JNDOIKECILI___ONUIOPEN_B__5_0_OFFSET UNITYSDK_OFFSET(0xB27BE10)
 
+inline static constexpr unsigned int JNDOIKECILI_TypeDefinitionIndex = 58693;
+
 	class JNDOIKECILI : public ::GELIALJDFBL
 	{
 	public:

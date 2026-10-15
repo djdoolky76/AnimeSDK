@@ -17,6 +17,8 @@ namespace System { class String; }
 #define CMEOAAGBMNO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xDA29C70)
 #define CMEOAAGBMNO_PPKPKNNDDON_OFFSET UNITYSDK_OFFSET(0xDA29E80)
 
+inline static constexpr unsigned int CMEOAAGBMNO_TypeDefinitionIndex = 52463;
+
 	class CMEOAAGBMNO
 	{
 	public:

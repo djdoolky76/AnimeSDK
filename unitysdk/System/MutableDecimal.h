@@ -8,6 +8,8 @@
 
 namespace System
 {
+	inline static constexpr unsigned int MutableDecimal_TypeDefinitionIndex = 4969;
+
 	struct alignas(4) MutableDecimal
 	{
 		::System::UInt32 Flags; // 0x10

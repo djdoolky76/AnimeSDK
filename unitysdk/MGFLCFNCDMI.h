@@ -16,6 +16,8 @@ namespace System::IO { class BinaryReader; }
 #define MGFLCFNCDMI_NJKHGPCDAMI_OFFSET UNITYSDK_OFFSET(0xB918960)
 #define MGFLCFNCDMI_PFNDOIILPNL_OFFSET UNITYSDK_OFFSET(0xB919C30)
 
+inline static constexpr unsigned int MGFLCFNCDMI_TypeDefinitionIndex = 67563;
+
 	class MGFLCFNCDMI : public ::System::Object
 	{
 	public:

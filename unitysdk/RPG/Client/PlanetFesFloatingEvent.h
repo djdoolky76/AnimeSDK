@@ -20,6 +20,8 @@ namespace UnityEngine::UI { class Image; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PlanetFesFloatingEvent_TypeDefinitionIndex = 66496;
+
 	class PlanetFesFloatingEvent : public ::UnityEngine::MonoBehaviour
 	{
 	public:

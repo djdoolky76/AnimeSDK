@@ -67,6 +67,8 @@ namespace UnityEngine { class Transform; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int SkinnedMeshRenderer_TypeDefinitionIndex = 4184;
+
 	class SkinnedMeshRenderer : public ::UnityEngine::Renderer
 	{
 	public:

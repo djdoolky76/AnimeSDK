@@ -4,6 +4,8 @@
 
 namespace Spine
 {
+	inline static constexpr unsigned int ExposedList_1_TypeDefinitionIndex = 39670;
+
 	template <typename T>
 	class ExposedList_1 : public ::System::Object
 	{

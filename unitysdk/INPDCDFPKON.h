@@ -14,6 +14,8 @@ namespace System { class String; }
 #define INPDCDFPKON_MLNGAKHBJMI_OFFSET UNITYSDK_OFFSET(0x164F8970)
 #define INPDCDFPKON_SET_EQUIP_OFFSET UNITYSDK_OFFSET(0x164F88D0)
 
+inline static constexpr unsigned int INPDCDFPKON_TypeDefinitionIndex = 75223;
+
 	class INPDCDFPKON : public ::System::Object
 	{
 	public:

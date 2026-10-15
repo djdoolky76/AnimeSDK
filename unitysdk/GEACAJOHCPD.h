@@ -16,6 +16,8 @@ namespace UnityEngine { class Object; }
 #define GEACAJOHCPD_NDJAOMNHOKM_OFFSET UNITYSDK_OFFSET(0x159C62E0)
 #define GEACAJOHCPD_PMNKOMKCILA_OFFSET UNITYSDK_OFFSET(0x159C4F90)
 
+inline static constexpr unsigned int GEACAJOHCPD_TypeDefinitionIndex = 53594;
+
 	class GEACAJOHCPD : public ::System::Object
 	{
 	public:

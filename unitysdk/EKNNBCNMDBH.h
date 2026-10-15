@@ -17,6 +17,8 @@ class GADFFIFFNHM;
 #define EKNNBCNMDBH_SET_CURRENTHP_OFFSET UNITYSDK_OFFSET(0x1550FF30)
 #define EKNNBCNMDBH_SET_ISDEAD_OFFSET UNITYSDK_OFFSET(0x1550FF70)
 
+inline static constexpr unsigned int EKNNBCNMDBH_TypeDefinitionIndex = 63411;
+
 	class EKNNBCNMDBH : public ::System::Object
 	{
 	public:

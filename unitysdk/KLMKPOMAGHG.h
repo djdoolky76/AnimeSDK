@@ -14,6 +14,8 @@ class KLMKPOMAGHG;
 #define KLMKPOMAGHG_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xB52F0B0)
 #define KLMKPOMAGHG_PDHHNKABAFI_OFFSET UNITYSDK_OFFSET(0xB52F2E0)
 
+inline static constexpr unsigned int KLMKPOMAGHG_TypeDefinitionIndex = 54025;
+
 	class KLMKPOMAGHG : public ::System::Object
 	{
 	public:

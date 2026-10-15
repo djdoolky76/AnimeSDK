@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdventureCharacterController_StateBeginTimeRecord_TypeDefinitionIndex = 57020;
+
 	struct alignas(4) AdventureCharacterController_StateBeginTimeRecord
 	{
 		::System::Int32 Hash; // 0x10

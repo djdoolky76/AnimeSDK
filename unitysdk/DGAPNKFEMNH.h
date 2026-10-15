@@ -6,6 +6,8 @@
 #define DGAPNKFEMNH_CIGPLCIKPLE_OFFSET UNITYSDK_OFFSET(0xE842600)
 #define DGAPNKFEMNH_CTOR_OFFSET UNITYSDK_OFFSET(0xE842650)
 
+inline static constexpr unsigned int DGAPNKFEMNH_TypeDefinitionIndex = 78555;
+
 	class DGAPNKFEMNH : public ::EADABGHLCIG
 	{
 	public:

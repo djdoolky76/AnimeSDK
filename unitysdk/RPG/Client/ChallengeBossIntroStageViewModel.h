@@ -18,6 +18,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ChallengeBossIntroStageViewModel_TypeDefinitionIndex = 63074;
+
 	class ChallengeBossIntroStageViewModel : public ::System::Object
 	{
 	public:

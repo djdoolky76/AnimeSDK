@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int HideSkillDisplayInfo_TypeDefinitionIndex = 22821;
+
 	class HideSkillDisplayInfo : public ::RPG::GameCore::TaskConfig
 	{
 	public:

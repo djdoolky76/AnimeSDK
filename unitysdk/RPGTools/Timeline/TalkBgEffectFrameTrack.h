@@ -12,6 +12,8 @@ namespace UnityEngine::Timeline { class TimelineClip; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int TalkBgEffectFrameTrack_TypeDefinitionIndex = 48382;
+
 	class TalkBgEffectFrameTrack : public ::UnityEngine::Timeline::TrackAsset
 	{
 	public:

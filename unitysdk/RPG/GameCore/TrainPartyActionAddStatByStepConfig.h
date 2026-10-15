@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TrainPartyActionAddStatByStepConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TrainPartyActionAddStatByStepConfig_TypeDefinitionIndex = 18074;
+
 	class TrainPartyActionAddStatByStepConfig : public ::RPG::GameCore::TrainPartyActionConfigBase
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System { class Action; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int FastDeliverPuzzleCameraController___c__DisplayClass46_0_TypeDefinitionIndex = 78586;
+
 	class FastDeliverPuzzleCameraController___c__DisplayClass46_0 : public ::System::Object
 	{
 	public:

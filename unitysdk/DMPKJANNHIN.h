@@ -2930,6 +2930,8 @@ namespace System { class String; }
 #define DMPKJANNHIN_METHOD_9_OFFSET UNITYSDK_OFFSET(0xFECF400)
 #define DMPKJANNHIN_METHOD_OFFSET UNITYSDK_OFFSET(0xFF1D030)
 
+inline static constexpr unsigned int DMPKJANNHIN_TypeDefinitionIndex = 50304;
+
 	class DMPKJANNHIN : public ::System::Object
 	{
 	public:

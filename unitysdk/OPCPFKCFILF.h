@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define OPCPFKCFILF_CTOR_OFFSET UNITYSDK_OFFSET(0xBFA5670)
 #define OPCPFKCFILF_EVALUATE_OFFSET UNITYSDK_OFFSET(0xBFA56A0)
 
+inline static constexpr unsigned int OPCPFKCFILF_TypeDefinitionIndex = 54593;
+
 	class OPCPFKCFILF
 	{
 	public:

@@ -21,6 +21,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AirshipAudio_TypeDefinitionIndex = 59790;
+
 	class AirshipAudio : public ::UnityEngine::MonoBehaviour
 	{
 	public:

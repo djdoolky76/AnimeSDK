@@ -5,6 +5,8 @@
 #define EPPKLLIIDCH_CTOR_OFFSET UNITYSDK_OFFSET(0x155DAAB0)
 #define EPPKLLIIDCH_GET_SENDERRUNTIMEID_OFFSET UNITYSDK_OFFSET(0x155DAAC0)
 
+inline static constexpr unsigned int EPPKLLIIDCH_TypeDefinitionIndex = 79200;
+
 	class EPPKLLIIDCH : public ::System::Object
 	{
 	public:

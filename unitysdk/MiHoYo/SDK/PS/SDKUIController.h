@@ -20,6 +20,8 @@ namespace UnityEngine::UI { class Selectable; }
 
 namespace MiHoYo::SDK::PS
 {
+	inline static constexpr unsigned int SDKUIController_TypeDefinitionIndex = 8925;
+
 	class SDKUIController : public ::UnityEngine::MonoBehaviour
 	{
 	public:

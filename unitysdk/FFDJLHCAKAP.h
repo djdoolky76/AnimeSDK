@@ -31,6 +31,8 @@ namespace System { class String; }
 #define FFDJLHCAKAP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E36AA60)
 #define FFDJLHCAKAP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E36AAC0)
 
+inline static constexpr unsigned int FFDJLHCAKAP_TypeDefinitionIndex = 33460;
+
 	class FFDJLHCAKAP : public ::System::Object
 	{
 	public:

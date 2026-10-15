@@ -32,6 +32,8 @@ namespace System { class String; }
 #define KIDOEDMJDGJ_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E858250)
 #define KIDOEDMJDGJ_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E8582B0)
 
+inline static constexpr unsigned int KIDOEDMJDGJ_TypeDefinitionIndex = 26180;
+
 	class KIDOEDMJDGJ : public ::System::Object
 	{
 	public:

@@ -3,6 +3,8 @@
 #include "unitysdk/RPG/GameCore/FiveDimCardinalDirection.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
+inline static constexpr unsigned int CHEHADCMFOI_TypeDefinitionIndex = 43432;
+
 	struct alignas(4) CHEHADCMFOI
 	{
 		::System::UInt32 JEPCACECLMK; // 0x10

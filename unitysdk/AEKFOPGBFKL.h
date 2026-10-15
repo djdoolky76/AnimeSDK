@@ -16,6 +16,8 @@ namespace RPG::AvatarSystem { class IAvatar; }
 #define AEKFOPGBFKL_FHDILCJNFPJ_OFFSET UNITYSDK_OFFSET(0xCF00C70)
 #define AEKFOPGBFKL_IFDDMGPJGNF_OFFSET UNITYSDK_OFFSET(0xCF00CF0)
 
+inline static constexpr unsigned int AEKFOPGBFKL_TypeDefinitionIndex = 62840;
+
 	class AEKFOPGBFKL : public ::System::Object
 	{
 	public:

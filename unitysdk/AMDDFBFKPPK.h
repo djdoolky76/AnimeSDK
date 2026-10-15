@@ -24,6 +24,8 @@ namespace RPG::Client::LittleGame::FourRotateVoxel { class FourRotateVoxelGlobal
 #define AMDDFBFKPPK_TEARDOWN_OFFSET UNITYSDK_OFFSET(0x15579030)
 #define AMDDFBFKPPK___PLAYERTELEPORTFADEINEFFECT_B__7_0_OFFSET UNITYSDK_OFFSET(0x1557A420)
 
+inline static constexpr unsigned int AMDDFBFKPPK_TypeDefinitionIndex = 76782;
+
 	class AMDDFBFKPPK : public ::System::Object
 	{
 	public:

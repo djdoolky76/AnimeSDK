@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
+	inline static constexpr unsigned int BrowserNative_Calltype_zfb_getMouseCustomCursor_TypeDefinitionIndex = 39450;
+
 	class BrowserNative_Calltype_zfb_getMouseCustomCursor : public ::System::MulticastDelegate
 	{
 	public:

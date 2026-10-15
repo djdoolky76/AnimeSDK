@@ -29,6 +29,8 @@ namespace System { class String; }
 #define FODAGGODIJM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E3F7D10)
 #define FODAGGODIJM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E3F7D70)
 
+inline static constexpr unsigned int FODAGGODIJM_TypeDefinitionIndex = 30737;
+
 	class FODAGGODIJM : public ::System::Object
 	{
 	public:

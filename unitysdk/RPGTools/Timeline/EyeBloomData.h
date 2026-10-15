@@ -15,6 +15,8 @@ namespace RPGTools::Timeline { class EyeBloomData; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int EyeBloomData_TypeDefinitionIndex = 48116;
+
 	class EyeBloomData : public ::System::Object
 	{
 	public:

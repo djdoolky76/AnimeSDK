@@ -6,6 +6,8 @@ namespace System { class Action; }
 #define BPOICLJJOLF_CTOR_OFFSET UNITYSDK_OFFSET(0xC1ADB60)
 #define BPOICLJJOLF_GET_ONFINISH_OFFSET UNITYSDK_OFFSET(0xC1ADB70)
 
+inline static constexpr unsigned int BPOICLJJOLF_TypeDefinitionIndex = 76063;
+
 	class BPOICLJJOLF : public ::System::Object
 	{
 	public:

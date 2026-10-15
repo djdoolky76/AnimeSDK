@@ -16,6 +16,8 @@ namespace System::Security::Permissions { class SecurityPermission; }
 
 namespace System::Security::Permissions
 {
+	inline static constexpr unsigned int SecurityPermission_TypeDefinitionIndex = 967;
+
 	class SecurityPermission : public ::System::Security::CodeAccessPermission
 	{
 	public:

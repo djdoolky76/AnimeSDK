@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int UIOperation_TypeDefinitionIndex = 24424;
+
 	class UIOperation : public ::RPG::GameCore::JsonConfig
 	{
 	public:

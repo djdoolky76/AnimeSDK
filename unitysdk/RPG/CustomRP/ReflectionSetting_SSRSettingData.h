@@ -6,6 +6,8 @@
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int ReflectionSetting_SSRSettingData_TypeDefinitionIndex = 37853;
+
 	class ReflectionSetting_SSRSettingData : public ::System::Object
 	{
 	public:

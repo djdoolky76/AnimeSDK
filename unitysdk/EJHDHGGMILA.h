@@ -30,6 +30,8 @@ namespace System { class String; }
 #define EJHDHGGMILA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E2B7130)
 #define EJHDHGGMILA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E2B7190)
 
+inline static constexpr unsigned int EJHDHGGMILA_TypeDefinitionIndex = 27299;
+
 	class EJHDHGGMILA : public ::System::Object
 	{
 	public:

@@ -18,6 +18,8 @@ namespace System { class String; }
 #define DIBNMFGJFEH_NGDNGHALLCK_OFFSET UNITYSDK_OFFSET(0xEBF0330)
 #define DIBNMFGJFEH_PPOGPHABEIF_OFFSET UNITYSDK_OFFSET(0xEBF0230)
 
+inline static constexpr unsigned int DIBNMFGJFEH_TypeDefinitionIndex = 69169;
+
 	class DIBNMFGJFEH : public ::System::Object
 	{
 	public:

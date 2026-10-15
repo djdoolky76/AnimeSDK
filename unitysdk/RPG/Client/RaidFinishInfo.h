@@ -10,6 +10,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RaidFinishInfo_TypeDefinitionIndex = 66773;
+
 	class RaidFinishInfo : public ::System::Object
 	{
 	public:

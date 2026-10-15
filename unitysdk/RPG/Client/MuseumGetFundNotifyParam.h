@@ -6,6 +6,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MuseumGetFundNotifyParam_TypeDefinitionIndex = 66344;
+
 	class MuseumGetFundNotifyParam : public ::System::Object
 	{
 	public:

@@ -73,6 +73,8 @@ namespace UnityEngine { class Object; }
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int HEU_AssetDatabase_TypeDefinitionIndex = 40431;
+
 	class HEU_AssetDatabase : public ::System::Object
 	{
 	public:

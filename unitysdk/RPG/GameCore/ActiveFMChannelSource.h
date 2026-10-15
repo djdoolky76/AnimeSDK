@@ -11,6 +11,8 @@ namespace RPG::GameCore { class DynamicString; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ActiveFMChannelSource_TypeDefinitionIndex = 20577;
+
 	class ActiveFMChannelSource : public ::RPG::GameCore::TaskConfig
 	{
 	public:

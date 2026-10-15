@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TutorialSetMonopolyToastPauseState; }
 #define NAKPOEJOAAD_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xBAA37D0)
 #define NAKPOEJOAAD_TICK_OFFSET UNITYSDK_OFFSET(0xBAA3890)
 
+inline static constexpr unsigned int NAKPOEJOAAD_TypeDefinitionIndex = 58830;
+
 	class NAKPOEJOAAD : public ::GELIALJDFBL
 	{
 	public:

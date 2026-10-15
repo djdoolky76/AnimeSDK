@@ -13,6 +13,8 @@ namespace RPG::GameCore { class LittleGameEvent; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimPressureSwitchConfig_TypeDefinitionIndex = 18558;
+
 	class FiveDimPressureSwitchConfig : public ::RPG::GameCore::LittleGameComponentConfig
 	{
 	public:

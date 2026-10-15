@@ -30,6 +30,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define BAKLDNEKODJ_SET_OWNERGRAPH_OFFSET UNITYSDK_OFFSET(0x1CBDE820)
 #define BAKLDNEKODJ_SET_STATE_OFFSET UNITYSDK_OFFSET(0x1CBDE840)
 
+inline static constexpr unsigned int BAKLDNEKODJ_TypeDefinitionIndex = 43826;
+
 	class BAKLDNEKODJ : public ::System::Object
 	{
 	public:

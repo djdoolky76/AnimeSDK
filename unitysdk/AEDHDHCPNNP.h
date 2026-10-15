@@ -10,6 +10,8 @@ namespace System { class String; }
 #define AEDHDHCPNNP_OKPLPEELPBC_OFFSET UNITYSDK_OFFSET(0xB14C590)
 #define AEDHDHCPNNP__ISMEET_B__3_0_OFFSET UNITYSDK_OFFSET(0xB14C6A0)
 
+inline static constexpr unsigned int AEDHDHCPNNP_TypeDefinitionIndex = 65991;
+
 	class AEDHDHCPNNP : public ::System::Object
 	{
 	public:

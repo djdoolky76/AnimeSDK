@@ -16,6 +16,8 @@ namespace Entitas { class ICollector; }
 #define FLEKJOODOBH__ADDEVENTEMITTER_OFFSET UNITYSDK_OFFSET(0x1582F2F0)
 #define FLEKJOODOBH__TEARDOWN_OFFSET UNITYSDK_OFFSET(0x1582EE60)
 
+inline static constexpr unsigned int FLEKJOODOBH_TypeDefinitionIndex = 76756;
+
 	class FLEKJOODOBH
 	{
 	public:

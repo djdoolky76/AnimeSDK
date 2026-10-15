@@ -22,6 +22,8 @@ namespace UnityEngine { class Transform; }
 #define GIMGIMFGBFF_NIKMDKFLJCJ_OFFSET UNITYSDK_OFFSET(0x15A46900)
 #define GIMGIMFGBFF_POPNLPIAOCM_OFFSET UNITYSDK_OFFSET(0x15A46550)
 
+inline static constexpr unsigned int GIMGIMFGBFF_TypeDefinitionIndex = 69873;
+
 	class GIMGIMFGBFF : public ::RPG::Client::BehaviorBase
 	{
 	public:

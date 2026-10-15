@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ChenLingBattleInitPositionEvaluator_Front; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChenLingBattleInitPositionEvaluator_Front_TypeDefinitionIndex = 15753;
+
 	class ChenLingBattleInitPositionEvaluator_Front : public ::RPG::GameCore::BaseChenLingBattleInitPositionEvaluator
 	{
 	public:

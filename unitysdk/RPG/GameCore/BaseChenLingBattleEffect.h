@@ -10,6 +10,8 @@ namespace RPG::GameCore { class BaseChenLingBattleEffect; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int BaseChenLingBattleEffect_TypeDefinitionIndex = 15783;
+
 	class BaseChenLingBattleEffect : public ::RPG::GameCore::JsonConfig
 	{
 	public:

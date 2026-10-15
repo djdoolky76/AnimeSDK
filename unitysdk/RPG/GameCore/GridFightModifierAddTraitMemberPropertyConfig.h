@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GridFightModifierAddTraitMemberPropertyConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightModifierAddTraitMemberPropertyConfig_TypeDefinitionIndex = 19475;
+
 	class GridFightModifierAddTraitMemberPropertyConfig : public ::RPG::GameCore::GridFightModifierConfigBase
 	{
 	public:

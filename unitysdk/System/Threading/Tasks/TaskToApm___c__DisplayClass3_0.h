@@ -9,6 +9,8 @@ namespace System { class IAsyncResult; }
 
 namespace System::Threading::Tasks
 {
+	inline static constexpr unsigned int TaskToApm___c__DisplayClass3_0_TypeDefinitionIndex = 936;
+
 	class TaskToApm___c__DisplayClass3_0 : public ::System::Object
 	{
 	public:

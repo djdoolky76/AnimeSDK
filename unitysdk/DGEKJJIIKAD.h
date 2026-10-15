@@ -6,6 +6,8 @@ namespace RPG::Client { class BoxingClubLevelInstance; }
 #define DGEKJJIIKAD_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xE845FB0)
 #define DGEKJJIIKAD_CTOR_OFFSET UNITYSDK_OFFSET(0xE8460F0)
 
+inline static constexpr unsigned int DGEKJJIIKAD_TypeDefinitionIndex = 62950;
+
 	class DGEKJJIIKAD : public ::System::Object
 	{
 	public:

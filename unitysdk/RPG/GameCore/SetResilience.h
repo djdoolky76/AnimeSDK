@@ -11,6 +11,8 @@ namespace RPG::GameCore { class SetResilience; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetResilience_TypeDefinitionIndex = 23476;
+
 	class SetResilience : public ::RPG::GameCore::TaskConfig
 	{
 	public:

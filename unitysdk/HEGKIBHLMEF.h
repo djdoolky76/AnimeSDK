@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define HEGKIBHLMEF_HJAHNPCADNC_OFFSET UNITYSDK_OFFSET(0x15C50C50)
 #define HEGKIBHLMEF_LMEAHGFFMIB_OFFSET UNITYSDK_OFFSET(0x15C50BA0)
 
+inline static constexpr unsigned int HEGKIBHLMEF_TypeDefinitionIndex = 56491;
+
 	class HEGKIBHLMEF : public ::System::Object
 	{
 	public:

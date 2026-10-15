@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightPrepWaitCustomTimeType_TypeDefinitionIndex = 24459;
+
 	enum class GridFightPrepWaitCustomTimeType : ::System::Int32
 	{
 		Unknow = 0,

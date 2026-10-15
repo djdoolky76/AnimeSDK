@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define DKNENBLFHOO_HCOFMFKFMDK_OFFSET UNITYSDK_OFFSET(0xF88A3D0)
 #define DKNENBLFHOO_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0xF88A270)
 
+inline static constexpr unsigned int DKNENBLFHOO_TypeDefinitionIndex = 60350;
+
 	class DKNENBLFHOO : public ::EFNJLACKEDH
 	{
 	public:

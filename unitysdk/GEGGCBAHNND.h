@@ -7,6 +7,8 @@ namespace RPG::GameCore { class DiceCombatTaskConfig_TriggerEffect; }
 #define GEGGCBAHNND_CTOR_OFFSET UNITYSDK_OFFSET(0x1C63A8D0)
 #define GEGGCBAHNND_MLKLPMJEHPF_OFFSET UNITYSDK_OFFSET(0x1C63A8E0)
 
+inline static constexpr unsigned int GEGGCBAHNND_TypeDefinitionIndex = 36301;
+
 	class GEGGCBAHNND : public ::AJBKGPOEBFG
 	{
 	public:

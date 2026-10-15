@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int IdleLiveEmojiRow_TypeDefinitionIndex = 11816;
+
 	class IdleLiveEmojiRow : public ::System::Object
 	{
 	public:

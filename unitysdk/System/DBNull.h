@@ -37,6 +37,8 @@ namespace System::Runtime::Serialization { class SerializationInfo; }
 
 namespace System
 {
+	inline static constexpr unsigned int DBNull_TypeDefinitionIndex = 227;
+
 	class DBNull : public ::System::Object
 	{
 	public:

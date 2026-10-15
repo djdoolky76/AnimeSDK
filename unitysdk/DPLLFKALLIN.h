@@ -10,6 +10,8 @@ namespace System { class Object; }
 #define DPLLFKALLIN_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1265A5E0)
 #define DPLLFKALLIN_INVOKE_OFFSET UNITYSDK_OFFSET(0x1265A5A0)
 
+inline static constexpr unsigned int DPLLFKALLIN_TypeDefinitionIndex = 78623;
+
 	class DPLLFKALLIN : public ::System::MulticastDelegate
 	{
 	public:

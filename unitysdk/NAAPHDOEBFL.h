@@ -10,6 +10,8 @@ namespace System { class String; }
 #define NAAPHDOEBFL_GET_TYPE_OFFSET UNITYSDK_OFFSET(0xBA529A0)
 #define NAAPHDOEBFL_JAILHGGFLDH_OFFSET UNITYSDK_OFFSET(0xBA529B0)
 
+inline static constexpr unsigned int NAAPHDOEBFL_TypeDefinitionIndex = 56098;
+
 	class NAAPHDOEBFL : public ::DBGDNLLDPFI
 	{
 	public:

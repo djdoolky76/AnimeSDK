@@ -14,6 +14,8 @@ class KMCNBKCEHAF;
 #define KMCNBKCEHAF_ONRECYCLE_OFFSET UNITYSDK_OFFSET(0xB53FAD0)
 #define KMCNBKCEHAF_SET_REFERENCESTATE_OFFSET UNITYSDK_OFFSET(0xB53FA40)
 
+inline static constexpr unsigned int KMCNBKCEHAF_TypeDefinitionIndex = 60505;
+
 	class KMCNBKCEHAF : public ::System::Object
 	{
 	public:

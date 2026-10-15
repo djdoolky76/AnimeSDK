@@ -37,6 +37,8 @@ namespace System::Threading { class Thread; }
 #define LCBKCCPECEN_OHMHJFANEIF_OFFSET UNITYSDK_OFFSET(0xB6116A0)
 #define LCBKCCPECEN_OKIBPJGMIBM_OFFSET UNITYSDK_OFFSET(0xB611F90)
 
+inline static constexpr unsigned int LCBKCCPECEN_TypeDefinitionIndex = 59443;
+
 	class LCBKCCPECEN : public ::System::Object
 	{
 	public:

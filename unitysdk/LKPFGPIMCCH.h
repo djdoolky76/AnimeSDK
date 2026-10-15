@@ -7,6 +7,8 @@ class LKPFGPIMCCH;
 #define LKPFGPIMCCH_CTOR_OFFSET UNITYSDK_OFFSET(0xB75C0E0)
 #define LKPFGPIMCCH_MOKNCFJICIC_OFFSET UNITYSDK_OFFSET(0xB75C0F0)
 
+inline static constexpr unsigned int LKPFGPIMCCH_TypeDefinitionIndex = 62324;
+
 	class LKPFGPIMCCH : public ::System::Object
 	{
 	public:

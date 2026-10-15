@@ -10,6 +10,8 @@ namespace RPG::GameCore { class NPCDataRow; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int OpticalIllusionPuzzleBoard___c__DisplayClass18_0_TypeDefinitionIndex = 78710;
+
 	class OpticalIllusionPuzzleBoard___c__DisplayClass18_0 : public ::System::Object
 	{
 	public:

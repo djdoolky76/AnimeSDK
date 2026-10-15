@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueGambleFuncShowUI_TypeDefinitionIndex = 22102;
+
 	class RogueGambleFuncShowUI : public ::RPG::GameCore::TaskConfig
 	{
 	public:

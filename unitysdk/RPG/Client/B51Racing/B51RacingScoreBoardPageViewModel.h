@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::B51Racing
 {
+	inline static constexpr unsigned int B51RacingScoreBoardPageViewModel_TypeDefinitionIndex = 82052;
+
 	class B51RacingScoreBoardPageViewModel : public ::System::Object
 	{
 	public:

@@ -9,6 +9,8 @@ namespace RPG::Client { class UIController; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoUIControllerDisplay_TypeDefinitionIndex = 73051;
+
 	class MonoUIControllerDisplay : public ::UnityEngine::MonoBehaviour
 	{
 	public:

@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelPedestrianV2IntersectionChenLingFactoryStateInfo_Possession_TypeDefinitionIndex = 17306;
+
 	class LevelPedestrianV2IntersectionChenLingFactoryStateInfo_Possession : public ::RPG::GameCore::LevelPedestrianV2IntersectionChenLingFactoryStateInfo
 	{
 	public:

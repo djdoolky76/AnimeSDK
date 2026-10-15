@@ -7,6 +7,8 @@ namespace UnityEngine { class Object; }
 #define FGBADHIHBFD_OCJMANGGCCC_1_OFFSET UNITYSDK_OFFSET(0x1EC6A5F0)
 #define FGBADHIHBFD_OCJMANGGCCC_OFFSET UNITYSDK_OFFSET(0x1EC6A0B0)
 
+inline static constexpr unsigned int FGBADHIHBFD_TypeDefinitionIndex = 44150;
+
 	class FGBADHIHBFD : public ::System::Object
 	{
 	public:

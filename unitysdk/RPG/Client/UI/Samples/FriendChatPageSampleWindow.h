@@ -11,6 +11,8 @@ namespace UnityEngine { class Animator; }
 
 namespace RPG::Client::Ui::Samples
 {
+	inline static constexpr unsigned int FriendChatPageSampleWindow_TypeDefinitionIndex = 73452;
+
 	class FriendChatPageSampleWindow
 	{
 	public:

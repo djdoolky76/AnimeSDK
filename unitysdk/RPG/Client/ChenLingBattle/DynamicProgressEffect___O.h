@@ -6,6 +6,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace RPG::Client::ChenLingBattle
 {
+	inline static constexpr unsigned int DynamicProgressEffect___O_TypeDefinitionIndex = 76358;
+
 	class DynamicProgressEffect___O : public ::System::Object
 	{
 	public:

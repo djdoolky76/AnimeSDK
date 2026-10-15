@@ -27,6 +27,8 @@ namespace System { class String; }
 #define HAEIIKKNAON_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E5029F0)
 #define HAEIIKKNAON_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E502A50)
 
+inline static constexpr unsigned int HAEIIKKNAON_TypeDefinitionIndex = 27701;
+
 	class HAEIIKKNAON : public ::System::Object
 	{
 	public:

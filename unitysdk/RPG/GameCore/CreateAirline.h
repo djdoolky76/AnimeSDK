@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CreateAirline_TypeDefinitionIndex = 21876;
+
 	class CreateAirline : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -11,6 +11,8 @@ namespace UnityEngine { class Renderer; }
 #define CNNDIGOEEAL_LENGEDANEEH_1_OFFSET UNITYSDK_OFFSET(0xDA5C770)
 #define CNNDIGOEEAL_LENGEDANEEH_OFFSET UNITYSDK_OFFSET(0xDA5C6D0)
 
+inline static constexpr unsigned int CNNDIGOEEAL_TypeDefinitionIndex = 73655;
+
 	class CNNDIGOEEAL : public ::System::Object
 	{
 	public:

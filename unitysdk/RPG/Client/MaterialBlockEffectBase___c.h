@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MaterialBlockEffectBase___c_TypeDefinitionIndex = 70651;
+
 	class MaterialBlockEffectBase___c : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AnimParamRangeEntry_TypeDefinitionIndex = 16289;
+
 	class AnimParamRangeEntry : public ::RPG::GameCore::JsonConfig
 	{
 	public:

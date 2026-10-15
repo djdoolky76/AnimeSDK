@@ -8,6 +8,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int StencilDelegate_TypeDefinitionIndex = 37700;
+
 	class StencilDelegate : public ::System::Object
 	{
 	public:

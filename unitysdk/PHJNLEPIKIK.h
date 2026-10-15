@@ -7,6 +7,8 @@ class ECFBNBABDNG;
 #define PHJNLEPIKIK_CTOR_OFFSET UNITYSDK_OFFSET(0xC250D90)
 #define PHJNLEPIKIK_MGFLFCHMGPA_OFFSET UNITYSDK_OFFSET(0xC250DA0)
 
+inline static constexpr unsigned int PHJNLEPIKIK_TypeDefinitionIndex = 78239;
+
 	class PHJNLEPIKIK : public ::KNFCEJEJINK
 	{
 	public:

@@ -31,6 +31,8 @@ namespace System { class String; }
 #define KLEAFONPDBM_SET__COMMONCONFIG_OFFSET UNITYSDK_OFFSET(0xB4F02A0)
 #define KLEAFONPDBM_TICK_OFFSET UNITYSDK_OFFSET(0xB4EFCA0)
 
+inline static constexpr unsigned int KLEAFONPDBM_TypeDefinitionIndex = 73312;
+
 	class KLEAFONPDBM : public ::RPG::GameCore::GameComponentBase
 	{
 	public:

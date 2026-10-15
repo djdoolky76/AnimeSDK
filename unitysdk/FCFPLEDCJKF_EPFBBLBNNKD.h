@@ -12,6 +12,8 @@ namespace RPG::GameCore { class LevelPedestrianV2IntersectionChenLingFactorySpaw
 #define FCFPLEDCJKF_EPFBBLBNNKD_INIJCJJLPKM_OFFSET UNITYSDK_OFFSET(0x156BA4F0)
 #define FCFPLEDCJKF_EPFBBLBNNKD_NKJJNFGGIIA_OFFSET UNITYSDK_OFFSET(0x156BACD0)
 
+inline static constexpr unsigned int FCFPLEDCJKF_EPFBBLBNNKD_TypeDefinitionIndex = 69307;
+
 	class FCFPLEDCJKF_EPFBBLBNNKD : public ::System::Object
 	{
 	public:

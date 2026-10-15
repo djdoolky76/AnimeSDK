@@ -9,6 +9,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace UnityEngine::ProBuilder::MeshOperations
 {
+	inline static constexpr unsigned int MeshValidation___c__DisplayClass5_0_TypeDefinitionIndex = 44511;
+
 	class MeshValidation___c__DisplayClass5_0 : public ::System::Object
 	{
 	public:

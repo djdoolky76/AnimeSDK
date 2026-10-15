@@ -9,6 +9,8 @@ namespace System { class String; }
 #define MGHCFNBICOM_CTOR_OFFSET UNITYSDK_OFFSET(0x1D165F10)
 #define MGHCFNBICOM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D165B10)
 
+inline static constexpr unsigned int MGHCFNBICOM_TypeDefinitionIndex = 11304;
+
 	class MGHCFNBICOM : public ::System::Object
 	{
 	public:

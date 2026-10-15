@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define GMDKMIHKKOA_CTOR_OFFSET UNITYSDK_OFFSET(0x15ACA530)
 #define GMDKMIHKKOA_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0x15ACA540)
 
+inline static constexpr unsigned int GMDKMIHKKOA_TypeDefinitionIndex = 62560;
+
 	class GMDKMIHKKOA : public ::System::Object
 	{
 	public:

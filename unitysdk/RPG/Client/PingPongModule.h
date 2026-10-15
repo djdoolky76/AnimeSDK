@@ -14,6 +14,8 @@ namespace RPG::Client { class PingPongModule_PingPongUIInfo; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PingPongModule_TypeDefinitionIndex = 66462;
+
 	class PingPongModule : public ::RPG::Client::BaseModule
 	{
 	public:

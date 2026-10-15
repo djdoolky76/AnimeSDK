@@ -5,6 +5,8 @@
 
 #define PINGIDJDIMH_CTOR_OFFSET UNITYSDK_OFFSET(0x1C7ED520)
 
+inline static constexpr unsigned int PINGIDJDIMH_TypeDefinitionIndex = 36467;
+
 	class PINGIDJDIMH : public ::System::Object
 	{
 	public:

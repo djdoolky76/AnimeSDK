@@ -13,6 +13,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdventureByNpcMazeSkillCooldown_TypeDefinitionIndex = 20008;
+
 	class AdventureByNpcMazeSkillCooldown : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

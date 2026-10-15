@@ -25,6 +25,8 @@ namespace System { class WeakReference; }
 #define GPPJMHDPEPH_GET_RARITY_OFFSET UNITYSDK_OFFSET(0x15B68B70)
 #define GPPJMHDPEPH_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x15B685F0)
 
+inline static constexpr unsigned int GPPJMHDPEPH_TypeDefinitionIndex = 75715;
+
 	class GPPJMHDPEPH : public ::System::Object
 	{
 	public:

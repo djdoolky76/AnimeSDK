@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace RPG::Client::ChimeraDuel
 {
+	inline static constexpr unsigned int ChimeraDuelBattleViewModel___c_TypeDefinitionIndex = 81254;
+
 	class ChimeraDuelBattleViewModel___c : public ::System::Object
 	{
 	public:

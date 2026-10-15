@@ -8,6 +8,8 @@ namespace RPG::GameCore { class TaskContext; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelUpEvolveBuildGearTask_TypeDefinitionIndex = 55138;
+
 	class LevelUpEvolveBuildGearTask
 	{
 	public:

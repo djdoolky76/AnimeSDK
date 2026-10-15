@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RestoreTrackingMission; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RestoreTrackingMission_TypeDefinitionIndex = 20763;
+
 	class RestoreTrackingMission : public ::RPG::GameCore::TaskConfig
 	{
 	public:

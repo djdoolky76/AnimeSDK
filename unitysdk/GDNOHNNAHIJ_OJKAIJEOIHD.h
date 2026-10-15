@@ -5,6 +5,8 @@
 
 #define GDNOHNNAHIJ_OJKAIJEOIHD_CTOR_OFFSET UNITYSDK_OFFSET(0x159BCB30)
 
+inline static constexpr unsigned int GDNOHNNAHIJ_OJKAIJEOIHD_TypeDefinitionIndex = 77948;
+
 	class GDNOHNNAHIJ_OJKAIJEOIHD : public ::System::Object
 	{
 	public:

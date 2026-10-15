@@ -37,6 +37,8 @@ namespace System { class String; }
 #define NLIOPBPOBHB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EB65B60)
 #define NLIOPBPOBHB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EB65BC0)
 
+inline static constexpr unsigned int NLIOPBPOBHB_TypeDefinitionIndex = 33698;
+
 	class NLIOPBPOBHB : public ::System::Object
 	{
 	public:

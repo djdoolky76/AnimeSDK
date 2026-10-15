@@ -12,6 +12,8 @@ namespace System { class Object; }
 #define POFDBJOCKLG_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xC35FB80)
 #define POFDBJOCKLG_TICK_OFFSET UNITYSDK_OFFSET(0xC35FBD0)
 
+inline static constexpr unsigned int POFDBJOCKLG_TypeDefinitionIndex = 55292;
+
 	class POFDBJOCKLG : public ::GELIALJDFBL
 	{
 	public:

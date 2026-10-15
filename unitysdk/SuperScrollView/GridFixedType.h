@@ -3,6 +3,8 @@
 
 namespace SuperScrollView
 {
+	inline static constexpr unsigned int GridFixedType_TypeDefinitionIndex = 47632;
+
 	enum class GridFixedType : ::System::Int32
 	{
 		ColumnCountFixed = 0,

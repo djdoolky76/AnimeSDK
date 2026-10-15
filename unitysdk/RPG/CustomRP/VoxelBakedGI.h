@@ -6,6 +6,8 @@
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int VoxelBakedGI_TypeDefinitionIndex = 51850;
+
 	class VoxelBakedGI : public ::UnityEngine::MonoBehaviour
 	{
 	public:

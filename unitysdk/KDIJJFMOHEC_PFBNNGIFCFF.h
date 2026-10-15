@@ -26,6 +26,8 @@ namespace UnityEngine { class Rigidbody; }
 #define KDIJJFMOHEC_PFBNNGIFCFF_LHMFOOPLELC_OFFSET UNITYSDK_OFFSET(0xB3631F0)
 #define KDIJJFMOHEC_PFBNNGIFCFF_MPFKCHHCIMO_OFFSET UNITYSDK_OFFSET(0xB361050)
 
+inline static constexpr unsigned int KDIJJFMOHEC_PFBNNGIFCFF_TypeDefinitionIndex = 75566;
+
 	class KDIJJFMOHEC_PFBNNGIFCFF : public ::System::Object
 	{
 	public:

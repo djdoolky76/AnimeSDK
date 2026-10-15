@@ -12,6 +12,8 @@ namespace RPG::GameCore { class RtStackProperty; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RtStackProperty_TypeDefinitionIndex = 24210;
+
 	class RtStackProperty : public ::RPG::GameCore::TaskConfig
 	{
 	public:

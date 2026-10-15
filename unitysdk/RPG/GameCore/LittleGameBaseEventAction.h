@@ -10,6 +10,8 @@ namespace RPG::GameCore { class LittleGameBaseEventAction; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LittleGameBaseEventAction_TypeDefinitionIndex = 18861;
+
 	class LittleGameBaseEventAction : public ::RPG::GameCore::JsonConfig
 	{
 	public:

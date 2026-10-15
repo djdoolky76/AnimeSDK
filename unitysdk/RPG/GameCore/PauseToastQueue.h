@@ -10,6 +10,8 @@ namespace RPG::GameCore { class PauseToastQueue; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PauseToastQueue_TypeDefinitionIndex = 20307;
+
 	class PauseToastQueue : public ::RPG::GameCore::TaskConfig
 	{
 	public:

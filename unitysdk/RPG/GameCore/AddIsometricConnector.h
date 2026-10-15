@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AddIsometricConnector_TypeDefinitionIndex = 22207;
+
 	class AddIsometricConnector : public ::RPG::GameCore::TaskConfig
 	{
 	public:

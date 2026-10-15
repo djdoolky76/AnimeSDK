@@ -74,6 +74,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int BattleEventRowData_TypeDefinitionIndex = 56931;
+
 	class BattleEventRowData : public ::System::Object
 	{
 	public:

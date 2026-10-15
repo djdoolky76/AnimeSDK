@@ -10,6 +10,8 @@ namespace Spine::Unity { class SkeletonUtilityBone; }
 
 namespace Spine::Unity
 {
+	inline static constexpr unsigned int SkeletonUtilityConstraint_TypeDefinitionIndex = 45065;
+
 	class SkeletonUtilityConstraint : public ::UnityEngine::MonoBehaviour
 	{
 	public:

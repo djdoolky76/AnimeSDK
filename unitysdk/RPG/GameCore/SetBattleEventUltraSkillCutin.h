@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetBattleEventUltraSkillCutin_TypeDefinitionIndex = 22746;
+
 	class SetBattleEventUltraSkillCutin : public ::RPG::GameCore::TaskConfig
 	{
 	public:

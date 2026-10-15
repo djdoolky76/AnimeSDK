@@ -19,6 +19,8 @@ namespace UnityEngine { class Mesh; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int Effect_PetalInstanceManager_TypeDefinitionIndex = 70531;
+
 	class Effect_PetalInstanceManager : public ::UnityEngine::MonoBehaviour
 	{
 	public:

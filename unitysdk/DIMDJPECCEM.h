@@ -77,6 +77,8 @@ namespace UnityEngine { class Collision; }
 #define DIMDJPECCEM_PBHKKNMGCKG_OFFSET UNITYSDK_OFFSET(0xF221850)
 #define DIMDJPECCEM_PJDMFPDOFFA_OFFSET UNITYSDK_OFFSET(0xF21DF50)
 
+inline static constexpr unsigned int DIMDJPECCEM_TypeDefinitionIndex = 76899;
+
 	class DIMDJPECCEM : public ::System::Object
 	{
 	public:

@@ -12,6 +12,8 @@ namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
 namespace Cysharp::Threading::Tasks
 {
+	inline static constexpr unsigned int UnityAsyncExtensions__WaitAsync_d__11_TypeDefinitionIndex = 38471;
+
 	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename T8, typename T9, typename T10, typename T11>
 	struct alignas(4) UnityAsyncExtensions__WaitAsync_d__11
 	{

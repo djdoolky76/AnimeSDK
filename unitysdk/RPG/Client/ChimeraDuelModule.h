@@ -104,6 +104,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ChimeraDuelModule_TypeDefinitionIndex = 63306;
+
 	class ChimeraDuelModule : public ::RPG::Client::BaseModule
 	{
 	public:

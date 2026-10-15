@@ -18,6 +18,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FourRotateVoxelLevelConfig_TypeDefinitionIndex = 16743;
+
 	class FourRotateVoxelLevelConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

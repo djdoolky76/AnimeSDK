@@ -9,6 +9,8 @@ namespace RPG::Client { class TimeRewindPathRuntime; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int EntityTimelineControlTrackInfo_TypeDefinitionIndex = 63771;
+
 	class EntityTimelineControlTrackInfo : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace System { class Object; }
 #define OJFPIAPCFPF_MILAFFFBCKD_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xBEB44C0)
 #define OJFPIAPCFPF_MILAFFFBCKD_INVOKE_OFFSET UNITYSDK_OFFSET(0xBEB3810)
 
+inline static constexpr unsigned int OJFPIAPCFPF_MILAFFFBCKD_TypeDefinitionIndex = 66425;
+
 	class OJFPIAPCFPF_MILAFFFBCKD : public ::System::MulticastDelegate
 	{
 	public:

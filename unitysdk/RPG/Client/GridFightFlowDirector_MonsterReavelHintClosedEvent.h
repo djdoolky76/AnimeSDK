@@ -5,6 +5,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightFlowDirector_MonsterReavelHintClosedEvent_TypeDefinitionIndex = 64580;
+
 	class GridFightFlowDirector_MonsterReavelHintClosedEvent
 	{
 	public:

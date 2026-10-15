@@ -34,6 +34,8 @@ namespace Entitas { template <typename T> class IMatcher_1; }
 #define ONJCKCMBFLI_OAABBPJDLGL_OFFSET UNITYSDK_OFFSET(0x1C99FB10)
 #define ONJCKCMBFLI_PEJLBCFPPLJ_OFFSET UNITYSDK_OFFSET(0x1C9A04A0)
 
+inline static constexpr unsigned int ONJCKCMBFLI_TypeDefinitionIndex = 42627;
+
 	class ONJCKCMBFLI : public ::System::Object
 	{
 	public:

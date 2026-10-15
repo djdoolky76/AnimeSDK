@@ -10,6 +10,8 @@ class BGLEHLDOFPP;
 #define LOIFHOHCBMH_IKLGLKAMCBI_OFFSET UNITYSDK_OFFSET(0x1C91EAF0)
 #define LOIFHOHCBMH_OFMPHGGOLAB_OFFSET UNITYSDK_OFFSET(0x1C91EB50)
 
+inline static constexpr unsigned int LOIFHOHCBMH_TypeDefinitionIndex = 42634;
+
 	class LOIFHOHCBMH : public ::Entitas::Entity
 	{
 	public:

@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ProcessOpInSkillExecuting_TypeDefinitionIndex = 22482;
+
 	class ProcessOpInSkillExecuting : public ::RPG::GameCore::TaskConfig
 	{
 	public:

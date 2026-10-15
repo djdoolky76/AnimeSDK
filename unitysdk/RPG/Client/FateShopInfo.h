@@ -25,6 +25,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int FateShopInfo_TypeDefinitionIndex = 64126;
+
 	class FateShopInfo : public ::System::Object
 	{
 	public:

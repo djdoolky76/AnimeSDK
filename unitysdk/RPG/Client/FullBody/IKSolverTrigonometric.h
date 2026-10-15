@@ -35,6 +35,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::FullBody
 {
+	inline static constexpr unsigned int IKSolverTrigonometric_TypeDefinitionIndex = 74268;
+
 	class IKSolverTrigonometric : public ::RPG::Client::FullBody::IKSolver
 	{
 	public:

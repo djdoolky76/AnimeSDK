@@ -10,6 +10,8 @@ namespace RPG::GameCore { class MarbleSetNextScore; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MarbleSetNextScore_TypeDefinitionIndex = 16860;
+
 	class MarbleSetNextScore : public ::RPG::GameCore::MarbleTaskConfig
 	{
 	public:

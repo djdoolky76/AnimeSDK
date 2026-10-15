@@ -38,6 +38,8 @@ namespace System::Collections { class IList; }
 
 namespace System::Collections
 {
+	inline static constexpr unsigned int ArrayList_IListWrapper_TypeDefinitionIndex = 1459;
+
 	class ArrayList_IListWrapper : public ::System::Collections::ArrayList
 	{
 	public:

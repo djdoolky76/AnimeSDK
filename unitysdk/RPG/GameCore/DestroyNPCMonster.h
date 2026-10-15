@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DestroyNPCMonster_TypeDefinitionIndex = 21950;
+
 	class DestroyNPCMonster : public ::RPG::GameCore::TaskConfig
 	{
 	public:

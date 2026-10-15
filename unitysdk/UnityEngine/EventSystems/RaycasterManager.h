@@ -11,6 +11,8 @@ namespace UnityEngine::EventSystems { class BaseRaycaster; }
 
 namespace UnityEngine::EventSystems
 {
+	inline static constexpr unsigned int RaycasterManager_TypeDefinitionIndex = 6949;
+
 	class RaycasterManager : public ::System::Object
 	{
 	public:

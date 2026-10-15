@@ -5,6 +5,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int CameraBakingMonoPlugin_TypeDefinitionIndex = 71039;
+
 	class CameraBakingMonoPlugin
 	{
 	public:

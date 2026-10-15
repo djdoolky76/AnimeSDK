@@ -192,6 +192,8 @@ namespace ZenFulcrum::EmbeddedBrowser { class JSONNode; }
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
+	inline static constexpr unsigned int Browser_TypeDefinitionIndex = 39330;
+
 	class Browser : public ::UnityEngine::MonoBehaviour
 	{
 	public:

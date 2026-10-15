@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MechanismBarConfigRow_TypeDefinitionIndex = 14121;
+
 	class MechanismBarConfigRow : public ::System::Object
 	{
 	public:

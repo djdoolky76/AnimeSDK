@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChenLingFesAIState_TypeDefinitionIndex = 18431;
+
 	enum class ChenLingFesAIState : ::System::Int32
 	{
 		Wait = 0,

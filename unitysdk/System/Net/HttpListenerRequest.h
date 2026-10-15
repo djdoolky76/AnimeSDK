@@ -36,6 +36,8 @@ namespace System::Net { class WebHeaderCollection; }
 
 namespace System::Net
 {
+	inline static constexpr unsigned int HttpListenerRequest_TypeDefinitionIndex = 2853;
+
 	class HttpListenerRequest : public ::System::Object
 	{
 	public:

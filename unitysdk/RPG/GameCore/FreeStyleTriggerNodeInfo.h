@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FreeStyleTriggerNodeInfo_TypeDefinitionIndex = 16942;
+
 	class FreeStyleTriggerNodeInfo : public ::RPG::GameCore::FreeStyleTriggerSimpleNodeInfo
 	{
 	public:

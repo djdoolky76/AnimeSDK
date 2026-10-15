@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PropStartPuzzle_TypeDefinitionIndex = 21984;
+
 	class PropStartPuzzle : public ::RPG::GameCore::TaskConfig
 	{
 	public:

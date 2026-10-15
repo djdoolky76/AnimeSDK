@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int YCorrectionEnableBehaviour_TypeDefinitionIndex = 48417;
+
 	class YCorrectionEnableBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

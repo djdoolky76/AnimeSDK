@@ -19,6 +19,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoSurfaceInfo_TypeDefinitionIndex = 68870;
+
 	class MonoSurfaceInfo : public ::UnityEngine::MonoBehaviour
 	{
 	public:

@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define ICPIAGADBBO_EVALUATE_OFFSET UNITYSDK_OFFSET(0x15E66330)
 #define ICPIAGADBBO_FLEGNKMMFLG_OFFSET UNITYSDK_OFFSET(0x15E66710)
 
+inline static constexpr unsigned int ICPIAGADBBO_TypeDefinitionIndex = 53800;
+
 	class ICPIAGADBBO
 	{
 	public:

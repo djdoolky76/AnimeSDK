@@ -13,6 +13,8 @@ namespace System::Threading::Tasks { class Task; }
 
 namespace MessagePack
 {
+	inline static constexpr unsigned int MessagePackSerializer_CompiledMethods___c__DisplayClass14_2_TypeDefinitionIndex = 7222;
+
 	template <typename T1, typename T2>
 	class MessagePackSerializer_CompiledMethods___c__DisplayClass14_2 : public ::System::Object
 	{

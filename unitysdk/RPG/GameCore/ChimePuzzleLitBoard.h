@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ChimePuzzleLitBoard; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChimePuzzleLitBoard_TypeDefinitionIndex = 21977;
+
 	class ChimePuzzleLitBoard : public ::RPG::GameCore::TaskConfig
 	{
 	public:

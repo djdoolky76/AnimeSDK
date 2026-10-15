@@ -3,6 +3,8 @@
 #include "unitysdk/System/Object.h"
 namespace System { class Object; }
 
+inline static constexpr unsigned int PEJDKHGMKPE___c_TypeDefinitionIndex = 50021;
+
 	class PEJDKHGMKPE___c : public ::System::Object
 	{
 	public:

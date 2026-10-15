@@ -5,6 +5,8 @@ namespace System::Net::Http::Headers { template <typename T> class TryParseListD
 
 namespace System::Net::Http::Headers
 {
+	inline static constexpr unsigned int HeaderInfo_CollectionHeaderTypeInfo_2_TypeDefinitionIndex = 3790;
+
 	template <typename T1, typename T2>
 	class HeaderInfo_CollectionHeaderTypeInfo_2
 	{

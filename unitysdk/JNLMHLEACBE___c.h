@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define JNLMHLEACBE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E799C20)
 #define JNLMHLEACBE___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E799C30)
 
+inline static constexpr unsigned int JNLMHLEACBE___c_TypeDefinitionIndex = 26041;
+
 	class JNLMHLEACBE___c : public ::System::Object
 	{
 	public:

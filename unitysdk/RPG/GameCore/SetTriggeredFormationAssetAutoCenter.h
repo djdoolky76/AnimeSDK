@@ -11,6 +11,8 @@ namespace RPG::GameCore { class SetTriggeredFormationAssetAutoCenter; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetTriggeredFormationAssetAutoCenter_TypeDefinitionIndex = 22648;
+
 	class SetTriggeredFormationAssetAutoCenter : public ::RPG::GameCore::TaskConfig
 	{
 	public:

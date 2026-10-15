@@ -16,6 +16,8 @@ namespace RPG::GameCore { class AdventureCharacterController; }
 #define JAFLONEJEGE_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0x16544C60)
 #define JAFLONEJEGE_PODJJPBKLDC_OFFSET UNITYSDK_OFFSET(0x16544930)
 
+inline static constexpr unsigned int JAFLONEJEGE_TypeDefinitionIndex = 56984;
+
 	class JAFLONEJEGE : public ::ADKFPNMPIDD
 	{
 	public:

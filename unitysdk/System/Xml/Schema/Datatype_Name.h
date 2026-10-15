@@ -8,6 +8,8 @@
 
 namespace System::Xml::Schema
 {
+	inline static constexpr unsigned int Datatype_Name_TypeDefinitionIndex = 2127;
+
 	class Datatype_Name : public ::System::Xml::Schema::Datatype_token
 	{
 	public:

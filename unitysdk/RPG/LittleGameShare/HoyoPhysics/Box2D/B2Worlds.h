@@ -115,6 +115,8 @@ namespace System { class Object; }
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
+	inline static constexpr unsigned int B2Worlds_TypeDefinitionIndex = 36821;
+
 	class B2Worlds : public ::System::Object
 	{
 	public:

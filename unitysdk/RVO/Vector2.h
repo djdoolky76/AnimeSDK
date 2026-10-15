@@ -16,6 +16,8 @@ namespace System { class String; }
 
 namespace RVO
 {
+	inline static constexpr unsigned int Vector2_TypeDefinitionIndex = 46042;
+
 	struct alignas(4) Vector2
 	{
 		::System::Single x_; // 0x10

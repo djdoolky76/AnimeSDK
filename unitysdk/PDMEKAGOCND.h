@@ -25,6 +25,8 @@ namespace System { class String; }
 #define PDMEKAGOCND_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DF12740)
 #define PDMEKAGOCND_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DF127A0)
 
+inline static constexpr unsigned int PDMEKAGOCND_TypeDefinitionIndex = 29958;
+
 	class PDMEKAGOCND : public ::System::Object
 	{
 	public:

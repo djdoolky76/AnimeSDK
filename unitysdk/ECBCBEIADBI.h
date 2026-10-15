@@ -5,6 +5,8 @@ namespace System { class String; }
 
 #define ECBCBEIADBI_CTOR_OFFSET UNITYSDK_OFFSET(0x12D05DF0)
 
+inline static constexpr unsigned int ECBCBEIADBI_TypeDefinitionIndex = 73284;
+
 	class ECBCBEIADBI : public ::System::Object
 	{
 	public:

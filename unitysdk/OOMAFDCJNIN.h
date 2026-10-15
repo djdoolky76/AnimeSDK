@@ -8,6 +8,8 @@ namespace RPG::GameCore { class TurnBasedModifierInstance; }
 #define OOMAFDCJNIN_CTOR_OFFSET UNITYSDK_OFFSET(0xBF8CD50)
 #define OOMAFDCJNIN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBF8CD80)
 
+inline static constexpr unsigned int OOMAFDCJNIN_TypeDefinitionIndex = 55178;
+
 	class OOMAFDCJNIN
 	{
 	public:

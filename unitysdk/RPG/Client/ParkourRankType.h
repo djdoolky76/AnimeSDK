@@ -3,6 +3,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ParkourRankType_TypeDefinitionIndex = 61858;
+
 	enum class ParkourRankType : ::System::Int32
 	{
 		None = 0,

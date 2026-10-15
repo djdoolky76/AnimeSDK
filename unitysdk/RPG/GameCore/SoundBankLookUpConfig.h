@@ -10,6 +10,8 @@ namespace RPG::GameCore { class SoundBankLookUpConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SoundBankLookUpConfig_TypeDefinitionIndex = 16389;
+
 	class SoundBankLookUpConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

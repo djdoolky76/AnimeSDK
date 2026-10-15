@@ -11,6 +11,8 @@ namespace System::Net { class IWebRequestCreate; }
 
 namespace System::Net
 {
+	inline static constexpr unsigned int WebRequestPrefixElement_TypeDefinitionIndex = 2751;
+
 	class WebRequestPrefixElement : public ::System::Object
 	{
 	public:

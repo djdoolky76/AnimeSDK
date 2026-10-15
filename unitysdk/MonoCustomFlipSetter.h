@@ -7,6 +7,8 @@ namespace UnityEngine { class Material; }
 #define MONOCUSTOMFLIPSETTER_CTOR_OFFSET UNITYSDK_OFFSET(0xBA4CE50)
 #define MONOCUSTOMFLIPSETTER_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0xBA4CD00)
 
+inline static constexpr unsigned int MonoCustomFlipSetter_TypeDefinitionIndex = 47437;
+
 	class MonoCustomFlipSetter : public ::UnityEngine::MonoBehaviour
 	{
 	public:

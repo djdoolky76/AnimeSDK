@@ -27,6 +27,8 @@ namespace System::Collections::Generic { template <typename T> class Queue_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int CakeCatchBubbleManager_TypeDefinitionIndex = 62965;
+
 	class CakeCatchBubbleManager : public ::System::Object
 	{
 	public:

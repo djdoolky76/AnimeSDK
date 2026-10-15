@@ -10,6 +10,8 @@ namespace RPG::GameCore { class PixAirEquipLevelRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PixAirEquipLevelRow_TypeDefinitionIndex = 12157;
+
 	class PixAirEquipLevelRow : public ::System::Object
 	{
 	public:

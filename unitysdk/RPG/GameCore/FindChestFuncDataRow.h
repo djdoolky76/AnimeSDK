@@ -12,6 +12,8 @@ namespace RPG::GameCore { class FindChestFuncDataRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FindChestFuncDataRow_TypeDefinitionIndex = 13293;
+
 	class FindChestFuncDataRow : public ::System::Object
 	{
 	public:

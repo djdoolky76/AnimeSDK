@@ -8,6 +8,8 @@ namespace RPG::Client::LimaoNews { class LimaoNewsPostData; }
 
 namespace RPG::Client::LimaoNews
 {
+	inline static constexpr unsigned int LimaoNewsPostService___c__DisplayClass27_0_TypeDefinitionIndex = 80337;
+
 	class LimaoNewsPostService___c__DisplayClass27_0 : public ::System::Object
 	{
 	public:

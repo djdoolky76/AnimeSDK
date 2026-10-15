@@ -33,6 +33,8 @@ namespace System::Runtime::Serialization { class SerializationInfo; }
 
 namespace System::Runtime::Remoting
 {
+	inline static constexpr unsigned int ObjRef_TypeDefinitionIndex = 1211;
+
 	class ObjRef : public ::System::Object
 	{
 	public:

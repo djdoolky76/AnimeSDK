@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define PIGBCIDLGCA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DF45B30)
 #define PIGBCIDLGCA___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1DF45B40)
 
+inline static constexpr unsigned int PIGBCIDLGCA___c_TypeDefinitionIndex = 25981;
+
 	class PIGBCIDLGCA___c : public ::System::Object
 	{
 	public:

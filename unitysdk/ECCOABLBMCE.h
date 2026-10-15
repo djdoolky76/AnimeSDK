@@ -26,6 +26,8 @@ namespace UnityEngine { class Transform; }
 #define ECCOABLBMCE_SET_MUTEPOSITIONNTF_OFFSET UNITYSDK_OFFSET(0x12D08B00)
 #define ECCOABLBMCE_SET_MUTESCALENTF_OFFSET UNITYSDK_OFFSET(0x12D08AE0)
 
+inline static constexpr unsigned int ECCOABLBMCE_TypeDefinitionIndex = 56945;
+
 	class ECCOABLBMCE : public ::System::Object
 	{
 	public:

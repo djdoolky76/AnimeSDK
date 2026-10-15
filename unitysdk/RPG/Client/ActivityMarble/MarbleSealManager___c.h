@@ -16,6 +16,8 @@ namespace System { template <typename T> class Comparison_1; }
 
 namespace RPG::Client::ActivityMarble
 {
+	inline static constexpr unsigned int MarbleSealManager___c_TypeDefinitionIndex = 75973;
+
 	class MarbleSealManager___c : public ::System::Object
 	{
 	public:

@@ -25,6 +25,8 @@ namespace System::Net { class FileWebRequest; }
 
 namespace System::Net
 {
+	inline static constexpr unsigned int FileWebStream_TypeDefinitionIndex = 2810;
+
 	class FileWebStream : public ::System::IO::FileStream
 	{
 	public:

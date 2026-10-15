@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelNpcLookAtTargetInfo_TypeDefinitionIndex = 17358;
+
 	class LevelNpcLookAtTargetInfo : public ::RPG::GameCore::JsonConfig
 	{
 	public:

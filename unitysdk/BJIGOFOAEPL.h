@@ -25,6 +25,8 @@ namespace System { class String; }
 #define BJIGOFOAEPL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DE0C170)
 #define BJIGOFOAEPL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DE0C1D0)
 
+inline static constexpr unsigned int BJIGOFOAEPL_TypeDefinitionIndex = 29284;
+
 	class BJIGOFOAEPL : public ::System::Object
 	{
 	public:

@@ -4,6 +4,8 @@
 
 #define GFFNGOOMMKL_DJEMNMFOEII_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0x2E7B3A0)
 
+inline static constexpr unsigned int GFFNGOOMMKL_DJEMNMFOEII_TypeDefinitionIndex = 76595;
+
 	struct alignas(8) GFFNGOOMMKL_DJEMNMFOEII
 	{
 		::System::Boolean OHAKMNKICDE; // 0x10

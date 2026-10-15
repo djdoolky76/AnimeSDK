@@ -6,6 +6,8 @@ namespace RPG::GameCore { class GameEntity; }
 #define DIKAEHJFGEE___C__DISPLAYCLASS10_1_CTOR_OFFSET UNITYSDK_OFFSET(0xF20E5C0)
 #define DIKAEHJFGEE___C__DISPLAYCLASS10_1___FILLBOSSHP_B__1_OFFSET UNITYSDK_OFFSET(0xF20E690)
 
+inline static constexpr unsigned int DIKAEHJFGEE___c__DisplayClass10_1_TypeDefinitionIndex = 57609;
+
 	template <typename T>
 	class DIKAEHJFGEE___c__DisplayClass10_1 : public ::System::Object
 	{

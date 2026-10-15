@@ -8,6 +8,8 @@ namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 #define LFFAJPMHLMD___PLAYSEQUENCE_D__3_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x3C52AF0)
 #define LFFAJPMHLMD___PLAYSEQUENCE_D__3_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x10B0)
 
+inline static constexpr unsigned int LFFAJPMHLMD___PlaySequence_d__3_TypeDefinitionIndex = 44205;
+
 	template <typename T1, typename T2, typename T3>
 	struct alignas(8) LFFAJPMHLMD___PlaySequence_d__3
 	{

@@ -42,6 +42,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define IFEFEELJELP_SET_SELECTBUFFS_OFFSET UNITYSDK_OFFSET(0x15F0B7B0)
 #define IFEFEELJELP_SET_SELECTFIRSTBUFFTYPELIST_OFFSET UNITYSDK_OFFSET(0x15F0B8B0)
 
+inline static constexpr unsigned int IFEFEELJELP_TypeDefinitionIndex = 67202;
+
 	class IFEFEELJELP : public ::System::Object
 	{
 	public:

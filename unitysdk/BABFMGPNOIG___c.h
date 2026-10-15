@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define BABFMGPNOIG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E7AEAE0)
 #define BABFMGPNOIG___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E7AEAF0)
 
+inline static constexpr unsigned int BABFMGPNOIG___c_TypeDefinitionIndex = 29963;
+
 	class BABFMGPNOIG___c : public ::System::Object
 	{
 	public:

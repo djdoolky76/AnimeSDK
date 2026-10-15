@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AnimationTimeEvent_TypeDefinitionIndex = 22465;
+
 	class AnimationTimeEvent : public ::RPG::GameCore::JsonConfig
 	{
 	public:

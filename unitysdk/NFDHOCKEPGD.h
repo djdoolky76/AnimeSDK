@@ -27,6 +27,8 @@ namespace System { class String; }
 #define NFDHOCKEPGD_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EAFFFC0)
 #define NFDHOCKEPGD_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EB00020)
 
+inline static constexpr unsigned int NFDHOCKEPGD_TypeDefinitionIndex = 25798;
+
 	class NFDHOCKEPGD : public ::System::Object
 	{
 	public:

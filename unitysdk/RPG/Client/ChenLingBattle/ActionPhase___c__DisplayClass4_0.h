@@ -8,6 +8,8 @@ namespace RPG::Client::Promises { class Promise; }
 
 namespace RPG::Client::ChenLingBattle
 {
+	inline static constexpr unsigned int ActionPhase___c__DisplayClass4_0_TypeDefinitionIndex = 76288;
+
 	class ActionPhase___c__DisplayClass4_0 : public ::System::Object
 	{
 	public:

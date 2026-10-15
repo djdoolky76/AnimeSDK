@@ -3,6 +3,8 @@
 
 namespace MiHoYo::SDK::HoYoPass
 {
+	inline static constexpr unsigned int HoYoPassSDK_ErrorCode_TypeDefinitionIndex = 8281;
+
 	enum class HoYoPassSDK_ErrorCode : ::System::Int32
 	{
 		NetworkError = -1,

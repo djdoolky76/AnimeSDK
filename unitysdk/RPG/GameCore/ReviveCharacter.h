@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ReviveCharacter_TypeDefinitionIndex = 22718;
+
 	class ReviveCharacter : public ::RPG::GameCore::TaskConfig
 	{
 	public:

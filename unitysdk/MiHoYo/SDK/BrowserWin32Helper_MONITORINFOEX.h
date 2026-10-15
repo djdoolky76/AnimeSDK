@@ -7,6 +7,8 @@
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int BrowserWin32Helper_MONITORINFOEX_TypeDefinitionIndex = 46611;
+
 	class BrowserWin32Helper_MONITORINFOEX : public ::System::Object
 	{
 	public:

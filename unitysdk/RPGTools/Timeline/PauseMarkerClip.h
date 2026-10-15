@@ -14,6 +14,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int PauseMarkerClip_TypeDefinitionIndex = 48221;
+
 	class PauseMarkerClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:

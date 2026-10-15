@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ShowAdventureLevelPage; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ShowAdventureLevelPage_TypeDefinitionIndex = 20896;
+
 	class ShowAdventureLevelPage : public ::RPG::GameCore::TaskConfig
 	{
 	public:

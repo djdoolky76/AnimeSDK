@@ -17,6 +17,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 #define CLKHCMABFLO__GETSPECIALBUFFLIST_D__1_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xD791740)
 #define CLKHCMABFLO__GETSPECIALBUFFLIST_D__1___M__FINALLY1_OFFSET UNITYSDK_OFFSET(0xD791750)
 
+inline static constexpr unsigned int CLKHCMABFLO__GetSpecialBuffList_d__1_TypeDefinitionIndex = 71440;
+
 	template <typename T>
 	class CLKHCMABFLO__GetSpecialBuffList_d__1 : public ::System::Object
 	{

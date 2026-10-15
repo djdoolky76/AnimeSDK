@@ -19,6 +19,8 @@ namespace RPG::Client::Level { class ChenLingConquerLevel; }
 
 namespace RPG::Client::Level
 {
+	inline static constexpr unsigned int ChenLingConquerLevel_TypeDefinitionIndex = 75619;
+
 	class ChenLingConquerLevel : public ::System::Object
 	{
 	public:

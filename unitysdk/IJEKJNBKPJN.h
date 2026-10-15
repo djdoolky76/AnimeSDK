@@ -135,6 +135,8 @@ namespace UnityEngine { class Transform; }
 #define IJEKJNBKPJN_TICK_OFFSET UNITYSDK_OFFSET(0x1645C0B0)
 #define IJEKJNBKPJN__ONINITOWNERREF_OFFSET UNITYSDK_OFFSET(0x1645D570)
 
+inline static constexpr unsigned int IJEKJNBKPJN_TypeDefinitionIndex = 57144;
+
 	class IJEKJNBKPJN : public ::RPG::GameCore::GameComponentBase
 	{
 	public:

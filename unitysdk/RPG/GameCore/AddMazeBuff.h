@@ -15,6 +15,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AddMazeBuff_TypeDefinitionIndex = 20419;
+
 	class AddMazeBuff : public ::RPG::GameCore::TaskConfig
 	{
 	public:

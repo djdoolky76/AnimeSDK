@@ -7,6 +7,8 @@ class HGDELEAHIJO;
 namespace RPG::Client { template <typename T> class AbsDownloadData_1; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
+inline static constexpr unsigned int JIAFOPELMJJ___c__DisplayClass65_0_1_TypeDefinitionIndex = 59519;
+
 	template <typename T>
 	class JIAFOPELMJJ___c__DisplayClass65_0_1 : public ::System::Object
 	{

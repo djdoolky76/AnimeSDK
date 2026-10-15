@@ -7,6 +7,8 @@ namespace RPG::Client { class FateBuffData; }
 #define NPPBPPPJCMN_KFGJEKJHIMB_OFFSET UNITYSDK_OFFSET(0xBD136D0)
 #define NPPBPPPJCMN__EVALUATE_B__1_0_OFFSET UNITYSDK_OFFSET(0xBD139B0)
 
+inline static constexpr unsigned int NPPBPPPJCMN_TypeDefinitionIndex = 64136;
+
 	class NPPBPPPJCMN : public ::HGMMFJHJECA
 	{
 	public:

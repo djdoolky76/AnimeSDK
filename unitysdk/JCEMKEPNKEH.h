@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int JCEMKEPNKEH_TypeDefinitionIndex = 25867;
+
 	enum class JCEMKEPNKEH : ::System::Int32
 	{
 		MPFHOLPDACM = 0,

@@ -23,6 +23,8 @@ namespace RPG::GameCore { class MazeBuffData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int SceneMonsterBattleServerCheckResult_TypeDefinitionIndex = 60137;
+
 	class SceneMonsterBattleServerCheckResult : public ::System::Object
 	{
 	public:

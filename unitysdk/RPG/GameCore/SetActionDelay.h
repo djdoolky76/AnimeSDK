@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetActionDelay_TypeDefinitionIndex = 22702;
+
 	class SetActionDelay : public ::RPG::GameCore::TaskConfig
 	{
 	public:

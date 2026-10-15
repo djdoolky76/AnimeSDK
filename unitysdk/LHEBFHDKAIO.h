@@ -28,6 +28,8 @@ namespace System { class String; }
 #define LHEBFHDKAIO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E95E7C0)
 #define LHEBFHDKAIO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E95E820)
 
+inline static constexpr unsigned int LHEBFHDKAIO_TypeDefinitionIndex = 28558;
+
 	class LHEBFHDKAIO : public ::System::Object
 	{
 	public:

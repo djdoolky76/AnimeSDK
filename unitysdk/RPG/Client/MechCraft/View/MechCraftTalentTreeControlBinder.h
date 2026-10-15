@@ -16,6 +16,8 @@ namespace UnityEngine::UI { class ScrollRect; }
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftTalentTreeControlBinder_TypeDefinitionIndex = 80058;
+
 	class MechCraftTalentTreeControlBinder : public ::RPG::Client::MechCraft::View::MechCraftBinderBase
 	{
 	public:

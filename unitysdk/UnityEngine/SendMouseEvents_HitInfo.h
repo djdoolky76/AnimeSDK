@@ -10,6 +10,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int SendMouseEvents_HitInfo_TypeDefinitionIndex = 5790;
+
 	struct alignas(8) SendMouseEvents_HitInfo
 	{
 		::UnityEngine::GameObject* target; // 0x10

@@ -11,6 +11,8 @@
 
 namespace RPG::Client::BAT
 {
+	inline static constexpr unsigned int BATController_Template_TypeDefinitionIndex = 73670;
+
 	class BATController_Template : public ::RPG::Client::BAT::BATControllerBase
 	{
 	public:

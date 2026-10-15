@@ -11,6 +11,8 @@ namespace System { class String; }
 #define EKLMLHBHJNG_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x1550CFA0)
 #define EKLMLHBHJNG_JAILHGGFLDH_OFFSET UNITYSDK_OFFSET(0x1550CFB0)
 
+inline static constexpr unsigned int EKLMLHBHJNG_TypeDefinitionIndex = 56150;
+
 	class EKLMLHBHJNG : public ::DBGDNLLDPFI
 	{
 	public:

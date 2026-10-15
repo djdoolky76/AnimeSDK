@@ -7,6 +7,8 @@ class IAFKJCICCOP;
 #define KJNDMIAOHNB_CTOR_OFFSET UNITYSDK_OFFSET(0xB45DFF0)
 #define KJNDMIAOHNB_EFHOJNKCMDL_OFFSET UNITYSDK_OFFSET(0xB45E000)
 
+inline static constexpr unsigned int KJNDMIAOHNB_TypeDefinitionIndex = 67132;
+
 	class KJNDMIAOHNB : public ::LKLEBOOCADM
 	{
 	public:

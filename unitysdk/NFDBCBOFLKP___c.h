@@ -10,6 +10,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 #define NFDBCBOFLKP___C__SYNCELATIONTEMPLATEID_B__1_0_OFFSET UNITYSDK_OFFSET(0xBB7B600)
 #define NFDBCBOFLKP___C__SYNC_B__0_0_OFFSET UNITYSDK_OFFSET(0xBB7B5B0)
 
+inline static constexpr unsigned int NFDBCBOFLKP___c_TypeDefinitionIndex = 65518;
+
 	class NFDBCBOFLKP___c : public ::System::Object
 	{
 	public:

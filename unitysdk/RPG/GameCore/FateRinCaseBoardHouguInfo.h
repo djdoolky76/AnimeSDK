@@ -9,6 +9,8 @@ namespace RPG::GameCore { class FateRinCaseBoardHouguInfo; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FateRinCaseBoardHouguInfo_TypeDefinitionIndex = 16227;
+
 	class FateRinCaseBoardHouguInfo : public ::RPG::GameCore::JsonConfig
 	{
 	public:

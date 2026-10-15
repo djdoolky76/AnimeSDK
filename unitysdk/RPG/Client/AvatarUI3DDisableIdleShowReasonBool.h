@@ -10,6 +10,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AvatarUI3DDisableIdleShowReasonBool_TypeDefinitionIndex = 62486;
+
 	class AvatarUI3DDisableIdleShowReasonBool : public ::System::Object
 	{
 	public:

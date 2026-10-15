@@ -4,6 +4,8 @@
 
 namespace XLua
 {
+	inline static constexpr unsigned int ObjectTranslator_PushAction_1_TypeDefinitionIndex = 50076;
+
 	template <typename T>
 	class ObjectTranslator_PushAction_1 : public ::System::MulticastDelegate
 	{

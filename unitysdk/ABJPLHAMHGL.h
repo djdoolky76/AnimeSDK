@@ -44,6 +44,8 @@ namespace System { class String; }
 #define ABJPLHAMHGL_PMPJGINDPFM_OFFSET UNITYSDK_OFFSET(0xB1021C0)
 #define ABJPLHAMHGL_TEARDOWN_OFFSET UNITYSDK_OFFSET(0xB0FD0F0)
 
+inline static constexpr unsigned int ABJPLHAMHGL_TypeDefinitionIndex = 76917;
+
 	class ABJPLHAMHGL : public ::System::Object
 	{
 	public:

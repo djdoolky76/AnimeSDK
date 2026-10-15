@@ -11,6 +11,8 @@ namespace RPG::GameCore { class SetHitOverrideLayerWeight; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetHitOverrideLayerWeight_TypeDefinitionIndex = 23088;
+
 	class SetHitOverrideLayerWeight : public ::RPG::GameCore::TaskConfig
 	{
 	public:

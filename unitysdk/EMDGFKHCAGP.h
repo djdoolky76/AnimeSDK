@@ -9,6 +9,8 @@
 #define EMDGFKHCAGP_NEENDNIHBFM_OFFSET UNITYSDK_OFFSET(0x15531400)
 #define EMDGFKHCAGP_SET_SLICENB_OFFSET UNITYSDK_OFFSET(0x155313A0)
 
+inline static constexpr unsigned int EMDGFKHCAGP_TypeDefinitionIndex = 57165;
+
 	class EMDGFKHCAGP : public ::System::Object
 	{
 	public:

@@ -32,6 +32,8 @@ namespace System { class String; }
 #define ELBMKCGDHAK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E2C93C0)
 #define ELBMKCGDHAK_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E2C9420)
 
+inline static constexpr unsigned int ELBMKCGDHAK_TypeDefinitionIndex = 29881;
+
 	class ELBMKCGDHAK : public ::System::Object
 	{
 	public:

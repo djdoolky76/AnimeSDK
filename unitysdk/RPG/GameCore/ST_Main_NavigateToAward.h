@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ST_Main_NavigateToAward; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ST_Main_NavigateToAward_TypeDefinitionIndex = 22438;
+
 	class ST_Main_NavigateToAward : public ::RPG::GameCore::STTaskConfig
 	{
 	public:

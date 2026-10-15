@@ -19,6 +19,8 @@ namespace RPG::Client { class ClockParkInstance; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int BaseClockParkGameState_TypeDefinitionIndex = 61500;
+
 	class BaseClockParkGameState : public ::System::Object
 	{
 	public:

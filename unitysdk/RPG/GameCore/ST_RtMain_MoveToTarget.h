@@ -13,6 +13,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ST_RtMain_MoveToTarget_TypeDefinitionIndex = 24076;
+
 	class ST_RtMain_MoveToTarget : public ::RPG::GameCore::STTaskConfig
 	{
 	public:

@@ -9,6 +9,8 @@ namespace System { class String; }
 
 namespace System::Xml
 {
+	inline static constexpr unsigned int Res_TypeDefinitionIndex = 1972;
+
 	class Res : public ::System::Object
 	{
 	public:

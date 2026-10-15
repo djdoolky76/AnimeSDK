@@ -8,6 +8,8 @@ namespace System { class Object; }
 
 namespace System::Runtime::Serialization
 {
+	inline static constexpr unsigned int SurrogateHashtable_TypeDefinitionIndex = 1138;
+
 	class SurrogateHashtable : public ::System::Collections::Hashtable
 	{
 	public:

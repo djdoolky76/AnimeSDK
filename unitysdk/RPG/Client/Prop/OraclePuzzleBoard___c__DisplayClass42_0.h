@@ -9,6 +9,8 @@ namespace RPG::Client::Prop { class OraclePuzzleItem; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int OraclePuzzleBoard___c__DisplayClass42_0_TypeDefinitionIndex = 78724;
+
 	class OraclePuzzleBoard___c__DisplayClass42_0 : public ::System::Object
 	{
 	public:

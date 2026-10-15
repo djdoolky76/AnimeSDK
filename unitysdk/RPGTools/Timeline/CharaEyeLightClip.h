@@ -14,6 +14,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int CharaEyeLightClip_TypeDefinitionIndex = 47929;
+
 	class CharaEyeLightClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:

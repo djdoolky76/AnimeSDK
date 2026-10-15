@@ -19,6 +19,8 @@ namespace RPG::Client::Pet::BlindBox { class IBlindBoxPet; }
 #define FBMCJDIDAAM_JPNENBMFGJI_OFFSET UNITYSDK_OFFSET(0x156A6EE0)
 #define FBMCJDIDAAM_MHMPJACNOMN_OFFSET UNITYSDK_OFFSET(0x156A6D40)
 
+inline static constexpr unsigned int FBMCJDIDAAM_TypeDefinitionIndex = 74868;
+
 	class FBMCJDIDAAM : public ::System::Object
 	{
 	public:

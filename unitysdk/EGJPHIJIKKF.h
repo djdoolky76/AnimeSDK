@@ -7,6 +7,8 @@ namespace RPG::GameCore { class MarbleForceLaunchToTarget; }
 #define EGJPHIJIKKF_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA50400)
 #define EGJPHIJIKKF_KDNAAOHECPD_OFFSET UNITYSDK_OFFSET(0x1CA50410)
 
+inline static constexpr unsigned int EGJPHIJIKKF_TypeDefinitionIndex = 43101;
+
 	class EGJPHIJIKKF : public ::BKABEBEPPJK
 	{
 	public:

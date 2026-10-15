@@ -8,6 +8,8 @@ class IFLICGOLBIG;
 #define GPDLKLOEOJG___C__DISPLAYCLASS62_0_CTOR_OFFSET UNITYSDK_OFFSET(0x15B4A040)
 #define GPDLKLOEOJG___C__DISPLAYCLASS62_0__REFRESHHOLDEDDICESDATA_B__0_OFFSET UNITYSDK_OFFSET(0x15B4E490)
 
+inline static constexpr unsigned int GPDLKLOEOJG___c__DisplayClass62_0_TypeDefinitionIndex = 60321;
+
 	class GPDLKLOEOJG___c__DisplayClass62_0 : public ::System::Object
 	{
 	public:

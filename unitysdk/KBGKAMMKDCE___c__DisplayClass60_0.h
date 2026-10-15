@@ -6,6 +6,8 @@ class IMHNJGALBDG;
 #define KBGKAMMKDCE___C__DISPLAYCLASS60_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB301080)
 #define KBGKAMMKDCE___C__DISPLAYCLASS60_0__GENERALPEDESTRIAN_B__0_OFFSET UNITYSDK_OFFSET(0xB3011A0)
 
+inline static constexpr unsigned int KBGKAMMKDCE___c__DisplayClass60_0_TypeDefinitionIndex = 69226;
+
 	class KBGKAMMKDCE___c__DisplayClass60_0 : public ::System::Object
 	{
 	public:

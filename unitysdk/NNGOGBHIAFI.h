@@ -52,6 +52,8 @@ namespace System::Collections::Generic { template <typename T> class Queue_1; }
 #define NNGOGBHIAFI_SET_ISSERVER_OFFSET UNITYSDK_OFFSET(0x1C79D830)
 #define NNGOGBHIAFI_SET_NETMODE_OFFSET UNITYSDK_OFFSET(0x1C79D810)
 
+inline static constexpr unsigned int NNGOGBHIAFI_TypeDefinitionIndex = 36870;
+
 	class NNGOGBHIAFI : public ::LIAIOEBDNEE
 	{
 	public:

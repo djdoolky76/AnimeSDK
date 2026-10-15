@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define GLGIDONBIMD_LLHAEMNFAFB_OFFSET UNITYSDK_OFFSET(0x15AB1BF0)
 #define GLGIDONBIMD_PBGHHIMGFDL_OFFSET UNITYSDK_OFFSET(0x15AB0F60)
 
+inline static constexpr unsigned int GLGIDONBIMD_TypeDefinitionIndex = 49087;
+
 	class GLGIDONBIMD : public ::System::Object
 	{
 	public:

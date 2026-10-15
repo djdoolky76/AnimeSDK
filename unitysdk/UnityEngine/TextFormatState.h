@@ -6,6 +6,8 @@
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int TextFormatState_TypeDefinitionIndex = 5060;
+
 	struct alignas(4) TextFormatState
 	{
 		::UnityEngine::Color32 formatCharColor; // 0x10

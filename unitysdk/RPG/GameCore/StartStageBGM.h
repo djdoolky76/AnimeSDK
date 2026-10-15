@@ -11,6 +11,8 @@ namespace RPG::GameCore { class StartStageBGM; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int StartStageBGM_TypeDefinitionIndex = 23415;
+
 	class StartStageBGM : public ::RPG::GameCore::TaskConfig
 	{
 	public:

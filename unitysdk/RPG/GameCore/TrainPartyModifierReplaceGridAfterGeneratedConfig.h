@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TrainPartyModifierReplaceGridAfterGeneratedConfi
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TrainPartyModifierReplaceGridAfterGeneratedConfig_TypeDefinitionIndex = 18101;
+
 	class TrainPartyModifierReplaceGridAfterGeneratedConfig : public ::RPG::GameCore::TrainPartyModifierConfigBase
 	{
 	public:

@@ -9,6 +9,8 @@
 
 namespace Sofa::Runtime::ReactiveBinding::Editor
 {
+	inline static constexpr unsigned int SofaUIDevMain_TypeDefinitionIndex = 50025;
+
 	class SofaUIDevMain : public ::UnityEngine::MonoBehaviour
 	{
 	public:

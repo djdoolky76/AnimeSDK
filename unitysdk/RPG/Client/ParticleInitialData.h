@@ -5,6 +5,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ParticleInitialData_TypeDefinitionIndex = 70591;
+
 	struct alignas(8) ParticleInitialData
 	{
 		::UnityEngine::Vector2 initialRateOverTime; // 0x10

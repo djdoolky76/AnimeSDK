@@ -32,6 +32,8 @@ namespace System { class String; }
 #define LPJOINCGBBP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E9D0930)
 #define LPJOINCGBBP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E9D0990)
 
+inline static constexpr unsigned int LPJOINCGBBP_TypeDefinitionIndex = 28648;
+
 	class LPJOINCGBBP : public ::System::Object
 	{
 	public:

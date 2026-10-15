@@ -45,6 +45,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::PC::OS::CXHandheld
 {
+	inline static constexpr unsigned int LoginManagerBase_TypeDefinitionIndex = 8746;
+
 	class LoginManagerBase : public ::System::Object
 	{
 	public:

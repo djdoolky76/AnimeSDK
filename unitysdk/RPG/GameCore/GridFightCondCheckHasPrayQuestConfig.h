@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GridFightCondCheckHasPrayQuestConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightCondCheckHasPrayQuestConfig_TypeDefinitionIndex = 19335;
+
 	class GridFightCondCheckHasPrayQuestConfig : public ::RPG::GameCore::GridFightConditionConfigBase
 	{
 	public:

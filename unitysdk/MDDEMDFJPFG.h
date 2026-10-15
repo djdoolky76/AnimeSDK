@@ -4,6 +4,8 @@
 
 #define MDDEMDFJPFG_CTOR_OFFSET UNITYSDK_OFFSET(0xB89ECB0)
 
+inline static constexpr unsigned int MDDEMDFJPFG_TypeDefinitionIndex = 61187;
+
 	class MDDEMDFJPFG : public ::HDJIGMBHENE
 	{
 	public:

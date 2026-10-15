@@ -8,6 +8,8 @@ namespace System { class Object; }
 
 namespace RPG::Client::ChimeraDuel
 {
+	inline static constexpr unsigned int ChimeraDuelBattleChimeraControl___c_TypeDefinitionIndex = 81251;
+
 	class ChimeraDuelBattleChimeraControl___c : public ::System::Object
 	{
 	public:

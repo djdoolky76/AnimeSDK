@@ -26,6 +26,8 @@ namespace System { class Object; }
 #define MDLBOFGMBKH_INIT_OFFSET UNITYSDK_OFFSET(0x1D14B4D0)
 #define MDLBOFGMBKH_NHCFLDCDLCP_OFFSET UNITYSDK_OFFSET(0x1D14BB80)
 
+inline static constexpr unsigned int MDLBOFGMBKH_TypeDefinitionIndex = 10686;
+
 	class MDLBOFGMBKH : public ::System::Object
 	{
 	public:

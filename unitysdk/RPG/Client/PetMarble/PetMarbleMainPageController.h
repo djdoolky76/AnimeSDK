@@ -30,6 +30,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client::PetMarble
 {
+	inline static constexpr unsigned int PetMarbleMainPageController_TypeDefinitionIndex = 74717;
+
 	class PetMarbleMainPageController : public ::System::Object
 	{
 	public:

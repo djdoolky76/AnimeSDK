@@ -11,6 +11,8 @@ namespace System { class Object; }
 
 namespace Cysharp::Threading::Tasks
 {
+	inline static constexpr unsigned int UnityAsyncExtensions_ResourceRequestConfiguredSource___c_TypeDefinitionIndex = 38461;
+
 	class UnityAsyncExtensions_ResourceRequestConfiguredSource___c : public ::System::Object
 	{
 	public:

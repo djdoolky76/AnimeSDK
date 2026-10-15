@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int OnBackPressedCallback_TypeDefinitionIndex = 71345;
+
 	class OnBackPressedCallback : public ::System::MulticastDelegate
 	{
 	public:

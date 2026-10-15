@@ -23,6 +23,8 @@ namespace UnityEngine { class Mesh; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int RPGInstancedItemBlock_TypeDefinitionIndex = 4289;
+
 	class RPGInstancedItemBlock : public ::UnityEngine::Behaviour
 	{
 	public:

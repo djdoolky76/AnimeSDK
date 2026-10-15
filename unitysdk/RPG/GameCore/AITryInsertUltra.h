@@ -10,6 +10,8 @@ namespace RPG::GameCore { class AITryInsertUltra; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AITryInsertUltra_TypeDefinitionIndex = 22835;
+
 	class AITryInsertUltra : public ::RPG::GameCore::TaskConfig
 	{
 	public:

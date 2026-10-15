@@ -5,6 +5,8 @@ namespace RPG::Client { class UIDragSource; }
 namespace System { class Action; }
 namespace System { class Object; }
 
+inline static constexpr unsigned int LBELMJMLOHE___c__0_1_TypeDefinitionIndex = 49850;
+
 	template <typename T>
 	class LBELMJMLOHE___c__0_1 : public ::System::Object
 	{

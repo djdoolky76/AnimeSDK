@@ -29,6 +29,8 @@ namespace System { class String; }
 #define ACCMEOICEOD_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DDD7FC0)
 #define ACCMEOICEOD_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DDD8020)
 
+inline static constexpr unsigned int ACCMEOICEOD_TypeDefinitionIndex = 29233;
+
 	class ACCMEOICEOD : public ::System::Object
 	{
 	public:

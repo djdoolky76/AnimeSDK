@@ -5,6 +5,8 @@ namespace RPG::Client::LittleGame { class TimelineControlGameWorld_LevelGroupAct
 
 #define BEMLFGJGOKN_CTOR_OFFSET UNITYSDK_OFFSET(0x1C8B8880)
 
+inline static constexpr unsigned int BEMLFGJGOKN_TypeDefinitionIndex = 42525;
+
 	class BEMLFGJGOKN : public ::System::Object
 	{
 	public:

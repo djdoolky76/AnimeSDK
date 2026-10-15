@@ -14,6 +14,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int LifeCycleEventClip_TypeDefinitionIndex = 48150;
+
 	class LifeCycleEventClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:

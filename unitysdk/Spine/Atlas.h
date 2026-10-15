@@ -23,6 +23,8 @@ namespace System::IO { class TextReader; }
 
 namespace Spine
 {
+	inline static constexpr unsigned int Atlas_TypeDefinitionIndex = 39641;
+
 	class Atlas : public ::System::Object
 	{
 	public:

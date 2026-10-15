@@ -12,6 +12,8 @@ namespace UnityEngine::UI { class Image; }
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftCraftProgressAttrTraitDetailAttrControlBinder_TypeDefinitionIndex = 79921;
+
 	class MechCraftCraftProgressAttrTraitDetailAttrControlBinder : public ::RPG::Client::MechCraft::View::MechCraftBinderBase
 	{
 	public:

@@ -29,6 +29,8 @@ class AkChannelConfig;
 #define AKCHANNELCONFIG_SET_UCHANNELMASK_OFFSET UNITYSDK_OFFSET(0x1F582C00)
 #define AKCHANNELCONFIG_SET_UNUMCHANNELS_OFFSET UNITYSDK_OFFSET(0x1F582920)
 
+inline static constexpr unsigned int AkChannelConfig_TypeDefinitionIndex = 44726;
+
 	class AkChannelConfig : public ::System::Object
 	{
 	public:

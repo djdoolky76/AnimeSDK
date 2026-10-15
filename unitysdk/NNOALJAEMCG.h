@@ -32,6 +32,8 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyLi
 #define NNOALJAEMCG_SET_PROMOTIONLEVEL_OFFSET UNITYSDK_OFFSET(0xBCD6450)
 #define NNOALJAEMCG_SET_TRACENODES_OFFSET UNITYSDK_OFFSET(0xBCD6510)
 
+inline static constexpr unsigned int NNOALJAEMCG_TypeDefinitionIndex = 51897;
+
 	class NNOALJAEMCG : public ::System::Object
 	{
 	public:

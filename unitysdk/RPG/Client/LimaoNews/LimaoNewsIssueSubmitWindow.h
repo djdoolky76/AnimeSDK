@@ -22,6 +22,8 @@ namespace UnityEngine::UI { class Text; }
 
 namespace RPG::Client::LimaoNews
 {
+	inline static constexpr unsigned int LimaoNewsIssueSubmitWindow_TypeDefinitionIndex = 80382;
+
 	class LimaoNewsIssueSubmitWindow : public ::Sofa::BaseSofaWindow
 	{
 	public:

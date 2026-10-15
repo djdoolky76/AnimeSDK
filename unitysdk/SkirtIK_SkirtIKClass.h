@@ -10,6 +10,8 @@ namespace UnityEngine { class Transform; }
 #define SKIRTIK_SKIRTIKCLASS_CTOR_OFFSET UNITYSDK_OFFSET(0xE972FB0)
 #define SKIRTIK_SKIRTIKCLASS_GPOHHLEEMKC_OFFSET UNITYSDK_OFFSET(0xE972F30)
 
+inline static constexpr unsigned int SkirtIK_SkirtIKClass_TypeDefinitionIndex = 47255;
+
 	class SkirtIK_SkirtIKClass : public ::System::Object
 	{
 	public:

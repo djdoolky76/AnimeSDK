@@ -9,6 +9,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightFlowDirector_PendingActionUpdateEvent_TypeDefinitionIndex = 64578;
+
 	class GridFightFlowDirector_PendingActionUpdateEvent
 	{
 	public:

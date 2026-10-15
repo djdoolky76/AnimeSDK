@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define OFADBBMPDMM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DE35880)
 #define OFADBBMPDMM___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1DE35890)
 
+inline static constexpr unsigned int OFADBBMPDMM___c_TypeDefinitionIndex = 29713;
+
 	class OFADBBMPDMM___c : public ::System::Object
 	{
 	public:

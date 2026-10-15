@@ -35,6 +35,8 @@ namespace System { class String; }
 #define EDEGAHHANMF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E25E100)
 #define EDEGAHHANMF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E25E160)
 
+inline static constexpr unsigned int EDEGAHHANMF_TypeDefinitionIndex = 28887;
+
 	class EDEGAHHANMF : public ::System::Object
 	{
 	public:

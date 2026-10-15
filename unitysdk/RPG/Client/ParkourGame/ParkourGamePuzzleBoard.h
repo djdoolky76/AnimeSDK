@@ -6,6 +6,8 @@
 
 namespace RPG::Client::ParkourGame
 {
+	inline static constexpr unsigned int ParkourGamePuzzleBoard_TypeDefinitionIndex = 74211;
+
 	class ParkourGamePuzzleBoard : public ::RPG::Client::Prop::PuzzleBoardBase
 	{
 	public:

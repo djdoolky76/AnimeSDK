@@ -9,6 +9,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 #define GIPOOAFFGMM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x15A554D0)
 #define GIPOOAFFGMM___C__HASCUSTOMTOPPANEL_B__1_0_OFFSET UNITYSDK_OFFSET(0x15A554E0)
 
+inline static constexpr unsigned int GIPOOAFFGMM___c_TypeDefinitionIndex = 72064;
+
 	class GIPOOAFFGMM___c : public ::System::Object
 	{
 	public:

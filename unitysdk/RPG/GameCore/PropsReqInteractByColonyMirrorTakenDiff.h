@@ -10,6 +10,8 @@ namespace RPG::GameCore { class PropsReqInteractByColonyMirrorTakenDiff; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PropsReqInteractByColonyMirrorTakenDiff_TypeDefinitionIndex = 21872;
+
 	class PropsReqInteractByColonyMirrorTakenDiff : public ::RPG::GameCore::TaskConfig
 	{
 	public:

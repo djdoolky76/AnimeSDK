@@ -6,6 +6,8 @@
 
 namespace EnviromentSystemV2Space
 {
+	inline static constexpr unsigned int EnvAtmosphereQualityConfig_TypeDefinitionIndex = 49297;
+
 	class EnvAtmosphereQualityConfig : public ::UnityEngine::ScriptableObject
 	{
 	public:

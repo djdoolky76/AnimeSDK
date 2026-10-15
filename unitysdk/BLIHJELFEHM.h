@@ -41,6 +41,8 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 #define BLIHJELFEHM_NOANCEOBICI_OFFSET UNITYSDK_OFFSET(0xBA74400)
 #define BLIHJELFEHM_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0xBA73BE0)
 
+inline static constexpr unsigned int BLIHJELFEHM_TypeDefinitionIndex = 69628;
+
 	class BLIHJELFEHM : public ::MDILEMALGNC
 	{
 	public:

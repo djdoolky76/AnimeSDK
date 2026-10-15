@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define MOHAGOFLGAP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EAA9DC0)
 #define MOHAGOFLGAP___C___CCTOR_B__68_0_OFFSET UNITYSDK_OFFSET(0x1EAA9DD0)
 
+inline static constexpr unsigned int MOHAGOFLGAP___c_TypeDefinitionIndex = 25731;
+
 	class MOHAGOFLGAP___c : public ::System::Object
 	{
 	public:

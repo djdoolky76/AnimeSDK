@@ -8,6 +8,8 @@ namespace RPG::Client::B51Racing { class B51RacingDevelopValueIconListViewModel;
 
 namespace RPG::Client::B51Racing
 {
+	inline static constexpr unsigned int B51RacingReadyDriverDetailViewModel_TypeDefinitionIndex = 82045;
+
 	class B51RacingReadyDriverDetailViewModel : public ::System::Object
 	{
 	public:

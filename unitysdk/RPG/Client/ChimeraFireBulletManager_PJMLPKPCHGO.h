@@ -14,6 +14,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ChimeraFireBulletManager_PJMLPKPCHGO_TypeDefinitionIndex = 68648;
+
 	class ChimeraFireBulletManager_PJMLPKPCHGO : public ::System::Object
 	{
 	public:

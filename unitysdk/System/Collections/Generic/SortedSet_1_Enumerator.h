@@ -6,6 +6,8 @@ namespace System::Collections::Generic { template <typename T> class Stack_1; }
 
 namespace System::Collections::Generic
 {
+	inline static constexpr unsigned int SortedSet_1_Enumerator_TypeDefinitionIndex = 3044;
+
 	template <typename T>
 	struct alignas(8) SortedSet_1_Enumerator
 	{

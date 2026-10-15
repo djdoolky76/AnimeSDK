@@ -6,6 +6,8 @@ namespace RPG::GameCore { class ToggleTotalDamageFinishNotify; }
 #define EIOOKHOEEDK_CTOR_OFFSET UNITYSDK_OFFSET(0x154D54A0)
 #define EIOOKHOEEDK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x154D54D0)
 
+inline static constexpr unsigned int EIOOKHOEEDK_TypeDefinitionIndex = 55708;
+
 	class EIOOKHOEEDK
 	{
 	public:

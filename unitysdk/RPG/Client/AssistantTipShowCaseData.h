@@ -15,6 +15,8 @@ namespace RPG::GameCore { class AssistantTipsShowCaseRow; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AssistantTipShowCaseData_TypeDefinitionIndex = 62438;
+
 	class AssistantTipShowCaseData : public ::System::Object
 	{
 	public:

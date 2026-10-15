@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ActivityDiceHintRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ActivityDiceHintRow_TypeDefinitionIndex = 11275;
+
 	class ActivityDiceHintRow : public ::System::Object
 	{
 	public:

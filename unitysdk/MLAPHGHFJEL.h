@@ -15,6 +15,8 @@ namespace System { class String; }
 #define MLAPHGHFJEL__ONEXITPRESTEP_OFFSET UNITYSDK_OFFSET(0xB9A4FE0)
 #define MLAPHGHFJEL__SETUPVIEW_OFFSET UNITYSDK_OFFSET(0xB9A4ED0)
 
+inline static constexpr unsigned int MLAPHGHFJEL_TypeDefinitionIndex = 72193;
+
 	class MLAPHGHFJEL : public ::RPG::Client::UIController
 	{
 	public:

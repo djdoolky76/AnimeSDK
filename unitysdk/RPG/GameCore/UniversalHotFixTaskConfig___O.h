@@ -5,6 +5,8 @@ namespace System { class Object; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int UniversalHotFixTaskConfig___O_TypeDefinitionIndex = 23355;
+
 	class UniversalHotFixTaskConfig___O : public ::System::Object
 	{
 	public:

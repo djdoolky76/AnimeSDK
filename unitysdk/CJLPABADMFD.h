@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define CJLPABADMFD_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC1B510)
 #define CJLPABADMFD_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC10E90)
 
+inline static constexpr unsigned int CJLPABADMFD_TypeDefinitionIndex = 11986;
+
 	class CJLPABADMFD : public ::System::Object
 	{
 	public:

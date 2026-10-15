@@ -7,6 +7,8 @@
 
 namespace System::Net::NetworkInformation
 {
+	inline static constexpr unsigned int Win32IPv4InterfaceStatistics_TypeDefinitionIndex = 2944;
+
 	class Win32IPv4InterfaceStatistics : public ::System::Net::NetworkInformation::IPv4InterfaceStatistics
 	{
 	public:

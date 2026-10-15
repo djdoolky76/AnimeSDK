@@ -13,6 +13,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByCurrentRogueHasMiracle_TypeDefinitionIndex = 21045;
+
 	class ByCurrentRogueHasMiracle : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueModifierPumanOrbRewardConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueModifierPumanOrbRewardConfig_TypeDefinitionIndex = 17765;
+
 	class RogueModifierPumanOrbRewardConfig : public ::RPG::GameCore::RogueModifierConfig
 	{
 	public:

@@ -10,6 +10,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace Cysharp::Threading::Tasks
 {
+	inline static constexpr unsigned int UniTask__RunOnThreadPool_d__90_1_TypeDefinitionIndex = 38358;
+
 	template <typename T>
 	struct alignas(8) UniTask__RunOnThreadPool_d__90_1
 	{

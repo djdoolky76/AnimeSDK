@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define GCLPBMPOHLI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E441D30)
 #define GCLPBMPOHLI___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1E441D40)
 
+inline static constexpr unsigned int GCLPBMPOHLI___c_TypeDefinitionIndex = 31320;
+
 	class GCLPBMPOHLI___c : public ::System::Object
 	{
 	public:

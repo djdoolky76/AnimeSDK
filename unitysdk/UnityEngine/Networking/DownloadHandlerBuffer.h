@@ -11,6 +11,8 @@ namespace UnityEngine::Networking { class DownloadHandlerBuffer; }
 
 namespace UnityEngine::Networking
 {
+	inline static constexpr unsigned int DownloadHandlerBuffer_TypeDefinitionIndex = 5361;
+
 	class DownloadHandlerBuffer : public ::UnityEngine::Networking::DownloadHandler
 	{
 	public:

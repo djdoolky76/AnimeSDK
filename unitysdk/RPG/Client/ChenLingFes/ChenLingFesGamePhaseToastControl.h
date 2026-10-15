@@ -20,6 +20,8 @@ namespace UnityEngine::UI { class Text; }
 
 namespace RPG::Client::ChenLingFes
 {
+	inline static constexpr unsigned int ChenLingFesGamePhaseToastControl_TypeDefinitionIndex = 81364;
+
 	class ChenLingFesGamePhaseToastControl : public ::Sofa::BaseSofaControl
 	{
 	public:

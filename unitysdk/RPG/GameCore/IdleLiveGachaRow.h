@@ -11,6 +11,8 @@ namespace RPG::GameCore { class IdleLiveGachaRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int IdleLiveGachaRow_TypeDefinitionIndex = 11772;
+
 	class IdleLiveGachaRow : public ::System::Object
 	{
 	public:

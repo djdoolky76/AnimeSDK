@@ -11,6 +11,8 @@ namespace UnityEngine { class MonoBehaviour; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int BehaviorBase_TypeDefinitionIndex = 70359;
+
 	class BehaviorBase : public ::System::Object
 	{
 	public:

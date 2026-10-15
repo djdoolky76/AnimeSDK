@@ -16,6 +16,8 @@ namespace System::Threading { class WaitCallback; }
 
 namespace System::Threading
 {
+	inline static constexpr unsigned int QueueUserWorkItemCallback_TypeDefinitionIndex = 864;
+
 	class QueueUserWorkItemCallback : public ::System::Object
 	{
 	public:

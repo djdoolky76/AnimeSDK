@@ -9,6 +9,8 @@
 
 namespace BansheeGz::BGSpline::Components
 {
+	inline static constexpr unsigned int BGPpu_TypeDefinitionIndex = 36070;
+
 	struct alignas(4) BGPpu
 	{
 		::System::Int32 x; // 0x10

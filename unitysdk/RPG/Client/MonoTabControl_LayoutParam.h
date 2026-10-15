@@ -6,6 +6,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoTabControl_LayoutParam_TypeDefinitionIndex = 72609;
+
 	class MonoTabControl_LayoutParam : public ::System::Object
 	{
 	public:

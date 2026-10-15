@@ -16,6 +16,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define HECNOHGPLAN_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x15C48330)
 #define HECNOHGPLAN_TICK_OFFSET UNITYSDK_OFFSET(0x15C48380)
 
+inline static constexpr unsigned int HECNOHGPLAN_TypeDefinitionIndex = 53283;
+
 	class HECNOHGPLAN : public ::GELIALJDFBL
 	{
 	public:

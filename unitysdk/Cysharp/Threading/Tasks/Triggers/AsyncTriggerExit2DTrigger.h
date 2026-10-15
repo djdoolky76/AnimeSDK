@@ -14,6 +14,8 @@ namespace UnityEngine { class Collider2D; }
 
 namespace Cysharp::Threading::Tasks::Triggers
 {
+	inline static constexpr unsigned int AsyncTriggerExit2DTrigger_TypeDefinitionIndex = 38605;
+
 	class AsyncTriggerExit2DTrigger
 	{
 	public:

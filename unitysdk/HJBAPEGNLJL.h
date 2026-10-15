@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define HJBAPEGNLJL_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x15D02620)
 #define HJBAPEGNLJL_TICK_OFFSET UNITYSDK_OFFSET(0x15D02690)
 
+inline static constexpr unsigned int HJBAPEGNLJL_TypeDefinitionIndex = 58229;
+
 	class HJBAPEGNLJL : public ::GELIALJDFBL
 	{
 	public:

@@ -7,6 +7,8 @@ namespace System { class Type; }
 
 namespace Entitas::CodeGeneration::Attributes
 {
+	inline static constexpr unsigned int CustomEntityIndexAttribute_TypeDefinitionIndex = 10074;
+
 	class CustomEntityIndexAttribute : public ::System::Attribute
 	{
 	public:

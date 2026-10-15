@@ -7,6 +7,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int FullBodyIKEffectorOffset_TypeDefinitionIndex = 68604;
+
 	class FullBodyIKEffectorOffset : public ::System::Object
 	{
 	public:

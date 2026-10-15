@@ -15,6 +15,8 @@ namespace System { class String; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int BaseHideDialogBehaviour_TypeDefinitionIndex = 48293;
+
 	class BaseHideDialogBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

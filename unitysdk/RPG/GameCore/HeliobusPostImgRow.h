@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int HeliobusPostImgRow_TypeDefinitionIndex = 13751;
+
 	class HeliobusPostImgRow : public ::System::Object
 	{
 	public:

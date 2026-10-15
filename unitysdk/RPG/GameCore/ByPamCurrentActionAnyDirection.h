@@ -13,6 +13,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByPamCurrentActionAnyDirection_TypeDefinitionIndex = 20015;
+
 	class ByPamCurrentActionAnyDirection : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

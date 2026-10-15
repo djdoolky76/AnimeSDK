@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FiveDimStopWindowStageAction; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimStopWindowStageAction_TypeDefinitionIndex = 18723;
+
 	class FiveDimStopWindowStageAction : public ::RPG::GameCore::FiveDimBaseEventAction
 	{
 	public:

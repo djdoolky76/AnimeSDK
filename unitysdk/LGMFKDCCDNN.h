@@ -30,6 +30,8 @@ namespace System { class String; }
 #define LGMFKDCCDNN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E957240)
 #define LGMFKDCCDNN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E9572A0)
 
+inline static constexpr unsigned int LGMFKDCCDNN_TypeDefinitionIndex = 26920;
+
 	class LGMFKDCCDNN : public ::System::Object
 	{
 	public:

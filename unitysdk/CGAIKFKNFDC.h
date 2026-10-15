@@ -6,6 +6,8 @@ namespace System { class Object; }
 #define CGAIKFKNFDC_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x1DD167D0)
 #define CGAIKFKNFDC_CTOR_OFFSET UNITYSDK_OFFSET(0x1DD16B60)
 
+inline static constexpr unsigned int CGAIKFKNFDC_TypeDefinitionIndex = 6187;
+
 	class CGAIKFKNFDC : public ::System::Object
 	{
 	public:

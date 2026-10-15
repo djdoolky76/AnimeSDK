@@ -12,6 +12,8 @@ namespace RPG::GameCore { class ChenLingBattleBulletMagicMissileExtraConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChenLingBattleBulletMagicMissileExtraConfig_TypeDefinitionIndex = 15716;
+
 	class ChenLingBattleBulletMagicMissileExtraConfig : public ::RPG::GameCore::ChenLingBattleBulletTypeExtraConfig
 	{
 	public:

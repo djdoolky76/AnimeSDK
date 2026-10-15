@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FiveDimPlayerSkillCleanerBotCondition; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimPlayerSkillCleanerBotCondition_TypeDefinitionIndex = 18799;
+
 	class FiveDimPlayerSkillCleanerBotCondition : public ::RPG::GameCore::FiveDimBaseEventCondition
 	{
 	public:

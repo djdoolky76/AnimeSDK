@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TrainPartyCardConfigRow_TypeDefinitionIndex = 15316;
+
 	class TrainPartyCardConfigRow : public ::System::Object
 	{
 	public:

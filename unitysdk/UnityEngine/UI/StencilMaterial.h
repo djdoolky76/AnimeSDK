@@ -17,6 +17,8 @@ namespace UnityEngine { class Material; }
 
 namespace UnityEngine::UI
 {
+	inline static constexpr unsigned int StencilMaterial_TypeDefinitionIndex = 6861;
+
 	class StencilMaterial : public ::System::Object
 	{
 	public:

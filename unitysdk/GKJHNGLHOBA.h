@@ -31,6 +31,8 @@ namespace System { class String; }
 #define GKJHNGLHOBA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E4B7FA0)
 #define GKJHNGLHOBA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E4B8000)
 
+inline static constexpr unsigned int GKJHNGLHOBA_TypeDefinitionIndex = 31288;
+
 	class GKJHNGLHOBA : public ::System::Object
 	{
 	public:

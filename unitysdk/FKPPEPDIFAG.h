@@ -14,6 +14,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define FKPPEPDIFAG_KIHNEAOPLJC_OFFSET UNITYSDK_OFFSET(0x15826CE0)
 #define FKPPEPDIFAG_NLBNJGKAMII_OFFSET UNITYSDK_OFFSET(0x158269F0)
 
+inline static constexpr unsigned int FKPPEPDIFAG_TypeDefinitionIndex = 53725;
+
 	class FKPPEPDIFAG : public ::KIFCLJJAOFJ
 	{
 	public:

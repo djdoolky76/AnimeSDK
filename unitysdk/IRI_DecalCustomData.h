@@ -6,6 +6,8 @@
 #define IRI_DECALCUSTOMDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x165336A0)
 #define IRI_DECALCUSTOMDATA_ONENABLE_OFFSET UNITYSDK_OFFSET(0x16533660)
 
+inline static constexpr unsigned int IRI_DecalCustomData_TypeDefinitionIndex = 47170;
+
 	class IRI_DecalCustomData : public ::UnityEngine::MonoBehaviour
 	{
 	public:

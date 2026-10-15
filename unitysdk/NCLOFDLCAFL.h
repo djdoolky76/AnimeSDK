@@ -6,6 +6,8 @@ class KAKADGHNMFK;
 #define NCLOFDLCAFL_CTOR_OFFSET UNITYSDK_OFFSET(0xBB163E0)
 #define NCLOFDLCAFL_PKADDEPKJFN_OFFSET UNITYSDK_OFFSET(0xBB16380)
 
+inline static constexpr unsigned int NCLOFDLCAFL_TypeDefinitionIndex = 77596;
+
 	class NCLOFDLCAFL : public ::System::Object
 	{
 	public:

@@ -33,6 +33,8 @@ namespace System { class String; }
 #define MIIIAIEGEKM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EA3C7B0)
 #define MIIIAIEGEKM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EA3C810)
 
+inline static constexpr unsigned int MIIIAIEGEKM_TypeDefinitionIndex = 26534;
+
 	class MIIIAIEGEKM : public ::System::Object
 	{
 	public:

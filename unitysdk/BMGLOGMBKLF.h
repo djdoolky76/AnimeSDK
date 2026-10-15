@@ -30,6 +30,8 @@ namespace System { class String; }
 #define BMGLOGMBKLF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E0265E0)
 #define BMGLOGMBKLF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E026640)
 
+inline static constexpr unsigned int BMGLOGMBKLF_TypeDefinitionIndex = 30954;
+
 	class BMGLOGMBKLF : public ::System::Object
 	{
 	public:

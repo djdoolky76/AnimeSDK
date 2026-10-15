@@ -8,6 +8,8 @@ namespace RPG::Client::Challenge::Story { class ChallengeStoryFeverMazeBuffIconG
 
 namespace RPG::Client::Challenge::Story
 {
+	inline static constexpr unsigned int ChallengeStoryFeverMazeBuffIconGroupControl___c__DisplayClass15_0_TypeDefinitionIndex = 81638;
+
 	class ChallengeStoryFeverMazeBuffIconGroupControl___c__DisplayClass15_0 : public ::System::Object
 	{
 	public:

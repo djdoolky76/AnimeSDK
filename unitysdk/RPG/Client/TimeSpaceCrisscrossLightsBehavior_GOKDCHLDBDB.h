@@ -19,6 +19,8 @@ namespace UnityEngine { class Texture2D; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TimeSpaceCrisscrossLightsBehavior_GOKDCHLDBDB_TypeDefinitionIndex = 70231;
+
 	class TimeSpaceCrisscrossLightsBehavior_GOKDCHLDBDB : public ::System::Object
 	{
 	public:

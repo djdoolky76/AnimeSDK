@@ -18,6 +18,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define ACEPKKPFMKI_PONEEDOGAFL_OFFSET UNITYSDK_OFFSET(0xB11C080)
 #define ACEPKKPFMKI_PPCHOKBEHJJ_OFFSET UNITYSDK_OFFSET(0xB11C280)
 
+inline static constexpr unsigned int ACEPKKPFMKI_TypeDefinitionIndex = 69574;
+
 	class ACEPKKPFMKI : public ::System::Object
 	{
 	public:

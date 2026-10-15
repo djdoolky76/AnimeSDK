@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace System::Runtime::Serialization
 {
+	inline static constexpr unsigned int SafeSerializationEventArgs_TypeDefinitionIndex = 1117;
+
 	class SafeSerializationEventArgs : public ::System::EventArgs
 	{
 	public:

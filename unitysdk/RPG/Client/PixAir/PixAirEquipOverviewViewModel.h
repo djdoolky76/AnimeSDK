@@ -17,6 +17,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::PixAir
 {
+	inline static constexpr unsigned int PixAirEquipOverviewViewModel_TypeDefinitionIndex = 79265;
+
 	class PixAirEquipOverviewViewModel : public ::Sofa::BaseViewModel
 	{
 	public:

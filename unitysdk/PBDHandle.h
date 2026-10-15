@@ -19,6 +19,8 @@ namespace UnityEngine { class Mesh; }
 #define PBDHANDLE_START_OFFSET UNITYSDK_OFFSET(0xBFE3050)
 #define PBDHANDLE_UPDATE_OFFSET UNITYSDK_OFFSET(0xBFE3780)
 
+inline static constexpr unsigned int PBDHandle_TypeDefinitionIndex = 47141;
+
 	class PBDHandle : public ::UnityEngine::MonoBehaviour
 	{
 	public:

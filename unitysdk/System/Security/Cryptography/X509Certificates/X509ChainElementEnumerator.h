@@ -12,6 +12,8 @@ namespace System::Collections { class IEnumerator; }
 
 namespace System::Security::Cryptography::X509Certificates
 {
+	inline static constexpr unsigned int X509ChainElementEnumerator_TypeDefinitionIndex = 2701;
+
 	class X509ChainElementEnumerator : public ::System::Object
 	{
 	public:

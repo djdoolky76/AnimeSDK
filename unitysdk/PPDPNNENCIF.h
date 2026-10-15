@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define PPDPNNENCIF_UPDATEBEFORE_OFFSET UNITYSDK_OFFSET(0xC37D0B0)
 #define PPDPNNENCIF_UPDATEREMOVEROLE_OFFSET UNITYSDK_OFFSET(0xC37CE40)
 
+inline static constexpr unsigned int PPDPNNENCIF_TypeDefinitionIndex = 64393;
+
 	class PPDPNNENCIF : public ::AMCOEFHHBPO
 	{
 	public:

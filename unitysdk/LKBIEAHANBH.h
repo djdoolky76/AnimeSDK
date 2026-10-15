@@ -5,6 +5,8 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 
 #define LKBIEAHANBH_CCTOR_OFFSET UNITYSDK_OFFSET(0xB728A70)
 
+inline static constexpr unsigned int LKBIEAHANBH_TypeDefinitionIndex = 62203;
+
 	class LKBIEAHANBH : public ::System::Object
 	{
 	public:

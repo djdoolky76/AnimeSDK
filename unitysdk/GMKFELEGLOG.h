@@ -10,6 +10,8 @@ namespace RPG::GameCore { class UnDefineDynamicString; }
 #define GMKFELEGLOG_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x15AD4F20)
 #define GMKFELEGLOG_TICK_OFFSET UNITYSDK_OFFSET(0x15AD4F70)
 
+inline static constexpr unsigned int GMKFELEGLOG_TypeDefinitionIndex = 55783;
+
 	class GMKFELEGLOG : public ::GELIALJDFBL
 	{
 	public:

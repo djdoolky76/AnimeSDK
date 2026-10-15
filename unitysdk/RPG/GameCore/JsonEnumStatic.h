@@ -21,6 +21,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int JsonEnumStatic_TypeDefinitionIndex = 10870;
+
 	class JsonEnumStatic : public ::System::Object
 	{
 	public:

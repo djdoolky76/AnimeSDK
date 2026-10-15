@@ -4,6 +4,8 @@ namespace Cinemachine { class CinemachineVirtualCameraBase; }
 
 namespace Cinemachine
 {
+	inline static constexpr unsigned int CinemachineStateDrivenCamera_Instruction_TypeDefinitionIndex = 39751;
+
 	struct alignas(8) CinemachineStateDrivenCamera_Instruction
 	{
 		::System::Int32 m_FullHash; // 0x10

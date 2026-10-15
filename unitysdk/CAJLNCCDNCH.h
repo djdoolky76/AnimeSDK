@@ -5,6 +5,8 @@
 #define CAJLNCCDNCH_CTOR_OFFSET UNITYSDK_OFFSET(0xC487670)
 #define CAJLNCCDNCH_KFGJEKJHIMB_OFFSET UNITYSDK_OFFSET(0xC487680)
 
+inline static constexpr unsigned int CAJLNCCDNCH_TypeDefinitionIndex = 74844;
+
 	class CAJLNCCDNCH : public ::IAJLELNJPEA
 	{
 	public:

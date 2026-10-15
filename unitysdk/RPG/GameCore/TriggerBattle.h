@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TriggerBattle; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TriggerBattle_TypeDefinitionIndex = 21696;
+
 	class TriggerBattle : public ::RPG::GameCore::TaskConfig
 	{
 	public:

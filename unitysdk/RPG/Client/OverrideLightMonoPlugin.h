@@ -8,6 +8,8 @@ namespace UnityEngine { class Renderer; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int OverrideLightMonoPlugin_TypeDefinitionIndex = 70296;
+
 	class OverrideLightMonoPlugin
 	{
 	public:

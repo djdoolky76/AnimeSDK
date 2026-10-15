@@ -8,6 +8,8 @@ class KDEEOPMJCHO;
 #define KDEEOPMJCHO_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D07F900)
 #define KDEEOPMJCHO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D07F8C0)
 
+inline static constexpr unsigned int KDEEOPMJCHO_TypeDefinitionIndex = 19937;
+
 	class KDEEOPMJCHO : public ::RPG::GameCore::TaskConfig
 	{
 	public:

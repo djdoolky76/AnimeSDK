@@ -25,6 +25,8 @@ namespace System { class String; }
 #define HLFJAELPOPL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E5BD850)
 #define HLFJAELPOPL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E5BD8B0)
 
+inline static constexpr unsigned int HLFJAELPOPL_TypeDefinitionIndex = 26602;
+
 	class HLFJAELPOPL : public ::System::Object
 	{
 	public:

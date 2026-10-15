@@ -6,6 +6,8 @@
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int SelectionBaseAttribute_TypeDefinitionIndex = 4342;
+
 	class SelectionBaseAttribute : public ::System::Attribute
 	{
 	public:

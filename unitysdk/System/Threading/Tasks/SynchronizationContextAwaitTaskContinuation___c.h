@@ -9,6 +9,8 @@ namespace System { class Object; }
 
 namespace System::Threading::Tasks
 {
+	inline static constexpr unsigned int SynchronizationContextAwaitTaskContinuation___c_TypeDefinitionIndex = 922;
+
 	class SynchronizationContextAwaitTaskContinuation___c : public ::System::Object
 	{
 	public:

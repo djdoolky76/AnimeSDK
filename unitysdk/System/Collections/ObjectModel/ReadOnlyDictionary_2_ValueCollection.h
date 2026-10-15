@@ -6,6 +6,8 @@ namespace System::Collections::Generic { template <typename T> class ICollection
 
 namespace System::Collections::ObjectModel
 {
+	inline static constexpr unsigned int ReadOnlyDictionary_2_ValueCollection_TypeDefinitionIndex = 1511;
+
 	template <typename T1, typename T2>
 	class ReadOnlyDictionary_2_ValueCollection : public ::System::Object
 	{

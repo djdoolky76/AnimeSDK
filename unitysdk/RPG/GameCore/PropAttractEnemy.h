@@ -13,6 +13,8 @@ namespace RPG::GameCore { class PropAttractEnemy; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PropAttractEnemy_TypeDefinitionIndex = 20178;
+
 	class PropAttractEnemy : public ::RPG::GameCore::TaskConfig
 	{
 	public:

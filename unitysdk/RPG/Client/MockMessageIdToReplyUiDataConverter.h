@@ -8,6 +8,8 @@ namespace RPG::Client { class MessageReplyUiData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MockMessageIdToReplyUiDataConverter_TypeDefinitionIndex = 61547;
+
 	class MockMessageIdToReplyUiDataConverter : public ::System::Object
 	{
 	public:

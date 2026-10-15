@@ -23,6 +23,8 @@ namespace System { class Action; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int DrinkMakerCheersUtil_TypeDefinitionIndex = 63628;
+
 	class DrinkMakerCheersUtil : public ::System::Object
 	{
 	public:

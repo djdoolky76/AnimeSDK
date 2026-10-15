@@ -6,6 +6,8 @@ namespace RPG::GameCore { class ModifyAdventureCharacterRunSpeedRatio; }
 #define GFGMMPIDNGI_CTOR_OFFSET UNITYSDK_OFFSET(0x159F7210)
 #define GFGMMPIDNGI_KPIDBBLMOEJ_OFFSET UNITYSDK_OFFSET(0x159F7130)
 
+inline static constexpr unsigned int GFGMMPIDNGI_TypeDefinitionIndex = 53022;
+
 	class GFGMMPIDNGI : public ::System::Object
 	{
 	public:

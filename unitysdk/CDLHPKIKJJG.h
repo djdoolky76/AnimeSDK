@@ -7,6 +7,8 @@ class FPNHGPEICOG;
 #define CDLHPKIKJJG_CTOR_OFFSET UNITYSDK_OFFSET(0xC76D5C0)
 #define CDLHPKIKJJG_ILOHHJDPDBE_OFFSET UNITYSDK_OFFSET(0xC76D1B0)
 
+inline static constexpr unsigned int CDLHPKIKJJG_TypeDefinitionIndex = 53685;
+
 	class CDLHPKIKJJG : public ::System::Object
 	{
 	public:

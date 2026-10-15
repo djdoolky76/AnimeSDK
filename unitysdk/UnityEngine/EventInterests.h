@@ -8,6 +8,8 @@
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int EventInterests_TypeDefinitionIndex = 5164;
+
 	struct alignas(4) EventInterests
 	{
 		::System::Boolean _wantsMouseMove_k__BackingField; // 0x10

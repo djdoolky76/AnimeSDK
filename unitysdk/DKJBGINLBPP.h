@@ -27,6 +27,8 @@ namespace System { class String; }
 #define DKJBGINLBPP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E1D82E0)
 #define DKJBGINLBPP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E1D8340)
 
+inline static constexpr unsigned int DKJBGINLBPP_TypeDefinitionIndex = 35111;
+
 	class DKJBGINLBPP : public ::System::Object
 	{
 	public:

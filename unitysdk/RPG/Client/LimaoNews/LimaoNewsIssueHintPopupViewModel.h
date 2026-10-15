@@ -20,6 +20,8 @@ namespace Sofa::Core { class SimpleCommand; }
 
 namespace RPG::Client::LimaoNews
 {
+	inline static constexpr unsigned int LimaoNewsIssueHintPopupViewModel_TypeDefinitionIndex = 80454;
+
 	class LimaoNewsIssueHintPopupViewModel : public ::Sofa::BaseViewModel
 	{
 	public:

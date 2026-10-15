@@ -17,6 +17,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::UI::External::OS
 {
+	inline static constexpr unsigned int AccountListLogoutConfirmPluginUI_TypeDefinitionIndex = 8412;
+
 	class AccountListLogoutConfirmPluginUI : public ::System::Object
 	{
 	public:

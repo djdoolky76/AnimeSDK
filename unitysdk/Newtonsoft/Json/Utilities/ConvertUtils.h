@@ -41,6 +41,8 @@ namespace System::Globalization { class CultureInfo; }
 
 namespace Newtonsoft::Json::Utilities
 {
+	inline static constexpr unsigned int ConvertUtils_TypeDefinitionIndex = 9657;
+
 	class ConvertUtils : public ::System::Object
 	{
 	public:

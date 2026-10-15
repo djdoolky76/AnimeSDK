@@ -12,6 +12,8 @@ namespace RPG::GameCore { class GameEntity; }
 #define KMEHCIAJEMA_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xB544EE0)
 #define KMEHCIAJEMA_SET_ISINVOLUME_OFFSET UNITYSDK_OFFSET(0xB544F50)
 
+inline static constexpr unsigned int KMEHCIAJEMA_TypeDefinitionIndex = 56675;
+
 	class KMEHCIAJEMA : public ::CMPGEAFHHDC
 	{
 	public:

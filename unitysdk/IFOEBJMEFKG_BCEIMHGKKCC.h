@@ -8,6 +8,8 @@ namespace System { template <typename T> class Predicate_1; }
 #define IFOEBJMEFKG_BCEIMHGKKCC_GET_ISPROGRESSMET_OFFSET UNITYSDK_OFFSET(0x15F30400)
 #define IFOEBJMEFKG_BCEIMHGKKCC_SET_ISPROGRESSMET_OFFSET UNITYSDK_OFFSET(0x15F30410)
 
+inline static constexpr unsigned int IFOEBJMEFKG_BCEIMHGKKCC_TypeDefinitionIndex = 79440;
+
 	class IFOEBJMEFKG_BCEIMHGKKCC : public ::System::Object
 	{
 	public:

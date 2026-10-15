@@ -25,6 +25,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoAnimatorPlatform_TypeDefinitionIndex = 68516;
+
 	class MonoAnimatorPlatform : public ::UnityEngine::MonoBehaviour
 	{
 	public:

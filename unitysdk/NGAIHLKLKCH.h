@@ -9,6 +9,8 @@ class NGAIHLKLKCH;
 #define NGAIHLKLKCH_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D204A00)
 #define NGAIHLKLKCH_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D2049C0)
 
+inline static constexpr unsigned int NGAIHLKLKCH_TypeDefinitionIndex = 10312;
+
 	class NGAIHLKLKCH : public ::RPG::GameCore::TaskConfig
 	{
 	public:

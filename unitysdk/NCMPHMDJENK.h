@@ -13,6 +13,8 @@ class PJAPDCPOBGC;
 #define NCMPHMDJENK_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xBB16C50)
 #define NCMPHMDJENK_CTOR_OFFSET UNITYSDK_OFFSET(0xBB16DD0)
 
+inline static constexpr unsigned int NCMPHMDJENK_TypeDefinitionIndex = 81735;
+
 	class NCMPHMDJENK : public ::System::Object
 	{
 	public:

@@ -14,6 +14,8 @@ namespace System { class String; }
 #define JPALBBKCNHE_PIHIHEGGAHC_1_OFFSET UNITYSDK_OFFSET(0x1C4A8A30)
 #define JPALBBKCNHE_PIHIHEGGAHC_OFFSET UNITYSDK_OFFSET(0x1C4A89B0)
 
+inline static constexpr unsigned int JPALBBKCNHE_TypeDefinitionIndex = 41415;
+
 	class JPALBBKCNHE : public ::System::Object
 	{
 	public:

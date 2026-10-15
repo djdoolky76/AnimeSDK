@@ -25,6 +25,8 @@ namespace System::Text { class StringBuilder; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int JSONNull_TypeDefinitionIndex = 8140;
+
 	class JSONNull : public ::MiHoYo::SDK::JSONNode
 	{
 	public:

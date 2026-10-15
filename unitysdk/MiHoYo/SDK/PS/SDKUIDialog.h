@@ -28,6 +28,8 @@ namespace UnityEngine::UI { class Slider; }
 
 namespace MiHoYo::SDK::PS
 {
+	inline static constexpr unsigned int SDKUIDialog_TypeDefinitionIndex = 8929;
+
 	class SDKUIDialog : public ::UnityEngine::MonoBehaviour
 	{
 	public:

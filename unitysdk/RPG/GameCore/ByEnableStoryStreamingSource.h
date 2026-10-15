@@ -13,6 +13,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByEnableStoryStreamingSource_TypeDefinitionIndex = 21905;
+
 	class ByEnableStoryStreamingSource : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

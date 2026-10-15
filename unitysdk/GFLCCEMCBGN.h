@@ -7,6 +7,8 @@ class GJHNDAONNGP;
 #define GFLCCEMCBGN_CTOR_OFFSET UNITYSDK_OFFSET(0x159FB3C0)
 #define GFLCCEMCBGN_EKMPMMLBNEL_OFFSET UNITYSDK_OFFSET(0x159FB450)
 
+inline static constexpr unsigned int GFLCCEMCBGN_TypeDefinitionIndex = 62562;
+
 	class GFLCCEMCBGN : public ::System::Object
 	{
 	public:

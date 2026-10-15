@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define OHEAFHBABNG_CTOR_OFFSET UNITYSDK_OFFSET(0xBE61FA0)
 #define OHEAFHBABNG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBE61FD0)
 
+inline static constexpr unsigned int OHEAFHBABNG_TypeDefinitionIndex = 58631;
+
 	class OHEAFHBABNG
 	{
 	public:

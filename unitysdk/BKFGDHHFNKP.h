@@ -21,6 +21,8 @@ namespace System::Collections::Generic { template <typename T> class Queue_1; }
 #define BKFGDHHFNKP_NFDHENMGIBA_OFFSET UNITYSDK_OFFSET(0xB7B26D0)
 #define BKFGDHHFNKP_NNBOAIKAKPF_OFFSET UNITYSDK_OFFSET(0xB7B13A0)
 
+inline static constexpr unsigned int BKFGDHHFNKP_TypeDefinitionIndex = 77608;
+
 	class BKFGDHHFNKP : public ::System::Object
 	{
 	public:

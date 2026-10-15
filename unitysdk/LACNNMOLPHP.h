@@ -11,6 +11,8 @@ namespace RPG::Client { class RogueFormulaInfo; }
 #define LACNNMOLPHP_HGPMGBPDAHA_OFFSET UNITYSDK_OFFSET(0xB5DA8A0)
 #define LACNNMOLPHP_JAGMPHPNAHM_OFFSET UNITYSDK_OFFSET(0xB5DA6B0)
 
+inline static constexpr unsigned int LACNNMOLPHP_TypeDefinitionIndex = 67078;
+
 	class LACNNMOLPHP : public ::KJNJKIMNDMH
 	{
 	public:

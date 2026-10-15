@@ -8,6 +8,8 @@ namespace System { class String; }
 
 #define EHGMEDDCHLH_KDPEDNKCMEB_OFFSET UNITYSDK_OFFSET(0x2E72A70)
 
+inline static constexpr unsigned int EHGMEDDCHLH_TypeDefinitionIndex = 57671;
+
 	struct alignas(8) EHGMEDDCHLH
 	{
 		::System::Boolean AIABGNPIEJP; // 0x10

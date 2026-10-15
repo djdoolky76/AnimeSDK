@@ -6,6 +6,8 @@
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int LightVolumeInfo_TypeDefinitionIndex = 4874;
+
 	struct alignas(4) LightVolumeInfo
 	{
 		::System::Int32 posmType; // 0x10

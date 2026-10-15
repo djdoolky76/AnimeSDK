@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetTeamLockTarget_TypeDefinitionIndex = 22706;
+
 	class SetTeamLockTarget : public ::RPG::GameCore::TaskConfig
 	{
 	public:

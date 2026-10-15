@@ -13,6 +13,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByChimeraDuelIsMasterSelected_TypeDefinitionIndex = 24305;
+
 	class ByChimeraDuelIsMasterSelected : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

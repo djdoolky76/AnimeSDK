@@ -19,6 +19,8 @@ namespace System { class Object; }
 #define IODNOFHGFKC_MOAPBOHIGHM_OFFSET UNITYSDK_OFFSET(0x164FFF60)
 #define IODNOFHGFKC_NJALMNLMHEO_OFFSET UNITYSDK_OFFSET(0x164FFAB0)
 
+inline static constexpr unsigned int IODNOFHGFKC_TypeDefinitionIndex = 59709;
+
 	class IODNOFHGFKC : public ::LJKHPOHKIIF
 	{
 	public:

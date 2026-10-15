@@ -29,6 +29,8 @@ namespace System { class String; }
 #define EHELNMGMENO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E29EA90)
 #define EHELNMGMENO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E29EAF0)
 
+inline static constexpr unsigned int EHELNMGMENO_TypeDefinitionIndex = 33329;
+
 	class EHELNMGMENO : public ::System::Object
 	{
 	public:

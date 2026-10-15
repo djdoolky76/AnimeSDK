@@ -40,6 +40,8 @@ namespace Spine::Unity { class UpdateBonesDelegate; }
 
 namespace Spine::Unity
 {
+	inline static constexpr unsigned int SkeletonMecanim_TypeDefinitionIndex = 45035;
+
 	class SkeletonMecanim : public ::Spine::Unity::SkeletonRenderer
 	{
 	public:

@@ -12,6 +12,8 @@ namespace UnityEngine::UIElements { class MouseLeaveWindowEvent; }
 
 namespace UnityEngine::UIElements
 {
+	inline static constexpr unsigned int MouseLeaveWindowEvent_TypeDefinitionIndex = 5968;
+
 	class MouseLeaveWindowEvent
 	{
 	public:

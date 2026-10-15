@@ -4,6 +4,8 @@
 
 namespace ZLinq
 {
+	inline static constexpr unsigned int ValueEnumerableExtensions_TypeDefinitionIndex = 6090;
+
 	class ValueEnumerableExtensions : public ::System::Object
 	{
 	public:

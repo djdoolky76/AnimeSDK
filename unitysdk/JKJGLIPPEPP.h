@@ -7,6 +7,8 @@ namespace System { class String; }
 
 #define JKJGLIPPEPP_CTOR_OFFSET UNITYSDK_OFFSET(0xB21F410)
 
+inline static constexpr unsigned int JKJGLIPPEPP_TypeDefinitionIndex = 72112;
+
 	class JKJGLIPPEPP : public ::System::Object
 	{
 	public:

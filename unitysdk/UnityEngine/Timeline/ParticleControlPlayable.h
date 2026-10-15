@@ -21,6 +21,8 @@ namespace UnityEngine::Timeline { class ParticleControlPlayable; }
 
 namespace UnityEngine::Timeline
 {
+	inline static constexpr unsigned int ParticleControlPlayable_TypeDefinitionIndex = 38848;
+
 	class ParticleControlPlayable : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

@@ -13,6 +13,8 @@ namespace RPG::Client { class ScheduleTask; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AbyssAdvertActivityData_TypeDefinitionIndex = 61574;
+
 	class AbyssAdvertActivityData : public ::RPG::Client::CustomizedActivityPanelData
 	{
 	public:

@@ -10,6 +10,8 @@
 #include "unitysdk/_PrivateImplementationDetails__5D203A2A7285B327___StaticArrayInitTypeSize_48.h"
 #include "unitysdk/_PrivateImplementationDetails__5D203A2A7285B327___StaticArrayInitTypeSize_52.h"
 
+inline static constexpr unsigned int _PrivateImplementationDetails__5D203A2A7285B327_TypeDefinitionIndex = 5009;
+
 	class _PrivateImplementationDetails__5D203A2A7285B327 : public ::System::Object
 	{
 	public:

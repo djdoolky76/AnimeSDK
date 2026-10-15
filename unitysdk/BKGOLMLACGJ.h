@@ -10,6 +10,8 @@ namespace System { class String; }
 #define BKGOLMLACGJ_HGAFLLOHNMO_1_OFFSET UNITYSDK_OFFSET(0xB7B5320)
 #define BKGOLMLACGJ_HGAFLLOHNMO_OFFSET UNITYSDK_OFFSET(0xB7B4B00)
 
+inline static constexpr unsigned int BKGOLMLACGJ_TypeDefinitionIndex = 67237;
+
 	class BKGOLMLACGJ : public ::System::Object
 	{
 	public:

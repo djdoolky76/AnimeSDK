@@ -8,6 +8,8 @@ class NJKFOJJDGGG;
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightTeam_GrantUnlockSummarizer_TypeDefinitionIndex = 65165;
+
 	class GridFightTeam_GrantUnlockSummarizer : public ::AMCOEFHHBPO
 	{
 	public:

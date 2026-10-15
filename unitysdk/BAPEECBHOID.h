@@ -7,6 +7,8 @@ namespace RPG::GameCore { class ChenLingBattleTriggerCallback; }
 
 #define BAPEECBHOID_CTOR_OFFSET UNITYSDK_OFFSET(0x1C8B0980)
 
+inline static constexpr unsigned int BAPEECBHOID_TypeDefinitionIndex = 43773;
+
 	class BAPEECBHOID : public ::System::Object
 	{
 	public:

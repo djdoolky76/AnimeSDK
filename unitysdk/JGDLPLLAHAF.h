@@ -4,6 +4,8 @@
 
 #define JGDLPLLAHAF_CTOR_OFFSET UNITYSDK_OFFSET(0x1CB94720)
 
+inline static constexpr unsigned int JGDLPLLAHAF_TypeDefinitionIndex = 42447;
+
 	class JGDLPLLAHAF : public ::System::Object
 	{
 	public:

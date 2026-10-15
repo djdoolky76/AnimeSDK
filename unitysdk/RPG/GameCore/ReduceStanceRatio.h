@@ -13,6 +13,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ReduceStanceRatio_TypeDefinitionIndex = 23566;
+
 	class ReduceStanceRatio : public ::RPG::GameCore::TaskConfig
 	{
 	public:

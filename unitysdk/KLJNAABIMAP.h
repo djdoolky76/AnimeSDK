@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define KLJNAABIMAP_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1D0AA780)
 #define KLJNAABIMAP_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1D0AA0E0)
 
+inline static constexpr unsigned int KLJNAABIMAP_TypeDefinitionIndex = 13937;
+
 	class KLJNAABIMAP : public ::System::Object
 	{
 	public:

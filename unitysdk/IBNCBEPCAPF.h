@@ -25,6 +25,8 @@ namespace System { class String; }
 #define IBNCBEPCAPF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E61AF70)
 #define IBNCBEPCAPF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E61AFD0)
 
+inline static constexpr unsigned int IBNCBEPCAPF_TypeDefinitionIndex = 34881;
+
 	class IBNCBEPCAPF : public ::System::Object
 	{
 	public:

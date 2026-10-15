@@ -8,6 +8,8 @@ class FCOEMCEDLNL;
 #define DDBILBLIOGP_CTOR_OFFSET UNITYSDK_OFFSET(0x1DCDC2B0)
 #define DDBILBLIOGP_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DCDC180)
 
+inline static constexpr unsigned int DDBILBLIOGP_TypeDefinitionIndex = 11630;
+
 	class DDBILBLIOGP : public ::System::Object
 	{
 	public:

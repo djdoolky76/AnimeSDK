@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ActiveActionCountDown; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ActiveActionCountDown_TypeDefinitionIndex = 23690;
+
 	class ActiveActionCountDown : public ::RPG::GameCore::TaskConfig
 	{
 	public:

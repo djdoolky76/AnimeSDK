@@ -3,6 +3,8 @@
 
 namespace RPG::Client::LittleGame
 {
+	inline static constexpr unsigned int ChimeraGameStage_TypeDefinitionIndex = 41989;
+
 	enum class ChimeraGameStage : ::System::Int32
 	{
 		None = 0,

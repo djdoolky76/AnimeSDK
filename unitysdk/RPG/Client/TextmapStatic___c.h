@@ -12,6 +12,8 @@ namespace UnityEngine { class Sprite; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TextmapStatic___c_TypeDefinitionIndex = 72947;
+
 	class TextmapStatic___c : public ::System::Object
 	{
 	public:

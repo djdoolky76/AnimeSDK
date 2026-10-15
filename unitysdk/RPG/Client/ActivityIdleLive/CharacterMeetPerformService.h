@@ -26,6 +26,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::ActivityIdleLive
 {
+	inline static constexpr unsigned int CharacterMeetPerformService_TypeDefinitionIndex = 75166;
+
 	class CharacterMeetPerformService : public ::System::Object
 	{
 	public:

@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int AMEIKAGDIFC_TypeDefinitionIndex = 33590;
+
 	enum class AMEIKAGDIFC : ::System::Int32
 	{
 		PBGOAOGCPLA = 0,

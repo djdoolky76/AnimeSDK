@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TaskContext; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelAudioTriggerTask_TypeDefinitionIndex = 58182;
+
 	class LevelAudioTriggerTask : public ::GELIALJDFBL
 	{
 	public:

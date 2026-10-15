@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TimeRewindAnimRaycastBind_TypeDefinitionIndex = 60847;
+
 	class TimeRewindAnimRaycastBind : public ::System::Object
 	{
 	public:

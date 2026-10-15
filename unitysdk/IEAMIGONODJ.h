@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define IEAMIGONODJ_DNLHBKDMIHI_OFFSET UNITYSDK_OFFSET(0x15EE70E0)
 #define IEAMIGONODJ_OOGADPGOAIK_OFFSET UNITYSDK_OFFSET(0x15EE7830)
 
+inline static constexpr unsigned int IEAMIGONODJ_TypeDefinitionIndex = 59862;
+
 	class IEAMIGONODJ : public ::System::Object
 	{
 	public:

@@ -27,6 +27,8 @@ namespace System { class String; }
 #define DDHKGAKNOEK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E17EF80)
 #define DDHKGAKNOEK_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E17EFE0)
 
+inline static constexpr unsigned int DDHKGAKNOEK_TypeDefinitionIndex = 28855;
+
 	class DDHKGAKNOEK : public ::System::Object
 	{
 	public:

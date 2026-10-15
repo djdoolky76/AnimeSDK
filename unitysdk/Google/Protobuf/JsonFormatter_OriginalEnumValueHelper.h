@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace Google::Protobuf
 {
+	inline static constexpr unsigned int JsonFormatter_OriginalEnumValueHelper_TypeDefinitionIndex = 5404;
+
 	class JsonFormatter_OriginalEnumValueHelper : public ::System::Object
 	{
 	public:

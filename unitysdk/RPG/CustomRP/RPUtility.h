@@ -131,6 +131,8 @@ namespace UnityEngine::Rendering { class CommandBufferExt; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int RPUtility_TypeDefinitionIndex = 37898;
+
 	class RPUtility : public ::System::Object
 	{
 	public:

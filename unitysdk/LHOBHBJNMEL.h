@@ -7,6 +7,8 @@ class GBDIKBFIMIM;
 #define LHOBHBJNMEL_CTOR_OFFSET UNITYSDK_OFFSET(0xB6BFC20)
 #define LHOBHBJNMEL_OJDAKJHMKGB_OFFSET UNITYSDK_OFFSET(0xB6BFC30)
 
+inline static constexpr unsigned int LHOBHBJNMEL_TypeDefinitionIndex = 81063;
+
 	class LHOBHBJNMEL : public ::System::Object
 	{
 	public:

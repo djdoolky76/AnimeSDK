@@ -13,6 +13,8 @@ namespace System::Collections::Generic { class KeyValuePair; }
 
 namespace MessagePack::Internal
 {
+	inline static constexpr unsigned int DynamicObjectTypeBuilder___c__DisplayClass17_1_TypeDefinitionIndex = 7324;
+
 	template <typename T>
 	class DynamicObjectTypeBuilder___c__DisplayClass17_1 : public ::System::Object
 	{

@@ -37,6 +37,8 @@ namespace System { class String; }
 #define DBLILHCLPPL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E160000)
 #define DBLILHCLPPL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E160060)
 
+inline static constexpr unsigned int DBLILHCLPPL_TypeDefinitionIndex = 34232;
+
 	class DBLILHCLPPL : public ::System::Object
 	{
 	public:

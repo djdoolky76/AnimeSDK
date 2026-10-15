@@ -17,6 +17,8 @@ namespace UnityEngine::Rendering { class VolumeProxy; }
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int Volume_TypeDefinitionIndex = 35614;
+
 	class Volume : public ::UnityEngine::MonoBehaviour
 	{
 	public:

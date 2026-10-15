@@ -15,6 +15,8 @@ namespace System { class Object; }
 #define PNCCGFBICDE_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xC333280)
 #define PNCCGFBICDE_TICK_OFFSET UNITYSDK_OFFSET(0xC3332D0)
 
+inline static constexpr unsigned int PNCCGFBICDE_TypeDefinitionIndex = 58636;
+
 	class PNCCGFBICDE : public ::GELIALJDFBL
 	{
 	public:

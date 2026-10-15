@@ -19,6 +19,8 @@ namespace System { class Object; }
 #define DKOIGLHOGDH___C___CCTOR_B__3_8_OFFSET UNITYSDK_OFFSET(0x1C5F65D0)
 #define DKOIGLHOGDH___C___CCTOR_B__3_9_OFFSET UNITYSDK_OFFSET(0x1C5F66F0)
 
+inline static constexpr unsigned int DKOIGLHOGDH___c_TypeDefinitionIndex = 37431;
+
 	class DKOIGLHOGDH___c : public ::System::Object
 	{
 	public:

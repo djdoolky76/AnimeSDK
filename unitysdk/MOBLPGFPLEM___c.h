@@ -15,6 +15,8 @@ namespace System { template <typename T> class Comparison_1; }
 #define MOBLPGFPLEM___C___INITSLOTS_B__13_0_OFFSET UNITYSDK_OFFSET(0xBA24BD0)
 #define MOBLPGFPLEM___C___INITSPSLOTS_B__14_0_OFFSET UNITYSDK_OFFSET(0xBA24C10)
 
+inline static constexpr unsigned int MOBLPGFPLEM___c_TypeDefinitionIndex = 75247;
+
 	class MOBLPGFPLEM___c : public ::System::Object
 	{
 	public:

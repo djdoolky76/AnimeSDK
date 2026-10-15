@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ActivityTimeModuleType_TypeDefinitionIndex = 11198;
+
 	enum class ActivityTimeModuleType : ::System::Int32
 	{
 		Normal = 0,

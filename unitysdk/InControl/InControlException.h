@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace InControl
 {
+	inline static constexpr unsigned int InControlException_TypeDefinitionIndex = 40831;
+
 	class InControlException : public ::System::Exception
 	{
 	public:

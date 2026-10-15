@@ -6,6 +6,8 @@ namespace System { class String; }
 
 #define IANEBBBBAHL_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C68E100)
 
+inline static constexpr unsigned int IANEBBBBAHL_TypeDefinitionIndex = 37054;
+
 	class IANEBBBBAHL : public ::System::Object
 	{
 	public:

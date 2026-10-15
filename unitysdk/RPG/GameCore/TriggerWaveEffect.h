@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TriggerWaveEffect; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TriggerWaveEffect_TypeDefinitionIndex = 23432;
+
 	class TriggerWaveEffect : public ::RPG::GameCore::TaskConfig
 	{
 	public:

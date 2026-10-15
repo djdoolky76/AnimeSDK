@@ -13,6 +13,8 @@ namespace UnityEngine::Rendering { class GrowableBuffer; }
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int CommandBufferExt_RenderTextureDesc_TypeDefinitionIndex = 35560;
+
 	struct alignas(4) CommandBufferExt_RenderTextureDesc
 	{
 		::System::Int32 width; // 0x10

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ST_Side_Hipplen_Unlock_Achievement; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ST_Side_Hipplen_Unlock_Achievement_TypeDefinitionIndex = 21307;
+
 	class ST_Side_Hipplen_Unlock_Achievement : public ::RPG::GameCore::STTaskConfig
 	{
 	public:

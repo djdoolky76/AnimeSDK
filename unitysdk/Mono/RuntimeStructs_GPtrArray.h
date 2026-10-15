@@ -3,6 +3,8 @@
 
 namespace Mono
 {
+	inline static constexpr unsigned int RuntimeStructs_GPtrArray_TypeDefinitionIndex = 16;
+
 	struct alignas(8) RuntimeStructs_GPtrArray
 	{
 		::PVOID data; // 0x10

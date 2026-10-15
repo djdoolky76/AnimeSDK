@@ -9,6 +9,8 @@ namespace RPG::Client { class FateBuffSlotData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int FateStatisticsGameSettleDataItem___c__DisplayClass7_0_TypeDefinitionIndex = 64130;
+
 	class FateStatisticsGameSettleDataItem___c__DisplayClass7_0 : public ::System::Object
 	{
 	public:

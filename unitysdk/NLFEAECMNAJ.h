@@ -20,6 +20,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define NLFEAECMNAJ_NOCPJPMDIMA_OFFSET UNITYSDK_OFFSET(0xBC65C30)
 #define NLFEAECMNAJ_PLFOIHCLAPC_OFFSET UNITYSDK_OFFSET(0xBC66580)
 
+inline static constexpr unsigned int NLFEAECMNAJ_TypeDefinitionIndex = 59749;
+
 	class NLFEAECMNAJ : public ::System::Object
 	{
 	public:

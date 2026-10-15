@@ -11,6 +11,8 @@ namespace RPG::GameCore { class FiveDimRemoveGlobalTimeScale; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimRemoveGlobalTimeScale_TypeDefinitionIndex = 21446;
+
 	class FiveDimRemoveGlobalTimeScale : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define AKMULTIPOSEVENT_CTOR_OFFSET UNITYSDK_OFFSET(0x1F5A70A0)
 #define AKMULTIPOSEVENT_FINISHEDPLAYING_OFFSET UNITYSDK_OFFSET(0x1F5A7040)
 
+inline static constexpr unsigned int AkMultiPosEvent_TypeDefinitionIndex = 44908;
+
 	class AkMultiPosEvent : public ::System::Object
 	{
 	public:

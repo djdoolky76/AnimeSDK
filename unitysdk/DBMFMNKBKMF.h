@@ -7,6 +7,8 @@ namespace RPG::Client { class GridFightFinancing; }
 #define DBMFMNKBKMF_DJKCKOEBPLF_OFFSET UNITYSDK_OFFSET(0xE232B40)
 #define DBMFMNKBKMF__GETSPECIALDISPLAYPARAM_B__1_0_OFFSET UNITYSDK_OFFSET(0xE232DF0)
 
+inline static constexpr unsigned int DBMFMNKBKMF_TypeDefinitionIndex = 64972;
+
 	class DBMFMNKBKMF : public ::System::Object
 	{
 	public:

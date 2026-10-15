@@ -49,6 +49,8 @@ namespace UnityEngine { class MonoBehaviour; }
 #define CIIFBLMIPGP_PEMICJFNMHP_OFFSET UNITYSDK_OFFSET(0xCF7BF00)
 #define CIIFBLMIPGP_POPNLPIAOCM_OFFSET UNITYSDK_OFFSET(0xCF7AF80)
 
+inline static constexpr unsigned int CIIFBLMIPGP_TypeDefinitionIndex = 69861;
+
 	class CIIFBLMIPGP : public ::RPG::Client::BehaviorBase
 	{
 	public:

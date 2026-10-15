@@ -39,6 +39,8 @@ namespace System { class String; }
 #define HBFIBDGJLHE_LBKIAHODLLM_SET_PROXY_OFFSET UNITYSDK_OFFSET(0x15C01AE0)
 #define HBFIBDGJLHE_LBKIAHODLLM_SET_WAITSECONDS_OFFSET UNITYSDK_OFFSET(0x15C01BE0)
 
+inline static constexpr unsigned int HBFIBDGJLHE_LBKIAHODLLM_TypeDefinitionIndex = 82173;
+
 	class HBFIBDGJLHE_LBKIAHODLLM : public ::System::Object
 	{
 	public:

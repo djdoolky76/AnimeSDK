@@ -14,6 +14,8 @@ namespace System::Linq::Expressions::Interpreter { class InterpretedFrame; }
 
 namespace System::Linq::Expressions::Interpreter
 {
+	inline static constexpr unsigned int NullCheckInstruction_TypeDefinitionIndex = 3595;
+
 	class NullCheckInstruction : public ::System::Linq::Expressions::Interpreter::Instruction
 	{
 	public:

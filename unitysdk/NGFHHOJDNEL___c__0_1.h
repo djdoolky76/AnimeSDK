@@ -7,6 +7,8 @@ namespace System { class String; }
 namespace UnityEngine::Events { class UnityAction; }
 namespace UnityEngine::UI { class InputField; }
 
+inline static constexpr unsigned int NGFHHOJDNEL___c__0_1_TypeDefinitionIndex = 49925;
+
 	template <typename T>
 	class NGFHHOJDNEL___c__0_1 : public ::System::Object
 	{

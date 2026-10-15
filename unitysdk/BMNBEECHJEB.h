@@ -6,6 +6,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 #define BMNBEECHJEB_CTOR_OFFSET UNITYSDK_OFFSET(0xBDBF0A0)
 
+inline static constexpr unsigned int BMNBEECHJEB_TypeDefinitionIndex = 62035;
+
 	class BMNBEECHJEB : public ::System::Object
 	{
 	public:

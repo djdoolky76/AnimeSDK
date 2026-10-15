@@ -47,6 +47,8 @@ namespace System { class String; }
 #define BHMAJOCINCF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DDF9730)
 #define BHMAJOCINCF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DDF9790)
 
+inline static constexpr unsigned int BHMAJOCINCF_TypeDefinitionIndex = 30677;
+
 	class BHMAJOCINCF : public ::System::Object
 	{
 	public:

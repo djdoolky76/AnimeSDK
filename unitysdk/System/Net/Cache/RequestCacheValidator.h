@@ -7,6 +7,8 @@ namespace System { class Object; }
 
 namespace System::Net::Cache
 {
+	inline static constexpr unsigned int RequestCacheValidator_TypeDefinitionIndex = 2981;
+
 	class RequestCacheValidator : public ::System::Object
 	{
 	public:

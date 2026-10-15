@@ -17,6 +17,8 @@ namespace System { class Object; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int StoryCharacterVisibleBehaviour_TypeDefinitionIndex = 48324;
+
 	class StoryCharacterVisibleBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

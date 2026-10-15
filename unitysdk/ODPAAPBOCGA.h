@@ -10,6 +10,8 @@ namespace Entitas { class IGroup; }
 #define ODPAAPBOCGA_GET_AOEGROUP_OFFSET UNITYSDK_OFFSET(0x1C7CC280)
 #define ODPAAPBOCGA_SET_AOEGROUP_OFFSET UNITYSDK_OFFSET(0x1C7CC290)
 
+inline static constexpr unsigned int ODPAAPBOCGA_TypeDefinitionIndex = 37277;
+
 	class ODPAAPBOCGA : public ::System::Object
 	{
 	public:

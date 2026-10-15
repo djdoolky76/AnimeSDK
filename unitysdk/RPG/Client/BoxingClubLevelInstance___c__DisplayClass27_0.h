@@ -8,6 +8,8 @@ namespace RPG::Client { class BattleGamePhase; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int BoxingClubLevelInstance___c__DisplayClass27_0_TypeDefinitionIndex = 62953;
+
 	class BoxingClubLevelInstance___c__DisplayClass27_0 : public ::System::Object
 	{
 	public:

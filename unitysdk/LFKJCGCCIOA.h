@@ -15,6 +15,8 @@ class PEEDLCHFAFL;
 #define LFKJCGCCIOA_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xB682240)
 #define LFKJCGCCIOA_MKNIGJPLONJ_OFFSET UNITYSDK_OFFSET(0xB681F90)
 
+inline static constexpr unsigned int LFKJCGCCIOA_TypeDefinitionIndex = 76878;
+
 	class LFKJCGCCIOA : public ::System::Object
 	{
 	public:

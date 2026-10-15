@@ -47,6 +47,8 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyLi
 #define GKCNCLIOFDA_JFNHCEFCJKI_PMMGNKAIFNJ_OFFSET UNITYSDK_OFFSET(0x15A85800)
 #define GKCNCLIOFDA_JFNHCEFCJKI_SET_ISSTARTED_OFFSET UNITYSDK_OFFSET(0x15A90830)
 
+inline static constexpr unsigned int GKCNCLIOFDA_JFNHCEFCJKI_TypeDefinitionIndex = 53536;
+
 	class GKCNCLIOFDA_JFNHCEFCJKI : public ::System::Object
 	{
 	public:

@@ -3,6 +3,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int EntitySpawnTransitionType_TypeDefinitionIndex = 62207;
+
 	enum class EntitySpawnTransitionType : ::System::Int32
 	{
 		None = 0,

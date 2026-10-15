@@ -14,6 +14,8 @@ namespace System::Collections::Generic { template <typename T> class IList_1; }
 
 namespace SRDebugger::Internal
 {
+	inline static constexpr unsigned int OptionControlFactory_TypeDefinitionIndex = 38103;
+
 	class OptionControlFactory : public ::System::Object
 	{
 	public:

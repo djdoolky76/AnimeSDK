@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace StageBudgetTool
 {
+	inline static constexpr unsigned int StageBudgetConfig_TypeDefinitionIndex = 47725;
+
 	class StageBudgetConfig : public ::UnityEngine::ScriptableObject
 	{
 	public:

@@ -5,6 +5,8 @@ namespace System::Reflection { class MethodInfo; }
 
 namespace System::Reflection
 {
+	inline static constexpr unsigned int InterfaceMapping_TypeDefinitionIndex = 564;
+
 	struct alignas(8) InterfaceMapping
 	{
 		::System::Type* TargetType; // 0x10

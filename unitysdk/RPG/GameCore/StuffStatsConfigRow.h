@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int StuffStatsConfigRow_TypeDefinitionIndex = 14233;
+
 	class StuffStatsConfigRow : public ::System::Object
 	{
 	public:

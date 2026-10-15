@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace SRDebugger
 {
+	inline static constexpr unsigned int DropSelectorAttribute_TypeDefinitionIndex = 37958;
+
 	class DropSelectorAttribute : public ::System::Attribute
 	{
 	public:

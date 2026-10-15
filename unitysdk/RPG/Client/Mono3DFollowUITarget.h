@@ -18,6 +18,8 @@ namespace UnityEngine { class RectTransform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int Mono3DFollowUITarget_TypeDefinitionIndex = 68958;
+
 	class Mono3DFollowUITarget : public ::UnityEngine::MonoBehaviour
 	{
 	public:

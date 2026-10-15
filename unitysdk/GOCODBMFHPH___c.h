@@ -9,6 +9,8 @@ namespace System { class Object; }
 #define GOCODBMFHPH___C_CTOR_OFFSET UNITYSDK_OFFSET(0x15B2A380)
 #define GOCODBMFHPH___C___EXECUTESWITCHPHASE_B__9_3_OFFSET UNITYSDK_OFFSET(0x15B2A390)
 
+inline static constexpr unsigned int GOCODBMFHPH___c_TypeDefinitionIndex = 76302;
+
 	class GOCODBMFHPH___c : public ::System::Object
 	{
 	public:

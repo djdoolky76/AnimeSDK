@@ -6,6 +6,8 @@
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int DebugUI_TypeDefinitionIndex = 35523;
+
 	class DebugUI : public ::System::Object
 	{
 	public:

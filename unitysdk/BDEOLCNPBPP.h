@@ -29,6 +29,8 @@ namespace System { class String; }
 #define BDEOLCNPBPP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E9154B0)
 #define BDEOLCNPBPP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E915510)
 
+inline static constexpr unsigned int BDEOLCNPBPP_TypeDefinitionIndex = 31491;
+
 	class BDEOLCNPBPP : public ::System::Object
 	{
 	public:

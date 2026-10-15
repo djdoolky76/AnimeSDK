@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MonsterLodInfo_TypeDefinitionIndex = 19107;
+
 	class MonsterLodInfo : public ::RPG::GameCore::JsonConfig
 	{
 	public:

@@ -11,6 +11,8 @@ class AAFIACIMMHE;
 #define AKOHIFHGKOG_SET_DIVISIONLEVELUPRULE_OFFSET UNITYSDK_OFFSET(0x12CDEF50)
 #define AKOHIFHGKOG_SET_MAXPERCENT_OFFSET UNITYSDK_OFFSET(0x12CDEF30)
 
+inline static constexpr unsigned int AKOHIFHGKOG_TypeDefinitionIndex = 79743;
+
 	class AKOHIFHGKOG : public ::System::Object
 	{
 	public:

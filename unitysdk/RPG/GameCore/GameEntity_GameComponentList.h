@@ -5,6 +5,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GameEntity_GameComponentList_TypeDefinitionIndex = 53553;
+
 	class GameEntity_GameComponentList
 	{
 	public:

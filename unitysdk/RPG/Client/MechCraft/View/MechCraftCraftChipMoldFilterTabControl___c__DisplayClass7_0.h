@@ -8,6 +8,8 @@ class KPMLCCHLLKG;
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftCraftChipMoldFilterTabControl___c__DisplayClass7_0_TypeDefinitionIndex = 79861;
+
 	class MechCraftCraftChipMoldFilterTabControl___c__DisplayClass7_0 : public ::System::Object
 	{
 	public:

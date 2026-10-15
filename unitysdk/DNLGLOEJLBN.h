@@ -7,6 +7,8 @@ namespace UnityEngine { class RectTransform; }
 #define DNLGLOEJLBN_CFEEHOEFHHO_OFFSET UNITYSDK_OFFSET(0x11FD7770)
 #define DNLGLOEJLBN_IKNMBGBHGIJ_OFFSET UNITYSDK_OFFSET(0x11FD78F0)
 
+inline static constexpr unsigned int DNLGLOEJLBN_TypeDefinitionIndex = 68986;
+
 	class DNLGLOEJLBN : public ::System::Object
 	{
 	public:

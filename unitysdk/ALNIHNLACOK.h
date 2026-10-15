@@ -30,6 +30,8 @@ namespace System { class String; }
 #define ALNIHNLACOK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E5148F0)
 #define ALNIHNLACOK_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E514950)
 
+inline static constexpr unsigned int ALNIHNLACOK_TypeDefinitionIndex = 31982;
+
 	class ALNIHNLACOK : public ::System::Object
 	{
 	public:

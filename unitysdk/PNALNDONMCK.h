@@ -29,6 +29,8 @@ namespace System { class String; }
 #define PNALNDONMCK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DFB1A10)
 #define PNALNDONMCK_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DFB1A70)
 
+inline static constexpr unsigned int PNALNDONMCK_TypeDefinitionIndex = 30306;
+
 	class PNALNDONMCK : public ::System::Object
 	{
 	public:

@@ -13,6 +13,8 @@ namespace RPG::GameCore { class VCameraBlendConfig; }
 #define IIOPPJBFFDG_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x16455740)
 #define IIOPPJBFFDG_TICK_OFFSET UNITYSDK_OFFSET(0x16455790)
 
+inline static constexpr unsigned int IIOPPJBFFDG_TypeDefinitionIndex = 55796;
+
 	class IIOPPJBFFDG : public ::GELIALJDFBL
 	{
 	public:

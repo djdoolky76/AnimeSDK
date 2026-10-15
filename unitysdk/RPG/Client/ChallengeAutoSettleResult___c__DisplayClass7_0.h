@@ -8,6 +8,8 @@ namespace RPG::Client { class ItemDisplayData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ChallengeAutoSettleResult___c__DisplayClass7_0_TypeDefinitionIndex = 63102;
+
 	class ChallengeAutoSettleResult___c__DisplayClass7_0 : public ::System::Object
 	{
 	public:

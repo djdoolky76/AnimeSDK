@@ -6,6 +6,8 @@ namespace UnityEngine { class Texture; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TextIcons_OPCDCEBBCHA_TypeDefinitionIndex = 72682;
+
 	struct alignas(8) TextIcons_OPCDCEBBCHA
 	{
 		::UnityEngine::UI::SpriteElement GOGEJLEKKOM; // 0x10

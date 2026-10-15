@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define AJCNPDNBIEM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E3BE9E0)
 #define AJCNPDNBIEM___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E3BE9F0)
 
+inline static constexpr unsigned int AJCNPDNBIEM___c_TypeDefinitionIndex = 31148;
+
 	class AJCNPDNBIEM___c : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace RPG::GameCore { class ComplexSkillAISourceWeaknessCompare; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ComplexSkillAISourceWeaknessCompare_TypeDefinitionIndex = 15522;
+
 	class ComplexSkillAISourceWeaknessCompare : public ::RPG::GameCore::ComplexSkillAISource
 	{
 	public:

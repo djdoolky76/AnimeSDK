@@ -34,6 +34,8 @@ namespace UnityEngine { class Transform; }
 
 namespace Cinemachine
 {
+	inline static constexpr unsigned int BlendSourceVirtualCamera_TypeDefinitionIndex = 39806;
+
 	class BlendSourceVirtualCamera : public ::System::Object
 	{
 	public:

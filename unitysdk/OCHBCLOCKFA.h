@@ -15,6 +15,8 @@ namespace RPG::GameCore { class AvatarPropertyValue; }
 #define OCHBCLOCKFA_NCGLFOFDHCI_OFFSET UNITYSDK_OFFSET(0xBD626E0)
 #define OCHBCLOCKFA_OEHCAAPMBNN_OFFSET UNITYSDK_OFFSET(0xBD622B0)
 
+inline static constexpr unsigned int OCHBCLOCKFA_TypeDefinitionIndex = 65138;
+
 	class OCHBCLOCKFA : public ::KKPPDDOFADO
 	{
 	public:

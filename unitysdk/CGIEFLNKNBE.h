@@ -19,6 +19,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define CGIEFLNKNBE_POAJNFJAFJP_OFFSET UNITYSDK_OFFSET(0xCC89630)
 #define CGIEFLNKNBE__ONBIND_OFFSET UNITYSDK_OFFSET(0xCC89170)
 
+inline static constexpr unsigned int CGIEFLNKNBE_TypeDefinitionIndex = 71294;
+
 	class CGIEFLNKNBE : public ::FMPCODLIOLG
 	{
 	public:

@@ -15,6 +15,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetModifierValue_TypeDefinitionIndex = 22669;
+
 	class SetModifierValue : public ::RPG::GameCore::TaskConfig
 	{
 	public:

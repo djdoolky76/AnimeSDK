@@ -9,6 +9,8 @@ class FCOEMCEDLNL;
 #define FCFHBICBEKD_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CDCFF20)
 #define FCFHBICBEKD_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CDCFEE0)
 
+inline static constexpr unsigned int FCFHBICBEKD_TypeDefinitionIndex = 24389;
+
 	class FCFHBICBEKD : public ::RPG::GameCore::TaskConfig
 	{
 	public:

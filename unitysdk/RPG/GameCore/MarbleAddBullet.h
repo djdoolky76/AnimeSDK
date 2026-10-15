@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MarbleAddBullet_TypeDefinitionIndex = 16847;
+
 	class MarbleAddBullet : public ::RPG::GameCore::MarbleTaskConfig
 	{
 	public:

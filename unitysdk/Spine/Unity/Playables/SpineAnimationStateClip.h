@@ -15,6 +15,8 @@ namespace UnityEngine::Timeline { class TimelineClip; }
 
 namespace Spine::Unity::Playables
 {
+	inline static constexpr unsigned int SpineAnimationStateClip_TypeDefinitionIndex = 45908;
+
 	class SpineAnimationStateClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:

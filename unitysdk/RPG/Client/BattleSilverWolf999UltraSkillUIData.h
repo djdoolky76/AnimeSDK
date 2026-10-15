@@ -7,6 +7,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int BattleSilverWolf999UltraSkillUIData_TypeDefinitionIndex = 71466;
+
 	class BattleSilverWolf999UltraSkillUIData : public ::System::Object
 	{
 	public:

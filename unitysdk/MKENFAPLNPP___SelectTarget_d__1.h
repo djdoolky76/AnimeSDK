@@ -18,6 +18,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 #define MKENFAPLNPP___SELECTTARGET_D__1_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB991C30)
 #define MKENFAPLNPP___SELECTTARGET_D__1___M__FINALLY1_OFFSET UNITYSDK_OFFSET(0xB991C70)
 
+inline static constexpr unsigned int MKENFAPLNPP___SelectTarget_d__1_TypeDefinitionIndex = 77518;
+
 	template <typename T>
 	class MKENFAPLNPP___SelectTarget_d__1 : public ::System::Object
 	{

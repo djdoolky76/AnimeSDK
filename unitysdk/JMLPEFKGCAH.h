@@ -5,6 +5,8 @@ namespace RPG::GameCore { class GameEntity; }
 
 #define JMLPEFKGCAH_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xB271D00)
 
+inline static constexpr unsigned int JMLPEFKGCAH_TypeDefinitionIndex = 53784;
+
 	struct alignas(8) JMLPEFKGCAH
 	{
 		::LPNPMKNMMOK* MHJKGHNHPCP; // 0x10

@@ -23,6 +23,8 @@ namespace UnityEngine { class GameObject; }
 #define FFGBNHJHIPI_PDOOLECJLHI_OFFSET UNITYSDK_OFFSET(0x15738430)
 #define FFGBNHJHIPI_TICK_OFFSET UNITYSDK_OFFSET(0x15739430)
 
+inline static constexpr unsigned int FFGBNHJHIPI_TypeDefinitionIndex = 57854;
+
 	class FFGBNHJHIPI : public ::GELIALJDFBL
 	{
 	public:

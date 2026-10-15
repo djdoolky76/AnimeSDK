@@ -30,6 +30,8 @@ namespace System { class String; }
 #define DABKPEFPBOL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E14B030)
 #define DABKPEFPBOL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E14B090)
 
+inline static constexpr unsigned int DABKPEFPBOL_TypeDefinitionIndex = 28510;
+
 	class DABKPEFPBOL : public ::System::Object
 	{
 	public:

@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace ScenenLightManager
 {
+	inline static constexpr unsigned int EngineReflectionProbe_ExportData_TypeDefinitionIndex = 49102;
+
 	class EngineReflectionProbe_ExportData : public ::ScenenLightManager::BaseComponentExportData
 	{
 	public:

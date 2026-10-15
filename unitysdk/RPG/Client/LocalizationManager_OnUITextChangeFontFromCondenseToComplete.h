@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int LocalizationManager_OnUITextChangeFontFromCondenseToComplete_TypeDefinitionIndex = 61352;
+
 	class LocalizationManager_OnUITextChangeFontFromCondenseToComplete : public ::System::MulticastDelegate
 	{
 	public:

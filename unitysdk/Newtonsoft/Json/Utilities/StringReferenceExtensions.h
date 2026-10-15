@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace Newtonsoft::Json::Utilities
 {
+	inline static constexpr unsigned int StringReferenceExtensions_TypeDefinitionIndex = 9651;
+
 	class StringReferenceExtensions : public ::System::Object
 	{
 	public:

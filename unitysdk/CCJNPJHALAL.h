@@ -7,6 +7,8 @@ namespace RPG::GameCore { class DiceCombatAIEffectEvaluatorConfig_DiceHasSequenc
 #define CCJNPJHALAL_CTOR_OFFSET UNITYSDK_OFFSET(0x1C5C9DA0)
 #define CCJNPJHALAL_KFGJEKJHIMB_OFFSET UNITYSDK_OFFSET(0x1C5C9DB0)
 
+inline static constexpr unsigned int CCJNPJHALAL_TypeDefinitionIndex = 36215;
+
 	class CCJNPJHALAL : public ::PNECKGBKMEL
 	{
 	public:

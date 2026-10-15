@@ -20,6 +20,8 @@ namespace UnityEngine::UI { class Selectable; }
 
 namespace SRF::UI
 {
+	inline static constexpr unsigned int StyleComponent_TypeDefinitionIndex = 35397;
+
 	class StyleComponent : public ::SRF::SRMonoBehaviour
 	{
 	public:

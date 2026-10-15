@@ -56,6 +56,8 @@ namespace UnityEngine { class Transform; }
 #define CFPKCJOOPCA_OENNKBIAPLI_OFFSET UNITYSDK_OFFSET(0xCC5CAE0)
 #define CFPKCJOOPCA_PIDHDDOOFAI_OFFSET UNITYSDK_OFFSET(0xCC5BB90)
 
+inline static constexpr unsigned int CFPKCJOOPCA_TypeDefinitionIndex = 60944;
+
 	class CFPKCJOOPCA : public ::System::Object
 	{
 	public:

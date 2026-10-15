@@ -58,6 +58,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace MiHoYo::SDK::MTR
 {
+	inline static constexpr unsigned int MiHoYoMTRInterface_TypeDefinitionIndex = 46676;
+
 	class MiHoYoMTRInterface : public ::System::Object
 	{
 	public:

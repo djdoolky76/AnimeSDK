@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LittleGameViewComponentConfig_TypeDefinitionIndex = 18843;
+
 	class LittleGameViewComponentConfig : public ::RPG::GameCore::LittleGameComponentConfig
 	{
 	public:

@@ -4,6 +4,8 @@
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int BVHNode_TypeDefinitionIndex = 4102;
+
 	struct alignas(8) BVHNode
 	{
 		::Il2CppArray<::UnityEngine::BVHData>* ChildDatas; // 0x10

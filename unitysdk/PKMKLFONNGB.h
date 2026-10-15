@@ -12,6 +12,8 @@ namespace UnityEngine { class Transform; }
 #define PKMKLFONNGB_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xC2E6FF0)
 #define PKMKLFONNGB_TICK_OFFSET UNITYSDK_OFFSET(0xC2E7040)
 
+inline static constexpr unsigned int PKMKLFONNGB_TypeDefinitionIndex = 58946;
+
 	class PKMKLFONNGB : public ::GELIALJDFBL
 	{
 	public:

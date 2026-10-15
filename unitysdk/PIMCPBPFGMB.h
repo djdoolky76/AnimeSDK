@@ -49,6 +49,8 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyLi
 #define PIMCPBPFGMB__GET_EXITCOMMAND_B__40_0_OFFSET UNITYSDK_OFFSET(0xC26FDB0)
 #define PIMCPBPFGMB__GET_RESTARTCOMMAND_B__43_0_OFFSET UNITYSDK_OFFSET(0xC26FDD0)
 
+inline static constexpr unsigned int PIMCPBPFGMB_TypeDefinitionIndex = 81611;
+
 	class PIMCPBPFGMB : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace UnityEngine { class Object; }
 #define JHOEALGPJGB_IAOBNBCAAIB_OFFSET UNITYSDK_OFFSET(0x1EC78760)
 #define JHOEALGPJGB_OIGBGHMDMLL_OFFSET UNITYSDK_OFFSET(0x1EC78EE0)
 
+inline static constexpr unsigned int JHOEALGPJGB_TypeDefinitionIndex = 44112;
+
 	class JHOEALGPJGB : public ::System::Object
 	{
 	public:

@@ -28,6 +28,8 @@ namespace System::Net::Http::Headers { class WarningHeaderValue; }
 
 namespace System::Net::Http::Headers
 {
+	inline static constexpr unsigned int WarningHeaderValue_TypeDefinitionIndex = 3830;
+
 	class WarningHeaderValue : public ::System::Object
 	{
 	public:

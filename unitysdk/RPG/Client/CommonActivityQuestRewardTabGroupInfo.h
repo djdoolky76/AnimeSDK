@@ -18,6 +18,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int CommonActivityQuestRewardTabGroupInfo_TypeDefinitionIndex = 61737;
+
 	class CommonActivityQuestRewardTabGroupInfo : public ::System::Object
 	{
 	public:

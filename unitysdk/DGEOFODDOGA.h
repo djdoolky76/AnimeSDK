@@ -9,6 +9,8 @@ class FCOEMCEDLNL;
 #define DGEOFODDOGA_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CD1D650)
 #define DGEOFODDOGA_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CD1D610)
 
+inline static constexpr unsigned int DGEOFODDOGA_TypeDefinitionIndex = 21553;
+
 	class DGEOFODDOGA : public ::RPG::GameCore::TaskConfig
 	{
 	public:

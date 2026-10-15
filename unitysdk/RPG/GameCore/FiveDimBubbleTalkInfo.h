@@ -11,6 +11,8 @@ namespace RPG::GameCore { class FiveDimBubbleTalkInfo; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimBubbleTalkInfo_TypeDefinitionIndex = 21482;
+
 	class FiveDimBubbleTalkInfo : public ::RPG::GameCore::FiveDimActionBubbleTalkInfo
 	{
 	public:

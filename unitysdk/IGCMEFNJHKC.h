@@ -35,6 +35,8 @@ namespace System { class String; }
 #define IGCMEFNJHKC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E649AD0)
 #define IGCMEFNJHKC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E649B30)
 
+inline static constexpr unsigned int IGCMEFNJHKC_TypeDefinitionIndex = 25400;
+
 	class IGCMEFNJHKC : public ::System::Object
 	{
 	public:

@@ -9,6 +9,8 @@ namespace Cysharp::Threading::Tasks { template <typename T> class IUniTaskAsyncE
 
 namespace Cysharp::Threading::Tasks::Linq
 {
+	inline static constexpr unsigned int Range_TypeDefinitionIndex = 45542;
+
 	class Range : public ::System::Object
 	{
 	public:

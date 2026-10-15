@@ -34,6 +34,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MultiAimSolver_TypeDefinitionIndex = 68492;
+
 	class MultiAimSolver : public ::System::Object
 	{
 	public:

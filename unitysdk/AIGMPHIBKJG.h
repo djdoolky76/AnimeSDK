@@ -7,6 +7,8 @@
 
 #define AIGMPHIBKJG_CTOR_OFFSET UNITYSDK_OFFSET(0x1C88D950)
 
+inline static constexpr unsigned int AIGMPHIBKJG_TypeDefinitionIndex = 43750;
+
 	class AIGMPHIBKJG : public ::System::Object
 	{
 	public:

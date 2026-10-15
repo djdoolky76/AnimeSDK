@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace EnviromentSystemV2Space
 {
+	inline static constexpr unsigned int PrefabPropertyData_TypeDefinitionIndex = 49392;
+
 	class PrefabPropertyData
 	{
 	public:

@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace EzySlice
 {
+	inline static constexpr unsigned int Triangulator_TypeDefinitionIndex = 47002;
+
 	class Triangulator : public ::System::Object
 	{
 	public:

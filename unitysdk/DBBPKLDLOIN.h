@@ -11,6 +11,8 @@ namespace System::Collections::Concurrent { template <typename T1, typename T2> 
 #define DBBPKLDLOIN_HHFNCDMNHAC_OFFSET UNITYSDK_OFFSET(0xDFD6FB0)
 #define DBBPKLDLOIN_JBEAGPLPBAH_OFFSET UNITYSDK_OFFSET(0xDFD6DF0)
 
+inline static constexpr unsigned int DBBPKLDLOIN_TypeDefinitionIndex = 68465;
+
 	class DBBPKLDLOIN : public ::System::Object
 	{
 	public:

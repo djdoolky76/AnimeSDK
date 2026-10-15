@@ -7,6 +7,8 @@ namespace RPG::GameCore { class AlleyEventRow; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AlleyEventInfo_TypeDefinitionIndex = 62257;
+
 	struct alignas(8) AlleyEventInfo
 	{
 		::RPG::GameCore::AlleyEventRow* EventInfo; // 0x10

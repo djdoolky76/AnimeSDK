@@ -22,6 +22,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace SRDebugger::Services::Implementation
 {
+	inline static constexpr unsigned int OptionsServiceImpl_ReflectionOptionContainer_TypeDefinitionIndex = 38082;
+
 	class OptionsServiceImpl_ReflectionOptionContainer : public ::System::Object
 	{
 	public:

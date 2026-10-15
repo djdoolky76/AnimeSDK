@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define CIEEHMBGEIF_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0xCF66E60)
 #define CIEEHMBGEIF_PAMKOLICNOL_OFFSET UNITYSDK_OFFSET(0xCF67430)
 
+inline static constexpr unsigned int CIEEHMBGEIF_TypeDefinitionIndex = 62510;
+
 	class CIEEHMBGEIF : public ::System::Object
 	{
 	public:

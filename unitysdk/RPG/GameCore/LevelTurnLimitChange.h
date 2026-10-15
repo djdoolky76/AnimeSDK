@@ -16,6 +16,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelTurnLimitChange_TypeDefinitionIndex = 56814;
+
 	class LevelTurnLimitChange : public ::System::Object
 	{
 	public:

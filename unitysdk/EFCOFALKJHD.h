@@ -7,6 +7,8 @@ class KJBFNECBPPK;
 
 #define EFCOFALKJHD_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x13A48780)
 
+inline static constexpr unsigned int EFCOFALKJHD_TypeDefinitionIndex = 75497;
+
 	class EFCOFALKJHD : public ::System::Object
 	{
 	public:

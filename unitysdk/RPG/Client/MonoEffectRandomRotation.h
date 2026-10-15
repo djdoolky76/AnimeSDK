@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoEffectRandomRotation_TypeDefinitionIndex = 68586;
+
 	class MonoEffectRandomRotation
 	{
 	public:

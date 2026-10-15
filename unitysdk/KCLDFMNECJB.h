@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int KCLDFMNECJB_TypeDefinitionIndex = 31468;
+
 	enum class KCLDFMNECJB : ::System::Int32
 	{
 		NLCDGIPGFDJ = 0,

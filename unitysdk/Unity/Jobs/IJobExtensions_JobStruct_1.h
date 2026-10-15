@@ -3,6 +3,8 @@
 
 namespace Unity::Jobs
 {
+	inline static constexpr unsigned int IJobExtensions_JobStruct_1_TypeDefinitionIndex = 3956;
+
 	template <typename T>
 	struct alignas(4) IJobExtensions_JobStruct_1
 	{

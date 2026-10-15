@@ -31,6 +31,8 @@ namespace UnityEngine::UI { class Text; }
 #define OKFEPBKGBGO__ONBIND_OFFSET UNITYSDK_OFFSET(0xBED6930)
 #define OKFEPBKGBGO__ONDISPOSE_OFFSET UNITYSDK_OFFSET(0xBED6C40)
 
+inline static constexpr unsigned int OKFEPBKGBGO_TypeDefinitionIndex = 71266;
+
 	class OKFEPBKGBGO : public ::CAOEEDDAPIK
 	{
 	public:

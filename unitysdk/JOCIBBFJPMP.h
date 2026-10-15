@@ -29,6 +29,8 @@ namespace System { class String; }
 #define JOCIBBFJPMP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E79D5F0)
 #define JOCIBBFJPMP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E79D650)
 
+inline static constexpr unsigned int JOCIBBFJPMP_TypeDefinitionIndex = 25171;
+
 	class JOCIBBFJPMP : public ::System::Object
 	{
 	public:

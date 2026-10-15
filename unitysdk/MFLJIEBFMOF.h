@@ -7,6 +7,8 @@
 #define MFLJIEBFMOF_GET_TYPE_OFFSET UNITYSDK_OFFSET(0xB905CA0)
 #define MFLJIEBFMOF_SET_TYPE_OFFSET UNITYSDK_OFFSET(0xB905CB0)
 
+inline static constexpr unsigned int MFLJIEBFMOF_TypeDefinitionIndex = 68927;
+
 	class MFLJIEBFMOF : public ::System::Object
 	{
 	public:

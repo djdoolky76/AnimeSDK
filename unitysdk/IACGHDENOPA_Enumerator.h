@@ -3,6 +3,8 @@
 class IACGHDENOPA;
 namespace System::Collections::Generic { class KeyValuePair; }
 
+inline static constexpr unsigned int IACGHDENOPA_Enumerator_TypeDefinitionIndex = 6328;
+
 	struct alignas(8) IACGHDENOPA_Enumerator
 	{
 		::IACGHDENOPA* dictionary; // 0x0

@@ -9,6 +9,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 #define GOOPPKCFNLM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1C64BB90)
 #define GOOPPKCFNLM___C__STATSECTIONSETTLE_B__16_0_OFFSET UNITYSDK_OFFSET(0x1C64BBA0)
 
+inline static constexpr unsigned int GOOPPKCFNLM___c_TypeDefinitionIndex = 37334;
+
 	class GOOPPKCFNLM___c : public ::System::Object
 	{
 	public:

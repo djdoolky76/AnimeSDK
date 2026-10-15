@@ -26,6 +26,8 @@ namespace UnityEngine::EventSystems { class BaseEventData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int LocalizedInputField_TypeDefinitionIndex = 72562;
+
 	class LocalizedInputField : public ::UnityEngine::UI::InputField
 	{
 	public:

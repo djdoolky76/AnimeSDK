@@ -8,6 +8,8 @@ namespace System::Xml::Schema { class XmlSchemaObjectCollection; }
 
 namespace System::Xml::Schema
 {
+	inline static constexpr unsigned int XmlSchemaSequence_TypeDefinitionIndex = 2209;
+
 	class XmlSchemaSequence : public ::System::Xml::Schema::XmlSchemaGroupBase
 	{
 	public:

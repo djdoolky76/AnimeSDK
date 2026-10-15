@@ -4,6 +4,8 @@
 
 #define ENOOEPKGMMB_CTOR_OFFSET UNITYSDK_OFFSET(0x155B60D0)
 
+inline static constexpr unsigned int ENOOEPKGMMB_TypeDefinitionIndex = 49776;
+
 	class ENOOEPKGMMB : public ::System::Attribute
 	{
 	public:

@@ -18,6 +18,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define KLLJEFNNCBM_PIALNCOIPKG_OFFSET UNITYSDK_OFFSET(0xB52E290)
 #define KLLJEFNNCBM_SET_ITEMDATAS_OFFSET UNITYSDK_OFFSET(0xB52EB10)
 
+inline static constexpr unsigned int KLLJEFNNCBM_TypeDefinitionIndex = 72170;
+
 	class KLLJEFNNCBM : public ::System::Object
 	{
 	public:

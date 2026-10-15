@@ -5,6 +5,8 @@ namespace System { class String; }
 
 #define KBIMMCCLOJM_CTOR_OFFSET UNITYSDK_OFFSET(0x1CBB0E50)
 
+inline static constexpr unsigned int KBIMMCCLOJM_TypeDefinitionIndex = 42954;
+
 	class KBIMMCCLOJM : public ::System::Object
 	{
 	public:

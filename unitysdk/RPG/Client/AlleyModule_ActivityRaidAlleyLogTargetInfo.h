@@ -3,6 +3,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AlleyModule_ActivityRaidAlleyLogTargetInfo_TypeDefinitionIndex = 62245;
+
 	struct alignas(4) AlleyModule_ActivityRaidAlleyLogTargetInfo
 	{
 		::System::UInt32 TargetID; // 0x10

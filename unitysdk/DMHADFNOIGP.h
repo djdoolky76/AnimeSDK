@@ -31,6 +31,8 @@ namespace System { class String; }
 #define DMHADFNOIGP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E1EE450)
 #define DMHADFNOIGP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E1EE4B0)
 
+inline static constexpr unsigned int DMHADFNOIGP_TypeDefinitionIndex = 27208;
+
 	class DMHADFNOIGP : public ::System::Object
 	{
 	public:

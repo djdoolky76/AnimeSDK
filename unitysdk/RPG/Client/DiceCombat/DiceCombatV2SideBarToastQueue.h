@@ -23,6 +23,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::DiceCombat
 {
+	inline static constexpr unsigned int DiceCombatV2SideBarToastQueue_TypeDefinitionIndex = 76213;
+
 	class DiceCombatV2SideBarToastQueue : public ::UnityEngine::MonoBehaviour
 	{
 	public:

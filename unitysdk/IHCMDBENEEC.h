@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define IHCMDBENEEC_GET_UNLOCKCHIP_OFFSET UNITYSDK_OFFSET(0x16419D00)
 #define IHCMDBENEEC_SET_UNLOCKCHIP_OFFSET UNITYSDK_OFFSET(0x16419D10)
 
+inline static constexpr unsigned int IHCMDBENEEC_TypeDefinitionIndex = 80186;
+
 	class IHCMDBENEEC : public ::System::Object
 	{
 	public:

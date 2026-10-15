@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define CLMBLGCFGJL__GET_ISSHOW_B__5_0_OFFSET UNITYSDK_OFFSET(0xD792530)
 #define CLMBLGCFGJL___GETISACTIVE_B__1_0_OFFSET UNITYSDK_OFFSET(0xD7923F0)
 
+inline static constexpr unsigned int CLMBLGCFGJL_TypeDefinitionIndex = 65490;
+
 	class CLMBLGCFGJL : public ::System::Object
 	{
 	public:

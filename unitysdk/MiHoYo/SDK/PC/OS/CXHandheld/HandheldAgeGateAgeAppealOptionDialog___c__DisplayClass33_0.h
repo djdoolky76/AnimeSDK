@@ -8,6 +8,8 @@ namespace MiHoYo::SDK::PC::OS::CXHandheld { class HandheldAgeGateAgeAppealOption
 
 namespace MiHoYo::SDK::PC::OS::CXHandheld
 {
+	inline static constexpr unsigned int HandheldAgeGateAgeAppealOptionDialog___c__DisplayClass33_0_TypeDefinitionIndex = 8781;
+
 	class HandheldAgeGateAgeAppealOptionDialog___c__DisplayClass33_0 : public ::System::Object
 	{
 	public:

@@ -13,6 +13,8 @@ namespace Cysharp::Threading::Tasks::Triggers { class IAsyncOnTransformParentCha
 
 namespace Cysharp::Threading::Tasks::Triggers
 {
+	inline static constexpr unsigned int AsyncTransformParentChangedTrigger_TypeDefinitionIndex = 38597;
+
 	class AsyncTransformParentChangedTrigger
 	{
 	public:

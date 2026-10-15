@@ -23,6 +23,8 @@ namespace UnityEngine { class Mesh; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int Effect_GPUGlowstickAnimation_TypeDefinitionIndex = 70482;
+
 	class Effect_GPUGlowstickAnimation : public ::UnityEngine::MonoBehaviour
 	{
 	public:

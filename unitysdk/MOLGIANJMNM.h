@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define MOLGIANJMNM_CTOR_OFFSET UNITYSDK_OFFSET(0xBA33250)
 #define MOLGIANJMNM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBA33280)
 
+inline static constexpr unsigned int MOLGIANJMNM_TypeDefinitionIndex = 55351;
+
 	class MOLGIANJMNM
 	{
 	public:

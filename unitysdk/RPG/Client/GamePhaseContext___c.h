@@ -10,6 +10,8 @@ namespace System { class Object; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GamePhaseContext___c_TypeDefinitionIndex = 61105;
+
 	class GamePhaseContext___c : public ::System::Object
 	{
 	public:

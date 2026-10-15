@@ -6,6 +6,8 @@ namespace System { class Object; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int CoroutineUtils___InvokeAfterFramesPromise_d__30_1_TypeDefinitionIndex = 35229;
+
 	template <typename T>
 	class CoroutineUtils___InvokeAfterFramesPromise_d__30_1 : public ::System::Object
 	{

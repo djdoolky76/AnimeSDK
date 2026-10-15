@@ -40,6 +40,8 @@ namespace UnityEngine { class Transform; }
 #define NHMMDLHLCCP_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0xBBD7760)
 #define NHMMDLHLCCP_PPBLBACJILG_OFFSET UNITYSDK_OFFSET(0xBBD6750)
 
+inline static constexpr unsigned int NHMMDLHLCCP_TypeDefinitionIndex = 73783;
+
 	class NHMMDLHLCCP : public ::PAOIIOIGCOJ
 	{
 	public:

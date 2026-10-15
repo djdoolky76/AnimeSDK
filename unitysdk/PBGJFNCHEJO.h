@@ -10,6 +10,8 @@ namespace System { class Action; }
 #define PBGJFNCHEJO_HADGAGKJBHG_OFFSET UNITYSDK_OFFSET(0xBFED200)
 #define PBGJFNCHEJO_HFKFNFKIEON_OFFSET UNITYSDK_OFFSET(0xBFED260)
 
+inline static constexpr unsigned int PBGJFNCHEJO_TypeDefinitionIndex = 60777;
+
 	class PBGJFNCHEJO : public ::System::Object
 	{
 	public:

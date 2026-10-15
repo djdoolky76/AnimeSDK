@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int FatigueRemindModel_TypeDefinitionIndex = 7871;
+
 	class FatigueRemindModel : public ::System::Object
 	{
 	public:

@@ -4,6 +4,8 @@
 
 #define NAGAOPOFKDI_CTOR_OFFSET UNITYSDK_OFFSET(0xBA99A00)
 
+inline static constexpr unsigned int NAGAOPOFKDI_TypeDefinitionIndex = 55853;
+
 	class NAGAOPOFKDI : public ::System::Object
 	{
 	public:

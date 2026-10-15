@@ -134,6 +134,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define LCHDCIDBJAG_PPADNKOGIOF_OFFSET UNITYSDK_OFFSET(0x1C7287C0)
 #define LCHDCIDBJAG__ONPLAYERLEAVE_B__121_0_OFFSET UNITYSDK_OFFSET(0x1C738410)
 
+inline static constexpr unsigned int LCHDCIDBJAG_TypeDefinitionIndex = 36479;
+
 	class LCHDCIDBJAG : public ::DCHHELPJHJJ
 	{
 	public:

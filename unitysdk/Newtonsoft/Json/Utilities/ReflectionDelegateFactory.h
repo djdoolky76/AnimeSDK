@@ -6,6 +6,8 @@
 
 namespace Newtonsoft::Json::Utilities
 {
+	inline static constexpr unsigned int ReflectionDelegateFactory_TypeDefinitionIndex = 9635;
+
 	class ReflectionDelegateFactory : public ::System::Object
 	{
 	public:

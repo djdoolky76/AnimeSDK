@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ClimbableLinearWithDetectProjectileData; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ClimbableLinearWithDetectProjectileData_TypeDefinitionIndex = 15664;
+
 	class ClimbableLinearWithDetectProjectileData : public ::RPG::GameCore::NewProjectileConfig
 	{
 	public:

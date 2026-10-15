@@ -34,6 +34,8 @@ namespace System { class String; }
 #define MNCBEDBDDHL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EA90E10)
 #define MNCBEDBDDHL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EA90E70)
 
+inline static constexpr unsigned int MNCBEDBDDHL_TypeDefinitionIndex = 25366;
+
 	class MNCBEDBDDHL : public ::System::Object
 	{
 	public:

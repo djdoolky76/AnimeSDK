@@ -28,6 +28,8 @@ namespace System::Text { class StringBuilder; }
 
 namespace IniParserEx
 {
+	inline static constexpr unsigned int BaseParser_TypeDefinitionIndex = 3928;
+
 	class BaseParser : public ::System::Object
 	{
 	public:

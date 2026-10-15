@@ -27,6 +27,8 @@ namespace System { class String; }
 #define BHELJEPEIHM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DDF56E0)
 #define BHELJEPEIHM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DDF5740)
 
+inline static constexpr unsigned int BHELJEPEIHM_TypeDefinitionIndex = 33820;
+
 	class BHELJEPEIHM : public ::System::Object
 	{
 	public:

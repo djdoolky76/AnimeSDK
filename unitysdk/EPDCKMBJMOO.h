@@ -31,6 +31,8 @@ namespace System { class String; }
 #define EPDCKMBJMOO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E308600)
 #define EPDCKMBJMOO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E308660)
 
+inline static constexpr unsigned int EPDCKMBJMOO_TypeDefinitionIndex = 28040;
+
 	class EPDCKMBJMOO : public ::System::Object
 	{
 	public:

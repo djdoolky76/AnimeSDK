@@ -19,6 +19,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace MiHoYo::SDK::Base::GoodsPlatform
 {
+	inline static constexpr unsigned int ThirdpartyStore_TypeDefinitionIndex = 8850;
+
 	class ThirdpartyStore : public ::System::Object
 	{
 	public:

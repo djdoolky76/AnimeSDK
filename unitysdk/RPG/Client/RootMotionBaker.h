@@ -12,6 +12,8 @@ namespace UnityEngine { class Animator; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RootMotionBaker_TypeDefinitionIndex = 68817;
+
 	class RootMotionBaker : public ::UnityEngine::MonoBehaviour
 	{
 	public:

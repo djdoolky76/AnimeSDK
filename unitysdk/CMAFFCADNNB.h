@@ -8,6 +8,8 @@ class EOLPGHDBJNF;
 #define CMAFFCADNNB_CTOR_OFFSET UNITYSDK_OFFSET(0xDA243C0)
 #define CMAFFCADNNB_GBKONKDBJAK_OFFSET UNITYSDK_OFFSET(0xDA24420)
 
+inline static constexpr unsigned int CMAFFCADNNB_TypeDefinitionIndex = 63903;
+
 	class CMAFFCADNNB : public ::System::Object
 	{
 	public:

@@ -40,6 +40,8 @@ namespace UnityEngine { class Transform; }
 #define EFLAJBMKAAH_SET_ITEMLOCALPOSITION_OFFSET UNITYSDK_OFFSET(0x13A58450)
 #define EFLAJBMKAAH_SET_ITEMLOCALROTATION_OFFSET UNITYSDK_OFFSET(0x13A58490)
 
+inline static constexpr unsigned int EFLAJBMKAAH_TypeDefinitionIndex = 78761;
+
 	class EFLAJBMKAAH : public ::System::Object
 	{
 	public:

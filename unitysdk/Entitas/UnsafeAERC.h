@@ -10,6 +10,8 @@ namespace System { class Object; }
 
 namespace Entitas
 {
+	inline static constexpr unsigned int UnsafeAERC_TypeDefinitionIndex = 10017;
+
 	class UnsafeAERC : public ::System::Object
 	{
 	public:

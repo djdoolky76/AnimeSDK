@@ -15,6 +15,8 @@ namespace System::Globalization { class CultureInfo; }
 
 namespace System
 {
+	inline static constexpr unsigned int UriTypeConverter_TypeDefinitionIndex = 2492;
+
 	class UriTypeConverter : public ::System::ComponentModel::TypeConverter
 	{
 	public:

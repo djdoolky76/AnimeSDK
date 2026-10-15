@@ -7,6 +7,8 @@ class LMLNNHKJEIP;
 #define KHLDHMFKOCP___C__DISPLAYCLASS11_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1CBBAC70)
 #define KHLDHMFKOCP___C__DISPLAYCLASS11_0___FILLDEFAULTCOOPBOSSPLAYERTEAM_B__0_OFFSET UNITYSDK_OFFSET(0x1CBDD300)
 
+inline static constexpr unsigned int KHLDHMFKOCP___c__DisplayClass11_0_TypeDefinitionIndex = 43073;
+
 	class KHLDHMFKOCP___c__DisplayClass11_0 : public ::System::Object
 	{
 	public:

@@ -17,6 +17,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FourRotateVoxelLevelSettings_TypeDefinitionIndex = 16750;
+
 	class FourRotateVoxelLevelSettings : public ::RPG::GameCore::LittleGameLevelSettings
 	{
 	public:

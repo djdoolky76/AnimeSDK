@@ -6,6 +6,8 @@
 #define HIIHNABHAHJ_CTOR_OFFSET UNITYSDK_OFFSET(0x15CE9DB0)
 #define HIIHNABHAHJ_PKADDEPKJFN_OFFSET UNITYSDK_OFFSET(0x15CE9DC0)
 
+inline static constexpr unsigned int HIIHNABHAHJ_TypeDefinitionIndex = 62533;
+
 	class HIIHNABHAHJ : public ::System::Object
 	{
 	public:

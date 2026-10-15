@@ -74,6 +74,8 @@ namespace System { class String; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int AndroidJNISafe_TypeDefinitionIndex = 5688;
+
 	class AndroidJNISafe : public ::System::Object
 	{
 	public:

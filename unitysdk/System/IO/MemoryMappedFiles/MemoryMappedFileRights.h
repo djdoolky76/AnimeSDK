@@ -3,6 +3,8 @@
 
 namespace System::IO::MemoryMappedFiles
 {
+	inline static constexpr unsigned int MemoryMappedFileRights_TypeDefinitionIndex = 3122;
+
 	enum class MemoryMappedFileRights : ::System::Int32
 	{
 		CopyOnWrite = 1,

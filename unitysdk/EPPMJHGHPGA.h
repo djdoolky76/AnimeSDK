@@ -7,6 +7,8 @@ class FCOEMCEDLNL;
 #define EPPMJHGHPGA_CTOR_OFFSET UNITYSDK_OFFSET(0x1CDC1DB0)
 #define EPPMJHGHPGA_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CDC1C40)
 
+inline static constexpr unsigned int EPPMJHGHPGA_TypeDefinitionIndex = 14339;
+
 	class EPPMJHGHPGA : public ::System::Object
 	{
 	public:

@@ -37,6 +37,8 @@ namespace System::Text { class StringBuilder; }
 
 namespace Google::Protobuf::WellKnownTypes
 {
+	inline static constexpr unsigned int Duration_TypeDefinitionIndex = 5421;
+
 	class Duration : public ::System::Object
 	{
 	public:

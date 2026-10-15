@@ -49,6 +49,8 @@ namespace RPG::Client { class PipelineCameraEngine; }
 #define GFDEOBDBACI_PCHDHLPOKEO_OFFSET UNITYSDK_OFFSET(0x159EA6A0)
 #define GFDEOBDBACI_PMLLOFFOEIK_OFFSET UNITYSDK_OFFSET(0x159EA660)
 
+inline static constexpr unsigned int GFDEOBDBACI_TypeDefinitionIndex = 73275;
+
 	class GFDEOBDBACI : public ::JHIDGDHOJEF
 	{
 	public:

@@ -8,6 +8,8 @@ class KJNHIELIFEK;
 #define KJNHIELIFEK_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D0995F0)
 #define KJNHIELIFEK_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D0995B0)
 
+inline static constexpr unsigned int KJNHIELIFEK_TypeDefinitionIndex = 23165;
+
 	class KJNHIELIFEK : public ::RPG::GameCore::TaskConfig
 	{
 	public:

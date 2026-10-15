@@ -11,6 +11,8 @@ namespace System::Xml::Schema { class XmlSchemaSimpleType; }
 
 namespace System::Xml::Schema
 {
+	inline static constexpr unsigned int XmlSchemaSimpleTypeList_TypeDefinitionIndex = 2213;
+
 	class XmlSchemaSimpleTypeList : public ::System::Xml::Schema::XmlSchemaSimpleTypeContent
 	{
 	public:

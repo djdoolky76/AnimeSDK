@@ -13,6 +13,8 @@ namespace UnityEngine { class MonoBehaviour; }
 #define LMPPBDNFCJF_HPNDIIPEFLJ_OFFSET UNITYSDK_OFFSET(0xB7D47F0)
 #define LMPPBDNFCJF_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xB7D4520)
 
+inline static constexpr unsigned int LMPPBDNFCJF_TypeDefinitionIndex = 70358;
+
 	class LMPPBDNFCJF : public ::RPG::Client::BehaviorBase
 	{
 	public:

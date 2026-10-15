@@ -26,6 +26,8 @@ namespace System { class Object; }
 #define EDNECKFHLEM_SET_ISLOCKED_OFFSET UNITYSDK_OFFSET(0x1332CE10)
 #define EDNECKFHLEM_SET_TABVIEW_OFFSET UNITYSDK_OFFSET(0x1332CC30)
 
+inline static constexpr unsigned int EDNECKFHLEM_TypeDefinitionIndex = 72675;
+
 	class EDNECKFHLEM : public ::System::Object
 	{
 	public:

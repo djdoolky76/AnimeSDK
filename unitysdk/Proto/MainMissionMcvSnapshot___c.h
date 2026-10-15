@@ -10,6 +10,8 @@ namespace System { class Object; }
 
 namespace Proto
 {
+	inline static constexpr unsigned int MainMissionMcvSnapshot___c_TypeDefinitionIndex = 25835;
+
 	class MainMissionMcvSnapshot___c : public ::System::Object
 	{
 	public:

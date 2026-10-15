@@ -11,6 +11,8 @@ class AkWindowsSettings_PlatformAdvancedSettings;
 #define AKWINDOWSSETTINGS_GETCOMMSSETTINGS_OFFSET UNITYSDK_OFFSET(0x1F61AD80)
 #define AKWINDOWSSETTINGS_GETUSERSETTINGS_OFFSET UNITYSDK_OFFSET(0x1F61AD00)
 
+inline static constexpr unsigned int AkWindowsSettings_TypeDefinitionIndex = 44899;
+
 	class AkWindowsSettings : public ::AkWwiseInitializationSettings_PlatformSettings
 	{
 	public:

@@ -147,6 +147,8 @@ namespace System { class String; }
 #define NJKFOJJDGGG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EB45700)
 #define NJKFOJJDGGG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EB45760)
 
+inline static constexpr unsigned int NJKFOJJDGGG_TypeDefinitionIndex = 29253;
+
 	class NJKFOJJDGGG : public ::System::Object
 	{
 	public:

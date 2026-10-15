@@ -9,6 +9,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int LoadingTips___c__DisplayClass10_0_TypeDefinitionIndex = 8246;
+
 	class LoadingTips___c__DisplayClass10_0 : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
+	inline static constexpr unsigned int B2Contact_TypeDefinitionIndex = 36617;
+
 	class B2Contact : public ::System::Object
 	{
 	public:

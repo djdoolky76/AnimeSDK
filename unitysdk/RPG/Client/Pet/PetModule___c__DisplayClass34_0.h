@@ -9,6 +9,8 @@ namespace RPG::Client::Pet { class PetModule; }
 
 namespace RPG::Client::Pet
 {
+	inline static constexpr unsigned int PetModule___c__DisplayClass34_0_TypeDefinitionIndex = 75701;
+
 	class PetModule___c__DisplayClass34_0 : public ::System::Object
 	{
 	public:

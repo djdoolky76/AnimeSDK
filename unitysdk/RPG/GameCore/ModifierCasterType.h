@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ModifierCasterType_TypeDefinitionIndex = 24679;
+
 	enum class ModifierCasterType : ::System::Int32
 	{
 		Inherit = 0,

@@ -31,6 +31,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::ChenLingGameBoy
 {
+	inline static constexpr unsigned int ChenLingGameBoySettlement_TypeDefinitionIndex = 74809;
+
 	class ChenLingGameBoySettlement : public ::System::Object
 	{
 	public:

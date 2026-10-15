@@ -10,6 +10,8 @@ class JPMKMMMGNJN;
 #define AELJNMLKHFK_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x1C8792E0)
 #define AELJNMLKHFK_TEARDOWN_OFFSET UNITYSDK_OFFSET(0x1C879390)
 
+inline static constexpr unsigned int AELJNMLKHFK_TypeDefinitionIndex = 42527;
+
 	class AELJNMLKHFK : public ::System::Object
 	{
 	public:

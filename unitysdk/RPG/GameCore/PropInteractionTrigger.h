@@ -35,6 +35,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PropInteractionTrigger_TypeDefinitionIndex = 57522;
+
 	class PropInteractionTrigger : public ::EDLDHDMLJDH
 	{
 	public:

@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace UnityEngine::UI
 {
+	inline static constexpr unsigned int SimpleStringReader_TypeDefinitionIndex = 6759;
+
 	class SimpleStringReader : public ::System::IO::TextReader
 	{
 	public:

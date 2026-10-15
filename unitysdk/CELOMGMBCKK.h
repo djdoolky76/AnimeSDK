@@ -10,6 +10,8 @@ namespace System { class Object; }
 #define CELOMGMBCKK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xC9E6510)
 #define CELOMGMBCKK_INVOKE_OFFSET UNITYSDK_OFFSET(0xC9E64D0)
 
+inline static constexpr unsigned int CELOMGMBCKK_TypeDefinitionIndex = 49120;
+
 	class CELOMGMBCKK : public ::System::MulticastDelegate
 	{
 	public:

@@ -17,6 +17,8 @@ namespace System::Threading { class SynchronizationContext; }
 
 namespace Cysharp::Threading::Tasks
 {
+	inline static constexpr unsigned int UniTaskSynchronizationContext_TypeDefinitionIndex = 38446;
+
 	class UniTaskSynchronizationContext : public ::System::Threading::SynchronizationContext
 	{
 	public:

@@ -10,6 +10,8 @@ namespace UnityEngine { class Transform; }
 #define FMGLILNMKDP_ANIMATEDITEM_CTOR_OFFSET UNITYSDK_OFFSET(0x15856160)
 #define FMGLILNMKDP_ANIMATEDITEM_GET_RANDOMVALUE_OFFSET UNITYSDK_OFFSET(0x15855B80)
 
+inline static constexpr unsigned int FMGLILNMKDP_AnimatedItem_TypeDefinitionIndex = 70332;
+
 	class FMGLILNMKDP_AnimatedItem : public ::System::Object
 	{
 	public:

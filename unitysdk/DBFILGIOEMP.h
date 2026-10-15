@@ -9,6 +9,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 #define DBFILGIOEMP_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DCCF780)
 #define DBFILGIOEMP_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DCCF740)
 
+inline static constexpr unsigned int DBFILGIOEMP_TypeDefinitionIndex = 22856;
+
 	class DBFILGIOEMP : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -13,6 +13,8 @@ namespace RPG::GameCore { class TutorialClickBtn; }
 #define AKDKPFKJGPN_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x12CCC800)
 #define AKDKPFKJGPN_TICK_OFFSET UNITYSDK_OFFSET(0x12CCC850)
 
+inline static constexpr unsigned int AKDKPFKJGPN_TypeDefinitionIndex = 58820;
+
 	class AKDKPFKJGPN : public ::GELIALJDFBL
 	{
 	public:

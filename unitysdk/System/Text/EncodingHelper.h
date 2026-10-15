@@ -14,6 +14,8 @@ namespace System::Text { class Encoding; }
 
 namespace System::Text
 {
+	inline static constexpr unsigned int EncodingHelper_TypeDefinitionIndex = 514;
+
 	class EncodingHelper : public ::System::Object
 	{
 	public:

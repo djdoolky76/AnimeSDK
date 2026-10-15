@@ -5,6 +5,8 @@ namespace System { class Object; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByCurrentTurnState___O_TypeDefinitionIndex = 23543;
+
 	class ByCurrentTurnState___O : public ::System::Object
 	{
 	public:

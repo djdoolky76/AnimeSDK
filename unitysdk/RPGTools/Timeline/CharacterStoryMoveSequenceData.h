@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int CharacterStoryMoveSequenceData_TypeDefinitionIndex = 48009;
+
 	class CharacterStoryMoveSequenceData : public ::RPGTools::Timeline::CharacterStoryMoveStepData
 	{
 	public:

@@ -6,6 +6,8 @@ class GOBNOHBLEHH;
 #define INJKGIBOGME_CLEAR_OFFSET UNITYSDK_OFFSET(0x1CB78910)
 #define INJKGIBOGME_CTOR_OFFSET UNITYSDK_OFFSET(0x1CB789A0)
 
+inline static constexpr unsigned int INJKGIBOGME_TypeDefinitionIndex = 43670;
+
 	class INJKGIBOGME : public ::System::Object
 	{
 	public:

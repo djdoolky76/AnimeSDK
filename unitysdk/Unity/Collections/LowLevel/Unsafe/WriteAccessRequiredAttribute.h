@@ -6,6 +6,8 @@
 
 namespace Unity::Collections::LowLevel::Unsafe
 {
+	inline static constexpr unsigned int WriteAccessRequiredAttribute_TypeDefinitionIndex = 4000;
+
 	class WriteAccessRequiredAttribute : public ::System::Attribute
 	{
 	public:

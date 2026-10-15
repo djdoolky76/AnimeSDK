@@ -32,6 +32,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define JAKJKCPJEPF_MGAGPIGDLBK_OFFSET UNITYSDK_OFFSET(0x1655AFC0)
 #define JAKJKCPJEPF_OBGBJJJDANK_OFFSET UNITYSDK_OFFSET(0x1655A6E0)
 
+inline static constexpr unsigned int JAKJKCPJEPF_TypeDefinitionIndex = 59301;
+
 	class JAKJKCPJEPF : public ::System::Object
 	{
 	public:

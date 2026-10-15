@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetTargetCrossHairVisible_TypeDefinitionIndex = 22945;
+
 	class SetTargetCrossHairVisible : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -14,6 +14,8 @@ namespace System { class Object; }
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
+	inline static constexpr unsigned int IVROverlay__MoveGamepadFocusToNeighbor_TypeDefinitionIndex = 39115;
+
 	class IVROverlay__MoveGamepadFocusToNeighbor : public ::System::MulticastDelegate
 	{
 	public:

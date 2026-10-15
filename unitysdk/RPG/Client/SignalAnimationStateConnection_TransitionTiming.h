@@ -3,6 +3,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int SignalAnimationStateConnection_TransitionTiming_TypeDefinitionIndex = 70976;
+
 	enum class SignalAnimationStateConnection_TransitionTiming : ::System::Int32
 	{
 		Immediate = 0,

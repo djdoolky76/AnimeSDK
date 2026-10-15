@@ -5,6 +5,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG
 {
+	inline static constexpr unsigned int EmptySortedList_2_TypeDefinitionIndex = 6362;
+
 	template <typename T1, typename T2>
 	class EmptySortedList_2 : public ::System::Object
 	{

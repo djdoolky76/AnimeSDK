@@ -11,6 +11,8 @@ namespace System { class Object; }
 
 namespace MiHoYo::SDK::Console
 {
+	inline static constexpr unsigned int PS4BindEmailDialog___c_TypeDefinitionIndex = 9019;
+
 	class PS4BindEmailDialog___c : public ::System::Object
 	{
 	public:

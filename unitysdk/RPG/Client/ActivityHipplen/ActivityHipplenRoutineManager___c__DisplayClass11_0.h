@@ -9,6 +9,8 @@ namespace RPG::Client::ActivityHipplen { class ActivityHipplenWorkData; }
 
 namespace RPG::Client::ActivityHipplen
 {
+	inline static constexpr unsigned int ActivityHipplenRoutineManager___c__DisplayClass11_0_TypeDefinitionIndex = 75608;
+
 	class ActivityHipplenRoutineManager___c__DisplayClass11_0 : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
+	inline static constexpr unsigned int B2FloatW_TypeDefinitionIndex = 36680;
+
 	struct alignas(4) B2FloatW
 	{
 		::System::Single X; // 0x10

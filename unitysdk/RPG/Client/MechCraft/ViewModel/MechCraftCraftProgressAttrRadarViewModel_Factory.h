@@ -14,6 +14,8 @@ namespace RPG::Client::MechCraft::ViewModel { class MechCraftCraftProgressAttrRa
 
 namespace RPG::Client::MechCraft::ViewModel
 {
+	inline static constexpr unsigned int MechCraftCraftProgressAttrRadarViewModel_Factory_TypeDefinitionIndex = 79547;
+
 	class MechCraftCraftProgressAttrRadarViewModel_Factory : public ::System::Object
 	{
 	public:

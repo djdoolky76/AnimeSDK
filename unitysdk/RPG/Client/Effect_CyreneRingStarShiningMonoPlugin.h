@@ -11,6 +11,8 @@ namespace UnityEngine { class AnimationCurve; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int Effect_CyreneRingStarShiningMonoPlugin_TypeDefinitionIndex = 70440;
+
 	class Effect_CyreneRingStarShiningMonoPlugin
 	{
 	public:

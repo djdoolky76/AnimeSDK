@@ -22,6 +22,8 @@ namespace UnityEngine { class RectTransform; }
 
 namespace RPG::Client::ActivityIdleLive
 {
+	inline static constexpr unsigned int IdleLiveEquipEffectBallFly_TypeDefinitionIndex = 75175;
+
 	class IdleLiveEquipEffectBallFly : public ::UnityEngine::MonoBehaviour
 	{
 	public:

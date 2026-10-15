@@ -3,6 +3,8 @@
 
 namespace System::IO
 {
+	inline static constexpr unsigned int FileAccess_TypeDefinitionIndex = 712;
+
 	enum class FileAccess : ::System::Int32
 	{
 		Read = 1,

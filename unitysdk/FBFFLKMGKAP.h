@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T> class Queue_1; }
 #define FBFFLKMGKAP_KAGICIAJEEA_OFFSET UNITYSDK_OFFSET(0x156981D0)
 #define FBFFLKMGKAP_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0x15697C20)
 
+inline static constexpr unsigned int FBFFLKMGKAP_TypeDefinitionIndex = 79095;
+
 	class FBFFLKMGKAP : public ::System::Object
 	{
 	public:

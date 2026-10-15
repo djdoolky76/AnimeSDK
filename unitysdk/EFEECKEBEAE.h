@@ -7,6 +7,8 @@ namespace RPG::Client { class GridFightPrayQuest; }
 #define EFEECKEBEAE_CTOR_OFFSET UNITYSDK_OFFSET(0x13A4A050)
 #define EFEECKEBEAE_DIPFOIAKDDM_OFFSET UNITYSDK_OFFSET(0x13A4A250)
 
+inline static constexpr unsigned int EFEECKEBEAE_TypeDefinitionIndex = 65096;
+
 	class EFEECKEBEAE : public ::System::Object
 	{
 	public:

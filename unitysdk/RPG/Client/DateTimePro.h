@@ -70,6 +70,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int DateTimePro_TypeDefinitionIndex = 35259;
+
 	struct alignas(4) DateTimePro
 	{
 		::System::DateTime _UtcTime; // 0x10

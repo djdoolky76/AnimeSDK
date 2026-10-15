@@ -11,6 +11,8 @@ namespace System { class String; }
 #define JBLFDPLFIFH_CTOR_OFFSET UNITYSDK_OFFSET(0x1D0150F0)
 #define JBLFDPLFIFH_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D014CE0)
 
+inline static constexpr unsigned int JBLFDPLFIFH_TypeDefinitionIndex = 11500;
+
 	class JBLFDPLFIFH : public ::System::Object
 	{
 	public:

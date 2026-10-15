@@ -10,6 +10,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int UpStairFootIK_LBIHHAKDFOK_TypeDefinitionIndex = 68500;
+
 	struct alignas(8) UpStairFootIK_LBIHHAKDFOK
 	{
 		::UnityEngine::Transform* DICDJJOJKGF; // 0x10

@@ -9,6 +9,8 @@
 #define BPFKOIIMKBG_MJHDCBFCNDO_OFFSET UNITYSDK_OFFSET(0xDD9D0)
 #define BPFKOIIMKBG_OGBFBLABMCA_OFFSET UNITYSDK_OFFSET(0xDD960)
 
+inline static constexpr unsigned int BPFKOIIMKBG_TypeDefinitionIndex = 57293;
+
 	struct alignas(4) BPFKOIIMKBG
 	{
 		::System::Boolean DMACAHCDGLH; // 0x10

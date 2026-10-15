@@ -15,6 +15,8 @@ namespace UnityEngine { class GameObject; }
 #define BMIKHDAIIMO___C__DISPLAYCLASS92_0__INSTANCERENDERSTUB_B__1_OFFSET UNITYSDK_OFFSET(0xBDBC980)
 #define BMIKHDAIIMO___C__DISPLAYCLASS92_0__INSTANCERENDERSTUB_B__2_OFFSET UNITYSDK_OFFSET(0xBDBCC90)
 
+inline static constexpr unsigned int BMIKHDAIIMO___c__DisplayClass92_0_TypeDefinitionIndex = 73881;
+
 	class BMIKHDAIIMO___c__DisplayClass92_0 : public ::System::Object
 	{
 	public:

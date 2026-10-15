@@ -10,6 +10,8 @@
 
 namespace System::Text
 {
+	inline static constexpr unsigned int DecoderExceptionFallbackBuffer_TypeDefinitionIndex = 471;
+
 	class DecoderExceptionFallbackBuffer : public ::System::Text::DecoderFallbackBuffer
 	{
 	public:

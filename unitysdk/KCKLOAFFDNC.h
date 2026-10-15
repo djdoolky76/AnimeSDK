@@ -6,6 +6,8 @@ namespace System { class String; }
 
 #define KCKLOAFFDNC_CTOR_OFFSET UNITYSDK_OFFSET(0xB33AED0)
 
+inline static constexpr unsigned int KCKLOAFFDNC_TypeDefinitionIndex = 55594;
+
 	class KCKLOAFFDNC : public ::CFJDNIMHGOG
 	{
 	public:

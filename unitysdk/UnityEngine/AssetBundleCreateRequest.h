@@ -8,6 +8,8 @@ namespace UnityEngine { class AssetBundle; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int AssetBundleCreateRequest_TypeDefinitionIndex = 5764;
+
 	class AssetBundleCreateRequest : public ::UnityEngine::AsyncOperation
 	{
 	public:

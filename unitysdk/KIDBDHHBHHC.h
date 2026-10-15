@@ -14,6 +14,8 @@ namespace RPG::GameCore { class GameEntity; }
 #define KIDBDHHBHHC_PLNCKDADELF_OFFSET UNITYSDK_OFFSET(0xB41B920)
 #define KIDBDHHBHHC_PNMONIDIDMP_OFFSET UNITYSDK_OFFSET(0xB41B960)
 
+inline static constexpr unsigned int KIDBDHHBHHC_TypeDefinitionIndex = 57485;
+
 	class KIDBDHHBHHC : public ::System::Object
 	{
 	public:

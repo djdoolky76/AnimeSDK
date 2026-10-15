@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define FONIEGCDBDF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E400740)
 #define FONIEGCDBDF___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E400750)
 
+inline static constexpr unsigned int FONIEGCDBDF___c_TypeDefinitionIndex = 26675;
+
 	class FONIEGCDBDF___c : public ::System::Object
 	{
 	public:

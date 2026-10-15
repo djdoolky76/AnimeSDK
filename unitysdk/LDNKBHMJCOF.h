@@ -20,6 +20,8 @@ namespace System::IO { class FileStream; }
 #define LDNKBHMJCOF_NKCDEAAKNGO_OFFSET UNITYSDK_OFFSET(0x1CC8E3C0)
 #define LDNKBHMJCOF_PDKLDMNAJBO_OFFSET UNITYSDK_OFFSET(0x1CC8E5C0)
 
+inline static constexpr unsigned int LDNKBHMJCOF_TypeDefinitionIndex = 43853;
+
 	class LDNKBHMJCOF : public ::OAHMMNKIOFD
 	{
 	public:

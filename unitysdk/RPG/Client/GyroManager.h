@@ -24,6 +24,8 @@ namespace RPG::Client { class GyroManager; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GyroManager_TypeDefinitionIndex = 68298;
+
 	class GyroManager : public ::System::Object
 	{
 	public:

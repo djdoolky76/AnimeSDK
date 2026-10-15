@@ -13,6 +13,8 @@ namespace UnityEngine { class MeshRenderer; }
 
 namespace ScenenLightManager
 {
+	inline static constexpr unsigned int MeshRenderExportData_TypeDefinitionIndex = 49146;
+
 	class MeshRenderExportData : public ::System::Object
 	{
 	public:

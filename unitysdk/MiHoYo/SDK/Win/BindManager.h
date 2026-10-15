@@ -88,6 +88,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::Win
 {
+	inline static constexpr unsigned int BindManager_TypeDefinitionIndex = 9374;
+
 	class BindManager : public ::System::Object
 	{
 	public:

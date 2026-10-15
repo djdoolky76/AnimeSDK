@@ -14,6 +14,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByTargetVisible_TypeDefinitionIndex = 20606;
+
 	class ByTargetVisible : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

@@ -5,6 +5,8 @@ namespace System { class String; }
 
 #define KNHDLHGFPAN_CTOR_OFFSET UNITYSDK_OFFSET(0x1C909BB0)
 
+inline static constexpr unsigned int KNHDLHGFPAN_TypeDefinitionIndex = 43569;
+
 	class KNHDLHGFPAN : public ::System::Object
 	{
 	public:

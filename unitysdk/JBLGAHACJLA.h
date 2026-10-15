@@ -17,6 +17,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define JBLGAHACJLA_JDKCDJNJAOL_OFFSET UNITYSDK_OFFSET(0x165725A0)
 #define JBLGAHACJLA_NGEAGIFJDMK_OFFSET UNITYSDK_OFFSET(0x165723A0)
 
+inline static constexpr unsigned int JBLGAHACJLA_TypeDefinitionIndex = 56484;
+
 	class JBLGAHACJLA : public ::System::Object
 	{
 	public:

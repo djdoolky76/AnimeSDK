@@ -3,6 +3,8 @@
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int PS5ActivityState_TypeDefinitionIndex = 8113;
+
 	enum class PS5ActivityState : ::System::Int32
 	{
 		NotStarted = 0,

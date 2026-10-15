@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace miHoYoEmotion
 {
+	inline static constexpr unsigned int BaseMarker_TypeDefinitionIndex = 45961;
+
 	class BaseMarker : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace System { class String; }
 #define FGHCFBENCAN_CTOR_OFFSET UNITYSDK_OFFSET(0x1CDECA40)
 #define FGHCFBENCAN_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CDEC710)
 
+inline static constexpr unsigned int FGHCFBENCAN_TypeDefinitionIndex = 11298;
+
 	class FGHCFBENCAN : public ::System::Object
 	{
 	public:

@@ -9,6 +9,8 @@ namespace RPG::Client::CrowdAnimator { class CrowdAssetsPathConfig; }
 #define BNPDBILNPNO_PEECNCABGFD_OFFSET UNITYSDK_OFFSET(0xBDE6E20)
 #define BNPDBILNPNO_PIAFAICPMLN_OFFSET UNITYSDK_OFFSET(0xBDE6D60)
 
+inline static constexpr unsigned int BNPDBILNPNO_TypeDefinitionIndex = 69128;
+
 	class BNPDBILNPNO : public ::System::Object
 	{
 	public:

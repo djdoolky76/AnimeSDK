@@ -97,6 +97,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define PLEODCMINJF_PMBFAOEECEM_OFFSET UNITYSDK_OFFSET(0xC300740)
 #define PLEODCMINJF_SET_SUBNAVGRAPHINFO_OFFSET UNITYSDK_OFFSET(0xC301AD0)
 
+inline static constexpr unsigned int PLEODCMINJF_TypeDefinitionIndex = 62201;
+
 	class PLEODCMINJF : public ::System::Object
 	{
 	public:

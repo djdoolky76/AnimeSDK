@@ -4,6 +4,8 @@
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int HumanLimit_TypeDefinitionIndex = 5721;
+
 	struct alignas(4) HumanLimit
 	{
 		::UnityEngine::Vector3 m_Min; // 0x10

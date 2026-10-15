@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RefreshBattleAvatarPanel; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RefreshBattleAvatarPanel_TypeDefinitionIndex = 22817;
+
 	class RefreshBattleAvatarPanel : public ::RPG::GameCore::TaskConfig
 	{
 	public:

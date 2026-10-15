@@ -14,6 +14,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define DPMANCGHIEO_MGFLFCHMGPA_OFFSET UNITYSDK_OFFSET(0x1265B4C0)
 #define DPMANCGHIEO_PGKPGNJJMMB_OFFSET UNITYSDK_OFFSET(0x1265B830)
 
+inline static constexpr unsigned int DPMANCGHIEO_TypeDefinitionIndex = 54735;
+
 	class DPMANCGHIEO : public ::GGJEMEHMBNL
 	{
 	public:

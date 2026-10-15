@@ -276,6 +276,8 @@ namespace UnityEngine::UI { class VertexHelper; }
 
 namespace TMPro
 {
+	inline static constexpr unsigned int TMP_InputField_TypeDefinitionIndex = 44593;
+
 	class TMP_InputField : public ::UnityEngine::UI::Selectable
 	{
 	public:

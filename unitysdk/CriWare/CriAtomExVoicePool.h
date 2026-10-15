@@ -29,6 +29,8 @@
 
 namespace CriWare
 {
+	inline static constexpr unsigned int CriAtomExVoicePool_TypeDefinitionIndex = 40070;
+
 	class CriAtomExVoicePool : public ::CriWare::CriDisposable
 	{
 	public:

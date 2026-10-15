@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int FateStatisticsInfo___c__DisplayClass4_0_TypeDefinitionIndex = 64133;
+
 	class FateStatisticsInfo___c__DisplayClass4_0 : public ::System::Object
 	{
 	public:

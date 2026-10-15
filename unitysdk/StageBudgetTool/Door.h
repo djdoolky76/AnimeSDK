@@ -9,6 +9,8 @@ namespace System { class String; }
 
 namespace StageBudgetTool
 {
+	inline static constexpr unsigned int Door_TypeDefinitionIndex = 47724;
+
 	class Door : public ::System::Object
 	{
 	public:

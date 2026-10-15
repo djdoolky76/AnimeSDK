@@ -9,6 +9,8 @@ namespace RPG::GameCore { class GridFightTraitRemarkRow; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightTraitRemarkLineEffectFactory_TypeDefinitionIndex = 65474;
+
 	class GridFightTraitRemarkLineEffectFactory : public ::System::Object
 	{
 	public:

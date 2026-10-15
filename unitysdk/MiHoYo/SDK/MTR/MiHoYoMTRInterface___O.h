@@ -5,6 +5,8 @@ namespace System::Threading { class ParameterizedThreadStart; }
 
 namespace MiHoYo::SDK::MTR
 {
+	inline static constexpr unsigned int MiHoYoMTRInterface___O_TypeDefinitionIndex = 46687;
+
 	class MiHoYoMTRInterface___O : public ::System::Object
 	{
 	public:

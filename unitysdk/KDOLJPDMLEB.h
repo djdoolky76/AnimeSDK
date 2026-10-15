@@ -19,6 +19,8 @@ namespace RPG::GameCore { class FiveDimMapSurfaceConfig; }
 #define KDOLJPDMLEB_SET__CYLINDERUNITANGLE_OFFSET UNITYSDK_OFFSET(0xB36C080)
 #define KDOLJPDMLEB_SET__POSITIONINFACE_OFFSET UNITYSDK_OFFSET(0xB36C060)
 
+inline static constexpr unsigned int KDOLJPDMLEB_TypeDefinitionIndex = 74667;
+
 	class KDOLJPDMLEB : public ::System::Object
 	{
 	public:

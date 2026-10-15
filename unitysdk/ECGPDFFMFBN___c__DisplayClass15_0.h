@@ -8,6 +8,8 @@ namespace UnityEngine { class Transform; }
 #define ECGPDFFMFBN___C__DISPLAYCLASS15_0_CTOR_OFFSET UNITYSDK_OFFSET(0x12D0D510)
 #define ECGPDFFMFBN___C__DISPLAYCLASS15_0___DRAWLIGHTNINGRAY_B__0_OFFSET UNITYSDK_OFFSET(0x12D0D560)
 
+inline static constexpr unsigned int ECGPDFFMFBN___c__DisplayClass15_0_TypeDefinitionIndex = 77896;
+
 	class ECGPDFFMFBN___c__DisplayClass15_0 : public ::System::Object
 	{
 	public:

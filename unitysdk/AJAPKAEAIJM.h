@@ -31,6 +31,8 @@ namespace System { class String; }
 #define AJAPKAEAIJM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E284990)
 #define AJAPKAEAIJM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E2849F0)
 
+inline static constexpr unsigned int AJAPKAEAIJM_TypeDefinitionIndex = 34043;
+
 	class AJAPKAEAIJM : public ::System::Object
 	{
 	public:

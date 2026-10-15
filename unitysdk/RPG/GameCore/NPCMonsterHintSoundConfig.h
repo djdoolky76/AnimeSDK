@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int NPCMonsterHintSoundConfig_TypeDefinitionIndex = 17471;
+
 	class NPCMonsterHintSoundConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

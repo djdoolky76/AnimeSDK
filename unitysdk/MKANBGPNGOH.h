@@ -28,6 +28,8 @@ namespace System { class Action; }
 #define MKANBGPNGOH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB9826F0)
 #define MKANBGPNGOH_PDJAHMBOPDP_OFFSET UNITYSDK_OFFSET(0xB984E00)
 
+inline static constexpr unsigned int MKANBGPNGOH_TypeDefinitionIndex = 53853;
+
 	class MKANBGPNGOH
 	{
 	public:

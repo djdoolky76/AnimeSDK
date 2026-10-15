@@ -7,6 +7,8 @@
 
 namespace UnityEngine::UI
 {
+	inline static constexpr unsigned int RuntimeAtlasManager_RuntimeAtlas_CopyCmdCmp_TypeDefinitionIndex = 6819;
+
 	struct alignas(4) RuntimeAtlasManager_RuntimeAtlas_CopyCmdCmp
 	{
 		::System::Boolean Equals(::UnityEngine::UI::RuntimeAtlasManager_RuntimeAtlas_CopyCmd a1, ::UnityEngine::UI::RuntimeAtlasManager_RuntimeAtlas_CopyCmd a2)

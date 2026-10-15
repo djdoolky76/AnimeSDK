@@ -5,6 +5,8 @@
 
 namespace UnityEngine::UI
 {
+	inline static constexpr unsigned int MaskableGraphic_CullStateChangedEvent_TypeDefinitionIndex = 6795;
+
 	class MaskableGraphic_CullStateChangedEvent
 	{
 	public:

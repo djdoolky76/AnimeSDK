@@ -14,6 +14,8 @@ namespace System::Collections { class ICollection; }
 
 namespace MessagePack::Formatters
 {
+	inline static constexpr unsigned int NonGenericInterfaceCollectionFormatter_TypeDefinitionIndex = 7401;
+
 	class NonGenericInterfaceCollectionFormatter : public ::System::Object
 	{
 	public:

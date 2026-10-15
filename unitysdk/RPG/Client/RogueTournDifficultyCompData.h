@@ -18,6 +18,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueTournDifficultyCompData_TypeDefinitionIndex = 67582;
+
 	class RogueTournDifficultyCompData : public ::System::Object
 	{
 	public:

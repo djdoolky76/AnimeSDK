@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int OpenCocoon_TypeDefinitionIndex = 22084;
+
 	class OpenCocoon : public ::RPG::GameCore::TaskConfig
 	{
 	public:

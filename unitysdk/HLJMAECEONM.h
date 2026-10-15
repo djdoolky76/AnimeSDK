@@ -9,6 +9,8 @@ class LKJIICKOLEK;
 #define HLJMAECEONM_ONALLOC_OFFSET UNITYSDK_OFFSET(0x1CAECC80)
 #define HLJMAECEONM_ONRECYCLE_OFFSET UNITYSDK_OFFSET(0x1CAECEB0)
 
+inline static constexpr unsigned int HLJMAECEONM_TypeDefinitionIndex = 43289;
+
 	class HLJMAECEONM : public ::System::Object
 	{
 	public:

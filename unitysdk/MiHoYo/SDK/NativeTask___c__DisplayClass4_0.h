@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int NativeTask___c__DisplayClass4_0_TypeDefinitionIndex = 7989;
+
 	class NativeTask___c__DisplayClass4_0 : public ::System::Object
 	{
 	public:

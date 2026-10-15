@@ -5,6 +5,8 @@
 
 namespace UnityEngine::UIElements
 {
+	inline static constexpr unsigned int PointerOverEvent_TypeDefinitionIndex = 5987;
+
 	class PointerOverEvent
 	{
 	public:

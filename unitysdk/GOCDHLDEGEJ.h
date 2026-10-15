@@ -8,6 +8,8 @@ namespace UnityEngine { class Transform; }
 #define GOCDHLDEGEJ_CLEAR_OFFSET UNITYSDK_OFFSET(0x1CAB5640)
 #define GOCDHLDEGEJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1CAB56C0)
 
+inline static constexpr unsigned int GOCDHLDEGEJ_TypeDefinitionIndex = 42917;
+
 	class GOCDHLDEGEJ : public ::System::Object
 	{
 	public:

@@ -9,6 +9,8 @@ namespace System { class String; }
 
 namespace System::Diagnostics::Tracing
 {
+	inline static constexpr unsigned int ManifestBuilder___c__DisplayClass22_1_TypeDefinitionIndex = 1708;
+
 	template <typename T>
 	class ManifestBuilder___c__DisplayClass22_1 : public ::System::Object
 	{

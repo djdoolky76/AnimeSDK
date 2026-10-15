@@ -13,6 +13,8 @@ namespace RPG::GameCore { class LevelGlobalActionDelayChanged; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelGlobalActionDelayChanged_TypeDefinitionIndex = 56781;
+
 	class LevelGlobalActionDelayChanged : public ::CMPGEAFHHDC
 	{
 	public:

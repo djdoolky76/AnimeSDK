@@ -8,6 +8,8 @@ namespace RPG::Client { class IRogueMiracleInfo; }
 #define IAKEKGNBAON_CTOR_OFFSET UNITYSDK_OFFSET(0x15E17040)
 #define IAKEKGNBAON_JAGMPHPNAHM_OFFSET UNITYSDK_OFFSET(0x15E17050)
 
+inline static constexpr unsigned int IAKEKGNBAON_TypeDefinitionIndex = 67097;
+
 	class IAKEKGNBAON : public ::DOLNICOMJJM
 	{
 	public:

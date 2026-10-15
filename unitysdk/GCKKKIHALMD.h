@@ -7,6 +7,8 @@ class LINAIKDAJHF;
 
 #define GCKKKIHALMD_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA84450)
 
+inline static constexpr unsigned int GCKKKIHALMD_TypeDefinitionIndex = 42155;
+
 	class GCKKKIHALMD : public ::System::Object
 	{
 	public:

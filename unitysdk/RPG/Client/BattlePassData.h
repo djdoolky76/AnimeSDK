@@ -17,6 +17,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int BattlePassData_TypeDefinitionIndex = 62890;
+
 	struct alignas(8) BattlePassData
 	{
 		::System::UInt32 ID; // 0x10

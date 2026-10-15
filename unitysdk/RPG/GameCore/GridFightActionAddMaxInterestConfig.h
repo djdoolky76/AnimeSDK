@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GridFightActionAddMaxInterestConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightActionAddMaxInterestConfig_TypeDefinitionIndex = 19301;
+
 	class GridFightActionAddMaxInterestConfig : public ::RPG::GameCore::GridFightActionConfigBase
 	{
 	public:

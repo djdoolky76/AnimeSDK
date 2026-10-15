@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define OJEANLINGCJ___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DE7FED0)
 #define OJEANLINGCJ___C___CCTOR_B__58_0_OFFSET UNITYSDK_OFFSET(0x1DE7FEE0)
 
+inline static constexpr unsigned int OJEANLINGCJ___c_TypeDefinitionIndex = 25548;
+
 	class OJEANLINGCJ___c : public ::System::Object
 	{
 	public:

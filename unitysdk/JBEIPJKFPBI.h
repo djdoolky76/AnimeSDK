@@ -5,6 +5,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 #define JBEIPJKFPBI_CTOR_OFFSET UNITYSDK_OFFSET(0x1C6F1180)
 
+inline static constexpr unsigned int JBEIPJKFPBI_TypeDefinitionIndex = 36526;
+
 	class JBEIPJKFPBI : public ::System::Object
 	{
 	public:

@@ -13,6 +13,8 @@
 #define EHJIFGMNNPP_GET_QUERYSURFACESTARTOFFSET_OFFSET UNITYSDK_OFFSET(0x1D20)
 #define EHJIFGMNNPP_GET_UNITLENGTH_OFFSET UNITYSDK_OFFSET(0x1D00)
 
+inline static constexpr unsigned int EHJIFGMNNPP_TypeDefinitionIndex = 43579;
+
 	struct alignas(4) EHJIFGMNNPP
 	{
 		::System::Single _UnitLength_k__BackingField; // 0x10

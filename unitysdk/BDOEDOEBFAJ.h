@@ -63,6 +63,8 @@ namespace System { class String; }
 #define BDOEDOEBFAJ_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E91E1E0)
 #define BDOEDOEBFAJ_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E91E240)
 
+inline static constexpr unsigned int BDOEDOEBFAJ_TypeDefinitionIndex = 27074;
+
 	class BDOEDOEBFAJ : public ::System::Object
 	{
 	public:

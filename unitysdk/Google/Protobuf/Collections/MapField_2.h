@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T> class LinkedList_
 
 namespace Google::Protobuf::Collections
 {
+	inline static constexpr unsigned int MapField_2_TypeDefinitionIndex = 5579;
+
 	template <typename T1, typename T2>
 	class MapField_2 : public ::System::Object
 	{

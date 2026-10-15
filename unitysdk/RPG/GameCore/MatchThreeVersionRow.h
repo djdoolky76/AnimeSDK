@@ -9,6 +9,8 @@ namespace RPG::GameCore { class MatchThreeVersionRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MatchThreeVersionRow_TypeDefinitionIndex = 11895;
+
 	class MatchThreeVersionRow : public ::System::Object
 	{
 	public:

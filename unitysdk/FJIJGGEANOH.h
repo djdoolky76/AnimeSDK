@@ -15,6 +15,8 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyLi
 #define FJIJGGEANOH_REMOVE_ONORDERSELECTREQUESTED_OFFSET UNITYSDK_OFFSET(0x157CF4D0)
 #define FJIJGGEANOH_SET_ORDERS_OFFSET UNITYSDK_OFFSET(0x157CF440)
 
+inline static constexpr unsigned int FJIJGGEANOH_TypeDefinitionIndex = 79676;
+
 	class FJIJGGEANOH : public ::System::Object
 	{
 	public:

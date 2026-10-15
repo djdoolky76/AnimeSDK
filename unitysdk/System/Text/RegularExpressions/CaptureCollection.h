@@ -19,6 +19,8 @@ namespace System::Text::RegularExpressions { class Group; }
 
 namespace System::Text::RegularExpressions
 {
+	inline static constexpr unsigned int CaptureCollection_TypeDefinitionIndex = 2504;
+
 	class CaptureCollection : public ::System::Object
 	{
 	public:

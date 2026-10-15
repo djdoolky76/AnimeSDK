@@ -8,6 +8,8 @@ class KHJCNJAILFO;
 #define KHJCNJAILFO_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D092560)
 #define KHJCNJAILFO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D092490)
 
+inline static constexpr unsigned int KHJCNJAILFO_TypeDefinitionIndex = 21147;
+
 	class KHJCNJAILFO : public ::RPG::GameCore::TaskConfig
 	{
 	public:

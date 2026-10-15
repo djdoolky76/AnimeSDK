@@ -30,6 +30,8 @@ namespace System::Net::Sockets { class Socket; }
 
 namespace System::Net::Sockets
 {
+	inline static constexpr unsigned int SocketAsyncResult_TypeDefinitionIndex = 2919;
+
 	class SocketAsyncResult : public ::System::IOAsyncResult
 	{
 	public:

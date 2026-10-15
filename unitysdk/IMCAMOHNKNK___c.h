@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define IMCAMOHNKNK___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E6B4950)
 #define IMCAMOHNKNK___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E6B4960)
 
+inline static constexpr unsigned int IMCAMOHNKNK___c_TypeDefinitionIndex = 29802;
+
 	class IMCAMOHNKNK___c : public ::System::Object
 	{
 	public:

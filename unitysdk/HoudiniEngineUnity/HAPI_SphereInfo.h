@@ -5,6 +5,8 @@
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int HAPI_SphereInfo_TypeDefinitionIndex = 40517;
+
 	struct alignas(8) HAPI_SphereInfo
 	{
 		::Il2CppArray<::System::Single>* center; // 0x10

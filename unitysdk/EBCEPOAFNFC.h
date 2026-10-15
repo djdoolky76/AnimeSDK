@@ -4,6 +4,8 @@
 #define EBCEPOAFNFC_CTOR_OFFSET UNITYSDK_OFFSET(0x12CE9910)
 #define EBCEPOAFNFC_GGNBOEIMEPM_OFFSET UNITYSDK_OFFSET(0x12CE97B0)
 
+inline static constexpr unsigned int EBCEPOAFNFC_TypeDefinitionIndex = 68697;
+
 	class EBCEPOAFNFC
 	{
 	public:

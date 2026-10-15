@@ -11,6 +11,8 @@ namespace RPG::GameCore { class DeviceRelatedAvatarAssetPreloadConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DeviceRelatedAvatarAssetPreloadConfig_TypeDefinitionIndex = 16474;
+
 	class DeviceRelatedAvatarAssetPreloadConfig : public ::RPG::GameCore::DeviceRelatedConfigBase
 	{
 	public:

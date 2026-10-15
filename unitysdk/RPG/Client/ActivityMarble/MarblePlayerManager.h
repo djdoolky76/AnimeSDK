@@ -17,6 +17,8 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 
 namespace RPG::Client::ActivityMarble
 {
+	inline static constexpr unsigned int MarblePlayerManager_TypeDefinitionIndex = 75992;
+
 	class MarblePlayerManager : public ::System::Object
 	{
 	public:

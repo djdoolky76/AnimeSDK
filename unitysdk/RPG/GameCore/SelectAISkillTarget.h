@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SelectAISkillTarget_TypeDefinitionIndex = 22434;
+
 	class SelectAISkillTarget : public ::RPG::GameCore::TaskConfig
 	{
 	public:

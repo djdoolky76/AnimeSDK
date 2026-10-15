@@ -7,6 +7,8 @@
 
 namespace Cinemachine::Utility
 {
+	inline static constexpr unsigned int GaussianWindow1D_CameraRotation_TypeDefinitionIndex = 39891;
+
 	class GaussianWindow1D_CameraRotation
 	{
 	public:

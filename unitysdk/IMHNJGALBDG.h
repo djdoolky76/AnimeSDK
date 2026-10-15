@@ -57,6 +57,8 @@ namespace UnityEngine { class Transform; }
 #define IMHNJGALBDG_PKPMAJDLMNI_OFFSET UNITYSDK_OFFSET(0x164D6310)
 #define IMHNJGALBDG__HIDE_B__58_0_OFFSET UNITYSDK_OFFSET(0x164D9CB0)
 
+inline static constexpr unsigned int IMHNJGALBDG_TypeDefinitionIndex = 69215;
+
 	class IMHNJGALBDG : public ::System::Object
 	{
 	public:

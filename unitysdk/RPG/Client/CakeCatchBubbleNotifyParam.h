@@ -22,6 +22,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int CakeCatchBubbleNotifyParam_TypeDefinitionIndex = 62964;
+
 	class CakeCatchBubbleNotifyParam : public ::System::Object
 	{
 	public:

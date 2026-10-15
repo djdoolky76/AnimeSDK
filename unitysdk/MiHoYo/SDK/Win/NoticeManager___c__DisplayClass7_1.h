@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::Win
 {
+	inline static constexpr unsigned int NoticeManager___c__DisplayClass7_1_TypeDefinitionIndex = 9399;
+
 	template <typename T>
 	class NoticeManager___c__DisplayClass7_1 : public ::System::Object
 	{

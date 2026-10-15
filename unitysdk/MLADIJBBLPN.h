@@ -27,6 +27,8 @@ namespace System { class String; }
 #define MLADIJBBLPN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EA5E6F0)
 #define MLADIJBBLPN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EA5E750)
 
+inline static constexpr unsigned int MLADIJBBLPN_TypeDefinitionIndex = 34962;
+
 	class MLADIJBBLPN : public ::System::Object
 	{
 	public:

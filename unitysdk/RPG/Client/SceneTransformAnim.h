@@ -13,6 +13,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int SceneTransformAnim_TypeDefinitionIndex = 70940;
+
 	class SceneTransformAnim : public ::UnityEngine::MonoBehaviour
 	{
 	public:

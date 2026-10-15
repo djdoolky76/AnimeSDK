@@ -15,6 +15,8 @@ namespace System { class String; }
 #define IJPEDBMAMDM_ODGBJHIDJKD_OFFSET UNITYSDK_OFFSET(0x16480EC0)
 #define IJPEDBMAMDM_OPNMHPIECDB_OFFSET UNITYSDK_OFFSET(0x164811F0)
 
+inline static constexpr unsigned int IJPEDBMAMDM_TypeDefinitionIndex = 71731;
+
 	class IJPEDBMAMDM : public ::System::Object
 	{
 	public:

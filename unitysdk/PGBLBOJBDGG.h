@@ -27,6 +27,8 @@ namespace System { class String; }
 #define PGBLBOJBDGG_KIAOJGOIFJK_OFFSET UNITYSDK_OFFSET(0x1C9E7E80)
 #define PGBLBOJBDGG_LPEHGMGDCIO_OFFSET UNITYSDK_OFFSET(0x1C9E7E00)
 
+inline static constexpr unsigned int PGBLBOJBDGG_TypeDefinitionIndex = 42583;
+
 	class PGBLBOJBDGG
 	{
 	public:

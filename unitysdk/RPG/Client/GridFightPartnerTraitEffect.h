@@ -62,6 +62,8 @@ namespace System::Collections::Specialized { class NotifyCollectionChangedEventA
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightPartnerTraitEffect_TypeDefinitionIndex = 65405;
+
 	class GridFightPartnerTraitEffect : public ::RPG::Client::GridFightTraitEffectBase
 	{
 	public:

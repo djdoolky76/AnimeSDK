@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define LBCOGNOFEEN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB5F40F0)
 #define LBCOGNOFEEN_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB5F48E0)
 
+inline static constexpr unsigned int LBCOGNOFEEN_TypeDefinitionIndex = 52662;
+
 	class LBCOGNOFEEN
 	{
 	public:

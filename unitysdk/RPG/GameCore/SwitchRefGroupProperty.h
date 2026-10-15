@@ -11,6 +11,8 @@ namespace RPG::GameCore { class SwitchRefGroupProperty; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SwitchRefGroupProperty_TypeDefinitionIndex = 17527;
+
 	class SwitchRefGroupProperty : public ::RPG::GameCore::SwitchRefBase
 	{
 	public:

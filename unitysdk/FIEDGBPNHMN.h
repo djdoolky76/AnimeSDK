@@ -18,6 +18,8 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyLi
 #define FIEDGBPNHMN_GET_ITEMS_OFFSET UNITYSDK_OFFSET(0x157A3FA0)
 #define FIEDGBPNHMN_GET_NAVIGATIONENABLED_OFFSET UNITYSDK_OFFSET(0x157A3FC0)
 
+inline static constexpr unsigned int FIEDGBPNHMN_TypeDefinitionIndex = 79149;
+
 	class FIEDGBPNHMN : public ::System::Object
 	{
 	public:

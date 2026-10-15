@@ -5,6 +5,8 @@
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int ToneMappingMethodParameter_TypeDefinitionIndex = 37848;
+
 	class ToneMappingMethodParameter
 	{
 	public:

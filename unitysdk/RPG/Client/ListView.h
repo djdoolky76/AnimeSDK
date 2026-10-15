@@ -62,6 +62,8 @@ namespace UnityEngine::UI { class ScrollRect; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ListView_TypeDefinitionIndex = 72556;
+
 	class ListView : public ::UnityEngine::MonoBehaviour
 	{
 	public:

@@ -11,6 +11,8 @@ namespace RPG::Client { class EasyFog_ExtraExportData; }
 
 namespace ScenenLightManager
 {
+	inline static constexpr unsigned int EasyFog_ExportData_TypeDefinitionIndex = 49109;
+
 	class EasyFog_ExportData : public ::ScenenLightManager::BaseComponentExportData
 	{
 	public:

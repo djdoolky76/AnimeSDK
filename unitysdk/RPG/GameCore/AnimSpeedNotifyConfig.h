@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AnimSpeedNotifyConfig_TypeDefinitionIndex = 16959;
+
 	class AnimSpeedNotifyConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

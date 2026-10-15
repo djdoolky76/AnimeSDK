@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ActivityElationShowCutIn; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ActivityElationShowCutIn_TypeDefinitionIndex = 23227;
+
 	class ActivityElationShowCutIn : public ::RPG::GameCore::TaskConfig
 	{
 	public:

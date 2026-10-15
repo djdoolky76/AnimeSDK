@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define BPGBJEDIAFP_GET_FACTORY_OFFSET UNITYSDK_OFFSET(0xC1A4CF0)
 #define BPGBJEDIAFP_SET_FACTORY_OFFSET UNITYSDK_OFFSET(0xC1A4D00)
 
+inline static constexpr unsigned int BPGBJEDIAFP_TypeDefinitionIndex = 62706;
+
 	class BPGBJEDIAFP : public ::System::Object
 	{
 	public:

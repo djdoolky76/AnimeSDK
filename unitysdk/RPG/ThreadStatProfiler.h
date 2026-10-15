@@ -19,6 +19,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG
 {
+	inline static constexpr unsigned int ThreadStatProfiler_TypeDefinitionIndex = 35157;
+
 	class ThreadStatProfiler : public ::System::Object
 	{
 	public:

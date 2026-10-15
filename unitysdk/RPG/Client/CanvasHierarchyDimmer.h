@@ -15,6 +15,8 @@ namespace RPG::Client { class ParticleSystemGroup; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int CanvasHierarchyDimmer_TypeDefinitionIndex = 68920;
+
 	class CanvasHierarchyDimmer : public ::UnityEngine::MonoBehaviour
 	{
 	public:

@@ -11,6 +11,8 @@ namespace RPG::GameCore { class FloorSavedValueConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FloorCustomDataConfig_TypeDefinitionIndex = 18287;
+
 	class FloorCustomDataConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

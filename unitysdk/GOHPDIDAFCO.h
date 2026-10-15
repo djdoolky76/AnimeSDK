@@ -13,6 +13,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define GOHPDIDAFCO_TICK_OFFSET UNITYSDK_OFFSET(0x15B33670)
 #define GOHPDIDAFCO__ONTASKBEGIN_B__4_0_OFFSET UNITYSDK_OFFSET(0x15B336D0)
 
+inline static constexpr unsigned int GOHPDIDAFCO_TypeDefinitionIndex = 52625;
+
 	class GOHPDIDAFCO : public ::GELIALJDFBL
 	{
 	public:

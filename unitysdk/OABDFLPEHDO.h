@@ -7,6 +7,8 @@ class NDPFOOJIAIJ;
 #define OABDFLPEHDO_KLICCELODLB_OFFSET UNITYSDK_OFFSET(0xBD18910)
 #define OABDFLPEHDO_LKAFOOENJID_OFFSET UNITYSDK_OFFSET(0xBD18970)
 
+inline static constexpr unsigned int OABDFLPEHDO_TypeDefinitionIndex = 64746;
+
 	class OABDFLPEHDO : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace RPG::GameCore { class SetDynamicString; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetDynamicString_TypeDefinitionIndex = 23818;
+
 	class SetDynamicString : public ::RPG::GameCore::SetDynamicStringBase
 	{
 	public:

@@ -13,6 +13,8 @@ namespace ZenFulcrum::EmbeddedBrowser { class Browser; }
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
+	inline static constexpr unsigned int Browser_VisibleChangedDelegate_TypeDefinitionIndex = 39335;
+
 	class Browser_VisibleChangedDelegate : public ::System::MulticastDelegate
 	{
 	public:

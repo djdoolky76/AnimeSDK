@@ -13,6 +13,8 @@ namespace UnityEngine { class RectTransform; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int RectTransform_ReapplyDrivenProperties_TypeDefinitionIndex = 4407;
+
 	class RectTransform_ReapplyDrivenProperties : public ::System::MulticastDelegate
 	{
 	public:

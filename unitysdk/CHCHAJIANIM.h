@@ -75,6 +75,8 @@ namespace System { class String; }
 #define CHCHAJIANIM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E0BE830)
 #define CHCHAJIANIM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E0BE890)
 
+inline static constexpr unsigned int CHCHAJIANIM_TypeDefinitionIndex = 29500;
+
 	class CHCHAJIANIM : public ::System::Object
 	{
 	public:

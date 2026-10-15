@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueModifierExecuteActionOnMpCostConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueModifierExecuteActionOnMpCostConfig_TypeDefinitionIndex = 17688;
+
 	class RogueModifierExecuteActionOnMpCostConfig : public ::RPG::GameCore::RogueModifierConfig
 	{
 	public:

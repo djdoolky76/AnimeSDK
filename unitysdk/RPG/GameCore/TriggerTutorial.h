@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TriggerTutorial_TypeDefinitionIndex = 24373;
+
 	class TriggerTutorial : public ::RPG::GameCore::TaskConfig
 	{
 	public:

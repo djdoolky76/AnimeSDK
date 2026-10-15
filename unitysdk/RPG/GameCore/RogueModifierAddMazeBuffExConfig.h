@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueModifierAddMazeBuffExConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueModifierAddMazeBuffExConfig_TypeDefinitionIndex = 17949;
+
 	class RogueModifierAddMazeBuffExConfig : public ::RPG::GameCore::RogueModifierConfig
 	{
 	public:

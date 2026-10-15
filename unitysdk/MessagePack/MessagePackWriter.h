@@ -66,6 +66,8 @@ namespace System::Buffers { template <typename T> class IBufferWriter_1; }
 
 namespace MessagePack
 {
+	inline static constexpr unsigned int MessagePackWriter_TypeDefinitionIndex = 7232;
+
 	struct alignas(4) MessagePackWriter
 	{
 		::MessagePack::BufferWriter writer; // 0x10

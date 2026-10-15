@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define EEAGACLNDFN___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E2642D0)
 #define EEAGACLNDFN___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E2642E0)
 
+inline static constexpr unsigned int EEAGACLNDFN___c_TypeDefinitionIndex = 28031;
+
 	class EEAGACLNDFN___c : public ::System::Object
 	{
 	public:

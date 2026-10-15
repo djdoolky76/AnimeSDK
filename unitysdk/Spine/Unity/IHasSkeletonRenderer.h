@@ -3,6 +3,8 @@
 
 namespace Spine::Unity
 {
+	inline static constexpr unsigned int IHasSkeletonRenderer_TypeDefinitionIndex = 45076;
+
 	class IHasSkeletonRenderer
 	{
 	public:

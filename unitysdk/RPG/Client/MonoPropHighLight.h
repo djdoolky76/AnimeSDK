@@ -16,6 +16,8 @@ namespace UnityEngine { class Renderer; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoPropHighLight_TypeDefinitionIndex = 68771;
+
 	class MonoPropHighLight : public ::UnityEngine::MonoBehaviour
 	{
 	public:

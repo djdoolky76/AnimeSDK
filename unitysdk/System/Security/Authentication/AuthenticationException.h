@@ -12,6 +12,8 @@ namespace System::Runtime::Serialization { class SerializationInfo; }
 
 namespace System::Security::Authentication
 {
+	inline static constexpr unsigned int AuthenticationException_TypeDefinitionIndex = 2668;
+
 	class AuthenticationException : public ::System::SystemException
 	{
 	public:

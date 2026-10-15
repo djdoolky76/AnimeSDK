@@ -16,6 +16,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace MiHoYo::SDK::Win
 {
+	inline static constexpr unsigned int WindowsUtils_TypeDefinitionIndex = 9487;
+
 	class WindowsUtils : public ::System::Object
 	{
 	public:

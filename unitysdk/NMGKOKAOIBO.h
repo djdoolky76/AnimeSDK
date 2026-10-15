@@ -5,6 +5,8 @@ namespace RPG::GameCore { class FourRotateVoxelViewCtrlConfig; }
 
 #define NMGKOKAOIBO_CTOR_OFFSET UNITYSDK_OFFSET(0x1C972D80)
 
+inline static constexpr unsigned int NMGKOKAOIBO_TypeDefinitionIndex = 43243;
+
 	class NMGKOKAOIBO : public ::System::Object
 	{
 	public:

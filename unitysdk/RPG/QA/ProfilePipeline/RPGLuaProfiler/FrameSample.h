@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::QA::ProfilePipeline::RPGLuaProfiler
 {
+	inline static constexpr unsigned int FrameSample_TypeDefinitionIndex = 51828;
+
 	class FrameSample : public ::System::Object
 	{
 	public:

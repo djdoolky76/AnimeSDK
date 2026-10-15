@@ -37,6 +37,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::B51Racing
 {
+	inline static constexpr unsigned int B51RacingGameplayCountDownControl_TypeDefinitionIndex = 81876;
+
 	class B51RacingGameplayCountDownControl : public ::Sofa::BaseSofaControl
 	{
 	public:

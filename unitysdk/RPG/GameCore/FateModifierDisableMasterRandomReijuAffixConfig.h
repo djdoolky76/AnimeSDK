@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FateModifierDisableMasterRandomReijuAffixConfig;
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FateModifierDisableMasterRandomReijuAffixConfig_TypeDefinitionIndex = 19279;
+
 	class FateModifierDisableMasterRandomReijuAffixConfig : public ::RPG::GameCore::FateModifierConfigBase
 	{
 	public:

@@ -8,6 +8,8 @@ namespace RVO { class Obstacle; }
 
 namespace RVO
 {
+	inline static constexpr unsigned int KdTree_ObstacleTreeNode_TypeDefinitionIndex = 46030;
+
 	class KdTree_ObstacleTreeNode : public ::System::Object
 	{
 	public:

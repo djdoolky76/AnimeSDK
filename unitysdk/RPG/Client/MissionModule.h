@@ -432,6 +432,8 @@ namespace UnityEngine { class Coroutine; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MissionModule_TypeDefinitionIndex = 66135;
+
 	class MissionModule : public ::RPG::Client::BaseModule
 	{
 	public:

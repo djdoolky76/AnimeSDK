@@ -6,6 +6,8 @@
 #define DGFIIPKIHEA_CTOR_OFFSET UNITYSDK_OFFSET(0xE846210)
 #define DGFIIPKIHEA_NPJGONHMEOD_OFFSET UNITYSDK_OFFSET(0xE846230)
 
+inline static constexpr unsigned int DGFIIPKIHEA_TypeDefinitionIndex = 61190;
+
 	class DGFIIPKIHEA : public ::HDJIGMBHENE
 	{
 	public:

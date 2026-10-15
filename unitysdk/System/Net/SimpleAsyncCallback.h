@@ -13,6 +13,8 @@ namespace System::Net { class SimpleAsyncResult; }
 
 namespace System::Net
 {
+	inline static constexpr unsigned int SimpleAsyncCallback_TypeDefinitionIndex = 2876;
+
 	class SimpleAsyncCallback : public ::System::MulticastDelegate
 	{
 	public:

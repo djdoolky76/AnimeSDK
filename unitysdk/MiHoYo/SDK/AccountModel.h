@@ -15,6 +15,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int AccountModel_TypeDefinitionIndex = 7863;
+
 	class AccountModel : public ::System::Object
 	{
 	public:

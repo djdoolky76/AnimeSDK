@@ -8,6 +8,8 @@ namespace RPG::Client::ChenLingBattle { class Condition; }
 
 namespace RPG::Client::ChenLingBattle
 {
+	inline static constexpr unsigned int ChenLingBattleGameSession___c__DisplayClass84_0_TypeDefinitionIndex = 76339;
+
 	class ChenLingBattleGameSession___c__DisplayClass84_0 : public ::System::Object
 	{
 	public:

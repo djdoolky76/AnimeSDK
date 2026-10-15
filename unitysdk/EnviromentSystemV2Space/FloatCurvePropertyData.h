@@ -10,6 +10,8 @@ namespace EnviromentSystemV2Space { class PropertyDataBase; }
 
 namespace EnviromentSystemV2Space
 {
+	inline static constexpr unsigned int FloatCurvePropertyData_TypeDefinitionIndex = 49393;
+
 	class FloatCurvePropertyData
 	{
 	public:

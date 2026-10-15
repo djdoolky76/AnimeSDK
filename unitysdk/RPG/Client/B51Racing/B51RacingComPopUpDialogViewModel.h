@@ -8,6 +8,8 @@
 
 namespace RPG::Client::B51Racing
 {
+	inline static constexpr unsigned int B51RacingComPopUpDialogViewModel_TypeDefinitionIndex = 82022;
+
 	class B51RacingComPopUpDialogViewModel : public ::System::Object
 	{
 	public:

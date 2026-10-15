@@ -22,6 +22,8 @@ namespace System { class String; }
 
 namespace RPG::Client::FateRin::Card
 {
+	inline static constexpr unsigned int FateRinCardOwnerViewModel_TypeDefinitionIndex = 81148;
+
 	class FateRinCardOwnerViewModel : public ::RPG::Client::FateRin::BaseViewModel
 	{
 	public:

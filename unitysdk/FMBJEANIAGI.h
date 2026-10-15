@@ -35,6 +35,8 @@ namespace System { class String; }
 #define FMBJEANIAGI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E3DF0C0)
 #define FMBJEANIAGI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E3DF120)
 
+inline static constexpr unsigned int FMBJEANIAGI_TypeDefinitionIndex = 29797;
+
 	class FMBJEANIAGI : public ::System::Object
 	{
 	public:

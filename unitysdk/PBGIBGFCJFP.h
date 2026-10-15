@@ -6,6 +6,8 @@
 #define PBGIBGFCJFP_CLEAR_OFFSET UNITYSDK_OFFSET(0x1C9A4C70)
 #define PBGIBGFCJFP_CTOR_OFFSET UNITYSDK_OFFSET(0x1C9A4CD0)
 
+inline static constexpr unsigned int PBGIBGFCJFP_TypeDefinitionIndex = 43538;
+
 	class PBGIBGFCJFP : public ::NOOHPODHIAA
 	{
 	public:

@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int ACIMFGFNPDF_TypeDefinitionIndex = 31308;
+
 	enum class ACIMFGFNPDF : ::System::Int32
 	{
 		NLCDGIPGFDJ = 0,

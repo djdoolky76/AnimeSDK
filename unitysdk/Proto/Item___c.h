@@ -10,6 +10,8 @@ namespace System { class Object; }
 
 namespace Proto
 {
+	inline static constexpr unsigned int Item___c_TypeDefinitionIndex = 27783;
+
 	class Item___c : public ::System::Object
 	{
 	public:

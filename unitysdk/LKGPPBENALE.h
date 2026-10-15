@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define LKGPPBENALE_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1D1096D0)
 #define LKGPPBENALE_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1D109070)
 
+inline static constexpr unsigned int LKGPPBENALE_TypeDefinitionIndex = 14480;
+
 	class LKGPPBENALE : public ::System::Object
 	{
 	public:

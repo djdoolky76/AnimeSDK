@@ -36,6 +36,8 @@ namespace System::IO { class MemoryStream; }
 #define HLNCKGFLOAI_PONHHIHOCHH_OFFSET UNITYSDK_OFFSET(0x1C460F90)
 #define HLNCKGFLOAI_SET_OFFSET_OFFSET UNITYSDK_OFFSET(0x1C4893D0)
 
+inline static constexpr unsigned int HLNCKGFLOAI_TypeDefinitionIndex = 41551;
+
 	class HLNCKGFLOAI : public ::System::Object
 	{
 	public:

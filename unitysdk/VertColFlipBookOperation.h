@@ -18,6 +18,8 @@ class FiveDimRenderingItem;
 #define VERTCOLFLIPBOOKOPERATION_NJNFEHIBNEJ_OFFSET UNITYSDK_OFFSET(0xE9F66C0)
 #define VERTCOLFLIPBOOKOPERATION_PKADDEPKJFN_OFFSET UNITYSDK_OFFSET(0xE9F5FF0)
 
+inline static constexpr unsigned int VertColFlipBookOperation_TypeDefinitionIndex = 47116;
+
 	class VertColFlipBookOperation : public ::FDRIMatStateOperation
 	{
 	public:

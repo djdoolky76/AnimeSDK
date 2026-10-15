@@ -20,6 +20,8 @@ namespace System { class String; }
 #define PKNMDKNGDNH_MNMPLEEMKKN_OFFSET UNITYSDK_OFFSET(0xC2E8230)
 #define PKNMDKNGDNH_NNFAEMDBIHC_OFFSET UNITYSDK_OFFSET(0xC2E83B0)
 
+inline static constexpr unsigned int PKNMDKNGDNH_TypeDefinitionIndex = 77053;
+
 	class PKNMDKNGDNH : public ::CBIKMJHGEDE
 	{
 	public:

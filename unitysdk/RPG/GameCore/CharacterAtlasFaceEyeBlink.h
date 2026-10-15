@@ -10,6 +10,8 @@ namespace RPG::GameCore { class CharacterAtlasFaceEyeShapeGroup; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CharacterAtlasFaceEyeBlink_TypeDefinitionIndex = 17455;
+
 	class CharacterAtlasFaceEyeBlink : public ::RPG::GameCore::JsonConfig
 	{
 	public:

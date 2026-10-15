@@ -30,6 +30,8 @@ namespace System::IO::MemoryMappedFiles { class MemoryMappedViewAccessor; }
 #define NOCDFBMJDIG_ODBILIAKBFD_OFFSET UNITYSDK_OFFSET(0x1C4C8280)
 #define NOCDFBMJDIG_PFNDPAILDJP_OFFSET UNITYSDK_OFFSET(0x1C4C78C0)
 
+inline static constexpr unsigned int NOCDFBMJDIG_TypeDefinitionIndex = 41548;
+
 	class NOCDFBMJDIG : public ::System::Object
 	{
 	public:

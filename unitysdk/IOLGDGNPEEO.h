@@ -13,6 +13,8 @@ class KAIKBCBEEAL;
 #define IOLGDGNPEEO_HCCKBPDFINA_OFFSET UNITYSDK_OFFSET(0x16508290)
 #define IOLGDGNPEEO_LIHJCMNPNAG_OFFSET UNITYSDK_OFFSET(0x16508130)
 
+inline static constexpr unsigned int IOLGDGNPEEO_TypeDefinitionIndex = 71469;
+
 	class IOLGDGNPEEO : public ::System::Object
 	{
 	public:

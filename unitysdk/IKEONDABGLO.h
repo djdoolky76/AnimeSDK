@@ -10,6 +10,8 @@ namespace RPG::Client { class SwordTrainingGameInstance; }
 #define IKEONDABGLO_JJDAIHONLOB_OFFSET UNITYSDK_OFFSET(0x16487630)
 #define IKEONDABGLO_JKOKFFCBJLJ_OFFSET UNITYSDK_OFFSET(0x16487210)
 
+inline static constexpr unsigned int IKEONDABGLO_TypeDefinitionIndex = 75053;
+
 	class IKEONDABGLO : public ::NBEKHGCNJFD
 	{
 	public:

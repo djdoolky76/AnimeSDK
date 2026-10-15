@@ -30,6 +30,8 @@ namespace System { class String; }
 #define EKNABKLPEEL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E2C6700)
 #define EKNABKLPEEL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E2C6760)
 
+inline static constexpr unsigned int EKNABKLPEEL_TypeDefinitionIndex = 25258;
+
 	class EKNABKLPEEL : public ::System::Object
 	{
 	public:

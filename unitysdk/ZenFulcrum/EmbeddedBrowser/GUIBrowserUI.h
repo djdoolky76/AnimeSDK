@@ -46,6 +46,8 @@ namespace ZenFulcrum::EmbeddedBrowser { class BrowserInputSettings; }
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
+	inline static constexpr unsigned int GUIBrowserUI_TypeDefinitionIndex = 39479;
+
 	class GUIBrowserUI : public ::UnityEngine::MonoBehaviour
 	{
 	public:

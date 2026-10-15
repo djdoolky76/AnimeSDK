@@ -6,6 +6,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int DebugPerformanceBlockInfoPanel_TypeDefinitionIndex = 72737;
+
 	class DebugPerformanceBlockInfoPanel : public ::UnityEngine::MonoBehaviour
 	{
 	public:

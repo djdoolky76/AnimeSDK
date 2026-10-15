@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RefreshFrameCapture; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RefreshFrameCapture_TypeDefinitionIndex = 20275;
+
 	class RefreshFrameCapture : public ::RPG::GameCore::TaskConfig
 	{
 	public:

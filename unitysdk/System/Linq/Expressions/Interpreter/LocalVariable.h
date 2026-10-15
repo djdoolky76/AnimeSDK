@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace System::Linq::Expressions::Interpreter
 {
+	inline static constexpr unsigned int LocalVariable_TypeDefinitionIndex = 3519;
+
 	class LocalVariable : public ::System::Object
 	{
 	public:

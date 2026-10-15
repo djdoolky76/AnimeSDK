@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define EMDNJJPEOGO_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1CDA51D0)
 #define EMDNJJPEOGO_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1CDA4AF0)
 
+inline static constexpr unsigned int EMDNJJPEOGO_TypeDefinitionIndex = 11678;
+
 	class EMDNJJPEOGO : public ::System::Object
 	{
 	public:

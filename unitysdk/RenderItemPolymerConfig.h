@@ -17,6 +17,8 @@ namespace UnityEngine { class Transform; }
 #define RENDERITEMPOLYMERCONFIG_SET_ADDSYNCPOSITIONCHILDPATH_OFFSET UNITYSDK_OFFSET(0xE95E9A0)
 #define RENDERITEMPOLYMERCONFIG_SET_ADDSYNCPOSITIONROOTPATH_OFFSET UNITYSDK_OFFSET(0xE95D130)
 
+inline static constexpr unsigned int RenderItemPolymerConfig_TypeDefinitionIndex = 47336;
+
 	class RenderItemPolymerConfig : public ::UnityEngine::MonoBehaviour
 	{
 	public:

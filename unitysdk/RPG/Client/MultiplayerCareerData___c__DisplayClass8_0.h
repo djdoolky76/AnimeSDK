@@ -9,6 +9,8 @@ namespace RPG::Client { class FriendRankingInfo; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MultiplayerCareerData___c__DisplayClass8_0_TypeDefinitionIndex = 66309;
+
 	class MultiplayerCareerData___c__DisplayClass8_0 : public ::System::Object
 	{
 	public:

@@ -31,6 +31,8 @@ namespace System { class String; }
 #define JHDKGCPHDNC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E742D30)
 #define JHDKGCPHDNC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E742D90)
 
+inline static constexpr unsigned int JHDKGCPHDNC_TypeDefinitionIndex = 33840;
+
 	class JHDKGCPHDNC : public ::System::Object
 	{
 	public:

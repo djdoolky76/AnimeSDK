@@ -14,6 +14,8 @@ namespace System::Collections::Generic { template <typename T> class IList_1; }
 #define CAFKOCAKJOJ_UPDATEBEFORE_OFFSET UNITYSDK_OFFSET(0xC47B980)
 #define CAFKOCAKJOJ_UPDATESTART_OFFSET UNITYSDK_OFFSET(0xC47B870)
 
+inline static constexpr unsigned int CAFKOCAKJOJ_TypeDefinitionIndex = 64958;
+
 	class CAFKOCAKJOJ : public ::AMCOEFHHBPO
 	{
 	public:

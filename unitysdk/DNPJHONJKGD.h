@@ -5,6 +5,8 @@
 
 #define DNPJHONJKGD_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA2FDC0)
 
+inline static constexpr unsigned int DNPJHONJKGD_TypeDefinitionIndex = 42282;
+
 	class DNPJHONJKGD : public ::System::Object
 	{
 	public:

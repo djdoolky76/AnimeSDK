@@ -3,6 +3,8 @@
 
 namespace System::Runtime::InteropServices
 {
+	inline static constexpr unsigned int UnmanagedType_TypeDefinitionIndex = 1412;
+
 	enum class UnmanagedType : ::System::Int32
 	{
 		Bool = 2,

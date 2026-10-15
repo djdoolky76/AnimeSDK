@@ -12,6 +12,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace MiHoYo::SDK::Win
 {
+	inline static constexpr unsigned int InternalAccountListDropdownItemHandler___c_TypeDefinitionIndex = 9300;
+
 	class InternalAccountListDropdownItemHandler___c : public ::System::Object
 	{
 	public:

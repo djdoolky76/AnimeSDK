@@ -22,6 +22,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define IOABBMGCIOM_MBNFFDMFCAM_OFFSET UNITYSDK_OFFSET(0x164FAF40)
 #define IOABBMGCIOM__ONBIND_OFFSET UNITYSDK_OFFSET(0x164FA960)
 
+inline static constexpr unsigned int IOABBMGCIOM_TypeDefinitionIndex = 72287;
+
 	class IOABBMGCIOM : public ::FMPCODLIOLG
 	{
 	public:

@@ -9,6 +9,8 @@ class ANGGDDJJBKO;
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RtBattleMode___c__DisplayClass79_0_TypeDefinitionIndex = 54271;
+
 	class RtBattleMode___c__DisplayClass79_0 : public ::System::Object
 	{
 	public:

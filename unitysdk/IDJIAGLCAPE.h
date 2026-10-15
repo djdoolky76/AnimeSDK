@@ -33,6 +33,8 @@ namespace System { class String; }
 #define IDJIAGLCAPE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E62DB10)
 #define IDJIAGLCAPE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E62DB70)
 
+inline static constexpr unsigned int IDJIAGLCAPE_TypeDefinitionIndex = 25497;
+
 	class IDJIAGLCAPE : public ::System::Object
 	{
 	public:

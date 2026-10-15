@@ -6,6 +6,8 @@ class EBMMGODFEEO;
 #define HPPNAAGGAMP___C__DISPLAYCLASS14_0_CTOR_OFFSET UNITYSDK_OFFSET(0x15DE1680)
 #define HPPNAAGGAMP___C__DISPLAYCLASS14_0__ISTIMELINEPLAYING_B__0_OFFSET UNITYSDK_OFFSET(0x15DE1690)
 
+inline static constexpr unsigned int HPPNAAGGAMP___c__DisplayClass14_0_TypeDefinitionIndex = 48481;
+
 	class HPPNAAGGAMP___c__DisplayClass14_0 : public ::System::Object
 	{
 	public:

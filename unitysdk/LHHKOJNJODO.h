@@ -34,6 +34,8 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 #define LHHKOJNJODO_PKFLLOKDICB_OFFSET UNITYSDK_OFFSET(0x1C73B600)
 #define LHHKOJNJODO_PNJODACLLPH_OFFSET UNITYSDK_OFFSET(0x1C73B710)
 
+inline static constexpr unsigned int LHHKOJNJODO_TypeDefinitionIndex = 36838;
+
 	class LHHKOJNJODO : public ::System::Object
 	{
 	public:

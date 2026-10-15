@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
+	inline static constexpr unsigned int IVRResources__LoadSharedResource_TypeDefinitionIndex = 39184;
+
 	class IVRResources__LoadSharedResource : public ::System::MulticastDelegate
 	{
 	public:

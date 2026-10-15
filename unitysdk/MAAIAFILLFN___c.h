@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define MAAIAFILLFN___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E9D5F30)
 #define MAAIAFILLFN___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E9D5F40)
 
+inline static constexpr unsigned int MAAIAFILLFN___c_TypeDefinitionIndex = 29981;
+
 	class MAAIAFILLFN___c : public ::System::Object
 	{
 	public:

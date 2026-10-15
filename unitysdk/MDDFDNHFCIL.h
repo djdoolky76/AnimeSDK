@@ -30,6 +30,8 @@ namespace System { class String; }
 #define MDDFDNHFCIL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E9FD560)
 #define MDDFDNHFCIL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E9FD5C0)
 
+inline static constexpr unsigned int MDDFDNHFCIL_TypeDefinitionIndex = 35117;
+
 	class MDDFDNHFCIL : public ::System::Object
 	{
 	public:

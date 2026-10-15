@@ -68,6 +68,8 @@ namespace Entitas { template <typename T> class IMatcher_1; }
 #define GMNNGHDHFEK_PAOPFJIHAME_OFFSET UNITYSDK_OFFSET(0x1CAB48C0)
 #define GMNNGHDHFEK_PBLPIGPBNHA_OFFSET UNITYSDK_OFFSET(0x1CAB25E0)
 
+inline static constexpr unsigned int GMNNGHDHFEK_TypeDefinitionIndex = 42574;
+
 	class GMNNGHDHFEK : public ::System::Object
 	{
 	public:

@@ -16,6 +16,8 @@
 #define MKADHMMGGNA_SET_DIRECTION_OFFSET UNITYSDK_OFFSET(0xB97E720)
 #define MKADHMMGGNA_SET_INITPOSITION_OFFSET UNITYSDK_OFFSET(0xB97E740)
 
+inline static constexpr unsigned int MKADHMMGGNA_TypeDefinitionIndex = 78552;
+
 	class MKADHMMGGNA : public ::System::Object
 	{
 	public:

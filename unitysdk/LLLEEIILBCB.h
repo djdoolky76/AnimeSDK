@@ -10,6 +10,8 @@ namespace System { class String; }
 #define LLLEEIILBCB_DCCACKNOBKM_OFFSET UNITYSDK_OFFSET(0x1CC93560)
 #define LLLEEIILBCB_FMMGNFDCMCN_OFFSET UNITYSDK_OFFSET(0x1CC934F0)
 
+inline static constexpr unsigned int LLLEEIILBCB_TypeDefinitionIndex = 43876;
+
 	class LLLEEIILBCB : public ::System::Object
 	{
 	public:

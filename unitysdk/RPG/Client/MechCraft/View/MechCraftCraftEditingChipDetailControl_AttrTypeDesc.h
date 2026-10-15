@@ -9,6 +9,8 @@
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftCraftEditingChipDetailControl_AttrTypeDesc_TypeDefinitionIndex = 79887;
+
 	class MechCraftCraftEditingChipDetailControl_AttrTypeDesc : public ::System::Object
 	{
 	public:

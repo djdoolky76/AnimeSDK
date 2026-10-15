@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int HipplenGameOpertationType_TypeDefinitionIndex = 24557;
+
 	enum class HipplenGameOpertationType : ::System::Int32
 	{
 		ClearBubble = 0,

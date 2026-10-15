@@ -3,6 +3,8 @@
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 class MNBNFBAMKKI;
 
+inline static constexpr unsigned int EBPMLMNFPPK_TypeDefinitionIndex = 53791;
+
 	struct alignas(8) EBPMLMNFPPK
 	{
 		::MNBNFBAMKKI* EAEJGPLLGMI; // 0x10

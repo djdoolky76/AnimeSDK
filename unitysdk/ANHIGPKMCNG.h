@@ -38,6 +38,8 @@ namespace System { class String; }
 #define ANHIGPKMCNG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E65F000)
 #define ANHIGPKMCNG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E65F060)
 
+inline static constexpr unsigned int ANHIGPKMCNG_TypeDefinitionIndex = 34031;
+
 	class ANHIGPKMCNG : public ::System::Object
 	{
 	public:

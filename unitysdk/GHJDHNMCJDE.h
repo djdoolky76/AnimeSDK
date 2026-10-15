@@ -7,6 +7,8 @@
 
 #define GHJDHNMCJDE_CTOR_OFFSET UNITYSDK_OFFSET(0x1CAA2200)
 
+inline static constexpr unsigned int GHJDHNMCJDE_TypeDefinitionIndex = 43766;
+
 	class GHJDHNMCJDE : public ::System::Object
 	{
 	public:

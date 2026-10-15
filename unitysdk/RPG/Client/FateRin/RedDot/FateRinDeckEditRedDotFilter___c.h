@@ -11,6 +11,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace RPG::Client::FateRin::RedDot
 {
+	inline static constexpr unsigned int FateRinDeckEditRedDotFilter___c_TypeDefinitionIndex = 80739;
+
 	class FateRinDeckEditRedDotFilter___c : public ::System::Object
 	{
 	public:

@@ -9,6 +9,8 @@ namespace RPG::GameCore { class ValueEvaluatorConfig; }
 #define MJDBJKCBKJP_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D1B45D0)
 #define MJDBJKCBKJP_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D1B4590)
 
+inline static constexpr unsigned int MJDBJKCBKJP_TypeDefinitionIndex = 24133;
+
 	class MJDBJKCBKJP : public ::RPG::GameCore::TaskConfig
 	{
 	public:

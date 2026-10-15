@@ -4,6 +4,8 @@
 
 #define NCELBOIBLCL_CTOR_OFFSET UNITYSDK_OFFSET(0xBB0AF70)
 
+inline static constexpr unsigned int NCELBOIBLCL_TypeDefinitionIndex = 69433;
+
 	class NCELBOIBLCL : public ::System::Object
 	{
 	public:

@@ -9,6 +9,8 @@ class PLPNOPHOEDH;
 #define PLPNOPHOEDH___C__DISPLAYCLASS16_0___STARTUPDATE_B__0_OFFSET UNITYSDK_OFFSET(0xC310AA0)
 #define PLPNOPHOEDH___C__DISPLAYCLASS16_0___STARTUPDATE_B__1_OFFSET UNITYSDK_OFFSET(0xC310AC0)
 
+inline static constexpr unsigned int PLPNOPHOEDH___c__DisplayClass16_0_TypeDefinitionIndex = 61149;
+
 	class PLPNOPHOEDH___c__DisplayClass16_0 : public ::System::Object
 	{
 	public:

@@ -37,6 +37,8 @@ namespace System { class Object; }
 #define HFDJODBLKPD_START_OFFSET UNITYSDK_OFFSET(0x15C71E90)
 #define HFDJODBLKPD_STOP_OFFSET UNITYSDK_OFFSET(0x15C72180)
 
+inline static constexpr unsigned int HFDJODBLKPD_TypeDefinitionIndex = 62780;
+
 	class HFDJODBLKPD : public ::BHPMNMMGLHI
 	{
 	public:

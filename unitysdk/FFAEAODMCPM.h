@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define FFAEAODMCPM_FIBHKCHBENJ_OFFSET UNITYSDK_OFFSET(0x1C475C40)
 #define FFAEAODMCPM_JCIHMJGKNGG_OFFSET UNITYSDK_OFFSET(0x1C475E60)
 
+inline static constexpr unsigned int FFAEAODMCPM_TypeDefinitionIndex = 41573;
+
 	class FFAEAODMCPM : public ::System::Object
 	{
 	public:

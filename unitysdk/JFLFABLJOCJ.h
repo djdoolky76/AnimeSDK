@@ -47,6 +47,8 @@ namespace VLB { class VolumetricLightBeam; }
 #define JFLFABLJOCJ_PBJMDPEDKPI_OFFSET UNITYSDK_OFFSET(0x16654FD0)
 #define JFLFABLJOCJ_PLGMDMJENBH_OFFSET UNITYSDK_OFFSET(0x166553B0)
 
+inline static constexpr unsigned int JFLFABLJOCJ_TypeDefinitionIndex = 49570;
+
 	class JFLFABLJOCJ : public ::BNIEAMHOKJE
 	{
 	public:

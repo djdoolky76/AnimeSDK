@@ -10,6 +10,8 @@ namespace RPG::Client { class IBubbleInfoProvider; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int BubbleInfoGroup_TypeDefinitionIndex = 62940;
+
 	class BubbleInfoGroup : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace System { class Object; }
 
 namespace Proto
 {
+	inline static constexpr unsigned int HeliobusChallengeLineup___c_TypeDefinitionIndex = 29770;
+
 	class HeliobusChallengeLineup___c : public ::System::Object
 	{
 	public:

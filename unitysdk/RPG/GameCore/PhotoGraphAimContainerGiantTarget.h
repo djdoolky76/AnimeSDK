@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PhotoGraphAimContainerGiantTarget_TypeDefinitionIndex = 17519;
+
 	class PhotoGraphAimContainerGiantTarget : public ::RPG::GameCore::PhotoGraphAimContainerTargetBase
 	{
 	public:

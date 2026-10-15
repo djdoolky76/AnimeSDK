@@ -11,6 +11,8 @@ namespace RPG::GameCore { class WaitDynamicSkillButtonInput; }
 #define PHBJCJGPBCF_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xC236DF0)
 #define PHBJCJGPBCF_TICK_OFFSET UNITYSDK_OFFSET(0xC236EF0)
 
+inline static constexpr unsigned int PHBJCJGPBCF_TypeDefinitionIndex = 55808;
+
 	class PHBJCJGPBCF : public ::GELIALJDFBL
 	{
 	public:

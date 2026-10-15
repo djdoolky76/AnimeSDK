@@ -9,6 +9,8 @@ namespace RPG::GameCore { class RestartBattleBlackListRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RestartBattleBlackListRow_TypeDefinitionIndex = 15173;
+
 	class RestartBattleBlackListRow : public ::System::Object
 	{
 	public:

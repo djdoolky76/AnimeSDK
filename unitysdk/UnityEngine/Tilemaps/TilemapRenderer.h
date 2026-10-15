@@ -9,6 +9,8 @@ namespace UnityEngine::U2D { class SpriteAtlas; }
 
 namespace UnityEngine::Tilemaps
 {
+	inline static constexpr unsigned int TilemapRenderer_TypeDefinitionIndex = 5860;
+
 	class TilemapRenderer : public ::UnityEngine::Renderer
 	{
 	public:

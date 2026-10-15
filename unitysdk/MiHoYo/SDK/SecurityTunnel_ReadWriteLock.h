@@ -11,6 +11,8 @@ namespace System::Threading { class ReaderWriterLockSlim; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int SecurityTunnel_ReadWriteLock_TypeDefinitionIndex = 46409;
+
 	class SecurityTunnel_ReadWriteLock : public ::System::Object
 	{
 	public:

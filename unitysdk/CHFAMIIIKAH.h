@@ -39,6 +39,8 @@ namespace System { class String; }
 #define CHFAMIIIKAH_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E0C5050)
 #define CHFAMIIIKAH_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E0C50B0)
 
+inline static constexpr unsigned int CHFAMIIIKAH_TypeDefinitionIndex = 33531;
+
 	class CHFAMIIIKAH : public ::System::Object
 	{
 	public:

@@ -26,6 +26,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int LuaToCs_TypeDefinitionIndex = 59424;
+
 	class LuaToCs : public ::System::Object
 	{
 	public:

@@ -12,6 +12,8 @@
 
 namespace SWRT
 {
+	inline static constexpr unsigned int BVH8_CWNodeUnpacked_TypeDefinitionIndex = 37500;
+
 	struct alignas(4) BVH8_CWNodeUnpacked
 	{
 		::UnityEngine::Vector3 P; // 0x10

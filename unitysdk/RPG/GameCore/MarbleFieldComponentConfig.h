@@ -11,6 +11,8 @@ namespace RPG::GameCore { class MarbleFieldComponentConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MarbleFieldComponentConfig_TypeDefinitionIndex = 18914;
+
 	class MarbleFieldComponentConfig : public ::RPG::GameCore::LittleGameComponentConfig
 	{
 	public:

@@ -35,6 +35,8 @@ namespace System { class String; }
 #define KCLIKAPODAD_SET_RELICSET4RARITY_OFFSET UNITYSDK_OFFSET(0xB33D500)
 #define KCLIKAPODAD_SET_TRACETREEKEY_OFFSET UNITYSDK_OFFSET(0xB33D4C0)
 
+inline static constexpr unsigned int KCLIKAPODAD_TypeDefinitionIndex = 51981;
+
 	class KCLIKAPODAD : public ::System::Object
 	{
 	public:

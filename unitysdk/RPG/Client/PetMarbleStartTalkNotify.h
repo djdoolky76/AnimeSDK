@@ -7,6 +7,8 @@ namespace System { class Action; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PetMarbleStartTalkNotify_TypeDefinitionIndex = 65829;
+
 	class PetMarbleStartTalkNotify : public ::System::Object
 	{
 	public:

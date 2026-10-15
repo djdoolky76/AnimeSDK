@@ -36,6 +36,8 @@ namespace System { class String; }
 #define JEGBMCKBMOB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E718DD0)
 #define JEGBMCKBMOB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E718E30)
 
+inline static constexpr unsigned int JEGBMCKBMOB_TypeDefinitionIndex = 28664;
+
 	class JEGBMCKBMOB : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace Entitas
 {
+	inline static constexpr unsigned int ContextEntityIndexDoesAlreadyExistException_TypeDefinitionIndex = 9990;
+
 	class ContextEntityIndexDoesAlreadyExistException : public ::Entitas::EntitasException
 	{
 	public:

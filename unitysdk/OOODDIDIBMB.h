@@ -13,6 +13,8 @@ namespace Entitas { class IEntity; }
 #define OOODDIDIBMB_ONREMOVE_OFFSET UNITYSDK_OFFSET(0xBF92820)
 #define OOODDIDIBMB_ONUPDATE_OFFSET UNITYSDK_OFFSET(0xBF92730)
 
+inline static constexpr unsigned int OOODDIDIBMB_TypeDefinitionIndex = 79125;
+
 	class OOODDIDIBMB
 	{
 	public:

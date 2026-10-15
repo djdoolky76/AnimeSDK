@@ -7,6 +7,8 @@
 #define AKDRAGDROPTRIGGERHANDLER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1F58DC10)
 #define AKDRAGDROPTRIGGERHANDLER_START_OFFSET UNITYSDK_OFFSET(0x1F58DBC0)
 
+inline static constexpr unsigned int AkDragDropTriggerHandler_TypeDefinitionIndex = 44968;
+
 	class AkDragDropTriggerHandler : public ::AkTriggerHandler
 	{
 	public:

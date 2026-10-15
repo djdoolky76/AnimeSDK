@@ -3,6 +3,8 @@
 
 namespace RPG::Client::ActivityIdleLive
 {
+	inline static constexpr unsigned int RewardFlyType_TypeDefinitionIndex = 75310;
+
 	enum class RewardFlyType : ::System::Int32
 	{
 		TechPoint = 0,

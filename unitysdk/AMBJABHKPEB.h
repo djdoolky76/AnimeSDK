@@ -14,6 +14,8 @@ namespace UnityEngine { class RenderTexture; }
 #define AMBJABHKPEB_KPMCKFDMANI_OFFSET UNITYSDK_OFFSET(0x155763B0)
 #define AMBJABHKPEB_SET_CURRENT_OFFSET UNITYSDK_OFFSET(0x15575D10)
 
+inline static constexpr unsigned int AMBJABHKPEB_TypeDefinitionIndex = 72787;
+
 	class AMBJABHKPEB : public ::System::Object
 	{
 	public:

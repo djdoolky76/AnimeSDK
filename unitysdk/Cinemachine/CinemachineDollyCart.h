@@ -15,6 +15,8 @@ namespace Cinemachine { class CinemachinePathBase; }
 
 namespace Cinemachine
 {
+	inline static constexpr unsigned int CinemachineDollyCart_TypeDefinitionIndex = 39733;
+
 	class CinemachineDollyCart : public ::UnityEngine::MonoBehaviour
 	{
 	public:

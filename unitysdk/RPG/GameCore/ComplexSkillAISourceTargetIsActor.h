@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ComplexSkillAISourceTargetIsActor; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ComplexSkillAISourceTargetIsActor_TypeDefinitionIndex = 15550;
+
 	class ComplexSkillAISourceTargetIsActor : public ::RPG::GameCore::ComplexSkillAISource
 	{
 	public:

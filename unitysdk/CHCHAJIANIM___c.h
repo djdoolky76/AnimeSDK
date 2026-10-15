@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define CHCHAJIANIM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E0C1F20)
 #define CHCHAJIANIM___C___CCTOR_B__89_0_OFFSET UNITYSDK_OFFSET(0x1E0C1F30)
 
+inline static constexpr unsigned int CHCHAJIANIM___c_TypeDefinitionIndex = 29502;
+
 	class CHCHAJIANIM___c : public ::System::Object
 	{
 	public:

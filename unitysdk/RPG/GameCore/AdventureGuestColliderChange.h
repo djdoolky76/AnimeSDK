@@ -14,6 +14,8 @@ namespace UnityEngine { class Collider; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdventureGuestColliderChange_TypeDefinitionIndex = 56654;
+
 	class AdventureGuestColliderChange : public ::CMPGEAFHHDC
 	{
 	public:

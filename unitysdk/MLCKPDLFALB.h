@@ -28,6 +28,8 @@ namespace UnityEngine::UI { class Slider; }
 #define MLCKPDLFALB_ONRETURN_OFFSET UNITYSDK_OFFSET(0xB9A5FE0)
 #define MLCKPDLFALB__ONDISPOSE_OFFSET UNITYSDK_OFFSET(0xB9A60F0)
 
+inline static constexpr unsigned int MLCKPDLFALB_TypeDefinitionIndex = 71591;
+
 	class MLCKPDLFALB : public ::FMPCODLIOLG
 	{
 	public:

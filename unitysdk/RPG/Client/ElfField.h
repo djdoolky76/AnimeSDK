@@ -19,6 +19,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ElfField_TypeDefinitionIndex = 68664;
+
 	class ElfField : public ::UnityEngine::MonoBehaviour
 	{
 	public:

@@ -12,6 +12,8 @@ namespace UnityEngine::UI { class Button; }
 
 namespace RPG::Client::LimaoNews
 {
+	inline static constexpr unsigned int LimaoNewsSponsorControl_TypeDefinitionIndex = 80399;
+
 	class LimaoNewsSponsorControl : public ::Sofa::BaseSofaControl
 	{
 	public:

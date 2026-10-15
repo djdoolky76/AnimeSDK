@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int ConfirmWithJoypad___c__DisplayClass39_0_TypeDefinitionIndex = 8000;
+
 	class ConfirmWithJoypad___c__DisplayClass39_0 : public ::System::Object
 	{
 	public:

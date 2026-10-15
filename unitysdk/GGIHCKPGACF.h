@@ -32,6 +32,8 @@ namespace System { class String; }
 #define GGIHCKPGACF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E47D700)
 #define GGIHCKPGACF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E47D760)
 
+inline static constexpr unsigned int GGIHCKPGACF_TypeDefinitionIndex = 32171;
+
 	class GGIHCKPGACF : public ::System::Object
 	{
 	public:

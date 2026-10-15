@@ -10,6 +10,8 @@ namespace RPG::GameCore { class WaitRogueDLC1Dot3PictureFrameFinish; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int WaitRogueDLC1Dot3PictureFrameFinish_TypeDefinitionIndex = 22287;
+
 	class WaitRogueDLC1Dot3PictureFrameFinish : public ::RPG::GameCore::TaskConfig
 	{
 	public:

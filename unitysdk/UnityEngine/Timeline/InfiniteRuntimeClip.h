@@ -13,6 +13,8 @@
 
 namespace UnityEngine::Timeline
 {
+	inline static constexpr unsigned int InfiniteRuntimeClip_TypeDefinitionIndex = 38817;
+
 	class InfiniteRuntimeClip : public ::UnityEngine::Timeline::RuntimeElement
 	{
 	public:

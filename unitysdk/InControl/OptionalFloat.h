@@ -29,6 +29,8 @@ namespace System { class String; }
 
 namespace InControl
 {
+	inline static constexpr unsigned int OptionalFloat_TypeDefinitionIndex = 40905;
+
 	struct alignas(4) OptionalFloat
 	{
 		::System::Boolean hasValue; // 0x10

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GridFightActionSetKeepWinNumConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightActionSetKeepWinNumConfig_TypeDefinitionIndex = 19302;
+
 	class GridFightActionSetKeepWinNumConfig : public ::RPG::GameCore::GridFightActionConfigBase
 	{
 	public:

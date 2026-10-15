@@ -10,6 +10,8 @@ namespace RPG::GameCore { class PhotoGraphBodySizeHeightConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PhotoGraphBodySizeHeightConfig_TypeDefinitionIndex = 19054;
+
 	class PhotoGraphBodySizeHeightConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

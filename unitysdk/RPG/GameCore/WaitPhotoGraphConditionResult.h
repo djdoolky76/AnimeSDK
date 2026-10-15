@@ -12,6 +12,8 @@ namespace RPG::GameCore { class WaitPhotoGraphConditionResult; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int WaitPhotoGraphConditionResult_TypeDefinitionIndex = 21630;
+
 	class WaitPhotoGraphConditionResult : public ::RPG::GameCore::TaskConfig
 	{
 	public:

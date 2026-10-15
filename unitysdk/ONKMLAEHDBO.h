@@ -58,6 +58,8 @@ namespace System { class String; }
 #define ONKMLAEHDBO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DECB220)
 #define ONKMLAEHDBO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DECB280)
 
+inline static constexpr unsigned int ONKMLAEHDBO_TypeDefinitionIndex = 29122;
+
 	class ONKMLAEHDBO : public ::System::Object
 	{
 	public:

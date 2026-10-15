@@ -15,6 +15,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::OpenWorld
 {
+	inline static constexpr unsigned int StreamingLayerSetting_TypeDefinitionIndex = 73763;
+
 	class StreamingLayerSetting : public ::UnityEngine::ScriptableObject
 	{
 	public:

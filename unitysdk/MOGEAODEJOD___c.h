@@ -13,6 +13,8 @@ namespace System { template <typename T> class Func_1; }
 #define MOGEAODEJOD___C___CTOR_B__5_0_OFFSET UNITYSDK_OFFSET(0x1C7508B0)
 #define MOGEAODEJOD___C___CTOR_B__5_1_OFFSET UNITYSDK_OFFSET(0x1C7508E0)
 
+inline static constexpr unsigned int MOGEAODEJOD___c_TypeDefinitionIndex = 37039;
+
 	class MOGEAODEJOD___c : public ::System::Object
 	{
 	public:

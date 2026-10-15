@@ -7,6 +7,8 @@
 
 namespace System::Threading
 {
+	inline static constexpr unsigned int TimeoutHelper_TypeDefinitionIndex = 815;
+
 	class TimeoutHelper : public ::System::Object
 	{
 	public:

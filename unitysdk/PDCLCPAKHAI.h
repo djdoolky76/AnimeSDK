@@ -31,6 +31,8 @@ namespace UnityEngine { class GameObject; }
 #define PDCLCPAKHAI__ONDISPOSE_OFFSET UNITYSDK_OFFSET(0xC00CDC0)
 #define PDCLCPAKHAI__ONTICK_OFFSET UNITYSDK_OFFSET(0xC00CAC0)
 
+inline static constexpr unsigned int PDCLCPAKHAI_TypeDefinitionIndex = 65843;
+
 	class PDCLCPAKHAI : public ::FMPCODLIOLG
 	{
 	public:

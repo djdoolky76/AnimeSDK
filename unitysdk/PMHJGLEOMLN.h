@@ -7,6 +7,8 @@ namespace System { class String; }
 
 #define PMHJGLEOMLN_CTOR_OFFSET UNITYSDK_OFFSET(0xC31D610)
 
+inline static constexpr unsigned int PMHJGLEOMLN_TypeDefinitionIndex = 72950;
+
 	class PMHJGLEOMLN : public ::System::Object
 	{
 	public:

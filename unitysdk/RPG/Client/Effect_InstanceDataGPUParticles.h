@@ -10,6 +10,8 @@ namespace UnityEngine { class GPUParticlesRenderer; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int Effect_InstanceDataGPUParticles_TypeDefinitionIndex = 70639;
+
 	class Effect_InstanceDataGPUParticles
 	{
 	public:

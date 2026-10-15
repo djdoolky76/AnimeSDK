@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define CHEKMBNIGBP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E0C3710)
 #define CHEKMBNIGBP___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E0C3720)
 
+inline static constexpr unsigned int CHEKMBNIGBP___c_TypeDefinitionIndex = 34245;
+
 	class CHEKMBNIGBP___c : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define CELJIBODCAG_CTOR_OFFSET UNITYSDK_OFFSET(0xC9E5D90)
 #define CELJIBODCAG_DNLHBKDMIHI_OFFSET UNITYSDK_OFFSET(0xC9E5B60)
 
+inline static constexpr unsigned int CELJIBODCAG_TypeDefinitionIndex = 59858;
+
 	class CELJIBODCAG : public ::System::Object
 	{
 	public:

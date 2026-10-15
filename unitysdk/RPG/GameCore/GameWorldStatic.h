@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GameWorldStatic_TypeDefinitionIndex = 59059;
+
 	class GameWorldStatic : public ::System::Object
 	{
 	public:

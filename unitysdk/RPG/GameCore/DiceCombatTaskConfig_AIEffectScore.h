@@ -12,6 +12,8 @@ namespace RPG::GameCore { class DynamicFloat; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DiceCombatTaskConfig_AIEffectScore_TypeDefinitionIndex = 16179;
+
 	class DiceCombatTaskConfig_AIEffectScore : public ::RPG::GameCore::DiceCombatTaskConfig
 	{
 	public:

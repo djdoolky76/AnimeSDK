@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace Cinemachine
 {
+	inline static constexpr unsigned int CinemachineBlenderSettings_TypeDefinitionIndex = 39807;
+
 	class CinemachineBlenderSettings : public ::UnityEngine::ScriptableObject
 	{
 	public:

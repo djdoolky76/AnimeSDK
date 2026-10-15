@@ -13,6 +13,8 @@ namespace System::Threading { class WaitHandle; }
 
 namespace System::Threading
 {
+	inline static constexpr unsigned int AbandonedMutexException_TypeDefinitionIndex = 821;
+
 	class AbandonedMutexException : public ::System::SystemException
 	{
 	public:

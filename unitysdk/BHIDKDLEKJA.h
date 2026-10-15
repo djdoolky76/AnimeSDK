@@ -19,6 +19,8 @@ namespace System { class String; }
 #define BHIDKDLEKJA_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB48C7F0)
 #define BHIDKDLEKJA_TICK_OFFSET UNITYSDK_OFFSET(0xB48C840)
 
+inline static constexpr unsigned int BHIDKDLEKJA_TypeDefinitionIndex = 56473;
+
 	class BHIDKDLEKJA : public ::GELIALJDFBL
 	{
 	public:

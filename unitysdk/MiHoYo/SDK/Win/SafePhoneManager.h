@@ -48,6 +48,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::Win
 {
+	inline static constexpr unsigned int SafePhoneManager_TypeDefinitionIndex = 9362;
+
 	class SafePhoneManager : public ::System::Object
 	{
 	public:

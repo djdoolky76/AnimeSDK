@@ -22,6 +22,8 @@ namespace UnityEngine { class SDFSystem; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int SDFSystemBehaviour_TypeDefinitionIndex = 51868;
+
 	class SDFSystemBehaviour : public ::UnityEngine::MonoBehaviour
 	{
 	public:

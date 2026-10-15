@@ -27,6 +27,8 @@ namespace System { class String; }
 #define ELGLKEAPLGM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E2D0B00)
 #define ELGLKEAPLGM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E2D0B60)
 
+inline static constexpr unsigned int ELGLKEAPLGM_TypeDefinitionIndex = 29176;
+
 	class ELGLKEAPLGM : public ::System::Object
 	{
 	public:

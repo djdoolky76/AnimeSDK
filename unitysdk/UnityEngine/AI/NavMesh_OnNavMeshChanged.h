@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace UnityEngine::AI
 {
+	inline static constexpr unsigned int NavMesh_OnNavMeshChanged_TypeDefinitionIndex = 5659;
+
 	class NavMesh_OnNavMeshChanged : public ::System::MulticastDelegate
 	{
 	public:

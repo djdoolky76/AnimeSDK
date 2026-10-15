@@ -8,6 +8,8 @@ namespace UnityEngine::TextCore { class Glyph; }
 
 namespace UnityEngine::TextCore::LowLevel
 {
+	inline static constexpr unsigned int GlyphMarshallingStruct_TypeDefinitionIndex = 5852;
+
 	struct alignas(4) GlyphMarshallingStruct
 	{
 		::System::UInt32 index; // 0x10

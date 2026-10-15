@@ -18,6 +18,8 @@ namespace System::Text { class StringBuilder; }
 
 namespace System
 {
+	inline static constexpr unsigned int ParseNumbers_TypeDefinitionIndex = 374;
+
 	class ParseNumbers : public ::System::Object
 	{
 	public:

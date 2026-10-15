@@ -17,6 +17,8 @@ namespace System { class String; }
 
 namespace System::Net
 {
+	inline static constexpr unsigned int DigestHeaderParser_TypeDefinitionIndex = 2829;
+
 	class DigestHeaderParser : public ::System::Object
 	{
 	public:

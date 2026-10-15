@@ -23,6 +23,8 @@ namespace System::Runtime::Remoting::Messaging { class IMessageSink; }
 
 namespace System::Runtime::Remoting
 {
+	inline static constexpr unsigned int Identity_TypeDefinitionIndex = 1208;
+
 	class Identity : public ::System::Object
 	{
 	public:

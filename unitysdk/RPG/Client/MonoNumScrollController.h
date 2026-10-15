@@ -28,6 +28,8 @@ namespace XLua { class LuaTable; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoNumScrollController_TypeDefinitionIndex = 69005;
+
 	class MonoNumScrollController : public ::UnityEngine::MonoBehaviour
 	{
 	public:

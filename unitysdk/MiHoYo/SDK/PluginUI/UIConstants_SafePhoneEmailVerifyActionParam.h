@@ -4,6 +4,8 @@
 
 namespace MiHoYo::SDK::PluginUI
 {
+	inline static constexpr unsigned int UIConstants_SafePhoneEmailVerifyActionParam_TypeDefinitionIndex = 46845;
+
 	class UIConstants_SafePhoneEmailVerifyActionParam : public ::System::Object
 	{
 	public:

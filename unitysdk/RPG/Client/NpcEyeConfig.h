@@ -10,6 +10,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int NpcEyeConfig_TypeDefinitionIndex = 60053;
+
 	class NpcEyeConfig : public ::UnityEngine::ScriptableObject
 	{
 	public:

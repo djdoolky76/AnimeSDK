@@ -7,6 +7,8 @@ class NFAHODNHEKK;
 #define NKOCJECPAMK_FCKDPOPNLIB_OFFSET UNITYSDK_OFFSET(0x1C79C190)
 #define NKOCJECPAMK_TICK_OFFSET UNITYSDK_OFFSET(0x1C79C2C0)
 
+inline static constexpr unsigned int NKOCJECPAMK_TypeDefinitionIndex = 37356;
+
 	class NKOCJECPAMK : public ::HOCBJOJNLLC
 	{
 	public:

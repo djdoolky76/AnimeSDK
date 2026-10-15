@@ -10,6 +10,8 @@ namespace RPG::Client { class GridFightTraitSpaceEffect; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightTraitSpaceEffect___c__DisplayClass19_0_TypeDefinitionIndex = 64421;
+
 	class GridFightTraitSpaceEffect___c__DisplayClass19_0 : public ::System::Object
 	{
 	public:

@@ -12,6 +12,8 @@ namespace RPG::GameCore { class UpdateMonsterFootIKMode; }
 #define LCHJBJKOJBG_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB615C50)
 #define LCHJBJKOJBG_TICK_OFFSET UNITYSDK_OFFSET(0xB615CA0)
 
+inline static constexpr unsigned int LCHJBJKOJBG_TypeDefinitionIndex = 55794;
+
 	class LCHJBJKOJBG : public ::GELIALJDFBL
 	{
 	public:

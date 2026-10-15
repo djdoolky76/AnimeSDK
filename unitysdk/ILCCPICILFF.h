@@ -32,6 +32,8 @@ namespace System { class String; }
 #define ILCCPICILFF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E6A8C10)
 #define ILCCPICILFF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E6A8C70)
 
+inline static constexpr unsigned int ILCCPICILFF_TypeDefinitionIndex = 34092;
+
 	class ILCCPICILFF : public ::System::Object
 	{
 	public:

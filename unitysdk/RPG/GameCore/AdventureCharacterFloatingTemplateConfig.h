@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdventureCharacterFloatingTemplateConfig_TypeDefinitionIndex = 17488;
+
 	class AdventureCharacterFloatingTemplateConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

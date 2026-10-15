@@ -7,6 +7,8 @@ namespace RPG::GameCore { class MarbleByTriggerFeature; }
 #define ONMDCAODGOA_CTOR_OFFSET UNITYSDK_OFFSET(0x1C9A0A50)
 #define ONMDCAODGOA_KHNFOOKHOJF_OFFSET UNITYSDK_OFFSET(0x1C9A0A70)
 
+inline static constexpr unsigned int ONMDCAODGOA_TypeDefinitionIndex = 43145;
+
 	class ONMDCAODGOA : public ::LHJPMDPJPEC
 	{
 	public:

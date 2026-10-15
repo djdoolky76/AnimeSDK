@@ -4,6 +4,8 @@
 
 #define IRI_PCGGRIDTOOL_CTOR_OFFSET UNITYSDK_OFFSET(0x16537970)
 
+inline static constexpr unsigned int IRI_PCGGridTool_TypeDefinitionIndex = 47556;
+
 	class IRI_PCGGridTool : public ::UnityEngine::MonoBehaviour
 	{
 	public:

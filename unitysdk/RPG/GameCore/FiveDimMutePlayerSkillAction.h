@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FiveDimMutePlayerSkillAction; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimMutePlayerSkillAction_TypeDefinitionIndex = 18769;
+
 	class FiveDimMutePlayerSkillAction : public ::RPG::GameCore::FiveDimBaseEventAction
 	{
 	public:

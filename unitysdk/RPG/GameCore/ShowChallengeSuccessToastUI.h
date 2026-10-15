@@ -11,6 +11,8 @@ namespace RPG::GameCore { class ShowChallengeSuccessToastUI; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ShowChallengeSuccessToastUI_TypeDefinitionIndex = 20309;
+
 	class ShowChallengeSuccessToastUI : public ::RPG::GameCore::TaskConfig
 	{
 	public:

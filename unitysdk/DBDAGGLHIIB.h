@@ -7,6 +7,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define DBDAGGLHIIB_CIOEDCPDEPA_OFFSET UNITYSDK_OFFSET(0xDFDBC20)
 #define DBDAGGLHIIB_CTOR_OFFSET UNITYSDK_OFFSET(0xDFDCB00)
 
+inline static constexpr unsigned int DBDAGGLHIIB_TypeDefinitionIndex = 61806;
+
 	class DBDAGGLHIIB : public ::System::Object
 	{
 	public:

@@ -37,6 +37,8 @@ namespace System { class String; }
 #define AECEEKDICHA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DDE7C50)
 #define AECEEKDICHA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DDE7CB0)
 
+inline static constexpr unsigned int AECEEKDICHA_TypeDefinitionIndex = 27355;
+
 	class AECEEKDICHA : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System { class String; }
 #define PHJGOBCDCPK_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1EC6D830)
 #define PHJGOBCDCPK_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC8F7D0)
 
+inline static constexpr unsigned int PHJGOBCDCPK_TypeDefinitionIndex = 44304;
+
 	class PHJGOBCDCPK : public ::System::Exception
 	{
 	public:

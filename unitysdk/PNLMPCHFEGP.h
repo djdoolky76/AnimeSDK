@@ -11,6 +11,8 @@ namespace System { class String; }
 #define PNLMPCHFEGP_GHLBAAJGKJG_OFFSET UNITYSDK_OFFSET(0xC34D7B0)
 #define PNLMPCHFEGP_MNLDMBGAJIF_OFFSET UNITYSDK_OFFSET(0xC34D820)
 
+inline static constexpr unsigned int PNLMPCHFEGP_TypeDefinitionIndex = 62127;
+
 	class PNLMPCHFEGP : public ::System::Object
 	{
 	public:

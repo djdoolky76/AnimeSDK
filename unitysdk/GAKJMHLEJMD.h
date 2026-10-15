@@ -29,6 +29,8 @@ namespace System { class String; }
 #define GAKJMHLEJMD_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E420980)
 #define GAKJMHLEJMD_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E4209E0)
 
+inline static constexpr unsigned int GAKJMHLEJMD_TypeDefinitionIndex = 35084;
+
 	class GAKJMHLEJMD : public ::System::Object
 	{
 	public:

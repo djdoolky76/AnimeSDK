@@ -10,6 +10,8 @@ namespace RPG::GameCore { class BoomRobotGameplayBoomHit; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int BoomRobotGameplayBoomHit_TypeDefinitionIndex = 21807;
+
 	class BoomRobotGameplayBoomHit : public ::RPG::GameCore::TaskConfig
 	{
 	public:

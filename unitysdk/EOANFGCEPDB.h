@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define EOANFGCEPDB_GET_FACTORY_OFFSET UNITYSDK_OFFSET(0x155B8E40)
 #define EOANFGCEPDB_SET_FACTORY_OFFSET UNITYSDK_OFFSET(0x155B8E50)
 
+inline static constexpr unsigned int EOANFGCEPDB_TypeDefinitionIndex = 62743;
+
 	class EOANFGCEPDB : public ::System::Object
 	{
 	public:

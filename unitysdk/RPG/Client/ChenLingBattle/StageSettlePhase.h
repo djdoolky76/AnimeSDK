@@ -15,6 +15,8 @@ namespace System { class Object; }
 
 namespace RPG::Client::ChenLingBattle
 {
+	inline static constexpr unsigned int StageSettlePhase_TypeDefinitionIndex = 76327;
+
 	class StageSettlePhase : public ::RPG::Client::ChenLingBattle::GamePhase
 	{
 	public:

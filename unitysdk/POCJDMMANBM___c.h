@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define POCJDMMANBM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DFC5D30)
 #define POCJDMMANBM___C___CCTOR_B__48_0_OFFSET UNITYSDK_OFFSET(0x1DFC5D40)
 
+inline static constexpr unsigned int POCJDMMANBM___c_TypeDefinitionIndex = 29202;
+
 	class POCJDMMANBM___c : public ::System::Object
 	{
 	public:

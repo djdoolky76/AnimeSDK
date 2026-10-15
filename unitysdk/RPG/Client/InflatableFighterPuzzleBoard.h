@@ -29,6 +29,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int InflatableFighterPuzzleBoard_TypeDefinitionIndex = 68673;
+
 	class InflatableFighterPuzzleBoard : public ::RPG::Client::Prop::PuzzleBoardBase
 	{
 	public:

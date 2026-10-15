@@ -6,6 +6,8 @@
 
 namespace Beebyte::Obfuscator
 {
+	inline static constexpr unsigned int SkipRenameAttribute_TypeDefinitionIndex = 47039;
+
 	class SkipRenameAttribute : public ::System::Attribute
 	{
 	public:

@@ -5,6 +5,8 @@ class IJEKJNBKPJN;
 namespace System { class Action; }
 namespace UnityEngine { class Object; }
 
+inline static constexpr unsigned int IJEKJNBKPJN___c__DisplayClass79_0_1_TypeDefinitionIndex = 57151;
+
 	template <typename T>
 	class IJEKJNBKPJN___c__DisplayClass79_0_1 : public ::System::Object
 	{

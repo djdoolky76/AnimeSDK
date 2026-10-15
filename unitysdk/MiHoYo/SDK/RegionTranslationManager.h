@@ -28,6 +28,8 @@ namespace System::Collections { class IEnumerator; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int RegionTranslationManager_TypeDefinitionIndex = 7956;
+
 	class RegionTranslationManager : public ::System::Object
 	{
 	public:

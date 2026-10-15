@@ -29,6 +29,8 @@ namespace System { class String; }
 #define BAGAOALHAJI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E7B3DF0)
 #define BAGAOALHAJI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E7B3E50)
 
+inline static constexpr unsigned int BAGAOALHAJI_TypeDefinitionIndex = 31779;
+
 	class BAGAOALHAJI : public ::System::Object
 	{
 	public:

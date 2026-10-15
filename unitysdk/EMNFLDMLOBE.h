@@ -8,6 +8,8 @@ class OADLCEKKGBC;
 #define EMNFLDMLOBE_CTOR_OFFSET UNITYSDK_OFFSET(0x15559300)
 #define EMNFLDMLOBE_JKIBFIBAMKB_OFFSET UNITYSDK_OFFSET(0x15559390)
 
+inline static constexpr unsigned int EMNFLDMLOBE_TypeDefinitionIndex = 62870;
+
 	class EMNFLDMLOBE : public ::System::Object
 	{
 	public:

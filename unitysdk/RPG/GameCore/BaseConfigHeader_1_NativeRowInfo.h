@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int BaseConfigHeader_1_NativeRowInfo_TypeDefinitionIndex = 10833;
+
 	template <typename T>
 	struct alignas(4) BaseConfigHeader_1_NativeRowInfo
 	{

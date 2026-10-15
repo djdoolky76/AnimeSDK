@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int FBAOECBDMIC_RF_BossSkillProgressComponent_TypeDefinitionIndex = 37074;
+
 	enum class FBAOECBDMIC_RF_BossSkillProgressComponent : ::System::Byte
 	{
 		CurSkillID = 1,

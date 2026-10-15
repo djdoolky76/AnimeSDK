@@ -10,6 +10,8 @@ namespace System { class Action; }
 #define BLNHAGFEPKF___C__DISPLAYCLASS5_0___HANDLEPREMISSIONCONTENT_B__0_OFFSET UNITYSDK_OFFSET(0xBA7EBC0)
 #define BLNHAGFEPKF___C__DISPLAYCLASS5_0___HANDLEPREMISSIONCONTENT_B__1_OFFSET UNITYSDK_OFFSET(0xBA7ED30)
 
+inline static constexpr unsigned int BLNHAGFEPKF___c__DisplayClass5_0_TypeDefinitionIndex = 53079;
+
 	class BLNHAGFEPKF___c__DisplayClass5_0 : public ::System::Object
 	{
 	public:

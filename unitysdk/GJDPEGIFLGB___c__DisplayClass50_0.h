@@ -7,6 +7,8 @@ namespace RPG::GameCore { class AdventureCharacterController; }
 #define GJDPEGIFLGB___C__DISPLAYCLASS50_0_CTOR_OFFSET UNITYSDK_OFFSET(0x15A61B80)
 #define GJDPEGIFLGB___C__DISPLAYCLASS50_0___GETORCREATEENTITY_B__0_OFFSET UNITYSDK_OFFSET(0x15A61D60)
 
+inline static constexpr unsigned int GJDPEGIFLGB___c__DisplayClass50_0_TypeDefinitionIndex = 75540;
+
 	class GJDPEGIFLGB___c__DisplayClass50_0 : public ::System::Object
 	{
 	public:

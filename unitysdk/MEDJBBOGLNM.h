@@ -33,6 +33,8 @@ namespace System { class String; }
 #define MEDJBBOGLNM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EA098F0)
 #define MEDJBBOGLNM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EA09950)
 
+inline static constexpr unsigned int MEDJBBOGLNM_TypeDefinitionIndex = 29041;
+
 	class MEDJBBOGLNM : public ::System::Object
 	{
 	public:

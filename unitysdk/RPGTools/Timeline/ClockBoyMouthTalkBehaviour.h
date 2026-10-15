@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int ClockBoyMouthTalkBehaviour_TypeDefinitionIndex = 48035;
+
 	class ClockBoyMouthTalkBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

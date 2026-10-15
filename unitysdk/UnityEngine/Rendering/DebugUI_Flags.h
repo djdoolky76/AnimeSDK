@@ -3,6 +3,8 @@
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int DebugUI_Flags_TypeDefinitionIndex = 35545;
+
 	enum class DebugUI_Flags : ::System::Int32
 	{
 		None = 0,

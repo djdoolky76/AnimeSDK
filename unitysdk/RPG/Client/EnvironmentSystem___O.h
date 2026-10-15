@@ -5,6 +5,8 @@ namespace System { class Action; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int EnvironmentSystem___O_TypeDefinitionIndex = 69784;
+
 	class EnvironmentSystem___O : public ::System::Object
 	{
 	public:

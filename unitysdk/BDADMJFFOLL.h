@@ -12,6 +12,8 @@ namespace RPG::GameCore { class FreeStyleComponent; }
 #define BDADMJFFOLL_GET_MODE_OFFSET UNITYSDK_OFFSET(0x162EBA50)
 #define BDADMJFFOLL_KIGBILLGNOH_OFFSET UNITYSDK_OFFSET(0x162EBBC0)
 
+inline static constexpr unsigned int BDADMJFFOLL_TypeDefinitionIndex = 57275;
+
 	class BDADMJFFOLL : public ::RPG::GameCore::FreeStyleController
 	{
 	public:

@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueTournPersonaRoomCardData_TypeDefinitionIndex = 67737;
+
 	class RogueTournPersonaRoomCardData : public ::RPG::Client::RogueTournPersonaRoomCardDataBase
 	{
 	public:

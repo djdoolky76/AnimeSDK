@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TriggerCommonActiveSkillAbility; }
 #define ELFCABIJPOM_CTOR_OFFSET UNITYSDK_OFFSET(0x1551EED0)
 #define ELFCABIJPOM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1551EF00)
 
+inline static constexpr unsigned int ELFCABIJPOM_TypeDefinitionIndex = 55725;
+
 	class ELFCABIJPOM
 	{
 	public:

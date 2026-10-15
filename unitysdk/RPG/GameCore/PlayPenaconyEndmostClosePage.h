@@ -10,6 +10,8 @@ namespace RPG::GameCore { class PlayPenaconyEndmostClosePage; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PlayPenaconyEndmostClosePage_TypeDefinitionIndex = 21829;
+
 	class PlayPenaconyEndmostClosePage : public ::RPG::GameCore::TaskConfig
 	{
 	public:

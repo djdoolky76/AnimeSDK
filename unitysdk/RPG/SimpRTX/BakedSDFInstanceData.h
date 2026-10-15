@@ -14,6 +14,8 @@ namespace RPG::SimpRTX { class BakedSDFPrefabData; }
 
 namespace RPG::SimpRTX
 {
+	inline static constexpr unsigned int BakedSDFInstanceData_TypeDefinitionIndex = 51776;
+
 	class BakedSDFInstanceData : public ::System::Object
 	{
 	public:

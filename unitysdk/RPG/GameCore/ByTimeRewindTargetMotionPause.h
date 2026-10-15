@@ -14,6 +14,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByTimeRewindTargetMotionPause_TypeDefinitionIndex = 20673;
+
 	class ByTimeRewindTargetMotionPause : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

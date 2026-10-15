@@ -45,6 +45,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::NavMap
 {
+	inline static constexpr unsigned int IconCollector3DBase_TypeDefinitionIndex = 74524;
+
 	class IconCollector3DBase : public ::RPG::Client::NavMap::IconCollectorBase
 	{
 	public:

@@ -9,6 +9,8 @@ namespace RPG::GameCore { class PhotoGraphRoamingConfig; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PhotoGraphModule___c__DisplayClass10_0_TypeDefinitionIndex = 66459;
+
 	class PhotoGraphModule___c__DisplayClass10_0 : public ::System::Object
 	{
 	public:

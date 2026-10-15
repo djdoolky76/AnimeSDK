@@ -16,6 +16,8 @@ namespace System { class String; }
 #define AANNNKBONNO_NONJDKKDDLE_OFFSET UNITYSDK_OFFSET(0xB0D6350)
 #define AANNNKBONNO_OLENGDCIONA_OFFSET UNITYSDK_OFFSET(0xB0D62E0)
 
+inline static constexpr unsigned int AANNNKBONNO_TypeDefinitionIndex = 66397;
+
 	class AANNNKBONNO : public ::System::Object
 	{
 	public:

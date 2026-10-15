@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int FateGameRoundSettleDmgSourceLeftEliteMonsterItem_TypeDefinitionIndex = 64054;
+
 	class FateGameRoundSettleDmgSourceLeftEliteMonsterItem : public ::System::Object
 	{
 	public:

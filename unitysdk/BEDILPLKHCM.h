@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define BEDILPLKHCM_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1CD007A0)
 #define BEDILPLKHCM_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1CD00100)
 
+inline static constexpr unsigned int BEDILPLKHCM_TypeDefinitionIndex = 11385;
+
 	class BEDILPLKHCM : public ::System::Object
 	{
 	public:

@@ -13,6 +13,8 @@ namespace System::Threading { class Thread; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int ServerBroadcaster_TypeDefinitionIndex = 37922;
+
 	class ServerBroadcaster : public ::System::Object
 	{
 	public:

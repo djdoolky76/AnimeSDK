@@ -8,6 +8,8 @@ class MPMBKGMHKGO;
 #define MPMBKGMHKGO_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D1E1A30)
 #define MPMBKGMHKGO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D1E19F0)
 
+inline static constexpr unsigned int MPMBKGMHKGO_TypeDefinitionIndex = 21150;
+
 	class MPMBKGMHKGO : public ::RPG::GameCore::TaskConfig
 	{
 	public:

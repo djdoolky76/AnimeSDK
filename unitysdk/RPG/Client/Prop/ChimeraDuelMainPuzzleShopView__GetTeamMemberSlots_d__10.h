@@ -18,6 +18,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int ChimeraDuelMainPuzzleShopView__GetTeamMemberSlots_d__10_TypeDefinitionIndex = 78390;
+
 	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename T8, typename T9, typename T10>
 	class ChimeraDuelMainPuzzleShopView__GetTeamMemberSlots_d__10 : public ::System::Object
 	{

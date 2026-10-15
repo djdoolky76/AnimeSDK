@@ -64,6 +64,8 @@ namespace UnityEngine::UI { class Toggle; }
 
 namespace SRDebugger::UI::Tabs
 {
+	inline static constexpr unsigned int OptionsTabController_TypeDefinitionIndex = 37990;
+
 	class OptionsTabController : public ::SRF::SRMonoBehaviourEx
 	{
 	public:

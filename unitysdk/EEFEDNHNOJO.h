@@ -32,6 +32,8 @@ namespace System { class String; }
 #define EEFEDNHNOJO_SET_TRAITTYPE_OFFSET UNITYSDK_OFFSET(0x13A2B440)
 #define EEFEDNHNOJO_SET_TYPE_OFFSET UNITYSDK_OFFSET(0x13A2B400)
 
+inline static constexpr unsigned int EEFEDNHNOJO_TypeDefinitionIndex = 79521;
+
 	class EEFEDNHNOJO : public ::System::Object
 	{
 	public:

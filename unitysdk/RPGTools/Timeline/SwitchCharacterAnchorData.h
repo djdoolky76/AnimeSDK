@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int SwitchCharacterAnchorData_TypeDefinitionIndex = 48365;
+
 	class SwitchCharacterAnchorData : public ::System::Object
 	{
 	public:

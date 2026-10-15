@@ -10,6 +10,8 @@ namespace System { class String; }
 #define IGOCKLIFDBE_FKHGOAPHFIB_OFFSET UNITYSDK_OFFSET(0x16415D10)
 #define IGOCKLIFDBE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x164150D0)
 
+inline static constexpr unsigned int IGOCKLIFDBE_TypeDefinitionIndex = 56435;
+
 	class IGOCKLIFDBE
 	{
 	public:

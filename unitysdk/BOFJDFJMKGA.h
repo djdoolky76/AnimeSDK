@@ -6,6 +6,8 @@ namespace RPG::GameCore { class GameEntity; }
 
 #define BOFJDFJMKGA_CTOR_OFFSET UNITYSDK_OFFSET(0xC18F9F0)
 
+inline static constexpr unsigned int BOFJDFJMKGA_TypeDefinitionIndex = 55554;
+
 	class BOFJDFJMKGA : public ::System::Object
 	{
 	public:

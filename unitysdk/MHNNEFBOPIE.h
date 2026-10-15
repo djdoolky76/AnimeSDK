@@ -31,6 +31,8 @@ namespace System { class String; }
 #define MHNNEFBOPIE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EA38CF0)
 #define MHNNEFBOPIE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EA38D50)
 
+inline static constexpr unsigned int MHNNEFBOPIE_TypeDefinitionIndex = 25890;
+
 	class MHNNEFBOPIE : public ::System::Object
 	{
 	public:

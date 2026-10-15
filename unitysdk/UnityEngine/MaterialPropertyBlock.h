@@ -156,6 +156,8 @@ namespace UnityEngine { class Texture; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int MaterialPropertyBlock_TypeDefinitionIndex = 4136;
+
 	class MaterialPropertyBlock : public ::System::Object
 	{
 	public:

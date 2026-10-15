@@ -31,6 +31,8 @@ namespace System { class String; }
 #define ILHFAFGOJAC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E6AE000)
 #define ILHFAFGOJAC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E6AE060)
 
+inline static constexpr unsigned int ILHFAFGOJAC_TypeDefinitionIndex = 34313;
+
 	class ILHFAFGOJAC : public ::System::Object
 	{
 	public:

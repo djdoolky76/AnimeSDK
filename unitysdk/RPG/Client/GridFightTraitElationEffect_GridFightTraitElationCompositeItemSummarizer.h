@@ -9,6 +9,8 @@ namespace RPG::Client { class GridFightTraitElationEffect; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightTraitElationEffect_GridFightTraitElationCompositeItemSummarizer_TypeDefinitionIndex = 65386;
+
 	class GridFightTraitElationEffect_GridFightTraitElationCompositeItemSummarizer : public ::AMCOEFHHBPO
 	{
 	public:

@@ -5,6 +5,8 @@
 
 #define LPOEOHMEJAG_CTOR_OFFSET UNITYSDK_OFFSET(0x1C922DC0)
 
+inline static constexpr unsigned int LPOEOHMEJAG_TypeDefinitionIndex = 42947;
+
 	class LPOEOHMEJAG : public ::System::Object
 	{
 	public:

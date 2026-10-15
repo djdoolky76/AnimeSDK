@@ -25,6 +25,8 @@ namespace System { class String; }
 #define BLJHLKBNGEC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DF65C30)
 #define BLJHLKBNGEC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DF65C90)
 
+inline static constexpr unsigned int BLJHLKBNGEC_TypeDefinitionIndex = 34392;
+
 	class BLJHLKBNGEC : public ::System::Object
 	{
 	public:

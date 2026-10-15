@@ -13,6 +13,8 @@ namespace UnityEngine { class Camera; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TransformScreenAdapter_TypeDefinitionIndex = 70342;
+
 	class TransformScreenAdapter : public ::System::Object
 	{
 	public:

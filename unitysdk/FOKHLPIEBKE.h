@@ -11,6 +11,8 @@ namespace System { class Nullable; }
 #define FOKHLPIEBKE_GCKKKFFCGBH_OFFSET UNITYSDK_OFFSET(0x158F68F0)
 #define FOKHLPIEBKE_KJNNMNGFKLF_OFFSET UNITYSDK_OFFSET(0x158F6810)
 
+inline static constexpr unsigned int FOKHLPIEBKE_TypeDefinitionIndex = 81521;
+
 	class FOKHLPIEBKE : public ::System::Object
 	{
 	public:

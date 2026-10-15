@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SharedValue_TypeDefinitionIndex = 18302;
+
 	class SharedValue : public ::RPG::GameCore::JsonConfig
 	{
 	public:

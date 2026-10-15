@@ -7,6 +7,8 @@ namespace RPG::GameCore { class PropComponent; }
 #define EPGHKIEPJKG_GET_ICONID_OFFSET UNITYSDK_OFFSET(0x155D47E0)
 #define EPGHKIEPJKG_JNCBEGFKCHF_OFFSET UNITYSDK_OFFSET(0x155D4840)
 
+inline static constexpr unsigned int EPGHKIEPJKG_TypeDefinitionIndex = 60643;
+
 	class EPGHKIEPJKG : public ::JNOCOHFFHCP
 	{
 	public:

@@ -11,6 +11,8 @@ namespace RPG::GameCore { class LittleGameAbilityPixAirEffectShieldBoostPercentC
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LittleGameAbilityPixAirEffectShieldBoostPercentConfig_TypeDefinitionIndex = 21356;
+
 	class LittleGameAbilityPixAirEffectShieldBoostPercentConfig : public ::RPG::GameCore::BaseLittleGameAbilityEffectConfig
 	{
 	public:

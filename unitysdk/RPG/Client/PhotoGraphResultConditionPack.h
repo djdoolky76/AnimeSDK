@@ -15,6 +15,8 @@ namespace RPG::GameCore { class TaskContext; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PhotoGraphResultConditionPack_TypeDefinitionIndex = 69456;
+
 	class PhotoGraphResultConditionPack : public ::System::Object
 	{
 	public:

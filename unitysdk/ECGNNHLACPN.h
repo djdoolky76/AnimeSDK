@@ -6,6 +6,8 @@
 #define ECGNNHLACPN_CTOR_OFFSET UNITYSDK_OFFSET(0x12D0C190)
 #define ECGNNHLACPN_KEAFKKMLOKE_OFFSET UNITYSDK_OFFSET(0x12D0C150)
 
+inline static constexpr unsigned int ECGNNHLACPN_TypeDefinitionIndex = 63429;
+
 	class ECGNNHLACPN : public ::System::Object
 	{
 	public:

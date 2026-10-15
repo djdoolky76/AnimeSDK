@@ -39,6 +39,8 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 #define FEMPCEMMCNH_OONGGAFCBCD_OFFSET UNITYSDK_OFFSET(0x1C475480)
 #define FEMPCEMMCNH_OPKLJKDABFL_OFFSET UNITYSDK_OFFSET(0x1C4744E0)
 
+inline static constexpr unsigned int FEMPCEMMCNH_TypeDefinitionIndex = 41459;
+
 	class FEMPCEMMCNH : public ::System::Object
 	{
 	public:

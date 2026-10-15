@@ -39,6 +39,8 @@ namespace System::ComponentModel { class PropertyChangedEventArgs; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightNPC_TypeDefinitionIndex = 65062;
+
 	class GridFightNPC : public ::RPG::Client::GridFightGridMember
 	{
 	public:

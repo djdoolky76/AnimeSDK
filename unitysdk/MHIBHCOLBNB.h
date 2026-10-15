@@ -28,6 +28,8 @@ namespace System { class String; }
 #define MHIBHCOLBNB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EA32800)
 #define MHIBHCOLBNB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EA32860)
 
+inline static constexpr unsigned int MHIBHCOLBNB_TypeDefinitionIndex = 34252;
+
 	class MHIBHCOLBNB : public ::System::Object
 	{
 	public:

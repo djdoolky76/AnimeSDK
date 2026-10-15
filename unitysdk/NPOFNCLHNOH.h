@@ -8,6 +8,8 @@ class NPOFNCLHNOH;
 #define NPOFNCLHNOH_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D2469A0)
 #define NPOFNCLHNOH_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D246950)
 
+inline static constexpr unsigned int NPOFNCLHNOH_TypeDefinitionIndex = 10222;
+
 	class NPOFNCLHNOH : public ::RPG::GameCore::TaskConfig
 	{
 	public:

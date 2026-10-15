@@ -11,6 +11,8 @@ namespace RPG::GameCore { class PerformanceRollingSubtitlesPage; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PerformanceRollingSubtitlesConfig_TypeDefinitionIndex = 24412;
+
 	class PerformanceRollingSubtitlesConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

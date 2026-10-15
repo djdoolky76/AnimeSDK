@@ -18,6 +18,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define CKECEKNEAGP_LDDKNBGLGLK_OFFSET UNITYSDK_OFFSET(0x1C58EE80)
 #define CKECEKNEAGP_LFGLCGMGCGA_OFFSET UNITYSDK_OFFSET(0x1C5D70F0)
 
+inline static constexpr unsigned int CKECEKNEAGP_TypeDefinitionIndex = 36508;
+
 	class CKECEKNEAGP : public ::System::Object
 	{
 	public:

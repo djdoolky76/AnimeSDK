@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TrainPartyMtCategoryConfigRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TrainPartyMtCategoryConfigRow_TypeDefinitionIndex = 15331;
+
 	class TrainPartyMtCategoryConfigRow : public ::System::Object
 	{
 	public:

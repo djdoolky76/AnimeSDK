@@ -31,6 +31,8 @@ namespace System { class String; }
 #define NOAINAEHIJE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EB876E0)
 #define NOAINAEHIJE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EB87740)
 
+inline static constexpr unsigned int NOAINAEHIJE_TypeDefinitionIndex = 32310;
+
 	class NOAINAEHIJE : public ::System::Object
 	{
 	public:

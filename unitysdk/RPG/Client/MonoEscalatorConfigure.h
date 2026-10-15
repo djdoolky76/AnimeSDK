@@ -22,6 +22,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoEscalatorConfigure_TypeDefinitionIndex = 68589;
+
 	class MonoEscalatorConfigure : public ::UnityEngine::MonoBehaviour
 	{
 	public:

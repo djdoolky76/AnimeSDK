@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int HEU_VolumeLayerPreset_TypeDefinitionIndex = 40369;
+
 	class HEU_VolumeLayerPreset : public ::System::Object
 	{
 	public:

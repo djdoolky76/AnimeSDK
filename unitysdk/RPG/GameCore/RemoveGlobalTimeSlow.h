@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RemoveGlobalTimeSlow_TypeDefinitionIndex = 23828;
+
 	class RemoveGlobalTimeSlow : public ::RPG::GameCore::TaskConfig
 	{
 	public:

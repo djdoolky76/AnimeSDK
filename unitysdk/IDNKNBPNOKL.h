@@ -27,6 +27,8 @@ namespace System { class String; }
 #define IDNKNBPNOKL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E631A10)
 #define IDNKNBPNOKL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E631A70)
 
+inline static constexpr unsigned int IDNKNBPNOKL_TypeDefinitionIndex = 30586;
+
 	class IDNKNBPNOKL : public ::System::Object
 	{
 	public:

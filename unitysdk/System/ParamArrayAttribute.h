@@ -6,6 +6,8 @@
 
 namespace System
 {
+	inline static constexpr unsigned int ParamArrayAttribute_TypeDefinitionIndex = 314;
+
 	class ParamArrayAttribute : public ::System::Attribute
 	{
 	public:

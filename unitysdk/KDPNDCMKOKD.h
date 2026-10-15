@@ -4,6 +4,8 @@
 
 #define KDPNDCMKOKD_CTOR_OFFSET UNITYSDK_OFFSET(0xB36F0E0)
 
+inline static constexpr unsigned int KDPNDCMKOKD_TypeDefinitionIndex = 74904;
+
 	class KDPNDCMKOKD : public ::System::Object
 	{
 	public:

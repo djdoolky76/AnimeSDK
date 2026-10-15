@@ -11,6 +11,8 @@ namespace System { template <typename T> class Comparison_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PlayerChallengePeakRecordBossData___c_TypeDefinitionIndex = 64269;
+
 	class PlayerChallengePeakRecordBossData___c : public ::System::Object
 	{
 	public:

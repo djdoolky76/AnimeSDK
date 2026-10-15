@@ -15,6 +15,8 @@ namespace SimpleJSON { class JSONNode; }
 #define OFDEKOCILAF_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D266460)
 #define OFDEKOCILAF_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D2663F0)
 
+inline static constexpr unsigned int OFDEKOCILAF_TypeDefinitionIndex = 24235;
+
 	class OFDEKOCILAF : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

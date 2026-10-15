@@ -4,6 +4,8 @@ namespace Cysharp::Threading::Tasks { template <typename T> class SingleConsumer
 
 namespace Cysharp::Threading::Tasks
 {
+	inline static constexpr unsigned int SingleConsumerUnboundedChannel_1_SingleConsumerUnboundedChannelWriter_TypeDefinitionIndex = 38147;
+
 	template <typename T>
 	class SingleConsumerUnboundedChannel_1_SingleConsumerUnboundedChannelWriter
 	{

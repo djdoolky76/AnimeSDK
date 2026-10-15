@@ -9,6 +9,8 @@ namespace System { class String; }
 #define BPANGADOKAM_CTOR_OFFSET UNITYSDK_OFFSET(0x1D9F7140)
 #define BPANGADOKAM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D9F7030)
 
+inline static constexpr unsigned int BPANGADOKAM_TypeDefinitionIndex = 13994;
+
 	class BPANGADOKAM : public ::System::Object
 	{
 	public:

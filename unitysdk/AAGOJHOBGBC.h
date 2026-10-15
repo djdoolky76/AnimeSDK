@@ -7,6 +7,8 @@ class OAFCCICMILM;
 #define AAGOJHOBGBC_CTOR_OFFSET UNITYSDK_OFFSET(0x1C877510)
 #define AAGOJHOBGBC_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x1C877520)
 
+inline static constexpr unsigned int AAGOJHOBGBC_TypeDefinitionIndex = 42394;
+
 	class AAGOJHOBGBC : public ::System::Object
 	{
 	public:

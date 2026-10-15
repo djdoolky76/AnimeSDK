@@ -11,6 +11,8 @@ namespace System::Xml::Schema { class BitSet; }
 
 namespace System::Xml::Schema
 {
+	inline static constexpr unsigned int LeafRangeNode_TypeDefinitionIndex = 2078;
+
 	class LeafRangeNode : public ::System::Xml::Schema::LeafNode
 	{
 	public:

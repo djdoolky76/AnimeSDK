@@ -29,6 +29,8 @@ namespace System { class String; }
 #define BMJPAPIDKKM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E029C50)
 #define BMJPAPIDKKM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E029CB0)
 
+inline static constexpr unsigned int BMJPAPIDKKM_TypeDefinitionIndex = 32176;
+
 	class BMJPAPIDKKM : public ::System::Object
 	{
 	public:

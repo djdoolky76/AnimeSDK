@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define PLLPNJOEDHF_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0xC30B740)
 #define PLLPNJOEDHF_RECEIVEMESSAGE_OFFSET UNITYSDK_OFFSET(0xC30B340)
 
+inline static constexpr unsigned int PLLPNJOEDHF_TypeDefinitionIndex = 64337;
+
 	class PLLPNJOEDHF : public ::System::Object
 	{
 	public:

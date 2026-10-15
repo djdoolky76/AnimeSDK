@@ -5,6 +5,8 @@ namespace System { class Nullable; }
 
 #define MPIDPHFLMMM_MMGGGLLFMKI_CTOR_OFFSET UNITYSDK_OFFSET(0xBA3F160)
 
+inline static constexpr unsigned int MPIDPHFLMMM_MMGGGLLFMKI_TypeDefinitionIndex = 77704;
+
 	class MPIDPHFLMMM_MMGGGLLFMKI : public ::System::Object
 	{
 	public:

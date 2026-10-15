@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoTimelineControlGameLevelCell_TriggerConfig_TypeDefinitionIndex = 60441;
+
 	class MonoTimelineControlGameLevelCell_TriggerConfig : public ::System::Object
 	{
 	public:

@@ -17,6 +17,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByStatusCount_TypeDefinitionIndex = 22559;
+
 	class ByStatusCount : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

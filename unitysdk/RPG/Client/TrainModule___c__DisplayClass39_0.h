@@ -9,6 +9,8 @@ class NHECDKIDHDB;
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TrainModule___c__DisplayClass39_0_TypeDefinitionIndex = 68157;
+
 	class TrainModule___c__DisplayClass39_0 : public ::System::Object
 	{
 	public:

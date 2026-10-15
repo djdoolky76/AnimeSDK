@@ -27,6 +27,8 @@ namespace System { class String; }
 #define EINFHDNDOHM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E2ACC40)
 #define EINFHDNDOHM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E2ACCA0)
 
+inline static constexpr unsigned int EINFHDNDOHM_TypeDefinitionIndex = 27655;
+
 	class EINFHDNDOHM : public ::System::Object
 	{
 	public:

@@ -29,6 +29,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int CharacterStoryMoveData_TypeDefinitionIndex = 48000;
+
 	class CharacterStoryMoveData : public ::System::Object
 	{
 	public:

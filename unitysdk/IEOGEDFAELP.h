@@ -28,6 +28,8 @@ namespace System { class String; }
 #define IEOGEDFAELP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E6405E0)
 #define IEOGEDFAELP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E640640)
 
+inline static constexpr unsigned int IEOGEDFAELP_TypeDefinitionIndex = 28750;
+
 	class IEOGEDFAELP : public ::System::Object
 	{
 	public:

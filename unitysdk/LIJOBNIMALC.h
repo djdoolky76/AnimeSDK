@@ -10,6 +10,8 @@ class CKFDNGOHNPC;
 #define LIJOBNIMALC_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0x1C90F1B0)
 #define LIJOBNIMALC_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0x1C90F2A0)
 
+inline static constexpr unsigned int LIJOBNIMALC_TypeDefinitionIndex = 42196;
+
 	class LIJOBNIMALC : public ::System::Object
 	{
 	public:

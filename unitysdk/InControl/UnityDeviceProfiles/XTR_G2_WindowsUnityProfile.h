@@ -7,6 +7,8 @@
 
 namespace InControl::UnityDeviceProfiles
 {
+	inline static constexpr unsigned int XTR_G2_WindowsUnityProfile_TypeDefinitionIndex = 41099;
+
 	class XTR_G2_WindowsUnityProfile : public ::InControl::InputDeviceProfile
 	{
 	public:

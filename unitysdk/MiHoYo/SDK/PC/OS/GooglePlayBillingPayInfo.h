@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::PC::OS
 {
+	inline static constexpr unsigned int GooglePlayBillingPayInfo_TypeDefinitionIndex = 8539;
+
 	class GooglePlayBillingPayInfo : public ::System::Object
 	{
 	public:

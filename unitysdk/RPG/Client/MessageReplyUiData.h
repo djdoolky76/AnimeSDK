@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MessageReplyUiData_TypeDefinitionIndex = 61551;
+
 	class MessageReplyUiData : public ::System::Object
 	{
 	public:

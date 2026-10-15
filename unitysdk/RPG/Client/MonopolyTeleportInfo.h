@@ -10,6 +10,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonopolyTeleportInfo_TypeDefinitionIndex = 66245;
+
 	class MonopolyTeleportInfo : public ::System::Object
 	{
 	public:

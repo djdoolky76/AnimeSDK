@@ -6,6 +6,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define JDNEAIDOOAN_MADNIGELLHB_CTOR_OFFSET UNITYSDK_OFFSET(0x165FF6B0)
 
+inline static constexpr unsigned int JDNEAIDOOAN_MADNIGELLHB_TypeDefinitionIndex = 48943;
+
 	class JDNEAIDOOAN_MADNIGELLHB : public ::System::Object
 	{
 	public:

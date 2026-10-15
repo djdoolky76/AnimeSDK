@@ -7,6 +7,8 @@ class IOIIFAENPNH;
 #define FAOGNFIIOBL___C__DISPLAYCLASS10_0_CTOR_OFFSET UNITYSDK_OFFSET(0x15689240)
 #define FAOGNFIIOBL___C__DISPLAYCLASS10_0___TRYADDSHOWDATA_B__1_OFFSET UNITYSDK_OFFSET(0x15689340)
 
+inline static constexpr unsigned int FAOGNFIIOBL___c__DisplayClass10_0_TypeDefinitionIndex = 72075;
+
 	class FAOGNFIIOBL___c__DisplayClass10_0 : public ::System::Object
 	{
 	public:

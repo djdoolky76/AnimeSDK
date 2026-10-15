@@ -10,6 +10,8 @@ namespace RPG::Client::CakeRace { class CakeRacePerformanceDataItem; }
 #define MKPMAFBIPKG_CTOR_OFFSET UNITYSDK_OFFSET(0xB9A4760)
 #define MKPMAFBIPKG_HLOGMBDGPCC_OFFSET UNITYSDK_OFFSET(0xB9A4770)
 
+inline static constexpr unsigned int MKPMAFBIPKG_TypeDefinitionIndex = 78105;
+
 	class MKPMAFBIPKG : public ::JIPBOGKHKBE
 	{
 	public:

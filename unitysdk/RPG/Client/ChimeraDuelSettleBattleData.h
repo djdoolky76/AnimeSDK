@@ -34,6 +34,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ChimeraDuelSettleBattleData_TypeDefinitionIndex = 63326;
+
 	class ChimeraDuelSettleBattleData : public ::System::Object
 	{
 	public:

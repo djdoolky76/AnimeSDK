@@ -12,6 +12,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int SpecialVisionOffClip_TypeDefinitionIndex = 48310;
+
 	class SpecialVisionOffClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:

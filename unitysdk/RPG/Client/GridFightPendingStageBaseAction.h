@@ -19,6 +19,8 @@ namespace System { class Action; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightPendingStageBaseAction_TypeDefinitionIndex = 64614;
+
 	class GridFightPendingStageBaseAction : public ::System::Object
 	{
 	public:

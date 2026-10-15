@@ -5,6 +5,8 @@
 
 namespace RPG::Client::LittleGame::FiveDim
 {
+	inline static constexpr unsigned int PhantomPlayerRecordFrames_RPG_Client_LittleGame_Move_MoveState_AutoGen_TypeDefinitionIndex = 43635;
+
 	class PhantomPlayerRecordFrames_RPG_Client_LittleGame_Move_MoveState_AutoGen
 	{
 	public:

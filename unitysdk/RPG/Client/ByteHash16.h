@@ -18,6 +18,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ByteHash16_TypeDefinitionIndex = 41388;
+
 	struct alignas(4) ByteHash16
 	{
 		::System::UInt32 _HashA; // 0x10

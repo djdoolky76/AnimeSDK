@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define JHLAFIEPIMC_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1D030C10)
 #define JHLAFIEPIMC_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1D030530)
 
+inline static constexpr unsigned int JHLAFIEPIMC_TypeDefinitionIndex = 11769;
+
 	class JHLAFIEPIMC : public ::System::Object
 	{
 	public:

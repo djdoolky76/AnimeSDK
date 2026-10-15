@@ -14,6 +14,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoEffectPluginDialogRenderer_LPFLKFCMFKA_TypeDefinitionIndex = 69994;
+
 	class MonoEffectPluginDialogRenderer_LPFLKFCMFKA : public ::System::Object
 	{
 	public:

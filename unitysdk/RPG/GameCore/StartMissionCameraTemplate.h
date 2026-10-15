@@ -12,6 +12,8 @@ namespace RPG::GameCore { class StartMissionCameraTemplate; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int StartMissionCameraTemplate_TypeDefinitionIndex = 23809;
+
 	class StartMissionCameraTemplate : public ::RPG::GameCore::TaskConfig
 	{
 	public:

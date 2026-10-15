@@ -37,6 +37,8 @@ namespace System::Collections::Generic { template <typename T> class IList_1; }
 
 namespace Newtonsoft::Json::Linq
 {
+	inline static constexpr unsigned int JProperty_TypeDefinitionIndex = 9787;
+
 	class JProperty : public ::Newtonsoft::Json::Linq::JContainer
 	{
 	public:

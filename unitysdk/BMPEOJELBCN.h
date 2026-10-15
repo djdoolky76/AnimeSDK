@@ -5,6 +5,8 @@
 #define BMPEOJELBCN_GET_VALUE_OFFSET UNITYSDK_OFFSET(0xBDC4680)
 #define BMPEOJELBCN_SET_VALUE_OFFSET UNITYSDK_OFFSET(0xBDC4690)
 
+inline static constexpr unsigned int BMPEOJELBCN_TypeDefinitionIndex = 74021;
+
 	class BMPEOJELBCN
 	{
 	public:

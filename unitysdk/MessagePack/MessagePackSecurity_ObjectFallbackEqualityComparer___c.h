@@ -12,6 +12,8 @@ namespace System::Reflection { class MethodInfo; }
 
 namespace MessagePack
 {
+	inline static constexpr unsigned int MessagePackSecurity_ObjectFallbackEqualityComparer___c_TypeDefinitionIndex = 7205;
+
 	class MessagePackSecurity_ObjectFallbackEqualityComparer___c : public ::System::Object
 	{
 	public:

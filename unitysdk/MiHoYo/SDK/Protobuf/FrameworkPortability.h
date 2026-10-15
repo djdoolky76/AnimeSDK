@@ -7,6 +7,8 @@
 
 namespace MiHoYo::SDK::Protobuf
 {
+	inline static constexpr unsigned int FrameworkPortability_TypeDefinitionIndex = 35719;
+
 	class FrameworkPortability : public ::System::Object
 	{
 	public:

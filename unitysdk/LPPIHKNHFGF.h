@@ -5,6 +5,8 @@
 
 #define LPPIHKNHFGF_CTOR_OFFSET UNITYSDK_OFFSET(0xB836600)
 
+inline static constexpr unsigned int LPPIHKNHFGF_TypeDefinitionIndex = 47142;
+
 	class LPPIHKNHFGF : public ::System::Object
 	{
 	public:

@@ -6,6 +6,8 @@ namespace UnityEngine { class Renderer; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int LOD_TypeDefinitionIndex = 4190;
+
 	struct alignas(8) LOD
 	{
 		::System::Single screenRelativeTransitionHeight; // 0x10

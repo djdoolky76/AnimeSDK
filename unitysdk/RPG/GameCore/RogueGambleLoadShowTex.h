@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueGambleLoadShowTex; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueGambleLoadShowTex_TypeDefinitionIndex = 22103;
+
 	class RogueGambleLoadShowTex : public ::RPG::GameCore::TaskConfig
 	{
 	public:

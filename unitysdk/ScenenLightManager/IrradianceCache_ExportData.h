@@ -9,6 +9,8 @@ namespace System { class String; }
 
 namespace ScenenLightManager
 {
+	inline static constexpr unsigned int IrradianceCache_ExportData_TypeDefinitionIndex = 49111;
+
 	class IrradianceCache_ExportData : public ::ScenenLightManager::BaseComponentExportData
 	{
 	public:

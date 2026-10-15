@@ -28,6 +28,8 @@ namespace System { class String; }
 #define FBGIINJFCCD_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E335AB0)
 #define FBGIINJFCCD_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E335B10)
 
+inline static constexpr unsigned int FBGIINJFCCD_TypeDefinitionIndex = 33022;
+
 	class FBGIINJFCCD : public ::System::Object
 	{
 	public:

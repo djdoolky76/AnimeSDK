@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetUltraSkillInnerPieProgress_TypeDefinitionIndex = 23142;
+
 	class SetUltraSkillInnerPieProgress : public ::RPG::GameCore::TaskConfig
 	{
 	public:

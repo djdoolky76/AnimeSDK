@@ -29,6 +29,8 @@ namespace System { class String; }
 #define CDCCPHILOCC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E080240)
 #define CDCCPHILOCC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E0802A0)
 
+inline static constexpr unsigned int CDCCPHILOCC_TypeDefinitionIndex = 25335;
+
 	class CDCCPHILOCC : public ::System::Object
 	{
 	public:

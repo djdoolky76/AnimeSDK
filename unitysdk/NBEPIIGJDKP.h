@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define NBEPIIGJDKP_FILTER_OFFSET UNITYSDK_OFFSET(0x1C934F40)
 #define NBEPIIGJDKP_GETTRIGGER_OFFSET UNITYSDK_OFFSET(0x1C934E20)
 
+inline static constexpr unsigned int NBEPIIGJDKP_TypeDefinitionIndex = 42874;
+
 	class NBEPIIGJDKP
 	{
 	public:

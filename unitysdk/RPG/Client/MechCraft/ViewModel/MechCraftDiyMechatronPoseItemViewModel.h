@@ -7,6 +7,8 @@ class HEFLLOIJAOF;
 
 namespace RPG::Client::MechCraft::ViewModel
 {
+	inline static constexpr unsigned int MechCraftDiyMechatronPoseItemViewModel_TypeDefinitionIndex = 79601;
+
 	class MechCraftDiyMechatronPoseItemViewModel : public ::RPG::Client::MechCraft::ViewModel::MechCraftDiyEditItemViewModelBase
 	{
 	public:

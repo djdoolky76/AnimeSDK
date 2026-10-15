@@ -12,6 +12,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int CameraRaycastHelper_TypeDefinitionIndex = 5787;
+
 	class CameraRaycastHelper : public ::System::Object
 	{
 	public:

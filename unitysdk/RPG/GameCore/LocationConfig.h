@@ -14,6 +14,8 @@ namespace System { class Object; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LocationConfig_TypeDefinitionIndex = 16496;
+
 	class LocationConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

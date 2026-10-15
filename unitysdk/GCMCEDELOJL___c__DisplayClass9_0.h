@@ -6,6 +6,8 @@ namespace RPG::Client { class GridFightEquipItemData; }
 #define GCMCEDELOJL___C__DISPLAYCLASS9_0_CTOR_OFFSET UNITYSDK_OFFSET(0x15984160)
 #define GCMCEDELOJL___C__DISPLAYCLASS9_0__GETNONETEMPORARYEQUIPITEMCOUNT_B__0_OFFSET UNITYSDK_OFFSET(0x15984350)
 
+inline static constexpr unsigned int GCMCEDELOJL___c__DisplayClass9_0_TypeDefinitionIndex = 65322;
+
 	class GCMCEDELOJL___c__DisplayClass9_0 : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define DAGNHGIBCPG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E152460)
 #define DAGNHGIBCPG___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E152470)
 
+inline static constexpr unsigned int DAGNHGIBCPG___c_TypeDefinitionIndex = 27852;
+
 	class DAGNHGIBCPG___c : public ::System::Object
 	{
 	public:

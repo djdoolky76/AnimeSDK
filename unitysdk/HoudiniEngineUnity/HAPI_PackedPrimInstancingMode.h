@@ -3,6 +3,8 @@
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int HAPI_PackedPrimInstancingMode_TypeDefinitionIndex = 40453;
+
 	enum class HAPI_PackedPrimInstancingMode : ::System::Int32
 	{
 		HAPI_PACKEDPRIM_INSTANCING_MODE_INVALID = -1,

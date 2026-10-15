@@ -20,6 +20,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define LBAMHOLCOJE_OICINKKCCCD_OFFSET UNITYSDK_OFFSET(0xB5EBD40)
 #define LBAMHOLCOJE_OPMLENHJBIH_OFFSET UNITYSDK_OFFSET(0xB5EB430)
 
+inline static constexpr unsigned int LBAMHOLCOJE_TypeDefinitionIndex = 56529;
+
 	class LBAMHOLCOJE : public ::System::Object
 	{
 	public:

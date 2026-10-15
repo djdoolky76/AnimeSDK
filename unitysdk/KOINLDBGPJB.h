@@ -5,6 +5,8 @@ class LCDEEKNHPBG;
 
 #define KOINLDBGPJB_CTOR_OFFSET UNITYSDK_OFFSET(0x10480)
 
+inline static constexpr unsigned int KOINLDBGPJB_TypeDefinitionIndex = 79153;
+
 	struct alignas(8) KOINLDBGPJB
 	{
 		::BOJOBHMEEIH* CHOACOECNII; // 0x10

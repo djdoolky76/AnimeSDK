@@ -6,6 +6,8 @@
 
 namespace IFix::Core
 {
+	inline static constexpr unsigned int AnonymousStoreyInfo_TypeDefinitionIndex = 7115;
+
 	class AnonymousStoreyInfo : public ::System::Object
 	{
 	public:

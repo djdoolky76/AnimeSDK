@@ -4,6 +4,8 @@
 
 #define OHEKHDIOPLD_CTOR_OFFSET UNITYSDK_OFFSET(0x1C992CB0)
 
+inline static constexpr unsigned int OHEKHDIOPLD_TypeDefinitionIndex = 42819;
+
 	class OHEKHDIOPLD : public ::Entitas::CodeGeneration::Attributes::ContextAttribute
 	{
 	public:

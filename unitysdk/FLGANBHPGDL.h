@@ -7,6 +7,8 @@ namespace RPG::GameCore { class GameEntity; }
 #define FLGANBHPGDL_CTOR_OFFSET UNITYSDK_OFFSET(0x15830800)
 #define FLGANBHPGDL_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0x15830810)
 
+inline static constexpr unsigned int FLGANBHPGDL_TypeDefinitionIndex = 56637;
+
 	class FLGANBHPGDL : public ::HMFOPIJNNDI
 	{
 	public:

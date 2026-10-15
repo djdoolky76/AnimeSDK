@@ -10,6 +10,8 @@ namespace RPG::AvatarSystem { class IAvatar; }
 #define GNGOEOKHKLE_SET_ISLEVELFIRST_OFFSET UNITYSDK_OFFSET(0x15B08370)
 #define GNGOEOKHKLE__COMPAREIMPL_OFFSET UNITYSDK_OFFSET(0x15B08390)
 
+inline static constexpr unsigned int GNGOEOKHKLE_TypeDefinitionIndex = 62812;
+
 	class GNGOEOKHKLE : public ::RPG::Client::AvatarComparerBase
 	{
 	public:

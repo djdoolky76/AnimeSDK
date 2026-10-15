@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define GIDPDEJAAED___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E494EE0)
 #define GIDPDEJAAED___C___CCTOR_B__43_0_OFFSET UNITYSDK_OFFSET(0x1E494EF0)
 
+inline static constexpr unsigned int GIDPDEJAAED___c_TypeDefinitionIndex = 26463;
+
 	class GIDPDEJAAED___c : public ::System::Object
 	{
 	public:

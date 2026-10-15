@@ -19,6 +19,8 @@ namespace System { class String; }
 #define EGBFGBLJEII_KIGBILLGNOH_OFFSET UNITYSDK_OFFSET(0x13A5FB80)
 #define EGBFGBLJEII_OPCKNBHNBOA_OFFSET UNITYSDK_OFFSET(0x13A5FF80)
 
+inline static constexpr unsigned int EGBFGBLJEII_TypeDefinitionIndex = 55920;
+
 	class EGBFGBLJEII : public ::JJANGHIBICJ
 	{
 	public:

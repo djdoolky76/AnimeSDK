@@ -11,6 +11,8 @@ class AkiOSSettings_PlatformAdvancedSettings;
 #define AKIOSSETTINGS_GETCOMMSSETTINGS_OFFSET UNITYSDK_OFFSET(0x1F61EA70)
 #define AKIOSSETTINGS_GETUSERSETTINGS_OFFSET UNITYSDK_OFFSET(0x1F61E9F0)
 
+inline static constexpr unsigned int AkiOSSettings_TypeDefinitionIndex = 44902;
+
 	class AkiOSSettings : public ::AkWwiseInitializationSettings_PlatformSettings
 	{
 	public:

@@ -23,6 +23,8 @@ namespace UnityEngine::UI { class Image; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PlanetFesFloatingItem_TypeDefinitionIndex = 66498;
+
 	class PlanetFesFloatingItem : public ::UnityEngine::MonoBehaviour
 	{
 	public:

@@ -36,6 +36,8 @@ namespace System { class String; }
 #define NDLNIKCCALK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EAEB650)
 #define NDLNIKCCALK_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EAEB6B0)
 
+inline static constexpr unsigned int NDLNIKCCALK_TypeDefinitionIndex = 29680;
+
 	class NDLNIKCCALK : public ::System::Object
 	{
 	public:

@@ -3,6 +3,8 @@
 
 namespace System
 {
+	inline static constexpr unsigned int TypeName_TypeDefinitionIndex = 438;
+
 	class TypeName
 	{
 	public:

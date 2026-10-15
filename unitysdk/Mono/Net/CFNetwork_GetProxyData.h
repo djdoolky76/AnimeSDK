@@ -8,6 +8,8 @@ namespace System::Threading { class ManualResetEvent; }
 
 namespace Mono::Net
 {
+	inline static constexpr unsigned int CFNetwork_GetProxyData_TypeDefinitionIndex = 2418;
+
 	class CFNetwork_GetProxyData : public ::System::Object
 	{
 	public:

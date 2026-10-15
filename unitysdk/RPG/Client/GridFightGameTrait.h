@@ -52,6 +52,8 @@ namespace System::Collections::Specialized { class NotifyCollectionChangedEventA
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightGameTrait_TypeDefinitionIndex = 65408;
+
 	class GridFightGameTrait : public ::System::Object
 	{
 	public:

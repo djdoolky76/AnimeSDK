@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CaptureCurrentInteractProp_TypeDefinitionIndex = 22290;
+
 	class CaptureCurrentInteractProp : public ::RPG::GameCore::TaskConfig
 	{
 	public:

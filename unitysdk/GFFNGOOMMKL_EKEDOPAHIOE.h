@@ -1,6 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
+inline static constexpr unsigned int GFFNGOOMMKL_EKEDOPAHIOE_TypeDefinitionIndex = 76589;
+
 	struct alignas(4) GFFNGOOMMKL_EKEDOPAHIOE
 	{
 		::System::UInt32 PHFMCACHFIJ; // 0x10

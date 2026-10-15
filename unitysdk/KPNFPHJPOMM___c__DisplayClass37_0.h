@@ -8,6 +8,8 @@ namespace RPG::Client { class IAssetOperation; }
 #define KPNFPHJPOMM___C__DISPLAYCLASS37_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB5C9E00)
 #define KPNFPHJPOMM___C__DISPLAYCLASS37_0__ASYNCLOADDATABLOCK_B__0_OFFSET UNITYSDK_OFFSET(0xB5CD190)
 
+inline static constexpr unsigned int KPNFPHJPOMM___c__DisplayClass37_0_TypeDefinitionIndex = 49184;
+
 	class KPNFPHJPOMM___c__DisplayClass37_0 : public ::System::Object
 	{
 	public:

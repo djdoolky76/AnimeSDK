@@ -11,6 +11,8 @@ namespace System { class Object; }
 
 namespace MiHoYo::SDK::Win
 {
+	inline static constexpr unsigned int OverseaGuestBindMail___c_TypeDefinitionIndex = 9496;
+
 	class OverseaGuestBindMail___c : public ::System::Object
 	{
 	public:

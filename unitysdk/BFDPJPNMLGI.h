@@ -10,6 +10,8 @@ namespace System { class String; }
 #define BFDPJPNMLGI_JFJNLINGBLB_OFFSET UNITYSDK_OFFSET(0xB1610F0)
 #define BFDPJPNMLGI_OOPJCBAIKMA_OFFSET UNITYSDK_OFFSET(0xB1612D0)
 
+inline static constexpr unsigned int BFDPJPNMLGI_TypeDefinitionIndex = 80647;
+
 	class BFDPJPNMLGI : public ::System::Object
 	{
 	public:

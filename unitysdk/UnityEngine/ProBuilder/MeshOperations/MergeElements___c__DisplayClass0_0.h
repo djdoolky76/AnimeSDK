@@ -9,6 +9,8 @@ namespace UnityEngine::ProBuilder { class Face; }
 
 namespace UnityEngine::ProBuilder::MeshOperations
 {
+	inline static constexpr unsigned int MergeElements___c__DisplayClass0_0_TypeDefinitionIndex = 44503;
+
 	class MergeElements___c__DisplayClass0_0 : public ::System::Object
 	{
 	public:

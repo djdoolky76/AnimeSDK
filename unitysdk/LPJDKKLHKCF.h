@@ -17,6 +17,8 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 #define LPJDKKLHKCF_LKBEADCFKOH_OFFSET UNITYSDK_OFFSET(0xB821AA0)
 #define LPJDKKLHKCF_PMAIMOMNBAA_OFFSET UNITYSDK_OFFSET(0xB8218E0)
 
+inline static constexpr unsigned int LPJDKKLHKCF_TypeDefinitionIndex = 60697;
+
 	class LPJDKKLHKCF : public ::System::Object
 	{
 	public:

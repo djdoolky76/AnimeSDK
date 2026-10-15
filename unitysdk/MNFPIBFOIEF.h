@@ -31,6 +31,8 @@ namespace System { class String; }
 #define MNFPIBFOIEF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EA97300)
 #define MNFPIBFOIEF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EA97360)
 
+inline static constexpr unsigned int MNFPIBFOIEF_TypeDefinitionIndex = 30055;
+
 	class MNFPIBFOIEF : public ::System::Object
 	{
 	public:

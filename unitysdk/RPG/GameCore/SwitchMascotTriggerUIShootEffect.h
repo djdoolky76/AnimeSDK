@@ -10,6 +10,8 @@ namespace RPG::GameCore { class SwitchMascotTriggerUIShootEffect; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SwitchMascotTriggerUIShootEffect_TypeDefinitionIndex = 22003;
+
 	class SwitchMascotTriggerUIShootEffect : public ::RPG::GameCore::TaskConfig
 	{
 	public:

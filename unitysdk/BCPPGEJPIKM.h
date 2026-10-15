@@ -9,6 +9,8 @@ namespace RPG::GameCore { class EvolveBuildGearManager; }
 #define BCPPGEJPIKM_LNGKNPJIOML_OFFSET UNITYSDK_OFFSET(0x162EAA20)
 #define BCPPGEJPIKM_SET_SORTLISTS_OFFSET UNITYSDK_OFFSET(0x162EAA80)
 
+inline static constexpr unsigned int BCPPGEJPIKM_TypeDefinitionIndex = 53576;
+
 	class BCPPGEJPIKM : public ::System::Object
 	{
 	public:

@@ -6,6 +6,8 @@
 #define BJFENMHNNEP_GET_EXAMID_OFFSET UNITYSDK_OFFSET(0x1C545AF0)
 #define BJFENMHNNEP_SET_EXAMID_OFFSET UNITYSDK_OFFSET(0x1C545B00)
 
+inline static constexpr unsigned int BJFENMHNNEP_TypeDefinitionIndex = 41736;
+
 	class BJFENMHNNEP : public ::LBMCGPOLJHO
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class StagePVSOfflineVolumeInfo; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int StagePVSOfflineBakeSamplerData_TypeDefinitionIndex = 19181;
+
 	class StagePVSOfflineBakeSamplerData : public ::RPG::GameCore::JsonConfig
 	{
 	public:

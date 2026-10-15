@@ -3,6 +3,8 @@
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int ParticleSystem_PlaybackState_Noise_TypeDefinitionIndex = 5226;
+
 	struct alignas(4) ParticleSystem_PlaybackState_Noise
 	{
 		::System::Single m_ScrollOffset; // 0x10

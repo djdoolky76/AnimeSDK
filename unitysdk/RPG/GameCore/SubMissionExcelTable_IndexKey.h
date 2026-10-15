@@ -9,6 +9,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SubMissionExcelTable_IndexKey_TypeDefinitionIndex = 14141;
+
 	struct alignas(4) SubMissionExcelTable_IndexKey
 	{
 		::System::UInt32 SubMissionID; // 0x10

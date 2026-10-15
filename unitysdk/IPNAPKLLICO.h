@@ -20,6 +20,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define IPNAPKLLICO_SET_COMPOSITIONTYPE_OFFSET UNITYSDK_OFFSET(0x16525220)
 #define IPNAPKLLICO_SET_LEVEL_OFFSET UNITYSDK_OFFSET(0x16525240)
 
+inline static constexpr unsigned int IPNAPKLLICO_TypeDefinitionIndex = 67724;
+
 	class IPNAPKLLICO : public ::System::Object
 	{
 	public:

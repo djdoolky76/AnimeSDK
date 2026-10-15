@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define KCOOICMKJEO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB345CD0)
 #define KCOOICMKJEO_TICK_OFFSET UNITYSDK_OFFSET(0xB345010)
 
+inline static constexpr unsigned int KCOOICMKJEO_TypeDefinitionIndex = 53345;
+
 	class KCOOICMKJEO : public ::GDBHHBCMEFL
 	{
 	public:

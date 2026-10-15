@@ -7,6 +7,8 @@
 
 namespace InControl::UnityDeviceProfiles
 {
+	inline static constexpr unsigned int MogaProPowerAndroidUnityProfile_TypeDefinitionIndex = 40972;
+
 	class MogaProPowerAndroidUnityProfile : public ::InControl::InputDeviceProfile
 	{
 	public:

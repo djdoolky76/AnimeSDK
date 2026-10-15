@@ -41,6 +41,8 @@ namespace UnityEngine { class Material; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int LightRubikCubePuzzleCube_TypeDefinitionIndex = 78685;
+
 	class LightRubikCubePuzzleCube : public ::RPG::Client::Prop::RubikCubePuzzleCube
 	{
 	public:

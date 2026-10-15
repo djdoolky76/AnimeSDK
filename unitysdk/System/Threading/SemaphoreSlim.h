@@ -33,6 +33,8 @@ namespace System::Threading::Tasks { class Task; }
 
 namespace System::Threading
 {
+	inline static constexpr unsigned int SemaphoreSlim_TypeDefinitionIndex = 809;
+
 	class SemaphoreSlim : public ::System::Object
 	{
 	public:

@@ -17,6 +17,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByCompareSkillLevel_TypeDefinitionIndex = 23005;
+
 	class ByCompareSkillLevel : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

@@ -9,6 +9,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 #define MFNCDGPLHDC___C_CTOR_OFFSET UNITYSDK_OFFSET(0xB90D2C0)
 #define MFNCDGPLHDC___C__CREATEGAMEREFROLE_B__2_0_OFFSET UNITYSDK_OFFSET(0xB90D530)
 
+inline static constexpr unsigned int MFNCDGPLHDC___c_TypeDefinitionIndex = 65270;
+
 	class MFNCDGPLHDC___c : public ::System::Object
 	{
 	public:

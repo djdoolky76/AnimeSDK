@@ -13,6 +13,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int StartPropInteractMode_TypeDefinitionIndex = 20387;
+
 	class StartPropInteractMode : public ::RPG::GameCore::TaskConfig
 	{
 	public:

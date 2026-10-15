@@ -30,6 +30,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ActivityBenefitV2RewardOverviewViewModel_TypeDefinitionIndex = 61414;
+
 	class ActivityBenefitV2RewardOverviewViewModel : public ::System::Object
 	{
 	public:

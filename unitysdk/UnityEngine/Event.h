@@ -67,6 +67,8 @@ namespace UnityEngine { class Event; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int Event_TypeDefinitionIndex = 5160;
+
 	class Event : public ::System::Object
 	{
 	public:

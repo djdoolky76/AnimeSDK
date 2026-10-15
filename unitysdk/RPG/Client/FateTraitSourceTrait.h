@@ -18,6 +18,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int FateTraitSourceTrait_TypeDefinitionIndex = 64011;
+
 	class FateTraitSourceTrait : public ::System::Object
 	{
 	public:

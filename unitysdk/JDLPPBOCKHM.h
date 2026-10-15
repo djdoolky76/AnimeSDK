@@ -11,6 +11,8 @@ namespace System { class String; }
 #define JDLPPBOCKHM_GGHDDIJONEP_OFFSET UNITYSDK_OFFSET(0x165D8020)
 #define JDLPPBOCKHM_OCCOBDOOLIH_OFFSET UNITYSDK_OFFSET(0x165D8090)
 
+inline static constexpr unsigned int JDLPPBOCKHM_TypeDefinitionIndex = 76897;
+
 	class JDLPPBOCKHM : public ::System::Object
 	{
 	public:

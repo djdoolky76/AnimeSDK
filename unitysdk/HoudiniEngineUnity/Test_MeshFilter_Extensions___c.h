@@ -13,6 +13,8 @@ namespace UnityEngine { class MeshFilter; }
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int Test_MeshFilter_Extensions___c_TypeDefinitionIndex = 40742;
+
 	class Test_MeshFilter_Extensions___c : public ::System::Object
 	{
 	public:

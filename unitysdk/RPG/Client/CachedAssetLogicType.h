@@ -3,6 +3,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int CachedAssetLogicType_TypeDefinitionIndex = 41406;
+
 	enum class CachedAssetLogicType : ::System::Int32
 	{
 		NotCache = 0,

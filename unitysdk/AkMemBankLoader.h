@@ -15,6 +15,8 @@ namespace UnityEngine::Networking { class UnityWebRequest; }
 #define AKMEMBANKLOADER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1F5A6060)
 #define AKMEMBANKLOADER_START_OFFSET UNITYSDK_OFFSET(0x1F5A59F0)
 
+inline static constexpr unsigned int AkMemBankLoader_TypeDefinitionIndex = 44936;
+
 	class AkMemBankLoader : public ::UnityEngine::MonoBehaviour
 	{
 	public:

@@ -17,6 +17,8 @@ namespace RPG::GameCore { class AdventureCharacterController; }
 #define NBGOKLIOCOJ_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0xBAC11F0)
 #define NBGOKLIOCOJ_PODJJPBKLDC_OFFSET UNITYSDK_OFFSET(0xBAC0F00)
 
+inline static constexpr unsigned int NBGOKLIOCOJ_TypeDefinitionIndex = 56982;
+
 	class NBGOKLIOCOJ : public ::ADKFPNMPIDD
 	{
 	public:

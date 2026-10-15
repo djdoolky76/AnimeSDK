@@ -10,6 +10,8 @@ class MNCOPNHONHO;
 #define OAHHEIJNGBG_CTOR_OFFSET UNITYSDK_OFFSET(0xBD215E0)
 #define OAHHEIJNGBG_KKDMPNCKGHE_OFFSET UNITYSDK_OFFSET(0xBD21720)
 
+inline static constexpr unsigned int OAHHEIJNGBG_TypeDefinitionIndex = 76741;
+
 	class OAHHEIJNGBG : public ::System::Object
 	{
 	public:

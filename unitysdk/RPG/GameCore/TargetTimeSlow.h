@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TargetTimeSlow_TypeDefinitionIndex = 23115;
+
 	class TargetTimeSlow : public ::RPG::GameCore::TaskConfig
 	{
 	public:

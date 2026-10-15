@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetEntityForbidCameraDither_TypeDefinitionIndex = 20603;
+
 	class SetEntityForbidCameraDither : public ::RPG::GameCore::TaskConfig
 	{
 	public:

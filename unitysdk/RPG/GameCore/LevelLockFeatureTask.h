@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TaskContext; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelLockFeatureTask_TypeDefinitionIndex = 58183;
+
 	class LevelLockFeatureTask : public ::GELIALJDFBL
 	{
 	public:

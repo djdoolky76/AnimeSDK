@@ -78,6 +78,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define POEGKFEADIE_SET_PAUSEMONSTERSPAWN_OFFSET UNITYSDK_OFFSET(0xC35DB70)
 #define POEGKFEADIE_TICK_OFFSET UNITYSDK_OFFSET(0xC35EC00)
 
+inline static constexpr unsigned int POEGKFEADIE_TypeDefinitionIndex = 54311;
+
 	class POEGKFEADIE : public ::ADGFFEDNPPO
 	{
 	public:

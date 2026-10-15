@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MazeAutoUseMPItemHintData_TypeDefinitionIndex = 62143;
+
 	class MazeAutoUseMPItemHintData : public ::System::Object
 	{
 	public:

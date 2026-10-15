@@ -10,6 +10,8 @@ namespace RPG::GameCore::Match3 { class AddScoreByGemPouchAction; }
 
 namespace RPG::GameCore::Match3
 {
+	inline static constexpr unsigned int AddScoreByGemPouchAction_TypeDefinitionIndex = 24901;
+
 	class AddScoreByGemPouchAction : public ::RPG::GameCore::Match3::Match3ActionBase
 	{
 	public:

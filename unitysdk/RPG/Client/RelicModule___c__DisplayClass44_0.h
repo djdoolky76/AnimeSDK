@@ -8,6 +8,8 @@ namespace RPG::AvatarSystem { class IAvatar; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RelicModule___c__DisplayClass44_0_TypeDefinitionIndex = 66881;
+
 	class RelicModule___c__DisplayClass44_0 : public ::System::Object
 	{
 	public:

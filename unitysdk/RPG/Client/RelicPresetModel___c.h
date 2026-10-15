@@ -11,6 +11,8 @@ namespace System { class Object; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RelicPresetModel___c_TypeDefinitionIndex = 66867;
+
 	class RelicPresetModel___c : public ::System::Object
 	{
 	public:

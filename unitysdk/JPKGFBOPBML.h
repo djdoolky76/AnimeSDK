@@ -31,6 +31,8 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 #define JPKGFBOPBML_NLIFDKMPCPP_OFFSET UNITYSDK_OFFSET(0xB2C8070)
 #define JPKGFBOPBML_NONMPLMPIIP_OFFSET UNITYSDK_OFFSET(0xB2C81F0)
 
+inline static constexpr unsigned int JPKGFBOPBML_TypeDefinitionIndex = 59721;
+
 	class JPKGFBOPBML : public ::LJKHPOHKIIF
 	{
 	public:

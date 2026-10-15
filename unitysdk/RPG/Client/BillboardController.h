@@ -10,6 +10,8 @@ namespace UnityEngine { class Texture2D; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int BillboardController_TypeDefinitionIndex = 70780;
+
 	class BillboardController
 	{
 	public:

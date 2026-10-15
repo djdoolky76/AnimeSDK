@@ -28,6 +28,8 @@ namespace System { class String; }
 #define HBJLNKAFNAD_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E52D620)
 #define HBJLNKAFNAD_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E52D680)
 
+inline static constexpr unsigned int HBJLNKAFNAD_TypeDefinitionIndex = 25319;
+
 	class HBJLNKAFNAD : public ::System::Object
 	{
 	public:

@@ -21,6 +21,8 @@ namespace UnityEngine { class Canvas; }
 
 namespace Spine::Unity
 {
+	inline static constexpr unsigned int SkeletonRootMotion_TypeDefinitionIndex = 45021;
+
 	class SkeletonRootMotion : public ::Spine::Unity::SkeletonRootMotionBase
 	{
 	public:

@@ -5,6 +5,8 @@ namespace UnityEngine::Rendering { class PerformDynamicRes; }
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int DynamicResolutionHandler___O_TypeDefinitionIndex = 35484;
+
 	class DynamicResolutionHandler___O : public ::System::Object
 	{
 	public:

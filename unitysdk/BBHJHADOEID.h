@@ -50,6 +50,8 @@ namespace UnityEngine { class GameObject; }
 #define BBHJHADOEID_SET_ISVISIBLECACHE_OFFSET UNITYSDK_OFFSET(0x15E8D3C0)
 #define BBHJHADOEID_SET_NODETYPE_OFFSET UNITYSDK_OFFSET(0x15E8D3A0)
 
+inline static constexpr unsigned int BBHJHADOEID_TypeDefinitionIndex = 69435;
+
 	class BBHJHADOEID : public ::System::Object
 	{
 	public:

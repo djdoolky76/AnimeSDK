@@ -35,6 +35,8 @@ namespace System { class String; }
 #define PKDNDNABKII_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DF883D0)
 #define PKDNDNABKII_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DF88430)
 
+inline static constexpr unsigned int PKDNDNABKII_TypeDefinitionIndex = 25531;
+
 	class PKDNDNABKII : public ::System::Object
 	{
 	public:

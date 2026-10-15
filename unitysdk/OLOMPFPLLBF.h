@@ -5,6 +5,8 @@
 
 #define OLOMPFPLLBF_CTOR_OFFSET UNITYSDK_OFFSET(0x1C99DBF0)
 
+inline static constexpr unsigned int OLOMPFPLLBF_TypeDefinitionIndex = 43775;
+
 	class OLOMPFPLLBF : public ::System::Object
 	{
 	public:

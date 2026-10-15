@@ -14,6 +14,8 @@ namespace System { class Object; }
 #define PHKOFFOLPPG_HFFPHANAHLP_GET_OWNER_OFFSET UNITYSDK_OFFSET(0x1EC909D0)
 #define PHKOFFOLPPG_HFFPHANAHLP_GET_STAGESTEP_OFFSET UNITYSDK_OFFSET(0x1EC909E0)
 
+inline static constexpr unsigned int PHKOFFOLPPG_HFFPHANAHLP_TypeDefinitionIndex = 44169;
+
 	class PHKOFFOLPPG_HFFPHANAHLP : public ::System::Object
 	{
 	public:
